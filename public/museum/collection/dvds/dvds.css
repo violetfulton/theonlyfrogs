@@ -1,0 +1,112 @@
+@font-face {
+	font-family: "Momo";
+	src: url(../../../../public/fonts/Momos-Regular.ttf);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	max-width: 1350px;
+	margin: auto;
+	margin-bottom: 20px;
+	column-count: 4;
+	column-gap: 30px;
+	line-height: 0px;
+}
+
+.dvd {
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	margin: 50px 0px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	transition-duration: 1s;
+
+	img {
+		display: block;
+		width: 200px; /* adjust as needed */
+		height: auto;
+	}
+
+	.cover {
+		position: relative;
+	}
+
+	.caption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		pointer-events: none; /* allows hover on .dvd */
+
+		h3 {
+			opacity: 0;
+			transition: opacity 0.3s;
+			background: rgba(148, 201, 115, 0.8);
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 8px;
+		}
+	}
+}
+
+h3 {
+	margin: 2px 0px;
+	padding: 2px;
+	border-radius: 10px;
+	color: black;
+	background: beige;
+	font-family: 'Momo';
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.dvd:hover .caption h3 {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+	#container {
+		padding: 30px;
+		column-count: 3;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#container {
+		column-count: 2;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#container {
+		column-count: 1;
+	}
+}
+
+header {
+	background: rgba(148, 201, 115, 0.8);
+	text-align: center;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 2px dashed white;
+	border-radius: 10px;
+}
+
+body {
+  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
