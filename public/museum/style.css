@@ -1,0 +1,49 @@
+@font-face{
+  font-family: "Nintendo";
+  src: url('https://theonlyfrogs.com/fonts/Nintendo-DS-BIOS%202.ttf')}
+
+body {
+  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.backDoor
+{
+  background-color: darkgrey;
+  position:relative;
+  width:200px;
+  height:300px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door
+{
+  background-image: url('https://file.garden/Z-MKjN_jtlFpOvgR/door1.png');
+  background-size: 200px 300px;
+  background-color: #553b30;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:300px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+
+.doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.backDoor a {
+  color: white;
+  font-family: "Nintendo";
+  font-size: 3em;
+}

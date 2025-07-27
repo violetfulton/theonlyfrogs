@@ -1,0 +1,174 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+
+* {
+  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1235.cur), auto;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Gaegu", sans-serif;
+  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* status styling */
+
+#statuscafe {
+  padding: .5em;
+
+}
+
+#statuscafe-username {
+  margin-bottom: .5em;
+}
+
+#statuscafe-content {
+  margin: 0 1em 0.5em 1em;
+}
+
+
+/* rss button styling on feed */
+
+#rss-button>a>img {
+  width: 20px;
+  height: 20px;
+}
+
+/* gallery styling */
+
+.gallery {
+  /* this is the main div that wraps your gallery */
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  /* this can be modified to make the gallery wider */
+}
+
+.gallery img {
+  width: 200px;
+  /* this sets the width for every image */
+  height: auto;
+  /* this sets the height for every image. Try setting it to 'auto' and see how it looks weird since every image has a slightly different height? */
+}
+
+/* this is the div which CROPS every image */
+.gallery>div {
+  width: 200px;
+  /* this should match the image height */
+  height: auto;
+  /* this should match the image width */
+  margin-right: 10px;
+  /* this controls the gaps between the images */
+  margin-bottom: 10px;
+  /* this controls the gaps between the images */
+}
+
+/* homepage styling */
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+/* title */
+.header {
+  grid-area: 1 / 1 / 2 / 5;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+.header>a>img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* linkies */
+.links {
+  grid-area: 2 / 1 / 3 / 2;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+/* widgets */
+.widgetOne {
+  grid-area: 3 / 1 / 4 / 2;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+}
+
+.widgetTwo {
+  grid-area: 4 / 1 / 5 / 2;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+}
+
+/* main content */
+.content {
+  grid-area: 2 / 2 / 5 / 4;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+/* lil about me / quote etc */
+.about {
+  grid-area: 2 / 4 / 3 / 5;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+/* calender js */
+.calender {
+  grid-area: 3 / 4 / 4 / 5;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+/* page update? */
+.updates {
+  grid-area: 4 / 4 / 5 / 5;
+  background: rgba(216, 227, 211, 0.8);
+  border-width: 7px;
+  border-style: solid;
+  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
+
+}
+
+.frogjk img {
+  width: 200px;
+  height: auto;
+}
+
+.actual img {
+  width: 200px;
+  height: auto;
+}
