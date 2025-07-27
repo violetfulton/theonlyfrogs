@@ -9,9 +9,12 @@
 
 <body>
   <header>
+    <button data-tooltip="Go Home"><a href="https://theonlyfrogs.com/"><img src="../../../imgs/graphics/froggyhome.gif"
+          alt="Go Home" /></a></button>
     <h1>froggy's dvd collection</h1>
     <p>this is a collection of all the dvds i own</p>
-    <small>im a fairly new collector. im trying to collect my favourite series and shows that i would usually just stream. in this digital age, i'm enjoying owning physical things i can touch  </small>
+    <small>im a fairly new collector. im trying to collect my favourite series and shows that i would usually just
+      stream. in this digital age, i'm enjoying owning physical things i can touch </small>
     <p id="dvdsOwned"></p>
   </header>
 
@@ -334,14 +337,14 @@
 
   <p>To return to the main page, click <a href="https://theonlyfrogs.com/">here</a>!</p>
 
-    <script src="../../../museum/collection/dvds/dvds.js"></script>
-  	<script>
-		// shows amount of dvds i have!
-		const dvds = document.getElementsByClassName("dvd");
-		const dvdString = "i currently have " + dvds.length + " dvds!";
-		const cdP = document.getElementById("dvdsOwned");
-		cdP.innerHTML = dvdString;
-	</script>
+  <script src="../../../museum/collection/dvds/dvds.js"></script>
+  <script>
+    // shows amount of dvds i have!
+    const dvds = document.getElementsByClassName("dvd");
+    const dvdString = "i currently have " + dvds.length + " dvds!";
+    const cdP = document.getElementById("dvdsOwned");
+    cdP.innerHTML = dvdString;
+  </script>
 </body>
 
 </html>
