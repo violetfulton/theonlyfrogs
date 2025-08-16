@@ -1,0 +1,118 @@
+.ipod {
+/* change these to whatever colors you want to use for it! */
+--black: #5b3a53 ;
+--dark: #a63356 ;
+--med: #ef5077 ;
+--light: #fdc6d3 ;
+--white: #ffe8e1 ;
+
+width:200px;
+height:350px;
+border:5px var(--med) solid;
+padding:20px;
+position:relative;
+margin:30px;
+border-radius:25px;
+background:var(--light);
+box-shadow:15px 15px var(--med)
+}
+
+/* the actual music player*/
+audio {
+border-radius:25px;
+width:90%;
+height:30px;
+background:var(--med);
+color:white;
+mix-blend-mode:hard-light;
+opacity:.4;
+margin:10px auto
+}
+
+/*offsets every second ipod widget by a little bit, to make them arrange in a more interesting way, and changes the colors slightly! you can get rid of this if you don't want that.*/
+.ipod:nth-of-type(even) {
+background:var(--med);
+box-shadow:15px 15px var(--dark);
+border-color:var(--dark);
+margin-top:-5px
+}
+.ipod:nth-of-type(even) .button .button {
+background:var(--med);
+border:1px double var(--light)
+}
+
+.screen {
+height:55%;
+background:var(--white);
+border-radius:20px;
+overflow:scroll;
+outline:2px var(--white) solid;
+outline-offset:3px;
+font-family:'ChicagoFLF', 'Chicago', monospace; /* the font used on vintage apple products - feel free to change this if
+you want something different! */
+font-size:12px;
+text-align:center;
+}
+
+/* the bold text - where your song title will go, probably */
+.screen b {
+background:var(--med);
+color:var(--white);
+width:100%;
+display:block;
+padding:3px 5px;
+font-size:.9em;
+margin-top:5px;
+border-top:15px double var(--white);
+}
+
+/* the bit under the audio player */
+.screen .caption {
+padding:0px 10px
+}
+
+/* the circular buttons - this bit is just for decoration, really! */
+.button {
+border:1px double var(--med);
+background:var(--white);
+height:40%;
+aspect-ratio:1 / 1;
+margin:10% auto;
+border-radius:50%;
+overflow:hidden;
+text-align:center;
+position:relative;
+}
+.button .b {
+position:absolute;
+width:100%;
+text-align:center;
+font-weight:bold;
+color:var(--black) !important
+}
+.b.b-top {
+top:5%;
+font-size:.9em;
+}
+.b.b-bottom {
+bottom:5%;
+font-size:.6em;
+}
+.b.b-left {
+left:3%;
+top:40%;
+width:20%;
+}
+.b.b-right {
+right:3%;
+top:40%;
+width:20%;
+}
+
+.button .button {
+height:50%;
+aspect-ratio:1 / 1;
+margin:25% auto;
+background:var(--light)
+}
+
