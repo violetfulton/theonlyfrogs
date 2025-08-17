@@ -6,11 +6,11 @@ body {
 
 .ipod {
 /* change these to whatever colors you want to use for it! */
---black: #5b3a53 ;
---dark: #a63356 ;
---med: #ef5077 ;
---light: #fdc6d3 ;
---white: #ffe8e1 ;
+--black: #000000 ;
+--dark: #2b2828 ;
+--med: #615c5c ;
+--light: #f02c2c ;
+--white: #ffffff ;
 
 width:200px;
 height:350px;
