@@ -1,39 +1,45 @@
+/* General Styles */
 body {
   font-family: Comic Sans MS;
   background: url('../imgs/bg/033C.jpg');
   color: white;
   image-rendering: pixelated;
 }
+
 .title {
   text-align: center;
 }
+
+h1, p {
+  padding-left: 10px;
+}
+
+/* Boxholder Layout */
 .boxholder {
   border: 4px groove purple;
   background: black;
   width: 740px;
-  height: 1100px;
   margin: auto;
-  white-space: nowrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
 }
+
+/* Tinyholder Styles */
 .tinyholder {
   border: 5px groove grey;
-  width: 320px;
+  width: 357px;
   height: 320px;
-  margin-left: 25px;
-  margin-top: 25px;
   overflow: auto;
-  white-space: nowrap;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
-.box {
-  display: inline-block;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-h1, p {
- padding-left: 10px;
-}
+
+/* Section Backgrounds */
 #music {
   background: url('../imgs/graphics/records.gif');
 }
@@ -43,24 +49,44 @@ h1, p {
   color: black;
 }
 
-/*Scroll bar nav*/
-::-webkit-scrollbar {
-    width: 12px;
+#games {
+  background: url('../imgs/bg/hearts 3.gif');
+  color: black;
 }
 
-/* Track */
+/* Inner Boxholder for 2-per-row layout */
+.boxholder-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Box Styles */
+.box {
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  vertical-align: top;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
 ::-webkit-scrollbar-track {
   border: 2px groove grey;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background:#FFF;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background: #FFF;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   border: 1px groove darkgrey;
-    background: lightgrey;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  background: lightgrey;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
+
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: rgba(204,204,204,0.4);
+  background: rgba(204,204,204,0.4);
 }
