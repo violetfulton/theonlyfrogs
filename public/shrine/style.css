@@ -1,6 +1,6 @@
 body {
   font-family: Comic Sans MS;
-  background: url('../imgs/bg/hearts 4.jpg');
+  background: url('../imgs/bg/033C.jpg');
   color: white;
   image-rendering: pixelated;
 }
@@ -9,7 +9,7 @@ body {
 }
 .boxholder {
   border: 4px groove purple;
-  background: url('../imgs/bg/033C.jpg');
+  background: black;
   width: 740px;
   height: 1100px;
   margin: auto;
@@ -36,6 +36,11 @@ h1, p {
 }
 #music {
   background: url('../imgs/graphics/records.gif');
+}
+
+#dvds {
+  background: url('../imgs/bg/pattern 582.gif');
+  color: black;
 }
 
 /*Scroll bar nav*/
