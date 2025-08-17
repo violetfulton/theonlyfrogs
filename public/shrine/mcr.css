@@ -1,3 +1,9 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
 .ipod {
 /* change these to whatever colors you want to use for it! */
 --black: #5b3a53 ;
