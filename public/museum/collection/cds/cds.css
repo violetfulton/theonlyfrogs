@@ -1,0 +1,94 @@
+body {
+  background: url('../../../imgs/bg/stars 2.gif');
+  color: white;
+}
+.title {
+  border: 15px solid;
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  width: 600px;
+  height: 90px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.desc {
+  border: 10px solid;
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  width: 500px;
+  height: 50px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.cdrow {
+  border: none;
+  width: 1050px;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: auto;
+}
+.cd {
+  border: none;
+  width: 145px;
+  height: 125px;
+  display: inline-block;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition: transform 0s ease-in-out;
+}
+.cd:hover {
+  transform: rotate(5deg);
+}
+.cddescs {
+  border: 10px solid;
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  width: 600px;
+  height: 307px;
+  margin: auto;
+  margin-top: 15px;
+}
+.cdtitle {
+  border: none;
+  width: 321px;
+  height: 143px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cdfront {
+  border: none;
+  width: 150px;
+  height: 130px;
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 10px;
+}
+.cdback {
+  border: none;
+  width: 150px;
+  height: 130px;
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 180px;
+}
+.description {
+  border: none;
+  width: 243px;
+  height: 285px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 345px;
+  overflow: auto;
+}
+h1 {
+  font-size: 25px;
+}
+a {
+  color: cyan;
+}
