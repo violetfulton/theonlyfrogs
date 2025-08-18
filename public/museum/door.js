@@ -1,10 +1,10 @@
-var doorLink = document.querySelector(".door-link");
 var door = document.querySelector(".door");
+var doorArea = document.querySelector(".doorArea");
 
-doorLink.addEventListener("click", function(e) {
-  e.preventDefault(); // Prevent immediate navigation
+door.addEventListener("click", function() {
   door.classList.add("doorOpen");
+  doorArea.classList.add("open");
   setTimeout(function() {
-    window.location.href = doorLink.href;
-  }, 1200); // Match the swing duration (1.2s)
+    window.location.href = "https://theonlyfrogs.com/museum/collection/";
+  }, 1200); // matches your door swing duration
 });
