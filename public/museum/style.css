@@ -24,22 +24,22 @@ body {
 /* Door Area for 3D Perspective */
 .doorArea {
   position: relative;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   margin: 0 auto;
-  perspective: 800px; /* Adds 3D depth */
+  perspective: 1200px; /* increase for bigger door */
 }
 
 /* Door Styles */
 .door {
   background-image: url('https://file.garden/Z-MKjN_jtlFpOvgR/door1.png');
-  background-size: 200px 300px;
+  background-size: 400px 600px;
   background-color: #553b30;
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   transform-origin: left center; /* Pivot from left edge */
   transition: transform 1.2s cubic-bezier(.77,0,.18,1); /* slower swing */
   z-index: 1;
@@ -96,12 +96,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   object-fit: cover;
+  z-index: 1; /* behind the door */
   opacity: 0;
   transition: opacity 0.5s;
-  z-index: 1; /* behind the door */
 }
 
 /* This selector will NOT work because .door-reveal-img is before .door in HTML */
@@ -110,41 +110,28 @@ body {
 /* Use JavaScript to toggle a class on .doorArea instead: */
 .doorArea.open .door-reveal-img {
   opacity: 1;
-}
-
-.doorArea {
-  position: relative;
-  width: 200px;
-  height: 300px;
-  perspective: 800px;
 }
 
 .doorBg {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   background: #553b30;
   z-index: 0;
 }
 
-.door-reveal-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.5s;
-  z-index: 1; /* behind the door */
-}
-
-/* This selector will NOT work because .door-reveal-img is before .door in HTML */
-/* .door.doorOpen ~ .door-reveal-img { opacity: 1; } */
-
-/* Use JavaScript to toggle a class on .doorArea instead: */
-.doorArea.open .door-reveal-img {
-  opacity: 1;
+/* Responsive door size for mobile */
+@media (max-width: 600px) {
+  .doorArea,
+  .doorBg,
+  .door-reveal-img,
+  .door {
+    width: 200px;
+    height: 300px;
+  }
+  .door {
+    background-size: 200px 300px;
+  }
 }
