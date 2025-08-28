@@ -17,7 +17,7 @@ body {
   background: rgba(0,0,0,0.5);
   border-radius: 15px;
   width: 500px;
-  height: 50px;
+  height: 90px;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -56,26 +56,10 @@ body {
 .cdtitle {
   border: none;
   width: 321px;
-  height: 143px;
+  height: 285px;
   position: absolute;
   margin-top: 10px;
   margin-left: 10px;
-}
-.cdfront {
-  border: none;
-  width: 150px;
-  height: 130px;
-  position: absolute;
-  margin-top: 165px;
-  margin-left: 10px;
-}
-.cdback {
-  border: none;
-  width: 150px;
-  height: 130px;
-  position: absolute;
-  margin-top: 165px;
-  margin-left: 180px;
 }
 .description {
   border: none;
@@ -91,4 +75,31 @@ h1 {
 }
 a {
   color: cyan;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(115, 201, 154, 0.8); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgba(12, 107, 107, 0.806); /* Add a dark-grey background on hover */
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 0;
 }
