@@ -1,182 +1,163 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
-
-:root {
-  --puce: #d6a2adff;
-  --khaki: #c3b59fff;
-  --olivine: #a0af84ff;
-  --viridian: #668f80ff;
-  --paynes-grey: #4A6670ff;
+@font-face {
+  font-family: 'Gaegu';
+  src: url(fonts/Gaegu/Gaegu-Light.ttf);
 }
 
-* {
-  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1235.cur), auto;
+body{
+background-color: #e8f5e9; /* light green background */
+font-family: 'FortySeven Micro NBP', sans-serif;
 }
 
-body {
-  background-color: white;
-  color: black;
-  font-family: "Gaegu", sans-serif;
-  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 800px;
+margin: 0 auto;
+border: 1px solid #4caf50;
+padding: 3px;
 }
 
-/* status styling */
-
-#statuscafe {
-  padding: .5em;
-
+#box{
+width: 800px;
+background-color: #e8f5e9;
+color: #000;
+border: 1px solid #4caf50;
 }
 
-#statuscafe-username {
-  margin-bottom: .5em;
+#header{
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #4caf50;
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+color: #fff;
+letter-spacing: 3px;
 }
 
-#statuscafe-content {
-  margin: 0 1em 0.5em 1em;
+#header h1{
+margin: 0px;
+}
+
+#side{
+float: left;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
+}
+
+.sidebox{
+border: 1px solid #4caf50;
+margin: 0px 0px 5px 0px;
+}
+
+.sidecontent{
+padding: 0px 0px 0px 5px;
+color: #2e7d32;
+font-size: 17px;
+letter-spacing: 1px;
+}
+
+.sidecontent ul, li{
+margin: 0px;
+list-style-type: none;
+padding-left: 0px;
+}
+
+a{
+text-decoration: none;
+color: #4caf50;
+}
+
+a:visited{
+color: #388e3c;
+}
+
+a:hover{
+text-shadow: 0px 0px 2px #a5d6a7;
+}
+
+#scrollcontainer{
+padding: 5px;
+}
+
+#scrolly{
+overflow: scroll;
+overflow-x: hidden;
+width: 110px;
+height:110px;
+border: 1px solid #4caf50;
+margin: 0 auto;
+text-align: center;
+}
+
+#scrollyheader{
+margin: 0px;
+border-bottom: 1px dotted #4caf50;
+}
+
+#main{
+float: right;
+width: 624px;
+overflow: hidden;
+padding: 0px 10px 5px 0px;
+}
+
+.mainboxes{
+border: 1px solid #4caf50;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+
+.subheader{
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+border-bottom: 1px solid #4caf50;
+padding: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+
+.subheader h3{
+margin: 0px;
+}
+
+.mainboxescontent{
+padding: 0px 15px 0px 15px;
+color: #2e7d32;
+font-size: 17px;
+}
+
+#footer{
+clear: both;
+padding: 3px;
+border-top: 1px solid #4caf50;
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+color: #fff;
+font-size: 14px;
+}
+
+#footer p{
+margin: 0px;
+}
+
+::-webkit-scrollbar{
+width: 8px;
+}
+
+::-webkit-scrollbar-track{
+background-color: #e8f5e9;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #4caf50;
 }
 
 
-/* rss button styling on feed */
-
-#rss-button>a>img {
-  width: 20px;
-  height: 20px;
+/* blog iframe thingy */
+iframe{
+border: none;
 }
 
-/* gallery styling */
-
-.gallery {
-  /* this is the main div that wraps your gallery */
-  display: flex;
-  flex-wrap: wrap;
-  width: 800px;
-  /* this can be modified to make the gallery wider */
+.mainboxescontent {
+  font-family: 'Gaegu';
+  font-size: 15px;
 }
-
-.gallery img {
-  width: 200px;
-  /* this sets the width for every image */
-  height: auto;
-  /* this sets the height for every image. Try setting it to 'auto' and see how it looks weird since every image has a slightly different height? */
-}
-
-/* this is the div which CROPS every image */
-.gallery>div {
-  width: 200px;
-  /* this should match the image height */
-  height: auto;
-  /* this should match the image width */
-  margin-right: 10px;
-  /* this controls the gaps between the images */
-  margin-bottom: 10px;
-  /* this controls the gaps between the images */
-}
-
-/* homepage styling */
-
-.layout {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-/* title */
-.header {
-  grid-area: 1 / 1 / 2 / 5;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-.header>a>img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
-
-/* linkies */
-.links {
-  grid-area: 2 / 1 / 3 / 2;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-/* widgets */
-.widgetOne {
-  grid-area: 3 / 1 / 4 / 2;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-}
-
-.widgetTwo {
-  grid-area: 4 / 1 / 5 / 2;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-}
-
-/* main content */
-.content {
-  grid-area: 2 / 2 / 5 / 4;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-/* lil about me / quote etc */
-.about {
-  grid-area: 2 / 4 / 3 / 5;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-/* calender js */
-.calender {
-  grid-area: 3 / 4 / 4 / 5;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-/* page update? */
-.updates {
-  grid-area: 4 / 4 / 5 / 5;
-  background: rgba(216, 227, 211, 0.8);
-  border-width: 7px;
-  border-style: solid;
-  border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/xnxzti-1.png") 8 fill round;
-
-}
-
-.frogjk img {
-  width: 200px;
-  height: auto;
-}
-
-.actual img {
-  width: 200px;
-  height: auto;
-}
-

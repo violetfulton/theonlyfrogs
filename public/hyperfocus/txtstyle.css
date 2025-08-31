@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Momos Regular';
+  src: url(../fonts/Momos-Regular.ttf);
+}
+
+html, body {
+font-family:'Momos Regular', sans-serif;
+color: #2e7d32;
+font-size: 15px;
+}
+
+details > summary {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+details > p {
+  font-size: 12px;
+}
+
+::-webkit-scrollbar{
+width: 8px;
+}
+
+::-webkit-scrollbar-track{
+background-color: #e8f5e9;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #4caf50;
+}
