@@ -161,3 +161,15 @@ border: none;
   font-family: 'Gaegu';
   font-size: 15px;
 }
+
+/*about me page*/
+.frogjk img {
+  width: 200px;
+  height: auto;
+}
+
+.actual img {
+  width: 200px;
+  height: auto;
+
+}
