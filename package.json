@@ -1,0 +1,23 @@
+{
+  "name": "theonlyfrogs",
+  "version": "1.0.0",
+  "description": "the site of theonlyfrogs",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violetfulton/theonlyfrogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violetfulton/theonlyfrogs/issues"
+  },
+  "homepage": "https://github.com/violetfulton/theonlyfrogs#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

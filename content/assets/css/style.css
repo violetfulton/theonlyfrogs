@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Gaegu';
+  src: url(../assets/fonts/Gaegu/Gaegu-Light.ttf);
+}
+
+body{
+background-color: #e8f5e9; /* light green background */
+font-family: 'FortySeven Micro NBP', sans-serif;
+}
+
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 800px;
+margin: 0 auto;
+border: 1px solid #4caf50;
+padding: 3px;
+}
+
+#box{
+width: 800px;
+background-color: #e8f5e9;
+color: #000;
+border: 1px solid #4caf50;
+}
+
+#header{
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #4caf50;
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+color: #fff;
+letter-spacing: 3px;
+}
+
+#header h1{
+margin: 0px;
+}
+
+#side{
+float: left;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
+}
+
+.sidebox{
+border: 1px solid #4caf50;
+margin: 0px 0px 5px 0px;
+}
+
+.sidecontent{
+padding: 0px 0px 0px 5px;
+color: #2e7d32;
+font-size: 17px;
+letter-spacing: 1px;
+}
+
+.sidecontent ul, li{
+margin: 0px;
+list-style-type: none;
+padding-left: 0px;
+}
+
+a{
+text-decoration: none;
+color: #4caf50;
+}
+
+a:visited{
+color: #388e3c;
+}
+
+a:hover{
+text-shadow: 0px 0px 2px #a5d6a7;
+}
+
+#scrollcontainer{
+padding: 5px;
+}
+
+#scrolly{
+overflow: scroll;
+overflow-x: hidden;
+width: 110px;
+height:110px;
+border: 1px solid #4caf50;
+margin: 0 auto;
+text-align: center;
+}
+
+#scrollyheader{
+margin: 0px;
+border-bottom: 1px dotted #4caf50;
+}
+
+#main{
+float: right;
+width: 624px;
+overflow: hidden;
+padding: 0px 10px 5px 0px;
+}
+
+.mainboxes{
+border: 1px solid #4caf50;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+
+.subheader{
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+border-bottom: 1px solid #4caf50;
+padding: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+
+.subheader h3{
+margin: 0px;
+}
+
+.mainboxescontent{
+padding: 0px 15px 0px 15px;
+color: #2e7d32;
+font-size: 17px;
+}
+
+#footer{
+clear: both;
+padding: 3px;
+border-top: 1px solid #4caf50;
+background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+color: #fff;
+font-size: 14px;
+}
+
+#footer p{
+margin: 0px;
+}
+
+::-webkit-scrollbar{
+width: 8px;
+}
+
+::-webkit-scrollbar-track{
+background-color: #e8f5e9;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #4caf50;
+}
+
+
+/* blog iframe thingy */
+iframe{
+border: none;
+}
+
+.mainboxescontent {
+  font-family: 'Gaegu';
+  font-size: 15px;
+}
+
+/*about me page*/
+.frogjk img {
+  width: 200px;
+  height: auto;
+}
+
+.actual img {
+  width: 200px;
+  height: auto;
+
+}
