@@ -1,15 +1,13 @@
 ---
 layout: cdsBase.njk
-title: "CD Collection"
+title: CD Collection
+permalink: /interests/cds/test/
 customcss: '/assets/css/cdsTest.css'
 ---
 
-<pre>{{ releases | dump }}</pre>
-
-
 <h1>{{ title }}</h1>
 
-{% if releases and releases.length %}
+{% if releases.length %}
 <div class="cd-grid">
   {% for cd in releases %}
     <div class="cd-card">
