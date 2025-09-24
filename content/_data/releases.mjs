@@ -1,3 +1,4 @@
+import "dotenv/config";
 import fetch from "node-fetch";
 
 // Map albums to local images if needed

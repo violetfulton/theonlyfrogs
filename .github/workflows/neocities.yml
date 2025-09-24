@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+env:
+  DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
+  DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
