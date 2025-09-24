@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./content/assets");
   eleventyConfig.addPassthroughCopy("./content/css");
   eleventyConfig.addPassthroughCopy("./content/js");
+  eleventyConfig.addPassthroughCopy("./content/interests");
   return {
     dir: {
       input: "content",

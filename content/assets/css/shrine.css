@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Comic Sans MS;
-  background: url('../imgs/bg/033C.jpg');
+  background: url('/assets/imgs/bg/033C.jpg');
   color: white;
   image-rendering: pixelated;
 }
@@ -41,16 +41,16 @@ h1, p {
 
 /* Section Backgrounds */
 #music {
-  background: url('../imgs/graphics/records.gif');
+  background: url('/assets/imgs/bg/hearts 4.jpg');
 }
 
 #dvds {
-  background: url('../imgs/bg/pattern 582.gif');
+  background: url('/assets/imgs/bg/pattern 582.gif');
   color: black;
 }
 
 #games {
-  background: url('../imgs/bg/hearts 3.gif');
+  background: url('/assets/imgs/bg/hearts 3.gif');
   color: black;
 }
 

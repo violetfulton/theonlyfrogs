@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Nintendo";
-  src: url('https://theonlyfrogs.com/fonts/Nintendo-DS-BIOS%202.ttf');
+  src: url('/assets/fonts/Nintendo-DS-BIOS%202.ttf');
 }
 
 /* Body Background */
 body {
-  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
+  background-image: url('/assets/imgs/bg/sagepicnic.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

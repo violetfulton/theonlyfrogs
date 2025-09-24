@@ -105,7 +105,7 @@ header {
 }
 
 body {
-  background-image: url('https://theonlyfrogs.com/imgs/bg/sagepicnic.png');
+  background-image: url('/assets/imgs/bg/sagepicnic.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
