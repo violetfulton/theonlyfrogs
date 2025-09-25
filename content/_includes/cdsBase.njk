@@ -5,13 +5,13 @@
   <title>{{ title or "The Only Frogs - CD Collection" }}</title>
   <link rel="stylesheet" href="/assets/css/cdsTest.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="/assets/js/cdsCollection.js" defer></script>
 </head>
 <body>
   <header>
     <nav>
       <a href="/">Home</a>
       <a href="/interests/cds/">CDs</a>
+      <!-- add other nav items -->
     </nav>
   </header>
 
@@ -23,27 +23,54 @@
     <p>&copy; {{ site.year }} The Only Frogs. All rights reserved.</p>
   </footer>
 
-  <script>
+<script>
 document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.createElement('div');
+  overlay.classList.add('details-overlay');
+  document.body.appendChild(overlay);
+
   document.querySelectorAll('.cd-card').forEach(card => {
     const closeBtn = card.querySelector('.close-btn');
+    const details = card.querySelector('.details');
 
-    // Open on card click
+    // Open details on card click
     card.addEventListener('click', () => {
-      document.querySelectorAll('.cd-card').forEach(c => c !== card && c.classList.remove('active'));
-      card.classList.toggle('active');
+      // Close other cards
+      document.querySelectorAll('.cd-card.active').forEach(c => {
+        if (c !== card) {
+          c.classList.remove('active');
+        }
+      });
+
+      // Toggle this card
+      const isActive = card.classList.toggle('active');
+
+      // Show overlay if active
+      overlay.style.display = isActive ? 'block' : 'none';
     });
 
     // Close button
     if (closeBtn) {
       closeBtn.addEventListener('click', (e) => {
-        e.stopPropagation(); // prevent triggering card click
+        e.stopPropagation();
         card.classList.remove('active');
+        overlay.style.display = 'none';
       });
     }
   });
+
+  // Clicking overlay closes all details
+  overlay.addEventListener('click', () => {
+    document.querySelectorAll('.cd-card.active').forEach(card => card.classList.remove('active'));
+    overlay.style.display = 'none';
+  });
 });
 </script>
+
+
+
+
+
 
 </body>
 </html>

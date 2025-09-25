@@ -3,24 +3,34 @@ layout: cdsBase.njk
 title: "CD Collection"
 ---
 
-<h1>{{ title }}</h1>
+<div class="title-container">
+  <img src="/assets/imgs/graphics/cdtitle.gif" alt="CD Collection" class="title-gif" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+  <h1 class="title-fallback" style="display:none;">CD Collection</h1>
+</div>
 
 {% if releases and releases.length %}
 <div class="cd-grid">
   {% for cd in releases %}
-    <div class="cd-card">
-      <img src="{{ cd.image }}" alt="{{ cd.title }}">
-      <div class="cd-overlay">{{ cd.title }}</div>
+  <div class="cd-card">
+    <!-- CD image -->
+    <img src="{{ cd.image }}" alt="{{ cd.title }}">
 
-      <!-- Overlay details -->
-      <div class="cd-details">
-        <button class="close-btn">&times;</button>
+    <!-- Hover title overlay -->
+    <div class="cd-overlay">{{ cd.title }}</div>
+
+    <!-- Details panel -->
+    <div class="details">
+      <button class="close-btn">&times;</button>
+      <div class="details-text">
         <p><strong>Artist:</strong> {{ cd.artist }}</p>
         <p><strong>Year:</strong> {{ cd.year }}</p>
       </div>
     </div>
+  </div>
   {% endfor %}
 </div>
+
 {% else %}
 <p>No CDs found. Check your Discogs API setup or token.</p>
 {% endif %}
+
