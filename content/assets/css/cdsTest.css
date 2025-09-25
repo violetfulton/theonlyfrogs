@@ -7,51 +7,62 @@
 }
 
 body {
-  background: url('/assets/imgs/bg/stars 2.gif') no-repeat center center fixed;
-  background-size: cover;
+  background: #111;
   color: #fff;
   min-height: 100vh;
   padding: 20px;
-  font-family: sans-serif;
 }
 
-/* ===== Title Section ===== */
-.title-container {
-  text-align: center;
-  margin-bottom: 50px;
+/* ===== Page Layout ===== */
+.cd-page-container {
+  display: flex;
+  gap: 20px;
 }
 
-.title-gif {
-  width: 600px;
-  max-width: 90%;
-  height: 120px; /* taller */
-  border: 15px solid #fff;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.6); /* slightly darker for contrast */
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); /* subtle glow effect */
-  padding: 10px;
-  object-fit: contain; /* keeps GIF proportions correct */
+/* ===== Table of Contents ===== */
+.cd-toc {
+  width: 200px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+  padding-right: 10px;
 }
 
-.title-fallback {
-  border: 15px solid #fff;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.6);
-  width: 600px;
-  max-width: 90%;
-  height: 120px; /* match GIF height */
-  line-height: 100px; /* centers text vertically */
-  text-align: center;
-  margin: 0 auto;
-  font-size: 2rem; /* bigger, less flat text */
-  font-weight: bold;
+.cd-toc h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.cd-toc ul {
+  list-style: none;
+}
+
+.cd-toc li {
+  margin-bottom: 8px;
+}
+
+.cd-toc a {
   color: #fff;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+.cd-toc a.active {
+  color: #ff0;
+  font-weight: bold;
+}
+
 /* ===== CD Grid ===== */
+.cd-grid-container {
+  flex-grow: 1;
+}
+
 .cd-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
 }
 
@@ -64,7 +75,7 @@ body {
 
 .cd-card img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* square images */
+  aspect-ratio: 1 / 1; /* keep images square */
   object-fit: cover;
   display: block;
   border-radius: 10px;
@@ -96,14 +107,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #222;
-  padding: 40px 20px 20px 20px; /* padding top leaves room for close button */
+  padding: 20px;
   border-radius: 15px;
   z-index: 100;
   display: none;
-  width: 90%;
-  max-width: 400px;
+  width: 80%;
+  max-width: 300px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 .cd-card.active .details {
@@ -111,14 +121,13 @@ body {
 }
 
 /* Info inside details */
-.details-text {
-  margin-top: 10px;
+.details .cd-info {
+  margin: 10px 0;
   font-size: 16px;
-  color: #fff;
 }
 
 /* Close button */
-.details .close-btn {
+.close-btn {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -126,15 +135,14 @@ body {
   color: #fff;
   border: none;
   border-radius: 50%;
-  width: 28px;
-  height: 28px;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
   cursor: pointer;
+  z-index: 101;
 }
 
-/* ===== Clickable background overlay ===== */
+/* Clickable background overlay */
 .details-overlay {
   position: fixed;
   top: 0;
@@ -146,14 +154,58 @@ body {
   display: none;
 }
 
+/* ===== Title Section ===== */
+.title-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-gif {
+  width: 600px;
+  max-width: 90%;
+  height: 90px;
+  border: 15px solid;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5) url('/assets/imgs/graphics/cdtitle.gif') center/cover no-repeat;
+}
+
+.title-fallback {
+  border: 15px solid;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5);
+  width: 600px;
+  max-width: 90%;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* ===== Responsive ===== */
-@media (max-width: 600px) {
-  .details {
-    width: 90%;
-    padding: 30px 15px 15px 15px;
+@media (max-width: 900px) {
+  .cd-page-container {
+    flex-direction: column;
+  }
+
+  .cd-toc {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+  .cd-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
   .title-gif, .title-fallback {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cd-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 }

@@ -3,34 +3,44 @@ layout: cdsBase.njk
 title: "CD Collection"
 ---
 
-<div class="title-container">
-  <img src="/assets/imgs/graphics/cdtitle.gif" alt="CD Collection" class="title-gif" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-  <h1 class="title-fallback" style="display:none;">CD Collection</h1>
-</div>
+<div class="cd-page-container">
+  <!-- ===== Left TOC ===== -->
+  <aside class="cd-toc">
+    <h2>Artists</h2>
+    {% set artists_seen = [] %}
+    <ul>
+      {% for cd in releases %}
+        {% if cd.artist not in artists_seen %}
+          {% set artists_seen = artists_seen.concat([cd.artist]) %}
+          <li><a href="#artist-{{ loop.index0 }}">{{ cd.artist }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </aside>
 
-{% if releases and releases.length %}
-<div class="cd-grid">
-  {% for cd in releases %}
-  <div class="cd-card">
-    <!-- CD image -->
-    <img src="{{ cd.image }}" alt="{{ cd.title }}">
+  <!-- ===== Right CD Grid ===== -->
+  <section class="cd-grid-container">
+    {% set artists_seen = [] %}
+    <div class="cd-grid">
+      {% for cd in releases %}
+        {% if cd.artist not in artists_seen %}
+          {% set artists_seen = artists_seen.concat([cd.artist]) %}
+          <div class="cd-card" id="artist-{{ loop.index0 }}">
+        {% else %}
+          <div class="cd-card">
+        {% endif %}
+            <img src="{{ cd.image }}" alt="{{ cd.title }}">
+            <!-- Hover title overlay -->
+            <div class="cd-overlay">{{ cd.title }}</div>
 
-    <!-- Hover title overlay -->
-    <div class="cd-overlay">{{ cd.title }}</div>
-
-    <!-- Details panel -->
-    <div class="details">
-      <button class="close-btn">&times;</button>
-      <div class="details-text">
-        <p><strong>Artist:</strong> {{ cd.artist }}</p>
-        <p><strong>Year:</strong> {{ cd.year }}</p>
-      </div>
+            <!-- Details panel -->
+            <div class="details">
+              <button class="close-btn">&times;</button>
+              <p class="cd-info">{{ cd.artist }}</p>
+              <p class="cd-info">{{ cd.year }}</p>
+            </div>
+          </div>
+      {% endfor %}
     </div>
-  </div>
-  {% endfor %}
+  </section>
 </div>
-
-{% else %}
-<p>No CDs found. Check your Discogs API setup or token.</p>
-{% endif %}
-
