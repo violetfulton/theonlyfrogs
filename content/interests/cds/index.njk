@@ -1,11 +1,7 @@
 ---
 layout: cdsBase.njk
 title: "CD Collection"
-customcss: '/assets/css/cdsTest.css'
 ---
-
-<pre>{{ releases | dump }}</pre>
-
 
 <h1>{{ title }}</h1>
 
@@ -15,11 +11,16 @@ customcss: '/assets/css/cdsTest.css'
     <div class="cd-card">
       <img src="{{ cd.image }}" alt="{{ cd.title }}">
       <div class="cd-overlay">{{ cd.title }}</div>
-      <p class="cd-info">{{ cd.artist }} - {{ cd.format }} - {{ cd.year }}</p>
+
+      <!-- Overlay details -->
+      <div class="cd-details">
+        <button class="close-btn">&times;</button>
+        <p><strong>Artist:</strong> {{ cd.artist }}</p>
+        <p><strong>Year:</strong> {{ cd.year }}</p>
+      </div>
     </div>
   {% endfor %}
 </div>
 {% else %}
 <p>No CDs found. Check your Discogs API setup or token.</p>
 {% endif %}
-

@@ -21,5 +21,28 @@
   <footer>
     <p>&copy; {{ site.year }} The Only Frogs. All rights reserved.</p>
   </footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.cd-card').forEach(card => {
+    const closeBtn = card.querySelector('.close-btn');
+
+    // Open on card click
+    card.addEventListener('click', () => {
+      document.querySelectorAll('.cd-card').forEach(c => c !== card && c.classList.remove('active'));
+      card.classList.toggle('active');
+    });
+
+    // Close button
+    if (closeBtn) {
+      closeBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // prevent triggering card click
+        card.classList.remove('active');
+      });
+    }
+  });
+});
+</script>
+
 </body>
 </html>

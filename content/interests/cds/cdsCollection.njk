@@ -1,0 +1,28 @@
+---
+layout: cdsBase.njk
+title: "CD Collection"
+---
+
+<h1>{{ title }}</h1>
+
+{% if releases and releases.length %}
+<div class="cd-grid">
+  {% for cd in releases %}
+    <div class="cd-card">
+      <!-- Hover overlay shows album title -->
+      <div class="cd-hover-name">{{ cd.title }}</div>
+
+      <img class="cd-cover" src="{{ cd.image }}" alt="{{ cd.title }}" data-cd="{{ loop.index }}">
+
+      <!-- Detail popup only shows artist and year -->
+      <div class="cd-details" id="details-{{ loop.index }}">
+        <button class="cd-close">&times;</button>
+        <p>Artist: {{ cd.artist }}</p>
+        <p>Year: {{ cd.year }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p>No CDs found. Check your Discogs API setup or token.</p>
+{% endif %}
