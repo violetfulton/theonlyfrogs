@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ title or "Blog" }}</title>
+  <link rel="stylesheet" href="/assets/css/blog.css">
+</head>
+<body>
+  <header><h1><a href="/blog/">Blog</a></h1></header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <aside>
+    <h3>Archives</h3>
+
+
+    <ul>
+      {% for y in collections.years %}
+        <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+</body>
+</html>

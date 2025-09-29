@@ -1,0 +1,119 @@
+/* ---------- General Layout ---------- */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+  color: #333;
+  background: #fefefe;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  margin-top: 1em;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 3em;
+}
+
+/* ---------- Post Snippets ---------- */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 1.5em;
+}
+
+ul li p {
+  margin: 0.3em 0 0 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* ---------- New Post Tag ---------- */
+.new-tag {
+  display: inline-block;
+  width: 20px;           /* size of the image */
+  height: 20px;
+  background: url("/assets/imgs/graphics/frog-pink-new.gif") no-repeat center/contain;
+  text-indent: -9999px;   /* hide any text inside */
+  overflow: hidden;
+  vertical-align: middle; /* align nicely with text */
+}
+
+/* .new-tag {
+  display: inline-block;
+  background: #ff4d4f;
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  margin-left: 0.5em;
+} */
+
+/* ---------- Pagination ---------- */
+.pagination {
+  margin-top: 1em;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  margin: 0.2em;
+  background: #eee;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.2s ease;
+}
+
+.pagination a:hover {
+  background: #ddd;
+}
+
+/* ---------- Year / Archive Tags ---------- */
+.year-tag {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  background: #eee;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background 0.2s ease;
+  margin: 0.2em 0;
+}
+
+.year-tag:hover {
+  background: #ddd;
+}
+
+.year-tag.current {
+  background: #333;
+  color: #fff;
+}
+
+/* ---------- Year List (Homepage / Archive) ---------- */
+.year-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.year-list li {
+  display: inline-block;
+}
