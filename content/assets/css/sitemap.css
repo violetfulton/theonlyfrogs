@@ -1,0 +1,49 @@
+/* sitemap.css */
+
+/* Container for sitemap */
+.sitemap-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Sitemap title */
+.sitemap-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #2d3748;
+  text-align: center;
+}
+
+/* Sitemap list styles */
+.sitemap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sitemap-list li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.sitemap-list a {
+  color: #3182ce;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sitemap-list a:hover {
+  color: #2b6cb0;
+  text-decoration: underline;
+}
+
+/* Nested lists */
+.sitemap-list ul {
+  margin-left: 24px;
+  margin-top: 8px;
+}

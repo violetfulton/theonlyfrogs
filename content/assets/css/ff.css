@@ -1,0 +1,135 @@
+/* Final Fantasy Shrine Inspired CSS */
+
+body {
+  background-color: #121a2b;
+  background-size: cover;
+  color: #e0e6f8;
+  font-family: 'Cinzel', 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgba(24, 34, 56, 0.85);
+  border-bottom: 2px solid #7ec0ee;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+  color: #7ec0ee;
+  text-shadow: 0 2px 8px #222;
+  margin: 0;
+}
+
+nav {
+  background: rgba(24, 34, 56, 0.7);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #e0e6f8;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #7ec0ee;
+}
+
+main {
+  background: rgba(24, 34, 56, 0.85);
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+h2, h3 {
+  color: #7ec0ee;
+  text-shadow: 0 1px 4px #222;
+}
+
+a {
+  color: #7ec0ee;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #e0e6f8;
+}
+
+footer {
+  background: rgba(24, 34, 56, 0.85);
+  color: #7ec0ee;
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 2px solid #7ec0ee;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #182238;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7ec0ee;
+  border-radius: 5px;
+}
+
+/* Games grid layout */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* Individual game card */
+.game-card {
+  background: rgba(24, 34, 56, 0.95);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(126,192,238,0.15);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 32px #7ec0ee55;
+}
+
+/* Game image styling */
+.game-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px #7ec0ee44;
+}
+
+/* Game title */
+.game-card h2 {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.3rem;
+  color: #7ec0ee;
+  letter-spacing: 1px;
+}
+
+/* Game description */
+.game-card p {
+  font-size: 1rem;
+  color: #e0e6f8;
+  opacity: 0.9;
+}
