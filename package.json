@@ -4,8 +4,8 @@
   "description": "the site of theonlyfrogs",
   "main": "index.html",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --serve"
+    "build": "eleventy",
+    "watch": "eleventy --serve"
   },
   "repository": {
     "type": "git",

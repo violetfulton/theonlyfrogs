@@ -21,7 +21,7 @@ jobs:
         node-version: "22" # use node 22
         cache: "npm" # I'm using npm rather than yarn
     - run: npm install # install dependencies
-    - run: npx eleventy # build the site with eleventy
+    - run: npm run build # build the site with eleventy
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
