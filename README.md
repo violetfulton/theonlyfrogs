@@ -1,22 +1,74 @@
-# Deploy to Neocities Template
-This is a template for people who have no clue what they're doing. It uses [Deploy to Neocities](https://github.com/marketplace/actions/deploy-to-neocities) to allow you to edit your site on your desktop or anywhere else you can edit a Github repository.
+# TheOnlyFrogs
 
-## How to use
-1. Make your own repository with this one as your template
-2. Name it something, I used my Neocities username
-3. Go to your project's Settings
-4. Look for the Security section on the left side
-5. Click `Secrets and variables`
-6. Click `Actions`
-7. Click the green button that says `New repository secret`
-8. Name it `NEOCITIES_API_TOKEN`
-9. Add your API token as the content of the secret (get it by going to https://neocities.org/settings/YOURUSERNAME#api_key)
-10. Upload your site's contents to your /public/ folder  
+A personal website featuring shrines, collections, and blog posts built with Eleventy (11ty).
 
-Now, whenever you add or change something to your repository's "main" branch, it'll upload the changed stuff to your Neocities page!  
-Once it's working, if you want to be able to delete files on your site from your repository, go to your `neocities.yml` file at `/.github/workflows/neocities.yml` and change `cleanup: false` to `cleanup: true`.  
-Now you can edit your site through Github! You can use [Github Desktop](https://desktop.github.com) to edit it directly from your computer. If you want to use Node.js or any of that funky nonsense, check the [Deploy to Neocities](https://github.com/marketplace/actions/deploy-to-neocities) documentation. Remember to account for your default branch being named `main` or `master`.  
-If you need a working example, check [my site's repository](https://github.com/M1ssM0ss/missmoss).
+## 🐸 About
 
-## License
-[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+This is my personal website where I share my interests, collections, and thoughts. It includes:
+
+- **Shrines** - Dedicated pages for things I love (MCR, Ashnikko, Final Fantasy, Animal Crossing)
+- **Collections** - My CDs, DVDs, and games
+- **Blog** - Personal posts and updates
+- **Games** - Organized by console (PS Vita, Nintendo Switch, etc.)
+
+## 🛠️ Built With
+
+- [Eleventy (11ty)](https://www.11ty.dev/) - Static site generator
+- HTML, CSS, JavaScript
+- Nunjucks templating
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/violetfulton/theonlyfrogs.git
+   cd theonlyfrogs
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run watch
+   ```
+
+4. Open your browser to `http://localhost:8080`
+
+## 📁 Project Structure
+
+```
+content/
+├── assets/           # CSS, images, fonts
+├── blog/            # Blog posts
+├── interests/       # Shrines and collections
+├── pages/           # Static pages
+└── index.njk        # Homepage
+
+_site/               # Built site (auto-generated)
+```
+
+## 🌐 Deployment
+
+This site auto-deploys to Neocities via GitHub Actions when changes are pushed to the `main` branch.
+
+## 📝 License
+
+ISC License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+This is a personal website, but feel free to look around and take inspiration!
+
+---
+
+Made with 💚 by [TheOnlyFrogs](https://theonlyfrogs.neocities.org)

@@ -1,22 +1,46 @@
 /* sitemap.css */
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('/assets/fonts/Minecraftia-Regular.ttf') format('truetype');
+}
+body {
+  background-image: url('/assets/imgs/bg/0keroppi.jpg');
+  cursor: url('/assets/imgs/graphics/ranita.gif'), auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Minecraftia', 'Courier New', monospace, sans-serif;
+}
 
 /* Container for sitemap */
 .sitemap-container {
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 500px; /* Reduced from 800px */
+  width: 100%;
   padding: 24px;
-  background: #f8f9fa;
+  background: #e8f5e8; /* Light mint green */
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  position: relative; /* Important for absolute positioning */
 }
 
 /* Sitemap title */
 .sitemap-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 24px;
-  color: #2d3748;
-  text-align: center;
+  display: block;
+  margin: 0 auto 2rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section headings */
+section h2 {
+  text-align: left; /* Left-aligned headings */
+  margin: 2rem 0 1rem 0;
+  color: #2d5016; /* Same dark forest green as links */
 }
 
 /* Sitemap list styles */
@@ -24,21 +48,30 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: left; /* Left-aligned links */
 }
 
 .sitemap-list li {
   margin-bottom: 12px;
   font-size: 1.1rem;
+  list-style: none;
+  padding: 10px 30px;
+  background-image: url("/assets/imgs/graphics/lilypad.png");
+  background-repeat: no-repeat;
+  background-position: 4px center; /* Move it closer to the left edge */
+  background-size: 30px; /* Make it slightly smaller */
+  display: flex;
+  align-items: center; /* Vertically center the text with the background */
 }
 
 .sitemap-list a {
-  color: #3182ce;
+  color: #2d5016; /* Dark forest green */
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .sitemap-list a:hover {
-  color: #2b6cb0;
+  color: #1a3009; /* Even darker green on hover */
   text-decoration: underline;
 }
 
@@ -46,4 +79,23 @@
 .sitemap-list ul {
   margin-left: 24px;
   margin-top: 8px;
+}
+
+/* Sticker positioning */
+.sticker {
+  position: absolute;
+  pointer-events: none; /* So they don't block clicks */
+  z-index: 1;
+}
+
+.sticker-frog-chair {
+  top: -20px;
+  right: -120px;
+  width: 200px; /* Extra large! */
+}
+
+.sticker-frog-cat {
+  bottom: -100px;
+  left: -120px;
+  width: 220px; /* Extra large! */
 }
