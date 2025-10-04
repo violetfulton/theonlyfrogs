@@ -6,14 +6,17 @@
   <link rel="stylesheet" href="/assets/css/blog.css">
 </head>
 <body>
-  <header><h1><a href="/blog/">Blog</a></h1></header>
+  <header><a href="/blog/"><img src="/assets/imgs/graphics/blog.gif" alt="Blog"></a></header>
 
-  <main>
-    {{ content | safe }}
-  </main>
+  <div class="blog-content">
+    <div class="hanging-sticker"><img src="/assets/imgs/graphics/hangerpill.gif" alt="Sticker"></div>
+    <main>
+      {{ content | safe }}
+    </main>
+
 
   <aside>
-    <h3>Archives</h3>
+    <h3>Archives<img src="/assets/imgs/graphics/syringe.gif"alt="Icon" class="heading-icon"></h3>
 
 
     <ul>
@@ -22,5 +25,10 @@
       {% endfor %}
     </ul>
   </aside>
+</div>
+
+  <footer>
+    <p>return <a href="/">home.</a></p>
+  </footer>
 </body>
 </html>
