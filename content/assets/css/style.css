@@ -259,4 +259,176 @@ border: none;
   margin-top: 10px;
 }
 
-/* =============================== */
+
+/* --- Wrapper layout --- */
+.nowplaying-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  transition: all 0.4s ease;
+}
+
+.nowplaying-wrapper.idle {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nowplaying-wrapper.active {
+  justify-content: center;
+}
+
+/* --- Adaptive container --- */
+#now-playing-box {
+  width: 420px;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px auto;
+  font-family: 'Gaegu', sans-serif;
+  color: #1b5e20;
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.25);
+  transition: width 0.4s ease, background-color 0.3s ease;
+}
+
+/* Make the box wider when idle (to fit right-hand list) */
+.nowplaying-wrapper.idle #now-playing-box,
+#now-playing-box.idle {
+  width: 520px;
+}
+
+/* --- Track Card --- */
+.track-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f1f8e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  padding: 6px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.track-card.playing {
+  background-image: linear-gradient(to right, #81c784, #a5d6a7);
+  border-color: #66bb6a;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+.track-card.idle {
+  opacity: 0.8;
+  filter: grayscale(40%);
+}
+
+/* --- Album Art + Notes --- */
+.album-art {
+  position: relative;
+  margin-right: 6px;
+}
+
+.album-art img {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid #4caf50;
+}
+
+.music-notes {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 64px;
+  overflow: visible;
+  pointer-events: none;
+  left: 80%;
+}
+
+.music-notes span {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0);
+}
+
+/* Floating animation */
+@keyframes floatNote {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-40px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-60px) scale(1);
+  }
+}
+
+/* --- Right-hand recent tracks --- */
+.recent-tracks-side {
+  width: 150px;
+  text-align: left;
+  border-left: 1px dashed #a5d6a7;
+  padding-left: 6px;
+  animation: fadeIn 0.4s ease;
+}
+
+.recent-tracks-side .recent-title {
+  font-size: 0.9em;
+  color: #33691e;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.recent-tracks-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-tracks-side li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+}
+
+.recent-tracks-side li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #a5d6a7;
+}
+
+.recent-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.recent-song {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #2e7d32;
+}
+
+.recent-artist {
+  font-size: 0.75em;
+  color: #33691e;
+}
+
+/* --- Fade Animation --- */
+.fade-in {
+  animation: fadeIn 0.6s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
