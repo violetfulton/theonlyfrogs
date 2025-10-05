@@ -173,3 +173,90 @@ border: none;
   height: auto;
 
 }
+
+/* === Status Widget (theonlyfrogs green theme) === */
+
+.status-section {
+  font-family: 'Gaegu', sans-serif;
+  color: #2e7d32;
+  margin: 1.5rem 0;
+}
+
+.status-section h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  background-image: linear-gradient(to right, #4caf50, #a5d6a7);
+  border: 1px solid #4caf50;
+  padding: 5px 8px;
+  margin: 0 0 6px 0;
+  border-radius: 4px;
+  text-shadow: 0 0 2px #2e7d32;
+}
+
+.status-section h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.status-section h2 a:hover {
+  text-shadow: 0 0 4px #c8e6c9;
+}
+
+/* container for all statuses */
+.status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+/* individual bubble */
+.status-bubble {
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  box-shadow: 1px 1px 0 #a5d6a7;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.status-bubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 0 #81c784;
+}
+
+/* date */
+.status-date {
+  font-size: 0.8rem;
+  color: #388e3c;
+  display: block;
+  margin-bottom: 0.2rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* text */
+.status-text {
+  font-size: 0.95rem;
+  color: #2e7d32;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+/* fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.status-bubble {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.mainboxescontent .status-section {
+  margin-top: 10px;
+}
+
+/* =============================== */

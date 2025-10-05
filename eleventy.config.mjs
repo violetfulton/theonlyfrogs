@@ -42,6 +42,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./content/css");
   eleventyConfig.addPassthroughCopy("./content/js");
   eleventyConfig.addPassthroughCopy("./content/interests");
+  eleventyConfig.addPassthroughCopy("content/_scripts");
+
 
   // -------------------------
   // Filters
