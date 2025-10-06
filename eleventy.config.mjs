@@ -1,6 +1,21 @@
 import { DateTime } from "luxon";
 import dotenv from "dotenv";
 dotenv.config();
+import { execSync } from "child_process";
+import fs from "fs";
+
+// Auto-fetch posts from Firebase before build
+try {
+  const scriptPath = "./content/_scripts/fetchFirebasePosts.js";
+  if (fs.existsSync(scriptPath)) {
+    console.log("🔥 Fetching latest posts from Firebase...");
+    execSync(`node ${scriptPath}`, { stdio: "inherit" });
+  } else {
+    console.warn("⚠️ fetchFirebasePosts.js not found — skipping Firebase fetch.");
+  }
+} catch (err) {
+  console.error("❌ Failed to fetch Firebase posts:", err);
+}
 
 export default function (eleventyConfig) {
 
