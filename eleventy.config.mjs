@@ -44,6 +44,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./content/interests");
   eleventyConfig.addPassthroughCopy("./content/_scripts");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({ "./content/secret": "secret" });
+
 
   eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
 
