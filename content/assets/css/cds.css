@@ -1,87 +1,143 @@
-/* ===== Reset / Base ===== */
+/* ===== RESET / BASE ===== */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", "Trebuchet MS", Verdana, sans-serif;
 }
 
 body {
-  background: url('/assets/imgs/bg/stars 2.gif');
-  color: white;
+  background: url('/assets/imgs/bg/stars 2.gif') repeat center center fixed;
+  color: #e0ffff;
   min-height: 100vh;
   padding: 20px;
+  text-shadow: 0 0 3px #00ffff;
 }
 
-/* ===== Page Layout ===== */
+/* Add a faint vignette for depth */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle, transparent 60%, rgba(0, 0, 0, 0.6));
+  z-index: 0;
+}
+
+/* ===== TITLE AREA ===== */
+header nav {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px ridge cyan;
+  padding-bottom: 10px;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-gif {
+  display: inline-block;
+  width: 600px;
+  max-width: 90%;
+  height: 90px;
+  border: 3px groove cyan;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5) url('/assets/imgs/graphics/cdtitle.gif') center/cover no-repeat;
+  margin: 0 auto 15px;
+  box-shadow: 0 0 10px cyan, inset 0 0 10px rgba(0,255,255,0.6);
+  animation: glowLoop 6s ease-in-out infinite;
+}
+
+/* Subtle glow animation */
+@keyframes glowLoop {
+  0%, 100% { box-shadow: 0 0 8px #00ffff, inset 0 0 6px #00ffff; }
+  50% { box-shadow: 0 0 18px #7fffd4, inset 0 0 10px #7fffd4; }
+}
+
+/* Centered home link */
+.nav-links a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #00ffff;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px dotted #00ffff;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: magenta;
+  text-decoration: underline wavy cyan;
+  text-shadow: 0 0 6px magenta;
+}
+
+/* ===== PAGE CONTAINER ===== */
 .cd-page-container {
   display: flex;
   gap: 20px;
+  border: 3px double cyan;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  z-index: 1;
+  position: relative;
+}
+
+/* ===== CD Grid Container ===== */
+.cd-grid-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* ===== CD Grid ===== */
-.cd-grid-container {
-  flex-grow: 1;
-}
-
 .cd-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  /* Responsive: 7 per row desktop, 4 on tablet, 2 on mobile */
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 20px;
+  width: 100%;
+  max-width: 1200px; /* expands fully on desktop */
+  margin: 0 auto;
+  border: 3px groove cyan;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
-
-/* ===== CD Card ===== */
+/* ===== CD CARD ===== */
 .cd-card {
   position: relative;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .cd-card img {
   width: 100%;
-  height: 100%; /* Ensure images are square */
-  aspect-ratio: 1 / 1; /* keep images square */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  display: block;
   border-radius: 10px;
+  border: 2px ridge cyan;
+  box-shadow: 0 0 8px rgba(0,255,255,0.5);
 }
 
-/* ===== Title Section ===== */
-.title-container {
-  text-align: center;
-  margin-bottom: 40px;
+.cd-card img:hover {
+  transform: rotate(3deg) scale(1.03);
+  filter: brightness(1.3) drop-shadow(0 0 8px cyan);
 }
 
-.title-gif {
-  width: 600px;
-  max-width: 90%;
-  height: 90px;
-  border: 15px solid;
-  border-radius: 15px;
-  background: rgba(0,0,0,0.5) url('/assets/imgs/graphics/cdtitle.gif') center/cover no-repeat;
-}
-
-.title-fallback {
-  border: 15px solid;
-  border-radius: 15px;
-  background: rgba(0,0,0,0.5);
-  width: 600px;
-  max-width: 90%;
-  height: 90px;
-  line-height: 90px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* ===== CD Details Section ===== */
+/* ===== DETAILS SECTION ===== */
 .cd-details {
-  margin: 20px auto; /* Center horizontally */
+  margin: 25px auto;
   padding: 15px;
-  background: rgba(34, 34, 34, 0.8);
+  border: 3px ridge #00ffff;
+  background: rgba(0, 0, 20, 0.85);
   border-radius: 10px;
-  text-align: center;
-  width: 500px; /* Increased width to accommodate flexbox layout */
-  max-width: 90vw; /* Responsive width */
+  width: 500px;
+  max-width: 90vw;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
 }
 
 .cddescs {
@@ -92,88 +148,115 @@ body {
 }
 
 .cddescs img {
-  transition: none; /* Disable transition for tilt effect */
-  width: 120px; /* Slightly smaller for better proportion */
-  height: 120px; /* Ensure CD images are square */
-  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
   border-radius: 10px;
   object-fit: cover;
+  border: 2px inset cyan;
 }
 
-.cddescs img:hover {
-  transform: none; /* Disable tilt effect on hover */
-}
-
-.cddescs .cd-text {
-  flex: 1;
-  padding-left: 10px; /* Add some spacing from the image */
-}
-
-.cddescs .cd-text h2 {
+.cd-text h2 {
   margin-bottom: 8px;
   font-size: 18px;
+  text-decoration: underline;
 }
 
-.cddescs .cd-text p {
+.cd-text p {
   margin-bottom: 4px;
   font-size: 14px;
 }
 
-/* ===== Miscellaneous ===== */
-.cd {
-  border: none;
-  width: 145px;
-  height: 145px; /* Ensure CD images are square */
+/* ===== STAR RATING ===== */
+.stars {
   display: inline-block;
-  margin-right: 8px;
-  margin-left: 8px;
-  transition: transform 0.3s ease; /* Add transition for tilt effect */
+  font-size: 1.2em;
+  color: #f5c518;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-shadow: 0 0 6px #f5c518;
 }
 
-.cd:hover {
-  transform: rotate(5deg); /* Tilt effect on hover */
+.star {
+  color: #555;
 }
 
-.cdrow {
-  border: none;
-  width: 1050px;
-  height: 150px;
-  margin: auto;
-  text-align: center;
-  white-space: nowrap;
-  overflow: auto;
+.star.filled {
+  color: #f5c518;
 }
 
-.cdtitle {
-  border: none;
-  width: 321px;
-  height: 285px;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
+.numeric-rating {
+  font-size: 0.9em;
+  color: #aaffff;
+  margin-left: 4px;
 }
 
-.description {
-  border: none;
-  width: 243px;
-  height: 285px;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 345px;
-  overflow: auto;
-}
-
-h1 {
-  font-size: 25px;
-}
-
+/* ===== LINK EFFECTS ===== */
 a {
   color: cyan;
+  text-decoration: none;
 }
 
-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
+a:hover {
+  color: magenta;
+  text-shadow: 0 0 5px magenta;
 }
+
+/* ===== BACK TO TOP BUTTON (color-shifting glow) ===== */
+#back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  color: cyan;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid cyan;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+  transition: all 0.3s ease, opacity 0.4s ease;
+  animation: colorShift 8s ease-in-out infinite;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#back-to-top:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+}
+
+/* Glow hue cycling */
+@keyframes colorShift {
+  0%   { border-color: #00ffff; box-shadow: 0 0 10px #00ffff; }
+  25%  { border-color: #7fffd4; box-shadow: 0 0 15px #7fffd4; }
+  50%  { border-color: #98ffb0; box-shadow: 0 0 20px #98ffb0; }
+  75%  { border-color: #7fffd4; box-shadow: 0 0 15px #7fffd4; }
+  100% { border-color: #00ffff; box-shadow: 0 0 10px #00ffff; }
+}
+
+/* ===== RETRO DECORATIONS ===== */
+hr {
+  border: none;
+  height: 2px;
+  margin: 20px auto;
+  width: 80%;
+  background: linear-gradient(to right, cyan, transparent, cyan);
+}
+
+marquee {
+  color: #00ffff;
+  font-size: 16px;
+  text-shadow: 0 0 6px cyan;
+  margin-bottom: 10px;
+}
+

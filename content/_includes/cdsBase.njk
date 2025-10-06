@@ -7,24 +7,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="title-container">
-        <div class="title-gif">
-        </div>
+<header>
+  <nav>
+    <div class="title-container">
+      <div class="title-gif"></div>
+      <div class="nav-links">
+        <a href="/">Home</a>
       </div>
-      <a href="/">Home</a>
-      <a href="/cds/">CDs</a>
-      <!-- add other nav items -->
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
+
+<!-- back to top button -->
+<button id="back-to-top" title="Go to top">↑</button>
+
 
   <main>
     {{ content | safe }}
   </main>
 
-  <footer>
-    <p>&copy; {{ site.year }} The Only Frogs. All rights reserved.</p>
-  </footer>
+<footer style="text-align:center; margin-top:40px; font-size:12px;">
+  <hr>
+  <marquee behavior="scroll" direction="left" scrollamount="3">
+    ✦ Welcome to The Only Frogs CD Collection ✦
+  </marquee>
+  <p>return <a href="/">home.</a></p>
+</footer>
+
+
+<script>
+  const topBtn = document.getElementById("back-to-top");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      topBtn.classList.add("show");
+    } else {
+      topBtn.classList.remove("show");
+    }
+  });
+
+  topBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+
+
 </body>
 </html>

@@ -42,7 +42,12 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./content/css");
   eleventyConfig.addPassthroughCopy("./content/js");
   eleventyConfig.addPassthroughCopy("./content/interests");
-  eleventyConfig.addPassthroughCopy("content/_scripts");
+  eleventyConfig.addPassthroughCopy("./content/_scripts");
+  eleventyConfig.addPassthroughCopy("assets");
+
+  eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
+
+
 
 
   // -------------------------

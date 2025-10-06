@@ -9,7 +9,7 @@ permalink: /cds/
     <div class="cd-grid">
       {% for cd in releases %}
         <div class="cd-card">
-          <a href="#cd-{{ loop.index0 }}"> <!-- Link to specific section -->
+          <a href="#cd-{{ loop.index0 }}">
             <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd">
           </a>
         </div>
@@ -18,16 +18,30 @@ permalink: /cds/
   </section>
 </div>
 
-<!-- Example section for each CD -->
+<!-- Detailed view for each CD -->
 {% for cd in releases %}
 <div id="cd-{{ loop.index0 }}" class="cd-details">
-  <div class="cddescs"> <!-- Wrapped in cddescs div -->
-    <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd"> <!-- Added image here -->
+  <div class="cddescs">
+    <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd">
     <div class="cd-text">
       <h2>{{ cd.title }}</h2>
-      <p>Artist: {{ cd.artist }}</p>
-      <p>Released: {{ cd.year }}</p>
-      <p>Bop or Flop: {{ cd.bop_or_flop }}</p>
+      <p><strong>Artist:</strong> {{ cd.artist }}</p>
+      <p><strong>Released:</strong> {{ cd.year }}</p>
+
+      {% if cd.userRating %}
+        <p><strong>🧍 My Rating:</strong>
+          <span class="stars">
+            {% for i in [1, 2, 3, 4, 5] %}
+              {% if i <= cd.userRating %}
+                <span class="star filled">★</span>
+              {% else %}
+                <span class="star">☆</span>
+              {% endif %}
+            {% endfor %}
+          </span>
+          <span class="numeric-rating">{{ cd.userRating }}/5</span>
+        </p>
+      {% endif %}
     </div>
   </div>
 </div>
