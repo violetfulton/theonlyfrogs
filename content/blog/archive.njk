@@ -8,16 +8,13 @@ permalink: "/blog/archive/index.html"
   <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
 </h1>
 
-{% if collections.years %}
-  <ul>
-    {% for y in collections.years %}
-      <li>
-        <a href="/blog/archive/{{ y }}/">{{ y }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <p>No posts found.</p>
-{% endif %}
+<ul class="archive-year-list">
+  {% for year, posts in postsByYear %}
+    <li>
+      <a href="/blog/archive/{{ year }}/">{{ year }}</a>
+      <span class="count">({{ posts | length }})</span>
+    </li>
+  {% endfor %}
+</ul>
 
 <p class="back-link"><a href="/blog/">← Back to Blog</a></p>
