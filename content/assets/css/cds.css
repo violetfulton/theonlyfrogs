@@ -1,28 +1,125 @@
+/* ===== Reset / Base ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 body {
   background: url('/assets/imgs/bg/stars 2.gif');
   color: white;
+  min-height: 100vh;
+  padding: 20px;
 }
-.title {
-  border: 15px solid;
-  background: rgba(0,0,0,0.5);
-  border-radius: 15px;
+
+/* ===== Page Layout ===== */
+.cd-page-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* ===== CD Grid ===== */
+.cd-grid-container {
+  flex-grow: 1;
+}
+
+.cd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* ===== CD Card ===== */
+.cd-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cd-card img {
+  width: 100%;
+  height: 100%; /* Ensure images are square */
+  aspect-ratio: 1 / 1; /* keep images square */
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+/* ===== Title Section ===== */
+.title-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-gif {
   width: 600px;
+  max-width: 90%;
   height: 90px;
-  margin: auto;
-  margin-top: 50px;
-  text-align: center;
-}
-.desc {
-  border: 10px solid;
-  background: rgba(0,0,0,0.5);
+  border: 15px solid;
   border-radius: 15px;
-  width: 500px;
-  height: 115px;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
+  background: rgba(0,0,0,0.5) url('/assets/imgs/graphics/cdtitle.gif') center/cover no-repeat;
 }
+
+.title-fallback {
+  border: 15px solid;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5);
+  width: 600px;
+  max-width: 90%;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ===== CD Details Section ===== */
+.cd-details {
+  margin: 20px auto; /* Center horizontally */
+  padding: 15px;
+  background: rgba(34, 34, 34, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  max-width: 90vw; /* Responsive width */
+}
+
+
+.cd-details img {
+  width: 100%;
+  max-width: 300px; /* Limit the size of the album art */
+  border-radius: 10px;
+}
+
+/* Remove tilt effect for images in cddescs */
+.cddescs img {
+  transition: none; /* Disable transition for tilt effect */
+   width: 145px;
+  height: 145px; /* Ensure CD images are square */
+  display: inline-block;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.cddescs img:hover {
+  transform: none; /* Disable tilt effect on hover */
+}
+
+/* ===== Miscellaneous ===== */
+.cd {
+  border: none;
+  width: 145px;
+  height: 145px; /* Ensure CD images are square */
+  display: inline-block;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition: transform 0.3s ease; /* Add transition for tilt effect */
+}
+
+.cd:hover {
+  transform: rotate(5deg); /* Tilt effect on hover */
+}
+
 .cdrow {
   border: none;
   width: 1050px;
@@ -32,27 +129,7 @@ body {
   white-space: nowrap;
   overflow: auto;
 }
-.cd {
-  border: none;
-  width: 145px;
-  height: 125px;
-  display: inline-block;
-  margin-right: 8px;
-  margin-left: 8px;
-  transition: transform 0s ease-in-out;
-}
-.cd:hover {
-  transform: rotate(5deg);
-}
-.cddescs {
-  border: 10px solid;
-  background: rgba(0,0,0,0.5);
-  border-radius: 15px;
-  width: 600px;
-  height: 307px;
-  margin: auto;
-  margin-top: 15px;
-}
+
 .cdtitle {
   border: none;
   width: 321px;
@@ -61,6 +138,7 @@ body {
   margin-top: 10px;
   margin-left: 10px;
 }
+
 .description {
   border: none;
   width: 243px;
@@ -70,9 +148,11 @@ body {
   margin-left: 345px;
   overflow: auto;
 }
+
 h1 {
   font-size: 25px;
 }
+
 a {
   color: cyan;
 }
@@ -98,8 +178,8 @@ a {
 }
 
 button {
-	background-color: transparent;
-	border: none;
-	cursor: pointer;
-	padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }

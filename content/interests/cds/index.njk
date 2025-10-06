@@ -5,43 +5,28 @@ permalink: /cds/
 ---
 
 <div class="cd-page-container">
-  <!-- ===== Left TOC ===== -->
-  <aside class="cd-toc">
-    <h2>Artists</h2>
-    {% set artists_seen = [] %}
-    <ul>
-      {% for cd in releases %}
-        {% if cd.artist not in artists_seen %}
-          {% set artists_seen = artists_seen.concat([cd.artist]) %}
-          <li><a href="#artist-{{ loop.index0 }}">{{ cd.artist }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </aside>
-
-  <!-- ===== Right CD Grid ===== -->
   <section class="cd-grid-container">
-    {% set artists_seen = [] %}
     <div class="cd-grid">
       {% for cd in releases %}
-        {% if cd.artist not in artists_seen %}
-          {% set artists_seen = artists_seen.concat([cd.artist]) %}
-          <div class="cd-card" id="artist-{{ loop.index0 }}">
-        {% else %}
-          <div class="cd-card">
-        {% endif %}
-            <img src="{{ cd.image }}" alt="{{ cd.title }}">
-            <!-- Hover title overlay -->
-            <div class="cd-overlay">{{ cd.title }}</div>
-
-            <!-- Details panel -->
-            <div class="details">
-              <button class="close-btn">&times;</button>
-              <p class="cd-info">{{ cd.artist }}</p>
-              <p class="cd-info">{{ cd.year }}</p>
-            </div>
-          </div>
+        <div class="cd-card">
+          <a href="#cd-{{ loop.index0 }}"> <!-- Link to specific section -->
+            <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd">
+          </a>
+        </div>
       {% endfor %}
     </div>
   </section>
 </div>
+
+<!-- Example section for each CD -->
+{% for cd in releases %}
+<div id="cd-{{ loop.index0 }}" class="cd-details">
+  <div class="cddescs"> <!-- Wrapped in cddescs div -->
+    <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd"> <!-- Added image here -->
+    <h2>{{ cd.title }}</h2>
+    <p>Artist: {{ cd.artist }}</p>
+    <p>Released: {{ cd.year }}</p>
+    <p>Bop or Flop: {{ cd.bop_or_flop }}</p>
+  </div>
+</div>
+{% endfor %}

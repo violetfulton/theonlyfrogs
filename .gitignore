@@ -50,3 +50,4 @@ pids/
 # Temporary folders
 tmp/
 temp/
+.DS_Store

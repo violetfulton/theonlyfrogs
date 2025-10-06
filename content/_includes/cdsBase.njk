@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ title or "The Only Frogs - CD Collection" }}</title>
-  <link rel="stylesheet" href="/assets/css/cdsTest.css">
+  <link rel="stylesheet" href="/assets/css/cds.css"> <!-- Change to cds.css -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
     <nav>
       <a href="/">Home</a>
-      <a href="/interests/cds/">CDs</a>
+      <a href="/cds/">CDs</a>
       <!-- add other nav items -->
     </nav>
   </header>
@@ -22,65 +22,5 @@
   <footer>
     <p>&copy; {{ site.year }} The Only Frogs. All rights reserved.</p>
   </footer>
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const overlay = document.createElement('div');
-  overlay.classList.add('details-overlay');
-  document.body.appendChild(overlay);
-
-  const tocLinks = document.querySelectorAll('.toc a');
-
-  // Smooth scroll and highlight
-  tocLinks.forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const target = document.querySelector(link.getAttribute('href'));
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-  });
-
-  // Update TOC highlight on scroll
-  const artistCards = document.querySelectorAll('.cd-card[id^="artist-"]');
-  window.addEventListener('scroll', () => {
-    let current = '';
-    artistCards.forEach(card => {
-      const top = card.getBoundingClientRect().top;
-      if (top <= 100) current = card.id;
-    });
-    tocLinks.forEach(link => {
-      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
-    });
-  });
-
-  // CD click details
-  document.querySelectorAll('.cd-card').forEach(card => {
-    const closeBtn = card.querySelector('.close-btn');
-
-    card.addEventListener('click', () => {
-      document.querySelectorAll('.cd-card.active').forEach(c => {
-        if (c !== card) c.classList.remove('active');
-      });
-      const isActive = card.classList.toggle('active');
-      overlay.style.display = isActive ? 'block' : 'none';
-    });
-
-    if (closeBtn) {
-      closeBtn.addEventListener('click', e => {
-        e.stopPropagation();
-        card.classList.remove('active');
-        overlay.style.display = 'none';
-      });
-    }
-  });
-
-  overlay.addEventListener('click', () => {
-    document.querySelectorAll('.cd-card.active').forEach(card => card.classList.remove('active'));
-    overlay.style.display = 'none';
-  });
-});
-</script>
-
-
-
 </body>
 </html>

@@ -50,11 +50,10 @@ export default async function () {
         "/assets/img/placeholder.jpg";
 
       return { title, artist, year, image };
-    });
+    }).sort((a, b) => a.artist.localeCompare(b.artist));
 
   } catch (err) {
     console.error("Error fetching Discogs data:", err);
     return fallback;
   }
 }
-
