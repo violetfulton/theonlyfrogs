@@ -24,23 +24,25 @@
       {{ content | safe }}
     </main>
 
-    {% if page.url == '/blog/' or page.url startsWith('/blog/archive') %}
-      <aside class="blog-sidebar">
-        <h3>Archives
-          <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
-        </h3>
+    {# ✅ Fixed conditional for sidebar #}
+{% if page.url and (page.url == '/blog/' or (page.url | slice(0, 13)) == '/blog/archive') %}
+  <aside class="blog-sidebar">
+    <h3>Archives
+      <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+    </h3>
 
-        {% if collections.years %}
-          <ul>
-            {% for y in collections.years %}
-              <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p>No posts yet.</p>
-        {% endif %}
-      </aside>
+    {% if collections.years %}
+      <ul>
+        {% for y in collections.years %}
+          <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No posts yet.</p>
     {% endif %}
+  </aside>
+{% endif %}
+
   </div>
 
   <!-- Footer -->
