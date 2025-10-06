@@ -1,31 +1,91 @@
-name: Deploy to neocities
+name: Build and deploy to Neocities
 
-# only run on changes to main
 on:
+  schedule:
+    - cron: "*/10 * * * *"  # every 10 minutes
   push:
     branches:
       - main
+  workflow_dispatch:
 
 env:
   DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
   DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+  NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+  FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v3 # install node.js
-      with:
-        node-version: "22" # use node 22
-        cache: "npm" # I'm using npm rather than yarn
-    - run: npm install # install dependencies
-    - run: npm run build # build the site with eleventy
-    # When the dist_dir is ready, deploy it to neocities
-    - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1
-      with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: true
-        dist_dir: public
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull latest posts from Firebase
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT" > serviceAccount.json
+          node ./content/_scripts/fetchFirebasePosts.js
+
+      - name: Build Eleventy
+        run: npm run build
+
+      - name: Deploy to Neocities
+        uses: bcomnes/deploy-to-neocities@v1
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_KEY }}
+          cleanup: true
+          dist_dir: public
+
+      # ✅ Build summary
+      - name: Post build summary
+        if: success()
+        run: |
+          echo "✅ Build & Deploy Successful!" >> $GITHUB_STEP_SUMMARY
+          echo "Deployed at: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "Visit your site: https://theonlyfrogs.neocities.org" >> $GITHUB_STEP_SUMMARY
+
+      # ✅ Send success notification to Discord
+      - name: Notify Discord on success
+        if: success()
+        run: |
+          curl -H "Content-Type: application/json" \
+               -d '{"content": "✅ **Neocities Deploy Successful!**\nRepository: '${{ github.repository }}'\nWorkflow: '${{ github.workflow }}'\nRun: https://github.com/'${{ github.repository }}'/actions/runs/'${{ github.run_id }}'"}' \
+               ${{ secrets.DISCORD_WEBHOOK }}
+
+  # 🚨 Notify on failure
+  notify-on-failure:
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: failure()
+    steps:
+      - name: Send failure email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.NOTIFY_EMAIL_USER }}
+          password: ${{ secrets.NOTIFY_EMAIL_PASS }}
+          subject: "🚨 Neocities Deploy Failed!"
+          to: "your.email@example.com"
+          from: "Neocities Bot <your.email@example.com>"
+          body: |
+            ❌ The Neocities deploy workflow failed.
+            Repository: ${{ github.repository }}
+            Workflow: ${{ github.workflow }}
+            Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      - name: Send failure message to Discord
+        run: |
+          curl -H "Content-Type: application/json" \
+               -d '{"content": "🚨 **Neocities Deploy Failed!**\nRepository: '${{ github.repository }}'\nWorkflow: '${{ github.workflow }}'\nRun: https://github.com/'${{ github.repository }}'/actions/runs/'${{ github.run_id }}'"}' \
+               ${{ secrets.DISCORD_WEBHOOK }}
