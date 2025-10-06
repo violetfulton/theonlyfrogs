@@ -13,89 +13,83 @@ body {
   padding: 0 1em;
   background: url('/assets/imgs/bg/batspink.jpg') no-repeat fixed center/cover;
   color: #f0f0f0;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 /* ---------------------------------------------------
    Header
 --------------------------------------------------- */
-header {
+.blog-header {
   text-align: center;
   margin-bottom: 1em;
 }
 
-header img {
-  max-width: 100%;
+.blog-header img {
+  max-width: 300px;
   height: auto;
 }
 
 /* ---------------------------------------------------
-   Layout
+   Blog Layout
 --------------------------------------------------- */
-.blog-container {
+.blog-layout {
   display: flex;
-  gap: 2rem;
+  justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.sidebar {
-  width: 200px;
-  flex-shrink: 0;
-  background-color: rgba(20, 20, 20, 0.7);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .blog-main {
-  flex: 1;
-  background-color: #222;
+  flex: 2;
+  background: rgba(34, 34, 34, 0.9);
   border: 1px solid #444;
   border-radius: 8px;
-  padding: 1em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   position: relative;
-  max-width: 600px;
-  margin: 0 auto;
+  z-index: 2;
 }
 
-/* Sticker image */
-.sticker img {
-  display: block;
-  margin: 0 auto 1rem;
-}
-
-/* Hanging sticker */
-.hanging-sticker {
-  position: absolute;
-  top: -5px;
-  right: -7px;
-  z-index: 10;
-}
-
-/* ---------------------------------------------------
-   Footer
---------------------------------------------------- */
-footer {
-  text-align: center;
-  font-size: 0.85em;
-  background-color: #222;
+.blog-sidebar {
+  flex: 1;
+  background: rgba(26, 26, 26, 0.85);
   border: 1px solid #444;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  max-width: 250px;
-  margin: 40px auto 0;
-  padding: 0.5em;
+  padding: 1rem;
+  color: #ffb3d9;
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-footer a {
+.blog-sidebar h3 {
+  font-family: 'Alice', serif;
+  font-size: 1.4em;
+  color: #fff;
+  border-bottom: 1px solid #444;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.3em;
+}
+
+.blog-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-sidebar li {
+  margin: 0.4em 0;
+}
+
+.blog-sidebar a {
   color: #ff69b4;
   text-decoration: none;
 }
 
-footer a:hover {
+.blog-sidebar a:hover {
   color: #ffb3d9;
   text-decoration: underline;
 }
@@ -163,21 +157,7 @@ ul li a:hover {
 }
 
 /* ---------------------------------------------------
-   Archive Sidebar
---------------------------------------------------- */
-.sidebar h3 {
-  font-size: 1.4em;
-  border-bottom: 1px solid #444;
-  padding-bottom: 0.3em;
-  margin-bottom: 0.5em;
-}
-
-.archive-list li {
-  margin-bottom: 0.5em;
-}
-
-/* ---------------------------------------------------
-   "New" Tag
+   Post & New Tag
 --------------------------------------------------- */
 .new-tag {
   display: inline-block;
@@ -190,15 +170,41 @@ ul li a:hover {
 }
 
 /* ---------------------------------------------------
+   Footer
+--------------------------------------------------- */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 250px;
+  margin: 40px auto 0;
+  padding: 0.5em;
+}
+
+footer a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffb3d9;
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------
    Responsive Design
 --------------------------------------------------- */
 @media (max-width: 800px) {
-  .blog-container {
+  .blog-layout {
     flex-direction: column;
     align-items: stretch;
+    max-width: 95%;
   }
 
-  .sidebar {
+  .blog-sidebar {
     width: 100%;
     order: 2;
     margin-top: 1.5em;
@@ -207,207 +213,4 @@ ul li a:hover {
   .blog-main {
     order: 1;
   }
-
-  body {
-    max-width: 95%;
-  }
-}
-
-/* ---------------------------------------------------
-   Mobile Sidebar Toggle
---------------------------------------------------- */
-
-/* Hide checkbox visually */
-.toggle-checkbox {
-  display: none;
-}
-
-/* Toggle button */
-.toggle-button {
-  display: none;
-  background: #222;
-  color: #ff69b4;
-  font-family: 'Alice', serif;
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 0.5em 1em;
-  font-size: 1.2em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-}
-
-.toggle-button:hover {
-  color: #ffb3d9;
-  background: #333;
-}
-
-/* Show sidebar by default on desktop */
-.sidebar {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-/* Mobile behavior */
-@media (max-width: 800px) {
-  .toggle-button {
-    display: inline-block;
-  }
-
-  .sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    padding: 1.5em;
-    background-color: #111;
-    border-left: 2px solid #444;
-    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.5);
-    transform: translateX(100%);
-    opacity: 0;
-    pointer-events: none;
-    z-index: 999;
-  }
-
-  /* When checked, show sidebar */
-  .toggle-checkbox:checked ~ .sidebar {
-    transform: translateX(0);
-    opacity: 1;
-    pointer-events: all;
-  }
-
-  /* Dim background when open (optional) */
-  .toggle-checkbox:checked ~ .blog-main::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 998;
-  }
-}
-/* === Layout Fix === */
-.blog-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  max-width: 900px;
-  margin: 2rem auto;
-}
-
-.blog-main {
-  flex: 2;
-  position: relative;
-  background-color: #222;
-  color: #f0f0f0;
-  padding: 1.5em;
-  border-radius: 8px;
-  border: 1px solid #444;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-.sidebar {
-  flex: 1;
-  background: #1a1a1a;
-  color: #fff;
-  padding: 1em;
-  border-radius: 8px;
-  border: 1px solid #444;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-.sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.sidebar li {
-  margin: 0.4em 0;
-}
-
-.sidebar a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-.sidebar a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-.blog-header img {
-  display: block;
-  margin: 0 auto;
-}
-
-footer {
-  margin-top: 2rem;
-}
-
-/* === BLOG LAYOUT FIX === */
-.blog-layout {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.blog-main {
-  flex: 2;
-  background: rgba(34, 34, 34, 0.9);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1rem 1.5rem;
-  color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  position: relative;
-  z-index: 2;
-}
-
-.blog-sidebar {
-  flex: 1;
-  background: rgba(26, 26, 26, 0.85);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1rem;
-  color: #ffb3d9;
-  height: fit-content;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-.blog-sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.blog-sidebar li {
-  margin: 0.4em 0;
-}
-
-.blog-sidebar a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-.blog-sidebar a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-.blog-header {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.blog-title-img {
-  max-width: 300px;
-  height: auto;
 }
