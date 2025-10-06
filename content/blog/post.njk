@@ -1,0 +1,22 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/blog/{{ post.year }}/{{ post.slug }}/index.html"
+layout: blogBase.njk
+---
+
+
+<article class="post">
+  <h1>{{ post.title }}</h1>
+  {% if post.createdAt %}
+    <p class="date">{{ post.createdAt | readableDate }}</p>
+  {% endif %}
+  <div class="content">
+    {{ post.content | safe }}
+  </div>
+</article>
+
+<p><a href="/blog/">← Back to Blog</a></p>
+

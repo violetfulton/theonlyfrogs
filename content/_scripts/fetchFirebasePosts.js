@@ -5,6 +5,10 @@ const serviceAccount = JSON.parse(readFileSync("serviceAccount.json", "utf-8"));
 const projectId = serviceAccount.project_id;
 const url = `https://firestore.googleapis.com/v1/projects/${projectId}/databases/(default)/documents/posts`;
 
+function slugify(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
 (async () => {
   try {
     const res = await fetch(url);
@@ -12,10 +16,16 @@ const url = `https://firestore.googleapis.com/v1/projects/${projectId}/databases
 
     const posts = (data.documents || []).map(doc => {
       const f = doc.fields;
+      const title = f.title.stringValue;
+      const createdAt = f.createdAt?.timestampValue || new Date().toISOString();
+      const year = new Date(createdAt).getFullYear();
+
       return {
-        title: f.title.stringValue,
+        title,
+        slug: slugify(title),
         content: f.content.stringValue,
-        createdAt: f.createdAt?.timestampValue || null
+        createdAt,
+        year
       };
     });
 

@@ -1,24 +1,15 @@
 ---
 layout: blogBase.njk
-title: "Archive"
-permalink: /blog/archive/
+title: "Blog Archive"
+permalink: "/blog/archive/index.html"
 ---
-<h1>Blog Archive<img src="/assets/imgs/graphics/syringe.gif" alt="Blog Archive"></h1>
 
-{% if collections.postsByYear %}
-  {% for year, posts in collections.postsByYear %}
-    <section class="archive-year">
-      <h2>{{ year }}</h2>
-      <ul>
-        {% for post in posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-            <span class="post-date">({{ post.data.date | readableDate }})</span>
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endfor %}
-{% else %}
-  <p>No posts found yet.</p>
-{% endif %}
+<h1>Blog Archive<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h1>
+
+{% set years = posts | map('year') | unique | sort(false) | reverse %}
+{% for year in years %}
+  {% set count = (posts | selectattr("year", "equalto", year) | length) %}
+  <section class="archive-year">
+    <h2><a href="/blog/archive/{{ year }}/">{{ year }}</a> ({{ count }})</h2>
+  </section>
+{% endfor %}

@@ -1,57 +1,93 @@
-/* Font Import */
+/* ---------------------------------------------------
+   Font & Base Styles
+--------------------------------------------------- */
 @font-face {
   font-family: 'Alice';
   src: url('/assets/fonts/Alice_in_Wonderland_3.ttf') format('truetype');
 }
 
-/* ---------- General Layout ---------- */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  max-width: 700px;
   margin: 2em auto;
   padding: 0 1em;
-  background-image: url('/assets/imgs/bg/batspink.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background: url('/assets/imgs/bg/batspink.jpg') no-repeat fixed center/cover;
+  color: #f0f0f0;
+  max-width: 900px;
 }
 
+/* ---------------------------------------------------
+   Header
+--------------------------------------------------- */
 header {
   text-align: center;
+  margin-bottom: 1em;
 }
 
-header h1 {
-  display: inline-block;
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
-header h1 a {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: underline;
-  color: #ff69b4;
+/* ---------------------------------------------------
+   Layout
+--------------------------------------------------- */
+.blog-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-header h1 a:visited {
-  color: #ff69b4;
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background-color: rgba(20, 20, 20, 0.7);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-main {
-   margin-top: 1em;
+.blog-main {
+  flex: 1;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-/* ---- Footer ----*/
+/* Sticker image */
+.sticker img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Hanging sticker */
+.hanging-sticker {
+  position: absolute;
+  top: -5px;
+  right: -7px;
+  z-index: 10;
+}
+
+/* ---------------------------------------------------
+   Footer
+--------------------------------------------------- */
 footer {
   text-align: center;
   font-size: 0.85em;
   background-color: #222;
-  color: #f0f0f0;
-  /* padding: 1em; */
-  border-radius: 8px;
   border: 1px solid #444;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   max-width: 250px;
-  margin: 20px auto;
+  margin: 40px auto 0;
+  padding: 0.5em;
 }
 
 footer a {
@@ -59,40 +95,56 @@ footer a {
   text-decoration: none;
 }
 
-footer a:visited {
-  color: #ff69b4;
-}
-
 footer a:hover {
   color: #ffb3d9;
   text-decoration: underline;
 }
 
-/* ---------- Headings ---------- */
+/* ---------------------------------------------------
+   Headings
+--------------------------------------------------- */
 h1, h2, h3 {
   font-family: 'Alice', serif;
   color: #fefefe;
-  padding-bottom: 0.3em;
   font-size: 36px;
+  padding-bottom: 0.3em;
   position: relative;
 }
 
-h1::after,
-h2::after,
-h3::after {
+h1::after, h2::after, h3::after {
   content: '';
   display: block;
   width: 100%;
   height: 25px;
-  background-image: url('/assets/imgs/graphics/pinkblooddrip.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url('/assets/imgs/graphics/pinkblooddrip.webp') no-repeat center/cover;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-/* ---------- Post Snippets ---------- */
+.heading-icon {
+  width: 25px;
+  height: auto;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* ---------------------------------------------------
+   Links
+--------------------------------------------------- */
+a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffb3d9;
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------
+   Lists
+--------------------------------------------------- */
 ul {
   list-style: none;
   padding-left: 0;
@@ -102,156 +154,137 @@ ul li {
   margin-bottom: 1em;
 }
 
-ul li p {
-  margin: 0.3em 0 0 0;
-  font-size: 0.9em;
-  color: #555;
-}
-
-.new-tag {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: url("/assets/imgs/graphics/frog-pink-new.gif") no-repeat center/contain;
-  text-indent: -9999px;
-  overflow: hidden;
-  vertical-align: middle;
-  background: #ff69b4;
-  color: #fff;
-  padding: 0.2em 0.5em;
-  border-radius: 4px;
-}
-
-/* General link styles */
-a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #ff69b4;
-}
-
-.blog-content a {
-  color: #ff69b4;
-}
-
-.blog-content a:visited {
-  color: #ff69b4;
-}
-
-.blog-content a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-/* Specific styles for links in list items */
 ul li a {
-  color: #ff69b4;
-}
-
-ul li a:visited {
   color: #ff69b4;
 }
 
 ul li a:hover {
   color: #ffb3d9;
-  text-decoration: underline;
 }
 
-/* Specific hover styles for header and pagination */
-header h1 a:hover,
-.pagination a:hover,
-.year-tag:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
+/* ---------------------------------------------------
+   Archive Sidebar
+--------------------------------------------------- */
+.sidebar h3 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
-/* ---------- Pagination ---------- */
-.pagination {
-  margin-top: 1em;
+.archive-list li {
+  margin-bottom: 0.5em;
 }
 
-.pagination a {
+/* ---------------------------------------------------
+   "New" Tag
+--------------------------------------------------- */
+.new-tag {
   display: inline-block;
-  padding: 0.3em 0.8em;
-  margin: 0.2em;
-  background: #333;
-  color: #ff69b4;
-}
-
-.pagination a:visited {
-  color: #ff69b4;
-}
-
-.pagination a:hover {
-  background: #444;
-  color: #ffb3d9;
-}
-
-/* ---------- Year / Archive Tags ---------- */
-.year-tag {
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  background: #eee;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #ff69b4;
-}
-
-.year-tag:visited {
-  color: #ff69b4;
-}
-
-.year-tag:hover {
-  background: #ddd;
-  color: #ffb3d9;
-}
-
-.year-tag.current {
-  background: #333;
-  color: #ff69b4;
-}
-
-/* ---------- Year List (Homepage / Archive) ---------- */
-.year-list {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-}
-
-.year-list li {
-  display: inline-block;
-}
-
-/* Blog Content Styling */
-.blog-content {
-  position: relative;
-  background-color: #222;
-  color: #f0f0f0;
-  padding: 1em;
-  border-radius: 8px;
-  border: 1px solid #444;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  max-width: 450px;
-  margin: 20px auto;
-}
-
-/* Hanging sticker styles */
-.hanging-sticker {
-  position: absolute;
-  top: -5px;
-  right: -7px;
-  z-index: 10;
-}
-
-/* Heading icon styles */
-.heading-icon {
-  width: 25px;
-  height: auto;
-  margin-right: 8px;
-  margin-top: -30px;
+  background: #ff69b4;
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-size: 0.8em;
   vertical-align: middle;
+}
+
+/* ---------------------------------------------------
+   Responsive Design
+--------------------------------------------------- */
+@media (max-width: 800px) {
+  .blog-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sidebar {
+    width: 100%;
+    order: 2;
+    margin-top: 1.5em;
+  }
+
+  .blog-main {
+    order: 1;
+  }
+
+  body {
+    max-width: 95%;
+  }
+}
+
+/* ---------------------------------------------------
+   Mobile Sidebar Toggle
+--------------------------------------------------- */
+
+/* Hide checkbox visually */
+.toggle-checkbox {
+  display: none;
+}
+
+/* Toggle button */
+.toggle-button {
+  display: none;
+  background: #222;
+  color: #ff69b4;
+  font-family: 'Alice', serif;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-button:hover {
+  color: #ffb3d9;
+  background: #333;
+}
+
+/* Show sidebar by default on desktop */
+.sidebar {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Mobile behavior */
+@media (max-width: 800px) {
+  .toggle-button {
+    display: inline-block;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    padding: 1.5em;
+    background-color: #111;
+    border-left: 2px solid #444;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+
+  /* When checked, show sidebar */
+  .toggle-checkbox:checked ~ .sidebar {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* Dim background when open (optional) */
+  .toggle-checkbox:checked ~ .blog-main::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+  }
 }

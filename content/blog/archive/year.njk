@@ -1,22 +1,24 @@
 ---
 pagination:
-  data: collections.years      # list of all years from our custom collection
-  size: 1                      # build one page per year
-  alias: year                  # expose the current year as the variable “year”
-permalink: "blog/archive/{{ year }}/index.html"
+  data: collections.years     # use the years collection we already created
+  size: 1
+  alias: year
+permalink: "/blog/archive/{{ year }}/index.html"
 layout: blogBase.njk
 ---
 
-<h1>Posts from {{ year }}<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h1>
+<h1>Archive for {{ year }}</h1>
 
 <ul>
-{% for post in collections.postsByYear[year] %}
+{% for post in posts | selectattr("year", "equalto", year) %}
   <li>
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-    {% if post.date | daysOld <= 7 %}
-      <span class="new-tag">New</span>
+    <a href="/blog/{{ post.year }}/{{ post.slug }}/">{{ post.title }}</a>
+    {% if post.createdAt %}
+      <small>{{ post.createdAt | readableDate }}</small>
     {% endif %}
-    – {{ post.date | readableDate }}
   </li>
 {% endfor %}
 </ul>
+
+<p><a href="/blog/archive/">← Back to Archive</a></p>
+
