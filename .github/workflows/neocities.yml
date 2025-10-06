@@ -2,7 +2,7 @@ name: Build and deploy to Neocities
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # every 10 minutes
+    - cron: "*/10 * * * *"
   push:
     branches:
       - main
@@ -46,7 +46,6 @@ jobs:
           cleanup: true
           dist_dir: public
 
-      # ✅ Build summary
       - name: Post build summary
         if: success()
         run: |
@@ -54,7 +53,6 @@ jobs:
           echo "Deployed at: $(date)" >> $GITHUB_STEP_SUMMARY
           echo "Visit your site: https://theonlyfrogs.neocities.org" >> $GITHUB_STEP_SUMMARY
 
-      # ✅ Send success notification to Discord
       - name: Notify Discord on success
         if: success()
         run: >
@@ -63,8 +61,6 @@ jobs:
           Workflow: ${{ github.workflow }}
           Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
 
-
-  # 🚨 Notify on failure
   notify-on-failure:
     needs: deploy
     runs-on: ubuntu-latest
@@ -92,4 +88,3 @@ jobs:
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
           Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
-
