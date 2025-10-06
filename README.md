@@ -71,4 +71,4 @@ This is a personal website, but feel free to look around and take inspiration!
 
 ---
 
-Made with 💚 by [TheOnlyFrogs](https://theonlyfrogs.neocities.org)
+Made with 💚 by [TheOnlyFrogs](https://theonlyfrogs.com)
