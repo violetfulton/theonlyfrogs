@@ -1,8 +1,8 @@
-name: Build and deploy to Neocities
+name: Auto Build and Deploy to Neocities
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 * * * *"   # check every 10 minutes
   push:
     branches:
       - main
@@ -31,27 +31,47 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Restore previous Firebase hash so we can compare later
+      - name: Restore last Firebase hash
+        uses: actions/cache@v4
+        with:
+          path: .lastFirebaseHash
+          key: firebase-hash
+
       - name: Pull latest posts from Firebase
         run: |
           echo "$FIREBASE_SERVICE_ACCOUNT" > serviceAccount.json
           node ./content/_scripts/fetchFirebasePosts.js
 
+      - name: Check for Firebase changes
+        run: node ./content/_scripts/checkForChanges.mjs
+
       - name: Build Eleventy
+        if: success()
         run: npm run build
 
       - name: Deploy to Neocities
+        if: success()
         uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_API_KEY }}
           cleanup: true
           dist_dir: public
 
+      # Save updated Firebase hash after successful deploy
+      - name: Save Firebase hash
+        if: success()
+        uses: actions/cache@v4
+        with:
+          path: .lastFirebaseHash
+          key: firebase-hash
+
       - name: Post build summary
         if: success()
         run: |
           echo "✅ Build & Deploy Successful!" >> $GITHUB_STEP_SUMMARY
           echo "Deployed at: $(date)" >> $GITHUB_STEP_SUMMARY
-          echo "Visit your site: https://theonlyfrogs.neocities.org" >> $GITHUB_STEP_SUMMARY
+          echo "Visit your site: https://theonlyfrogs.com" >> $GITHUB_STEP_SUMMARY
 
       - name: Notify Discord on success
         if: success()
@@ -61,6 +81,7 @@ jobs:
           Workflow: ${{ github.workflow }}
           Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
 
+  # 🚨 Notify on failure
   notify-on-failure:
     needs: deploy
     runs-on: ubuntu-latest
