@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <title>{{ title or "The Only Frogs Blog" }}</title>
+  <title>{{ title or "Blog" }}</title>
   <link rel="stylesheet" href="/assets/css/blog.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
   <header class="blog-header">
-    <a href="/blog/"><img src="/assets/imgs/graphics/blog.gif" alt="Blog"></a>
+    <a href="/blog/">
+      <img src="/assets/imgs/graphics/blog.gif" alt="Blog" class="blog-title-img">
+    </a>
   </header>
 
   <div class="blog-layout">
@@ -18,7 +18,9 @@
     </main>
 
     <aside class="blog-sidebar">
-      <h3>Archives<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h3>
+      <h3>Archives
+        <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+      </h3>
       <ul>
         {% for y in collections.years %}
           <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
