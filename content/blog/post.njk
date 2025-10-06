@@ -1,20 +1,20 @@
 ---
+layout: blogBase.njk
 pagination:
-  data: posts
+  data: collections.posts
   size: 1
   alias: post
-permalink: "/blog/{{ post.year }}/{{ post.slug }}/index.html"
-layout: blogBase.njk
+permalink: "/blog/{{ post.date | date('yyyy') }}/{{ post.fileSlug }}/index.html"
 ---
 
 
 <article class="post">
-  <h1>{{ post.title }}</h1>
-  {% if post.createdAt %}
-    <p class="date">{{ post.createdAt | readableDate }}</p>
+  <h1>{{ post.data.title }}</h1>
+  {% if post.date %}
+    <p class="date">{{ post.date | readableDate }}</p>
   {% endif %}
   <div class="content">
-    {{ post.content | safe }}
+    {{ post.templateContent | safe }}
   </div>
 </article>
 

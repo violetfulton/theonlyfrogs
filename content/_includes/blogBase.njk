@@ -14,7 +14,7 @@
     </a>
   </header>
 
-  <!-- Blog Container -->
+  <!-- Layout -->
   <div class="blog-layout">
     <main class="blog-main">
       <div class="hanging-sticker">
@@ -24,8 +24,7 @@
       {{ content | safe }}
     </main>
 
-    {# ✅ Fixed conditional for sidebar #}
-{% if page.url and (page.url == '/blog/' or (page.url | slice(0, 13)) == '/blog/archive') %}
+ {% if page.url and (page.url == '/blog/' or page.url | startsWith('/blog/archive')) %}
   <aside class="blog-sidebar">
     <h3>Archives
       <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
@@ -42,8 +41,6 @@
     {% endif %}
   </aside>
 {% endif %}
-
-  </div>
 
   <!-- Footer -->
   <footer>

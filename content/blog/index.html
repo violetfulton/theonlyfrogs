@@ -4,16 +4,21 @@ title: "Blog"
 permalink: /blog/index.html
 ---
 
-
-<h2>Latest Posts<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h2>
+<h1>Latest Posts
+  <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+</h1>
 
 <ul>
-{% for post in posts %}
+{% for post in collections.posts | slice(0, 10) %}
   <li>
-    <a href="/blog/{{ post.year }}/{{ post.slug }}/">{{ post.title }}</a>
-    {% if post.createdAt %}
-      <small>{{ post.createdAt | readableDate }}</small>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+    {% if post.date %}
+      <small>— {{ post.date | readableDate }}</small>
     {% endif %}
   </li>
+{% else %}
+  <li>No posts found yet!</li>
 {% endfor %}
 </ul>
+
+<p class="archive-link"><a href="/blog/archive/">→ View Full Archive</a></p>
