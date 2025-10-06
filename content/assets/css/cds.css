@@ -80,29 +80,43 @@ body {
   background: rgba(34, 34, 34, 0.8);
   border-radius: 10px;
   text-align: center;
-  width: 400px;
+  width: 500px; /* Increased width to accommodate flexbox layout */
   max-width: 90vw; /* Responsive width */
 }
 
-
-.cd-details img {
-  width: 100%;
-  max-width: 300px; /* Limit the size of the album art */
-  border-radius: 10px;
+.cddescs {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: left;
 }
 
-/* Remove tilt effect for images in cddescs */
 .cddescs img {
   transition: none; /* Disable transition for tilt effect */
-   width: 145px;
-  height: 145px; /* Ensure CD images are square */
-  display: inline-block;
-  margin-right: 8px;
-  margin-left: 8px;
+  width: 120px; /* Slightly smaller for better proportion */
+  height: 120px; /* Ensure CD images are square */
+  flex-shrink: 0; /* Prevent image from shrinking */
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .cddescs img:hover {
   transform: none; /* Disable tilt effect on hover */
+}
+
+.cddescs .cd-text {
+  flex: 1;
+  padding-left: 10px; /* Add some spacing from the image */
+}
+
+.cddescs .cd-text h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.cddescs .cd-text p {
+  margin-bottom: 4px;
+  font-size: 14px;
 }
 
 /* ===== Miscellaneous ===== */
@@ -155,26 +169,6 @@ h1 {
 
 a {
   color: cyan;
-}
-
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: rgba(115, 201, 154, 0.8); /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: rgba(12, 107, 107, 0.806); /* Add a dark-grey background on hover */
 }
 
 button {

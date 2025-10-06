@@ -23,10 +23,12 @@ permalink: /cds/
 <div id="cd-{{ loop.index0 }}" class="cd-details">
   <div class="cddescs"> <!-- Wrapped in cddescs div -->
     <img src="{{ cd.image }}" alt="{{ cd.title }}" class="cd"> <!-- Added image here -->
-    <h2>{{ cd.title }}</h2>
-    <p>Artist: {{ cd.artist }}</p>
-    <p>Released: {{ cd.year }}</p>
-    <p>Bop or Flop: {{ cd.bop_or_flop }}</p>
+    <div class="cd-text">
+      <h2>{{ cd.title }}</h2>
+      <p>Artist: {{ cd.artist }}</p>
+      <p>Released: {{ cd.year }}</p>
+      <p>Bop or Flop: {{ cd.bop_or_flop }}</p>
+    </div>
   </div>
 </div>
 {% endfor %}
