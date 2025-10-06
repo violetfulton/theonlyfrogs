@@ -51,3 +51,5 @@ pids/
 tmp/
 temp/
 .DS_Store
+
+content/_scripts/firebaseConfig.js
