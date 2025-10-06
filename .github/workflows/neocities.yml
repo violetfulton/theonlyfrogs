@@ -57,10 +57,12 @@ jobs:
       # ✅ Send success notification to Discord
       - name: Notify Discord on success
         if: success()
-        run: |
-          curl -H "Content-Type: application/json" \
-               -d '{"content": "✅ **Neocities Deploy Successful!**\nRepository: '${{ github.repository }}'\nWorkflow: '${{ github.workflow }}'\nRun: https://github.com/'${{ github.repository }}'/actions/runs/'${{ github.run_id }}'"}' \
-               ${{ secrets.DISCORD_WEBHOOK }}
+        run: >
+          curl -H "Content-Type: application/json" -d "{\"content\":\"✅ **Neocities Deploy Successful!**
+          Repository: ${{ github.repository }}
+          Workflow: ${{ github.workflow }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
+
 
   # 🚨 Notify on failure
   notify-on-failure:
@@ -85,7 +87,9 @@ jobs:
             Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
       - name: Send failure message to Discord
-        run: |
-          curl -H "Content-Type: application/json" \
-               -d '{"content": "🚨 **Neocities Deploy Failed!**\nRepository: '${{ github.repository }}'\nWorkflow: '${{ github.workflow }}'\nRun: https://github.com/'${{ github.repository }}'/actions/runs/'${{ github.run_id }}'"}' \
-               ${{ secrets.DISCORD_WEBHOOK }}
+        run: >
+          curl -H "Content-Type: application/json" -d "{\"content\":\"🚨 **Neocities Deploy Failed!**
+          Repository: ${{ github.repository }}
+          Workflow: ${{ github.workflow }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
+
