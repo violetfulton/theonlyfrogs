@@ -2,54 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ title or "Blog" }}</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "The Only Frogs Blog" }}</title>
   <link rel="stylesheet" href="/assets/css/blog.css">
-
-  <!-- Optional favicon -->
-  <link rel="icon" href="/assets/imgs/graphics/blog.gif" type="image/gif">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
+
   <header class="blog-header">
-    <a href="/blog/" class="blog-logo">
-      <img src="/assets/imgs/graphics/blog.gif" alt="Blog home">
-    </a>
+    <a href="/blog/"><img src="/assets/imgs/graphics/blog.gif" alt="Blog"></a>
   </header>
 
   <div class="blog-container">
-      <!-- Sidebar / Archive Drawer -->
-<input type="checkbox" id="toggle-archive" class="toggle-checkbox">
-<label for="toggle-archive" class="toggle-button">☰ Archives</label>
-
-<aside class="sidebar">
-  <h3>Archives
-    <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
-  </h3>
-  <ul class="archive-list">
-    {% if posts %}
-      {% set years = posts | map(attribute="year") | unique | sort(false) | reverse %}
-      {% for y in years %}
-        <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
-      {% endfor %}
-    {% else %}
-      <li><em>No archives yet.</em></li>
-    {% endif %}
-  </ul>
-</aside>
-
-
     <main class="blog-main">
-      <div class="sticker">
+      <div class="hanging-sticker">
         <img src="/assets/imgs/graphics/hangerpill.gif" alt="Sticker">
       </div>
       {{ content | safe }}
     </main>
+
+    <aside class="sidebar">
+      <h3>Archives
+        <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+      </h3>
+      <ul>
+        {% for y in collections.years %}
+          <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
   </div>
 
-  <footer class="blog-footer">
+  <footer>
     <p>return <a href="/">home.</a></p>
   </footer>
+
 </body>
 </html>

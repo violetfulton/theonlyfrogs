@@ -288,3 +288,61 @@ ul li a:hover {
     z-index: 998;
   }
 }
+/* === Layout Fix === */
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.blog-main {
+  flex: 2;
+  position: relative;
+  background-color: #222;
+  color: #f0f0f0;
+  padding: 1.5em;
+  border-radius: 8px;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.sidebar {
+  flex: 1;
+  background: #1a1a1a;
+  color: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 0.4em 0;
+}
+
+.sidebar a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #ffb3d9;
+  text-decoration: underline;
+}
+
+.blog-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 2rem;
+}
