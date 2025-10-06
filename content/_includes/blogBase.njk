@@ -1,34 +1,49 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>{{ title or "Blog" }}</title>
   <link rel="stylesheet" href="/assets/css/blog.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <!-- Header -->
   <header class="blog-header">
     <a href="/blog/">
       <img src="/assets/imgs/graphics/blog.gif" alt="Blog" class="blog-title-img">
     </a>
   </header>
 
+  <!-- Blog Container -->
   <div class="blog-layout">
     <main class="blog-main">
+      <div class="hanging-sticker">
+        <img src="/assets/imgs/graphics/hangerpill.gif" alt="Sticker">
+      </div>
+
       {{ content | safe }}
     </main>
 
-    <aside class="blog-sidebar">
-      <h3>Archives
-        <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
-      </h3>
-      <ul>
-        {% for y in collections.years %}
-          <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
-        {% endfor %}
-      </ul>
-    </aside>
+    {% if page.url == '/blog/' or page.url startsWith('/blog/archive') %}
+      <aside class="blog-sidebar">
+        <h3>Archives
+          <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+        </h3>
+
+        {% if collections.years %}
+          <ul>
+            {% for y in collections.years %}
+              <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p>No posts yet.</p>
+        {% endif %}
+      </aside>
+    {% endif %}
   </div>
 
+  <!-- Footer -->
   <footer>
     <p>return <a href="/">home.</a></p>
   </footer>

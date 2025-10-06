@@ -4,12 +4,19 @@ title: "Blog Archive"
 permalink: "/blog/archive/index.html"
 ---
 
-<h1>Blog Archive<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h1>
+<h1>Blog Archive
+  <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
+</h1>
 
-{% set years = posts | map('year') | unique | sort(false) | reverse %}
-{% for year in years %}
-  {% set count = (posts | selectattr("year", "equalto", year) | length) %}
-  <section class="archive-year">
-    <h2><a href="/blog/archive/{{ year }}/">{{ year }}</a> ({{ count }})</h2>
-  </section>
-{% endfor %}
+{% if collections.years %}
+  <ul class="year-list">
+    {% for year in collections.years %}
+      <li>
+        <a href="/blog/archive/{{ year }}/">{{ year }}</a>
+        <small>({{ collections.postsByYear[year].length }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No posts yet.</p>
+{% endif %}
