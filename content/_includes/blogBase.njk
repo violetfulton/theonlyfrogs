@@ -6,24 +6,20 @@
   <link rel="stylesheet" href="/assets/css/blog.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
 
+<body>
   <header class="blog-header">
-    <a href="/blog/"><img src="/assets/imgs/graphics/blog.gif" alt="Blog"></a>
+    <a href="/blog/"><img src="/assets/imgs/graphics/blog.gif" alt="Blog Title" class="blog-title-img"></a>
   </header>
 
-  <div class="blog-container">
+  <div class="blog-layout">
     <main class="blog-main">
-      <div class="hanging-sticker">
-        <img src="/assets/imgs/graphics/hangerpill.gif" alt="Sticker">
-      </div>
       {{ content | safe }}
+      <p><a href="/blog/">← Back to Blog</a></p>
     </main>
 
-    <aside class="sidebar">
-      <h3>Archives
-        <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
-      </h3>
+    <aside class="blog-sidebar">
+      <h2>Archives<img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon"></h2>
       <ul>
         {% for y in collections.years %}
           <li><a href="/blog/archive/{{ y }}/">{{ y }}</a></li>
@@ -35,6 +31,5 @@
   <footer>
     <p>return <a href="/">home.</a></p>
   </footer>
-
 </body>
 </html>
