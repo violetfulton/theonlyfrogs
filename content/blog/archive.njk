@@ -2,18 +2,22 @@
 layout: blogBase.njk
 title: "Blog Archive"
 permalink: "/blog/archive/index.html"
-eleventyComputed:
-  posts: collections.posts
 ---
 
 <h1>Blog Archive
   <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
 </h1>
 
-{% set years = posts | map('date') | map('getFullYear') | unique | sort(false) | reverse %}
-{% for year in years %}
-  {% set count = posts | selectattr("date", "defined") | selectattr("date.getFullYear()", "equalto", year) | length %}
-  <section class="archive-year">
-    <h2><a href="/blog/archive/{{ year }}/">{{ year }}</a> ({{ count }})</h2>
-  </section>
-{% endfor %}
+{% if collections.years %}
+  <ul>
+    {% for y in collections.years %}
+      <li>
+        <a href="/blog/archive/{{ y }}/">{{ y }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No posts found.</p>
+{% endif %}
+
+<p class="back-link"><a href="/blog/">← Back to Blog</a></p>
