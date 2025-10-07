@@ -1,17 +1,30 @@
 ---
 layout: base.njk
-title: "All Statuses"
-permalink: "/pages/statuses/index.html"
+title: "Statuses"
+permalink: /statuses/index.html
 customcss: '/assets/css/style.css'
 ---
 
-<div id="main">
-  <div class="mainboxes">
-    <div class="subheader">
-      <h3>🐸 All Statuses</h3>
+<section id="container">
+  <div id="box">
+
+    <div id="header">
+      <h1>🐸 Status Feed</h1>
     </div>
-    <div class="mainboxescontent">
-      {% include "status-list.njk" %}
-    </div>
+
+    <section class="status-section">
+      <p style="text-align:center; margin-bottom:1rem;">
+        All my recent moods, directly from <a href="https://status.cafe/users/frogs" target="_blank">StatusCafe</a> 💚
+      </p>
+
+      <div id="feed-reader-all" class="status-list" data-status-feed="all">
+        Loading all moods...
+      </div>
+    </section>
+
+    <footer style="text-align:center; margin-top:2rem;">
+      <a href="/">← Return Home</a>
+    </footer>
+
   </div>
-</div>
+</section>

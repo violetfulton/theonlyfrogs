@@ -1,20 +1,50 @@
 ---
 layout: blogBase.njk
 title: "Blog Archive"
-permalink: "/blog/archive/index.html"
+permalink: /blog/archive/index.html
 ---
 
-<h1>Blog Archive
+{# ✅ Ensure only one copy per slug/year in Nunjucks context #}
+{% set dedupedFirebasePosts = [] %}
+{% set seenSlugs = [] %}
+{% for p in firebasePosts %}
+  {% set key = p.slug ~ '-' ~ p.year %}
+  {% if key not in seenSlugs %}
+    {% set _ = seenSlugs.push(key) %}
+    {% set _ = dedupedFirebasePosts.push(p) %}
+  {% endif %}
+{% endfor %}
+{% set firebasePosts = dedupedFirebasePosts %}
+
+<h1>
+  Blog Archive
   <img src="/assets/imgs/graphics/syringe.gif" alt="Icon" class="heading-icon">
 </h1>
 
-<ul class="archive-year-list">
-  {% for year, posts in postsByYear %}
-    <li>
-      <a href="/blog/archive/{{ year }}/">{{ year }}</a>
-      <span class="count">({{ posts | length }})</span>
+<ul class="blog-archive-list">
+  {% set uniqueYears = (years | uniq) | sort(false) %}
+  {% for y in uniqueYears %}
+    {% set postsForYear = [] %}
+    {% for p in firebasePosts %}
+      {% if p.year == y %}
+        {% set _ = postsForYear.push(p) %}
+      {% endif %}
+    {% endfor %}
+    {% set postsForYear = postsForYear | unique(attribute='slug') %}
+
+    <li class="blog-item">
+      <a href="/blog/archive/{{ y }}/" class="blog-link">{{ y }}</a>
+      <small class="blog-date">
+        ({{ postsForYear | length }}
+        {% if postsForYear | length == 1 %}post{% else %}posts{% endif %})
+      </small>
     </li>
   {% endfor %}
 </ul>
 
-<p class="back-link"><a href="/blog/">← Back to Blog</a></p>
+<hr style="margin: 2rem 0;">
+
+<div class="archive-link-container">
+  <a href="/blog/" class="archive-link">← Back to Blog</a>
+  <div class="blood-drip"></div>
+</div>

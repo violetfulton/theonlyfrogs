@@ -432,3 +432,25 @@ border: none;
   from { opacity: 0; transform: translateY(3px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.status-bubble {
+  border: 1px solid #4caf50;
+  background: #e8f5e9;
+  border-radius: 12px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.status-date {
+  display: block;
+  font-size: 0.8rem;
+  color: #388e3c;
+  margin-bottom: 0.25rem;
+}
+
+.status-text {
+  font-family: 'Gaegu', sans-serif;
+  line-height: 1.4;
+}
+

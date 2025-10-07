@@ -1,29 +1,28 @@
 {
   "name": "theonlyfrogs",
   "version": "1.0.0",
-  "description": "the site of theonlyfrogs",
-  "main": "index.html",
+  "description": "Personal site built with Eleventy, Firebase, and Discogs integrations.",
+  "type": "module",
   "scripts": {
+    "start": "eleventy --serve",
     "build": "eleventy",
-    "watch": "eleventy --serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/violetfulton/theonlyfrogs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/violetfulton/theonlyfrogs/issues"
-  },
-  "homepage": "https://github.com/violetfulton/theonlyfrogs#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "fetch:firebase": "node ./content/_scripts/fetchFirebasePosts.js",
+    "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js"
   },
   "dependencies": {
-    "@11ty/eleventy-fetch": "^5.1.0",
     "dotenv": "^17.2.2",
     "jsonwebtoken": "^9.0.2",
+    "luxon": "^3.4.4",
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.0.0",
+    "@11ty/eleventy-dev-server": "2.0.3",
+    "@11ty/dependency-tree": "3.0.1",
+    "eslint": "^9.12.0",
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }

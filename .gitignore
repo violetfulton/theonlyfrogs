@@ -55,3 +55,16 @@ temp/
 content/_scripts/firebaseConfig.js
 
 serviceAccount.json
+
+# Environment & secrets
+.env
+serviceAccount.json
+
+# Build artifacts
+public/
+.cache/
+node_modules/
+
+# Local only
+.DS_Store
+

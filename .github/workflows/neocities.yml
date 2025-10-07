@@ -2,7 +2,8 @@ name: Auto Build and Deploy to Neocities
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # check every 10 minutes
+    - cron: "0 0 * * *"   # run once per day at 00:00 UTC
+
   push:
     branches:
       - main

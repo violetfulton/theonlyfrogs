@@ -1,5 +1,5 @@
 // === StatusCafe Feed Loader ===
-const feedURL = 'https://status.cafe/users/frogs.atom'; // 🐸 replace if needed
+const feedURL = 'https://status.cafe/users/frogs.atom'; // ✅ correct Atom feed URL
 const feedContainers = document.querySelectorAll("[data-status-feed]");
 const numToShow = 10; // how many to fetch total (list page can show them all)
 

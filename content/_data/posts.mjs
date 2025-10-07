@@ -1,23 +1,26 @@
-import fetch from "node-fetch";
+import fs from "fs";
 
-export default async function () {
-  const project = "theonlyfrogs-blog"; // change this
-  const url = `https://firestore.googleapis.com/v1/projects/${project}/databases/(default)/documents/posts`;
-
+export default function () {
   try {
-    const res = await fetch(url);
-    const data = await res.json();
+    const raw = fs.readFileSync("./content/_data/posts.json", "utf8");
+    const posts = JSON.parse(raw);
 
-    return (data.documents || []).map(doc => {
-      const f = doc.fields;
-      return {
-        title: f.title.stringValue,
-        content: f.content.stringValue,
-        createdAt: f.createdAt?.timestampValue || null
-      };
-    }).sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-  } catch (e) {
-    console.error("Error fetching posts:", e);
+    // Convert fields for Eleventy
+    return posts.map((post) => ({
+      data: {
+        title: post.title,
+        content: post.content,
+        createdAt: post.createdAt,
+        year: post.year,
+        slug: post.slug,
+        date: new Date(post.createdAt),
+        tags: ["posts"], // 👈 crucial for Eleventy collections
+      },
+      date: new Date(post.createdAt),
+    }));
+  } catch (err) {
+    console.warn("⚠️ Unable to load posts.json:", err);
     return [];
   }
 }
+// ------------------------------------

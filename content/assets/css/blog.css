@@ -1,6 +1,6 @@
-/* ---------------------------------------------------
-   Font & Base Styles
---------------------------------------------------- */
+/* ==============================================
+   FONTS & BASE STYLES
+============================================== */
 @font-face {
   font-family: 'Alice';
   src: url('/assets/fonts/Alice_in_Wonderland_3.ttf') format('truetype');
@@ -9,106 +9,16 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  color: #f0f0f0;
+  background: url('/assets/imgs/bg/batspink.jpg') no-repeat fixed center/cover;
   margin: 2em auto;
   padding: 0 1em;
-  background: url('/assets/imgs/bg/batspink.jpg') no-repeat fixed center/cover;
-  color: #f0f0f0;
   max-width: 1000px;
 }
 
-/* ---------------------------------------------------
-   Header
---------------------------------------------------- */
-.blog-header {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.blog-header img {
-  max-width: 300px;
-  height: auto;
-}
-
-/* ---------------------------------------------------
-   Blog Layout
---------------------------------------------------- */
-/* === BLOG LAYOUT === */
-.blog-layout {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 1rem;
-  position: relative;
-}
-
-/* Main content area */
-.blog-main {
-  flex: 2;
-  background: rgba(34, 34, 34, 0.9);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1.5rem;
-  color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-/* Fixed sidebar (stays visible while scrolling) */
-.blog-sidebar {
-  flex: 1;
-  position: sticky;
-  top: 2rem; /* adjust spacing from top of screen */
-  align-self: flex-start;
-  background: rgba(26, 26, 26, 0.85);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1rem;
-  color: #ffb3d9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  height: fit-content;
-  z-index: 5;
-}
-
-/* Sidebar links */
-.blog-sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.blog-sidebar li {
-  margin: 0.4em 0;
-}
-
-.blog-sidebar a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-.blog-sidebar a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-/* Responsive (stack layout on mobile) */
-@media (max-width: 800px) {
-  .blog-layout {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .blog-sidebar {
-    position: static; /* disable fixed behavior on mobile */
-    margin-top: 1.5rem;
-  }
-}
-
-
-/* ---------------------------------------------------
-   Headings
---------------------------------------------------- */
+/* ==============================================
+   HEADERS
+============================================== */
 h1, h2, h3 {
   font-family: 'Alice', serif;
   color: #fefefe;
@@ -135,9 +45,91 @@ h1::after, h2::after, h3::after {
   vertical-align: middle;
 }
 
-/* ---------------------------------------------------
-   Links
---------------------------------------------------- */
+/* ==============================================
+   BLOG LAYOUT
+============================================== */
+.blog-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+.blog-main {
+  flex: 2;
+  background: rgba(34, 34, 34, 0.9);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.blog-sidebar {
+  flex: 1;
+  position: sticky;
+  top: 2rem;
+  background: rgba(26, 26, 26, 0.85);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #ffb3d9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  height: fit-content;
+}
+
+/* Sidebar links */
+.blog-sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-sidebar a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+.blog-sidebar a:hover {
+  color: #ffb3d9;
+  text-decoration: underline;
+}
+
+/* ==============================================
+   BLOG LIST
+============================================== */
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.blog-item {
+  margin-bottom: 1rem;
+}
+
+.blog-link {
+  font-weight: bold;
+  color: #ffb3d9;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  text-decoration: underline;
+  color: #ff69b4;
+}
+
+.blog-date {
+  display: block;
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* ==============================================
+   LINKS
+============================================== */
 a {
   color: #ff69b4;
   text-decoration: none;
@@ -148,42 +140,9 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---------------------------------------------------
-   Lists
---------------------------------------------------- */
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  margin-bottom: 1em;
-}
-
-ul li a {
-  color: #ff69b4;
-}
-
-ul li a:hover {
-  color: #ffb3d9;
-}
-
-/* ---------------------------------------------------
-   Post & New Tag
---------------------------------------------------- */
-.new-tag {
-  display: inline-block;
-  background: #ff69b4;
-  color: #fff;
-  padding: 0.2em 0.5em;
-  border-radius: 4px;
-  font-size: 0.8em;
-  vertical-align: middle;
-}
-
-/* ---------------------------------------------------
-   Footer
---------------------------------------------------- */
+/* ==============================================
+   FOOTER
+============================================== */
 footer {
   text-align: center;
   font-size: 0.85em;
@@ -198,17 +157,15 @@ footer {
 
 footer a {
   color: #ff69b4;
-  text-decoration: none;
 }
 
 footer a:hover {
   color: #ffb3d9;
-  text-decoration: underline;
 }
 
-/* ---------------------------------------------------
-   Responsive Design
---------------------------------------------------- */
+/* ==============================================
+   RESPONSIVE DESIGN
+============================================== */
 @media (max-width: 800px) {
   .blog-layout {
     flex-direction: column;
@@ -217,56 +174,107 @@ footer a:hover {
   }
 
   .blog-sidebar {
-    width: 100%;
-    order: 2;
-    margin-top: 1.5em;
+    position: static;
+    margin-top: 1.5rem;
   }
 
   .blog-main {
     order: 1;
   }
-}
 
-.archive-link {
-  text-align: center;
-  margin-top: 2em;
+  .archive-link {
+    font-size: 1.1em;
+  }
+}
+/* ==============================================
+   ARCHIVE BUTTON + BLOOD DRIP (FIXED)
+============================================== */
+.archive-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 🎯 centers both button and drip together */
+  justify-content: center;
   position: relative;
+  margin: 2em auto 3em;
+  width: fit-content; /* ✨ only as wide as the button */
+  text-align: center;
 }
 
-.archive-button {
-  display: inline-block;
-  background: linear-gradient(to bottom, #ff69b4, #ff1493);
+/* Pink button */
+.archive-link {
+  display: block;
+  background: linear-gradient(to bottom, #ff6fb3, #ff1493);
   color: #fff;
   font-family: 'Alice', serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   letter-spacing: 1px;
   text-decoration: none;
-  padding: 0.6em 1.5em;
-  border-radius: 8px 8px 0 0;
+  padding: 0.6em 1.8em;
   border: 2px solid #ff69b4;
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+  transition: all 0.25s ease;
   position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 12px rgba(255, 105, 180, 0.4);
-  transition: all 0.3s ease;
+  z-index: 2;
 }
 
-.archive-button::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -18px;
+.blood-drip {
   width: 100%;
-  height: 25px;
-  background: url('/assets/imgs/graphics/pinkblooddrip.webp') no-repeat center/cover;
-  transition: transform 0.3s ease;
+  height: 68px; /* little taller, more visible blood */
+  background: url('/assets/imgs/graphics/pinkblooddrip.webp') no-repeat center top / 160%;
+  background-position: center 0;
+  position: absolute;
+  left: 50%;
+  top: 100%;        /* sits directly on button edge */
+  transform: translateX(-50%);
+  margin-top: -1px; /* 🩸 removes the tiny seam */
+  z-index: 1;
+  pointer-events: none;
+  transition: transform 0.25s ease, filter 0.5s ease;
+
+  filter: brightness(0.85) contrast(1.2) saturate(1.5)
+          drop-shadow(0 3px 5px rgba(255, 0, 64, 0.3));
 }
 
-.archive-button:hover {
-  background: linear-gradient(to bottom, #ff85c1, #ff3da1);
-  box-shadow: 0 0 18px rgba(255, 105, 180, 0.7);
+/* Hover lift stays unified */
+.archive-link-container:hover .archive-link {
+  background: linear-gradient(to bottom, #ff8ec9, #ff3da1);
+  box-shadow: 0 6px 14px rgba(255, 105, 180, 0.5);
   transform: translateY(-2px);
 }
 
-.archive-button:hover::after {
-  transform: translateY(2px);
+.archive-link-container:hover .blood-drip {
+  transform: translate(-50%, -2px);
+  filter: brightness(0.95) contrast(1.4) saturate(1.8)
+          drop-shadow(0 4px 8px rgba(255, 0, 90, 0.4));
+}
+
+.hanging-sticker {
+  position: fixed;
+  top: 0;                 /* ⬆️ sits right at the top edge */
+  right: 40px;            /* distance from right edge */
+  z-index: 50;
+  pointer-events: none;
+  animation: floaty 4s ease-in-out infinite;
+}
+
+.hanging-sticker img {
+  width: 80px;            /* adjust to your liking */
+  height: auto;
+  transform-origin: top center; /* so the swing looks natural */
+  animation: swing 3s ease-in-out infinite alternate;
+  margin-top: 0;          /* ensures no accidental gap */
+}
+
+/* Gentle float up/down */
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); } /* soft bobbing motion */
+}
+
+/* Subtle left-right sway */
+@keyframes swing {
+  0% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
 }
