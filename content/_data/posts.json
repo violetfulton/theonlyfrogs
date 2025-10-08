@@ -1,19 +1,19 @@
 [
   {
-    "title": "image test",
-    "slug": "image-test-e3c6",
-    "content": "images mibe?\n\n<div class=\"image-gallery\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946035241-DSCN0008.JPG?alt=media&token=988d75b0-5ddd-4a2c-83ea-ec5e57f7d8fb\" alt=\"DSCN0008.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946038101-DSCN0009.JPG?alt=media&token=df962dae-ac7b-4f3a-9233-347eec72b546\" alt=\"DSCN0009.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946040675-DSCN0016.JPG?alt=media&token=47c021b1-d120-45f2-b1b8-a59939ebb8fd\" alt=\"DSCN0016.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946042806-DSCN0026.JPG?alt=media&token=b25c2ef4-8cba-410b-8ebd-184e978b628c\" alt=\"DSCN0026.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946044994-DSCN0027.JPG?alt=media&token=92bba9ff-bb7d-476e-847c-f728edd1de40\" alt=\"DSCN0027.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946046792-DSCN0028.JPG?alt=media&token=b91f1d94-b04e-4799-86be-491c376390a4\" alt=\"DSCN0028.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946049300-DSCN0033.JPG?alt=media&token=1394b627-538d-4f4e-837a-bc7335fc75ec\" alt=\"DSCN0033.JPG\" class=\"gallery-image\">\n</div>\n\n\n\n![DSCN0034.JPG](https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946058086-DSCN0034.JPG?alt=media&token=66932b83-6d3c-4d9e-8011-d26d9a427799)\n\n",
-    "createdAt": "2025-10-08T17:55:16.893Z",
+    "title": "testest",
+    "slug": "testest-b977",
+    "content": "testing since image upload feature borked",
+    "createdAt": "2025-10-08T18:00:01.395Z",
     "year": 2025,
     "tags": [
       "posts"
     ]
   },
   {
-    "title": "testest",
-    "slug": "testest-e3c6",
-    "content": "testing since image upload feature borked",
-    "createdAt": "2025-10-08T17:55:16.893Z",
+    "title": "image test",
+    "slug": "image-test-d4ac",
+    "content": "images mibe?\n\n<div class=\"image-gallery\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946035241-DSCN0008.JPG?alt=media&token=988d75b0-5ddd-4a2c-83ea-ec5e57f7d8fb\" alt=\"DSCN0008.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946038101-DSCN0009.JPG?alt=media&token=df962dae-ac7b-4f3a-9233-347eec72b546\" alt=\"DSCN0009.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946040675-DSCN0016.JPG?alt=media&token=47c021b1-d120-45f2-b1b8-a59939ebb8fd\" alt=\"DSCN0016.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946042806-DSCN0026.JPG?alt=media&token=b25c2ef4-8cba-410b-8ebd-184e978b628c\" alt=\"DSCN0026.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946044994-DSCN0027.JPG?alt=media&token=92bba9ff-bb7d-476e-847c-f728edd1de40\" alt=\"DSCN0027.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946046792-DSCN0028.JPG?alt=media&token=b91f1d94-b04e-4799-86be-491c376390a4\" alt=\"DSCN0028.JPG\" class=\"gallery-image\">\n  <img src=\"https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946049300-DSCN0033.JPG?alt=media&token=1394b627-538d-4f4e-837a-bc7335fc75ec\" alt=\"DSCN0033.JPG\" class=\"gallery-image\">\n</div>\n\n\n\n![DSCN0034.JPG](https://firebasestorage.googleapis.com/v0/b/theonlyfrogs-blog.firebasestorage.app/o/blog-images%2Fimage-test%2F1759946058086-DSCN0034.JPG?alt=media&token=66932b83-6d3c-4d9e-8011-d26d9a427799)\n\n",
+    "createdAt": "2025-10-08T18:00:01.394Z",
     "year": 2025,
     "tags": [
       "posts"
