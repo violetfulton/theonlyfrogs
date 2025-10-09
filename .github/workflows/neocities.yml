@@ -1,9 +1,5 @@
 name: Auto Build and Deploy to Neocities
-
 on:
-  schedule:
-    - cron: "0 0 * * *"   # run once per day at 00:00 UTC
-
   push:
     branches:
       - main
@@ -13,7 +9,6 @@ env:
   DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
   DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-  FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
 
 jobs:
   deploy:
@@ -32,20 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Restore previous Firebase hash so we can compare later
-      - name: Restore last Firebase hash
-        uses: actions/cache@v4
-        with:
-          path: .lastFirebaseHash
-          key: firebase-hash
-
-      - name: Pull latest posts from Firebase
-        run: |
-          echo "$FIREBASE_SERVICE_ACCOUNT" > serviceAccount.json
-          node ./content/_scripts/fetchFirebasePosts.js
-
-      - name: Check for Firebase changes
-        run: node ./content/_scripts/checkForChanges.mjs
 
       - name: Build Eleventy
         if: success()
@@ -58,14 +39,6 @@ jobs:
           api_token: ${{ secrets.NEOCITIES_API_KEY }}
           cleanup: true
           dist_dir: public
-
-      # Save updated Firebase hash after successful deploy
-      - name: Save Firebase hash
-        if: success()
-        uses: actions/cache@v4
-        with:
-          path: .lastFirebaseHash
-          key: firebase-hash
 
       - name: Post build summary
         if: success()

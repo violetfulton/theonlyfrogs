@@ -1,12 +1,11 @@
 {
   "name": "theonlyfrogs",
   "version": "1.0.0",
-  "description": "Personal site built with Eleventy, Firebase, and Discogs integrations.",
+  "description": "Personal site built with Eleventy and Discogs integrations.",
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "fetch:firebase": "node ./content/_scripts/fetchFirebasePosts.js",
     "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js"
   },
   "dependencies": {

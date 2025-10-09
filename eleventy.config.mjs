@@ -15,19 +15,6 @@ dotenv.config();
   }
 
   try {
-    const firebaseScript = "./content/_scripts/fetchFirebasePosts.js";
-    if (fs.existsSync(firebaseScript)) {
-      console.log("🔥 Fetching latest posts from Firebase...");
-      execSync(`node ${firebaseScript}`, { stdio: "inherit", timeout: 20000 });
-      console.log("✅ Firebase sync complete.");
-    } else {
-      console.warn("⚠️ fetchFirebasePosts.js not found — skipping Firebase fetch.");
-    }
-  } catch (err) {
-    console.error("❌ Failed to fetch Firebase posts:", err.message);
-  }
-
-  try {
     const discogsScript = "./content/_scripts/fetchDiscogsCache.js";
     if (fs.existsSync(discogsScript)) {
       console.log("💿 Fetching latest Discogs cache...");
@@ -48,132 +35,11 @@ dotenv.config();
 // ------------------------------------
 export default function (eleventyConfig) {
 
-  // 🧽 Prevent .11ty.js generated pages from feeding into the firebasePosts list
-eleventyConfig.addGlobalData("firebasePosts", () => {
-  try {
-    const raw = fs.readFileSync("./content/_data/posts.json", "utf8");
-    const posts = JSON.parse(raw);
 
-    const unique = [];
-    const seen = new Set();
-
-    for (const p of posts) {
-      const key = `${p.slug}-${p.year}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        unique.push({
-          ...p,
-          date: new Date(p.createdAt),
-        });
-      }
-    }
-
-    console.log(`🧩 Firebase unique posts after dedupe: ${unique.length}`);
-    return unique;
-  } catch (err) {
-    console.warn("⚠️ No Firebase posts found:", err.message);
-    return [];
-  }
-});
-
-
-// ✅ unique by object key (e.g. slug)
-eleventyConfig.addFilter("unique", (arr, key = null) => {
-  if (!Array.isArray(arr)) return arr;
-  if (!key) return [...new Set(arr)];
-  const seen = new Set();
-  return arr.filter(item => {
-    const val = item[key];
-    if (seen.has(val)) return false;
-    seen.add(val);
-    return true;
-  });
-});
 
 
   // Ensure Eleventy recognizes .11ty.js templates
   eleventyConfig.addTemplateFormats("11ty.js");
-
-  // -------------------------
-  // Global Data: Firebase Posts
-  // -------------------------
-// ✅ Global posts data from Firebase cache (deduped)
-eleventyConfig.addGlobalData("firebasePosts", () => {
-  try {
-    const raw = fs.readFileSync("./content/_data/posts.json", "utf8");
-    let posts = JSON.parse(raw);
-
-    // Remove undefined or malformed entries
-    posts = posts.filter(p => p && p.slug && p.year);
-
-    // Deduplicate by (year + slug)
-    const seen = new Set();
-    const unique = posts.filter(p => {
-      const key = `${p.year}-${p.slug}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-
-    console.log(`🧩 Firebase unique posts after dedupe: ${unique.length}`);
-    return unique.map(p => ({
-      ...p,
-      date: new Date(p.createdAt),
-    }));
-  } catch (err) {
-    console.warn("⚠️ No Firebase posts found:", err.message);
-    return [];
-  }
-});
-
-
-  // -------------------------
-  // Global Data: Posts by Year
-  // -------------------------
-  eleventyConfig.addGlobalData("postsByYear", () => {
-    try {
-      const raw = fs.readFileSync("./content/_data/posts.json", "utf8");
-      const posts = JSON.parse(raw).map(p => ({
-        ...p,
-        date: new Date(p.createdAt),
-      }));
-
-      const yearsMap = {};
-      for (const post of posts) {
-        const year = post.date.getFullYear();
-        (yearsMap[year] ||= []).push(post);
-      }
-
-      return Object.fromEntries(Object.entries(yearsMap).sort((a, b) => b[0] - a[0]));
-    } catch {
-      return {};
-    }
-  });
-
-  // -------------------------
-  // Global Data: Year List (for Archives)
-  // -------------------------
-// ✅ Extract unique years for archive listings (deduped)
-eleventyConfig.addGlobalData("years", () => {
-  try {
-    const raw = fs.readFileSync("./content/_data/posts.json", "utf8");
-    const posts = JSON.parse(raw)
-      .filter(p => p && p.year && p.slug) // ignore malformed
-      .reduce((acc, cur) => {
-        const key = `${cur.year}-${cur.slug}`;
-        if (!acc.seen.has(key)) {
-          acc.seen.add(key);
-          acc.posts.push(cur);
-        }
-        return acc;
-      }, { seen: new Set(), posts: [] }).posts;
-
-    const uniqueYears = [...new Set(posts.map(p => Number(p.year)))];
-    return uniqueYears.sort((a, b) => b - a);
-  } catch {
-    return [];
-  }
-});
 
 
   // -------------------------
@@ -217,20 +83,12 @@ eleventyConfig.addGlobalData("years", () => {
   eleventyConfig.addPassthroughCopy("./content/interests");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy({ "./content/secret": "secret" });
-  eleventyConfig.addPassthroughCopy({
-    "./content/_scripts/fetchFirebasePosts.js": "_scripts/fetchFirebasePosts.js",
-  });
-  // Prevent Eleventy from treating pagination file as a "posts" data source
-eleventyConfig.ignores.add("content/blog/post-page.njk");
-eleventyConfig.ignores.add("content/blog/posts.njk");
-
 
   eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
 
   // -------------------------
   // Server Options
   // -------------------------
-  eleventyConfig.setServerOptions({ allowFuture: true });
 
   console.log("🚀 Eleventy config loaded successfully");
 
