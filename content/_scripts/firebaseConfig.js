@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCje2JmB7_VVxTljyeYCkuN9HKn32lPtCU",
+  apiKey: "ustinkykey",
   authDomain: "theonlyfrogs-blog.firebaseapp.com",
   projectId: "theonlyfrogs-blog",
   storageBucket: "theonlyfrogs-blog.firebasestorage.app", // Make sure this is correct

@@ -68,3 +68,5 @@ node_modules/
 # Local only
 .DS_Store
 
+_scripts/firebaseConfig.js
+
