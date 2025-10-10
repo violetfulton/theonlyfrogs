@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "Frog Blog" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/blog.css">
+</head>
+<body>
+
+  <!-- 🐸 Frog header -->
+  <header class="frog-header">
+    <img src="/assets/imgs/blog/frog-top.png" alt="Frog on lilypad" class="blog-top">
+  </header>
+
+  <!-- 🪞 Main glassy wrapper -->
+  <div class="wrap">
+    {{ content | safe }}
+  </div>
+
+  <!-- 🐸 Floating bottom frog -->
+  <footer>
+    <img src="/assets/imgs/blog/frog-bottom.png" alt="Floating frog" class="blog-bottom">
+    <p>return to <a href="/">home</a></p>
+  </footer>
+
+</body>
+</html>

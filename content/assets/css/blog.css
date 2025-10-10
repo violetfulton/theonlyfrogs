@@ -1,370 +1,454 @@
-/* ==============================================
-   FONTS & BASE STYLES
-============================================== */
-@font-face {
-  font-family: 'Alice';
-  src: url('/assets/fonts/Alice_in_Wonderland_3.ttf') format('truetype');
+/* Full Froggy Blog CSS with Glass Effect - Frog Top as Header */
+
+:root {
+--frog-green: #4caf50;
+--frog-light: #e8f5e9;
+--frog-dark: #1b5e20;
+}
+
+* { box-sizing: border-box; }
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #f0f0f0;
-  background: url('/assets/imgs/bg/batspink.jpg') no-repeat fixed center/cover;
-  margin: 2em auto;
-  padding: 0 1em;
-  max-width: 1000px;
+background-color: var(--frog-light);
+background-image: url('/assets/imgs/blog/lilypad-bg.png');
+background-repeat: no-repeat;
+font-family: 'Gaegu', 'FortySeven Micro NBP', sans-serif;
+color: var(--frog-dark);
+text-align: center;
+background-attachment: fixed;
+background-size: cover;
+
+/* Add flexbox to push footer to bottom */
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
-/* ==============================================
-   HEADERS
-============================================== */
-h1, h2, h3 {
-  font-family: 'Alice', serif;
-  color: #fefefe;
-  font-size: 36px;
-  padding-bottom: 0.3em;
-  position: relative;
+/* Frog top header area */
+header.frog-header {
+width: 100%;
+background: transparent;
+flex-shrink: 0; /* Prevent header from shrinking */
+margin-bottom: 0.5rem;
+padding-top: 0.5rem; /* Less header padding */
 }
 
-h1::after, h2::after, h3::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 25px;
-  background: url('/assets/imgs/graphics/pinkblooddrip.webp') no-repeat center/cover;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+header.frog-header img.blog-top {
+display: block;
+margin: 0 auto 1rem;
+max-width: 180px;
+height: auto;
+filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
+animation: bounce 4s ease-in-out infinite;
+transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.heading-icon {
-  width: 25px;
-  height: auto;
-  margin-left: 5px;
-  vertical-align: middle;
+header.frog-header img.blog-top:hover {
+transform: scale(1.05);
+filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.15));
 }
 
-/* ==============================================
-   BLOG LAYOUT
-============================================== */
-.blog-layout {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  margin: 2rem auto;
-  padding: 1rem;
-  max-width: 1000px;
+/* Main container with glassy look */
+.wrap {
+max-width: 700px;
+margin: 0.5rem auto 0; /* Add top margin */
+padding: 1.5rem;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(76, 175, 80, 0.4);
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+flex: 1; /* Allow wrap to grow and fill space */
 }
 
-.blog-main {
-  flex: 2;
-  background: rgba(34, 34, 34, 0.9);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+.blog-title {
+font-size: 2rem;
+color: var(--frog-green);
+letter-spacing: 1px;
+margin-top: 0;
+margin-bottom: 1.5rem;
 }
 
-.blog-sidebar {
-  flex: 1;
-  position: sticky;
-  top: 2rem;
-  background: rgba(26, 26, 26, 0.85);
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1rem;
-  color: #ffb3d9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  height: fit-content;
+/* Footer frog - stick to bottom */
+.blog-bottom {
+display: block;
+margin: 1rem auto 0; /* Change: remove bottom margin, keep top margin */
+max-width: 180px;
+animation: floaty 6s ease-in-out infinite;
+opacity: 0.95;
+filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
+transition: transform 0.3s ease, filter 0.3s ease;
+height: auto;
+flex-shrink: 0;
+
+/* Add padding instead of margin for spacing */
+padding-bottom: 1rem;
 }
 
-/* Sidebar links */
-.blog-sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.blog-bottom:hover {
+transform: scale(1.05);
+filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.15));
 }
 
-.blog-sidebar a {
-  color: #ff69b4;
-  text-decoration: none;
+@keyframes bounce {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-5px); }
 }
 
-.blog-sidebar a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-/* ==============================================
-   BLOG LIST
-============================================== */
-.blog-list {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0;
-}
-
-.blog-item {
-  margin-bottom: 1rem;
-}
-
-.blog-link {
-  font-weight: bold;
-  color: #ffb3d9;
-  text-decoration: none;
-}
-
-.blog-link:hover {
-  text-decoration: underline;
-  color: #ff69b4;
-}
-
-.blog-date {
-  display: block;
-  font-size: 0.85rem;
-  color: #bbb;
-}
-
-/* ==============================================
-   LINKS
-============================================== */
-a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffb3d9;
-  text-decoration: underline;
-}
-
-/* ==============================================
-   FOOTER
-============================================== */
-footer {
-  text-align: center;
-  font-size: 0.85em;
-  background-color: #222;
-  border: 1px solid #444;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  max-width: 250px;
-  margin: 40px auto 0;
-  padding: 0.5em;
-}
-
-footer a {
-  color: #ff69b4;
-}
-
-footer a:hover {
-  color: #ffb3d9;
-}
-
-/* ==============================================
-   RESPONSIVE DESIGN
-============================================== */
-@media (max-width: 800px) {
-  .blog-layout {
-    flex-direction: column;
-    align-items: stretch;
-    max-width: 95%;
-  }
-
-  .blog-sidebar {
-    position: static;
-    margin-top: 1.5rem;
-  }
-
-  .blog-main {
-    order: 1;
-  }
-
-  .archive-link {
-    font-size: 1.1em;
-  }
-}
-/* ==============================================
-   ARCHIVE BUTTON + BLOOD DRIP (FIXED)
-============================================== */
-.archive-link-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 🎯 centers both button and drip together */
-  justify-content: center;
-  position: relative;
-  margin: 2em auto 3em;
-  width: fit-content; /* ✨ only as wide as the button */
-  text-align: center;
-}
-
-/* Pink button */
-.archive-link {
-  display: block;
-  background: linear-gradient(to bottom, #ff6fb3, #ff1493);
-  color: #fff;
-  font-family: 'Alice', serif;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-  text-decoration: none;
-  padding: 0.6em 1.8em;
-  border: 2px solid #ff69b4;
-  border-bottom: none;
-  border-radius: 12px 12px 0 0;
-  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
-  transition: all 0.25s ease;
-  position: relative;
-  z-index: 2;
-}
-
-.blood-drip {
-  width: 100%;
-  height: 68px; /* little taller, more visible blood */
-  background: url('/assets/imgs/graphics/pinkblooddrip.webp') no-repeat center top / 160%;
-  background-position: center 0;
-  position: absolute;
-  left: 50%;
-  top: 100%;        /* sits directly on button edge */
-  transform: translateX(-50%);
-  margin-top: -1px; /* 🩸 removes the tiny seam */
-  z-index: 1;
-  pointer-events: none;
-  transition: transform 0.25s ease, filter 0.5s ease;
-
-  filter: brightness(0.85) contrast(1.2) saturate(1.5)
-          drop-shadow(0 3px 5px rgba(255, 0, 64, 0.3));
-}
-
-/* Hover lift stays unified */
-.archive-link-container:hover .archive-link {
-  background: linear-gradient(to bottom, #ff8ec9, #ff3da1);
-  box-shadow: 0 6px 14px rgba(255, 105, 180, 0.5);
-  transform: translateY(-2px);
-}
-
-.archive-link-container:hover .blood-drip {
-  transform: translate(-50%, -2px);
-  filter: brightness(0.95) contrast(1.4) saturate(1.8)
-          drop-shadow(0 4px 8px rgba(255, 0, 90, 0.4));
-}
-
-.hanging-sticker {
-  position: fixed;
-  top: 0;                 /* ⬆️ sits right at the top edge */
-  right: 40px;            /* distance from right edge */
-  z-index: 50;
-  pointer-events: none;
-  animation: floaty 4s ease-in-out infinite;
-}
-
-.hanging-sticker img {
-  width: 80px;            /* adjust to your liking */
-  height: auto;
-  transform-origin: top center; /* so the swing looks natural */
-  animation: swing 3s ease-in-out infinite alternate;
-  margin-top: 0;          /* ensures no accidental gap */
-}
-
-/* Gentle float up/down */
 @keyframes floaty {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(5px); } /* soft bobbing motion */
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(4px); }
 }
 
-/* Subtle left-right sway */
-@keyframes swing {
-  0% { transform: rotate(2deg); }
-  100% { transform: rotate(-2deg); }
+/* Blog date list */
+.date-list {
+list-style: none;
+padding: 0;
+margin: 1.5rem 0;
 }
 
-/* Add this to your main blog CSS file (wherever your blog styles are) */
-
-/* Individual blog images */
-.post-content img {
-  max-width: 100%;
-  height: auto;
-  margin: 1rem 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+.date-list li {
+margin: 0.5rem 0;
 }
 
-.post-content img:hover {
-  transform: scale(1.02);
-  cursor: pointer;
+.date-list a {
+color: var(--frog-dark);
+text-decoration: none;
+background-color: rgba(76, 175, 80, 0.8);
+padding: 0.25rem 0.75rem;
+border-radius: 8px;
+transition: background 0.3s;
 }
 
-/* Image gallery styling */
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin: 2rem 0;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.date-list a:hover {
+background-color: var(--frog-dark);
+color: #fff;
 }
 
-.gallery-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+/* Blog entry styling */
+.entry-date {
+font-size: 1.6rem;
+margin: 1rem 0;
+color: var(--frog-green);
 }
 
-.gallery-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+.stars {
+border: none;
+height: 1px;
+background: var(--frog-green);
+margin: 0.5rem 0 1rem;
 }
 
-/* Responsive gallery layouts */
+.entry-body {
+text-align: left;
+line-height: 1.6;
+color: var(--frog-dark);
+}
+
+.entry-body p {
+margin: 0 0 1rem;
+}
+
+.entry-body a {
+color: var(--frog-green);
+text-decoration: underline;
+}
+
+.entry-body img {
+max-width: 100%;
+display: block;
+margin: 1rem auto;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 900px) {
+header.frog-header img.blog-top, .blog-bottom {
+max-width: 220px;
+}
+}
+
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-  .image-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 0.5rem;
-    padding: 0.5rem;
-  }
+.wrap {
+margin: 1.5rem auto 0; /* Less top margin on smaller screens */
+padding: 1rem; /* Less internal padding */
+margin-left: 1rem;
+margin-right: 1rem;
+}
 
-  .gallery-image {
-    height: 150px;
-  }
+header.frog-header {
+padding-top: 0.5rem; /* Less header padding */
+}
+
+header.frog-header img.blog-top {
+max-width: 150px; /* Smaller frog on mobile */
+margin-bottom: 0.5rem;
+}
 }
 
 @media (max-width: 480px) {
-  .image-gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .gallery-image {
-    height: 120px;
-  }
+.wrap {
+margin: 1rem auto 0;
+padding: 0.75rem;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
 }
 
-/* Optional: Add a cool retro filter effect */
-.image-gallery.retro .gallery-image {
-  filter: sepia(20%) contrast(1.2) brightness(0.9);
+header.frog-header img.blog-top {
+max-width: 120px; /* Even smaller frog on very small screens */
+}
 }
 
-.image-gallery.retro .gallery-image:hover {
-  filter: sepia(0%) contrast(1) brightness(1);
+/* ====== Froggy Blog Iframe Layout Additions ====== */
+
+/* Container: wider, top-aligned, centered */
+#blog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  max-width: 1200px; /* wider layout */
+  margin: 1rem auto 2rem;
+  gap: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(76, 175, 80, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-
-/* Masonry-style gallery */
-.image-gallery.masonry {
-  columns: 3;
-  column-gap: 1rem;
+/* Sidebar (date list area) */
+#blog-sidebar {
+  flex: 0 0 200px; /* just wide enough for dates */
+  max-height: 65vh;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  padding: 1rem;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+  min-width: 0;
 }
 
-.image-gallery.masonry .gallery-image {
+#blog-sidebar h2 {
+  margin-top: 0;
+  color: var(--frog-green);
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+#blog-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#blog-sidebar a {
+  display: block;
+  text-decoration: none;
+  color: var(--frog-dark);
+  background: rgba(76, 175, 80, 0.15);
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+#blog-sidebar a:hover,
+#blog-sidebar a.active {
+  background: var(--frog-green);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Iframe container */
+/* Main content column */
+#blog-content {
+  flex: 1 1 auto;
+  min-width: 0;          /* 👈 allows flexbox to shrink properly */
+  max-width: 700px;      /* 👈 fits nicely inside glass frame */
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+#post-frame {
   width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-  break-inside: avoid;
+  height: 65vh;
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+  overflow-y: auto;
+  overflow-x: hidden; /* disable sideways scroll */
+  display: block;
+  max-width: 100%; /* prevents flex overflow */
+}
+
+
+/* Small screens */
+@media (max-width: 768px) {
+  #blog-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  #blog-sidebar {
+    flex: unset;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #blog-sidebar a {
+    margin: 0.25rem;
+  }
+
+  #post-frame {
+    height: 70vh;
+  }
+}
+
+/* ===== Small Froggy Finishing Touches ===== */
+
+.entry {
+  max-width: 650px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.blog-title {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: var(--frog-green);
+  letter-spacing: 1px;
+}
+
+#blog-sidebar a.active {
+  background: var(--frog-green);
+  color: #fff;
+  font-weight: bold;
+  transform: translateY(-2px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Sparkly Frog NEW! badge === */
+.new-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background-color: var(--frog-green);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+  padding: 2px 6px 2px 5px;
+  margin-left: 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  animation: pulse 1.5s infinite ease-in-out;
+  position: relative;
+}
+
+.new-badge::before {
+  content: "🐸";
+  animation: sparkle-hop 2s infinite ease-in-out;
+  transform-origin: bottom center;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes sparkle-hop {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-3px) rotate(10deg); }
+}
+
+.new-badge[style*="display: none"] {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+/* === Froggy Scrollbar Styling inside iframe === */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(232, 245, 233, 0.8);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--frog-green);
+  border-radius: 10px;
+  border: 2px solid rgba(232, 245, 233, 0.8);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--frog-dark);
+}
+
+
+@media (max-width: 900px) {
+  #blog-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 700px;
+  }
+
+  #blog-sidebar {
+    flex: unset;
+    width: 100%;
+    max-height: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #blog-content {
+    min-width: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+  #post-frame {
+    height: 70vh;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+footer p a {
+  color: var(--frog-green);
+  text-decoration: none;
+  font-weight: bold;
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ title or "Post" }}</title>
+
+  <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Short+Stack&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/blog.css" />
+
+  <style>
+    :root {
+      --frog-green: #4caf50;
+      --frog-light: #e8f5e9;
+      --frog-dark: #1b5e20;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      background: transparent;
+    }
+
+    body {
+      font-family: 'Short Stack', 'Gaegu', sans-serif;
+      font-size: 1.15rem;
+      line-height: 1.85;
+      color: var(--frog-dark);
+      background: transparent;
+      text-align: left;
+      -webkit-font-smoothing: antialiased;
+      padding: 0;
+    }
+
+    main.post-wrap {
+      width: min(95%, 720px);
+      margin: 1.25rem auto;
+      padding: 1.75rem 2rem 2.25rem;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-sizing: border-box;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Handlee', 'Gaegu', sans-serif;
+      color: var(--frog-green);
+      letter-spacing: 0.5px;
+      margin-top: 0; /* flush top */
+      margin-bottom: 0.75rem;
+    }
+
+    h1.blog-title {
+      font-size: 1.85rem;
+      margin-top: 0;       /* flush top edge */
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .entry-date {
+      text-align: center;
+      font-size: 0.9rem;
+      color: rgba(0,0,0,0.6);
+      margin-bottom: 1.25rem;
+    }
+
+    p {
+      margin: 0.75rem 0 1rem;
+    }
+
+    a {
+      color: var(--frog-green);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--frog-green);
+      transition: color 0.2s, border-color 0.2s;
+    }
+    a:hover {
+      color: var(--frog-dark);
+      border-color: var(--frog-dark);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1.5rem auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    blockquote {
+      border-left: 4px solid var(--frog-green);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+      color: #2e7d32;
+      background: rgba(232, 245, 233, 0.4);
+      border-radius: 8px;
+    }
+
+    ul, ol {
+      padding-left: 1.25rem;
+      margin: 1rem 0;
+    }
+
+    code {
+      background: rgba(76,175,80,0.1);
+      padding: 0.15rem 0.3rem;
+      border-radius: 5px;
+      font-family: monospace;
+      color: var(--frog-dark);
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background: rgba(76, 175, 80, 0.4);
+      margin: 2rem 0;
+      position: relative;
+    }
+
+    hr::after {
+      content: "🐸";
+      display: block;
+      text-align: center;
+      margin-top: -0.85rem;
+      font-size: 1.2rem;
+      background: rgba(255,255,255,0.95);
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 0.4rem;
+    }
+
+    @media (max-width: 600px) {
+      main.post-wrap {
+        padding: 1.25rem;
+        font-size: 1.05rem;
+        line-height: 1.75;
+      }
+      h1.blog-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="post-wrap">
+    <article class="entry">
+      {% if title %}
+        <h1 class="blog-title">{{ title }}</h1>
+      {% endif %}
+      <div class="entry-body">
+        {{ content | safe }}
+      </div>
+    </article>
+  </main>
+</body>
+</html>

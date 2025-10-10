@@ -1,0 +1,82 @@
+---
+layout: layouts/blogBase.njk
+title: Frog Blog
+---
+
+<div id="blog-container">
+  <aside id="blog-sidebar">
+    <h2>Posts</h2>
+    <ul class="date-list">
+      {%- for post in collections.blog | reverse -%}
+        <li>
+          <a href="{{ post.url }}" data-post="{{ post.url }}">
+            {{ post.date | readableDate }}
+            {%- if loop.first -%}
+              <span class="new-badge">NEW!</span>
+            {%- endif -%}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </aside>
+
+  <section id="blog-content">
+    <iframe id="post-frame" src="" title="Blog post view"></iframe>
+  </section>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sidebarLinks = document.querySelectorAll("#blog-sidebar a");
+  const iframe = document.getElementById("post-frame");
+
+  if (!sidebarLinks.length || !iframe) return;
+
+  function loadPost(link) {
+    if (!link || !link.dataset.post) return;
+    iframe.src = link.dataset.post;
+    sidebarLinks.forEach(a => a.classList.remove("active"));
+    link.classList.add("active");
+
+    // 🐸 Mark this post as "read"
+    const postUrl = link.dataset.post;
+    localStorage.setItem(`read:${postUrl}`, "true");
+
+    // Hide its NEW! badge if any
+    const badge = link.querySelector(".new-badge");
+    if (badge) badge.style.display = "none";
+  }
+
+  sidebarLinks.forEach(link => {
+    const postUrl = link.dataset.post;
+
+    // 🕓 Hide NEW! badge if post is old (3+ days) or already read
+    const badge = link.querySelector(".new-badge");
+    if (badge) {
+      // Find post's date from the text (e.g., "Oct 9, 2025")
+      const dateText = link.textContent.match(/[A-Za-z]{3} \d{1,2}, \d{4}/);
+      if (dateText) {
+        const postDate = new Date(dateText[0]);
+        const now = new Date();
+        const daysOld = (now - postDate) / (1000 * 60 * 60 * 24);
+        if (daysOld > 3 || localStorage.getItem(`read:${postUrl}`)) {
+          badge.style.display = "none";
+        }
+      }
+    }
+
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      loadPost(link);
+      window.location.hash = encodeURIComponent(link.dataset.post);
+    });
+  });
+
+  // 🐸 Load newest (first) post automatically
+  const hash = decodeURIComponent(window.location.hash.substring(1));
+  let target = [...sidebarLinks].find(l => l.dataset.post === hash);
+  if (!target) target = sidebarLinks[0];
+  loadPost(target);
+});
+</script>
+

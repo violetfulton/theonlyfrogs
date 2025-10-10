@@ -35,16 +35,27 @@ dotenv.config();
 // ------------------------------------
 export default function (eleventyConfig) {
 
+  eleventyConfig.addPassthroughCopy({ "assets": "assets" });
 
+  // 🐸 Clean, unified date filters
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    if (!dateObj) return "";
+    const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
+    return DateTime.fromJSDate(dt, { zone: "utc" }).toFormat("MMM d, yyyy");
+  });
 
+  eleventyConfig.addFilter("mdySlug", dateObj => {
+    if (!dateObj) return "";
+    const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
+    return DateTime.fromJSDate(dt, { zone: "utc" }).toFormat("MM-dd-yyyy");
+  });
 
-  // Ensure Eleventy recognizes .11ty.js templates
-  eleventyConfig.addTemplateFormats("11ty.js");
+  // 🐸 Blog collection
+  eleventyConfig.addCollection("blog", collection => {
+    return collection.getFilteredByGlob("content/blog/posts/*.md");
+  });
 
-
-  // -------------------------
-  // Filters
-  // -------------------------
+  // Keep your existing filters
   eleventyConfig.addFilter("uniq", arr => Array.from(new Set(arr)));
   eleventyConfig.addFilter("filter", (arr, key, val) => arr.filter(i => i[key] === val));
   eleventyConfig.addFilter("map", (arr, key) => Array.isArray(arr) ? arr.map(i => i?.[key]).filter(Boolean) : arr);
@@ -57,10 +68,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("startsWith", (val, prefix) =>
     typeof val === "string" && val.startsWith(prefix)
   );
-  eleventyConfig.addFilter("readableDate", dateStr => {
-    const d = new Date(dateStr);
-    return d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
-  });
   eleventyConfig.addFilter("daysOld", date => {
     const d = date instanceof Date ? date : new Date(date);
     if (isNaN(d)) return "";
@@ -86,19 +93,12 @@ export default function (eleventyConfig) {
 
   eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
 
-  // -------------------------
-  // Server Options
-  // -------------------------
-
   console.log("🚀 Eleventy config loaded successfully");
 
-  // -------------------------
-  // Directory Structure
-  // -------------------------
   return {
     dir: {
       input: "content",
-      includes: "_includes",   // expects layouts in content/_includes/
+      includes: "_includes",
       data: "_data",
       output: "public",
     },

@@ -1,0 +1,12 @@
+---
+layout: layouts/postBase.njk
+---
+
+<article class="entry">
+  <h1 class="blog-title">{{ title }}</h1>
+  <p class="entry-date">{{ page.date | readableDate }}</p>
+  <hr class="stars" aria-hidden="true">
+  <div class="entry-body">
+    {{ content | safe }}
+  </div>
+</article>
