@@ -1,0 +1,24 @@
+---
+pagination:
+  data: games
+  size: 1
+  alias: platform
+permalink: "interests/games/{{ platform.slug }}/index.html"
+layout: layouts/gamesBase.njk
+---
+
+<h1>🎮 {{ platform.platform }} Games</h1>
+
+<div class="games-grid">
+  {% for game in platform.games %}
+  <div class="game-card">
+    <img src="{{ game.Image }}" alt="{{ game.Title }}">
+    <h3>{{ game.Title }}</h3>
+    <p class="meta">{{ game.Publisher }}</p>
+  </div>
+  {% endfor %}
+</div>
+
+<p style="margin-top:2rem;text-align:center;">
+  <a href="/games/">⬅ back to all platforms</a>
+</p>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "The Only Frogs - Game Collection" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/games.css">
+  <link rel="icon" type="image/png" href="/assets/img/frog-icon.png">
+  <style>
+    body {
+      background: linear-gradient(180deg, #d4f1d7 0%, #e8f5e9 100%);
+      font-family: 'FortySeven Micro NBP', sans-serif;
+      color: #1b3e1b;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0 20px;
+      background: rgba(255,255,255,0.3);
+      backdrop-filter: blur(8px);
+      border-bottom: 2px solid #a5d6a7;
+    }
+
+    header h1 {
+      font-family: 'Gaegu', cursive;
+      font-size: 2.4rem;
+      margin: 0;
+      color: #2e7d32;
+    }
+
+    header img {
+      width: 80px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      font-size: 0.8rem;
+      color: #33691e;
+      background: rgba(255,255,255,0.4);
+      border-top: 1px solid #a5d6a7;
+    }
+
+    footer a {
+      color: #2e7d32;
+      text-decoration: underline dotted;
+    }
+
+    marquee {
+      color: #1b5e20;
+      font-family: 'Gaegu', cursive;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="/assets/img/frog-controller.png" alt="Frog with Game Controller">
+    <h1>{{ title or "Game Collection" }}</h1>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <hr>
+    <marquee behavior="scroll" direction="left" scrollamount="3">
+      🎮 Hop into my video game collection! 🎮
+    </marquee>
+    <p>return <a href="/">home</a> 🐸</p>
+  </footer>
+
+</body>
+</html>
