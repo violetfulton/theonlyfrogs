@@ -5,18 +5,54 @@ customcss: '/assets/css/games.css'
 permalink: /games/
 ---
 
-
 <h1>🎮 My Game Collection</h1>
+<p class="subtitle">Select a platform to view all games in my collection.</p>
 
-{% for group in games %}
-  <h2><a href="/interests/games/{{ group.slug }}/">{{ group.platform }}</a></h2>
-  <div class="games-grid">
-    {% for game in group.games %}
-      <div class="game-card">
-        <img src="{{ game.Image }}" alt="{{ game.Title }}">
-        <h3>{{ game.Title }}</h3>
-        <p class="meta">{{ game.Publisher }}</p>
-      </div>
-    {% endfor %}
-  </div>
-{% endfor %}
+<ul class="platform-list">
+  {% for group in games %}
+    <li>
+      <a href="/interests/games/{{ group.slug }}/">{{ group.platform }}</a>
+      <span class="count">({{ group.games | length }})</span>
+    </li>
+  {% endfor %}
+</ul>
+
+<style>
+.platform-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.platform-list li {
+  margin: 0.6em 0;
+  font-size: 1.2em;
+}
+
+.platform-list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2e7d32;
+  transition: color 0.2s ease;
+}
+
+.platform-list a:hover {
+  color: #66bb6a;
+}
+
+.count {
+  color: #777;
+  font-size: 0.9em;
+  margin-left: 0.3em;
+}
+
+.subtitle {
+  text-align: center;
+  color: #444;
+  margin-top: 0.3em;
+  margin-bottom: 1.5em;
+  font-style: italic;
+}
+</style>
