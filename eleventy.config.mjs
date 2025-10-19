@@ -2,6 +2,7 @@ import { DateTime } from "luxon";
 import dotenv from "dotenv";
 import { execSync } from "child_process";
 import fs from "fs";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 dotenv.config();
 
@@ -34,6 +35,17 @@ dotenv.config();
 // MAIN ELEVENTY CONFIG
 // ------------------------------------
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+    formats: ["webp", "jpeg"],
+    widths: [400, 800, 1200],
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async"
+    }
+  });
+
+  eleventyConfig.addPassthroughCopy("content/assets/imgs");
 
   eleventyConfig.addPassthroughCopy({ "assets": "assets" });
 

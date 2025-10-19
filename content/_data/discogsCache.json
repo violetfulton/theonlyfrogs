@@ -1546,10 +1546,13 @@
         }
       ],
       "genres": [
+        "Electronic",
         "Rock"
       ],
       "styles": [
-        "Metalcore"
+        "Alternative Rock",
+        "Hard Rock",
+        "Post-Hardcore"
       ]
     },
     "folder_id": 1
