@@ -2,7 +2,6 @@ import { DateTime } from "luxon";
 import dotenv from "dotenv";
 import { execSync } from "child_process";
 import fs from "fs";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 dotenv.config();
 
@@ -35,21 +34,28 @@ dotenv.config();
 // MAIN ELEVENTY CONFIG
 // ------------------------------------
 export default function (eleventyConfig) {
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    extensions: "html",
-    formats: ["webp", "jpeg"],
-    widths: [400, 800, 1200],
-    defaultAttributes: {
-      loading: "lazy",
-      decoding: "async"
-    }
-  });
+  // 🐸 Remove Eleventy Image Transform plugin
+  // (Your images are already pre-sized and optimized)
 
+  // -------------------------
+  // Passthrough Copy
+  // -------------------------
   eleventyConfig.addPassthroughCopy("content/assets/imgs");
-
   eleventyConfig.addPassthroughCopy({ "assets": "assets" });
+  eleventyConfig.addPassthroughCopy("./content/imgs");
+  eleventyConfig.addPassthroughCopy("./content/assets");
+  eleventyConfig.addPassthroughCopy("./content/css");
+  eleventyConfig.addPassthroughCopy("./content/js");
+  eleventyConfig.addPassthroughCopy("./content/interests");
+  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({ "./content/secret": "secret" });
 
-  // 🐸 Clean, unified date filters
+  // Ignore scripts that shouldn’t be copied
+  eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
+
+  // -------------------------
+  // Filters
+  // -------------------------
   eleventyConfig.addFilter("readableDate", dateObj => {
     if (!dateObj) return "";
     const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
@@ -62,15 +68,15 @@ export default function (eleventyConfig) {
     return DateTime.fromJSDate(dt, { zone: "utc" }).toFormat("MM-dd-yyyy");
   });
 
-  // 🐸 Blog collection
-  eleventyConfig.addCollection("blog", collection => {
-    return collection.getFilteredByGlob("content/blog/posts/*.md");
-  });
+  eleventyConfig.addCollection("blog", collection =>
+    collection.getFilteredByGlob("content/blog/posts/*.md")
+  );
 
-  // Keep your existing filters
   eleventyConfig.addFilter("uniq", arr => Array.from(new Set(arr)));
   eleventyConfig.addFilter("filter", (arr, key, val) => arr.filter(i => i[key] === val));
-  eleventyConfig.addFilter("map", (arr, key) => Array.isArray(arr) ? arr.map(i => i?.[key]).filter(Boolean) : arr);
+  eleventyConfig.addFilter("map", (arr, key) =>
+    Array.isArray(arr) ? arr.map(i => i?.[key]).filter(Boolean) : arr
+  );
   eleventyConfig.addFilter("unique", arr => Array.isArray(arr) ? [...new Set(arr)] : arr);
   eleventyConfig.addFilter("reverse", arr => Array.isArray(arr) ? [...arr].reverse() : arr);
   eleventyConfig.addFilter("length", arr => Array.isArray(arr) ? arr.length : 0);
@@ -91,19 +97,6 @@ export default function (eleventyConfig) {
     const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
     return DateTime.fromJSDate(dt).toFormat(format);
   });
-
-  // -------------------------
-  // Passthrough Copy
-  // -------------------------
-  eleventyConfig.addPassthroughCopy("./content/imgs");
-  eleventyConfig.addPassthroughCopy("./content/assets");
-  eleventyConfig.addPassthroughCopy("./content/css");
-  eleventyConfig.addPassthroughCopy("./content/js");
-  eleventyConfig.addPassthroughCopy("./content/interests");
-  eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy({ "./content/secret": "secret" });
-
-  eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
 
   console.log("🚀 Eleventy config loaded successfully");
 
