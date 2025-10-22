@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="assets/pokedex/pokemontypesnew.css" rel="stylesheet" type="text/css" media="all">
+
+    <style>
+
+body{
+  font-family:MS PGothic;
+  font-size:16px;
+}
+
+label{
+  display:block;
+  margin-top:5px;
+}
+
+.inline{
+  display:inline;
+}
+
+.num{
+  width:40px;
+}
+
+.movetype{
+  width:70px;
+}
+
+.info{
+  text-align:center;
+  background-color:rgb(214, 214, 214);
+  border-radius:20px;
+  font-size:px;
+  margin-left:88px;
+  margin-top:-17px;
+  position:absolute;
+  width:16px;
+  box-sizing:border-box;
+  padding:px;
+}
+
+.small{
+  width:100px;
+}
+
+.bio{
+  width:290px;
+  height:80px;
+}
+    </style>
+
+  </head>
+  <body>
+
+    <div style="width:500px; border:0px solid black; margin:auto;">
+
+    <label for="nickname">Nickname:</label>
+    <input type="text" name="nickname" id="nickname">
+
+    <label for="dexno">Dex No.</label>
+    <input type="text" name="dexno" id="dexno" class="num">
+
+    <div style="background-color:; width:120px; position:relative; left:65px; bottom:42px; margin-bottom:-40px; ">
+
+    <label for="form">Form?</label>
+
+    <div class="info" title="this is for the sprite. if the pokemon has an alternate form, write it here. eg 'alola', 'incarnate'">?</div>
+
+    <input type="text" name="form" id="form" class="small">
+
+  </div>
+
+    <label for="species">Species</label>
+    <input type="text" name="species" id="species">
+
+    <select id="type1">
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+    <select id="type2">
+      <option></option>
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+
+    <label for="gender" id="gender">Gender</label>
+    <input type="radio" name="gender" id="M" onclick="update_gender('M')">
+      <label for="M" class="inline"><img src="assets/pokedex/M.png"></label>
+
+    <input type="radio" name="gender" id="F" onclick="update_gender('F')">
+      <label for="F" class="inline"><img src="assets/pokedex/F.png"></label>
+
+    <input type="radio" name="gender" id="null" onclick="update_gender('null')">
+    <label for="null" class="inline">none</label>
+
+    <label for="ball">Pokeball</label>
+    <select name="ball" id="ball" onchange="update_ball()">
+      <option>Poke Ball</option>
+      <option>Great Ball</option>
+      <option>Ultra Ball</option>
+      <option>Master Ball</option>
+      <option>Premier Ball</option>
+      <option>Net Ball</option>
+      <option>Dive Ball</option>
+      <option>Nest Ball</option>
+      <option>Dusk Ball</option>
+      <option>Heal Ball</option>
+      <option>Quick Ball</option>
+      <option>Luxury Ball</option>
+      <option>Timer Ball</option>
+      <option>Beast Ball</option>
+      <option>Cherish Ball</option>
+
+      <option>Safari Ball</option>
+      <option>Fast Ball</option>
+      <option>Level Ball</option>
+      <option>Lure Ball</option>
+      <option>Heavy Ball</option>
+      <option>Love Ball</option>
+      <option>Friend Ball</option>
+      <option>Moon Ball</option>
+      <option>Dream Ball</option>
+
+      </select> 
+      <!-- imgs? -->
+      <img src="assets/pokedex/ball_poke.png" style="position:relative;top:6px; left:4px;" id="preview_ball">
+
+    <label for="nature">Nature</label>
+ <select name="nature" id="nature">
+
+  <option>Adamant</option>
+  <option>Bashful</option>
+  <option>Bold</option>
+  <option>Brave</option>
+  <option>Calm</option>
+  <option>Careful</option>
+  <option>Docile</option>
+  <option>Gentle</option>
+  <option>Hardy</option>
+  <option>Hasty</option>
+  <option>Impish</option>
+  <option>Jolly</option>
+  <option>Lax</option>
+  <option>Lonely</option>
+  <option>Mild</option>
+  <option>Modest</option>
+  <option>Naive</option>
+  <option>Naughty</option>
+  <option>Quiet</option>
+  <option>Quirky</option>
+  <option>Rash</option>
+  <option>Relaxed</option>
+  <option>Sassy</option>
+  <option>Serious</option>
+  <option>Timid</option>
+  </select>
+
+  <label for="lvl" class="inline" style="margin-left:15px;">Lvl</label>
+  <input type="number" name="lvl" class="num" id="lvl">
+
+    <label for="metlocale">Met Location</label>
+    <input type="text" name="metlocale" id="metlocale">
+
+    <label for="metdate">Met Date</label>
+    <input type="date" name="metdate" id="metdate">
+
+    <label for="trainer">Trainer Name</label>
+    <input type="text" name="trainer" id="trainer" style="width:115px;">
+
+    <label for="game">Game</label>
+    <select name="game" id="game" onchange="update_game()">
+
+      <option>Red</option>
+      <option>Blue</option>
+      <option>Yellow</option>
+
+      <option>Gold</option>
+      <option>Silver</option>
+      <option>Crystal</option>
+
+      <option>Ruby</option>
+      <option>Sapphire</option>
+      <option>Emerald</option>
+
+      <option>FireRed</option>
+      <option>LeafGreen</option>
+
+      <option>Diamond</option>
+      <option>Pearl</option>
+      <option>Platinum</option>
+
+      <option>HeartGold</option>
+      <option>SoulSilver</option>
+
+      <option>Black</option>
+      <option>White</option>
+      <option>Black2</option>
+      <option>White2</option>
+
+      <option>X</option>
+      <option>Y</option>
+
+      <option>OmegaRuby</option>
+      <option>AlphaSapphire</option>
+
+      <option>Sun</option>
+      <option>Moon</option>
+      <option>UltraSun</option>
+      <option>UltraMoon</option>
+
+      <option>Sword</option>
+      <option>Shield</option>
+
+      <option>Scarlet</option>
+      <option>Violet</option>
+    </select>
+
+    <img src="assets/pokedex/icon_red.png" style="width:20px; position:relative; top:5px;" id="preview_game">
+
+
+
+    <label for="characteistic">Characteristic</label>
+    <select name="nature" id="characteristic">
+
+      <!-- Alphabetical -->
+      <option>Alert to sounds</option>
+      <option>A little quick tempered</option>
+      <option>Capable of taking hits</option>
+      <option>Good endurance</option>
+      <option>Good perseverance</option>
+      <option>Hates to lose</option>
+      <option>Highly curious</option>
+      <option>Highly persistent</option>
+      <option>Impetuous and silly</option>
+      <option>Likes to fight</option>
+      <option>Likes to relax</option>
+      <option>Likes to run</option>
+      <option>Likes to thrash about</option>
+      <option>Loves to eat</option>
+      <option>Mischievous</option>
+      <option>Nods off a lot</option>
+      <option>Often lost in thought</option>
+      <option>Proud of its power</option>
+      <option>Quick tempered</option>
+      <option>Quick to flee</option>
+      <option>Scatters things often</option>
+      <option>Somewhat of a clown</option>
+      <option>Somewhat stubborn</option>
+      <option>Somewhat vain</option>
+      <option>Strongly defiant</option>
+      <option>Strong willed</option>
+      <option>Sturdy body	</option>
+      <option>Takes plenty of siestas</option>
+      <option>Thoroughly cunning</option>
+      <option>Very finicky</option>
+
+    </select>
+
+    <label for="ability">Ability</label>
+    <input type="text" name="ability" id="ability">
+
+    <label for="ribbon">Ribbon</label>
+<select id="ribbon" onchange="update_ribbon()">
+  <option>None</option>
+  <option>Kanto</option>
+  <option>Hoenn</option>
+  <option>Sinnoh</option>
+  <option>Kalos</option>
+  <option>Alola</option>
+  <option>Galar</option>
+  <option>Paldea</option>
+</select>
+
+<img src="assets/pokedex/ribbon_kanto.png" style="position:relative;top:6px; left:4px; visibility:hidden;" id="preview_ribbon">
+
+<div style="position:relative; background-color:; bottom:21px; left:105px;">
+
+<label for="shiny" class="inline">Shiny?</label>
+<input type="checkbox" name="shiny" id="shiny" style="position:relative; top:2px; left:-1px;">
+
+</div>
+
+
+
+
+
+
+
+    <label for="move1">Move 1</label>
+    <input type="text" name="move1" id="move1">
+
+    <label for="move1type" class="inline">Type:</label>
+
+    <select id="move1type">
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+
+     
+
+
+
+
+    <label for="move2">Move 2</label>
+    <input type="text" name="move2" id="move2">
+
+    <label for="move2type" class="inline">Type:</label>
+    
+    <select id="move2type">
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+    <label for="move3">Move 3</label>
+    <input type="text" name="move3" id="move3">
+
+    <label for="move3type" class="inline">Type:</label>
+    
+    <select id="move3type">
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+    <label for="move4">Move 4</label>
+    <input type="text" name="move4" id="move4">
+
+    <label for="move4type" class="inline">Type:</label>
+    
+    <select id="move4type">
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    </select>
+
+
+
+
+
+
+    <label for="Xoffset">Sprite X Offset</label>
+    <input type="text" name="Xoffset" class="num" id="Xoffset" value="0"> <label class="inline">px</label>
+
+    <div style="background-color:; display:; position:relative; bottom:42px; left:120px; margin-bottom:-30px;">
+
+    <label for="Yoffset">Sprite Y Offset</label>
+    <input type="text" name="Yoffset" class="num" id="Yoffset" value="0"> <label class="inline">px</label>
+
+    <div class="info" onclick="offsetinfo()" style="cursor:pointer; margin-left:155px; margin-top:-35px;">?</div>
+
+    
+
+  </div>
+
+  <div style="background-color:; margin-top:-30px; width:300px; display:none;" id="offsetinfo">
+    <img src="inspect_element.jpg" style="width:300px;">
+    <br>
+    (You can just ignore this part for now and type them in the array later. I recommend using inspect element to quickly preview your changes when you're positioning it!)
+  </div>
+
+   
+<label for="bio">Bio</label>
+<textarea class="bio" id="bio"></textarea>
+
+
+    
+  </div>
+ 
+
+  <button onclick="clicktest()">submit</button>
+
+  <div id="output" style="border:1px solid black; width:98%; margin:auto; height:40px; padding:3px;"></div>
+
+  </body>
+</html>
+
+<script type="text/javascript" src="pokemonlistmaker.js"></script>
+
+<!-- (should probably do some dynamic thing with js instead of just copying the type selector over like 6 times but whatever...) -->
+
+
+ <!-- COLOURED 
+    
+      <option style="background-color:var(--Normal_border1);">Normal</option>
+      <option style="background-color:var(--Fighting_border2);">Fighting</option>
+      <option style="background-color:var(--Flying_border1);">Flying</option>
+      <option style="background-color:var(--Poison_main);">Poison</option>
+      <option style="background-color:var(--Ground_border1);">Ground</option>
+      <option style="background-color:var(--Rock_main);">Rock</option>
+      <option style="background-color:var(--Bug_main);">Bug</option>
+      <option style="background-color:var(--Ghost_border1);">Ghost</option>
+      <option style="background-color:var(--Steel_border1);">Steel</option>
+      <option style="background-color:var(--Fire_main);">Fire</option>
+      <option style="background-color:var(--Water_border1);">Water</option>
+      <option style="background-color:var(--Grass_border1);">Grass</option>
+      <option style="background-color:var(--Electric_border1);">Electric</option>
+      <option style="background-color:var(--Psychic_border1);">Psychic</option>
+      <option style="background-color:var(--Ice_border1);">Ice</option>
+      <option style="background-color:var(--Dragon_border1);">Dragon</option>
+      <option style="background-color:var(--Dark_border1);">Dark</option>
+      <option style="background-color:var(--Fairy_main);">Fairy</option>
+    
+    -->
+
+    <!-- BLANK
+    
+      <option>Normal</option>
+      <option>Fighting</option>
+      <option>Flying</option>
+      <option>Poison</option>
+      <option>Ground</option>
+      <option>Rock</option>
+      <option>Bug</option>
+      <option>Ghost</option>
+      <option>Steel</option>
+      <option>Fire</option>
+      <option>Water</option>
+      <option>Grass</option>
+      <option>Electric</option>
+      <option>Psychic</option>
+      <option>Ice</option>
+      <option>Dragon</option>
+      <option>Dark</option>
+      <option>Fairy</option>
+    
+    -->

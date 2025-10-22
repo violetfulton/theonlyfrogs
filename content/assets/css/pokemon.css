@@ -1,0 +1,104 @@
+/* === POKÉMON-style tooltip box === */
+#s-m-t-tooltip {
+  position: absolute;
+  z-index: 9999;
+  background: #1e2e7b;
+  border: 3px solid #f0f0f0;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  line-height: 1.4;
+  padding: 8px 10px;
+  box-shadow: 0 0 12px rgba(0, 50, 255, 0.5);
+  text-transform: uppercase;
+  max-width: 220px;
+  pointer-events: none;
+  transform: translateY(-10px);
+}
+
+/* little triangle pointer under tooltip */
+#s-m-t-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #1e2e7b;
+}
+
+/* subtle “screen glow” animation */
+@keyframes poke-glow {
+  0%, 100% { box-shadow: 0 0 12px rgba(0, 50, 255, 0.4); }
+  50% { box-shadow: 0 0 18px rgba(0, 120, 255, 0.7); }
+}
+
+#s-m-t-tooltip {
+  animation: poke-glow 2s ease-in-out infinite;
+}
+/* ensure tooltip text is visible inside the box */
+#s-m-t-tooltip,
+#s-m-t-tooltip * {
+  color: #ffffff !important;
+  text-shadow: 1px 1px #000;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+/* make sure it isn't empty or collapsed */
+#s-m-t-tooltip {
+  padding: 8px 10px !important;
+  min-width: 100px;
+  min-height: auto;
+  display: inline-block;
+}
+
+/* end of POKÉMON-style tooltip box */
+
+.pokemap-wrapper {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.pokemap-toggle {
+  background: #1e2e7b;
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  transition: background 0.3s ease;
+}
+
+.pokemap-toggle:hover {
+  background: #2a3b9a;
+}
+
+.pokemap-container {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.pokemap-container.open {
+  max-height: 500px; /* adjust to your image’s height */
+  opacity: 1;
+}
+
+.pokemap-image {
+  width: 100%;
+  height: auto;
+  max-width: 320px; /* optional limit for your layout */
+  display: block;
+  margin: 0 auto;
+}
+

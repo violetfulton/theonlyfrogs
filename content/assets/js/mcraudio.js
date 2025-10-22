@@ -8,7 +8,7 @@ let backButton = undefined;
 let audioNum = Math.floor(Math.random() * audioList.length);
 
 window.onload = function() {
-  audio = document.getElementById("myAudio");
+  audio = document.getElementById("audio");
 
   audio.src = audioList[audioNum].src;
   document.querySelector(".screen b").textContent = audioList[audioNum].name;

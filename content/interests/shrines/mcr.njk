@@ -4,57 +4,76 @@ layout: base.njk
 customcss: '/assets/css/mcr.css'
 permalink: /shrines/mcr/
 ---
-<header>
-  <div class="header">
-      <a href="#"><img style="width: 100%" src="/assets/imgs/graphics/mcrtitle.png"></a>
+
+<div class="lads">
+  <img src="/assets/imgs/graphics/mcrlads.png" alt="MCR Shrine Title">
+</div>
+
+<!-- Main shrine content -->
+<div class="mcr-container">
+  <header>
+    <div class="header">
+      <a href="#"><img style="width: 100%" src="/assets/imgs/graphics/mcrtitle.png" alt="MCR Title"></a>
     </div>
-      <a href="/"><img style="width: 20%" src="/assets/imgs/graphics/MCRHOME.png"></a>
-      <a href="/shrines/"><img style="width: 20%" src="/assets/imgs/graphics/MCRBK.png"></a>
-</header>
+    <a href="/"><img style="width: 20%" src="/assets/imgs/graphics/MCRHOME.png" alt="Home"></a>
+    <a href="/shrines/"><img style="width: 20%" src="/assets/imgs/graphics/MCRBK.png" alt="Back"></a>
+  </header>
 
-<div class="row">
-<div class="column" id="left">
-<div class="ipod">
-<div class="screen">
-<b> placeholder </b>
-<audio id="myAudio" controls>
-  <source id="audioSource" src="" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<div class="album">
-  <img src="/assets/imgs/graphics/mcr.jpg" alt="MCR Album Cover" width="85px">
-</div>
-</div>
-<div class="button">
-  <div class="b b-top" id="playButton">▶</div>
-  <div class="b b-left"
-  id="backButton">⏮︎</div>
-  <div class="b b-right" id="nextButton">⏭︎</div>
-  <div class="b b-bottom" id="pauseButton">❚❚</div>
-  <div class="button"> </div></div>
-</div>
+  <div class="text-section">
+    <p>My Chemical Romance (abbreviated as MCR) is an American rock band formed in 2001. They are my all-time favorite band and have been since I was 12 years old. Their music has had a profound impact on my life, providing comfort during difficult times. So I guess this shrine is my nod to them and how much they mean to me.</p>
+    <br>
+
+    <h3>How I Discovered MCR</h3>
+    <p>I found MCR by, funnily enough, loving The Smiths. I'd been listening to The Smiths for basically my entire life when I (think) I stumbled upon an article or recommendation that mentioned MCR as a similar band. Intrigued, I decided to give them a listen. I believe I listened to them before Danger Days came out. It's a bit hazy as the years have gone by, but I remember being immediately drawn to their sound and aesthetic.</p>
+    <br>
+    <p>So much so, I dinstinctly remember wanting to smoke to be like Frank Iero. When I moved up to high school, I fell in with a crowd who already smoked since they were 9! They got me hooked pretty easy and before you know it I was a full blown emo. Black eyeliner, dyed hair and a penchant for dramatic flair became my trademarks.</p>
+    <br>
+    <p>From there, my love for MCR only grew. I delved into their discography, learning about their history and the stories behind their songs (and reading some Frerard fanfiction). Each album felt like a new chapter in my life, with lyrics that resonated deeply with my own experiences. Their music became a soundtrack to my adolescence, helping me navigate the ups and downs of teenage life.</p>
+    <br>
+    <h3>Albums</h3>
+    <ul>
+      <li>I Brought You My Bullets, You Brought Me Your Love</li>
+      <p> - This album is raw and unpolished, but it has a certain charm. It's a great introduction to the band's early sound.</p>
+      <li>Three Cheers for Sweet Revenge</li>
+      <p> - This album is hands down my favorite. It's raw, emotional, and captures the essence of youthful angst perfectly.</p>
+      <li>The Black Parade</li>
+      <p> - This album is a rock opera masterpiece. The storytelling and theatricality are unmatched.</p>
+      <li>Danger Days: The True Lives of the Fabulous Killjoys</li>
+      <p> - This album is a departure from their earlier sound, but it's incredibly fun and vibrant.</p>
+    </ul>
+
+    <h3>Favorite Songs</h3>
+    <ul>
+      <li>Welcome to the Black Parade</li>
+      <li>Helena</li>
+      <li>I Don't Love You</li>
+    </ul>
+
+    <br>
+    <img src="/assets/imgs/graphics/under construction 7.gif" alt="Under Construction" width="150px">
+    <p>More content coming soon!</p>
+  </div>
 </div>
 
-<div class="column" id="right">
-  <h2>My Chemical Romance</h2>
-  <p>My Chemical Romance (often abbreviated as MCR) is an American rock band formed in 2001. They are known for their theatrical style and emotional lyrics.</p>
-  <h3>Popular Albums</h3>
-  <ul>
-    <li>The Black Parade</li>
-    <li>Three Cheers for Sweet Revenge</li>
-    <li>Danger Days: The True Lives of the Fabulous Killjoys</li>
-  </ul>
-  <h3>Favorite Songs</h3>
-  <ul>
-    <li>Welcome to the Black Parade</li>
-    <li>Helena</li>
-    <li>I Don't Love You</li>
-  </ul>
-  <br>
-  <img src="/assets/imgs/graphics/under construction 7.gif" alt="Under Construction" width="150px">
-  <p>More content coming soon!</p>
+<div class="cd-sidebar">
+<div class="audio-player-container">
+
+  <div id="lol"><img class="img2" src="/assets/imgs/graphics/Three_cheers_clean.jpg"><img class="img1" src="/assets/imgs/graphics/threecheerscddisctransparent.png"></div>
+
+  </div>
+</div>
+
+  <script>
+    document.getElementById("lol").onclick = function() {
+      var audio = document.getElementById("audio");
+      if (audio.paused) audio.play();
+      else audio.pause();
+    };
+
+  </script>
+<audio id="audio"></audio>
 </div>
 </div>
-<!-- <input type="button" value="shuffle" onclick="generateMusic()" />
-<input type="button" value="play/pause" onclick="togglePlay()"/> -->
+<div>
+
 <script src="/assets/js/mcraudio.js"></script>

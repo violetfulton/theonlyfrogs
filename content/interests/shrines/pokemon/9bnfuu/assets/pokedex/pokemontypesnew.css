@@ -1,0 +1,163 @@
+:root{
+    /* Normal */
+
+    --Normal_main: #8C7655;
+    --Normal_stripe: #2F1F04;
+    --Normal_border1: #C3C8C6;
+    --Normal_border2: #635A3F;
+    --Normal_accent1: #3E372E;
+    --Normal_accent2: #4F4A40;
+
+    /* Ghost */
+
+    --Ghost_main: #846E81;
+    --Ghost_stripe: #1C0137;
+    --Ghost_border1: #8F71D7;
+    --Ghost_border2: #393FBF;
+    --Ghost_accent1: #482565;
+    --Ghost_accent2: #583D81;
+
+    /* Electric */
+
+    --Electric_main: #BDA000;
+    --Electric_stripe: #2A2900;
+    --Electric_border1: #F0F258;
+    --Electric_border2: #899F08;
+    --Electric_accent1: #615503;
+    --Electric_accent2: #767200;
+    
+    /* Ground */
+
+    --Ground_main: #CE981B;
+    --Ground_stripe: #312300;
+    --Ground_border1: #CABC8A;
+    --Ground_border2: #686102;
+    --Ground_accent1: #695105;
+    --Ground_accent2: #7D6A0F;
+
+    /* Bug */
+
+    --Bug_main: #A29900;
+    --Bug_stripe: #202600;
+    --Bug_border1: #BECC85;
+    --Bug_border2: #639901;
+    --Bug_accent1: #404100;
+    --Bug_accent2: #566100;
+
+    /* Flying */
+
+    --Flying_main: #688AA8;
+    --Flying_stripe: #050736;
+    --Flying_border1: #8EB6F2;
+    --Flying_border2: #0B3CA4;
+    --Flying_accent1: #211965;
+    --Flying_accent2: #303891;
+
+    /* Poison */
+
+    --Poison_main: #A83D9B;
+    --Poison_stripe: #310037;
+    --Poison_border1: #B9A2D6;
+    --Poison_border2: #50108A;
+    --Poison_accent1: #3F1B5B;
+    --Poison_accent2: #55247D;
+
+    /* Grass */
+
+    --Grass_main: #96A506;
+    --Grass_stripe: #032603;
+    --Grass_border1: #B1EE97;
+    --Grass_border2: #1AA114;
+    --Grass_accent1: #1E4F01;
+    --Grass_accent2: #346D02;
+
+    /* Fire */
+
+    --Fire_main: #CC5220;
+    --Fire_stripe: #350205;
+    --Fire_border1: #D2917C;
+    --Fire_border2: #A21512;
+    --Fire_accent1: #4E1101;
+    --Fire_accent2: #69230D;
+
+    /* Ice */
+
+    --Ice_main: #4DA27B;
+    --Ice_stripe: #00291C;
+    --Ice_border1: #B5F3FE;
+    --Ice_border2: #10827A;
+    --Ice_accent1: #1F3737;
+    --Ice_accent2: #265857;
+    
+    /* Water */
+
+    --Water_border1: #93F2FE;
+    --Water_border2: #0B72C5;
+    --Water_stripe: #09363D;
+    --Water_main: #129497;
+    --Water_accent1: #024451;
+    --Water_accent2: #05617A;
+
+    /* Fighting */
+
+    --Fighting_main: #9C5F34;
+    --Fighting_stripe: #330505;
+    --Fighting_border1: #CEBDAC;
+    --Fighting_border2: #8F5522;
+    --Fighting_accent1: #612519;
+    --Fighting_accent2: #6C3A29;
+
+    /* Psychic */
+
+    --Psychic_main: #D6394C;
+    --Psychic_stripe: #3C0017;
+    --Psychic_border1: #FD4971;
+    --Psychic_border2: #8F0926;
+    --Psychic_accent1: #6B0B2B;
+    --Psychic_accent2: #7D183C;
+
+    /* Rock */
+
+    --Rock_main: #956C28;
+    --Rock_stripe: #2A1801;
+    --Rock_border1: #C1C0A3;
+    --Rock_border2: #534311;
+    --Rock_accent1: #4D2A07;
+    --Rock_accent2: #5B4012;
+    
+    /* Dragon */
+
+    --Dragon_main: #5D5095;
+    --Dragon_stripe: #1D0239;
+    --Dragon_border1: #A498FE;
+    --Dragon_border2: #083793;
+    --Dragon_accent1: #2C095B;
+    --Dragon_accent2: #391D83;
+    
+    /* Steel */
+
+    --Steel_main: #747879;
+    --Steel_stripe: #041433;
+    --Steel_border1: #99ACB8;
+    --Steel_border2: #1E648E;
+    --Steel_accent1: #112430;
+    --Steel_accent2: #243C4D;
+
+    /* Dark */
+
+    --Dark_border1: #BF897B;
+    --Dark_border2: #64332D;
+    --Dark_stripe: #1F0F0E;
+    --Dark_main: #875B43;
+    --Dark_accent1: #4E1F0D;
+    --Dark_accent2: #5B311F;
+
+    /* Fairy */
+
+    --Fairy_main: #E76284;
+    --Fairy_stripe: #2F0228;
+    --Fairy_border1: #F78AF7;
+    --Fairy_border2: #F50453;
+    --Fairy_accent1: #780A48;
+    --Fairy_accent2: #8E206C;
+}
