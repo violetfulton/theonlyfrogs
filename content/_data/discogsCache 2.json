@@ -276,7 +276,7 @@
     "id": 11461403,
     "instance_id": 2067538130,
     "date_added": "2025-10-05T14:05:26-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 11461403,
       "master_id": 35626,
@@ -2760,62 +2760,6 @@
         "Pop"
       ],
       "styles": []
-    },
-    "folder_id": 1
-  },
-  {
-    "id": 35420899,
-    "instance_id": 2072583350,
-    "date_added": "2025-10-22T08:45:56-07:00",
-    "rating": 5,
-    "basic_information": {
-      "id": 35420899,
-      "master_id": 4006858,
-      "master_url": "https://api.discogs.com/masters/4006858",
-      "resource_url": "https://api.discogs.com/releases/35420899",
-      "thumb": "https://i.discogs.com/1CWdmXttrZi40prSO-v6ewK32iyzhh5zolJwTctQDqM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDIw/ODk5LTE3NjEwOTQz/MTAtNjU1My5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/1IqUSaeT6bKn4IVtQT7khlYnIfoE0wRTXLGDswXGVCM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDIw/ODk5LTE3NjEwOTQz/MTAtNjU1My5qcGVn.jpeg",
-      "title": "Smoochies",
-      "year": 2025,
-      "formats": [
-        {
-          "name": "CD",
-          "qty": "1",
-          "descriptions": [
-            "Album"
-          ]
-        }
-      ],
-      "labels": [
-        {
-          "name": "Parlophone",
-          "catno": "5021732740168",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 2294,
-          "resource_url": "https://api.discogs.com/labels/2294"
-        }
-      ],
-      "artists": [
-        {
-          "name": "Ashnikko",
-          "anv": "",
-          "join": "",
-          "role": "",
-          "tracks": "",
-          "id": 5904635,
-          "resource_url": "https://api.discogs.com/artists/5904635"
-        }
-      ],
-      "genres": [
-        "Electronic",
-        "Hip Hop",
-        "Pop"
-      ],
-      "styles": [
-        "Alt-Pop",
-        "Indie Pop"
-      ]
     },
     "folder_id": 1
   },

@@ -48,3 +48,40 @@ function playMusic() {
 }
 
 
+// Countdown to MCR event
+function startCountdown() {
+  const countdownElement = document.getElementById("countdown-timer");
+
+  // Target date in Scotland timezone
+  const targetDate = new Date("2026-07-04T17:00:00+01:00"); // BST (UK summer time)
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance <= 0) {
+      countdownElement.innerHTML = "🖤 It's show time! 🖤";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor(
+      (distance % (1000 * 60 * 60)) / (1000 * 60)
+    );
+    const seconds = Math.floor(
+      (distance % (1000 * 60)) / 1000
+    );
+
+    countdownElement.innerHTML =
+      `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+}
+
+// Run countdown when page loads
+document.addEventListener("DOMContentLoaded", startCountdown);
