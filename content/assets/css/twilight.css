@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Spectral';
+  src: url('../fonts/Spectral/Spectral-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #0b0c1a;
+  color: #e0e0ff;
+  position: relative; /* for absolute children */
+  font-family: 'Spectral', serif;
+}
+
+.shrine-header {
+  text-align: center;
+  margin: 20px;
+}
+.shrine-header img {
+  width: 60%;
+  max-width: 800px;
+  height: auto;
+  filter: drop-shadow(0 0 10px rgba(224,224,255,0.2));
+}
+
+/* Additional styles for Twilight shrine can be added below */
+
+.shrine-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.shrine-content h2, .shrine-content h3 {
+  color: #a0a0ff;
+}
+.shrine-content a {
+  color: #8080ff;
+}
+.shrine-content a:hover {
+  text-decoration: underline;
+}
+.shrine-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(224,224,255,0.3);
+}
+
+.eyes-container {
+  text-align: center;
+  margin-top: -55px;
+}
+
+.eyes-container img {
+  width: 250px;
+  height: auto;
+  margin: 0 15px;
+  filter: drop-shadow(0 0 8px rgba(224,224,255,0.4));
+
+}
+
+.shrine-footer {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 0.9em;
+  color: #7070aa;
+}
+
+.shrine-footer img {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.shrine-footer a>img {
+  filter: drop-shadow(0 0 5px rgba(128,128,255,0.5));
+}
+
+.shrine-footer a {
+  color: #8080ff;
+  text-decoration: none;
+  filter: drop-shadow(0 0 5px rgba(128,128,255,0.5));
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.shrine-footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .shrine-header img {
+    width: 90%;
+  }
+  .shrine-content {
+    padding: 10px;
+    font-size: 1em;
+  }
+  .eyes-container img {
+    width: 100px;
+    margin: 0 10px;
+  }
+}
+
+/* End of twilight.css */

@@ -29,7 +29,7 @@ permalink: /cds/
       <p><strong>Released:</strong> {{ cd.year }}</p>
 
       {% if cd.userRating %}
-        <p><strong>🧍 My Rating:</strong>
+        <p><strong>My Rating:</strong>
           <span class="stars">
             {% for i in [1, 2, 3, 4, 5] %}
               {% if i <= cd.userRating %}
@@ -39,7 +39,6 @@ permalink: /cds/
               {% endif %}
             {% endfor %}
           </span>
-          <span class="numeric-rating">{{ cd.userRating }}/5</span>
         </p>
       {% endif %}
     </div>

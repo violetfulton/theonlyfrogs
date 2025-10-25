@@ -2655,6 +2655,61 @@
     "folder_id": 1
   },
   {
+    "id": 982693,
+    "instance_id": 2073472875,
+    "date_added": "2025-10-25T08:05:29-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 982693,
+      "master_id": 127958,
+      "master_url": "https://api.discogs.com/masters/127958",
+      "resource_url": "https://api.discogs.com/releases/982693",
+      "thumb": "https://i.discogs.com/KzNU20bje7DstiGuUk75Iwv7ezHcfX3GdbiP-yQ4DSQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MjY5/My0xMTgwNTQwMDg2/LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/Wu_VMmM2W-xTCUGmdeD4or0Xlyxhvce60A2xLruFQUo/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4MjY5/My0xMTgwNTQwMDg2/LmpwZWc.jpeg",
+      "title": "Infinity On High",
+      "year": 2007,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Mercury",
+          "catno": "172 057-5",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 39357,
+          "resource_url": "https://api.discogs.com/labels/39357"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Fall Out Boy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 318185,
+          "resource_url": "https://api.discogs.com/artists/318185"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Rock",
+        "Emo",
+        "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 4700590,
     "instance_id": 2067537121,
     "date_added": "2025-10-05T14:02:32-07:00",
@@ -3772,69 +3827,6 @@
     "folder_id": 1
   },
   {
-    "id": 34382998,
-    "instance_id": 2067539742,
-    "date_added": "2025-10-05T14:10:46-07:00",
-    "rating": 0,
-    "basic_information": {
-      "id": 34382998,
-      "master_id": 3925902,
-      "master_url": "https://api.discogs.com/masters/3925902",
-      "resource_url": "https://api.discogs.com/releases/34382998",
-      "thumb": "https://i.discogs.com/42mcg-SwZTqGzUnYyMVV7iMq_0RurlUJxr_tqVu6yU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Mzgy/OTk4LTE3NTA5OTA1/MjMtMzY1OC5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/uPzhKyblJedkKa88xSuuLeA7dCr5Fy-4rdem2h9DqyI/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Mzgy/OTk4LTE3NTA5OTA1/MjMtMzY1OC5qcGVn.jpeg",
-      "title": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
-      "year": 2025,
-      "formats": [
-        {
-          "name": "CD",
-          "qty": "1",
-          "descriptions": [
-            "Compilation"
-          ]
-        }
-      ],
-      "labels": [
-        {
-          "name": "Republic Records",
-          "catno": "00602478662393",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 38017,
-          "resource_url": "https://api.discogs.com/labels/38017"
-        },
-        {
-          "name": "Visva",
-          "catno": "00602478662393",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 4241807,
-          "resource_url": "https://api.discogs.com/labels/4241807"
-        }
-      ],
-      "artists": [
-        {
-          "name": "Various",
-          "anv": "",
-          "join": "",
-          "role": "",
-          "tracks": "",
-          "id": 194,
-          "resource_url": "https://api.discogs.com/artists/194"
-        }
-      ],
-      "genres": [
-        "Pop",
-        "Stage & Screen"
-      ],
-      "styles": [
-        "K-pop",
-        "Soundtrack"
-      ]
-    },
-    "folder_id": 1
-  },
-  {
     "id": 32501169,
     "instance_id": 2064146398,
     "date_added": "2025-09-24T12:36:59-07:00",
@@ -4349,6 +4341,69 @@
       "styles": [
         "Industrial",
         "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 34382998,
+    "instance_id": 2067539742,
+    "date_added": "2025-10-05T14:10:46-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 34382998,
+      "master_id": 3925902,
+      "master_url": "https://api.discogs.com/masters/3925902",
+      "resource_url": "https://api.discogs.com/releases/34382998",
+      "thumb": "https://i.discogs.com/42mcg-SwZTqGzUnYyMVV7iMq_0RurlUJxr_tqVu6yU4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Mzgy/OTk4LTE3NTA5OTA1/MjMtMzY1OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/uPzhKyblJedkKa88xSuuLeA7dCr5Fy-4rdem2h9DqyI/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0Mzgy/OTk4LTE3NTA5OTA1/MjMtMzY1OC5qcGVn.jpeg",
+      "title": "KPop Demon Hunters (Soundtrack From The Netflix Film)",
+      "year": 2025,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Compilation"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Visva",
+          "catno": "00602478662393",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 4241807,
+          "resource_url": "https://api.discogs.com/labels/4241807"
+        },
+        {
+          "name": "Republic Records",
+          "catno": "00602478662393",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 38017,
+          "resource_url": "https://api.discogs.com/labels/38017"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "genres": [
+        "Pop",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "K-pop",
+        "Soundtrack"
       ]
     },
     "folder_id": 1

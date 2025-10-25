@@ -15,6 +15,7 @@ export default function () {
       year: item.basic_information.year || "N/A",
       format: item.basic_information.formats?.[0]?.name || "CD",
       image: item.basic_information.cover_image,
+      userRating: item.rating > 0 ? item.rating : null, // Add this line
     }));
   } catch (err) {
     console.error("❌ Error reading Discogs cache:", err);
