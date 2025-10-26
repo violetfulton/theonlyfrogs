@@ -13,12 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
     modalTitle.textContent = card.dataset.title;
     modalYear.textContent = card.dataset.year || "Unknown";
 
-    // Ratings (★/☆)
     const rating = parseInt(card.dataset.myRating) || 0;
     modalRatingStars.textContent =
       "★".repeat(rating) + "☆".repeat(5 - rating);
 
-    // Status icons ✅ / 🎯
     modalStatus.textContent =
       card.dataset.status === "watched"
         ? "✅ Watched"
@@ -41,16 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   closeButton.addEventListener("click", closeModal);
-
   modal.addEventListener("click", e => {
     if (e.target === modal) closeModal();
   });
-
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") closeModal();
   });
 
-  // ✅ FILTERING + PROGRESS
+  // ✅ Filters + Progress
   const filterButtons = document.querySelectorAll(".filter-btn");
   const movieCards = document.querySelectorAll(".movie-card");
   const progressFill = document.querySelector(".progress-fill");
@@ -58,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateProgress() {
     const total = movieCards.length;
-    const watchedCount = [...movieCards].filter(card => card.dataset.status === "watched").length;
+    const watchedCount = [...movieCards].filter(c => c.dataset.status === "watched").length;
     const percent = total ? Math.round((watchedCount / total) * 100) : 0;
     progressFill.style.width = percent + "%";
     progressText.textContent = `${watchedCount}/${total} watched (${percent}%)`;
@@ -66,11 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function applyFilter(filter) {
     movieCards.forEach(card => {
-      const status = card.dataset.status;
-      card.style.display =
-        filter === "all" || status === filter
-          ? "block"
-          : "none";
+      const visible = filter === "all" || card.dataset.status === filter;
+      card.style.display = visible ? "block" : "none";
     });
     updateProgress();
   }
@@ -83,6 +76,44 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ Initial state
+  // ✅ Sorting + Smooth Animation
+  const sortButtons = document.querySelectorAll(".sort-btn");
+  const movieGrid = document.querySelector(".movie-grid");
+
+  function applySort(type) {
+    const sortedCards = [...movieCards];
+
+    if (type === "alphabetical") {
+      sortedCards.sort((a, b) =>
+        a.dataset.title.localeCompare(b.dataset.title, undefined, { sensitivity: "base" })
+      );
+    } else if (type === "recent") {
+      sortedCards.sort((a, b) =>
+        parseInt(b.dataset.index) - parseInt(a.dataset.index)
+      );
+    }
+
+    movieCards.forEach(card => card.classList.add("animating"));
+
+    setTimeout(() => {
+      sortedCards.forEach(card => movieGrid.appendChild(card));
+
+      requestAnimationFrame(() => {
+        movieCards.forEach(card => card.classList.remove("animating"));
+      });
+    }, 200);
+  }
+
+  sortButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      sortButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      applySort(btn.dataset.sort);
+      applyFilter(document.querySelector(".filter-btn.active").dataset.filter);
+    });
+  });
+
+  // ✅ Startup state
+  applySort("alphabetical");
   applyFilter("all");
 });

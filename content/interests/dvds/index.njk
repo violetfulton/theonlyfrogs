@@ -13,6 +13,11 @@ permalink: /dvds/
   <button class="filter-btn" data-filter="unwatched">Unwatched 🎯</button>
 </div>
 
+<div class="sort-controls">
+  <button class="sort-btn active" data-sort="alphabetical">A → Z</button>
+  <button class="sort-btn" data-sort="recent">Recently Added</button>
+</div>
+
 <div class="watch-progress">
   <div class="progress-bar">
     <div class="progress-fill"></div>
@@ -30,15 +35,16 @@ permalink: /dvds/
        data-year="{{ releaseYear }}"
        data-img="https://image.tmdb.org/t/p/w342{{ poster }}"
        data-my-rating="{{ movie.my_rating }}"
-       data-status="{{ movie.status }}">
+       data-status="{{ movie.status }}"
+       data-index="{{ loop.index }}">
 
     <img src="https://image.tmdb.org/t/p/w342{{ poster }}" alt="{{ movie.title }}">
     <p class="title">{{ movie.title }}</p>
   </div>
 {% endfor %}
-</div> <!-- end movie-grid -->
+</div>
 
 {% include "partials/dvdModal.njk" %}
 </main>
 
-<script src="/assets/js/dvdModal.js?v=11"></script>
+<script src="/assets/js/dvdModal.js"></script>
