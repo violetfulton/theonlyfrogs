@@ -1,7 +1,8 @@
-/* ✅ GLOBAL STYLES */
+/* ✅ GLOBAL */
 body {
   background: #e8f5e9;
   font-family: 'FortySeven Micro NBP', sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
   border-radius: 8px;
   cursor: pointer;
   font-family: 'Gaegu', sans-serif;
-  transition: all 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .filter-btn.active,
@@ -51,7 +52,7 @@ h1 {
   height: 100%;
   width: 0%;
   background: #4caf50;
-  transition: width 0.3s ease;
+  transition: width 0.35s ease;
 }
 
 #progress-text {
@@ -93,17 +94,18 @@ h1 {
   font-size: 0.9rem;
 }
 
-/* ✅ MODAL FIXES */
+/* ✅ MODAL FIX — MOST IMPORTANT PART */
 #dvd-modal {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
+  background: rgba(0,0,0,0.65);
   display: none;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0.65);
-  z-index: 9999;
+  z-index: 999999; /* 👑 force above ALL else */
 }
 
 #dvd-modal.active {
@@ -113,11 +115,17 @@ h1 {
 .dvd-modal-content {
   background: white;
   border-radius: 12px;
-  padding: 1.2rem;
+  padding: 1rem;
   max-width: 350px;
   width: 90%;
   text-align: center;
+  animation: popup 0.25s ease-out;
   position: relative;
+}
+
+@keyframes popup {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 .modal-poster {
@@ -127,7 +135,7 @@ h1 {
 
 .modal-close {
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 12px;
   background: none;
   border: none;
@@ -135,7 +143,7 @@ h1 {
   cursor: pointer;
 }
 
-/* ✅ SIMPLE RATING + STATUS */
+/* ✅ RATING + STATUS INSIDE MODAL */
 .modal-rating {
   margin: 0.35rem 0;
   font-size: 1.3rem;
