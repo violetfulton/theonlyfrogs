@@ -159,35 +159,25 @@ h1 {
   font-weight: bold;
 }
 
-/* ✅ SORT */
+/* ✅ SORT IN NAV */
 .sort-controls {
-  text-align: center;
-  margin-bottom: 0.6rem;
+  display: inline-block;
+  margin-left: .5rem;
 }
 
 .sort-btn {
-  margin: 0 6px;
-  padding: 5px 10px;
-  border: 2px solid #4caf50;
+  margin: 0 4px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  border: 1px solid #4caf50;
   background: white;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
   font-family: 'Gaegu', sans-serif;
-  transition: all 0.15s ease;
 }
 
 .sort-btn.active,
 .sort-btn:hover {
   background: #4caf50;
   color: #fff;
-}
-
-/* ✅ Smooth Sorting Animation */
-.movie-card {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.movie-card.animating {
-  opacity: 0;
-  transform: scale(0.95);
 }
