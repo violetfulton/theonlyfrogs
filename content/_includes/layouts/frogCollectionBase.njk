@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "The Only Frogs - Collection" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {# CSS #}
+  {% if customcss %}
+  <link rel="stylesheet" href="{{ customcss }}">
+  {% endif %}
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/">🐸 Home</a> |
+    <a href="/interests/">🎯 Interests</a> |
+    <a href="/interests/dvds/">📀 DVDs</a>
+  </nav>
+</header>
+
+<main>
+  {{ content | safe }}
+</main>
+
+<footer style="text-align:center; margin:2rem 0; font-size:0.8rem;">
+  <p>This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
+</footer>
+
+</body>
+</html>
