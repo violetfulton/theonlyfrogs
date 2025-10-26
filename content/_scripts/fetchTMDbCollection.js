@@ -40,23 +40,27 @@ async function fetchAllListItems() {
     const res = await fetch(url, {
       headers: {
         Authorization: `Bearer ${API_KEY}`,
-        "Content-Type": "application/json;charset=utf-8"
-      }
+        "Content-Type": "application/json;charset=utf-8",
+      },
     });
 
     const data = await res.json();
 
     if (!data.results) break;
 
+    // console.log(data.results[0]);
     allItems.push(...data.results);
 
     // ✅ this is the missing key previously ❗️
     totalPages = data.total_pages || 1;
 
-    console.log(`📄 Page ${page}/${totalPages} => ${data.results.length} items`);
+    console.log(
+      `📄 Page ${page}/${totalPages} => ${data.results.length} items`,
+    );
     page++;
   }
 
+  console.log(allItems);
   console.log(`✅ Retrieved ${allItems.length} total list items from TMDb v4`);
   return allItems;
 }
@@ -72,7 +76,7 @@ async function fetchDetails(id, mediaType) {
   // ✅ Try movie first if no media_type provided
   const urls = [
     `https://api.themoviedb.org/3/movie/${id}?api_key=${v3key}&language=en-US`,
-    `https://api.themoviedb.org/3/tv/${id}?api_key=${v3key}&language=en-US`
+    `https://api.themoviedb.org/3/tv/${id}?api_key=${v3key}&language=en-US`,
   ];
 
   for (const url of urls) {
@@ -82,7 +86,9 @@ async function fetchDetails(id, mediaType) {
     const data = await res.json();
     const type = data.media_type || (data.title ? "movie" : "tv");
 
-    console.log(`${type === "movie" ? "🎬 Movie" : "📺 TV Show"}: ${data.title || data.name} (${id})`);
+    console.log(
+      `${type === "movie" ? "🎬 Movie" : "📺 TV Show"}: ${data.title || data.name} (${id})`,
+    );
 
     return {
       tmdb_id: id,
@@ -92,15 +98,17 @@ async function fetchDetails(id, mediaType) {
       genres: data.genres || [],
       overview: data.overview || "",
       vote_average: data.vote_average,
-      runtime: data.runtime || (data.episode_run_time && data.episode_run_time[0]) || null,
-      media_type: type
+      runtime:
+        data.runtime ||
+        (data.episode_run_time && data.episode_run_time[0]) ||
+        null,
+      media_type: type,
     };
   }
 
   console.warn(`❌ Failed detail on BOTH movie & tv endpoints — ID: ${id}`);
   return null;
 }
-
 
 async function main() {
   if (!API_KEY) {
@@ -115,26 +123,16 @@ async function main() {
   const cache = await loadJSON(TMDB_CACHE);
   const myMeta = await loadJSON(MY_META_PATH);
 
-  const cacheById = new Map(cache.map(m => [m.tmdb_id, m]));
-  const metaById = new Map(myMeta.map(m => [m.tmdb_id, m]));
+  const cacheById = new Map(cache.map((m) => [m.tmdb_id, m]));
+  const metaById = new Map(myMeta.map((m) => [m.tmdb_id, m]));
 
   const merged = [];
 
   for (const item of listItems) {
     const id = item.id;
-    const mediaType = item.media_type;
 
-    let movieData = cacheById.get(id);
-
-    if (!movieData) {
-      // ✅ Fetch details using detected media type
-      const details = await fetchDetails(id, mediaType);
-      if (!details) continue;
-      movieData = details;
-
-      // gentle API pacing
-      await new Promise(r => setTimeout(r, 200));
-    }
+    let movieData = item;
+    movieData.title = item.title || item.name;
 
     // ✅ Merge or create personal metadata
     const personal = metaById.get(id);
@@ -149,7 +147,7 @@ async function main() {
         my_rating: null,
         format: "DVD",
         purchased: null,
-        status: "unwatched"
+        status: "unwatched",
       });
     }
 
@@ -159,7 +157,10 @@ async function main() {
   merged.sort((a, b) => a.title.localeCompare(b.title));
 
   await fs.writeFile(TMDB_CACHE, JSON.stringify(merged, null, 2));
-  await fs.writeFile(MY_META_PATH, JSON.stringify([...metaById.values()], null, 2));
+  await fs.writeFile(
+    MY_META_PATH,
+    JSON.stringify([...metaById.values()], null, 2),
+  );
 
   console.log("✅ Sync complete!");
   console.log(`📀 Final Movie Count: ${merged.length}`);

@@ -1,1934 +1,1751 @@
 [
   {
-    "tmdb_id": 14161,
+    "adult": false,
+    "backdrop_path": "/pvxmYJcgrLiYC6G2IQTn1PPNems.jpg",
+    "id": 14161,
     "title": "2012",
-    "release_date": "2009-10-10",
-    "poster_path": "/zaqam2RNscH5ooYFWInV6hjx6y5.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
-    ],
+    "original_title": "2012",
     "overview": "Dr. Adrian Helmsley, part of a worldwide geophysical team investigating the effect on the earth of radiation from unprecedented solar storms, learns that the earth's core is heating up. He warns U.S. President Thomas Wilson that the crust of the earth is becoming unstable and that without proper preparations for saving a fraction of the world's population, the entire race is doomed. Meanwhile, writer Jackson Curtis stumbles on the same information. While the world's leaders race to build \"arks\" to escape the impending cataclysm, Curtis struggles to find a way to save his family. Meanwhile, volcanic eruptions and earthquakes of unprecedented strength wreak havoc around the world.",
+    "poster_path": "/zaqam2RNscH5ooYFWInV6hjx6y5.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      878
+    ],
+    "popularity": 10.9967,
+    "release_date": "2009-10-10",
+    "video": false,
     "vote_average": 5.863,
-    "runtime": 158,
-    "media_type": "movie"
+    "vote_count": 12366
   },
   {
-    "tmdb_id": 15789,
+    "adult": false,
+    "backdrop_path": "/aLMP6CYWyGadDXRFQILgmUgFW7d.jpg",
+    "id": 15789,
     "title": "A Goofy Movie",
-    "release_date": "1995-04-07",
-    "poster_path": "/2aLNp9HBPNj9mI5R2tFw4vcfbFL.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
-    ],
+    "original_title": "A Goofy Movie",
     "overview": "An endearing modern-day story about how the lovable Goof bonds with his teenage son Max on a hilarious cross-country road trip. En route to the ol' fishing hole, they find themselves up to their floppy ears in misadventure!",
+    "poster_path": "/2aLNp9HBPNj9mI5R2tFw4vcfbFL.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      35,
+      10749,
+      16,
+      10751
+    ],
+    "popularity": 6.4814,
+    "release_date": "1995-04-07",
+    "video": false,
     "vote_average": 7.005,
-    "runtime": 78,
-    "media_type": "movie"
+    "vote_count": 1847
   },
   {
-    "tmdb_id": 950387,
+    "adult": false,
+    "backdrop_path": "/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+    "id": 950387,
     "title": "A Minecraft Movie",
-    "release_date": "2025-03-31",
-    "poster_path": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
+    "original_title": "A Minecraft Movie",
     "overview": "Four misfits find themselves struggling with ordinary problems when they are suddenly pulled through a mysterious portal into the Overworld: a bizarre, cubic wonderland that thrives on imagination. To get back home, they'll have to master this world while embarking on a magical quest with an unexpected, expert crafter, Steve.",
+    "poster_path": "/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      10751,
+      14,
+      35,
+      12,
+      28
+    ],
+    "popularity": 35.0578,
+    "release_date": "2025-03-31",
+    "video": false,
     "vote_average": 6.359,
-    "runtime": 101,
-    "media_type": "movie"
+    "vote_count": 2451
   },
   {
-    "tmdb_id": 37949,
+    "adult": false,
+    "backdrop_path": "/oG24VU7BdJnw8YeXYvp0bcQzzjU.jpg",
+    "id": 37949,
     "title": "A Monkey's Tale",
-    "release_date": "1999-06-02",
-    "poster_path": "/s4pYSLnGHXUyiTs0HNmpUJMYVKv.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
-    ],
+    "original_title": "Le château des singes",
     "overview": "Kom is from a tribe of monkeys who live in a canopy. He rejects elders' authority as well as the superstition that the lower world would be inhabited by demons. But he accidentally falls from the trees…",
+    "poster_path": "/s4pYSLnGHXUyiTs0HNmpUJMYVKv.jpg",
+    "media_type": "movie",
+    "original_language": "fr",
+    "genre_ids": [
+      12,
+      16,
+      10751
+    ],
+    "popularity": 1.2203,
+    "release_date": "1999-06-02",
+    "video": false,
     "vote_average": 6.4,
-    "runtime": 80,
-    "media_type": "movie"
+    "vote_count": 47
   },
   {
-    "tmdb_id": 12155,
+    "adult": false,
+    "backdrop_path": "/1WHfwCcPMZqDtUhQO3VgNh1tryd.jpg",
+    "id": 12155,
     "title": "Alice in Wonderland",
-    "release_date": "2010-03-03",
-    "poster_path": "/o0kre9wRCZz3jjSjaru7QU0UtFz.jpg",
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
+    "original_title": "Alice in Wonderland",
     "overview": "Alice, now 19 years old, returns to the whimsical world she first entered as a child and embarks on a journey to discover her true destiny.",
+    "poster_path": "/o0kre9wRCZz3jjSjaru7QU0UtFz.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      10751,
+      14,
+      12
+    ],
+    "popularity": 18.0243,
+    "release_date": "2010-03-03",
+    "video": false,
     "vote_average": 6.636,
-    "runtime": 108,
-    "media_type": "movie"
+    "vote_count": 14438
   },
   {
-    "tmdb_id": 95,
-    "title": "Armageddon",
-    "release_date": "1998-07-01",
-    "poster_path": "/eTM3qtGhDU8cvjpoa6KEt5E2auU.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
-    "vote_average": 6.834,
-    "runtime": 151,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 19995,
+    "adult": false,
+    "backdrop_path": "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
+    "id": 19995,
     "title": "Avatar",
-    "release_date": "2009-12-15",
-    "poster_path": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
-    ],
+    "original_title": "Avatar",
     "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-    "vote_average": 7.593,
-    "runtime": 162,
-    "media_type": "movie"
+    "poster_path": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      14,
+      878
+    ],
+    "popularity": 31.0342,
+    "release_date": "2009-12-15",
+    "video": false,
+    "vote_average": 7.6,
+    "vote_count": 32734
   },
   {
-    "tmdb_id": 105,
+    "adult": false,
+    "backdrop_path": "/7oBGhqJIghRBvOwo5Qe0yM0cnMc.jpg",
+    "id": 246,
+    "name": "Avatar: The Last Airbender",
+    "original_name": "Avatar: The Last Airbender",
+    "overview": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "poster_path": "/yaGt4GIutpbXHsv48tWceWg6s56.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "popularity": 20.6118,
+    "first_air_date": "2005-02-21",
+    "vote_average": 8.757,
+    "vote_count": 4515,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Avatar: The Last Airbender"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg",
+    "id": 105,
     "title": "Back to the Future",
-    "release_date": "1985-07-03",
-    "poster_path": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
-    ],
+    "original_title": "Back to the Future",
     "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+    "poster_path": "/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      35,
+      878
+    ],
+    "popularity": 24.2575,
+    "release_date": "1985-07-03",
+    "video": false,
     "vote_average": 8.321,
-    "runtime": 116,
-    "media_type": "movie"
+    "vote_count": 20992
   },
   {
-    "tmdb_id": 900,
-    "title": "Bringing Up Baby",
-    "release_date": "1938-02-18",
-    "poster_path": "/vTNNOtemaYmtx3k2NpsLMRJKEwZ.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/yGKZsVJ8avlUpk6pvKzakgQ7TV9.jpg",
+    "id": 2287,
+    "name": "Batman",
+    "original_name": "Batman",
+    "overview": "Wealthy entrepreneur Bruce Wayne and his ward Dick Grayson lead a double life: they are actually crime fighting duo Batman and Robin. A secret Batpole in the Wayne mansion leads to the Batcave, where Police Commissioner Gordon often calls with the latest emergency threatening Gotham City. Racing to the scene of the crime in the Batmobile, Batman and Robin must (with the help of their trusty Bat-utility-belt) thwart the efforts of a variety of master criminals, including The Riddler, The Joker, Catwoman, and The Penguin.",
+    "poster_path": "/1ZEJuuDh0Zpi5ELM3Zev0GBhQ3R.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10765,
+      35,
+      10759
     ],
-    "overview": "David Huxley is waiting to get a bone he needs for his museum collection. Through a series of strange circumstances, he meets Susan Vance, and the duo have a series of misadventures which include a leopard called Baby.",
-    "vote_average": 7.525,
-    "runtime": 102,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 118,
-    "title": "Charlie and the Chocolate Factory",
-    "release_date": "2005-07-13",
-    "poster_path": "/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
-    "vote_average": 7.041,
-    "runtime": 115,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 293660,
-    "title": "Deadpool",
-    "release_date": "2016-02-09",
-    "poster_path": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
-    "vote_average": 7.622,
-    "runtime": 108,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 383498,
-    "title": "Deadpool 2",
-    "release_date": "2018-05-15",
-    "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
-    "vote_average": 7.488,
-    "runtime": 120,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 438631,
-    "title": "Dune",
-    "release_date": "2021-09-15",
-    "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
-    "genres": [
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
-    "vote_average": 7.776,
-    "runtime": 155,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 162,
-    "title": "Edward Scissorhands",
-    "release_date": "1990-12-07",
-    "poster_path": "/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
-    ],
-    "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
-    "vote_average": 7.718,
-    "runtime": 105,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 106379,
-    "title": "Fallout",
-    "release_date": "2024-04-10",
-    "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
-    "genres": [
-      {
-        "id": 10759,
-        "name": "Action & Adventure"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      }
-    ],
-    "overview": "The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "vote_average": 8.221,
-    "runtime": null,
-    "media_type": "tv"
-  },
-  {
-    "tmdb_id": 786892,
-    "title": "Furiosa: A Mad Max Saga",
-    "release_date": "2024-05-22",
-    "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
-    "vote_average": 7.46,
-    "runtime": 149,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 118340,
-    "title": "Guardians of the Galaxy",
-    "release_date": "2014-07-30",
-    "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
-    "vote_average": 7.904,
-    "runtime": 121,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 283995,
-    "title": "Guardians of the Galaxy Vol. 2",
-    "release_date": "2017-04-19",
-    "poster_path": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
-    "genres": [
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
-    "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
-    "vote_average": 7.611,
-    "runtime": 137,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 447365,
-    "title": "Guardians of the Galaxy Vol. 3",
-    "release_date": "2023-05-03",
-    "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-    "genres": [
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
-    "vote_average": 7.931,
-    "runtime": 150,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 672,
-    "title": "Harry Potter and the Chamber of Secrets",
-    "release_date": "2002-11-13",
-    "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
-    "vote_average": 7.705,
-    "runtime": 161,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 12445,
-    "title": "Harry Potter and the Deathly Hallows: Part 2",
-    "release_date": "2011-07-12",
-    "poster_path": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
-    "vote_average": 8.084,
-    "runtime": 130,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 674,
-    "title": "Harry Potter and the Goblet of Fire",
-    "release_date": "2005-11-16",
-    "poster_path": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "When Harry Potter's name emerges from the Goblet of Fire, he becomes a competitor in a grueling battle for glory among three wizarding schools—the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
-    "vote_average": 7.8,
-    "runtime": 157,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 767,
-    "title": "Harry Potter and the Half-Blood Prince",
-    "release_date": "2009-07-15",
-    "poster_path": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "As Lord Voldemort tightens his grip on both the Muggle and wizarding worlds, Hogwarts is no longer a safe haven. Harry suspects perils may even lie within the castle, but Dumbledore is more intent upon preparing him for the final battle fast approaching. Together they work to find the key to unlock Voldemorts defenses and to this end, Dumbledore recruits his old friend and colleague Horace Slughorn, whom he believes holds crucial information. Even as the decisive showdown looms, romance blossoms for Harry, Ron, Hermione and their classmates. Love is in the air, but danger lies ahead and Hogwarts may never be the same again.",
-    "vote_average": 7.682,
-    "runtime": 153,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 675,
-    "title": "Harry Potter and the Order of the Phoenix",
-    "release_date": "2007-07-08",
-    "poster_path": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students to defend themselves against the dark arts.",
-    "vote_average": 7.674,
-    "runtime": 138,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 671,
-    "title": "Harry Potter and the Philosopher's Stone",
-    "release_date": "2001-11-16",
-    "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
-    "vote_average": 7.9,
-    "runtime": 152,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 673,
-    "title": "Harry Potter and the Prisoner of Azkaban",
-    "release_date": "2004-05-31",
-    "poster_path": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "Year three at Hogwarts means new fun and challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
-    "vote_average": 8.011,
-    "runtime": 141,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 12609,
-    "title": "Help! I'm a Fish",
-    "release_date": "2000-10-06",
-    "poster_path": "/s9yFQD19xJqXEnAnUAZFUan25DJ.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      }
-    ],
-    "overview": "Three children are accidentally transformed into fish after consuming a potion made by an eccentric scientist. The kids end up in the sea, with one problem: they must find and drink the antidote within 48 hours, or forever remain as fish.",
-    "vote_average": 6.644,
-    "runtime": 80,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 8326,
-    "title": "Holes",
-    "release_date": "2003-04-18",
-    "poster_path": "/o2Dm2mcE1qW8vT0bpsJO5OMBbqa.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "A wrongfully convicted boy is sent to a brutal desert detention camp where he must dig holes in order to build character. What he doesn't know is that he is digging holes in order to search for a lost treasure hidden somewhere in the camp.",
-    "vote_average": 6.884,
-    "runtime": 117,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 4935,
-    "title": "Howl's Moving Castle",
-    "release_date": "2004-09-09",
-    "poster_path": "/TkTPELv4kC3u1lkloush8skOjE.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
-    "vote_average": 8.394,
-    "runtime": 119,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 245891,
-    "title": "John Wick",
-    "release_date": "2014-10-22",
-    "poster_path": "/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      }
-    ],
-    "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
-    "vote_average": 7.453,
-    "runtime": 101,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 324552,
-    "title": "John Wick: Chapter 2",
-    "release_date": "2017-02-08",
-    "poster_path": "/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 80,
-        "name": "Crime"
-      }
-    ],
-    "overview": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
-    "vote_average": 7.338,
-    "runtime": 122,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 8844,
-    "title": "Jumanji",
-    "release_date": "1995-12-15",
-    "poster_path": "/iWV47r6kFneCiApgrMII5HSkfHw.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
-    ],
-    "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
-    "vote_average": 7.242,
-    "runtime": 104,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 329,
-    "title": "Jurassic Park",
-    "release_date": "1993-06-11",
-    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
-    ],
-    "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
-    "vote_average": 7.962,
-    "runtime": 127,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 9502,
-    "title": "Kung Fu Panda",
-    "release_date": "2008-06-04",
-    "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
-    ],
-    "overview": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the \"chosen one\" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
-    "vote_average": 7.307,
-    "runtime": 90,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 1622,
-    "title": "Lemming",
-    "release_date": "2005-05-11",
-    "poster_path": "/6o1hnRBBU2fXlrSAtxS3Sn8QDFA.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 9648,
-        "name": "Mystery"
-      }
-    ],
-    "overview": "After the death of his boss's wife, a young engineer faces the sudden psychological metamorphosis of his own wife, seemingly possessed by the soul of the deceased...",
-    "vote_average": 6.591,
-    "runtime": 130,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 277834,
-    "title": "Moana",
-    "release_date": "2016-10-13",
-    "poster_path": "/9tzN8sPbyod2dsa0lwuvrwBDWra.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      }
-    ],
-    "overview": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
-    "vote_average": 7.564,
-    "runtime": 107,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 1241982,
-    "title": "Moana 2",
-    "release_date": "2024-11-21",
-    "poster_path": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
-    "vote_average": 7.03,
-    "runtime": 100,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 8193,
-    "title": "Napoleon Dynamite",
-    "release_date": "2004-06-11",
-    "poster_path": "/6Iv6Uwa2SBLN0dSGM00rdrwN4MJ.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.",
-    "vote_average": 6.782,
-    "runtime": 95,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 56570,
-    "title": "Outlander",
-    "release_date": "2014-08-09",
-    "poster_path": "/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10765,
-        "name": "Sci-Fi & Fantasy"
-      }
-    ],
-    "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "vote_average": 8.186,
-    "runtime": null,
-    "media_type": "tv"
-  },
-  {
-    "tmdb_id": 285,
-    "title": "Pirates of the Caribbean: At World's End",
-    "release_date": "2007-05-19",
-    "poster_path": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
-    "overview": "Will Turner and Elizabeth Swann join forces with the revived Captain Barbossa to free Jack Sparrow from Davy Jones' locker. The group must navigate dangerous waters, confront many foes and, ultimately, choose sides in a battle wherein piracy itself hangs in the balance.",
-    "vote_average": 7.263,
-    "runtime": 169,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 58,
-    "title": "Pirates of the Caribbean: Dead Man's Chest",
-    "release_date": "2006-07-06",
-    "poster_path": "/lAhcKRt0ggTFkeFL95jrGQYaRXs.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
-    "overview": "Captain Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
-    "vote_average": 7.4,
-    "runtime": 151,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 22,
-    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "release_date": "2003-07-09",
-    "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
-    ],
-    "overview": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
-    "vote_average": 7.815,
-    "runtime": 143,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 680,
-    "title": "Pulp Fiction",
-    "release_date": "1994-09-10",
-    "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
-    "genres": [
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-    "vote_average": 8.486,
-    "runtime": 154,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 2287,
-    "title": "Rize",
-    "release_date": "2005-01-15",
-    "poster_path": "/bx7UAcyumQZuNj3dZFK7Wh4dbRl.jpg",
-    "genres": [
-      {
-        "id": 99,
-        "name": "Documentary"
-      }
-    ],
-    "overview": "A documentary film that highlights two street derived dance styles, Clowning and Krumping, that came out of the low income neighborhoods of L.A.. Director David LaChapelle interviews each dance crew about how their unique dances evolved. A new and positive activity away from the drugs, guns, and gangs that ruled their neighborhood. A raw film about a growing sub-culture movements in America.",
-    "vote_average": 6.6,
-    "runtime": 86,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 19885,
-    "title": "Sherlock",
-    "release_date": "2010-07-25",
-    "poster_path": "/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg",
-    "genres": [
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 9648,
-        "name": "Mystery"
-      }
-    ],
-    "overview": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-    "vote_average": 8.513,
-    "runtime": 90,
-    "media_type": "tv"
-  },
-  {
-    "tmdb_id": 2190,
-    "title": "South Park",
-    "release_date": "1997-08-13",
-    "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "vote_average": 8.3,
-    "runtime": null,
-    "media_type": "tv"
-  },
-  {
-    "tmdb_id": 557,
-    "title": "Spider-Man",
-    "release_date": "2002-05-01",
-    "poster_path": "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
-    ],
-    "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+    "popularity": 39.9048,
+    "first_air_date": "1966-01-12",
     "vote_average": 7.3,
-    "runtime": 121,
-    "media_type": "movie"
+    "vote_count": 567,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Batman"
   },
   {
-    "tmdb_id": 558,
-    "title": "Spider-Man 2",
-    "release_date": "2004-06-25",
-    "poster_path": "/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
+    "adult": false,
+    "backdrop_path": "/jszr5nLTaK946h85MBl1K2dkvKN.jpg",
+    "id": 2098,
+    "name": "Batman: The Animated Series",
+    "original_name": "Batman: The Animated Series",
+    "overview": "Vowing to avenge the murder of his parents, Bruce Wayne devotes his life to wiping out crime in Gotham City as the masked vigilante \"Batman\".",
+    "poster_path": "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10759,
+      16,
+      18,
+      9648
     ],
-    "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well...",
-    "vote_average": 7.296,
-    "runtime": 127,
-    "media_type": "movie"
+    "popularity": 32.3869,
+    "first_air_date": "1992-09-05",
+    "vote_average": 8.554,
+    "vote_count": 1722,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Batman: The Animated Series"
   },
   {
-    "tmdb_id": 559,
-    "title": "Spider-Man 3",
-    "release_date": "2007-05-01",
-    "poster_path": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
+    "adult": false,
+    "backdrop_path": "/4AXxajuAz9tHAOe6h5zDg8z1X2s.jpg",
+    "id": 1911,
+    "name": "Bones",
+    "original_name": "Bones",
+    "overview": "Dr. Temperance Brennan and her colleagues at the Jeffersonian's Medico-Legal Lab assist Special Agent Seeley Booth with murder investigations when the remains are so badly decomposed, burned or destroyed that the standard identification methods are useless.",
+    "poster_path": "/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      80,
+      18
     ],
-    "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
-    "vote_average": 6.447,
-    "runtime": 139,
-    "media_type": "movie"
+    "popularity": 99.9745,
+    "first_air_date": "2005-09-13",
+    "vote_average": 8.209,
+    "vote_count": 3339,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Bones"
   },
   {
-    "tmdb_id": 37924,
-    "title": "Sweeney Todd",
-    "release_date": "2006-01-03",
-    "poster_path": "/40ntPvTqjqEJlME1AtBEzwVUPHC.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 27,
-        "name": "Horror"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 10402,
-        "name": "Music"
-      }
+    "adult": false,
+    "backdrop_path": "/q4CbisNArigphVn608Faxijdw8N.jpg",
+    "id": 95,
+    "name": "Buffy the Vampire Slayer",
+    "original_name": "Buffy the Vampire Slayer",
+    "overview": "Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer.",
+    "poster_path": "/y7fVZkyheCEQHDUEHwNmYENGfT2.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10765,
+      35,
+      18,
+      10759
     ],
-    "overview": "A BBC adaptation of the Victorian \"penny dreadful\" tale of 19th century \"demon barber\" Sweeney Todd, of Fleet Street, who cuts the throats of unsuspecting clients in his London shop.",
-    "vote_average": 6.3,
-    "runtime": 90,
-    "media_type": "movie"
+    "popularity": 50.9842,
+    "first_air_date": "1997-03-10",
+    "vote_average": 8.12,
+    "vote_count": 1883,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Buffy the Vampire Slayer"
   },
   {
-    "tmdb_id": 1911,
-    "title": "The 13th Warrior",
-    "release_date": "1999-08-13",
-    "poster_path": "/pj1IQQ7ajwaOrjjTCxyM1L4mSnX.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 36,
-        "name": "History"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
+    "adult": false,
+    "backdrop_path": "/bSvUW4JQ6g4QiKvwejcfcPRd4Ke.jpg",
+    "id": 118,
+    "title": "Charlie and the Chocolate Factory",
+    "original_title": "Charlie and the Chocolate Factory",
+    "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
+    "poster_path": "/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      35,
+      10751,
+      14
     ],
-    "overview": "A Muslim ambassador exiled from his homeland joins a group of Vikings, initially offended by their behavior but growing to respect them. As they travel together, they learn of a legendary evil closing in and must unite to confront this formidable force.",
-    "vote_average": 6.682,
-    "runtime": 102,
-    "media_type": "movie"
+    "popularity": 14.5459,
+    "release_date": "2005-07-13",
+    "video": false,
+    "vote_average": 7.041,
+    "vote_count": 15715
   },
   {
-    "tmdb_id": 435,
-    "title": "The Day After Tomorrow",
-    "release_date": "2004-05-26",
-    "poster_path": "/Wr4HeYQRvwVCxzOV5TmGE7UkXq.jpg",
-    "genres": [
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
+    "adult": false,
+    "backdrop_path": "/en971MEXui9diirXlogOrPKmsEn.jpg",
+    "id": 293660,
+    "title": "Deadpool",
+    "original_title": "Deadpool",
+    "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "poster_path": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      35
     ],
-    "overview": "After paleoclimatologist Jack Hall is largely ignored by UN officials when presenting his environmental concerns about the beginning of a new Ice Age, his research proves true when a superstorm develops, setting off catastrophic natural disasters throughout the world. Trying to get to his son, Sam, who is trapped in New York City with his friend Laura and others, Jack and his crew must travel to get to Sam before it's too late.",
-    "vote_average": 6.545,
-    "runtime": 123,
-    "media_type": "movie"
+    "popularity": 16.5092,
+    "release_date": "2016-02-09",
+    "video": false,
+    "vote_average": 7.622,
+    "vote_count": 32013
   },
   {
-    "tmdb_id": 316029,
-    "title": "The Greatest Showman",
-    "release_date": "2017-12-20",
-    "poster_path": "/b9CeobiihCx1uG1tpw8hXmpi7nm.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      }
+    "adult": false,
+    "backdrop_path": "/7MdbvcfkFj6Ft5wNITCKI3c7EEA.jpg",
+    "id": 383498,
+    "title": "Deadpool 2",
+    "original_title": "Deadpool 2",
+    "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+    "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      35,
+      12
     ],
-    "overview": "The story of American showman P.T. Barnum, founder of the circus that became the famous traveling Ringling Bros. and Barnum & Bailey Circus.",
-    "vote_average": 7.868,
-    "runtime": 105,
-    "media_type": "movie"
+    "popularity": 12.6595,
+    "release_date": "2018-05-15",
+    "video": false,
+    "vote_average": 7.488,
+    "vote_count": 18677
   },
   {
-    "tmdb_id": 57158,
-    "title": "The Hobbit: The Desolation of Smaug",
-    "release_date": "2013-12-11",
-    "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
+    "adult": false,
+    "backdrop_path": "/qVgZu5BTx6pu4owCvVOm4zjTfOi.jpg",
+    "id": 438631,
+    "title": "Dune",
+    "original_title": "Dune",
+    "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+    "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      878,
+      12
     ],
-    "overview": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
-    "vote_average": 7.573,
-    "runtime": 161,
-    "media_type": "movie"
+    "popularity": 24.5552,
+    "release_date": "2021-09-15",
+    "video": false,
+    "vote_average": 7.776,
+    "vote_count": 14044
   },
   {
-    "tmdb_id": 10545,
-    "title": "The Hunchback of Notre Dame",
-    "release_date": "1996-06-21",
-    "poster_path": "/hImMgT9B27evYSRmfztqdDtX6qi.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/uNLIMPxknsV4n3IAEDpS1iqF5dm.jpg",
+    "id": 162,
+    "title": "Edward Scissorhands",
+    "original_title": "Edward Scissorhands",
+    "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+    "poster_path": "/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      14,
+      18,
+      10749
     ],
-    "overview": "Isolated bell-ringer Quasimodo wishes to leave Notre Dame tower against the wishes of Judge Claude Frollo, his stern guardian and Paris' strait-laced Minister of Justice. His first venture to the outside world finds him Esmeralda, a kind-hearted and fearless Romani woman who openly stands up to Frollo's tyranny.",
-    "vote_average": 7.119,
-    "runtime": 91,
-    "media_type": "movie"
-  },
-  {
-    "tmdb_id": 7317,
-    "title": "The Inbetweeners",
-    "release_date": "2008-05-01",
-    "poster_path": "/qNmcaXDndOkY6v9QiJjnxQD09GJ.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "overview": "Those who remember the awkward years of adolescence can relive those painful days in this British comedy series, where the cringe-inducing humor arises from the ill-fated antics of its four protagonists. Suburban teenage friends Will, Simon, Jay and Neil, students at Rudge Park Comprehensive, attempt to navigate the social scene, attract members of the gentler sex, and saunter among the cool crowd. However, despite their best efforts, the four hapless lads usually end up on the side of the nerds.",
+    "popularity": 20.3815,
+    "release_date": "1990-12-07",
+    "video": false,
     "vote_average": 7.7,
-    "runtime": 25,
-    "media_type": "tv"
+    "vote_count": 13377
   },
   {
-    "tmdb_id": 69798,
-    "title": "The Inbetweeners Movie",
-    "release_date": "2011-08-19",
-    "poster_path": "/nePYsVp0qU8EbSXeUdr3xEkHlzN.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
+    "adult": false,
+    "backdrop_path": "/5C3UcPKVcg3rwGBYPE18wXpZMw8.jpg",
+    "id": 106379,
+    "name": "Fallout",
+    "original_name": "Fallout",
+    "overview": "The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+    "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10759,
+      18
     ],
-    "overview": "High school graduation just wouldn’t be complete without an un-chaperoned, uninhibited and unforgettable final holiday. At least that’s what Will, Jay, Simon and Neil think when they book a two-week stay on an exotic Greek island. As their dreams of sun-drenched days and booze-filled nights are left hopelessly unfulfilled, the lads fight their way into the party scene with hilariously humiliating results.",
-    "vote_average": 6.2,
-    "runtime": 97,
-    "media_type": "movie"
+    "popularity": 43.3114,
+    "first_air_date": "2024-04-10",
+    "vote_average": 8.221,
+    "vote_count": 2105,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Fallout"
   },
   {
-    "tmdb_id": 9806,
-    "title": "The Incredibles",
-    "release_date": "2004-11-05",
-    "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
-    "genres": [
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",
+    "id": 786892,
+    "title": "Furiosa: A Mad Max Saga",
+    "original_title": "Furiosa: A Mad Max Saga",
+    "overview": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
+    "poster_path": "/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      878,
+      12
     ],
-    "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
-    "vote_average": 7.719,
-    "runtime": 115,
-    "media_type": "movie"
+    "popularity": 19.3725,
+    "release_date": "2024-05-22",
+    "video": false,
+    "vote_average": 7.46,
+    "vote_count": 4447
   },
   {
-    "tmdb_id": 10386,
-    "title": "The Iron Giant",
-    "release_date": "1999-08-06",
-    "poster_path": "/ct04FCFLPImNG5thcPLRnVsZlmS.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      }
+    "adult": false,
+    "backdrop_path": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg",
+    "id": 118340,
+    "title": "Guardians of the Galaxy",
+    "original_title": "Guardians of the Galaxy",
+    "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+    "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      878,
+      12
     ],
-    "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
-    "vote_average": 7.952,
-    "runtime": 86,
-    "media_type": "movie"
+    "popularity": 9.2445,
+    "release_date": "2014-07-30",
+    "video": false,
+    "vote_average": 7.904,
+    "vote_count": 28970
   },
   {
-    "tmdb_id": 33880,
-    "title": "The Legend of Korra",
-    "release_date": "2012-04-14",
-    "poster_path": "/dZgYvSfuh1YHDrJuILlVQ5oA2hF.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10759,
-        "name": "Action & Adventure"
-      },
-      {
-        "id": 10765,
-        "name": "Sci-Fi & Fantasy"
-      }
+    "adult": false,
+    "backdrop_path": "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+    "id": 283995,
+    "title": "Guardians of the Galaxy Vol. 2",
+    "original_title": "Guardians of the Galaxy Vol. 2",
+    "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+    "poster_path": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      878,
+      12,
+      28
     ],
-    "overview": "Avatar Korra, a headstrong, rebellious, feisty young woman who continually challenges and breaks with tradition, is on her quest to become a fully realized Avatar. In this story, the Avatar struggles to find balance within herself.",
-    "vote_average": 8.208,
-    "runtime": 23,
-    "media_type": "tv"
+    "popularity": 15.9114,
+    "release_date": "2017-04-19",
+    "video": false,
+    "vote_average": 7.611,
+    "vote_count": 22355
   },
   {
-    "tmdb_id": 11430,
-    "title": "The Lion King 1½",
-    "release_date": "2004-10-28",
-    "poster_path": "/sVJME5R1NmTXtbdnAxYPx7Xa7kr.jpg",
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      }
+    "adult": false,
+    "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+    "id": 447365,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "original_title": "Guardians of the Galaxy Vol. 3",
+    "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+    "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      878,
+      12,
+      28,
+      35
     ],
-    "overview": "Timon the meerkat and Pumbaa the warthog are best pals and the unsung heroes of the African savanna. This prequel to the smash Disney animated adventure takes you back -- way back -- before Simba's adventure began. You'll find out all about Timon and Pumbaa and tag along as they search for the perfect home and attempt to raise a rambunctious lion cub.",
-    "vote_average": 6.581,
-    "runtime": 77,
-    "media_type": "movie"
+    "popularity": 17.8682,
+    "release_date": "2023-05-03",
+    "video": false,
+    "vote_average": 7.931,
+    "vote_count": 7739
   },
   {
-    "tmdb_id": 9732,
-    "title": "The Lion King II: Simba's Pride",
-    "release_date": "1998-10-24",
-    "poster_path": "/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg",
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/1stUIsjawROZxjiCMtqqXqgfZWC.jpg",
+    "id": 672,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "original_title": "Harry Potter and the Chamber of Secrets",
+    "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
+    "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
     ],
-    "overview": "The circle of life continues for Simba, now fully grown and in his rightful place as the king of Pride Rock. Simba and Nala have given birth to a daughter, Kiara who's as rebellious as her father was. But Kiara drives her parents to distraction when she catches the eye of Kovu, the son of the evil lioness, Zira. Will Kovu steal Kiara's heart?",
-    "vote_average": 6.9,
-    "runtime": 81,
-    "media_type": "movie"
+    "popularity": 25.965,
+    "release_date": "2002-11-13",
+    "video": false,
+    "vote_average": 7.705,
+    "vote_count": 22918
   },
   {
-    "tmdb_id": 330,
-    "title": "The Lost World: Jurassic Park",
-    "release_date": "1997-05-23",
-    "poster_path": "/6fSkhv35nPSw9hwPVCMINQFG1WD.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
+    "adult": false,
+    "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+    "id": 12445,
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+    "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+    "poster_path": "/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      14,
+      12
     ],
-    "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
-    "vote_average": 6.558,
-    "runtime": 129,
-    "media_type": "movie"
+    "popularity": 18.0624,
+    "release_date": "2011-07-12",
+    "video": false,
+    "vote_average": 8.084,
+    "vote_count": 21365
   },
   {
-    "tmdb_id": 1200709,
-    "title": "The Making Of  Jurassic Park III",
-    "release_date": "2001-12-11",
-    "poster_path": "/f32yN9f8AFFgp6k8N5MQ3mvTXAT.jpg",
-    "genres": [
-      {
-        "id": 99,
-        "name": "Documentary"
-      }
+    "adult": false,
+    "backdrop_path": "/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg",
+    "id": 674,
+    "title": "Harry Potter and the Goblet of Fire",
+    "original_title": "Harry Potter and the Goblet of Fire",
+    "overview": "When Harry Potter's name emerges from the Goblet of Fire, he becomes a competitor in a grueling battle for glory among three wizarding schools—the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
+    "poster_path": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
     ],
-    "overview": "A very in depth look at the making of the movie, a look at the special effects and animatronics made for the motion picture, Jurassic Park III (2001). Interviews with the cast and crew give us a sneak peek at the film. The movie used many different new dinosaurs compared to the first two films, here they examine how they'll look in the final product",
-    "vote_average": 0,
-    "runtime": 23,
-    "media_type": "movie"
+    "popularity": 25.7263,
+    "release_date": "2005-11-16",
+    "video": false,
+    "vote_average": 7.8,
+    "vote_count": 21532
   },
   {
-    "tmdb_id": 10198,
-    "title": "The Princess and the Frog",
-    "release_date": "2009-12-08",
-    "poster_path": "/v6nAUs62OJ4DXmnnmPFeVmMz8H9.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/urDWNffjwmNi5IQaezw9GwqkUXa.jpg",
+    "id": 767,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "original_title": "Harry Potter and the Half-Blood Prince",
+    "overview": "As Lord Voldemort tightens his grip on both the Muggle and wizarding worlds, Hogwarts is no longer a safe haven. Harry suspects perils may even lie within the castle, but Dumbledore is more intent upon preparing him for the final battle fast approaching. Together they work to find the key to unlock Voldemorts defenses and to this end, Dumbledore recruits his old friend and colleague Horace Slughorn, whom he believes holds crucial information. Even as the decisive showdown looms, romance blossoms for Harry, Ron, Hermione and their classmates. Love is in the air, but danger lies ahead and Hogwarts may never be the same again.",
+    "poster_path": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
     ],
-    "overview": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
-    "vote_average": 7.213,
-    "runtime": 98,
-    "media_type": "movie"
+    "popularity": 18.6675,
+    "release_date": "2009-07-15",
+    "video": false,
+    "vote_average": 7.682,
+    "vote_count": 20206
   },
   {
-    "tmdb_id": 1402,
-    "title": "The Pursuit of Happyness",
-    "release_date": "2006-12-14",
-    "poster_path": "/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      }
+    "adult": false,
+    "backdrop_path": "/82a7AGF081PzFfoM8GAVGMvZNYK.jpg",
+    "id": 675,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "original_title": "Harry Potter and the Order of the Phoenix",
+    "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students to defend themselves against the dark arts.",
+    "poster_path": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
     ],
-    "overview": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
-    "vote_average": 7.89,
-    "runtime": 117,
-    "media_type": "movie"
+    "popularity": 20.1916,
+    "release_date": "2007-07-08",
+    "video": false,
+    "vote_average": 7.674,
+    "vote_count": 20231
   },
   {
-    "tmdb_id": 36685,
-    "title": "The Rocky Horror Picture Show",
-    "release_date": "1975-08-14",
-    "poster_path": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 27,
-        "name": "Horror"
-      }
+    "adult": false,
+    "backdrop_path": "/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg",
+    "id": 671,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "original_title": "Harry Potter and the Philosopher's Stone",
+    "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
+    "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
     ],
-    "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr. Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+    "popularity": 37.5797,
+    "release_date": "2001-11-16",
+    "video": false,
+    "vote_average": 7.9,
+    "vote_count": 28742
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg",
+    "id": 673,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "original_title": "Harry Potter and the Prisoner of Azkaban",
+    "overview": "Year three at Hogwarts means new fun and challenges as Harry learns the delicate art of approaching a Hippogriff, transforming shape-shifting Boggarts into hilarity and even turning back time. But the term also brings danger: soul-sucking Dementors hover over the school, an ally of the accursed He-Who-Cannot-Be-Named lurks within the castle walls, and fearsome wizard Sirius Black escapes Azkaban. And Harry will confront them all.",
+    "poster_path": "/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14
+    ],
+    "popularity": 22.5889,
+    "release_date": "2004-05-31",
+    "video": false,
+    "vote_average": 8.011,
+    "vote_count": 22487
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jBQJ1J45pqRLtABbK9LBgKL0YmE.jpg",
+    "id": 12609,
+    "title": "Help! I'm a Fish",
+    "original_title": "Hjælp, jeg er en fisk",
+    "overview": "Three children are accidentally transformed into fish after consuming a potion made by an eccentric scientist. The kids end up in the sea, with one problem: they must find and drink the antidote within 48 hours, or forever remain as fish.",
+    "poster_path": "/s9yFQD19xJqXEnAnUAZFUan25DJ.jpg",
+    "media_type": "movie",
+    "original_language": "da",
+    "genre_ids": [
+      12,
+      16,
+      35,
+      10751,
+      18
+    ],
+    "popularity": 3.6704,
+    "release_date": "2000-10-06",
+    "video": false,
+    "vote_average": 6.644,
+    "vote_count": 437
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/1z4auHDSf2Kh6OqOVmwbeWc2Jrn.jpg",
+    "id": 8326,
+    "title": "Holes",
+    "original_title": "Holes",
+    "overview": "A wrongfully convicted boy is sent to a brutal desert detention camp where he must dig holes in order to build character. What he doesn't know is that he is digging holes in order to search for a lost treasure hidden somewhere in the camp.",
+    "poster_path": "/o2Dm2mcE1qW8vT0bpsJO5OMBbqa.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      10751,
+      18,
+      35
+    ],
+    "popularity": 5.2224,
+    "release_date": "2003-04-18",
+    "video": false,
+    "vote_average": 6.884,
+    "vote_count": 1468
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+    "id": 4935,
+    "title": "Howl's Moving Castle",
+    "original_title": "ハウルの動く城",
+    "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
+    "poster_path": "/TkTPELv4kC3u1lkloush8skOjE.jpg",
+    "media_type": "movie",
+    "original_language": "ja",
+    "genre_ids": [
+      14,
+      16,
+      12
+    ],
+    "popularity": 16.6792,
+    "release_date": "2004-09-09",
+    "video": false,
+    "vote_average": 8.394,
+    "vote_count": 10581
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7dzngS8pLkGJpyeskCFcjPO9qLF.jpg",
+    "id": 245891,
+    "title": "John Wick",
+    "original_title": "John Wick",
+    "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+    "poster_path": "/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      53
+    ],
+    "popularity": 11.1501,
+    "release_date": "2014-10-22",
+    "video": false,
+    "vote_average": 7.452,
+    "vote_count": 20131
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/r17jFHAemzcWPPtoO0UxjIX0xas.jpg",
+    "id": 324552,
+    "title": "John Wick: Chapter 2",
+    "original_title": "John Wick: Chapter 2",
+    "overview": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+    "poster_path": "/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      53,
+      80
+    ],
+    "popularity": 15.3822,
+    "release_date": "2017-02-08",
+    "video": false,
+    "vote_average": 7.338,
+    "vote_count": 13747
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qSxeCfWUUyht9hZgaaYmtPtTkw2.jpg",
+    "id": 8844,
+    "title": "Jumanji",
+    "original_title": "Jumanji",
+    "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
+    "poster_path": "/iWV47r6kFneCiApgrMII5HSkfHw.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      10751
+    ],
+    "popularity": 3.6864,
+    "release_date": "1995-12-15",
+    "video": false,
+    "vote_average": 7.242,
+    "vote_count": 10944
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jzt9HuhIAdH9qp0K2MA1m5V8sgq.jpg",
+    "id": 329,
+    "title": "Jurassic Park",
+    "original_title": "Jurassic Park",
+    "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      878
+    ],
+    "popularity": 8.3953,
+    "release_date": "1993-06-11",
+    "video": false,
+    "vote_average": 7.962,
+    "vote_count": 17208
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/364B8ohneoQSgIuYNRYZhjOCcEL.jpg",
+    "id": 9502,
+    "title": "Kung Fu Panda",
+    "original_title": "Kung Fu Panda",
+    "overview": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the \"chosen one\" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
+    "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      10751,
+      35,
+      28,
+      12
+    ],
+    "popularity": 14.7906,
+    "release_date": "2008-06-04",
+    "video": false,
+    "vote_average": 7.307,
+    "vote_count": 12165
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/iYLKMV7PIBtFmtygRrhSiyzcVsF.jpg",
+    "id": 277834,
+    "title": "Moana",
+    "original_title": "Moana",
+    "overview": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
+    "poster_path": "/9tzN8sPbyod2dsa0lwuvrwBDWra.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      35,
+      10751,
+      16
+    ],
+    "popularity": 3.3565,
+    "release_date": "2016-10-13",
+    "video": false,
+    "vote_average": 7.564,
+    "vote_count": 13353
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+    "id": 1241982,
+    "title": "Moana 2",
+    "original_title": "Moana 2",
+    "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+    "poster_path": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      10751,
+      35,
+      12,
+      16,
+      14
+    ],
+    "popularity": 40.7781,
+    "release_date": "2024-11-21",
+    "video": false,
+    "vote_average": 7.03,
+    "vote_count": 2757
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/sUGwd2X3G5VJcgc2vju7BPTEcI2.jpg",
+    "id": 8193,
+    "title": "Napoleon Dynamite",
+    "original_title": "Napoleon Dynamite",
+    "overview": "A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.",
+    "poster_path": "/6Iv6Uwa2SBLN0dSGM00rdrwN4MJ.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      35
+    ],
+    "popularity": 4.2052,
+    "release_date": "2004-06-11",
+    "video": false,
+    "vote_average": 6.782,
+    "vote_count": 2024
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/lnEU5KKrpQNsDaxxjDHuzRRh8Zl.jpg",
+    "id": 56570,
+    "name": "Outlander",
+    "original_name": "Outlander",
+    "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
+    "poster_path": "/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "popularity": 52.5507,
+    "first_air_date": "2014-08-09",
+    "vote_average": 8.186,
+    "vote_count": 2720,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Outlander"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/1jHxkVXMI5s3vRiyiZooUy1shB5.jpg",
+    "id": 285,
+    "title": "Pirates of the Caribbean: At World's End",
+    "original_title": "Pirates of the Caribbean: At World's End",
+    "overview": "Will Turner and Elizabeth Swann join forces with the revived Captain Barbossa to free Jack Sparrow from Davy Jones' locker. The group must navigate dangerous waters, confront many foes and, ultimately, choose sides in a battle wherein piracy itself hangs in the balance.",
+    "poster_path": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      28
+    ],
+    "popularity": 19.9474,
+    "release_date": "2007-05-19",
+    "video": false,
+    "vote_average": 7.263,
+    "vote_count": 14984
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg",
+    "id": 58,
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+    "overview": "Captain Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+    "poster_path": "/lAhcKRt0ggTFkeFL95jrGQYaRXs.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      28
+    ],
+    "popularity": 25.7264,
+    "release_date": "2006-07-06",
+    "video": false,
     "vote_average": 7.4,
-    "runtime": 100,
-    "media_type": "movie"
+    "vote_count": 16658
   },
   {
-    "tmdb_id": 11395,
-    "title": "The Santa Clause",
-    "release_date": "1994-11-11",
-    "poster_path": "/hvV2rI60qOYELT7tHHLpxtafnBZ.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/rrCc7dONpjAt8N8VO0dGpdIXCVU.jpg",
+    "id": 22,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "overview": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
+    "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      28
     ],
-    "overview": "On Christmas Eve, divorced dad Scott Calvin and his son discover Santa Claus has fallen off their roof. When Scott takes the reins of the magical sleigh, he finds he is now the new Santa, and must convince a world of disbelievers, including himself.",
-    "vote_average": 6.501,
-    "runtime": 97,
-    "media_type": "movie"
+    "popularity": 26.519,
+    "release_date": "2003-07-09",
+    "video": false,
+    "vote_average": 7.815,
+    "vote_count": 21529
   },
   {
-    "tmdb_id": 35,
-    "title": "The Simpsons Movie",
-    "release_date": "2007-07-25",
-    "poster_path": "/s3b8TZWwmkYc2KoJ5zk77qB6PzY.jpg",
-    "genres": [
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "id": 680,
+    "title": "Pulp Fiction",
+    "original_title": "Pulp Fiction",
+    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      53,
+      80,
+      35
     ],
-    "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives.",
-    "vote_average": 7.017,
-    "runtime": 87,
-    "media_type": "movie"
+    "popularity": 19.7058,
+    "release_date": "1994-09-10",
+    "video": false,
+    "vote_average": 8.486,
+    "vote_count": 29196
   },
   {
-    "tmdb_id": 2316,
-    "title": "The Story of an African Farm",
-    "release_date": "2004-10-08",
-    "poster_path": "/8CIkrkgiBz0G3qxqcZYdUes5trz.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
+    "adult": false,
+    "backdrop_path": "/hmLTIRtVyTHShJl2Wb8LHmvUgJm.jpg",
+    "id": 19885,
+    "name": "Sherlock",
+    "original_name": "Sherlock",
+    "overview": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "poster_path": "/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      80,
+      18,
+      9648
     ],
-    "overview": "The 1870's. South Africa. Life is normal at the farm on the slopes of a Karoo Kopje.Things change when the sinister, eccentric Bonaparte Blenkins with bulbous nose and chimney pot hat arrives. Their childhood is disrupted by the bombastic Irishman who claims blood ties with Wellington and Queen Victoria and so gains uncanny influence over the girls' gross stupid stepmother.",
-    "vote_average": 4.9,
-    "runtime": 97,
-    "media_type": "movie"
+    "popularity": 32.2116,
+    "first_air_date": "2010-07-25",
+    "vote_average": 8.513,
+    "vote_count": 5978,
+    "origin_country": [
+      "GB"
+    ],
+    "title": "Sherlock"
   },
   {
-    "tmdb_id": 50619,
-    "title": "The Twilight Saga: Breaking Dawn - Part 1",
-    "release_date": "2011-11-16",
-    "poster_path": "/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/bm06ncZQxPSEVaoMe6Xt08ul0PG.jpg",
+    "id": 900,
+    "name": "Skins",
+    "original_name": "Skins",
+    "overview": "Irreverent comedy drama which follows the messy lives, loves, delirious highs and inevitable lows of a group of raucous teenage friends in Bristol.",
+    "poster_path": "/yaDeFXW7Lzv6fqGymsUctt1a5fs.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      18,
+      35
     ],
-    "overview": "Bella Swan and Edward Cullen's honeymoon phase is abruptly disrupted by betrayals and unforeseen tragedies that endanger their world.",
-    "vote_average": 6.195,
-    "runtime": 117,
-    "media_type": "movie"
+    "popularity": 29.923,
+    "first_air_date": "2007-01-25",
+    "vote_average": 8.141,
+    "vote_count": 1326,
+    "origin_country": [
+      "GB"
+    ],
+    "title": "Skins"
   },
   {
-    "tmdb_id": 50620,
-    "title": "The Twilight Saga: Breaking Dawn - Part 2",
-    "release_date": "2012-11-13",
-    "poster_path": "/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
+    "id": 2190,
+    "name": "South Park",
+    "original_name": "South Park",
+    "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
+    "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      35
     ],
-    "overview": "After the birth of Renesmee, the Cullens gather other vampire clans in order to protect the child from a false allegation that puts the family in front of the Volturi.",
-    "vote_average": 6.462,
-    "runtime": 115,
-    "media_type": "movie"
+    "popularity": 69.4821,
+    "first_air_date": "1997-08-13",
+    "vote_average": 8.3,
+    "vote_count": 4721,
+    "origin_country": [
+      "US"
+    ],
+    "title": "South Park"
   },
   {
-    "tmdb_id": 24021,
-    "title": "The Twilight Saga: Eclipse",
-    "release_date": "2010-06-23",
-    "poster_path": "/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/qJzloL8O9YHhiWBrhlPfKAtZu2I.jpg",
+    "id": 557,
+    "title": "Spider-Man",
+    "original_title": "Spider-Man",
+    "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+    "poster_path": "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      878
     ],
-    "overview": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life.",
-    "vote_average": 6.201,
-    "runtime": 124,
-    "media_type": "movie"
+    "popularity": 19.3866,
+    "release_date": "2002-05-01",
+    "video": false,
+    "vote_average": 7.3,
+    "vote_count": 19988
   },
   {
-    "tmdb_id": 18239,
-    "title": "The Twilight Saga: New Moon",
-    "release_date": "2009-11-18",
-    "poster_path": "/k2qTooPlHffgNABNWxeJdGMglPK.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/8G6HCS82vNxgg5wp7oBDSk32XpF.jpg",
+    "id": 558,
+    "title": "Spider-Man 2",
+    "original_title": "Spider-Man 2",
+    "overview": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well...",
+    "poster_path": "/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      878
     ],
-    "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks.",
-    "vote_average": 5.994,
-    "runtime": 131,
-    "media_type": "movie"
+    "popularity": 8.2176,
+    "release_date": "2004-06-25",
+    "video": false,
+    "vote_average": 7.296,
+    "vote_count": 15807
   },
   {
-    "tmdb_id": 106646,
-    "title": "The Wolf of Wall Street",
-    "release_date": "2013-12-25",
-    "poster_path": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
-    "genres": [
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
+    "adult": false,
+    "backdrop_path": "/w1oD1MzHjnBJc5snKupIQaSBLIh.jpg",
+    "id": 559,
+    "title": "Spider-Man 3",
+    "original_title": "Spider-Man 3",
+    "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains—including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+    "poster_path": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      878
     ],
-    "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
-    "vote_average": 8.027,
-    "runtime": 180,
-    "media_type": "movie"
+    "popularity": 18.3365,
+    "release_date": "2007-05-01",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 14747
   },
   {
-    "tmdb_id": 8966,
-    "title": "Twilight",
-    "release_date": "2008-11-20",
-    "poster_path": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      }
+    "adult": false,
+    "backdrop_path": "/lirPqYLTtd6XZqGn4cS1wiesTq0.jpg",
+    "id": 1622,
+    "name": "Supernatural",
+    "original_name": "Supernatural",
+    "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
+    "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      18,
+      9648,
+      10765
     ],
-    "overview": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life.",
-    "vote_average": 6.286,
-    "runtime": 122,
-    "media_type": "movie"
+    "popularity": 152.0149,
+    "first_air_date": "2005-09-13",
+    "vote_average": 8.3,
+    "vote_count": 8037,
+    "origin_country": [
+      "US"
+    ],
+    "title": "Supernatural"
   },
   {
-    "tmdb_id": 2098,
-    "title": "Viva Las Vegas",
-    "release_date": "1964-02-08",
-    "poster_path": "/7YEjLotGpVYVcGGKpqfHX8aDfNJ.jpg",
-    "genres": [
-      {
-        "id": 10402,
-        "name": "Music"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
+    "adult": false,
+    "backdrop_path": "/d118NiMInfjuMRGmEmfF5qif9Wf.jpg",
+    "id": 37924,
+    "title": "Sweeney Todd",
+    "original_title": "Sweeney Todd",
+    "overview": "A BBC adaptation of the Victorian \"penny dreadful\" tale of 19th century \"demon barber\" Sweeney Todd, of Fleet Street, who cuts the throats of unsuspecting clients in his London shop.",
+    "poster_path": "/40ntPvTqjqEJlME1AtBEzwVUPHC.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      18,
+      27,
+      53,
+      10402
     ],
-    "overview": "Lucky Jackson arrives in town with his car literally in tow ready for the first Las Vegas Grand Prix - once he has the money to buy an engine. He gets the cash easily enough but mislays it when the pretty swimming pool manageress takes his mind off things. It seems he will lose both race and girl, problems made more difficult by rivalry from Elmo Mancini, fellow racer and womaniser.",
+    "popularity": 3.5895,
+    "release_date": "2006-01-03",
+    "video": false,
+    "vote_average": 6.3,
+    "vote_count": 111
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/smqQ71MIn1DSdSiQzCzCOV6rgRq.jpg",
+    "id": 435,
+    "title": "The Day After Tomorrow",
+    "original_title": "The Day After Tomorrow",
+    "overview": "After paleoclimatologist Jack Hall is largely ignored by UN officials when presenting his environmental concerns about the beginning of a new Ice Age, his research proves true when a superstorm develops, setting off catastrophic natural disasters throughout the world. Trying to get to his son, Sam, who is trapped in New York City with his friend Laura and others, Jack and his crew must travel to get to Sam before it's too late.",
+    "poster_path": "/Wr4HeYQRvwVCxzOV5TmGE7UkXq.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      878,
+      53,
+      12
+    ],
+    "popularity": 8.3739,
+    "release_date": "2004-05-26",
+    "video": false,
+    "vote_average": 6.545,
+    "vote_count": 8521
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/lrNKm3HNvGdZoAfiBKu7b04FLHN.jpg",
+    "id": 316029,
+    "title": "The Greatest Showman",
+    "original_title": "The Greatest Showman",
+    "overview": "The story of American showman P.T. Barnum, founder of the circus that became the famous traveling Ringling Bros. and Barnum & Bailey Circus.",
+    "poster_path": "/b9CeobiihCx1uG1tpw8hXmpi7nm.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      18
+    ],
+    "popularity": 9.4518,
+    "release_date": "2017-12-20",
+    "video": false,
+    "vote_average": 7.868,
+    "vote_count": 9770
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hwPnxzIgQFfXl5zP0Yh8bViCMzf.jpg",
+    "id": 57158,
+    "title": "The Hobbit: The Desolation of Smaug",
+    "original_title": "The Hobbit: The Desolation of Smaug",
+    "overview": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
+    "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      14,
+      12,
+      28
+    ],
+    "popularity": 13.4227,
+    "release_date": "2013-12-11",
+    "video": false,
+    "vote_average": 7.573,
+    "vote_count": 13704
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/4NIZwLomPqU01RR24T0fWp3Rr6n.jpg",
+    "id": 7317,
+    "name": "The Inbetweeners",
+    "original_name": "The Inbetweeners",
+    "overview": "Those who remember the awkward years of adolescence can relive those painful days in this British comedy series, where the cringe-inducing humor arises from the ill-fated antics of its four protagonists. Suburban teenage friends Will, Simon, Jay and Neil, students at Rudge Park Comprehensive, attempt to navigate the social scene, attract members of the gentler sex, and saunter among the cool crowd. However, despite their best efforts, the four hapless lads usually end up on the side of the nerds.",
+    "poster_path": "/qNmcaXDndOkY6v9QiJjnxQD09GJ.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      35
+    ],
+    "popularity": 9.9928,
+    "first_air_date": "2008-05-01",
+    "vote_average": 7.7,
+    "vote_count": 475,
+    "origin_country": [
+      "GB"
+    ],
+    "title": "The Inbetweeners"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/ffAXhWIgVB9PRxzlDyrDKYckImx.jpg",
+    "id": 69798,
+    "title": "The Inbetweeners Movie",
+    "original_title": "The Inbetweeners Movie",
+    "overview": "High school graduation just wouldn’t be complete without an un-chaperoned, uninhibited and unforgettable final holiday. At least that’s what Will, Jay, Simon and Neil think when they book a two-week stay on an exotic Greek island. As their dreams of sun-drenched days and booze-filled nights are left hopelessly unfulfilled, the lads fight their way into the party scene with hilariously humiliating results.",
+    "poster_path": "/nePYsVp0qU8EbSXeUdr3xEkHlzN.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      35
+    ],
+    "popularity": 6.3074,
+    "release_date": "2011-08-19",
+    "video": false,
     "vote_average": 6.2,
-    "runtime": 85,
-    "media_type": "movie"
+    "vote_count": 951
   },
   {
-    "tmdb_id": 74,
-    "title": "War of the Worlds",
-    "release_date": "2005-06-28",
-    "poster_path": "/6Biy7R9LfumYshur3YKhpj56MpB.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 53,
-        "name": "Thriller"
-      },
-      {
-        "id": 878,
-        "name": "Science Fiction"
-      }
+    "adult": false,
+    "backdrop_path": "/se5Hxz7PArQZOG3Nx2bpfOhLhtV.jpg",
+    "id": 9806,
+    "title": "The Incredibles",
+    "original_title": "The Incredibles",
+    "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
+    "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      28,
+      12,
+      16,
+      10751
     ],
-    "overview": "Ray Ferrier is a divorced dockworker and less-than-perfect father. Soon after his ex-wife and her new husband drop off his teenage son and young daughter for a rare weekend visit, a strange and powerful lightning storm touches down.",
-    "vote_average": 6.526,
-    "runtime": 117,
-    "media_type": "movie"
+    "popularity": 30.9444,
+    "release_date": "2004-11-05",
+    "video": false,
+    "vote_average": 7.719,
+    "vote_count": 18360
   },
   {
-    "tmdb_id": 967941,
-    "title": "Wicked: For Good",
-    "release_date": "2025-11-19",
-    "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
+    "adult": false,
+    "backdrop_path": "/wfClZdRb1x4LZ8B73Y9RSn8XAPa.jpg",
+    "id": 10386,
+    "title": "The Iron Giant",
+    "original_title": "The Iron Giant",
+    "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
+    "poster_path": "/ct04FCFLPImNG5thcPLRnVsZlmS.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      10751,
+      878,
+      18
     ],
-    "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
+    "popularity": 11.8914,
+    "release_date": "1999-08-06",
+    "video": false,
+    "vote_average": 7.952,
+    "vote_count": 5908
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hmrNfrUl3FFaymDj6Iw5oKQjIs2.jpg",
+    "id": 33880,
+    "name": "The Legend of Korra",
+    "original_name": "The Legend of Korra",
+    "overview": "Avatar Korra, a headstrong, rebellious, feisty young woman who continually challenges and breaks with tradition, is on her quest to become a fully realized Avatar. In this story, the Avatar struggles to find balance within herself.",
+    "poster_path": "/dZgYvSfuh1YHDrJuILlVQ5oA2hF.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "popularity": 27.61,
+    "first_air_date": "2012-04-14",
+    "vote_average": 8.208,
+    "vote_count": 2205,
+    "origin_country": [
+      "US"
+    ],
+    "title": "The Legend of Korra"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/3eQnD9CIUerbXbgtFE1zJNvEVVo.jpg",
+    "id": 11430,
+    "title": "The Lion King 1½",
+    "original_title": "The Lion King 1½",
+    "overview": "Timon the meerkat and Pumbaa the warthog are best pals and the unsung heroes of the African savanna. This prequel to the smash Disney animated adventure takes you back -- way back -- before Simba's adventure began. You'll find out all about Timon and Pumbaa and tag along as they search for the perfect home and attempt to raise a rambunctious lion cub.",
+    "poster_path": "/sVJME5R1NmTXtbdnAxYPx7Xa7kr.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      10751,
+      16,
+      35,
+      12
+    ],
+    "popularity": 8.0391,
+    "release_date": "2004-10-28",
+    "video": false,
+    "vote_average": 6.581,
+    "vote_count": 3073
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vyOFlV1afDHb9MMwJVyON4qXbvC.jpg",
+    "id": 9732,
+    "title": "The Lion King II: Simba's Pride",
+    "original_title": "The Lion King II: Simba's Pride",
+    "overview": "The circle of life continues for Simba, now fully grown and in his rightful place as the king of Pride Rock. Simba and Nala have given birth to a daughter, Kiara who's as rebellious as her father was. But Kiara drives her parents to distraction when she catches the eye of Kovu, the son of the evil lioness, Zira. Will Kovu steal Kiara's heart?",
+    "poster_path": "/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      10751,
+      12,
+      16,
+      18,
+      10749
+    ],
+    "popularity": 11.5011,
+    "release_date": "1998-10-24",
+    "video": false,
+    "vote_average": 6.9,
+    "vote_count": 4565
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/A4rYaPdzgocCjQ0n9LUSYUxyvpS.jpg",
+    "id": 330,
+    "title": "The Lost World: Jurassic Park",
+    "original_title": "The Lost World: Jurassic Park",
+    "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+    "poster_path": "/6fSkhv35nPSw9hwPVCMINQFG1WD.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      28,
+      878
+    ],
+    "popularity": 0.5866,
+    "release_date": "1997-05-23",
+    "video": false,
+    "vote_average": 6.558,
+    "vote_count": 8886
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/vZq1kR9j1MYK9Yu6ogahXQK7GsT.jpg",
+    "id": 1200709,
+    "title": "The Making Of  Jurassic Park III",
+    "original_title": "The Making Of  Jurassic Park III",
+    "overview": "A very in depth look at the making of the movie, a look at the special effects and animatronics made for the motion picture, Jurassic Park III (2001). Interviews with the cast and crew give us a sneak peek at the film. The movie used many different new dinosaurs compared to the first two films, here they examine how they'll look in the final product",
+    "poster_path": "/f32yN9f8AFFgp6k8N5MQ3mvTXAT.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      99
+    ],
+    "popularity": 3.8615,
+    "release_date": "2001-12-11",
+    "video": false,
     "vote_average": 0,
-    "runtime": 137,
-    "media_type": "movie"
+    "vote_count": 0
   },
   {
-    "tmdb_id": 246,
-    "title": "Zatoichi",
-    "release_date": "2003-09-06",
-    "poster_path": "/iCIycswWbX1EDS6PYYBcR9ohrC.jpg",
-    "genres": [
-      {
-        "id": 12,
-        "name": "Adventure"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 28,
-        "name": "Action"
-      }
+    "adult": false,
+    "backdrop_path": "/bX6Sypdpk0r8YFdVPoc3yeyvSmm.jpg",
+    "id": 2316,
+    "name": "The Office",
+    "original_name": "The Office",
+    "overview": "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+    "poster_path": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      35
     ],
-    "overview": "Blind traveler Zatoichi is a master swordsman and a masseur with a fondness for gambling on dice games. When he arrives in a village torn apart by warring gangs, he sets out to protect the townspeople.",
-    "vote_average": 7.237,
-    "runtime": 111,
-    "media_type": "movie"
+    "popularity": 97.184,
+    "first_air_date": "2005-03-24",
+    "vote_average": 8.6,
+    "vote_count": 4741,
+    "origin_country": [
+      "US"
+    ],
+    "title": "The Office"
   },
   {
-    "tmdb_id": 19908,
+    "adult": false,
+    "backdrop_path": "/y5tad0a4yRbxYgOHGllEIEeCCKt.jpg",
+    "id": 10198,
+    "title": "The Princess and the Frog",
+    "original_title": "The Princess and the Frog",
+    "overview": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
+    "poster_path": "/v6nAUs62OJ4DXmnnmPFeVmMz8H9.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      10749,
+      14,
+      10751
+    ],
+    "popularity": 15.2114,
+    "release_date": "2009-12-08",
+    "video": false,
+    "vote_average": 7.213,
+    "vote_count": 5912
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/woXyR18ovpLd1TaYGBfXFXm8XSg.jpg",
+    "id": 36685,
+    "title": "The Rocky Horror Picture Show",
+    "original_title": "The Rocky Horror Picture Show",
+    "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr. Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+    "poster_path": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      35,
+      878,
+      14,
+      27
+    ],
+    "popularity": 11.4473,
+    "release_date": "1975-08-14",
+    "video": false,
+    "vote_average": 7.4,
+    "vote_count": 2983
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/wOoZPg0ZCJ1z1KZhVXRvX1eDZqb.jpg",
+    "id": 11395,
+    "title": "The Santa Clause",
+    "original_title": "The Santa Clause",
+    "overview": "On Christmas Eve, divorced dad Scott Calvin and his son discover Santa Claus has fallen off their roof. When Scott takes the reins of the magical sleigh, he finds he is now the new Santa, and must convince a world of disbelievers, including himself.",
+    "poster_path": "/hvV2rI60qOYELT7tHHLpxtafnBZ.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      14,
+      18,
+      35,
+      10751
+    ],
+    "popularity": 4.4846,
+    "release_date": "1994-11-11",
+    "video": false,
+    "vote_average": 6.501,
+    "vote_count": 2167
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/8ln5VUVk7gnNGIb2VNgw8nICDVt.jpg",
+    "id": 35,
+    "title": "The Simpsons Movie",
+    "original_title": "The Simpsons Movie",
+    "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives.",
+    "poster_path": "/s3b8TZWwmkYc2KoJ5zk77qB6PzY.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "popularity": 13.1522,
+    "release_date": "2007-07-25",
+    "video": false,
+    "vote_average": 7.017,
+    "vote_count": 8312
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/hBwDYiOPwXHuwiYGP82ekFNSeBr.jpg",
+    "id": 50619,
+    "title": "The Twilight Saga: Breaking Dawn - Part 1",
+    "original_title": "The Twilight Saga: Breaking Dawn - Part 1",
+    "overview": "Bella Swan and Edward Cullen's honeymoon phase is abruptly disrupted by betrayals and unforeseen tragedies that endanger their world.",
+    "poster_path": "/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      10749
+    ],
+    "popularity": 11.605,
+    "release_date": "2011-11-16",
+    "video": false,
+    "vote_average": 6.195,
+    "vote_count": 9052
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qkl57wzSFrpi2sRpoc2mZJbMuLP.jpg",
+    "id": 50620,
+    "title": "The Twilight Saga: Breaking Dawn - Part 2",
+    "original_title": "The Twilight Saga: Breaking Dawn - Part 2",
+    "overview": "After the birth of Renesmee, the Cullens gather other vampire clans in order to protect the child from a false allegation that puts the family in front of the Volturi.",
+    "poster_path": "/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      18,
+      10749
+    ],
+    "popularity": 13.2038,
+    "release_date": "2012-11-13",
+    "video": false,
+    "vote_average": 6.462,
+    "vote_count": 9163
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/oguoQWtQJcqIkmmUNbe3CmLx6AP.jpg",
+    "id": 24021,
+    "title": "The Twilight Saga: Eclipse",
+    "original_title": "The Twilight Saga: Eclipse",
+    "overview": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life.",
+    "poster_path": "/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      18,
+      10749
+    ],
+    "popularity": 10.3048,
+    "release_date": "2010-06-23",
+    "video": false,
+    "vote_average": 6.201,
+    "vote_count": 9030
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/dF2c20sRDgySZLaLS2OUerL07sz.jpg",
+    "id": 18239,
+    "title": "The Twilight Saga: New Moon",
+    "original_title": "The Twilight Saga: New Moon",
+    "overview": "Forks, Washington resident Bella Swan is reeling from the departure of her vampire love, Edward Cullen, and finds comfort in her friendship with Jacob Black, a werewolf. But before she knows it, she's thrust into a centuries-old conflict, and her desire to be with Edward at any cost leads her to take greater and greater risks.",
+    "poster_path": "/k2qTooPlHffgNABNWxeJdGMglPK.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      14,
+      18,
+      10749
+    ],
+    "popularity": 10.807,
+    "release_date": "2009-11-18",
+    "video": false,
+    "vote_average": 5.994,
+    "vote_count": 9510
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
+    "id": 1402,
+    "name": "The Walking Dead",
+    "original_name": "The Walking Dead",
+    "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+    "poster_path": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10759,
+      18,
+      10765
+    ],
+    "popularity": 80.7139,
+    "first_air_date": "2010-10-31",
+    "vote_average": 8.091,
+    "vote_count": 17268,
+    "origin_country": [
+      "US"
+    ],
+    "title": "The Walking Dead"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+    "id": 106646,
+    "title": "The Wolf of Wall Street",
+    "original_title": "The Wolf of Wall Street",
+    "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+    "poster_path": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      80,
+      18,
+      35
+    ],
+    "popularity": 22.2291,
+    "release_date": "2013-12-25",
+    "video": false,
+    "vote_average": 8.027,
+    "vote_count": 25093
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/nGhC6P0lgcrY57NRB9nweu4nWaK.jpg",
+    "id": 10545,
+    "name": "True Blood",
+    "original_name": "True Blood",
+    "overview": "Thanks to a Japanese scientist's invention of synthetic blood, vampires have progressed overnight from legendary monsters to fellow citizens. And while humans have been safely removed from the menu, many remain apprehensive about these creatures \"coming out of the coffin.\" Religious leaders, government officials, and vampire fundamentalists around the world have chosen their sides.  But in the small Louisiana town of Bon Temps, the jury is still out.",
+    "poster_path": "/ktEp6fzL4xzCWsSVtrcH8JaQNQy.jpg",
+    "media_type": "tv",
+    "original_language": "en",
+    "genre_ids": [
+      10765,
+      18,
+      9648
+    ],
+    "popularity": 41.5911,
+    "first_air_date": "2008-09-07",
+    "vote_average": 7.618,
+    "vote_count": 1970,
+    "origin_country": [
+      "US"
+    ],
+    "title": "True Blood"
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/weAYfu6FfrNxEDJ3xH1XpgQcqUv.jpg",
+    "id": 8966,
+    "title": "Twilight",
+    "original_title": "Twilight",
+    "overview": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life.",
+    "poster_path": "/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      14,
+      18,
+      10749
+    ],
+    "popularity": 22.7283,
+    "release_date": "2008-11-20",
+    "video": false,
+    "vote_average": 6.285,
+    "vote_count": 14027
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/bInicBgSHfQiWLbnRT5jxw9Grvm.jpg",
+    "id": 74,
+    "title": "War of the Worlds",
+    "original_title": "War of the Worlds",
+    "overview": "Ray Ferrier is a divorced dockworker and less-than-perfect father. Soon after his ex-wife and her new husband drop off his teenage son and young daughter for a rare weekend visit, a strange and powerful lightning storm touches down.",
+    "poster_path": "/6Biy7R9LfumYshur3YKhpj56MpB.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      12,
+      53,
+      878
+    ],
+    "popularity": 13.4182,
+    "release_date": "2005-06-28",
+    "video": false,
+    "vote_average": 6.526,
+    "vote_count": 8801
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
+    "id": 967941,
+    "title": "Wicked: For Good",
+    "original_title": "Wicked: For Good",
+    "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
+    "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      18,
+      10749,
+      14
+    ],
+    "popularity": 17.5755,
+    "release_date": "2025-11-19",
+    "video": false,
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/oihWVx3imvRKujnGmSDYhfG1gI5.jpg",
+    "id": 19908,
     "title": "Zombieland",
-    "release_date": "2009-10-02",
-    "poster_path": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 27,
-        "name": "Horror"
-      }
-    ],
+    "original_title": "Zombieland",
     "overview": "Columbus has made a habit of running from what scares him. Tallahassee doesn't have fears. If he did, he'd kick their ever-living ass. In a world overrun by zombies, these two are perfectly evolved survivors. But now, they're about to stare down the most terrifying prospect of all: each other.",
+    "poster_path": "/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
+    "media_type": "movie",
+    "original_language": "en",
+    "genre_ids": [
+      35,
+      27
+    ],
+    "popularity": 11.1141,
+    "release_date": "2009-10-02",
+    "video": false,
     "vote_average": 7.258,
-    "runtime": 88,
-    "media_type": "movie"
+    "vote_count": 12742
   }
 ]
