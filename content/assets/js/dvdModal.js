@@ -13,25 +13,24 @@ document.addEventListener("DOMContentLoaded", () => {
     modalTitle.textContent = card.dataset.title;
     modalYear.textContent = card.dataset.year || "Unknown";
 
-    // Rating
+    // Ratings (★/☆)
     const rating = parseInt(card.dataset.myRating) || 0;
     modalRatingStars.textContent =
       "★".repeat(rating) + "☆".repeat(5 - rating);
 
-    // Status
+    // Status icons ✅ / 🎯
     modalStatus.textContent =
       card.dataset.status === "watched"
         ? "✅ Watched"
         : "🎯 Unwatched";
 
-    // Show
     modal.classList.add("active");
-    document.body.style.overflow = "hidden"; // ✅ disable scrolling
+    document.body.style.overflow = "hidden";
   }
 
   function closeModal() {
     modal.classList.remove("active");
-    document.body.style.overflow = ""; // ✅ restore scrolling
+    document.body.style.overflow = "";
   }
 
   cards.forEach(card => {
@@ -43,17 +42,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   closeButton.addEventListener("click", closeModal);
 
-  // ✅ Click outside content closes modal
   modal.addEventListener("click", e => {
     if (e.target === modal) closeModal();
   });
 
-  // ✅ Close with ESC key
   document.addEventListener("keydown", e => {
     if (e.key === "Escape") closeModal();
   });
 
-    // ✅ FILTERING MOVIES
+  // ✅ FILTERING + PROGRESS
   const filterButtons = document.querySelectorAll(".filter-btn");
   const movieCards = document.querySelectorAll(".movie-card");
   const progressFill = document.querySelector(".progress-fill");
@@ -71,8 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
     movieCards.forEach(card => {
       const status = card.dataset.status;
       card.style.display =
-        filter === "all" ||
-        status === filter
+        filter === "all" || status === filter
           ? "block"
           : "none";
     });
@@ -87,7 +83,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ Set initial progress
+  // ✅ Initial state
   applyFilter("all");
-
 });
