@@ -131,30 +131,53 @@ async function main() {
   for (const item of listItems) {
     const id = item.id;
 
-    let movieData = item;
-    movieData.title = item.title || item.name;
+  let personal = metaById.get(id);
 
-    // ✅ Merge or create personal metadata
-    const personal = metaById.get(id);
-    if (personal) {
-      movieData.my_rating = personal.my_rating ?? null;
-      movieData.format = personal.format ?? "DVD";
-      movieData.purchased = personal.purchased ?? null;
-      movieData.status = personal.status ?? "unwatched";
-    } else {
-      metaById.set(id, {
-        tmdb_id: id,
-        my_rating: null,
-        format: "DVD",
-        purchased: null,
-        status: "unwatched",
-      });
-    }
+if (!personal) {
+  personal = {
+    tmdb_id: id,
+    my_rating: null,
+    format: "DVD",
+    purchased: null,
+    status: "unwatched"
+  };
+  metaById.set(id, personal);
+}
 
-    merged.push(movieData);
+// ✅ merged object — keeps BOTH TMDb + personal fields safely
+let movieData = {
+  tmdb_id: id,
+  media_type: item.media_type,
+  title: item.title || item.name,
+  poster_path: item.poster_path,
+  release_date: item.release_date || item.first_air_date,
+  overview: item.overview || "",
+  genres: item.genre_ids || [], // v4 list only gives IDs; safe fallback
+  vote_average: item.vote_average || null,
+  runtime: item.runtime || null,
+
+  // ✅ personal fields
+  my_rating: personal.my_rating,
+  format: personal.format,
+  purchased: personal.purchased,
+  status: personal.status || "unwatched"
+};
+
+merged.push(movieData);
   }
 
-  merged.sort((a, b) => a.title.localeCompare(b.title));
+
+merged.sort((a, b) => {
+  // Primary: Title alphabetical (case-insensitive)
+  const titleCompare = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+  if (titleCompare !== 0) return titleCompare;
+
+  // Secondary: Release year ascending (old → new)
+  const yearA = a.release_date || "";
+  const yearB = b.release_date || "";
+  return yearA.localeCompare(yearB);
+});
+
 
   await fs.writeFile(TMDB_CACHE, JSON.stringify(merged, null, 2));
   await fs.writeFile(

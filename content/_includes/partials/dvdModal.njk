@@ -1,29 +1,19 @@
-<div id="movie-modal" class="modal hidden">
-  <div class="modal-content">
-    <button class="modal-close">✕</button>
-    <img id="modal-img">
-    <div class="modal-info">
-      <h2 id="modal-title"></h2>
+<div id="dvd-modal" class="dvd-modal">
+  <div class="dvd-modal-content">
 
-      <p class="meta">
-        <span id="modal-year"></span> —
-        <span id="modal-runtime"></span> mins
-      </p>
+    <button class="modal-close">✖</button>
 
-      <p class="genres"><strong>Genres:</strong> <span id="modal-genres"></span></p>
+    <img id="modal-img" class="modal-poster" alt="Poster">
 
-      <p class="personal-rating">
-        My Rating:
-        <span class="rating-stars">
-          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-        </span>
-      </p>
+    <h2 id="modal-title">Movie Title</h2>
+    <p id="modal-year" class="modal-year">Year</p>
 
-      <p class="watch-status">
-        Status: <span id="modal-status"></span>
-      </p>
-
-      <p id="modal-overview"></p>
+    <div class="modal-rating">
+      <span class="rating-label">My Rating:</span>
+      <span id="modal-rating-stars"></span>
     </div>
+
+    <p id="modal-status" class="modal-status">Status</p>
+
   </div>
 </div>

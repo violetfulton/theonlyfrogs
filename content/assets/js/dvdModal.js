@@ -1,75 +1,93 @@
-const modal = document.getElementById("movie-modal");
-const stars = document.querySelectorAll(".rating-stars span");
-const cards = document.querySelectorAll(".movie-card");
-const filterButtons = document.querySelectorAll(".filter-btn");
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("dvd-modal");
+  const modalImg = document.getElementById("modal-img");
+  const modalTitle = document.getElementById("modal-title");
+  const modalYear = document.getElementById("modal-year");
+  const modalRatingStars = document.getElementById("modal-rating-stars");
+  const modalStatus = document.getElementById("modal-status");
+  const closeButton = document.querySelector(".modal-close");
+  const cards = document.querySelectorAll(".movie-card");
 
-function updateStarUI(rating) {
-  stars.forEach((star, index) => {
-    star.classList.toggle("active", index < rating);
-  });
-}
+  function showModal(card) {
+    modalImg.src = card.dataset.img;
+    modalTitle.textContent = card.dataset.title;
+    modalYear.textContent = card.dataset.year || "Unknown";
 
-function updateProgress() {
-  const total = cards.length;
-  const watched = [...cards].filter(c => c.dataset.status === "watched").length;
-  const percent = Math.round((watched / total) * 100) || 0;
+    // Rating
+    const rating = parseInt(card.dataset.myRating) || 0;
+    modalRatingStars.textContent =
+      "★".repeat(rating) + "☆".repeat(5 - rating);
 
-  document.querySelector(".progress-fill").style.width = percent + "%";
-  document.getElementById("progress-text").textContent =
-    `Watched ${watched} of ${total} — ${percent}%`;
-}
+    // Status
+    modalStatus.textContent =
+      card.dataset.status === "watched"
+        ? "✅ Watched"
+        : "🎯 Unwatched";
 
-function applyFilter(filter) {
+    // Show
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden"; // ✅ disable scrolling
+  }
+
+  function closeModal() {
+    modal.classList.remove("active");
+    document.body.style.overflow = ""; // ✅ restore scrolling
+  }
+
   cards.forEach(card => {
-    const status = card.dataset.status;
-    const visible =
-      filter === "all" ||
-      (filter === "watched" && status === "watched") ||
-      (filter === "unwatched" && status === "unwatched");
-
-    card.style.display = visible ? "" : "none";
+    card.addEventListener("click", (e) => {
+      e.preventDefault();
+      showModal(card);
+    });
   });
 
-  updateProgress();
-}
+  closeButton.addEventListener("click", closeModal);
 
-filterButtons.forEach(btn => {
-  btn.addEventListener("click", () => {
-    filterButtons.forEach(b => b.classList.remove("active"));
-    btn.classList.add("active");
-    applyFilter(btn.dataset.filter);
+  // ✅ Click outside content closes modal
+  modal.addEventListener("click", e => {
+    if (e.target === modal) closeModal();
   });
-});
 
-document.querySelectorAll(".movie-card").forEach(card => {
-  card.addEventListener("click", () => {
-    document.getElementById("modal-img").src = card.dataset.img;
-    document.getElementById("modal-title").textContent = card.dataset.title;
-    document.getElementById("modal-overview").textContent = card.dataset.overview || "";
-    document.getElementById("modal-year").textContent = card.dataset.year || "Unknown";
-    document.getElementById("modal-runtime").textContent = card.dataset.runtime || "??";
-    document.getElementById("modal-genres").textContent = card.dataset.genres || "Unknown";
-
-    updateStarUI(Number(card.dataset.myRating) || 0);
-
-    document.getElementById("modal-status").textContent =
-      card.dataset.status || "unwatched";
-
-    modal.classList.remove("hidden");
+  // ✅ Close with ESC key
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") closeModal();
   });
-});
 
-// close modal
-document.querySelector(".modal-close").addEventListener("click", () =>
-  modal.classList.add("hidden")
-);
+    // ✅ FILTERING MOVIES
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const movieCards = document.querySelectorAll(".movie-card");
+  const progressFill = document.querySelector(".progress-fill");
+  const progressText = document.getElementById("progress-text");
 
-modal.addEventListener("click", e => {
-  if (e.target === modal) modal.classList.add("hidden");
-});
-document.addEventListener("keydown", e => {
-  if (e.key === "Escape") modal.classList.add("hidden");
-});
+  function updateProgress() {
+    const total = movieCards.length;
+    const watchedCount = [...movieCards].filter(card => card.dataset.status === "watched").length;
+    const percent = total ? Math.round((watchedCount / total) * 100) : 0;
+    progressFill.style.width = percent + "%";
+    progressText.textContent = `${watchedCount}/${total} watched (${percent}%)`;
+  }
 
-updateProgress();
-applyFilter("all");
+  function applyFilter(filter) {
+    movieCards.forEach(card => {
+      const status = card.dataset.status;
+      card.style.display =
+        filter === "all" ||
+        status === filter
+          ? "block"
+          : "none";
+    });
+    updateProgress();
+  }
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      filterButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      applyFilter(btn.dataset.filter);
+    });
+  });
+
+  // ✅ Set initial progress
+  applyFilter("all");
+
+});

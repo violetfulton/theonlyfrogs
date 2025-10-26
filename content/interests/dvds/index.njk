@@ -22,15 +22,12 @@ permalink: /dvds/
 
 <div class="movie-grid">
 {% for movie in movieCollectionPhysical %}
-  {% set genreNames = movie.genres | default([]) | map(attribute='name') %}
   {% set poster = movie.poster_path | default("/assets/imgs/frog-dvd-placeholder.png") %}
   {% set releaseYear = movie.release_date and movie.release_date.slice(0,4) %}
 
   <div class="movie-card"
        data-title="{{ movie.title }}"
        data-year="{{ releaseYear }}"
-       data-runtime="{{ movie.runtime }}"
-       data-genres="{{ genreNames | join(', ') }}"
        data-img="https://image.tmdb.org/t/p/w342{{ poster }}"
        data-my-rating="{{ movie.my_rating }}"
        data-status="{{ movie.status }}">
@@ -40,7 +37,6 @@ permalink: /dvds/
   </div>
 {% endfor %}
 </div>
-
 
 {% include "partials/dvdModal.njk" %}
 <script src="/assets/js/dvdModal.js"></script>
