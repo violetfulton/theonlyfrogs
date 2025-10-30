@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'Nintendo DS';
+  src: url('../fonts/Nintendo-DS-BIOS.ttf') format('truetype');
+}
+
+body {
+  background-image: url('/assets/imgs/bg/tairu1-pink1-2.gif');
+}
+
+/* === Steam Widget (Froggy Flat Style — matches Last.fm widget) === */
+
+.steam-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.steam-widget {
+  background-color: #e8f5e9; /* same as last.fm */
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: #1b5e20;
+  font-family: 'Gaegu', sans-serif;
+  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  width: 520px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.steam-widget:hover {
+  background-color: #f1f8e9;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+
+.steam-widget h3 {
+  font-size: 1.2rem;
+  color: #2e7d32;
+  margin: 0 0 0.3rem 0;
+  text-align: center;
+}
+
+.steam-widget .total {
+  font-size: 0.9rem;
+  color: #33691e;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+/* === Game Grid === */
+.steam-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.steam-game {
+  background: #f1f8e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  width: 90px;
+  text-align: center;
+  padding: 4px;
+  transition: all 0.3s ease;
+}
+
+.steam-game:hover {
+  background: #c8e6c9;
+  transform: translateY(-4px);
+  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.25);
+}
+
+.steam-game img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #81c784;
+  margin-bottom: 4px;
+}
+
+.steam-game .title {
+  display: block;
+  font-size: 0.8rem;
+  color: #2e7d32;
+  line-height: 1.1;
+}
+
+.steam-game .hours {
+  font-size: 0.7rem;
+  color: #388e3c;
+}
+
+
+@media (max-width: 600px) {
+  .steam-widget {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .steam-game {
+    width: 80px;
+  }
+}
+
+
+/* last fm now playing widget styles */
+/* --- Wrapper layout --- */
+.nowplaying-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  transition: all 0.4s ease;
+}
+
+.nowplaying-wrapper.idle {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nowplaying-wrapper.active {
+  justify-content: center;
+}
+
+/* --- Adaptive container --- */
+#now-playing-box {
+  width: 420px;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px auto;
+  font-family: 'Gaegu', sans-serif;
+  color: #1b5e20;
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.25);
+  transition: width 0.4s ease, background-color 0.3s ease;
+}
+
+/* Make the box wider when idle (to fit right-hand list) */
+.nowplaying-wrapper.idle #now-playing-box,
+#now-playing-box.idle {
+  width: 520px;
+}
+
+/* --- Track Card --- */
+.track-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f1f8e9;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  padding: 6px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.track-card.playing {
+  background-image: linear-gradient(to right, #81c784, #a5d6a7);
+  border-color: #66bb6a;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+.track-card.idle {
+  opacity: 0.8;
+  filter: grayscale(40%);
+}
+
+/* --- Album Art + Notes --- */
+.album-art {
+  position: relative;
+  margin-right: 6px;
+}
+
+.album-art img {
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid #4caf50;
+}
+
+.music-notes {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 64px;
+  overflow: visible;
+  pointer-events: none;
+  left: 80%;
+}
+
+.music-notes span {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(0);
+}
+
+/* Floating animation */
+@keyframes floatNote {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.9);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-40px) scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-60px) scale(1);
+  }
+}
+
+/* --- Right-hand recent tracks --- */
+.recent-tracks-side {
+  width: 150px;
+  text-align: left;
+  border-left: 1px dashed #a5d6a7;
+  padding-left: 6px;
+  animation: fadeIn 0.4s ease;
+}
+
+.recent-tracks-side .recent-title {
+  font-size: 0.9em;
+  color: #33691e;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.recent-tracks-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-tracks-side li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+}
+
+.recent-tracks-side li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #a5d6a7;
+}
+
+.recent-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.recent-song {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #2e7d32;
+}
+
+.recent-artist {
+  font-size: 0.75em;
+  color: #33691e;
+}
+
+/* --- Fade Animation --- */
+.fade-in {
+  animation: fadeIn 0.6s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* === Letterboxd Widget === */
+
+.letterboxd-widget {
+  background-color: #e8f5e9; /* same mint background */
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: #1b5e20;
+  font-family: 'Gaegu', sans-serif;
+  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  width: 520px;
+  margin: 2rem auto;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.letterboxd-widget:hover {
+  background-color: #f1f8e9;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+
+.letterboxd-widget h3 {
+  font-size: 1.2rem;
+  color: #2e7d32;
+  margin: 0 0 0.5rem 0;
+}
+
+.letterboxd-embed-container {
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  background: #f1f8e9;
+  padding: 6px;
+  box-shadow: inset 0 0 6px rgba(76, 175, 80, 0.1);
+}
+
+.letterboxd-embed-container iframe {
+  width: 100%;
+  border: 1px solid #81c784;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.2);
+  background-color: #fff;
+  height: 800px; /* adjust as needed to show all diary entries */
+}
+
+
+/* responsive tweaks */
+@media (max-width: 600px) {
+  .letterboxd-widget {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .letterboxd-embed-container iframe {
+    height: 900px;
+  }
+}
+
+.activity-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+.psn-widget {
+  background-color: #e8f5e9; /* same mint background */
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: #1b5e20;
+  font-family: 'Gaegu', sans-serif;
+  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  width: 520px;
+  margin: 2rem auto;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.page-header {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Nintendo DS', sans-serif;
+}
+
+.page-header img {
+  max-width: 200px;
+  height: auto;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
+
+}
+
+.page-header p {
+  font-size: 2rem;
+  color: #33691e;
+  margin-top: -50px;
+}
+
+.page-header small {
+  font-size: 1.5rem;
+  color: #388e3c;
+}
+
+.page-header a {
+  text-decoration: none;
+  font-weight: bold;
+}

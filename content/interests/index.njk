@@ -1,59 +1,19 @@
 ---
-title: Door to the Collection
+title: Curation of Now
 layout: base.njk
-customcss: '/assets/css/door.css'
-
+customcss: '/assets/css/now.css'
+permalink: /interests/now/
 ---
-<div class="doorArea">
-  <div class="doorBg"></div>
-  <img src="/assets/imgs/graphics/raw.png" class="door-reveal-img" alt="Revealed Image" width="400" height="600">
-  <div class="door"></div>
-  <img src="/assets/imgs/graphics/clickthere.gif" class="clickthere" alt="Click There">
-  <img src="/assets/imgs/graphics/arrow 28.gif" class="clickarrow" alt="Arrow">
-  <a href="/shrines/" class="enter-link">boo!</a>
-</div>
-<!-- <div id="myWindow" class="window">
-	<div class="window-top">
-		<button class="round green"></button><button class="round yellow"></button><button class="round red"></button>
-	</div>
-	<div class="window-content">
-		&gt; Welcome to the collection!
-		<br />
-		&gt;
-		<br />
-		&gt;&gt; Click the door to enter.
-    <br />
-    &gt;
-    <img src="../imgs/graphics/frogwelcome.png" alt="Frog Welcome Image" class="frogwelcome" width="200px">
-    <br />
-	</div>
-</div>
 
-<div id="myWindow2" class="window">
-	<div class="window-top-no-bind">
-		<button class="round green"></button><button class="round yellow"></button><button class="round red"></button>
-	</div>
-	<div class="window-content">
-		&gt; You can drag this window around!
-		<br />
-		&gt;
-		<br /> (づ ᴗ _ᴗ)づ♡
-	</div>
-</div>
+<header class="page-header">
+  <img src="/assets/imgs/graphics/currently.png" alt="Header Image" class="header-image">
+  <p class="header-subtitle">A curation of what I'm currently listening to, playing, and watching.</p>
+  <small class="header-note">return <a href="/">home</a></small>
+</header>
 
- -->
-
-
-
-<!-- <div class="titleRow">
-  <div class="title">
-    <h1>
-      (づ ᴗ _ᴗ)づ♡ <br>
-      Welcome to my collection! Open the door to enter.
-    </h1>
-  </div>
-  <div class="frogwelcome">
-    <img src="../imgs/graphics/frogwelcome.png" alt="Frog Welcome Image">
-  </div>
-</div> -->
-    <script src="/assets/js/door.js"></script>
+<section class="activity-section">
+  {% include "partials/lastfmWidget.njk" %}
+  {% include "partials/steamWidget.njk" %}
+  {% include "partials/psnWidget.njk" %}
+  {% include "partials/letterboxdWidget.njk" %}
+</section>

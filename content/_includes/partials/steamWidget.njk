@@ -1,0 +1,18 @@
+<section class="steam-section">
+  <div class="steam-widget">
+    <h3>🎮 Recently Played</h3>
+    <p class="total">Total playtime: <strong>{{ steam.total_hours }}</strong> hours</p>
+
+    <div class="steam-games">
+      {% for game in steam.games %}
+        <div class="steam-game">
+          <a href="https://store.steampowered.com/app/{{ game.appid }}/" target="_blank">
+            <img src="{{ game.img }}" alt="{{ game.name }}" onerror="this.src='/assets/imgs/frog-placeholder.png'">
+            <span class="title">{{ game.name }}</span>
+            <span class="hours">{{ game.playtime_hours }} hrs (2w)</span>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
