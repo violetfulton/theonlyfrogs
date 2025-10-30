@@ -8,7 +8,10 @@ on:
 env:
   DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
   DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+  STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+  STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+
 
 jobs:
   deploy:
