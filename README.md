@@ -6,7 +6,7 @@
 [![Deployed on Neocities](https://img.shields.io/badge/deployed%20on-Neocities-FF6C6C.svg?style=flat-square)](https://neocities.org)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=flat-square)](LICENSE)
 
-**🌐 Live Site:** [theonlyfrogs.neocities.org](https://theonlyfrogs.neocities.org)
+**🌐 Live Site:** [theonlyfrogs.com](https://theonlyfrogs.com)
 
 ---
 
