@@ -6,7 +6,8 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js"
+    "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js",
+    "fetch:tmdb": "node ./content/_scripts/fetchTMDbCollection.js"
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.0",
