@@ -11,6 +11,7 @@ env:
   STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
   STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+  GAMES_SHEET_URL: ${{ secrets.GAMES_SHEET_URL }}
 
 
 jobs:
