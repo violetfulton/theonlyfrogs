@@ -1683,6 +1683,100 @@
     "folder_id": 1
   },
   {
+    "id": 6369450,
+    "instance_id": 2076518835,
+    "date_added": "2025-11-03T10:48:53-08:00",
+    "rating": 5,
+    "basic_information": {
+      "id": 6369450,
+      "master_id": 815737,
+      "master_url": "https://api.discogs.com/masters/815737",
+      "resource_url": "https://api.discogs.com/releases/6369450",
+      "thumb": "https://i.discogs.com/qa9gxmPz3q4Q_KUnQtVk6nn3qw-F_QjhseMY_Cczrdg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNjk0/NTAtMTQxNzU0NjM0/OC0zMjE0LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/qvAOtGVWydvkbhpjNmtXppORKx1lKJuLP__tjTjtveE/rs:fit/g:sm/q:90/h:483/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNjk0/NTAtMTQxNzU0NjM0/OC0zMjE0LmpwZWc.jpeg",
+      "title": "I Brought You My Bullets, You Brought Me Your Love",
+      "year": 2004,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Eyeball Records",
+          "catno": "986 6233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34495,
+          "resource_url": "https://api.discogs.com/labels/34495"
+        },
+        {
+          "name": "Eyeball Records",
+          "catno": "9866233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 34495,
+          "resource_url": "https://api.discogs.com/labels/34495"
+        },
+        {
+          "name": "Polydor",
+          "catno": "986 6233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1610,
+          "resource_url": "https://api.discogs.com/labels/1610"
+        },
+        {
+          "name": "Polydor",
+          "catno": "9866233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1610,
+          "resource_url": "https://api.discogs.com/labels/1610"
+        },
+        {
+          "name": "20/20 Recordings",
+          "catno": "986 6233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 33278,
+          "resource_url": "https://api.discogs.com/labels/33278"
+        },
+        {
+          "name": "20/20 Recordings",
+          "catno": "9866233",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 33278,
+          "resource_url": "https://api.discogs.com/labels/33278"
+        }
+      ],
+      "artists": [
+        {
+          "name": "My Chemical Romance",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 319406,
+          "resource_url": "https://api.discogs.com/artists/319406"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Punk",
+        "Emo"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 4930735,
     "instance_id": 2064150246,
     "date_added": "2025-09-24T12:50:25-07:00",

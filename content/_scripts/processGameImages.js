@@ -1,46 +1,43 @@
+/**
+ * Game Cover Processor
+ * 🐸 Reads final Eleventy games data (from Google Sheets)
+ * 🐸 Processes ONLY new game covers
+ * 🐸 Auto-matches incoming images → slugs
+ * 🐸 Falls back to no-cover.png for missing ones
+ */
+
 import fs from "fs";
 import path from "path";
-import { parse } from "csv-parse/sync";
 import Image from "@11ty/eleventy-img";
 
 // === CONFIG ===
 const incomingFolder = path.resolve("content/assets/imgs/incoming");
 const outputFolder = path.resolve("content/assets/imgs/games");
-const gamesDataFile = path.resolve("content/_data/games.csv"); // or .json
+
+// 📌 After Eleventy runs, games data exists here:
+const gamesDataFile = path.resolve("public/_data/games.json");
+
 const fallbackImage = path.resolve("content/assets/imgs/no-cover.png");
 const OUTPUT_WIDTH = 600;
 
-// === CLI PLATFORM ARGUMENTS ===
-// Example: node content/_scripts/processGameImages.js "Nintendo DS" "Nintendo 3DS"
+// === CLI PLATFORM ARGUMENTS (optional) ===
+// Example: node processGameImages.js "Nintendo Switch"
 const argPlatforms = process.argv.slice(2);
-const PLATFORMS_ALLOWED =
-  argPlatforms.length > 0 ? argPlatforms : ["Nintendo DS", "Nintendo 3DS"];
 
 // === HELPERS ===
-const sanitize = (title) =>
-  title.toLowerCase().replace(/[^a-z0-9]+/g, "").trim();
-
 const ensureFolder = (folder) => {
   if (!fs.existsSync(folder)) fs.mkdirSync(folder, { recursive: true });
 };
 
+const sanitize = (title) =>
+  title.toLowerCase().replace(/[^a-z0-9]+/g, "").trim();
+
 const getGameRecords = () => {
   if (!fs.existsSync(gamesDataFile)) {
-    console.error("❌ Game data file not found:", gamesDataFile);
+    console.error("❌ games.json not found. Run Eleventy build first!");
     process.exit(1);
   }
-
-  if (gamesDataFile.endsWith(".csv")) {
-    const csvData = fs.readFileSync(gamesDataFile, "utf-8");
-    return parse(csvData, {
-      columns: true,
-      skip_empty_lines: true,
-    });
-  } else if (gamesDataFile.endsWith(".json")) {
-    return JSON.parse(fs.readFileSync(gamesDataFile, "utf-8"));
-  } else {
-    throw new Error("Unsupported data file type.");
-  }
+  return JSON.parse(fs.readFileSync(gamesDataFile, "utf-8"));
 };
 
 // === MAIN ===
@@ -48,54 +45,64 @@ async function processGameImages() {
   ensureFolder(incomingFolder);
   ensureFolder(outputFolder);
 
-  // 1️⃣ Load & filter by platform
-  const records = getGameRecords().filter((r) =>
-    PLATFORMS_ALLOWED.includes(r.Platform)
-  );
+  // 1️⃣ Load games from final Eleventy output (Google Sheets → Eleventy → here)
+  const data = getGameRecords(); // [{ platform, slug, games: [] }]
+  const allGames = data.flatMap(p => p.games);
 
-  console.log(
-    `🎮 Loaded ${records.length} records for platforms: ${PLATFORMS_ALLOWED.join(
-      ", "
-    )}`
-  );
+  const records = argPlatforms.length
+    ? allGames.filter((g) => argPlatforms.includes(g.Platform))
+    : allGames;
+
+  console.log(`🎮 Loaded ${records.length} game entries`);
 
   if (records.length === 0) {
-    console.warn("⚠️ No games found for these platforms. Check your CSV!");
+    console.warn("⚠️ No matching games found. Check platform filters?");
     return;
   }
 
   // 2️⃣ Create slug → title map
   const slugMap = new Map(records.map((r) => [sanitize(r.Title), r.Title]));
+
+  // 3️⃣ Determine existing covers
+  const existingCovers = new Set(
+    fs.existsSync(outputFolder)
+      ? fs.readdirSync(outputFolder)
+          .filter(f => f.endsWith(".jpg"))
+          .map(f => path.basename(f, ".jpg"))
+      : []
+  );
+
+  console.log(`🧠 Found ${existingCovers.size} existing covers.`);
+
+  const processedTitles = new Set(existingCovers);
+
+  // 4️⃣ Process incoming images
   const incomingFiles = fs.readdirSync(incomingFolder);
+  console.log(`📸 Found ${incomingFiles.length} incoming file(s)`);
 
-  if (incomingFiles.length === 0) {
-    console.log("📂 No new files found in incoming folder.");
-  }
-
-  console.log(`📸 Found ${incomingFiles.length} file(s) in incoming folder:`);
-
-  // 3️⃣ Keep track of which titles got covers
-  const processedTitles = new Set();
-
-  // 4️⃣ Process incoming files
   for (const file of incomingFiles) {
     const ext = path.extname(file).toLowerCase();
     if (![".jpg", ".jpeg", ".png", ".webp"].includes(ext)) {
-      console.log(`⚠️ Skipping non-image file: ${file}`);
+      console.log(`⚠️ Skipping non-image: ${file}`);
       continue;
     }
 
     const base = path.basename(file, ext).toLowerCase();
 
-    // Try to find a slug match based on partial name
     const match = Array.from(slugMap.keys()).find(
-      (slug) =>
+      slug =>
         base.includes(slug.slice(0, 8)) ||
         slug.includes(base.slice(0, 8).replace(/[^a-z0-9]/g, ""))
     );
 
     if (!match) {
       console.log(`❓ No match found for: ${file}`);
+      continue;
+    }
+
+    // Already processed? skip
+    if (processedTitles.has(match)) {
+      console.log(`↩️ Skipping existing cover: ${match}.jpg`);
       continue;
     }
 
@@ -117,25 +124,21 @@ async function processGameImages() {
 
       processedTitles.add(match);
       fs.unlinkSync(srcPath);
-      console.log(`✅ Processed cover: ${newName}`);
+      console.log(`✅ Created cover: ${newName}`);
     } catch (err) {
-      console.error(`❌ Failed to process ${file}: ${err.message}`);
+      console.error(`❌ Failed ${file}: ${err.message}`);
     }
   }
 
-  // 5️⃣ For any titles missing covers, create a fallback image
+  // 5️⃣ Add fallback for ONLY new slugs
   for (const slug of slugMap.keys()) {
-    if (processedTitles.has(slug)) continue;
-
-    const outputPath = path.join(outputFolder, `${slug}.jpg`);
-
-    if (!fs.existsSync(outputPath)) {
-      fs.copyFileSync(fallbackImage, outputPath);
-      console.log(`🪄 Added fallback cover: ${slug}.jpg`);
+    if (!processedTitles.has(slug)) {
+      fs.copyFileSync(fallbackImage, path.join(outputFolder, `${slug}.jpg`));
+      console.log(`🪄 Added fallback for: ${slug}.jpg`);
     }
   }
 
-  console.log("\n✨ Game images processed — missing covers filled with fallback!");
+  console.log("\n✨ Done! Images processed & fallbacks applied.");
 }
 
 processGameImages().catch(console.error);
