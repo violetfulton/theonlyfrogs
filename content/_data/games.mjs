@@ -2,6 +2,7 @@
 import EleventyFetch from "@11ty/eleventy-fetch";
 import { parse } from "csv-parse/sync";
 import dotenv from "dotenv";
+import fs from "fs";
 dotenv.config();
 
 const SHEET_URL = process.env.GAMES_SHEET_URL;
@@ -13,34 +14,44 @@ export default async function () {
 
   // Fetch & cache Google Sheets CSV
   const csvText = await EleventyFetch(SHEET_URL, {
-    duration: "6h",   // cache between builds
+    duration: "6h",
     type: "text",
   });
 
-  // Parse the CSV safely
   const records = parse(csvText, {
     columns: true,
     skip_empty_lines: true,
     trim: true,
   });
 
-  // Slug function
+  // ✅ Smashed slug (no hyphens)
   const sanitize = (s) =>
     (s || "")
       .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "")
-      .trim();
+      .trim()
+      .replace(/[^a-z0-9]+/g, "") // remove spaces/symbols
+      .replace(/^-+|-+$/g, "");
 
   const basePath = "/assets/imgs/games/";
+  const fallback = `${basePath}no-cover.png`;
 
-  // Add image + slug per game
+  // Add slug + image mapping
   records.forEach((r) => {
     const slug = sanitize(r.Title);
     r.Slug = slug;
 
-    // Sheet column to manually override a cover path
-    const override = (r.ImageOverride || "").trim();
-    r.Image = override || `${basePath}${slug}.jpg`;
+    const sheetVal = (r.Image || "").trim();
+    const filename = sheetVal || `${slug}.jpg`;
+    const localPath = `content/assets/imgs/games/${filename}`;
+
+    if (fs.existsSync(localPath)) {
+      r.Image = `${basePath}${filename}`;
+    } else {
+      if (sheetVal) {
+        console.warn(`⚠️ Missing image in sheet: ${filename} — using fallback`);
+      }
+      r.Image = fallback;
+    }
   });
 
   // Group by platform
@@ -50,16 +61,12 @@ export default async function () {
     (grouped[platform] ||= []).push(game);
   }
 
-  // Sort platforms and contents
-  const sorted = Object.keys(grouped)
+  // Sort platforms & games alphabetically
+  return Object.keys(grouped)
     .sort()
     .map((platform) => ({
       platform,
       slug: sanitize(platform),
-      games: grouped[platform].sort((a, b) =>
-        a.Title.localeCompare(b.Title)
-      ),
+      games: grouped[platform].sort((a, b) => a.Title.localeCompare(b.Title)),
     }));
-
-  return sorted;
 }
