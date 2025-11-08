@@ -32,7 +32,7 @@
       16,
       10751
     ],
-    "vote_average": 7.005,
+    "vote_average": 7.007,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -53,7 +53,7 @@
       12,
       28
     ],
-    "vote_average": 6.358,
+    "vote_average": 6.355,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -91,7 +91,7 @@
       14,
       12
     ],
-    "vote_average": 6.636,
+    "vote_average": 6.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -130,7 +130,7 @@
       10759,
       10765
     ],
-    "vote_average": 8.757,
+    "vote_average": 8.753,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -149,7 +149,7 @@
       35,
       878
     ],
-    "vote_average": 8.321,
+    "vote_average": 8.322,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -188,7 +188,7 @@
       18,
       9648
     ],
-    "vote_average": 8.554,
+    "vote_average": 8.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -206,7 +206,7 @@
       80,
       18
     ],
-    "vote_average": 8.209,
+    "vote_average": 8.207,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -226,7 +226,7 @@
       18,
       10759
     ],
-    "vote_average": 8.12,
+    "vote_average": 8.122,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -246,7 +246,7 @@
       10751,
       14
     ],
-    "vote_average": 7.041,
+    "vote_average": 7.04,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -265,7 +265,7 @@
       12,
       35
     ],
-    "vote_average": 7.622,
+    "vote_average": 7.623,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -284,7 +284,7 @@
       35,
       12
     ],
-    "vote_average": 7.488,
+    "vote_average": 7.489,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -302,7 +302,7 @@
       878,
       12
     ],
-    "vote_average": 7.776,
+    "vote_average": 7.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -339,7 +339,7 @@
       10759,
       18
     ],
-    "vote_average": 8.221,
+    "vote_average": 8.215,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -366,6 +366,25 @@
     "status": "unwatched"
   },
   {
+    "tmdb_id": 1399,
+    "media_type": "tv",
+    "title": "Game of Thrones",
+    "poster_path": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+    "release_date": "2011-04-17",
+    "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+    "genres": [
+      10765,
+      18,
+      10759
+    ],
+    "vote_average": 8.459,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
     "tmdb_id": 118340,
     "media_type": "movie",
     "title": "Guardians of the Galaxy",
@@ -377,7 +396,7 @@
       878,
       12
     ],
-    "vote_average": 7.904,
+    "vote_average": 7.905,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -434,7 +453,7 @@
       12,
       14
     ],
-    "vote_average": 7.705,
+    "vote_average": 7.7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -452,7 +471,7 @@
       14,
       12
     ],
-    "vote_average": 8.084,
+    "vote_average": 8.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -506,7 +525,7 @@
       12,
       14
     ],
-    "vote_average": 7.674,
+    "vote_average": 7.675,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -542,7 +561,7 @@
       12,
       14
     ],
-    "vote_average": 8.011,
+    "vote_average": 8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -563,7 +582,7 @@
       10751,
       18
     ],
-    "vote_average": 6.644,
+    "vote_average": 6.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -576,14 +595,14 @@
     "title": "Holes",
     "poster_path": "/o2Dm2mcE1qW8vT0bpsJO5OMBbqa.jpg",
     "release_date": "2003-04-18",
-    "overview": "A wrongfully convicted boy is sent to a brutal desert detention camp where he must dig holes in order to build character. What he doesn't know is that he is digging holes in order to search for a lost treasure hidden somewhere in the camp.",
+    "overview": "After being wrongfully convicted for stealing a pair of shoes, Stanley Yelnats is sent away to Camp Green Lake, a boys detention facility where inmates are forced to dig holes all day in the hot desert sun as a form of character building. But Stanley and the other boys start to unravel a mystery, linked with the camps tough-as-nails warden —and possibly Stanley’s family itself.",
     "genres": [
       12,
       10751,
       18,
       35
     ],
-    "vote_average": 6.9,
+    "vote_average": 6.883,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -594,7 +613,7 @@
     "tmdb_id": 4935,
     "media_type": "movie",
     "title": "Howl's Moving Castle",
-    "poster_path": "/TkTPELv4kC3u1lkloush8skOjE.jpg",
+    "poster_path": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
     "release_date": "2004-09-09",
     "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
     "genres": [
@@ -676,7 +695,7 @@
       12,
       878
     ],
-    "vote_average": 7.962,
+    "vote_average": 7.963,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -697,7 +716,7 @@
       28,
       12
     ],
-    "vote_average": 7.307,
+    "vote_average": 7.308,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -738,7 +757,7 @@
       16,
       14
     ],
-    "vote_average": 7.03,
+    "vote_average": 7.026,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -755,7 +774,7 @@
     "genres": [
       35
     ],
-    "vote_average": 6.782,
+    "vote_average": 6.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -773,7 +792,7 @@
       18,
       10765
     ],
-    "vote_average": 8.186,
+    "vote_average": 8.187,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -792,7 +811,7 @@
       14,
       28
     ],
-    "vote_average": 7.263,
+    "vote_average": 7.264,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -811,7 +830,7 @@
       14,
       28
     ],
-    "vote_average": 7.371,
+    "vote_average": 7.372,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -830,7 +849,7 @@
       14,
       28
     ],
-    "vote_average": 7.815,
+    "vote_average": 7.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -849,7 +868,7 @@
       80,
       35
     ],
-    "vote_average": 8.5,
+    "vote_average": 8.487,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -868,7 +887,7 @@
       18,
       9648
     ],
-    "vote_average": 8.513,
+    "vote_average": 8.514,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -886,7 +905,7 @@
       18,
       35
     ],
-    "vote_average": 8.141,
+    "vote_average": 8.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -904,7 +923,7 @@
       16,
       35
     ],
-    "vote_average": 8.3,
+    "vote_average": 8.342,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -960,7 +979,7 @@
       12,
       878
     ],
-    "vote_average": 6.4,
+    "vote_average": 6.447,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -971,7 +990,7 @@
     "tmdb_id": 1622,
     "media_type": "tv",
     "title": "Supernatural",
-    "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
+    "poster_path": "/u40gJarLPlIkwouKlzGdobQOV9k.jpg",
     "release_date": "2005-09-13",
     "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
     "genres": [
@@ -1035,7 +1054,7 @@
     "genres": [
       18
     ],
-    "vote_average": 7.868,
+    "vote_average": 7.869,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1071,7 +1090,7 @@
     "genres": [
       35
     ],
-    "vote_average": 7.7,
+    "vote_average": 7.649,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1088,7 +1107,7 @@
     "genres": [
       35
     ],
-    "vote_average": 6.2,
+    "vote_average": 6.211,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1108,7 +1127,7 @@
       16,
       10751
     ],
-    "vote_average": 7.719,
+    "vote_average": 7.72,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1128,7 +1147,7 @@
       878,
       18
     ],
-    "vote_average": 7.952,
+    "vote_average": 7.953,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1147,7 +1166,7 @@
       10759,
       10765
     ],
-    "vote_average": 8.208,
+    "vote_average": 8.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1167,7 +1186,7 @@
       35,
       12
     ],
-    "vote_average": 6.581,
+    "vote_average": 6.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1188,7 +1207,7 @@
       18,
       10749
     ],
-    "vote_average": 6.943,
+    "vote_average": 6.9,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1207,7 +1226,7 @@
       28,
       878
     ],
-    "vote_average": 6.558,
+    "vote_average": 6.559,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1241,7 +1260,7 @@
     "genres": [
       35
     ],
-    "vote_average": 8.585,
+    "vote_average": 8.587,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1281,7 +1300,7 @@
       14,
       27
     ],
-    "vote_average": 7.4,
+    "vote_average": 7.445,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1301,7 +1320,7 @@
       35,
       10751
     ],
-    "vote_average": 6.501,
+    "vote_average": 6.504,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1320,7 +1339,7 @@
       35,
       10751
     ],
-    "vote_average": 7.017,
+    "vote_average": 7.016,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1339,7 +1358,7 @@
       14,
       10749
     ],
-    "vote_average": 6.195,
+    "vote_average": 6.193,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1359,7 +1378,7 @@
       18,
       10749
     ],
-    "vote_average": 6.5,
+    "vote_average": 6.461,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1379,7 +1398,7 @@
       18,
       10749
     ],
-    "vote_average": 6.201,
+    "vote_average": 6.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1418,7 +1437,7 @@
       18,
       10765
     ],
-    "vote_average": 8.1,
+    "vote_average": 8.092,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1437,7 +1456,7 @@
       18,
       35
     ],
-    "vote_average": 8,
+    "vote_average": 8.027,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1494,7 +1513,7 @@
       53,
       878
     ],
-    "vote_average": 6.526,
+    "vote_average": 6.527,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1506,12 +1525,12 @@
     "media_type": "movie",
     "title": "Wicked: For Good",
     "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
-    "release_date": "2025-11-19",
+    "release_date": "2025-11-17",
     "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
     "genres": [
-      18,
       10749,
-      14
+      14,
+      12
     ],
     "vote_average": null,
     "runtime": null,
