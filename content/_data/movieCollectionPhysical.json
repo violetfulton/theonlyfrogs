@@ -53,7 +53,7 @@
       12,
       28
     ],
-    "vote_average": 6.355,
+    "vote_average": 6.356,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -91,7 +91,7 @@
       14,
       12
     ],
-    "vote_average": 6.6,
+    "vote_average": 6.636,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -149,7 +149,7 @@
       35,
       878
     ],
-    "vote_average": 8.322,
+    "vote_average": 8.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -168,7 +168,7 @@
       35,
       10759
     ],
-    "vote_average": 7.3,
+    "vote_average": 7.284,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -226,7 +226,7 @@
       18,
       10759
     ],
-    "vote_average": 8.122,
+    "vote_average": 8.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -246,7 +246,7 @@
       10751,
       14
     ],
-    "vote_average": 7.04,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -339,7 +339,7 @@
       10759,
       18
     ],
-    "vote_average": 8.215,
+    "vote_average": 8.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -358,7 +358,7 @@
       878,
       12
     ],
-    "vote_average": 7.46,
+    "vote_average": 7.459,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -415,7 +415,7 @@
       12,
       28
     ],
-    "vote_average": 7.611,
+    "vote_average": 7.612,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -435,7 +435,7 @@
       28,
       35
     ],
-    "vote_average": 7.9,
+    "vote_average": 7.932,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -453,7 +453,7 @@
       12,
       14
     ],
-    "vote_average": 7.7,
+    "vote_average": 7.705,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -471,7 +471,7 @@
       14,
       12
     ],
-    "vote_average": 8.1,
+    "vote_average": 8.084,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -525,7 +525,7 @@
       12,
       14
     ],
-    "vote_average": 7.675,
+    "vote_average": 7.674,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -561,7 +561,7 @@
       12,
       14
     ],
-    "vote_average": 8,
+    "vote_average": 8.011,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -602,7 +602,7 @@
       18,
       35
     ],
-    "vote_average": 6.883,
+    "vote_average": 6.9,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -621,7 +621,7 @@
       16,
       12
     ],
-    "vote_average": 8.394,
+    "vote_average": 8.4,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -639,7 +639,7 @@
       28,
       53
     ],
-    "vote_average": 7.5,
+    "vote_average": 7.453,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -658,7 +658,7 @@
       53,
       80
     ],
-    "vote_average": 7.3,
+    "vote_average": 7.338,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -677,7 +677,7 @@
       14,
       10751
     ],
-    "vote_average": 7.2,
+    "vote_average": 7.241,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -688,7 +688,7 @@
     "tmdb_id": 329,
     "media_type": "movie",
     "title": "Jurassic Park",
-    "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
+    "poster_path": "/bRKmwU9eXZI5dKT11Zx1KsayiLW.jpg",
     "release_date": "1993-06-11",
     "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
     "genres": [
@@ -736,7 +736,7 @@
       10751,
       16
     ],
-    "vote_average": 7.564,
+    "vote_average": 7.565,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -757,7 +757,7 @@
       16,
       14
     ],
-    "vote_average": 7.026,
+    "vote_average": 7.025,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -774,7 +774,7 @@
     "genres": [
       35
     ],
-    "vote_average": 6.8,
+    "vote_average": 6.784,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -792,7 +792,7 @@
       18,
       10765
     ],
-    "vote_average": 8.187,
+    "vote_average": 8.185,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -849,7 +849,7 @@
       14,
       28
     ],
-    "vote_average": 7.8,
+    "vote_average": 7.815,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -868,7 +868,7 @@
       80,
       35
     ],
-    "vote_average": 8.487,
+    "vote_average": 8.5,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -941,7 +941,7 @@
       28,
       878
     ],
-    "vote_average": 7.316,
+    "vote_average": 7.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -960,7 +960,7 @@
       12,
       878
     ],
-    "vote_average": 7.296,
+    "vote_average": 7.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -979,7 +979,7 @@
       12,
       878
     ],
-    "vote_average": 6.447,
+    "vote_average": 6.4,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1090,7 +1090,7 @@
     "genres": [
       35
     ],
-    "vote_average": 7.649,
+    "vote_average": 7.646,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1107,7 +1107,7 @@
     "genres": [
       35
     ],
-    "vote_average": 6.211,
+    "vote_average": 6.21,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1166,7 +1166,7 @@
       10759,
       10765
     ],
-    "vote_average": 8.2,
+    "vote_average": 8.208,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1207,7 +1207,7 @@
       18,
       10749
     ],
-    "vote_average": 6.9,
+    "vote_average": 6.941,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1226,7 +1226,7 @@
       28,
       878
     ],
-    "vote_average": 6.559,
+    "vote_average": 6.558,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1300,7 +1300,7 @@
       14,
       27
     ],
-    "vote_average": 7.445,
+    "vote_average": 7.4,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1320,7 +1320,7 @@
       35,
       10751
     ],
-    "vote_average": 6.504,
+    "vote_average": 6.503,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1339,7 +1339,7 @@
       35,
       10751
     ],
-    "vote_average": 7.016,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1358,7 +1358,7 @@
       14,
       10749
     ],
-    "vote_average": 6.193,
+    "vote_average": 6.192,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1437,7 +1437,7 @@
       18,
       10765
     ],
-    "vote_average": 8.092,
+    "vote_average": 8.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1456,7 +1456,7 @@
       18,
       35
     ],
-    "vote_average": 8.027,
+    "vote_average": 8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1475,7 +1475,7 @@
       18,
       9648
     ],
-    "vote_average": 7.618,
+    "vote_average": 7.616,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1513,7 +1513,7 @@
       53,
       878
     ],
-    "vote_average": 6.527,
+    "vote_average": 6.526,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1532,7 +1532,7 @@
       14,
       12
     ],
-    "vote_average": null,
+    "vote_average": 5.5,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
