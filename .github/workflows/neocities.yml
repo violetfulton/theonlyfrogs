@@ -12,6 +12,8 @@ env:
   STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
   NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
   GAMES_SHEET_URL: ${{ secrets.GAMES_SHEET_URL }}
+  MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
+  MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
 
 
 jobs:
