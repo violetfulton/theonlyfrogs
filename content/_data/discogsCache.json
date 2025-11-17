@@ -49,7 +49,8 @@
       "styles": [
         "Alternative Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 10855863,
@@ -111,7 +112,8 @@
         "Alternative Rock",
         "Indie Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 15364745,
@@ -188,13 +190,14 @@
         "Hardcore Hip-Hop",
         "Pop Rap"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 479430,
     "instance_id": 2067542651,
     "date_added": "2025-10-05T14:20:39-07:00",
-    "rating": 0,
+    "rating": 3,
     "basic_information": {
       "id": 479430,
       "master_id": 35665,
@@ -266,13 +269,14 @@
         "Alternative Metal",
         "Nu Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 11461403,
     "instance_id": 2067538130,
     "date_added": "2025-10-05T14:05:26-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 11461403,
       "master_id": 35626,
@@ -330,7 +334,8 @@
         "Alternative Rock",
         "Heavy Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 29897824,
@@ -392,7 +397,8 @@
       "styles": [
         "Synth-pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 31966730,
@@ -447,7 +453,8 @@
         "Electro House",
         "Dance-pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 30373688,
@@ -501,7 +508,8 @@
         "Electro House",
         "Dance-pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 26600522,
@@ -553,13 +561,14 @@
       "styles": [
         "Alt-Pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 26050195,
     "instance_id": 2067540127,
     "date_added": "2025-10-05T14:12:06-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 26050195,
       "master_id": 2973844,
@@ -608,7 +617,8 @@
         "Pop Punk",
         "New Wave"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 28658917,
@@ -680,7 +690,8 @@
         "Soundtrack",
         "Dance-pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 1025840,
@@ -736,7 +747,8 @@
         "Emo",
         "Math Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 368174,
@@ -790,7 +802,8 @@
         "Hardcore",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 20304067,
@@ -849,13 +862,14 @@
         "Indie Rock",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 2841416,
     "instance_id": 2067539491,
     "date_added": "2025-10-05T14:09:47-07:00",
-    "rating": 0,
+    "rating": 3,
     "basic_information": {
       "id": 2841416,
       "master_id": 12049,
@@ -905,7 +919,8 @@
         "Prog Rock",
         "Ambient"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 23301476,
@@ -968,7 +983,8 @@
         "Indie Pop",
         "Pop Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 14048242,
@@ -1030,7 +1046,8 @@
         "Indie Pop",
         "Trap"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 30706157,
@@ -1092,7 +1109,8 @@
         "Indie Pop",
         "Alt-Pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 19693933,
@@ -1157,7 +1175,8 @@
         "Electro",
         "Downtempo"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 7095669,
@@ -1235,13 +1254,14 @@
         "J-pop",
         "Heavy Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 2483973,
     "instance_id": 2067539171,
     "date_added": "2025-10-05T14:08:44-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 2483973,
       "master_id": 280199,
@@ -1299,7 +1319,8 @@
         "Louisiana Blues",
         "Funk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 15096120,
@@ -1360,13 +1381,14 @@
       "styles": [
         "Alternative Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4289608,
     "instance_id": 2067538886,
     "date_added": "2025-10-05T14:07:51-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 4289608,
       "master_id": 52517,
@@ -1414,7 +1436,8 @@
         "Acoustic",
         "Heavy Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 16294415,
@@ -1475,7 +1498,8 @@
         "Arena Rock",
         "Classic Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 13289196,
@@ -1530,7 +1554,8 @@
         "Hard Rock",
         "Post-Hardcore"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 31495205,
@@ -1600,13 +1625,14 @@
         "Metalcore",
         "Alternative Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 3396909,
     "instance_id": 2078054357,
     "date_added": "2025-11-08T10:50:27-08:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 3396909,
       "master_id": 566815,
@@ -1661,7 +1687,8 @@
         "Post-Hardcore",
         "Alternative Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4763586,
@@ -1714,13 +1741,14 @@
       "styles": [
         "Soundtrack"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 6369450,
     "instance_id": 2076518835,
     "date_added": "2025-11-03T10:48:53-08:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 6369450,
       "master_id": 815737,
@@ -1807,7 +1835,8 @@
         "Punk",
         "Emo"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4930735,
@@ -1884,13 +1913,14 @@
       "styles": [
         "Pop Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 23704511,
     "instance_id": 2067540447,
     "date_added": "2025-10-05T14:13:14-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 23704511,
       "master_id": 550858,
@@ -1939,13 +1969,14 @@
         "Pop Rock",
         "Power Pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 872138,
     "instance_id": 2078053538,
     "date_added": "2025-11-08T10:48:28-08:00",
-    "rating": 0,
+    "rating": 3,
     "basic_information": {
       "id": 872138,
       "master_id": 13291,
@@ -2000,13 +2031,14 @@
         "Emo",
         "Pop Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 16348833,
     "instance_id": 2067540244,
     "date_added": "2025-10-05T14:12:26-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 16348833,
       "master_id": 219425,
@@ -2065,13 +2097,14 @@
         "Pop Rock",
         "Power Pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 1516047,
     "instance_id": 2067540864,
     "date_added": "2025-10-05T14:14:32-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 1516047,
       "master_id": 118807,
@@ -2128,13 +2161,14 @@
         "Emo",
         "Pop Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 14931196,
     "instance_id": 2067539027,
     "date_added": "2025-10-05T14:08:17-07:00",
-    "rating": 0,
+    "rating": 3,
     "basic_information": {
       "id": 14931196,
       "master_id": 847527,
@@ -2195,7 +2229,8 @@
         "Synth-pop",
         "Pop Rap"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 319205,
@@ -2248,7 +2283,8 @@
         "Industrial Metal",
         "Horror Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 7085263,
@@ -2319,7 +2355,8 @@
       "styles": [
         "Hard Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 3759846,
@@ -2389,7 +2426,8 @@
         "Alternative Rock",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 11579671,
@@ -2446,7 +2484,8 @@
         "Conscious",
         "Contemporary R&B"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 11287055,
@@ -2505,13 +2544,14 @@
         "Arena Rock",
         "Symphonic Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 3273288,
     "instance_id": 2067539342,
     "date_added": "2025-10-05T14:09:19-07:00",
-    "rating": 0,
+    "rating": 3,
     "basic_information": {
       "id": 3273288,
       "master_id": 389826,
@@ -2565,7 +2605,8 @@
         "Pop"
       ],
       "styles": []
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4925038,
@@ -2627,7 +2668,8 @@
         "Pop Rock",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 3226656,
@@ -2700,7 +2742,8 @@
         "Contemporary R&B",
         "Electro"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 10155637,
@@ -2762,7 +2805,8 @@
       "styles": [
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 881718,
@@ -2825,13 +2869,14 @@
         "Score",
         "Downtempo"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 982693,
     "instance_id": 2073472875,
     "date_added": "2025-10-25T08:05:29-07:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 982693,
       "master_id": 127958,
@@ -2879,13 +2924,14 @@
         "Emo",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 858647,
     "instance_id": 2078053792,
     "date_added": "2025-11-08T10:49:09-08:00",
-    "rating": 0,
+    "rating": 4,
     "basic_information": {
       "id": 858647,
       "master_id": 119726,
@@ -2947,7 +2993,8 @@
       "styles": [
         "Pop Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4700590,
@@ -3002,7 +3049,8 @@
         "Industrial",
         "Heavy Metal"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 17151643,
@@ -3054,13 +3102,14 @@
         "Pop"
       ],
       "styles": []
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 35420899,
     "instance_id": 2072583350,
     "date_added": "2025-10-22T08:45:56-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 35420899,
       "master_id": 4006858,
@@ -3109,7 +3158,8 @@
         "Alt-Pop",
         "Indie Pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 28137130,
@@ -3163,7 +3213,8 @@
       "styles": [
         "Experimental"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 2673768,
@@ -3218,7 +3269,8 @@
         "Theme",
         "Musical"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 3991484,
@@ -3275,7 +3327,8 @@
         "Rock & Roll",
         "Soundtrack"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 31825046,
@@ -3340,7 +3393,8 @@
         "Drum n Bass",
         "Experimental"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 15854683,
@@ -3407,7 +3461,8 @@
         "Ballad",
         "Disco"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 5876710,
@@ -3467,7 +3522,8 @@
       "styles": [
         "Metalcore"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 5659580,
@@ -3517,13 +3573,14 @@
         "Rock"
       ],
       "styles": []
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 34190962,
     "instance_id": 2067541862,
     "date_added": "2025-10-05T14:17:47-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 34190962,
       "master_id": 729401,
@@ -3573,13 +3630,14 @@
         "Alternative Rock",
         "Post-Hardcore"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 5529239,
     "instance_id": 2067541579,
     "date_added": "2025-10-05T14:16:53-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 5529239,
       "master_id": 668882,
@@ -3629,7 +3687,8 @@
         "Post-Hardcore",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 12430102,
@@ -3684,7 +3743,8 @@
       "styles": [
         "Score"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 13510954,
@@ -3738,7 +3798,8 @@
         "Emo",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 10236975,
@@ -3791,13 +3852,14 @@
         "Pop Punk",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 9124028,
     "instance_id": 2078054051,
     "date_added": "2025-11-08T10:49:41-08:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 9124028,
       "master_id": 724992,
@@ -3846,13 +3908,14 @@
         "Emo",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 2044414,
     "instance_id": 2079388768,
     "date_added": "2025-11-12T10:52:25-08:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 2044414,
       "master_id": 307517,
@@ -3910,13 +3973,14 @@
       "styles": [
         "Pop Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 1859261,
     "instance_id": 2067541030,
     "date_added": "2025-10-05T14:15:03-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 1859261,
       "master_id": 729401,
@@ -3972,7 +4036,8 @@
         "Pop Punk",
         "Post-Hardcore"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 15824674,
@@ -4033,7 +4098,8 @@
         "Alternative Rock",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 22938617,
@@ -4094,7 +4160,8 @@
         "House",
         "Tech House"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 4201169,
@@ -4164,7 +4231,8 @@
         "Rock & Roll",
         "Glam"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 32501169,
@@ -4218,7 +4286,8 @@
       "styles": [
         "Soundtrack"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 19070194,
@@ -4287,7 +4356,8 @@
         "Alternative Rock",
         "Grunge"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 2896374,
@@ -4362,7 +4432,8 @@
         "Acoustic",
         "Ballad"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 1143574,
@@ -4456,7 +4527,8 @@
         "Acoustic",
         "Pop Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 9523915,
@@ -4530,7 +4602,8 @@
         "Reggae-Pop",
         "Afrobeat"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 10920637,
@@ -4611,7 +4684,8 @@
         "Euro House",
         "Dance-pop"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 1229722,
@@ -4676,13 +4750,14 @@
         "Industrial",
         "Punk"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 34382998,
     "instance_id": 2067539742,
     "date_added": "2025-10-05T14:10:46-07:00",
-    "rating": 0,
+    "rating": 5,
     "basic_information": {
       "id": 34382998,
       "master_id": 3925902,
@@ -4738,7 +4813,8 @@
         "K-pop",
         "Soundtrack"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 10478271,
@@ -4792,7 +4868,8 @@
         "Synth-pop",
         "Ballad"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 12350845,
@@ -4855,7 +4932,8 @@
         "Prog Rock",
         "Symphonic Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 15270704,
@@ -4877,7 +4955,7 @@
           "qty": "1",
           "descriptions": [
             "Album",
-            "Repress"
+            "Reissue"
           ]
         }
       ],
@@ -4908,7 +4986,8 @@
       "styles": [
         "Alternative Rock"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 9618271,
@@ -4975,7 +5054,8 @@
         "Indie Pop",
         "New Wave"
       ]
-    }
+    },
+    "folder_id": 1
   },
   {
     "id": 7323031,
@@ -5031,6 +5111,7 @@
         "Nu Metal",
         "Ballad"
       ]
-    }
+    },
+    "folder_id": 1
   }
 ]

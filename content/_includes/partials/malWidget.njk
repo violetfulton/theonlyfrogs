@@ -1,0 +1,35 @@
+<section class="mal-section">
+  <div class="mal-widget">
+    <h3>📺 Currently Watching (Anime)</h3>
+    <p class="mal-subtitle">pulled from myanimelist.net</p>
+
+    {% if malAnime.anime and malAnime.anime | length %}
+      <div class="mal-anime-list">
+        {% for show in malAnime.anime %}
+          <article class="mal-anime">
+            <a href="{{ show.url }}" target="_blank" rel="noopener">
+              <div class="mal-anime-image-wrap">
+                <img src="{{ show.image }}" alt="{{ show.title }}">
+                <span class="mal-episode-pill">
+                  ep {{ show.progress }}{% if show.totalEpisodes %}/{{ show.totalEpisodes }}{% endif %}
+                </span>
+              </div>
+
+              <div class="mal-anime-info">
+                <h4>{{ show.title }}</h4>
+
+                {% if show.score %}
+                  <p class="mal-score">your score: {{ show.score }}/10</p>
+                {% endif %}
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="mal-empty">
+        no anime in your watching list right now :(
+      </p>
+    {% endif %}
+  </div>
+</section>
