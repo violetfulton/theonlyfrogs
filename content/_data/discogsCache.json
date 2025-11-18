@@ -2359,6 +2359,57 @@
     "folder_id": 1
   },
   {
+    "id": 9607359,
+    "instance_id": 2081085706,
+    "date_added": "2025-11-17T12:10:00-08:00",
+    "rating": 4,
+    "basic_information": {
+      "id": 9607359,
+      "master_id": 1114314,
+      "master_url": "https://api.discogs.com/masters/1114314",
+      "resource_url": "https://api.discogs.com/releases/9607359",
+      "thumb": "https://i.discogs.com/Kshzs22Rz3NXCuyW8_xLAUMs1dp5JK1p2qQ4XeFFdIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2MDcz/NTktMTU0OTg3NjE4/Mi03NTc5LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/nykUZkM6IU8HW6oWATKtKQTpaFyB9SI8fpmi18pZ_Vw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2MDcz/NTktMTU0OTg3NjE4/Mi03NTc5LmpwZWc.jpeg",
+      "title": "Parachutes",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Hassle Records",
+          "catno": "HOFF235CDa",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 49307,
+          "resource_url": "https://api.discogs.com/labels/49307"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Frank Iero And The Patience",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 5476841,
+          "resource_url": "https://api.discogs.com/artists/5476841"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": []
+    },
+    "folder_id": 1
+  },
+  {
     "id": 3759846,
     "instance_id": 2064074671,
     "date_added": "2025-09-24T08:34:44-07:00",
@@ -2667,6 +2718,80 @@
       "styles": [
         "Pop Rock",
         "Punk"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 28412029,
+    "instance_id": 2081087297,
+    "date_added": "2025-11-17T12:14:59-08:00",
+    "rating": 5,
+    "basic_information": {
+      "id": 28412029,
+      "master_id": 3247138,
+      "master_url": "https://api.discogs.com/masters/3247138",
+      "resource_url": "https://api.discogs.com/releases/28412029",
+      "thumb": "https://i.discogs.com/RZyIdjXylD62bvC9mGvoNdaiXhOPmJ1R6-2nK-J23MI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NDEy/MDI5LTE2OTU4ODQ2/ODgtMTc1NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/vsTtbQQkvtD-50lagj1N6jSOXToZFNd_HMytiizJTsc/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NDEy/MDI5LTE2OTU4ODQ2/ODgtMTc1NS5qcGVn.jpeg",
+      "title": "Scarlet",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Kemosabe Records",
+          "catno": "19658-85214-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 446960,
+          "resource_url": "https://api.discogs.com/labels/446960"
+        },
+        {
+          "name": "RCA",
+          "catno": "19658-85214-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 895,
+          "resource_url": "https://api.discogs.com/labels/895"
+        },
+        {
+          "name": "Sony Music",
+          "catno": "19658-85214-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 25487,
+          "resource_url": "https://api.discogs.com/labels/25487"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Doja Cat",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 3970719,
+          "resource_url": "https://api.discogs.com/artists/3970719"
+        }
+      ],
+      "genres": [
+        "Hip Hop",
+        "Pop"
+      ],
+      "styles": [
+        "Pop Rap",
+        "Trap",
+        "Contemporary R&B",
+        "Trip Hop",
+        "Jazzy Hip-Hop"
       ]
     },
     "folder_id": 1
@@ -3053,6 +3178,60 @@
     "folder_id": 1
   },
   {
+    "id": 375456,
+    "instance_id": 2081087130,
+    "date_added": "2025-11-17T12:14:26-08:00",
+    "rating": 3,
+    "basic_information": {
+      "id": 375456,
+      "master_id": 18069,
+      "master_url": "https://api.discogs.com/masters/18069",
+      "resource_url": "https://api.discogs.com/releases/375456",
+      "thumb": "https://i.discogs.com/wI_JNa65H7LfQpd_6Ve2xUQa9izaGsdIXy9M0V9KhMI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQ1/Ni0xNDMyMzI0MjI0/LTUwODMucG5n.jpeg",
+      "cover_image": "https://i.discogs.com/3Casv6lnNGXP_iKmudByhFF0uGSjmRFNAEsSqflHMAg/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NTQ1/Ni0xNDMyMzI0MjI0/LTUwODMucG5n.jpeg",
+      "title": "The Last Tour On Earth",
+      "year": 1999,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Nothing Records",
+          "catno": "0694905242",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 647,
+          "resource_url": "https://api.discogs.com/labels/647"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Marilyn Manson",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 12208,
+          "resource_url": "https://api.discogs.com/artists/12208"
+        }
+      ],
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Industrial"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 17151643,
     "instance_id": 2064147963,
     "date_added": "2025-09-24T12:42:18-07:00",
@@ -3326,6 +3505,73 @@
       "styles": [
         "Rock & Roll",
         "Soundtrack"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 4536082,
+    "instance_id": 2081087563,
+    "date_added": "2025-11-17T12:15:54-08:00",
+    "rating": 5,
+    "basic_information": {
+      "id": 4536082,
+      "master_id": 97901,
+      "master_url": "https://api.discogs.com/masters/97901",
+      "resource_url": "https://api.discogs.com/releases/4536082",
+      "thumb": "https://i.discogs.com/4xA7uQvs74982Oggus8GkVyxYNyV0Z8OjFuoihGFjiw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1MzYw/ODItMTQ5OTA5Mzc1/My03OTYzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/y4ZXB8oH91mNJb6ifu7NK1aKLqN-uy0xlUdzPgDFei8/rs:fit/g:sm/q:90/h:549/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1MzYw/ODItMTQ5OTA5Mzc1/My03OTYzLmpwZWc.jpeg",
+      "title": "Grease (The Original Soundtrack From The Motion Picture)",
+      "year": 2008,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "2",
+          "text": "30th Anniversary",
+          "descriptions": [
+            "Album",
+            "Deluxe Edition",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Polydor",
+          "catno": "9809773",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1610,
+          "resource_url": "https://api.discogs.com/labels/1610"
+        },
+        {
+          "name": "Universal",
+          "catno": "9809773",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 22532,
+          "resource_url": "https://api.discogs.com/labels/22532"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "genres": [
+        "Rock",
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack",
+        "Rock & Roll"
       ]
     },
     "folder_id": 1

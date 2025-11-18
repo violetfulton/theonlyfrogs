@@ -499,3 +499,104 @@ body {
   font-size: 0.9rem;
   opacity: 0.7;
 }
+
+/* Layout for watching + completed columns */
+.mal-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 0.75rem;
+}
+
+.mal-current {
+  flex: 1 1 auto;
+}
+
+/* Completed side column – similar to recent-tracks-side */
+.mal-completed-side {
+  width: 190px;
+  font-size: 0.8rem;
+  border-left: 1px dashed #a5d6a7;
+  padding-left: 8px;
+}
+
+.mal-completed-title {
+  font-size: 0.85rem;
+  color: #33691e;
+  font-weight: bold;
+  margin: 0 0 4px;
+  text-transform: lowercase;
+}
+
+.mal-completed-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mal-completed-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 5px;
+}
+
+/* link wraps thumb + text */
+.mal-completed-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1 1 auto;
+  text-decoration: none;
+  color: #2e7d32;
+}
+
+/* tiny thumbnail */
+.mal-completed-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  border: 1px solid #a5d6a7;
+  object-fit: cover;
+}
+
+.mal-completed-main {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.mal-completed-title-text {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.mal-completed-episodes {
+  font-size: 0.7rem;
+  color: #33691e;
+  opacity: 0.85;
+}
+
+/* score sits on the right */
+.mal-completed-score {
+  font-size: 0.7rem;
+  color: #1b5e20;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* Stack on mobile like the Last.fm widget */
+@media (max-width: 800px) {
+  .mal-layout {
+    flex-direction: column;
+  }
+
+  .mal-completed-side {
+    width: 100%;
+    border-left: none;
+    border-top: 1px dashed #a5d6a7;
+    padding-left: 0;
+    padding-top: 6px;
+    margin-top: 4px;
+  }
+}

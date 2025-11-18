@@ -1,35 +1,74 @@
 <section class="mal-section">
   <div class="mal-widget">
-    <h3>📺 Currently Watching (Anime)</h3>
-    <p class="mal-subtitle">pulled from myanimelist.net</p>
-
-    {% if malAnime.anime and malAnime.anime | length %}
-      <div class="mal-anime-list">
-        {% for show in malAnime.anime %}
-          <article class="mal-anime">
-            <a href="{{ show.url }}" target="_blank" rel="noopener">
-              <div class="mal-anime-image-wrap">
-                <img src="{{ show.image }}" alt="{{ show.title }}">
-                <span class="mal-episode-pill">
-                  ep {{ show.progress }}{% if show.totalEpisodes %}/{{ show.totalEpisodes }}{% endif %}
-                </span>
-              </div>
-
-              <div class="mal-anime-info">
-                <h4>{{ show.title }}</h4>
-
-                {% if show.score %}
-                  <p class="mal-score">your score: {{ show.score }}/10</p>
-                {% endif %}
-              </div>
-            </a>
-          </article>
-        {% endfor %}
+    <div class="mal-header-row">
+      <div>
+        <h3>📺 Currently Watching (Anime)</h3>
+        <p class="mal-subtitle">pulled from myanimelist.net</p>
       </div>
-    {% else %}
-      <p class="mal-empty">
-        either my watching list is empty or the api couldn’t fetch anything right now :(
-      </p>
-    {% endif %}
-  </div>
-</section>
+    </div>
+
+    <div class="mal-layout">
+      {# LEFT: currently watching grid #}
+      <div class="mal-current">
+        {% if malAnime.watching and malAnime.watching | length %}
+          <div class="mal-anime-list">
+            {% for show in malAnime.watching %}
+              <article class="mal-anime">
+                <a href="{{ show.url }}" target="_blank" rel="noopener">
+                  <div class="mal-anime-image-wrap">
+                    <img src="{{ show.image }}" alt="{{ show.title }}">
+                    <span class="mal-episode-pill">
+                      ep {{ show.progress }}{% if show.totalEpisodes %}/{{ show.totalEpisodes }}{% endif %}
+                    </span>
+                  </div>
+
+                  <div class="mal-anime-info">
+                    <h4>{{ show.title }}</h4>
+
+                    {% if show.score %}
+                      <p class="mal-score">your score: {{ show.score }}/10</p>
+                    {% endif %}
+                  </div>
+                </a>
+              </article>
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="mal-empty">
+            no anime in my watching list right now :(
+          </p>
+        {% endif %}
+      </div>
+
+      {# RIGHT: recently completed side column #}
+{% if malAnime.completed and malAnime.completed | length %}
+  <aside class="mal-completed-side">
+    <h4 class="mal-completed-title">recently completed</h4>
+    <ul class="mal-completed-list">
+      {% for show in malAnime.completed %}
+        <li class="mal-completed-item">
+          <a href="{{ show.url }}" target="_blank" rel="noopener" class="mal-completed-link">
+            <img
+              src="{{ show.image }}"
+              alt="{{ show.title }}"
+              class="mal-completed-thumb"
+            >
+            <div class="mal-completed-main">
+              <span class="mal-completed-title-text">{{ show.title }}</span>
+              {% if show.totalEpisodes %}
+                <span class="mal-completed-episodes">
+                  ({{ show.totalEpisodes }} eps)
+                </span>
+              {% endif %}
+            </div>
+          </a>
+          {% if show.score %}
+            <span class="mal-completed-score">
+              {{ show.score }}/10
+            </span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+{% endif %}
