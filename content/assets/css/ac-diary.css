@@ -1,0 +1,396 @@
+/* ACNL Diary CSS */
+:root {
+  --acnl-paper: #f8f1dd;
+  --acnl-paper-lines: rgba(160, 130, 90, 0.15);
+  --acnl-green: #4caf50;
+  --acnl-green-dark: #1b5e20;
+  --acnl-brown: #8b5a2b;
+}
+
+body {
+  background-image: url('/assets/imgs/bg/ac-green.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* === Layout wrapper with sidebar + book === */
+.acnl-diary-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* Sidebar */
+.acnl-diary-sidebar {
+  width: 200px;
+  background: #fffefa;
+  border: 2px solid #d9c39b;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  font-family: 'Gaegu', sans-serif;
+  position: sticky;
+  top: 20px;
+}
+
+.acnl-diary-sidebar h3 {
+  margin-top: 0;
+  color: #1b5e20;
+  text-align: center;
+}
+
+.acnl-diary-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.acnl-diary-sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.acnl-diary-sidebar a {
+  text-decoration: none;
+  color: #3a6f3a;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.acnl-diary-sidebar a:hover {
+  color: #2e552e;
+  text-decoration: underline;
+}
+
+/* Active entry highlight */
+.acnl-diary-sidebar a.is-active {
+  background: #e0f4e0;
+  border-radius: 6px;
+  padding: 0.15rem 0.4rem;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.acnl-diary-sidebar a.is-active:hover {
+  text-decoration: none;
+}
+
+/* Responsive: stack layout on mobile */
+@media (max-width: 800px) {
+  .acnl-diary-layout {
+    flex-direction: column;
+  }
+  .acnl-diary-sidebar {
+    width: 100%;
+    position: static;
+  }
+}
+
+/* === Book / notebook === */
+
+/* Wrapper */
+.acnl-diary-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Book shell – bigger notebook */
+.acnl-diary-book {
+  display: flex;
+  position: relative;
+  max-width: 1040px;     /* bigger width */
+  width: 100%;
+  min-height: 520px;     /* taller so images fit nicely */
+}
+
+/* Spine */
+.acnl-diary-spine {
+  width: 48px;           /* chunkier spine for big book */
+  background: linear-gradient(to bottom, #3e2723, #5d4037);
+  border-radius: 10px 0 0 10px;
+  box-shadow: inset -3px 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Page container */
+.acnl-diary-page-container {
+  flex: 1;
+  background: var(--acnl-paper);
+  border-radius: 0 10px 10px 0;
+  border: 2px solid #d7c3a3;
+  border-left: none;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  padding: 2rem 2.5rem;  /* roomier padding */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Faux ruled notebook lines */
+.acnl-diary-page-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 24px,
+    var(--acnl-paper-lines) 25px
+  );
+  background-size: 100% 28px; /* slightly taller lines */
+  pointer-events: none;
+}
+
+/* Actual page elements */
+.diary-page {
+  position: absolute;
+  inset: 1.5rem 2rem;           /* inner margin */
+  overflow-y: auto;
+  max-height: calc(100% - 3rem);
+  opacity: 0;
+  transform: translateX(25px) rotateY(4deg);
+  transform-origin: left center;
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+  z-index: 0;
+}
+
+/* Active/visible page */
+.diary-page.is-active {
+  opacity: 1;
+  transform: translateX(0) rotateY(0deg);
+  z-index: 1;
+}
+
+/* Headers & text styling */
+.diary-page h1,
+.diary-page h2 {
+  margin-top: 0;
+  font-family: 'Gaegu', 'Comic Sans MS', system-ui, sans-serif;
+  color: var(--acnl-green-dark);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.diary-page h1 {
+  font-size: 1.8rem;
+}
+
+.diary-page h2 {
+  font-size: 1.4rem;
+}
+
+.diary-meta {
+  font-size: 0.9rem;
+  color: #6d5540;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.diary-list {
+  padding-left: 1.2rem;
+  margin: 0.75rem 0;
+}
+
+.diary-list li {
+  margin-bottom: 0.3rem;
+}
+
+.diary-note {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--acnl-green);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Images inside diary pages */
+.diary-page img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.75rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+}
+
+/* Optional captions */
+.diary-caption,
+.diary-page figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6d5540;
+  margin-top: 0.25rem;
+}
+
+/* Controls */
+.acnl-diary-controls {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Gaegu', system-ui, sans-serif;
+}
+
+.diary-btn {
+  border: 2px solid var(--acnl-green-dark);
+  background: var(--acnl-green);
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.2s;
+}
+
+.diary-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.diary-btn:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.diary-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.diary-page-indicator {
+  font-size: 0.9rem;
+  color: #5d4037;
+}
+
+/* === Responsive tweaks for the book === */
+@media (max-width: 900px) {
+  .acnl-diary-book {
+    max-width: 100%;
+    min-height: 460px;
+  }
+
+  .acnl-diary-spine {
+    width: 32px;
+  }
+
+  .acnl-diary-page-container {
+    padding: 1.5rem 1.75rem;
+  }
+
+  .diary-page {
+    inset: 1.25rem 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .acnl-diary-book {
+    min-height: 420px;
+  }
+
+  .acnl-diary-page-container {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .diary-page {
+    inset: 1rem 1.25rem;
+    max-height: calc(100% - 2rem);
+  }
+
+  .acnl-diary-controls {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.acnl-diary-nav {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  font-family: 'Gaegu', sans-serif;
+}
+
+.acnl-diary-nav a {
+  background: #e0f4e0;
+  border: 2px solid #1b5e20;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1b5e20;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.15);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.acnl-diary-nav a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+}
+
+/* Image gallery inside a diary page */
+.diary-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+/* Thumbnails */
+.diary-gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  cursor: zoom-in;
+}
+
+.diary-page img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Lightbox overlay for enlarged images */
+.diary-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.diary-lightbox.is-visible {
+  display: flex;
+}
+
+.diary-lightbox img {
+  max-width: min(90vw, 900px);
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  background: #fff;
+}
+
+/* Optional close hint */
+.diary-lightbox::after {
+  content: "click anywhere or press ESC to close";
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Gaegu', system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: #f5f5f5;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}

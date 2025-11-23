@@ -1,0 +1,110 @@
+---
+title: "Animal Crossing: New Leaf 100% Completion Diary"
+layout: base.njk
+customcss: '/assets/css/animalcrossing.css'
+permalink: /shrines/animalcrossing/100/
+goals:
+  - id: bugs
+    label: "All 72 Insects"
+    done: false
+  - id: fish
+    label: "All 72 Fish"
+    done: false
+  - id: deepsea
+    label: "All 30 Diving Creatures"
+    done: false
+  - id: tools
+    label: "All Golden & Silver tools (axe, net, rod, shovel, can, slingshot)"
+    done: false
+  - id: hha
+    label: "1,100,000 points in the HHA Theme Challenge"
+    done: false
+  - id: mainstreet
+    label: "All Main Street shops & upgrades"
+    done: false
+  - id: emotes
+    label: "All Dr. Shrunk emotes"
+    done: false
+  - id: pwps
+    label: "All Public Works Projects suggested by villagers"
+    done: false
+  - id: badges
+    label: "All gold badges from Phineas"
+    done: false
+  - id: tree
+    label: "Max town tree (500 days & 250 hours)"
+    done: false
+  - id: museum
+    label: "Full museum (insects, fish, deep sea, fossils & artwork)"
+    done: false
+  - id: catalog
+    label: "Complete catalog (all furniture, clothing, gyroids, music, etc.)"
+    done: false
+  - id: bluerose
+    label: "Obtain a blue rose"
+    done: false
+  - id: photo
+    label: "Gain a villager's photograph"
+    done: false
+---
+
+<header>
+  <h1>Animal Crossing: New Leaf 100% Completion Diary</h1>
+  <p>Celebrating the achievement of 100% completion in Animal Crossing: New Leaf!</p>
+</header>
+
+<main>
+  <section class="shrine-content">
+    <h2>About the Achievement</h2>
+    <p>
+      In Animal Crossing: New Leaf, achieving 100% completion involves completing a variety of tasks,
+      including collecting all furniture, clothing, and finishing the museum, as well as completing public works
+      projects and befriending all villagers. This diary will follow along my journey to accomplish this feat!
+    </p>
+
+    {# --- calculate progress from goals --- #}
+    {% set totalGoals = goals | length %}
+    {% set completedGoals = 0 %}
+    {% for goal in goals %}
+      {% if goal.done %}
+        {% set completedGoals = completedGoals + 1 %}
+      {% endif %}
+    {% endfor %}
+    {% set percent = (completedGoals / totalGoals * 100) | round %}
+
+    <h2>Overall Progress</h2>
+
+    <div class="acnl-progress-summary">
+      <div class="acnl-progress">
+        <div class="acnl-progress-bar" style="width: {{ percent }}%;">
+          {{ percent }}%
+        </div>
+      </div>
+      <p class="acnl-progress-text">
+        {{ completedGoals }} / {{ totalGoals }} major goals complete
+      </p>
+    </div>
+
+    <h2>Goals</h2>
+    <ul class="acnl-goals">
+      {% for goal in goals %}
+        <li class="acnl-goal-item {% if goal.done %}is-done{% else %}is-pending{% endif %}">
+          <span class="goal-status">
+            {% if goal.done %}✔{% else %}○{% endif %}
+          </span>
+          <span class="goal-label">{{ goal.label }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Diary</h2>
+    <p>
+      I will be documenting my progress and experiences as I work towards 100% completion in Animal Crossing: New Leaf.
+      Stay tuned for updates, tips, and reflections on this charming journey!
+    </p>
+
+    <p>
+      <a href="/shrines/animalcrossing/100/diary/">Visit the diary</a> to follow along with my progress.</a>
+    </p>
+  </section>
+</main>

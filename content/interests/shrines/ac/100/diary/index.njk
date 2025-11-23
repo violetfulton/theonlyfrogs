@@ -1,0 +1,104 @@
+---
+title: "ACNL 100% Diary"
+layout: base.njk
+customcss: '/assets/css/ac-diary.css'
+permalink: /shrines/animalcrossing/100/diary/
+---
+
+<div class="acnl-diary-nav">
+  <a href="/shrines/animalcrossing/">⬅ Back to Animal Crossing Shrine</a>
+  <a href="/">⬅ Home</a>
+</div>
+
+
+<section class="acnl-diary-layout">
+
+  <aside class="acnl-diary-sidebar">
+    <h3>Entries</h3>
+    <ul>
+      <li><a href="#" data-page="0">Intro</a></li>
+      <li><a href="#" data-page="1">Day 1 — Moving In</a></li>
+      <li><a href="#" data-page="2">Day 2 — Bell Grind</a></li>
+      {# Add more each day#}
+    </ul>
+  </aside>
+<div class="acnl-diary-wrapper">
+  <div class="acnl-diary-book">
+    <div class="acnl-diary-spine"></div>
+
+    <div class="acnl-diary-page-container">
+
+      <!-- PAGE 1 / intro -->
+      <article class="diary-page is-active">
+        <h1>🌱 ACNL 100% Diary</h1>
+        <p class="diary-meta">Mayor: Violet · Town: Memory</p>
+
+        <p>Welcome to my 100% completion diary!
+        This journal tracks upgrades, villagers, PWP, museum progress, catalog milestones and every little step.</p>
+
+        <p>Use the arrows below to flip pages.</p>
+      </article>
+
+      <!-- PAGE 2 / first entry -->
+      <article class="diary-page">
+        <h2>Day 1 — Moving In</h2>
+        <p class="diary-meta">Start Date: 2025-11-22</p>
+
+        <p>Arrived in town, talked to Rover, picked my look, became mayor.
+        Planted the town tree and chose a house spot near the river.</p>
+
+        <ul class="diary-list">
+          <li>Re-Tail close to station</li>
+          <li>Need another bridge asap</li>
+          <li>First villagers: Eunice, Dotty, Del, Chester and Baabara</li>
+          <li>Luckily had 2 elegant mushrooms, so loan is paid!</li>
+        </ul>
+
+        <p class="diary-note">Got my favourite mush series item: a mush lamp!</p>
+
+
+        <div class="diary-gallery">
+        <img src="/assets/imgs/acnlDiary/memorybegins.jpg" alt="The Start">
+        <img src="/assets/imgs/acnlDiary/tenkbells.jpg" alt="First Loan">
+        <img src="/assets/imgs/acnlDiary/mushlamp.jpg" alt="Mush Lamp">
+        </div>
+      </article>
+
+      <!-- PAGE 3 / add more whenever -->
+      <article class="diary-page">
+        <h2>Day 2 — Bell Grind</h2>
+        <p class="diary-meta">Date: 2025-11-23</p>
+
+        <p>Spent the whole day collecting fossils, fishing, and catching bugs. I managed to pay off the 40k bells loan!</p>
+
+        <ul class="diary-list">
+          <li>Paid second house loan</li>
+          <li>Started off at 27% approval rating. Wowza!</li>
+          <li>Need to figure a way to track bugs and fish collected</li>
+        </ul>
+
+        <p class="diary-note">Got more mushrooms today which helped!</p>
+
+
+        <div class="diary-gallery">
+        <img src="/assets/imgs/acnlDiary/twentysevenpercent.jpg" alt="27% approval rating">
+        <img src="/assets/imgs/acnlDiary/brokeonek.jpg" alt="Bell Payment">
+        <img src="/assets/imgs/acnlDiary/homeloan.jpg" alt="Home Loan">
+        <img src="/assets/imgs/acnlDiary/homebigger.jpg" alt="Home Bigger">
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="acnl-diary-controls">
+    <button id="diaryPrev" class="diary-btn" disabled>⬅ prev page</button>
+    <span class="diary-page-indicator">
+      page <span id="diaryCurrentPage">1</span> / <span id="diaryTotalPages">3</span>
+    </span>
+    <button id="diaryNext" class="diary-btn">next page ➡</button>
+  </div>
+</div>
+</section>
+
+<script src="/assets/js/ac-diary.js" defer></script>
