@@ -85,6 +85,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+    // Month expand/collapse in sidebar
+  const monthToggles = document.querySelectorAll(".month-toggle");
+  monthToggles.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const daysList = btn.nextElementSibling;
+      if (!daysList) return;
+      daysList.classList.toggle("is-collapsed");
+    });
+  });
+
+
   // --- Lightbox for images ---
 
   // Create lightbox element once
