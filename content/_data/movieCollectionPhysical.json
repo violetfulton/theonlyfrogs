@@ -3,7 +3,7 @@
     "tmdb_id": 14161,
     "media_type": "movie",
     "title": "2012",
-    "poster_path": "/zaqam2RNscH5ooYFWInV6hjx6y5.jpg",
+    "poster_path": "/c2PkTPT5D9zB8SIm5wNlDAANEqM.jpg",
     "release_date": "2009-10-10",
     "overview": "Dr. Adrian Helmsley, part of a worldwide geophysical team investigating the effect on the earth of radiation from unprecedented solar storms, learns that the earth's core is heating up. He warns U.S. President Thomas Wilson that the crust of the earth is becoming unstable and that without proper preparations for saving a fraction of the world's population, the entire race is doomed. Meanwhile, writer Jackson Curtis stumbles on the same information. While the world's leaders race to build \"arks\" to escape the impending cataclysm, Curtis struggles to find a way to save his family. Meanwhile, volcanic eruptions and earthquakes of unprecedented strength wreak havoc around the world.",
     "genres": [
@@ -11,7 +11,27 @@
       12,
       878
     ],
-    "vote_average": 5.863,
+    "vote_average": 5.864,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 9487,
+    "media_type": "movie",
+    "title": "A Bug's Life",
+    "poster_path": "/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg",
+    "release_date": "1998-11-25",
+    "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+    "genres": [
+      10751,
+      16,
+      12,
+      35
+    ],
+    "vote_average": 6.973,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -32,7 +52,7 @@
       16,
       10751
     ],
-    "vote_average": 7.006,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -53,7 +73,7 @@
       12,
       28
     ],
-    "vote_average": 6.352,
+    "vote_average": 6.346,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -80,6 +100,44 @@
     "status": "unwatched"
   },
   {
+    "tmdb_id": 3049,
+    "media_type": "movie",
+    "title": "Ace Ventura: Pet Detective",
+    "poster_path": "/pqiRuETmuSybfnVZ7qyeoXhQyN1.jpg",
+    "release_date": "1994-02-04",
+    "overview": "He's Ace Ventura: Pet Detective. Jim Carrey is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man… or beast!",
+    "genres": [
+      35,
+      9648,
+      80
+    ],
+    "vote_average": 6.568,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 9273,
+    "media_type": "movie",
+    "title": "Ace Ventura: When Nature Calls",
+    "poster_path": "/wcinCf1ov2D6M3P7BBZkzQFOiIb.jpg",
+    "release_date": "1995-11-10",
+    "overview": "Summoned from an ashram in Tibet, Ace finds himself on a perilous journey into the jungles of Africa to find Shikaka, the missing sacred animal of the friendly Wachati tribe. He must accomplish this before the wedding of the Wachati's Princess to the prince of the warrior Wachootoos. If Ace fails, the result will be a vicious tribal war.",
+    "genres": [
+      80,
+      35,
+      12
+    ],
+    "vote_average": 6.321,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
     "tmdb_id": 12155,
     "media_type": "movie",
     "title": "Alice in Wonderland",
@@ -91,7 +149,7 @@
       14,
       12
     ],
-    "vote_average": 6.6,
+    "vote_average": 6.636,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -130,7 +188,7 @@
       10759,
       10765
     ],
-    "vote_average": 8.753,
+    "vote_average": 8.752,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -168,7 +226,7 @@
       35,
       10759
     ],
-    "vote_average": 7.284,
+    "vote_average": 7.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -188,7 +246,7 @@
       18,
       9648
     ],
-    "vote_average": 8.6,
+    "vote_average": 8.553,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -206,7 +264,47 @@
       80,
       18
     ],
-    "vote_average": 8.205,
+    "vote_average": 8.2,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 62177,
+    "media_type": "movie",
+    "title": "Brave",
+    "poster_path": "/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
+    "release_date": "2012-06-21",
+    "overview": "In the mystical Scottish Highlands, Merida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, Merida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, Merida seeks out an eccentric old Wise Woman and is granted an ill-fated wish. Also figuring into Merida's quest — and serving as comic relief — are the kingdom's three lords: the enormous Lord MacGuffin, the surly Lord Macintosh, and the disagreeable Lord Dingwall.",
+    "genres": [
+      16,
+      12,
+      35,
+      10751,
+      28,
+      14
+    ],
+    "vote_average": 7.021,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 55721,
+    "media_type": "movie",
+    "title": "Bridesmaids",
+    "poster_path": "/gJtA7hYsBMQ7EM3sPBMUdBfU7a0.jpg",
+    "release_date": "2011-05-13",
+    "overview": "Annie's life is a mess. But when she finds out her lifetime best friend is engaged, she simply must serve as Lillian's maid of honor. Though lovelorn and broke, Annie bluffs her way through the expensive and bizarre rituals. With one chance to get it perfect, she’ll show Lillian and her bridesmaids just how far you’ll go for someone you love.",
+    "genres": [
+      35,
+      10749
+    ],
+    "vote_average": 6.516,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -226,7 +324,7 @@
       18,
       10759
     ],
-    "vote_average": 8.12,
+    "vote_average": 8.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -284,7 +382,7 @@
       35,
       12
     ],
-    "vote_average": 7.5,
+    "vote_average": 7.489,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -302,7 +400,7 @@
       878,
       12
     ],
-    "vote_average": 7.777,
+    "vote_average": 7.776,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -321,7 +419,7 @@
       18,
       10749
     ],
-    "vote_average": 7.718,
+    "vote_average": 7.7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -339,7 +437,103 @@
       10759,
       18
     ],
-    "vote_average": 8.2,
+    "vote_average": 8.215,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 127380,
+    "media_type": "movie",
+    "title": "Finding Dory",
+    "poster_path": "/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg",
+    "release_date": "2016-06-16",
+    "overview": "Dory is reunited with her friends Nemo and Marlin in the search for answers about her past. What can she remember? Who are her parents? And where did she learn to speak Whale?",
+    "genres": [
+      12,
+      16,
+      35,
+      10751
+    ],
+    "vote_average": 7,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 12,
+    "media_type": "movie",
+    "title": "Finding Nemo",
+    "poster_path": "/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+    "release_date": "2003-05-30",
+    "overview": "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist's office aquarium. It's up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.",
+    "genres": [
+      16,
+      10751
+    ],
+    "vote_average": 7.817,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 1668,
+    "media_type": "tv",
+    "title": "Friends",
+    "poster_path": "/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
+    "release_date": "1994-09-22",
+    "overview": "Six young people from New York City, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+    "genres": [
+      35
+    ],
+    "vote_average": 8.4,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 109445,
+    "media_type": "movie",
+    "title": "Frozen",
+    "poster_path": "/itAKcobTYGpYT8Phwjd8c9hleTo.jpg",
+    "release_date": "2013-11-20",
+    "overview": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
+    "genres": [
+      16,
+      10751,
+      12,
+      14
+    ],
+    "vote_average": 7.2,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 330457,
+    "media_type": "movie",
+    "title": "Frozen II",
+    "poster_path": "/mINJaa34MtknCYl5AjtNJzWj8cD.jpg",
+    "release_date": "2019-11-20",
+    "overview": "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+    "genres": [
+      10751,
+      16,
+      12,
+      35,
+      14
+    ],
+    "vote_average": 7.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -358,7 +552,7 @@
       878,
       12
     ],
-    "vote_average": 7.459,
+    "vote_average": 7.46,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -415,7 +609,7 @@
       12,
       28
     ],
-    "vote_average": 7.611,
+    "vote_average": 7.612,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -435,7 +629,26 @@
       28,
       35
     ],
-    "vote_average": 7.932,
+    "vote_average": 7.933,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 9836,
+    "media_type": "movie",
+    "title": "Happy Feet",
+    "poster_path": "/za41IHkj6LnkilfTzv5B2qmthKD.jpg",
+    "release_date": "2006-11-16",
+    "overview": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+    "genres": [
+      16,
+      35,
+      10751
+    ],
+    "vote_average": 6.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -448,12 +661,12 @@
     "title": "Harry Potter and the Chamber of Secrets",
     "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
     "release_date": "2002-11-13",
-    "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
+    "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione's magical abilities and courage.",
     "genres": [
       12,
       14
     ],
-    "vote_average": 7.705,
+    "vote_average": 7.704,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -468,8 +681,8 @@
     "release_date": "2011-07-12",
     "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
     "genres": [
-      14,
-      12
+      12,
+      14
     ],
     "vote_average": 8.083,
     "runtime": null,
@@ -489,7 +702,7 @@
       12,
       14
     ],
-    "vote_average": 7.799,
+    "vote_average": 7.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -561,7 +774,7 @@
       12,
       14
     ],
-    "vote_average": 8,
+    "vote_average": 8.01,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -602,7 +815,27 @@
       18,
       35
     ],
-    "vote_average": 6.883,
+    "vote_average": 6.9,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 76492,
+    "media_type": "movie",
+    "title": "Hotel Transylvania",
+    "poster_path": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+    "release_date": "2012-09-20",
+    "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+    "genres": [
+      16,
+      35,
+      10751,
+      14
+    ],
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -639,7 +872,7 @@
       28,
       53
     ],
-    "vote_average": 7.5,
+    "vote_average": 7.453,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -658,7 +891,7 @@
       53,
       80
     ],
-    "vote_average": 7.339,
+    "vote_average": 7.34,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -677,7 +910,26 @@
       14,
       10751
     ],
-    "vote_average": 7.242,
+    "vote_average": 7.2,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 7326,
+    "media_type": "movie",
+    "title": "Juno",
+    "poster_path": "/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg",
+    "release_date": "2007-12-05",
+    "overview": "Faced with an unplanned pregnancy, sixteen year old high-schooler, Juno MacGuff, makes an unusual decision regarding her unborn child.",
+    "genres": [
+      35,
+      18,
+      10749
+    ],
+    "vote_average": 7.054,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -716,7 +968,28 @@
       28,
       12
     ],
-    "vote_average": 7.308,
+    "vote_average": 7.309,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 38055,
+    "media_type": "movie",
+    "title": "Megamind",
+    "poster_path": "/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg",
+    "release_date": "2010-10-28",
+    "overview": "After Megamind, a highly intelligent alien supervillain, defeats his long-time nemesis Metro Man, Megamind creates a new hero to fight, but must act to save the city when his \"creation\" becomes an even worse villain than he was.",
+    "genres": [
+      16,
+      28,
+      35,
+      10751,
+      878
+    ],
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -757,7 +1030,26 @@
       16,
       14
     ],
-    "vote_average": 7,
+    "vote_average": 7.026,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 585,
+    "media_type": "movie",
+    "title": "Monsters, Inc.",
+    "poster_path": "/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg",
+    "release_date": "2001-11-01",
+    "overview": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
+    "genres": [
+      16,
+      35,
+      10751
+    ],
+    "vote_average": 7.847,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -774,7 +1066,69 @@
     "genres": [
       35
     ],
-    "vote_average": 6.781,
+    "vote_average": 6.8,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 1593,
+    "media_type": "movie",
+    "title": "Night at the Museum",
+    "poster_path": "/pDsAAYf6Zn0yiAGJ6lYGs6hoZ4E.jpg",
+    "release_date": "2006-12-20",
+    "overview": "Chaos reigns at the natural history museum when night watchman Larry Daley accidentally stirs up an ancient curse, awakening Attila the Hun, an army of gladiators, a Tyrannosaurus rex and other exhibits.",
+    "genres": [
+      28,
+      12,
+      35,
+      10751,
+      14
+    ],
+    "vote_average": 6.594,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 18360,
+    "media_type": "movie",
+    "title": "Night at the Museum: Battle of the Smithsonian",
+    "poster_path": "/l9yAQn6TyrA3gv5xZZkiMMoZsiw.jpg",
+    "release_date": "2009-05-20",
+    "overview": "Hapless museum night watchman Larry Daley must help his living, breathing exhibit friends out of a pickle now that they've been transferred to the archives at the Smithsonian Institution. Larry's (mis)adventures this time include close encounters with Amelia Earhart, Abe Lincoln and Ivan the Terrible.",
+    "genres": [
+      12,
+      14,
+      28,
+      35,
+      10751
+    ],
+    "vote_average": 6.148,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 181533,
+    "media_type": "movie",
+    "title": "Night at the Museum: Secret of the Tomb",
+    "poster_path": "/xwgy305K6qDs3D20xUO4OZu1HPY.jpg",
+    "release_date": "2014-12-17",
+    "overview": "When the magic powers of The Tablet of Ahkmenrah begin to die out, Larry Daley spans the globe, uniting favorite and new characters while embarking on an epic quest to save the magic before it is gone forever.",
+    "genres": [
+      12,
+      35,
+      14,
+      10751
+    ],
+    "vote_average": 6.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -785,14 +1139,14 @@
     "tmdb_id": 56570,
     "media_type": "tv",
     "title": "Outlander",
-    "poster_path": "/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
+    "poster_path": "/hXWGDEwPiEWqFesF5gZGImtPIWh.jpg",
     "release_date": "2014-08-09",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
     "genres": [
       18,
       10765
     ],
-    "vote_average": 8.185,
+    "vote_average": 8.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -811,7 +1165,7 @@
       14,
       28
     ],
-    "vote_average": 7.264,
+    "vote_average": 7.265,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -830,7 +1184,7 @@
       14,
       28
     ],
-    "vote_average": 7.371,
+    "vote_average": 7.373,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -841,7 +1195,7 @@
     "tmdb_id": 22,
     "media_type": "movie",
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "poster_path": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg",
     "release_date": "2003-07-09",
     "overview": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
     "genres": [
@@ -849,7 +1203,7 @@
       14,
       28
     ],
-    "vote_average": 7.815,
+    "vote_average": 7.816,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -876,10 +1230,30 @@
     "status": "unwatched"
   },
   {
+    "tmdb_id": 80585,
+    "media_type": "movie",
+    "title": "Rock of Ages",
+    "poster_path": "/oVeE2QTUb14jPU2lYEGPE3s8T9j.jpg",
+    "release_date": "2012-06-13",
+    "overview": "A small town girl and a city boy meet on the Sunset Strip, while pursuing their Hollywood dreams.",
+    "genres": [
+      35,
+      18,
+      10749,
+      10402
+    ],
+    "vote_average": 6.2,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
     "tmdb_id": 19885,
     "media_type": "tv",
     "title": "Sherlock",
-    "poster_path": "/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg",
+    "poster_path": "/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
     "release_date": "2010-07-25",
     "overview": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
     "genres": [
@@ -887,7 +1261,7 @@
       18,
       9648
     ],
-    "vote_average": 8.514,
+    "vote_average": 8.517,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -905,7 +1279,26 @@
       18,
       35
     ],
-    "vote_average": 8.137,
+    "vote_average": 8.138,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 58595,
+    "media_type": "movie",
+    "title": "Snow White and the Huntsman",
+    "poster_path": "/8HUa5kRubYbnAD5UVpnhTGGgMTW.jpg",
+    "release_date": "2012-05-30",
+    "overview": "After the Evil Queen marries the King, she performs a violent coup in which the King is murdered and his daughter, Snow White, is taken captive. Almost a decade later, a grown Snow White is still in the clutches of the Queen. In order to obtain immortality, The Evil Queen needs the heart of Snow White. After Snow escapes the castle, the Queen sends the Huntsman to find her in the Dark Forest.",
+    "genres": [
+      12,
+      14,
+      18
+    ],
+    "vote_average": 6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -924,6 +1317,24 @@
       35
     ],
     "vote_average": 8.342,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 9473,
+    "media_type": "movie",
+    "title": "South Park: Bigger, Longer & Uncut",
+    "poster_path": "/tS0PedvA2mFO9VCHYwQpaU1K36U.jpg",
+    "release_date": "1999-06-24",
+    "overview": "In this feature film based on the hit animated series, the third graders of South Park sneak into an R-rated film by ultra-vulgar Canadian television personalities Terrance and Phillip, and emerge with expanded vocabularies that leave their parents and teachers scandalized. When outraged Americans try to censor the film, the controversy spirals into a call to wage war on Canada and Terrance and Phillip end up on death row, with the kids their only hope of rescue.",
+    "genres": [
+      16,
+      35
+    ],
+    "vote_average": 7.276,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -960,7 +1371,7 @@
       12,
       878
     ],
-    "vote_average": 7.295,
+    "vote_average": 7.296,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1006,19 +1417,73 @@
     "status": "unwatched"
   },
   {
-    "tmdb_id": 37924,
+    "tmdb_id": 13885,
     "media_type": "movie",
-    "title": "Sweeney Todd",
-    "poster_path": "/40ntPvTqjqEJlME1AtBEzwVUPHC.jpg",
-    "release_date": "2006-01-03",
-    "overview": "A BBC adaptation of the Victorian \"penny dreadful\" tale of 19th century \"demon barber\" Sweeney Todd, of Fleet Street, who cuts the throats of unsuspecting clients in his London shop.",
+    "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "poster_path": "/gAW4J1bkRjZKmFsJsIiOBASeoAp.jpg",
+    "release_date": "2007-12-20",
+    "overview": "The infamous story of Benjamin Barker, a.k.a Sweeney Todd, who sets up a barber shop down in London which is the basis for a sinister partnership with his fellow tenant, Mrs. Lovett. Based on the hit Broadway musical.",
     "genres": [
       18,
-      27,
-      53,
-      10402
+      27
     ],
-    "vote_average": 6.3,
+    "vote_average": 7.2,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 6957,
+    "media_type": "movie",
+    "title": "The 40 Year Old Virgin",
+    "poster_path": "/mVeoqL37gzhMXQVpONi9DGOQ3tZ.jpg",
+    "release_date": "2005-08-11",
+    "overview": "Andy Stitzer has a pleasant life with a nice apartment and a job stamping invoices at an electronics store. But at age 40, there's one thing Andy hasn't done, and it's really bothering his sex-obsessed male co-workers: Andy is still a virgin. Determined to help Andy get laid, the guys make it their mission to de-virginize him. But it all seems hopeless until Andy meets small business owner Trish, a single mom.",
+    "genres": [
+      35,
+      10749
+    ],
+    "vote_average": 6.415,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 2454,
+    "media_type": "movie",
+    "title": "The Chronicles of Narnia: Prince Caspian",
+    "poster_path": "/qxz3WIyjZiSKUhaTIEJ3c1GcC9z.jpg",
+    "release_date": "2008-05-15",
+    "overview": "One year after their incredible adventures in the Lion, the Witch and the Wardrobe, Peter, Edmund, Lucy and Susan Pevensie return to Narnia to aid a young prince whose life has been threatened by the evil King Miraz. Now, with the help of a colorful cast of new characters, including Trufflehunter the badger and Nikabrik the dwarf, the Pevensie clan embarks on an incredible quest to ensure that Narnia is returned to its rightful heir.",
+    "genres": [
+      12,
+      10751,
+      14
+    ],
+    "vote_average": 6.6,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 411,
+    "media_type": "movie",
+    "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+    "poster_path": "/iREd0rNCjYdf5Ar0vfaW32yrkm.jpg",
+    "release_date": "2005-12-07",
+    "overview": "Siblings Lucy, Edmund, Susan and Peter step through a magical wardrobe and find the land of Narnia. There, they discover a charming, once peaceful kingdom that has been plunged into eternal winter by the evil White Witch, Jadis. Aided by the wise and magnificent lion, Aslan, the children lead Narnia into a spectacular, climactic battle to be free of the Witch's glacial powers forever.",
+    "genres": [
+      12,
+      10751,
+      14
+    ],
+    "vote_average": 7.1,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1037,7 +1502,7 @@
       53,
       12
     ],
-    "vote_average": 6.545,
+    "vote_average": 6.546,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1054,7 +1519,7 @@
     "genres": [
       18
     ],
-    "vote_average": 7.869,
+    "vote_average": 7.87,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1073,7 +1538,84 @@
       12,
       28
     ],
-    "vote_average": 7.6,
+    "vote_average": 7.573,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 70160,
+    "media_type": "movie",
+    "title": "The Hunger Games",
+    "poster_path": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+    "release_date": "2012-03-12",
+    "overview": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance.",
+    "genres": [
+      878,
+      12,
+      28,
+      53
+    ],
+    "vote_average": 7.219,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 101299,
+    "media_type": "movie",
+    "title": "The Hunger Games: Catching Fire",
+    "poster_path": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+    "release_date": "2013-11-15",
+    "overview": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
+    "genres": [
+      12,
+      28,
+      878
+    ],
+    "vote_average": 7.428,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 131631,
+    "media_type": "movie",
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "poster_path": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
+    "release_date": "2014-11-19",
+    "overview": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance, she must navigate fragile alliances while trying to protect those she loves. As propaganda battles rage and Panem moves closer to full-scale war, Katniss is forced to confront the true cost of revolution.",
+    "genres": [
+      878,
+      12,
+      53
+    ],
+    "vote_average": 6.815,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 131634,
+    "media_type": "movie",
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "poster_path": "/lImKHDfExAulp16grYm8zD5eONE.jpg",
+    "release_date": "2015-11-18",
+    "overview": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she navigates deadly traps, shifting loyalties, and the heavy cost of rebellion, determined to bring freedom to her people and end the Hunger Games once and for all.",
+    "genres": [
+      28,
+      12,
+      878
+    ],
+    "vote_average": 6.9,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1090,7 +1632,7 @@
     "genres": [
       35
     ],
-    "vote_average": 7.646,
+    "vote_average": 7.644,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1147,7 +1689,26 @@
       878,
       18
     ],
-    "vote_average": 7.954,
+    "vote_average": 7.955,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 9325,
+    "media_type": "movie",
+    "title": "The Jungle Book",
+    "poster_path": "/9BgcTVV43dZ8A1TpuXWkuNTXtfI.jpg",
+    "release_date": "1967-10-18",
+    "overview": "The boy Mowgli makes his way to the man-village with Bagheera, the wise panther. Along the way he meets jazzy King Louie, the hypnotic snake Kaa and the lovable, happy-go-lucky bear Baloo, who teaches Mowgli \"The Bare Necessities\" of life and the true meaning of friendship.",
+    "genres": [
+      10751,
+      16,
+      12
+    ],
+    "vote_average": 7.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1166,7 +1727,27 @@
       10759,
       10765
     ],
-    "vote_average": 8.2,
+    "vote_average": 8.209,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 8587,
+    "media_type": "movie",
+    "title": "The Lion King",
+    "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "release_date": "1994-06-15",
+    "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+    "genres": [
+      10751,
+      16,
+      18,
+      12
+    ],
+    "vote_average": 8.255,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1186,7 +1767,7 @@
       35,
       12
     ],
-    "vote_average": 6.579,
+    "vote_average": 6.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1207,7 +1788,26 @@
       18,
       10749
     ],
-    "vote_average": 6.942,
+    "vote_average": 6.9,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 10144,
+    "media_type": "movie",
+    "title": "The Little Mermaid",
+    "poster_path": "/plcZXvI310FkbwIptvd6rqk63LP.jpg",
+    "release_date": "1989-11-17",
+    "overview": "This colorful adventure tells the story of an impetuous mermaid princess named Ariel who falls in love with the very human Prince Eric and puts everything on the line for the chance to be with him. Memorable songs and characters -- including the villainous sea witch Ursula.",
+    "genres": [
+      16,
+      10751,
+      14
+    ],
+    "vote_average": 7.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1260,7 +1860,7 @@
     "genres": [
       35
     ],
-    "vote_average": 8.6,
+    "vote_average": 8.588,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1280,7 +1880,7 @@
       14,
       10751
     ],
-    "vote_average": 7.214,
+    "vote_average": 7.213,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1300,7 +1900,7 @@
       14,
       27
     ],
-    "vote_average": 7.446,
+    "vote_average": 7.444,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1320,7 +1920,7 @@
       35,
       10751
     ],
-    "vote_average": 6.504,
+    "vote_average": 6.509,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1339,7 +1939,7 @@
       35,
       10751
     ],
-    "vote_average": 7.016,
+    "vote_average": 7.015,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1358,7 +1958,7 @@
       14,
       10749
     ],
-    "vote_average": 6.192,
+    "vote_average": 6.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1378,7 +1978,7 @@
       18,
       10749
     ],
-    "vote_average": 6.461,
+    "vote_average": 6.5,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1418,7 +2018,7 @@
       18,
       10749
     ],
-    "vote_average": 5.994,
+    "vote_average": 5.995,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1464,6 +2064,64 @@
     "status": "unwatched"
   },
   {
+    "tmdb_id": 10195,
+    "media_type": "movie",
+    "title": "Thor",
+    "poster_path": "/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+    "release_date": "2011-04-21",
+    "overview": "Against his father Odin's will, The Mighty Thor - a powerful but arrogant warrior god - recklessly reignites an ancient war. Thor is cast down to Earth and forced to live among humans as punishment. Once here, Thor learns what it takes to be a true hero when the most dangerous villain of his world sends the darkest forces of Asgard to invade Earth.",
+    "genres": [
+      12,
+      14,
+      28
+    ],
+    "vote_average": 6.769,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 862,
+    "media_type": "movie",
+    "title": "Toy Story",
+    "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "release_date": "1995-11-22",
+    "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+    "genres": [
+      10751,
+      35,
+      16,
+      12
+    ],
+    "vote_average": 7.97,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 10193,
+    "media_type": "movie",
+    "title": "Toy Story 3",
+    "poster_path": "/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
+    "release_date": "2010-06-16",
+    "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
+    "genres": [
+      16,
+      10751,
+      35
+    ],
+    "vote_average": 7.803,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
     "tmdb_id": 10545,
     "media_type": "tv",
     "title": "True Blood",
@@ -1475,7 +2133,7 @@
       18,
       9648
     ],
-    "vote_average": 7.617,
+    "vote_average": 7.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1494,7 +2152,46 @@
       18,
       10749
     ],
-    "vote_average": 6.285,
+    "vote_average": 6.3,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 533,
+    "media_type": "movie",
+    "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+    "poster_path": "/cMQ2lNd7sBe6PCf6zF5QxrKzbRG.jpg",
+    "release_date": "2005-09-15",
+    "overview": "Cheese-loving eccentric Wallace and his cunning canine pal, Gromit, investigate a mystery in Nick Park's animated adventure, in which the lovable inventor and his intrepid pup run a business ridding the town of garden pests. Using only humane methods that turn their home into a halfway house for evicted vermin, the pair stumble upon a mystery involving a voracious vegetarian monster that threatens to ruin the annual veggie-growing contest.",
+    "genres": [
+      12,
+      16,
+      35,
+      10751
+    ],
+    "vote_average": 7.1,
+    "runtime": null,
+    "my_rating": null,
+    "format": "DVD",
+    "purchased": null,
+    "status": "unwatched"
+  },
+  {
+    "tmdb_id": 10681,
+    "media_type": "movie",
+    "title": "WALL·E",
+    "poster_path": "/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+    "release_date": "2008-06-22",
+    "overview": "What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
+    "genres": [
+      16,
+      10751,
+      878
+    ],
+    "vote_average": 8.103,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1513,7 +2210,7 @@
       53,
       878
     ],
-    "vote_average": 6.5,
+    "vote_average": 6.527,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1525,14 +2222,14 @@
     "media_type": "movie",
     "title": "Wicked: For Good",
     "poster_path": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
-    "release_date": "2025-11-16",
+    "release_date": "2025-11-19",
     "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
     "genres": [
-      10749,
       14,
-      12
+      12,
+      10749
     ],
-    "vote_average": 5,
+    "vote_average": 6.775,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
