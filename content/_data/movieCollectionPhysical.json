@@ -11,7 +11,7 @@
       12,
       878
     ],
-    "vote_average": 5.863,
+    "vote_average": 5.864,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -52,7 +52,7 @@
       16,
       10751
     ],
-    "vote_average": 7,
+    "vote_average": 7.008,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -73,7 +73,7 @@
       12,
       28
     ],
-    "vote_average": 6.346,
+    "vote_average": 6.347,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -111,7 +111,7 @@
       9648,
       80
     ],
-    "vote_average": 6.568,
+    "vote_average": 6.569,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -149,7 +149,7 @@
       14,
       12
     ],
-    "vote_average": 6.637,
+    "vote_average": 6.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -207,7 +207,7 @@
       35,
       878
     ],
-    "vote_average": 8.323,
+    "vote_average": 8.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -246,7 +246,7 @@
       18,
       9648
     ],
-    "vote_average": 8.553,
+    "vote_average": 8.6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -264,7 +264,7 @@
       80,
       18
     ],
-    "vote_average": 8.206,
+    "vote_average": 8.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -286,7 +286,7 @@
       28,
       14
     ],
-    "vote_average": 7.021,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -304,7 +304,7 @@
       35,
       10749
     ],
-    "vote_average": 6.516,
+    "vote_average": 6.515,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -324,7 +324,7 @@
       18,
       10759
     ],
-    "vote_average": 8.121,
+    "vote_average": 8.117,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -363,7 +363,7 @@
       12,
       35
     ],
-    "vote_average": 7.622,
+    "vote_average": 7.623,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -400,7 +400,7 @@
       878,
       12
     ],
-    "vote_average": 7.776,
+    "vote_average": 7.777,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -419,7 +419,7 @@
       18,
       10749
     ],
-    "vote_average": 7.7,
+    "vote_average": 7.719,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -437,7 +437,7 @@
       10759,
       18
     ],
-    "vote_average": 8.215,
+    "vote_average": 8.212,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -457,7 +457,7 @@
       35,
       10751
     ],
-    "vote_average": 7.04,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -475,7 +475,7 @@
       16,
       10751
     ],
-    "vote_average": 7.817,
+    "vote_average": 7.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -512,7 +512,7 @@
       12,
       14
     ],
-    "vote_average": 7.249,
+    "vote_average": 7.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -552,7 +552,7 @@
       878,
       12
     ],
-    "vote_average": 7.46,
+    "vote_average": 7.461,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -571,7 +571,7 @@
       18,
       10759
     ],
-    "vote_average": 8.459,
+    "vote_average": 8.46,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -590,7 +590,7 @@
       878,
       12
     ],
-    "vote_average": 7.905,
+    "vote_average": 7.9,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -626,10 +626,9 @@
     "genres": [
       878,
       12,
-      28,
-      35
+      28
     ],
-    "vote_average": 7.933,
+    "vote_average": 7.9,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -648,7 +647,7 @@
       35,
       10751
     ],
-    "vote_average": 6.2,
+    "vote_average": 6.216,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -666,7 +665,7 @@
       12,
       14
     ],
-    "vote_average": 7.704,
+    "vote_average": 7.705,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -684,7 +683,7 @@
       12,
       14
     ],
-    "vote_average": 8.083,
+    "vote_average": 8.084,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -733,7 +732,7 @@
     "title": "Harry Potter and the Order of the Phoenix",
     "poster_path": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
     "release_date": "2007-07-08",
-    "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students to defend themselves against the dark arts.",
+    "overview": "Returning for his fifth year at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of motivated students to defend themselves against the Dark Arts.",
     "genres": [
       12,
       14
@@ -774,7 +773,7 @@
       12,
       14
     ],
-    "vote_average": 8.01,
+    "vote_average": 8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -815,7 +814,7 @@
       18,
       35
     ],
-    "vote_average": 6.9,
+    "vote_average": 6.889,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -835,7 +834,7 @@
       10751,
       14
     ],
-    "vote_average": 7,
+    "vote_average": 6.964,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -910,7 +909,7 @@
       14,
       10751
     ],
-    "vote_average": 7.2,
+    "vote_average": 7.243,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -929,7 +928,7 @@
       18,
       10749
     ],
-    "vote_average": 7.054,
+    "vote_average": 7.055,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -968,7 +967,7 @@
       28,
       12
     ],
-    "vote_average": 7.309,
+    "vote_average": 7.31,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1009,7 +1008,7 @@
       10751,
       16
     ],
-    "vote_average": 7.565,
+    "vote_average": 7.566,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1066,7 +1065,7 @@
     "genres": [
       35
     ],
-    "vote_average": 6.781,
+    "vote_average": 6.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1108,7 +1107,7 @@
       35,
       10751
     ],
-    "vote_average": 6.148,
+    "vote_average": 6.149,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1128,7 +1127,7 @@
       14,
       10751
     ],
-    "vote_average": 6.217,
+    "vote_average": 6.218,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1146,7 +1145,7 @@
       18,
       10765
     ],
-    "vote_average": 8.186,
+    "vote_average": 8.185,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1165,7 +1164,7 @@
       14,
       28
     ],
-    "vote_average": 7.265,
+    "vote_average": 7.266,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1222,7 +1221,7 @@
       80,
       35
     ],
-    "vote_average": 8.488,
+    "vote_average": 8.5,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1279,7 +1278,7 @@
       18,
       35
     ],
-    "vote_average": 8.139,
+    "vote_average": 8.14,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1298,7 +1297,7 @@
       14,
       18
     ],
-    "vote_average": 5.987,
+    "vote_average": 6,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1316,7 +1315,7 @@
       16,
       35
     ],
-    "vote_average": 8.342,
+    "vote_average": 8.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1334,7 +1333,7 @@
       16,
       35
     ],
-    "vote_average": 7.276,
+    "vote_average": 7.277,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1352,7 +1351,7 @@
       28,
       878
     ],
-    "vote_average": 7.316,
+    "vote_average": 7.317,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1409,7 +1408,7 @@
       9648,
       10765
     ],
-    "vote_average": 8.3,
+    "vote_average": 8.301,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1464,7 +1463,7 @@
       10751,
       14
     ],
-    "vote_average": 6.6,
+    "vote_average": 6.627,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1483,7 +1482,7 @@
       10751,
       14
     ],
-    "vote_average": 7.1,
+    "vote_average": 7.135,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1538,7 +1537,7 @@
       12,
       28
     ],
-    "vote_average": 7.573,
+    "vote_average": 7.574,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1558,7 +1557,7 @@
       28,
       53
     ],
-    "vote_average": 7.219,
+    "vote_average": 7.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1577,7 +1576,7 @@
       28,
       878
     ],
-    "vote_average": 7.429,
+    "vote_average": 7.4,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1596,7 +1595,7 @@
       12,
       53
     ],
-    "vote_average": 6.815,
+    "vote_average": 6.816,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1708,7 +1707,7 @@
       16,
       12
     ],
-    "vote_average": 7.3,
+    "vote_average": 7.278,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1747,7 +1746,7 @@
       18,
       12
     ],
-    "vote_average": 8.255,
+    "vote_average": 8.3,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1767,7 +1766,7 @@
       35,
       12
     ],
-    "vote_average": 6.6,
+    "vote_average": 6.579,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1788,7 +1787,7 @@
       18,
       10749
     ],
-    "vote_average": 6.9,
+    "vote_average": 6.941,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1807,7 +1806,7 @@
       10751,
       14
     ],
-    "vote_average": 7.35,
+    "vote_average": 7.351,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1826,7 +1825,7 @@
       28,
       878
     ],
-    "vote_average": 6.558,
+    "vote_average": 6.559,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1880,7 +1879,7 @@
       14,
       10751
     ],
-    "vote_average": 7.213,
+    "vote_average": 7.2,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1900,7 +1899,7 @@
       14,
       27
     ],
-    "vote_average": 7.445,
+    "vote_average": 7.444,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1939,7 +1938,7 @@
       35,
       10751
     ],
-    "vote_average": 7.015,
+    "vote_average": 7,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1958,7 +1957,7 @@
       14,
       10749
     ],
-    "vote_average": 6.2,
+    "vote_average": 6.193,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -1978,7 +1977,7 @@
       18,
       10749
     ],
-    "vote_average": 6.5,
+    "vote_average": 6.462,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2018,7 +2017,7 @@
       18,
       10749
     ],
-    "vote_average": 5.995,
+    "vote_average": 5.994,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2037,7 +2036,7 @@
       18,
       10765
     ],
-    "vote_average": 8.092,
+    "vote_average": 8.091,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2056,7 +2055,7 @@
       18,
       35
     ],
-    "vote_average": 8.027,
+    "vote_average": 8.026,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2075,7 +2074,7 @@
       14,
       28
     ],
-    "vote_average": 6.768,
+    "vote_average": 6.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2095,7 +2094,7 @@
       16,
       12
     ],
-    "vote_average": 7.97,
+    "vote_average": 7.971,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2114,7 +2113,7 @@
       10751,
       35
     ],
-    "vote_average": 7.803,
+    "vote_average": 7.8,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2133,7 +2132,7 @@
       18,
       9648
     ],
-    "vote_average": 7.616,
+    "vote_average": 7.617,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2152,7 +2151,7 @@
       18,
       10749
     ],
-    "vote_average": 6.3,
+    "vote_average": 6.284,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2191,7 +2190,7 @@
       10751,
       878
     ],
-    "vote_average": 8.103,
+    "vote_average": 8.104,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
@@ -2229,7 +2228,7 @@
       12,
       10749
     ],
-    "vote_average": 6.794,
+    "vote_average": 6.778,
     "runtime": null,
     "my_rating": null,
     "format": "DVD",
