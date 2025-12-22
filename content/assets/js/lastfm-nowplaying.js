@@ -119,7 +119,6 @@ function startMusicNotesAnimation() {
   container.dataset.interval = interval;
 }
 
-function getRandomPinkShade() {
   function getRandomPinkShade() {
   const shades = [
     "#ff4fa3", // hot pink
@@ -130,7 +129,6 @@ function getRandomPinkShade() {
     "#ff5ad6", // neon orchid
   ];
   return shades[Math.floor(Math.random() * shades.length)];
-}
 }
 
 fetchNowPlaying();
