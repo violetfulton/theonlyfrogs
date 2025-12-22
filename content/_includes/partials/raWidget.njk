@@ -1,0 +1,34 @@
+<section class="ra-widget">
+  <h3>🏆 RetroAchievements — last 3 unlocks</h3>
+
+  {% if retroachievements.error %}
+    <p class="ra-empty">RA error: {{ retroachievements.error }}</p>
+  {% elseif retroachievements.recent.length == 0 %}
+    <p class="ra-empty">no recent unlocks (yet)!</p>
+  {% else %}
+    <ul class="ra-list">
+      {% for a in retroachievements.recent %}
+        <li class="ra-item">
+          {% if a.gameIconUrl %}
+            <img class="ra-icon" src="{{ a.gameIconUrl }}" alt="{{ a.gameTitle }} icon" loading="lazy">
+          {% endif %}
+
+          <div class="ra-text">
+            <a class="ra-ach" href="https://retroachievements.org/achievement/{{ a.achievementId }}" target="_blank" rel="noopener">
+              {{ a.title }}
+            </a>
+
+            <div class="ra-sub">
+              <a class="ra-game" href="https://retroachievements.org/game/{{ a.gameId }}" target="_blank" rel="noopener">
+                {{ a.gameTitle }}
+              </a>
+              <span class="ra-meta">
+                • {{ a.points }} pts{% if a.hardcore %} • hardcore{% endif %} • {{ a.date }}
+              </span>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
