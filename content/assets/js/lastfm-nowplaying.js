@@ -108,7 +108,7 @@ function startMusicNotesAnimation() {
     note.style.opacity = 0;
     note.style.position = "absolute";
     note.style.bottom = "0";
-    note.style.textShadow = "0 0 6px rgba(255, 105, 180, 0.55), 0 0 2px rgba(0,0,0,0.35)";
+    note.style.textShadow = "0 0 8px rgba(255, 105, 180, 0.55)";
     note.style.animation = `floatNote ${3 + Math.random() * 3}s linear forwards`;
 
     container.appendChild(note);
