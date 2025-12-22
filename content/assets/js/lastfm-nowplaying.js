@@ -26,7 +26,7 @@ async function fetchNowPlaying() {
     const trackName = current.name;
     const artist = current.artist["#text"];
     const album = current.album["#text"];
-    const image = current.image.pop()["#text"] || "/assets/img/no-cover.png";
+    const image = current.image.pop()["#text"] || "/assets/imgs/no-cover.png";
 
     // Detect track change for fade animation
     if (trackName !== lastTrackName) {
@@ -35,31 +35,35 @@ async function fetchNowPlaying() {
       setTimeout(() => nowPlayingDiv.classList.remove("fade-in"), 1000);
     }
 
-    // Build recent (only when not playing)
-    let recentHTML = "";
-    if (!isNowPlaying && tracks.length > 1) {
-      const recentTracks = tracks.slice(1, 3); // only last 2
-      recentHTML = `
-        <div class="recent-tracks-side">
-          <p class="recent-title">Recently played:</p>
-          <ul>
-            ${recentTracks
-              .map(
-                (t) => `
-              <li>
-                <img src="${t.image.pop()["#text"] || "/assets/img/no-cover.png"}" alt="">
-                <div class="recent-info">
-                  <span class="recent-song">${t.name}</span><br>
-                  <span class="recent-artist">${t.artist["#text"]}</span>
-                </div>
-              </li>`
-              )
-              .join("")}
-          </ul>
-        </div>
-      `;
-    }
+ // Build recent (always show last 2 after the current track)
+let recentHTML = "";
+const recentTracks = tracks.slice(1, 3); // next 2 after current
 
+if (recentTracks.length) {
+  recentHTML = `
+    <div class="recent-tracks-side">
+      <p class="recent-title">Recently played:</p>
+      <ul>
+        ${recentTracks
+          .map((t) => {
+            const img = (t.image?.[t.image.length - 1]?.["#text"]) || "/assets/imgs/no-cover.png";
+            const name = t.name || "";
+            const art = t.artist?.["#text"] || "";
+            return `
+              <li>
+                <img src="${img}" alt="">
+                <div class="recent-info">
+                  <span class="recent-song">${name}</span><br>
+                  <span class="recent-artist">${art}</span>
+                </div>
+              </li>
+            `;
+          })
+          .join("")}
+      </ul>
+    </div>
+  `;
+}
     // Build main box
     nowPlayingDiv.innerHTML = `
       <div class="nowplaying-wrapper ${isNowPlaying ? "active" : "idle"}">
@@ -100,11 +104,11 @@ function startMusicNotesAnimation() {
     note.textContent = notes[Math.floor(Math.random() * notes.length)];
     note.style.left = `${Math.random() * 30}px`;
     note.style.fontSize = `${0.8 + Math.random() * 1.2}rem`;
-    note.style.color = getRandomGreenShade();
+    note.style.color = getRandomPinkShade();
     note.style.opacity = 0;
     note.style.position = "absolute";
     note.style.bottom = "0";
-    note.style.textShadow = "0 0 6px rgba(76,175,80,0.4)";
+    note.style.textShadow = "0 0 6px rgba(255, 105, 180, 0.55), 0 0 2px rgba(0,0,0,0.35)";
     note.style.animation = `floatNote ${3 + Math.random() * 3}s linear forwards`;
 
     container.appendChild(note);
@@ -115,9 +119,18 @@ function startMusicNotesAnimation() {
   container.dataset.interval = interval;
 }
 
-function getRandomGreenShade() {
-  const shades = ["#4caf50", "#81c784", "#66bb6a", "#a5d6a7"];
+function getRandomPinkShade() {
+  function getRandomPinkShade() {
+  const shades = [
+    "#ff4fa3", // hot pink
+    "#ff77c8", // bubblegum
+    "#ff9ad5", // pastel pink
+    "#ff2d7a", // punchy pink-red
+    "#ffb3e6", // soft candy
+    "#ff5ad6", // neon orchid
+  ];
   return shades[Math.floor(Math.random() * shades.length)];
+}
 }
 
 fetchNowPlaying();
