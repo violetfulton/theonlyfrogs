@@ -14,6 +14,7 @@ env:
   GAMES_SHEET_URL: ${{ secrets.GAMES_SHEET_URL }}
   MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
   MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
+  RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
 
 
 jobs:
