@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 /* ✅ GLOBAL */
 body {
   background: #e8f5e9;
-  font-family: 'FortySeven Micro NBP', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
 
 h1 {
   text-align: center;
   margin-top: 1.5rem;
-  font-family: 'Gaegu', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* ✅ FILTER + PROGRESS */
@@ -24,7 +26,7 @@ h1 {
   background: white;
   border-radius: 8px;
   cursor: pointer;
-  font-family: 'Gaegu', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
@@ -89,7 +91,7 @@ h1 {
 
 .movie-card .title {
   text-align: center;
-  font-family: 'Gaegu', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   padding: 0.4rem 0.2rem;
   font-size: 0.9rem;
 }
@@ -137,10 +139,12 @@ h1 {
   position: absolute;
   top: 8px;
   right: 12px;
-  background: none;
+  background: #4caf50;
   border: none;
   font-size: 1.3rem;
   cursor: pointer;
+  border-radius: 50%;
+  color: white;
 }
 
 /* ✅ RATING + STATUS INSIDE MODAL */
@@ -154,30 +158,35 @@ h1 {
   letter-spacing: 2px;
 }
 
-.modal-status {
-  margin: 0.4rem 0;
-  font-weight: bold;
-}
 
-/* ✅ SORT IN NAV */
-.sort-controls {
-  display: inline-block;
-  margin-left: .5rem;
-}
 
-.sort-btn {
-  margin: 0 4px;
-  padding: 3px 8px;
-  font-size: 0.75rem;
-  border: 1px solid #4caf50;
+.modal-overview p {
+  left: 25rem;
+  top: 1rem;
+  width: 250px;
   background: white;
-  border-radius: 6px;
-  cursor: pointer;
-  font-family: 'Gaegu', sans-serif;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  animation: popup 0.25s ease-out;
+  position: absolute;
+  color: #333;
 }
 
-.sort-btn.active,
-.sort-btn:hover {
-  background: #4caf50;
-  color: #fff;
+.modal-overview h3 {
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left: 25rem;
+  top: -1.5rem;
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  animation: popup 0.25s ease-out;
 }
+
+
+
+
+

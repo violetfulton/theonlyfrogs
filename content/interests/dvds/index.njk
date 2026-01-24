@@ -9,15 +9,8 @@ permalink: /dvds/
 
 <div class="filter-controls">
   <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="watched">Watched ✅</button>
-  <button class="filter-btn" data-filter="unwatched">Unwatched 🎯</button>
-</div>
-
-<div class="watch-progress">
-  <div class="progress-bar">
-    <div class="progress-fill"></div>
-  </div>
-  <p id="progress-text"></p>
+  <button class="filter-btn" data-filter="movie">Movie 🎬</button>
+  <button class="filter-btn" data-filter="tv">TV 📺</button>
 </div>
 
 <div class="movie-grid">
@@ -29,8 +22,9 @@ permalink: /dvds/
        data-title="{{ movie.title }}"
        data-year="{{ releaseYear }}"
        data-img="https://image.tmdb.org/t/p/w342{{ poster }}"
+       data-overview="{{ movie.overview }}"
        data-my-rating="{{ movie.my_rating }}"
-       data-status="{{ movie.status }}"
+       data-media-type="{{ movie.media_type }}"
        data-index="{{ loop.index }}">
 
     <img src="https://image.tmdb.org/t/p/w342{{ poster }}" alt="{{ movie.title }}">

@@ -138,8 +138,7 @@ if (!personal) {
     tmdb_id: id,
     my_rating: null,
     format: "DVD",
-    purchased: null,
-    status: "unwatched"
+    purchased: null
   };
   metaById.set(id, personal);
 }
@@ -159,8 +158,7 @@ let movieData = {
   // ✅ personal fields
   my_rating: personal.my_rating,
   format: personal.format,
-  purchased: personal.purchased,
-  status: personal.status || "unwatched"
+  purchased: personal.purchased
 };
 
 merged.push(movieData);
