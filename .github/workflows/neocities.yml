@@ -15,6 +15,8 @@ env:
   MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
   MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
   RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
+  TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+  TMDB_V3_KEY: ${{ secrets.TMDB_V3_KEY }}
 
 
 jobs:

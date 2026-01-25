@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modalTitle.textContent = card.dataset.title;
     modalYear.textContent = card.dataset.year || "Unknown";
     modalOverview.textContent = card.dataset.overview || "No description available.";
-    modalStatus.textContent = card.dataset.status || "Status unknown";
+    // modalStatus.textContent = card.dataset.status || "Status unknown";
 
     const rating = parseInt(card.dataset.myRating) || 0;
     modalRatingStars.textContent =
