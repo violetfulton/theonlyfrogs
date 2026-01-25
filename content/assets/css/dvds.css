@@ -160,7 +160,7 @@ h1 {
 
 
 
-.modal-overview p {
+.modal-overview-block p {
   left: 25rem;
   top: 1rem;
   width: 250px;
@@ -173,7 +173,7 @@ h1 {
   color: #333;
 }
 
-.modal-overview h3 {
+.modal-overview-block h3 {
   margin-bottom: 0.5rem;
   font-family: 'Roboto Mono', monospace;
   position: absolute;
