@@ -1,19 +1,35 @@
 <div id="dvd-modal" class="dvd-modal">
-  <div class="dvd-modal-content">
+  <div class="dvd-modal-content dvd-modal-split">
     <button class="modal-close" type="button" aria-label="Close">✖</button>
 
-    <img id="modal-img" class="modal-poster" alt="">
-    <h2 id="modal-title">Movie Title</h2>
-    <p id="modal-year"></p>
+    <div class="dvd-modal-left">
+      <img id="modal-img" class="modal-poster" alt="">
 
-    <div class="modal-rating">
-      <span class="rating-label">My Rating:</span>
-      <span id="modal-rating-stars"></span>
+      <div class="dvd-modal-left-meta">
+        <h2 id="modal-title">Movie Title</h2>
+        <p id="modal-year"></p>
+        <p id="modal-seasons" class="modal-seasons" style="display:none;"></p>
+
+        <a id="modal-trakt-link"
+           class="modal-trakt-btn"
+           href="#"
+           target="_blank"
+           rel="noopener">
+          View on Trakt ↗
+        </a>
+      </div>
     </div>
 
-    <div class="modal-overview-block">
-      <h3>blurb</h3>
-      <p id="modal-overview"></p>
+    <div class="dvd-modal-right">
+      <div class="modal-rating">
+        <span class="rating-label">My Rating:</span>
+        <span id="modal-rating-stars"></span>
+      </div>
+
+      <div class="modal-overview-block">
+        <h3>blurb</h3>
+        <p id="modal-overview"></p>
+      </div>
     </div>
   </div>
 </div>

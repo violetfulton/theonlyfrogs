@@ -13,22 +13,50 @@ permalink: /dvds/
   <button class="filter-btn" data-filter="tv">TV 📺</button>
 </div>
 
+<div class="collection-progress" aria-label="Collection split">
+  <div class="collection-progress__label">
+    <span id="collection-split-text">Loading…</span>
+  </div>
+
+  <div class="collection-progress__bar">
+    <div id="movies-fill" class="collection-progress__fill movies" style="width:0%"></div>
+    <div id="tv-fill" class="collection-progress__fill tv" style="width:0%"></div>
+  </div>
+</div>
+
+
+{# Combine movies + shows into one list for the grid #}
+{% set combined = [] %}
+{% for m in traktOwned.movies %}
+  {% set combined = combined.concat([m]) %}
+{% endfor %}
+{% for s in traktOwned.shows %}
+  {% set combined = combined.concat([s]) %}
+{% endfor %}
+
 <div class="movie-grid">
-{% for movie in movieCollectionPhysical %}
-  {% set poster = movie.poster_path | default("/assets/imgs/frog-dvd-placeholder.png") %}
-  {% set releaseYear = movie.release_date and movie.release_date.slice(0,4) %}
+{% for item in combined %}
+  {% set img = item.poster | default("/assets/imgs/frog-dvd-placeholder.png") %}
 
   <div class="movie-card"
-       data-title="{{ movie.title }}"
-       data-year="{{ releaseYear }}"
-       data-img="https://image.tmdb.org/t/p/w342{{ poster }}"
-       data-overview="{{ movie.overview }}"
-       data-my-rating="{{ movie.my_rating }}"
-       data-media-type="{{ movie.media_type }}"
+       data-title="{{ item.title }}"
+       data-year="{{ item.year or '' }}"
+       data-img="{{ img }}"
+       data-overview="{{ item.overview | default('') }}"
+       data-my-rating="{{ item.my_rating | default('0') }}"
+       data-media-type="{{ item.media_type }}"
+       data-trakt="{{ item.trakt }}"
+       data-seasons="{{ item.seasons_owned | default('') }}"
        data-index="{{ loop.index }}">
 
-    <img src="https://image.tmdb.org/t/p/w342{{ poster }}" alt="{{ movie.title }}">
-    <p class="title">{{ movie.title }}</p>
+    <img src="{{ img }}" alt="{{ item.title }}" loading="lazy"
+         onerror="this.src='/assets/imgs/frog-dvd-placeholder.png'">
+
+    {% if item.media_type == "tv" and item.seasons_owned %}
+      <span class="owned-season-badge">{{ item.seasons_owned }}</span>
+    {% endif %}
+
+    <p class="title">{{ item.title }}</p>
   </div>
 {% endfor %}
 </div>

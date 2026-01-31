@@ -17,6 +17,8 @@ env:
   RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
   TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
   TMDB_V3_KEY: ${{ secrets.TMDB_V3_KEY }}
+  TRAKT_USER: ${{ secrets.TRAKT_USER }}
+  TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
 
 
 jobs:

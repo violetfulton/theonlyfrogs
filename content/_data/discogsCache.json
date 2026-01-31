@@ -1242,6 +1242,62 @@
     "folder_id": 1
   },
   {
+    "id": 25355662,
+    "instance_id": 2108380148,
+    "date_added": "2026-01-30T09:56:34-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 25355662,
+      "master_id": 76279,
+      "master_url": "https://api.discogs.com/masters/76279",
+      "resource_url": "https://api.discogs.com/releases/25355662",
+      "thumb": "https://i.discogs.com/WB8yL_6T3ZEvkMiSuivQPxx1V23gP4DMWbcbsUGDGoc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzU1/NjYyLTE2NzAwNjY2/NDAtMjY1Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/6S6WCSj-4a0ae4Uky49YrrDNZq0dlgRo8rnWPNrnGUk/rs:fit/g:sm/q:90/h:550/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzU1/NjYyLTE2NzAwNjY2/NDAtMjY1Ny5qcGVn.jpeg",
+      "title": "Whatever People Say I Am, That's What I'm Not",
+      "year": 2022,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "text": "Gatefold",
+          "descriptions": [
+            "Album",
+            "Repress",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Domino",
+          "catno": "WIGCD162E",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 26465,
+          "resource_url": "https://api.discogs.com/labels/26465"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Arctic Monkeys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 391170,
+          "resource_url": "https://api.discogs.com/artists/391170"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 7095669,
     "instance_id": 2064148843,
     "date_added": "2025-09-24T12:45:20-07:00",
@@ -5462,6 +5518,61 @@
     "folder_id": 1
   },
   {
+    "id": 13582544,
+    "instance_id": 2108379417,
+    "date_added": "2026-01-30T09:54:20-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 13582544,
+      "master_id": 42557,
+      "master_url": "https://api.discogs.com/masters/42557",
+      "resource_url": "https://api.discogs.com/releases/13582544",
+      "thumb": "https://i.discogs.com/9WLyodBrq9zJ8LhUgl0W9c7_lZEkmwjixpljtq-aqyA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTgy/NTQ0LTE1NTY5MjEy/NTEtMjUwMS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/eCwKq0XnRXyi-vjctsTLYcIP6Jm6vUhzGcCJGfCcLj0/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTgy/NTQ0LTE1NTY5MjEy/NTEtMjUwMS5qcGVn.jpeg",
+      "title": "By The Way",
+      "year": 0,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Warner Bros. Records",
+          "catno": "9362-48140-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1000,
+          "resource_url": "https://api.discogs.com/labels/1000"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Red Hot Chili Peppers",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 92476,
+          "resource_url": "https://api.discogs.com/artists/92476"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Pop Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 12350845,
     "instance_id": 2067535748,
     "date_added": "2025-10-05T13:58:27-07:00",
@@ -5700,6 +5811,69 @@
         "Alternative Metal",
         "Nu Metal",
         "Ballad"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 1220925,
+    "instance_id": 2108310704,
+    "date_added": "2026-01-30T06:49:16-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1220925,
+      "master_id": 3211,
+      "master_url": "https://api.discogs.com/masters/3211",
+      "resource_url": "https://api.discogs.com/releases/1220925",
+      "thumb": "https://i.discogs.com/9nXmFSr1sGbNjJ21sw_vCNNZtV2bIxRWbrnCiNZYpZk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjA5/MjUtMTIwMjA4ODU2/NC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/9iNlTWzXRvNPlMRZo1F0ohjKitKU6ufqs9OntknLspg/rs:fit/g:sm/q:90/h:526/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjA5/MjUtMTIwMjA4ODU2/NC5qcGVn.jpeg",
+      "title": "Vampire Weekend",
+      "year": 2008,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "text": "Slipcase",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "XL Recordings",
+          "catno": "XLCD318",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 160,
+          "resource_url": "https://api.discogs.com/labels/160"
+        },
+        {
+          "name": "XL Recordings",
+          "catno": "XL CD 318",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 160,
+          "resource_url": "https://api.discogs.com/labels/160"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Vampire Weekend",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 861083,
+          "resource_url": "https://api.discogs.com/artists/861083"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Indie Rock",
+        "Indie Pop"
       ]
     },
     "folder_id": 1

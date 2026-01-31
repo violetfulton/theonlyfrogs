@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-/* ✅ GLOBAL */
+/* =========================
+   GLOBAL
+========================= */
+:root {
+  --bg: #e8f5e9;
+  --card: #ffffff;
+  --green: #4caf50;
+  --green-soft: #c8e6c9;
+  --shadow: rgba(0,0,0,0.25);
+  --text: #1b1b1b;
+}
+
 body {
-  background: #e8f5e9;
+  background: var(--bg);
   font-family: 'Roboto Mono', monospace;
   margin: 0;
+  color: var(--text);
 }
 
 h1 {
   text-align: center;
-  margin-top: 1.5rem;
-  font-family: 'Roboto Mono', monospace;
+  margin: 1.5rem 0 0.5rem;
 }
 
-/* ✅ FILTER + PROGRESS */
+/* =========================
+   FILTER CONTROLS
+========================= */
 .filter-controls {
   text-align: center;
   margin: 1rem 0;
@@ -22,47 +35,27 @@ h1 {
 .filter-btn {
   margin: 0 6px;
   padding: 6px 12px;
-  border: 2px solid #4caf50;
-  background: white;
+  border: 2px solid var(--green);
+  background: var(--card);
   border-radius: 8px;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
-  transition: background 0.15s ease, color 0.15s ease;
+  font-family: inherit;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
 .filter-btn.active,
 .filter-btn:hover {
-  background: #4caf50;
+  background: var(--green);
   color: #fff;
 }
 
-.watch-progress {
-  text-align: center;
-  margin: 0.5rem auto 1rem;
-  width: 80%;
+.filter-btn:active {
+  transform: translateY(1px);
 }
 
-.progress-bar {
-  width: 100%;
-  height: 10px;
-  background: #c8e6c9;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  width: 0%;
-  background: #4caf50;
-  transition: width 0.35s ease;
-}
-
-#progress-text {
-  font-size: 0.9rem;
-  margin-top: 4px;
-}
-
-/* ✅ MOVIE GRID */
+/* =========================
+   MOVIE GRID
+========================= */
 .movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -72,16 +65,17 @@ h1 {
 
 .movie-card {
   cursor: pointer;
-  background: #fff;
+  background: var(--card);
   border-radius: 10px;
   overflow: hidden;
-  border: 2px solid #4caf50;
+  border: 2px solid var(--green);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
 }
 
 .movie-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .movie-card img {
@@ -91,102 +85,255 @@ h1 {
 
 .movie-card .title {
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  padding: 0.4rem 0.2rem;
+  padding: 0.4rem 0.35rem;
   font-size: 0.9rem;
 }
 
-/* ✅ MODAL FIX — MOST IMPORTANT PART */
+/* =========================
+   OWNED SEASON BADGE
+========================= */
+.owned-season-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  border: 2px solid var(--green);
+  line-height: 1;
+}
+
+/* =========================
+   MODAL BACKDROP
+========================= */
 #dvd-modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0;
   background: rgba(0,0,0,0.65);
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 999999; /* 👑 force above ALL else */
+  z-index: 999999;
+  padding: 16px;
 }
 
 #dvd-modal.active {
   display: flex;
 }
 
-.dvd-modal-content {
-  background: white;
-  border-radius: 12px;
-  padding: 1rem;
-  max-width: 350px;
-  width: 90%;
-  text-align: center;
-  animation: popup 0.25s ease-out;
+/* =========================
+   MODAL PANEL (SPLIT)
+========================= */
+.dvd-modal-content.dvd-modal-split {
+  width: min(820px, 96vw);
+  height: auto;
+  max-height: none;
+  overflow: hidden;
+
+  background: var(--card);
+  border-radius: 14px;
+  border: 2px solid var(--green);
   position: relative;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+
+  animation: popup 0.25s ease-out;
 }
 
 @keyframes popup {
-  from { transform: scale(0.8); opacity: 0; }
+  from { transform: scale(0.92); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
 
-.modal-poster {
-  width: 100%;
-  border-radius: 10px;
-}
-
+/* Close button */
 .modal-close {
   position: absolute;
-  top: 8px;
+  top: 10px;
   right: 12px;
-  background: #4caf50;
-  border: none;
-  font-size: 1.3rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 2px solid var(--green);
+  background: var(--green);
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
   cursor: pointer;
-  border-radius: 50%;
-  color: white;
 }
 
-/* ✅ RATING + STATUS INSIDE MODAL */
+/* =========================
+   MODAL LEFT
+========================= */
+.dvd-modal-left {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+  align-content: start;
+}
+
+/* POSTER — NO CROPPING */
+.modal-poster {
+  width: 100%;
+  max-height: 360px;
+  height: auto;
+
+  object-fit: contain;
+  background: rgba(0,0,0,0.06);
+
+  border-radius: 12px;
+  border: 2px solid var(--green);
+}
+
+/* Title/year */
+.dvd-modal-left-meta h2 {
+  margin: 0;
+  line-height: 1.1;
+  font-size: 1.25rem;
+}
+
+#modal-year {
+  margin: 6px 0 10px;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+/* Trakt button */
+.modal-trakt-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--green);
+  color: var(--text);
+  background: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  opacity: 0.95;
+  transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
+}
+
+.modal-trakt-btn:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+  background: var(--bg);
+}
+
+/* =========================
+   MODAL RIGHT
+========================= */
+.dvd-modal-right {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+  min-width: 0;
+  max-height: 360px;        /* SAME as poster */
+}
+
 .modal-rating {
-  margin: 0.35rem 0;
-  font-size: 1.3rem;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 1.05rem;
+}
+
+.rating-label {
+  font-weight: 700;
 }
 
 #modal-rating-stars {
   color: gold;
   letter-spacing: 2px;
+  font-size: 1.15rem;
 }
 
-
-
-.modal-overview-block p {
-  left: 25rem;
-  top: 1rem;
-  width: 250px;
-  background: white;
+/* Blurb box */
+.modal-overview-block {
+  border: 2px solid var(--green);
   border-radius: 12px;
-  padding: 1rem;
-  text-align: center;
-  animation: popup 0.25s ease-out;
-  position: absolute;
-  color: #333;
+  padding: 12px;
+  background: rgba(0,0,0,0.03);
+  overflow: hidden;
+  min-height: 0;
 }
 
 .modal-overview-block h3 {
-  margin-bottom: 0.5rem;
-  font-family: 'Roboto Mono', monospace;
-  position: absolute;
-  left: 25rem;
-  top: -1.5rem;
-  background: white;
-  border-radius: 12px;
-  padding: 1rem;
-  text-align: center;
-  animation: popup 0.25s ease-out;
+  margin: 0 0 8px;
+  font-size: 1rem;
+  text-transform: lowercase;
 }
 
+#modal-overview {
+  margin: 0;
+  line-height: 1.35;
+  overflow: auto;
+  max-height: 100%;
+}
 
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 720px) {
+  .dvd-modal-content.dvd-modal-split {
+    grid-template-columns: 1fr;
+    max-height: 90vh;
+  }
 
+  .modal-poster {
+    max-width: 240px;
+    justify-self: center;
+  }
 
+  .dvd-modal-left-meta {
+    text-align: center;
+  }
 
+  .modal-trakt-btn {
+    margin: 0 auto;
+  }
+}
+
+.collection-progress {
+  width: min(720px, 92%);
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+
+.collection-progress__label {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+.collection-progress__bar {
+  width: 100%;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 2px solid var(--green);
+  background: var(--green-soft);
+  display: flex;
+}
+
+.collection-progress__fill {
+  height: 100%;
+  transition: width 0.35s ease;
+}
+
+/* Movies = darker green */
+.collection-progress__fill.movies {
+  background: var(--green);
+}
+
+/* TV = lighter green */
+.collection-progress__fill.tv {
+  background: #81c784;
+}
