@@ -5,58 +5,49 @@ customcss: '/assets/css/games.css'
 permalink: /games/
 ---
 
-<p class="subtitle">Select a platform to view all games in my collection.</p>
+<h1>🎮 Game Collection</h1>
+<p class="platform-intro">pick a platform to browse my lil game shelf 🐸✨</p>
 
-<ul class="platform-list">
-  {% for group in games %}
-    <li>
-      <a href="/interests/games/{{ group.slug }}/">{{ group.platform }}</a>
-      <span class="count">({{ group.games | length }})</span>
-    </li>
+<div class="platform-grid">
+  {% for p in rawgOwned.platforms %}
+
+    {# cute emoji mapping #}
+    {% set icon = "🎮" %}
+
+{% if p.platform == "Nintendo 3DS" %}{% set icon = "🧩" %}{% endif %}
+{% if p.platform == "Nintendo DS" %}{% set icon = "📟" %}{% endif %}
+{% if p.platform == "Nintendo Game Boy Advance" %}{% set icon = "🟪" %}{% endif %}
+{% if p.platform == "Nintendo Switch" %}{% set icon = "🍄" %}{% endif %}
+{% if p.platform == "Nintendo Switch 2" %}{% set icon = "✨" %}{% endif %}
+{% if p.platform == "Nintendo Wii" %}{% set icon = "🎾" %}{% endif %}
+{% if p.platform == "Nintendo Wii U" %}{% set icon = "🔵" %}{% endif %}
+
+{% if p.platform == "PC" %}{% set icon = "🖥️" %}{% endif %}
+
+{% if p.platform == "Sony PlayStation 2" %}{% set icon = "💿" %}{% endif %}
+{% if p.platform == "Sony PlayStation 3" %}{% set icon = "🔷" %}{% endif %}
+{% if p.platform == "Sony PlayStation 4" %}{% set icon = "🟦" %}{% endif %}
+{% if p.platform == "Sony PlayStation 5" %}{% set icon = "🖤" %}{% endif %}
+{% if p.platform == "Sony PS Vita" %}{% set icon = "💜" %}{% endif %}
+
+
+    <a class="platform-card" href="/interests/games/{{ p.slug }}/">
+      <div class="platform-icon" aria-hidden="true">{{ icon }}</div>
+
+      <div class="platform-main">
+        <span class="platform-name">{{ p.platform }}</span>
+        <span class="platform-count">{{ p.games | length }} games</span>
+      </div>
+
+      <span class="platform-arrow" aria-hidden="true">↗</span>
+    </a>
+
   {% endfor %}
-</ul>
+</div>
 
-<p>
-  <a href="/games/missing/">🐸 View Missing Covers</a>
+<p class="platform-attrib">
+  <a href="{{ rawgOwned.rawgAttribution.url }}" target="_blank" rel="noopener">
+    {{ rawgOwned.rawgAttribution.label }}
+  </a>
 </p>
 
-
-<style>
-.platform-list {
-  list-style: none;
-  padding: 0;
-  margin: 2em auto;
-  max-width: 500px;
-  text-align: center;
-}
-
-.platform-list li {
-  margin: 0.6em 0;
-  font-size: 1.2em;
-}
-
-.platform-list a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #2e7d32;
-  transition: color 0.2s ease;
-}
-
-.platform-list a:hover {
-  color: #66bb6a;
-}
-
-.count {
-  color: #777;
-  font-size: 0.9em;
-  margin-left: 0.3em;
-}
-
-.subtitle {
-  text-align: center;
-  color: #444;
-  margin-top: 0.3em;
-  margin-bottom: 1.5em;
-  font-style: italic;
-}
-</style>

@@ -6,7 +6,7 @@
 [![Deployed on Neocities](https://img.shields.io/badge/deployed%20on-Neocities-FF6C6C.svg?style=flat-square)](https://neocities.org)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=flat-square)](LICENSE)
 
-**🌐 Live Site:** [theonlyfrogs.com](https://theonlyfrogs.com)
+**🌐 Live Site:** https://theonlyfrogs.com
 
 ---
 
@@ -14,144 +14,169 @@
 
 A nostalgic personal website inspired by early 2000s web culture, featuring:
 
-🎵 **Dynamic Music Collection** - Real-time CD collection via Discogs API
-🎮 **Gaming Libraries** - Organized by console with reviews and ratings
-✨ **Fan Shrines** - Dedicated pages for beloved franchises and artists
-🎬 **DVD & Movie Catalog** - TMDb-powered movie collection display
-📝 **Personal Blog** - Thoughts and life updates with markdown posts
-🎨 **Retro Aesthetic** - Dark themes, pixel fonts, and Y2K vibes
+🎵 **Live Music Widgets** – Now playing & recent tracks via Last.fm
+🎮 **Game Collection** – Physical & owned games via RAWG API
+🎬 **Movies & TV** – Physical collection & activity via Trakt + TMDb
+📺 **Watching Now** – Current shows, seasons, and progress
+🏆 **RetroAchievements** – Recently unlocked achievements
+📚 **Anime Tracker** – MyAnimeList widget
+📝 **Personal Blog** – Markdown-powered posts
+🎨 **Retro Aesthetic** – Pixel fonts, frogs, glassy widgets, Y2K vibes
+
+Basically: a digital scrapbook of everything I love.
+
+---
 
 ## 🚀 Quick Start
 
 ```bash
-# Clone and setup
 git clone https://github.com/violetfulton/theonlyfrogs.git
 cd theonlyfrogs
 npm install
 
-# Start development server
+# Dev server
 npm start
-# Visit http://localhost:8080
+# http://localhost:8080
 
-# Build for production
+# Production build
 npm run build
 ```
 
 ## 🛠️ Tech Stack
 
-- **[Eleventy](https://11ty.dev/)** v3.0.0 - Static site generator
-- **Nunjucks** - Templating engine
-- **Discogs API** - Music collection data
-- **Luxon** - Date formatting
-- **Neocities** - Hosting platform
-- **TMDb API** - Movie collection data
+### Core
+- **Eleventy (11ty)** – Static site generator (v3)
+- **Nunjucks** – Templating
+- **Node.js** – Data fetching & scripts
+- **Neocities** – Hosting
+- **GitHub Actions** – Auto deploy
+
+### APIs & Services
+
+| Purpose | Service |
+|---------|---------|
+| 🎵 Music tracking | Last.fm API |
+| 💿 CD collection | Discogs API |
+| 🎮 Game database | RAWG API |
+| 🎬 Movies & TV | Trakt API |
+| 🎥 Movie metadata | TMDb API |
+| 🏆 Achievements | RetroAchievements API |
+| 📚 Anime tracking | MyAnimeList API |
+| 🎮 Steam widget | Steam Web API |
+| 🎮 PlayStation | PSN API (unofficial) |
+| 🎬 Diary | Letterboxd embed |
 
 ## 📁 Project Structure
 
 ```
 content/
-├── _data/           # Global data files (Discogs cache, site data)
-├── _includes/       # Nunjucks templates and layouts
-├── _scripts/        # Data fetching scripts
-├── assets/          # CSS, fonts, images, and JavaScript
-├── blog/            # Blog system and markdown posts
-├── interests/       # Collections and shrine pages
-├── pages/           # Static pages
+├── _data/           # API fetchers & caches
+│   ├── discogs.js
+│   ├── rawgOwned.js
+│   ├── trakt.js
+│   ├── malAnime.js
+│   └── retroachievements.js
+├── _scripts/        # One-off utilities (CSV → JSON, etc)
+├── _includes/       # Layouts & components
+├── assets/          # CSS, JS, fonts, images
+├── blog/            # Markdown blog posts
+├── interests/       # Games, movies, shrines
 └── index.njk        # Homepage
-
-eleventy.config.mjs  # Main configuration
-package.json         # Dependencies and scripts
 ```
 
 ## 🎯 Key Features
 
-### 📝 Static Blog System
-- **Markdown Posts** - Simple, file-based blog posts
-- **Automatic Generation** - Posts and archives generated from markdown files
-- **Date Formatting** - Luxon-powered readable dates
-- **Date Based URLs** - SEO-friendly post URLs
+### 🎮 Game Collection (RAWG)
+- Local `ownedGames.json` as source of truth
+- Enriched via RAWG API at build time
+- Grouped by platform (`/games/psvita/`)
+- Automatic deduping by RAWG ID
+- Cached per-game API calls
 
-### 🎵 Dynamic Music Collection
-- **Discogs API Integration** - Live music collection with ratings and detailed views
-- **Smart Caching** - External data cached for faster builds and offline development
-- **Interactive Grid Layout** - Visual browsing with detailed views
-- **Pre-build Fetching** - Data fetched before site generation
+### 🎬 Movies & TV (Trakt)
+Physical owned list synced from Trakt
 
-### 🎮 Gaming Libraries & Fan Shrines
-- **Console-Based Libraries** - Organized by console with reviews and ratings
-- **Franchise Fan Shrines** - Dedicated pages for beloved franchises and artists
+**Modal UI with:**
+- Poster
+- Year
+- Owned seasons
+- Rating
+- Trakt link
 
-### 🎬 Movie Catalog
-- **TMDb API Integration** - Live movie collection with ratings and detailed views
-- **Smart Caching** - External data cached for faster builds and offline development
-- **Interactive Grid Layout** - Visual browsing with detailed views
-- **Pre-build Fetching** - Data fetched before site generation
+**"Watching now" widget with:**
+- Current season + episode
+- Last 3 movies watched
 
-### 🎨 Retro Web Aesthetic
-- **Y2K Design Language** - Embracing early web aesthetics
-- **Dark Theme Throughout** - Easy on the eyes, authentic feel
-- **Pixel Fonts & Graphics** - Nostalgic typography and imagery
-- **Personal Expression** - Authenticity over polish
+### 🏆 RetroAchievements
+- Shows last 3 games played
+- Only latest achievement per game
 
-### 🚀 Modern Performance
-- **Static Site Generation** - Fast loading with dynamic-feeling content
-- **Responsive Design** - Works on all devices
-- **Optimized Assets** - Efficient CSS and image handling
-- **Automated Deployment** - GitHub Actions to Neocities
+**Displays:**
+- Game icon
+- Achievement icon
+- Console badge
+- Hardcore badge
+- "Unlocked 2 days ago"
 
-## 🔧 Configuration
+### 🎵 Music Widgets
+- Live now-playing via Last.fm
+- Floating notes animation
+- Recent tracks sidebar
+- Steam-style visual layout
 
-### Environment Variables
+### 📚 Anime (MAL)
+- Currently watching grid
+- Episode progress pills
+- Completed side column
 
-```bash
-# Optional for development
-DISCOGS_TOKEN=your_discogs_personal_access_token
-DISCOGS_USERNAME=your_discogs_username
-
-# Skip external API calls during development
-ELEVENTY_SKIP_FETCH=true
-```
-
-### Available Scripts
+## 🔧 Environment Variables
 
 ```bash
-npm start              # Development server with live reload
-npm run build          # Production build
-npm run fetch:discogs  # Manually fetch Discogs collection
-npm run fetch:tmdb     # Manually fetch movie data
+DISCOGS_TOKEN=
+DISCOGS_USERNAME=
+
+RAWG_API_KEY=
+
+TRAKT_CLIENT_ID=
+TRAKT_USER=
+
+TMDB_API_KEY=
+
+MAL_CLIENT_ID=
+MAL_USERNAME=
+
+RA_WEB_API_KEY=
+
+STEAM_API_KEY=
+STEAM_USER_ID=
+
+NEOCITIES_API_KEY=
 ```
 
-## 🌟 Inspiration & Philosophy
+All APIs are fetched at build time and cached via `@11ty/eleventy-fetch`.
 
-This project celebrates:
+## 🧠 Design Philosophy
 
-- **The Personal Web** - Individual expression over corporate uniformity
-- **Digital Collections** - The joy of curating and sharing what we love
-- **Authentic Blogging** - Real thoughts, real experiences
-- **Retro Web Culture** - When the internet felt more human
-- **Open Source Learning** - Sharing knowledge and techniques
+**This site is:**
+- Not a portfolio
+- Not a product
+- Not optimised for growth
 
+**It's:**
+- A personal digital bedroom
+- A living scrapbook
+- A place where frogs, media collections, and nostalgia coexist
 
-## 🤝 Contributing
+No algorithms. No feeds. Just vibes.
 
-While this is a personal site, you're welcome to:
+## 🔗 Links
 
-- 🌟 Star the repo if you find it inspiring
-- 🐛 Report any bugs you notice
-- 💡 Suggest improvements via issues
-- 🎨 Share your own retro web projects
-- 📚 Learn from the code and techniques used
-
-## 🔗 Connect
-
-- **Website:** [theonlyfrogs.com](https://theonlyfrogs.com)
-- **GitHub:** [@violetfulton](https://github.com/violetfulton)
-
----
+- **Website:** https://theonlyfrogs.com
+- **GitHub:** https://github.com/violetfulton
 
 <div align="center">
 
-**Made with 💚 and nostalgia**
-*Bringing back the personal web, one frog at a time* 🐸
+Made with 💚, frogs, and way too many APIs
+*Bringing back the personal web, one widget at a time* 🐸
 
 </div>
