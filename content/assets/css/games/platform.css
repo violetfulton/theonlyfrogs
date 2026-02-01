@@ -1,0 +1,110 @@
+/* =========================
+   PLATFORM PAGE ONLY
+   (loaded in addition to shared.css)
+========================= */
+
+/* Optional: slightly tighter top spacing on platform pages */
+.games-page.games-platform {
+  padding-top: 1.5rem;
+}
+
+/* A tiny “you are here” vibe under the h1 if you add it later */
+.platform-subhead {
+  margin: 0.25rem 0 1.25rem;
+  color: var(--text-soft);
+  opacity: 0.95;
+  text-shadow: 0 0 10px rgba(255, 0, 170, 0.25);
+}
+
+/* =========================
+   PLATFORM PAGE FOOTER
+========================= */
+.platform-footer {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+/* Back button becomes a neon “chip” */
+.platform-back {
+  font-family: 'Gaegu', cursive;
+  font-size: 1.15rem;
+  color: var(--neon-blue);
+  text-decoration: none;
+  font-weight: 800;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 170, 0.18),
+    rgba(123, 44, 255, 0.18)
+  );
+
+  border: 2px solid var(--neon-pink);
+  box-shadow:
+    0 0 10px rgba(255, 47, 214, 0.35),
+    inset 0 0 10px rgba(255, 0, 170, 0.18);
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+}
+
+.platform-back:hover {
+  color: var(--neon-pink);
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 14px rgba(255, 0, 170, 0.55),
+    0 0 26px rgba(123, 44, 255, 0.35),
+    inset 0 0 14px rgba(255, 0, 200, 0.25);
+  text-decoration: none;
+}
+
+.platform-back:active {
+  transform: translateY(0);
+}
+
+/* If you want a little arrow wiggle */
+.platform-back::before {
+  content: "← ";
+  opacity: 0.9;
+}
+
+/* Attribution spacing tweak on platform pages (optional) */
+.games-platform .platform-attrib {
+  margin-top: 1.5rem;
+  opacity: 0.95;
+}
+
+/* =========================
+   OPTIONAL: “Arcade separator”
+   Use <hr class="arcade-hr"> if you want.
+========================= */
+.arcade-hr {
+  border: none;
+  height: 2px;
+  width: min(520px, 100%);
+  margin: 1.25rem auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--neon-pink),
+    var(--neon-blue),
+    transparent
+  );
+  box-shadow: var(--glow);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 700px) {
+  .platform-back {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+

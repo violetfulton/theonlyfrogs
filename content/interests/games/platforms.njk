@@ -3,33 +3,56 @@ pagination:
   data: rawgOwned.platforms
   size: 1
   alias: platform
-permalink: "interests/games/{{ platform.slug }}/index.html"
+
+permalink: /games/{{ platform.slug }}/
 layout: layouts/gamesBase.njk
+pageClass: games-platform
+customcss:
+  - /assets/css/games/platform.css
 ---
 
-<h1>🎮 {{ platform.platform }} Games</h1>
+<h2>{{ platform.platform }}</h2>
+<p class="platform-subhead">press start to browse 🕹️</p>
 
 <div class="games-grid">
   {% for game in platform.games %}
-    <div class="game-card" data-tooltip="{{ game.title }}">
-      <img
-        src="{{ game.image or '/assets/imgs/frog-placeholder.png' }}"
-        alt="{{ game.title }}"
-        loading="lazy"
-      >
+    {# fallback cover for null images #}
+    {% set cover = game.image or "/assets/imgs/frog-placeholder.png" %}
+
+    {# publishers -> nice string #}
+    {% set pubs = game.publishers | default([]) %}
+    {% set pubsText = pubs | join(", ") %}
+
+    <a class="game-card"
+       href="{{ game.rawgUrl }}"
+       target="_blank"
+       rel="noopener"
+       referrerpolicy="no-referrer">
+      <img src="{{ cover }}" alt="{{ game.title }}" loading="lazy">
+
       <h3>{{ game.title }}</h3>
-    </div>
+
+      <p class="meta">
+        {% if game.year %}{{ game.year }}{% endif %}
+        {% if game.year and pubsText %} • {% endif %}
+        {% if pubsText %}{{ pubsText }}{% endif %}
+      </p>
+
+      {% if game.format %}
+        <p class="notes">{{ game.format }}</p>
+      {% endif %}
+    </a>
   {% endfor %}
 </div>
 
-
 <div class="platform-footer">
-  <a class="platform-back" href="/games/">⬅ back to all platforms</a>
+  <a class="platform-back" href="/games/"> back to platforms</a>
 
-  <div class="platform-attrib">
-    <a href="{{ rawgOwned.rawgAttribution.url }}" target="_blank" rel="noopener">
-      {{ rawgOwned.rawgAttribution.label }}
-    </a>
-  </div>
+  {% if rawgOwned.rawgAttribution %}
+    <p class="platform-attrib">
+      <a href="{{ rawgOwned.rawgAttribution.url }}" target="_blank" rel="noopener">
+        {{ rawgOwned.rawgAttribution.label }}
+      </a>
+    </p>
+  {% endif %}
 </div>
-

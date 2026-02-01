@@ -1,9 +1,12 @@
 ---
-layout: layouts/gamesBase.njk
 title: "Game Collection"
-customcss: '/assets/css/games.css'
+layout: layouts/gamesBase.njk
 permalink: /games/
+pageClass: games-index
+customcss:
+  - /assets/css/games/index.css
 ---
+
 
 <p class="platform-intro">pick a platform to browse my lil game shelf 🐸✨</p>
 
@@ -30,7 +33,7 @@ permalink: /games/
 {% if p.platform == "Sony PS Vita" %}{% set icon = "💜" %}{% endif %}
 
 
-    <a class="platform-card" href="/interests/games/{{ p.slug }}/">
+    <a class="platform-card" href="/games/{{ p.slug }}/">
       <div class="platform-icon" aria-hidden="true">{{ icon }}</div>
 
       <div class="platform-main">

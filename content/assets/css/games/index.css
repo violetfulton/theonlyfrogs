@@ -1,0 +1,155 @@
+/* =========================
+   GAMES INDEX ONLY
+   (platform list page)
+========================= */
+
+.games-page.games-index .games-frame {
+  /* optional: make the index feel a bit more “menu screen” */
+  padding-top: 1.75rem;
+}
+
+/* =========================
+   PLATFORM LIST (GAMES INDEX)
+========================= */
+.platform-intro {
+  text-align: center;
+  margin: 0.25rem 0 1.25rem;
+  opacity: 0.95;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.1rem;
+  color: var(--text-soft);
+  text-shadow:
+    0 0 10px rgba(255, 0, 170, 0.25),
+    0 0 18px rgba(123, 44, 255, 0.18);
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 1.25rem;
+}
+
+/* clickable platform tile */
+.platform-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 14px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 170, 0.12),
+    rgba(123, 44, 255, 0.12)
+  );
+  border: 2px solid rgba(255, 47, 214, 0.75);
+
+  box-shadow:
+    0 0 12px rgba(255, 0, 170, 0.30),
+    inset 0 0 12px rgba(255, 0, 170, 0.16);
+
+  backdrop-filter: blur(8px);
+
+  text-decoration: none;
+  color: var(--text-main);
+
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.platform-card:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 170, 0.18),
+    rgba(123, 44, 255, 0.18)
+  );
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 18px var(--neon-hot),
+    0 0 28px var(--neon-purple),
+    inset 0 0 18px rgba(255, 0, 200, 0.25);
+}
+
+/* left icon box */
+.platform-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+
+  display: grid;
+  place-items: center;
+
+  background: rgba(0, 0, 0, 0.75);
+  border: 2px solid var(--neon-blue);
+  color: var(--text-main);
+
+  box-shadow:
+    0 0 10px rgba(0, 229, 255, 0.55),
+    inset 0 0 8px rgba(0, 229, 255, 0.35);
+
+  font-size: 1.35rem;
+  flex: 0 0 42px;
+}
+
+.platform-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.platform-name {
+  font-family: 'Gaegu', cursive;
+  font-size: 1.25rem;
+  line-height: 1.1;
+
+  color: var(--neon-pink);
+  text-shadow:
+    0 0 6px rgba(255, 47, 214, 0.55),
+    0 0 14px rgba(123, 44, 255, 0.25);
+
+  white-space: normal;
+  overflow: hidden;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
+  min-width: 0;
+}
+
+/* “xx games” pill */
+.platform-count {
+  width: fit-content;
+  font-size: 0.78rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+
+  background: linear-gradient(90deg, var(--neon-hot), var(--neon-purple));
+  color: white;
+  font-weight: 800;
+
+  box-shadow:
+    0 0 10px rgba(255, 0, 170, 0.35),
+    0 0 18px rgba(123, 44, 255, 0.25),
+    inset 0 0 8px rgba(255, 255, 255, 0.15);
+}
+
+.platform-arrow {
+  opacity: 0.9;
+  font-weight: 900;
+  margin-left: 2px;
+  color: var(--neon-blue);
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.55);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 520px) {
+  .platform-grid {
+    grid-template-columns: 1fr;
+  }
+}
