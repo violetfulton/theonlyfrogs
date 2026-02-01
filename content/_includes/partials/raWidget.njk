@@ -1,34 +1,50 @@
-<section class="ra-widget">
-  <h3>🏆 RetroAchievements — last 3 unlocks</h3>
+<section class="ra-section">
+  <div class="ra-widget">
+    <h3>
+    <a href="https://retroachievements.org/user/onlyfrogs"
+       target="_blank" rel="noopener">
+      🏆 RetroAchievements
+    </a>
+  </h3>
 
-  {% if retroachievements.error %}
-    <p class="ra-empty">RA error: {{ retroachievements.error }}</p>
-  {% elseif retroachievements.recent.length == 0 %}
-    <p class="ra-empty">no recent unlocks (yet)!</p>
-  {% else %}
     <ul class="ra-list">
-      {% for a in retroachievements.recent %}
+      {% for item in retroachievements.recent %}
         <li class="ra-item">
-          {% if a.gameIconUrl %}
-            <img class="ra-icon" src="{{ a.gameIconUrl }}" alt="{{ a.gameTitle }} icon" loading="lazy">
-          {% endif %}
+          <img class="ra-icon" src="{{ item.gameIconUrl }}" alt="{{ item.gameTitle }}" loading="lazy">
 
-          <div class="ra-text">
-            <a class="ra-ach" href="https://retroachievements.org/achievement/{{ a.achievementId }}" target="_blank" rel="noopener">
-              {{ a.title }}
-            </a>
-
-            <div class="ra-sub">
-              <a class="ra-game" href="https://retroachievements.org/game/{{ a.gameId }}" target="_blank" rel="noopener">
-                {{ a.gameTitle }}
+          <div class="ra-main">
+            <div class="ra-top">
+              <a class="ra-game"
+                 href="https://retroachievements.org/game/{{ item.gameId }}"
+                 target="_blank" rel="noopener">
+                {{ item.gameTitle }}
               </a>
-              <span class="ra-meta">
-                • {{ a.points }} pts{% if a.hardcore %} • hardcore{% endif %} • {{ a.date }}
-              </span>
+
+              <span class="ra-console-badge">{{ item.consoleName }}</span>
+
+              {% if item.hardcore %}
+                <span class="ra-hardcore-badge" title="Hardcore mode">HC</span>
+              {% endif %}
+            </div>
+
+            <div class="ra-sub ra-ach-row">
+              {% if item.achievementIconUrl %}
+                <img class="ra-ach-icon" src="{{ item.achievementIconUrl }}" alt="" loading="lazy">
+              {% endif %}
+
+              <a class="ra-ach"
+                 href="https://retroachievements.org/achievement/{{ item.achievementId }}"
+                 target="_blank" rel="noopener">
+                {{ item.title }}
+              </a>
+            </div>
+
+            <div class="ra-meta">
+              <span class="ra-date">Unlocked: {{ item.dateAgo }}</span>
             </div>
           </div>
         </li>
       {% endfor %}
     </ul>
-  {% endif %}
+  </div>
 </section>

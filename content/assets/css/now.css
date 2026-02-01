@@ -3,12 +3,77 @@
   src: url('../fonts/Nintendo-DS-BIOS.ttf') format('truetype');
 }
 
+/* =========================
+   THEME TOKENS
+========================= */
+:root {
+  --mint: #e8f5e9;
+  --mint-hover: #f1f8e9;
+  --green: #4caf50;
+  --green-dark: #1b5e20;
+  --green-text: #33691e;
+  --line: rgba(27, 94, 32, 0.25);
+  --shadow: rgba(76, 175, 80, 0.25);
+  --shadow-strong: rgba(76, 175, 80, 0.3);
+  --whitewash: rgba(255, 255, 255, 0.6);
+}
+
+/* =========================
+   PAGE BACKGROUND
+========================= */
 body {
   background-image: url('/assets/imgs/bg/tairu1-pink1-2.gif');
 }
 
-/* === Steam Widget (Froggy Flat Style — matches Last.fm widget) === */
+/* =========================
+   SHARED FLOATING WIDGET HEADERS
+   (Steam / Trakt / MAL / RA / Letterboxd / PSN)
+========================= */
+.steam-widget,
+.trakt-widget,
+.mal-widget,
+.ra-widget,
+.letterboxd-widget,
+.psn-widget {
+  position: relative;
+  padding-top: 26px; /* space for floating header */
+}
 
+.steam-widget h3,
+.trakt-widget h3,
+.mal-widget h3,
+.ra-widget h3,
+.letterboxd-widget h3,
+.psn-widget h3 {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: var(--mint);
+  padding: 3px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--green);
+
+  font-family: 'Gaegu', sans-serif;
+  font-size: 1rem;
+  color: #2e7d32;
+
+  box-shadow: 0 2px 4px var(--shadow);
+  white-space: nowrap;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  margin: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* =========================
+   STEAM WIDGET
+========================= */
 .steam-section {
   display: flex;
   justify-content: center;
@@ -18,38 +83,32 @@ body {
 }
 
 .steam-widget {
-  background-color: #e8f5e9; /* same as last.fm */
-  border: 2px solid #4caf50;
+  background-color: var(--mint);
+  border: 2px solid var(--green);
   border-radius: 12px;
   padding: 12px 16px;
-  color: #1b5e20;
+  color: var(--green-dark);
   font-family: 'Gaegu', sans-serif;
-  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 3px 5px var(--shadow);
   width: 520px;
   margin: 0 auto;
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 .steam-widget:hover {
-  background-color: #f1f8e9;
-  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
-}
-
-.steam-widget h3 {
-  font-size: 1.2rem;
-  color: #2e7d32;
-  margin: 0 0 0.3rem 0;
-  text-align: center;
+  background-color: var(--mint-hover);
+  box-shadow: 0 4px 10px var(--shadow-strong);
 }
 
 .steam-widget .total {
   font-size: 0.9rem;
-  color: #33691e;
-  margin-bottom: 0.8rem;
+  color: var(--green-text);
+  margin: 0.6rem 0 0.8rem;
   text-align: center;
 }
 
-/* === Game Grid === */
+/* Game grid */
 .steam-games {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +117,7 @@ body {
 }
 
 .steam-game {
-  background: #f1f8e9;
+  background: var(--mint-hover);
   border: 1px solid #a5d6a7;
   border-radius: 8px;
   width: 90px;
@@ -70,7 +129,7 @@ body {
 .steam-game:hover {
   background: #c8e6c9;
   transform: translateY(-4px);
-  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 2px 6px var(--shadow);
 }
 
 .steam-game img {
@@ -78,6 +137,7 @@ body {
   border-radius: 6px;
   border: 1px solid #81c784;
   margin-bottom: 4px;
+  display: block;
 }
 
 .steam-game .title {
@@ -92,7 +152,6 @@ body {
   color: #388e3c;
 }
 
-
 @media (max-width: 600px) {
   .steam-widget {
     width: 90%;
@@ -104,9 +163,9 @@ body {
   }
 }
 
-
-/* last fm now playing widget styles */
-/* --- Wrapper layout --- */
+/* =========================
+   LAST.FM NOW PLAYING
+========================= */
 .nowplaying-wrapper {
   display: flex;
   justify-content: space-between;
@@ -124,32 +183,29 @@ body {
   justify-content: center;
 }
 
-/* --- Adaptive container --- */
 #now-playing-box {
   width: 420px;
-  background-color: #e8f5e9;
-  border: 1px solid #4caf50;
+  background-color: var(--mint);
+  border: 1px solid var(--green);
   border-radius: 8px;
   padding: 8px;
   margin: 10px auto;
   font-family: 'Gaegu', sans-serif;
-  color: #1b5e20;
-  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.25);
+  color: var(--green-dark);
+  box-shadow: 0 2px 4px var(--shadow);
   transition: width 0.4s ease, background-color 0.3s ease;
 }
 
-/* Make the box wider when idle (to fit right-hand list) */
 .nowplaying-wrapper.idle #now-playing-box,
 #now-playing-box.idle {
   width: 520px;
 }
 
-/* --- Track Card --- */
 .track-card {
   display: flex;
   align-items: center;
   gap: 18px;
-  background: #f1f8e9;
+  background: var(--mint-hover);
   border: 1px solid #a5d6a7;
   border-radius: 6px;
   padding: 6px;
@@ -168,7 +224,6 @@ body {
   filter: grayscale(40%);
 }
 
-/* --- Album Art + Notes --- */
 .album-art {
   position: relative;
   margin-right: 6px;
@@ -178,7 +233,8 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 4px;
-  border: 1px solid #4caf50;
+  border: 1px solid var(--green);
+  display: block;
 }
 
 .music-notes {
@@ -197,26 +253,13 @@ body {
   transform: translateY(0);
 }
 
-/* Floating animation */
 @keyframes floatNote {
-  0% {
-    opacity: 0;
-    transform: translateY(10px) scale(0.9);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(-40px) scale(1.1);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-60px) scale(1);
-  }
+  0% { opacity: 0; transform: translateY(10px) scale(0.9); }
+  10% { opacity: 1; }
+  70% { opacity: 1; transform: translateY(-40px) scale(1.1); }
+  100% { opacity: 0; transform: translateY(-60px) scale(1); }
 }
 
-/* --- Right-hand recent tracks --- */
 .recent-tracks-side {
   width: 150px;
   text-align: left;
@@ -227,7 +270,7 @@ body {
 
 .recent-tracks-side .recent-title {
   font-size: 0.9em;
-  color: #33691e;
+  color: var(--green-text);
   font-weight: bold;
   margin-bottom: 4px;
 }
@@ -250,6 +293,7 @@ body {
   height: 24px;
   border-radius: 4px;
   border: 1px solid #a5d6a7;
+  display: block;
 }
 
 .recent-info {
@@ -266,10 +310,9 @@ body {
 
 .recent-artist {
   font-size: 0.75em;
-  color: #33691e;
+  color: var(--green-text);
 }
 
-/* --- Fade Animation --- */
 .fade-in {
   animation: fadeIn 0.6s forwards;
 }
@@ -279,39 +322,32 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-
-/* === Letterboxd Widget === */
-
+/* =========================
+   LETTERBOXD WIDGET
+========================= */
 .letterboxd-widget {
-  background-color: #e8f5e9; /* same mint background */
-  border: 2px solid #4caf50;
+  background-color: var(--mint);
+  border: 2px solid var(--green);
   border-radius: 12px;
   padding: 12px 16px;
-  color: #1b5e20;
+  color: var(--green-dark);
   font-family: 'Gaegu', sans-serif;
-  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 3px 5px var(--shadow);
   width: 520px;
   margin: 2rem auto;
   text-align: center;
-  position: relative;
   transition: all 0.3s ease;
 }
 
 .letterboxd-widget:hover {
-  background-color: #f1f8e9;
-  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
-}
-
-.letterboxd-widget h3 {
-  font-size: 1.2rem;
-  color: #2e7d32;
-  margin: 0 0 0.5rem 0;
+  background-color: var(--mint-hover);
+  box-shadow: 0 4px 10px var(--shadow-strong);
 }
 
 .letterboxd-embed-container {
   border: 1px solid #a5d6a7;
   border-radius: 8px;
-  background: #f1f8e9;
+  background: var(--mint-hover);
   padding: 6px;
   box-shadow: inset 0 0 6px rgba(76, 175, 80, 0.1);
 }
@@ -322,11 +358,9 @@ body {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(76, 175, 80, 0.2);
   background-color: #fff;
-  height: 800px; /* adjust as needed to show all diary entries */
+  height: 800px;
 }
 
-
-/* responsive tweaks */
 @media (max-width: 600px) {
   .letterboxd-widget {
     width: 90%;
@@ -338,6 +372,9 @@ body {
   }
 }
 
+/* =========================
+   PAGE HEADER / ACTIVITY WRAPPER
+========================= */
 .activity-section {
   display: flex;
   flex-direction: column;
@@ -345,21 +382,6 @@ body {
   margin: 0 auto;
   padding: 1rem;
   max-width: 600px;
-}
-
-.psn-widget {
-  background-color: #e8f5e9; /* same mint background */
-  border: 2px solid #4caf50;
-  border-radius: 12px;
-  padding: 12px 16px;
-  color: #1b5e20;
-  font-family: 'Gaegu', sans-serif;
-  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
-  width: 520px;
-  margin: 2rem auto;
-  text-align: center;
-  position: relative;
-  transition: all 0.3s ease;
 }
 
 .page-header {
@@ -372,12 +394,11 @@ body {
   max-width: 200px;
   height: auto;
   filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.1));
-
 }
 
 .page-header p {
   font-size: 2rem;
-  color: #33691e;
+  color: var(--green-text);
   margin-top: -50px;
 }
 
@@ -390,37 +411,50 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-/* === MyAnimeList Widget === */
-/* Container */
 
+/* =========================
+   PSN WIDGET (kept same shell style)
+========================= */
+.psn-widget {
+  background-color: var(--mint);
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: var(--green-dark);
+  font-family: 'Gaegu', sans-serif;
+  box-shadow: 0 3px 5px var(--shadow);
+  width: 520px;
+  margin: 2rem auto;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* =========================
+   MAL WIDGET (aligned with others)
+========================= */
 .mal-section {
   margin: 2rem auto;
-  max-width: 900px;
+  max-width: 520px;
 }
 
 .mal-widget {
-  background: #e8f5e9;
-  border-radius: 1.5rem;
-  padding: 1.5rem 1.75rem;
-  border: 2px solid #4caf50;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(6px);
-}
-
-.mal-widget h3 {
-  margin: 0 0 0.25rem;
-  font-size: 1.2rem;
-  color: #2e7d32;
+  background: var(--mint);
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 2px solid var(--green);
+  box-shadow: 0 3px 5px var(--shadow);
+  font-family: 'Gaegu', sans-serif;
+  color: var(--green-dark);
 }
 
 .mal-subtitle {
-  margin: 0;
-  font-size: 0.8rem;
-  opacity: 0.7;
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+  color: var(--green-text);
+  opacity: 0.85;
 }
 
 /* Grid */
-
 .mal-anime-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -429,7 +463,6 @@ body {
 }
 
 /* Card */
-
 .mal-anime {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 1.1rem;
@@ -448,8 +481,6 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
 }
 
-/* Image + episode pill */
-
 .mal-anime-image-wrap {
   position: relative;
   aspect-ratio: 2 / 3;
@@ -467,7 +498,7 @@ body {
   position: absolute;
   bottom: 0.5rem;
   right: 0.5rem;
-  background: #4caf50;
+  background: var(--green);
   color: white;
   font-size: 0.75rem;
   padding: 0.25rem 0.6rem;
@@ -475,22 +506,20 @@ body {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.85);
 }
 
-/* Info */
-
 .mal-anime-info {
   padding: 0.7rem 0.8rem 0.85rem;
 }
 
 .mal-anime-info h4 {
   margin: 0 0 0.2rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.3;
 }
 
 .mal-score {
   margin: 0;
   font-size: 0.8rem;
-  color: #1b5e20;
+  color: var(--green-dark);
   opacity: 0.8;
 }
 
@@ -512,7 +541,6 @@ body {
   flex: 1 1 auto;
 }
 
-/* Completed side column – similar to recent-tracks-side */
 .mal-completed-side {
   width: 190px;
   font-size: 0.8rem;
@@ -522,7 +550,7 @@ body {
 
 .mal-completed-title {
   font-size: 0.85rem;
-  color: #33691e;
+  color: var(--green-text);
   font-weight: bold;
   margin: 0 0 4px;
   text-transform: lowercase;
@@ -541,7 +569,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* link wraps thumb + text */
 .mal-completed-link {
   display: flex;
   align-items: center;
@@ -551,7 +578,6 @@ body {
   color: #2e7d32;
 }
 
-/* tiny thumbnail */
 .mal-completed-thumb {
   width: 26px;
   height: 26px;
@@ -573,19 +599,17 @@ body {
 
 .mal-completed-episodes {
   font-size: 0.7rem;
-  color: #33691e;
+  color: var(--green-text);
   opacity: 0.85;
 }
 
-/* score sits on the right */
 .mal-completed-score {
   font-size: 0.7rem;
-  color: #1b5e20;
+  color: var(--green-dark);
   font-weight: bold;
   margin-left: 4px;
 }
 
-/* Stack on mobile like the Last.fm widget */
 @media (max-width: 800px) {
   .mal-layout {
     flex-direction: column;
@@ -601,45 +625,155 @@ body {
   }
 }
 
-/* === RetroAchievements Widget === */
-
+/* =========================
+   RETROACHIEVEMENTS WIDGET
+========================= */
 .ra-widget {
   width: 520px;
   margin: 2rem auto;
   padding: 12px 16px;
-  border: 2px solid #4caf50;
+  border: 2px solid var(--green);
   border-radius: 12px;
-  background: #e8f5e9;
-  color: #1b5e20;
+  background: var(--mint);
+  color: var(--green-dark);
   font-family: 'Gaegu', sans-serif;
-  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 3px 5px var(--shadow);
+  text-align: left;
 }
 
-.ra-list { list-style: none; padding: 0; margin: 12px 0 0; }
-.ra-item { display: flex; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px dashed rgba(27, 94, 32, 0.25); }
-.ra-item:first-child { border-top: 0; }
+.ra-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
 
+.ra-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px dashed var(--line);
+}
+
+.ra-item:first-child {
+  border-top: 0;
+}
+
+/* icons */
 .ra-icon {
   width: 22px;
   height: 22px;
   flex: 0 0 22px;
   border-radius: 6px;
-  border: 1px solid rgba(27, 94, 32, 0.25);
-  background: rgba(255,255,255,0.6);
+  border: 1px solid var(--line);
+  background: var(--whitewash);
 }
 
-.ra-ach { color: inherit; font-weight: 700; text-decoration: none; }
-.ra-ach:hover { text-decoration: underline; }
+.ra-ach-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+  background: var(--whitewash);
+}
 
-.ra-sub { font-size: 0.9rem; opacity: 0.95; }
-.ra-game { color: inherit; text-decoration: none; font-weight: 600; }
-.ra-game:hover { text-decoration: underline; }
+.ra-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
 
-.ra-empty { margin: 0.75rem 0 0; opacity: 0.85; }
+.ra-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.1;
+  min-width: 0;
+  flex-wrap: wrap;
+}
 
-/* === Trakt Widget === */
-/* === Trakt Widget (flat froggy style — matches Steam/Letterboxd) === */
+.ra-game,
+.ra-ach {
+  color: inherit;
+  text-decoration: none;
+}
 
+.ra-game {
+  font-weight: 600;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ra-ach {
+  font-weight: 700;
+}
+
+.ra-game:hover,
+.ra-ach:hover {
+  text-decoration: underline;
+}
+
+.ra-ach-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ra-sub {
+  font-size: 0.9rem;
+  opacity: 0.95;
+}
+
+.ra-meta {
+  font-size: 0.72rem;
+  color: var(--green-text);
+  opacity: 0.85;
+  line-height: 1.1;
+}
+
+.ra-date {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* badges */
+.ra-console-badge,
+.ra-hardcore-badge {
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8);
+  line-height: 1;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.ra-console-badge {
+  background: var(--green);
+  text-transform: uppercase;
+}
+
+.ra-hardcore-badge {
+  background: var(--green-dark);
+  font-size: 0.62rem;
+}
+
+.ra-empty {
+  margin: 0.75rem 0 0;
+  opacity: 0.85;
+}
+
+/* =========================
+   TRAKT WIDGET
+========================= */
 .trakt-section {
   display: flex;
   justify-content: center;
@@ -649,13 +783,13 @@ body {
 }
 
 .trakt-widget {
-  background-color: #e8f5e9;
-  border: 2px solid #4caf50;
+  background-color: var(--mint);
+  border: 2px solid var(--green);
   border-radius: 12px;
   padding: 12px 16px;
-  color: #1b5e20;
+  color: var(--green-dark);
   font-family: 'Gaegu', sans-serif;
-  box-shadow: 0 3px 5px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 3px 5px var(--shadow);
   width: 520px;
   margin: 0 auto;
   text-align: center;
@@ -663,26 +797,20 @@ body {
 }
 
 .trakt-widget:hover {
-  background-color: #f1f8e9;
-  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
-}
-
-.trakt-widget h3 {
-  font-size: 1.2rem;
-  color: #2e7d32;
-  margin: 0 0 0.25rem 0;
+  background-color: var(--mint-hover);
+  box-shadow: 0 4px 10px var(--shadow-strong);
 }
 
 .trakt-subtitle {
-  margin: 0 0 0.8rem 0;
+  margin: 0.6rem 0 0.8rem;
   font-size: 0.85rem;
-  color: #33691e;
+  color: var(--green-text);
   opacity: 0.85;
 }
 
-/* --- Current show (featured) --- */
+/* Current show (featured) */
 .trakt-current-card {
-  background: #f1f8e9;
+  background: var(--mint-hover);
   border: 1px solid #a5d6a7;
   border-radius: 10px;
   overflow: hidden;
@@ -694,7 +822,7 @@ body {
 .trakt-current-card:hover {
   background: #c8e6c9;
   transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 2px 6px var(--shadow);
 }
 
 .trakt-current-card a {
@@ -720,12 +848,11 @@ body {
   display: block;
 }
 
-/* SxE pill */
 .trakt-pill {
   position: absolute;
   bottom: 6px;
   right: 6px;
-  background: #4caf50;
+  background: var(--green);
   color: white;
   font-size: 0.72rem;
   padding: 0.22rem 0.5rem;
@@ -743,7 +870,7 @@ body {
 .trakt-meta {
   margin: 0;
   font-size: 0.85rem;
-  color: #33691e;
+  color: var(--green-text);
   opacity: 0.9;
 }
 
@@ -754,11 +881,11 @@ body {
 .trakt-episode-title {
   margin: 4px 0 0;
   font-size: 0.8rem;
-  color: #1b5e20;
+  color: var(--green-dark);
   opacity: 0.85;
 }
 
-/* --- Last 3 movies row --- */
+/* last 3 movies */
 .trakt-movies {
   display: flex;
   justify-content: center;
@@ -767,7 +894,7 @@ body {
 }
 
 .trakt-movie {
-  background: #f1f8e9;
+  background: var(--mint-hover);
   border: 1px solid #a5d6a7;
   border-radius: 8px;
   width: 150px;
@@ -779,7 +906,7 @@ body {
 .trakt-movie:hover {
   background: #c8e6c9;
   transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(76, 175, 80, 0.25);
+  box-shadow: 0 2px 6px var(--shadow);
 }
 
 .trakt-movie a {
@@ -818,7 +945,7 @@ body {
 
 .trakt-movie-sub {
   font-size: 0.72rem;
-  color: #33691e;
+  color: var(--green-text);
   opacity: 0.9;
   margin-top: 2px;
 }
@@ -828,7 +955,6 @@ body {
   opacity: 0.8;
 }
 
-/* responsive tweaks */
 @media (max-width: 600px) {
   .trakt-widget {
     width: 90%;
@@ -838,4 +964,23 @@ body {
   .trakt-movie {
     width: 145px;
   }
+}
+
+.steam-widget h3 a,
+.trakt-widget h3 a,
+.mal-widget h3 a,
+.ra-widget h3 a,
+.letterboxd-widget h3 a,
+.psn-widget h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.steam-widget h3 a:hover,
+.trakt-widget h3 a:hover,
+.mal-widget h3 a:hover,
+.ra-widget h3 a:hover,
+.letterboxd-widget h3 a:hover,
+.psn-widget h3 a:hover {
+  text-decoration: underline;
 }
