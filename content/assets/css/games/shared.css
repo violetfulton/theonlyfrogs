@@ -3,6 +3,11 @@
   src: url('/assets/fonts/Gaegu/Gaegu-Light.ttf');
 }
 
+@font-face {
+  font-family: 'FortySeven Micro NBP';
+  src: url('/assets/fonts/fortyseven-micro-nbp/47micro0.ttf');
+}
+
 /* =========================
    NEON ARCADE TOKENS
 ========================= */
