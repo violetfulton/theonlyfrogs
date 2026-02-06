@@ -1,0 +1,592 @@
+/* ==================================================
+   Pokémon Shrine — Hall of Fame
+   Runs + Photo strips + “museum wall” vibe
+   + Expandable Progress Panel (details/summary)
+   + CSS-only polish (hover + arrow + open styling)
+================================================== */
+
+/* =========================
+   Layout
+========================= */
+
+.hof-grid{
+  display: grid;
+  gap: 14px;
+}
+
+/* Each run card */
+.hof-run{
+  background: rgba(255,255,255,0.72);
+  border: 3px solid rgba(13,42,29,0.40);
+  border-radius: 18px;
+  box-shadow:
+    0 14px 26px rgba(0,0,0,0.14),
+    0 0 0 3px rgba(255,255,255,0.55) inset;
+  overflow: hidden;
+}
+
+/* Header stripe */
+.hof-run__header{
+  padding: 12px 14px 10px;
+  background: linear-gradient(180deg, rgba(131,203,255,0.18), rgba(254,200,237,0.10));
+  border-bottom: 1px solid rgba(13,42,29,0.14);
+}
+
+.hof-run__header h2{
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.hof-run__meta{
+  margin: 6px 0 0;
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.5;
+}
+
+/* Body: info left, photos right */
+.hof-run__body{
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 14px;
+  padding: 12px 14px 14px;
+}
+
+@media (max-width: 820px){
+  .hof-run__body{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   Info list + badges
+========================= */
+
+.hof-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hof-list li{
+  font-size: 10px;
+  line-height: 1.7;
+  padding: 6px 0;
+  border-bottom: 1px dashed rgba(13,42,29,0.18);
+}
+.hof-list li:last-child{ border-bottom: 0; }
+
+.hof-info{
+  min-width: 0;
+}
+
+.hof-badges{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.hof-badge{
+  font-size: 9px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 2px solid rgba(13,42,29,0.22);
+  background: rgba(255,255,255,0.55);
+  opacity: 0.92;
+}
+
+.hof-badge--emerald{
+  background: rgba(191,243,225,0.55);
+}
+
+/* =========================
+   Progress panel (details/summary)
+   Closed on refresh: DO NOT add [open] in HTML
+========================= */
+
+.hof-progress{
+  margin-top: 10px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.55);
+  border: 2px solid rgba(13,42,29,0.22);
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.45) inset,
+    0 10px 18px rgba(0,0,0,0.10);
+
+  overflow: hidden;
+}
+
+/* remove default marker */
+.hof-progress > summary{ list-style: none; }
+.hof-progress > summary::-webkit-details-marker{ display: none; }
+
+/* clickable header row */
+.hof-progress__summary{
+  cursor: pointer;
+  padding: 10px 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(191,243,225,0.18),
+    rgba(255,255,255,0)
+  );
+
+  border-bottom: 1px solid rgba(13,42,29,0.12);
+
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.hof-progress__summary:hover{
+  background: rgba(255,255,255,0.80);
+  transform: translateY(-1px);
+}
+
+.hof-progress__summary:focus-visible{
+  outline: 3px solid rgba(131,203,255,0.55);
+  outline-offset: 3px;
+  border-radius: 14px;
+}
+
+.hof-progress__summaryTitle{
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+/* summary pills */
+.hof-progress__summaryMeta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.hof-progress__pill{
+  font-size: 9px;
+  padding: 4px 8px;
+  border-radius: 999px;
+
+  background: rgba(232,245,233,0.75);
+  border: 2px solid rgba(13,42,29,0.20);
+}
+
+.hof-progress__pill.is-no{ background: rgba(255,210,210,0.65); }
+.hof-progress__pill.is-yes{ background: rgba(200,255,210,0.75); }
+
+/* arrow indicator (CSS-only) */
+.hof-progress__summary::after{
+  content: "▶";
+  font-size: 9px;
+  opacity: 0.75;
+  transform: rotate(0deg);
+  transition: transform 160ms ease;
+}
+
+.hof-progress[open] .hof-progress__summary::after{
+  transform: rotate(90deg);
+}
+
+/* expanded body */
+.hof-progress__body{
+  padding: 10px 12px 12px;
+  display: grid;
+  gap: 6px;
+}
+
+.hof-progress__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.hof-progress__label{
+  opacity: 0.85;
+}
+
+.hof-progress__value{
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 9px;
+
+  background: rgba(232,245,233,0.75);
+  border: 2px solid rgba(13,42,29,0.25);
+}
+
+.hof-progress__value.is-no{ background: rgba(255,210,210,0.65); }
+.hof-progress__value.is-yes{ background: rgba(200,255,210,0.75); }
+
+/* subtle closed/open vibe */
+.hof-progress:not([open]){ opacity: 0.92; }
+.hof-progress[open]{ opacity: 1; }
+
+/* WIP runs: slightly softer panel */
+.hof-run.is-wip .hof-progress{ opacity: 0.92; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .hof-progress__summary,
+  .hof-progress__summary::after{
+    transition: none;
+  }
+}
+
+/* =========================
+   Completed ribbon
+========================= */
+
+.hof-run.is-done::before{
+  content: "COMPLETED";
+  position: absolute;
+  top: 14px;
+  left: -42px;
+  transform: rotate(-45deg);
+
+  font-size: 9px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  color: #0d2a1d;
+  background: linear-gradient(
+    180deg,
+    rgba(191,243,225,0.95),
+    rgba(131,203,255,0.95)
+  );
+
+  padding: 6px 48px;
+  border: 1px solid rgba(13,42,29,0.35);
+
+  box-shadow:
+    0 2px 6px rgba(0,0,0,0.15),
+    0 0 0 2px rgba(255,255,255,0.55) inset;
+
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Slightly stronger presence for completed runs */
+.hof-run.is-done{
+  background: rgba(255,255,255,0.82);
+}
+
+/* =========================
+   Photos strip (scrollable)
+========================= */
+
+.scroll-hof{
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.hof-photo-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 820px){
+  .hof-photo-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px){
+  .hof-photo-grid{ grid-template-columns: 1fr; }
+}
+
+.hof-photo{
+  position: relative;
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+
+  background: rgba(255,255,255,0.35);
+  border: 2px solid rgba(255,255,255,0.55);
+
+  backdrop-filter: blur(7px) saturate(1.05);
+  -webkit-backdrop-filter: blur(7px) saturate(1.05);
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.35) inset,
+    0 10px 18px rgba(0,0,0,0.12);
+
+  filter: grayscale(0.65) brightness(0.98);
+  transition: filter 160ms ease, transform 160ms ease;
+}
+
+.hof-photo:hover,
+.hof-photo:focus-visible{
+  filter: grayscale(0) brightness(1);
+  transform: translateY(-1px);
+}
+
+.hof-photo img{
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.hof-hint{
+  margin: 8px 0 0;
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+.hof-empty{
+  grid-column: 1 / -1;
+  font-size: 9px;
+  line-height: 1.7;
+  padding: 12px 12px;
+  border-radius: 14px;
+  border: 2px dashed rgba(13,42,29,0.22);
+  background: rgba(255,255,255,0.45);
+  opacity: 0.9;
+}
+
+/* =========================
+   Future runs card
+========================= */
+
+.hof-future{
+  background: rgba(255,255,255,0.72);
+  border: 3px solid rgba(13,42,29,0.40);
+  border-radius: 18px;
+  box-shadow:
+    0 14px 26px rgba(0,0,0,0.14),
+    0 0 0 3px rgba(255,255,255,0.55) inset;
+  overflow: hidden;
+}
+
+.hof-future__header{
+  padding: 12px 14px 10px;
+  background: linear-gradient(180deg, rgba(191,243,225,0.16), rgba(255,255,255,0));
+  border-bottom: 1px solid rgba(13,42,29,0.14);
+}
+
+.hof-future__header h2{
+  margin: 0;
+  font-size: 12px;
+}
+
+.hof-future__sub{
+  margin: 6px 0 0;
+  font-size: 9px;
+  opacity: 0.78;
+  line-height: 1.6;
+}
+
+.hof-future__body{
+  padding: 12px 14px 14px;
+}
+
+.hof-note{
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* WIP meta */
+.hof-run.is-wip .hof-run__meta{
+  opacity: 0.78;
+}
+
+/* =========================
+   Team sprite row (HOF)
+========================= */
+
+.hof-team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 6px;
+  align-items: center;
+}
+
+.hof-team__wrap{
+  position: relative;
+  display: inline-flex;
+  border-radius: 12px;
+}
+
+/* sprite tile */
+.hof-team__sprite{
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+
+  background: rgba(255,255,255,0.40);
+  border-radius: 12px;
+  padding: 2px;
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.45) inset,
+    0 6px 10px rgba(0,0,0,0.12);
+}
+
+/* WIP runs look muted */
+.hof-team__sprite.is-muted{
+  filter: grayscale(1) brightness(0.86);
+  opacity: 0.88;
+}
+
+/* Empty party slots */
+.hof-team__slot{
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.28),
+    rgba(255,255,255,0.12)
+  );
+
+  border: 2px dashed rgba(13,42,29,0.22);
+}
+
+/* MVP highlight ring + glow */
+.hof-team__wrap.is-mvp .hof-team__sprite{
+  outline: 3px solid rgba(38, 186, 246, 0.95);
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.55) inset,
+    0 0 18px rgba(38,186,246,0.35),
+    0 10px 16px rgba(0,0,0,0.14);
+}
+
+/* sparkle badge */
+.hof-team__wrap.is-mvp::after{
+  content: "✦";
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 12px;
+  color: rgba(38,186,246,0.95);
+  text-shadow: 1px 1px rgba(0,0,0,0.35);
+  transform: rotate(10deg);
+}
+
+/* tiny helper text */
+.hof-teamhint{
+  margin: 6px 0 0;
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+/* ===== Team row: sprites inline next to “Team:” ===== */
+
+.hof-teamrow{
+  display: grid;
+  grid-template-columns: 78px 1fr; /* label width + content */
+  gap: 10px;
+  align-items: center;
+}
+
+.hof-team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.hof-sprite{
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+
+  border-radius: 12px;
+  padding: 4px;
+
+  background: rgba(255,255,255,0.40);
+  border: 2px solid rgba(255,255,255,0.55);
+
+  backdrop-filter: blur(7px) saturate(1.05);
+  -webkit-backdrop-filter: blur(7px) saturate(1.05);
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.35) inset,
+    0 10px 18px rgba(0,0,0,0.10);
+
+  filter: grayscale(0.65) brightness(0.98);
+  transition: filter 160ms ease, transform 160ms ease;
+}
+
+.hof-sprite:hover,
+.hof-sprite:focus-visible{
+  filter: grayscale(0) brightness(1);
+  transform: translateY(-1px);
+}
+
+.hof-sprite.is-mvp{
+  filter: grayscale(0) brightness(1.02);
+  border-color: rgba(38,186,246,0.55);
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.55) inset,
+    0 0 18px rgba(38,186,246,0.30),
+    0 10px 18px rgba(0,0,0,0.12);
+}
+
+.hof-team--empty{
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+@media (max-width: 520px){
+  .hof-teamrow{
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+}
+
+.hof-teamline{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.hof-team--inline{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.hof-team__sprite{
+  width: 40px;
+  height: 40px;
+  image-rendering: pixelated;
+}
+
+.hof-team__slot{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px dashed rgba(13,42,29,0.18);
+  background: rgba(255,255,255,0.25);
+}
+
+.hof-team__wrap.is-mvp{
+  filter: drop-shadow(0 0 10px rgba(254,200,237,0.55));
+}
+
+.hof-team__sprite.is-muted{
+  filter: grayscale(0.7) brightness(0.95);
+  opacity: 0.85;
+}

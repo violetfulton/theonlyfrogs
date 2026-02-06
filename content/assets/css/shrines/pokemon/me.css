@@ -1,0 +1,140 @@
+/* ==================================================
+   Pokémon Shrine — About the Trainer (simple)
+================================================== */
+
+.trainer-strip{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+@media (max-width: 820px){
+  .trainer-strip{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px){
+  .trainer-strip{
+    grid-template-columns: 1fr;
+  }
+}
+
+.trainer-shot{
+  margin: 0;
+}
+
+.trainer-shot__link{
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+
+  background: rgba(255,255,255,0.35);
+  border: 2px solid rgba(255,255,255,0.55);
+
+  backdrop-filter: blur(7px) saturate(1.05);
+  -webkit-backdrop-filter: blur(7px) saturate(1.05);
+
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.35) inset,
+    0 10px 18px rgba(0,0,0,0.12);
+
+  filter: grayscale(0.25) brightness(0.98);
+  transition: filter 160ms ease, transform 160ms ease;
+}
+
+.trainer-shot__link:hover,
+.trainer-shot__link:focus-visible{
+  filter: grayscale(0) brightness(1);
+  transform: translateY(-1px);
+}
+
+.trainer-shot img{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+.trainer-shot__cap{
+  margin-top: 8px;
+  font-size: 9px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.trainer-hint{
+  margin: 10px 0 0;
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+/* =========================
+   Dex Achievements (3-up)
+========================= */
+
+.dex-grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.dex-card{
+  grid-column: span 4;
+
+  background: rgba(255, 255, 255, 0.55);
+  border: 2px solid rgba(120, 140, 155, 0.35);
+  border-radius: 18px;
+  padding: 10px;
+  text-align: center;
+
+  backdrop-filter: blur(8px) saturate(1.05);
+  -webkit-backdrop-filter: blur(8px) saturate(1.05);
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.5) inset,
+    0 10px 20px rgba(0,0,0,0.12);
+
+  transition: transform 160ms ease, filter 160ms ease;
+}
+
+.dex-card:hover{
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+}
+
+/* Images */
+.dex-card img{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.dex-card figcaption{
+  margin-top: 8px;
+  font-size: 9px;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+/* Tablet: 2-up */
+@media (max-width: 900px){
+  .dex-card{ grid-column: span 6; }
+}
+
+/* Mobile: 1-up */
+@media (max-width: 520px){
+  .dex-card{ grid-column: span 12; }
+}
+
+.dex-hint{
+  margin-top: 10px;
+  font-size: 9px;
+  opacity: 0.75;
+  text-align: center;
+}

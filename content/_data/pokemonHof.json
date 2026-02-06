@@ -1,0 +1,161 @@
+{
+  "gens": [
+    {
+      "gen": 1,
+      "region": "Kanto",
+      "games": "Red / Blue / Yellow",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 2,
+      "region": "Johto",
+      "games": "Gold / Silver / Crystal",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 3,
+      "region": "Hoenn",
+      "games": "Ruby / Sapphire / Emerald",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [
+            { "dex": 252, "name": "Treecko" },
+            { "dex": 309, "name": "Electrike" },
+            { "dex": 280, "name": "Ralts" }
+          ],
+          "mvpDex": 252,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 4,
+      "region": "Sinnoh",
+      "games": "Diamond / Pearl / Platinum",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 5,
+      "region": "Unova",
+      "games": "Black / White / B2W2",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 6,
+      "region": "Kalos",
+      "games": "X / Y",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 7,
+      "region": "Alola",
+      "games": "Sun / Moon / USUM",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 8,
+      "region": "Galar",
+      "games": "Sword / Shield",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    },
+    {
+      "gen": 9,
+      "region": "Paldea",
+      "games": "Scarlet / Violet",
+      "runs": [
+        {
+          "status": "wip",
+          "starter": "",
+          "team": [],
+          "mvpDex": null,
+          "mvp": "",
+          "moment": "",
+          "progress": { "badges": 0, "badgesTotal": 8, "e4": false, "champ": false },
+          "photos": []
+        }
+      ]
+    }
+  ]
+}

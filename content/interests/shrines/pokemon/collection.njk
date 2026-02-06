@@ -1,41 +1,152 @@
 ---
-title: "Pokémon Collection"
+title: "Shiny Collection"
 layout: layouts/pokeBase.njk
-customcss: '/assets/css/pokemon.css'
+customcss:
+  - /assets/css/shrines/pokemon/pages.css
+  - /assets/css/shrines/pokemon/shinies.css
 permalink: /shrines/pokemon/collection/
 ---
-<header>
-  <h1>Pokémon Collection</h1>
-  <p>A showcase of my beloved Pokémon!</p>
-</header>
-<main>
-  <section class="collection-section">
-    <div class="collection-entry">
-      <h2>My Favorite Pokémon</h2>
-      <ul class="favorite-list">
-        <li>Bulbasaur</li>
-        <li>Froakie</li>
-        <li>Cubone</li>
-        <li>Trubbish</li>
-      </ul>
+
+{% set shinies = pokemonShinies.items %}
+{% set spriteBase = pokemonShinies.spriteBase %}
+
+<section class="poke-page">
+  <header class="poke-hero">
+    <h1>✨ Shiny Collection</h1>
+    <p>My shiny trophy case — built like a little GBA-era Pokédex page.</p>
+  </header>
+
+  <section class="poke-panel">
+    <h2>Filters</h2>
+
+    <div class="shiny-controls">
+      <div class="control">
+        <label for="shinySearch">Search</label>
+        <input id="shinySearch" type="search" placeholder="ralts, route, emerald, sensu..." autocomplete="off">
+      </div>
+
+      <div class="control">
+        <label for="shinyStatus">Status</label>
+        <select id="shinyStatus">
+          <option value="">All</option>
+          <option value="owned">Owned</option>
+          <option value="target">Target</option>
+          <option value="failed">Failed</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="shinyGame">Game</label>
+        <select id="shinyGame">
+          <option value="">All</option>
+          {# build unique list from data #}
+          {% set games = [] %}
+          {% for s in shinies %}
+            {% if s.game and (s.game not in games) %}
+              {% set games = games.concat([s.game]) %}
+            {% endif %}
+          {% endfor %}
+          {% for g in games | sort %}
+            <option value="{{ g | lower }}">{{ g }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="shinyMethod">Method</label>
+        <select id="shinyMethod">
+          <option value="">All</option>
+          {% set methods = [] %}
+          {% for s in shinies %}
+            {% if s.method and (s.method not in methods) %}
+              {% set methods = methods.concat([s.method]) %}
+            {% endif %}
+          {% endfor %}
+          {% for m in methods | sort %}
+            <option value="{{ m | lower }}">{{ m }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="shinySort">Sort</label>
+        <select id="shinySort">
+          <option value="dex-asc">Dex ↑</option>
+          <option value="dex-desc">Dex ↓</option>
+          <option value="name-asc">Name A→Z</option>
+          <option value="name-desc">Name Z→A</option>
+          <option value="date-desc">Date newest</option>
+          <option value="date-asc">Date oldest</option>
+        </select>
+      </div>
     </div>
-    <div class="collection-entry">
-      <h2>Legendary Pokémon</h2>
-      <ul class="legendary-list">
-        <li>Articuno</li>
-        <li>Zapdos</li>
-        <li>Moltres</li>
-        <li>Mewtwo</li>
-        <li>Lugia</li>
-      </ul>
+
+    <div class="shiny-stats" aria-label="counts">
+      <span class="stat-pill">Showing: <strong id="countTotal">{{ shinies | length }}</strong></span>
+      <span class="stat-pill">Owned: <strong id="countOwned">0</strong></span>
+      <span class="stat-pill">Targets: <strong id="countTarget">0</strong></span>
+      <span class="stat-pill">Failed: <strong id="countFailed">0</strong></span>
     </div>
   </section>
 
+  <div id="shinyGrid" class="shiny-grid">
+    {% for s in shinies %}
+      {% set status = (s.status or "target") | lower %}
+      {% set dex = s.dex or 0 %}
+      {% set form = s.form or "" %}
+      {% set sprite = spriteBase ~ "/shiny/" ~ dex ~ ".png" %}
 
-<div style="width:324px; height:264px; text-align:left;">
-  <iframe src="/interests/shrines/pokemon/9bnfuu/pokedexwidget.html" style="border:2px solid #106220; width:320px; height:240px;"></iframe>
-</div>
-</main>
-<footer>
-  <p>Here's to many more adventures in the world of Pokémon!</p>
-</footer>
+      <article
+        class="shiny-card"
+        data-dex="{{ dex }}"
+        data-name="{{ s.name }}"
+        data-form="{{ form | lower }}"
+        data-status="{{ status }}"
+        data-game="{{ (s.game or '') | lower }}"
+        data-method="{{ (s.method or '') | lower }}"
+        data-date="{{ s.date or '' }}"
+        data-search="{{ (s.name ~ ' ' ~ form ~ ' ' ~ (s.game or '') ~ ' ' ~ (s.method or '') ~ ' ' ~ (s.notes or '') ~ ' #' ~ dex) | lower }}"
+      >
+        <div class="shiny-top">
+          <img
+            class="shiny-sprite"
+            src="{{ sprite }}"
+            alt="Shiny sprite of {{ s.name }}{% if form %} ({{ form }}){% endif %}"
+            loading="lazy"
+          >
+
+          <div class="shiny-title">
+            <h3 class="shiny-name">
+              #{{ dex }} {{ s.name }}
+              {% if form %}
+                <span class="shiny-form">({{ form }})</span>
+              {% endif %}
+            </h3>
+
+            <div class="shiny-meta">
+              {% if s.game %}<div><strong>Game:</strong> {{ s.game }}</div>{% endif %}
+              {% if s.method %}<div><strong>Method:</strong> {{ s.method }}</div>{% endif %}
+              {% if s.date %}<div><strong>Date:</strong> {{ s.date }}</div>{% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="badges">
+          <span class="badge badge-{{ status }}">{{ status }}</span>
+          {% if s.game %}<span class="badge">{{ s.game }}</span>{% endif %}
+          {% if form %}<span class="badge badge-form">{{ form }}</span>{% endif %}
+        </div>
+
+        {% if s.notes %}
+          <div class="shiny-notes">{{ s.notes }}</div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+
+  <div id="shinyEmpty" class="poke-panel shiny-empty" style="display:none;">
+    No matches — try clearing filters ✨
+  </div>
+</section>
+
+<script src="/assets/js/pokemon/shinies.js"></script>

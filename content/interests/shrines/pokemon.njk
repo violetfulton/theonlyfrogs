@@ -1,9 +1,93 @@
 ---
 title: "Pokemon Shrine"
 layout: layouts/pokeBase.njk
-customcss: '/assets/css/pokemon.css'
+customcss:
+  - /assets/css/shrines/pokemon/home.css
 permalink: /shrines/pokemon/
 ---
 
-<img src="/assets/imgs/graphics/pokemon-card.png" alt="Pokemon Trainer Card" class="shrine-trainer-card">
+<header class="poke-home-hero">
+  <img src="/assets/imgs/pokemon/pokemon-logo.png" alt="Pokémon Logo" class="poke-home-logo">
 
+ <div class="gba-dialog" role="note" aria-label="GBA intro dialog">
+  <p class="gba-dialog__line gba-dialog__title gba-type">
+    <span class="gba-type__text">Welcome to my Pokémon Shrine!</span>
+    <span class="gba-type__reveal" aria-hidden="true">Welcome to my Pokémon Shrine!</span>
+  </p>
+
+  <p class="gba-dialog__line gba-type">
+    <span class="gba-type__text">
+      Explore my journey, shinies, physical collection, and Hall of Fame teams.
+      <span class="gba-cursor" aria-hidden="true">▶</span>
+    </span>
+
+    <span class="gba-type__reveal" aria-hidden="true">
+      Explore my journey, shinies, physical collection, and Hall of Fame teams.
+      <span class="gba-cursor" aria-hidden="true">▶</span>
+    </span>
+  </p>
+
+  <p class="gba-dialog__hint" aria-hidden="true">Press A</p>
+</div>
+</header>
+<div class="poke-home">
+  <section class="poke-panel">
+    <h2>About This Shrine</h2>
+    <p>
+      As a lifelong Pokémon fan, I've created this shrine to celebrate my love for the franchise.
+      Here, you'll find my trainer page, shiny log, physical collection, and Hall of Fame teams.
+      Whether you're a fellow fan or just curious, I hope you enjoy exploring this little corner of the Pokémon world I've built!
+    </p>
+  </section>
+
+  <section class="poke-panel">
+    <h2>Explore the Shrine</h2>
+    <p class="poke-note">Use the PokéNav menu in the top-left, or click a page below:</p>
+
+    <ul class="poke-home-links">
+      <li>
+        <a class="poke-home-link" href="/shrines/pokemon/me/">🧢 My Pokémon Journey</a>
+        <span class="poke-home-desc">A glimpse into my adventures in the world of Pokémon.</span>
+      </li>
+      <li>
+        <a class="poke-home-link" href="/shrines/pokemon/collection/">✨ Shiny Collection</a>
+        <span class="poke-home-desc">Targets, owned shinies, and my shiny hunt log.</span>
+      </li>
+      <li>
+        <a class="poke-home-link" href="/shrines/pokemon/physical/">📦 Physical Collection</a>
+        <span class="poke-home-desc">Games, merch, cards, and shelf treasures.</span>
+      </li>
+      <li>
+        <a class="poke-home-link" href="/shrines/pokemon/hof/">🏆 Hall of Fame</a>
+        <span class="poke-home-desc">Teams that made it to the end (and the MVPs).</span>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<script>
+(() => {
+  const dialog = document.querySelector(".gba-dialog");
+  if (!dialog) return;
+
+  // Respect reduced motion
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce) {
+    dialog.classList.add("gba-typed-done");
+    return;
+  }
+
+  const reveals = dialog.querySelectorAll(".gba-type__reveal");
+  if (!reveals.length) return;
+
+  let doneCount = 0;
+  reveals.forEach(el => {
+    el.addEventListener("animationend", () => {
+      doneCount++;
+      if (doneCount >= reveals.length) {
+        dialog.classList.add("gba-typed-done");
+      }
+    }, { once: true });
+  });
+})();
+</script>

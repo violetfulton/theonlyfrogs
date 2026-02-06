@@ -1,0 +1,312 @@
+{
+  "spriteBase": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon",
+  "items": [
+
+
+    {
+      "dex": 280,
+      "name": "Ralts",
+      "status": "target",
+      "game": "Emerald",
+      "method": "Random Encounter",
+      "date": "",
+      "notes": "Route 102… someday."
+    },
+    {
+      "dex": 37,
+      "name": "Vulpix",
+      "status": "target",
+      "game": "LeafGreen",
+      "method": "Random Encounter",
+      "date": "",
+      "notes": "Dream shiny."
+    },
+    {
+      "dex": 147,
+      "name": "Dratini",
+      "status": "target",
+      "game": "FireRed",
+      "method": "SR / Gift / Safari",
+      "date": "",
+      "notes": "Pain but worth it."
+    },
+
+
+    {
+      "dex": 23,
+      "name": "Ekans",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-05-08",
+      "notes": "Golden snake friend."
+    },
+    {
+      "dex": 741,
+      "name": "Oricorio",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-06-08",
+      "notes": "Sensu Style — elegant spooky dancer energy.",
+      "form": "Sensu",
+      "formOptions": ["Baile", "Pom-Pom", "Pa'u", "Sensu"]
+    },
+    {
+      "dex": 978,
+      "name": "Tatsugiri",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2024-02-08",
+      "notes": "Curly Form shiny. Sushi gremlin #1.",
+      "form": "Curly",
+      "formOptions": ["Curly", "Droopy", "Stretchy"]
+    },
+    {
+      "dex": 978,
+      "name": "Tatsugiri",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2024-02-08",
+      "notes": "Stretchy Form shiny. Sushi gremlin #2.",
+      "form": "Stretchy",
+      "formOptions": ["Curly", "Droopy", "Stretchy"]
+    },
+    {
+      "dex": 287,
+      "name": "Slakoth",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-08-09",
+      "notes": "Sleepy pink baby."
+    },
+    {
+      "dex": 667,
+      "name": "Litleo",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-08-09",
+      "notes": "Tiny toasted lion."
+    },
+    {
+      "dex": 285,
+      "name": "Shroomish",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2024-08-12",
+      "notes": "Perfect mossy mushroom."
+    },
+    {
+      "dex": 967,
+      "name": "Cyclizar",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2023-10-28",
+      "notes": "Minty bike lizard."
+    },
+    {
+      "dex": 984,
+      "name": "Great Tusk",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-08-14",
+      "notes": "Paradox elephant goes HARD."
+    },
+    {
+      "dex": 999,
+      "name": "Gimmighoul",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Raids",
+      "date": "2024-08-16",
+      "notes": "Chest Form — correct little coin goblin.",
+      "form": "Chest",
+      "formOptions": ["Chest", "Roaming"]
+    },
+    {
+      "dex": 448,
+      "name": "Lucario",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-10-23",
+      "notes": "Classic golden boy."
+    },
+    {
+      "dex": 207,
+      "name": "Gligar",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2020-01-24",
+      "notes": "Bubblegum scorpion."
+    },
+    {
+      "dex": 103,
+      "name": "Exeggutor",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-10-24",
+      "notes": "Alolan Form — tall tropical menace.",
+      "form": "Alolan",
+      "formOptions": ["Kantonian", "Alolan"]
+    },
+    {
+      "dex": 86,
+      "name": "Seel",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-10-25",
+      "notes": "Lemon sorbet seal. Cookie-coded perfection."
+    },
+    {
+      "dex": 745,
+      "name": "Lycanroc",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-10-25",
+      "notes": "Midnight Form — edgy werewolf vibes.",
+      "form": "Midnight",
+      "formOptions": ["Midday", "Midnight", "Dusk"]
+    },
+    {
+      "dex": 55,
+      "name": "Golduck",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2024-10-25",
+      "notes": "Slightly radioactive duck."
+    },
+    {
+      "dex": 51,
+      "name": "Dugtrio",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2024-10-27",
+      "notes": "Three blue lads."
+    },
+    {
+      "dex": 624,
+      "name": "Pawniard",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2020-01-20",
+      "notes": "Tiny steel gremlin."
+    },
+    {
+      "dex": 402,
+      "name": "Kricketune",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2020-01-20",
+      "notes": "DELELELE WOOOOP."
+    },
+    {
+      "dex": 915,
+      "name": "Lechonk",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2020-01-24",
+      "notes": "Pink icon."
+    },
+    {
+      "dex": 749,
+      "name": "Mudbray",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2020-01-24",
+      "notes": "Dusty little donkey."
+    },
+    {
+      "dex": 418,
+      "name": "Buizel",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2020-01-25",
+      "notes": "Floaty citrus swimmer."
+    },
+    {
+      "dex": 384,
+      "name": "Rayquaza",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Raids",
+      "date": "2024-12-24",
+      "notes": "Black sky noodle legend."
+    },
+    {
+      "dex": 728,
+      "name": "Popplio",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2025-01-25",
+      "notes": "Pink seal perfection."
+    },
+    {
+      "dex": 938,
+      "name": "Tadbulb",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2025-01-27",
+      "notes": "Glowy little jelly bean."
+    },
+    {
+      "dex": 233,
+      "name": "Porygon2",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Outbreak",
+      "date": "2025-06-12",
+      "notes": "Neon cyber duck."
+    },
+    {
+      "dex": 774,
+      "name": "Minior",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Random Encounter",
+      "date": "2025-07-22",
+      "notes": "Shiny Core — cosmic marble perfection.",
+      "form": "Shiny Core",
+      "formOptions": ["Meteor", "Shiny Core"]
+    },
+
+{
+      "dex": 1,
+      "name": "Bulbasaur",
+      "status": "owned",
+      "game": "Scarlet / Violet",
+      "method": "Sandwich / Picnic",
+      "date": "2025-07-22",
+      "notes": "My proudest little green baby."
+    },
+    {
+  "dex": 658,
+  "name": "Greninja",
+  "status": "owned",
+  "game": "X / Y",
+  "method": "Soft Reset",
+  "date": "2023-10-23",
+  "notes": "One of my first hunts I remember, my precious."
+}
+  ]
+}

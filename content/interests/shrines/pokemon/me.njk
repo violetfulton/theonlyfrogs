@@ -1,21 +1,213 @@
 ---
-title: "My Pokémon Journey"
+title: "About the Trainer"
 layout: layouts/pokeBase.njk
-customcss: '/assets/css/pokemon.css'
+customcss:
+  - /assets/css/shrines/pokemon/pages.css
+  - /assets/css/shrines/pokemon/me.css
 permalink: /shrines/pokemon/me/
 ---
-<header>
-  <h1>My Pokémon Journey</h1>
-  <p>A glimpse into my adventures in the world of Pokémon!</p>
-</header>
-<main>
-  <section class="journey-section">
-    <div class="journey-entry">
-      <h2>First Pokémon Game</h2>
-      <p>I started my Pokémon journey with <strong>Pokémon Blue</strong> on the Game Boy Color.</p>
-    </div>
-  </section>
-</main>
-<footer>
-  <p>Here's to many more adventures in the world of Pokémon!</p>
-</footer>
+
+<section class="poke-page">
+  <header class="poke-hero">
+    <h1>About the Trainer</h1>
+    <p>Why Pokémon stuck with me — and why it still feels like home.</p>
+  </header>
+
+  <div class="poke-grid">
+
+    <!-- LEFT: the “why” -->
+    <section class="poke-panel poke-col-7">
+      <h2>Why I Love Pokémon</h2>
+
+      <p class="poke-note">
+        Pokémon, to me, is comfort and curiosity at the same time — the music, the menus, the tiny “route secrets,”
+        and that feeling of stepping into a world where your team becomes a little story.
+      </p>
+
+      <p class="poke-note">
+        I’m a <strong>FR/LG kid at heart</strong> and an <strong>Emerald enjoyer forever</strong>.
+        I love building balanced teams, hoarding items like a gremlin, and making my save file feel like a little
+        scrapbook of moments.
+      </p>
+
+      <div class="poke-chiprow" aria-label="my pokémon vibe">
+        <span class="poke-chip">🗺️ Route exploring</span>
+        <span class="poke-chip">🎒 Item hoarding</span>
+        <span class="poke-chip">✨ Shiny dreams</span>
+        <span class="poke-chip">🎧 GBA music</span>
+      </div>
+    </section>
+
+    <!-- RIGHT: quick “trainer card” -->
+    <section class="poke-panel poke-col-5">
+      <h2>Trainer Card</h2>
+
+      <ul class="poke-list">
+        <li><strong>Trainer:</strong> Violet</li>
+        <li><strong>Favourite Era:</strong> FireRed / LeafGreen + Emerald</li>
+        <li><strong>Starter Energy:</strong> Over-levelled and proud</li>
+        <li><strong>Favourite Kind of Moment:</strong> Finding something secret</li>
+      </ul>
+
+      <p class="poke-note" style="margin-top:10px;">
+        This page is a little “save file” for me — I’ll update it as I replay each gen.
+      </p>
+    </section>
+
+    <!-- PHOTO STRIP -->
+    <section class="poke-panel poke-col-12">
+      <h2>Trainer Photos</h2>
+      <p class="poke-note">
+        Little snapshots through the generations — box art, screenshots, teams, silly moments… anything that feels “me”.
+      </p>
+
+      <div class="trainer-strip" aria-label="trainer photo strip">
+
+        <figure class="trainer-shot">
+          <a
+            href="/assets/imgs/pokemon/trainer/gen3_960.png"
+            class="trainer-shot__link"
+            data-lightbox
+            data-caption="Gen 3 — Hoenn era 💚"
+          >
+            <img
+              src="/assets/imgs/pokemon/trainer/gen3_360.png"
+              alt="Trainer photo — Gen 3 era"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+          <figcaption class="trainer-shot__cap">Gen 3 — Hoenn era 💚</figcaption>
+        </figure>
+
+        <figure class="trainer-shot">
+          <a
+            href="/assets/imgs/pokemon/trainer/frlg_960.png"
+            class="trainer-shot__link"
+            data-lightbox
+            data-caption="FR/LG — comfort game 🔥🌿"
+          >
+            <img
+              src="/assets/imgs/pokemon/trainer/frlg_360.png"
+              alt="Trainer photo — FireRed/LeafGreen era"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+          <figcaption class="trainer-shot__cap">FR/LG — comfort game 🔥🌿</figcaption>
+        </figure>
+
+        <figure class="trainer-shot">
+          <a
+            href="/assets/imgs/pokemon/trainer/any_960.png"
+            class="trainer-shot__link"
+            data-lightbox
+            data-caption="Future gen — WIP ✨"
+          >
+            <img
+              src="/assets/imgs/pokemon/trainer/any_360.png"
+              alt="Trainer photo — future gen placeholder"
+              loading="lazy"
+              decoding="async"
+            >
+          </a>
+          <figcaption class="trainer-shot__cap">Future gen — WIP ✨</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+ <section class="poke-panel poke-col-12 dex-achievement">
+  <h2>📘 Pokédex Milestones</h2>
+
+  <p class="poke-note">
+    Finishing a Pokédex is my favourite kind of grind — quiet, methodical,
+    and deeply satisfying. These are the runs that actually made it to the end.
+  </p>
+
+  <div class="dex-grid">
+
+    <!-- Let’s Go Eevee -->
+    <figure class="dex-card">
+      <a href="/assets/imgs/pokemon/dex/lgpe-diploma_1200.png"
+         class="dex-card__link"
+         data-lightbox>
+        <img
+          src="/assets/imgs/pokemon/dex/lgpe-diploma_360.png"
+          srcset="
+            /assets/imgs/pokemon/dex/lgpe-diploma_240.png 240w,
+            /assets/imgs/pokemon/dex/lgpe-diploma_360.png 360w
+          "
+          sizes="(max-width: 820px) 90vw, 360px"
+          alt="Let’s Go Eevee Pokédex completion diploma"
+          loading="lazy"
+          decoding="async"
+        >
+      </a>
+      <figcaption class="dex-card__cap">
+        Let’s Go Eevee — Full Pokédex
+      </figcaption>
+    </figure>
+
+    <!-- Ultra Sun / Ultra Moon -->
+    <figure class="dex-card">
+      <a href="/assets/imgs/pokemon/dex/usum-dex-complete_1200.png"
+         class="dex-card__link"
+         data-lightbox>
+        <img
+          src="/assets/imgs/pokemon/dex/usum-dex-complete_360.png"
+          srcset="
+            /assets/imgs/pokemon/dex/usum-dex-complete_240.png 240w,
+            /assets/imgs/pokemon/dex/usum-dex-complete_360.png 360w
+          "
+          sizes="(max-width: 820px) 90vw, 360px"
+          alt="Ultra Sun / Ultra Moon Pokédex completion"
+          loading="lazy"
+          decoding="async"
+        >
+      </a>
+      <figcaption class="dex-card__cap">
+        Ultra Sun / Ultra Moon — Alola Complete
+      </figcaption>
+    </figure>
+
+    <!-- Scarlet / Violet -->
+    <figure class="dex-card">
+      <a href="/assets/imgs/pokemon/dex/sv-dex-complete_1200.png"
+         class="dex-card__link"
+         data-lightbox>
+        <img
+          src="/assets/imgs/pokemon/dex/sv-dex-complete_360.png"
+          srcset="
+            /assets/imgs/pokemon/dex/sv-dex-complete_240.png 240w,
+            /assets/imgs/pokemon/dex/sv-dex-complete_360.png 360w
+          "
+          sizes="(max-width: 820px) 90vw, 360px"
+          alt="Scarlet and Violet Pokédex completion"
+          loading="lazy"
+          decoding="async"
+        >
+      </a>
+      <figcaption class="dex-card__cap">
+        Scarlet / Violet — Paldea Complete
+      </figcaption>
+    </figure>
+
+  </div>
+
+  <p class="dex-hint">
+    Click a card to view ✨
+  </p>
+</section>
+
+
+    <!-- CTA -->
+    <section class="poke-panel poke-col-12">
+      <h2>Next Stops</h2>
+      <div class="poke-cta">
+        <a href="/shrines/pokemon/hof/">View Hall of Fame ➜</a>
+      </div>
+    </section>
+
+  </div>
+</section>

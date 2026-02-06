@@ -1,44 +1,193 @@
 ---
 title: "Hall of Fame"
 layout: layouts/pokeBase.njk
-customcss: '/assets/css/pokemon.css'
+customcss:
+  - /assets/css/shrines/pokemon/pages.css
+  - /assets/css/shrines/pokemon/hof.css
 permalink: /shrines/pokemon/hof/
 ---
-<header>
-  <h1>Hall of Fame</h1>
-  <p>Celebrating my journey to becoming a Pokémon Master!</p>
-</header>
-<main>
-  <section class="hof-section">
-    <div class="hof-entry">
-      <h2>Pokémon League Champions</h2>
-      <ul class="champion-list">
-        <li>Red - Pokémon Red/Blue/Yellow</li>
-        <li>Blue - Pokémon Gold/Silver/Crystal</li>
-        <li>Lance - Pokémon FireRed/LeafGreen</li>
-        <li>Steven - Pokémon Ruby/Sapphire/Emerald</li>
-        <li>Cynthia - Pokémon Diamond/Pearl/Platinum</li>
-        <li>Alder - Pokémon Black/White</li>
-        <li>Iris - Pokémon Black 2/White 2</li>
-        <li>Wulfric - Pokémon X/Y</li>
-        <li>Olivia - Pokémon Sun/Moon</li>
-        <li>Leon - Pokémon Sword/Shield</li>
-      </ul>
-    </div>
-    <div class="hof-entry">
-      <h2>Notable Achievements</h2>
-      <ul class="achievement-list">
-        <li>Example achievos: </li>
-        <li>Completed the Pokédex in Pokémon Yellow</li>
-        <li>Defeated the Elite Four in Pokémon Gold</li>
-        <li>Won the Battle Tower in Pokémon Emerald</li>
-        <li>Achieved Master Rank in Pokémon Sword</li>
-      </ul>
-    </div>
-  </section>
-</main>
 
-<footer>
-  <p>Here's to many more adventures in the world of Pokémon!</p>
-</footer>
+{% set gens = pokemonHof.gens %}
 
+<section class="poke-page">
+  <header class="poke-hero">
+    <h1>Hall of Fame</h1>
+    <p>One day… every main gen gets a Champion ribbon. For now: WIP and vibes.</p>
+  </header>
+
+  <div class="hof-grid">
+
+    {% for g in gens %}
+      {% for run in g.runs %}
+
+        {% set isDone = (run.status == "done") %}
+
+        <section
+          class="hof-run {% if isDone %}is-done{% else %}is-wip{% endif %}"
+          data-gen="{{ g.gen }}"
+        >
+
+          <header class="hof-run__header">
+            <h2>Gen {{ g.gen }} — {{ g.region }}</h2>
+            <p class="hof-run__meta">
+              {{ g.games }} • {{ run.status | upper }}
+            </p>
+          </header>
+
+          <div class="hof-run__body">
+
+            <!-- LEFT -->
+            <div class="hof-info">
+
+              <ul class="hof-list">
+                <li>
+                  <strong>Starter:</strong>
+                  {{ run.starter or "(TBD)" }}
+                </li>
+
+                <li class="hof-teamline">
+                  <strong>Team:</strong>
+
+                  {% if run.team and (run.team | length) %}
+                    <span class="hof-team hof-team--inline" aria-label="team sprites">
+                      {% for mon in run.team %}
+                        {% set isMvp = (run.mvpDex and (mon.dex == run.mvpDex)) %}
+
+                        <span class="hof-team__wrap {% if isMvp %}is-mvp{% endif %}">
+                          <img
+                            class="hof-team__sprite {% if not isDone %}is-muted{% endif %}"
+                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ mon.dex }}.png"
+                            alt="{{ mon.name }}"
+                            title="{{ mon.name }}{% if isMvp %} (MVP){% endif %}"
+                            loading="lazy"
+                            decoding="async"
+                          >
+                        </span>
+                      {% endfor %}
+
+                      {# fill to 6 slots so the line stays neat #}
+                      {% for i in range(run.team | length, 6) %}
+                        <span class="hof-team__slot" aria-hidden="true"></span>
+                      {% endfor %}
+                    </span>
+                  {% else %}
+                    <span class="hof-tbd">(TBD — add the 6)</span>
+                  {% endif %}
+                </li>
+
+                <li>
+                  <strong>MVP:</strong>
+                  {{ run.mvp or "(TBD)" }}
+                </li>
+
+                <li>
+                  <strong>Moment:</strong>
+                  {{ run.moment or "(TBD)" }}
+                </li>
+              </ul>
+
+              {% if run.team and (run.team | length) %}
+                <p class="hof-teamhint">
+                  Hover a sprite for the name
+                </p>
+              {% endif %}
+
+              <!-- Collapsible progress (closed by default, no JS) -->
+              <details class="hof-progress">
+                <summary class="hof-progress__summary">
+                  <span class="hof-progress__summaryTitle">Progress</span>
+
+                  <span class="hof-progress__summaryMeta">
+                    <span class="hof-progress__pill">
+                      {{ run.progress.badges }} / {{ run.progress.badgesTotal }} badges
+                    </span>
+
+                    <span class="hof-progress__pill {% if not run.progress.e4 %}is-no{% endif %}">
+                      E4:
+                      {% if run.progress.e4 %}Yes{% else %}No{% endif %}
+                    </span>
+
+                    <span class="hof-progress__pill {% if not run.progress.champ %}is-no{% endif %}">
+                      Champ:
+                      {% if run.progress.champ %}Yes{% else %}No{% endif %}
+                    </span>
+                  </span>
+                </summary>
+
+                <div class="hof-progress__body">
+                  <div class="hof-progress__row">
+                    <span class="hof-progress__label">Badges</span>
+                    <span class="hof-progress__value">
+                      {{ run.progress.badges }} / {{ run.progress.badgesTotal }}
+                    </span>
+                  </div>
+
+                  <div class="hof-progress__row">
+                    <span class="hof-progress__label">Elite Four</span>
+                    <span class="hof-progress__value {% if not run.progress.e4 %}is-no{% endif %}">
+                      {% if run.progress.e4 %}Yes{% else %}No{% endif %}
+                    </span>
+                  </div>
+
+                  <div class="hof-progress__row">
+                    <span class="hof-progress__label">Champion</span>
+                    <span class="hof-progress__value {% if not run.progress.champ %}is-no{% endif %}">
+                      {% if run.progress.champ %}Yes{% else %}No{% endif %}
+                    </span>
+                  </div>
+
+                  <div class="hof-progress__row">
+                    <span class="hof-progress__label">Status</span>
+                    <span class="hof-progress__value">
+                      {{ run.status | upper }}
+                    </span>
+                  </div>
+                </div>
+              </details>
+
+              <div class="hof-badges">
+                <span class="hof-badge">{{ run.status | upper }}</span>
+                <span class="hof-badge">Gen {{ g.gen }}</span>
+                <span class="hof-badge">{{ g.region }}</span>
+
+                {% if g.gen == 3 %}
+                  <span class="hof-badge hof-badge--emerald">Emerald vibes</span>
+                {% endif %}
+              </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="hof-photos scroll-hof">
+              <div class="hof-photo-grid">
+
+                {% if run.photos and (run.photos | length) %}
+                  {% for photo in run.photos %}
+                    <a class="hof-photo" href="{{ photo.full }}">
+                      <img
+                        src="{{ photo.thumb }}"
+                        alt="{{ photo.alt }}"
+                        loading="lazy"
+                        decoding="async"
+                      >
+                    </a>
+                  {% endfor %}
+                {% else %}
+                  <div class="hof-empty">
+                    No screenshots yet — future me will feed this gallery ✨
+                  </div>
+                {% endif %}
+
+              </div>
+
+              <p class="hof-hint">Click a photo to open</p>
+            </div>
+
+          </div>
+        </section>
+
+      {% endfor %}
+    {% endfor %}
+
+  </div>
+</section>

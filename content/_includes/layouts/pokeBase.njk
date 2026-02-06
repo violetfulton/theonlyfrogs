@@ -4,89 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or "Pokémon Shrine" }}</title>
-  <link rel="stylesheet" href="/assets/css/pokemon.css">
+
+  <!-- shared shrine styles -->
+  <link rel="stylesheet" href="/assets/css/shrines/pokemon/shared.css">
+  <link rel="stylesheet" href="/assets/css/components/lightbox.css">
+
+  <!-- page-specific CSS (string or array) -->
+  {% if customcss %}
+    {% if customcss | length and (customcss is not string) %}
+      {% for href in customcss %}
+        <link rel="stylesheet" href="{{ href }}">
+      {% endfor %}
+    {% else %}
+      <link rel="stylesheet" href="{{ customcss }}">
+    {% endif %}
+  {% endif %}
+
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  {{ content | safe }}
+  <!-- 🌿 PokéNav (top-left) -->
+  <nav class="pokenav" aria-label="Pokémon shrine navigation">
+    <button class="pokenav__toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="pokenavPanel">
+      PokéNav
+    </button>
 
-  <!-- 🐸 Pokédex Menu -->
-  <div class="pokemap-wrapper">
-  <button class="pokemap-toggle">Open Pokédex ▼</button>
+    <div class="pokenav__panel" id="pokenavPanel">
+      <div class="pokenav__header">
+        <div class="pokenav__title">Pokémon Shrine</div>
+        <div class="pokenav__sub">have fun :)</div>
+      </div>
 
-  <div class="pokemap-container">
-    <img
-      src="/assets/imgs/graphics/menu.bmp"
-      usemap="#image-map"
-      class="pokemap-image"
-      alt="Pokémon Menu"
-    >
+{% set current = page.url %}
 
-    <map name="image-map">
-      <area target="_self" alt="Pokemon Shrine" title="Pokemon Shrine" href="/shrines/pokemon" coords="9,43,154,77" shape="rect">
-      <area target="_self" alt="My Pokemon Collection" title="My Pokemon Collection" href="/shrines/pokemon/physical" coords="10,103,150,137" shape="rect">
-      <area target="_self" alt="My Pokemon Home" title="My Pokemon Home" href="/shrines/pokemon/collection" coords="169,42,312,76" shape="rect">
-      <area target="_self" alt="About the Trainer" title="About the Trainer" href="/shrines/pokemon/me" coords="168,102,313,139" shape="rect">
-      <area target="_self" alt="Hall of Fame" title="Hall of Fame" href="/shrines/pokemon/hof" coords="9,163,151,198" shape="rect">
-      <area target="_self" alt="Go Home!" title="Go Home!" href="/" coords="167,161,314,198" shape="rect">
-    </map>
-  </div>
+<div class="pokenav__links">
+  <a class="pokenav__link {% if current == '/shrines/pokemon/' %}is-active{% endif %}"
+     href="/shrines/pokemon/">🏠 Home</a>
+
+  <a class="pokenav__link {% if current == '/shrines/pokemon/me/' %}is-active{% endif %}"
+     href="/shrines/pokemon/me/">🧢 Trainer</a>
+
+  <a class="pokenav__link {% if current == '/shrines/pokemon/collection/' %}is-active{% endif %}"
+     href="/shrines/pokemon/collection/">✨ Shinies</a>
+
+  <a class="pokenav__link {% if current == '/shrines/pokemon/physical/' %}is-active{% endif %}"
+     href="/shrines/pokemon/physical/">📦 Physical</a>
+
+  <a class="pokenav__link {% if current == '/shrines/pokemon/hof/' %}is-active{% endif %}"
+     href="/shrines/pokemon/hof/">🏆 Hall of Fame</a>
+
+  <a class="pokenav__link pokenav__link--minor {% if current == '/' %}is-active{% endif %}"
+     href="/">↩ Main Site</a>
 </div>
+    </div>
+  </nav>
 
-<!-- JS Dependencies -->
+  <div class="pokenav__backdrop" hidden></div>
+
+  <main class="poke-shell">
+    {{ content | safe }}
+  </main>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="/assets/js/jquery.style-my-tooltips.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
-
-<script>
-$(function(){
-
-  /* === Tooltips === */
-  if ($.fn.style_my_tooltips) {
-    $("area[title]").style_my_tooltips({
-      tip_follows_cursor: true,
-      tip_delay_time: 80,
-      tip_fade_speed: 200
-    });
-  }
-
-  /* === Responsive Image Map === */
-  if (typeof imageMapResize === 'function') {
-    $('map').imageMapResize();
-  }
-
-  /* === Pokédex Open/Close === */
-  const $toggle = $('.pokemap-toggle');
-  const $container = $('.pokemap-container');
-  const $wrapper = $('.pokemap-wrapper');
-
-  function togglePokedex(forceState) {
-    const isOpen = forceState !== undefined ? forceState : !$container.hasClass('open');
-    $container.toggleClass('open', isOpen);
-    $wrapper.toggleClass('open', isOpen);
-    $toggle.text(isOpen ? 'Close Pokédex ▲' : 'Open Pokédex ▼');
-  }
-
-  $toggle.on('click', function(e){
-    e.stopPropagation();
-    togglePokedex();
-  });
-
-  $(document).on('click', function(e){
-    if ($container.hasClass('open')) {
-      const clickedInside = $(e.target).closest('.pokemap-wrapper').length > 0;
-      if (!clickedInside) togglePokedex(false);
-    }
-  });
-
-  $(document).on('keydown', function(e){
-    if (e.key === 'Escape' && $container.hasClass('open')) {
-      togglePokedex(false);
-    }
-  });
-
-});
-</script>
+<script src="/assets/js/vendor/jquery.style-my-tooltips.js"></script>
+<script src="/assets/js/pokemon/tooltips.js"></script>
+ <script src="/assets/js/pokemon/shared.js"></script>
+ <script src="/assets/js/pokemon/lightbox.js"></script>
 </body>
 </html>

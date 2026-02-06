@@ -1,0 +1,99 @@
+/* ==================================================
+   Pages — layout helpers ONLY
+   Visual styling comes from shared.css
+================================================== */
+
+/* page wrapper */
+.poke-page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+/* hero */
+.poke-hero {
+  text-align: center;
+  margin: 1rem 0 1.25rem;
+}
+
+.poke-hero h1 {
+  font-size: 18px;
+  margin: 0.75rem 0 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.poke-hero p {
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 0.5rem auto 0;
+  max-width: 70ch;
+}
+
+/* grid helpers */
+.poke-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+}
+
+.poke-col-6  { grid-column: span 6; }
+.poke-col-4  { grid-column: span 4; }
+.poke-col-8  { grid-column: span 8; }
+.poke-col-12 { grid-column: span 12; }
+/* --- extra grid spans used by me.njk --- */
+.poke-col-5 { grid-column: span 5; }
+.poke-col-7 { grid-column: span 7; }
+
+/* helps prevent weird squish/overflow in CSS grid children */
+.poke-panel { min-width: 0; }
+
+@media (max-width: 820px) {
+  .poke-col-6,
+  .poke-col-4,
+  .poke-col-8 {
+    grid-column: span 12;
+  }
+}
+
+/* simple lists */
+.poke-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.poke-list li {
+  font-size: 10px;
+  line-height: 1.8;
+  padding: 7px 0;
+}
+
+/* chip rows (visual styling comes from shared.css if desired) */
+.poke-chiprow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.poke-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+/* notes + small text */
+.poke-note {
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+/* call-to-action wrapper only */
+.poke-cta {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 10px;
+}

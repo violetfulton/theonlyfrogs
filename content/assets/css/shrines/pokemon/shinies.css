@@ -1,0 +1,313 @@
+/* ==================================================
+   Shiny Dex UI — Pastel PokéMart theme
+   Uses variables from shared.css
+================================================== */
+
+.shiny-controls {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: end;
+}
+
+@media (max-width: 900px) {
+  .shiny-controls { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 520px) {
+  .shiny-controls { grid-template-columns: 1fr; }
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.control label {
+  font-size: 10px;
+  opacity: 0.9;
+  color: var(--pm-ink-soft);
+}
+
+.control input,
+.control select {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  padding: 8px 10px;
+  border-radius: 12px;
+
+  color: var(--pm-ink);
+  border: 2px solid var(--pm-border-strong);
+  background: rgba(255, 255, 255, 0.92);
+
+  box-shadow:
+    0 0 0 3px rgba(255,255,255,0.60) inset,
+    0 0 14px rgba(38,186,246,0.10);
+}
+
+.control input:focus,
+.control select:focus {
+  outline: 3px solid rgba(131,203,255,0.65);
+  outline-offset: 2px;
+}
+
+/* Stats */
+.shiny-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.stat-pill {
+  font-size: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+
+  border: 2px solid var(--pm-border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(254,226,252,0.70));
+  color: var(--pm-ink);
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.55) inset,
+    0 0 14px rgba(254,200,237,0.25);
+}
+
+/* Grid */
+.shiny-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+}
+
+/* Cards */
+.shiny-card {
+  grid-column: span 4;
+
+  background: rgba(255, 255, 255, 0.88);
+  border: 3px solid var(--pm-border-strong);
+  border-radius: 18px;
+
+  box-shadow:
+    0 14px 26px rgba(0,0,0,0.10),
+    0 0 0 3px rgba(255,255,255,0.55) inset,
+    0 0 18px rgba(38,186,246,0.14),
+    0 0 18px rgba(254,200,237,0.25);
+
+  padding: 12px;
+  transition: transform 140ms ease, filter 140ms ease;
+}
+
+.shiny-card:hover {
+  filter: brightness(1.015) saturate(1.03);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .shiny-card { grid-column: span 6; }
+}
+
+@media (max-width: 520px) {
+  .shiny-card { grid-column: span 12; }
+}
+
+.shiny-top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.shiny-sprite {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+  border-radius: 14px;
+
+  border: 2px solid var(--pm-border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(191,243,225,0.55));
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.55) inset,
+    0 0 12px rgba(131,203,255,0.18);
+}
+
+.shiny-title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.shiny-name {
+  font-size: 12px;
+  margin: 0;
+  color: var(--pm-ink);
+}
+
+.shiny-meta {
+  font-size: 10px;
+  line-height: 1.6;
+  opacity: 0.9;
+  color: var(--pm-ink-soft);
+}
+
+/* Badges */
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.badge {
+  font-size: 9px;
+  padding: 5px 8px;
+  border-radius: 999px;
+
+  border: 2px solid var(--pm-border);
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--pm-ink);
+
+  text-transform: uppercase;
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.55) inset;
+}
+
+/* status colors that match the wallpaper vibe */
+.badge-owned  { background: rgba(191,243,225,0.78); }  /* mint */
+.badge-target { background: rgba(255,243,200,0.86); }  /* cream */
+.badge-failed { background: rgba(254,200,237,0.78); }  /* pink */
+
+/* Notes / empty state */
+.shiny-notes {
+  font-size: 10px;
+  line-height: 1.7;
+  margin-top: 10px;
+  opacity: 0.92;
+  color: var(--pm-ink-soft);
+}
+
+.shiny-empty {
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.9;
+  padding: 14px 10px;
+
+  border-radius: 16px;
+  border: 3px dashed var(--pm-border);
+  background: rgba(255,255,255,0.78);
+}
+
+/* ==================================================
+   OWNED: sparkle/glow specifically behind the sprite
+================================================== */
+
+/* make sprite a little “window” we can draw into */
+.shiny-sprite{
+  position: relative;
+  overflow: hidden; /* keep effects inside rounded corners */
+}
+
+/* sprite sparkle only for owned cards */
+.shiny-card:has(.badge-owned) .shiny-sprite::before,
+.shiny-card:has(.badge-owned) .shiny-sprite::after{
+  content: "";
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* twinkle dots */
+.shiny-card:has(.badge-owned) .shiny-sprite::before{
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.95) 0 2px, transparent 3px) 6px 8px/38px 38px,
+    radial-gradient(circle, rgba(131,203,255,0.85) 0 2px, transparent 3px) 18px 22px/46px 46px,
+    radial-gradient(circle, rgba(254,200,237,0.85) 0 2px, transparent 3px) 10px 30px/42px 42px;
+  filter: blur(0.15px);
+  mix-blend-mode: screen;
+  animation: sprite-twinkle 2.8s ease-in-out infinite;
+}
+
+/* soft diagonal shimmer */
+.shiny-card:has(.badge-owned) .shiny-sprite::after{
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255,255,255,0.0) 35%,
+    rgba(255,255,255,0.55) 48%,
+    rgba(131,203,255,0.35) 52%,
+    rgba(254,200,237,0.35) 56%,
+    rgba(255,255,255,0.0) 70%,
+    transparent 100%
+  );
+  transform: translateX(-55%) rotate(-10deg);
+  mix-blend-mode: screen;
+  animation: sprite-sweep 3.6s ease-in-out infinite;
+}
+
+/* show it (either always subtle, or stronger on hover) */
+.shiny-card:has(.badge-owned) .shiny-sprite::before,
+.shiny-card:has(.badge-owned) .shiny-sprite::after{
+  opacity: 0.35;
+}
+
+.shiny-card:has(.badge-owned):hover .shiny-sprite::before,
+.shiny-card:has(.badge-owned):hover .shiny-sprite::after{
+  opacity: 0.65;
+}
+
+/* add a gentle aura behind the sprite itself */
+.shiny-card:has(.badge-owned) .shiny-sprite{
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.55) inset,
+    0 0 14px rgba(38,186,246,0.25),
+    0 0 16px rgba(254,200,237,0.22);
+}
+
+/* animations */
+@keyframes sprite-twinkle{
+  0%, 100% { transform: translate(0,0); }
+  50%      { transform: translate(6px, 4px); }
+}
+
+@keyframes sprite-sweep{
+  0%, 35%   { opacity: 0.0; transform: translateX(-65%) rotate(-10deg); }
+  50%       { opacity: 0.55; }
+  70%       { opacity: 0.0; transform: translateX(65%) rotate(-10deg); }
+  100%      { opacity: 0.0; transform: translateX(65%) rotate(-10deg); }
+}
+
+/* respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .shiny-card:has(.badge-owned) .shiny-sprite::before,
+  .shiny-card:has(.badge-owned) .shiny-sprite::after{
+    animation: none !important;
+    opacity: 0.25;
+  }
+}
+
+/* ==================================================
+   OWNED: make sprite background more colourful
+================================================== */
+
+.shiny-card:has(.badge-owned) .shiny-sprite{
+  /* punchier pastel “shiny” backing */
+  background:
+    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.95), rgba(255,255,255,0.0) 55%),
+    radial-gradient(circle at 75% 70%, rgba(254,200,237,0.65), rgba(254,200,237,0.0) 55%),
+    radial-gradient(circle at 20% 80%, rgba(131,203,255,0.55), rgba(131,203,255,0.0) 60%),
+    linear-gradient(180deg, rgba(255,243,200,0.60), rgba(191,243,225,0.55));
+
+  border-color: rgba(38,186,246,0.55);
+
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.65) inset,
+    0 0 16px rgba(38,186,246,0.35),
+    0 0 16px rgba(254,200,237,0.30);
+}
+
+/* Optional: make the sprite area slightly “screenier” */
+.shiny-card:has(.badge-owned) .shiny-sprite{
+  filter: saturate(1.12) brightness(1.03);
+}
