@@ -233,22 +233,6 @@
           "entity_type_name": "Label",
           "id": 1866,
           "resource_url": "https://api.discogs.com/labels/1866"
-        },
-        {
-          "name": "American Recordings",
-          "catno": "5190002000",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 2569,
-          "resource_url": "https://api.discogs.com/labels/2569"
-        },
-        {
-          "name": "Columbia",
-          "catno": "5190002000",
-          "entity_type": "1",
-          "entity_type_name": "Label",
-          "id": 1866,
-          "resource_url": "https://api.discogs.com/labels/1866"
         }
       ],
       "artists": [
