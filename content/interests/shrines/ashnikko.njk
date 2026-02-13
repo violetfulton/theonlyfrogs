@@ -1,42 +1,156 @@
 ---
-title: Ashnikko Shrine
+title: "Ashnikko Shrine"
 layout: base.njk
-customcss: '/assets/css/ashnikko.css'
+customcss: "/assets/css/shrines/ash/ashnikko.css"
 permalink: /shrines/ashnikko/
 ---
 
-<div class="shrine-container">
-  <div class="shrine-glow"></div>
-  <h1 class="shrine-title">Ashnikko Shrine</h1>
-  <img class="shrine-image" src="/assets/imgs/graphics/ashnikko_blingy.gif" alt="Ashnikko Portrait">
-  <p class="shrine-description">
-    Honoring the bold and unapologetic spirit of Ashnikko!
-  </p>
+<section class="ash-shrine">
 
-  <section>
-    <h2>Albums</h2>
-    <div class="albums">
-      <div class="album">
-        <img class="shrine-image" src="/assets/imgs/graphics/demidevil.jpg" alt="Album: Demidevil">
-        <h3>Demidevil</h3>
-        <p>Ashnikko's debut album, showcasing her unique style and powerful lyrics.</p>
+  <!-- TOP: sparkly hero -->
+  <header class="ash-hero">
+    <div class="ash-stickers" aria-hidden="true">
+      <img class="sticker s1" src="/assets/imgs/ash/stickers/stickie1.gif" alt="">
+      <img class="sticker s2" src="/assets/imgs/ash/stickers/stickie2.png" alt="">
+      <img class="sticker s3" src="/assets/imgs/ash/stickers/stickie3.png" alt="">
+      <img class="sticker s4" src="/assets/imgs/ash/stickers/stickie4.gif" alt="">
+    </div>
+
+    <p class="marquee" aria-hidden="true">
+      <span>✨ ASHNIKKO SHRINE ✨ WENT TO THE CONCERT ✨ SLAYED ✨ SCREAMED ✨ ASCENDED ✨</span>
+    </p>
+
+    <h1 class="blink">ASHNIKKO ✦ SHRINE</h1>
+    <p class="sub">💿 concert chaos • pics • videos • gifs • vibes</p>
+
+    <!-- music (starts after first user interaction) -->
+    <section class="ash-music" aria-label="Music player">
+      <button class="music-toggle" type="button" aria-pressed="false">
+        ▶ play music
+      </button>
+      <p class="music-note">(autoplays after you click anywhere — blame browsers)</p>
+
+      <audio id="ash-audio" preload="auto" loop>
+        <source src="/assets/music/ash/bg.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <div class="profile-card">
+      <div class="pc-left">
+        <img class="pfp" src="/assets/imgs/ash/ashnikko_blingy.gif" alt="Ashnikko shrine icon">
       </div>
-      <div class="album">
-        <img class="shrine-image" src="/assets/imgs/graphics/weedkiller-square.jpg" alt="Album: WeedKiller">
-        <h3>WeedKiller</h3>
-        <p>Ashnikko's Weedkiller album, featuring a mix of genres and bold themes.</p>
+      <div class="pc-right">
+        <h2>❥ Concert Recap</h2>
+        <ul class="stats">
+          <li><strong>When:</strong> 11th feb 2026</li>
+          <li><strong>Where:</strong> glasgow</li>
+          <li><strong>Mood:</strong> feral</li>
+          <li><strong>Fav moment:</strong> seeing everyone be so creative in their smoochie girl outfits!!</li>
+        </ul>
+        <p class="status"><span class="status-dot"></span> currently: replaying the night in my head</p>
       </div>
-      <div class="album">
-        <img class="shrine-image" src="/assets/imgs/graphics/smoochies.jpg" alt="Album: Smoochies">
-        <h3>Smoochies</h3>
-        <p>Ashnikko's newest album, featuring a blend of her signature sound and new experimental elements.</p>
-      </div>
+    </div>
+  </header>
+
+  <!-- BLINKIES ROW -->
+  <section class="blinkies" aria-label="blinkies">
+    <img src="/assets/imgs/ash/blinkies/blinkie1.gif" alt="">
+    <img src="/assets/imgs/ash/blinkies/blinkie2.gif" alt="">
+    <img src="/assets/imgs/ash/blinkies/blinkie3.gif" alt="">
+    <img src="/assets/imgs/ash/blinkies/blinkie4.gif" alt="">
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="panel">
+    <h2>🎥 Concert Videos</h2>
+    <p class="tiny">click play and relive it. headphones recommended (or do NOT)</p>
+
+    <div class="video-grid">
+    <figure class="media-card">
+      <video
+        controls
+        preload="metadata"
+        playsinline
+        poster="/assets/imgs/ash/posters/ash2.jpg"
+        src="/assets/videos/ash/ash2.mp4">
+      </video>
+      <figcaption>she loves scotland!</figcaption>
+    </figure>
+
+<figure class="media-card">
+  <video
+    controls
+    preload="metadata"
+    playsinline
+    poster="/assets/imgs/ash/posters/ash1.jpg"
+    src="/assets/videos/ash/ash1.mp4"
+  ></video>
+  <figcaption>bestie i blacked out here</figcaption>
+</figure>
+
     </div>
   </section>
 
-  <div class="shrine-links">
-    <a href="https://ashnikko.com/" target="_blank" rel="noopener">Official Site</a>
-    <a href="https://twitter.com/ashnikko" target="_blank" rel="noopener">Twitter</a>
-    <a href="https://instagram.com/ashnikko" target="_blank" rel="noopener">Instagram</a>
-  </div>
-</div>
+  <!-- PHOTOS -->
+  <section class="panel">
+    <h2>📸 Pics</h2>
+    <p class="tiny">click a pic → lightbox opens. arrows / swipe / esc supported.</p>
+
+    <div class="photo-grid">
+      <a class="photo" href="/assets/imgs/ash/photos/1.jpg" data-lightbox="ash" data-caption="bro the HEAD">
+        <img src="/assets/imgs/ash/photos/1.jpg" alt="">
+      </a>
+      <a class="photo" href="/assets/imgs/ash/photos/2.jpg" data-lightbox="ash" data-caption="loved the backup dancers">
+        <img src="/assets/imgs/ash/photos/2.jpg" alt="">
+      </a>
+      <a class="photo" href="/assets/imgs/ash/photos/3.jpg" data-lightbox="ash" data-caption="BOTOX IN MY FRONTAL LOBE">
+        <img src="/assets/imgs/ash/photos/3.jpg" alt="">
+      </a>
+      <a class="photo" href="/assets/imgs/ash/photos/4.jpg" data-lightbox="ash" data-caption="the energy was UNREAL">
+        <img src="/assets/imgs/ash/photos/4.jpg" alt="">
+      </a>
+    </div>
+  </section>
+
+  <!-- GIF DUMP -->
+  <section class="panel gif-dump">
+    <h2>💖 GIF DUMP</h2>
+    <p class="tiny">click a gif → lightbox opens. arrows / swipe / esc supported.</p>
+
+    <div class="gif-wall">
+      <a class="gif" href="/assets/imgs/ash/gifs/g1.gif" data-lightbox="ash" data-caption="">
+        <img src="/assets/imgs/ash/gifs/g1.gif" alt="">
+      </a>
+      <a class="gif" href="/assets/imgs/ash/gifs/g2.gif" data-lightbox="ash" data-caption="">
+        <img src="/assets/imgs/ash/gifs/g2.gif" alt="">
+      </a>
+      <a class="gif" href="/assets/imgs/ash/gifs/g3.gif" data-lightbox="ash" data-caption="">
+        <img src="/assets/imgs/ash/gifs/g3.gif" alt="">
+      </a>
+      <a class="gif" href="/assets/imgs/ash/gifs/g4.gif" data-lightbox="ash" data-caption="">
+        <img src="/assets/imgs/ash/gifs/g4.gif" alt="">
+      </a>
+      <a class="gif" href="/assets/imgs/ash/gifs/g5.gif" data-lightbox="ash" data-caption="">
+        <img src="/assets/imgs/ash/gifs/g5.gif" alt="">
+      </a>
+    </div>
+
+    <p class="guestbook">
+      <span class="sparkle">★</span>
+      thigh-high boots to the puss · i don't want a city boy scared of the bush
+      <span class="sparkle">★</span>
+      <br>
+
+    </p>
+  </section>
+
+  <!-- FOOTER NAV -->
+  <footer class="ash-footer">
+    <a href="/shrines/">⬅ back to shrines</a>
+    <span class="divider">✦</span>
+    <a href="/">🐸 home</a>
+  </footer>
+
+</section>
+
+<script src="/assets/js/ashnikko.js" defer></script>
