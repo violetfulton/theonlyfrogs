@@ -115,23 +115,38 @@ export default async function () {
     traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/seasons?extended=full`, { limit: 100 }),
   ]);
 
-  // Optional debug (uncomment if needed)
-  console.log("[traktOwned] list items:",
+  console.log(
+    "[traktOwned] list items:",
     "movies", movieItems.length,
     "shows", showItems.length,
     "episodes", episodeItems.length,
     "seasons", seasonItems.length
   );
 
-  // 2) Ratings from Trakt (for your 5-star modal)
-  const [movieRatings, showRatings] = await Promise.all([
-    traktGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`),
-    traktGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`),
-  ]);
+  // 2) Ratings from Trakt (optional - don't fail the whole build if forbidden)
+  let movieRatings = [];
+  let showRatings = [];
+
+  try {
+    [movieRatings, showRatings] = await Promise.all([
+      traktGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`),
+      traktGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`),
+    ]);
+  } catch (error) {
+    console.warn("[traktOwned] Ratings fetch failed, continuing without ratings:", error.message);
+  }
 
   const ratingMap = new Map();
-  for (const r of movieRatings) ratingMap.set(`movie:${r.movie.ids.trakt}`, toFiveStar(r.rating));
-  for (const r of showRatings) ratingMap.set(`tv:${r.show.ids.trakt}`, toFiveStar(r.rating));
+  for (const r of movieRatings) {
+    if (r?.movie?.ids?.trakt) {
+      ratingMap.set(`movie:${r.movie.ids.trakt}`, toFiveStar(r.rating));
+    }
+  }
+  for (const r of showRatings) {
+    if (r?.show?.ids?.trakt) {
+      ratingMap.set(`tv:${r.show.ids.trakt}`, toFiveStar(r.rating));
+    }
+  }
 
   // 3) TMDb config for poster URLs
   const { base, size } = await getTmdbPosterBase();
@@ -196,7 +211,7 @@ export default async function () {
     addOwnedSeason(showTrakt, seasonNum);
   }
 
-  // ALSO from /items/episodes (episodes include season numbers too)
+  // ALSO from /items/episodes
   for (const eItem of episodeItems) {
     const showTrakt = eItem.show?.ids?.trakt;
     const seasonNum = eItem.episode?.season;
@@ -216,7 +231,7 @@ export default async function () {
   // 7) Roll up episodes + seasons into unique shows (dedupe)
   const showByTrakt = new Map();
 
-  // Add direct shows first (they "win")
+  // Add direct shows first
   for (const s of directShows) {
     if (s.trakt) showByTrakt.set(s.trakt, s);
   }
@@ -238,7 +253,7 @@ export default async function () {
     }
   }
 
-  // Add shows discovered via seasons (partial ownership)
+  // Add shows discovered via seasons
   for (const sItem of seasonItems) {
     const s = sItem.show;
     if (!s?.ids?.trakt) continue;
