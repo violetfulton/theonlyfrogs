@@ -3,29 +3,35 @@ import EleventyFetch from "@11ty/eleventy-fetch";
 import dotenv from "dotenv";
 dotenv.config();
 
-const TRAKT_USER = process.env.TRAKT_USER; // "onlyfrogs"
+const TRAKT_USER = process.env.TRAKT_USER;
 const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
+const TRAKT_ACCESS_TOKEN = process.env.TRAKT_ACCESS_TOKEN;
 const TMDB_KEY = process.env.TMDB_API_KEY;
 
 const TRAKT_CACHE = "30m";
 const TMDB_CACHE = "12h";
 
-if (!TRAKT_USER) throw new Error("Missing TRAKT_USER in .env");
-if (!TRAKT_CLIENT_ID) throw new Error("Missing TRAKT_CLIENT_ID in .env");
-if (!TMDB_KEY) throw new Error("Missing TMDB_API_KEY in .env (TMDb v3 key)");
+if (!TRAKT_USER) throw new Error("Missing TRAKT_USER in env");
+if (!TRAKT_CLIENT_ID) throw new Error("Missing TRAKT_CLIENT_ID in env");
+if (!TMDB_KEY) throw new Error("Missing TMDB_API_KEY in env");
 
-async function traktGet(path) {
+async function traktGet(path, { auth = false } = {}) {
   const url = `https://api.trakt.tv${path}`;
+
+  const headers = {
+    "Content-Type": "application/json",
+    "trakt-api-version": "2",
+    "trakt-api-key": TRAKT_CLIENT_ID,
+  };
+
+  if (auth && TRAKT_ACCESS_TOKEN) {
+    headers.Authorization = `Bearer ${TRAKT_ACCESS_TOKEN}`;
+  }
+
   return EleventyFetch(url, {
     duration: TRAKT_CACHE,
     type: "json",
-    fetchOptions: {
-      headers: {
-        "Content-Type": "application/json",
-        "trakt-api-version": "2",
-        "trakt-api-key": TRAKT_CLIENT_ID,
-      },
-    },
+    fetchOptions: { headers },
   });
 }
 
@@ -65,22 +71,36 @@ async function tmdbPosterFor(kind, tmdbId, { base, size }) {
 export default async function () {
   const { base, size } = await getTmdbPosterBase();
 
-  // Fetch: last movies + episode history (to infer "what season I'm on")
-  const [moviesHist, episodesHist, movieRatings, showRatings] = await Promise.all([
-    traktGet(`/users/${TRAKT_USER}/history/movies?limit=10&extended=full`),
-    traktGet(`/users/${TRAKT_USER}/history/episodes?limit=30&extended=full`),
-    traktGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`),
-    traktGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`),
-  ]);
+  let moviesHist = [];
+  let episodesHist = [];
+  let movieRatings = [];
+  let showRatings = [];
 
-  // Ratings maps
+  try {
+    [moviesHist, episodesHist, movieRatings, showRatings] = await Promise.all([
+      traktGet(`/users/${TRAKT_USER}/history/movies?limit=10&extended=full`, { auth: true }),
+      traktGet(`/users/${TRAKT_USER}/history/episodes?limit=30&extended=full`, { auth: true }),
+      traktGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`, { auth: true }),
+      traktGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`, { auth: true }),
+    ]);
+  } catch (error) {
+    console.warn("[traktNow] Authenticated Trakt fetch failed, continuing with empty data:", error.message);
+  }
+
   const movieRatingMap = new Map();
-  for (const r of movieRatings || []) movieRatingMap.set(r.movie?.ids?.trakt, toFiveStar(r.rating));
+  for (const r of movieRatings || []) {
+    if (r?.movie?.ids?.trakt) {
+      movieRatingMap.set(r.movie.ids.trakt, toFiveStar(r.rating));
+    }
+  }
 
   const showRatingMap = new Map();
-  for (const r of showRatings || []) showRatingMap.set(r.show?.ids?.trakt, toFiveStar(r.rating));
+  for (const r of showRatings || []) {
+    if (r?.show?.ids?.trakt) {
+      showRatingMap.set(r.show.ids.trakt, toFiveStar(r.rating));
+    }
+  }
 
-  // --- Last 3 movies ---
   const last3MoviesRaw = (moviesHist || [])
     .filter((x) => x?.movie?.ids?.trakt)
     .sort((a, b) => new Date(b.watched_at) - new Date(a.watched_at))
@@ -109,7 +129,6 @@ export default async function () {
     })
   );
 
-  // --- 1 show item (most recent episode watched) ---
   const lastEpisode = (episodesHist || [])
     .filter((x) => x?.show?.ids?.trakt && x?.episode)
     .sort((a, b) => new Date(b.watched_at) - new Date(a.watched_at))[0];
