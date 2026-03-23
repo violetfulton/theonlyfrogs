@@ -3,7 +3,7 @@ import EleventyFetch from "@11ty/eleventy-fetch";
 import dotenv from "dotenv";
 dotenv.config();
 
-const TRAKT_USER = process.env.TRAKT_USER; // "onlyfrogs"
+const TRAKT_USER = process.env.TRAKT_USER;
 const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
 const TRAKT_ACCESS_TOKEN = process.env.TRAKT_ACCESS_TOKEN;
 const TMDB_KEY = process.env.TMDB_API_KEY;
@@ -36,9 +36,6 @@ async function traktGet(path, { auth = false } = {}) {
   });
 }
 
-/**
- * Fetch ALL pages from a paginated Trakt endpoint.
- */
 async function traktGetAllPages(path, { limit = 100, maxPages = 50, auth = false } = {}) {
   let page = 1;
   let out = [];
@@ -87,48 +84,44 @@ function formatSeasonsLabel(setOfNums) {
   if (!setOfNums || setOfNums.size === 0) return "";
 
   const nums = Array.from(setOfNums).sort((a, b) => a - b);
-
   const hasSpecials = nums.length > 0 && nums[0] === 0;
   const filtered = hasSpecials ? nums.slice(1) : nums;
 
   function labelRange(list) {
     if (list.length === 0) return "";
-
     const isContinuous = list.every((n, i) => i === 0 || n === list[i - 1] + 1);
     if (isContinuous) {
       if (list.length === 1) return `S${list[0]}`;
       return `S${list[0]}–${list[list.length - 1]}`;
     }
-
     const short = list.slice(0, 4).join(",");
     return list.length > 4 ? `S${short},…` : `S${short}`;
   }
 
   const main = labelRange(filtered);
-
   if (hasSpecials && main) return `Sp + ${main}`;
   if (hasSpecials && !main) return `Sp`;
   return main;
 }
 
 export default async function () {
-  // 1) List items — fetch EVERYTHING (movies, shows, episodes, seasons)
-  const [movieItems, showItems, episodeItems, seasonItems] = await Promise.all([
-    traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/movies?extended=full`, { limit: 100 }),
-    traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/shows?extended=full`, { limit: 100 }),
-    traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/episodes?extended=full`, { limit: 100 }),
-    traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/seasons?extended=full`, { limit: 100 }),
-  ]);
+  let movieItems = [];
+  let showItems = [];
+  let episodeItems = [];
+  let seasonItems = [];
 
-  console.log(
-    "[traktOwned] list items:",
-    "movies", movieItems.length,
-    "shows", showItems.length,
-    "episodes", episodeItems.length,
-    "seasons", seasonItems.length
-  );
+  try {
+    [movieItems, showItems, episodeItems, seasonItems] = await Promise.all([
+      traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/movies?extended=full`, { limit: 100, auth: true }),
+      traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/shows?extended=full`, { limit: 100, auth: true }),
+      traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/episodes?extended=full`, { limit: 100, auth: true }),
+      traktGetAllPages(`/users/${TRAKT_USER}/lists/${LIST_SLUG}/items/seasons?extended=full`, { limit: 100, auth: true }),
+    ]);
+  } catch (error) {
+    console.warn("[traktOwned] List fetch failed, continuing with empty data:", error.message);
+    return { movies: [], shows: [], total: 0 };
+  }
 
-  // 2) Ratings from Trakt (optional, authenticated)
   let movieRatings = [];
   let showRatings = [];
 
@@ -143,17 +136,12 @@ export default async function () {
 
   const ratingMap = new Map();
   for (const r of movieRatings) {
-    if (r?.movie?.ids?.trakt) {
-      ratingMap.set(`movie:${r.movie.ids.trakt}`, toFiveStar(r.rating));
-    }
+    if (r?.movie?.ids?.trakt) ratingMap.set(`movie:${r.movie.ids.trakt}`, toFiveStar(r.rating));
   }
   for (const r of showRatings) {
-    if (r?.show?.ids?.trakt) {
-      ratingMap.set(`tv:${r.show.ids.trakt}`, toFiveStar(r.rating));
-    }
+    if (r?.show?.ids?.trakt) ratingMap.set(`tv:${r.show.ids.trakt}`, toFiveStar(r.rating));
   }
 
-  // 3) TMDb config for poster URLs
   const { base, size } = await getTmdbPosterBase();
 
   async function movieFromTmdb(tmdbId) {
@@ -174,7 +162,6 @@ export default async function () {
     };
   }
 
-  // 4) Movies
   const movies = await Promise.all(
     movieItems.map(async (x) => {
       const tmdb = x.movie?.ids?.tmdb ?? null;
@@ -194,32 +181,19 @@ export default async function () {
     })
   );
 
-  // 5) Build "owned seasons" map from BOTH seasons + episodes
   const ownedSeasonsByShow = new Map();
 
   function addOwnedSeason(showTrakt, seasonNumRaw) {
     if (!showTrakt) return;
-
     const seasonNum = Number(seasonNumRaw);
     if (!Number.isFinite(seasonNum) || seasonNum < 0) return;
-
     if (!ownedSeasonsByShow.has(showTrakt)) ownedSeasonsByShow.set(showTrakt, new Set());
     ownedSeasonsByShow.get(showTrakt).add(seasonNum);
   }
 
-  for (const sItem of seasonItems) {
-    const showTrakt = sItem.show?.ids?.trakt;
-    const seasonNum = sItem.season?.number;
-    addOwnedSeason(showTrakt, seasonNum);
-  }
+  for (const sItem of seasonItems) addOwnedSeason(sItem.show?.ids?.trakt, sItem.season?.number);
+  for (const eItem of episodeItems) addOwnedSeason(eItem.show?.ids?.trakt, eItem.episode?.season);
 
-  for (const eItem of episodeItems) {
-    const showTrakt = eItem.show?.ids?.trakt;
-    const seasonNum = eItem.episode?.season;
-    addOwnedSeason(showTrakt, seasonNum);
-  }
-
-  // 6) Shows from /items/shows
   const directShows = showItems.map((x) => ({
     title: x.show?.title ?? "Untitled",
     year: x.show?.year ?? "",
@@ -229,51 +203,41 @@ export default async function () {
     media_type: "tv",
   }));
 
-  // 7) Roll up episodes + seasons into unique shows
   const showByTrakt = new Map();
-
   for (const s of directShows) {
     if (s.trakt) showByTrakt.set(s.trakt, s);
   }
 
   for (const e of episodeItems) {
     const s = e.show;
-    if (!s?.ids?.trakt) continue;
-
-    if (!showByTrakt.has(s.ids.trakt)) {
-      showByTrakt.set(s.ids.trakt, {
-        title: s.title ?? "Untitled",
-        year: s.year ?? "",
-        trakt: s.ids.trakt,
-        tmdb: s.ids.tmdb ?? null,
-        overview: s.overview ?? "",
-        media_type: "tv",
-      });
-    }
+    if (!s?.ids?.trakt || showByTrakt.has(s.ids.trakt)) continue;
+    showByTrakt.set(s.ids.trakt, {
+      title: s.title ?? "Untitled",
+      year: s.year ?? "",
+      trakt: s.ids.trakt,
+      tmdb: s.ids.tmdb ?? null,
+      overview: s.overview ?? "",
+      media_type: "tv",
+    });
   }
 
   for (const sItem of seasonItems) {
     const s = sItem.show;
-    if (!s?.ids?.trakt) continue;
-
-    if (!showByTrakt.has(s.ids.trakt)) {
-      showByTrakt.set(s.ids.trakt, {
-        title: s.title ?? "Untitled",
-        year: s.year ?? "",
-        trakt: s.ids.trakt,
-        tmdb: s.ids.tmdb ?? null,
-        overview: s.overview ?? "",
-        media_type: "tv",
-      });
-    }
+    if (!s?.ids?.trakt || showByTrakt.has(s.ids.trakt)) continue;
+    showByTrakt.set(s.ids.trakt, {
+      title: s.title ?? "Untitled",
+      year: s.year ?? "",
+      trakt: s.ids.trakt,
+      tmdb: s.ids.tmdb ?? null,
+      overview: s.overview ?? "",
+      media_type: "tv",
+    });
   }
 
-  // 8) Enrich shows
   const shows = await Promise.all(
     Array.from(showByTrakt.values()).map(async (s) => {
       const extra = await showFromTmdb(s.tmdb);
       const traktId = s.trakt;
-
       const seasonsSet = ownedSeasonsByShow.get(traktId);
       const seasonsLabel = formatSeasonsLabel(seasonsSet);
 
