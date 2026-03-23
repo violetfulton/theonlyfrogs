@@ -19,6 +19,7 @@ env:
   TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
   RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

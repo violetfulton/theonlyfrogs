@@ -1,0 +1,334 @@
+/* =========================
+   AC BASE LAYOUT
+========================= */
+
+:root {
+  --ac-green: #2e7d32;
+  --ac-green-dark: #245f28;
+  --ac-mint: #dff5dc;
+  --ac-panel: rgba(255, 255, 255, 0.72);
+  --ac-border: rgba(76, 175, 80, 0.28);
+}
+
+.ac-body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Gaegu", cursive;
+  color: #2c6b31;
+  background:
+    radial-gradient(circle at top, #eef9ee 0%, #d9f1d7 48%, #c5e8c2 100%);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* =========================
+   SEASON OVERLAYS
+========================= */
+
+.season-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.season-overlay.is-active {
+  opacity: 1;
+}
+
+/* Spring petals */
+.season-overlay--spring .petal {
+  position: absolute;
+  top: -10%;
+  width: 14px;
+  height: 10px;
+  background: rgba(255, 192, 203, 0.85);
+  border-radius: 80% 20% 70% 30%;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.25);
+  animation-name: ac-fall, ac-sway, ac-spin;
+  animation-timing-function: linear, ease-in-out, linear;
+  animation-iteration-count: infinite, infinite, infinite;
+}
+
+/* Summer firefly/cicada vibes */
+.season-overlay--summer .glow {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 244, 160, 0.85);
+  box-shadow: 0 0 12px rgba(255, 244, 160, 0.75);
+  animation: ac-float 9s ease-in-out infinite, ac-twinkle 2.2s ease-in-out infinite;
+}
+
+.season-overlay--summer .cicada {
+  position: absolute;
+  font-size: 14px;
+  opacity: 0.18;
+  animation: ac-buzz 11s linear infinite;
+}
+
+/* Autumn leaves */
+.season-overlay--autumn .leaf {
+  position: absolute;
+  top: -12%;
+  width: 16px;
+  height: 16px;
+  background: #d98b3a;
+  clip-path: polygon(50% 0%, 62% 18%, 84% 10%, 72% 34%, 100% 50%, 72% 66%, 84% 90%, 62% 82%, 50% 100%, 38% 82%, 16% 90%, 28% 66%, 0% 50%, 28% 34%, 16% 10%, 38% 18%);
+  box-shadow: 0 0 8px rgba(140, 84, 23, 0.18);
+  animation-name: ac-fall, ac-sway, ac-spin;
+  animation-timing-function: linear, ease-in-out, linear;
+  animation-iteration-count: infinite, infinite, infinite;
+}
+
+.season-overlay--autumn .leaf.leaf--gold {
+  background: #e6b94a;
+}
+
+.season-overlay--autumn .leaf.leaf--red {
+  background: #c95d45;
+}
+
+/* Winter snow */
+.season-overlay--winter .snowflake {
+  position: absolute;
+  top: -10%;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  animation: ac-fall linear infinite, ac-sway ease-in-out infinite;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.ac-header,
+.ac-main,
+.ac-footer {
+  position: relative;
+  z-index: 1;
+}
+
+.ac-header {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--ac-border);
+  padding: 0.75rem 1rem;
+}
+
+.ac-header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ac-logo {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ac-green);
+}
+
+.ac-logo:hover {
+  color: var(--ac-green-dark);
+}
+
+.ac-tagline {
+  margin: 0.1rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+.ac-nav {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.ac-nav a {
+  text-decoration: none;
+  background: var(--ac-mint);
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--ac-border);
+  color: var(--ac-green);
+  font-size: 0.95rem;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.ac-nav a:hover {
+  background: #ebf9e8;
+  transform: translateY(-1px);
+}
+
+.ac-main {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.ac-footer {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.ac-footer-small {
+  font-size: 0.75rem;
+  opacity: 0.65;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+@keyframes ac-fall {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(120vh);
+  }
+}
+
+@keyframes ac-sway {
+  0% { margin-left: 0; }
+  25% { margin-left: 12px; }
+  50% { margin-left: -10px; }
+  75% { margin-left: 8px; }
+  100% { margin-left: 0; }
+}
+
+@keyframes ac-spin {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+
+@keyframes ac-float {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-18px) translateX(10px); }
+  50% { transform: translateY(8px) translateX(-10px); }
+  75% { transform: translateY(-10px) translateX(6px); }
+}
+
+@keyframes ac-twinkle {
+  0%, 100% { opacity: 0.25; }
+  50% { opacity: 1; }
+}
+
+@keyframes ac-buzz {
+  0% { transform: translateX(-10vw) translateY(0); }
+  50% { transform: translateX(55vw) translateY(8px); }
+  100% { transform: translateX(110vw) translateY(-4px); }
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 780px) {
+  .ac-header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ac-main {
+    margin-top: 1rem;
+    padding: 0 0.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .season-overlay * {
+    animation: none !important;
+  }
+}
+
+/* More AC-accurate seasonal variants */
+
+.season-overlay--spring.is-cherry-season .petal--cherry {
+  background: rgba(255, 186, 218, 0.92);
+  border-radius: 80% 20% 78% 22%;
+  box-shadow:
+    0 0 10px rgba(255, 182, 193, 0.35),
+    0 0 18px rgba(255, 220, 230, 0.16);
+}
+
+.season-overlay--spring .petal {
+  position: absolute;
+  top: -10%;
+  width: 14px;
+  height: 10px;
+  background: rgba(255, 205, 216, 0.8);
+  border-radius: 80% 20% 70% 30%;
+  box-shadow: 0 0 8px rgba(255, 182, 193, 0.25);
+  animation-name: ac-fall, ac-sway, ac-spin;
+  animation-timing-function: linear, ease-in-out, linear;
+  animation-iteration-count: infinite, infinite, infinite;
+}
+
+/* Summer fireflies */
+.season-overlay--summer .glow {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 244, 160, 0.85);
+  box-shadow:
+    0 0 12px rgba(255, 244, 160, 0.75),
+    0 0 24px rgba(255, 244, 160, 0.25);
+  animation: ac-float 9s ease-in-out infinite, ac-twinkle 2.2s ease-in-out infinite;
+}
+
+/* Autumn leaves */
+.season-overlay--autumn .leaf {
+  position: absolute;
+  top: -12%;
+  width: 16px;
+  height: 16px;
+  background: #d98b3a;
+  clip-path: polygon(50% 0%, 62% 18%, 84% 10%, 72% 34%, 100% 50%, 72% 66%, 84% 90%, 62% 82%, 50% 100%, 38% 82%, 16% 90%, 28% 66%, 0% 50%, 28% 34%, 16% 10%, 38% 18%);
+  box-shadow: 0 0 8px rgba(140, 84, 23, 0.18);
+  animation-name: ac-fall, ac-sway, ac-spin;
+  animation-timing-function: linear, ease-in-out, linear;
+  animation-iteration-count: infinite, infinite, infinite;
+}
+
+.season-overlay--autumn .leaf.leaf--gold {
+  background: #e6b94a;
+}
+
+.season-overlay--autumn .leaf.leaf--red {
+  background: #c95d45;
+}
+
+.season-overlay--autumn .leaf.leaf--orange {
+  background: #db7b37;
+}
+
+.season-overlay--autumn .leaf.leaf--maple {
+  filter: saturate(1.15) brightness(1.03);
+  box-shadow:
+    0 0 10px rgba(201, 93, 69, 0.22),
+    0 0 18px rgba(230, 185, 74, 0.14);
+}
+
+/* Winter snow */
+.season-overlay--winter .snowflake {
+  position: absolute;
+  top: -10%;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow:
+    0 0 8px rgba(255, 255, 255, 0.5),
+    0 0 16px rgba(220, 240, 255, 0.2);
+  animation: ac-fall linear infinite, ac-sway ease-in-out infinite;
+}

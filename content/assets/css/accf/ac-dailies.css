@@ -1,0 +1,109 @@
+.ac-dailies-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+/* HERO */
+
+.dailies-hero-frog {
+  width: 110px;
+  height: auto;
+  display: block;
+}
+
+/* CARD */
+
+.ac-dailies-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 28px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid rgba(99, 178, 104, 0.35);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 14px 28px rgba(54, 102, 58, 0.12);
+}
+
+/* GRID */
+
+.ac-dailies-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* PANELS */
+
+.ac-dailies-panel {
+  background: rgba(244, 252, 242, 0.92);
+  border: 1px solid rgba(88, 150, 86, 0.18);
+  border-radius: 22px;
+  padding: 1rem;
+}
+
+.ac-dailies-panel h3 {
+  margin: 0 0 0.6rem;
+  color: #2e6b33;
+}
+
+/* LIST */
+
+.ac-dailies-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.ac-dailies-list li + li {
+  margin-top: 0.4rem;
+}
+
+/* NOTE PANEL */
+
+.ac-dailies-panel--note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ac-dailies-quote {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #3f7c44;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 760px) {
+  .ac-dailies-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ac-chores-section + .ac-chores-section {
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 2px dashed rgba(88, 150, 86, 0.18);
+}
+
+.ac-chores-heading {
+  margin-bottom: 0.9rem;
+  text-align: center;
+}
+
+.ac-chores-heading h2 {
+  margin: 0;
+  color: #2e6b33;
+  font-size: 1.5rem;
+}
+
+.ac-chores-heading p {
+  margin: 0.2rem 0 0;
+  color: #4b7b4f;
+}
+
+.ac-dailies-grid--single {
+  grid-template-columns: 1fr;
+}

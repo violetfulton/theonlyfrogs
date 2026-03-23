@@ -1,0 +1,2058 @@
+{
+  "fish": [
+    {
+      "id": "bitterling",
+      "name": "Bitterling",
+      "bells": 900,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "pale-chub",
+      "name": "Pale chub",
+      "bells": 200,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "9 AM - 4 PM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "crucian-carp",
+      "name": "Crucian carp",
+      "bells": 120,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "dace",
+      "name": "Dace",
+      "bells": 200,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "barbel-steed",
+      "name": "Barbel steed",
+      "bells": 200,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "carp",
+      "name": "Carp",
+      "bells": 300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Large",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "koi",
+      "name": "Koi",
+      "bells": 4000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Large",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "goldfish",
+      "name": "Goldfish",
+      "bells": 1300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "popeyed-goldfish",
+      "name": "Popeyed goldfish",
+      "bells": 1300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "9 AM - 4 PM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "killifish",
+      "name": "Killifish",
+      "bells": 300,
+      "category": "fish",
+      "location": "Pond",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "crawfish",
+      "name": "Crawfish",
+      "bells": 250,
+      "category": "fish",
+      "location": "Pond",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "frog",
+      "name": "Frog",
+      "bells": 250,
+      "category": "fish",
+      "location": "Pond",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "freshwater-goby",
+      "name": "Freshwater goby",
+      "bells": 300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Medium",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "loach",
+      "name": "Loach",
+      "bells": 300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "catfish",
+      "name": "Catfish",
+      "bells": 800,
+      "category": "fish",
+      "location": "Lake",
+      "shadow": "Large",
+      "time": "4 PM - 9 AM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "eel",
+      "name": "Eel",
+      "bells": 2000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Thin",
+      "time": "4 PM - 9 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "giant-snakehead",
+      "name": "Giant snakehead",
+      "bells": 5500,
+      "category": "fish",
+      "location": "Lake",
+      "shadow": "Very Large",
+      "time": "9 AM - 4 PM",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "bluegill",
+      "name": "Bluegill",
+      "bells": 120,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "9 AM - 4 PM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "yellow-perch",
+      "name": "Yellow perch",
+      "bells": 240,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "black-bass",
+      "name": "Black bass",
+      "bells": 300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Large",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "pike",
+      "name": "Pike",
+      "bells": 1800,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Very Large",
+      "time": "4 AM - 9 PM",
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "pond-smelt",
+      "name": "Pond smelt",
+      "bells": 300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "id": "sweetfish",
+      "name": "Sweetfish",
+      "bells": 900,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "4 AM - 9 PM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "cherry-salmon",
+      "name": "Cherry salmon",
+      "bells": 1000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "char",
+      "name": "Char",
+      "bells": 3800,
+      "category": "fish",
+      "location": "Waterfall",
+      "shadow": "Medium",
+      "time": "4 AM - 9 AM & 4 PM - 9 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "rainbow-trout",
+      "name": "Rainbow trout",
+      "bells": 800,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Large",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "stringfish",
+      "name": "Stringfish",
+      "bells": 15000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Huge",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "bells": 700,
+      "category": "fish",
+      "location": "River mouth",
+      "shadow": "Large",
+      "time": "All day",
+      "months": [
+        9
+      ]
+    },
+    {
+      "id": "king-salmon",
+      "name": "King salmon",
+      "bells": 1800,
+      "category": "fish",
+      "location": "River mouth",
+      "shadow": "Very Large",
+      "time": "All day",
+      "months": [
+        9
+      ]
+    },
+    {
+      "id": "guppy",
+      "name": "Guppy",
+      "bells": 1300,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "9 AM - 4 PM",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "angelfish",
+      "name": "Angelfish",
+      "bells": 3000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "4 PM - 9 AM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "neon-tetra",
+      "name": "Neon tetra",
+      "bells": 500,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Tiny",
+      "time": "9 AM - 4 PM",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "piranha",
+      "name": "Piranha",
+      "bells": 2500,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Small",
+      "time": "9 AM - 4 PM & 9 PM - 4 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "arowana",
+      "name": "Arowana",
+      "bells": 10000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Large",
+      "time": "4 PM - 9 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "dorado",
+      "name": "Dorado",
+      "bells": 15000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Very Large",
+      "time": "4 AM - 9 PM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gar",
+      "name": "Gar",
+      "bells": 6000,
+      "category": "fish",
+      "location": "Lake",
+      "shadow": "Huge",
+      "time": "4 PM - 9 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "arapaima",
+      "name": "Arapaima",
+      "bells": 10000,
+      "category": "fish",
+      "location": "River",
+      "shadow": "Huge",
+      "time": "4 PM - 9 AM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "sea-butterfly",
+      "name": "Sea butterfly",
+      "bells": 1000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "id": "jellyfish",
+      "name": "Jellyfish",
+      "bells": 100,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        8
+      ]
+    },
+    {
+      "id": "seahorse",
+      "name": "Seahorse",
+      "bells": 1100,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "clownfish",
+      "name": "Clownfish",
+      "bells": 650,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Tiny",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "surgeonfish",
+      "name": "Surgeonfish",
+      "bells": 1000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "butterfly-fish",
+      "name": "Butterfly fish",
+      "bells": 1000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "napoleonfish",
+      "name": "Napoleonfish",
+      "bells": 10000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Huge",
+      "time": "4 AM - 9 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "zebra-turkeyfish",
+      "name": "Zebra turkeyfish",
+      "bells": 400,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "puffer-fish",
+      "name": "Puffer fish",
+      "bells": 240,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "horse-mackerel",
+      "name": "Horse mackerel",
+      "bells": 150,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Small",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "barred-knifejaw",
+      "name": "Barred knifejaw",
+      "bells": 5000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "sea-bass",
+      "name": "Sea bass",
+      "bells": 200,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Very Large",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "red-snapper",
+      "name": "Red snapper",
+      "bells": 3000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "dab",
+      "name": "Dab",
+      "bells": 300,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "olive-flounder",
+      "name": "Olive flounder",
+      "bells": 800,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Large",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "squid",
+      "name": "Squid",
+      "bells": 400,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    {
+      "id": "octopus",
+      "name": "Octopus",
+      "bells": 500,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Medium",
+      "time": "All day",
+      "months": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "lobster",
+      "name": "Lobster",
+      "bells": 2500,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Very Large",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "moray-eel",
+      "name": "Moray eel",
+      "bells": 2000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Very Large",
+      "time": "All day",
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "football-fish",
+      "name": "Football fish",
+      "bells": 2500,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Large",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "bells": 7000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Huge",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "blue-marlin",
+      "name": "Blue marlin",
+      "bells": 10000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Huge",
+      "time": "All day",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "ray",
+      "name": "Ray",
+      "bells": 3000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Huge",
+      "time": "4 AM - 9 PM",
+      "months": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "ocean-sunfish",
+      "name": "Ocean sunfish",
+      "bells": 4000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "time": "4 AM - 9 PM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "hammerhead-shark",
+      "name": "Hammerhead shark",
+      "bells": 8000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "time": "4 PM - 9 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "shark",
+      "name": "Shark",
+      "bells": 15000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Fin",
+      "time": "4 PM - 9 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "coelacanth",
+      "name": "Coelacanth",
+      "bells": 15000,
+      "category": "fish",
+      "location": "Sea",
+      "shadow": "Huge",
+      "time": "4 PM - 9 AM",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "notes": "Rain or snow only."
+    }
+  ],
+  "bugs": [
+    {
+      "id": "common-butterfly",
+      "name": "Common butterfly",
+      "bells": 90,
+      "category": "bug",
+      "location": "Flying near flowers",
+      "time": "4 AM - 7 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "yellow-butterfly",
+      "name": "Yellow butterfly",
+      "bells": 90,
+      "category": "bug",
+      "location": "Flying near flowers",
+      "time": "4 AM - 7 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "tiger-butterfly",
+      "name": "Tiger butterfly",
+      "bells": 160,
+      "category": "bug",
+      "location": "Flying near flowers",
+      "time": "8 AM - 7 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "peacock-butterfly",
+      "name": "Peacock butterfly",
+      "bells": 220,
+      "category": "bug",
+      "location": "Flying near hybrid flowers",
+      "time": "4 AM - 7 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "monarch-butterfly",
+      "name": "Monarch butterfly",
+      "bells": 90,
+      "category": "bug",
+      "location": "Flying",
+      "time": "9 AM - 5 PM",
+      "months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "emperor-butterfly",
+      "name": "Emperor butterfly",
+      "bells": 2500,
+      "category": "bug",
+      "location": "Flying",
+      "time": "7 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "agrias-butterfly",
+      "name": "Agrias butterfly",
+      "bells": 3000,
+      "category": "bug",
+      "location": "Flying near flowers",
+      "time": "8 AM - 5 PM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "raja-brooke-butterfly",
+      "name": "Raja Brooke butterfly",
+      "bells": 2500,
+      "category": "bug",
+      "location": "Flying near fresh water",
+      "time": "8 AM - 5 PM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "birdwing-butterfly",
+      "name": "Birdwing butterfly",
+      "bells": 4000,
+      "category": "bug",
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "moth",
+      "name": "Moth",
+      "bells": 60,
+      "category": "bug",
+      "location": "Flying near lights",
+      "time": "7 PM - 4 AM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "oak-silk-moth",
+      "name": "Oak silk moth",
+      "bells": 1200,
+      "category": "bug",
+      "location": "On trees",
+      "time": "7 PM - 4 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "honeybee",
+      "name": "Honeybee",
+      "bells": 100,
+      "category": "bug",
+      "location": "Near flowers",
+      "time": "8 AM - 5 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "bee",
+      "name": "Bee",
+      "bells": 2500,
+      "category": "bug",
+      "location": "In trees",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "long-locust",
+      "name": "Long locust",
+      "bells": 200,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "8 AM - 7 PM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "migratory-locust",
+      "name": "Migratory locust",
+      "bells": 600,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "8 AM - 7 PM",
+      "months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "mantis",
+      "name": "Mantis",
+      "bells": 430,
+      "category": "bug",
+      "location": "On flowers",
+      "time": "8 AM - 5 PM",
+      "months": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "orchid-mantis",
+      "name": "Orchid mantis",
+      "bells": 2400,
+      "category": "bug",
+      "location": "On white flowers",
+      "time": "8 AM - 5 PM",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "brown-cicada",
+      "name": "Brown cicada",
+      "bells": 200,
+      "category": "bug",
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "robust-cicada",
+      "name": "Robust cicada",
+      "bells": 300,
+      "category": "bug",
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "walker-cicada",
+      "name": "Walker cicada",
+      "bells": 400,
+      "category": "bug",
+      "location": "On trees",
+      "time": "8 AM - 5 PM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "evening-cicada",
+      "name": "Evening cicada",
+      "bells": 650,
+      "category": "bug",
+      "location": "On trees",
+      "time": "4 PM - 7 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "lantern-fly",
+      "name": "Lantern fly",
+      "bells": 1800,
+      "category": "bug",
+      "location": "On trees",
+      "time": "4 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "red-dragonfly",
+      "name": "Red dragonfly",
+      "bells": 80,
+      "category": "bug",
+      "location": "Flying",
+      "time": "8 AM - 7 PM",
+      "months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "darner-dragonfly",
+      "name": "Darner dragonfly",
+      "bells": 200,
+      "category": "bug",
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "banded-dragonfly",
+      "name": "Banded dragonfly",
+      "bells": 4500,
+      "category": "bug",
+      "location": "Flying",
+      "time": "8 AM - 5 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "giant-petaltail",
+      "name": "Giant petaltail",
+      "bells": 8000,
+      "category": "bug",
+      "location": "Flying",
+      "time": "4 PM - 7 PM",
+      "months": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "ant",
+      "name": "Ant",
+      "bells": 80,
+      "category": "bug",
+      "location": "On rotten food",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "pondskater",
+      "name": "Pondskater",
+      "bells": 130,
+      "category": "bug",
+      "location": "Rivers and ponds",
+      "time": "8 AM - 7 PM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "diving-beetle",
+      "name": "Diving beetle",
+      "bells": 800,
+      "category": "bug",
+      "location": "Rivers and ponds",
+      "time": "8 AM - 5 PM",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "snail",
+      "name": "Snail",
+      "bells": 250,
+      "category": "bug",
+      "location": "On bushes (raining)",
+      "time": "All day",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "cricket",
+      "name": "Cricket",
+      "bells": 130,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "5 PM - 8 AM",
+      "months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "bell-cricket",
+      "name": "Bell cricket",
+      "bells": 430,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "5 PM - 8 AM",
+      "months": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "grasshopper",
+      "name": "Grasshopper",
+      "bells": 160,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "7 AM - 8 PM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "mole-cricket",
+      "name": "Mole cricket",
+      "bells": 280,
+      "category": "bug",
+      "location": "Underground",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "walking-leaf",
+      "name": "Walking leaf",
+      "bells": 600,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "8 AM - 5 PM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "walkingstick",
+      "name": "Walkingstick",
+      "bells": 600,
+      "category": "bug",
+      "location": "On trees",
+      "time": "4 AM - 7 PM",
+      "months": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "bagworm",
+      "name": "Bagworm",
+      "bells": 300,
+      "category": "bug",
+      "location": "In trees",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "ladybug",
+      "name": "Ladybug",
+      "bells": 200,
+      "category": "bug",
+      "location": "On flowers",
+      "time": "8 AM - 5 PM",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "violin-beetle",
+      "name": "Violin beetle",
+      "bells": 250,
+      "category": "bug",
+      "location": "On tree stumps",
+      "time": "4 AM - 7 PM",
+      "months": [
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "longhorn-beetle",
+      "name": "Longhorn beetle",
+      "bells": 260,
+      "category": "bug",
+      "location": "On tree stumps",
+      "time": "11 PM - 7 PM",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "dung-beetle",
+      "name": "Dung beetle",
+      "bells": 800,
+      "category": "bug",
+      "location": "Rolling snowballs",
+      "time": "5 PM - 8 AM",
+      "months": [
+        1,
+        2,
+        12
+      ]
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "bells": 300,
+      "category": "bug",
+      "location": "Flying near river",
+      "time": "7 PM - 4 AM",
+      "months": [
+        6
+      ]
+    },
+    {
+      "id": "fruit-beetle",
+      "name": "Fruit beetle",
+      "bells": 100,
+      "category": "bug",
+      "location": "On trees",
+      "time": "All day",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "scarab-beetle",
+      "name": "Scarab beetle",
+      "bells": 6000,
+      "category": "bug",
+      "location": "On trees",
+      "time": "11 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "jewel-beetle",
+      "name": "Jewel beetle",
+      "bells": 2400,
+      "category": "bug",
+      "location": "On trees",
+      "time": "8 AM - 4 PM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "miyama-stag-beetle",
+      "name": "Miyama stag beetle",
+      "bells": 1000,
+      "category": "bug",
+      "location": "On trees",
+      "time": "All day",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "saw-stag-beetle",
+      "name": "Saw stag beetle",
+      "bells": 2000,
+      "category": "bug",
+      "location": "On trees",
+      "time": "All day",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "giant-beetle",
+      "name": "Giant beetle",
+      "bells": 10000,
+      "category": "bug",
+      "location": "On trees",
+      "time": "11 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "rainbow-stag",
+      "name": "Rainbow stag",
+      "bells": 10000,
+      "category": "bug",
+      "location": "On trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "cyclommatus",
+      "name": "Cyclommatus",
+      "bells": 8000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "golden-stag",
+      "name": "Golden stag",
+      "bells": 12000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "dynastid-beetle",
+      "name": "Dynastid beetle",
+      "bells": 1350,
+      "category": "bug",
+      "location": "On trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "atlas-beetle",
+      "name": "Atlas beetle",
+      "bells": 8000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "elephant-beetle",
+      "name": "Elephant beetle",
+      "bells": 8000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "7 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "hercules-beetle",
+      "name": "Hercules beetle",
+      "bells": 12000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "goliath-beetle",
+      "name": "Goliath beetle",
+      "bells": 6000,
+      "category": "bug",
+      "location": "On palm trees",
+      "time": "5 PM - 8 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "flea",
+      "name": "Flea",
+      "bells": 70,
+      "category": "bug",
+      "location": "On villagers",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "pill-bug",
+      "name": "Pill bug",
+      "bells": 250,
+      "category": "bug",
+      "location": "Under rocks",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "mosquito",
+      "name": "Mosquito",
+      "bells": 130,
+      "category": "bug",
+      "location": "Flying",
+      "time": "5 PM - 4 AM",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "fly",
+      "name": "Fly",
+      "bells": 80,
+      "category": "bug",
+      "location": "Flying near trash",
+      "time": "All day",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "centipede",
+      "name": "Centipede",
+      "bells": 300,
+      "category": "bug",
+      "location": "Under rocks",
+      "time": "4 PM - 11 PM",
+      "months": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "spider",
+      "name": "Spider",
+      "bells": 300,
+      "category": "bug",
+      "location": "In fruit trees",
+      "time": "All day",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "tarantula",
+      "name": "Tarantula",
+      "bells": 8000,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "7 PM - 4 AM",
+      "months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "scorpion",
+      "name": "Scorpion",
+      "bells": 8000,
+      "category": "bug",
+      "location": "On the ground",
+      "time": "7 PM - 4 AM",
+      "months": [
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

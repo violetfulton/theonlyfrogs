@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "Animal Crossing" }} | TheOnlyFrogs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/accf/accf-style.css">
+  <link rel="stylesheet" href="/assets/css/accf/accf-base.css">
+
+  {% if customcss %}
+    <link rel="stylesheet" href="{{ customcss }}">
+  {% endif %}
+
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="ac-body">
+  <div class="season-overlay season-overlay--spring" id="seasonSpring" aria-hidden="true"></div>
+  <div class="season-overlay season-overlay--summer" id="seasonSummer" aria-hidden="true"></div>
+  <div class="season-overlay season-overlay--autumn" id="seasonAutumn" aria-hidden="true"></div>
+  <div class="season-overlay season-overlay--winter" id="seasonWinter" aria-hidden="true"></div>
+
+  <header class="ac-header">
+    <div class="ac-header-inner">
+      <div class="ac-brand">
+        <a href="/shrines/animalcrossing/" class="ac-logo">🐸 Animal Crossing</a>
+        <p class="ac-tagline">cozy town life · daily logs · critter hunting</p>
+      </div>
+
+      <nav class="ac-nav">
+        <a href="/">🏠 Home</a>
+        <a href="/shrines/">✨ Shrines</a>
+        <a href="/shrines/animalcrossing/">🌱 AC Shrine</a>
+        <a href="/shrines/animalcrossing/cityfolk/">📅 City Folk</a>
+        <a href="/shrines/animalcrossing/cityfolk/calendar/">🗓️ Calendar</a>
+        <a href="/shrines/animalcrossing/cityfolk/chores/">🧺 Chores</a>
+        <a href="/shrines/animalcrossing/cityfolk/turnips/">💰 Turnips</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ac-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="ac-footer">
+    <p>🐸 TheOnlyFrogs — Animal Crossing Shrine</p>
+    <p class="ac-footer-small">Not affiliated with Nintendo · just vibing in my town</p>
+  </footer>
+
+  <script src="/assets/js/ac-seasons.js"></script>
+</body>
+</html>

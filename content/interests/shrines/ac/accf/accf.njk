@@ -1,0 +1,120 @@
+---
+title: "City Folk"
+layout: /layouts/acBase.njk
+customcss: "/assets/css/accf/accf-home.css"
+permalink: /shrines/animalcrossing/cityfolk/
+---
+
+<section class="ac-home-page">
+  <section class="ac-home-hero">
+    <div class="ac-home-hero__text glass-card">
+      <p class="ac-home-kicker">Animal Crossing: City Folk</p>
+      <h1>🐸 City Folk</h1>
+      <p class="ac-home-subtitle">
+        a cozy little hub for my town journal, chores, catches, turnip tracking, RetroAchievements, events, and monthly critter goals
+      </p>
+
+      <div class="ac-home-hero__buttons">
+        <a class="ac-home-pill" href="/shrines/animalcrossing/cityfolk/calendar/">📅 Calendar</a>
+        <a class="ac-home-pill" href="/shrines/animalcrossing/cityfolk/turnips/">💰 Turnips</a>
+        <a class="ac-home-pill" href="/shrines/animalcrossing/cityfolk/retroachievements/">🏆 RetroAchievements</a>
+      </div>
+    </div>
+
+    <div class="ac-home-hero__visual glass-card">
+      <img
+        src="/assets/imgs/ac/moods/vibing.gif"
+        alt="Frog villager vibing"
+        class="ac-home-frog"
+      >
+      <p class="ac-home-quote">“just checking in on town life, ribbit!”</p>
+    </div>
+  </section>
+
+  <section class="ac-home-grid">
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">Today</p>
+      <h2>🌿 Town Snapshot</h2>
+      <div id="acHomeTodayDate" class="ac-home-date"></div>
+      <div id="acHomeTodayEvents" class="ac-home-list">
+        <p class="ac-home-empty">No special event today.</p>
+      </div>
+    </article>
+
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">Journal</p>
+      <h2>📝 Latest Entry</h2>
+      <div id="acHomeLatestEntry" class="ac-home-list">
+        <p class="ac-home-empty">No journal entries yet.</p>
+      </div>
+    </article>
+
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">This Month</p>
+      <h2>🐟 Critter Focus</h2>
+      <div id="acHomeGoalsPreview" class="ac-home-list">
+        <p class="ac-home-empty">No monthly goals available yet.</p>
+      </div>
+    </article>
+
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">This Month</p>
+      <h2>📊 Town Stats</h2>
+      <div id="acHomeStats" class="ac-home-list">
+        <p class="ac-home-empty">No monthly stats yet.</p>
+      </div>
+    </article>
+
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">Stalk Market</p>
+      <h2>💰 Current Week</h2>
+      <div id="acHomeTurnips" class="ac-home-list">
+        <p class="ac-home-empty">No turnip data logged yet.</p>
+      </div>
+    </article>
+
+    <article class="glass-card ac-home-card">
+  <p class="card-kicker">RetroAchievements</p>
+  <h2>🏆 Achievement Progress</h2>
+  <div id="acHomeRA" class="ac-home-list">
+    <p class="ac-home-empty">No achievement data yet.</p>
+  </div>
+</article>
+
+    <article class="glass-card ac-home-card">
+      <p class="card-kicker">Quick Links</p>
+      <h2>🚪 Jump In</h2>
+      <div class="ac-home-navcards">
+        <a class="ac-home-navcard" href="/shrines/animalcrossing/cityfolk/calendar/">
+          <span class="ac-home-navcard__emoji">📅</span>
+          <span>
+            <strong>Calendar</strong>
+            <small>journal, chores, catches, events</small>
+          </span>
+        </a>
+
+        <a class="ac-home-navcard" href="/shrines/animalcrossing/cityfolk/turnips/">
+          <span class="ac-home-navcard__emoji">💰</span>
+          <span>
+            <strong>Turnip Tracker</strong>
+            <small>buy prices, AM/PM prices, profit</small>
+          </span>
+        </a>
+
+        <a class="ac-home-navcard" href="/shrines/animalcrossing/cityfolk/retroachievements/">
+          <span class="ac-home-navcard__emoji">🏆</span>
+          <span>
+            <strong>RetroAchievements</strong>
+            <small>earned badges and progress</small>
+          </span>
+        </a>
+      </div>
+    </article>
+  </section>
+</section>
+
+<script id="ac-journal-data" type="application/json">{{ accf.journal | dump | safe }}</script>
+<script id="ac-events-data" type="application/json">{{ accf.events | dump | safe }}</script>
+<script id="ac-critters-data" type="application/json">{{ accf.critters | dump | safe }}</script>
+<script id="ac-ra-data" type="application/json">{{ accf.retroachievements | dump | safe }}</script>
+<script src="/assets/js/ac-home.js" defer></script>

@@ -1,0 +1,102 @@
+---
+title: "City Folk Calendar Diary"
+layout: /layouts/acBase.njk
+customcss: "/assets/css/accf/ac-calendar.css"
+permalink: /shrines/animalcrossing/cityfolk/calendar/
+---
+
+<section class="ac-calendar-page">
+  <div class="frog-hero">
+    <div class="frog-hero__text">
+      <p class="frog-kicker">Animal Crossing: City Folk</p>
+      <h1>🐸 Monthly Journal</h1>
+<p class="frog-subtitle">
+  Click a day to view journal entries, chores, catches, town events, turnip notes, and monthly critter goals.
+</p>
+    </div>
+
+    <div class="frog-hero__decor">
+      <div class="frog-chair-card">
+        <img
+          src="/assets/imgs/frog/frog-chair.png"
+          alt="Froggy Chair"
+          class="frog-chair-img"
+          onerror="this.style.display='none'"
+        />
+        <p>“ribbit… check your town notes!”</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="calendar-shell">
+    <div class="calendar-toolbar">
+      <button id="prevMonth" class="frog-btn" type="button">← Prev</button>
+
+      <div class="calendar-title-wrap">
+        <h2 id="calendarTitle" class="calendar-title">Month Year</h2>
+        <p id="todayInfo" class="today-info"></p>
+      </div>
+
+      <button id="nextMonth" class="frog-btn" type="button">Next →</button>
+    </div>
+
+    <div class="calendar-layout">
+      <section class="calendar-panel">
+        <div class="weekday-row">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+
+        <div id="calendarGrid" class="calendar-grid"></div>
+      </section>
+
+      <aside class="journal-panel">
+        <div class="journal-card">
+          <div class="entry-mood-visual">
+  <img
+    id="entryMoodGif"
+    class="entry-mood-gif"
+    src="/assets/imgs/ac/moods/vibing.gif"
+    alt="Frog mood"
+  >
+</div>
+          <p class="panel-kicker">Journal Entry</p>
+          <h3 id="entryDateLabel">Select a day</h3>
+
+          <div id="eventPills" class="event-pills"></div>
+
+          <div class="entry-meta" id="entryMeta"></div>
+
+          <div class="entry-checks" id="entryChecks"></div>
+
+          <div class="entry-body" id="entryBody">
+            <p class="entry-empty">Choose a date to view the journal entry.</p>
+          </div>
+        </div>
+
+        <div class="events-card">
+          <p class="panel-kicker">Town Notes</p>
+          <h3>This Month</h3>
+          <ul id="monthEventsList" class="month-events-list"></ul>
+        </div>
+
+        <div class="goals-card">
+          <p class="panel-kicker">Critter Goals</p>
+          <h3 id="goalsTitle">This Month’s Goals</h3>
+          <div id="goalsContent" class="goals-content"></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</section>
+
+<script id="ac-journal-data" type="application/json">{{ accf.journal | dump | safe }}</script>
+<script id="ac-events-data" type="application/json">{{ accf.events | dump | safe }}</script>
+<script id="ac-critters-data" type="application/json">{{ accf.critters | dump | safe }}</script>
+
+<script src="/assets/js/ac-calendar.js"></script>

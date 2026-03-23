@@ -1,0 +1,146 @@
+---
+title: "City Folk RetroAchievements"
+layout: /layouts/acBase.njk
+customcss: "/assets/css/accf/ac-ra.css"
+permalink: /shrines/animalcrossing/cityfolk/retroachievements/
+---
+
+{% set total = accf.retroachievements.game.achievementCount or 0 %}
+{% set earned = accf.retroachievements.game.earnedCount or 0 %}
+{% set percent = ((earned / total) * 100) if total else 0 %}
+
+{% set sorted = accf.retroachievements.achievements | sort(attribute="earned", reverse=true) %}
+{% set recentUnlocked = accf.retroachievements.achievements
+  | selectattr("earned")
+  | sort(attribute="earnedDate", reverse=true)
+  | list %}
+
+<section class="ac-ra-page">
+  <div class="frog-hero">
+    <div class="frog-hero__text glass-card">
+      <p class="frog-kicker">Animal Crossing: City Folk</p>
+      <h1>🏆 RetroAchievements</h1>
+      <p class="frog-subtitle">
+        my progress through the City Folk set — locked badges stay grey, earned ones glow in full colour ✨
+      </p>
+
+      <div class="frog-mini-links">
+        <a href="/shrines/animalcrossing/cityfolk/">← City Folk Hub</a>
+        <a href="/shrines/animalcrossing/cityfolk/calendar/">📅 Calendar</a>
+        <a href="/shrines/animalcrossing/cityfolk/turnips/">💰 Turnips</a>
+      </div>
+    </div>
+
+    <div class="frog-hero__decor">
+      <div class="frog-chair-card">
+        <p>“achievement huntin’ time…”</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="glass-card ac-ra-summary">
+    <div class="ac-ra-summary__head">
+      <div>
+        <p class="panel-kicker">Progress</p>
+        <h2>{{ accf.retroachievements.game.title }}</h2>
+        <p class="ac-ra-submeta">
+          {{ earned }} / {{ total }} earned
+        </p>
+      </div>
+
+{% if accf.retroachievements.game.imageIcon %}
+  <img
+    class="ac-ra-game-icon"
+    src="{{ accf.retroachievements.game.imageIcon }}"
+    alt="{{ accf.retroachievements.game.title }}"
+  >
+{% endif %}
+
+    <div class="ac-ra-progress">
+      <div class="ac-ra-progress__fill" style="--progress: {{ percent }}%;"></div>
+    </div>
+  </section>
+
+  <section class="ac-ra-layout">
+    <div class="ac-ra-main">
+      <section class="ac-ra-grid">
+        {% for achievement in sorted %}
+          {% set ratio = achievement.trueRatio or 0 %}
+          {% set rarityClass = "rarity-common" %}
+
+          {% if ratio >= 20 %}
+            {% set rarityClass = "rarity-ultra" %}
+          {% elif ratio >= 10 %}
+            {% set rarityClass = "rarity-rare" %}
+          {% elif ratio >= 5 %}
+            {% set rarityClass = "rarity-uncommon" %}
+          {% endif %}
+
+          <article class="ac-ra-card {{ rarityClass }} {% if achievement.earned %}is-earned{% else %}is-locked{% endif %}">
+            <div class="ac-ra-card__badge-wrap">
+              <img
+                class="ac-ra-card__badge"
+                src="{% if achievement.earned %}{{ achievement.badgeUnlocked }}{% else %}{{ achievement.badgeLocked }}{% endif %}"
+                alt="{{ achievement.title }}"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="ac-ra-card__content">
+              <div class="ac-ra-card__topline">
+                <h3>{{ achievement.title }}</h3>
+                <span class="ac-ra-points">{{ achievement.points }} pts</span>
+              </div>
+
+              <p class="ac-ra-card__desc">{{ achievement.description }}</p>
+
+              <div class="ac-ra-card__meta">
+                {% if achievement.trueRatio %}
+                  <span class="ac-ra-rarity-pill">True ratio: {{ achievement.trueRatio }}</span>
+                {% endif %}
+              </div>
+
+              {% if achievement.earned %}
+                <p class="ac-ra-card__date">
+                  Earned{% if achievement.earnedHardcore %} (hardcore){% endif %}: {{ achievement.earnedDate }}
+                </p>
+              {% else %}
+                <p class="ac-ra-card__date is-hidden-date">Not earned yet</p>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </section>
+    </div>
+
+<aside class="ac-ra-side">
+  <section class="glass-card ac-ra-recent">
+    <p class="panel-kicker">Recent Unlocks</p>
+    <h2>✨ Latest Earned</h2>
+
+    {% if recentUnlocked.length %}
+      <div class="ac-ra-recent-list">
+        {% for achievement in recentUnlocked %}
+          {% if loop.index <= 3 %}
+            <article class="ac-ra-recent-item">
+              <img
+                class="ac-ra-recent-badge"
+                src="{{ achievement.badgeUnlocked }}"
+                alt="{{ achievement.title }}"
+                loading="lazy"
+              >
+              <div>
+                <strong>{{ achievement.title }}</strong>
+                <p>{{ achievement.earnedDate }}</p>
+              </div>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="ac-ra-empty">No achievements earned yet.</p>
+    {% endif %}
+  </section>
+</aside>
+  </section>
+</section>

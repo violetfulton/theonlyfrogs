@@ -1662,6 +1662,84 @@
     "folder_id": 1
   },
   {
+    "id": 1740257,
+    "instance_id": 2121266670,
+    "date_added": "2026-03-06T08:51:57-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1740257,
+      "master_id": 334665,
+      "master_url": "https://api.discogs.com/masters/334665",
+      "resource_url": "https://api.discogs.com/releases/1740257",
+      "thumb": "https://i.discogs.com/uhE-haV3mwIAQ75_FddnQzg7KJGLT78xZZ9QrFfxLQw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDAy/NTctMTQ1NjI0NjI4/NC03OTgwLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/NGRLop-WnlQGQs5m_ff20kU_dTKrkL4Z_rXc9UXwPTQ/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDAy/NTctMTQ1NjI0NjI4/NC03OTgwLmpwZWc.jpeg",
+      "title": "Chicago (Music From The Miramax Motion Picture)",
+      "year": 2002,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "text": "Enhanced",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epic",
+          "catno": "510532 2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1005,
+          "resource_url": "https://api.discogs.com/labels/1005"
+        },
+        {
+          "name": "Sony Music Soundtrax",
+          "catno": "510532 2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2406,
+          "resource_url": "https://api.discogs.com/labels/2406"
+        },
+        {
+          "name": "Epic",
+          "catno": "EPC 510532 2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1005,
+          "resource_url": "https://api.discogs.com/labels/1005"
+        },
+        {
+          "name": "Sony Music Soundtrax",
+          "catno": "EPC 510532 2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2406,
+          "resource_url": "https://api.discogs.com/labels/2406"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Various",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 194,
+          "resource_url": "https://api.discogs.com/artists/194"
+        }
+      ],
+      "genres": [
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
     "id": 13289196,
     "instance_id": 2064151479,
     "date_added": "2025-09-24T12:54:59-07:00",

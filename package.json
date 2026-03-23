@@ -6,7 +6,8 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js"
+    "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js",
+    "fetch:accf-ra": "node content/_scripts/fetchAccfRetroAchievements.mjs"
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.0",

@@ -1,0 +1,42 @@
+---
+title: "City Folk Turnip Tracker"
+layout: /layouts/acBase.njk
+customcss: "/assets/css/accf/ac-calendar.css"
+permalink: /shrines/animalcrossing/cityfolk/turnips/
+---
+
+<section class="ac-turnip-page">
+  <div class="frog-hero">
+    <div class="frog-hero__text">
+      <p class="frog-kicker">Animal Crossing: City Folk</p>
+      <h1>💰 Weekly Turnip Tracker</h1>
+      <p class="frog-subtitle">
+        Sunday buy prices, weekday AM and PM prices, and your best possible profit for each week.
+      </p>
+
+      <div class="frog-mini-links">
+        <a href="/shrines/animalcrossing/cityfolk/calendar/">← Calendar</a>
+        <a href="/shrines/animalcrossing/">Animal Crossing Shrine</a>
+      </div>
+    </div>
+
+    <div class="frog-hero__decor">
+      <div class="frog-chair-card">
+        <p>“stalk market panic goes here…”</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="turnip-summary-card" id="currentWeekCard">
+    <h2>Current Week</h2>
+    <p class="ac-muted">Loading turnip data...</p>
+  </section>
+
+  <section class="turnip-history" id="turnipHistory"></section>
+</section>
+
+
+<script id="ac-journal-data" type="application/json">{{ accf.journal | dump | safe }}</script>
+
+<!-- script -->
+<script src="/assets/js/ac-turnips.js" defer></script>

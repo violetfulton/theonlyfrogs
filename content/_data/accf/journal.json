@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "version": 2,
+    "game": "Animal Crossing: City Folk",
+    "lastUpdated": "2026-03-23"
+  },
+  "entries": {
+    "2026-03-22": {
+      "title": "Turnip buying day 💰",
+      "content": "Bought turnips for 93 bells each. Hoping for a good price later in the week!",
+      "mood": ["excited", "confident"],
+      "energy": 6,
+      "stats": {
+        "bellsSpent": 18600,
+        "bellsEarned": 50000
+      },
+      "activities": ["shopping", "museum"],
+      "chores": {
+        "completed": ["moneyRock", "fossils", "trees", "recycling"],
+        "missed": ["lostAndFound"]
+      },
+      "catches": {
+        "fish": ["Tuna", "Football Fish", "Barred Knifejaw"],
+        "bugs": []
+      },
+      "events": {
+        "turnips": {
+          "bought": true,
+          "price": 93,
+          "amount": 200
+        }
+      },
+      "tags": ["turnips", "sunday"],
+      "notes": {
+        "highlight": "Turnips bought for 93 bells each!",
+        "lowlight": "Only could afford 200 😭"
+      }
+    },
+
+    "2026-03-23": {
+      "title": "Slow Monday",
+      "content": "Checked the shop and did my chores.",
+      "mood": ["sleepy"],
+      "energy": 5,
+      "stats": {
+        "bellsEarned": 8000
+      },
+      "activities": ["shopping", "villagers"],
+      "chores": {
+        "completed": ["moneyRock", "fossils"],
+        "missed": ["trees", "recycling", "lostAndFound"]
+      },
+      "catches": {
+        "fish": [],
+        "bugs": []
+      },
+      "events": {
+        "turnips": {
+          "prices": {
+            "am": 71,
+            "pm": 68
+          }
+        }
+      },
+      "tags": ["turnips", "monday"],
+      "notes": {
+        "highlight": "",
+        "lowlight": ""
+      }
+    },
+
+    "2026-03-24": {
+      "title": "Not a good turnip day 😭",
+      "content": "Checked prices again… still not great 😭",
+      "mood": ["neutral"],
+      "energy": 5,
+      "stats": {
+        "bellsEarned": 8000
+      },
+      "activities": ["shopping", "chores"],
+      "chores": {
+        "completed": ["moneyRock", "fossils"],
+        "missed": ["trees", "lostAndFound", "recycling"]
+      },
+      "catches": {
+        "fish": [],
+        "bugs": []
+      },
+      "events": {
+        "turnips": {
+          "prices": {
+            "am": 65,
+            "pm": 61
+          }
+        }
+      },
+      "tags": ["turnips", "tuesday"],
+      "notes": {
+        "highlight": "",
+        "lowlight": ""
+      }
+    },
+
+    "2026-03-25": {
+      "title": "Hide and seek with the gals",
+      "content": "Played hide and seek with Lily, Chrissy and Alice. Found them in less than 2 minutes! Also had a visit from Chrissy after!",
+      "mood": ["cozy"],
+      "energy": 4,
+      "stats": {
+        "bellsEarned": 15000
+      },
+      "activities": ["hideandseek", "villagers"],
+      "chores": {
+        "completed": ["moneyRock", "fossils"],
+        "missed": ["trees", "lostAndFound", "recycling"]
+      },
+      "catches": {
+        "fish": [],
+        "bugs": []
+      },
+      "events": {
+        "turnips": {
+          "prices": {
+            "am": 56,
+            "pm": 52
+          }
+        }
+      },
+      "tags": ["turnips", "wednesday"],
+      "notes": {
+        "highlight": "",
+        "lowlight": "gettin nervous about turnip prices 😭"
+      }
+    },
+
+    "2026-03-26": {
+      "title": "Turnip selling day 💰",
+      "content": "Sold turnips for a great price! Wish I had bought more.",
+      "mood": ["celebrating", "proud"],
+      "energy": 8,
+      "stats": {
+        "bellsEarned": 29400
+      },
+      "activities": ["shopping", "villagers", "museum"],
+      "chores": {
+        "completed": ["moneyRock", "fossils"],
+        "missed": ["trees", "lostAndFound", "recycling"]
+      },
+      "catches": {
+        "fish": [],
+        "bugs": ["flea", "pill bug"]
+      },
+      "events": {
+        "turnips": {
+          "prices": {
+            "am": 102,
+            "pm": 147
+          },
+            "sale": {
+    "sold": true,
+    "price": 147,
+    "amount": 200,
+    "period": "pm"
+  }
+        }
+      },
+      "tags": ["turnips", "thursday", "profit"],
+      "notes": {
+        "highlight": "Turnips sold for 147 bells each!",
+        "lowlight": "3 bells off a retroachievements unlock 😭 but shop is closed tomorrow for remodeling so had to be done."
+      }
+    }
+  }
+}
