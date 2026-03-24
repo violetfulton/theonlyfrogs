@@ -1,33 +1,33 @@
 <section class="trakt-section">
   <div class="trakt-widget">
-      <h3>
-    <a href="https://trakt.tv/users/onlyfrogs"
-       target="_blank" rel="noopener">
-      📺 Trakt
-    </a>
-  </h3>
+    <h3>
+      <a href="https://simkl.com/8313205/"
+         target="_blank" rel="noopener">
+        📺 Simkl
+      </a>
+    </h3>
     <p class="trakt-subtitle">current show + last 3 movies</p>
 
     {# --- Current show (1 item) --- #}
-    {% if traktNow.show %}
+    {% if simklNow.show %}
       <div class="trakt-current-card">
-        <a href="{{ traktNow.show.url }}" target="_blank" rel="noopener">
+        <a href="{{ simklNow.show.url }}" target="_blank" rel="noopener">
           <div class="trakt-current-img">
-            <img src="{{ traktNow.show.poster }}" alt="{{ traktNow.show.title }}" loading="lazy">
-            {% if traktNow.show.pill %}
-              <span class="trakt-pill">{{ traktNow.show.pill }}</span>
+            <img src="{{ simklNow.show.poster }}" alt="{{ simklNow.show.title }}" loading="lazy">
+            {% if simklNow.show.pill %}
+              <span class="trakt-pill">{{ simklNow.show.pill }}</span>
             {% endif %}
           </div>
 
           <div class="trakt-current-info">
-            <h4>{{ traktNow.show.title }}</h4>
+            <h4>{{ simklNow.show.title }}</h4>
             <p class="trakt-meta">
-              {% if traktNow.show.year %}{{ traktNow.show.year }} · {% endif %}
-              <span class="trakt-stars">{{ traktNow.show.stars }}</span>
+              {% if simklNow.show.year %}{{ simklNow.show.year }} · {% endif %}
+              <span class="trakt-stars">{{ simklNow.show.stars }}</span>
             </p>
 
-            {% if traktNow.show.subtitle %}
-              <p class="trakt-episode-title">{{ traktNow.show.subtitle }}</p>
+            {% if simklNow.show.subtitle %}
+              <p class="trakt-episode-title">{{ simklNow.show.subtitle }}</p>
             {% endif %}
           </div>
         </a>
@@ -35,9 +35,9 @@
     {% endif %}
 
     {# --- Last 3 movies --- #}
-    {% if traktNow.movies and traktNow.movies.length %}
+    {% if simklNow.movies and simklNow.movies.length %}
       <div class="trakt-movies">
-        {% for item in traktNow.movies %}
+        {% for item in simklNow.movies %}
           <div class="trakt-movie">
             <a href="{{ item.url }}" target="_blank" rel="noopener">
               <img class="trakt-movie-thumb" src="{{ item.poster }}" alt="{{ item.title }}" loading="lazy">
