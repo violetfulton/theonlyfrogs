@@ -24,13 +24,12 @@ permalink: /dvds/
   </div>
 </div>
 
-
 {# Combine movies + shows into one list for the grid #}
 {% set combined = [] %}
-{% for m in traktOwned.movies %}
+{% for m in simklOwned.movies %}
   {% set combined = combined.concat([m]) %}
 {% endfor %}
-{% for s in traktOwned.shows %}
+{% for s in simklOwned.shows %}
   {% set combined = combined.concat([s]) %}
 {% endfor %}
 
@@ -38,16 +37,16 @@ permalink: /dvds/
 {% for item in combined %}
   {% set img = item.poster | default("/assets/imgs/frog-dvd-placeholder.png") %}
 
-  <div class="movie-card"
-       data-title="{{ item.title }}"
-       data-year="{{ item.year or '' }}"
-       data-img="{{ img }}"
-       data-overview="{{ item.overview | default('') }}"
-       data-my-rating="{{ item.my_rating | default('0') }}"
-       data-media-type="{{ item.media_type }}"
-       data-trakt="{{ item.trakt }}"
-       data-seasons="{{ item.seasons_owned | default('') }}"
-       data-index="{{ loop.index }}">
+<div class="movie-card"
+     data-title="{{ item.title | escape }}"
+     data-year="{{ item.year or '' }}"
+     data-img="{{ img | escape }}"
+     data-overview="{{ item.overview | default('') | escape }}"
+     data-my-rating="{{ item.my_rating | default('0') }}"
+     data-media-type="{{ item.media_type | escape }}"
+     data-url="{{ item.url | default('') | escape }}"
+     data-seasons="{{ item.seasons_owned | default('') | escape }}"
+     data-index="{{ loop.index }}">
 
     <img src="{{ img }}" alt="{{ item.title }}" loading="lazy"
          onerror="this.src='/assets/imgs/frog-dvd-placeholder.png'">

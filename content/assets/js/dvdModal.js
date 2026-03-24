@@ -83,14 +83,10 @@ document.addEventListener("DOMContentLoaded", () => {
       modalSeasons.style.display = "none";
     }
 
-    // Trakt link
-    const traktId = card.dataset.trakt;
-    if (traktId && mediaType) {
-      const base =
-        mediaType === "movie"
-          ? "https://trakt.tv/movies/"
-          : "https://trakt.tv/shows/";
-      modalTraktLink.href = base + traktId;
+    // External link (Simkl now, but the element id can stay the same)
+    const url = (card.dataset.url || "").trim();
+    if (url) {
+      modalTraktLink.href = url;
       modalTraktLink.style.display = "inline-flex";
     } else {
       modalTraktLink.style.display = "none";
@@ -147,4 +143,3 @@ document.addEventListener("DOMContentLoaded", () => {
   updateCollectionSplit();
   applyFilter("all");
 });
-
