@@ -1,38 +1,85 @@
-// content/_data/traktNow.js
 import EleventyFetch from "@11ty/eleventy-fetch";
 import dotenv from "dotenv";
 dotenv.config();
 
 const TRAKT_USER = process.env.TRAKT_USER;
 const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
-const TRAKT_ACCESS_TOKEN = process.env.TRAKT_ACCESS_TOKEN;
+const TRAKT_CLIENT_SECRET = process.env.TRAKT_CLIENT_SECRET;
+const TRAKT_REFRESH_TOKEN = process.env.TRAKT_REFRESH_TOKEN;
 const TMDB_KEY = process.env.TMDB_API_KEY;
 
-const TRAKT_CACHE = "30m";
 const TMDB_CACHE = "12h";
 
 if (!TRAKT_USER) throw new Error("Missing TRAKT_USER in env");
 if (!TRAKT_CLIENT_ID) throw new Error("Missing TRAKT_CLIENT_ID in env");
+if (!TRAKT_CLIENT_SECRET) throw new Error("Missing TRAKT_CLIENT_SECRET in env");
+if (!TRAKT_REFRESH_TOKEN) throw new Error("Missing TRAKT_REFRESH_TOKEN in env");
 if (!TMDB_KEY) throw new Error("Missing TMDB_API_KEY in env");
 
-async function traktGet(path, { auth = false } = {}) {
-  const url = `https://api.trakt.tv${path}`;
+let currentAccessToken = process.env.TRAKT_ACCESS_TOKEN || null;
+let currentRefreshToken = TRAKT_REFRESH_TOKEN;
 
-  const headers = {
-    "Content-Type": "application/json",
-    "trakt-api-version": "2",
-    "trakt-api-key": TRAKT_CLIENT_ID,
-  };
+async function refreshTraktAccessToken() {
+  const res = await fetch("https://api.trakt.tv/oauth/token", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      refresh_token: currentRefreshToken,
+      client_id: TRAKT_CLIENT_ID,
+      client_secret: TRAKT_CLIENT_SECRET,
+      redirect_uri: "urn:ietf:wg:oauth:2.0:oob",
+      grant_type: "refresh_token",
+    }),
+  });
 
-  if (auth && TRAKT_ACCESS_TOKEN) {
-    headers.Authorization = `Bearer ${TRAKT_ACCESS_TOKEN}`;
+  const text = await res.text();
+
+  if (!res.ok) {
+    throw new Error(`Trakt token refresh failed (${res.status}): ${text}`);
   }
 
-  return EleventyFetch(url, {
-    duration: TRAKT_CACHE,
-    type: "json",
-    fetchOptions: { headers },
+  const json = JSON.parse(text);
+
+  currentAccessToken = json.access_token;
+  if (json.refresh_token) currentRefreshToken = json.refresh_token;
+
+  if (json.refresh_token && json.refresh_token !== TRAKT_REFRESH_TOKEN) {
+    console.warn("[traktNow] Trakt returned a new refresh token. Update your GitHub secret TRAKT_REFRESH_TOKEN.");
+  }
+
+  return currentAccessToken;
+}
+
+async function traktAuthedGet(path, { retrying = false } = {}) {
+  if (!currentAccessToken) {
+    await refreshTraktAccessToken();
+  }
+
+  const url = `https://api.trakt.tv${path}`;
+
+  const res = await fetch(url, {
+    headers: {
+      "Content-Type": "application/json",
+      "trakt-api-version": "2",
+      "trakt-api-key": TRAKT_CLIENT_ID,
+      Authorization: `Bearer ${currentAccessToken}`,
+    },
   });
+
+  if (res.status === 401 && !retrying) {
+    console.warn(`[traktNow] Got 401 for ${path}, refreshing token and retrying...`);
+    await refreshTraktAccessToken();
+    return traktAuthedGet(path, { retrying: true });
+  }
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Authenticated Trakt request failed (${res.status}) for ${path}: ${text}`);
+  }
+
+  return res.json();
 }
 
 async function tmdbGet(path) {
@@ -78,13 +125,14 @@ export default async function () {
 
   try {
     [moviesHist, episodesHist, movieRatings, showRatings] = await Promise.all([
-      traktGet(`/users/${TRAKT_USER}/history/movies?limit=10&extended=full`, { auth: true }),
-      traktGet(`/users/${TRAKT_USER}/history/episodes?limit=30&extended=full`, { auth: true }),
-      traktGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`, { auth: true }),
-      traktGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`, { auth: true }),
+      traktAuthedGet(`/users/${TRAKT_USER}/history/movies?limit=10&extended=full`),
+      traktAuthedGet(`/users/${TRAKT_USER}/history/episodes?limit=30&extended=full`),
+      traktAuthedGet(`/users/${TRAKT_USER}/ratings/movies?limit=500`),
+      traktAuthedGet(`/users/${TRAKT_USER}/ratings/shows?limit=500`),
     ]);
   } catch (error) {
-    console.warn("[traktNow] Authenticated Trakt fetch failed, continuing with empty data:", error.message);
+    console.error("[traktNow] Authenticated Trakt fetch failed:", error.message);
+    return { movies: [], show: null };
   }
 
   const movieRatingMap = new Map();
