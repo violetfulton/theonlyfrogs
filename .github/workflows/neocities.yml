@@ -21,7 +21,9 @@ env:
   TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
   TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
   RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
-
+  SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
+  SIMKL_CLIENT_SECRET: ${{ secrets.SIMKL_CLIENT_SECRET }}
+  SIMKL_ACCESS_TOKEN: ${{ secrets.SIMKL_ACCESS_TOKEN }}
 
 jobs:
   deploy:
