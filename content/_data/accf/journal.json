@@ -169,6 +169,39 @@
         "highlight": "Turnips sold for 147 bells each!",
         "lowlight": "3 bells off a retroachievements unlock 😭 but shop is closed tomorrow for remodeling so had to be done."
       }
-    }
+    },
+
+    "2026-03-27": {
+      "title": "Shop closed for remodeling 🛠️",
+      "content": "Not much to do since my inventory is so full!!.",
+      "mood": ["cozy"],
+      "energy": 5,
+      "stats": {
+        "bellsEarned": 8000
+      },
+      "activities": ["chores", "villagers"],
+      "chores": {
+        "completed": ["moneyRock", "fossils", "lostAndFound", "recycling"],
+        "missed": ["trees"]
+      },
+      "catches": {
+        "fish": [],
+        "bugs": []
+      },
+      "events": {
+        "turnips": {
+          "prices": {
+            "am": null,
+            "pm": null
+          }
+        }
+      },
+      "tags": ["turnips", "friday"],
+      "notes": {
+        "highlight": "looking forward to new shop and new items!",
+        "lowlight": "i miss ACNH shops already, lemme sell 😭"
+      }
+
   }
+}
 }
