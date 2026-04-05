@@ -1,0 +1,257 @@
+---
+title: "Critter Tracker"
+layout: /layouts/acBase.njk
+permalink: /shrines/animalcrossing/cityfolk/critters/
+customcss:
+  - /assets/css/accf/ac-critters.css
+scripts:
+  - /assets/js/ac-critters.js
+---
+
+<section class="ac-page critters-page">
+  <header class="critters-hero glass-card">
+    <h1>Critter Tracker</h1>
+    <p>
+      Tracks which fish and bugs I've caught in City Folk. Missing critters are greyed out so
+      I can see at a glance what’s left.
+    </p>
+
+    <div class="critters-stats">
+      <div class="stat-pill">
+        <strong>Total caught:</strong>
+        {{ accf["critters-tracker"].stats.all.caught }} / {{ accf["critters-tracker"].stats.all.total }}
+      </div>
+      <div class="stat-pill">
+        <strong>Fish:</strong>
+        {{ accf["critters-tracker"].stats.fish.caught }} / {{ accf["critters-tracker"].stats.fish.total }}
+      </div>
+      <div class="stat-pill">
+        <strong>Bugs:</strong>
+        {{ accf["critters-tracker"].stats.bugs.caught }} / {{ accf["critters-tracker"].stats.bugs.total }}
+      </div>
+    </div>
+  </header>
+
+  <section class="critters-controls glass-card">
+    <div class="filter-row">
+      <label>
+        <span>Type</span>
+        <select id="filter-type">
+          <option value="all">All</option>
+          <option value="fish">Fish</option>
+          <option value="bug">Bugs</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Month</span>
+        <select id="filter-month">
+          <option value="all">All year</option>
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Weather</span>
+        <select id="filter-weather">
+          <option value="all">Any</option>
+          <option value="any">Any weather</option>
+          <option value="sun">Sun / clear</option>
+          <option value="rain">Rain</option>
+          <option value="snow">Snow</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Time</span>
+        <input id="filter-time" type="text" placeholder="e.g. 5 PM, All day, 8 AM" />
+      </label>
+
+      <label>
+        <span>Status</span>
+        <select id="filter-status">
+          <option value="all">All</option>
+          <option value="caught">Caught</option>
+          <option value="missing">Missing</option>
+          <option value="donated">Donated</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="filter-row quick-toggles">
+      <button type="button" class="filter-chip is-active" data-quick="all">Show all</button>
+      <button type="button" class="filter-chip" data-quick="missing">Missing only</button>
+      <button type="button" class="filter-chip" data-quick="caught">Caught only</button>
+      <button type="button" class="filter-chip" data-quick="available-now">Available this month</button>
+    </div>
+
+    <p class="results-line">
+      Showing <strong id="results-count">{{ accf["critters-tracker"].all | length }}</strong> critters
+    </p>
+  </section>
+
+  <section class="critters-now glass-card" id="critters-now">
+    <div class="critters-now__top">
+      <h2>Available Right Now</h2>
+      <p>Uses your selected month, weather, and hour.</p>
+    </div>
+
+    <div class="critters-now__controls">
+      <label>
+        <span>Hour</span>
+        <select id="filter-hour">
+          <option value="all">Any time</option>
+          <option value="0">0:00</option>
+          <option value="1">1:00</option>
+          <option value="2">2:00</option>
+          <option value="3">3:00</option>
+          <option value="4">4:00</option>
+          <option value="5">5:00</option>
+          <option value="6">6:00</option>
+          <option value="7">7:00</option>
+          <option value="8">8:00</option>
+          <option value="9">9:00</option>
+          <option value="10">10:00</option>
+          <option value="11">11:00</option>
+          <option value="12">12:00</option>
+          <option value="13">13:00</option>
+          <option value="14">14:00</option>
+          <option value="15">15:00</option>
+          <option value="16">16:00</option>
+          <option value="17">17:00</option>
+          <option value="18">18:00</option>
+          <option value="19">19:00</option>
+          <option value="20">20:00</option>
+          <option value="21">21:00</option>
+          <option value="22">22:00</option>
+          <option value="23">23:00</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="critters-now__stats">
+      <div class="now-pill">
+        <strong>Available now:</strong>
+        <span id="now-available-count">0</span>
+      </div>
+
+      <div class="now-pill">
+        <strong>Missing now:</strong>
+        <span id="now-missing-count">0</span>
+      </div>
+
+      <div class="now-pill">
+        <strong>Best Bells now:</strong>
+        <span id="now-best-bells">—</span>
+      </div>
+    </div>
+
+    <div class="critters-now__list">
+      <h3>Missing right now</h3>
+      <p id="now-missing-list">None 🎉</p>
+    </div>
+  </section>
+
+  <section class="critters-leaving glass-card" id="critters-leaving">
+    <div class="critters-leaving__top">
+      <h2>Leaving After This Month</h2>
+      <p>Critters available in the selected month, but gone next month.</p>
+    </div>
+
+    <div class="critters-leaving__stats">
+      <div class="leave-pill">
+        <strong>Leaving this month:</strong>
+        <span id="leaving-count">0</span>
+      </div>
+
+      <div class="leave-pill">
+        <strong>Still missing:</strong>
+        <span id="leaving-missing-count">0</span>
+      </div>
+
+      <div class="leave-pill">
+        <strong>Highest value leaving:</strong>
+        <span id="leaving-best">—</span>
+      </div>
+    </div>
+
+    <div class="critters-leaving__list">
+      <h3>Missing before month-end</h3>
+      <p id="leaving-missing-list">None 🎉</p>
+    </div>
+  </section>
+
+  <section class="critters-grid" id="critters-grid">
+    {% for critter in accf["critters-tracker"].all %}
+    <article
+      class="critter-card{% if critter.caught %} is-caught{% else %} is-missing{% endif %}{% if critter.donated %} is-donated{% endif %}"
+      data-type="{{ critter.category }}"
+      data-months="{{ critter.months | join(',') }}"
+      data-weather="{{ critter.weather | join(',') | lower }}"
+      data-time="{{ critter.timeSlots | join(' | ') | lower }}"
+      data-time-raw="{{ critter.timeSlots | join(' | ') }}"
+      data-bells="{{ critter.bells }}"
+      data-name="{{ critter.name }}"
+      data-status="{% if critter.donated %}donated{% elseif critter.caught %}caught{% else %}missing{% endif %}"
+    >
+      <div class="critter-card__header">
+        <h2>{{ critter.name }}</h2>
+        <p class="critter-meta">{{ critter.category | capitalize }} · {{ critter.location }}</p>
+      </div>
+
+      <div class="critter-card__img">
+        <img
+          src="/assets/imgs/accf/critters/{{ critter.category }}/{{ critter.id }}.png"
+          alt="{{ critter.name }}"
+          loading="lazy"
+          onerror="this.onerror=null;this.src='/assets/imgs/frog-placeholder.png';"
+        >
+      </div>
+
+      <div class="critter-bells">{{ critter.bells }} Bells</div>
+
+      <div class="critter-tags">
+        {% if critter.caught %}
+          <span class="tag tag-caught">Caught</span>
+        {% else %}
+          <span class="tag tag-missing">Missing</span>
+        {% endif %}
+
+        {% if critter.donated %}
+          <span class="tag tag-donated">Donated</span>
+        {% endif %}
+      </div>
+
+      <dl class="critter-details">
+        <div>
+          <dt>Months</dt>
+          <dd>{{ critter.months | join(', ') }}</dd>
+        </div>
+        <div>
+          <dt>Time</dt>
+          <dd>{{ critter.timeSlots | join(', ') }}</dd>
+        </div>
+        <div>
+          <dt>Weather</dt>
+          <dd>{{ critter.weather | join(', ') }}</dd>
+        </div>
+        <div>
+          <dt>Where</dt>
+          <dd>{{ critter.location }}</dd>
+        </div>
+      </dl>
+    </article>
+    {% endfor %}
+  </section>
+</section>

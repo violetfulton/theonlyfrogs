@@ -1,0 +1,518 @@
+{
+  "fish": {
+    "bitterling": {
+      "caught": false,
+      "donated": false
+    },
+    "pale-chub": {
+      "caught": false,
+      "donated": false
+    },
+    "crucian-carp": {
+      "caught": false,
+      "donated": false
+    },
+    "dace": {
+      "caught": false,
+      "donated": false
+    },
+    "barbel-steed": {
+      "caught": false,
+      "donated": false
+    },
+    "carp": {
+      "caught": false,
+      "donated": false
+    },
+    "koi": {
+      "caught": false,
+      "donated": false
+    },
+    "goldfish": {
+      "caught": false,
+      "donated": false
+    },
+    "popeyed-goldfish": {
+      "caught": false,
+      "donated": false
+    },
+    "killifish": {
+      "caught": false,
+      "donated": false
+    },
+    "crawfish": {
+      "caught": false,
+      "donated": false
+    },
+    "frog": {
+      "caught": false,
+      "donated": false
+    },
+    "freshwater-goby": {
+      "caught": false,
+      "donated": false
+    },
+    "loach": {
+      "caught": false,
+      "donated": false
+    },
+    "catfish": {
+      "caught": false,
+      "donated": false
+    },
+    "eel": {
+      "caught": false,
+      "donated": false
+    },
+    "giant-snakehead": {
+      "caught": false,
+      "donated": false
+    },
+    "bluegill": {
+      "caught": false,
+      "donated": false
+    },
+    "yellow-perch": {
+      "caught": false,
+      "donated": false
+    },
+    "black-bass": {
+      "caught": false,
+      "donated": false
+    },
+    "pike": {
+      "caught": false,
+      "donated": false
+    },
+    "pond-smelt": {
+      "caught": false,
+      "donated": false
+    },
+    "sweetfish": {
+      "caught": false,
+      "donated": false
+    },
+    "cherry-salmon": {
+      "caught": false,
+      "donated": false
+    },
+    "char": {
+      "caught": false,
+      "donated": false
+    },
+    "rainbow-trout": {
+      "caught": false,
+      "donated": false
+    },
+    "stringfish": {
+      "caught": false,
+      "donated": false
+    },
+    "salmon": {
+      "caught": false,
+      "donated": false
+    },
+    "king-salmon": {
+      "caught": false,
+      "donated": false
+    },
+    "guppy": {
+      "caught": false,
+      "donated": false
+    },
+    "angelfish": {
+      "caught": false,
+      "donated": false
+    },
+    "neon-tetra": {
+      "caught": false,
+      "donated": false
+    },
+    "piranha": {
+      "caught": false,
+      "donated": false
+    },
+    "arowana": {
+      "caught": false,
+      "donated": false
+    },
+    "dorado": {
+      "caught": false,
+      "donated": false
+    },
+    "gar": {
+      "caught": false,
+      "donated": false
+    },
+    "arapaima": {
+      "caught": false,
+      "donated": false
+    },
+    "sea-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "jellyfish": {
+      "caught": false,
+      "donated": false
+    },
+    "seahorse": {
+      "caught": false,
+      "donated": false
+    },
+    "clownfish": {
+      "caught": false,
+      "donated": false
+    },
+    "surgeonfish": {
+      "caught": false,
+      "donated": false
+    },
+    "butterfly-fish": {
+      "caught": false,
+      "donated": false
+    },
+    "napoleonfish": {
+      "caught": false,
+      "donated": false
+    },
+    "zebra-turkeyfish": {
+      "caught": false,
+      "donated": false
+    },
+    "puffer-fish": {
+      "caught": false,
+      "donated": false
+    },
+    "horse-mackerel": {
+      "caught": false,
+      "donated": false
+    },
+    "barred-knifejaw": {
+      "caught": false,
+      "donated": false
+    },
+    "sea-bass": {
+      "caught": false,
+      "donated": false
+    },
+    "red-snapper": {
+      "caught": false,
+      "donated": false
+    },
+    "dab": {
+      "caught": false,
+      "donated": false
+    },
+    "olive-flounder": {
+      "caught": false,
+      "donated": false
+    },
+    "squid": {
+      "caught": false,
+      "donated": false
+    },
+    "octopus": {
+      "caught": false,
+      "donated": false
+    },
+    "lobster": {
+      "caught": false,
+      "donated": false
+    },
+    "moray-eel": {
+      "caught": false,
+      "donated": false
+    },
+    "football-fish": {
+      "caught": false,
+      "donated": false
+    },
+    "tuna": {
+      "caught": false,
+      "donated": false
+    },
+    "blue-marlin": {
+      "caught": false,
+      "donated": false
+    },
+    "ray": {
+      "caught": false,
+      "donated": false
+    },
+    "ocean-sunfish": {
+      "caught": false,
+      "donated": false
+    },
+    "hammerhead-shark": {
+      "caught": false,
+      "donated": false
+    },
+    "shark": {
+      "caught": false,
+      "donated": false
+    },
+    "coelacanth": {
+      "caught": false,
+      "donated": false
+    }
+  },
+  "bugs": {
+    "common-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "yellow-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "tiger-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "peacock-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "monarch-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "emperor-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "agrias-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "raja-brooke-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "birdwing-butterfly": {
+      "caught": false,
+      "donated": false
+    },
+    "moth": {
+      "caught": false,
+      "donated": false
+    },
+    "oak-silk-moth": {
+      "caught": false,
+      "donated": false
+    },
+    "honeybee": {
+      "caught": false,
+      "donated": false
+    },
+    "bee": {
+      "caught": false,
+      "donated": false
+    },
+    "long-locust": {
+      "caught": false,
+      "donated": false
+    },
+    "migratory-locust": {
+      "caught": false,
+      "donated": false
+    },
+    "mantis": {
+      "caught": false,
+      "donated": false
+    },
+    "orchid-mantis": {
+      "caught": false,
+      "donated": false
+    },
+    "brown-cicada": {
+      "caught": false,
+      "donated": false
+    },
+    "robust-cicada": {
+      "caught": false,
+      "donated": false
+    },
+    "walker-cicada": {
+      "caught": false,
+      "donated": false
+    },
+    "evening-cicada": {
+      "caught": false,
+      "donated": false
+    },
+    "lantern-fly": {
+      "caught": false,
+      "donated": false
+    },
+    "red-dragonfly": {
+      "caught": false,
+      "donated": false
+    },
+    "darner-dragonfly": {
+      "caught": false,
+      "donated": false
+    },
+    "banded-dragonfly": {
+      "caught": false,
+      "donated": false
+    },
+    "giant-petaltail": {
+      "caught": false,
+      "donated": false
+    },
+    "ant": {
+      "caught": false,
+      "donated": false
+    },
+    "pondskater": {
+      "caught": false,
+      "donated": false
+    },
+    "diving-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "snail": {
+      "caught": false,
+      "donated": false
+    },
+    "cricket": {
+      "caught": false,
+      "donated": false
+    },
+    "bell-cricket": {
+      "caught": false,
+      "donated": false
+    },
+    "grasshopper": {
+      "caught": false,
+      "donated": false
+    },
+    "mole-cricket": {
+      "caught": false,
+      "donated": false
+    },
+    "walking-leaf": {
+      "caught": false,
+      "donated": false
+    },
+    "walkingstick": {
+      "caught": false,
+      "donated": false
+    },
+    "bagworm": {
+      "caught": false,
+      "donated": false
+    },
+    "ladybug": {
+      "caught": false,
+      "donated": false
+    },
+    "violin-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "longhorn-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "dung-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "firefly": {
+      "caught": false,
+      "donated": false
+    },
+    "fruit-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "scarab-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "jewel-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "miyama-stag-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "saw-stag-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "giant-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "rainbow-stag": {
+      "caught": false,
+      "donated": false
+    },
+    "cyclommatus": {
+      "caught": false,
+      "donated": false
+    },
+    "golden-stag": {
+      "caught": false,
+      "donated": false
+    },
+    "dynastid-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "atlas-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "elephant-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "hercules-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "goliath-beetle": {
+      "caught": false,
+      "donated": false
+    },
+    "flea": {
+      "caught": false,
+      "donated": false
+    },
+    "pill-bug": {
+      "caught": false,
+      "donated": false
+    },
+    "mosquito": {
+      "caught": false,
+      "donated": false
+    },
+    "fly": {
+      "caught": false,
+      "donated": false
+    },
+    "centipede": {
+      "caught": false,
+      "donated": false
+    },
+    "spider": {
+      "caught": false,
+      "donated": false
+    },
+    "tarantula": {
+      "caught": false,
+      "donated": false
+    },
+    "scorpion": {
+      "caught": false,
+      "donated": false
+    }
+  }
+}

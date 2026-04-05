@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="/assets/css/accf/accf-base.css">
 
   {% if customcss %}
-    <link rel="stylesheet" href="{{ customcss }}">
+    {% for sheet in customcss %}
+      <link rel="stylesheet" href="{{ sheet }}">
+    {% endfor %}
   {% endif %}
 
   <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
@@ -31,9 +33,10 @@
       <nav class="ac-nav">
         <a href="/">🏠 Home</a>
         <a href="/shrines/">✨ Shrines</a>
-        <a href="/shrines/animalcrossing/">🌱 AC Shrine</a>
+
         <a href="/shrines/animalcrossing/cityfolk/">📅 City Folk</a>
         <a href="/shrines/animalcrossing/cityfolk/calendar/">🗓️ Calendar</a>
+        <a href="/shrines/animalcrossing/cityfolk/critters/">🐟 Critters</a>
         <a href="/shrines/animalcrossing/cityfolk/chores/">🧺 Chores</a>
         <a href="/shrines/animalcrossing/cityfolk/turnips/">💰 Turnips</a>
       </nav>
@@ -50,5 +53,11 @@
   </footer>
 
   <script src="/assets/js/ac-seasons.js"></script>
+
+  {% if scripts %}
+    {% for script in scripts %}
+      <script src="{{ script }}"></script>
+    {% endfor %}
+  {% endif %}
 </body>
 </html>
