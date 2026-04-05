@@ -1,0 +1,336 @@
+{
+  "characterId": "30338253",
+  "lodestoneUrl": "https://eu.finalfantasyxiv.com/lodestone/character/30338253",
+  "achievementsUrl": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/",
+  "categoryIndexUrl": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/",
+  "characterName": "Violet Froggy",
+  "world": "Phantom [Chaos]",
+  "portrait": "https://img2.finalfantasyxiv.com/f/0d99013ec768776b620324dbcde62049_f0a43d6e5eea19af337a176e9836acddfc0.jpg?1775414813",
+  "achievementPoints": 21445,
+  "recent": [
+    {
+      "category": "Battle",
+      "title": "Bump on a Log: Marauder",
+      "date": "2026-04-05",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/730/"
+    },
+    {
+      "category": "Battle",
+      "title": "Where Rabbits Roam II",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3687/"
+    },
+    {
+      "category": "Character",
+      "title": "Stick Them with the Pointy End X",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3429/"
+    },
+    {
+      "category": "Items",
+      "title": "Vrandtastic: Lodestar Saw",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3362/"
+    },
+    {
+      "category": "Crafting & Gathering",
+      "title": "I Made That: Armorer II",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/702/"
+    },
+    {
+      "category": "Quests",
+      "title": "With Steel in Hand III",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/619/"
+    },
+    {
+      "category": "Quests",
+      "title": "With Steel in Hand II",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/618/"
+    },
+    {
+      "category": "Items",
+      "title": "R&D: Fishing Hyperrod",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3887/"
+    },
+    {
+      "category": "Items",
+      "title": "R&D: Hyperpickaxe",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3885/"
+    },
+    {
+      "category": "Items",
+      "title": "R&D: Stellar Fishing Rod",
+      "date": "2026-04-04",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/detail/3802/"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "battle",
+      "name": "Battle",
+      "displayName": "Battle & Duties",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/1/#anchor_achievement",
+      "recentCount": 2,
+      "recentTitles": [
+        "Bump on a Log: Marauder",
+        "Where Rabbits Roam II"
+      ],
+      "icon": "⚔️",
+      "theme": "crystal",
+      "hint": "Good for roulettes, dungeon clears, and job progress.",
+      "focusIdeas": [
+        "roulettes",
+        "job levelling",
+        "dungeons / trials",
+        "deep dungeons"
+      ],
+      "tag": "recent progress"
+    },
+    {
+      "slug": "pvp",
+      "name": "PvP",
+      "displayName": "PvP",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/2/#anchor_achievement",
+      "recentCount": 0,
+      "recentTitles": [],
+      "icon": "🏹",
+      "theme": "ribbon",
+      "hint": "A slow-and-steady category for Frontline or CC days.",
+      "focusIdeas": [
+        "Frontline",
+        "Crystalline Conflict",
+        "casual PvP sessions"
+      ],
+      "tag": "quiet lately"
+    },
+    {
+      "slug": "character",
+      "name": "Character",
+      "displayName": "Character Growth",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/3/#anchor_achievement",
+      "recentCount": 1,
+      "recentTitles": [
+        "Stick Them with the Pointy End X"
+      ],
+      "icon": "🩷",
+      "theme": "axolotl",
+      "hint": "A dreamy pocket of personal long-term milestones.",
+      "focusIdeas": [
+        "job milestones",
+        "level thresholds",
+        "personal progression"
+      ],
+      "tag": "recent progress"
+    },
+    {
+      "slug": "items",
+      "name": "Items",
+      "displayName": "Items & Collecting",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/4/#anchor_achievement",
+      "recentCount": 4,
+      "recentTitles": [
+        "Vrandtastic: Lodestar Saw",
+        "R&D: Fishing Hyperrod",
+        "R&D: Hyperpickaxe"
+      ],
+      "icon": "🎒",
+      "theme": "pom",
+      "hint": "Often passive progress from collecting things naturally.",
+      "focusIdeas": [
+        "gear unlocks",
+        "tool upgrades",
+        "collection progress"
+      ],
+      "tag": "active lately"
+    },
+    {
+      "slug": "crafting-and-gathering",
+      "name": "Crafting & Gathering",
+      "displayName": "Crafting & Gathering",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/5/#anchor_achievement",
+      "recentCount": 1,
+      "recentTitles": [
+        "I Made That: Armorer II"
+      ],
+      "icon": "🪡",
+      "theme": "petal",
+      "hint": "Perfect for calm, cosy progress sessions.",
+      "focusIdeas": [
+        "crafting logs",
+        "gathering goals",
+        "tool progression",
+        "levequests"
+      ],
+      "tag": "recent progress"
+    },
+    {
+      "slug": "quests",
+      "name": "Quests",
+      "displayName": "Quests & Unlocks",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/8/#anchor_achievement",
+      "recentCount": 2,
+      "recentTitles": [
+        "With Steel in Hand III",
+        "With Steel in Hand II"
+      ],
+      "icon": "📖",
+      "theme": "storybook",
+      "hint": "Lovely for sidequest clears, role quests, and content unlock progress.",
+      "focusIdeas": [
+        "sidequests",
+        "role quests",
+        "feature unlock chains"
+      ],
+      "tag": "recent progress"
+    },
+    {
+      "slug": "exploration",
+      "name": "Exploration",
+      "displayName": "Exploration",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/11/#anchor_achievement",
+      "recentCount": 0,
+      "recentTitles": [],
+      "icon": "🧭",
+      "theme": "cloud",
+      "hint": "Nice for sightseeing and wandering around the world.",
+      "focusIdeas": [
+        "sightseeing",
+        "map exploration",
+        "zone wandering"
+      ],
+      "tag": "quiet lately"
+    },
+    {
+      "slug": "grand-company",
+      "name": "Grand Company",
+      "displayName": "Grand Company",
+      "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/12/#anchor_achievement",
+      "recentCount": 0,
+      "recentTitles": [],
+      "icon": "🎖️",
+      "theme": "medal",
+      "hint": "A steady category with ranky little goals.",
+      "focusIdeas": [
+        "company rank progress",
+        "seal-related goals",
+        "squadron bits"
+      ],
+      "tag": "quiet lately"
+    }
+  ],
+  "suggestions": {
+    "easyWins": [
+      {
+        "category": "Battle & Duties",
+        "icon": "⚔️",
+        "reason": "You’ve touched this recently, so it could be a nice category to keep nudging.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/1/#anchor_achievement",
+        "focusIdeas": [
+          "roulettes",
+          "job levelling",
+          "dungeons / trials",
+          "deep dungeons"
+        ]
+      },
+      {
+        "category": "Quests & Unlocks",
+        "icon": "📖",
+        "reason": "You’ve touched this recently, so it could be a nice category to keep nudging.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/8/#anchor_achievement",
+        "focusIdeas": [
+          "sidequests",
+          "role quests",
+          "feature unlock chains"
+        ]
+      },
+      {
+        "category": "Character Growth",
+        "icon": "🩷",
+        "reason": "You’ve touched this recently, so it could be a nice category to keep nudging.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/3/#anchor_achievement",
+        "focusIdeas": [
+          "job milestones",
+          "level thresholds",
+          "personal progression"
+        ]
+      }
+    ],
+    "neglected": [
+      {
+        "category": "PvP",
+        "icon": "🏹",
+        "reason": "Nothing recent here, so this could be a cute fresh focus.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/2/#anchor_achievement",
+        "focusIdeas": [
+          "Frontline",
+          "Crystalline Conflict",
+          "casual PvP sessions"
+        ]
+      },
+      {
+        "category": "Exploration",
+        "icon": "🧭",
+        "reason": "Nothing recent here, so this could be a cute fresh focus.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/11/#anchor_achievement",
+        "focusIdeas": [
+          "sightseeing",
+          "map exploration",
+          "zone wandering"
+        ]
+      },
+      {
+        "category": "Grand Company",
+        "icon": "🎖️",
+        "reason": "Nothing recent here, so this could be a cute fresh focus.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/12/#anchor_achievement",
+        "focusIdeas": [
+          "company rank progress",
+          "seal-related goals",
+          "squadron bits"
+        ]
+      }
+    ],
+    "active": [
+      {
+        "category": "Items & Collecting",
+        "icon": "🎒",
+        "reason": "You’ve had recent progress here, so it’s a comfy category to keep pushing.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/4/#anchor_achievement",
+        "focusIdeas": [
+          "gear unlocks",
+          "tool upgrades",
+          "collection progress"
+        ]
+      },
+      {
+        "category": "Battle & Duties",
+        "icon": "⚔️",
+        "reason": "You’ve had recent progress here, so it’s a comfy category to keep pushing.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/1/#anchor_achievement",
+        "focusIdeas": [
+          "roulettes",
+          "job levelling",
+          "dungeons / trials",
+          "deep dungeons"
+        ]
+      },
+      {
+        "category": "Quests & Unlocks",
+        "icon": "📖",
+        "reason": "You’ve had recent progress here, so it’s a comfy category to keep pushing.",
+        "url": "https://eu.finalfantasyxiv.com/lodestone/character/30338253/achievement/kind/8/#anchor_achievement",
+        "focusIdeas": [
+          "sidequests",
+          "role quests",
+          "feature unlock chains"
+        ]
+      }
+    ]
+  },
+  "updatedAt": "2026-04-05T19:44:13.918Z"
+}

@@ -1,0 +1,250 @@
+---
+title: "FFXIV Achievements"
+layout: layouts/ffBase.njk
+customcss: "/assets/css/ffxiv/ffxiv-achievements.css"
+permalink: /shrines/finalfantasyxiv/achievements/
+intro: |
+  <p>
+    My soft little Eorzean progress corner ♡ This page updates automatically and shows what achievement areas I’ve been active in lately, plus a few places I could focus on next.
+  </p>
+---
+
+<section class="ffxiv-ach-page">
+  <div class="ffxiv-bg-icons" aria-hidden="true">
+    <span class="bg-icon pom">✦</span>
+    <span class="bg-icon star">★</span>
+    <span class="bg-icon heart">♡</span>
+    <span class="bg-icon flower">✿</span>
+    <span class="bg-icon sparkle">✧</span>
+  </div>
+
+  <header class="ffxiv-ach-hero">
+    <div class="ffxiv-ach-hero__mascot left" aria-hidden="true">
+      <div class="moogle-ball"></div>
+      <div class="mascot-blob">🪽</div>
+    </div>
+
+    <div class="ffxiv-ach-hero__card">
+      <div class="ffxiv-ach-hero__profile">
+        {% if ffxivAchievements.portrait %}
+          <img
+            src="{{ ffxivAchievements.portrait }}"
+            alt="{{ ffxivAchievements.characterName }}"
+            class="ffxiv-ach-portrait"
+          >
+        {% endif %}
+
+        <div class="ffxiv-ach-hero__info">
+          <p class="ffxiv-ach-kicker">✨ moogle progress log ✨</p>
+          <h1>{{ ffxivAchievements.characterName or "My Warrior of Light" }}</h1>
+          <p class="ffxiv-ach-world">{{ ffxivAchievements.world or "Eorzea" }}</p>
+
+          <p class="ffxiv-ach-desc">
+            A dreamy little snapshot of my FFXIV achievement progress, updated automatically ♡
+          </p>
+
+          <div class="ffxiv-ach-links">
+            <a href="{{ ffxivAchievements.achievementsUrl }}" target="_blank" rel="noopener">Achievements ↗</a>
+            <a href="{{ ffxivAchievements.categoryIndexUrl }}" target="_blank" rel="noopener">Categories ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ffxiv-ach-hero__mascot right" aria-hidden="true">
+      <div class="axolotl-face">
+        <span>◕</span>
+        <span>◕</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="ffxiv-ach-stats-grid">
+    <article class="ffxiv-ach-stat-card">
+      <span class="stat-icon">⭐</span>
+      <span class="stat-label">Achievement Points</span>
+      <strong class="stat-value">{{ ffxivAchievements.achievementPoints or "—" }}</strong>
+    </article>
+
+    <article class="ffxiv-ach-stat-card">
+      <span class="stat-icon">📚</span>
+      <span class="stat-label">Recent Achievements Tracked</span>
+      <strong class="stat-value">
+        {{ ffxivAchievements.recent.length if ffxivAchievements.recent else "—" }}
+      </strong>
+    </article>
+
+    <article class="ffxiv-ach-stat-card">
+      <span class="stat-icon">🕒</span>
+      <span class="stat-label">Last Updated</span>
+      <strong class="stat-value stat-value--small">
+        {% if ffxivAchievements.updatedAt %}
+          <time datetime="{{ ffxivAchievements.updatedAt }}">{{ ffxivAchievements.updatedAt }}</time>
+        {% else %}
+          —
+        {% endif %}
+      </strong>
+    </article>
+  </section>
+
+  <section class="ffxiv-ach-card">
+    <div class="section-head">
+      <h2>Progress by Category</h2>
+      <p class="section-sub">little pockets of progress i can work on next ♡</p>
+    </div>
+
+    {% if ffxivAchievements.categories and ffxivAchievements.categories.length %}
+      <div class="ffxiv-cat-grid">
+        {% for cat in ffxivAchievements.categories %}
+          <article class="ffxiv-cat-card theme-{{ cat.theme }}">
+            <div class="ffxiv-cat-top">
+              <span class="ffxiv-cat-icon">{{ cat.icon or "✧" }}</span>
+              <span class="ffxiv-tag tag-{{ cat.tag | replace(' ', '-') }}">{{ cat.tag }}</span>
+            </div>
+
+            <h3>
+              <a href="{{ cat.url }}" target="_blank" rel="noopener">{{ cat.displayName or cat.name }}</a>
+            </h3>
+
+            <p class="ffxiv-cat-hint">{{ cat.hint }}</p>
+
+            {% if cat.focusIdeas and cat.focusIdeas.length %}
+              <ul class="ffxiv-cat-focus">
+                {% for idea in cat.focusIdeas %}
+                  <li>{{ idea }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            <div class="ffxiv-cat-stats">
+              <div>
+                <span class="mini-label">Recent unlocks</span>
+                <strong>{{ cat.recentCount or 0 }}</strong>
+              </div>
+            </div>
+
+            {% if cat.recentTitles and cat.recentTitles.length %}
+              <ul class="ffxiv-cat-recent">
+                {% for title in cat.recentTitles %}
+                  <li>{{ title }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p class="ffxiv-cat-empty">No recent achievements here just yet ♡</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="ffxiv-empty">No category data yet... kupo.</p>
+    {% endif %}
+  </section>
+
+  <div class="ffxiv-ach-layout">
+    <section class="ffxiv-ach-card">
+      <h2>Recent Achievements</h2>
+
+      {% if ffxivAchievements.recent and ffxivAchievements.recent.length %}
+        <ul class="ffxiv-ach-list">
+          {% for item in ffxivAchievements.recent %}
+            <li class="ffxiv-ach-item">
+              <div class="ffxiv-ach-item__left">
+                <span class="ffxiv-ach-badge">✦</span>
+                <div class="ffxiv-ach-item__text">
+                  {% if item.category %}
+                    <small class="ffxiv-ach-category">{{ item.category }}</small>
+                  {% endif %}
+
+                  {% if item.url %}
+                    <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+                  {% else %}
+                    <span>{{ item.title }}</span>
+                  {% endif %}
+
+                  {% if item.date %}
+                    <small>{{ item.date }}</small>
+                  {% endif %}
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="ffxiv-empty">No recent achievements yet... time for a little adventure ♡</p>
+      {% endif %}
+    </section>
+
+    <aside class="ffxiv-ach-card ffxiv-ach-card--side">
+      <h2>What I Could Work On Next</h2>
+
+      <div class="suggest-block">
+        <h3>Easy Wins</h3>
+        {% if ffxivAchievements.suggestions.easyWins and ffxivAchievements.suggestions.easyWins.length %}
+          <ul class="suggest-list">
+            {% for item in ffxivAchievements.suggestions.easyWins %}
+              <li>
+                <span>{{ item.icon }} </span>
+                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
+                <small>{{ item.reason }}</small>
+
+                {% if item.focusIdeas and item.focusIdeas.length %}
+                  <small>
+                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
+                  </small>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="ffxiv-empty">Nothing obvious here yet ♡</p>
+        {% endif %}
+      </div>
+
+      <div class="suggest-block">
+        <h3>Quiet Lately</h3>
+        {% if ffxivAchievements.suggestions.neglected and ffxivAchievements.suggestions.neglected.length %}
+          <ul class="suggest-list">
+            {% for item in ffxivAchievements.suggestions.neglected %}
+              <li>
+                <span>{{ item.icon }} </span>
+                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
+                <small>{{ item.reason }}</small>
+
+                {% if item.focusIdeas and item.focusIdeas.length %}
+                  <small>
+                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
+                  </small>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="ffxiv-empty">No especially quiet categories right now ♡</p>
+        {% endif %}
+      </div>
+
+      <div class="suggest-block">
+        <h3>Comfy Long-Term</h3>
+        {% if ffxivAchievements.suggestions.active and ffxivAchievements.suggestions.active.length %}
+          <ul class="suggest-list">
+            {% for item in ffxivAchievements.suggestions.active %}
+              <li>
+                <span>{{ item.icon }} </span>
+                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
+                <small>{{ item.reason }}</small>
+
+                {% if item.focusIdeas and item.focusIdeas.length %}
+                  <small>
+                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
+                  </small>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="ffxiv-empty">Still gathering cosy long-term goals ♡</p>
+        {% endif %}
+      </div>
+    </aside>
+  </div>
+</section>

@@ -1,32 +1,58 @@
 name: Auto Build and Deploy to Neocities
+
 on:
   push:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    # Runs daily at 05:15 UTC
+    - cron: "15 5 * * *"
 
 env:
+  # --- Site / deploy ---
+  NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+
+  # --- Discogs ---
   DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
   DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+
+  # --- Steam ---
   STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
   STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
-  NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+
+  # --- MyAnimeList ---
   MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
   MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
+
+  # --- RetroAchievements ---
   RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
+
+  # --- TMDb ---
   TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
+  # --- Trakt ---
   TRAKT_USER: ${{ secrets.TRAKT_USER }}
   TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
   TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
   TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
   TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
+
+  # --- RAWG ---
   RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
+
+  # --- Simkl ---
   SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
   SIMKL_CLIENT_SECRET: ${{ secrets.SIMKL_CLIENT_SECRET }}
   SIMKL_ACCESS_TOKEN: ${{ secrets.SIMKL_ACCESS_TOKEN }}
 
+  # --- FFXIV / Lodestone ---
+  FFXIV_CHARACTER_ID: ${{ secrets.FFXIV_CHARACTER_ID }}
+  FFXIV_LODESTONE_REGION: eu
+
 jobs:
   deploy:
+    name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
@@ -37,18 +63,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: "npm"
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
+      # Refreshes FFXIV achievement JSON before the Eleventy build.
+      # Non-fatal so a Lodestone scrape issue won't block the whole site deploy.
+      - name: Fetch FFXIV achievement data
+        run: node content/_scripts/fetchFfxivAchievements.mjs || echo "FFXIV fetch failed, continuing with existing cached data"
 
       - name: Build Eleventy
-        if: success()
         run: npm run build
 
       - name: Deploy to Neocities
-        if: success()
         uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_API_KEY }}
@@ -56,25 +84,27 @@ jobs:
           dist_dir: public
 
       - name: Post build summary
-        if: success()
         run: |
           echo "✅ Build & Deploy Successful!" >> $GITHUB_STEP_SUMMARY
-          echo "Deployed at: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "Deployed at: $(date -u)" >> $GITHUB_STEP_SUMMARY
           echo "Visit your site: https://theonlyfrogs.com" >> $GITHUB_STEP_SUMMARY
 
       - name: Notify Discord on success
-        if: success()
         run: >
-          curl -H "Content-Type: application/json" -d "{\"content\":\"✅ **Neocities Deploy Successful!**
+          curl
+          -H "Content-Type: application/json"
+          -d "{\"content\":\"✅ **Neocities Deploy Successful!**
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+          ${{ secrets.DISCORD_WEBHOOK }}
 
-  # 🚨 Notify on failure
   notify-on-failure:
+    name: Notify on Failure
     needs: deploy
     runs-on: ubuntu-latest
-    if: failure()
+    if: ${{ failure() }}
+
     steps:
       - name: Send failure email
         uses: dawidd6/action-send-mail@v3
@@ -94,7 +124,10 @@ jobs:
 
       - name: Send failure message to Discord
         run: >
-          curl -H "Content-Type: application/json" -d "{\"content\":\"🚨 **Neocities Deploy Failed!**
+          curl
+          -H "Content-Type: application/json"
+          -d "{\"content\":\"🚨 **Neocities Deploy Failed!**
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" ${{ secrets.DISCORD_WEBHOOK }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+          ${{ secrets.DISCORD_WEBHOOK }}

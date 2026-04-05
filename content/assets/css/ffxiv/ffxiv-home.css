@@ -1,0 +1,341 @@
+.ffxiv-home-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.ffxiv-home-hero__card,
+.ffxiv-home-stat,
+.ffxiv-home-card,
+.ffxiv-home-navcard {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 2px solid rgba(231, 139, 192, 0.45);
+  box-shadow: 0 10px 30px rgba(209, 126, 171, 0.18);
+}
+
+.ffxiv-home-hero__card {
+  border-radius: 30px;
+  padding: 1.25rem;
+}
+
+.ffxiv-home-hero__profile {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.ffxiv-home-portrait {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 8px 20px rgba(206, 128, 172, 0.22);
+  background: #fff;
+}
+
+.ffxiv-home-kicker {
+  margin: 0 0 0.35rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.25rem;
+  color: var(--ff-pink-4);
+}
+
+.ffxiv-home-hero__info h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+  font-family: 'Gaegu', cursive;
+  color: var(--ff-pink-4);
+}
+
+.ffxiv-home-world {
+  margin: 0.35rem 0 0.75rem;
+  font-weight: 700;
+  color: var(--ff-text-soft);
+}
+
+.ffxiv-home-desc {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+}
+
+.ffxiv-home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.ffxiv-home-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  border: 2px solid rgba(224, 123, 180, 0.35);
+  color: #9b4f79;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(214, 126, 176, 0.15);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ffxiv-home-links a:hover,
+.ffxiv-home-links a:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 16px rgba(214, 126, 176, 0.2);
+}
+
+.ffxiv-home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ffxiv-home-stat {
+  border-radius: 24px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.ffxiv-home-stat__icon {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.ffxiv-home-stat__label {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--ff-text-soft);
+  margin-bottom: 0.35rem;
+}
+
+.ffxiv-home-stat__value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #b3568d;
+}
+
+.ffxiv-home-stat__value--small {
+  font-size: 1rem;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.ffxiv-home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.ffxiv-home-card {
+  border-radius: 28px;
+  padding: 1.25rem;
+}
+
+.ffxiv-home-card h2 {
+  margin: 0 0 1rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 2rem;
+  color: #c45a99;
+}
+
+.ffxiv-home-copy p + p {
+  margin-top: 0.85rem;
+}
+
+.ffxiv-interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.ffxiv-interest-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  border: 2px solid rgba(224, 123, 180, 0.28);
+  color: #9b4f79;
+  font-weight: 700;
+}
+
+.ffxiv-home-recent,
+.ffxiv-home-focus-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.ffxiv-home-recent li,
+.ffxiv-home-focus-list li {
+  display: flex;
+  gap: 0.8rem;
+  align-items: flex-start;
+  padding: 0.9rem 1rem;
+  border-radius: 20px;
+  background: rgba(255, 247, 252, 0.85);
+  border: 1.5px solid rgba(235, 170, 206, 0.5);
+}
+
+.ffxiv-home-recent__icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd7ec 0%, #ffc2e2 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 34px;
+  color: #b44d85;
+  font-weight: 700;
+}
+
+.ffxiv-home-recent li a,
+.ffxiv-home-focus-list li a,
+.ffxiv-home-link-list a,
+.ffxiv-home-navcard {
+  text-decoration: none;
+}
+
+.ffxiv-home-recent li a,
+.ffxiv-home-focus-list li a,
+.ffxiv-home-link-list a {
+  color: #9d4f79;
+  font-weight: 700;
+}
+
+.ffxiv-home-recent li a:hover,
+.ffxiv-home-focus-list li a:hover,
+.ffxiv-home-link-list a:hover {
+  text-decoration: underline;
+}
+
+.ffxiv-home-recent li small,
+.ffxiv-home-focus-list li small {
+  display: block;
+  color: var(--ff-text-soft);
+  margin-top: 0.2rem;
+}
+
+.ffxiv-home-recent__category {
+  color: var(--ff-pink-4);
+  font-weight: 700;
+}
+
+.ffxiv-home-navgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.9rem;
+}
+
+.ffxiv-home-navcard {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  border-radius: 24px;
+  padding: 1rem;
+  color: inherit;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ffxiv-home-navcard:hover,
+.ffxiv-home-navcard:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(209, 126, 171, 0.18);
+}
+
+.ffxiv-home-navcard__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd7ec 0%, #ffc2e2 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 42px;
+}
+
+.ffxiv-home-navcard h3 {
+  margin: 0 0 0.25rem;
+  color: #9d4f79;
+}
+
+.ffxiv-home-navcard p,
+.ffxiv-home-empty {
+  margin: 0;
+  color: var(--ff-text-soft);
+  line-height: 1.6;
+}
+
+.ffxiv-home-link-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ffxiv-gallery-intro {
+  margin: 0 0 1rem;
+  color: var(--ff-text-soft);
+}
+
+.ffxiv-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+}
+
+.ffxiv-gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid rgba(231, 139, 192, 0.35);
+  box-shadow: 0 8px 18px rgba(209, 126, 171, 0.16);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 860px) {
+  .ffxiv-home-hero__profile,
+  .ffxiv-home-stats,
+  .ffxiv-home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ffxiv-home-hero__profile {
+    text-align: center;
+  }
+
+  .ffxiv-home-portrait {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .ffxiv-home-page {
+    gap: 0.85rem;
+  }
+
+  .ffxiv-home-hero__card,
+  .ffxiv-home-card,
+  .ffxiv-home-stat,
+  .ffxiv-home-navcard {
+    border-radius: 22px;
+  }
+
+  .ffxiv-home-hero__info h1 {
+    line-height: 1.1;
+  }
+
+  .ffxiv-gallery img {
+    height: 180px;
+  }
+}

@@ -7,11 +7,12 @@
     "start": "eleventy --serve",
     "build": "eleventy",
     "fetch:discogs": "node ./content/_scripts/fetchDiscogsCache.js",
-    "fetch:accf-ra": "node content/_scripts/fetchAccfRetroAchievements.mjs"
+    "fetch:accf-ra": "node content/_scripts/fetchAccfRetroAchievements.mjs",
+    "ffxiv": "node content/_scripts/fetchFfxivAchievements.mjs"
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.0",
-    "cheerio": "^1.1.2",
+    "cheerio": "^1.2.0",
     "csv-parse": "^6.1.0",
     "dotenv": "^17.2.2",
     "jsonwebtoken": "^9.0.2",
