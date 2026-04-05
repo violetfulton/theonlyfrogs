@@ -9,13 +9,9 @@
   <link rel="stylesheet" href="/assets/css/accf/accf-base.css">
 
 {% if customcss %}
-  {% if customcss | isArray %}
-    {% for sheet in customcss %}
-      <link rel="stylesheet" href="{{ sheet }}">
-    {% endfor %}
-  {% else %}
-    <link rel="stylesheet" href="{{ customcss }}">
-  {% endif %}
+  {% for sheet in customcss %}
+    <link rel="stylesheet" href="{{ sheet }}">
+  {% endfor %}
 {% endif %}
 
   <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
