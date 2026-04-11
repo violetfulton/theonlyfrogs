@@ -140,13 +140,28 @@ intro: |
     {% endif %}
   </section>
 
-  <div class="ffxiv-ach-layout">
-    <section class="ffxiv-ach-card">
+<section class="ffxiv-ach-card">
+  <div class="section-head section-head--recent">
+    <div>
       <h2>Recent Achievements</h2>
+      <p class="section-sub">a tiny peek at my latest unlocks ♡</p>
+    </div>
 
-      {% if ffxivAchievements.recent and ffxivAchievements.recent.length %}
-        <ul class="ffxiv-ach-list">
-          {% for item in ffxivAchievements.recent %}
+    <a
+      class="ffxiv-more-link"
+      href="{{ ffxivAchievements.achievementsUrl }}"
+      target="_blank"
+      rel="noopener"
+    >
+      view more on Lodestone ↗
+    </a>
+  </div>
+
+  {% if ffxivAchievements.recent and ffxivAchievements.recent.length %}
+    <div class="ffxiv-ach-list-wrap">
+      <ul class="ffxiv-ach-list">
+        {% for item in ffxivAchievements.recent %}
+          {% if loop.index0 < 10 %}
             <li class="ffxiv-ach-item">
               <div class="ffxiv-ach-item__left">
                 <span class="ffxiv-ach-badge">✦</span>
@@ -167,12 +182,14 @@ intro: |
                 </div>
               </div>
             </li>
-          {% endfor %}
-        </ul>
-      {% else %}
-        <p class="ffxiv-empty">No recent achievements yet... time for a little adventure ♡</p>
-      {% endif %}
-    </section>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% else %}
+    <p class="ffxiv-empty">No recent achievements yet... time for a little adventure ♡</p>
+  {% endif %}
+</section>
 
     <aside class="ffxiv-ach-card ffxiv-ach-card--side">
       <h2>What I Could Work On Next</h2>

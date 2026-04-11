@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;500;700&display=swap');
+
+:root {
+  --ffxiv-pink-1: #fff4fb;
+  --ffxiv-pink-2: #ffe3f3;
+  --ffxiv-pink-3: #ffd0ea;
+  --ffxiv-pink-4: #f7b3db;
+  --ffxiv-pink-5: #e78bc0;
+  --ffxiv-pink-6: #cc6ca4;
+  --ffxiv-lavender: #ecdfff;
+  --ffxiv-white: rgba(255, 255, 255, 0.76);
+  --ffxiv-border: rgba(231, 139, 192, 0.42);
+  --ffxiv-shadow: 0 10px 28px rgba(209, 126, 171, 0.16);
+  --ffxiv-text: #7b4b67;
+  --ffxiv-text-soft: #9a6a86;
+  --ffxiv-gold-soft: #d89863;
+}
+
+.ffxiv-checklist-page {
+  display: grid;
+  gap: 1.25rem;
+  color: var(--ffxiv-text);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.ff-intro-kicker {
+  margin: 0 0 0.45rem;
+  font-size: 0.84rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ffxiv-pink-5);
+}
+
+.ffxiv-checklist-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ffxiv-note-card,
+.ffxiv-character-card,
+.ffxiv-checklist-panel {
+  background: var(--ffxiv-white);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid var(--ffxiv-border);
+  box-shadow: var(--ffxiv-shadow);
+}
+
+.ffxiv-note-card {
+  padding: 1rem 1.05rem;
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.08)),
+    rgba(255, 245, 251, 0.82);
+}
+
+.ffxiv-note-card h3 {
+  margin: 0 0 0.35rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.45rem;
+  color: #c45a99;
+}
+
+.ffxiv-note-card p {
+  margin: 0;
+  color: var(--ffxiv-text);
+  line-height: 1.7;
+}
+
+.ffxiv-character-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.ffxiv-character-card {
+  overflow: hidden;
+  border-radius: 28px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.22), rgba(255,255,255,0.06)),
+    rgba(255, 244, 251, 0.8);
+}
+
+.ffxiv-character-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem;
+  cursor: pointer;
+}
+
+.ffxiv-character-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ffxiv-character-summary:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.ffxiv-character-main {
+  display: flex;
+  align-items: center;
+  gap: 0.95rem;
+  min-width: 0;
+}
+
+.ffxiv-character-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.45rem;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255, 248, 228, 0.95), rgba(255, 214, 236, 0.88) 42%, rgba(236, 223, 255, 0.78));
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow:
+    0 0 18px rgba(255, 201, 231, 0.18),
+    inset 0 1px 4px rgba(255,255,255,0.4);
+}
+
+.ffxiv-character-role {
+  margin: 0 0 0.16rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ffxiv-pink-5);
+}
+
+.ffxiv-character-summary h2 {
+  margin: 0;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.6rem;
+  color: #c45a99;
+}
+
+.ffxiv-character-meta {
+  margin: 0.2rem 0 0;
+  color: var(--ffxiv-text-soft);
+  font-size: 0.95rem;
+}
+
+.ffxiv-expand-hint {
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ffxiv-pink-5);
+  opacity: 0.9;
+}
+
+.ffxiv-character-content {
+  padding: 0 1.15rem 1.15rem;
+}
+
+.ffxiv-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ffxiv-checklist-panel {
+  padding: 1rem;
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.06)),
+    rgba(255, 247, 252, 0.82);
+}
+
+.ffxiv-checklist-panel h3 {
+  margin: 0 0 0.85rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.45rem;
+  color: #c45a99;
+}
+
+.ffxiv-task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ffxiv-task-list li {
+  position: relative;
+  padding: 0.8rem 0.2rem 0.8rem 2.1rem;
+  border-top: 1px solid rgba(231, 139, 192, 0.18);
+  color: var(--ffxiv-text);
+  line-height: 1.5;
+}
+
+.ffxiv-task-list li:first-child {
+  border-top: none;
+  padding-top: 0.2rem;
+}
+
+.ffxiv-task-list li::before {
+  content: "◻";
+  position: absolute;
+  top: 0.78rem;
+  left: 0.15rem;
+  color: var(--ffxiv-pink-5);
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.ffxiv-task-list li:hover {
+  color: #8b4f72;
+}
+
+.ffxiv-task-list li:hover::before {
+  color: var(--ffxiv-gold-soft);
+}
+
+@media (max-width: 900px) {
+  .ffxiv-checklist-notes,
+  .ffxiv-checklist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .ffxiv-character-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ffxiv-expand-hint {
+    padding-left: 4.1rem;
+  }
+
+  .ffxiv-character-content {
+    padding: 0 1rem 1rem;
+  }
+}

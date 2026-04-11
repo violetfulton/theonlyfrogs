@@ -22,6 +22,7 @@ const URLS = {
 };
 
 const OUTPUT_PATH = path.resolve("content/_data/ffxivAchievements.json");
+const MAX_ACHIEVEMENT_PAGES = 10;
 
 const CATEGORY_META = {
   General: {
@@ -250,7 +251,7 @@ function parseProfile(html) {
   };
 }
 
-function parseAchievementSummary(html) {
+function parseAchievementPage(html) {
   const $ = cheerio.load(html);
   const rootText = clean($.root().text());
 
@@ -264,7 +265,6 @@ function parseAchievementSummary(html) {
     clone.find("script").remove();
 
     const text = clean(clone.text());
-
     const titleMatch = text.match(/achievement\s+"(.+?)"\s+earned!/i);
     if (!titleMatch) return;
 
@@ -294,7 +294,8 @@ function parseAchievementSummary(html) {
       ? rawCategory.replace(/^[-–—\s]+/, "").trim()
       : null;
 
-    const href = item.find('a[href*="/achievement/detail/"]').first().attr("href") || null;
+    const href =
+      item.find('a[href*="/achievement/detail/"]').first().attr("href") || null;
 
     const key = `${category || ""}|${title}|${date || ""}`;
     if (seen.has(key)) return;
@@ -327,7 +328,61 @@ function parseAchievementSummary(html) {
 
   return {
     achievementPoints,
-    recent: recent.slice(0, 10)
+    recent
+  };
+}
+
+async function fetchAllRecentAchievements() {
+  const allRecent = [];
+  const seen = new Set();
+  let achievementPoints = null;
+
+  for (let page = 1; page <= MAX_ACHIEVEMENT_PAGES; page++) {
+    const url =
+      page === 1
+        ? URLS.achievements
+        : `${URLS.achievements}?page=${page}`;
+
+    console.log(`Fetching achievements page ${page}: ${url}`);
+
+    let html;
+    try {
+      html = await fetchHtml(url);
+    } catch (error) {
+      console.warn(`Failed to fetch achievements page ${page}: ${error.message}`);
+      break;
+    }
+
+    const parsed = parseAchievementPage(html);
+
+    if (achievementPoints == null && parsed.achievementPoints != null) {
+      achievementPoints = parsed.achievementPoints;
+    }
+
+    if (!parsed.recent.length) {
+      console.log(`No achievements found on page ${page}, stopping.`);
+      break;
+    }
+
+    let addedThisPage = 0;
+
+    for (const item of parsed.recent) {
+      const key = `${item.category || ""}|${item.title}|${item.date || ""}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      allRecent.push(item);
+      addedThisPage++;
+    }
+
+    if (addedThisPage === 0) {
+      console.log(`No new achievements found on page ${page}, stopping.`);
+      break;
+    }
+  }
+
+  return {
+    achievementPoints,
+    recent: allRecent
   };
 }
 
@@ -465,14 +520,13 @@ async function writeDataFile(data) {
 async function main() {
   console.log("Fetching FFXIV Lodestone data...");
 
-  const [profileHtml, achievementHtml, categoryIndexHtml] = await Promise.all([
+  const [profileHtml, categoryIndexHtml, summary] = await Promise.all([
     fetchHtml(URLS.profile),
-    fetchHtml(URLS.achievements),
-    fetchHtml(URLS.categories)
+    fetchHtml(URLS.categories),
+    fetchAllRecentAchievements()
   ]);
 
   const profile = parseProfile(profileHtml);
-  const summary = parseAchievementSummary(achievementHtml);
   const categoryLinks = parseCategoryLinks(categoryIndexHtml);
   const categoryDetails = await fetchCategoryDetails(categoryLinks, summary.recent);
 
@@ -499,6 +553,7 @@ async function main() {
   await writeDataFile(data);
 
   console.log(`Wrote ${OUTPUT_PATH}`);
+  console.log(`Found ${summary.recent.length} recent achievements`);
   console.log(`Found ${categories.length} achievement categories`);
   console.log(`Achievement points: ${summary.achievementPoints ?? "—"}`);
 }

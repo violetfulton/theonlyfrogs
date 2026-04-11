@@ -60,11 +60,31 @@
   animation: floaty 7s ease-in-out infinite;
 }
 
-.bg-icon.pom { top: 1rem; left: 6%; font-size: 2rem; }
-.bg-icon.star { top: 7rem; right: 10%; }
-.bg-icon.heart { top: 18rem; left: 8%; }
-.bg-icon.flower { bottom: 7rem; right: 7%; }
-.bg-icon.sparkle { bottom: 14rem; left: 14%; }
+.bg-icon.pom {
+  top: 1rem;
+  left: 6%;
+  font-size: 2rem;
+}
+
+.bg-icon.star {
+  top: 7rem;
+  right: 10%;
+}
+
+.bg-icon.heart {
+  top: 18rem;
+  left: 8%;
+}
+
+.bg-icon.flower {
+  bottom: 7rem;
+  right: 7%;
+}
+
+.bg-icon.sparkle {
+  bottom: 14rem;
+  left: 14%;
+}
 
 .ffxiv-ach-hero {
   position: relative;
@@ -167,7 +187,8 @@
 .ffxiv-ach-links a:hover,
 .ffxiv-cat-card h3 a:hover,
 .suggest-list a:hover,
-.ffxiv-ach-item__text a:hover {
+.ffxiv-ach-item__text a:hover,
+.ffxiv-more-link:hover {
   transform: translateY(-2px);
   text-decoration: underline;
 }
@@ -238,8 +259,13 @@
   color: #e37eb8;
 }
 
-.axolotl-face::before { left: -10px; }
-.axolotl-face::after { right: -10px; }
+.axolotl-face::before {
+  left: -10px;
+}
+
+.axolotl-face::after {
+  right: -10px;
+}
 
 .axolotl-face span {
   font-size: 0.9rem;
@@ -366,7 +392,8 @@
 
 .ffxiv-cat-card h3 a,
 .suggest-list a,
-.ffxiv-ach-item__text a {
+.ffxiv-ach-item__text a,
+.ffxiv-more-link {
   color: #9d4f79;
   text-decoration: none;
   font-weight: 700;
@@ -414,6 +441,7 @@
 .ffxiv-ach-list {
   display: grid;
   gap: 0.85rem;
+  margin: 0;
 }
 
 .ffxiv-ach-item {
@@ -421,6 +449,10 @@
   padding: 0.9rem 1rem;
   background: rgba(255, 247, 252, 0.85);
   border: 1.5px solid rgba(235, 170, 206, 0.5);
+}
+
+.ffxiv-ach-item:last-child {
+  margin-bottom: 0.4rem;
 }
 
 .ffxiv-ach-item__left {
@@ -451,84 +483,6 @@
 
 .ffxiv-ach-item__text small,
 .suggest-list small {
-  color: var(--ffxiv-text-soft);
-}
-
-.suggest-block + .suggest-block {
-  margin-top: 1rem;
-}
-
-.suggest-block h3 {
-  margin: 0 0 0.6rem;
-  font-size: 1rem;
-  color: #b3568d;
-}
-
-.suggest-list {
-  display: grid;
-  gap: 0.7rem;
-}
-
-.suggest-list li {
-  display: grid;
-  gap: 0.2rem;
-  padding: 0.75rem;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.62);
-  border: 1px solid rgba(235, 170, 206, 0.5);
-}
-
-.ffxiv-empty {
-  margin: 0;
-  line-height: 1.6;
-}
-
-@keyframes floaty {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-}
-
-@media (max-width: 860px) {
-  .ffxiv-ach-hero__profile,
-  .ffxiv-ach-stats-grid,
-  .ffxiv-ach-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .ffxiv-ach-hero__profile {
-    text-align: center;
-  }
-
-  .ffxiv-ach-portrait {
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 560px) {
-  .ffxiv-ach-page {
-    padding: 1rem 0.75rem 2rem;
-  }
-
-  .ffxiv-ach-hero__card,
-  .ffxiv-ach-card,
-  .ffxiv-ach-stat-card,
-  .ffxiv-cat-card {
-    border-radius: 22px;
-  }
-}
-
-.ffxiv-cat-recent {
-  margin: 0.75rem 0 0;
-  padding-left: 1rem;
-  color: var(--ffxiv-text-soft);
-}
-
-.ffxiv-cat-recent li + li {
-  margin-top: 0.3rem;
-}
-
-.ffxiv-cat-empty {
-  margin: 0.75rem 0 0;
   color: var(--ffxiv-text-soft);
 }
 
@@ -563,7 +517,341 @@
   color: var(--ffxiv-text-soft);
 }
 
-.ffxiv-ach-category {
-  color: var(--ffxiv-pink-6);
+.suggest-block + .suggest-block {
+  margin-top: 1rem;
+}
+
+.suggest-block h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: #b3568d;
+}
+
+.suggest-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.suggest-list li {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.75rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.62);
+  border: 1px solid rgba(235, 170, 206, 0.5);
+}
+
+.ffxiv-empty {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.ffxiv-checklist-page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.ff-intro-kicker {
+  margin: 0 0 0.45rem;
+  font-size: 0.84rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f7b3db;
+}
+
+.ffxiv-checklist-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ffxiv-note-card {
+  padding: 1rem 1.05rem;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 226, 241, 0.09), rgba(255, 226, 241, 0.04));
+  border: 1px solid rgba(255, 210, 232, 0.15);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 10px 22px rgba(20, 7, 27, 0.16);
+}
+
+.ffxiv-note-card h3 {
+  margin: 0 0 0.35rem;
+  color: #ffe7a8;
+}
+
+.ffxiv-note-card p {
+  margin: 0;
+  color: #ffeaf5;
+  line-height: 1.7;
+}
+
+.ffxiv-character-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.ffxiv-character-card {
+  overflow: hidden;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(80, 29, 87, 0.82), rgba(39, 15, 45, 0.9));
+  border: 1px solid rgba(255, 210, 232, 0.18);
+  box-shadow:
+    0 14px 34px rgba(12, 4, 18, 0.26),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.ffxiv-character-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem;
+  cursor: pointer;
+}
+
+.ffxiv-character-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ffxiv-character-summary:hover {
+  background: rgba(255, 230, 243, 0.03);
+}
+
+.ffxiv-character-main {
+  display: flex;
+  align-items: center;
+  gap: 0.95rem;
+  min-width: 0;
+}
+
+.ffxiv-character-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.45rem;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 244, 208, 0.88), rgba(255, 208, 232, 0.76) 42%, rgba(214, 184, 255, 0.45));
+  border: 1px solid rgba(255, 240, 247, 0.2);
+  box-shadow:
+    0 0 22px rgba(255, 201, 231, 0.15),
+    inset 0 1px 4px rgba(255,255,255,0.33);
+}
+
+.ffxiv-character-role {
+  margin: 0 0 0.16rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f7b3db;
+}
+
+.ffxiv-character-summary h2 {
+  margin: 0;
+  color: #fff8fd;
+  font-size: 1.3rem;
+}
+
+.ffxiv-character-meta {
+  margin: 0.2rem 0 0;
+  color: #f8dceb;
+  font-size: 0.95rem;
+}
+
+.ffxiv-expand-hint {
+  flex-shrink: 0;
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f7b3db;
+  opacity: 0.8;
+}
+
+.ffxiv-character-content {
+  padding: 0 1.15rem 1.15rem;
+}
+
+.ffxiv-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ffxiv-checklist-panel {
+  padding: 1rem;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(255, 236, 246, 0.08), rgba(255, 236, 246, 0.03));
+  border: 1px solid rgba(255, 215, 236, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 10px 18px rgba(12, 5, 16, 0.16);
+}
+
+.ffxiv-checklist-panel h3 {
+  margin: 0 0 0.85rem;
+  color: #ffe7a8;
+  font-size: 1.16rem;
+}
+
+.ffxiv-task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ffxiv-task-list li {
+  position: relative;
+  padding: 0.8rem 0.2rem 0.8rem 2.1rem;
+  border-top: 1px solid rgba(255, 214, 236, 0.1);
+  color: #fff0f8;
+  line-height: 1.45;
+}
+
+.ffxiv-task-list li:first-child {
+  border-top: none;
+  padding-top: 0.2rem;
+}
+
+.ffxiv-task-list li::before {
+  content: "◻";
+  position: absolute;
+  top: 0.78rem;
+  left: 0.15rem;
+  color: #f7b3db;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.ffxiv-task-list li:hover {
+  color: #fffdf7;
+}
+
+.ffxiv-task-list li:hover::before {
+  color: #ffe7a8;
+}
+
+.section-head--recent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ffxiv-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.92rem;
   font-weight: 700;
+  line-height: 1;
+  color: #9b4f79;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  border: 2px solid rgba(224, 123, 180, 0.35);
+  box-shadow: 0 4px 12px rgba(214, 126, 176, 0.15);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ffxiv-more-link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(214, 126, 176, 0.22);
+}
+
+.ffxiv-ach-list-wrap {
+  position: relative;
+  padding-bottom: 0.35rem;
+}
+
+.ffxiv-ach-list-wrap::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+  pointer-events: none;
+  border-radius: 0 0 1.4rem 1.4rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 244, 251, 0) 0%,
+    rgba(255, 244, 251, 0.55) 38%,
+    rgba(255, 244, 251, 0.88) 72%,
+    rgba(255, 244, 251, 0.98) 100%
+  );
+}
+
+@keyframes floaty {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (max-width: 900px) {
+  .ffxiv-checklist-notes,
+  .ffxiv-checklist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .ffxiv-ach-hero__profile,
+  .ffxiv-ach-stats-grid,
+  .ffxiv-ach-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .ffxiv-ach-hero__profile {
+    text-align: center;
+  }
+
+  .ffxiv-ach-portrait {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .ffxiv-character-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ffxiv-expand-hint {
+    padding-left: 4.1rem;
+  }
+
+  .ffxiv-character-content {
+    padding: 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .ffxiv-ach-page {
+    padding: 1rem 0.75rem 2rem;
+  }
+
+  .ffxiv-ach-hero__card,
+  .ffxiv-ach-card,
+  .ffxiv-ach-stat-card,
+  .ffxiv-cat-card {
+    border-radius: 22px;
+  }
+
+  .section-head--recent {
+    align-items: flex-start;
+  }
+
+  .ffxiv-more-link {
+    width: 100%;
+    justify-content: center;
+  }
 }
