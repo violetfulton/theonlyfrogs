@@ -49,8 +49,7 @@
       "styles": [
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 10855863,
@@ -72,7 +71,8 @@
           "qty": "1",
           "text": "Gatefold Sleeve",
           "descriptions": [
-            "Album"
+            "Album",
+            "Stereo"
           ]
         }
       ],
@@ -112,8 +112,7 @@
         "Alternative Rock",
         "Indie Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 15364745,
@@ -190,14 +189,13 @@
         "Hardcore Hip-Hop",
         "Pop Rap"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 479430,
     "instance_id": 2067542651,
     "date_added": "2025-10-05T14:20:39-07:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 479430,
       "master_id": 35665,
@@ -253,14 +251,13 @@
         "Alternative Metal",
         "Nu Metal"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 11461403,
     "instance_id": 2067538130,
     "date_added": "2025-10-05T14:05:26-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 11461403,
       "master_id": 35626,
@@ -318,8 +315,7 @@
         "Alternative Rock",
         "Heavy Metal"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 29897824,
@@ -381,8 +377,111 @@
       "styles": [
         "Synth-pop"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 36942519,
+    "instance_id": 2152252842,
+    "date_added": "2026-06-05T14:03:39-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 36942519,
+      "master_id": 4176445,
+      "master_url": "https://api.discogs.com/masters/4176445",
+      "resource_url": "https://api.discogs.com/releases/36942519",
+      "thumb": "https://i.discogs.com/54h-smSlqy9mjE15E59fmClESl5nFcfYl0-J3FsjW5s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQy/NTE5LTE3Nzg3NTQ5/NDctNjQxMi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/0RLG_0TAr-T-nAs64k_gZXT8fJuAfzzJFSRyaKRUQ1c/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTQy/NTE5LTE3Nzg3NTQ5/NDctNjQxMi5qcGVn.jpeg",
+      "title": "Hades",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Atlantic",
+          "catno": "075678589966",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 681,
+          "resource_url": "https://api.discogs.com/labels/681"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Melanie Martinez (2)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 4112839,
+          "resource_url": "https://api.discogs.com/artists/4112839"
+        }
+      ],
+      "genres": [
+        "Pop"
+      ],
+      "styles": [
+        "Alt-Pop"
+      ]
+    }
+  },
+  {
+    "id": 35212972,
+    "instance_id": 2152252545,
+    "date_added": "2026-06-05T14:02:42-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 35212972,
+      "master_id": 3984781,
+      "master_url": "https://api.discogs.com/masters/3984781",
+      "resource_url": "https://api.discogs.com/releases/35212972",
+      "thumb": "https://i.discogs.com/dLKfWj3_ESwrGoe6lwwIKg7_Ndxhg4f1ctgUiJAQHM8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjEy/OTcyLTE3NTk2NDI4/OTMtMjA4Ni5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/cTBU1LLOJrzMEhBX20g8YDy3vgUTKlGGArJLvOATbH0/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MjEy/OTcyLTE3NTk2NDI4/OTMtMjA4Ni5qcGVn.jpeg",
+      "title": "Helluva Boss Season 1 Soundtrack",
+      "year": 2025,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Atlantic",
+          "catno": "075678599767",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 681,
+          "resource_url": "https://api.discogs.com/labels/681"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Helluva Boss",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 16649573,
+          "resource_url": "https://api.discogs.com/artists/16649573"
+        }
+      ],
+      "genres": [
+        "Stage & Screen"
+      ],
+      "styles": [
+        "Soundtrack"
+      ]
+    }
   },
   {
     "id": 31966730,
@@ -437,8 +536,7 @@
         "Electro House",
         "Dance-pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 30373688,
@@ -490,10 +588,14 @@
       ],
       "styles": [
         "Electro House",
-        "Dance-pop"
+        "Dance-pop",
+        "Hyperpop",
+        "Synth-pop",
+        "Future Pop",
+        "Electro",
+        "Electroclash"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 26600522,
@@ -545,14 +647,13 @@
       "styles": [
         "Alt-Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 26050195,
     "instance_id": 2067540127,
     "date_added": "2025-10-05T14:12:06-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 26050195,
       "master_id": 2973844,
@@ -601,8 +702,7 @@
         "Pop Punk",
         "New Wave"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 28658917,
@@ -674,8 +774,7 @@
         "Soundtrack",
         "Dance-pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1025840,
@@ -731,8 +830,64 @@
         "Emo",
         "Math Rock"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 11300376,
+    "instance_id": 2152252298,
+    "date_added": "2026-06-05T14:01:54-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11300376,
+      "master_id": 1285758,
+      "master_url": "https://api.discogs.com/masters/1285758",
+      "resource_url": "https://api.discogs.com/releases/11300376",
+      "thumb": "https://i.discogs.com/tyYapLolNPvo7K22DHdhHSnpAbxCzYyrNazOtMN-fJ8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzAw/Mzc2LTE1MTM3MjMz/ODQtNzkxNi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ND8JKKw7h7yeV4FVckKIl2K9VQESOU3l3ObFqNKTfFI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzAw/Mzc2LTE1MTM3MjMz/ODQtNzkxNi5qcGVn.jpeg",
+      "title": "2004-2013",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album",
+            "Compilation"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "BMG",
+          "catno": "538349802",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1003,
+          "resource_url": "https://api.discogs.com/labels/1003"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bring Me The Horizon",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1253307,
+          "resource_url": "https://api.discogs.com/artists/1253307"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Metal",
+        "Alternative Rock",
+        "Pop Rock",
+        "Emo",
+        "Post-Hardcore"
+      ]
+    }
   },
   {
     "id": 368174,
@@ -786,8 +941,7 @@
         "Hardcore",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 20304067,
@@ -846,14 +1000,13 @@
         "Indie Rock",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 2841416,
     "instance_id": 2067539491,
     "date_added": "2025-10-05T14:09:47-07:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 2841416,
       "master_id": 12049,
@@ -903,8 +1056,7 @@
         "Prog Rock",
         "Ambient"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 23301476,
@@ -967,8 +1119,7 @@
         "Indie Pop",
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 14048242,
@@ -1031,8 +1182,7 @@
         "Trap",
         "Alt-Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 30706157,
@@ -1094,8 +1244,7 @@
         "Indie Pop",
         "Alt-Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 19693933,
@@ -1160,14 +1309,13 @@
         "Electro",
         "Downtempo"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 5514263,
     "instance_id": 2085955265,
     "date_added": "2025-12-02T12:38:58-08:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 5514263,
       "master_id": 664790,
@@ -1222,8 +1370,72 @@
         "Hard Rock",
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 21349738,
+    "instance_id": 2148477528,
+    "date_added": "2026-05-24T07:31:08-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 21349738,
+      "master_id": 89924,
+      "master_url": "https://api.discogs.com/masters/89924",
+      "resource_url": "https://api.discogs.com/releases/21349738",
+      "thumb": "https://i.discogs.com/QyYs31aMUt3rMyJHpF1CTjTi-yImYOpJYcNvd98YFxQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzQ5/NzM4LTE2Mzk1MDM1/NjEtNDg3Mi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/Jg2LYZot_keyfPyXFR8R2IPAlb2Hh9iKTbaQzdI_sEU/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzQ5/NzM4LTE2Mzk1MDM1/NjEtNDg3Mi5qcGVn.jpeg",
+      "title": "Pretty. Odd.",
+      "year": 0,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album",
+            "Enhanced",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Decaydance",
+          "catno": "7567-89950-8",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 66435,
+          "resource_url": "https://api.discogs.com/labels/66435"
+        },
+        {
+          "name": "Fueled By Ramen",
+          "catno": "7567-89950-8",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 42701,
+          "resource_url": "https://api.discogs.com/labels/42701"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Panic! At The Disco",
+          "anv": "Panic At The Disco",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 553643,
+          "resource_url": "https://api.discogs.com/artists/553643"
+        }
+      ],
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Folk Rock",
+        "Pop Punk"
+      ]
+    }
   },
   {
     "id": 25355662,
@@ -1278,8 +1490,7 @@
       "styles": [
         "Indie Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 7095669,
@@ -1357,8 +1568,7 @@
         "J-pop",
         "Heavy Metal"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 7613669,
@@ -1414,14 +1624,13 @@
         "Breakcore",
         "Hip Hop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 2483973,
     "instance_id": 2067539171,
     "date_added": "2025-10-05T14:08:44-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 2483973,
       "master_id": 280199,
@@ -1479,8 +1688,7 @@
         "Louisiana Blues",
         "Funk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 15096120,
@@ -1541,14 +1749,13 @@
       "styles": [
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4289608,
     "instance_id": 2067538886,
     "date_added": "2025-10-05T14:07:51-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 4289608,
       "master_id": 52517,
@@ -1596,8 +1803,7 @@
         "Acoustic",
         "Heavy Metal"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 16294415,
@@ -1658,8 +1864,7 @@
         "Arena Rock",
         "Classic Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1740257,
@@ -1736,8 +1941,111 @@
       "styles": [
         "Soundtrack"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 5941101,
+    "instance_id": 2148477881,
+    "date_added": "2026-05-24T07:32:11-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 5941101,
+      "master_id": 708050,
+      "master_url": "https://api.discogs.com/masters/708050",
+      "resource_url": "https://api.discogs.com/releases/5941101",
+      "thumb": "https://i.discogs.com/RaCANu20qnRBL0c-2TAO-UXuLxv9XkfnFnBMh9pQsIw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDEx/MDEtMTQ2MTkzOTE0/OS05MDc4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/j7BkpmwrtWF1mGT_Xk9lrM_7MSnKSztQnwqVucveooA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NDEx/MDEtMTQ2MTkzOTE0/OS05MDc4LmpwZWc.jpeg",
+      "title": "Fashionably Late",
+      "year": 2013,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "7254-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Falling In Reverse",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2403173,
+          "resource_url": "https://api.discogs.com/artists/2403173"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore"
+      ]
+    }
+  },
+  {
+    "id": 6832599,
+    "instance_id": 2148477765,
+    "date_added": "2026-05-24T07:31:51-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 6832599,
+      "master_id": 804169,
+      "master_url": "https://api.discogs.com/masters/804169",
+      "resource_url": "https://api.discogs.com/releases/6832599",
+      "thumb": "https://i.discogs.com/R9GAXFC6pgNEknd1hUWCMUOmiogQ0qBaYNuzTJQ45Ao/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MzI1/OTktMTQyNzU2OTk1/Mi04NTI4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/FTSmb5LviZ77tgFevYS0x8EZRHYp1Y5EhVzvws0tIQQ/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MzI1/OTktMTQyNzU2OTk1/Mi04NTI4LmpwZWc.jpeg",
+      "title": "Just Like You",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "7363-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Falling In Reverse",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2403173,
+          "resource_url": "https://api.discogs.com/artists/2403173"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore"
+      ]
+    }
   },
   {
     "id": 13289196,
@@ -1792,8 +2100,113 @@
         "Hard Rock",
         "Post-Hardcore"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 3189367,
+    "instance_id": 2148476419,
+    "date_added": "2026-05-24T07:27:32-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3189367,
+      "master_id": 383430,
+      "master_url": "https://api.discogs.com/masters/383430",
+      "resource_url": "https://api.discogs.com/releases/3189367",
+      "thumb": "https://i.discogs.com/YpfhSjd6kgVuOevwVF-CkoMpvZVIJjGPUgmOMN-vVVo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODkz/NjctMTYxMDYwNzg3/NS00NDQ5LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/v8G32qXNhO50UPw9QYcyUOvlzk8HPB7yQsSFg8Jbfhg/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODkz/NjctMTYxMDYwNzg3/NS00NDQ5LmpwZWc.jpeg",
+      "title": "Dying Is Your Latest Fashion",
+      "year": 2006,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "86832-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Escape The Fate",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 479886,
+          "resource_url": "https://api.discogs.com/artists/479886"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Hardcore",
+        "Alternative Rock"
+      ]
+    }
+  },
+  {
+    "id": 3738385,
+    "instance_id": 2148478438,
+    "date_added": "2026-05-24T07:33:49-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3738385,
+      "master_id": 454862,
+      "master_url": "https://api.discogs.com/masters/454862",
+      "resource_url": "https://api.discogs.com/releases/3738385",
+      "thumb": "https://i.discogs.com/vV_pKKTN3OoCBH-5qM6539qA7WTY_5nTp1-qpvfjGfI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzgz/ODUtMTY2NDU0MDQz/MC00NDI1LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/-4Izeu_eLil8mF0wiMG4zsw19B_OfK5_jGI0QCWNPTs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzgz/ODUtMTY2NDU0MDQz/MC00NDI1LmpwZWc.jpeg",
+      "title": "The Drug In Me Is You",
+      "year": 2011,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Epitaph",
+          "catno": "87147-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 61599,
+          "resource_url": "https://api.discogs.com/labels/61599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Falling In Reverse",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2403173,
+          "resource_url": "https://api.discogs.com/artists/2403173"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore",
+        "Post-Hardcore"
+      ]
+    }
   },
   {
     "id": 31495205,
@@ -1863,14 +2276,13 @@
         "Metalcore",
         "Alternative Metal"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 3396909,
     "instance_id": 2078054357,
     "date_added": "2025-11-08T10:50:27-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 3396909,
       "master_id": 566815,
@@ -1925,8 +2337,7 @@
         "Post-Hardcore",
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4763586,
@@ -1979,14 +2390,13 @@
       "styles": [
         "Soundtrack"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 6369450,
     "instance_id": 2076518835,
     "date_added": "2025-11-03T10:48:53-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 6369450,
       "master_id": 815737,
@@ -2073,8 +2483,132 @@
         "Punk",
         "Emo"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 26088718,
+    "instance_id": 2152251920,
+    "date_added": "2026-06-05T14:00:31-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 26088718,
+      "master_id": 2974561,
+      "master_url": "https://api.discogs.com/masters/2974561",
+      "resource_url": "https://api.discogs.com/releases/26088718",
+      "thumb": "https://i.discogs.com/gc_laLcjLojxlukb6BwlEbz0Ia6VW2i-8dOmNqQevrE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDg4/NzE4LTE2OTY4MTY5/NzEtNTkzOS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/0ttGsBKsT_n365CbvKFdX-Jqts94k1KA7TYOIsrkRnI/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDg4/NzE4LTE2OTY4MTY5/NzEtNTkzOS5qcGVn.jpeg",
+      "title": "The Jaws Of Life",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Fearless Records",
+          "catno": "FEAR02539",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35521,
+          "resource_url": "https://api.discogs.com/labels/35521"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Pierce The Veil",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1055467,
+          "resource_url": "https://api.discogs.com/artists/1055467"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Post-Hardcore",
+        "Grunge",
+        "Emo"
+      ]
+    }
+  },
+  {
+    "id": 4104441,
+    "instance_id": 2148477287,
+    "date_added": "2026-05-24T07:30:22-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 4104441,
+      "master_id": 540295,
+      "master_url": "https://api.discogs.com/masters/540295",
+      "resource_url": "https://api.discogs.com/releases/4104441",
+      "thumb": "https://i.discogs.com/RNiJPawvmzsal-ArN3Fvtjq-kXEXR026fjonebxcqI8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMDQ0/NDEtMTUxMjc2NzMy/MS0xODc4LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/QPWFTv7v4yMybcI-8KtG6v5t5YeKn5RZwq3c6hwUC7c/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMDQ0/NDEtMTUxMjc2NzMy/MS0xODc4LmpwZWc.jpeg",
+      "title": "Collide With The Sky",
+      "year": 2012,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Fearless Records",
+          "catno": "30166-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35521,
+          "resource_url": "https://api.discogs.com/labels/35521"
+        },
+        {
+          "name": "Fearless Records",
+          "catno": "FRL 30166-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35521,
+          "resource_url": "https://api.discogs.com/labels/35521"
+        },
+        {
+          "name": "Fearless Records",
+          "catno": "FRL30166-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35521,
+          "resource_url": "https://api.discogs.com/labels/35521"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Pierce The Veil",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1055467,
+          "resource_url": "https://api.discogs.com/artists/1055467"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Post-Hardcore",
+        "Hard Rock",
+        "Alternative Rock"
+      ]
+    }
   },
   {
     "id": 4930735,
@@ -2151,14 +2685,13 @@
       "styles": [
         "Pop Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 23704511,
     "instance_id": 2067540447,
     "date_added": "2025-10-05T14:13:14-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 23704511,
       "master_id": 550858,
@@ -2207,14 +2740,74 @@
         "Pop Rock",
         "Power Pop"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 7969845,
+    "instance_id": 2148477407,
+    "date_added": "2026-05-24T07:30:43-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7969845,
+      "master_id": 946011,
+      "master_url": "https://api.discogs.com/masters/946011",
+      "resource_url": "https://api.discogs.com/releases/7969845",
+      "thumb": "https://i.discogs.com/cOCQOJrF8ycW0q7CBNqf7n3aEocFIV02AzeyW_1ovv8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5Njk4/NDUtMTQ1OTMxODIy/Ny02MDIxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/o_zkc-ZRql0t7YGUMRly6qW8np_SoheYOWHsq-g6an0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5Njk4/NDUtMTQ1OTMxODIy/Ny02MDIxLmpwZWc.jpeg",
+      "title": "Death Of A Bachelor",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Fueled By Ramen",
+          "catno": "553138-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 42701,
+          "resource_url": "https://api.discogs.com/labels/42701"
+        },
+        {
+          "name": "DCD2",
+          "catno": "553138-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 790506,
+          "resource_url": "https://api.discogs.com/labels/790506"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Panic! At The Disco",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 553643,
+          "resource_url": "https://api.discogs.com/artists/553643"
+        }
+      ],
+      "genres": [
+        "Rock",
+        "Pop"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
+    }
   },
   {
     "id": 872138,
     "instance_id": 2078053538,
     "date_added": "2025-11-08T10:48:28-08:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 872138,
       "master_id": 13291,
@@ -2269,14 +2862,13 @@
         "Emo",
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 16348833,
     "instance_id": 2067540244,
     "date_added": "2025-10-05T14:12:26-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 16348833,
       "master_id": 219425,
@@ -2335,14 +2927,13 @@
         "Pop Rock",
         "Power Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1516047,
     "instance_id": 2067540864,
     "date_added": "2025-10-05T14:14:32-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 1516047,
       "master_id": 118807,
@@ -2351,7 +2942,7 @@
       "thumb": "https://i.discogs.com/oe27s6VoF3WfRMrFmzoA_RHEGvsOsluQ-M5rRFkjDJ0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTYw/NDctMTIyNTQxNTIy/OS5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/DsAFhV8xI3QmBnQP21VZFDdWd6PFVKPvJdrz3pZ1iBg/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTYw/NDctMTIyNTQxNTIy/OS5qcGVn.jpeg",
       "title": "Riot!",
-      "year": 2007,
+      "year": 2009,
       "formats": [
         {
           "name": "CD",
@@ -2359,6 +2950,7 @@
           "text": "Cinram, Olyphant (Z75986)",
           "descriptions": [
             "Album",
+            "Repress",
             "Stereo"
           ]
         }
@@ -2399,14 +2991,13 @@
         "Emo",
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 14931196,
     "instance_id": 2067539027,
     "date_added": "2025-10-05T14:08:17-07:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 14931196,
       "master_id": 847527,
@@ -2467,8 +3058,7 @@
         "Synth-pop",
         "Pop Rap"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 319205,
@@ -2521,8 +3111,7 @@
         "Industrial Metal",
         "Horror Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 7085263,
@@ -2593,14 +3182,13 @@
       "styles": [
         "Hard Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 9607359,
     "instance_id": 2081085706,
     "date_added": "2025-11-17T12:10:00-08:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 9607359,
       "master_id": 1114314,
@@ -2644,8 +3232,7 @@
         "Rock"
       ],
       "styles": []
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 3759846,
@@ -2715,8 +3302,59 @@
         "Alternative Rock",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 36905883,
+    "instance_id": 2148476575,
+    "date_added": "2026-05-24T07:27:58-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 36905883,
+      "master_id": 4176742,
+      "master_url": "https://api.discogs.com/masters/4176742",
+      "resource_url": "https://api.discogs.com/releases/36905883",
+      "thumb": "https://i.discogs.com/qQaGcH2Fkhkp293yyWi1fwOJXZRriycp4lWrytIE4KU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTA1/ODgzLTE3NzQ3MTgx/OTQtOTI3My5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/pLG2X4x10K_LTiaSuGsERMZMl3eUUdgRf3qY7ahQDk0/rs:fit/g:sm/q:90/h:561/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2OTA1/ODgzLTE3NzQ3MTgx/OTQtOTI3My5qcGVn.jpeg",
+      "title": "This Music May Contain Hope.",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Human Re Sources",
+          "catno": "none",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1476777,
+          "resource_url": "https://api.discogs.com/labels/1476777"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Raye (3)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1410750,
+          "resource_url": "https://api.discogs.com/artists/1410750"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Funk / Soul",
+        "Pop"
+      ],
+      "styles": []
+    }
   },
   {
     "id": 11579671,
@@ -2773,14 +3411,13 @@
         "Conscious",
         "Contemporary R&B"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 13244291,
     "instance_id": 2085954339,
     "date_added": "2025-12-02T12:36:04-08:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 13244291,
       "master_id": 446576,
@@ -2843,8 +3480,7 @@
       "styles": [
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 11287055,
@@ -2903,14 +3539,13 @@
         "Arena Rock",
         "Symphonic Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 3273288,
     "instance_id": 2067539342,
     "date_added": "2025-10-05T14:09:19-07:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 3273288,
       "master_id": 389826,
@@ -2964,8 +3599,7 @@
         "Pop"
       ],
       "styles": []
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4925038,
@@ -3027,14 +3661,13 @@
         "Pop Rock",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 28412029,
     "instance_id": 2081087297,
     "date_added": "2025-11-17T12:14:59-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 28412029,
       "master_id": 3247138,
@@ -3101,8 +3734,7 @@
         "Trip Hop",
         "Jazzy Hip-Hop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 3226656,
@@ -3175,8 +3807,7 @@
         "Contemporary R&B",
         "Electro"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 10155637,
@@ -3238,8 +3869,7 @@
       "styles": [
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 881718,
@@ -3302,14 +3932,13 @@
         "Score",
         "Downtempo"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 982693,
     "instance_id": 2073472875,
     "date_added": "2025-10-25T08:05:29-07:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 982693,
       "master_id": 127958,
@@ -3357,14 +3986,13 @@
         "Emo",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 858647,
     "instance_id": 2078053792,
     "date_added": "2025-11-08T10:49:09-08:00",
-    "rating": 4,
+    "rating": 0,
     "basic_information": {
       "id": 858647,
       "master_id": 119726,
@@ -3426,8 +4054,7 @@
       "styles": [
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4700590,
@@ -3482,14 +4109,65 @@
         "Industrial",
         "Heavy Metal"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 32542845,
+    "instance_id": 2148476727,
+    "date_added": "2026-05-24T07:28:24-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 32542845,
+      "master_id": 152828,
+      "master_url": "https://api.discogs.com/masters/152828",
+      "resource_url": "https://api.discogs.com/releases/32542845",
+      "thumb": "https://i.discogs.com/1a1YN5aPKwa8gZ0TRnBNOZA7y6rbRt6thBcmFfxbjes/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTQy/ODQ1LTE3MzM5ODc2/MjAtNTI3NS5wbmc.jpeg",
+      "cover_image": "https://i.discogs.com/zBN5WHTfu5x2fQbJ10ajlZqhMOMGKgPAbN0PVa7p2XU/rs:fit/g:sm/q:90/h:518/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTQy/ODQ1LTE3MzM5ODc2/MjAtNTI3NS5wbmc.jpeg",
+      "title": "The Poison (20th Anniversary Edition)",
+      "year": 2024,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "2",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Music For Nations",
+          "catno": "19802804352",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 16279,
+          "resource_url": "https://api.discogs.com/labels/16279"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bullet For My Valentine",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 360657,
+          "resource_url": "https://api.discogs.com/artists/360657"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore"
+      ]
+    }
   },
   {
     "id": 375456,
     "instance_id": 2081087130,
     "date_added": "2025-11-17T12:14:26-08:00",
-    "rating": 3,
+    "rating": 0,
     "basic_information": {
       "id": 375456,
       "master_id": 18069,
@@ -3536,8 +4214,7 @@
       "styles": [
         "Industrial"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 17151643,
@@ -3589,14 +4266,13 @@
         "Pop"
       ],
       "styles": []
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 35420899,
     "instance_id": 2072583350,
     "date_added": "2025-10-22T08:45:56-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 35420899,
       "master_id": 4006858,
@@ -3645,8 +4321,7 @@
         "Alt-Pop",
         "Indie Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 28137130,
@@ -3700,8 +4375,7 @@
       "styles": [
         "Experimental"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 2673768,
@@ -3756,8 +4430,7 @@
         "Theme",
         "Musical"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 3991484,
@@ -3814,14 +4487,13 @@
         "Rock & Roll",
         "Soundtrack"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4536082,
     "instance_id": 2081087563,
     "date_added": "2025-11-17T12:15:54-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 4536082,
       "master_id": 97901,
@@ -3881,14 +4553,13 @@
         "Soundtrack",
         "Rock & Roll"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 35745730,
     "instance_id": 2085953966,
     "date_added": "2025-12-02T12:34:55-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 35745730,
       "master_id": 4044628,
@@ -3969,8 +4640,7 @@
         "Alternative Rock",
         "Indie Pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 31825046,
@@ -4035,8 +4705,7 @@
         "Drum n Bass",
         "Experimental"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 15854683,
@@ -4103,8 +4772,7 @@
         "Ballad",
         "Disco"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 5876710,
@@ -4164,8 +4832,7 @@
       "styles": [
         "Metalcore"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 5659580,
@@ -4215,14 +4882,13 @@
         "Rock"
       ],
       "styles": []
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 34190962,
     "instance_id": 2067541862,
     "date_added": "2025-10-05T14:17:47-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 34190962,
       "master_id": 729401,
@@ -4273,14 +4939,13 @@
         "Alternative Rock",
         "Post-Hardcore"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 5529239,
     "instance_id": 2067541579,
     "date_added": "2025-10-05T14:16:53-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 5529239,
       "master_id": 668882,
@@ -4330,8 +4995,61 @@
         "Post-Hardcore",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 7311019,
+    "instance_id": 2148478102,
+    "date_added": "2026-05-24T07:32:50-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7311019,
+      "master_id": 738790,
+      "master_url": "https://api.discogs.com/masters/738790",
+      "resource_url": "https://api.discogs.com/releases/7311019",
+      "thumb": "https://i.discogs.com/OSPTE5j02SaaC50tnwBOFRO6zr6eGUoSEpAAvWaFGfM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMTEw/MTktMTQzODYwNDUz/NC02NTIzLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/fZOatTnfMBXBtuwL8Ir7KxzC4bjRTsII2AhRN-pobGc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMTEw/MTktMTQzODYwNDUz/NC02NTIzLmpwZWc.jpeg",
+      "title": "Hesitant Alien",
+      "year": 2014,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "543261-2",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Gerard Way",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 319410,
+          "resource_url": "https://api.discogs.com/artists/319410"
+        }
+      ],
+      "genres": [
+        "Electronic",
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock",
+        "Pop Punk"
+      ]
+    }
   },
   {
     "id": 12430102,
@@ -4386,8 +5104,7 @@
       "styles": [
         "Score"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 13510954,
@@ -4441,8 +5158,7 @@
         "Emo",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 10236975,
@@ -4495,14 +5211,13 @@
         "Pop Punk",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 9124028,
     "instance_id": 2078054051,
     "date_added": "2025-11-08T10:49:41-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 9124028,
       "master_id": 724992,
@@ -4551,14 +5266,13 @@
         "Emo",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 2044414,
     "instance_id": 2079388768,
     "date_added": "2025-11-12T10:52:25-08:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 2044414,
       "master_id": 307517,
@@ -4616,14 +5330,13 @@
       "styles": [
         "Pop Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1859261,
     "instance_id": 2067541030,
     "date_added": "2025-10-05T14:15:03-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 1859261,
       "master_id": 729401,
@@ -4679,8 +5392,7 @@
         "Pop Punk",
         "Post-Hardcore"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 15824674,
@@ -4741,8 +5453,7 @@
         "Alternative Rock",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 22938617,
@@ -4803,8 +5514,7 @@
         "House",
         "Tech House"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 4201169,
@@ -4874,8 +5584,7 @@
         "Rock & Roll",
         "Glam"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 32501169,
@@ -4929,8 +5638,7 @@
       "styles": [
         "Soundtrack"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 19070194,
@@ -4999,8 +5707,7 @@
         "Alternative Rock",
         "Grunge"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 2896374,
@@ -5075,8 +5782,7 @@
         "Acoustic",
         "Ballad"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1143574,
@@ -5170,8 +5876,7 @@
         "Acoustic",
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 9523915,
@@ -5245,8 +5950,60 @@
         "Reggae-Pop",
         "Afrobeat"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 37286217,
+    "instance_id": 2148477095,
+    "date_added": "2026-05-24T07:29:41-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 37286217,
+      "master_id": 4219482,
+      "master_url": "https://api.discogs.com/masters/4219482",
+      "resource_url": "https://api.discogs.com/releases/37286217",
+      "thumb": "https://i.discogs.com/d2yBk6teIaeygsd8Ai3Vah7r8zyEPZ7AlRSRiawx2Qg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjg2/MjE3LTE3NzgzNDQ4/MTktOTcyMC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/tWF5RrecHgG1dUrjKOELVlR9Qr9XU6KieGz0Lbs7jyU/rs:fit/g:sm/q:90/h:535/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mjg2/MjE3LTE3NzgzNDQ4/MTktOTcyMC5qcGVn.jpeg",
+      "title": "Vindicate",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Spinefarm Records",
+          "catno": "SPINE801088P",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 38986,
+          "resource_url": "https://api.discogs.com/labels/38986"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Black Veil Brides",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1988886,
+          "resource_url": "https://api.discogs.com/artists/1988886"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore",
+        "Hard Rock"
+      ]
+    }
   },
   {
     "id": 10920637,
@@ -5327,8 +6084,7 @@
         "Euro House",
         "Dance-pop"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1402302,
@@ -5392,8 +6148,60 @@
         "Punk",
         "Hip Hop"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 13256565,
+    "instance_id": 2148476922,
+    "date_added": "2026-05-24T07:29:05-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 13256565,
+      "master_id": 466653,
+      "master_url": "https://api.discogs.com/masters/466653",
+      "resource_url": "https://api.discogs.com/releases/13256565",
+      "thumb": "https://i.discogs.com/obdlB0F15SYge9CgGWYlUHJg48pAUV1hLx9g_gdbO0o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjU2/NTY1LTE1NTA4NDk4/NTktNzcxMy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ICGC0FcNDJM0jx5vks8GpHxWIe1BS-nDb70Qpj4Z4os/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjU2/NTY1LTE1NTA4NDk4/NTktNzcxMy5qcGVn.jpeg",
+      "title": "Set The World On Fire",
+      "year": 2011,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Universal Republic Records",
+          "catno": "B001568702",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 81846,
+          "resource_url": "https://api.discogs.com/labels/81846"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Black Veil Brides",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1988886,
+          "resource_url": "https://api.discogs.com/artists/1988886"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal",
+        "Glam"
+      ]
+    }
   },
   {
     "id": 1229722,
@@ -5458,14 +6266,117 @@
         "Industrial",
         "Punk"
       ]
-    },
-    "folder_id": 1
+    }
+  },
+  {
+    "id": 8384918,
+    "instance_id": 2152252064,
+    "date_added": "2026-06-05T14:01:02-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8384918,
+      "master_id": 345402,
+      "master_url": "https://api.discogs.com/masters/345402",
+      "resource_url": "https://api.discogs.com/releases/8384918",
+      "thumb": "https://i.discogs.com/GwULKp17JUL4272Is5PBpVwvQU7AuXgiy5iR38RoRFQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzODQ5/MTgtMTQ2MDU3Mzc5/OS01NjIxLmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/lkOOem5F2UI-ws3OjXAfO3BeFT9Eyc2aixEJRLfovzA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzODQ5/MTgtMTQ2MDU3Mzc5/OS01NjIxLmpwZWc.jpeg",
+      "title": "Count Your Blessings",
+      "year": 2006,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Visible Noise",
+          "catno": "538014502",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 46599,
+          "resource_url": "https://api.discogs.com/labels/46599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bring Me The Horizon",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1253307,
+          "resource_url": "https://api.discogs.com/artists/1253307"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Deathcore"
+      ]
+    }
+  },
+  {
+    "id": 8112415,
+    "instance_id": 2152252430,
+    "date_added": "2026-06-05T14:02:21-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8112415,
+      "master_id": 345407,
+      "master_url": "https://api.discogs.com/masters/345407",
+      "resource_url": "https://api.discogs.com/releases/8112415",
+      "thumb": "https://i.discogs.com/Y9Is-5iqCnAG55B8heKblnicK589IPTgb16MCwGqlBc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxMTI0/MTUtMTQ1NTM3NTc4/MC03Nzk3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/hZfZYdSapqKZj6_lFbLiS5k8xJSAUvbxq2WTmvcQDIk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxMTI0/MTUtMTQ1NTM3NTc4/MC03Nzk3LmpwZWc.jpeg",
+      "title": "There Is A Hell Believe Me I've Seen It. There Is A Heaven Let's Keep It A Secret.",
+      "year": 2010,
+      "formats": [
+        {
+          "name": "CD",
+          "qty": "1",
+          "descriptions": [
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Visible Noise",
+          "catno": "538014522",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 46599,
+          "resource_url": "https://api.discogs.com/labels/46599"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bring Me The Horizon",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1253307,
+          "resource_url": "https://api.discogs.com/artists/1253307"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Metalcore"
+      ]
+    }
   },
   {
     "id": 34382998,
     "instance_id": 2067539742,
     "date_added": "2025-10-05T14:10:46-07:00",
-    "rating": 5,
+    "rating": 0,
     "basic_information": {
       "id": 34382998,
       "master_id": 3925902,
@@ -5480,7 +6391,7 @@
           "name": "CD",
           "qty": "1",
           "descriptions": [
-            "Compilation"
+            "Album"
           ]
         }
       ],
@@ -5521,8 +6432,7 @@
         "K-pop",
         "Soundtrack"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 10478271,
@@ -5576,8 +6486,7 @@
         "Synth-pop",
         "Ballad"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 13582544,
@@ -5631,8 +6540,7 @@
         "Alternative Rock",
         "Pop Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 12350845,
@@ -5695,8 +6603,7 @@
         "Prog Rock",
         "Symphonic Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 15270704,
@@ -5749,8 +6656,7 @@
       "styles": [
         "Alternative Rock"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 9618271,
@@ -5817,8 +6723,7 @@
         "Indie Pop",
         "New Wave"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 7323031,
@@ -5874,8 +6779,7 @@
         "Nu Metal",
         "Ballad"
       ]
-    },
-    "folder_id": 1
+    }
   },
   {
     "id": 1220925,
@@ -5937,7 +6841,6 @@
         "Indie Rock",
         "Indie Pop"
       ]
-    },
-    "folder_id": 1
+    }
   }
 ]

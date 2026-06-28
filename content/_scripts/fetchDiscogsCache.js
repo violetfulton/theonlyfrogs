@@ -14,7 +14,7 @@ function isCacheValid() {
 }
 
 async function fetchDiscogsData() {
-  const url = `https://api.discogs.com/users/${DISCOGS_USERNAME}/collection/folders/0/releases?per_page=100&page=1`;
+  const url = `https://api.discogs.com/users/${DISCOGS_USERNAME}/collection/folders/0/releases?per_page=250&page=1`;
 
   const res = await fetch(url, {
     headers: {
