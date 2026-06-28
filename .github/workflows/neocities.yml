@@ -57,12 +57,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -77,9 +77,9 @@ jobs:
         run: npm run build
 
       - name: Deploy to Neocities
-        uses: bcomnes/deploy-to-neocities@v1
+        uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_token: ${{ secrets.NEOCITIES_API_KEY }}
+          api_key: ${{ secrets.NEOCITIES_API_KEY }}
           cleanup: true
           dist_dir: public
 
@@ -114,8 +114,8 @@ jobs:
           username: ${{ secrets.NOTIFY_EMAIL_USER }}
           password: ${{ secrets.NOTIFY_EMAIL_PASS }}
           subject: "🚨 Neocities Deploy Failed!"
-          to: "your.email@example.com"
-          from: "Neocities Bot <your.email@example.com>"
+          to: "violet@theonlyfrogs.com"
+          from: "Neocities Bot <violet@theonlyfrogs.com>"
           body: |
             ❌ The Neocities deploy workflow failed.
             Repository: ${{ github.repository }}
