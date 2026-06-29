@@ -1,0 +1,100 @@
+---
+title: Records
+layout: layouts/pokeBase.njk
+customcss: "/assets/css/shrines/pokemon/records.css"
+permalink: /shrines/pokemon/records/
+---
+
+<section class="records-hero">
+  <p class="records-kicker">Opened VIOLET's records folder</p>
+  <h1>Pokémon Records</h1>
+  <p>
+    Diplomas, shiny starter milestones, certificates, ribbons, marks, and little proof-of-chaos
+    screenshots from across my Pokémon saves.
+  </p>
+
+  <div class="records-stats">
+    <span><strong>{{ pokemonPhotos.recordsTotal }}</strong> screenshots</span>
+    <span><strong>5</strong> folders</span>
+    <span><strong>∞</strong> tiny victories</span>
+  </div>
+</section>
+
+<section class="records-section">
+  <div class="records-section__heading">
+    <p class="records-kicker">Save-file awards</p>
+    <h2>Record folders</h2>
+  </div>
+
+  <div class="records-folder-grid">
+    <article class="records-folder-card">
+      <span>📜</span>
+      <h3>Pokédex Diplomas</h3>
+      <p>Completion screens, regional dex diplomas, and National Dex proof.</p>
+    </article>
+
+    <article class="records-folder-card">
+      <span>✨</span>
+      <h3>Shiny Starters</h3>
+      <p>Special first partners, starter hunts, and sparkly save-file beginnings.</p>
+    </article>
+
+    <article class="records-folder-card">
+      <span>🏅</span>
+      <h3>Certificates</h3>
+      <p>Official in-game awards, completion certificates, and notable milestones.</p>
+    </article>
+
+    <article class="records-folder-card">
+      <span>🎀</span>
+      <h3>Ribbons & Marks</h3>
+      <p>Special marks, ribbons, titles, and sentimental Pokémon details.</p>
+    </article>
+
+    <article class="records-folder-card">
+      <span>🗂️</span>
+      <h3>Misc Records</h3>
+      <p>Firsts, rare moments, silly milestones, and anything else worth archiving.</p>
+    </article>
+  </div>
+</section>
+
+{% if pokemonPhotos.recordsTotal %}
+<section class="records-section">
+  <div class="records-section__heading">
+    <p class="records-kicker">Screenshots</p>
+    <h2>Achievement archive</h2>
+  </div>
+
+  {% for category in pokemonPhotos.records %}
+    {% if category.images and category.images.length %}
+      <section class="records-photo-category">
+        <div class="records-photo-category__heading">
+          <h3>{{ category.label }}</h3>
+          <p>{{ category.note }}</p>
+        </div>
+
+        <div class="pokemon-photo-grid pokemon-photo-grid--records">
+          {% for photo in category.images %}
+            <figure class="pokemon-photo-card">
+              <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+              <figcaption>{{ photo.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</section>
+{% else %}
+<section class="records-section">
+  <div class="records-section__heading">
+    <p class="records-kicker">No screenshots yet</p>
+    <h2>Drop images into the records folders</h2>
+  </div>
+
+  <p class="records-empty">
+    Add images to <code>content/assets/imgs/pokemon/records/</code>, rebuild, and they will appear here automatically.
+  </p>
+</section>
+{% endif %}

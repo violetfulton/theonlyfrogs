@@ -1,0 +1,185 @@
+/* Pokémon Shrine — Records */
+
+.poke-shell {
+  max-width: 1120px;
+}
+
+.records-hero,
+.records-section {
+  border: 2px solid rgba(73, 47, 102, 0.25);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.94), rgba(255,232,248,0.86)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,0.16) 0,
+      rgba(255,255,255,0.16) 2px,
+      transparent 2px,
+      transparent 9px
+    );
+  box-shadow: 0 18px 45px rgba(83, 57, 107, 0.16);
+}
+
+.records-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.records-hero::after {
+  content: "📜";
+  position: absolute;
+  right: clamp(1rem, 5vw, 3rem);
+  top: 1.4rem;
+  font-size: clamp(3rem, 10vw, 6rem);
+  opacity: 0.18;
+}
+
+.records-kicker {
+  display: inline-flex;
+  margin: 0 0 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(99, 68, 128, 0.24);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: #6b427a;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.58rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.records-hero h1,
+.records-section h2 {
+  margin: 0;
+  color: #422657;
+  line-height: 1.1;
+}
+
+.records-hero h1 {
+  font-size: clamp(2rem, 6vw, 4.4rem);
+  letter-spacing: -0.055em;
+}
+
+.records-hero p {
+  max-width: 760px;
+  color: #5c4968;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.records-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.records-stats span {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 92px;
+  align-content: center;
+  padding: 0.9rem;
+  border: 1px solid rgba(77, 52, 100, 0.18);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.72);
+  color: #7b6387;
+  text-align: center;
+}
+
+.records-stats strong {
+  color: #402553;
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+.records-section {
+  margin: 1.5rem auto;
+  padding: clamp(1.2rem, 3vw, 2rem);
+}
+
+.records-section__heading {
+  margin-bottom: 1rem;
+}
+
+.records-folder-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.records-folder-card {
+  min-height: 210px;
+  padding: 1rem;
+  border: 1px solid rgba(75, 49, 101, 0.19);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.74);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.1);
+}
+
+.records-folder-card span {
+  font-size: 2rem;
+}
+
+.records-folder-card h3 {
+  margin: 0.65rem 0 0.45rem;
+  color: #402553;
+}
+
+.records-folder-card p,
+.records-empty {
+  color: #665371;
+  line-height: 1.65;
+}
+
+.records-photo-category {
+  margin-top: 1.25rem;
+}
+
+.records-photo-category + .records-photo-category {
+  padding-top: 1.25rem;
+  border-top: 1px dashed rgba(75, 49, 101, 0.22);
+}
+
+.records-photo-category__heading {
+  margin-bottom: 0.8rem;
+}
+
+.records-photo-category__heading h3 {
+  margin: 0;
+  color: #402553;
+  font-size: 1.35rem;
+}
+
+.records-photo-category__heading p {
+  max-width: 680px;
+  margin: 0.35rem 0 0;
+  color: #665371;
+  line-height: 1.6;
+}
+
+.records-empty code {
+  padding: 0.15rem 0.35rem;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.8);
+  color: #5d3273;
+}
+
+@media (max-width: 1000px) {
+  .records-folder-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .records-stats,
+  .records-folder-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .records-folder-card {
+    min-height: auto;
+  }
+}

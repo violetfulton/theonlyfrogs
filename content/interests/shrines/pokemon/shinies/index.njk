@@ -1,0 +1,108 @@
+---
+title: Shiny Shrine
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/shinies/
+customcss: "/assets/css/shrines/pokemon/shinies.css"
+---
+
+<section class="shiny-shrine-hero">
+  <p class="pc-kicker">Accessed VIOLET's PC!</p>
+  <h1>Shiny Shrine ☆</h1>
+  <p>
+    A little storage box for my shiny Pokémon, powered by one shiny log sheet so I do not have to
+    update a million shrine pages by hand.
+  </p>
+
+  <div class="shiny-shrine-stats" aria-label="Shiny stats">
+    <span><strong>{{ pokemonShinies.stats.total }}</strong> captures</span>
+    <span><strong>{{ pokemonShinies.stats.unique }}</strong> unique</span>
+    <span><strong>{{ pokemonShinies.stats.safariWeek }}</strong> Safari Week</span>
+    <span><strong>{{ pokemonShinies.stats.go }}</strong> Pokémon GO</span>
+  </div>
+</section>
+
+<section class="living-dex-callout">
+  <a href="/shrines/pokemon/shinies/living-dex/">
+    <span>✨</span>
+    <div>
+      <strong>Shiny Living Dex</strong>
+      <small>National Dex progress with greyed-out missing shinies and full-colour caught ones.</small>
+    </div>
+  </a>
+</section>
+
+{% if pokemonShinies.recent and pokemonShinies.recent.length %}
+<section class="shiny-shrine-section">
+  <div class="shiny-shrine-heading">
+    <p class="pc-kicker">Recent activity</p>
+    <h2>Newest shinies</h2>
+  </div>
+
+  <div class="shiny-card-grid">
+    {% for shiny in pokemonShinies.recent %}
+      <article class="shiny-card">
+        {% if shiny.image %}
+          <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}" loading="lazy">
+        {% endif %}
+
+        <span class="shiny-card__number">#{{ shiny.dexDisplay }}</span>
+        <h2>{{ shiny.nickname or shiny.species }}</h2>
+
+        {% if shiny.nickname %}
+          <p class="shiny-card__species">{{ shiny.species }}</p>
+        {% endif %}
+
+        <dl>
+          {% if shiny.originGame %}
+            <div><dt>Game</dt><dd>{{ shiny.originGame }}</dd></div>
+          {% endif %}
+          {% if shiny.method %}
+            <div><dt>Method</dt><dd>{{ shiny.method }}</dd></div>
+          {% endif %}
+          {% if shiny.caughtDate %}
+            <div><dt>Date</dt><dd>{{ shiny.caughtDate }}</dd></div>
+          {% endif %}
+        </dl>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="shiny-shrine-section">
+  <div class="shiny-shrine-heading">
+    <p class="pc-kicker">Storage boxes</p>
+    <h2>Browse by generation</h2>
+  </div>
+
+  <div class="shiny-box-link-grid">
+    {% for gen in pokemonShinies.generations %}
+      {% if gen.key and gen.key != "unsorted" %}
+        <a class="shiny-box-link" href="/shrines/pokemon/shinies/{{ gen.key }}/">
+          <span>{{ gen.label }}</span>
+          <strong>{{ gen.count }}</strong>
+          <small>captures</small>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="shiny-shrine-section">
+  <div class="shiny-shrine-heading">
+    <p class="pc-kicker">Hunt boxes</p>
+    <h2>Browse by category</h2>
+  </div>
+
+  <div class="shiny-box-link-grid">
+    {% for category in pokemonShinies.categories %}
+      {% if category.key and category.key != "unsorted" %}
+        <a class="shiny-box-link" href="/shrines/pokemon/shinies/{{ category.key }}/">
+          <span>{{ category.label }}</span>
+          <strong>{{ category.count }}</strong>
+          <small>captures</small>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -1,377 +1,288 @@
-/* ==================================================
-   Pokémon Shrine — Shared (Pastel PokéMart theme)
-   Works across all shrine pages
-================================================== */
+/* Pokémon Shrine — Shared Base
+   Keep this file for global shell/nav only.
+   Page layouts live in home.css, me.css, shinies.css, physical.css, hof.css.
+*/
 
-:root{
-  /* wallpaper palette */
-  --pm-pink:  #FEC8ED;
-  --pm-soft:  #FEE2FC;
-  --pm-cream: #FFF3C8;
-  --pm-sky:   #83CBFF;
-  --pm-aqua:  #26BAF6;
-  --pm-mint:  #BFF3E1;
-
-  /* readable ink (navy-ish) */
-  --pm-ink: #16314A;
-  --pm-ink-soft: rgba(22,49,74,0.82);
-
-  /* surfaces */
-  --pm-panel: rgba(255,255,255,0.86);
-  --pm-panel-strong: rgba(255,255,255,0.93);
-
-  /* borders + glow */
-  --pm-border: rgba(22,49,74,0.28);
-  --pm-border-strong: rgba(22,49,74,0.42);
-  --pm-glow: rgba(38,186,246,0.20);
-  --pm-pinkglow: rgba(254,200,237,0.35);
-
-  /* radius */
-  --pm-radius: 16px;
+:root {
+  --poke-bg: #fff4fb;
+  --poke-bg-2: #f3edff;
+  --poke-ink: #422657;
+  --poke-muted: #6b5876;
+  --poke-soft: rgba(255, 255, 255, 0.76);
+  --poke-border: rgba(73, 47, 102, 0.24);
+  --poke-shadow: 0 18px 45px rgba(83, 57, 107, 0.16);
+  --poke-pink: #ffd7ee;
+  --poke-lilac: #e8dbff;
+  --poke-yellow: #fff0b8;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Press Start 2P', monospace;
-  color: var(--pm-ink);
+* {
+  box-sizing: border-box;
+}
 
-  /* wallpaper + soft overlay so text stays readable */
+html {
+  min-height: 100%;
+  background: var(--poke-bg);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--poke-ink);
   background:
-    linear-gradient(180deg, rgba(254,226,252,0.70), rgba(255,243,200,0.62)),
-    url("/assets/imgs/bg/poke-kawaii.png");
-  background-repeat: repeat;
-  background-size: 220px auto;
-  background-attachment: fixed;
+    radial-gradient(circle at 12% 10%, rgba(255, 215, 238, 0.85), transparent 28rem),
+    radial-gradient(circle at 88% 18%, rgba(232, 219, 255, 0.85), transparent 26rem),
+    radial-gradient(circle at 50% 100%, rgba(255, 240, 184, 0.55), transparent 30rem),
+    linear-gradient(135deg, #fff7fc, #f4efff);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-@media (max-width: 700px){
-  body{ background-attachment: scroll; }
-}
-
-/* wrapper so content doesn't sit under fixed menu */
-.poke-shell{
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 74px 14px 40px;
-}
-
-/* ==================================================
-   Panels (shared)
-================================================== */
-
-.poke-panel{
-  background: var(--pm-panel);
-  border: 3px solid var(--pm-border-strong);
-  border-radius: var(--pm-radius);
-  box-shadow:
-    0 14px 26px rgba(0,0,0,0.10),
-    0 0 0 3px rgba(255,255,255,0.55) inset,
-    0 0 18px var(--pm-glow),
-    0 0 18px var(--pm-pinkglow);
-  padding: 14px;
-  margin: 12px 0;
-}
-
-.poke-panel h2{
-  font-size: 11px;
-  margin: 0 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-}
-
-.poke-panel p{
-  font-size: 10px;
-  line-height: 1.85;
-  margin: 0;
-  color: var(--pm-ink-soft);
-}
-
-/* ==================================================
-   PokéNav (top-left)
-================================================== */
-
-.pokenav{
+body::before {
+  content: "";
   position: fixed;
-  top: 12px;
-  left: 12px;
-  z-index: 9999;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.33;
+  background-image:
+    linear-gradient(rgba(90, 58, 118, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(90, 58, 118, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
-.pokenav__toggle{
+a {
+  color: #7a3f91;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Main content shell */
+
+.poke-shell {
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  padding: 1.25rem 0 3rem;
+}
+
+/* PokéNav */
+
+.pokenav {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 50;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.pokenav__toggle {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-
-  font-size: 10px;
-  letter-spacing: 0.2px;
-
-  padding: 9px 12px;
-  border-radius: 14px;
-
-  color: var(--pm-ink);
-  background: linear-gradient(180deg, var(--pm-soft), var(--pm-pink));
-  border: 3px solid var(--pm-border-strong);
-
-  box-shadow:
-    0 10px 18px rgba(0,0,0,0.16),
-    0 0 0 3px rgba(255,255,255,0.68) inset,
-    0 0 18px var(--pm-glow),
-    0 0 18px var(--pm-pinkglow);
-
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.7rem 0.9rem;
+  border: 2px solid rgba(65, 38, 86, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--poke-ink);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.14);
+  font: inherit;
+  font-weight: 900;
   cursor: pointer;
-  transition: transform 140ms ease, filter 140ms ease;
 }
 
-.pokenav__toggle:hover{
-  filter: brightness(1.02) saturate(1.06);
+.pokenav__toggle:hover,
+.pokenav__toggle:focus-visible {
   transform: translateY(-1px);
-}
-.pokenav__toggle:active{ transform: translateY(0); }
-
-.pokenav__toggle:focus-visible{
-  outline: 3px solid rgba(131,203,255,0.75);
-  outline-offset: 3px;
+  background: #fff;
 }
 
-.pokenav__panel{
-  margin-top: 10px;
-  width: min(320px, calc(100vw - 24px));
-  background: var(--pm-panel-strong);
-  border: 3px solid var(--pm-border-strong);
-  border-radius: 18px;
-
-  box-shadow:
-    0 16px 28px rgba(0,0,0,0.20),
-    0 0 0 3px rgba(255,255,255,0.60) inset,
-    0 0 22px var(--pm-glow),
-    0 0 22px var(--pm-pinkglow);
-
-  overflow: hidden;
-
-  transform-origin: top left;
-  transform: translateY(-6px) scale(0.985);
+.pokenav__panel {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  left: 0;
+  width: min(280px, calc(100vw - 2rem));
+  padding: 0.9rem;
+  border: 2px solid rgba(65, 38, 86, 0.26);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 236, 248, 0.92));
+  box-shadow: 0 18px 45px rgba(83, 57, 107, 0.22);
   opacity: 0;
+  transform: translateY(-8px) scale(0.98);
   pointer-events: none;
   transition: opacity 160ms ease, transform 160ms ease;
 }
 
-.pokenav.open .pokenav__panel{
-  transform: translateY(0) scale(1);
+.pokenav.is-open .pokenav__panel,
+.pokenav:focus-within .pokenav__panel {
   opacity: 1;
+  transform: translateY(0) scale(1);
   pointer-events: auto;
 }
 
-.pokenav__header{
-  padding: 12px 12px 10px;
-  background: linear-gradient(180deg, rgba(131,203,255,0.30), rgba(254,200,237,0.28));
-  border-bottom: 2px solid var(--pm-border);
+.pokenav__header {
+  padding: 0.85rem;
+  margin-bottom: 0.65rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(73, 47, 102, 0.16);
 }
 
-.pokenav__title{
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
+.pokenav__title {
+  color: var(--poke-ink);
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.72rem;
+  line-height: 1.6;
 }
 
-.pokenav__sub{
-  margin-top: 6px;
-  font-size: 9px;
-  opacity: 0.86;
-  color: var(--pm-ink-soft);
+.pokenav__sub {
+  margin-top: 0.35rem;
+  color: var(--poke-muted);
+  font-size: 0.8rem;
 }
 
-.pokenav__links{
-  padding: 8px;
+.pokenav__links {
   display: grid;
-  gap: 8px;
+  gap: 0.45rem;
 }
 
-.pokenav__link{
+.pokenav__link {
   display: flex;
   align-items: center;
-  gap: 8px;
-
-  padding: 10px 10px;
-  border-radius: 14px;
-
+  gap: 0.55rem;
+  padding: 0.72rem 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  color: var(--poke-ink);
+  background: rgba(255, 255, 255, 0.56);
   text-decoration: none;
-  color: var(--pm-ink);
-  font-size: 10px;
-  line-height: 1.3;
-
-  background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(254,226,252,0.72));
-  border: 2px solid var(--pm-border);
-
-  box-shadow: 0 2px 0 rgba(22,49,74,0.08);
-  transition: transform 140ms ease, filter 140ms ease;
+  font-weight: 800;
 }
 
-.pokenav__link:hover{
-  filter: brightness(1.02) saturate(1.05);
-  transform: translateY(-1px);
-}
-.pokenav__link:active{ transform: translateY(0); }
-
-.pokenav__link--minor{
-  opacity: 0.9;
-  background: rgba(255,255,255,0.86);
+.pokenav__link:hover,
+.pokenav__link:focus-visible {
+  border-color: rgba(73, 47, 102, 0.2);
+  background: rgba(255, 255, 255, 0.9);
 }
 
-/* Active page highlight (Pastel PokéMart) */
-.pokenav__link.is-active{
-  border-color: var(--pm-border-strong);
-  background: linear-gradient(180deg, rgba(131,203,255,0.48), rgba(254,200,237,0.72));
-  box-shadow:
-    0 2px 0 rgba(22,49,74,0.08),
-    0 0 0 2px rgba(255,255,255,0.60) inset,
-    0 0 16px rgba(38,186,246,0.22);
+.pokenav__link.is-active {
+  border-color: rgba(122, 63, 145, 0.34);
+  background: linear-gradient(135deg, rgba(255, 215, 238, 0.9), rgba(232, 219, 255, 0.82));
+  box-shadow: inset 0 -8px 18px rgba(255, 255, 255, 0.35);
 }
 
-.pokenav__link.is-active::before{
-  content: "▶";
-  font-size: 10px;
-  line-height: 1;
-  margin-right: 2px;
+.pokenav__link--minor {
+  margin-top: 0.35rem;
+  color: #715b7c;
+  font-size: 0.92rem;
 }
 
-/* Backdrop */
-.pokenav__backdrop{
+.pokenav__backdrop {
   position: fixed;
   inset: 0;
-  z-index: 9998;
-  background: rgba(22,49,74,0.22);
+  z-index: 40;
+  background: rgba(37, 20, 48, 0.12);
+  backdrop-filter: blur(1px);
 }
 
-/* Mobile comfort */
-@media (max-width: 520px){
-  .pokenav{ top: 10px; left: 10px; }
-  .poke-shell{ padding-top: 78px; }
+/* Shared small components */
+
+.pc-kicker,
+.trainer-kicker,
+.shelf-kicker,
+.league-kicker {
+  max-width: 100%;
 }
 
-/* ==================================================
-   Themed Poké Chips (shared)
-================================================== */
-
-.poke-chip{
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-
-  font-size: 10px;
-  padding: 6px 10px;
-  border-radius: 999px;
-
-  color: var(--pm-ink);
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255,255,255,0.88),
-      rgba(254,226,252,0.72)
-    );
-
-  border: 2px solid var(--pm-border);
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.55) inset,
-    0 0 12px rgba(254,200,237,0.25);
-
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
+::selection {
+  background: rgba(255, 199, 232, 0.8);
+  color: var(--poke-ink);
 }
 
-/* hover / focus */
-.poke-chip:hover{
-  filter: brightness(1.02) saturate(1.05);
+@media (max-width: 720px) {
+  .poke-shell {
+    width: min(100% - 1rem, 1120px);
+    padding-top: 4.2rem;
+  }
+
+  .pokenav {
+    top: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .pokenav__panel {
+    width: min(310px, calc(100vw - 1.5rem));
+  }
 }
 
-.poke-chip:focus-visible{
-  outline: 3px solid rgba(131,203,255,0.65);
-  outline-offset: 2px;
+/* Reusable Pokémon shrine photo galleries */
+
+.pokemon-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
 
-/* =========================
-   Pokémon Tooltip (vibe)
-   frosted + pastel + gba-ish
-========================= */
-#s-m-t-tooltip{
-  position: absolute;
-  z-index: 12000;
-  display: none;
-
-  /* frosted glass */
-  background: rgba(255, 255, 255, 0.58);
-  border: 2px solid rgba(120, 140, 155, 0.38);
-  border-radius: 14px;
-
-  backdrop-filter: blur(10px) saturate(1.08);
-  -webkit-backdrop-filter: blur(10px) saturate(1.08);
-
-  /* soft candy glow */
-  box-shadow:
-    0 14px 26px rgba(0,0,0,0.18),
-    0 0 0 2px rgba(255,255,255,0.50) inset,
-    0 0 18px rgba(254,200,237,0.35),
-    0 0 16px rgba(38,186,246,0.18);
-
-  padding: 8px 10px;
-  max-width: 240px;
-  pointer-events: none;
-
-  /* text */
-  font-family: 'Press Start 2P', monospace;
-  font-size: 10px;
-  line-height: 1.55;
-  color: rgba(13, 42, 29, 0.92);
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
+.pokemon-photo-card {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid rgba(75, 49, 101, 0.2);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.1);
 }
 
-/* inner div exists because plugin wraps text in <div> */
-#s-m-t-tooltip > div{
+.pokemon-photo-card img {
+  display: block;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: rgba(255, 232, 248, 0.5);
 }
 
-/* little pointer */
-#s-m-t-tooltip::after{
-  content: "";
-  position: absolute;
-  left: 16px;
-  bottom: -8px;
-
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-
-  /* “glass” pointer */
-  border-top: 8px solid rgba(255, 255, 255, 0.58);
-
-  filter: drop-shadow(0 3px 2px rgba(0,0,0,0.15));
+.pokemon-photo-card figcaption {
+  padding: 0.75rem 0.9rem;
+  color: #4f3363;
+  font-weight: 900;
+  line-height: 1.4;
 }
 
-/* subtle shimmer pulse (very gentle) */
-@keyframes poke-tooltip-glow{
-  0%,100% { box-shadow:
-    0 14px 26px rgba(0,0,0,0.18),
-    0 0 0 2px rgba(255,255,255,0.50) inset,
-    0 0 18px rgba(254,200,237,0.32),
-    0 0 16px rgba(38,186,246,0.16);
+.physical-photo-category {
+  margin-top: 1.25rem;
+}
+
+.physical-photo-category + .physical-photo-category {
+  padding-top: 1.25rem;
+  border-top: 1px dashed rgba(75, 49, 101, 0.22);
+}
+
+.physical-photo-category__heading {
+  margin-bottom: 0.8rem;
+}
+
+.physical-photo-category__heading h3 {
+  margin: 0;
+  color: #402553;
+  font-size: 1.35rem;
+}
+
+.physical-photo-category__heading p {
+  max-width: 680px;
+  margin: 0.35rem 0 0;
+  color: #665371;
+  line-height: 1.6;
+}
+
+@media (max-width: 850px) {
+  .pokemon-photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  50% { box-shadow:
-    0 14px 26px rgba(0,0,0,0.18),
-    0 0 0 2px rgba(255,255,255,0.50) inset,
-    0 0 22px rgba(254,200,237,0.45),
-    0 0 18px rgba(38,186,246,0.22);
+}
+
+@media (max-width: 560px) {
+  .pokemon-photo-grid {
+    grid-template-columns: 1fr;
   }
-}
-
-#s-m-t-tooltip{
-  animation: poke-tooltip-glow 2.2s ease-in-out infinite;
-}
-
-@media (prefers-reduced-motion: reduce){
-  #s-m-t-tooltip{ animation: none; }
 }

@@ -1,279 +1,191 @@
-/* ==================================================
-   Pokémon Shrine — Physical Collection
-   Frosted PokéMart display cases
-================================================== */
+/* Pokémon Shrine — Physical Collection */
 
-/* =========================
-   Layout
-========================= */
-
-.physical-layout{
-  display: grid;
-  grid-template-columns: 1fr 1.25fr;
-  gap: 16px;
-  align-items: start;
+.poke-shell {
+  max-width: 1120px;
 }
 
-@media (max-width: 820px){
-  .physical-layout{
-    grid-template-columns: 1fr;
+.shelf-hero,
+.shelf-section,
+.shelf-note {
+  border: 2px solid rgba(73, 47, 102, 0.25);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.94), rgba(242,235,255,0.86)),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.18) 0,
+      rgba(255,255,255,0.18) 2px,
+      transparent 2px,
+      transparent 9px
+    );
+  box-shadow: 0 18px 45px rgba(83, 57, 107, 0.16);
+}
+
+.shelf-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.shelf-hero::after {
+  content: "📦";
+  position: absolute;
+  right: clamp(1rem, 5vw, 3rem);
+  top: 1.4rem;
+  font-size: clamp(3rem, 10vw, 6rem);
+  opacity: 0.18;
+}
+
+.shelf-kicker {
+  display: inline-flex;
+  margin: 0 0 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(99, 68, 128, 0.24);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: #6b427a;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.58rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.shelf-hero h1,
+.shelf-section h2 {
+  margin: 0;
+  color: #422657;
+  line-height: 1.1;
+}
+
+.shelf-hero h1 {
+  font-size: clamp(2rem, 6vw, 4.4rem);
+  letter-spacing: -0.055em;
+}
+
+.shelf-hero p {
+  max-width: 720px;
+  color: #5c4968;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.shelf-section {
+  margin: 1.5rem auto;
+  padding: clamp(1.2rem, 3vw, 2rem);
+}
+
+.shelf-section__heading {
+  margin-bottom: 1rem;
+}
+
+.shelf-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.shelf-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  min-height: 245px;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.1rem;
+  border: 1px solid rgba(75, 49, 101, 0.2);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.76);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.1);
+}
+
+.shelf-card::after {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.85rem;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(86, 55, 111, 0.11);
+}
+
+.shelf-card__icon {
+  font-size: 2.15rem;
+}
+
+.shelf-card h3,
+.inventory-item h3 {
+  margin: 0;
+  color: #402553;
+}
+
+.shelf-card p,
+.inventory-item p,
+.shelf-note {
+  color: #665371;
+  line-height: 1.65;
+}
+
+.shelf-card p {
+  margin: 0;
+}
+
+.shelf-card small {
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  color: #8a679b;
+  line-height: 1.5;
+}
+
+.inventory-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.inventory-item {
+  padding: 1rem;
+  border: 1px solid rgba(75, 49, 101, 0.18);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.74);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.08);
+}
+
+.inventory-item__tag {
+  display: inline-flex;
+  margin-bottom: 0.6rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 224, 242, 0.75);
+  color: #784f8c;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.shelf-note {
+  padding: 1rem 1.2rem;
+  margin: 1.5rem auto 2rem;
+}
+
+.shelf-note p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .shelf-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-.physical-col{
-  display: flex;
-  flex-direction: column;
-}
+@media (max-width: 560px) {
+  .shelf-grid {
+    grid-template-columns: 1fr;
+  }
 
-.physical-section{
-  margin-bottom: 16px;
-}
-
-.physical-section h2{
-  font-size: 12px;
-  margin: 0 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-  color: var(--pm-ink);
-}
-
-/* =========================
-   Scrollable display cases
-========================= */
-
-.physical-scrollbox{
-  max-height: 420px;
-  overflow-y: auto;
-  padding-right: 6px;
-  border-radius: 14px;
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.45) inset,
-    0 0 14px rgba(131,203,255,0.10);
-}
-
-/* Tuned heights */
-.scroll-figures{ max-height: 320px; }
-.scroll-games  { max-height: 360px; }
-.scroll-tcg    { max-height: 520px; }
-.scroll-misc   { max-height: 420px; }
-
-/* Tablet */
-@media (max-width: 820px){
-  .scroll-figures{ max-height: 280px; }
-  .scroll-games  { max-height: 320px; }
-  .scroll-tcg    { max-height: 420px; }
-  .scroll-misc   { max-height: 360px; }
-}
-
-/* Mobile */
-@media (max-width: 520px){
-  .scroll-figures{ max-height: 260px; }
-  .scroll-games  { max-height: 300px; }
-  .scroll-tcg    { max-height: 380px; }
-  .scroll-misc   { max-height: 320px; }
-}
-
-.physical-hint{
-  font-size: 9px;
-  opacity: 0.7;
-  text-align: right;
-  margin: 6px 2px 0;
-  color: var(--pm-ink-soft);
-}
-
-/* =========================
-   Scrollbars (Pastel)
-========================= */
-
-.physical-scrollbox{
-  scrollbar-width: thin;
-  scrollbar-color: rgba(254,200,237,0.90) rgba(255,255,255,0.45);
-}
-
-.physical-scrollbox::-webkit-scrollbar{
-  width: 8px;
-}
-
-.physical-scrollbox::-webkit-scrollbar-track{
-  background: rgba(255,255,255,0.55);
-  border-radius: 999px;
-}
-
-.physical-scrollbox::-webkit-scrollbar-thumb{
-  background: linear-gradient(
-    180deg,
-    rgba(254,200,237,0.95),
-    rgba(131,203,255,0.85)
-  );
-  border-radius: 999px;
-  border: 2px solid rgba(255,255,255,0.80);
-}
-
-/* =========================
-   PM GRID (shared)
-========================= */
-
-.pm-grid{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-}
-
-@media (max-width: 520px){
-  .pm-grid{ grid-template-columns: 1fr; }
-}
-
-/* =========================
-   PM CARD (shared)
-========================= */
-
-.pm-card{
-  position: relative;
-  display: block;
-  border-radius: 16px;
-  overflow: hidden;
-
-  border: 2px solid rgba(255,255,255,0.55);
-  background: rgba(255,255,255,0.42);
-
-  backdrop-filter: blur(6px) saturate(1.05);
-  -webkit-backdrop-filter: blur(6px) saturate(1.05);
-
-  box-shadow:
-    0 0 0 1px rgba(255,255,255,0.45) inset,
-    0 8px 18px rgba(0,0,0,0.08);
-
-  transition: transform 140ms ease, filter 140ms ease;
-}
-
-.pm-card:hover{
-  filter: brightness(1.03) saturate(1.06);
-  transform: translateY(-1px);
-}
-
-.pm-img{
-  width: 100%;
-  height: 160px;
-  display: block;
-  object-fit: cover;
-}
-
-/* =========================
-   IMAGE MODES BY SECTION
-========================= */
-
-/* Figures: PNG-safe */
-.pm-grid--figures .pm-img{
-  height: 180px;
-  object-fit: contain;
-  padding: 10px;
-  background: rgba(255,255,255,0.22);
-}
-
-/* Games: a bit taller looks nicer */
-.pm-grid--games .pm-img{
-  height: 170px;
-  object-fit: cover;
-}
-
-/* TCG: keep binder pages readable */
-.pm-grid--tcg .pm-img{
-  height: 170px;
-  object-fit: cover;
-}
-
-/* Misc: cover works best (photos) */
-.pm-grid--misc .pm-img{
-  height: 170px;
-  object-fit: cover;
-}
-
-/* =========================
-   META (shared)
-========================= */
-
-.pm-meta{
-  padding: 8px 10px 10px;
-}
-
-.pm-title{
-  font-size: 10px;
-  margin: 0 0 4px;
-  color: var(--pm-ink);
-}
-
-.pm-sub{
-  font-size: 9px;
-  opacity: 0.85;
-  color: var(--pm-ink-soft);
-}
-
-/* =========================
-   PM CARD — MONOCHROME TINT
-========================= */
-
-.pm-card{
-  position: relative;
-}
-
-/* tint overlay */
-.pm-card::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-
-  background: var(--pm-tint, transparent);
-  opacity: 0.45;
-  mix-blend-mode: multiply;
-
-  transition: opacity 180ms ease;
-}
-
-/* grayscale by default */
-.pm-img{
-  filter: grayscale(1) contrast(1.05) brightness(1.02);
-  transition: filter 180ms ease;
-}
-
-/* restore colour on hover/focus */
-.pm-card:hover .pm-img,
-.pm-card:focus-visible .pm-img{
-  filter: none;
-}
-
-.pm-card:hover::before,
-.pm-card:focus-visible::before{
-  opacity: 0;
-}
-
-/* touch devices = always full colour */
-@media (hover: none){
-  .pm-img{ filter: none; }
-  .pm-card::before{ opacity: 0; }
-}
-
-/* =========================
-   SECTION TINTS
-========================= */
-
-/* Figures — soft pink */
-.pm-grid--figures{
-  --pm-tint: rgba(254, 200, 237, 0.55);
-}
-
-/* Games — aqua */
-.pm-grid--games{
-  --pm-tint: rgba(131, 203, 255, 0.55);
-}
-
-/* TCG — lavender */
-.pm-grid--tcg{
-  --pm-tint: rgba(210, 190, 255, 0.55);
-}
-
-/* Misc — mint */
-.pm-grid--misc{
-  --pm-tint: rgba(191, 243, 225, 0.55);
+  .shelf-card {
+    min-height: 210px;
+  }
 }

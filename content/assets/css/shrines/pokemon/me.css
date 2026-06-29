@@ -1,140 +1,251 @@
-/* ==================================================
-   Pokémon Shrine — About the Trainer (simple)
-================================================== */
+/* Pokémon Shrine — Trainer Card */
 
-.trainer-strip{
+.poke-shell {
+  max-width: 1120px;
+}
+
+.trainer-hero,
+.trainer-section {
+  border: 2px solid rgba(73, 47, 102, 0.25);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.93), rgba(240,248,255,0.84)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,0.16) 0,
+      rgba(255,255,255,0.16) 2px,
+      transparent 2px,
+      transparent 9px
+    );
+  box-shadow: 0 18px 45px rgba(83, 57, 107, 0.16);
+}
+
+.trainer-hero {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 10px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 1.2rem;
+  align-items: stretch;
+  margin: 1.5rem auto;
+  padding: clamp(1.4rem, 4vw, 2.5rem);
 }
 
-@media (max-width: 820px){
-  .trainer-strip{
-    grid-template-columns: repeat(2, 1fr);
-  }
+.trainer-kicker {
+  display: inline-flex;
+  margin: 0 0 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(99, 68, 128, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #6b427a;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.58rem;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
-@media (max-width: 520px){
-  .trainer-strip{
-    grid-template-columns: 1fr;
-  }
+.trainer-hero h1,
+.trainer-section h2 {
+  margin: 0;
+  color: #422657;
+  line-height: 1.1;
 }
 
-.trainer-shot{
+.trainer-hero h1 {
+  font-size: clamp(2rem, 6vw, 4.3rem);
+  letter-spacing: -0.055em;
+}
+
+.trainer-hero p {
+  max-width: 680px;
+  color: #5c4968;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.trainer-card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid rgba(65, 38, 86, 0.28);
+  border-radius: 24px;
+  background:
+    linear-gradient(160deg, rgba(255,255,255,0.9), rgba(255,229,246,0.82));
+  box-shadow: inset 0 -16px 24px rgba(255, 199, 232, 0.34);
+}
+
+.trainer-card::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  bottom: -42px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.94) 0 27%, rgba(74,45,98,0.14) 28% 30%, rgba(255,185,224,0.38) 31% 100%);
+  opacity: 0.8;
+}
+
+.trainer-card__top {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.trainer-card__top span {
+  color: #8a679b;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+}
+
+.trainer-card__top strong {
+  color: #3f2453;
+  font-family: "Press Start 2P", monospace;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.trainer-card__stats {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.65rem;
   margin: 0;
 }
 
-.trainer-shot__link{
-  display: block;
+.trainer-card__stats div {
+  padding: 0.75rem;
+  border: 1px solid rgba(69, 43, 93, 0.17);
   border-radius: 16px;
-  overflow: hidden;
-
-  background: rgba(255,255,255,0.35);
-  border: 2px solid rgba(255,255,255,0.55);
-
-  backdrop-filter: blur(7px) saturate(1.05);
-  -webkit-backdrop-filter: blur(7px) saturate(1.05);
-
-  box-shadow:
-    0 0 0 1px rgba(255,255,255,0.35) inset,
-    0 10px 18px rgba(0,0,0,0.12);
-
-  filter: grayscale(0.25) brightness(0.98);
-  transition: filter 160ms ease, transform 160ms ease;
+  background: rgba(255,255,255,0.66);
 }
 
-.trainer-shot__link:hover,
-.trainer-shot__link:focus-visible{
-  filter: grayscale(0) brightness(1);
-  transform: translateY(-1px);
+.trainer-card__stats dt {
+  color: #8a679b;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-.trainer-shot img{
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  display: block;
+.trainer-card__stats dd {
+  margin: 0.25rem 0 0;
+  color: #422657;
+  font-weight: 800;
 }
 
-.trainer-shot__cap{
-  margin-top: 8px;
-  font-size: 9px;
-  line-height: 1.6;
-  opacity: 0.85;
+.trainer-section {
+  margin: 1.5rem auto;
+  padding: clamp(1.2rem, 3vw, 2rem);
 }
 
-.trainer-hint{
-  margin: 10px 0 0;
-  font-size: 9px;
-  opacity: 0.75;
-  line-height: 1.6;
+.trainer-section__heading {
+  margin-bottom: 1rem;
 }
 
-/* =========================
-   Dex Achievements (3-up)
-========================= */
-
-.dex-grid{
+.trainer-note-grid,
+.save-file {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 14px;
-  margin-top: 12px;
+  gap: 1rem;
 }
 
-.dex-card{
-  grid-column: span 4;
-
-  background: rgba(255, 255, 255, 0.55);
-  border: 2px solid rgba(120, 140, 155, 0.35);
-  border-radius: 18px;
-  padding: 10px;
-  text-align: center;
-
-  backdrop-filter: blur(8px) saturate(1.05);
-  -webkit-backdrop-filter: blur(8px) saturate(1.05);
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.5) inset,
-    0 10px 20px rgba(0,0,0,0.12);
-
-  transition: transform 160ms ease, filter 160ms ease;
+.trainer-note-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.dex-card:hover{
-  transform: translateY(-2px);
-  filter: brightness(1.03);
+.trainer-note,
+.save-file article {
+  border: 1px solid rgba(75, 49, 101, 0.19);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.74);
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.1);
 }
 
-/* Images */
-.dex-card img{
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 12px;
+.trainer-note {
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 1rem;
+}
+
+.trainer-note__icon {
+  font-size: 2rem;
+}
+
+.trainer-note h3,
+.save-file strong {
+  color: #402553;
+}
+
+.trainer-note h3 {
+  margin: 0.75rem 0 0.45rem;
+}
+
+.trainer-note p,
+.save-file p {
+  color: #665371;
+  line-height: 1.65;
+}
+
+.trainer-note p {
+  margin: 0;
+}
+
+.save-file {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.save-file article {
+  padding: 1rem;
+}
+
+.save-file__label {
   display: block;
+  margin-bottom: 0.45rem;
+  color: #8a679b;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-.dex-card figcaption{
-  margin-top: 8px;
-  font-size: 9px;
-  line-height: 1.4;
-  opacity: 0.85;
+.save-file strong {
+  display: block;
+  font-size: 1.25rem;
 }
 
-/* Tablet: 2-up */
-@media (max-width: 900px){
-  .dex-card{ grid-column: span 6; }
+.fav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
 }
 
-/* Mobile: 1-up */
-@media (max-width: 520px){
-  .dex-card{ grid-column: span 12; }
+.fav-chip {
+  padding: 0.72rem 0.9rem;
+  border: 1px solid rgba(75, 49, 101, 0.18);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.76);
+  color: #4f3363;
+  box-shadow: 0 8px 18px rgba(66, 42, 90, 0.08);
+  font-weight: 800;
 }
 
-.dex-hint{
-  margin-top: 10px;
-  font-size: 9px;
-  opacity: 0.75;
-  text-align: center;
+@media (max-width: 900px) {
+  .trainer-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .trainer-note-grid,
+  .save-file {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .trainer-note-grid,
+  .save-file {
+    grid-template-columns: 1fr;
+  }
 }

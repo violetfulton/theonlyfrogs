@@ -1,213 +1,152 @@
 ---
-title: "About the Trainer"
+title: Trainer Card
 layout: layouts/pokeBase.njk
-customcss:
-  - /assets/css/shrines/pokemon/pages.css
-  - /assets/css/shrines/pokemon/me.css
+customcss: "/assets/css/shrines/pokemon/me.css"
 permalink: /shrines/pokemon/me/
 ---
 
-<section class="poke-page">
-  <header class="poke-hero">
-    <h1>About the Trainer</h1>
-    <p>Why Pokémon stuck with me — and why it still feels like home.</p>
-  </header>
-
-  <div class="poke-grid">
-
-    <!-- LEFT: the “why” -->
-    <section class="poke-panel poke-col-7">
-      <h2>Why I Love Pokémon</h2>
-
-      <p class="poke-note">
-        Pokémon, to me, is comfort and curiosity at the same time — the music, the menus, the tiny “route secrets,”
-        and that feeling of stepping into a world where your team becomes a little story.
-      </p>
-
-      <p class="poke-note">
-        I’m a <strong>FR/LG kid at heart</strong> and an <strong>Emerald enjoyer forever</strong>.
-        I love building balanced teams, hoarding items like a gremlin, and making my save file feel like a little
-        scrapbook of moments.
-      </p>
-
-      <div class="poke-chiprow" aria-label="my pokémon vibe">
-        <span class="poke-chip">🗺️ Route exploring</span>
-        <span class="poke-chip">🎒 Item hoarding</span>
-        <span class="poke-chip">✨ Shiny dreams</span>
-        <span class="poke-chip">🎧 GBA music</span>
-      </div>
-    </section>
-
-    <!-- RIGHT: quick “trainer card” -->
-    <section class="poke-panel poke-col-5">
-      <h2>Trainer Card</h2>
-
-      <ul class="poke-list">
-        <li><strong>Trainer:</strong> Violet</li>
-        <li><strong>Favourite Era:</strong> FireRed / LeafGreen + Emerald</li>
-        <li><strong>Starter Energy:</strong> Over-levelled and proud</li>
-        <li><strong>Favourite Kind of Moment:</strong> Finding something secret</li>
-      </ul>
-
-      <p class="poke-note" style="margin-top:10px;">
-        This page is a little “save file” for me — I’ll update it as I replay each gen.
-      </p>
-    </section>
-
-    <!-- PHOTO STRIP -->
-    <section class="poke-panel poke-col-12">
-      <h2>Trainer Photos</h2>
-      <p class="poke-note">
-        Little snapshots through the generations — box art, screenshots, teams, silly moments… anything that feels “me”.
-      </p>
-
-      <div class="trainer-strip" aria-label="trainer photo strip">
-
-        <figure class="trainer-shot">
-          <a
-            href="/assets/imgs/pokemon/trainer/gen3_960.png"
-            class="trainer-shot__link"
-            data-lightbox
-            data-caption="Gen 3 — Hoenn era 💚"
-          >
-            <img
-              src="/assets/imgs/pokemon/trainer/gen3_360.png"
-              alt="Trainer photo — Gen 3 era"
-              loading="lazy"
-              decoding="async"
-            >
-          </a>
-          <figcaption class="trainer-shot__cap">Gen 3 — Hoenn era 💚</figcaption>
-        </figure>
-
-        <figure class="trainer-shot">
-          <a
-            href="/assets/imgs/pokemon/trainer/frlg_960.png"
-            class="trainer-shot__link"
-            data-lightbox
-            data-caption="FR/LG — comfort game 🔥🌿"
-          >
-            <img
-              src="/assets/imgs/pokemon/trainer/frlg_360.png"
-              alt="Trainer photo — FireRed/LeafGreen era"
-              loading="lazy"
-              decoding="async"
-            >
-          </a>
-          <figcaption class="trainer-shot__cap">FR/LG — comfort game 🔥🌿</figcaption>
-        </figure>
-
-        <figure class="trainer-shot">
-          <a
-            href="/assets/imgs/pokemon/trainer/any_960.png"
-            class="trainer-shot__link"
-            data-lightbox
-            data-caption="Future gen — WIP ✨"
-          >
-            <img
-              src="/assets/imgs/pokemon/trainer/any_360.png"
-              alt="Trainer photo — future gen placeholder"
-              loading="lazy"
-              decoding="async"
-            >
-          </a>
-          <figcaption class="trainer-shot__cap">Future gen — WIP ✨</figcaption>
-        </figure>
-
-      </div>
-    </section>
-
- <section class="poke-panel poke-col-12 dex-achievement">
-  <h2>📘 Pokédex Milestones</h2>
-
-  <p class="poke-note">
-    Finishing a Pokédex is my favourite kind of grind — quiet, methodical,
-    and deeply satisfying. These are the runs that actually made it to the end.
-  </p>
-
-  <div class="dex-grid">
-
-    <!-- Let’s Go Eevee -->
-    <figure class="dex-card">
-      <a href="/assets/imgs/pokemon/dex/lgpe-diploma_1200.png"
-         class="dex-card__link"
-         data-lightbox>
-        <img
-          src="/assets/imgs/pokemon/dex/lgpe-diploma_360.png"
-          srcset="
-            /assets/imgs/pokemon/dex/lgpe-diploma_240.png 240w,
-            /assets/imgs/pokemon/dex/lgpe-diploma_360.png 360w
-          "
-          sizes="(max-width: 820px) 90vw, 360px"
-          alt="Let’s Go Eevee Pokédex completion diploma"
-          loading="lazy"
-          decoding="async"
-        >
-      </a>
-      <figcaption class="dex-card__cap">
-        Let’s Go Eevee — Full Pokédex
-      </figcaption>
-    </figure>
-
-    <!-- Ultra Sun / Ultra Moon -->
-    <figure class="dex-card">
-      <a href="/assets/imgs/pokemon/dex/usum-dex-complete_1200.png"
-         class="dex-card__link"
-         data-lightbox>
-        <img
-          src="/assets/imgs/pokemon/dex/usum-dex-complete_360.png"
-          srcset="
-            /assets/imgs/pokemon/dex/usum-dex-complete_240.png 240w,
-            /assets/imgs/pokemon/dex/usum-dex-complete_360.png 360w
-          "
-          sizes="(max-width: 820px) 90vw, 360px"
-          alt="Ultra Sun / Ultra Moon Pokédex completion"
-          loading="lazy"
-          decoding="async"
-        >
-      </a>
-      <figcaption class="dex-card__cap">
-        Ultra Sun / Ultra Moon — Alola Complete
-      </figcaption>
-    </figure>
-
-    <!-- Scarlet / Violet -->
-    <figure class="dex-card">
-      <a href="/assets/imgs/pokemon/dex/sv-dex-complete_1200.png"
-         class="dex-card__link"
-         data-lightbox>
-        <img
-          src="/assets/imgs/pokemon/dex/sv-dex-complete_360.png"
-          srcset="
-            /assets/imgs/pokemon/dex/sv-dex-complete_240.png 240w,
-            /assets/imgs/pokemon/dex/sv-dex-complete_360.png 360w
-          "
-          sizes="(max-width: 820px) 90vw, 360px"
-          alt="Scarlet and Violet Pokédex completion"
-          loading="lazy"
-          decoding="async"
-        >
-      </a>
-      <figcaption class="dex-card__cap">
-        Scarlet / Violet — Paldea Complete
-      </figcaption>
-    </figure>
-
+<section class="trainer-hero">
+  <div class="trainer-hero__copy">
+    <p class="trainer-kicker">Loaded trainer profile</p>
+    <h1>Violet's Trainer Card</h1>
+    <p>
+      A save-file style page for my Pokémon history, favourite eras, shiny dreams,
+      hoarding habits, and all the tiny things that make Pokémon feel like home.
+    </p>
   </div>
 
-  <p class="dex-hint">
-    Click a card to view ✨
-  </p>
+  <aside class="trainer-card">
+    <div class="trainer-card__top">
+      <span>TRAINER CARD</span>
+      <strong>VIOLET</strong>
+    </div>
+
+    <dl class="trainer-card__stats">
+      <div>
+        <dt>Region energy</dt>
+        <dd>Kanto / Hoenn</dd>
+      </div>
+      <div>
+        <dt>Favourite era</dt>
+        <dd>FR/LG + Emerald</dd>
+      </div>
+      <div>
+        <dt>Play style</dt>
+        <dd>Overlevelled and cosy</dd>
+      </div>
+      <div>
+        <dt>Current mode</dt>
+        <dd>Safari Week prep</dd>
+      </div>
+    </dl>
+  </aside>
 </section>
 
+<section class="trainer-section">
+  <div class="trainer-section__heading">
+    <p class="trainer-kicker">Trainer notes</p>
+    <h2>About my Pokémon brain</h2>
+  </div>
 
-    <!-- CTA -->
-    <section class="poke-panel poke-col-12">
-      <h2>Next Stops</h2>
-      <div class="poke-cta">
-        <a href="/shrines/pokemon/hof/">View Hall of Fame ➜</a>
-      </div>
-    </section>
+  <div class="trainer-note-grid">
+    <article class="trainer-note">
+      <span class="trainer-note__icon">🌿</span>
+      <h3>FR/LG kid forever</h3>
+      <p>
+        FireRed and LeafGreen are peak comfort Pokémon to me. The chunky GBA UI,
+        Kanto routes, simple team building, and Safari Zone chaos all hit perfectly.
+      </p>
+    </article>
 
+    <article class="trainer-note">
+      <span class="trainer-note__icon">💚</span>
+      <h3>Emerald enjoyer</h3>
+      <p>
+        Hoenn is one of my favourite Pokémon moods: secret bases, water routes,
+        Battle Frontier dreams, and that cosy Gen 3 feeling.
+      </p>
+    </article>
+
+    <article class="trainer-note">
+      <span class="trainer-note__icon">🎒</span>
+      <h3>Item hoarder</h3>
+      <p>
+        I will pick up every hidden item, save every rare candy for “later,” and
+        somehow still end the game with a bag full of things I refused to use.
+      </p>
+    </article>
+
+    <article class="trainer-note">
+      <span class="trainer-note__icon">✨</span>
+      <h3>Shiny dreams</h3>
+      <p>
+        Shinies are becoming their own proper archive now: catches, hunts, phases,
+        Safari Week finds, and little stories attached to each sparkle.
+      </p>
+    </article>
   </div>
 </section>
+
+<section class="trainer-section trainer-section--save">
+  <div class="trainer-section__heading">
+    <p class="trainer-kicker">Save file</p>
+    <h2>Current Pokémon goals</h2>
+  </div>
+
+  <div class="save-file">
+    <article>
+      <span class="save-file__label">Now playing</span>
+      <strong>LeafGreen</strong>
+      <p>Building a strong team and pushing toward the Safari Zone for Safari Week.</p>
+    </article>
+
+    <article>
+      <span class="save-file__label">Current hunt mood</span>
+      <strong>Preparation arc</strong>
+      <p>Levelling, routing, catching, and setting up the kind of save file future me will thank me for.</p>
+    </article>
+
+    <article>
+      <span class="save-file__label">Collection goal</span>
+      <strong>One source of truth</strong>
+      <p>The shiny log now feeds the website properly, so pages do not need manual updates everywhere.</p>
+    </article>
+  </div>
+</section>
+
+<section class="trainer-section">
+  <div class="trainer-section__heading">
+    <p class="trainer-kicker">Favourite things</p>
+    <h2>Permanent party members</h2>
+  </div>
+
+  <div class="fav-grid">
+    <div class="fav-chip">Bulbasaur line</div>
+    <div class="fav-chip">GBA sprites</div>
+    <div class="fav-chip">Safari Zone</div>
+    <div class="fav-chip">Physical games</div>
+    <div class="fav-chip">Cute merch</div>
+    <div class="fav-chip">Overlevelling</div>
+    <div class="fav-chip">Secret bases</div>
+    <div class="fav-chip">Shiny stories</div>
+  </div>
+</section>
+
+
+{% if pokemonPhotos.trainer and pokemonPhotos.trainer.length %}
+<section class="trainer-section">
+  <div class="trainer-section__heading">
+    <p class="trainer-kicker">Memory card</p>
+    <h2>Trainer photos</h2>
+  </div>
+
+  <div class="pokemon-photo-grid">
+    {% for photo in pokemonPhotos.trainer %}
+      <figure class="pokemon-photo-card">
+        <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>{{ photo.caption }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -1,193 +1,140 @@
 ---
-title: "Hall of Fame"
+title: Hall of Fame
 layout: layouts/pokeBase.njk
-customcss:
-  - /assets/css/shrines/pokemon/pages.css
-  - /assets/css/shrines/pokemon/hof.css
+customcss: "/assets/css/shrines/pokemon/hof.css"
 permalink: /shrines/pokemon/hof/
 ---
 
-{% set gens = pokemonHof.gens %}
+<section class="league-hero">
+  <p class="league-kicker">Accessed League Records</p>
+  <h1>Hall of Fame</h1>
+  <p>
+    Champion teams, save-file memories, MVPs, and playthrough notes.
+    This is where completed adventures get archived like little league records.
+  </p>
+</section>
 
-<section class="poke-page">
-  <header class="poke-hero">
-    <h1>Hall of Fame</h1>
-    <p>One day… every main gen gets a Champion ribbon. For now: WIP and vibes.</p>
-  </header>
+<section class="league-section">
+  <div class="league-section__heading">
+    <p class="league-kicker">Champion archive</p>
+    <h2>League records</h2>
+  </div>
 
-  <div class="hof-grid">
+  <div class="league-grid">
+    <article class="league-card league-card--active">
+      <span class="league-card__badge">Gen I / III</span>
+      <h3>Kanto</h3>
+      <p>FireRed / LeafGreen comfort zone. Current focus: LeafGreen Safari Week prep.</p>
+      <small>Status: active save file</small>
+    </article>
 
-    {% for g in gens %}
-      {% for run in g.runs %}
+    <article class="league-card">
+      <span class="league-card__badge">Gen II / IV</span>
+      <h3>Johto</h3>
+      <p>Future league memories, rematches, badge quests, and cosy route nostalgia.</p>
+      <small>Status: waiting for records</small>
+    </article>
 
-        {% set isDone = (run.status == "done") %}
+    <article class="league-card">
+      <span class="league-card__badge">Gen III / VI</span>
+      <h3>Hoenn</h3>
+      <p>Emerald vibes, secret bases, water routes, and Battle Frontier dreams.</p>
+      <small>Status: favourite region energy</small>
+    </article>
 
-        <section
-          class="hof-run {% if isDone %}is-done{% else %}is-wip{% endif %}"
-          data-gen="{{ g.gen }}"
-        >
+    <article class="league-card">
+      <span class="league-card__badge">Gen IV / VIII</span>
+      <h3>Sinnoh</h3>
+      <p>Slow routes, snowy memories, and future team archives.</p>
+      <small>Status: record slot open</small>
+    </article>
 
-          <header class="hof-run__header">
-            <h2>Gen {{ g.gen }} — {{ g.region }}</h2>
-            <p class="hof-run__meta">
-              {{ g.games }} • {{ run.status | upper }}
-            </p>
-          </header>
+    <article class="league-card">
+      <span class="league-card__badge">Gen V</span>
+      <h3>Unova</h3>
+      <p>Dream-team potential, strong story vibes, and room for a proper league log.</p>
+      <small>Status: record slot open</small>
+    </article>
 
-          <div class="hof-run__body">
+    <article class="league-card">
+      <span class="league-card__badge">Gen VI</span>
+      <h3>Kalos</h3>
+      <p>A stylish little archive slot for future playthrough notes and teams.</p>
+      <small>Status: record slot open</small>
+    </article>
 
-            <!-- LEFT -->
-            <div class="hof-info">
+    <article class="league-card">
+      <span class="league-card__badge">Gen VII</span>
+      <h3>Alola</h3>
+      <p>Island challenge records, favourite partners, and champion memories.</p>
+      <small>Status: record slot open</small>
+    </article>
 
-              <ul class="hof-list">
-                <li>
-                  <strong>Starter:</strong>
-                  {{ run.starter or "(TBD)" }}
-                </li>
+    <article class="league-card league-card--galar">
+      <span class="league-card__badge">Gen VIII</span>
+      <h3>Galar</h3>
+      <p>Shield teams, gym arcs, and powerhouse playthrough notes can live here.</p>
+      <small>Status: previous adventure notes</small>
+    </article>
 
-                <li class="hof-teamline">
-                  <strong>Team:</strong>
-
-                  {% if run.team and (run.team | length) %}
-                    <span class="hof-team hof-team--inline" aria-label="team sprites">
-                      {% for mon in run.team %}
-                        {% set isMvp = (run.mvpDex and (mon.dex == run.mvpDex)) %}
-
-                        <span class="hof-team__wrap {% if isMvp %}is-mvp{% endif %}">
-                          <img
-                            class="hof-team__sprite {% if not isDone %}is-muted{% endif %}"
-                            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ mon.dex }}.png"
-                            alt="{{ mon.name }}"
-                            title="{{ mon.name }}{% if isMvp %} (MVP){% endif %}"
-                            loading="lazy"
-                            decoding="async"
-                          >
-                        </span>
-                      {% endfor %}
-
-                      {# fill to 6 slots so the line stays neat #}
-                      {% for i in range(run.team | length, 6) %}
-                        <span class="hof-team__slot" aria-hidden="true"></span>
-                      {% endfor %}
-                    </span>
-                  {% else %}
-                    <span class="hof-tbd">(TBD — add the 6)</span>
-                  {% endif %}
-                </li>
-
-                <li>
-                  <strong>MVP:</strong>
-                  {{ run.mvp or "(TBD)" }}
-                </li>
-
-                <li>
-                  <strong>Moment:</strong>
-                  {{ run.moment or "(TBD)" }}
-                </li>
-              </ul>
-
-              {% if run.team and (run.team | length) %}
-                <p class="hof-teamhint">
-                  Hover a sprite for the name
-                </p>
-              {% endif %}
-
-              <!-- Collapsible progress (closed by default, no JS) -->
-              <details class="hof-progress">
-                <summary class="hof-progress__summary">
-                  <span class="hof-progress__summaryTitle">Progress</span>
-
-                  <span class="hof-progress__summaryMeta">
-                    <span class="hof-progress__pill">
-                      {{ run.progress.badges }} / {{ run.progress.badgesTotal }} badges
-                    </span>
-
-                    <span class="hof-progress__pill {% if not run.progress.e4 %}is-no{% endif %}">
-                      E4:
-                      {% if run.progress.e4 %}Yes{% else %}No{% endif %}
-                    </span>
-
-                    <span class="hof-progress__pill {% if not run.progress.champ %}is-no{% endif %}">
-                      Champ:
-                      {% if run.progress.champ %}Yes{% else %}No{% endif %}
-                    </span>
-                  </span>
-                </summary>
-
-                <div class="hof-progress__body">
-                  <div class="hof-progress__row">
-                    <span class="hof-progress__label">Badges</span>
-                    <span class="hof-progress__value">
-                      {{ run.progress.badges }} / {{ run.progress.badgesTotal }}
-                    </span>
-                  </div>
-
-                  <div class="hof-progress__row">
-                    <span class="hof-progress__label">Elite Four</span>
-                    <span class="hof-progress__value {% if not run.progress.e4 %}is-no{% endif %}">
-                      {% if run.progress.e4 %}Yes{% else %}No{% endif %}
-                    </span>
-                  </div>
-
-                  <div class="hof-progress__row">
-                    <span class="hof-progress__label">Champion</span>
-                    <span class="hof-progress__value {% if not run.progress.champ %}is-no{% endif %}">
-                      {% if run.progress.champ %}Yes{% else %}No{% endif %}
-                    </span>
-                  </div>
-
-                  <div class="hof-progress__row">
-                    <span class="hof-progress__label">Status</span>
-                    <span class="hof-progress__value">
-                      {{ run.status | upper }}
-                    </span>
-                  </div>
-                </div>
-              </details>
-
-              <div class="hof-badges">
-                <span class="hof-badge">{{ run.status | upper }}</span>
-                <span class="hof-badge">Gen {{ g.gen }}</span>
-                <span class="hof-badge">{{ g.region }}</span>
-
-                {% if g.gen == 3 %}
-                  <span class="hof-badge hof-badge--emerald">Emerald vibes</span>
-                {% endif %}
-              </div>
-
-            </div>
-
-            <!-- RIGHT -->
-            <div class="hof-photos scroll-hof">
-              <div class="hof-photo-grid">
-
-                {% if run.photos and (run.photos | length) %}
-                  {% for photo in run.photos %}
-                    <a class="hof-photo" href="{{ photo.full }}">
-                      <img
-                        src="{{ photo.thumb }}"
-                        alt="{{ photo.alt }}"
-                        loading="lazy"
-                        decoding="async"
-                      >
-                    </a>
-                  {% endfor %}
-                {% else %}
-                  <div class="hof-empty">
-                    No screenshots yet — future me will feed this gallery ✨
-                  </div>
-                {% endif %}
-
-              </div>
-
-              <p class="hof-hint">Click a photo to open</p>
-            </div>
-
-          </div>
-        </section>
-
-      {% endfor %}
-    {% endfor %}
-
+    <article class="league-card">
+      <span class="league-card__badge">Gen IX</span>
+      <h3>Paldea</h3>
+      <p>Modern adventure records, favourite catches, and shiny-era memories.</p>
+      <small>Status: record slot open</small>
+    </article>
   </div>
 </section>
+
+<section class="league-section league-section--template">
+  <div class="league-section__heading">
+    <p class="league-kicker">Record format</p>
+    <h2>What each entry can track</h2>
+  </div>
+
+  <div class="record-template">
+    <article>
+      <span>01</span>
+      <h3>Final team</h3>
+      <p>Sprites, nicknames, levels, natures, abilities, and final movesets.</p>
+    </article>
+
+    <article>
+      <span>02</span>
+      <h3>MVP</h3>
+      <p>The Pokémon that carried the run, stole the show, or became weirdly iconic.</p>
+    </article>
+
+    <article>
+      <span>03</span>
+      <h3>Save notes</h3>
+      <p>Funny moments, painful fights, overlevelling crimes, and favourite memories.</p>
+    </article>
+  </div>
+</section>
+
+<section class="league-note">
+  <p>
+    <strong>League note:</strong> this page is ready for proper team records.
+    Each region can become a full card once a playthrough is finished.
+  </p>
+</section>
+
+
+{% if pokemonPhotos.hof and pokemonPhotos.hof.length %}
+<section class="league-section">
+  <div class="league-section__heading">
+    <p class="league-kicker">Team screenshots</p>
+    <h2>Champion memories</h2>
+  </div>
+
+  <div class="pokemon-photo-grid pokemon-photo-grid--hof">
+    {% for photo in pokemonPhotos.hof %}
+      <figure class="pokemon-photo-card">
+        <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>{{ photo.caption }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

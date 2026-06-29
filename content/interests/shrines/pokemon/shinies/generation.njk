@@ -1,0 +1,61 @@
+---
+layout: layouts/pokeBase.njk
+pagination:
+  data: pokemonShinies.generations
+  size: 1
+  alias: generation
+permalink: "/shrines/pokemon/shinies/{{ generation.key }}/"
+title: "{{ generation.label }}"
+customcss: "/assets/css/shrines/pokemon/shinies.css"
+---
+
+<section class="shiny-shrine-hero">
+  <p class="pc-kicker">Opened generation box</p>
+  <h1>{{ generation.label }}</h1>
+  <p>
+    Shinies logged from this generation box.
+  </p>
+
+  <div class="shiny-shrine-stats" aria-label="{{ generation.label }} stats">
+    <span><strong>{{ generation.count }}</strong> captures</span>
+  </div>
+</section>
+
+<section class="livingdex-toolbar">
+  <a href="/shrines/pokemon/shinies/">← Shiny Shrine</a>
+  <a href="/shrines/pokemon/shinies/living-dex/">Shiny Living Dex →</a>
+</section>
+
+<section class="shiny-card-section">
+  <div class="shiny-card-grid">
+    {% for shiny in generation.captures %}
+      <article class="shiny-card">
+        {% if shiny.image %}
+          <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}" loading="lazy">
+        {% endif %}
+
+        <span class="shiny-card__number">#{{ shiny.dexDisplay }}</span>
+        <h2>{{ shiny.nickname or shiny.species }}</h2>
+
+        {% if shiny.nickname %}
+          <p class="shiny-card__species">{{ shiny.species }}</p>
+        {% endif %}
+
+        <dl>
+          {% if shiny.originGame %}
+            <div><dt>Game</dt><dd>{{ shiny.originGame }}</dd></div>
+          {% endif %}
+          {% if shiny.method %}
+            <div><dt>Method</dt><dd>{{ shiny.method }}</dd></div>
+          {% endif %}
+          {% if shiny.encounters %}
+            <div><dt>Encounters</dt><dd>{{ shiny.encounters }}</dd></div>
+          {% endif %}
+          {% if shiny.caughtDate %}
+            <div><dt>Date</dt><dd>{{ shiny.caughtDate }}</dd></div>
+          {% endif %}
+        </dl>
+      </article>
+    {% endfor %}
+  </div>
+</section>

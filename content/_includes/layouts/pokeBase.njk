@@ -7,7 +7,6 @@
 
   <!-- shared shrine styles -->
   <link rel="stylesheet" href="/assets/css/shrines/pokemon/shared.css">
-  <link rel="stylesheet" href="/assets/css/components/lightbox.css">
 
   <!-- page-specific CSS (string or array) -->
   {% if customcss %}
@@ -35,8 +34,8 @@
 
     <div class="pokenav__panel" id="pokenavPanel">
       <div class="pokenav__header">
-        <div class="pokenav__title">Pokémon Shrine</div>
-        <div class="pokenav__sub">have fun :)</div>
+        <div class="pokenav__title">VIOLET's PC</div>
+        <div class="pokenav__sub">shrine storage system</div>
       </div>
 
 {% set current = page.url %}
@@ -48,8 +47,11 @@
   <a class="pokenav__link {% if current == '/shrines/pokemon/me/' %}is-active{% endif %}"
      href="/shrines/pokemon/me/">🧢 Trainer</a>
 
-  <a class="pokenav__link {% if current == '/shrines/pokemon/collection/' %}is-active{% endif %}"
-     href="/shrines/pokemon/collection/">✨ Shinies</a>
+  <a class="pokenav__link {% if current == '/shrines/pokemon/shinies/' or '/shrines/pokemon/shinies/' in current %}is-active{% endif %}"
+     href="/shrines/pokemon/shinies/">✨ Shinies</a>
+
+  <a class="pokenav__link {% if current == '/shrines/pokemon/records/' %}is-active{% endif %}"
+     href="/shrines/pokemon/records/">📜 Records</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/physical/' %}is-active{% endif %}"
      href="/shrines/pokemon/physical/">📦 Physical</a>
@@ -69,10 +71,6 @@
     {{ content | safe }}
   </main>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="/assets/js/vendor/jquery.style-my-tooltips.js"></script>
-<script src="/assets/js/pokemon/tooltips.js"></script>
- <script src="/assets/js/pokemon/shared.js"></script>
- <script src="/assets/js/pokemon/lightbox.js"></script>
+<script src="/assets/js/pokemon/shared.js"></script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+---
+title: Recent Shinies
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/shinies/recent/
+customcss: "/assets/css/shrines/pokemon/shinies.css"
+---
+
+<section class="shiny-shrine-hero shiny-shrine-hero--small">
+  <p class="pc-kicker">VIOLET's PC / Recent</p>
+  <h1>Recent Shinies</h1>
+  <p>The newest shiny Pokémon from the capture log.</p>
+</section>
+
+<div class="shiny-grid">
+  {% for shiny in pokemonShinies.published %}
+    <article class="shiny-card">
+      {% if shiny.image %}
+        <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}">
+      {% endif %}
+      <p class="shiny-card__dex">#{{ shiny.dexNo }} · {{ shiny.originGame }}</p>
+      <h3>
+        {{ shiny.nickname or shiny.species }}
+        {% if shiny.nickname %}<span>{{ shiny.species }}</span>{% endif %}
+      </h3>
+      <p>{{ shiny.method }}{% if shiny.encounters %} · {{ shiny.encounters }} encounters{% endif %}</p>
+      {% if shiny.caughtDate %}<p>Caught {{ shiny.caughtDate }}</p>{% endif %}
+      {% if shiny.notes %}<p class="shiny-card__notes">{{ shiny.notes }}</p>{% endif %}
+    </article>
+  {% endfor %}
+</div>

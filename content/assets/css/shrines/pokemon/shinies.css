@@ -1,313 +1,639 @@
-/* ==================================================
-   Shiny Dex UI — Pastel PokéMart theme
-   Uses variables from shared.css
-================================================== */
+/* Pokémon Shrine — Shinies */
 
-.shiny-controls {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
-  gap: 10px;
-  align-items: end;
+:root {
+  --shiny-pink: #f8b7d8;
+  --shiny-hot-pink: #d94d9b;
+  --shiny-mint: #bdebd1;
+  --shiny-lavender: #eadcff;
+  --shiny-cream: #fff7fb;
+  --shiny-ink: #4a1f36;
+  --shiny-muted: #72546a;
+  --shiny-line: rgba(217, 77, 155, 0.28);
+  --shiny-purple-line: rgba(73, 47, 102, 0.24);
+  --shiny-shadow: 0 18px 45px rgba(83, 57, 107, 0.15);
 }
 
-@media (max-width: 900px) {
-  .shiny-controls { grid-template-columns: 1fr 1fr; }
+.poke-shell {
+  max-width: 1180px;
 }
 
-@media (max-width: 520px) {
-  .shiny-controls { grid-template-columns: 1fr; }
+/* Hero / shared panels */
+
+.shiny-shrine-hero,
+.shiny-shrine-section,
+.shiny-card-section,
+.livingdex-section,
+.livingdex-toolbar,
+.livingdex-filters {
+  border: 2px solid var(--shiny-purple-line);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.94), rgba(255,232,248,0.86)),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255,255,255,0.16) 0,
+      rgba(255,255,255,0.16) 2px,
+      transparent 2px,
+      transparent 9px
+    );
+  box-shadow: var(--shiny-shadow);
 }
 
-.control {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+.shiny-shrine-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 1.5rem auto;
+  padding: clamp(1.5rem, 4vw, 3rem);
 }
 
-.control label {
-  font-size: 10px;
-  opacity: 0.9;
-  color: var(--pm-ink-soft);
+.shiny-shrine-hero::after {
+  content: "✦";
+  position: absolute;
+  right: clamp(1rem, 5vw, 3rem);
+  top: 1.2rem;
+  color: #8a4aa2;
+  font-size: clamp(3rem, 11vw, 7rem);
+  opacity: 0.16;
+  pointer-events: none;
 }
 
-.control input,
-.control select {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 10px;
-  padding: 8px 10px;
-  border-radius: 12px;
-
-  color: var(--pm-ink);
-  border: 2px solid var(--pm-border-strong);
-  background: rgba(255, 255, 255, 0.92);
-
-  box-shadow:
-    0 0 0 3px rgba(255,255,255,0.60) inset,
-    0 0 14px rgba(38,186,246,0.10);
+.shiny-shrine-hero h1 {
+  margin: 0;
+  color: #422657;
+  font-size: clamp(2rem, 6vw, 4.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.055em;
 }
 
-.control input:focus,
-.control select:focus {
-  outline: 3px solid rgba(131,203,255,0.65);
-  outline-offset: 2px;
+.shiny-shrine-hero p {
+  max-width: 760px;
+  color: #5c4968;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.pc-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.75rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(99, 68, 128, 0.24);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: #6b427a;
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.58rem;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 /* Stats */
-.shiny-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
-}
 
-.stat-pill {
-  font-size: 10px;
-  padding: 6px 10px;
-  border-radius: 999px;
-
-  border: 2px solid var(--pm-border);
-  background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(254,226,252,0.70));
-  color: var(--pm-ink);
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.55) inset,
-    0 0 14px rgba(254,200,237,0.25);
-}
-
-/* Grid */
-.shiny-grid {
+.shiny-shrine-stats {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.4rem;
 }
 
-/* Cards */
-.shiny-card {
-  grid-column: span 4;
-
-  background: rgba(255, 255, 255, 0.88);
-  border: 3px solid var(--pm-border-strong);
+.shiny-shrine-stats span {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 92px;
+  align-content: center;
+  padding: 0.9rem;
+  border: 1px solid rgba(77, 52, 100, 0.18);
   border-radius: 18px;
-
-  box-shadow:
-    0 14px 26px rgba(0,0,0,0.10),
-    0 0 0 3px rgba(255,255,255,0.55) inset,
-    0 0 18px rgba(38,186,246,0.14),
-    0 0 18px rgba(254,200,237,0.25);
-
-  padding: 12px;
-  transition: transform 140ms ease, filter 140ms ease;
-}
-
-.shiny-card:hover {
-  filter: brightness(1.015) saturate(1.03);
-  transform: translateY(-1px);
-}
-
-@media (max-width: 900px) {
-  .shiny-card { grid-column: span 6; }
-}
-
-@media (max-width: 520px) {
-  .shiny-card { grid-column: span 12; }
-}
-
-.shiny-top {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.shiny-sprite {
-  width: 72px;
-  height: 72px;
-  image-rendering: pixelated;
-  border-radius: 14px;
-
-  border: 2px solid var(--pm-border);
-  background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(191,243,225,0.55));
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.55) inset,
-    0 0 12px rgba(131,203,255,0.18);
-}
-
-.shiny-title {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  min-width: 0;
-}
-
-.shiny-name {
-  font-size: 12px;
-  margin: 0;
-  color: var(--pm-ink);
-}
-
-.shiny-meta {
-  font-size: 10px;
-  line-height: 1.6;
-  opacity: 0.9;
-  color: var(--pm-ink-soft);
-}
-
-/* Badges */
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 10px;
-}
-
-.badge {
-  font-size: 9px;
-  padding: 5px 8px;
-  border-radius: 999px;
-
-  border: 2px solid var(--pm-border);
-  background: rgba(255, 255, 255, 0.85);
-  color: var(--pm-ink);
-
-  text-transform: uppercase;
-  box-shadow: 0 0 0 2px rgba(255,255,255,0.55) inset;
-}
-
-/* status colors that match the wallpaper vibe */
-.badge-owned  { background: rgba(191,243,225,0.78); }  /* mint */
-.badge-target { background: rgba(255,243,200,0.86); }  /* cream */
-.badge-failed { background: rgba(254,200,237,0.78); }  /* pink */
-
-/* Notes / empty state */
-.shiny-notes {
-  font-size: 10px;
-  line-height: 1.7;
-  margin-top: 10px;
-  opacity: 0.92;
-  color: var(--pm-ink-soft);
-}
-
-.shiny-empty {
+  background: rgba(255,255,255,0.72);
+  color: #7b6387;
   text-align: center;
-  font-size: 10px;
-  opacity: 0.9;
-  padding: 14px 10px;
+}
 
-  border-radius: 16px;
-  border: 3px dashed var(--pm-border);
+.shiny-shrine-stats strong {
+  color: #402553;
+  font-size: 1.7rem;
+  line-height: 1;
+}
+
+/* Sections */
+
+.shiny-shrine-section,
+.shiny-card-section,
+.livingdex-section {
+  margin: 1.5rem auto;
+  padding: clamp(1.1rem, 3vw, 2rem);
+}
+
+.shiny-shrine-heading {
+  margin-bottom: 1rem;
+}
+
+.shiny-shrine-heading h2 {
+  margin: 0;
+  color: #422657;
+  font-size: clamp(1.45rem, 4vw, 2.35rem);
+  line-height: 1.1;
+}
+
+/* Living Dex callout */
+
+.living-dex-callout {
+  margin: 1rem auto 1.5rem;
+}
+
+.living-dex-callout a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgba(73, 47, 102, 0.22);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,232,248,0.84));
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(66, 42, 90, 0.12);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.living-dex-callout a:hover,
+.living-dex-callout a:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px rgba(66, 42, 90, 0.18);
+}
+
+.living-dex-callout span {
+  display: grid;
+  width: 3.2rem;
+  height: 3.2rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 18px;
   background: rgba(255,255,255,0.78);
+  font-size: 1.65rem;
 }
 
-/* ==================================================
-   OWNED: sparkle/glow specifically behind the sprite
-================================================== */
+.living-dex-callout strong {
+  display: block;
+  color: #402553;
+  font-size: 1.2rem;
+}
 
-/* make sprite a little “window” we can draw into */
-.shiny-sprite{
+.living-dex-callout small {
+  display: block;
+  margin-top: 0.25rem;
+  color: #665371;
+  line-height: 1.5;
+}
+
+/* Browse boxes */
+
+.shiny-box-link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.shiny-box-link {
+  display: grid;
+  gap: 0.35rem;
+  min-height: 130px;
+  align-content: center;
+  padding: 1rem;
+  border: 1px solid rgba(77, 52, 100, 0.2);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.74);
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.09);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.shiny-box-link:hover,
+.shiny-box-link:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(66, 42, 90, 0.15);
+}
+
+.shiny-box-link span {
+  color: #402553;
+  font-weight: 900;
+}
+
+.shiny-box-link strong {
+  color: #8a4aa2;
+  font-size: 1.8rem;
+}
+
+.shiny-box-link small {
+  color: #756080;
+}
+
+/* Shiny cards */
+
+.shiny-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.shiny-card {
   position: relative;
-  overflow: hidden; /* keep effects inside rounded corners */
+  overflow: hidden;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  min-height: 280px;
+  padding: 1rem;
+  border: 1px solid rgba(77, 52, 100, 0.2);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.76);
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.09);
 }
 
-/* sprite sparkle only for owned cards */
-.shiny-card:has(.badge-owned) .shiny-sprite::before,
-.shiny-card:has(.badge-owned) .shiny-sprite::after{
+.shiny-card::after {
   content: "";
   position: absolute;
-  inset: -20%;
-  pointer-events: none;
-  opacity: 0;
-}
-
-/* twinkle dots */
-.shiny-card:has(.badge-owned) .shiny-sprite::before{
+  right: -34px;
+  bottom: -34px;
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
   background:
-    radial-gradient(circle, rgba(255,255,255,0.95) 0 2px, transparent 3px) 6px 8px/38px 38px,
-    radial-gradient(circle, rgba(131,203,255,0.85) 0 2px, transparent 3px) 18px 22px/46px 46px,
-    radial-gradient(circle, rgba(254,200,237,0.85) 0 2px, transparent 3px) 10px 30px/42px 42px;
-  filter: blur(0.15px);
-  mix-blend-mode: screen;
-  animation: sprite-twinkle 2.8s ease-in-out infinite;
+    radial-gradient(circle, rgba(255,255,255,0.94) 0 27%, rgba(74,45,98,0.12) 28% 30%, rgba(255,185,224,0.35) 31% 100%);
+  opacity: 0.6;
+  pointer-events: none;
 }
 
-/* soft diagonal shimmer */
-.shiny-card:has(.badge-owned) .shiny-sprite::after{
-  background: linear-gradient(
-    120deg,
-    transparent 0%,
-    rgba(255,255,255,0.0) 35%,
-    rgba(255,255,255,0.55) 48%,
-    rgba(131,203,255,0.35) 52%,
-    rgba(254,200,237,0.35) 56%,
-    rgba(255,255,255,0.0) 70%,
-    transparent 100%
-  );
-  transform: translateX(-55%) rotate(-10deg);
-  mix-blend-mode: screen;
-  animation: sprite-sweep 3.6s ease-in-out infinite;
+.shiny-card img {
+  position: relative;
+  z-index: 1;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  image-rendering: auto;
 }
 
-/* show it (either always subtle, or stronger on hover) */
-.shiny-card:has(.badge-owned) .shiny-sprite::before,
-.shiny-card:has(.badge-owned) .shiny-sprite::after{
-  opacity: 0.35;
+.shiny-card__number {
+  position: relative;
+  z-index: 1;
+  color: #8a679b;
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
-.shiny-card:has(.badge-owned):hover .shiny-sprite::before,
-.shiny-card:has(.badge-owned):hover .shiny-sprite::after{
+.shiny-card h2,
+.shiny-card h3 {
+  position: relative;
+  z-index: 1;
+  margin: 0.25rem 0;
+  color: #402553;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.shiny-card__species {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0.5rem;
+  color: #756080;
+}
+
+.shiny-card dl {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 0.35rem;
+  width: 100%;
+  margin: 0.6rem 0 0;
+}
+
+.shiny-card dl div {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.45rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.62);
+}
+
+.shiny-card dt {
+  color: #8a679b;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.shiny-card dd {
+  margin: 0;
+  color: #4d365d;
+  font-weight: 800;
+}
+
+/* Living Dex nav */
+
+.livingdex-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto 1.2rem;
+  padding: 0.85rem 1rem;
+  color: #665371;
+}
+
+.livingdex-toolbar a {
+  color: #5d3273;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.livingdex-toolbar a:hover,
+.livingdex-toolbar a:focus-visible {
+  text-decoration: underline;
+}
+
+/* Living Dex filters */
+
+.livingdex-filters {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto minmax(190px, 0.5fr) auto;
+  gap: 0.8rem;
+  align-items: end;
+  margin: 1rem auto 1.2rem;
+  padding: 1rem;
+}
+
+.livingdex-search,
+.livingdex-select {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.livingdex-search span,
+.livingdex-select span {
+  color: #8a679b;
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.livingdex-search input,
+.livingdex-select select {
+  width: 100%;
+  min-height: 42px;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid rgba(77, 52, 100, 0.22);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.82);
+  color: #402553;
+  font: inherit;
+  outline: none;
+}
+
+.livingdex-search input:focus,
+.livingdex-select select:focus {
+  border-color: rgba(138, 74, 162, 0.52);
+  box-shadow: 0 0 0 3px rgba(255, 199, 232, 0.45);
+}
+
+.livingdex-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.livingdex-filter-buttons button {
+  min-height: 42px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid rgba(77, 52, 100, 0.2);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+  color: #5b3b6d;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.livingdex-filter-buttons button:hover,
+.livingdex-filter-buttons button:focus-visible,
+.livingdex-filter-buttons button.is-active {
+  background: linear-gradient(135deg, rgba(255, 215, 238, 0.92), rgba(232, 219, 255, 0.84));
+  border-color: rgba(138, 74, 162, 0.34);
+}
+
+.livingdex-results {
+  margin: 0;
+  color: #665371;
+  font-weight: 800;
+  text-align: right;
+}
+
+/* Living Dex grid */
+
+.livingdex-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.livingdex-card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  min-height: 190px;
+  padding: 0.85rem 0.65rem;
+  border: 1px solid rgba(77, 52, 100, 0.2);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.76);
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(66, 42, 90, 0.08);
+}
+
+.livingdex-card[hidden] {
+  display: none;
+}
+
+.livingdex-card__sprite {
+  display: grid;
+  width: 92px;
+  height: 92px;
+  place-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.livingdex-card img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+
+.livingdex-card__number {
+  color: #8a679b;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.livingdex-card strong {
+  margin-top: 0.15rem;
+  color: #402553;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.livingdex-card small,
+.livingdex-card em {
+  display: block;
+  color: #756080;
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.livingdex-card em {
+  max-width: 100%;
+  margin-top: 0.25rem;
+  font-style: normal;
+  opacity: 0.86;
+}
+
+.livingdex-card.is-caught {
+  background:
+    linear-gradient(160deg, rgba(255,255,255,0.86), rgba(255,232,248,0.82));
+  border-color: rgba(150, 82, 168, 0.26);
+}
+
+.livingdex-card.is-caught::before {
+  content: "✦";
+  position: absolute;
+  top: 0.45rem;
+  right: 0.55rem;
+  color: #8a4aa2;
   opacity: 0.65;
 }
 
-/* add a gentle aura behind the sprite itself */
-.shiny-card:has(.badge-owned) .shiny-sprite{
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.55) inset,
-    0 0 14px rgba(38,186,246,0.25),
-    0 0 16px rgba(254,200,237,0.22);
+.livingdex-card.is-missing {
+  background: rgba(255,255,255,0.58);
 }
 
-/* animations */
-@keyframes sprite-twinkle{
-  0%, 100% { transform: translate(0,0); }
-  50%      { transform: translate(6px, 4px); }
+.livingdex-card.is-missing img {
+  filter: grayscale(1) brightness(0.72) contrast(1.05);
+  opacity: 0.7;
 }
 
-@keyframes sprite-sweep{
-  0%, 35%   { opacity: 0.0; transform: translateX(-65%) rotate(-10deg); }
-  50%       { opacity: 0.55; }
-  70%       { opacity: 0.0; transform: translateX(65%) rotate(-10deg); }
-  100%      { opacity: 0.0; transform: translateX(65%) rotate(-10deg); }
+.livingdex-card.is-missing strong,
+.livingdex-card.is-missing small,
+.livingdex-card.is-missing .livingdex-card__number {
+  opacity: 0.75;
 }
 
-/* respect reduced motion */
-@media (prefers-reduced-motion: reduce){
-  .shiny-card:has(.badge-owned) .shiny-sprite::before,
-  .shiny-card:has(.badge-owned) .shiny-sprite::after{
-    animation: none !important;
-    opacity: 0.25;
+/* Backwards compatibility for older template class names */
+
+.latest-shiny,
+.box-links,
+.recent-shinies {
+  max-width: 1050px;
+  margin: 1.5rem auto;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.8rem;
+}
+
+.box-link {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+  border: 2px solid var(--shiny-line);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fff, var(--shiny-cream));
+  color: var(--shiny-ink);
+  text-decoration: none;
+}
+
+.shiny-grid {
+  max-width: 1050px;
+  margin: 1rem auto 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  gap: 0.95rem;
+}
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+  .livingdex-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
-/* ==================================================
-   OWNED: make sprite background more colourful
-================================================== */
+@media (max-width: 980px) {
+  .livingdex-filters {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
 
-.shiny-card:has(.badge-owned) .shiny-sprite{
-  /* punchier pastel “shiny” backing */
-  background:
-    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.95), rgba(255,255,255,0.0) 55%),
-    radial-gradient(circle at 75% 70%, rgba(254,200,237,0.65), rgba(254,200,237,0.0) 55%),
-    radial-gradient(circle at 20% 80%, rgba(131,203,255,0.55), rgba(131,203,255,0.0) 60%),
-    linear-gradient(180deg, rgba(255,243,200,0.60), rgba(191,243,225,0.55));
-
-  border-color: rgba(38,186,246,0.55);
-
-  box-shadow:
-    0 0 0 2px rgba(255,255,255,0.65) inset,
-    0 0 16px rgba(38,186,246,0.35),
-    0 0 16px rgba(254,200,237,0.30);
+  .livingdex-results {
+    text-align: left;
+  }
 }
 
-/* Optional: make the sprite area slightly “screenier” */
-.shiny-card:has(.badge-owned) .shiny-sprite{
-  filter: saturate(1.12) brightness(1.03);
+@media (max-width: 950px) {
+  .shiny-shrine-stats,
+  .shiny-card-grid,
+  .shiny-box-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .livingdex-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .livingdex-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .livingdex-card {
+    min-height: 175px;
+  }
+}
+
+@media (max-width: 620px) {
+  .livingdex-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .livingdex-filter-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .livingdex-filter-buttons button {
+    padding-inline: 0.4rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .shiny-shrine-stats,
+  .shiny-card-grid,
+  .shiny-box-link-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .livingdex-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .living-dex-callout a {
+    align-items: flex-start;
+  }
 }

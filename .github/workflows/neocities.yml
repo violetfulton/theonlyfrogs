@@ -50,6 +50,9 @@ env:
   FFXIV_CHARACTER_ID: ${{ secrets.FFXIV_CHARACTER_ID }}
   FFXIV_LODESTONE_REGION: eu
 
+  # --- Shiny Sheet ---
+  SHINY_SHEET_CSV_URL: ${{ secrets.SHINY_SHEET_CSV_URL }}
+
 jobs:
   deploy:
     name: Build and Deploy

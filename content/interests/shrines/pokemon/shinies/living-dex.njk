@@ -1,0 +1,187 @@
+---
+title: Shiny Living Dex
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/shinies/living-dex/
+customcss: "/assets/css/shrines/pokemon/shinies.css"
+---
+
+<section class="shiny-shrine-hero livingdex-hero">
+  <p class="pc-kicker">Accessed VIOLET's PC!</p>
+  <h1>Shiny Living Dex</h1>
+  <p>
+    A National Dex-style shiny progress page. Pokémon caught outside of Pokémon GO unlock in
+    full shiny colour; everything else stays greyed out until I find it.
+  </p>
+
+  <div class="shiny-shrine-stats" aria-label="Shiny Living Dex stats">
+    <span><strong>{{ pokemonShinies.livingDexStats.caught }}</strong> caught</span>
+    <span><strong>{{ pokemonShinies.livingDexStats.missing }}</strong> missing</span>
+    <span><strong>{{ pokemonShinies.livingDexStats.total }}</strong> total</span>
+    <span><strong>{{ pokemonShinies.livingDexStats.percent }}%</strong> complete</span>
+  </div>
+</section>
+
+<section class="livingdex-toolbar" aria-label="Living Dex navigation">
+  <a href="/shrines/pokemon/shinies/">← Shiny Shrine</a>
+  <span>GO catches are excluded from this Living Dex.</span>
+</section>
+
+<section class="livingdex-filters" aria-label="Living Dex filters">
+  <label class="livingdex-search">
+    <span>Search</span>
+    <input
+      id="livingdexSearch"
+      type="search"
+      placeholder="Bulbasaur, 001, Eevee..."
+      autocomplete="off"
+    >
+  </label>
+
+  <div class="livingdex-filter-buttons" aria-label="Caught status">
+    <button type="button" class="is-active" data-status-filter="all">All</button>
+    <button type="button" data-status-filter="caught">Caught</button>
+    <button type="button" data-status-filter="missing">Missing</button>
+  </div>
+
+  <label class="livingdex-select">
+    <span>Generation</span>
+    <select id="livingdexGeneration">
+      <option value="all">All generations</option>
+      <option value="gen1">Gen I · #001–151</option>
+      <option value="gen2">Gen II · #152–251</option>
+      <option value="gen3">Gen III · #252–386</option>
+      <option value="gen4">Gen IV · #387–493</option>
+      <option value="gen5">Gen V · #494–649</option>
+      <option value="gen6">Gen VI · #650–721</option>
+      <option value="gen7">Gen VII · #722–809</option>
+      <option value="gen8">Gen VIII · #810–905</option>
+      <option value="gen9">Gen IX · #906–1025</option>
+    </select>
+  </label>
+
+  <p class="livingdex-results" id="livingdexResults">
+    Showing {{ pokemonShinies.livingDexStats.total }} Pokémon
+  </p>
+</section>
+
+<section class="livingdex-section">
+  <div class="livingdex-grid" id="livingdexGrid">
+    {% for mon in pokemonShinies.livingDex %}
+      <article
+        class="livingdex-card {% if mon.caught %}is-caught{% else %}is-missing{% endif %}"
+        data-name="{{ mon.species | lower }}"
+        data-number="{{ mon.dexNo }}"
+        data-display-number="{{ mon.dexDisplay }}"
+        data-status="{% if mon.caught %}caught{% else %}missing{% endif %}"
+      >
+        <div class="livingdex-card__sprite">
+          <img
+            src="{{ mon.firstCatch.image if mon.caught and mon.firstCatch.image else mon.image }}"
+            alt="{% if mon.caught %}Shiny {{ mon.species }}{% else %}Missing shiny {{ mon.species }}{% endif %}"
+            loading="lazy"
+          >
+        </div>
+
+        <span class="livingdex-card__number">#{{ mon.dexDisplay }}</span>
+        <strong>{{ mon.species }}</strong>
+
+        {% if mon.caught %}
+          <small>
+            Caught
+            {% if mon.sourceCount > 1 %}
+              · {{ mon.sourceCount }} total
+            {% endif %}
+          </small>
+
+          {% if mon.firstCatch %}
+            <em>
+              {{ mon.firstCatch.nickname or mon.firstCatch.originGame or mon.firstCatch.categoryLabel }}
+            </em>
+          {% endif %}
+        {% else %}
+          <small>Missing</small>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+(() => {
+  const searchInput = document.querySelector("#livingdexSearch");
+  const generationSelect = document.querySelector("#livingdexGeneration");
+  const statusButtons = [...document.querySelectorAll("[data-status-filter]")];
+  const cards = [...document.querySelectorAll(".livingdex-card")];
+  const results = document.querySelector("#livingdexResults");
+
+  let statusFilter = "all";
+
+  function generationForDex(dexNo) {
+    const n = Number(dexNo);
+
+    if (n >= 1 && n <= 151) return "gen1";
+    if (n >= 152 && n <= 251) return "gen2";
+    if (n >= 252 && n <= 386) return "gen3";
+    if (n >= 387 && n <= 493) return "gen4";
+    if (n >= 494 && n <= 649) return "gen5";
+    if (n >= 650 && n <= 721) return "gen6";
+    if (n >= 722 && n <= 809) return "gen7";
+    if (n >= 810 && n <= 905) return "gen8";
+    if (n >= 906 && n <= 1025) return "gen9";
+
+    return "unknown";
+  }
+
+  function applyFilters() {
+    const search = searchInput.value.trim().toLowerCase();
+    const generation = generationSelect.value;
+    let visible = 0;
+
+    cards.forEach((card) => {
+      const name = card.dataset.name || "";
+      const number = card.dataset.number || "";
+      const displayNumber = card.dataset.displayNumber || "";
+      const status = card.dataset.status || "";
+      const cardGeneration = generationForDex(number);
+
+      const matchesSearch =
+        !search ||
+        name.includes(search) ||
+        number.includes(search) ||
+        displayNumber.includes(search);
+
+      const matchesStatus =
+        statusFilter === "all" ||
+        status === statusFilter;
+
+      const matchesGeneration =
+        generation === "all" ||
+        cardGeneration === generation;
+
+      const shouldShow = matchesSearch && matchesStatus && matchesGeneration;
+
+      card.hidden = !shouldShow;
+
+      if (shouldShow) visible++;
+    });
+
+    results.textContent = `Showing ${visible} Pokémon`;
+  }
+
+  statusButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      statusFilter = button.dataset.statusFilter;
+
+      statusButtons.forEach((btn) => btn.classList.remove("is-active"));
+      button.classList.add("is-active");
+
+      applyFilters();
+    });
+  });
+
+  searchInput.addEventListener("input", applyFilters);
+  generationSelect.addEventListener("change", applyFilters);
+
+  applyFilters();
+})();
+</script>
