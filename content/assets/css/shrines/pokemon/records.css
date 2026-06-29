@@ -183,3 +183,20 @@
     min-height: auto;
   }
 }
+
+/* Cosy records touches */
+
+.records-hero::before {
+  content: "proof of tiny victories ✦";
+  display: inline-flex;
+  margin-bottom: 0.8rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 241, 168, 0.55);
+  color: #8b5364;
+  font-weight: 900;
+}
+
+.records-folder-card h3 {
+  color: #5b3547;
+}

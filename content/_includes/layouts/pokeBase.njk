@@ -34,8 +34,8 @@
 
     <div class="pokenav__panel" id="pokenavPanel">
       <div class="pokenav__header">
-        <div class="pokenav__title">VIOLET's PC</div>
-        <div class="pokenav__sub">shrine storage system</div>
+        <div class="pokenav__title">Violet's Pokémon Corner</div>
+        <div class="pokenav__sub">cosy save file archive</div>
       </div>
 
 {% set current = page.url %}
@@ -45,19 +45,19 @@
      href="/shrines/pokemon/">🏠 Home</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/me/' %}is-active{% endif %}"
-     href="/shrines/pokemon/me/">🧢 Trainer</a>
+     href="/shrines/pokemon/me/">🧢 Trainer Notes</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/shinies/' or '/shrines/pokemon/shinies/' in current %}is-active{% endif %}"
-     href="/shrines/pokemon/shinies/">✨ Shinies</a>
+     href="/shrines/pokemon/shinies/">✨ Shiny Diary</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/records/' %}is-active{% endif %}"
-     href="/shrines/pokemon/records/">📜 Records</a>
+     href="/shrines/pokemon/records/">📜 Little Victories</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/physical/' %}is-active{% endif %}"
-     href="/shrines/pokemon/physical/">📦 Physical</a>
+     href="/shrines/pokemon/physical/">📦 Poké Shelf</a>
 
   <a class="pokenav__link {% if current == '/shrines/pokemon/hof/' %}is-active{% endif %}"
-     href="/shrines/pokemon/hof/">🏆 Hall of Fame</a>
+     href="/shrines/pokemon/hof/">🏆 League Memories</a>
 
   <a class="pokenav__link pokenav__link--minor {% if current == '/' %}is-active{% endif %}"
      href="/">↩ Main Site</a>

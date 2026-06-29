@@ -6,16 +6,31 @@ permalink: /shrines/pokemon/
 ---
 
 <section class="pc-hero">
-  <p class="pc-kicker">Accessed VIOLET's PC!</p>
+  <img class="poke-hero-sticker poke-hero-sticker--top-right poke-hero-sticker--large"
+       src="/assets/imgs/pokemon/graphics/frog-sticker.png"
+       alt=""
+       aria-hidden="true">
+
+  <img class="poke-hero-sticker poke-hero-sticker--bottom-left poke-hero-sticker--small"
+       src="/assets/imgs/pokemon/graphics/pink-bow.png"
+       alt=""
+       aria-hidden="true">
+
+  <img class="poke-hero-sticker poke-hero-sticker--bottom-right poke-hero-sticker--small"
+       src="/assets/imgs/pokemon/graphics/sparkle-sticker.png"
+       alt=""
+       aria-hidden="true">
+
+  <p class="pc-kicker">Welcome in ♡</p>
   <h1>Pokémon Shrine</h1>
   <p class="pc-hero__text">
-    Welcome to my little Pokémon storage system — shinies, trainer memories, physical collection bits,
-    Hall of Fame teams, and whatever hunt I am currently obsessing over.
+    Welcome to my little Pokémon Pokémon corner — shinies, trainer memories, physical collection bits,
+    League Memories teams, and whatever hunt I am currently obsessing over.
   </p>
 
   <div class="pc-status-grid" aria-label="Pokémon shrine status">
     <article class="pc-status-card">
-      <span class="pc-status-card__label">Latest sparkle</span>
+      <span class="pc-status-card__label">Latest little sparkle</span>
       {% if pokemonShinies.stats.latest %}
         <strong>{{ pokemonShinies.stats.latest.nickname or pokemonShinies.stats.latest.species }}</strong>
         <small>{{ pokemonShinies.stats.latest.originGame }}</small>
@@ -26,7 +41,7 @@ permalink: /shrines/pokemon/
     </article>
 
     <article class="pc-status-card">
-      <span class="pc-status-card__label">Shiny log</span>
+      <span class="pc-status-card__label">Sparkle log</span>
       <strong>{{ pokemonShinies.stats.total or 0 }}</strong>
       <small>published captures</small>
     </article>
@@ -38,52 +53,61 @@ permalink: /shrines/pokemon/
     </article>
 
     <article class="pc-status-card">
-      <span class="pc-status-card__label">Current goal</span>
-      <strong>Safari Week</strong>
-      <small>prep mode activated</small>
+      <span class="pc-status-card__label">Current hunt mood</span>
+      <strong>Safari Week prep</strong>
+      <small>getting cosy and ready</small>
     </article>
   </div>
 </section>
 
+
+<div class="poke-sticker-strip" aria-hidden="true">
+  <img src="/assets/imgs/pokemon/graphics/frog-sticker.png" alt="">
+  <img src="/assets/imgs/pokemon/graphics/pink-bow.png" alt="">
+  <img src="/assets/imgs/pokemon/graphics/heart-sticker.png" alt="">
+  <img src="/assets/imgs/pokemon/graphics/sparkle-sticker.png" alt="">
+  <img src="/assets/imgs/pokemon/graphics/star-sticker.png" alt="">
+</div>
+
 <section class="pc-section">
   <div class="pc-section__heading">
-    <p class="pc-kicker">Main storage</p>
-    <h2>Choose a box</h2>
+    <p class="pc-kicker">Come have a look</p>
+    <h2>Little corners</h2>
   </div>
 
   <div class="pc-box-grid">
     <a class="pc-box-card pc-box-card--trainer" href="/shrines/pokemon/me/">
       <span class="pc-box-card__icon">🧢</span>
       <span class="pc-box-card__eyebrow">Save file</span>
-      <strong>Trainer Card</strong>
+      <strong>Trainer Notes</strong>
       <small>About me, favourite games, memories, milestones, and trainer vibes.</small>
     </a>
 
     <a class="pc-box-card pc-box-card--shiny" href="/shrines/pokemon/shinies/">
       <span class="pc-box-card__icon">✨</span>
-      <span class="pc-box-card__eyebrow">Storage box</span>
-      <strong>Shiny Shrine</strong>
-      <small>My shiny catches, recent sparkles, Pokémon GO, and Safari Week finds.</small>
+      <span class="pc-box-card__eyebrow">Sparkle diary</span>
+      <strong>Shiny Diary</strong>
+      <small>My shiny catches, recent sparkles, Pokémon GO, and Safari Week prep finds.</small>
     </a>
 
     <a class="pc-box-card pc-box-card--records" href="/shrines/pokemon/records/">
       <span class="pc-box-card__icon">📜</span>
       <span class="pc-box-card__eyebrow">Save awards</span>
-      <strong>Records</strong>
+      <strong>Little Victories</strong>
       <small>Diplomas, shiny starter milestones, certificates, ribbons, and achievement screenshots.</small>
     </a>
 
     <a class="pc-box-card pc-box-card--physical" href="/shrines/pokemon/physical/">
       <span class="pc-box-card__icon">📦</span>
       <span class="pc-box-card__eyebrow">PokéMart shelf</span>
-      <strong>Physical Collection</strong>
+      <strong>Poké Shelf</strong>
       <small>Figures, games, cards, plushies, trinkets, and little Pokémon treasures.</small>
     </a>
 
     <a class="pc-box-card pc-box-card--hof" href="/shrines/pokemon/hof/">
       <span class="pc-box-card__icon">🏆</span>
-      <span class="pc-box-card__eyebrow">League records</span>
-      <strong>Hall of Fame</strong>
+      <span class="pc-box-card__eyebrow">League memories</span>
+      <strong>League Memories</strong>
       <small>Champion teams, playthrough notes, MVPs, and completed adventures.</small>
     </a>
   </div>

@@ -637,3 +637,16 @@
     align-items: flex-start;
   }
 }
+
+/* Cosy shiny diary touches */
+
+.shiny-shrine-hero::before {
+  content: "every sparkle has a little story ♡";
+  display: inline-flex;
+  margin-bottom: 0.8rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 241, 168, 0.55);
+  color: #8b5364;
+  font-weight: 900;
+}

@@ -1,13 +1,23 @@
 ---
-title: Records
+title: Little Victories
 layout: layouts/pokeBase.njk
 customcss: "/assets/css/shrines/pokemon/records.css"
 permalink: /shrines/pokemon/records/
 ---
 
 <section class="records-hero">
-  <p class="records-kicker">Opened VIOLET's records folder</p>
-  <h1>Pokémon Records</h1>
+  <img class="poke-hero-sticker poke-hero-sticker--top-right poke-hero-sticker--medium"
+       src="/assets/imgs/pokemon/graphics/ribbon-sticker.png"
+       alt=""
+       aria-hidden="true">
+
+  <img class="poke-hero-sticker poke-hero-sticker--bottom-left poke-hero-sticker--small"
+       src="/assets/imgs/pokemon/graphics/save-file.png"
+       alt=""
+       aria-hidden="true">
+
+  <p class="records-kicker">Saved little victories</p>
+  <h1>Pokémon Little Victories</h1>
   <p>
     Diplomas, shiny starter milestones, certificates, ribbons, marks, and little proof-of-chaos
     screenshots from across my Pokémon saves.
@@ -20,10 +30,50 @@ permalink: /shrines/pokemon/records/
   </div>
 </section>
 
+{% if pokemonPhotos.recordsTotal %}
+<section class="records-section">
+  <div class="records-section__heading">
+    <p class="records-kicker">Screenshots</p>
+    <h2>Memories & milestones</h2>
+  </div>
+
+  {% for category in pokemonPhotos.records %}
+    {% if category.images and category.images.length %}
+      <section class="records-photo-category">
+        <div class="records-photo-category__heading">
+          <h3>{{ category.label }}</h3>
+          <p>{{ category.note }}</p>
+        </div>
+
+        <div class="pokemon-photo-grid pokemon-photo-grid--records">
+          {% for photo in category.images %}
+            <figure class="pokemon-photo-card">
+              <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+              <figcaption>{{ photo.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</section>
+{% else %}
+<section class="records-section">
+  <div class="records-section__heading">
+    <p class="records-kicker">No memories tucked in yet</p>
+    <h2>Add screenshots whenever you have them</h2>
+  </div>
+
+  <p class="records-empty">
+    Add images to <code>content/assets/imgs/pokemon/records/</code>, rebuild, and they will appear here automatically.
+  </p>
+</section>
+{% endif %}
+
 <section class="records-section">
   <div class="records-section__heading">
     <p class="records-kicker">Save-file awards</p>
-    <h2>Record folders</h2>
+    <h2>Little victory boxes</h2>
   </div>
 
   <div class="records-folder-grid">
@@ -53,48 +103,8 @@ permalink: /shrines/pokemon/records/
 
     <article class="records-folder-card">
       <span>🗂️</span>
-      <h3>Misc Records</h3>
-      <p>Firsts, rare moments, silly milestones, and anything else worth archiving.</p>
+      <h3>Misc Little Victories</h3>
+      <p>Firsts, rare moments, silly milestones, and anything else worth saving.</p>
     </article>
   </div>
 </section>
-
-{% if pokemonPhotos.recordsTotal %}
-<section class="records-section">
-  <div class="records-section__heading">
-    <p class="records-kicker">Screenshots</p>
-    <h2>Achievement archive</h2>
-  </div>
-
-  {% for category in pokemonPhotos.records %}
-    {% if category.images and category.images.length %}
-      <section class="records-photo-category">
-        <div class="records-photo-category__heading">
-          <h3>{{ category.label }}</h3>
-          <p>{{ category.note }}</p>
-        </div>
-
-        <div class="pokemon-photo-grid pokemon-photo-grid--records">
-          {% for photo in category.images %}
-            <figure class="pokemon-photo-card">
-              <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
-              <figcaption>{{ photo.caption }}</figcaption>
-            </figure>
-          {% endfor %}
-        </div>
-      </section>
-    {% endif %}
-  {% endfor %}
-</section>
-{% else %}
-<section class="records-section">
-  <div class="records-section__heading">
-    <p class="records-kicker">No screenshots yet</p>
-    <h2>Drop images into the records folders</h2>
-  </div>
-
-  <p class="records-empty">
-    Add images to <code>content/assets/imgs/pokemon/records/</code>, rebuild, and they will appear here automatically.
-  </p>
-</section>
-{% endif %}

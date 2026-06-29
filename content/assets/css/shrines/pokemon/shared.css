@@ -286,3 +286,524 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* Pokémon Shrine — Cosy scrapbook pass */
+
+:root {
+  --poke-warm-cream: #fff4df;
+  --poke-soft-peach: #ffd9bd;
+  --poke-sticker-yellow: #fff1a8;
+  --poke-cosy-brown: #6b4a35;
+  --poke-soft-green: #c9eccf;
+  --poke-berry: #c55388;
+  --poke-rose-shadow: rgba(122, 73, 67, 0.16);
+}
+
+body {
+  color: #543747;
+  background:
+    radial-gradient(circle at 10% 8%, rgba(255, 217, 189, 0.75), transparent 26rem),
+    radial-gradient(circle at 88% 16%, rgba(255, 241, 168, 0.65), transparent 24rem),
+    radial-gradient(circle at 48% 100%, rgba(201, 236, 207, 0.55), transparent 30rem),
+    linear-gradient(135deg, #fff8ed, #fff0f8 56%, #f8f1ff);
+}
+
+body::before {
+  opacity: 0.18;
+  background-image:
+    radial-gradient(circle, rgba(197, 83, 136, 0.18) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Softer nav */
+
+.pokenav__toggle,
+.pokenav__panel,
+.pokenav__header,
+.pokenav__link {
+  border-color: rgba(139, 91, 74, 0.22);
+}
+
+.pokenav__toggle {
+  background: #fffaf2;
+  box-shadow: 0 10px 24px rgba(122, 73, 67, 0.13);
+}
+
+.pokenav__panel {
+  background:
+    linear-gradient(135deg, rgba(255, 250, 242, 0.98), rgba(255, 235, 246, 0.94));
+  box-shadow: 0 18px 45px rgba(122, 73, 67, 0.2);
+}
+
+.pokenav__title {
+  color: #5b3547;
+}
+
+.pokenav__sub {
+  color: #816057;
+}
+
+.pokenav__link {
+  background: rgba(255, 250, 242, 0.68);
+}
+
+.pokenav__link.is-active {
+  background: linear-gradient(135deg, rgba(255, 241, 168, 0.88), rgba(255, 217, 189, 0.72));
+}
+
+/* Warm scrapbook panels */
+
+.pc-hero,
+.pc-section,
+.pc-note,
+.trainer-hero,
+.trainer-section,
+.shelf-hero,
+.shelf-section,
+.shelf-note,
+.league-hero,
+.league-section,
+.league-note,
+.records-hero,
+.records-section,
+.shiny-shrine-hero,
+.shiny-shrine-section,
+.shiny-card-section,
+.livingdex-section,
+.livingdex-toolbar,
+.livingdex-filters {
+  border-color: rgba(139, 91, 74, 0.22) !important;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 242, 0.96), rgba(255, 239, 248, 0.88)),
+    repeating-linear-gradient(
+      -8deg,
+      rgba(255, 241, 168, 0.15) 0,
+      rgba(255, 241, 168, 0.15) 9px,
+      rgba(255, 255, 255, 0.08) 9px,
+      rgba(255, 255, 255, 0.08) 18px
+    ) !important;
+  box-shadow: 0 18px 42px var(--poke-rose-shadow) !important;
+}
+
+.pc-kicker,
+.trainer-kicker,
+.shelf-kicker,
+.league-kicker,
+.records-kicker {
+  border-color: rgba(197, 83, 136, 0.2) !important;
+  background: rgba(255, 250, 242, 0.82) !important;
+  color: #9b4e6f !important;
+}
+
+.pc-hero h1,
+.pc-section h2,
+.trainer-hero h1,
+.trainer-section h2,
+.shelf-hero h1,
+.shelf-section h2,
+.league-hero h1,
+.league-section h2,
+.records-hero h1,
+.records-section h2,
+.shiny-shrine-hero h1,
+.shiny-shrine-heading h2 {
+  color: #563344 !important;
+}
+
+.pc-box-card,
+.pc-status-card,
+.trainer-card,
+.trainer-note,
+.save-file article,
+.shelf-card,
+.inventory-item,
+.league-card,
+.records-folder-card,
+.shiny-card,
+.livingdex-card,
+.shiny-box-link,
+.living-dex-callout a {
+  border-color: rgba(139, 91, 74, 0.18) !important;
+  background: rgba(255, 250, 242, 0.82) !important;
+  box-shadow: 0 10px 24px rgba(122, 73, 67, 0.11) !important;
+}
+
+/* Polaroid photo cards */
+
+.pokemon-photo-card {
+  position: relative;
+  overflow: visible !important;
+  padding: 0.55rem 0.55rem 0;
+  border: 2px solid rgba(139, 91, 74, 0.16) !important;
+  border-radius: 18px !important;
+  background: #fffaf2 !important;
+  box-shadow: 0 14px 28px rgba(108, 74, 53, 0.14) !important;
+  transform: rotate(-0.35deg);
+}
+
+.pokemon-photo-card:nth-child(even) {
+  transform: rotate(0.45deg);
+}
+
+.pokemon-photo-card:nth-child(3n) {
+  transform: rotate(-0.15deg);
+}
+
+.pokemon-photo-card::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  left: 50%;
+  width: 4.6rem;
+  height: 1.35rem;
+  border-radius: 4px;
+  background: rgba(255, 241, 168, 0.72);
+  box-shadow: 0 2px 8px rgba(108, 74, 53, 0.08);
+  transform: translateX(-50%) rotate(-2deg);
+}
+
+.pokemon-photo-card img {
+  border-radius: 12px !important;
+}
+
+.pokemon-photo-card figcaption {
+  padding: 0.85rem 0.5rem 0.95rem !important;
+  color: #6b4a35 !important;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Softer controls */
+
+.livingdex-search input,
+.livingdex-select select,
+.livingdex-filter-buttons button {
+  border-color: rgba(139, 91, 74, 0.2) !important;
+  background: #fffaf2 !important;
+}
+
+.livingdex-filter-buttons button.is-active {
+  background: linear-gradient(135deg, rgba(255, 241, 168, 0.88), rgba(255, 217, 189, 0.72)) !important;
+}
+
+@media (max-width: 560px) {
+  .pokemon-photo-card,
+  .pokemon-photo-card:nth-child(even),
+  .pokemon-photo-card:nth-child(3n) {
+    transform: none;
+  }
+}
+
+/* Cute sticker corners */
+
+.pc-box-card,
+.shelf-card,
+.records-folder-card,
+.league-card,
+.trainer-card,
+.shiny-card {
+  position: relative;
+}
+
+.pc-box-card::after,
+.shelf-card::after,
+.records-folder-card::after,
+.league-card::after,
+.trainer-card::after,
+.shiny-card::after {
+  content: "✦";
+  position: absolute;
+  top: 0.7rem;
+  right: 0.8rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255, 241, 168, 0.72);
+  color: #c55388;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 10px rgba(122, 73, 67, 0.1);
+}
+
+.shelf-card::after {
+  content: "♡";
+}
+
+.records-folder-card::after {
+  content: "★";
+}
+
+.league-card::after {
+  content: "🏆";
+  font-size: 0.8rem;
+}
+
+.trainer-card::after {
+  content: "🎀";
+  font-size: 0.8rem;
+}
+
+.shiny-card::after {
+  content: "✨";
+  font-size: 0.85rem;
+}
+
+/* Pokémon Shrine — generated sticker graphics */
+
+.pc-hero,
+.trainer-hero,
+.shelf-hero,
+.records-hero,
+.league-hero,
+.shiny-shrine-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.pc-hero > :not(.poke-hero-sticker),
+.trainer-hero > :not(.poke-hero-sticker),
+.shelf-hero > :not(.poke-hero-sticker),
+.records-hero > :not(.poke-hero-sticker),
+.league-hero > :not(.poke-hero-sticker),
+.shiny-shrine-hero > :not(.poke-hero-sticker) {
+  position: relative;
+  z-index: 2;
+}
+
+.poke-hero-sticker {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.92;
+  filter: drop-shadow(0 12px 18px rgba(111, 73, 57, 0.14));
+}
+
+.poke-hero-sticker--large {
+  width: clamp(105px, 18vw, 190px);
+}
+
+.poke-hero-sticker--medium {
+  width: clamp(88px, 14vw, 150px);
+}
+
+.poke-hero-sticker--small {
+  width: clamp(62px, 10vw, 105px);
+}
+
+.poke-hero-sticker--top-right {
+  top: 0.9rem;
+  right: 1rem;
+  transform: rotate(7deg);
+}
+
+.poke-hero-sticker--bottom-left {
+  left: 1.1rem;
+  bottom: 0.9rem;
+  transform: rotate(-9deg);
+}
+
+.poke-hero-sticker--bottom-right {
+  right: 1.4rem;
+  bottom: 1rem;
+  transform: rotate(8deg);
+}
+
+.poke-hero-sticker--top-left {
+  top: 0.9rem;
+  left: 1rem;
+  transform: rotate(-7deg);
+}
+
+/* Use the generated washi tape graphics on photo cards */
+
+.pokemon-photo-card::before {
+  width: 5.6rem !important;
+  height: 2rem !important;
+  border-radius: 0 !important;
+  background:
+    url("/assets/imgs/pokemon/graphics/tape-yellow.png")
+    center / contain
+    no-repeat !important;
+  box-shadow: none !important;
+}
+
+.pokemon-photo-card:nth-child(even)::before {
+  background-image: url("/assets/imgs/pokemon/graphics/tape-pink.png") !important;
+}
+
+/* Replace emoji corner badges with generated sticker graphics */
+
+.pc-box-card::after,
+.shelf-card::after,
+.records-folder-card::after,
+.league-card::after,
+.trainer-card::after,
+.shiny-card::after {
+  content: "" !important;
+  width: 2.55rem !important;
+  height: 2.55rem !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  box-shadow: none !important;
+}
+
+.pc-box-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/star-sticker.png") !important;
+}
+
+.shelf-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/heart-sticker.png") !important;
+}
+
+.records-folder-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/ribbon-sticker.png") !important;
+}
+
+.league-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/tiny-trophy.png") !important;
+}
+
+.trainer-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/pink-bow.png") !important;
+}
+
+.shiny-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/sparkle-sticker.png") !important;
+}
+
+/* Tiny sticker strip helper */
+
+.poke-sticker-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 1rem auto 1.4rem;
+  padding: 0.75rem 1rem;
+  border: 2px dashed rgba(197, 83, 136, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.76);
+  box-shadow: 0 10px 22px rgba(122, 73, 67, 0.1);
+}
+
+.poke-sticker-strip img {
+  width: 2.35rem;
+  height: 2.35rem;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 7px rgba(111, 73, 57, 0.12));
+}
+
+@media (max-width: 650px) {
+  .poke-hero-sticker--top-right {
+    opacity: 0.35;
+    transform: rotate(7deg) scale(0.92);
+  }
+
+  .poke-hero-sticker--bottom-left,
+  .poke-hero-sticker--bottom-right {
+    opacity: 0.42;
+    transform: scale(0.84);
+  }
+}
+
+/* Final sticker cleanup — hide old emoji badges/icons */
+
+/* Remove old emoji content from pseudo badges and force sticker images */
+.pc-box-card::after,
+.shelf-card::after,
+.records-folder-card::after,
+.league-card::after,
+.trainer-card::after,
+.shiny-card::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 0.55rem !important;
+  right: 0.55rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  display: block !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  box-shadow: none !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  z-index: 3 !important;
+  pointer-events: none !important;
+}
+
+.pc-box-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/star-sticker.png") !important;
+}
+
+.shelf-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/heart-sticker.png") !important;
+}
+
+.records-folder-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/ribbon-sticker.png") !important;
+}
+
+.league-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/tiny-trophy.png") !important;
+}
+
+.trainer-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/pink-bow.png") !important;
+}
+
+.shiny-card::after {
+  background-image: url("/assets/imgs/pokemon/graphics/sparkle-sticker.png") !important;
+}
+
+/* Hide old visible emoji icons inside cards now that the stickers decorate them */
+.shelf-card__icon,
+.pc-box-card__icon,
+.league-card__icon {
+  display: none !important;
+}
+
+/* Records cards use plain span icons, so only hide the first decorative span */
+.records-folder-card > span:first-child {
+  display: none !important;
+}
+
+/* Sticker cleanup — do not place large stickers over text cards */
+
+.pc-box-card::after,
+.shelf-card::after,
+.records-folder-card::after,
+.league-card::after,
+.trainer-card::after,
+.shiny-card::after {
+  content: none !important;
+  display: none !important;
+  background-image: none !important;
+}
+
+/* Keep the original card icons hidden where they were crowding titles */
+.shelf-card__icon,
+.pc-box-card__icon,
+.league-card__icon,
+.records-folder-card > span:first-child {
+  display: none !important;
+}
+
+/* Give card titles breathing room again */
+.shelf-card h3,
+.pc-box-card strong,
+.records-folder-card h3,
+.league-card h3,
+.trainer-card h3,
+.shiny-card h3 {
+  padding-right: 0 !important;
+}

@@ -1,23 +1,62 @@
 ---
-title: Physical Collection
+title: Poké Shelf
 layout: layouts/pokeBase.njk
 customcss: "/assets/css/shrines/pokemon/physical.css"
 permalink: /shrines/pokemon/physical/
 ---
 
 <section class="shelf-hero">
-  <p class="shelf-kicker">Opened VIOLET's storage box</p>
-  <h1>Physical Collection</h1>
+  <img class="poke-hero-sticker poke-hero-sticker--top-right poke-hero-sticker--medium"
+       src="/assets/imgs/pokemon/graphics/heart-sticker.png"
+       alt=""
+       aria-hidden="true">
+
+  <img class="poke-hero-sticker poke-hero-sticker--bottom-left poke-hero-sticker--small"
+       src="/assets/imgs/pokemon/graphics/pink-bow.png"
+       alt=""
+       aria-hidden="true">
+
+  <p class="shelf-kicker">Welcome to my Poké shelf</p>
+  <h1>Poké Shelf</h1>
   <p>
     My little Pokémon shelf: games, figures, cards, plushies, and tiny treasures.
     This page is for the real-life PokéMart finds that live outside the save file.
   </p>
 </section>
 
+{% if pokemonPhotos.physicalTotal %}
+<section class="shelf-section physical-photo-section">
+  <div class="shelf-section__heading">
+    <p class="shelf-kicker">Shelf photos</p>
+    <h2>PokéMart display</h2>
+  </div>
+
+  {% for category in pokemonPhotos.physical %}
+    {% if category.images and category.images.length %}
+      <section class="physical-photo-category">
+        <div class="physical-photo-category__heading">
+          <h3>{{ category.label }}</h3>
+          <p>{{ category.note }}</p>
+        </div>
+
+        <div class="pokemon-photo-grid pokemon-photo-grid--shelf">
+          {% for photo in category.images %}
+            <figure class="pokemon-photo-card">
+              <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+              <figcaption>{{ photo.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+</section>
+{% endif %}
+
 <section class="shelf-section">
   <div class="shelf-section__heading">
     <p class="shelf-kicker">PokéMart shelf</p>
-    <h2>Collection boxes</h2>
+    <h2>Cosy collection corners</h2>
   </div>
 
   <div class="shelf-grid">
@@ -53,8 +92,8 @@ permalink: /shrines/pokemon/physical/
 
 <section class="shelf-section shelf-section--inventory">
   <div class="shelf-section__heading">
-    <p class="shelf-kicker">Inventory</p>
-    <h2>Featured shelf notes</h2>
+    <p class="shelf-kicker">Shelf notes</p>
+    <h2>Favourite shelf notes</h2>
   </div>
 
   <div class="inventory-list">
@@ -88,37 +127,7 @@ permalink: /shrines/pokemon/physical/
 
 <section class="shelf-note">
   <p>
-    <strong>Collection note:</strong> this page is now styled like a PokéMart shelf.
+    <strong>Collection note:</strong> this page is now styled like a cosy PokéMart shelf.
     Add photos, counts, and favourite items here as the collection grows.
   </p>
 </section>
-
-
-{% if pokemonPhotos.physicalTotal %}
-<section class="shelf-section physical-photo-section">
-  <div class="shelf-section__heading">
-    <p class="shelf-kicker">Shelf photos</p>
-    <h2>PokéMart display</h2>
-  </div>
-
-  {% for category in pokemonPhotos.physical %}
-    {% if category.images and category.images.length %}
-      <section class="physical-photo-category">
-        <div class="physical-photo-category__heading">
-          <h3>{{ category.label }}</h3>
-          <p>{{ category.note }}</p>
-        </div>
-
-        <div class="pokemon-photo-grid pokemon-photo-grid--shelf">
-          {% for photo in category.images %}
-            <figure class="pokemon-photo-card">
-              <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
-              <figcaption>{{ photo.caption }}</figcaption>
-            </figure>
-          {% endfor %}
-        </div>
-      </section>
-    {% endif %}
-  {% endfor %}
-</section>
-{% endif %}
