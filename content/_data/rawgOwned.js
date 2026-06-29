@@ -4,15 +4,19 @@ import path from "node:path";
 import EleventyFetch from "@11ty/eleventy-fetch";
 
 const RAWG_KEY = process.env.RAWG_API_KEY;
-if (!RAWG_KEY) throw new Error("Missing RAWG_API_KEY in environment.");
 
 const OWNED_PATH = "./content/_data/ownedGames.json";
 const CACHE_DIR = "./.cache/rawg";
-const CACHE_TTL = "30d"; // you can shorten if you want
+const CACHE_TTL = "30d";
 
 function ensureString(v) {
   if (Array.isArray(v)) return String(v[0] ?? "");
   return String(v ?? "");
+}
+
+function ensureNumber(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
 }
 
 function slugify(s) {
@@ -24,66 +28,183 @@ function slugify(s) {
 }
 
 function ensureCacheDir() {
-  if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR, { recursive: true });
+  }
+}
+
+function cachePath(cacheKey) {
+  ensureCacheDir();
+  return path.join(CACHE_DIR, `${cacheKey}.json`);
+}
+
+function readLocalCache(cacheKey) {
+  const file = cachePath(cacheKey);
+
+  if (!fs.existsSync(file)) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(fs.readFileSync(file, "utf-8"));
+  } catch (error) {
+    console.warn(`[RAWG] Could not read local cache ${file}: ${error.message}`);
+    return null;
+  }
+}
+
+function writeLocalCache(cacheKey, data) {
+  const file = cachePath(cacheKey);
+
+  try {
+    fs.writeFileSync(file, JSON.stringify(data, null, 2));
+  } catch (error) {
+    console.warn(`[RAWG] Could not write local cache ${file}: ${error.message}`);
+  }
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function rawgGetJson(url, cacheKey) {
-  ensureCacheDir();
+  const fallbackCache = readLocalCache(cacheKey);
 
-  // Per-game cache key file so you don't refetch everything every build
-  const cacheFile = path.join(CACHE_DIR, `${cacheKey}.json`);
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const data = await EleventyFetch(url, {
+        duration: CACHE_TTL,
+        type: "json",
+        hash: cacheKey,
+        fetchOptions: {
+          headers: {
+            "User-Agent": "theonlyfrogs (Eleventy) - personal site",
+          },
+        },
+      });
 
-  return EleventyFetch(url, {
-    duration: CACHE_TTL,
-    type: "json",
-    fetchOptions: {
-      headers: {
-        "User-Agent": "theonlyfrogs (Eleventy) - personal site",
-      },
-    },
-    // Stable cache key
-    hash: cacheKey,
-  });
+      if (data) {
+        writeLocalCache(cacheKey, data);
+      }
+
+      return data;
+    } catch (error) {
+      console.warn(`[RAWG] Attempt ${attempt} failed for ${cacheKey}: ${error.message}`);
+
+      if (attempt < 3) {
+        await wait(750 * attempt);
+      }
+    }
+  }
+
+  if (fallbackCache) {
+    console.warn(`[RAWG] Using stale local cache for ${cacheKey}`);
+    return fallbackCache;
+  }
+
+  console.warn(`[RAWG] No cache available for ${cacheKey}; using fallback game data`);
+  return null;
 }
 
 async function fetchGameDetails(rawgId) {
+  if (!RAWG_KEY) {
+    console.warn("[RAWG] Missing RAWG_API_KEY. Using ownedGames.json fallback data only.");
+    return null;
+  }
+
   const url = `https://api.rawg.io/api/games/${rawgId}?key=${encodeURIComponent(RAWG_KEY)}`;
   return rawgGetJson(url, `game_${rawgId}`);
+}
+
+function fallbackGame(item, rawgId) {
+  const platformName = ensureString(item.platform) || "Unknown";
+  const title =
+    ensureString(item.title) ||
+    ensureString(item.name) ||
+    ensureString(item.Title) ||
+    `RAWG ${rawgId}`;
+
+  const image =
+    ensureString(item.imageOverride) ||
+    ensureString(item.ImageOverride) ||
+    ensureString(item.image) ||
+    "/assets/imgs/games/no-cover.png";
+
+  const publisher =
+    ensureString(item.publisher) ||
+    ensureString(item.Publisher);
+
+  return {
+    ...item,
+    rawgId,
+    title,
+    released: null,
+    year: "",
+    image,
+    publishers: publisher ? [publisher] : [],
+    platformName,
+    platformSlug: slugify(platformName),
+    rawgUrl: null,
+    rawgFailed: true,
+  };
 }
 
 export default async function () {
   const ownedRaw = JSON.parse(fs.readFileSync(OWNED_PATH, "utf-8"));
 
-  // Safety: dedupe by rawgId so duplicates never show up
   const ownedMap = new Map();
+
   for (const item of Array.isArray(ownedRaw) ? ownedRaw : []) {
-    const id = item?.rawgId;
-    if (!Number.isFinite(id)) continue;
+    const id = ensureNumber(item?.rawgId);
+
+    if (!id) {
+      console.warn(`[RAWG] Skipping owned game with missing/invalid rawgId: ${JSON.stringify(item)}`);
+      continue;
+    }
+
     const key = String(id);
-    if (!ownedMap.has(key)) ownedMap.set(key, item);
-    // If it repeats, keep the first one (simple + predictable)
+
+    if (!ownedMap.has(key)) {
+      ownedMap.set(key, {
+        ...item,
+        rawgId: id,
+      });
+    }
   }
+
   const owned = Array.from(ownedMap.values());
 
-  // 1) Fetch details for each owned game (cached)
   const enriched = await Promise.all(
     owned.map(async (item) => {
       const rawgId = item.rawgId;
       const d = await fetchGameDetails(rawgId);
 
-      const name = d?.name ?? "Untitled";
+      if (!d) {
+        return fallbackGame(item, rawgId);
+      }
+
+      const name =
+        d?.name ||
+        ensureString(item.title) ||
+        ensureString(item.name) ||
+        ensureString(item.Title) ||
+        `RAWG ${rawgId}`;
+
       const released = d?.released ?? null;
       const year = released ? String(released).slice(0, 4) : "";
 
-      const image = d?.background_image ?? d?.background_image_additional ?? null;
+      const image =
+        ensureString(item.imageOverride) ||
+        ensureString(item.ImageOverride) ||
+        d?.background_image ||
+        d?.background_image_additional ||
+        ensureString(item.image) ||
+        "/assets/imgs/games/no-cover.png";
 
       const publishers = Array.isArray(d?.publishers)
         ? d.publishers.map((p) => p?.name).filter(Boolean)
         : [];
 
-      // You control the filing platform if you set item.platform.
-      // Otherwise we pick RAWG’s first platform name.
-      // IMPORTANT: ownedGames.json may have platform as array (after merging) — normalize it.
       const ownedPlatform = ensureString(item.platform);
 
       const rawgPlatform =
@@ -94,10 +215,8 @@ export default async function () {
       const platformName = ownedPlatform || rawgPlatform;
 
       return {
-        // Your owned metadata
         ...item,
 
-        // RAWG metadata
         rawgId,
         title: name,
         released,
@@ -105,31 +224,30 @@ export default async function () {
         image,
         publishers,
 
-        // grouping key
         platformName,
         platformSlug: slugify(platformName),
 
-        // RAWG page link (nice to have)
         rawgUrl: d?.slug ? `https://rawg.io/games/${d.slug}` : null,
+        rawgFailed: false,
       };
     })
   );
 
-  // 2) Group by platform (to mirror your current /games/ layout)
   const platformMap = new Map();
+
   for (const g of enriched) {
-    const key = g.platformSlug;
+    const key = g.platformSlug || "unknown";
 
     if (!platformMap.has(key)) {
       platformMap.set(key, {
-        platform: ensureString(g.platformName),
-        slug: g.platformSlug,
+        platform: ensureString(g.platformName) || "Unknown",
+        slug: key,
         games: [],
       });
     } else {
-      // prefer a "nicer" (longer) label if we see one later
       const existing = platformMap.get(key);
       const maybe = ensureString(g.platformName);
+
       if (maybe.length > ensureString(existing.platform).length) {
         existing.platform = maybe;
       }
@@ -138,7 +256,6 @@ export default async function () {
     platformMap.get(key).games.push(g);
   }
 
-  // 3) Sort platforms + games
   const platforms = Array.from(platformMap.values()).sort((a, b) =>
     ensureString(a.platform).localeCompare(ensureString(b.platform))
   );
@@ -150,7 +267,6 @@ export default async function () {
   return {
     platforms,
     totalGames: enriched.length,
-    // RAWG attribution (required for free usage)
     rawgAttribution: {
       label: "Data & images from RAWG",
       url: "https://rawg.io/",
