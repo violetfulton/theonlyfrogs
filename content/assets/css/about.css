@@ -1,0 +1,406 @@
+@font-face {
+  font-family: 'Gaegu';
+  src: url('/assets/fonts/Gaegu/Gaegu-Light.ttf');
+}
+
+@font-face {
+  font-family: 'FortySeven Micro NBP';
+  src: url('/assets/fonts/fortyseven-micro-nbp/47micro0.ttf');
+}
+
+:root {
+  --about-dark: #1f5f38;
+  --about-green: #3f8f4f;
+  --about-mid: #78b66b;
+  --about-soft: #cfeec0;
+  --about-pale: #effbe8;
+  --about-cream: #fffbe6;
+  --about-line: #2e7d32;
+  --about-shadow: #b6d99b;
+  --about-pink: #ffb7cf;
+  --about-pink-dark: #d85f8d;
+  --about-blue: #dff7ff;
+  --about-brown: #806a3b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--about-dark);
+  font-family: 'Gaegu', sans-serif;
+  font-size: 19px;
+  background-color: #dff4d4;
+  background-image:
+    url("/assets/imgs/home/pond-tile.png"),
+    radial-gradient(circle at 12px 12px, rgba(46, 125, 50, 0.13) 2px, transparent 3px),
+    radial-gradient(circle at 42px 38px, rgba(255, 183, 207, 0.28) 3px, transparent 4px);
+  background-repeat: repeat;
+  background-size: 260px 260px, 56px 56px, 68px 68px;
+}
+
+a {
+  color: #26733a;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--about-line);
+}
+
+a:visited {
+  color: #4f8a3f;
+}
+
+a:hover {
+  color: #fff;
+  background: var(--about-green);
+  text-shadow: 1px 1px 0 var(--about-dark);
+}
+
+img {
+  max-width: 100%;
+}
+
+.about-pond {
+  width: min(930px, calc(100% - 24px));
+  margin: 28px auto;
+  padding: 12px;
+  border: 3px double var(--about-line);
+  background:
+    linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.32)),
+    var(--about-pale);
+  box-shadow:
+    0 0 0 6px #edf9df,
+    0 0 0 8px var(--about-line),
+    8px 8px 0 rgba(46, 125, 50, 0.22);
+}
+
+.about-hero {
+  padding: 16px;
+  border: 2px solid var(--about-line);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.6) 0 8%, transparent 9%),
+    linear-gradient(to right, #5fa95f, #a8d98d, #5fa95f);
+  text-align: center;
+  box-shadow: 4px 4px 0 var(--about-shadow);
+}
+
+.about-hero-frogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px;
+  border: 2px solid var(--about-dark);
+  background: var(--about-cream);
+  outline: 3px solid rgba(255,255,255,0.55);
+}
+
+.about-hero h1 {
+  margin: 0;
+  color: var(--about-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: clamp(2.2rem, 7vw, 4.4rem);
+  letter-spacing: 4px;
+  line-height: 0.9;
+  text-shadow:
+    2px 2px 0 var(--about-shadow),
+    4px 4px 0 rgba(31, 95, 56, 0.18);
+}
+
+.about-hero p {
+  display: inline-block;
+  margin: 12px 0 0;
+  padding: 4px 9px;
+  border: 1px solid var(--about-line);
+  background: #eaffd9;
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.about-frog-icon {
+  width: 58px;
+  height: auto;
+  image-rendering: pixelated;
+  filter: drop-shadow(2px 2px 0 var(--about-shadow));
+}
+
+.about-card {
+  margin: 16px 0;
+  border: 2px solid var(--about-line);
+  background: var(--about-cream);
+  box-shadow: 4px 4px 0 var(--about-shadow);
+}
+
+.about-card-title h2 {
+  margin: 0;
+  padding: 6px 10px;
+  border-bottom: 2px dotted var(--about-line);
+  color: #fff;
+  background:
+    linear-gradient(to right, var(--about-dark), var(--about-green), var(--about-mid));
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 0 #174425;
+}
+
+.about-card-inner {
+  padding: 14px;
+  background-image:
+    linear-gradient(rgba(120, 182, 107, 0.13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 182, 107, 0.13) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+.about-card-inner p {
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+
+.about-card-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-card .about-card-inner,
+.soft-card .about-card-inner,
+.outro-card .about-card-inner {
+  background-color: #f8ffe8;
+}
+
+.soft-card {
+  border-color: var(--about-pink-dark);
+  box-shadow: 4px 4px 0 #f5b7cc;
+}
+
+.soft-card .about-card-title h2 {
+  background:
+    linear-gradient(to right, #8f3f64, var(--about-pink-dark), #ff9fbd);
+}
+
+.health-card {
+  border-color: #3f7f90;
+  box-shadow: 4px 4px 0 #a9d8e3;
+}
+
+.health-card .about-card-title h2 {
+  background:
+    linear-gradient(to right, #285c68, #3f7f90, #82c7d5);
+}
+
+.currently-card {
+  border-color: #7f9c3f;
+  box-shadow: 4px 4px 0 #d2e59b;
+}
+
+.currently-card .about-card-title h2 {
+  background:
+    linear-gradient(to right, #52671f, #8aa33d, #bddb6b);
+}
+
+.about-divider {
+  display: block;
+  width: 92%;
+  max-width: 680px;
+  height: auto;
+  margin: 12px auto;
+  image-rendering: pixelated;
+}
+
+.ribbit-note {
+  display: inline-block;
+  padding: 7px 10px;
+  border: 1px solid var(--about-line);
+  background: #dcf8c4;
+  box-shadow: 2px 2px 0 var(--about-shadow);
+  font-weight: bold;
+}
+
+.about-photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 16px 0;
+}
+
+.photo-card {
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  margin: 0 auto 10px;
+  border: 2px solid var(--about-line);
+  background: #e9ffd9;
+  padding: 5px;
+  box-shadow: 3px 3px 0 var(--about-shadow);
+}
+
+.diagnosis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.diagnosis-box {
+  border: 1px dashed var(--about-line);
+  background: rgba(255, 255, 255, 0.78);
+  padding: 10px;
+}
+
+.diagnosis-box h3 {
+  margin: 0 0 8px;
+  color: var(--about-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.diagnosis-box ul,
+.about-likes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.diagnosis-box li,
+.about-likes li {
+  position: relative;
+  margin: 6px 0;
+  padding-left: 25px;
+  line-height: 1.25;
+}
+
+.diagnosis-box li::before,
+.about-likes li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  width: 18px;
+  height: 18px;
+  background-image: url("/assets/imgs/home/frog-bullet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+.about-footer {
+  margin-top: 18px;
+  padding: 12px;
+  border: 2px solid var(--about-line);
+  background:
+    linear-gradient(to right, var(--about-green), var(--about-mid));
+  color: #fff;
+  text-align: center;
+  font-family: 'FortySeven Micro NBP', monospace;
+  letter-spacing: 1px;
+  box-shadow: 4px 4px 0 var(--about-shadow);
+}
+
+.about-footer-frogs {
+  display: block;
+  width: 220px;
+  max-width: 92%;
+  height: auto;
+  margin: 0 auto 8px;
+  image-rendering: pixelated;
+}
+
+.about-footer p {
+  margin: 0;
+}
+
+/* little decorative stickers */
+
+.about-card::before {
+  content: "✦";
+  position: absolute;
+}
+
+.about-card {
+  position: relative;
+}
+
+.intro-card::before {
+  top: -12px;
+  right: 18px;
+  color: var(--about-pink-dark);
+}
+
+.soft-card::before {
+  top: -12px;
+  left: 18px;
+  color: var(--about-pink-dark);
+}
+
+.health-card::before {
+  top: -12px;
+  right: 18px;
+  color: #3f7f90;
+}
+
+.currently-card::before {
+  top: -12px;
+  left: 18px;
+  color: #8aa33d;
+}
+
+/* Scrollbars */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8f5d6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--about-green);
+  border: 2px solid #e8f5d6;
+}
+
+/* Responsive */
+
+@media (max-width: 760px) {
+  body {
+    font-size: 18px;
+  }
+
+  .about-pond {
+    width: calc(100% - 12px);
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .about-hero-frogs {
+    gap: 8px;
+  }
+
+  .about-frog-icon {
+    display: none;
+  }
+
+  .about-photo-grid,
+  .diagnosis-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-photo {
+    max-height: none;
+  }
+}

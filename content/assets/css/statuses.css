@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'Gaegu';
+  src: url('/assets/fonts/Gaegu/Gaegu-Light.ttf');
+}
+
+@font-face {
+  font-family: 'FortySeven Micro NBP';
+  src: url('/assets/fonts/fortyseven-micro-nbp/47micro0.ttf');
+}
+
+:root {
+  --status-dark: #1f5f38;
+  --status-green: #3f8f4f;
+  --status-mid: #78b66b;
+  --status-soft: #cfeec0;
+  --status-pale: #effbe8;
+  --status-cream: #fffbe6;
+  --status-line: #2e7d32;
+  --status-shadow: #b6d99b;
+  --status-pink: #ffb7cf;
+  --status-pink-dark: #d85f8d;
+  --status-blue: #dff7ff;
+  --status-brown: #806a3b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--status-dark);
+  font-family: 'Gaegu', sans-serif;
+  font-size: 19px;
+  background-color: #dff4d4;
+  background-image:
+    url("/assets/imgs/home/pond-tile.png"),
+    radial-gradient(circle at 12px 12px, rgba(46, 125, 50, 0.13) 2px, transparent 3px),
+    radial-gradient(circle at 42px 38px, rgba(255, 183, 207, 0.24) 3px, transparent 4px);
+  background-repeat: repeat;
+  background-size: 260px 260px, 56px 56px, 68px 68px;
+}
+
+a {
+  color: #26733a;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--status-line);
+}
+
+a:visited {
+  color: #4f8a3f;
+}
+
+a:hover {
+  color: #fff;
+  background: var(--status-green);
+  text-shadow: 1px 1px 0 var(--status-dark);
+}
+
+img {
+  max-width: 100%;
+}
+
+.statuses-pond {
+  width: min(850px, calc(100% - 24px));
+  margin: 28px auto;
+  padding: 12px;
+  border: 3px double var(--status-line);
+  background:
+    linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.32)),
+    var(--status-pale);
+  box-shadow:
+    0 0 0 6px #edf9df,
+    0 0 0 8px var(--status-line),
+    8px 8px 0 rgba(46, 125, 50, 0.22);
+}
+
+.statuses-hero {
+  padding: 14px;
+  border: 2px solid var(--status-line);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.6) 0 8%, transparent 9%),
+    linear-gradient(to right, #5fa95f, #a8d98d, #5fa95f);
+  text-align: center;
+  box-shadow: 4px 4px 0 var(--status-shadow);
+}
+
+.statuses-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px;
+  border: 2px solid var(--status-dark);
+  background: var(--status-cream);
+  outline: 3px solid rgba(255,255,255,0.55);
+}
+
+.statuses-title-row h1 {
+  margin: 0;
+  color: var(--status-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: clamp(2.1rem, 7vw, 4.2rem);
+  letter-spacing: 4px;
+  line-height: 0.9;
+  text-shadow:
+    2px 2px 0 var(--status-shadow),
+    4px 4px 0 rgba(31, 95, 56, 0.18);
+}
+
+.statuses-title-row p {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.statuses-frog {
+  width: 56px;
+  height: auto;
+  image-rendering: pixelated;
+  filter: drop-shadow(2px 2px 0 var(--status-shadow));
+}
+
+.statuses-marquee {
+  margin-top: 10px;
+  padding: 4px 8px;
+  border: 1px solid var(--status-dark);
+  background: #eaffd9;
+  color: var(--status-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+}
+
+.statuses-card {
+  position: relative;
+  margin: 16px 0;
+  border: 2px solid var(--status-line);
+  background: var(--status-cream);
+  box-shadow: 4px 4px 0 var(--status-shadow);
+}
+
+.statuses-card::before {
+  content: "✦";
+  position: absolute;
+  top: -13px;
+  right: 18px;
+  color: var(--status-pink-dark);
+  font-size: 1.3rem;
+}
+
+.feed-card::before {
+  left: 18px;
+  right: auto;
+  color: #3f7f90;
+}
+
+.statuses-card-title h2 {
+  margin: 0;
+  padding: 6px 10px;
+  border-bottom: 2px dotted var(--status-line);
+  color: #fff;
+  background:
+    linear-gradient(to right, var(--status-dark), var(--status-green), var(--status-mid));
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 0 #174425;
+}
+
+.statuses-card-inner {
+  padding: 14px;
+  background-color: #f8ffe8;
+  background-image:
+    linear-gradient(rgba(120, 182, 107, 0.13) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 182, 107, 0.13) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+.statuses-card-inner p {
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+
+.statuses-card-inner p:last-child {
+  margin-bottom: 0;
+}
+
+.statuses-note {
+  display: inline-block;
+  padding: 7px 10px;
+  border: 1px solid var(--status-line);
+  background: #dcf8c4;
+  box-shadow: 2px 2px 0 var(--status-shadow);
+  font-weight: bold;
+}
+
+.statuses-divider {
+  display: block;
+  width: 92%;
+  max-width: 680px;
+  height: auto;
+  margin: 12px auto;
+  image-rendering: pixelated;
+}
+
+/* StatusCafe feed area */
+
+.statuses-feed,
+.status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loading-status {
+  margin: 0;
+  padding: 10px;
+  border: 1px dotted var(--status-line);
+  background: #f7ffe9;
+  box-shadow: 2px 2px 0 var(--status-shadow);
+  text-align: center;
+}
+
+/*
+  These selectors are intentionally broad because StatusCafe/feed JS can output
+  slightly different markup depending on your script.
+*/
+
+.statuses-feed > *,
+.status-list > * {
+  max-width: 100%;
+}
+
+.statuses-feed article,
+.statuses-feed .status,
+.statuses-feed .status-bubble,
+.statuses-feed .status-item,
+.statuses-feed li,
+.status-list article,
+.status-list .status,
+.status-list .status-bubble,
+.status-list .status-item,
+.status-list li {
+  position: relative;
+  margin: 0;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid var(--status-line);
+  background:
+    linear-gradient(rgba(255,255,255,0.68), rgba(255,255,255,0.38)),
+    #f7ffe9;
+  box-shadow: 3px 3px 0 var(--status-shadow);
+  line-height: 1.4;
+}
+
+.statuses-feed article::before,
+.statuses-feed .status::before,
+.statuses-feed .status-bubble::before,
+.statuses-feed .status-item::before,
+.statuses-feed li::before,
+.status-list article::before,
+.status-list .status::before,
+.status-list .status-bubble::before,
+.status-list .status-item::before,
+.status-list li::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  width: 21px;
+  height: 21px;
+  background-image: url("/assets/imgs/home/frog-bullet.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  image-rendering: pixelated;
+}
+
+.statuses-feed time,
+.statuses-feed .status-date,
+.statuses-feed .date,
+.status-list time,
+.status-list .status-date,
+.status-list .date {
+  display: block;
+  margin-bottom: 5px;
+  color: #4f8a3f;
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.statuses-feed p,
+.statuses-feed .status-text,
+.status-list p,
+.status-list .status-text {
+  margin: 0;
+  color: var(--status-dark);
+  overflow-wrap: anywhere;
+}
+
+.statuses-feed img,
+.status-list img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation */
+
+.statuses-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.statuses-nav a {
+  padding: 6px 10px;
+  border: 1px solid var(--status-line);
+  background: var(--status-cream);
+  box-shadow: 2px 2px 0 var(--status-shadow);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.statuses-footer {
+  margin-top: 18px;
+  padding: 12px;
+  border: 2px solid var(--status-line);
+  background:
+    linear-gradient(to right, var(--status-green), var(--status-mid));
+  color: #fff;
+  text-align: center;
+  font-family: 'FortySeven Micro NBP', monospace;
+  letter-spacing: 1px;
+  box-shadow: 4px 4px 0 var(--status-shadow);
+}
+
+.statuses-footer-frogs {
+  display: block;
+  width: 220px;
+  max-width: 92%;
+  height: auto;
+  margin: 0 auto 8px;
+  image-rendering: pixelated;
+}
+
+.statuses-footer p {
+  margin: 0;
+}
+
+/* Scrollbars */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8f5d6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--status-green);
+  border: 2px solid #e8f5d6;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .statuses-pond {
+    width: calc(100% - 12px);
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .statuses-title-row {
+    gap: 8px;
+  }
+
+  .statuses-frog {
+    display: none;
+  }
+
+  .statuses-card-inner {
+    padding: 11px;
+  }
+
+  .statuses-feed article,
+  .statuses-feed .status,
+  .statuses-feed .status-bubble,
+  .statuses-feed .status-item,
+  .statuses-feed li,
+  .status-list article,
+  .status-list .status,
+  .status-list .status-bubble,
+  .status-list .status-item,
+  .status-list li {
+    padding: 10px 10px 10px 36px;
+  }
+}

@@ -1,30 +1,69 @@
 ---
 layout: base.njk
 title: "Statuses"
-permalink: /statuses/index.html
-customcss: '/assets/css/style.css'
+permalink: /statuses/
+customcss: '/assets/css/statuses.css'
 ---
 
-<section id="container">
-  <div id="box">
+<main class="statuses-pond">
 
-    <div id="header">
-      <h1>🐸 Status Feed</h1>
+  <header class="statuses-hero">
+    <div class="statuses-title-row">
+      <img src="/assets/imgs/home/frog-mascot.png" alt="" class="statuses-frog">
+      <div>
+        <h1>Status Feed</h1>
+        <p>little pond thoughts from StatusCafe</p>
+      </div>
+      <img src="/assets/imgs/home/frog-mascot.png" alt="" class="statuses-frog">
     </div>
 
-    <section class="status-section">
-      <p style="text-align:center; margin-bottom:1rem;">
-        All my recent moods, directly from <a href="https://status.cafe/users/frogs" target="_blank">StatusCafe</a> 💚
+    <div class="statuses-marquee">
+      <marquee behavior="scroll" direction="left" scrollamount="3">
+        recent moods ✦ tiny updates ✦ sleepy croaks ✦ little thoughts ✦ pond diary ✦ ribbit ribbit
+      </marquee>
+    </div>
+  </header>
+
+  <section class="statuses-card intro-card">
+    <div class="statuses-card-title">
+      <h2>pond noticeboard</h2>
+    </div>
+
+    <div class="statuses-card-inner">
+      <p>
+        All my recent moods and tiny thoughts, directly from
+        <a href="https://status.cafe/users/frogs" target="_blank" rel="noopener">StatusCafe</a>.
       </p>
 
-      <div id="feed-reader-all" class="status-list" data-status-feed="all">
-        Loading all moods...
+      <p class="statuses-note">
+        Think of this as my little frog bulletin board.
+      </p>
+    </div>
+  </section>
+
+  <img src="/assets/imgs/home/lily-divider.png" class="statuses-divider" alt="">
+
+  <section class="statuses-card feed-card">
+    <div class="statuses-card-title">
+      <h2>latest croaks</h2>
+    </div>
+
+    <div class="statuses-card-inner">
+      <div id="feed-reader-all" class="status-list statuses-feed" data-status-feed="all">
+        <p class="loading-status">Loading all moods...</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer style="text-align:center; margin-top:2rem;">
-      <a href="/">← Return Home</a>
-    </footer>
+  <nav class="statuses-nav" aria-label="Status page navigation">
+    <a href="/">← return home</a>
+    <a href="/aboutme/">about me</a>
+    <a href="/interests/now/">currently</a>
+  </nav>
 
-  </div>
-</section>
+  <footer class="statuses-footer">
+    <img src="/assets/imgs/home/footer-frogs.png" alt="" class="statuses-footer-frogs">
+    <p>thanks for reading my tiny pond updates ♡</p>
+  </footer>
+
+</main>

@@ -4,161 +4,215 @@ layout: base.njk
 customcss: '/assets/css/style.css'
 ---
 
-<div id="container">
+<div class="pond-page">
 
-<div id="box">
+  <header class="pond-header">
+    <div class="pond-title">
+      <img
+        class="frog-sprite frog-sprite-img"
+        src="/assets/imgs/home/frog-mascot.png"
+        alt="Pixel frog mascot"
+      >
 
-<div id="header"><h1>TheOnlyFrogs</h1></div>
+      <div>
+        <h1>TheOnlyFrogs</h1>
+        <p>a cosy lilypad on the personal web</p>
+      </div>
 
-<div id="side">
+      <img
+        class="frog-sprite frog-sprite-img"
+        src="/assets/imgs/home/frog-mascot.png"
+        alt=""
+      >
+    </div>
 
-<div class="sidebox">
+    <div class="pond-marquee">
+      <marquee behavior="scroll" direction="left" scrollamount="3">
+        welcome to my frog pond ✦ shrines ✦ collections ✦ games ✦ music ✦ physical media ✦ ffxiv ✦ animal crossing ✦ pokémon ✦ ribbit ribbit
+      </marquee>
+    </div>
+  </header>
 
-<div class="subheader"><h3>Webmaster</h3></div>
+  <nav class="pond-nav" aria-label="Main navigation">
+    <a href="/aboutme/">about me</a>
+    <a href="/blog/">blog</a>
+    <a href="/interests/now/">currently</a>
+    <a href="/sitemap/">sitemap</a>
+    <a href="/shrines/">shrines</a>
+    <a href="/cds/">cds</a>
+    <a href="/dvds/">dvds</a>
+    <a href="/games/">games</a>
+  </nav>
 
-<div class="sidecontent">
+  <div class="pond-layout">
 
-<!-- LINK BOX 1 -->
+    <aside class="pond-sidebar left">
 
-<ul>
-<li><a href="/aboutme/">⊳ about me</a></li>
-<img src="https://file.garden/Z-MKjN_jtlFpOvgR/frogumbrella.png" style="width:100%;" />
-<li><a href="/blog/">⊳ (WIP Blog)</a></li>
-<li><a href="/interests/now/">⊳ currently</a></li>
-</ul>
+      <section class="pond-box webmaster-box">
+        <h2>Webmaster</h2>
+        <div class="pond-box-inner">
+          <img
+            class="sidebar-frog"
+            src="https://file.garden/Z-MKjN_jtlFpOvgR/frogumbrella.png"
+            alt="Cute frog with umbrella"
+          >
 
+          <ul class="frog-links">
+            <li><a href="/aboutme/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> about me</a></li>
+            <li><a href="/blog/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> blog</a></li>
+            <li><a href="/interests/now/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> currently</a></li>
+            <li><a href="https://linktr.ee/violetfulton"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> linktree</a></li>
+            <li><a href="https://virtualviolet.space/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> other site</a></li>
+          </ul>
+        </div>
+      </section>
 
-<!-- END LINK BOX 1 -->
+      <section class="pond-box">
+        <h2>Frog Menu</h2>
+        <div class="pond-box-inner">
+          <ul class="frog-links">
+            <li><a href="/shrines/animalcrossing/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> animal crossing</a></li>
+            <li><a href="/shrines/finalfantasyxiv/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> ffxiv</a></li>
+            <li><a href="/shrines/pokemon/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> pokémon</a></li>
+            <li><a href="/shrines/mcr/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> mcr</a></li>
+            <li><a href="/shrines/ashnikko/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> ashnikko</a></li>
+          </ul>
+        </div>
+      </section>
 
-</div>
-</div>
+      <section class="pond-box tiny-box">
+        <h2>Site Mood</h2>
+        <div class="pond-box-inner center">
+          <p>im feeling</p>
+          <a href="https://www.imood.com/users/onlyfrogs">
+            <img
+              src="https://moods.imood.com/display/uname-onlyfrogs/fg-2e7d32/trans-1/imood.gif"
+              alt="The current mood of onlyfrogs at imood"
+              border="0"
+            >
+          </a>
+        </div>
+      </section>
 
-<div class="sidebox">
+    </aside>
 
-<div class="subheader"><h3>Navigation</h3></div>
+    <main class="pond-main">
 
-<div class="sidecontent">
+      <section class="pond-box welcome-box">
+        <h2>Welcome to the pond</h2>
+        <div class="pond-box-inner welcome-inner">
+          <img
+            class="welcome-sticker-img"
+            src="/assets/imgs/home/welcome-frog.png"
+            alt="Welcome frog"
+          >
 
-<!-- LINK BOX 2 -->
+          <div class="welcome-copy">
+            <h3>Hey, I’m Froggy. Welcome to <span>TheOnlyFrogs</span>.</h3>
 
-<ul>
-<li><a href="/sitemap/">⊳ sitemap</a></li>
-<li><a href="/shrines/">⊳ shrines</a></li>
-<li><a href="/cds/">⊳ cds</a></li>
-<li><a href="/dvds/">⊳ dvds</a></li>
-<li><a href="/games/">⊳ games</a></li>
-<li><a href="https://linktr.ee/violetfulton">⊳ linktree</a></li>
-<li><a href="https://virtualviolet.space/">⊳ other website</a></li>
-</ul>
+            <p>
+              This site is my cosy little scrapbook of special interests,
+              collections, shrines, games, music, films, and fandoms.
+            </p>
 
-<!-- END LINK BOX 2 -->
+            <p>
+              I’m a longtime <strong>Animal Crossing</strong>,
+              <strong>Pokémon</strong>, and <strong>Final Fantasy XIV</strong>
+              fan, a physical media collector, and someone who loves building
+              little online spaces for the things that make me happy.
+            </p>
 
-</div>
-</div>
+            <p>
+              Expect frogs, nostalgia, game collections, CDs, DVDs, favourite
+              bands, fan pages, and plenty of cosy chaos.
+            </p>
 
-<div class="sidebox">
+            <p class="croak">
+              Come sit on my lily pad and let’s get croaking.
+            </p>
+          </div>
+        </div>
+      </section>
 
-<div class="subheader"><h3>Marquee</h3></div>
+      <img
+        class="lily-divider"
+        src="/assets/imgs/home/lily-divider.png"
+        alt=""
+      >
 
-<div class="sidecontent" id="scrollcontainer">
+      <section class="pond-shelf">
+        <article class="pond-box shelf-card">
+          <h2>Latest Croak</h2>
+          <div class="pond-box-inner">
+            {% include "status-latest.njk" %}
+          </div>
+        </article>
 
-<div id="scrolly">
+        <article class="pond-box shelf-card">
+          <h2>Now Playing</h2>
+          <div class="pond-box-inner">
+            {% include "partials/lastfmWidget.njk" %}
+          </div>
+        </article>
+      </section>
 
-<!-- SCROLLBOX CONTENT -->
+    </main>
 
-<p id="scrollyheader">Interests</p>
-<div id="scrollycontent" style="padding:5px;">
+    <aside class="pond-sidebar right">
 
-<img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/under%20construction%207.gif" style="width:100%;" />
+      <section class="pond-box">
+        <h2>Collections</h2>
+        <div class="pond-box-inner">
+          <img
+            class="signpost-img"
+            src="/assets/imgs/home/signpost.png"
+            alt="This way signpost"
+          >
 
-<img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/ilovefrogs.gif" style="width:100%;" />
+          <ul class="frog-links">
+            <li><a href="/games/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> game collection</a></li>
+            <li><a href="/cds/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> cd shelf</a></li>
+            <li><a href="/dvds/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> dvd shelf</a></li>
+            <li><a href="/wishlist/"><img src="/assets/imgs/home/frog-bullet.png" class="frog-bullet" alt=""> wishlist</a></li>
+          </ul>
+        </div>
+      </section>
 
-<img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/d13.gif" style="width:100%;" />
-<img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/shb.gif" style="width:100%;" />
+      <section class="pond-box">
+        <h2>Blinkie Pond</h2>
+        <div class="pond-box-inner blinkie-scroll">
+          <img class="blinkie-img" src="/assets/imgs/home/under-construction.png" alt="Under construction">
+          <img class="blinkie-img" src="/assets/imgs/home/best-viewed.png" alt="Best viewed with curiosity">
 
-<!-- END SCROLLBOX CONTENT -->
+          <img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/ilovefrogs.gif" alt="I love frogs blinkie">
+          <img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/d13.gif" alt="">
+          <img src="https://file.garden/Z-MKjN_jtlFpOvgR/theonlyfrogs/marquee/shb.gif" alt="">
+        </div>
+      </section>
 
-</div>
+      <section class="pond-box">
+        <h2>Pond Notes</h2>
+        <div class="pond-box-inner">
+          <p class="pond-note">
+            This site is always under construction. Pages may be messy,
+            sparkly, half-finished, or full of frogs.
+          </p>
+          <p class="stamp">best viewed with curiosity</p>
+        </div>
+      </section>
 
-</div>
+    </aside>
 
-</div>
+  </div>
 
+  <footer class="pond-footer">
+    <img
+      class="footer-frogs-img"
+      src="/assets/imgs/home/footer-frogs.png"
+      alt="Footer frogs on lily pads"
+    >
 
-</div>
-
-</div>
-
-<div id="main">
-
-<div class="mainboxes">
-
-<div class="subheader"><h3>Welcome</h3></div>
-
-<div class="mainboxescontent">
-
-<!-- CONTENT BELOW -->
-
-<p style="clear:right;"> Hey I'm Froggy. Welcome to TheOnlyFrogs. <br><br>
-I'm really excited to show you around and enjoy snapshots of my special interests and collections.
-I'm a bit of a nerd and I love to collect things.
-<br>
-I'm a longtime fan of Animal Crossing and FFXIV. I'm also a massive collector and enjoy trying to complete my PS Vita, 3DS and PS3-5 libraries. <br>
-Although we are in the digital age I've increasingly found I want a physical copy of the things I love the most. So on the site you'll be able to see my collections of videos and music. <br>
-My favourite film is The Iron Giant. My favourite tv show includes Avatar the Last Airbender, South Park and Bones. <br>
-Music is also a big passion.
-My favourite bands include MCR, Tenacious D and The Smiths. I was an early fan of Ashnikko and yes I do love a singalong to a Disney movie.
-So come on in sit down on my lily pad and let's get croaking.
-
-</p>
-
-<!-- END CONTENT -->
-
-</div>
-
-</div>
-
-<div class="mainboxes">
-
-<div class="subheader"><h3>Content</h3></div>
-
-<div class="mainboxescontent">
-
-<!-- CONTENT BELOW -->
-
-<p style="clear:left;">
-
-  {% include "status-latest.njk" %}
-
-    {# Below is a text file detailing my current and past hyperfocuses. It is updated weekly with new information. You can also view it in an <a href="/pages/hyperfocus.html">easier to read format here</a>.
-    #}
-
-</p>
-
-
-</div>
-</div><div class="mainboxes">
-<div class="subheader"><h3>Now Playing</h3></div>
-<div class="mainboxescontent">
-<p style="clear:left";>
-
-  {% include "partials/lastfmWidget.njk" %}
-
-  <div class="sidecontent">
-</div>
-</div>
-</p>
-
-<!-- END CONTENT -->
-
-
-</div>
-
-</div>
-
-
-<div id="footer"><p>im feeling <a href="https://www.imood.com/users/onlyfrogs"><img src="https://moods.imood.com/display/uname-onlyfrogs/fg-FFFFFF/trans-1/imood.gif" alt="The current mood of onlyfrogs at www.imood.com" border="0"></a></div>
-
-</div>
+    <p>made with frogs, greens, shrines, and too many collections 🐸</p>
+  </footer>
 
 </div>
