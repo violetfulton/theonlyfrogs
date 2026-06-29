@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    # Runs daily at 05:15 UTC
-    - cron: "15 5 * * *"
+    # Runs only on monday at 05:15 UTC
+    - cron: "15 5 * * 1" # Monday at 05:15 UTC
 
 env:
   # --- Site / deploy ---
@@ -107,7 +107,7 @@ jobs:
 
     steps:
       - name: Send failure email
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v18
         with:
           server_address: smtp.gmail.com
           server_port: 465
