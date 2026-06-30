@@ -19,55 +19,12 @@ const GENERATION_LABELS = {
 };
 
 const CATEGORY_LABELS = {
-  "target-hunts": "Target Hunts",
   "full-odds": "Full Odds",
+  methods: "Methods",
   "random-finds": "Random Finds",
-  community: "Community Events",
-  "pokemon-go": "Pokémon GO",
-  misc: "Misc Shinies",
-
-  // Legacy values from the old sheet, kept so old rows still work.
-  methods: "Target Hunts",
-  "gifts-events": "Community Events",
-  "safari-week": "Community Events",
+  "gifts-events": "Gifts & Events",
+  "safari-week": "Safari Week",
   go: "Pokémon GO",
-};
-
-const CATEGORY_ORDER = [
-  "target-hunts",
-  "full-odds",
-  "random-finds",
-  "community",
-  "pokemon-go",
-  "misc",
-];
-
-const GAME_GROUP_LABELS = {
-  lgpe: "Let's Go Pikachu/Eevee",
-  xy: "X/Y",
-  oras: "Omega Ruby/Alpha Sapphire",
-  sm: "Sun/Moon",
-  usum: "Ultra Sun/Ultra Moon",
-  swsh: "Sword/Shield",
-  bdsp: "Brilliant Diamond/Shining Pearl",
-  pla: "Pokémon Legends: Arceus",
-  sv: "Scarlet/Violet",
-  plza: "Pokémon Legends: Z-A",
-  "pokemon-go": "Pokémon GO",
-  go: "Pokémon GO",
-};
-
-const METHOD_LABELS = {
-  "catch-combo": "Catch Combo",
-  "random-encounter": "Random Encounter",
-  "soft-reset": "Soft Reset",
-  "mass-outbreak": "Mass Outbreak",
-  sandwich: "Sandwich",
-  "tera-raid": "Tera Raid",
-  "community-event": "Community Event",
-  gift: "Gift",
-  trade: "Trade",
-  other: "Other",
 };
 
 function parseCsv(text) {
@@ -157,6 +114,7 @@ function displayDexNo(value) {
   return n >= 1000 ? String(n) : String(n).padStart(3, "0");
 }
 
+
 function inferGenerationFromDexNo(value) {
   const n = Number(value);
   if (!Number.isFinite(n)) return "unsorted";
@@ -174,12 +132,6 @@ function inferGenerationFromDexNo(value) {
 
 function isFalseyStatus(value) {
   return ["false", "no", "n", "private", "draft", "hidden", "0"].includes(
-    String(value || "").trim().toLowerCase()
-  );
-}
-
-function isTruthy(value) {
-  return ["true", "yes", "y", "1", "target", "current"].includes(
     String(value || "").trim().toLowerCase()
   );
 }
@@ -211,69 +163,15 @@ function isPublished(row) {
   return true;
 }
 
-function normaliseGameGroup(value) {
-  const raw = slugify(value);
-
-  if (raw === "go") return "pokemon-go";
-  if (raw === "pokemon-go") return "pokemon-go";
-
-  if (
-    raw === "legends-z-a" ||
-    raw === "legends-za" ||
-    raw === "pokemon-legends-z-a" ||
-    raw === "pokemon-legends-za"
-  ) {
-    return "plza";
-  }
-
-  return raw;
-}
-
-function normaliseMethod(value) {
-  const raw = slugify(value);
-
-  if (raw === "tera-raids") return "tera-raid";
-  if (raw === "tera-raid") return "tera-raid";
-  if (raw === "community-events") return "community-event";
-
-  return raw;
-}
-
-function normaliseCategory(row) {
-  const raw = slugify(row.category ?? row.Category);
-  const method = normaliseMethod(row.method ?? row.Method);
-  const target = isTruthy(row.target ?? row["Target?"] ?? row.Target);
-
-  if (raw === "go" || raw === "pokemon-go") return "pokemon-go";
-  if (raw === "community-events") return "community";
-  if (raw === "gifts-events") return "community";
-  if (raw === "safari-week") return "community";
-  if (raw === "target" || raw === "target-hunt") return "target-hunts";
-  if (raw === "target-hunts") return "target-hunts";
-  if (raw === "full-odds") return "full-odds";
-  if (raw === "random" || raw === "random-finds") return "random-finds";
-  if (raw === "misc") return "misc";
-
-  // Old sheet value. If it was a target, put it in Target Hunts.
-  // If not, most old "methods" rows were better treated as random/misc finds.
-  if (raw === "methods") {
-    if (target) return "target-hunts";
-    if (method === "mass-outbreak" || method === "sandwich" || method === "catch-combo") {
-      return "target-hunts";
-    }
-    return "random-finds";
-  }
-
-  return raw || "misc";
-}
-
 function isGoRow(row) {
-  const category = normaliseCategory(row);
-  const gameGroup = normaliseGameGroup(row.gameGroup ?? row["Game Group"]);
+  const category = slugify(row.category ?? row.Category);
+  const gameGroup = slugify(row.gameGroup ?? row["Game Group"]);
   const originGame = String(row.originGame ?? row["Origin Game"] ?? "").trim().toLowerCase();
 
   return (
+    category === "go" ||
     category === "pokemon-go" ||
+    gameGroup === "go" ||
     gameGroup === "pokemon-go" ||
     originGame === "pokémon go" ||
     originGame === "pokemon go"
@@ -286,11 +184,9 @@ function shinySpriteUrl(dexNo) {
 
 function cleanCapture(row) {
   const dexNo = normaliseDexNo(row.dexNo ?? row["Dex No"] ?? row.dex ?? row.Dex);
-  const category = normaliseCategory(row);
+  const category = slugify(row.category ?? row.Category);
   const generation = slugify(row.generation ?? row.Generation) || inferGenerationFromDexNo(dexNo);
-  const gameGroup = normaliseGameGroup(row.gameGroup ?? row["Game Group"]);
-  const methodRaw = String(row.method ?? row.Method ?? "").trim();
-  const methodKey = normaliseMethod(methodRaw);
+  const gameGroup = slugify(row.gameGroup ?? row["Game Group"]);
 
   const species =
     row.species ??
@@ -304,55 +200,29 @@ function cleanCapture(row) {
 
   return {
     published: isPublished(row),
-    huntStatus: String(row.huntStatus ?? row["Hunt Status"] ?? row.status ?? row.Status ?? "").trim(),
-
     dexNo,
     dexDisplay: displayDexNo(dexNo),
     species: String(species).trim(),
     speciesSlug: slugify(species),
     nickname: String(row.nickname ?? row.Nickname ?? "").trim(),
     form: String(row.form ?? row.Form ?? "").trim(),
-
     generation,
     generationLabel: GENERATION_LABELS[generation] || generation || "Unsorted",
-
     gameGroup,
-    gameGroupLabel: GAME_GROUP_LABELS[gameGroup] || titleCaseName(gameGroup || "unsorted"),
-
     category,
     categoryLabel: CATEGORY_LABELS[category] || titleCaseName(category || "unsorted"),
-
     originGame: String(row.originGame ?? row["Origin Game"] ?? row.game ?? row.Game ?? "").trim(),
-
-    method: methodRaw,
-    methodKey,
-    methodLabel: METHOD_LABELS[methodKey] || methodRaw || titleCaseName(methodKey),
-
-    eventName: String(row.eventName ?? row["Event Name"] ?? "").trim(),
-
+    method: String(row.method ?? row.Method ?? "").trim(),
     encounters: String(row.encounters ?? row.Encounters ?? "").trim(),
-    odds: String(row.odds ?? row.Odds ?? "").trim(),
     caughtDate: String(row.caughtDate ?? row["Caught Date"] ?? row.date ?? row.Date ?? "").trim(),
-
     ball: String(row.ball ?? row.Ball ?? "").trim(),
     nature: String(row.nature ?? row.Nature ?? "").trim(),
     gender: String(row.gender ?? row.Gender ?? "").trim(),
-    ability: String(row.ability ?? row.Ability ?? "").trim(),
     location: String(row.location ?? row.Location ?? "").trim(),
     phase: String(row.phase ?? row.Phase ?? "").trim(),
-
-    target: String(row.target ?? row["Target?"] ?? row.Target ?? "").trim(),
-    isTarget: isTruthy(row.target ?? row["Target?"] ?? row.Target),
-
-    currentHunt: String(row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"] ?? "").trim(),
-    isCurrentHunt: isTruthy(row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"]),
-
+    target: String(row.target ?? row.Target ?? "").trim(),
     mark: String(row.mark ?? row.Mark ?? row.markRibbon ?? row["Mark/Ribbon"] ?? "").trim(),
     notes: String(row.notes ?? row.Notes ?? "").trim(),
-
-    eleventySlug: String(row.eleventySlug ?? row["Eleventy Slug"] ?? "").trim(),
-    spriteKey: String(row.spriteKey ?? row["Sprite Key"] ?? "").trim(),
-
     image: imageOverride || (dexNo ? shinySpriteUrl(dexNo) : ""),
     isGo: false,
   };
@@ -371,17 +241,6 @@ function groupBy(items, key) {
     groups[value].push(item);
     return groups;
   }, {});
-}
-
-function sortCategoryKeys(a, b) {
-  const ai = CATEGORY_ORDER.indexOf(a);
-  const bi = CATEGORY_ORDER.indexOf(b);
-
-  if (ai !== -1 && bi !== -1) return ai - bi;
-  if (ai !== -1) return -1;
-  if (bi !== -1) return 1;
-
-  return a.localeCompare(b);
 }
 
 async function getCsvText() {
@@ -452,8 +311,6 @@ export default async function () {
 
   const byGeneration = groupBy(captures, "generation");
   const byCategory = groupBy(captures, "category");
-  const byGameGroup = groupBy(captures, "gameGroup");
-  const byMethod = groupBy(captures, "methodKey");
 
   const nonGoCaptures = captures.filter((capture) => !capture.isGo);
   const caughtByDex = new Map();
@@ -494,8 +351,6 @@ export default async function () {
     recent,
     byGeneration,
     byCategory,
-    byGameGroup,
-    byMethod,
 
     generations: Object.keys(byGeneration)
       .sort()
@@ -507,30 +362,12 @@ export default async function () {
       })),
 
     categories: Object.keys(byCategory)
-      .sort(sortCategoryKeys)
+      .sort()
       .map((key) => ({
         key,
         label: CATEGORY_LABELS[key] || titleCaseName(key),
         count: byCategory[key].length,
         captures: byCategory[key],
-      })),
-
-    gameGroups: Object.keys(byGameGroup)
-      .sort()
-      .map((key) => ({
-        key,
-        label: GAME_GROUP_LABELS[key] || titleCaseName(key),
-        count: byGameGroup[key].length,
-        captures: byGameGroup[key],
-      })),
-
-    methods: Object.keys(byMethod)
-      .sort()
-      .map((key) => ({
-        key,
-        label: METHOD_LABELS[key] || titleCaseName(key),
-        count: byMethod[key].length,
-        captures: byMethod[key],
       })),
 
     livingDex,
@@ -544,17 +381,9 @@ export default async function () {
     stats: {
       total: captures.length,
       unique: new Set(captures.map((capture) => capture.dexNo)).size,
-      targetHunts: captures.filter((capture) => capture.category === "target-hunts").length,
-      fullOdds: captures.filter((capture) => capture.category === "full-odds").length,
-      randomFinds: captures.filter((capture) => capture.category === "random-finds").length,
-      community: captures.filter((capture) => capture.category === "community").length,
+      safariWeek: captures.filter((capture) => capture.category === "safari-week").length,
       go: captures.filter((capture) => capture.isGo).length,
       nonGo: nonGoCaptures.length,
-      currentHunts: captures.filter((capture) => capture.isCurrentHunt).length,
-
-      // Legacy value kept so older templates do not crash.
-      safariWeek: 0,
-
       latest,
     },
   };
