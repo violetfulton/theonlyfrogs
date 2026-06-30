@@ -6,25 +6,78 @@ customcss: "/assets/css/shrines/pokemon/shinies.css"
 ---
 
 <section class="shiny-shrine-hero shiny-shrine-hero--small">
-  <p class="pc-kicker">VIOLET's PC / Recent</p>
+  <p class="pc-kicker">Shiny Diary / Recent</p>
   <h1>Recent Shinies</h1>
-  <p>The newest shiny Pokémon from the capture log.</p>
+  <p>
+    The newest sparkles from my capture log — lucky finds, stubborn hunts,
+    community event catches, and anything recently added to the shiny diary.
+  </p>
 </section>
 
-<div class="shiny-grid">
-  {% for shiny in pokemonShinies.published %}
-    <article class="shiny-card">
-      {% if shiny.image %}
-        <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}">
-      {% endif %}
-      <p class="shiny-card__dex">#{{ shiny.dexNo }} · {{ shiny.originGame }}</p>
-      <h3>
-        {{ shiny.nickname or shiny.species }}
-        {% if shiny.nickname %}<span>{{ shiny.species }}</span>{% endif %}
-      </h3>
-      <p>{{ shiny.method }}{% if shiny.encounters %} · {{ shiny.encounters }} encounters{% endif %}</p>
-      {% if shiny.caughtDate %}<p>Caught {{ shiny.caughtDate }}</p>{% endif %}
-      {% if shiny.notes %}<p class="shiny-card__notes">{{ shiny.notes }}</p>{% endif %}
-    </article>
-  {% endfor %}
-</div>
+{% if pokemonShinies.recent and pokemonShinies.recent.length %}
+  <div class="shiny-grid">
+    {% for shiny in pokemonShinies.recent %}
+      <article class="shiny-card">
+        {% if shiny.image %}
+          <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}">
+        {% endif %}
+
+        <p class="shiny-card__dex">
+          #{{ shiny.dexDisplay or shiny.dexNo }}
+          {% if shiny.originGame %} · {{ shiny.originGame }}{% endif %}
+        </p>
+
+        <h3>
+          {{ shiny.nickname or shiny.species }}
+          {% if shiny.nickname %}
+            <span>{{ shiny.species }}</span>
+          {% endif %}
+        </h3>
+
+        <p>
+          {% if shiny.categoryLabel %}{{ shiny.categoryLabel }}{% endif %}
+          {% if shiny.methodLabel %}
+            {% if shiny.categoryLabel %} · {% endif %}{{ shiny.methodLabel }}
+          {% elif shiny.method %}
+            {% if shiny.categoryLabel %} · {% endif %}{{ shiny.method }}
+          {% endif %}
+        </p>
+
+        {% if shiny.eventName %}
+          <p>{{ shiny.eventName }}</p>
+        {% endif %}
+
+        {% if shiny.encounters and shiny.encounters != "N/A" %}
+          <p>{{ shiny.encounters }} encounters</p>
+        {% endif %}
+
+        {% if shiny.odds %}
+          <p>Odds: {{ shiny.odds }}</p>
+        {% endif %}
+
+        {% if shiny.caughtDate %}
+          <p>Caught {{ shiny.caughtDate }}</p>
+        {% endif %}
+
+        {% if shiny.mark %}
+          <p>Mark/Ribbon: {{ shiny.mark }}</p>
+        {% endif %}
+
+        {% if shiny.notes %}
+          <p class="shiny-card__notes">{{ shiny.notes }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <section class="shiny-card-section">
+    <div class="shiny-shrine-heading">
+      <p class="pc-kicker">No sparkles yet</p>
+      <h2>Nothing in the recent log</h2>
+    </div>
+
+    <p>
+      Add published shiny rows to the sheet, rebuild, and they’ll show up here.
+    </p>
+  </section>
+{% endif %}

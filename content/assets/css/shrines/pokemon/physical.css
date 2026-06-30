@@ -223,19 +223,3 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
-/* Physical page — keep stickers away from text */
-.shelf-card::after {
-  content: none !important;
-  display: none !important;
-  background-image: none !important;
-}
-
-.shelf-card__icon {
-  display: none !important;
-}
-
-.shelf-card h3 {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
