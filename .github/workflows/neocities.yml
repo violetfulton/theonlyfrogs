@@ -56,6 +56,7 @@ env:
   # --- TheGamesDB ---
   GAMES_CSV_URL: ${{ secrets.GAMES_CSV_URL }}
   THEGAMESDB_API_KEY: ${{ secrets.THEGAMESDB_API_KEY }}
+  THEGAMESDB_OFFLINE: "1"
 
 jobs:
   deploy:
