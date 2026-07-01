@@ -53,6 +53,10 @@ env:
   # --- Shiny Sheet ---
   SHINY_SHEET_CSV_URL: ${{ secrets.SHINY_SHEET_CSV_URL }}
 
+  # --- TheGamesDB ---
+  GAMES_CSV_URL: ${{ secrets.GAMES_CSV_URL }}
+  THEGAMESDB_API_KEY: ${{ secrets.THEGAMESDB_API_KEY }}
+
 jobs:
   deploy:
     name: Build and Deploy

@@ -108,3 +108,46 @@
   }
 }
 
+
+/* game collection badges */
+.game-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+}
+
+.game-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(77, 122, 89, 0.18);
+  color: #42624a;
+}
+
+.game-badge--physical {
+  background: rgba(255, 236, 246, 0.85);
+  color: #8a4d71;
+}
+
+.game-badge--digital {
+  background: rgba(225, 248, 236, 0.9);
+  color: #3f7654;
+}
+
+.game-badge--both {
+  background: rgba(238, 231, 255, 0.9);
+  color: #66519a;
+}
+
+.game-badge--unknown {
+  opacity: 0.75;
+}

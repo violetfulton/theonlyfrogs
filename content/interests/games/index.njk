@@ -7,31 +7,29 @@ customcss:
   - /assets/css/games/index.css
 ---
 
-
 <p class="platform-intro">pick a platform to browse my lil game shelf 🐸✨</p>
 
 <div class="platform-grid">
-  {% for p in rawgOwned.platforms %}
+  {% for p in gamesOwned.platforms %}
 
-    {# cute emoji mapping #}
     {% set icon = "🎮" %}
 
-{% if p.platform == "Nintendo 3DS" %}{% set icon = "🧩" %}{% endif %}
-{% if p.platform == "Nintendo DS" %}{% set icon = "📟" %}{% endif %}
-{% if p.platform == "Nintendo Game Boy Advance" %}{% set icon = "🟪" %}{% endif %}
-{% if p.platform == "Nintendo Switch" %}{% set icon = "🍄" %}{% endif %}
-{% if p.platform == "Nintendo Switch 2" %}{% set icon = "✨" %}{% endif %}
-{% if p.platform == "Nintendo Wii" %}{% set icon = "🎾" %}{% endif %}
-{% if p.platform == "Nintendo Wii U" %}{% set icon = "🔵" %}{% endif %}
+    {% if p.platform == "Nintendo 3DS" %}{% set icon = "🧩" %}{% endif %}
+    {% if p.platform == "Nintendo DS" %}{% set icon = "📟" %}{% endif %}
+    {% if p.platform == "Nintendo Game Boy Advance" %}{% set icon = "🟪" %}{% endif %}
+    {% if p.platform == "Nintendo Switch" %}{% set icon = "🍄" %}{% endif %}
+    {% if p.platform == "Nintendo Switch 2" %}{% set icon = "✨" %}{% endif %}
+    {% if p.platform == "Nintendo Wii" %}{% set icon = "🎾" %}{% endif %}
+    {% if p.platform == "Nintendo Wii U" %}{% set icon = "🔵" %}{% endif %}
 
-{% if p.platform == "PC" %}{% set icon = "🖥️" %}{% endif %}
+    {% if p.platform == "PC" %}{% set icon = "🖥️" %}{% endif %}
 
-{% if p.platform == "Sony PlayStation 2" %}{% set icon = "💿" %}{% endif %}
-{% if p.platform == "Sony PlayStation 3" %}{% set icon = "🔷" %}{% endif %}
-{% if p.platform == "Sony PlayStation 4" %}{% set icon = "🟦" %}{% endif %}
-{% if p.platform == "Sony PlayStation 5" %}{% set icon = "🖤" %}{% endif %}
-{% if p.platform == "Sony PS Vita" %}{% set icon = "💜" %}{% endif %}
-
+    {% if p.platform == "Sony PlayStation" %}{% set icon = "⬜" %}{% endif %}
+    {% if p.platform == "Sony PlayStation 2" %}{% set icon = "💿" %}{% endif %}
+    {% if p.platform == "Sony PlayStation 3" %}{% set icon = "🔷" %}{% endif %}
+    {% if p.platform == "Sony PlayStation 4" %}{% set icon = "🟦" %}{% endif %}
+    {% if p.platform == "Sony PlayStation 5" %}{% set icon = "🖤" %}{% endif %}
+    {% if p.platform == "Sony PS Vita" or p.platform == "PlayStation Vita" or p.platform == "Sony PlayStation Vita" %}{% set icon = "💜" %}{% endif %}
 
     <a class="platform-card" href="/games/{{ p.slug }}/">
       <div class="platform-icon" aria-hidden="true">{{ icon }}</div>
@@ -47,9 +45,10 @@ customcss:
   {% endfor %}
 </div>
 
-<p class="platform-attrib">
-  <a href="{{ rawgOwned.rawgAttribution.url }}" target="_blank" rel="noopener">
-    {{ rawgOwned.rawgAttribution.label }}
-  </a>
-</p>
-
+{% if gamesOwned.attribution %}
+  <p class="platform-attrib">
+    <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">
+      {{ gamesOwned.attribution.label }}
+    </a>
+  </p>
+{% endif %}

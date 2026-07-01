@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: rawgOwned.platforms
+  data: gamesOwned.platforms
   size: 1
   alias: platform
 
@@ -16,18 +16,21 @@ customcss:
 
 <div class="games-grid">
   {% for game in platform.games %}
-    {# fallback cover for null images #}
     {% set cover = game.image or "/assets/imgs/frog-placeholder.png" %}
-
-    {# publishers -> nice string #}
     {% set pubs = game.publishers | default([]) %}
     {% set pubsText = pubs | join(", ") %}
+    {% set gameUrl = game.sourceUrl or game.gamesDbUrl %}
 
-    <a class="game-card"
-       href="{{ game.rawgUrl }}"
-       target="_blank"
-       rel="noopener"
-       referrerpolicy="no-referrer">
+    {% if gameUrl %}
+      <a class="game-card"
+         href="{{ gameUrl }}"
+         target="_blank"
+         rel="noopener"
+         referrerpolicy="no-referrer">
+    {% else %}
+      <article class="game-card">
+    {% endif %}
+
       <img src="{{ cover }}" alt="{{ game.title }}" loading="lazy">
 
       <h3>{{ game.title }}</h3>
@@ -38,20 +41,39 @@ customcss:
         {% if pubsText %}{{ pubsText }}{% endif %}
       </p>
 
-      {% if game.format %}
-        <p class="notes">{{ game.format }}</p>
-      {% endif %}
-    </a>
+      <div class="game-badges">
+        {% if game.format %}
+          <span class="game-badge game-badge--{{ game.formatSlug }}">{{ game.format }}</span>
+        {% endif %}
+
+        {% if game.storefront %}
+          <span class="game-badge">{{ game.storefront }}</span>
+        {% endif %}
+
+        {% if game.edition %}
+          <span class="game-badge">{{ game.edition }}</span>
+        {% endif %}
+
+        {% if game.region %}
+          <span class="game-badge">{{ game.region }}</span>
+        {% endif %}
+      </div>
+
+    {% if gameUrl %}
+      </a>
+    {% else %}
+      </article>
+    {% endif %}
   {% endfor %}
 </div>
 
 <div class="platform-footer">
   <a class="platform-back" href="/games/"> back to platforms</a>
 
-  {% if rawgOwned.rawgAttribution %}
+  {% if gamesOwned.attribution %}
     <p class="platform-attrib">
-      <a href="{{ rawgOwned.rawgAttribution.url }}" target="_blank" rel="noopener">
-        {{ rawgOwned.rawgAttribution.label }}
+      <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">
+        {{ gamesOwned.attribution.label }}
       </a>
     </p>
   {% endif %}
