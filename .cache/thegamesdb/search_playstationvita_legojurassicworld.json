@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 26236,
+        "game_title": "LEGO Jurassic World",
+        "release_date": "2015-06-12",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Following the epic storylines of Jurassic Park, The Lost World: Jurassic Park and Jurassic Park III, as well as the highly anticipated Jurassic World, LEGO Jurassic World is the first videogame where players will be able to relive and experience all four Jurassic films. Reimagined in LEGO form and told in TT Games' signature classic LEGO humor, the thrilling adventure recreates unforgettable scenes and action sequences from the films, allowing fans to play through key moments and giving them the opportunity to fully explore the expansive grounds of Isla Nublar and Isla Sorna.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          9091
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "26236": [
+          {
+            "id": 338685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/26236-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=LEGO+Jurassic+World&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 418,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630007
+}

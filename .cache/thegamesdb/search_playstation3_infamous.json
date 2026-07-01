@@ -1,0 +1,566 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 16,
+    "games": [
+      {
+        "id": 815,
+        "game_title": "inFAMOUS",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Infamous is a 2009 PlayStation 3 video game developed by Sucker Punch Productions and released by Sony Computer Entertainment America in the USA on May 26, 2009.\r\n\r\nIn Infamous, the player controls the protagonist Cole MacGrath, a bike messenger caught in the center of an explosion that devastates several city blocks of the fictional Empire City. The explosion sends the city into chaos while Cole finds himself with new electricity-based super powers. Though the game's story follows Cole using his new abilities to restore some semblance of order to Empire City, the player is given several opportunities to use these powers for good or evil purposes in the game's Karma system. These choices ultimately affect character growth, the reaction of the City's populace towards Cole, and finer elements of gameplay and the story.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 105831,
+        "game_title": "inFamous",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 115285,
+        "game_title": "inFamous",
+        "release_date": "2009-05-29",
+        "platform": 12,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Infamous (stylized as inFAMOUS) is an action-adventure video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for PlayStation 3. The game was released in May 2009. In Infamous, the player controls the protagonist Cole MacGrath, a bike messenger caught in the center of an explosion that devastates several city blocks of the fictional Empire City. The explosion sends the city into chaos while Cole finds himself with new electricity-based super powers. Though the game's story follows Cole using his new abilities to restore some semblance of order to Empire City, the player is given several opportunities to use these powers for good or evil purposes in the game's Karma system. These choices ultimately affect character growth, the reaction of the city's populace towards Cole, and finer elements of gameplay and the story.\r\n\r\nSucker Punch developed Infamous as a change of pace from their earlier Sly Cooper series of stealth-based games, but using a similar comic book-inspired origin story to help the player become more connected with Cole. The game's pacing in the introduction of new super powers and ease of movement about the city by unconventional means were critical factors during development. The desolate urban atmosphere was inspired by comics such as DMZ and Batman: No Man's Land. Amon Tobin was among the artists that helped to compile its soundtrack, which aimed to reflect the environment.\r\n\r\nThe game was well received by the gaming press. It was praised for many of its elements, including the implementation of Cole's powers and climbing ability, and the game's mission structure. Reviewers commented on the repetitive nature of combat and enemies, limitations of the Karma system, and technical aspects in the graphical display. Infamous was compared to and contrasted with Prototype, a video game released the following month which had many elements similar to Infamous. The game was offered by Sony as a free download as part of their 'Welcome Back' program, after the 2011 PlayStation Network outage. The game was followed by a sequel, Infamous 2 in June 2011.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          27
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 100317,
+        "game_title": "Durnaya reputaciya [Platinum]",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 40,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 70493,
+        "game_title": "inFAMOUS (Special Edition)",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 76271,
+        "game_title": "inFAMOUS [Greatest Hits]",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Gameplay in the Infamous series is primarily an action-adventure third-person view platformer type across an open world environment. In the first two games and the spin-offs, the player controls Cole MacGrath, and in the third game, Delsin Rowe, Abigail 'Fetch' Walker, as they freely roam around the city, fighting crime or creating havoc along the way. Cole, Delsin, and Fetch can use their parkour skills to jump and climb buildings throughout the city, along with their powers to help them fight enemies. Their powers come from a gauge which depletes whenever they uses various attacks, and refills when they absorb electricity or smoke, neon, video and concrete from nearby objects or bodies, such as street lights, nearby smoke sources,(such as vents or burning cars) or neon lights or video appliances or bodies of the DUP. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 103213,
+        "game_title": "inFAMOUS [Not for Resale]",
+        "release_date": "2009-10-26",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 41003,
+        "game_title": "inFAMOUS 2",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Blamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential -- and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is-- will he choose to do so?",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 126522,
+        "game_title": "inFAMOUS 2",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Blamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential - and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is - will he choose to do so?",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 50868,
+        "game_title": "inFAMOUS 2 (Hero Edition)",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "inFAMOUS 2 Hero Edition includes exclusive limited edition 8.5\" Cole MacGrath statue, Replica Cole MacGrath sling pack, Super voucher that gives access to in game content – including the Lightning Hook Power, Electrocution Grenade Power, Kessler Skin, and 24K Gold Amp weapon variant, Mini inFAMOUS #1 comic from DC Comics, and the Official inFAMOUS 2 soundtrack.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 70494,
+        "game_title": "inFAMOUS 2 (Special Edition)",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Blamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential -- and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is-- will he choose to do so?",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 102137,
+        "game_title": "inFAMOUS 2 [Essentials]",
+        "release_date": "2011-06-09",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The BEAST is coming.\r\n\r\nCole MacGrath makes his electrifying return in inFAMOUS 2, the second chapter in the best-selling franchise exclusively for the PlayStation 3 system. Developed by Sucker Punch Productions, inFAMOUS 2 takes 2009's blockbuster to all-new heights in an immersive open world action adventure that offers a more visceral, emotional and powerful take on the true superhero experience.\r\n\r\nBlamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential - and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is- will he choose to do so?\r\n\r\ninFAMOUS 2 opens in Empire City as a massive explosion rips through the town signaling the birth of a new evil. Nearly escaping death by the dark entity known as \"The Beast\", Cole flees the city. Upon leaving, Cole discovers that \"The Beast\" has destroyed Empire City and is heading down the coast annihilating everything in its path.\r\n\r\nIn an effort to stop \"The Beast\" from destroying mankind, Cole heads to New Marais in search of a scientist who is believed to hold the key to defeating this dark entity. As the mystery of \"The Beast\" unfolds, Cole must learn to harness his powers for the sake of mankind.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          19
+        ]
+      },
+      {
+        "id": 119873,
+        "game_title": "inFAMOUS 2 [Essentials]",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "The BEAST is coming.\r\n\r\nCole MacGrath makes his electrifying return in inFAMOUS 2, the second chapter in the best-selling franchise exclusively for the PlayStation 3 system. Developed by Sucker Punch Productions, inFAMOUS 2 takes 2009's blockbuster to all-new heights in an immersive open world action adventure that offers a more visceral, emotional and powerful take on the true superhero experience.\r\n\r\nBlamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential - and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is- will he choose to do so?\r\n\r\ninFAMOUS 2 opens in Empire City as a massive explosion rips through the town signaling the birth of a new evil. Nearly escaping death by the dark entity known as \"The Beast\", Cole flees the city. Upon leaving, Cole discovers that \"The Beast\" has destroyed Empire City and is heading down the coast annihilating everything in its path.\r\n\r\nIn an effort to stop \"The Beast\" from destroying mankind, Cole heads to New Marais in search of a scientist who is believed to hold the key to defeating this dark entity. As the mystery of \"The Beast\" unfolds, Cole must learn to harness his powers for the sake of mankind.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          19
+        ]
+      },
+      {
+        "id": 105936,
+        "game_title": "inFamous 2 Collection",
+        "release_date": "2009-01-01",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 15678,
+        "game_title": "inFAMOUS: Festival of Blood",
+        "release_date": "2011-10-25",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Infamous: Festival of Blood is an action-adventure video game developed by Sucker Punch Productions for the PlayStation 3 video game console. Festival of Blood is a standalone expansion in the Infamous series based on the Infamous 2 engine and map but does not require a copy of Infamous 2 in order to play.\r\n\r\nThe story is set aside from the canon aspect of the Infamous series, being a spoof told by the main protagonist's friend Zeke Dunbar. The game features new characters, powers and comes with a new comic cutscene creation for the main game Infamous 2 '​s user-generated content (UGC), as well as support for the PlayStation Move controller. Unlike previous games, the game does not feature karmic choices on missions due to Cole's vampire state.\r\n\r\nInfamous: Festival of Blood – along with Infamous and Infamous 2 – was released on August 28, 2012 as part of the Infamous Collection under Sony's new line of PlayStation Collections for the PlayStation 3.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 13820,
+        "game_title": "inFAMOUS Collection",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Take the role of an accidental hero who has been granted extraordinary abilities. From his unexpected origins to the explosive finale, evolve your powers to fulfill your destiny. Will you defeat the evil that awaits you, or will you bring about the destruction of the world? The choice is yours.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          14
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "815": [
+          {
+            "id": 17005,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/815-1.jpg",
+            "resolution": "1533x1758"
+          },
+          {
+            "id": 17006,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/815-1.jpg",
+            "resolution": "1518x1755"
+          }
+        ],
+        "13820": [
+          {
+            "id": 39915,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13820-1.jpg",
+            "resolution": "431x500"
+          }
+        ],
+        "15678": [
+          {
+            "id": 380500,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15678-1.jpg",
+            "resolution": null
+          }
+        ],
+        "41003": [
+          {
+            "id": 213573,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41003-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 213574,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/41003-1.jpg",
+            "resolution": null
+          }
+        ],
+        "50868": [
+          {
+            "id": 205999,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50868-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70493": [
+          {
+            "id": 224811,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70493-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70494": [
+          {
+            "id": 224812,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70494-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76271": [
+          {
+            "id": 246838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76271-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 246839,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/76271-1.jpg",
+            "resolution": null
+          }
+        ],
+        "100317": [
+          {
+            "id": 343503,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100317-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 343504,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/100317-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102137": [
+          {
+            "id": 350036,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102137-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 350037,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/102137-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103213": [
+          {
+            "id": 353294,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103213-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105831": [
+          {
+            "id": 363510,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105831-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105936": [
+          {
+            "id": 363949,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105936-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115285": [
+          {
+            "id": 392462,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115285-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119873": [
+          {
+            "id": 411108,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119873-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126522": [
+          {
+            "id": 438945,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126522-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 438946,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/126522-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Infamous&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 634,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630039
+}

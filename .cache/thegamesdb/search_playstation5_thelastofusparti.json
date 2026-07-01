@@ -1,0 +1,220 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 101266,
+        "game_title": "The Last of Us Part I",
+        "release_date": "2022-09-02",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Abandoned cities reclaimed by nature. A population decimated by a modern plague. Survivors are killing each other for food, weapons; whatever they can get their hands on.\r\n\r\nJoel, a brutal survivor, and Ellie, a brave young teenage girl who is wise beyond her years, must work together if they hope to survive their journey across the US.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048,
+          4452,
+          4954,
+          5579
+        ]
+      },
+      {
+        "id": 121811,
+        "game_title": "The Last of Us Part I",
+        "release_date": "2022-09-02",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Poznaj poruszającą opowieść i niezapomniane postacie w The Last of Us – grze, która zdobyła ponad 200 nagród za tytuł roku.\r\n\r\nW spustoszonym świecie opanowanym przez zarażonych i niebezpiecznych ocalałych doświadczony przez życie Joel podejmuje się wyprowadzenia 14-letniej Ellie z objętej kwarantanną strefy wojskowej. Pozornie proste zadanie wkrótce zamienia się w niebezpieczną podróż po kraju.\r\n\r\nZawiera pełną opowieść dla jednego gracza z The Last of Us oraz nagradzany rozdział dodatkowy Left Behind, opowiadający o wydarzeniach z przeszłości Ellie i jej przyjaciółki Riley, które na zawsze zmieniły ich życia.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 101298,
+        "game_title": "The Last of Us Part I [Firefly Edition]",
+        "release_date": "2022-09-02",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Get The Last of Us Part I Firefly Edition, only available to buy as an exclusive directly from PlayStation.\r\n \r\nExperience the emotional storytelling and unforgettable characters of Joel and Ellie in The Last of Us, winner of over 200 Game of the Year awards and now rebuilt for PlayStation 5.\r\n \r\nEnjoy a total overhaul of the original experience, faithfully reproduced but incorporating modernized gameplay, improved controls and expanded accessibility options. Plus, feel immersed with improved effects and enhanced exploration and combat.\r\n \r\nThe Last of Us Part I Firefly Edition includes the complete The Last of Us single-player story (PS5) and celebrated prequel chapter, Left Behind; limited edition SteelBook display case; The Last of Us: American Dreams #1 - #4 comics reprint with new cover art; and early in-game unlocks.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 121310,
+        "game_title": "The Last of Us Part II Remastered",
+        "release_date": "2024-01-19",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Five years later\r\n\r\nAfter a deadly journey across post-pandemic USA, Ellie and Joel settle down in Wyoming.\r\n\r\nLiving in a thriving community gives them stability, despite the threat of the Infected and desperate survivors.\r\n\r\nWhen a violent event disrupts the peace, Ellie begins a relentless journey for justice. Hunting those responsible, she's confronted by devastating physical and emotional repercussions of her actions.\r\n\r\nDiscover an emotional story challenging your notions of right and wrong.\r\nAdventure in a beautiful, dangerous world from peaceful mountains to overgrown ruins.\r\nExperience action-survival gameplay of tense melee combat, fluid movement and dynamic stealth.\r\n\r\nExperience the winner of over 300 Game of the Year awards now with an array of technical enhancements that make The Last of Us Part II Remastered the definitive way to play Ellie and Abby’s critically acclaimed story.\r\n\r\nNative PS5 enhancements\r\nBuilt for the PS5 console, The Last of Us Part II Remastered enhances the original PS4 game in ways not possible before, including:\r\n\r\nA host of graphical improvements bring the beautiful-yet-dangerous world to life.\r\nVisual performance now outputs at 4K in Fidelity Mode.\r\nImproved loading times more quickly let you jump into action.\r\nFull DualSense™ wireless controller integration.\r\nNo Return – A Roguelike Survival Mode Experience The Last of Us Part II’s deep combat via an entirely new mode! Survive as long as you can in each run, as you choose your path through a series of randomized encounters. Play as a host of different unlockable characters, some never-before playable in The Last of Us franchise, each with unique gameplay traits. The variety of challenges feature different foes and memorable locations from throughout Part II, all culminating in tense boss battles.\r\n\r\nNew ways to play Delve deeper into this beloved adventure and learn how the original game was created.\r\n\r\nLost Levels lets you explore early-development versions of three new levels not seen in the original.\r\nEnjoy hours of new developer commentary to hear insights into Part II’s development as you experience the game.\r\nLive up to your musical potential with Guitar Free Play, which includes new unlockable instruments, or take on the new Speedrun Mode° and post your best times.\r\nDescriptive Audio°° and Speech to Vibrations have also been added to Part II's suite of accessibility features.\r\nThe Last of Us Part II Remastered also features brand new unlockable character and weapon skins for players to use for both Ellie and Abby.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          16
+        ],
+        "publishers": [
+          20,
+          2542,
+          4048,
+          5579
+        ]
+      },
+      {
+        "id": 122694,
+        "game_title": "The Last of Us Part II Remastered",
+        "release_date": "2024-01-19",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": [
+          4048
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "101266": [
+          {
+            "id": 388812,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101266-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388813,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/101266-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101298": [
+          {
+            "id": 347870,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101298-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121310": [
+          {
+            "id": 418793,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121310-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 427075,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/121310-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121811": [
+          {
+            "id": 423033,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121811-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 423034,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/121811-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122694": [
+          {
+            "id": 425485,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122694-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Last+of+Us+Part+I&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 72,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629953
+}

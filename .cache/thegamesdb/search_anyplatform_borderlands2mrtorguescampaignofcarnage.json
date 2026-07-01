@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 22371,
+        "game_title": "Borderlands 2: Mr. Torgue's Campaign of Carnage",
+        "release_date": "2012-11-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Mr. Torgue's Campaign of Carnage, by Gearbox Software and The Workshop, is the name for the second DLC installment of Borderlands 2.\r\n\r\nEnter Mr. Torgue's Campaign of Carnage” and see if you have what it takes to become champion of this brand new storyline in Borderlands 2.\r\n\r\nFight for the Big Loot against some of the baddest baddies in Pandora, including hordes of Biker Bandits. Plus, take special quests from Tiny Tina, Moxxi and others for extra rewards.\r\n\r\nAnd don't forget to bring your friends - those higher levels get pretty tough.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          12
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "22371": [
+          {
+            "id": 65556,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/22371-1.jpg",
+            "resolution": "1000x1426"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+2%3A+Mr.+Torgue%27s+Campaign+of+Carnage&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 176,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629969
+}

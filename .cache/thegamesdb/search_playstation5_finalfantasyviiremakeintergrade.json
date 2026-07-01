@@ -1,0 +1,136 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 83945,
+        "game_title": "Final Fantasy VII Remake Intergrade",
+        "release_date": "2021-06-10",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "FINAL FANTASY VII REMAKE INTERGRADE is an enhanced and expanded version of the critically acclaimed and award-winning FINAL FANTASY VII REMAKE for the PlayStation 5. FINAL FANTASY VII REMAKE INTERGRADE comes bundled with the brand-new episode featuring Yuffie as the main character, which introduces an exhilarating new story arc and numerous gameplay additions for players to enjoy. The new episode featuring Yuffie is a brand-new adventure in the world of FINAL FANTASY VII REMAKE INTERGRADE. Play as Wutai ninja Yuffie Kisaragi as she infiltrates Midgar and conspires with Avalanche HQ to steal the ultimate materia from the Shinra Electric Power Company. Play alongside new characters and enjoy an expanded gameplay experience featuring multiple new combat and gameplay additions. This adventure brings new perspective to the FINAL FANTASY VII REMAKE story that cannot be missed.\r\n\r\nFeatures:\r\n- Immerse yourself in the city of Midgar like never before, with improved textures, lighting, and background environments.\r\n- Players can switch between two game modes: \"Graphics Mode\" prioritizes 4K high-resolution graphics and \"Performance Mode\" prioritizes smooth action at 60 frames per second.\r\n- Capture and share your memorable moments from the game with a fully customizable “Photo Mode”.\r\n- Players can enjoy immersive battles by using the DualSense PlayStation 5 controller with its haptic feedback integration.\r\n- Play the brand-new episode featuring Yuffie and experience new combat and gameplay additions.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 113983,
+        "game_title": "Final Fantasy VII Remake Intergrade",
+        "release_date": "2021-06-10",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 7,
+        "overview": "FINAL FANTASY VII REMAKE INTERGRADE é uma edição aprimorada e expandida para PlayStation5 do prestigiado e premiado FINAL FANTASY VII REMAKE. Final Fantasy VII Remake Integarade faz parte de um conjunto que inclui um episódio inédito com Yuffie como protagonista, apresentando um novo e emocionante arco para a história e acrescentando novos elementos de jogo para diversão dos jogadores.\r\n\r\nUma experiência de jogo expandida: Divirta-se com uma experiência de jogo expandida, incluindo diversos novos elementos de combate e jogabilidade.\r\nEsta aventura traz uma nova perspectiva em relação à história de FINAL FANTASY VII REMAKE\r\nUma Aventura inédita: A fuga de Midgar e é o primeiro jogo do projeto FINAL FANTASY VII REMAKE INTERGRADE, é um pacote que reúne o REMAKE e o novo episódio da Yuffie.\r\nJogue na companhia de novos personagens: Nessa nova aventura, você joga com a famosa ninja de Wutai a partir de sua chegada em Midgar e na companhia de outro agente de Wutai,\r\nsua missão é se encontrar com o QG do Avalanche, se infiltrar no prédio da Shinra e roubar a Matéria mais poderosa de todas.\r\n\r\nUID: 2107045",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102911,
+        "game_title": "Final Fantasy VII: Remake Intergrade",
+        "release_date": "2021-06-10",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8304
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "83945": [
+          {
+            "id": 275344,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83945-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102911": [
+          {
+            "id": 352454,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102911-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113983": [
+          {
+            "id": 388011,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113983-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388012,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113983-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+VII+Remake+Intergrade&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 121,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629961
+}

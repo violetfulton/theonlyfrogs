@@ -1,0 +1,174 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 75116,
+        "game_title": "Gyakuten Saiban 123: Naruhodō Selection",
+        "release_date": "2019-02-21",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Phoenix Wright: Ace Attorney Trilogy, known in Japan as Gyakuten Saiban 123: Naruhodō Selection, is a compilation video game of the first 3 games in the Ace Attorney series, Phoenix Wright: Ace Attorney, Justice for All, and Trials and Tribulations.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 63901,
+        "game_title": "Phoenix Wright: Ace Attorney Trilogy",
+        "release_date": "2019-04-09",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Defend the innocent and save the day! Courtroom hero Phoenix Wright lays down the law this Winter in the digital release of Phoenix Wright: Ace Attorney Trilogy. Experience the original trilogy like never before in clear, high-resolution re-drawn graphics and immersive 3D visuals optimized for the Nintendo 3DS system. Join rookie lawyer Phoenix Wright through the early years of his career in his quest to find the truth behind all of the classic cases! Prepare for intense courtroom showdowns by investigating crime scenes, collecting evidence, and questioning witnesses. Use evidence and the testimonies of witnesses to your advantage as you battle for the innocence of your client. Nothing less of a full acquittal will do in this court of law. Find the contradictions in witnesses' testimonies to expose the truth! As a new feature, the Japanese version of the game, \"Gyakuten Saiban 123 Naruhodo Selection,\" will be included, giving players the option to switch between the Japanese and English versions in-game. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 100853,
+        "game_title": "Phoenix Wright: Ace Attorney Trilogy",
+        "release_date": "2019-04-09",
+        "platform": 4919,
+        "region_id": 3,
+        "country_id": 11,
+        "overview": "Defend the innocent and save the day! Courtroom hero Ryuichi Naruhodo lays down the law in the release of Phoenix Wright: Ace Attorney Trilogy. Join rookie lawyer Ryuichi Naruhodo through the early years of his career in his quest to find the truth behind all of the classic cases! Prepare for intense courtroom showdowns by investigating crime scenes, collecting evidence, and questioning witnesses. Use evidence and the testimonies of witnesses to your advantage as you battle for the innocence of your client. Nothing less of a full acquittal will do in this court of law. Find the contradictions in witnesses' testimony to expose the truth!\r\n\r\nFeatures:\r\n- Rookie attorney Phoenix Wright's first three games, all in one package!\r\n- There's been a murder! Uncover the truth to save your Innocent client! Now with improved gameplay features!\r\n- Games Included - Phoenix Wright: Ace Attorney, Phoenix Wright: Ace Attorney - Justice For All, and Phoenix Wright: Ace Attorney - Trials and Tribulations.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1446
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99492,
+        "game_title": "Gyakuten Saiban 123: Naruhodō Selection [Collector's Package]",
+        "release_date": "2019-02-21",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Collector's Package version of Gyakuten Saiban 123: Naruhodō Selection (Phoenix Wright: Ace Attorney Trilogy) that includes a copy of the PlayStation 4 game, and a soundtrack CD.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "63901": [
+          {
+            "id": 263637,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63901-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75116": [
+          {
+            "id": 242981,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/75116-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 324702,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75116-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99492": [
+          {
+            "id": 339205,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99492-1.jpg",
+            "resolution": null
+          }
+        ],
+        "100853": [
+          {
+            "id": 378753,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100853-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 378754,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/100853-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phoenix+Wright%3A+Ace+Attorney+Trilogy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 345,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629996
+}

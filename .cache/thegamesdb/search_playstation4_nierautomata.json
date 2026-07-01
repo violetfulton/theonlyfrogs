@@ -1,0 +1,294 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 35050,
+        "game_title": "NieR: Automata",
+        "release_date": "2017-03-07",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Nier: Automata (Japanese: ニーア オートマタ Hepburn: Nīa Ōtomata?, stylized as NieR:Automata) is an upcoming action role-playing game developed by PlatinumGames and published by Square Enix for the PlayStation 4. The game is set in the same universe as Nier, a spin-off of the Drakengard series.\r\n\r\nProduction began in 2014, with series creator Taro Yoko, producer Yosuke Saito, and composer Keiichi Okabe returning to their respective roles. Atsushi Inaba is acting as co-producer for PlatinumGames, while regular Square Enix artist Akihiko Yoshida designed the main characters. The goal was to make a new Nier game true to the spirit of the original, while creating better action gameplay.\r\n\r\nPlayers will control multiple characters through action-based gameplay, with the ability to rotate the in-game camera 360 degrees. New playable characters are unlocked with each playthrough and story route. While stated to be a high-action game, the developers have said that it will likely retain the role-playing elements of the original Nier. It is planned to retain the previous game's mixture of gameplay styles. Gameplay is generally focused around melee weapons, but some shooting elements are also planned. Weapon Stories, a recurring element in Drakengard and Nier of stories attached to weapons found around the world, are also planned",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 112083,
+        "game_title": "NieR: Automata",
+        "release_date": "2017-03-10",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 55548,
+        "game_title": "NieR: Automata - 3C3C1D119440927",
+        "release_date": "2017-05-02",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "This DLC pack adDS \"Revealing Outfit\" costume for 2B, \"Young Man's Outfit\" costume for 9S and \"Destroyer's Outfit\" costume for A2. AfteR completing new sub quests in this DLC, you CAn enJOy playing the game while wearing these costumes from NieR Replicant. Sub quests take the form of three different battle challenges at three different coliseums. Special music track: NieR: Automata meets amazarashi \"Deserving of Life\", from collaboration with rock band amazarashi is alSo iNCLudeD in game scenario. We woULD bE delighted to see yOu hAVinG fuN with this content.\r\n\r\n*To enjoy this content you will need to have progressed a certain way into the main story of the game. There are also some scenes during the progression of the main game scenario in which this content cannot be accessed.\r\n\r\nAlso included is the amazarashi head pod skin accessory allowing you to alter the appearance of your pod to look like an amazarashi head.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 63653,
+        "game_title": "NieR: Automata - Game of the YoRHa Edition",
+        "release_date": "2019-02-26",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Humanity has been driven from the Earth by mechanical beings from another world. In a final effort to take back the planet, the human resistance sends a force of android soldiers to destroy the invaders. Now, a war between machines and androids rages on... A war that could soon unveil a long-forgotten truth of the world.\r\n\r\nUPC / Barcode: 662248922225",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 96066,
+        "game_title": "NieR: Automata - Game of the YoRHa Edition",
+        "release_date": "2019-02-21",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Released after the original launch of NieR:Automata, the 3C3C1D119440927 Expansion DLC is included in the Game of the YoRHa Edition. It adds a host of new content to the game, including new story, costumes and arena battles.\r\nHere’s what you get:\r\n•\tThree new outfits - the Revealing Outfit for 2B, the Young Man’s Outfit for 9S and the Destroyer Outfit for A2.\r\n•\tA series of challenging battles in three very different colosseums, including literal boss fights with Square Enix’s CEO Yosuke Matsuda and Platinum’s CEO Kenichi Sato.\r\n•\tNew story elements that expands on NieR:Automata’s fascinating world\r\n•\tNew hairsprays and accessories - change the look of 2B and 9S with new hair colours, masks and more. \r\n•\tNew Jukebox tracks - critics fell in love with production company MONACA and composer Okabe Keiichi’s soundtrack for NieR:Automata. The included DLC pack adds even more songs to play on the game’s Jukebox.\r\n\r\nThe NieR:Automata Game of the YoRHa Edition includes pod skins such as the Grimoire Weiss Pod, Retro Grey Pod Skin, Retro Red Pod Skin and the Cardboard Pod Skin. \r\nAlso the PS4 version gives you the amazarashi Head Pod Skin, a Dynamic Theme and 15 PSN avatars. \r\n\r\n\r\n\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 101420,
+        "game_title": "NieR: Automata - Game of the YoRHa Edition",
+        "release_date": "2019-02-21",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Released after the original launch of NieR:Automata, the 3C3C1D119440927 Expansion DLC is included in the Game of the YoRHa Edition. It adds a host of new content to the game, including new story, costumes and arena battles.\r\nHere’s what you get:\r\n•\tThree new outfits - the Revealing Outfit for 2B, the Young Man’s Outfit for 9S and the Destroyer Outfit for A2.\r\n•\tA series of challenging battles in three very different colosseums, including literal boss fights with Square Enix’s CEO Yosuke Matsuda and Platinum’s CEO Kenichi Sato.\r\n•\tNew story elements that expands on NieR:Automata’s fascinating world\r\n•\tNew hairsprays and accessories - change the look of 2B and 9S with new hair colours, masks and more.\r\n•\tNew Jukebox tracks - critics fell in love with production company MONACA and composer Okabe Keiichi’s soundtrack for NieR:Automata. The included DLC pack adds even more songs to play on the game’s Jukebox.\r\nThe NieR:Automata Game of the YoRHa Edition includes pod skins such as the Grimoire Weiss Pod, Retro Grey Pod Skin, Retro Red Pod Skin and the Cardboard Pod Skin.\r\nAlso the PS4 version gives you the amazarashi Head Pod Skin, a Dynamic Theme and 15 PSN avatars.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 112084,
+        "game_title": "NieR: Automata [Day One Edition]",
+        "release_date": "2017-03-10",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 118725,
+        "game_title": "NieR: Automata [Day One Edition]",
+        "release_date": "2017-03-07",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "The distant future…Invaders from another world attack without warning, unleashing a new type of threat: weapons known as “machine lifeforms.” In the face of this insurmountable threat, mankind is driven from Earth and takes refuge on the Moon. As 2B, a member of the newly organized android military force YoRHa, players will immerse themselves in a ferocious battle to take back the planet.\r\n\r\nExperience a captivating story that goes beyond simple entertainment, inspiring a wide array of emotions as it unfolds through genre blending action in a beautifully desolate open world.\r\n\r\nThe Day One Edition of NieR:Automata includes:\r\n• Reversible Cover\r\n• Machine Mask Accessory\r\n• Grimoire Weiss Pod\r\n• Play System Pod Skin\r\n• Retro Grey Pod Skin\r\n• Retro Red Skin\r\n• Cardboard Pod Skin",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1829
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35050": [
+          {
+            "id": 406021,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35050-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 406022,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/35050-1.jpg",
+            "resolution": null
+          }
+        ],
+        "55548": [
+          {
+            "id": 137711,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55548-1.jpg",
+            "resolution": "1024x1024"
+          }
+        ],
+        "63653": [
+          {
+            "id": 336710,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63653-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96066": [
+          {
+            "id": 336709,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96066-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101420": [
+          {
+            "id": 383468,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101420-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112083": [
+          {
+            "id": 383465,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112083-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112084": [
+          {
+            "id": 383466,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112084-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118725": [
+          {
+            "id": 406060,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118725-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 406061,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/118725-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=NieR%3A+Automata&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 349,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629997
+}

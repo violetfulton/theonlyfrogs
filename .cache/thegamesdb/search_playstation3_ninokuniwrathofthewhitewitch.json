@@ -1,0 +1,211 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 108462,
+        "game_title": "Ni no Kuni: Wrath of the White Witch",
+        "release_date": "2013-02-01",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2796
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 14536,
+        "game_title": "Ni no Kuni: Wrath of the White Witch",
+        "release_date": "2013-01-22",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Ni no Kuni: Wrath of the White Witch, a heart-warming tale of a young boy named Oliver, who embarks on a journey into a parallel world in an attempt to bring his mother back from the dead. Along the way, Oliver makes new friends and adopts many of the wonderful creatures that inhabit the world, raising them to battle other creatures on his behalf as he takes on formidable enemies. Developed by LEVEL-5 with animation by the legendary Studio Ghibli, Ni no Kuni: Wrath of the White Witch combines beautiful animated visuals, masterful storytelling and a sweeping score into an epic role-playing adventure like no other.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 76845,
+        "game_title": "Ni no Kuni: Wrath of the White Witch - Wizard's Edition (EU)",
+        "release_date": "2013-02-01",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 74055,
+        "game_title": "Ni No Kuni: Wrath of the White Witch [Greatest Hits]",
+        "release_date": "2013-02-01",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 53135,
+        "game_title": "Ni no Kuni: Wrath of the White Witch [Wizard's Edition]",
+        "release_date": "2013-01-22",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A rather attractive box set has been announced for upcoming PS3 RPG Ni No Kuni: Wrath of the White Witch, publisher Namco Bandai has revealed.\r\n\r\nThe special set is named “Wizard’s Edition” and includes a hardback version of the spellbook used by the game’s protagonist, Oliver, which is more than 300 pages long. There’s also a plush doll with the likeness of in-game companion Drippy and exclusive DLC in the form of Golden Drongo and Goldenmite familiars.\r\n\r\nWe don’t yet know the price but for that much stuff, albeit absolutely lovely stuff, it’s probably not too cheap.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14536": [
+          {
+            "id": 41959,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14536-1.jpg",
+            "resolution": "1500x1500"
+          },
+          {
+            "id": 44228,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14536-1.jpg",
+            "resolution": "1527x1757"
+          }
+        ],
+        "53135": [
+          {
+            "id": 133719,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/53135-1.jpg",
+            "resolution": "4032x3024"
+          },
+          {
+            "id": 373729,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53135-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74055": [
+          {
+            "id": 318487,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74055-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76845": [
+          {
+            "id": 248755,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76845-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 248756,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/76845-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108462": [
+          {
+            "id": 373737,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108462-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 373738,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/108462-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ni+no+Kuni%3A+Wrath+of+the+White+Witch&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 626,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630038
+}

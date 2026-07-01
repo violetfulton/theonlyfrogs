@@ -1,0 +1,238 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 122103,
+        "game_title": "Pokémon Saphir Alpha",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 23587,
+        "game_title": "Pokémon Alpha Sapphire",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Prepare for an epic adventure exploring a world filled with Pokémon in Pokémon Omega Ruby for the Nintendo 3DS family of systems. Your adventure takes place in Hoenn, a region that consists of a main island that stretches widely from east to west, along with countless small islets that dot the deep blue sea around it. A live volcano steams constantly in the heart of this green-covered island. Look forward to a region rich with natural beauty, a variety of Pokémon, and extraordinary people! During your journey through Hoenn, you’ll be able to build and invite friends to visit your personal Super-Secret Base! Come up with your own Secret Base design, including selecting and placing Decorations however you like. You can also use Super-Secret Bases to play a capture-the-flag activity.Stop Team Aqua from going after the Legendary Pokémon Kyogre. And look out for Omega Ruby. Plus a all new MEGA EVOLUTIONS as well.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 101692,
+        "game_title": "Pokémon Alpha Sapphire",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 68318,
+        "game_title": "Pokémon Alpha Sapphire Limited Edition",
+        "release_date": "2014-11-28",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 50,
+        "overview": "Soar high above the Hoenn region on an unforgettable quest to be the very best Pokémon Trainer. As you catch, battle, and train a variety of Pokémon, you’ll unleash powerful new Mega Evolutions. Seek out Legendary Pokémon from regions near and far while and uncover the secret powers of Primal Groudon and Primal Kyogre!\r\n\r\nThe Pokémon Omega Ruby and Pokémon Alpha Sapphire games deliver the excitement of the original Pokémon Ruby and Pokémon Sapphire games now reimagined and remastered from the ground up to take full advantage of the Nintendo 3DS and Nintendo 2DS. With new Mega Evolutions of past Pokémon, new characters and stories, new areas to explore, new ways to find and catch Pokémon, and new ways to travel, these games offer hours of entertainment for both current Pokémon fans nd players just getting into the series!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 71602,
+        "game_title": "Pokémon Alpha Sapphire Pokéball Edition",
+        "release_date": "2015-10-30",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Soar high above the Hoenn region on an unforgettable quest to be the very best Pokémon Trainer. As you catch, battle, and train a variety of Pokémon, you’ll unleash powerful new Mega Evolutions. Seek out Legendary Pokémon from regions near and far while and uncover the secret powers of Primal Groudon and Primal Kyogre! The Pokémon Omega Ruby and Pokémon Alpha Sapphire games deliver the excitement of the original Pokémon Ruby and Pokémon Sapphire games now reimagined and remastered from the ground up to take full advantage of the Nintendo 3DS and Nintendo 2DS. With new Mega Evolutions of past Pokémon, new characters and stories, new areas to explore, new ways to find and catch Pokémon, and new ways to travel, these games offer hours of entertainment for both current Pokémon fans nd players just getting into the series!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 40102,
+        "game_title": "Pokémon Omega Ruby and Pokémon Alpha Sapphire Dual Pack",
+        "release_date": "2014-11-28",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokémon Omega Ruby and Pokémon Alpha Sapphire take players on a journey like no other as they collect, battle and trade Pokémon while trying to stop a shadowy group with plans to alter the Hoenn region forever.\r\n\r\nIn addition to both games, the Dual Pack includes a pair of in-game download codes that can be redeemed for 100 Potions each. Starting a new Pokémon game with 100 extra Potions is a treat for players who want to be well-stocked for their epic journey through the Hoenn region.\r\n\r\nEmbark on a new adventure through the Hoenn region, an area rich in natural beauty, that contains a cave that shows a scene described in legends.\r\n\r\nExperience the awe of Primal Reversion, a new, extremely powerful transformation undergone by Legendary Pokémon Groudon and Kyogre.\r\n\r\nGet even closer to solving the mysteries of Mega Evolution as more Pokémon gain this powerful ability.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23587": [
+          {
+            "id": 84908,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23587-1.jpg",
+            "resolution": "1382x1236"
+          }
+        ],
+        "40102": [
+          {
+            "id": 279049,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/40102-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68318": [
+          {
+            "id": 278916,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68318-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71602": [
+          {
+            "id": 227350,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71602-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 397071,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/71602-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101692": [
+          {
+            "id": 348883,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101692-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122103": [
+          {
+            "id": 422668,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122103-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Alpha+Sapphire&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 471,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630015
+}

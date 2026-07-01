@@ -1,0 +1,101 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 104663,
+        "game_title": "Slime Rancher 2",
+        "release_date": "2022-09-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game.\r\n \r\n Slime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 10 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover.\r\n \r\n As Beatrix attempts to unravel the island’s secrets and uncover its true purpose, she’ll build, ranch, and farm within a beautiful conservatory, whose sparkling glass walls give her full view of the prismatic paradise she now calls home.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          5686
+        ],
+        "genres": [
+          2,
+          27
+        ],
+        "publishers": [
+          3672
+        ]
+      },
+      {
+        "id": 34653,
+        "game_title": "Slime Rancher",
+        "release_date": "2017-08-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "What is Slime Rancher? \r\nSlime Rancher is the tale of Beatrix LeBeau, a plucky, young rancher who sets out for a life a thousand light years away from Earth on the ‘Far, Far Range’ where she tries her hand at making a living wrangling slimes. With a can-do attitude, plenty of grit, and her trusty vacpack, Beatrix attempts to stake a claim, amass a fortune, and avoid the continual peril that looms from the rolling, jiggling avalanche of slimes around every corner. \r\n\r\nSounds great! Give me more details! \r\nSlime Rancher is a first-person, sandbox experience where players will solve problems and survive through mastery of their vacpack: a vacuum/cannon/backpack that can vacuum up and blast out anything that isn’t nailed to the ground. \r\n\r\nEach day will present new challenges to players as they attempt to amass a great fortune in the business of slime ranching. While players are free to approach these challenges however they wish, a typical day might look like this: \r\n\r\nYou wake at the crack of dawn and get to watering the crops at the ranch. Some slimes are vegetarian, after all. Then it’s time to gather up the plumpest hens from the chicken coop. Some slimes are totally not vegetarian, after all. \r\n\r\nNext, you’re off to feed slimes their breakfast over at the slime corrals so they don’t get too out of hand during the day. Hungry slimes get jumpy. Jumpy slimes can’t be contained. \r\n\r\nWith your ranch set for the day, it’s time to begin exploring the untamed wilds of the Far, Far Range. Along the way, you’ll encounter slimes you’ve never seen before, discover a new type of veggie to cultivate back at the ranch, and narrowly avoid certain doom in a valley of burly, feral slimes. \r\n\r\nWith the sun setting, it’s time to head back to the ranch, rustle up some dinner for your slimes, and try and figure out just how the heck you’ll keep these new slimes that seem to, well, explode all the time. \r\n\r\nBut you can do this. You had the courage to travel a thousand light years away from home to make a living as a slime rancher. Slimes that go boom? No problem. Slimes that burn with a radioactive aura? Bring it on. Slimes that wiggle their butts? Wait, do slimes even have butts?\r\nLet’s get ranching.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5686
+        ],
+        "genres": [
+          1,
+          2,
+          3
+        ],
+        "publishers": [
+          3672
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "34653": [
+          {
+            "id": 97553,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/34653-1.jpg",
+            "resolution": "2160x3080"
+          }
+        ],
+        "104663": [
+          {
+            "id": 358337,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104663-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Slime+Rancher+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 713,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630051
+}

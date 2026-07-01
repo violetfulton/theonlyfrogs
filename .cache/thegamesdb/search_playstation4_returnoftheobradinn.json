@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 75100,
+        "game_title": "Return of the Obra Dinn",
+        "release_date": "2020-07-24",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "In 1802, the merchant ship Obra Dinn set out from London for the Orient with over 200 tons of trade goods. Six months later it hadn't met its rendezvous point at the Cape of Good Hope and was declared lost at sea. \r\n\r\nEarly this morning of October 14th, 1807, the Obra Dinn drifted into port at Falmouth with damaged sails and no visible crew. As insurance investigator for the East India Company's London Office, dispatch immediately to Falmouth, find means to board the ship, and prepare an assessment of damages.\r\n\r\nReturn of the Obra Dinn is a first-person mystery adventure based on exploration and logical deduction.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          71
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3733
+        ]
+      },
+      {
+        "id": 87901,
+        "game_title": "Return of the Obra Dinn [Collector's Edition]",
+        "release_date": "2021-06-11",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "In 1802, the merchant ship Obra Dinn set out from London for the Orient with over 200 tons of trade goods. Six months later it hadn't met its rendezvous point at the Cape of Good Hope and was declared lost at sea. \r\n\r\nEarly this morning of October 14th, 1807, the Obra Dinn drifted into port at Falmouth with damaged sails and no visible crew. As insurance investigator for the East India Company's London Office, dispatch immediately to Falmouth, find means to board the ship, and prepare an assessment of damages.\r\n\r\nReturn of the Obra Dinn is a first-person mystery adventure based on exploration and logical deduction.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3733
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "75100": [
+          {
+            "id": 302436,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75100-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87901": [
+          {
+            "id": 291775,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87901-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Return+of+the+Obra+Dinn&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 363,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629999
+}

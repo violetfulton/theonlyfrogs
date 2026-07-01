@@ -1,0 +1,137 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 117265,
+        "game_title": "Helldivers II",
+        "release_date": "2023-12-31",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          640
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 123091,
+        "game_title": "Helldivers II",
+        "release_date": "2024-02-08",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Fight for freedom across a hostile galaxy in this frenetic third-person cooperative team shooter.\r\nJoin forces with up to four friends and wreak havoc on an alien scourge threatening the safety of your home planet, Super Earth, in this multiplayer co-op shooter for PS5 and PC from Arrowhead Game Studios.\r\n\r\nStep into the boots of the Helldivers, an elite class of soldiers whose mission is to spread peace, liberty and Managed Democracy using the biggest, baddest, and most explosive tools in the galaxy.\r\n\r\nHelldivers don't go planet-side without proper backup, but it’s up to you to decide how and when to call it in. Not only do you have a host of superpowered primary weapons and customizable load-outs, you also have the ability to call on stratagems during play.\r\n\r\nHelldivers 2 features Arrowhead's best cooperative gameplay yet. Collaboration will be vital: Teams will synergize on load-outs, strategize their approach for each mission and complete objectives together.\r\n\r\n• Fight for Super Earth - Freedom. Peace. Managed Democracy. Your Super Earth-born rights. The key pillars of our civilization are under attack from deadly alien creatures conspiring to destroy your planet and its values. The Helldivers must take on the role of peacekeepers in this Galactic War and protect their home planet, spread the message of Democracy and repel the hostiles by force\r\n\r\n• Wield Overpowered Weapons - Decide how to take down each enemy surge using a multitude of offensive and defensive tools. Need to take out a massive onslaught of Terminids in one go? Call in a hellpod drop a 500KG bomb, leaving behind only liberated bug corpses. Need to lay down a defensive perimeter? Bring in an Anti-Personnel Mine Deployer to boobytrap the battlefield. As you complete missions, you can upgrade your ship and build an even more impressive arsenal. Everything from shield generators, to turrets, to large-scale airstrikes can be used to give your team the upper-hand\r\n\r\n• Aim Carefully - They say everything is better with friends, especially when it comes to raining destruction down on the enemies of Liberty! Be warned though: for maximum challenge and collaboration, friendly fire is always on. Communicate with your squadmates and make sure your arsenal only takes down your adversaries\r\n\r\nSubtitles: Chinese, English, Korean",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          640
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 126155,
+        "game_title": "Helldivers II",
+        "release_date": "2024-02-08",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 42,
+        "overview": "",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          640
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          4048
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "117265": [
+          {
+            "id": 400293,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117265-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123091": [
+          {
+            "id": 430862,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123091-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 430863,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/123091-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126155": [
+          {
+            "id": 437488,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126155-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Helldivers+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 106,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629958
+}

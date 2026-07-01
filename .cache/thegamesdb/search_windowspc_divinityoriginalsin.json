@@ -1,0 +1,194 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 124479,
+        "game_title": "Divinity: Original Sin",
+        "release_date": "2014-06-30",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Get ready for a back-to-the-roots RPG adventure! Discuss your decisions with companions; fight foes in turn-based combat; explore an open world and interact with everything and everyone you see. Play with friends online in co-op and make your own adventures with the powerful RPG toolkit. In Divinity: Original Sin you take on the role of a young Source Hunter: your job is to rid the world of those who use the foulest of magics. When you embark on what should have been a routine murder investigation, you suddenly find yourself in the middle of a plot that will rattle the very fabric of time. The Source Hunter downloadable pack includes several unique digital features.\r\n\r\n• Become part of a reactive, living and vast open world. Explore many different environments, fight all kinds of fantastical creatures and discover tons of desirable items.\r\n• Experience gripping party and turn-based combat. Manipulate the environment and use skill & spell combos to overcome your many foes: Use magic to make it rain then cast a lightning spell to fry enemies to a crisp.\r\n• Play with a friend in co-op multiplayer. Make decisions together (or disagree entirely), as your interactions and relationship with your partner influence the game.\r\n• Unravel a deep and epic story, set in the early days of the Divinity universe. No prior experience with other Divinity games is necessary however, the game takes place well before its predecessors Divine Divinity and Divinity II: The Dragon Knight Saga.\r\n• Classless character creation lets you design the character of your choice. Endless item interaction and combinations take exploration and experimentation to another level of freedom.\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4881
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          934
+        ]
+      },
+      {
+        "id": 10221,
+        "game_title": "Divinity: Original Sin",
+        "release_date": "2014-06-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "About This Game\r\nGather your party and get ready for a new, back-to-the-roots RPG adventure! Discuss your decisions with companions; fight foes in turn-based combat; explore an open world and interact with everything and everyone you see. Join up with a friend to play online in co-op and make your own adventures with the powerful RPG toolkit. \r\n\r\nIn Divinity: Original Sin you take on the role of a young Source Hunter: your job is to rid the world of those who use the foulest of magics. When you embark on what should have been a routine murder investigation, you suddenly find yourself in the middle of a plot that will rattle the very fabric of time. \r\n\r\nDivinity: Original Sin is a game that gives you a lot of freedom and plenty of gameplay mechanics to use or abuse. The game's epic story may drive you toward your ultimate end-goal, but how you get there is entirely up to you. \r\n\r\nOr up to you and a friend, because Divinity: Original Sin can be played completely cooperatively, and features both online and local drop-in/drop-out multiplayer. Great adventures become even greater when shared with a trusted comrade-in-arms!\r\nKey Features\r\nBecome part of a reactive, living and vast open world. Explore many different environments, fight all kinds of fantastical creatures and discover tons of desirable items. \r\nExperience gripping party- and turn-based combat. Manipulate the environment and use skill & spell combos to overcome your many foes: Use magic to make it rain on your enemies, then cast a lightning spell to fry them to a crisp. Experiment with different skill combinations to ruin the day for enemies and townspeople alike. \r\nPlay with a friend in co-op multiplayer. Make decisions together (or disagree entirely), as your interactions and relationship with your partner influence the game. \r\nUnravel a deep and epic story, set in the early days of the Divinity universe. No prior experience with other Divinity games is necessary, however. The game takes place well before its predecessors, Divine Divinity and Divinity II: The Dragon Knight Saga, but will still feel familiar to fans. \r\nClassless character creation lets you design the character of your choice. Endless item interaction and combinations take exploration and experimentation to another level of freedom. \r\nCreate your own adventures and share them online. With Original Sin comes the powerful toolset used by the game's designers. Yours are endless new stories to make and share with other players!\r\nDigital Collector's Edition\r\nThe Digital Collector's Edition contains: \r\n\r\n2 copies of Divinity: Original Sin: one for you and pass on the second key to a friend \r\nAward-winning Divine Divinity and Beyond Divinity \r\nThe Golden Grail DLC: an in-game item that allows you to colour your items in gold and sell them for more. \r\nZandalor's Trunks DLC: enjoy a unique in-game undergarment as rare as it is opinionated. \r\nDesign Documents \r\nArt Pack \r\nSoundtrack",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4881
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          934
+        ]
+      },
+      {
+        "id": 88459,
+        "game_title": "Divinity: Original Sin Enhanced Edition",
+        "release_date": "2015-10-28",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Gather your party and get back to the roots of great RPG gameplay. Discuss your decisions with companions; fight foes in turn-based combat; explore an open world and interact with everything and everyone you see.\r\n\r\nYou take on the role of a young Source Hunter: your job is to rid the world of those who use the foulest of magics. Embarking on what should have been a routine murder investigation, you find yourself in the middle of a plot that threatens to destroy the very fabric of time.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4881
+        ],
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          934
+        ]
+      },
+      {
+        "id": 50001,
+        "game_title": "Divinity: Original Sin II",
+        "release_date": "2017-09-14",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Divine is dead. The Void approaches. And the powers lying dormant within you are soon to awaken. The battle for Divinity has begun. Choose wisely and trust sparingly; darkness lurks within every heart.\r\n\r\nWho will you be?\r\nA flesh-eating Elf, an Imperial Lizard or an Undead, risen from the grave? Discover how the world reacts differently to who - or what - you are.\r\n\r\nIt’s time for a new Divinity!\r\nGather your party and develop relationships with your companions. Blast your opponents in deep, tactical, turn-based combat. Use the environment as a weapon, use height to your advantage, and manipulate the elements themselves to seal your victory.\r\n\r\nAscend as the god that Rivellon so desperately needs.\r\nExplore the vast and layered world of Rivellon alone or in a party of up to 4 players in drop-in/drop-out cooperative play. Go anywhere, unleash your imagination, and explore endless ways to interact with the world. Beyond Rivellon, there’s more to explore in the brand-new PvP and Game Master modes.\r\n\r\n- Choose your race and origin. Choose from 6 unique origin characters with their own backgrounds and quests, or create your own as a Human, Lizard, Elf, Dwarf, or Undead. All choices have consequences.\r\n\r\n- Unlimited freedom to explore and experiment. Go anywhere, talk to anyone, and interact with everything! Kill any NPC without sacrificing your progress, and speak to every animal. Even ghosts might be hiding a secret or two…\r\n\r\n- The next generation of turn-based combat. Blast your opponents with elemental combinations. Use height to your advantage. Master over 200 skills in 12 skill schools. But beware - the game’s AI 2.0 is our most devious invention to date.\r\n\r\n- Up to 4 player online and split-screen multiplayer. Play with your friends online or in local split-screen with full controller support.\r\n\r\n- Game Master Mode: Take your adventures to the next level and craft your own stories with the Game Master Mode. Download fan-made campaigns and mods from Steam Workshop.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          4881
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          934
+        ]
+      },
+      {
+        "id": 88460,
+        "game_title": "Divinity: Original Sin II - Definitive Edition",
+        "release_date": "2017-09-14",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Divinity: Original Sin 2 - Definitive Edition. The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          6
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "10221": [
+          {
+            "id": 70210,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/10221-1.jpg",
+            "resolution": "840x1080"
+          },
+          {
+            "id": 70354,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10221-1.jpg",
+            "resolution": "774x1080"
+          }
+        ],
+        "50001": [
+          {
+            "id": 131010,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50001-1.jpg",
+            "resolution": "305x425"
+          }
+        ],
+        "88459": [
+          {
+            "id": 294059,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88459-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88460": [
+          {
+            "id": 294060,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88460-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124479": [
+          {
+            "id": 432545,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124479-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Divinity%3A+Original+Sin&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 978,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630097
+}

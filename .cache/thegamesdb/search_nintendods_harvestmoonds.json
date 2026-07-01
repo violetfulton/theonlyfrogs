@@ -1,0 +1,277 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 15220,
+        "game_title": "Harvest Moon DS",
+        "release_date": "2006-09-12",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harvest Moon DS is a farm simulation role-playing video game for the Nintendo DS, part of the Story of Seasons series. It was published and developed by Marvelous Interactive Inc., and released in Japan on March 17, 2005. It is the first entry in the series without series creator Yasuhiro Wada heavily involved, though it borrows many assets from Harvest Moon: Friends of Mineral Town and Harvest Moon: A Wonderful Life, such as the graphical style from the former and setting of the latter.",
+        "players": null,
+        "rating": null,
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 15218,
+        "game_title": "Harvest Moon DS: Sunshine Islands",
+        "release_date": "2009-11-12",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The islands are in peril! Years ago, a powerful earthquake struck the Sunshine Islands. In Harvest Moon: Sunshine Islands, it's up to the player to raise the sunken islands by finding the magical Sun Stones. Raise the islands to meet new characters, harvest new crops, and befriend animals such as ducks, monkeys, and badgers. In Harvest Moon: Sunshine Islands, players rejoin all of the beloved characters from Harvest Moon: Island of Happiness, and get to meet a number of new friends as well. Players will grow and harvest crops, care for animals, mine, fish, and compete in festivals in their quest to restore the Sunshine Islands to their former glory. With a little luck, they may even find true love and start a family along the way.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10165
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          130
+        ]
+      },
+      {
+        "id": 14404,
+        "game_title": "Harvest Moon DS: The Tale of Two Towns",
+        "release_date": "2011-09-20",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harvest Moon: Tale of Two Towns is a Life Simulation Role-playing Game (RPG) for Nintendo DS. The game features classic Life Sim gameplay involving farming, the raising and care of animals and eventual marriage. Additional features include an all-new storyline involving the player in an ongoing rivalry between two towns, the ability to play as either a boy or a girl, an in-game quest bulletin board system, wireless functionality allowing you to visit friends in-game fields, new in-game activities and more.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5276
+        ],
+        "genres": [
+          4,
+          9,
+          12
+        ],
+        "publishers": [
+          130
+        ]
+      },
+      {
+        "id": 14323,
+        "game_title": "Harvest Moon DS Cute",
+        "release_date": "2008-03-28",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harvest Moon DS Cute (牧場物語コロボックルステーションforガール bokujō monogatari korobokkuru sutēshon for gāru?) is the female version of Harvest Moon DS for the Nintendo DS. It was published and developed by Marvelous Interactive Inc., and first released in Japan on December 8, 2005. Harvest Moon DS Cute replaces the male protagonist from Harvest Moon DS with a female character; players may choose either Pony from Harvest Moon: Another Wonderful Life or Claire from Harvest Moon: More Friends of Mineral Town. The Japanese version introduced a system not present in the North American version known as the \"Best Friend\" system. This allowed the player to essentially marry any of the bachelorettes from Harvest Moon DS, as well as the bachelors.\r\n\r\n \r\nThe plot of Harvest Moon DS Cute is different than that of Harvest Moon DS. In this version of the game, the player's mother sends a wish to the Harvest Goddess that you may be a successful farmer. The Harvest Goddess eventually determines the player has no work ethic, and tells the Harvest King what she thinks. The Harvest King angrily tells the Harvest Goddess she isn't trying hard enough, and she is slacking off in her old age. The Harvest Goddess then calls the Harvest King a \"big baldy\", and is turned into stone. The Harvest Sprites defend the Harvest Goddess, which angers the Harvest King even more, and he sends the Harvest Sprites and the Harvest Goddess to another world as punishment. He then",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5276
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          130
+        ]
+      },
+      {
+        "id": 103970,
+        "game_title": "Harvest Moon DS: Girl",
+        "release_date": "2005-12-08",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The game starts out with the Harvest Goddess and her Harvest Sprites standing over your bed while you are asleep discussing what to do with you. The Harvest Goddess says she promised your mother that she'd make you work. However, she decides that your character is too lazy, and gives up almost immediately.\r\n\r\nThe Harvest King appears, surprising everyone, and is obviously not pleased with the Harvest Goddess's decision. They both insult each other, with even the Harvest Sprites joining in, until the Harvest King becomes furious and turns the Goddess to stone. The sprites are angry, and insult the King even more, to which he responds by banishing them. He leaves just as the character wakes up. The Witch Princess appears and informs you that it is your job now to get back the 101 Sprites and rescue the Harvest Goddess.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5276
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          130
+        ]
+      },
+      {
+        "id": 15221,
+        "game_title": "Harvest Moon DS: Grand Bazaar",
+        "release_date": "2010-08-24",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harvest Moon DS: Grand Bazaar is a video game released on December 18, 2008 by Marvelous Interactive in Japan, and released on August 24, 2010 by Natsume in North America. It was also released in Europe on September 30, 2011 by Rising Star Games. The game is the nineteenth game in the Story of Seasons series and the fifth game in the series for the Nintendo DS.\r\n\r\nIn this Harvest Moon title, players are tasked with returning Zephyr Town's bazaar back to its former glory, as well as growing crops, raising animals, and romancing some of the villagers.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10165
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          130
+        ]
+      },
+      {
+        "id": 15219,
+        "game_title": "Harvest Moon DS: Island of Happiness",
+        "release_date": "2008-08-26",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Harvest Moon: Island of Happiness you develop the island by growing crops and taking care of animals and expanding your farm. The better you do, the more the island will grow, and the more others will start to move onto the island. Though it was not your original dream, now is you chance to create your very own paradise!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10042
+        ],
+        "genres": [
+          6,
+          9
+        ],
+        "publishers": [
+          279
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14323": [
+          {
+            "id": 455753,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14323-1.jpg",
+            "resolution": null
+          }
+        ],
+        "14404": [
+          {
+            "id": 127669,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14404-1.jpg",
+            "resolution": "640x563"
+          },
+          {
+            "id": 203277,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14404-1.jpg",
+            "resolution": null
+          }
+        ],
+        "15218": [
+          {
+            "id": 205778,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15218-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 205779,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15218-1.jpg",
+            "resolution": null
+          }
+        ],
+        "15219": [
+          {
+            "id": 202178,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15219-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 202179,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15219-1.jpg",
+            "resolution": null
+          }
+        ],
+        "15220": [
+          {
+            "id": 127667,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15220-1.jpg",
+            "resolution": "800x717"
+          },
+          {
+            "id": 455750,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15220-1.jpg",
+            "resolution": null
+          }
+        ],
+        "15221": [
+          {
+            "id": 43474,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15221-1.jpg",
+            "resolution": "1500x1347"
+          },
+          {
+            "id": 127662,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15221-1.jpg",
+            "resolution": "1348x673"
+          }
+        ],
+        "103970": [
+          {
+            "id": 355759,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103970-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Harvest+Moon+DS&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 592,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630033
+}

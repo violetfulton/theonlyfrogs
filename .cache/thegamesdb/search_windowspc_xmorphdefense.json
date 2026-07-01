@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 54161,
+        "game_title": "X-Morph: Defense",
+        "release_date": "2017-08-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Unique fusion of a top down shooter and tower defense strategy. You are the invader! Use destructive weapons or lead you enemies into a maze of towers. Strategize in the build mode by carefully selecting various types of alien towers or throw yourself right into the heat of the battle.",
+        "players": 2,
+        "rating": null,
+        "developers": [
+          2937
+        ],
+        "genres": [
+          1,
+          6,
+          8
+        ],
+        "publishers": [
+          836
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "54161": [
+          {
+            "id": 135762,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54161-1.jpg",
+            "resolution": "260x360"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=X-Morph%3A+Defense&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 747,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630057
+}

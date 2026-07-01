@@ -1,0 +1,77 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 24441,
+        "game_title": "Pokémon Rumble",
+        "release_date": "2009-06-16",
+        "platform": 9,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokémon Rumble (titled Melee! Pokémon Scramble (乱戦！ポケモンスクランブル Ransen! Pokemon Sukuranburu?) in Japan)[4] is an action video game in the Pokémon series for WiiWare. In North America, the game costs 1500 Nintendo Points.\r\n\r\nPokemon Rumble is an action game in which you control Toy Pokemon and take on wave after wave of other Pokemon in a variety of stages. You can befriend some of the defeated Pokemon along the way, which lets you add them to your collection and grants you the ability to use them in battle. Switch between collected Pokemon at any time, taking advantage of the fact that the amount of damage you deal depends on the type of move used and the type of PokAmon hit. Be the last one standing to gain the right to compete in the Battle Royale and test your skills against many PokAmon at once. You can also team up with three people for some multiplayer action (additional Wii Remote controllers required), working together to take down tough Bosses and earning points that can be used toward recruiting or training Pokemon. You can even save your favorite Pokemon to your Wii Remote controller for exchanges with friends. Combining beautiful cel-shaded graphics and exciting game-play features, this is one rumble you won't want to miss.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          423
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "24441": [
+          {
+            "id": 207925,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/24441-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 415230,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24441-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Rumble&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=9&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 994,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630099
+}

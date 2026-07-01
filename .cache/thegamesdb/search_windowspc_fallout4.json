@@ -1,0 +1,601 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 18,
+    "games": [
+      {
+        "id": 29227,
+        "game_title": "Fallout 4",
+        "release_date": "2015-11-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.\r\n\r\nFreedom and Liberty! - Do whatever you want in a massive open world with hundreds of locations, characters, and quests. Join multiple factions vying for power or go it alone, the choices are all yours.\r\n\r\nYou're S.P.E.C.I.A.L! - Be whoever you want with the S.P.E.C.I.A.L. character system. From a Power Armored soldier to the charismatic smooth talker, you can choose from hundreds of Perks and develop your own playstyle.\r\n\r\nSuper Deluxe Pixels! - An all-new next generation graphics and lighting engine brings to life the world of Fallout like never before. From the blasted forests of the Commonwealth to the ruins of Boston, every location is packed with dynamic detail.\r\n\r\nViolence and V.A.T.S.! - Intense first or third person combat can also be slowed down with the new dynamic Vault-Tec Assisted Targeting System (V.A.T.S) that lets you choose your attacks and enjoy cinematic carnage.\r\n\r\nCollect and Build! - Collect, upgrade, and build thousands of items in the most advanced crafting system ever. Weapons, armor, chemicals, and food are just the beginning - you can even build and manage entire settlements.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 85552,
+        "game_title": "Fallout 4 VR",
+        "release_date": "2017-12-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fallout 4, the legendary post-apocalyptic adventure from Bethesda Game Studios and winner of more than 200 ‘Best Of’ awards, including the DICE and BAFTA Game of the Year, finally comes in its entirety to VR. Fallout 4 VR includes the complete core game with all-new combat, crafting, and building systems fully reimagined for virtual reality. The freedom of exploring the wasteland comes alive like never before.\r\n\r\nAs the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 80117,
+        "game_title": "Fallout 4: Automatron",
+        "release_date": "2016-03-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Automatron is the first add-on for Fallout 4, released on March 22, 2016. It requires the player character to be level 15 to start playing.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 80596,
+        "game_title": "Fallout 4: Contraptions Workshop",
+        "release_date": "2016-06-21",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Contraptions Workshop is the fourth add-on for Fallout 4 and the second workshop add-on. It was released on June 21, 2016.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 81257,
+        "game_title": "Fallout 4: Far Harbor",
+        "release_date": "2016-05-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 60276,
+        "game_title": "Fallout 4: Game of the Year Edition",
+        "release_date": "2017-09-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home. Freedom and Liberty! - Do whatever you want in a massive open world with hundreds of locations, characters, and quests. Join multiple factions vying for power or go it alone, the choices are all yours. You're S.P.E.C.I.A.L! - Be whoever you want with the S.P.E.C.I.A.L. character system. From a Power Armored soldier to the charismatic smooth talker, you can choose from hundreds of Perks and develop your own playstyle. Super Deluxe Pixels! - An all-new next generation graphics and lighting engine brings to life the world of Fallout like never before. From the blasted forests of the Commonwealth to the ruins of Boston, every location is packed with dynamic detail. Violence and V.A.T.S.! - Intense first or third person combat can also be slowed down with the new dynamic Vault-Tec Assisted Targeting System (V.A.T.S) that lets you choose your attacks and enjoy cinematic carnage. Collect and Build! - Collect, upgrade, and build thousands of items in the most advanced crafting system ever. Weapons, armor, chemicals, and food are just the beginning - you can even build and manage entire settlements.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1010
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 60274,
+        "game_title": "Fallout 4: Game of the Year Edition Pip-Boy Edition",
+        "release_date": "2017-09-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home. Freedom and Liberty! - Do whatever you want in a massive open world with hundreds of locations, characters, and quests. Join multiple factions vying for power or go it alone, the choices are all yours. You're S.P.E.C.I.A.L! - Be whoever you want with the S.P.E.C.I.A.L. character system. From a Power Armored soldier to the charismatic smooth talker, you can choose from hundreds of Perks and develop your own playstyle. Super Deluxe Pixels! - An all-new next generation graphics and lighting engine brings to life the world of Fallout like never before. From the blasted forests of the Commonwealth to the ruins of Boston, every location is packed with dynamic detail. Violence and V.A.T.S.! - Intense first or third person combat can also be slowed down with the new dynamic Vault-Tec Assisted Targeting System (V.A.T.S) that lets you choose your attacks and enjoy cinematic carnage. Collect and Build! - Collect, upgrade, and build thousands of items in the most advanced crafting system ever. Weapons, armor, chemicals, and food are just the beginning - you can even build and manage entire settlements.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1010
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 80598,
+        "game_title": "Fallout 4: Vault-Tec Workshop",
+        "release_date": "2016-07-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Vault-Tec Workshop is the fifth add-on for Fallout 4 and the third workshop add-on. It was released on July 26th, 2016.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 235,
+        "game_title": "Fallout",
+        "release_date": "1997-09-30",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Gameplay in Fallout consists of traveling around the game world, visiting locations and interacting with the local inhabitants, and is typically in real-time. Occasionally, inhabitants will be immersed in dilemmas which the player may choose to solve in order to acquire karma and experience points. Alternately, the player may choose to ignore requests for help, in which case he or she has the option of acting on behalf of an opposing faction, or purely in self-interest. Experience points may still be rewarded if the player acts for an opposing interest or in self-interest. Ultimately, players will encounter hostile opponents (if such encounters are not avoided using stealth or diplomacy), in which case they and the player will engage in combat.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1143
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          62
+        ]
+      },
+      {
+        "id": 2419,
+        "game_title": "Fallout 2",
+        "release_date": "1998-09-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "During 2241, Arroyo suffered the worst drought on record. Faced with the calamity, the village elders asked the direct descendant of the Vault Dweller, referred to as the Chosen One, to perform the quest of retrieving a Garden of Eden Creation Kit (GECK) for Arroyo. The GECK is a device that can create thriving communities out of the post-apocalyptic wasteland.[4]\r\n\r\nThe player, assuming the role of the Chosen One, is given nothing more than the Vault Dweller's jumpsuit, a RobCo PIPBoy 2000 handheld device, a Vault 13 water flask, a spear and some cash to start on his mission.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1142
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          62
+        ]
+      },
+      {
+        "id": 86,
+        "game_title": "Fallout 3",
+        "release_date": "2008-10-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 61679,
+        "game_title": "Fallout 76",
+        "release_date": "2018-11-14",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 124152,
+        "game_title": "FlatOut",
+        "release_date": "2004-11-05",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Modes in FlatOut include standard lap races, in either open environments or stadium laps, and demolition derby deathmatches, in which the driver of the sole-surviving vehicle declared the winner; both modes pit players against 7 computer-controlled opponents. The game also includes special events which require the player to toss the driver off of his/her vehicle and meet certain requirements. In career mode, pick up your future top racer from the junkyard. Winnings come in the form of cash, which allows players to purchase vehicle upgrades and new vehicles.r",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1373
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          251
+        ]
+      },
+      {
+        "id": 124153,
+        "game_title": "FlatOut",
+        "release_date": "2004-11-05",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Modes in FlatOut include standard lap races, in either open environments or stadium laps, and demolition derby deathmatches, in which the driver of the sole-surviving vehicle declared the winner; both modes pit players against 7 computer-controlled opponents. The game also includes special events which require the player to toss the driver off of his/her vehicle and meet certain requirements. In career mode, pick up your future top racer from the junkyard. Winnings come in the form of cash, which allows players to purchase vehicle upgrades and new vehicles.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1373
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          251
+        ]
+      },
+      {
+        "id": 1314,
+        "game_title": "FlatOut",
+        "release_date": "2004-11-05",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Modes in FlatOut include standard lap races, in either open environments or stadium laps, and demolition derby deathmatches, in which the driver of the sole-surviving vehicle declared the winner; both modes pit players against 7 computer-controlled opponents. The game also includes special events which require the player to toss the driver off of his/her vehicle and meet certain requirements. In career mode, pick up your future top racer from the junkyard. Winnings come in the form of cash, which allows players to purchase vehicle upgrades and new vehicles.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1373
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          251
+        ]
+      },
+      {
+        "id": 124157,
+        "game_title": "FlatOut 2",
+        "release_date": "2006-08-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Experience the drive of your life as you throw yourself around on and off the track causing fences to shatter, tyre walls explode, water tanks and barrels fly across the track into other cars. And if anyone, including you, gets caught up in a big smash sit back and watch as the driver gets catapulted through the windscreen in spectacular effect. With over 5000 destructible objects on each track and 40 deformable pieces on every car sparks are guaranteed to fly increasing the mayhem with every lap!",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1373
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          251,
+          635
+        ]
+      },
+      {
+        "id": 1313,
+        "game_title": "FlatOut 2",
+        "release_date": "2006-06-30",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Experience the drive of your life as you throw yourself around on and off the track causing fences to shatter, tyre walls explode, water tanks and barrels fly across the track into other cars. And if anyone, including you, gets caught up in a big smash sit back and watch as the driver gets catapulted through the windscreen in spectacular effect. With over 5000 destructible objects on each track and 40 deformable pieces on every car sparks are guaranteed to fly increasing the mayhem with every lap!",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1373
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          251
+        ]
+      },
+      {
+        "id": 8469,
+        "game_title": "FlatOut 3: Chaos & Destruction",
+        "release_date": "2011-12-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "FlatOut 3: Chaos & Destruction brings a new dimension to high speed destruction racing. \r\nFeel the adrenaline pulse through your veins as you barrel through insane race tracks against monster trucks, race cars, off road vehicles and much more. \r\nFlatOut 3: Chaos & Destruction is demolition racing at its extreme. Real world physics with 9 different game modes, and over 47 different vehicles available. Players may choose to race, smash and destroy their opponents in a wide variety of online and offline options. \r\nLay waste to farm houses, fences, and then wreak havoc in a Detroit suburb, race up the walls in giant waste disposal sewers. Let the chaos begin as you race through over 60 different tracks, narrowly avoiding wrecking balls, Double Decker buses and much more. \r\nCreate as much destruction in the all new monster tuck mode. \r\nChoose from 20 different playable characters, select your weapon from the 47 available vehicles! Create as much Chaos & Destruction! In stuntman mode anarchy rules create havoc with some rag doll fun.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          8541
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          560
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "86": [
+          {
+            "id": 11280,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/86-1.jpg",
+            "resolution": "1504x2105"
+          },
+          {
+            "id": 409247,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86-1.jpg",
+            "resolution": null
+          }
+        ],
+        "235": [
+          {
+            "id": 10666,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/235-1.jpg",
+            "resolution": "1513x2149"
+          },
+          {
+            "id": 10667,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/235-1.jpg",
+            "resolution": "1709x2149"
+          }
+        ],
+        "1313": [
+          {
+            "id": 77486,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/1313-1.jpg",
+            "resolution": "1535x2175"
+          },
+          {
+            "id": 83206,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/1313-1.jpg",
+            "resolution": "1532x2175"
+          }
+        ],
+        "1314": [
+          {
+            "id": 3262,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/1314-1.jpg",
+            "resolution": "276x400"
+          }
+        ],
+        "2419": [
+          {
+            "id": 5059,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2419-1.jpg",
+            "resolution": "500x500"
+          }
+        ],
+        "8469": [
+          {
+            "id": 23826,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/8469-1.jpg",
+            "resolution": "600x851"
+          }
+        ],
+        "29227": [
+          {
+            "id": 87131,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/29227-1.jpg",
+            "resolution": "1050x1500"
+          },
+          {
+            "id": 113937,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/29227-1.jpg",
+            "resolution": "850x1200"
+          }
+        ],
+        "60274": [
+          {
+            "id": 200518,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60274-1.jpg",
+            "resolution": null
+          }
+        ],
+        "60276": [
+          {
+            "id": 206452,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60276-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61679": [
+          {
+            "id": 204892,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61679-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80117": [
+          {
+            "id": 262575,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80117-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80596": [
+          {
+            "id": 262576,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80596-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80598": [
+          {
+            "id": 262578,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80598-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81257": [
+          {
+            "id": 263765,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81257-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85552": [
+          {
+            "id": 282192,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85552-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124152": [
+          {
+            "id": 431338,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124152-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124153": [
+          {
+            "id": 431339,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124153-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124157": [
+          {
+            "id": 431397,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124157-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 431398,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/124157-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fallout+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 962,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630094
+}

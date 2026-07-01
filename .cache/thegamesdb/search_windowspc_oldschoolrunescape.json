@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 107760,
+        "game_title": "Old School RuneScape",
+        "release_date": "2013-02-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Greetings, adventurer! Rooted in the origin of MMOs, Old School RuneScape is the only ever-lasting, ever-evolving adventure that is shaped by you.\r\n\r\nReleased way back in 2013, Old School RuneScape is RuneScape as you *used* to know it! Based on the 2007 build of the globally popular open world fantasy MMORPG, Old School is constantly updated with improvements and new content voted on by you, the fans! The close relationship between developers and players is central to what makes Old School so magical.\r\n\r\no, you want to be a master cook? Or a powerful mage? Whether you’re here for the rich story and lore, the challenging combat, to fight alongside others or against them, to journey alone or simply to experience the magical world of Gielinor, Old School can be any adventure you want.\r\n\r\n Master 23 diverse skills across a huge array of play styles\r\n Take on over 140 quests spanning the fascinating and varied game world\r\n Confront dozens and dozens of bosses\r\n Risk everything in an assortment of PvP encounters\r\n Profit from a thriving and dynamic in-game economy",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          4,
+          14,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "107760": [
+          {
+            "id": 371171,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107760-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Old+School+RuneScape&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 832,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630072
+}

@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 87521,
+        "game_title": "Borderlands: Claptrap's New Robot Revolution",
+        "release_date": "2010-09-28",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Claptrap's New Robot Revolution invites recruits to attempt to beat down the deadly Claptrap revolution either as a lone gunman or in co-op teams of four treasure hunters using many of the more than 17 million unique weapons available in the game. Brave volunteers will find themselves caught in the lethal cross hairs between the Hyperion Corporation's fortified armadas and the ever-growing army of homicidal Claptraps and \"Claptrap-ified\" enemies led by one of the most eagerly awaited characters in the franchise's history - the cunning Ninja Assassin Claptrap.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87521": [
+          {
+            "id": 290424,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87521-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands%3A+Claptrap%27s+New+Robot+Revolution&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 187,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629971
+}

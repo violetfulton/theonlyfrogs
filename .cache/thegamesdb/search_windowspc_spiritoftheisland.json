@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 102619,
+        "game_title": "Spirit of the Island",
+        "release_date": "2022-03-16",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "There’s an old tradition running in your homeland: to become an adult and complete the coming of age ritual, you must go on a journey of discovery. Your adventure begins on a distant island, deep in a tropical Archipelago. What was once a prosperous tourist destination is now a shade of its former glory: and it’s your job to bring it back to life! Explore the Archipelago, meet the locals, and lend them a hand to restore the tourist paradise… while you try to uncover the mysteries of your past!\r\n\r\nSETTLING IN A NEW PLACE\r\nYour tropical life will be a busy one, so grab your tools and let’s get started! First things first: you’ll need a source of food, a place to spend the night in, and some resources to build a farm and kickstart your tropical journey. So what are you waiting for — time to explore your lands!\r\n\r\nA PLETHORA OF ACTIVITIES\r\nThere’s plenty to do in Spirit of the Island! No matter how you choose to spend your time, you will gain experience and improve your skills, unlock new recipes, and become more efficient at everything you do, which will make your new life easier.\r\n\r\nSpirit of the Island features 10 unique skills, such as farming, mining, foraging, social, and even fishing, which comes as its own special mini-game. Will you become a true master of all?\r\n\r\nYOUR JOURNEY TO A TOURIST PARADISE\r\nMake your island not only a welcoming home but also a booming tourist paradise, with fancy shops and landmarks. The more tourists you get, the better your economy will be, which is a crucial step to fund your journeys to the faraway Islands.\r\nBut how do you please them all, and what do you sell in your stores? That’s where your skills will come in handy! Sell local produce; open museums to display the treasure and secrets you uncover on your adventures. We bet some of your visitors could even buy a couple of quality wooden planks, so do your best to improvise!\r\n\r\nTHE BEST TRIP EVER\r\nEach tourist will have a chance to love your Island so much that they’ll decide to stay, adding to the Town’s population. This part is crucial since you can hire them to do various things for you, such as tending to your shops and helping you maintain the Island. So do your best to make their trip a fantastic one!\r\n\r\nTHE POWER OF TWO\r\nOne of the main features of Spirit of the Island is a 2-player cooperative mode, where you can do… everything together! You will have all single-player mode features (even quests) available in online play, and it will also feature its own unique story. SOTI also features Resource Sharing, meaning that you can bring some of the resources you find over to your own multiplayer campaign — how cool is that? Build a farm, grow crops and make delicious dishes, build a store and sell your produce to tourists, explore the vast Archipelago to find treasure, and discover the secrets of the tropical paradise! So invite your friend and start your coop journey right now!\r\n\r\nVAST TROPICAL ARCHIPELAGO\r\nSpirit of the Island features 14 unique explorable islands, each with its own fauna, secrets, and dangers. Information on who - or what - inhabits these islands has been lost to history, but you will find mysterious caves guarded by ancient creatures — are you brave enough to explore them and uncover the mysteries within? Doing so will net you neat rewards and help you proceed towards your final goal: revealing the secret of your past.\r\n\r\nTHE LOCAL COMMUNITY\r\nThe Archipelago is bustling with life! Meet more than 14 unique characters, each with its own distinct traits and quirks. And yes, there are romance options as well! Depending on your character, you’ll be able to romance and marry different NPCs and hold a grandiose wedding in the end!\r\n\r\nAN EVENTFUL LIFE\r\nOne of the unique features of Spirit of the Island is events — a series of recurring occurrences happening through each in-game year (4 months). They will come in various forms: from NPCs birthdays and the Ocean Day — a traditional Holiday to celebrate the birth of the Ocean — to your own unique events. There’s always something fun happening in Town, so make sure to check your calendar often!",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          4,
+          9,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "102619": [
+          {
+            "id": 351683,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102619-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spirit+of+the+Island&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 717,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630052
+}

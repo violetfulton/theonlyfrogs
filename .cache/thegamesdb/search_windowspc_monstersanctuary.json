@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 96328,
+        "game_title": "Monster Sanctuary",
+        "release_date": "2020-12-08",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Master the Monster Sanctuary!\r\nDelve deep into the Metroidvania inspired world of Monster Sanctuary, explore the expansive lands and call upon your monsters to lend their aid in and out of combat! Use their unique skills to fly, ride and brute force your way through environmental puzzles and precise platforming! The world is yours to traverse as you see fit, are you ready to take on the Sanctuary?\r\n\r\n\r\nCollect, Evolve and Battle!\r\nYour quest begins with a choice of an ancient spectral familiar, a wistful monster who will guide your first steps into the sanctuary. They will be by your side as you catch your first of 101 monsters. From here it is up to you to hatch, collect and train monsters from across the world! Each possesses unique abilities and a skill tree for you to customise as your team grows in strength.\r\n\r\n\r\nBattle it out in Strategic Combat!\r\nStrategically order your attacks for maximum efficiency, stacking your attacks to deal devastating combos! Grind and find your strongest team to earn the rarest of monster eggs! Encounter formidable foes, endurance challenges and train an unbeatable team!\r\n\r\n\r\nClash in Head to Head Battles Across the Globe!\r\nFace off in a test of skill and ability in online player vs player! Gather and train monsters, max out their skill trees and take on friends and foes in an epic battle to have the last monsters standing!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4,
+          15
+        ],
+        "publishers": [
+          370
+        ]
+      },
+      {
+        "id": 61539,
+        "game_title": "Master X Master",
+        "release_date": "2017-06-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Master X Master (MXM) is an Action MOBA that combines direct character control with a revolutionary TAG System, allowing you to swap between your two chosen Masters at any time during combat. With over 30 Masters at launch, an extraordinarily deep and highly skill-based combat design, Master customization and leveling, and a breadth of PvP and PvE content, MXM has something for everyone!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          6,
+          10,
+          11
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61539": [
+          {
+            "id": 204544,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61539-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96328": [
+          {
+            "id": 325314,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96328-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Sanctuary&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 861,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630077
+}

@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 18253,
+        "game_title": "Starbound",
+        "release_date": "2013-12-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Starbound, you take on the role of a character who’s just fled from their home planet, only to crash-land on another. From there you’ll embark on a quest to survive, discover, explore and fight your way across an infinite universe.\r\n\r\nYou’ll encounter procedurally generated creatures and weapons, discover populated villages and abandoned temples. Explore planets dotted with dungeons, eyeball trees and treasure. Make use of over a hundred materials and over one thousand in-game objects to build a sprawling modern metropolis or a sleepy secluded cabin in the woods, and do all of it alone or with friends!\r\n\r\nStarbound lets you live out your own story of space exploration, discovery and adventure. Settle down and farm the land, hop from planet to planet claiming resources, or make regular visits to populated settlements, taking on jobs and earning a living. NPCs are scattered about the worlds, offering quests and challenges for those looking for a little extra excitement in their lives.\r\n\r\nTraverse the stars with the starmap to find endless procedurally generated planets and creatures. Discover new crops, creatures and weapons, capture monsters to keep as companions and clear dungeons of their loot.\r\n\r\nComplete quest lines that let you delve into the greater galactic mysteries! Who created the Glitch? What is Big Ape’s secret? Why are the Hylotl so uptight? From abandoned bunkers to creepy temples, Starbound’s richly detailed universe offers a host of places to investigate and tales to unfold. Follow the story or create your own, experience the game how YOU want to.",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          1636
+        ],
+        "genres": [
+          12
+        ],
+        "publishers": [
+          1874
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18253": [
+          {
+            "id": 51133,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18253-1.png",
+            "resolution": "640x640"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Starbound&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 763,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630060
+}

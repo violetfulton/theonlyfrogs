@@ -1,0 +1,103 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 87560,
+        "game_title": "Tiny Tina's Wonderlands",
+        "release_date": "2022-03-25",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Bullets, magic, and broadswords collide across this chaotic fantasy world brought to life by the unpredictable Tiny Tina. Roll your own multiclass hero and loot, shoot, slash, and cast your way through outlandish monsters and loot-filled dungeons on a quest to stop the tyrannical Dragon Lord. Everyone's welcome, so join the party, throw on your adventuring boots, and be Chaotic Great!\r\n\r\nA whimsical world brought to life by magical creatures, wondrous characters, and powerful spells, this action-adventure RPG video game unveils a remarkable adventure with thrilling gameplay that will keep you enthralled from start to finish.\r\n\r\n* Next-Level Edition includes the \"Dragon Lord Pack\" bonus content.\r\n\r\nFeatures:\r\n- An Unpredictable Fantasy World: Tiny Tina is your disorderly guide through an extraordinary tabletop realm where rules rarely apply. Explore a vast overworld spanning majestic cities, dank mushroom forests, foreboding fortresses, and more!\r\n- Guns, Spells, and More: Blast baddies with powerful guns and devastating spells in frenetic first-person battles. Use your firepower to vanquish legions of enemies, including smack-talking skeletons, land-roaming sharks, and colossal bosses. Then delve deeper into dangerous dungeons for a shot at epic loot!\r\n- Party Up To Defeat Evil: Joining you at the table are headstrong captain Valentine and rule-obsessed robot Frette. During your quest to defeat the Dragon Lord, you'll meet a cast of lovable misfits like a lute-wielding Bardbarian and your very own Fairy Punchfather.\r\n- Personalize Your Hero: Create the perfect hero with deep customization, including a multiclass system that lets you mix and match six unique character skill trees, all with their own awesome abilities. Level up, refine your build, expand your arsenal, and become the ultimate adventurer.\r\n- Band Together in Chaotic Co-Op: Enjoy the story solo or start a party with up to three friends in seamless online multiplayer or local split-screen. Share the spoils or rush to get the shiniest loot—how you play is up to you!",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          825
+        ]
+      },
+      {
+        "id": 98967,
+        "game_title": "Tiny Tina's Wonderlands [Chaotic Great Edition]",
+        "release_date": "2022-03-25",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          825
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87560": [
+          {
+            "id": 343624,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87560-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98967": [
+          {
+            "id": 336959,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98967-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tiny+Tina%27s+Wonderlands&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 56,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629950
+}

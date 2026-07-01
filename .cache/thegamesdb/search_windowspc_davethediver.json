@@ -1,0 +1,95 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 116401,
+        "game_title": "Dave the Diver",
+        "release_date": "2022-08-27",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Welcome to 'Dave the Diver', a marine adventure set in the mysterious Blue Hole. Explore the sea with Dave by day, and run a sushi restaurant at night. Uncover the secrets of the Blue Hole, and unwrap this deep sea mystery involving 3 friends, each with distinct personalities. New adventures await.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          142
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 93619,
+        "game_title": "Day of the Viper",
+        "release_date": "1990-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": [
+          113
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "93619": [
+          {
+            "id": 313016,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93619-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116401": [
+          {
+            "id": 396900,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116401-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dave+the+Diver&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 899,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630083
+}

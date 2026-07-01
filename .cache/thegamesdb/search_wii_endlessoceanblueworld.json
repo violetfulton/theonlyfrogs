@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 100817,
+        "game_title": "Endless Ocean 2: Adventures of the Deep",
+        "release_date": "2010-02-05",
+        "platform": 9,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          622
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 13054,
+        "game_title": "Endless Ocean: Blue World",
+        "release_date": "2010-02-22",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Endless Ocean 2 builds on the ocean experience first introduced with Endless Ocean. While the last game emphasized relaxation, this one is designed with more adventure in mind. Divers might find themselves escaping from or calming down attacking sharks, exploring shipwrecks or finding treasure. Endless Ocean 2 also has more creatures and improved graphics designed to fully immerse players in an ocean environment that they can freely explore at their own pace.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          622
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 72525,
+        "game_title": "Endless Ocean: Blue World with Bonus Wii Speak",
+        "release_date": "2009-09-17",
+        "platform": 9,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Endless Ocean Blue World bonus set containing the game and Wii Speak peripheral in the same box",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          622
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3057
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "13054": [
+          {
+            "id": 38138,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13054-1.jpg",
+            "resolution": "450x631"
+          },
+          {
+            "id": 260591,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/13054-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72525": [
+          {
+            "id": 231351,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/72525-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 331097,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72525-1.jpg",
+            "resolution": null
+          }
+        ],
+        "100817": [
+          {
+            "id": 346098,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100817-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Endless+Ocean%3A+Blue+World&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=9&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 992,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630099
+}

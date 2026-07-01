@@ -1,0 +1,313 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 117272,
+        "game_title": "Fallout 3",
+        "release_date": "2008-09-28",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1010
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 6600,
+        "game_title": "Fallout 3",
+        "release_date": "2008-10-28",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 76571,
+        "game_title": "Fallout 3 (Game of the Year Edition) [Greatest Hits]",
+        "release_date": "2009-10-16",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1010
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 113627,
+        "game_title": "Fallout 3 [Greatest Hits]",
+        "release_date": "2008-10-28",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 115125,
+        "game_title": "Fallout 3 [Platinum]",
+        "release_date": "2008-10-28",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 116138,
+        "game_title": "Fallout 3 [The Best]",
+        "release_date": "2008-10-28",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 111670,
+        "game_title": "Fallout 3: Game of the Year Edition",
+        "release_date": "2008-10-30",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "European Verison with BAFTA nominee logo on front sleeve.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 60277,
+        "game_title": "Fallout 3: Game of the Year Edition",
+        "release_date": "2009-10-16",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Fallout 3 takes place in the year 2277, 36 years after the setting of Fallout 2 and 200 years after the nuclear apocalypse that devastated the game's world in a future where international conflicts culminated in a Sino-American war in the second half of the 21st century. The game places the player in the role of an inhabitant of Vault 101, a survival shelter the size of a village, designed to protect a small number of humans from the nuclear fallout. When the player character's father disappears under mysterious circumstances, the player is forced to escape from the Vault and journey into the ruins of Washington D.C. to track him down. Along the way the player is assisted by a number of human survivors and must battle a myriad of enemies that inhabit the area now known as the \"Capital Wasteland\".",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1010
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6600": [
+          {
+            "id": 16981,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6600-1.jpg",
+            "resolution": "1536x1758"
+          },
+          {
+            "id": 16982,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6600-1.jpg",
+            "resolution": "1518x1758"
+          }
+        ],
+        "60277": [
+          {
+            "id": 200526,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/60277-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 223430,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60277-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76571": [
+          {
+            "id": 279355,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76571-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111670": [
+          {
+            "id": 382626,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111670-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113627": [
+          {
+            "id": 387001,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113627-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 387002,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113627-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115125": [
+          {
+            "id": 391906,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115125-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116138": [
+          {
+            "id": 395771,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116138-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117272": [
+          {
+            "id": 400342,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117272-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 400343,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/117272-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fallout+3&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 668,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630044
+}

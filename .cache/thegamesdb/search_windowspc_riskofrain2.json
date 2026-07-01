@@ -1,0 +1,101 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 65427,
+        "game_title": "Risk of Rain 2",
+        "release_date": "2020-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 8,
+        "rating": "T - Teen",
+        "developers": [
+          3891
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1987,
+          3772
+        ]
+      },
+      {
+        "id": 19160,
+        "game_title": "Risk of Rain",
+        "release_date": "2013-11-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Risk of Rain is an action platformer/adventure game with randomized elements.While we don’t want to spoil the story, we can let a few things through! The game is set in the distant future, where space transportation is common. Space trains carry passengers and goods all across space. A particular space train, however, had some very special cargo. Through a series of unfortunate events, this space train gets shot out of orbit and crash lands on a mysterious planet.. with one survivor.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          3891
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          1987
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19160": [
+          {
+            "id": 54696,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19160-1.jpg",
+            "resolution": "818x1158"
+          }
+        ],
+        "65427": [
+          {
+            "id": 215001,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65427-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Risk+of+Rain+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 735,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630055
+}

@@ -1,0 +1,128 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 132513,
+        "game_title": "Super Mario Galaxy 1 & 2",
+        "release_date": "2025-10-02",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Super Mario Galaxy\r\n\r\nMario meets Rosalina in this star-studded adventure.\r\n\r\nIn the Super Mario Galaxy game, Mario must rescue Princess Peach and recover the stolen Power Stars from Bowser.\r\n\r\nSuper Mario Galaxy 2\r\n\r\nMario teams up with an old friend and travels to different worlds on Starship Mario!\r\n\r\nIn Super Mario Galaxy 2, Mario is once again called upon to rescue his friend, Princess Peach. This time, he teams up with Yoshi and travels across the universe in Starship Mario, a flying vessel shaped like Mario’s head!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 132467,
+        "game_title": "Super Mario Galaxy + Super Mario Galaxy 2",
+        "release_date": "2025-10-02",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "Prossima fermata: il cosmo!\r\nScopri la versione aggiornata di due intramontabili avventure galattiche con Super Mario Galaxy + Super Mario Galaxy 2 per Nintendo Switch! Avventurati nello spazio alla ricerca delle Superstelle, supera un universo di sfide e soprattutto... ferma Bowser!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134911,
+        "game_title": "Super Mario Galaxy + Super Mario Galaxy 2",
+        "release_date": "2025-10-02",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Explore the galaxy in two classic games. Travel the stars with Mario in enhanced versions of these beloved adventures",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          252
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "132467": [
+          {
+            "id": 466485,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132467-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132513": [
+          {
+            "id": 466167,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132513-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134911": [
+          {
+            "id": 475879,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134911-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+Galaxy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 210,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629974
+}

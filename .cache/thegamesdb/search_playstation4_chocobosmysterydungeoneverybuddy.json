@@ -1,0 +1,72 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 76560,
+        "game_title": "Chocobo's Mystery Dungeon: Every Buddy!",
+        "release_date": "2019-03-20",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "A new instalment of the ever-popular series is here! The classic FINAL FANTASY FABLES: Chocobo’s Dungeon is back with an enhanced gameplay system - to be enjoyed by both first-timers and fans of the series!\r\n\r\nExplore the challenges of the never-ending dungeons ('Insatiable Hunger'), befriend monsters with the new buddy system. You adhere to one simple rule, … every time you enter, the world around you changes shape, but it only moves whenever Chocobo moves!\r\n\r\nGrab another controller and play with friends! Look out for familiar characters from the past!\r\n\r\nChocobo can also take on 14 different jobs and gain amazing abilities and outfits.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "76560": [
+          {
+            "id": 248107,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76560-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Chocobo%27s+Mystery+Dungeon+Every+Buddy%21&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 396,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630004
+}

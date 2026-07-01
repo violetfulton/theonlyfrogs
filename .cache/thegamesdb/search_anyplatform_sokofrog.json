@@ -1,0 +1,703 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 20367,
+        "game_title": "10 Super Jogos",
+        "release_date": "2002-01-01",
+        "platform": 18,
+        "region_id": 2,
+        "country_id": 7,
+        "overview": "Mega Games 10 is a compilation of ten Sega Mega Drive games. It has thus far only been released in Brazilian and Asian markets.\r\n\r\nIn Brazil, the game was released twice. Once as Sega Top Ten, which was bundled with a model of the Tectoy Mega Drive III, and later as a stand-alone release as 10 Super Jogos.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          1,
+          7,
+          11,
+          15
+        ],
+        "publishers": [
+          422
+        ]
+      },
+      {
+        "id": 35141,
+        "game_title": "Safari Race",
+        "release_date": "1984-02-01",
+        "platform": 4949,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Safari Race is a racing game for the SG-1000, developed and published by Sega in 1984. The player must drive through various \"sections\", avoiding wildlife and other cars while making sure not to run out of fuel.\r\n\r\nThe game is notable for using licensed cars, potentially the first video game to do so. The player controls a Lancia Stratos HF, and according to the box art, some of the rival cars are Audi Quattros. The Lancia Stratos would receive greater video game recognition in Sega's later creation Sega Rally Championship.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 125877,
+        "game_title": "SAFARI RACE",
+        "release_date": "2022-03-03",
+        "platform": 31,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "On the vast savanna plain, the SAFARI RACE has just gotten under way. Keep running at speed, passing other cars while avoiding various wild animals that cross the road.\r\n\r\nDrive fast, ever onward, taking into consideration the limited time, fuel consumption and dangerous sharp curves. Pass through the check points.\r\n\r\nDon't forget to replenish your fuel and beware of the limited remaining time. Run your car at full throttle towards the goal with the engine operating at its maximum capacity.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8507
+        ]
+      },
+      {
+        "id": 93666,
+        "game_title": "Sagebrush",
+        "release_date": "2018-09-18",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "\"I met Anne first, waiting for the bus. I asked her what she was selling and she laughed and said nothing, nothing at all, that what she had to offer was free for anyone who wanted it bad enough. I asked her what had helped her. She just said 'James.'\"\r\n\r\nSagebrush is a short-form first-person narrative adventure about exploring the compound of an apocalyptic Millenialist cult in remote New Mexico years after they collectively took their lives in a mass suicide event.\r\n\r\nIn Sagebrush, you'll investigate the long-abandoned Black Sage Ranch, the former home of Perfect Heaven, an apocalyptic cult formed in the early 1990s under the guiding hand of the prophet Father James.\r\n\r\nInspired by Real-World Apocalyptic Cults\r\nBased on extensive research into cult groups both famous and obscure, large and small, Sagebrush avoids simplistic motivations and easy answers. The members of the Flock are diverse and complex people with varied needs, hopes, and fears.\r\n\r\nAn Immersive, Lo-Fi 3D World\r\nSagebrush features an evocative low-poly, low-resolution, less-is-more art style that combines retro aesthetics with modern technology, along with a fully-realized soundscape and an original ambient musical score that immerses you in the remote New Mexico desert.\r\n\r\nA Whole Compound to Explore\r\nBlack Sage Ranch is yours to wander, from the trailers that housed the cultists, to the halls where they gathered for food and prayer, to the old mines that stretch out below the compound, untouched for nearly a century.\r\n\r\nUncover the Real Story\r\nFind notes, recordings, and belongings that give insight into the people who lived at Black Sage Ranch. What did they believe? Why did they join? Were they happy? And why did they choose to end it all?\r\nEstimated Playtime: 60-120 minutes",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 71826,
+        "game_title": "Sagebrush",
+        "release_date": "2018-09-18",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 84749,
+        "game_title": "Sagebrush",
+        "release_date": "2019-08-09",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Mystery of Black Sage Ranch\r\nInspired by real-world cults, Sagebrush is a first-person narrative-driven adventure game which thrusts players into the role of a truth-seeker who must investigate the tragic circumstances of the Perfect Heaven cult’s mass suicide.\r\n\r\nSet in New Mexico, players explore Black Sage Ranch, the former home of Father James, the revered prophet of the Perfect Heaven cult, in order to uncover the truth.\r\n\r\nFeatures:\r\n* An Immersive, Lo-Fi 3D World\r\n* A Whole Compound to Explore\r\n* Moody, ambient soundtrack\r\n* Real world inspiration from apocalyptic cults",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": [
+          5957
+        ]
+      },
+      {
+        "id": 31054,
+        "game_title": "Saviors",
+        "release_date": null,
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": [
+          7647
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 14982,
+        "game_title": "Sega Ski Super G",
+        "release_date": "1996-12-03",
+        "platform": 23,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Sega Ski Super G, the objective is to race against other opponents under a time limit. The game has two modes: World Series and Time Attack.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          7549
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 74792,
+        "game_title": "Shake Spears!",
+        "release_date": "2014-12-23",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Shake Spears is a game of GLORY, HONOR, and FAME! Become a valiant knight and enter tournaments to compete for the heart of a beautiful lady. Travel through four worlds of wonder, win battles in 20 cities, and beat challenging bosses in this epic game. It's time to become a hero for the ages!\r\n\r\nTake out opponents with well-aimed strikes in knightly competitions of strategy and precision! Only a steady hand and a trusty steed can guarantee your victory! Upgrade your skills, armor, and weapons, and remember to use a dash of magic to overcome your enemies. Will you answer the call of destiny and become the most honored knight in the land?",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          331
+        ],
+        "genres": [
+          10
+        ],
+        "publishers": [
+          4290
+        ]
+      },
+      {
+        "id": 27508,
+        "game_title": "Shivers",
+        "release_date": "1995-09-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Shivers, an adventure puzzle game designed by Marcia Bales, the player takes a dare from friends to spend a night in professor Windlenot's \"Museum of the Strange and Unusual\". The museum had yet to be opened and has been abandoned and forgotten ever since the professor has mysteriously disappeared 15 years ago, along with 2 students who are suspected to have wandered inside the museum. A collection of ancient South American vessels, believed to contain evil spirits, are removed from their display, opened and scattered all around the museum, with the spirits lurking in every corner. It is your task to find all the matching vessel parts, and capture them again before they can entirely drain your life essence. However, the task becomes harder as the entire museum is covered with puzzles which need to be solved in order to proceed.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7699
+        ],
+        "genres": [
+          2,
+          5,
+          18
+        ],
+        "publishers": [
+          32
+        ]
+      },
+      {
+        "id": 32134,
+        "game_title": "Shop Heroes",
+        "release_date": "2015-07-08",
+        "platform": 4916,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1702
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 78146,
+        "game_title": "Sky Break",
+        "release_date": "2016-10-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Sky Break is an open-world game on a stormy abandoned planet filled with wild mechas. Learn to master this world and to hack the mechas if you want a chance to survive.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          12
+        ],
+        "publishers": null
+      },
+      {
+        "id": 55932,
+        "game_title": "Sky Force",
+        "release_date": "2011-05-16",
+        "platform": 13,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pick one of three ships and blast your way to victory in this ultimate classic arcade shooter! Sky Force brings you pure blasting action in 8 immersive levels filled with vicious enemies, big bosses, destructible objects and the good old Earth to save! Use various explosive weapons, useful power-ups, and unlockables such as heat-seeking missiles or the amazingly powerful laser attack! Sky Force is a breathtaking and action packed top-down scrolling shoot‘em up which delivers fun and addictive gameplay that will keep you entertained for hours! Get this game now and stand up against the enemy - the Earth deserves its new hero!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4175
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          5648
+        ]
+      },
+      {
+        "id": 66739,
+        "game_title": "Sky Force 2014",
+        "release_date": "2014-06-05",
+        "platform": 4915,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The mobile blaster legend is back to celebrate its 10-year anniversary in super-destructive style. Harnessing the intensity of classic arcade shoot-’em-ups combined with the hottest smartphone technology, Sky Force 2014 offers a stunning scrolling shooter experience with an incredible new social gameplay element.\r\n\r\nTen years ago, IGN said, “Put simply, Sky Force is amazing.” Scoring an incredible 9.5 out of 10, Sky Force took the early mobile gaming scene by force.\r\n\r\nAnd now it’s back. Bigger, bolder and more intense than ever.\r\n\r\nThis 10th anniversary edition adds incredible depth to the series through stunning 3D graphics, intuitive touchscreen controls and a powerful upgrade system that’ll keep you blasting for hours on end.\r\n\r\nWeekly tournaments take place on unique new levels as you battle it out against legions of other Sky Force 2014 players, offering great rewards not only for winning, but for rescuing other pilots who’ve already been taken down!\r\n\r\nThe hottest shooter is no push over, but the invigorating gameplay and vast library of achievements will keep both casual players and hardcore gamers hooked as you upgrade your ship and take it a little deeper into the incredible battlefield time after time.\r\n\r\nFEATURES:\r\n* Beautiful levels with immersive missions to complete.\r\n* Multiple extreme boss battles.\r\n* Upgrade your shields, guns, missiles, lasers, mega-bombs and magnets.\r\n* Risk everything to rescue civilians.\r\n* Brand new weekly tournaments against other players.\r\n* Boost your final score with a host of in-game achievements.\r\n* Rescue fallen opponents to win extra lives and stars.\r\n* Accessible to beginners, as well as hardcore shooter addicts.\r\n* Full voiceover and incredible electronic soundtrack.\r\n\r\nGet ready for the fight of your life in Sky Force 2014.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4175
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          5648
+        ]
+      },
+      {
+        "id": 20617,
+        "game_title": "Skyforge",
+        "release_date": null,
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": [
+          372
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          2200
+        ]
+      },
+      {
+        "id": 54104,
+        "game_title": "Skyforge",
+        "release_date": "2017-04-11",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Skyforge is a free-to-play third-person action massively multiplayer online role-playing game developed by Allods Team, in collaboration with Obsidian Entertainment, and published by My.com.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          372,
+          6195
+        ],
+        "genres": [
+          14
+        ],
+        "publishers": [
+          2200
+        ]
+      },
+      {
+        "id": 77092,
+        "game_title": "Skyforge",
+        "release_date": "2017-11-10",
+        "platform": 4920,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          14
+        ],
+        "publishers": [
+          2200
+        ]
+      },
+      {
+        "id": 83026,
+        "game_title": "Skyforge",
+        "release_date": "2021-02-04",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "DISCOVER AELION\r\nSkyforge is an online action game inspired by science-fiction and fantasy, set in a breathtaking universe rife with gods and monsters. As an Immortal of Aelion,team up with players around the world to uncover amazing stories, explore lands uncharted, and defend a massive, constantly evolving world from invasion!\r\n\r\nPLAY WHEREVER, WHENEVER\r\nTake your intergalactic adventures on the move! Session+based gameplay makes it easy to play while traveling, on your lunch break, or kicking back at home. Pick up and play anytime, anywhere: Aelion will be waiting for you!\r\n\r\nDYNAMIC COMBAT OPTIMIZED FOR NINTENDO SWITCH™\r\nAwaken your Immortal powers in TV, tabletop, or handheld mode! Use Joy-Con™ controllers or the Nintendo Switch™ Pro Controller to master an intuitive combat system, and powerful attacks unique to each class. Unlock Divine Forms to unleash your true fighting potential!\r\n\r\nINSTANTLY SWITCH BETWEEN 18 CLASSES\r\nImmortals wield incredible magic and unique abilities, and you can switch between 18 unlockable classes to experience it to the fullest. Rock out with the Soundweaver's killer riffs, harness the power of nature with the Grovewalker, or set Aelion ablaze with the Firestarter!\r\n\r\nA WORLD UNDER ATTACK!\r\nInvasions are limited time seasonal events that would really test your skill. As creatures from the deepest trenches, Invaders from beyond the stars, and evil avatars of destruction descend on Aelion, stand and fight! Get the Invasion Pass to earn special rewards, including exclusive in-game cosmetics.\r\n\r\nPLAY FOR FREE\r\nSkyforge is free to download and play and receives regular, free content updates, so you can Adventure without limits 24/7!\r\n\r\nHeadstart Access is available for Skyforge! Founder's Pack Bundles (Starter, Deluxe, or Ultimate) also contain a 2-day Headstart, active from 02/02/2021 at 06:00 PST.",
+        "players": 20,
+        "rating": "Not Rated",
+        "developers": [
+          372
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          14,
+          27
+        ],
+        "publishers": [
+          2200
+        ]
+      },
+      {
+        "id": 78271,
+        "game_title": "Sparc",
+        "release_date": "1970-01-01",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7986
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 36199,
+        "game_title": "Sparkie",
+        "release_date": "1983-01-01",
+        "platform": 4929,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": 2,
+        "rating": null,
+        "developers": [
+          4765
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          21
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14982": [
+          {
+            "id": 50141,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14982-1.jpg",
+            "resolution": "360x360"
+          }
+        ],
+        "20367": [
+          {
+            "id": 59059,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20367-1.png",
+            "resolution": "965x1348"
+          },
+          {
+            "id": 203524,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/20367-1.jpg",
+            "resolution": null
+          }
+        ],
+        "20617": [
+          {
+            "id": 80433,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20617-1.png",
+            "resolution": "263x394"
+          }
+        ],
+        "27508": [
+          {
+            "id": 76826,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/27508-1.jpg",
+            "resolution": "224x269"
+          },
+          {
+            "id": 76827,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/27508-1.jpg",
+            "resolution": "224x269"
+          }
+        ],
+        "31054": [
+          {
+            "id": 81858,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/31054-1.png",
+            "resolution": "480x600"
+          }
+        ],
+        "32134": [
+          {
+            "id": 84176,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32134-1.png",
+            "resolution": "300x300"
+          }
+        ],
+        "35141": [
+          {
+            "id": 100118,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35141-1.jpg",
+            "resolution": "400x555"
+          }
+        ],
+        "36199": [
+          {
+            "id": 102849,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/36199-1.jpg",
+            "resolution": "1377x1803"
+          },
+          {
+            "id": 102850,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/36199-1.jpg",
+            "resolution": "1374x1807"
+          }
+        ],
+        "54104": [
+          {
+            "id": 135680,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54104-1.jpg",
+            "resolution": "800x800"
+          }
+        ],
+        "55932": [
+          {
+            "id": 138325,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55932-1.jpg",
+            "resolution": "290x500"
+          }
+        ],
+        "66739": [
+          {
+            "id": 217881,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66739-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71826": [
+          {
+            "id": 228323,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/71826-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 228497,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71826-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74792": [
+          {
+            "id": 260719,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74792-1.jpg",
+            "resolution": null
+          }
+        ],
+        "77092": [
+          {
+            "id": 249571,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77092-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78146": [
+          {
+            "id": 252413,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78146-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78271": [
+          {
+            "id": 252693,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78271-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83026": [
+          {
+            "id": 394917,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83026-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84749": [
+          {
+            "id": 279208,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84749-1.jpg",
+            "resolution": null
+          }
+        ],
+        "93666": [
+          {
+            "id": 313176,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93666-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125877": [
+          {
+            "id": 436684,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125877-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        },
+        "13": {
+          "id": 13,
+          "name": "Sony Playstation Portable",
+          "alias": "sony-psp"
+        },
+        "18": {
+          "id": 18,
+          "name": "Sega Genesis",
+          "alias": "sega-genesis"
+        },
+        "23": {
+          "id": 23,
+          "name": "Arcade",
+          "alias": "arcade"
+        },
+        "31": {
+          "id": 31,
+          "name": "Colecovision",
+          "alias": "colecovision"
+        },
+        "4915": {
+          "id": 4915,
+          "name": "iOS",
+          "alias": "ios"
+        },
+        "4916": {
+          "id": 4916,
+          "name": "Android",
+          "alias": "android"
+        },
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        },
+        "4920": {
+          "id": 4920,
+          "name": "Microsoft Xbox One",
+          "alias": "microsoft-xbox-one"
+        },
+        "4929": {
+          "id": 4929,
+          "name": "MSX",
+          "alias": "msx"
+        },
+        "4949": {
+          "id": 4949,
+          "name": "SEGA SG-1000",
+          "alias": "sg1000"
+        },
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=SokoFrog&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=SokoFrog&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
+  },
+  "remaining_monthly_allowance": 58,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629951
+}

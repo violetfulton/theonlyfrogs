@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 104726,
+        "game_title": "Life is Strange Remastered Collection",
+        "release_date": "2022-02-01",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The Life is Strange: Before the Storm - Zombie Crypt Outfit will release after the base game.\r\n\r\nReturn to Arcadia Bay and experience two award-winning Life is Strange games like never before! Remastered visuals and animation breathe new life into the great cast of characters and gripping stories.\r\n\r\nThe Life is Strange Remastered Collection includes ‘Life is Strange Remastered’ and ‘Life is Strange: Before the Storm Remastered’.\r\n\r\nFeatures:\r\n- Remastered visuals across characters and environments\r\n- Vastly improved character animation using full facial mocap performance (Life is Strange Remastered only)\r\n- Updated and refined gameplay puzzles\r\n- Engine and lighting upgrades\r\n- Choice and consequence driven stories with multiple endings\r\n- Harness the power of Max’s rewind ability or Chloe’s quick-witted attitude to change the course of events\r\n- Distinct licenced soundtrack & original scores",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2438
+        ],
+        "genres": [
+          2,
+          27
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "104726": [
+          {
+            "id": 358522,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104726-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Life+is+Strange+Remastered&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 334,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629995
+}

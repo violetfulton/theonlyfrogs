@@ -1,0 +1,74 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 70135,
+        "game_title": "Cooking Mama: Cookstar",
+        "release_date": "2020-03-31",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "If you can't stand the heat, get into Mama's kitchen! Cooking Mama is back with her most fantastic and fun video game adventure ever! Cooking Mama: Cookstar features over 90 incredible new recipes for players to master. Cook everything from classic Japanese recipes to today's most tasty comfort foods. Cooking Mama: Cookstar truly has a taste of everything. Not a carnivore? Not a problem! For the first time ever Cooking Mama will feature both a traditional cooking mode and a vegetarian cooking mode. Burritos, Bibimbap, Bubble Tea, Baked Alaska, Pokebowls and so much more. Explore the diverse menu to find what suits your taste.\r\n\r\nDon't think you have the skills to become a master chef? Don't worry, Mama will fix that! Just follow Mama's instructions and create delicious and decadent treats that you can share with your friends. Chop, mince, slice, dice and roll! Precision motion controls immerse players right into the action. With Mama's help, you will become the world's greatest culinary artist.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          25
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "70135": [
+          {
+            "id": 251776,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/70135-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 251782,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70135-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Cooking+Mama%3A+Cookstar&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 232,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629978
+}

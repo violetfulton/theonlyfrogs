@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 35910,
+        "game_title": "Borderlands 2: Captain Scarlett and Her Pirate's Booty",
+        "release_date": "2012-10-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Being one of four campaign add-ons for Borderlands 2, Captain Scarlett and Her Pirate's Booty does much more than add a couple new features to the already expansive game. The story of this add-on follows a one-eyed pirate queen named Captain Scarlett. Although the new environment lacks water, it still carries a pirate theme. The pirates within this add-on enjoy treasure hunting just as much as the Vault Hunters do",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          44
+        ],
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": [
+          3772
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35910": [
+          {
+            "id": 102036,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35910-1.jpg",
+            "resolution": "500x685"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+2%3A+Captain+Scarlett+and+Her+Pirate%27s+Booty&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 179,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629969
+}

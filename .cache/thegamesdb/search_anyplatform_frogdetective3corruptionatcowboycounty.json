@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 110812,
+        "game_title": "Frog Detective 3: Corruption at Cowboy County",
+        "release_date": "2022-10-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "In the exciting series finale, The Detective and Lobster Cop are tasked to solve the conundrum of a sheriff-less county. But not all is as it seems here, when a surprisingly simple solution to the case reveals a sinister scheme. Maybe crime is real after all...\r\n\r\nCorruption at Cowboy County is the third and final game in the Frog Detective series.\r\n\r\nFrog Detective 3: Corruption at Cowboy County is a family-friendly yet witty take on the detective game genre. Solve the mysteries on your own, or play along with friends as you take turns reading out the dialogue. Think you can crack the case?\r\n\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "110812": [
+          {
+            "id": 380006,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110812-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Frog+Detective+3%3A+Corruption+at+Cowboy+County&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 108,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629958
+}

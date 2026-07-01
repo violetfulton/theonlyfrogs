@@ -1,0 +1,184 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 127839,
+        "game_title": "Pokémon X",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "All-new Pokémon and past favorites come to life with detailed graphics and intense 3D battles. Become a Pokémon Trainer and set out for adventure in a visually stunning new region filled with new Pokémon to catch, trade, and battle. In Pokémon-Amie, you can pet, feed, and play with your Pokémon to form a deeper bond, which may benefit you in future battles. Plus, you can connect and communicate with players around the world at any time to challenge them to a battle, trade Pokémon, and much more.\r\n\r\nAustralian Classification: PG",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 18078,
+        "game_title": "Pokémon X",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "All-new Pokémon and past favorites come to life with detailed graphics and intense 3D battles. Become a Pokémon Trainer and set out for adventure in a visually stunning new region filled with new Pokémon to catch, trade, and battle. In Pokémon-Amie, you can pet, feed, and play with your Pokémon to form a deeper bond, which may benefit you in future battles. Plus, you can connect and communicate with players around the world at any time to challenge them to a battle, trade Pokémon, and much more.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 106699,
+        "game_title": "Pokémon X",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 81441,
+        "game_title": "Pokemon X [Garchomp Code Cover]",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18078": [
+          {
+            "id": 50661,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18078-1.jpg",
+            "resolution": "1500x1339"
+          },
+          {
+            "id": 208627,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/18078-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81441": [
+          {
+            "id": 264715,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/81441-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 327348,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81441-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106699": [
+          {
+            "id": 367173,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106699-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127839": [
+          {
+            "id": 443609,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127839-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443610,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127839-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+X&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 507,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630020
+}

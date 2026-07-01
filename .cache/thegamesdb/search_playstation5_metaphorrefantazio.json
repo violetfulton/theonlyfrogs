@@ -1,0 +1,155 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 121433,
+        "game_title": "Metaphor: ReFantazio",
+        "release_date": "2024-10-11",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 131395,
+        "game_title": "Metaphor: ReFantazio",
+        "release_date": "2024-10-11",
+        "platform": 4980,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 134672,
+        "game_title": "Metaphor: ReFantazio",
+        "release_date": "2024-10-11",
+        "platform": 4980,
+        "region_id": 9,
+        "country_id": 42,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 126120,
+        "game_title": "Metaphor: ReFantazio [Collector's Edition]",
+        "release_date": "2024-10-11",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Embrace yourself for the next evolution of fantasy JRPG coming October 11, 2024, Metaphor: ReFantazio! Enter the royal tournament to fight for the throne and for the future. Control your destiny, face your fears and awaken magical “Archetype” powers that lie dormant in your heart.\r\n\r\nTeam up with a compelling cast of characters and embark on an immersive journey that promises hours of captivating exploration, dynamic combat, and exhilarating discovery.\r\n\r\n• Created by the masterminds behind Persona 3, Persona 4, Persona 5, Director Katsura Hashino, Character Designer Shigenori Soejima, and Composer Shoji Meguro, with over 10 million copies sold worldwide.\r\n\r\n• A mysterious and exciting story unfolds in a world where people must fight their own anxiety. Join the high-stakes Royal Tournament that promises hours of captivating exploration and discovery.\r\n\r\n• An exhilarating turn-based combat system with a blend of real-time action. Party customization through Archetype powers provides the freedom to personalize your adventure.\r\n\r\n• Ride your gauntlet runner to faraway dungeons and towns across an expansive world. Discover beautiful landscapes accompanied by captivating music, immersive UI, and anime cutscenes.\r\n\r\nCOLLECTOR'S EDITION INCLUDES:\r\n\r\n• BASE GAME\r\n• STEELBOOK\r\n• SOUNDTRACK\r\n• ARTBOOK\r\n• HOMO TENTA METALLIC PINS\r\n• STICKER SHEET\r\n• KINGDOM OF EUCHRONIA CLOTH MAP\r\n• COSTUME & BATTLE BGM SET DLC VOUCHER\r\n• ATLUS 35TH ANNIVERSARY DIGITAL HISTORY BOOK + ATLUS 35TH DIGITAL ALL-TIME BEST SOUNDTRACK\r\n• PRE-ORDER BONUS VOUCHER (ARCHETYPE EXP CHEST SET & ADVENTURER'S JOURNEY PACK)",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "121433": [
+          {
+            "id": 419685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121433-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126120": [
+          {
+            "id": 437357,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126120-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131395": [
+          {
+            "id": 460797,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131395-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134672": [
+          {
+            "id": 474768,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134672-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Metaphor%3A+ReFantazio&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 92,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629956
+}

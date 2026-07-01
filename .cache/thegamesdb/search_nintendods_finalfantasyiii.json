@@ -1,0 +1,112 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 2850,
+        "game_title": "Final Fantasy III",
+        "release_date": "2006-11-15",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "1,000 years ago, the War of the Magi occurred. People remember it as one of the most horrible tragedies in history. Since the War of the Magi, magic has been all but forgotten, technology began to grow, and people returned to seemingly normal lives. The only true worry people had was the Empire, whose leaders were looking to revive the great force once known as \"magic\".",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 6909,
+        "game_title": "Final Fantasy IV",
+        "release_date": "2008-07-21",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Four elemental Crystals, each possessing awesome power, lie scattered throughout the realm. However, men are quick to covet things which offer strength, and easily corrupted by the might which they possess. Seduced by the promised power of the Crystals, the kingdom of Baron begins employing unprovoked force to seize them from peaceful nations. The dark knight Cecil - Lord Captain of Baron's elite force, the Red Wings - is ordered by his king to obtain the Crystals, but soon begins to question the monarch's motives. Stricken with grief at his own actions, yet burdened by his loyalty to his country and his personal sense of honor, Cecil at last decides to turn from the path of darkness and destruction. Enraged, the king accuses him of disloyalty, strips Cecil of his command, and sends him off to slay a mysterious beast that lurks in the nearby Valley of Mist. Cecil embarks on a fateful journey that will bring trials, betrayals, friendship, loss and self-discovery. Can Cecil open his eyes and become the man of honor that he must be? Dive into the first RPG to incorporate the innovative Active Time Battle system, now further enhanced and refined for the Nintendo DS. Train and customize Whytkin by playing a variety of mini-games and challenge another player to head-to-head battle via local wireless connection.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2850": [
+          {
+            "id": 17494,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2850-1.jpg",
+            "resolution": "1547x1370"
+          },
+          {
+            "id": 17495,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2850-1.jpg",
+            "resolution": "1521x1370"
+          }
+        ],
+        "6909": [
+          {
+            "id": 17738,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6909-1.jpg",
+            "resolution": "1532x1370"
+          },
+          {
+            "id": 17739,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6909-1.jpg",
+            "resolution": "1533x1370"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+III&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 596,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630033
+}

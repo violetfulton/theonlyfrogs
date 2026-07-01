@@ -1,0 +1,201 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 25632,
+        "game_title": "Monster Hunter 4 Ultimate",
+        "release_date": "2014-02-13",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Monster Hunter 4 Ultimate (called Monster Hunter 4G in Japan) is the newest installment in the popular Monster Hunter series, which has sold more than 28 million units worldwide to date. In Monster Hunter 4 Ultimate, players will take on the role of a hunter that joins up with a traveling caravan to explore new lands and towns along the way. This grand adventure will include hundreds of quests to take on a variety of extraordinary creatures that yield valuable resources used for weapons and equipment. Launching on Nintendo 3DS, Monster Hunter 4 Ultimate represents the biggest leap forward ever for the series with more new content and exciting features than ever before. Also, for the first time ever for the Monster Hunter series on a handheld system, players will be able to join up with friends over the internet via the Nintendo Wi-Fi Connection, as well as the previously available local wireless option.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 98474,
+        "game_title": "Monster Hunter 4 Ultimate",
+        "release_date": "2015-02-12",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Take up your weapons, greet your fellow adventurers and head for the field to battle huge, fearsome creatures in Monster Hunter 4 Ultimate on Nintendo 3DS and 2DS! With full online and local co-op play, the fight for the land looms large in this sprawling action RPG!\r\n\r\nYour first steps in a deep, narrative-led adventure see you join a travelling caravan as its designated hunter, sworn to protect the people from wild monsters that roam the land. Choose your quarry, hunt it down, and despatch it with a combination of weapons and tactics. Setting out, you’ll discover a plethora of new content, including a wealth of arms and armour to forge and customise, and scores of undiscovered beasts to hunt. Terrain is much more vertical than before – assault your enemy from above, and deliver a flurry of blows while holding on for dear life!\r\n\r\nHunting solo might be the epitome of courage, but the online Monster Hunter experience opens up a world of strategic teamwork, where seasoned Hunters work as a well-oiled machine to stalk, engage and vanquish their foes. Hunt with nearby friends using Local Play, or for the first time on handheld, take the chase online directly via Nintendo Network, to play with faraway fellow hunters!\r\n\r\nMake no mistake – Monster Hunter 4 Ultimate is a strategic, expansive and epic action RPG just waiting to be discovered. Glory awaits!",
+        "players": 4,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 48762,
+        "game_title": "Monster Hunter 4 Ultimate (Collector's Edition)",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Monster Hunter™ 4 Ultimate is the newest installment in the popular Monster Hunter series, which has sold more than 28 million units worldwide to date. In Monster Hunter 4 Ultimate, players will take on the role of a hunter that joins up with a traveling caravan to explore new lands and towns along the way. This grand adventure will include hundreds of quests to take on a variety of extraordinary creatures that yield valuable resources used for weapons and equipment. Launching on Nintendo 3DS™, Monster Hunter 4 Ultimate represents the biggest leap forward ever for the series with more new content and exciting features than ever before. Also, for the first time ever for the Monster Hunter series on a handheld system, players will be able to join up with friends over the internet via the Nintendo Network™, as well as the previously available local wireless option.\r\n\r\nMonster Hunter 4 Ultimate will take players to new heights, literally, with the introduction of more vertical and lateral movement than ever. An expanded repertoire of actions will create more dynamic hunting experiences with fluid climbing motions and the ability to jump attack from walls or ledges. In addition, players will be able to ride atop a monster for a limited time as they hang on and deliver attacks. With the addition of two new weapon classes, challenging new monsters and numerous locales, Monster Hunter 4 Ultimate will be the most robust hunting experience yet.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 15181,
+        "game_title": "Monster Hunter 3 Ultimate",
+        "release_date": "2013-03-19",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The popular fantasy action franchise Monster Hunter is now one of the most iconic gaming series in the world selling over 21 million copies worldwide since the series began in 2004. Players take on the role of a hunter and are sent to explore a settlement within the Monster Hunter universe, completing quests on their journey to seek and slay monsters whilst improving their skills and earning equipment upgrades. With many challenging monsters and over 200 quests the latest edition to the series is set to be the most expansive offering to date. Monster Hunter 3 Ultimate utilizes the functionalities of the Nintendo 3DS system to provide players with a truly intuitive hunting experience. The touch screen feature allows players to quickly access in-game books, weapons, field maps and mini games whilst the high quality graphics 3D visuals of Nintendo 3DS powered by the latest iteration of Capcom's MT Framework deliver a unique and stunning world for players to explore. Taking advantage of the portability of Nintendo 3DS, players can exchange their guild card that contains all their hunter's information with other players via StreetPass. Players can experience the world of Monster Hunter alone or in four player local play using Nintendo 3DS. Finding nearby hunters to adventure on quests with is now even easier via the local Nintendo 3DS search feature. Wii U players will be able to enjoy the hunt with Nintendo 3DS players via a local wireless connection. Gamers that own both a Wii U and Nintendo 3DS can take advantage of the inter compatibility of save data between the two consoles, taking the hunt from the living room wherever they go.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1442
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          616
+        ]
+      },
+      {
+        "id": 111132,
+        "game_title": "Monster Hunter 3 Ultimate",
+        "release_date": "2013-03-22",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Welcome to the world of Monster Hunter, where you forge your own path to glory. Take up arms and battle dozens of ferocious monsters. Go it alone or team up with friends. Gain more than just satisfaction from your hard-fought victories: carve conquered monsters to gain their bones, horns, hides and more, then have them fashioned into weapons and armour to steel you for the even tougher battles ahead. It is the hunter's way.\r\n\r\nHunt, gather, and become a legend in Monster Hunter 3 Ultimate.\r\n\r\nMonster Hunter 3 Ultimate on Nintendo 3DS contains all the quests, equipment and monsters of its high-definition counterpart on Wii U, and also offers several features unique to the Nintendo 3DS version:\r\n\r\n--> Local Play\r\nGet together with friends and form a hunting party of up to four players via local wireless connection. Combine your strengths and watch each other’s backs to take down spectacular beasts together. Find out more at the Multiplayer section.\r\n\r\n--> Nintendo 3DS Circle Pad Pro and Circle Pad Pro XL\r\nMonster Hunter 3 Ultimate offers an improved camera system to help you keep track of your enemies more easily, and with the optional Nintendo 3DS Circle Pad Pro or Circle Pad Pro XL (both sold separately) you can make use of dual analogue controls to manoeuvre your character and the camera with total precision.\r\n\r\n--> StreetPass\r\nExchange your Guild Card with other players via StreetPass and meet new hunters more easily than ever.\r\n\r\n--> Transfer your save data\r\nIf you own both a Wii U and Nintendo 3DS, and a copy of Monster Hunter 3 Ultimate for each system, you can transfer your save data between systems to press on with your journey wherever you are. Take your hunter on the road with Nintendo 3DS, then transfer your progress back to Wii U and resume your journey in HD.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1442
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "15181": [
+          {
+            "id": 43369,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15181-1.jpg",
+            "resolution": "1500x1334"
+          }
+        ],
+        "25632": [
+          {
+            "id": 73515,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/25632-1.jpg",
+            "resolution": "902x800"
+          },
+          {
+            "id": 209686,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/25632-1.jpg",
+            "resolution": null
+          }
+        ],
+        "48762": [
+          {
+            "id": 326935,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/48762-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98474": [
+          {
+            "id": 334379,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98474-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111132": [
+          {
+            "id": 380970,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111132-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter+4+Ultimate&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 481,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630016
+}

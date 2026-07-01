@@ -1,0 +1,285 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 63379,
+        "game_title": "The Legend of Zelda: Link's Awakening",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Originally released for the Game Boy system more than 25 years ago, one of the most beloved games in the Legend of Zelda series returns.\r\n\r\nIn this modern re-imagining, players travel to the mysterious island of Koholint to guide Link on a perilous adventure. The Legend of Zelda: Link's Awakening arrives exclusively on Nintendo Switch in 2019.\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3628,
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 103150,
+        "game_title": "The Legend of Zelda: Link's Awakening",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Originally released for the Game Boy system more than 25 years ago, one of the most beloved games in the Legend of Zelda series returns.\r\n\r\nIn this modern re-imagining, players travel to the mysterious island of Koholint to guide Link on a perilous adventure. The Legend of Zelda: Link's Awakening arrives exclusively on Nintendo Switch in 2019.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 111500,
+        "game_title": "The Legend of Zelda: Link's Awakening",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "26 years after its original release on Game Boy, The Legend of Zelda: Link's Awakening will be reborn as a new experience on Nintendo Switch. Buffeted by a storm, Link washes ashore on the mysterious Koholint Island. In order to return home, Link must overcome challenging dungeons and battle against fearsome monsters. This new version of the classic adventure includes many unique elements that appeared in the original Game Boy release, such as 2D platformer-style rooms and appearances from characters outside of The Legend of Zelda series. As you clear dungeons throughout the main story, earn dungeon rooms (Chamber Stones), then arrange them into custom layouts in the all-new Chamber Dungeon. Place your dungeon entrance, Nightmare's Lair, and everything in between as you try to fulfill objectives and play through a new dungeon. Tap compatible Legend of Zelda series amiibo (sold separately) to earn more Chamber Stones and find additional Chamber Stones throughout the game in updated mini-games, such as the Rapids Ride, Trendy Game, and fishing. The Legend of Zelda: Link's Awakening: Dreamer Edition will include the game and a Dreamer Art Book that features concept art from the Nintendo Switch version of the game.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118871,
+        "game_title": "The Legend of Zelda: Link's Awakening",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Originally released for the Game Boy system more than 25 years ago, one of the most beloved games in the Legend of Zelda series returns.\r\n\r\nIn this modern re-imagining, players travel to the mysterious island of Koholint to guide Link on a perilous adventure. The Legend of Zelda: Link's Awakening arrives exclusively on Nintendo Switch in 2019.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          6037
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 65548,
+        "game_title": "The Legend of Zelda: Link's Awakening [Dreamer Edition]",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "26 years after its original release on Game Boy, The Legend of Zelda: Link's Awakening will be reborn as a new experience on Nintendo Switch. Buffeted by a storm, Link washes ashore on the mysterious Koholint Island. In order to return home, Link must overcome challenging dungeons and battle against fearsome monsters. This new version of the classic adventure includes many unique elements that appeared in the original Game Boy release, such as 2D platformer-style rooms and appearances from characters outside of The Legend of Zelda series. As you clear dungeons throughout the main story, earn dungeon rooms (Chamber Stones), then arrange them into custom layouts in the all-new Chamber Dungeon. Place your dungeon entrance, Nightmare's Lair, and everything in between as you try to fulfill objectives and play through a new dungeon. Tap compatible Legend of Zelda series amiibo (sold separately) to earn more Chamber Stones and find additional Chamber Stones throughout the game in updated mini-games, such as the Rapids Ride, Trendy Game, and fishing. The Legend of Zelda: Link's Awakening: Dreamer Edition will include the game and a Dreamer Art Book that features concept art from the Nintendo Switch version of the game.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3628,
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 65547,
+        "game_title": "The Legend of Zelda: Link's Awakening [Limited Edition]",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "26 years after its original release on Game Boy, The Legend of Zelda: Link's Awakening will be reborn as a new experience on Nintendo Switch. Buffeted by a storm, Link washes ashore on the mysterious Koholint Island. In order to return home, Link must overcome challenging dungeons and battle against fearsome monsters. This new version of the classic adventure includes many unique elements that appeared in the original Game Boy release, such as 2D platformer-style rooms and appearances from characters outside of The Legend of Zelda series. As you clear dungeons throughout the main story, earn dungeon rooms (Chamber Stones), then arrange them into custom layouts in the all-new Chamber Dungeon. Place your dungeon entrance, Nightmare's Lair, and everything in between as you try to fulfill objectives and play through a new dungeon.\r\nTap compatible Legend of Zelda series amiibo (sold separately) to earn more Chamber Stones and find additional Chamber Stones throughout the game in updated mini-games, such as the Rapids Ride, Trendy Game, and fishing. \r\nThe Limited Edition includes the game card, a classic Game Boy themed SteelBook and 120-page artbook.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 126001,
+        "game_title": "The Legend of Zelda: Link's Awakening [Limited Edition]",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "26 years after its original release on Game Boy, The Legend of Zelda: Link's Awakening will be reborn as a new experience on Nintendo Switch. \r\n\r\nBuffeted by a storm, Link washes ashore on the mysterious Koholint Island. In order to return home, Link must overcome challenging dungeons and battle against fearsome monsters. \r\n\r\nThis new version of the classic adventure includes many unique elements that appeared in the original Game Boy release, such as 2D platformer-style rooms and appearances from characters outside of The Legend of Zelda series. \r\n\r\nAs you clear dungeons throughout the main story, earn dungeon rooms (Chamber Stones), then arrange them into custom layouts in the all-new Chamber Dungeon. Place your dungeon entrance, Nightmare's Lair, and everything in between as you try to fulfill objectives and play through a new dungeon.\r\n\r\nTap compatible Legend of Zelda series amiibo (sold separately) to earn more Chamber Stones and find additional Chamber Stones throughout the game in updated mini-games, such as the Rapids Ride, Trendy Game, and fishing. \r\n\r\nThe Limited Edition includes the game card, a classic Game Boy themed SteelBook and 120-page artbook.\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 123896,
+        "game_title": "Zelda no Densetsu: Yume o Miru Shima",
+        "release_date": "2019-09-20",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "26 years after its original release on Game Boy, The Legend of Zelda: Link's Awakening will be reborn as a new experience on Nintendo Switch. Buffeted by a storm, Link washes ashore on the mysterious Koholint Island. In order to return home, Link must overcome challenging dungeons and battle against fearsome monsters. This new version of the classic adventure includes many unique elements that appeared in the original Game Boy release, such as 2D platformer-style rooms and appearances from characters outside of The Legend of Zelda series. As you clear dungeons throughout the main story, earn dungeon rooms (Chamber Stones), then arrange them into custom layouts in the all-new Chamber Dungeon. Place your dungeon entrance, Nightmare's Lair, and everything in between as you try to fulfill objectives and play through a new dungeon. Tap compatible Legend of Zelda series amiibo (sold separately) to earn more Chamber Stones and find additional Chamber Stones throughout the game in updated mini-games, such as the Rapids Ride, Trendy Game, and fishing.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "63379": [
+          {
+            "id": 235710,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63379-1.jpg",
+            "resolution": null
+          }
+        ],
+        "65547": [
+          {
+            "id": 215181,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65547-1.jpg",
+            "resolution": null
+          }
+        ],
+        "65548": [
+          {
+            "id": 220530,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65548-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103150": [
+          {
+            "id": 430490,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103150-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111500": [
+          {
+            "id": 430495,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111500-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118871": [
+          {
+            "id": 406548,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118871-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123896": [
+          {
+            "id": 430503,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123896-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126001": [
+          {
+            "id": 437065,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126001-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Link%27s+Awakening&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 262,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629983
+}

@@ -1,0 +1,173 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 2366,
+        "game_title": "Pokémon Pearl Version",
+        "release_date": "2007-04-22",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Pokémon Pearl Version is a 2007 DS video game developed by Game Freak and released by Nintendo of America in the USA on April 22, 2007.\r\n\r\nWelcome to the next generation of Pokémon!\r\nAs a rookie Pokémon Trainer, you'll need to catch, train, and battle Pokémon on your journey to become the Pokémon League Champion. You will face many challenges along the way, as you search for the Pokémon that rules space in Pokémon Pearl Version.\r\nDiscover more than 100 new Pokémon in the Sinnoh Region!\r\nMeet goals and earn the ability to import Pokémon from your GBA Versions!\r\nBattle and Trade with your friends around the world using Nintendo Wi-Fi Connection!\r\nWatch as day turns to night with the return of the real-time clock feature!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 113441,
+        "game_title": "Pokémon Pearl Version",
+        "release_date": "2007-07-27",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Welcome to the next generation of Pokemon!\r\nAs a rookie Pokemon Trainer, you'll need to catch, train, and battle Pokemon on your journey to become the Pokemon League Champion. You will face many challenges along the way, as you search for the Pokemon that rules space in Pokemon Pearl Version.\r\nDiscover more than 100 new Pokemon in the Sinnoh Region!\r\nMeet goals and earn the ability to import Pokemon from your GBA Versions!\r\nBattle and Trade with your friends around the world using Nintendo Wi-Fi Connection!\r\nWatch as day turns to night with the return of the real-time clock feature!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129669,
+        "game_title": "Pokémon Pearl Version",
+        "release_date": "2006-09-28",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116126,
+        "game_title": "Pokemon Pearl Version [Case Bundle]",
+        "release_date": "2007-04-21",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2366": [
+          {
+            "id": 17651,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2366-1.jpg",
+            "resolution": "1529x1370"
+          },
+          {
+            "id": 17652,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2366-1.jpg",
+            "resolution": "1533x1370"
+          }
+        ],
+        "113441": [
+          {
+            "id": 399959,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113441-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 399960,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113441-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116126": [
+          {
+            "id": 423918,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116126-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129669": [
+          {
+            "id": 452106,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129669-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Pearl+Version&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 561,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630028
+}

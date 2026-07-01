@@ -1,0 +1,66 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 85017,
+        "game_title": "It Takes Two",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass across an abundance of gleefully disruptive gameplay challenges as the separated couple Cody and May. Created purely for co-op, this is a genre-bending platform adventure where only one thing’s for certain: we’re better together.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "85017": [
+          {
+            "id": 280547,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85017-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=It+Takes+Two&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 828,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630071
+}

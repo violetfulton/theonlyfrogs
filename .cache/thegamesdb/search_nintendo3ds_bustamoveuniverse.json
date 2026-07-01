@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 12712,
+        "game_title": "Bust-A-Move Universe",
+        "release_date": "2011-03-27",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Puzzle Bobble Universe is an arcade-style puzzle game in the Bust-A-Move series, in which the player aims and fires bubbles at an onslaught of slowly falling bubbles to clear a group of three or more bubbles the same colour as the one fired and prevent the bubbles from falling to the bottom of the screen.\r\n\r\nThe gameplay modes include: Puzzle mode, which consists of eight worlds comprising of ten stages and a boss fight each, with keys in each level unlocking a dragon which provides the player with a rapid fire ability, and Challenge mode, where players can set their own time limit, if they so please, and play solely to achieve a high score.",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          622
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12712": [
+          {
+            "id": 37277,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12712-1.jpg",
+            "resolution": "640x569"
+          },
+          {
+            "id": 37278,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12712-1.jpg",
+            "resolution": "640x570"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bust-A-Move+Universe&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 459,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630013
+}

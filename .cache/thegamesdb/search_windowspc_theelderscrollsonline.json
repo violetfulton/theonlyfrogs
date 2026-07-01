@@ -1,0 +1,344 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 10,
+    "games": [
+      {
+        "id": 16967,
+        "game_title": "The Elder Scrolls Online",
+        "release_date": "2014-04-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The award-winning Elder Scrolls saga goes online! In The Elder Scrolls Online, experience one connected world and stay up-to-date with everything your friends are doing in one of the most socially enabled games ever. Whether you play alone or with your friends, the game’s innovative combat system allows you to focus on action and tactics, not the UI. Use any weapon at any time, no matter your class, and customize your abilities to play the way you want as you uncover the mysteries of Tamriel and seek heroic quests on your own terms. Explore the far reaches of Skyrim, the mysterious lands of Morrowind, the sprawling metropolis of Daggerfall and beyond. The choices you make, from the alliance you join to the battles you fight, will shape your destiny and the world of Tamriel.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1008
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 74078,
+        "game_title": "The Elder Scrolls Online - Imperial Edition",
+        "release_date": "2014-04-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The award-winning Elder Scrolls saga goes online! In The Elder Scrolls Online, experience one connected world and stay up-to-date with everything your friends are doing in one of the most socially enabled games ever. Whether you play alone or with your friends, the game's innovative combat system allows you to focus on action and tactics, not the UI. Use any weapon at any time, no matter your class, and customize your abilities to play the way you want as you uncover the mysteries of Tamriel and seek heroic quests on your own terms. Explore the far reaches of Skyrim, the mysterious lands of Morrowind, the sprawling metropolis of Daggerfall and beyond. The choices you make, from the alliance you join to the battles you fight, will shape your destiny and the world of Tamriel. The Imperial Edition includes: Molag Bal Statue, The Improved Emperor's Guide to Tamriel, Physical Map of Tamriel, Steel Case Packaging - Digital Content includes: Play as an Imperial, White Imperial Horse, Mudcrab Vanity Pet, Rings of Mara",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 67827,
+        "game_title": "The Elder Scrolls Online: Elsweyr",
+        "release_date": "2019-01-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "On January 15, 2019, ZeniMax Online Studios announced a full expansion pack based in Elsweyr, a setting that has not been playable since The Elder Scrolls: Arena. The expansion introduced a necromancer class and a story line involving dragons. A new trial ‘Sunspire’ was also launched.[34] The expansion pack was released on June 4 for all platforms.[35]",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 84809,
+        "game_title": "The Elder Scrolls Online: Greymoor",
+        "release_date": "2020-05-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Join over 18 million players in the award-winning online multiplayer RPG. Explore the frozen tundra and snowy mountains of Western Skyrim and stop a powerful Vampire Lord from enslaving Tamriel in The Elder Scrolls Online: Greymoor, part of the year-long gothic adventure The Dark Heart of Skyrim.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 122360,
+        "game_title": "The Elder Scrolls Online: High Isle",
+        "release_date": "2022-06-06",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Part of the Legacy of the Bretons year-long adventure. Welcome to High Isle, a part of Tamriel never-before-seen in the Elder Scrolls. Explore the Bretons' idyllic ocean enclave and seat of chivalric culture as you confront the ruinous forces of the Ascendant Lord that threatens to plunge Tamriel into endless conflict.\r\n\r\nLegacy of the Bretons - A brand-new Elder Scrolls adventure! Uncover an epic storytelling experience told across three DLCs and the High Isle Chapter. A tale of chivalric honor and political upheaval awaits.\r\nIdyllic Island Paradise - Discover a Breton land never-before-seen in The Elder Scrolls. Traverse stunning white cliffs, majestic castles, and tournament fields as you encounter a gallant knightly culture.\r\nA Shadow Conspiracy - The Ascendant Lord and his secret knightly order threaten to disrupt peace talks for the ongoing Three Banners War - condemning Tamriel to endless conflict.\r\nNew Card Game - A new way to unwind in ESO! Grab a tankard of mead and bring your best decks to a match of the brand-new strategy card game, Tales of Tribute. Compete with friends or test your mettle against NPCs in this deck-building game invented on High Isle.\r\nNew Companions & More - Explore High Isle with new adventuring buddies. Group up with friends to tackle exciting new world events, a brand-new 12-player trial and more.\r\nRequires The Elder Scrolls Online, sold separately.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 67825,
+        "game_title": "The Elder Scrolls Online: Morrowind",
+        "release_date": "2017-01-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "On January 31, 2017, ZeniMax Online Studios announced a full expansion pack based in Vvardenfell, the setting originally playable in The Elder Scrolls III: Morrowind.[31] Unlike previous DLC for the game, initially Morrowind was not purchasable with crown points and had to be purchased as a separate title. The expansion includes a new class, a new trial, and a new player vs. player mode, known as \"Battlegrounds\".[31] The expansion was released on June 6, 2017.[32] However, Morrowind was introduced to the Crown Store by Bethesda during the 2018 June/July sale and Morrowind is now included in ESO+ subscription.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 122362,
+        "game_title": "The Elder Scrolls Online: Necrom",
+        "release_date": "2023-06-05",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "What truths are best left hidden? Discover Necrom and the forbidden secrets of Apocrypha. From the Telvanni Peninsula in Eastern Morrowind to the cosmic realms of the Prince of Fate - fight to uphold reality and unlock the runic power of a new Class – the Arcanist!\r\n\r\nThe Elder Scrolls Online Deluxe Upgrade: Necrom requires The Elder Scrolls Online Standard Edtition (base game) to play.\r\n\r\nNECROM**\r\n\r\nUNLOCK THE NEW CLASS - Become empowered by the secrets of Apocrypha and the forbidden knowledge of Hermaeus Mora. The Arcanist is a powerful new Class capable of destructive, restorative, or defensive magic by channelling the arcane, ancient runes, and lost tomes of power.\r\n\r\nALL-NEW ZONES - Explore the Telvanni Peninsula, home of colossal mushrooms, arcane magic, rocky spires and the capital city of Necrom, additionally, behold the forbidden books of the endless library of Apocrypha.\r\n\r\nA COSMIC STORY - The Prince of Fate holds secrets too dangerous for mortals or Daedra to comprehend. Now hidden yet turbulent powers threaten Hermaeus Mora's realm of Apocrypha and if the Daedric Prince's secret is uncovered, it could unravel all of reality.\r\n\r\nNEW WARDEN AND ARCANIST CLASS COMPANIONS - Two new allies seek grand quests and glory! Unlock the Arcanist-power-wielding Redguard and Argonian Warden Companions to battle by your side and keep you company on your journey across Tamriel.\r\n\r\n**Available when Necrom launches.\r\n\r\nDELUXE\r\n\r\nIn addition, those who buy the Deluxe Upgrade: Necrom will receive the Deluxe in-game items when Necrom launches:\r\n\r\n• Hermitage Servitor mount\r\n• Cipher's Eye Pocket Watcher pet\r\n• Dark Lady's Headrest memento\r\n• Knowledge Eater Armor outfit style\r\n• Leaning / Sitting / Standing Scholar emotes\r\n\r\nRequires The Elder Scrolls Online, sold separately.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 67826,
+        "game_title": "The Elder Scrolls Online: Summerset",
+        "release_date": "2018-03-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "On March 21, 2018, ZeniMax Online Studios announced a full expansion pack based on Summerset Isle, a setting that has not been playable since The Elder Scrolls: Arena.[33] Like the previous expansion Morrowind was initially, this is not purchasable with crown points, and must be purchased as a separate title. The expansion includes a new zone, new story line, jewelry crafting and a new skill line based on the Psijic Order. A new trial ‘Cloudrest’ was also launched.[33] The expansion was released on May 21, 2018 for Windows and OS X and was released on June 5, 2018 for PlayStation 4 and Xbox One.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 124158,
+        "game_title": "The Elder Scrolls Online: Tamriel Unlimited",
+        "release_date": "2015-06-09",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Experience one connected world and stay up-to-date with everything your friends are doing in one of the most socially enabled games ever. Whether you play with your friends or adventure alone, the game's innovative mouse-driven combat system allows you to focus on action and tactics, not the user interface. Use any weapon or armor at any time and customize your abilities to play the way you want as you uncover the mysteries of Tamriel and seek heroic quests on your own terms. Explore the far reaches of Skyrim, the mysterious lands of Morrowind, the sprawling metropolis of Daggerfall and beyond. The choices you make, from the alliance you join to the battles you fight, will shape your destiny and the world of Tamriel.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 25438,
+        "game_title": "The Elder Scrolls Online: Tamriel Unlimited",
+        "release_date": "2015-03-17",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Experience one connected world and stay up-to-date with everything your friends are doing in one of the most socially enabled games ever. Whether you play with your friends or adventure alone, the game's innovative mouse-driven combat system allows you to focus on action and tactics, not the user interface. Use any weapon or armor at any time and customize your abilities to play the way you want as you uncover the mysteries of Tamriel and seek heroic quests on your own terms. Explore the far reaches of Skyrim, the mysterious lands of Morrowind, the sprawling metropolis of Daggerfall and beyond. The choices you make, from the alliance you join to the battles you fight, will shape your destiny and the world of Tamriel.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9831
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          34
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "16967": [
+          {
+            "id": 211602,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16967-1.jpg",
+            "resolution": null
+          }
+        ],
+        "25438": [
+          {
+            "id": 138311,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/25438-1.jpg",
+            "resolution": "640x964"
+          }
+        ],
+        "67825": [
+          {
+            "id": 220079,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/67825-1.jpg",
+            "resolution": null
+          }
+        ],
+        "67826": [
+          {
+            "id": 220080,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/67826-1.jpg",
+            "resolution": null
+          }
+        ],
+        "67827": [
+          {
+            "id": 220081,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/67827-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74078": [
+          {
+            "id": 237838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74078-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84809": [
+          {
+            "id": 438112,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84809-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122360": [
+          {
+            "id": 423655,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122360-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122362": [
+          {
+            "id": 423657,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122362-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124158": [
+          {
+            "id": 431345,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124158-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Elder+Scrolls+Online&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 751,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630058
+}

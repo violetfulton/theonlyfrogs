@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 74514,
+        "game_title": "Catherine: Full Body",
+        "release_date": "2020-07-07",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Our indecisive protagonist, Vincent, has been with his long-time girlfriend, Katherine, for five years. But instead of taking the next step into marriage, Vincent finds himself in an affair with the provocative blonde bombshell, Catherine! Thrown into discord by his own infidelity, he finds solace in the innocent Rin further complicating matters. Adding to Vincent's dilemma, he begins having nightmares that force him to climb for his life... Will he survive the trials and tribulations of love, or fall to temptations?",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          1,
+          5
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "74514": [
+          {
+            "id": 240188,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74514-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Catherine%3A+Full+Body&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 220,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629976
+}

@@ -1,0 +1,295 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 23586,
+        "game_title": "Pokémon Omega Ruby",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Prepare for an epic adventure exploring a world filled with Pokémon in Pokémon Omega Ruby for the Nintendo 3DS family of systems. Your adventure takes place in Hoenn, a region that consists of a main island that stretches widely from east to west, along with countless small islets that dot the deep blue sea around it. A live volcano steams constantly in the heart of this green-covered island. Look forward to a region rich with natural beauty, a variety of Pokémon, and extraordinary people! During your journey through Hoenn, you’ll be able to build and invite friends to visit your personal Super-Secret Base! Come up with your own Secret Base design, including selecting and placing Decorations however you like. You can also use Super-Secret Bases to play a capture-the-flag activity.Stop Team Magma from going after the Legendary Pokémon Groudon. And look out for Alpha Sapphire. Plus a all new MEGA EVOLUTIONS as well.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 119142,
+        "game_title": "Pokémon Omega Ruby",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Prepare for an epic adventure exploring a world filled with Pokémon in Pokémon Omega Ruby for the Nintendo 3DS family of systems. Your adventure takes place in Hoenn, a region that consists of a main island that stretches widely from east to west, along with countless small islets that dot the deep blue sea around it. A live volcano steams constantly in the heart of this green-covered island. Look forward to a region rich with natural beauty, a variety of Pokémon, and extraordinary people! During your journey through Hoenn, you’ll be able to build and invite friends to visit your personal Super-Secret Base! Come up with your own Secret Base design, including selecting and placing Decorations however you like. You can also use Super-Secret Bases to play a capture-the-flag activity.Stop Team Magma from going after the Legendary Pokémon Groudon. And look out for Alpha Sapphire. Plus a all new MEGA EVOLUTIONS as well.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122104,
+        "game_title": "Pokémon Rubis Oméga",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 101690,
+        "game_title": "Pokémon Omega Ruby",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 73579,
+        "game_title": "Pokemon Omega Ruby [Limited Edition]",
+        "release_date": "2014-11-28",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Dive into an incredible adventure in Pokémon Omega Ruby on Nintendo 3DS and 2DS! Experience a fresh take on the world first found in Pokémon Ruby Version, which came out for Game Boy Advance in 2003. With enhanced graphics and all-new content, get set to prove you’re the best Pokémon Trainer in the region, as you capture, train and battle with your Pokémon in this engrossing RPG!\r\n\r\nWith new Mega Evolutions, classic online battles, and a total graphical overhaul, epic RPG action awaits in Pokémon Omega Ruby, only on Nintendo 3DS and 2DS!\r\n\r\n- Capture, train and battle Pokémon across the Hoenn region to become a master Trainer, and perhaps witness Mega Evolution!\r\n- Use Pokémon-Amie and Poké Puffs to bond with your Pokémon, then enter Pokémon Contest Spectaculars to see if yours has the most appeal.\r\n- Battle and trade with other Trainers via Local Play or online.\r\n- Create your own Super-Secret Base, then visit your friends’ Secret Bases!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 68319,
+        "game_title": "Pokémon Omega Ruby [Pokéball Edition]",
+        "release_date": "2015-10-30",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Soar high above the Hoenn region on an unforgettable quest to be the very best Pokémon Trainer. As you catch, battle, and train a variety of Pokémon, you’ll unleash powerful new Mega Evolutions. Seek out Legendary Pokémon from regions near and far while and uncover the secret powers of Primal Groudon and Primal Kyogre! The Pokémon Omega Ruby and Pokémon Alpha Sapphire games deliver the excitement of the original Pokémon Ruby and Pokémon Sapphire games now reimagined and remastered from the ground up to take full advantage of the Nintendo 3DS and Nintendo 2DS. With new Mega Evolutions of past Pokémon, new characters and stories, new areas to explore, new ways to find and catch Pokémon, and new ways to travel, these games offer hours of entertainment for both current Pokémon fans nd players just getting into the series!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 40102,
+        "game_title": "Pokémon Omega Ruby and Pokémon Alpha Sapphire Dual Pack",
+        "release_date": "2014-11-28",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokémon Omega Ruby and Pokémon Alpha Sapphire take players on a journey like no other as they collect, battle and trade Pokémon while trying to stop a shadowy group with plans to alter the Hoenn region forever.\r\n\r\nIn addition to both games, the Dual Pack includes a pair of in-game download codes that can be redeemed for 100 Potions each. Starting a new Pokémon game with 100 extra Potions is a treat for players who want to be well-stocked for their epic journey through the Hoenn region.\r\n\r\nEmbark on a new adventure through the Hoenn region, an area rich in natural beauty, that contains a cave that shows a scene described in legends.\r\n\r\nExperience the awe of Primal Reversion, a new, extremely powerful transformation undergone by Legendary Pokémon Groudon and Kyogre.\r\n\r\nGet even closer to solving the mysteries of Mega Evolution as more Pokémon gain this powerful ability.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 126792,
+        "game_title": "POKEMON OMEGA RUBY + ALPHA SAPPHIRE DOUBLE PACK ",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Pokémon: Omega Ruby + Pokémon: Alpha Sapphire sends players to the Hoenn region to explore, battle, and learn the secrets of Mega Evolution. As always, gamers assume the role of a young battle trainer who goes on quests to catch and train Pokémon, then engage in turn-based battles with other trainers to upgrade and evolve their Pokémon. The new PokéNav Plus tool lets players explore Hoenn's unique locations, from its large central volcano to the surrounding satellite islands, get the latest local news, and track down elusive Pokémon in tall grass. This bundle also offers 200 bonus potions.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23586": [
+          {
+            "id": 286683,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23586-1.jpg",
+            "resolution": null
+          }
+        ],
+        "40102": [
+          {
+            "id": 279049,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/40102-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68319": [
+          {
+            "id": 221003,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68319-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73579": [
+          {
+            "id": 235869,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73579-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101690": [
+          {
+            "id": 348881,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101690-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119142": [
+          {
+            "id": 407586,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119142-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122104": [
+          {
+            "id": 422669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122104-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126792": [
+          {
+            "id": 440012,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126792-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 440014,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/126792-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Omega+Ruby&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 469,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630015
+}

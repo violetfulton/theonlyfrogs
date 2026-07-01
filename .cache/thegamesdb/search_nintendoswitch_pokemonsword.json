@@ -1,0 +1,311 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 118789,
+        "game_title": "Pokémon Sword",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "A new generation of Pokémon is coming to the Nintendo Switch system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles* in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\r\n\r\nCertain Pokémon can even Gigantamax to gain a new look and a powerful set of G-Max moves. But there’s more to being a champion than honing your battle skills: you can pick your own clothes and get a new hairdo while visiting the stores in town, so you can be the trainer you want to be. Throughout your journey, you’ll encounter newly discovered Pokémon as well as familiar ones that will look a little different in their new Galarian forms! For another way to level up your Pokémon, assign them Poké Jobs to complete, and for fun, you can even play with your Pokémon in Pokémon Camp!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 100241,
+        "game_title": "Pokémon Sword",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "A new generation of Pokémon is coming to the Nintendo Switch system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles* in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\r\n\r\nCertain Pokémon can even Gigantamax to gain a new look and a powerful set of G-Max moves. But there’s more to being a champion than honing your battle skills: you can pick your own clothes and get a new hairdo while visiting the stores in town, so you can be the trainer you want to be. Throughout your journey, you’ll encounter newly discovered Pokémon as well as familiar ones that will look a little different in their new Galarian forms! For another way to level up your Pokémon, assign them Poké Jobs to complete, and for fun, you can even play with your Pokémon in Pokémon Camp!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121754,
+        "game_title": "Pokémon Épée",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 63380,
+        "game_title": "Pokémon Sword",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "A new generation of Pokémon is coming to the Nintendo Switch system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles* in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\r\n\r\nCertain Pokémon can even Gigantamax to gain a new look and a powerful set of G-Max moves. But there’s more to being a champion than honing your battle skills: you can pick your own clothes and get a new hairdo while visiting the stores in town, so you can be the trainer you want to be. Throughout your journey, you’ll encounter newly discovered Pokémon as well as familiar ones that will look a little different in their new Galarian forms! For another way to level up your Pokémon, assign them Poké Jobs to complete, and for fun, you can even play with your Pokémon in Pokémon Camp!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 67292,
+        "game_title": "Pokemon Sword / Shield Dual Pack",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A whole new Pokémon RPG adventure awaits in Pokémon Sword and Pokémon Shield on Nintendo Switch! Get ready to discover Galar, an expansive region with diverse environments. The people and Pokémon who live here work together closely to develop the industries within it. The Wild Area is a vast expanse of land in the Galar region with untamed wilderness. While in the Wild Area, players can control the camera to explore the vast areas around them and search for Pokémon and items. Trainers will find a greater variety of Pokémon living in the Wild Area than anywhere else in the Galar region. Max Raid Battles are a new battle format that takes place in the Wild Area, in which the player will team up with three other Trainers to take on a wild Dynamax Pokémon. Trainers will thn get a chance to catch the wild Dynamax Pokémon if they manage to defeat it—but it won’t go down easily. Dynamax is a phenomenon unique to specific locations in the Galar region, where Pokémon can take on gigantic appearances during battle, and it’s an integral part of Pokémon battles in the region. All the moves of a Dynamax Pokémon will turn into special Max Moves! The Legendary Pokémon Zacian and Zamazenta are shrouded in mystery and are unknown even to those who live in the Galar region",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 124711,
+        "game_title": "Pokémon Sword / Shield Dual Pack Steel Book Edition",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "A whole new Pokémon RPG adventure awaits in Pokémon Sword and Pokémon Shield on Nintendo Switch! Get ready to discover Galar, an expansive region with diverse environments. The people and Pokémon who live here work together closely to develop the industries within it. The Wild Area is a vast expanse of land in the Galar region with untamed wilderness. While in the Wild Area, players can control the camera to explore the vast areas around them and search for Pokémon and items. Trainers will find a greater variety of Pokémon living in the Wild Area than anywhere else in the Galar region. Max Raid Battles are a new battle format that takes place in the Wild Area, in which the player will team up with three other Trainers to take on a wild Dynamax Pokémon. Trainers will thn get a chance to catch the wild Dynamax Pokémon if they manage to defeat it—but it won’t go down easily. Dynamax is a phenomenon unique to specific locations in the Galar region, where Pokémon can take on gigantic appearances during battle, and it’s an integral part of Pokémon battles in the region. All the moves of a Dynamax Pokémon will turn into special Max Moves!\r\nThe Legendary Pokémon Zacian and Zamazenta are shrouded in mystery and are unknown even to those who live in the Galar region",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 65811,
+        "game_title": "Pokemon Sword and Pokemon Shield Dual Pack SteelBook Edition",
+        "release_date": "2019-11-15",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "A whole new Pokémon RPG adventure awaits in Pokémon Sword and Pokémon Shield on Nintendo Switch! Get ready to discover Galar, an expansive region with diverse environments. The people and Pokémon who live here work together closely to develop the industries within it. The Wild Area is a vast expanse of land in the Galar region with untamed wilderness. While in the Wild Area, players can control the camera to explore the vast areas around them and search for Pokémon and items. Trainers will find a greater variety of Pokémon living in the Wild Area than anywhere else in the Galar region. Max Raid Battles are a new battle format that takes place in the Wild Area, in which the player will team up with three other Trainers to take on a wild Dynamax Pokémon. Trainers will thn get a chance to catch the wild Dynamax Pokémon if they manage to defeat it—but it won’t go down easily. Dynamax is a phenomenon unique to specific locations in the Galar region, where Pokémon can take on gigantic appearances during battle, and it’s an integral part of Pokémon battles in the region. All the moves of a Dynamax Pokémon will turn into special Max Moves!\r\nThe Legendary Pokémon Zacian and Zamazenta are shrouded in mystery and are unknown even to those who live in the Galar region",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 79469,
+        "game_title": "Pokémon Sword + Pokémon Sword Expansion Pass",
+        "release_date": "2020-11-06",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Begin your adventure in the Galar region AND discover newly-added areas, The Isle of Armor and The Crown Tundra, with the Pokémon Sword + Pokémon Sword Expansion Pass! This bundle includes both the base Pokémon Sword game and the Pokémon Sword Expansion Pass, which gives you access to two new areas, newly discovered Pokémon, and stories of growth and exploration! \r\n\r\nBegin your adventure as a Pokémon Trainer by choosing one of three partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the multiplayer co-op Max Raid Battles in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon. \r\n\r\nContinue your Pokémon Sword adventure in The Isle of Armor and The Crown Tundra, two new areas to explore that will be added to the Galar region as part of the Pokémon Sword Expansion Pass! Each area offers a different adventure, where you’ll be able to visit the far reaches of the Galar region and meet the people and Pokémon that live there. You’ll also see some familiar Pokémon that didn’t appear in the Galar region before. Keep the adventure going with your existing Pokémon Sword save data and jump into this expansion to Pokémon Sword! ",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "63380": [
+          {
+            "id": 248768,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/63380-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 286686,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63380-1.jpg",
+            "resolution": null
+          }
+        ],
+        "65811": [
+          {
+            "id": 284137,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65811-1.jpg",
+            "resolution": null
+          }
+        ],
+        "67292": [
+          {
+            "id": 284136,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/67292-1.jpg",
+            "resolution": null
+          }
+        ],
+        "79469": [
+          {
+            "id": 284135,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/79469-1.jpg",
+            "resolution": null
+          }
+        ],
+        "100241": [
+          {
+            "id": 342586,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100241-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 447462,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/100241-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118789": [
+          {
+            "id": 406313,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118789-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121754": [
+          {
+            "id": 421446,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121754-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124711": [
+          {
+            "id": 433217,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124711-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 433218,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/124711-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Sword&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 284,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629987
+}

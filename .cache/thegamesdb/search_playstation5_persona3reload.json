@@ -1,0 +1,192 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 116819,
+        "game_title": "Persona 3 Reload",
+        "release_date": "2024-01-01",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 118048,
+        "game_title": "Persona 3 Reload",
+        "release_date": "2024-02-02",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Persona 3 Reload is a captivating re-imagining of the genre-defining RPG, reborn for the modern era. Enter the Dark Hour and Seal Your Fate Step into the shoes of a transfer student who is thrust into an unexpected fate, when entering the hour “hidden” between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.\r\n\r\nExperience the pivotal game of the Persona series faithfully remade with cutting-edge graphics, modernized quality-of-life features, and signature stylish UI.\r\n\r\nFeatures:\r\n- Experience the pivotal game of the Persona Series, faithfully remade with cutting-edge graphics, modernized ''quality-of-life'' features, and signature stylish UI.\r\n- Fully immerse yourself in an emotional, gripping journey with new scenes and character interactions, additional voice-over, and a reloaded soundtrack.\r\n- Choose how to meaningfully spend each day choosing various activities from exploring Port Island or forging genuine bonds with beloved characters.\r\n- Build and command your optimal team to take down otherworldly Shadows and climb closer to the truth.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10380
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 123059,
+        "game_title": "Persona 3 Reload",
+        "release_date": "2024-02-02",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Assuma o papel de um estudante transferido que acaba vivendo um destino inesperado ao ingressar na hora \"oculta\" entre um dia e outro. Desperte um poder incrível, investigue a misteriosa Hora Sombria, lute em nome dos seus amigos e deixe sua marca para sempre nas memórias deles.\r\n\r\nPersona 3 Reload é uma reimaginação cativante do RPG que redefiniu o gênero, agora repensado para a era moderna.\r\n\r\nDestaques:\r\n- Experimente o jogo fundamental da série Persona fielmente recriado com gráficos de ponta, recursos de usabilidade modernizados e uma interface estilosa característica.\r\n\r\n- Mergulhe em uma jornada emocionante e envolvente, incluindo novas cenas e interações com personagens e dublagem adicional.\r\n\r\n- Escolha como passar cada dia de maneira significativa com diversas atividades disponíveis, desde explorar a Port Island até formar laços genuínos com personagens queridos.\r\n\r\n- Monte e controle sua equipe ideal e derrote Sombras de outro mundo para subir cada vez mais e alcançar a verdade.\r\n\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10380
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 123099,
+        "game_title": "Persona 3 Reload",
+        "release_date": "2024-02-02",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10380
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 123744,
+        "game_title": "Persona 3 Reload [Aigis Edition]",
+        "release_date": "2024-02-02",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Experience the pivotal game of the Persona series faithfully remade with cutting-edge graphics, modernized quality-of-life features, and signature stylish UI.\r\nFully immerse yourself in an emotional, gripping journey with new scenes and character interactions, additional voiceover, and a reloaded soundtrack.\r\nChoose how to meaningfully spend each day through various activities from exploring the Port Island to forging genuine bonds with beloved characters.\r\nBuild and command your optimal team to take down otherworldly Shadows and climb closer to the truth.\r\nAigis Edition includes: Base game, Persona 3 Reload DLC Pack Voucher, Art",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10380
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "116819": [
+          {
+            "id": 398469,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116819-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118048": [
+          {
+            "id": 403237,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118048-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123059": [
+          {
+            "id": 426680,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123059-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 426681,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/123059-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123099": [
+          {
+            "id": 426924,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123099-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123744": [
+          {
+            "id": 429589,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123744-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+3+Reload&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 82,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629954
+}

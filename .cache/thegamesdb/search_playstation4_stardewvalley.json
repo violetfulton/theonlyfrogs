@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 73640,
+        "game_title": "Stardew Valley [Collector's Edition]",
+        "release_date": "2016-12-13",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Description\r\nStardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness! Stardew Valley now also features a Multiplayer update on PC, Mac, Linux, Xbox, PS4, and Switch. The game has also been ported to iOS and Android.\r\n\r\nHistory\r\nStardew Valley was created by game designer Eric Barone, under the alias of ConcernedApe. During the four years he spent solo-developing it, he taught himself the necessary skills to produce the game’s music, art, programming, and design. The game was released on PC on February 26, 2016, and within two months passed 1 million copies sold. Within a few months the game expanded support to Mac and Linux, it released on Xbox One and Playstation 4 in December 2016, Nintendo Switch in late 2017, and iOS in October 2018. There have been five major post release updates – the first which added new farm maps, marriage options, and content, the second expanded supported languages to include German, Spanish, Brazilian Portuguese, Russian, Japanese and Simplified Chinese. The third update (in late 2018) added Multiplayer functionality, with network code done by (then) Chucklefish programmer Tom Coxon. Starting with the 4th update, Eric formed a small team to help him update the game. The fourth and fifth updates added significant amounts of new content to the game. Since release, the game has sold over 15 million copies worldwide.\r\n\r\n•\tCreate the farm of your dreams: Build your farm from the ground up on 1 of 5 map layouts suited to your play style!\r\n•\tMaster your ranching skills: Raise animals, grow crops, start an orchard and build useful machines!\r\n•\tBecome a part of the local community: Get to know all 30+ residents of Pelican Town!\r\n•\tCustomize your farmer: There are hundreds of character customization options to choose from!\r\n•\tSettle down and start a family: Share life on the farm with 1 of 12 characters you can date and marry, and even have children with!\r\n•\tExplore vast, mysterious caves! Encounter dangerous monsters and valuable treasures!\r\n•\tSpend a relaxing afternoon at one of the local fishing spots: The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend!\r\n•\tCook delicious meals and craft useful items to help you out: With over 100 cooking and crafting recipes, you’ll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium.\r\n•\tInvite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources and build relationships with townspeople or each other! As more hands are better than one, players have the option to scale profit margin of produce sold to change the difficulty level on a group farm. (Available currently on all platforms except Mobile, PSVITA, and Tesla)\r\n•\tStardew Valley on mobile features the game’s full single player content in addition to tap to move controls and fully redesigned menus and UI.\r\n\r\n",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          7686
+        ],
+        "genres": [
+          3,
+          4
+        ],
+        "publishers": [
+          670
+        ]
+      },
+      {
+        "id": 115047,
+        "game_title": "Stardew Valley [Collector's Edition]",
+        "release_date": "2016-12-13",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!\r\n\r\nFeatures:\r\n\r\n* Turn your overgrown field into a lively farm! Raise animals, grow crops, start an orchard, craft useful machines, and more! You'll have plenty of space to create the farm of your dreams.\r\n\r\n* Improve your skills over time. As you make your way from a struggling greenhorn to a master farmer, you'll level up in 5 different areas: farming, mining, combat, fishing, and foraging. As you progress, you'll learn new cooking and crafting recipes, unlock new areas to explore, and customize your skills by choosing from a variety of professions.\r\n\r\n* Become part of the local community. With over 30 unique characters living in Stardew Valley, you won't have a problem finding new friends! Each person has their own daily schedule, birthday, unique mini-cutscenes, and new things to say throughout the week and year. As you make friends with them, they will open up to you, ask you for help with their personal troubles, or tell you their secrets! Take part in seasonal festivals such as the luau, haunted maze, and feast of the winter star.\r\n\r\n* Explore a vast, mysterious cave. As you travel deeper underground, you'll encounter new and dangerous monsters, powerful weapons, new environments, valuable gemstones, raw materials for crafting and upgrading tools, and mysteries to be uncovered.\r\n\r\n* Breathe new life into the valley. Since JojaMart opened, the old way of life in Stardew Valley has changed. Much of the town's infrastructure has fallen into disrepair. Help restore Stardew Valley to it's former glory by repairing the old community center, or take the alternate route and join forces with Joja Corporation.\r\n\r\n* Court and marry a partner to share your life on the farm with. There are 10 available bachelors and bachelorettes to woo, each with unique character progression cutscenes. Once married, your partner will live on the farm with you. Who knows, maybe you'll have kids and start a family?\r\n\r\n* Spend a relaxing afternoon at one of the local fishing spots. The waters are teeming with seasonal varieties of delicious fish. Craft bait, bobbers, and crab pots to help you in your journey toward catching every fish and becoming a local legend!\r\n\r\n* Donate artifacts and minerals to the local museum.\r\n\r\n* Cook delicious meals and craft useful items to help you out. With over 100 cooking and crafting recipes, you'll have a wide variety of items to create. Some dishes you cook will even give you temporary boosts to skills, running speed, or combat prowess. Craft useful objects like scarecrows, oil makers, furnaces, or even the rare and expensive crystalarium.\r\n\r\n* Customize the appearance of your character and house. With hundreds of decorative items to choose from, you'll have no trouble creating the home of your dreams!\r\n\r\n* PS controller support (with rumble)! (Keyboard still required for text input)\r\n\r\n* Over two hours of original music.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          7686
+        ],
+        "genres": [
+          3,
+          4
+        ],
+        "publishers": [
+          670
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "73640": [
+          {
+            "id": 236014,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73640-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115047": [
+          {
+            "id": 391740,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115047-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Stardew+Valley&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 321,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629993
+}

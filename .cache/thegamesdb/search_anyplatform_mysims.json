@@ -1,0 +1,656 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 107988,
+        "game_title": "MySims",
+        "release_date": "2007-09-18",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Explore a whole new world with MySims - it's your world to transform. Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from the Italian Chef and Florist to the Kickboxing Instructor and DJ. Discover what the residents want and need, so that you can help them enjoy life in their town.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 35390,
+        "game_title": "MySims",
+        "release_date": "2008-10-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Explore a new world with MySims - it's your world to transform! Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from Chef Gino Delicioso and DJ Candy Supergroove to arcade owner, Vic Vector and Cap'n Ginny, the town pirate. Discover what the residents want and need, so that you can help them enjoy life in your Sim's new town. Design a hot tub or jukebox from scratch, build homes and businesses from the roof to the front door. Uncover special decorations and patterns as you explore the growing town. From the furniture and objects to the buildings to the town as a whole - each of your creations is unique. In MySims, what you make... makes all the difference!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 10786,
+        "game_title": "MySims",
+        "release_date": "2007-09-20",
+        "platform": 9,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Explore a whole new world with MySims - it's your world to transform. Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from the Italian Chef and Florist to the Kickboxing Instructor and DJ. Discover what the residents want and need, so that you can help them enjoy life in their town.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 14925,
+        "game_title": "MySims",
+        "release_date": "2007-09-18",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Explore a whole new world with MySims - it's your world to transform. Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from the Italian Chef and Florist to the Kickboxing Instructor and DJ. Discover what the residents want and need, so that you can help them enjoy life in their town.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 43785,
+        "game_title": "MySims Collection",
+        "release_date": "2010-11-09",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Get two of your favorite MySims games in one pack with MySims and MySims Racing. In MySims, with a little creativity and help from the locals, you can bring the town to life. In MySims Racing, build your winning car and take on tricky opponents on a variety of challenging tracks. With two great games in one bundle, the fun never stops with the MySims!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 20724,
+        "game_title": "MySims Agents",
+        "release_date": "2009-09-25",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "In MySims Agents players take on the role of a special agent hired to foil the sinister plans of Morcubus, lord of the criminal underworld. By recruiting different MySims, each with their own special characteristics, players can build up their very own crime-busting dream team. From tracking footprints and using forensics to picking locks, hacking into computers, following leads and collecting clues, players must rely on their wits, skills and trusty gadgets to piece together the clues to solve the mystery. Jump aboard the jet to reach an ancient temple, a spooky mansion or an icy mountaintop chalet in search of clues that lead players closer to the sinister Morcubus. Return from the adventure with cool treasures that players can use to construct and customize their headquarters and make it their own.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 107989,
+        "game_title": "MySims Agents",
+        "release_date": "2009-09-29",
+        "platform": 9,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "In MySims Agents players take on the role of a special agent on a mission to uncover and foil the sinister plans of Morcubus, the corrupt CEO of MorcuCorp. Players will search for clues and solve cases across the city and far beyond as they piece together his nefarious plans. Armed with a set of increasingly sophisticated gadgets, players will track footprints, pick locks, hack into computers and do molecular forensics. They will jump, climb, balance and build their way to follow cases no matter where they lead, even taking a private jet to reach an ancient temple, a spooky mansion and an icy mountaintop chalet. Along the way they meet MySims they can recruit to build up their own team of agents, and unlock rare items they can use to deck out their headquarters.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 18064,
+        "game_title": "MySims Agents",
+        "release_date": "2009-09-29",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "MySims Agents is a mystery-solving adventure game for the Nintendo DS and Wii, in which the player must guide agents in an effort to stop the sinister plans of Morcubus, lord of the criminal underworld.[4] This addition to the MySims franchise was released on September 29, 2009.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 14924,
+        "game_title": "MySims Kingdom",
+        "release_date": "2008-10-28",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "King Roland needs your help to make the Kingdom a better place. Throughout this tale to bring the Kingdom back to its former glory, you must help new and old friends alike, discover new lands and build to the limit of your imagination.",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": null,
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 14926,
+        "game_title": "MySims Kingdom",
+        "release_date": "2008-10-28",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Take the Kingdom with you! MySims Kingdom on Nintendo DS adds a new chapter to the saga, challenging you to help the King thwart the plans of evil in a far flung corner of the Kingdom. Many new activities and mini-games are included to help you persuade the King that your island is the ultimate royal destination.",
+        "players": 3,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 20725,
+        "game_title": "MySims Party",
+        "release_date": "2009-03-10",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims Party lets you and your friends throw down with the MySims. Up to 4 players can test their wits, quickness and skill in 40+ minigames, each hosted by a different MySim! Each of your friends and you can select a custom team of 4 characters to play the huge variety MySims Party has to offer. Outwit friends by selecting the right team who will carry the day in contests based on strength, endurance, speed and luck. Pick carefully though, the wrong team will give your friends the edge over you. Bragging rights only belong to those who choose wisely and play flawlessly! Real People. Real fun. With the MySims!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 9119,
+        "game_title": "MySims Party",
+        "release_date": "2009-03-10",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Wii version of MySims Party takes a departure from The Sims franchise and the other MySims Games and begins with a character moving into a run-down town with a mayor desperate to bring residents back. The player's job is to enter festivals and win to bring new people into town. Players must collect points during these minigames to gain new characters and monuments and in return are given new playable characters, and outfits for their Sim. As the town's population increases, new areas are unlocked.\r\n\r\nYou can also interact with citizens by talking to them. You can also customize your character in many different items you can build that has the option to change your character. Unlike other games in The Sims franchise, your Sim does not have needs or wants.\r\n\r\nIn the Nintendo Wii version of MySims Party only the Wii Remote is used to play minigames. You also move the cursor around the screen to get to different parts of the menu. You can also use the Wii Remote to move around town.",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          2563
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 21286,
+        "game_title": "MySims Racing",
+        "release_date": "2009-06-08",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Race into an all-new adventure with MySims Racing! Test your reflexes, strategy and skill by tricking out cars, completing challenges, and winning championships. Speed up any get-together with 4-player mode. Pick cool race-themed outfits and accessories for your MySim, save Speedville, and come race with us!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          670
+        ],
+        "genres": [
+          7,
+          12
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 24538,
+        "game_title": "MySims Racing",
+        "release_date": "2009-06-12",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims Racing is a go-kart/car racing game developed by Electronic Arts as part of the MySims series, a spin-off from its trademark The Sims series of games. The title was released on June 9, 2009 for the Nintendo DS and Wii.\r\n\r\nThough similar to Mario Kart, the game offers some unique gameplay features, such as a Story Mode (similar to the rebooted Need for Speed series), basic car and character customization, and the ability to transfer cars to and from Wii Remotes.\r\n\r\nRace to the finish line in MySims Racing! Face a variety of tricky MySim opponents on a huge variety of exotic tracks! Take on up to three friends in intense multiplayer racing. During your race, find awesome power-ups such as the heat-seeking jack-o-lantern pumpkin or a bubble dropper that can help you wreck the competition. There are nearly endless customization options so that your car reflects your high-gear personality. You can swap bodies, change paint jobs and add tons of accessories. Not only can you change the look of your car, you can also improve power, acceleration and handling by mixing and matching engines, suspension and tires.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          670
+        ],
+        "genres": [
+          7,
+          9
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 15939,
+        "game_title": "MySims SkyHeroes",
+        "release_date": "2010-09-28",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims SkyHeroes is a video game developed by Behaviour Interactive and published by Electronic Arts, the sixth in the MySims series. The game was released on September 28, 2010 for the Wii, Nintendo DS, Xbox 360, and PlayStation 3, making it the first game in the MySims video game series on the PlayStation 3 and Xbox 360.[1] It is also the first MySims game to be rated E10+ by the ESRB.",
+        "players": null,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      },
+      {
+        "id": 15940,
+        "game_title": "MySims SkyHeroes",
+        "release_date": "2010-09-28",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims SkyHeroes is a video game developed by Behaviour Interactive and published by Electronic Arts, the sixth in the MySims series. The game was released on September 28, 2010 for the Wii, Nintendo DS, Xbox 360, and PlayStation 3, making it the first game in the MySims video game series on the PlayStation 3 and Xbox 360.[1] It is also the first MySims game to be rated E10+ by the ESRB.\r\n\r\nMySims SkyHeroes is an aviation game that features a solo campaign, boss battles, local co-op, and online multiplayer. There are upgrades for the planes through a plane editor which will allow players to customize a plane using parts like wings and engines acquired by completing missions. Some upgrades are purely decorative, like wheel styles, but wing, engine and body upgrades upgrade stats using a three star rating system.",
+        "players": null,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      },
+      {
+        "id": 15941,
+        "game_title": "MySims SkyHeroes",
+        "release_date": "2010-09-28",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      },
+      {
+        "id": 15942,
+        "game_title": "MySims SkyHeroes",
+        "release_date": "2010-09-28",
+        "platform": 15,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims SkyHeroes is a video game developed by Behaviour Interactive and published by Electronic Arts, the sixth in the MySims series. The game was released on September 28, 2010 for the Wii, Nintendo DS, Xbox 360, and PlayStation 3, making it the first game in the MySims video game series on the PlayStation 3 and Xbox 360.[1] It is also the first MySims game to be rated E10+ by the ESRB.",
+        "players": null,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      },
+      {
+        "id": 125228,
+        "game_title": "SNAAK",
+        "release_date": "2020-10-15",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "SNAAAK is a short Snakevania about encarnating a formless critter delving into the bowels of a bleak complex.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 125121,
+        "game_title": "Monkeyshines",
+        "release_date": "1982-01-01",
+        "platform": 4927,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "9119": [
+          {
+            "id": 25926,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/9119-1.jpg",
+            "resolution": "1535x2148"
+          },
+          {
+            "id": 25928,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/9119-1.jpg",
+            "resolution": "1512x2148"
+          }
+        ],
+        "10786": [
+          {
+            "id": 30324,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/10786-1.jpg",
+            "resolution": "485x680"
+          },
+          {
+            "id": 30325,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10786-1.jpg",
+            "resolution": "486x680"
+          }
+        ],
+        "14924": [
+          {
+            "id": 42722,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14924-1.jpg",
+            "resolution": "640x905"
+          },
+          {
+            "id": 42723,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14924-1.jpg",
+            "resolution": "640x904"
+          }
+        ],
+        "14925": [
+          {
+            "id": 42724,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14925-1.jpg",
+            "resolution": "495x442"
+          },
+          {
+            "id": 42725,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14925-1.jpg",
+            "resolution": "640x576"
+          }
+        ],
+        "14926": [
+          {
+            "id": 42726,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14926-1.jpg",
+            "resolution": "400x355"
+          }
+        ],
+        "15939": [
+          {
+            "id": 44442,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15939-1.jpg",
+            "resolution": "1529x1760"
+          }
+        ],
+        "15940": [
+          {
+            "id": 44443,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15940-1.jpg",
+            "resolution": "766x1076"
+          }
+        ],
+        "15941": [
+          {
+            "id": 44444,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15941-1.jpg",
+            "resolution": "1000x895"
+          }
+        ],
+        "15942": [
+          {
+            "id": 44445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15942-1.jpg",
+            "resolution": "767x1080"
+          }
+        ],
+        "18064": [
+          {
+            "id": 371976,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18064-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 371977,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/18064-1.jpg",
+            "resolution": null
+          }
+        ],
+        "20724": [
+          {
+            "id": 371979,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20724-1.jpg",
+            "resolution": null
+          }
+        ],
+        "20725": [
+          {
+            "id": 59924,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20725-1.jpg",
+            "resolution": "640x573"
+          }
+        ],
+        "21286": [
+          {
+            "id": 62426,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/21286-1.jpg",
+            "resolution": "525x471"
+          }
+        ],
+        "24538": [
+          {
+            "id": 207843,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24538-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 207844,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/24538-1.jpg",
+            "resolution": null
+          }
+        ],
+        "35390": [
+          {
+            "id": 205395,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35390-1.jpg",
+            "resolution": null
+          }
+        ],
+        "43785": [
+          {
+            "id": 116537,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43785-1.jpg",
+            "resolution": "812x1140"
+          }
+        ],
+        "107988": [
+          {
+            "id": 377675,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107988-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107989": [
+          {
+            "id": 371978,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107989-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125121": [
+          {
+            "id": 434593,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125121-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125228": [
+          {
+            "id": 434871,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125228-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        },
+        "15": {
+          "id": 15,
+          "name": "Microsoft Xbox 360",
+          "alias": "microsoft-xbox-360"
+        },
+        "4927": {
+          "id": 4927,
+          "name": "Magnavox Odyssey 2",
+          "alias": "magnavox-odyssey-2"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=MySims&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=MySims&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
+  },
+  "remaining_monthly_allowance": 98,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629957
+}

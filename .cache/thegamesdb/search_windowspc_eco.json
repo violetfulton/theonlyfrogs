@@ -1,0 +1,609 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 61533,
+        "game_title": "Eco",
+        "release_date": "2018-02-06",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Create a civilization capable of stopping a meteor without destroying the ecosystem in the process.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 69069,
+        "game_title": "Eco-Match ",
+        "release_date": "2009-03-03",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The polar ice caps are receding, the rain forests are vanishing, and animals are losing their habitat. The World is changing… but we can change it back! The nations of the World have joined together to form WorldSAFE, an organization with the power and resources to put things right again. Take control as WorldSAFE’s newly appointed leader and bring balance back to nature. Travel the globe in search of environmental hot zones and start fighting back, one match a time!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          5
+        ],
+        "publishers": null
+      },
+      {
+        "id": 116495,
+        "game_title": "Eco-Warriors in SPACE",
+        "release_date": "1995-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          21
+        ],
+        "publishers": null
+      },
+      {
+        "id": 23625,
+        "game_title": "Ecoco de Fight!",
+        "release_date": null,
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A japanese fan-game released in 1999 based on character from the DiGi Charat series.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1529
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          2540
+        ]
+      },
+      {
+        "id": 66087,
+        "game_title": "Economic War",
+        "release_date": "2001-04-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          6
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 14144,
+        "game_title": "EcoQuest II: Lost Secret of the Rainforest",
+        "release_date": "1993-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the wake of the tremendous success of the original EcoQuest: The Search for Cetus, Sierra has decided to follow up with a sequel.\r\n\r\nIn EcoQuest 2: Lost Secret of the Rainforest, you play the role of Adam Greene who, along with his father Noah - doctor of ecology, arrives in a country in the middle of the rainforest in order to make some ecological studies.\r\n\r\nAfter having separated from his father, Adam must venture into the rainforest, discover the secret of the mysterious Forest Heart and find the lost City of Gold in his pursuit of a remedy for the Grove People.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          7700
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          145
+        ]
+      },
+      {
+        "id": 14143,
+        "game_title": "EcoQuest: The Search for Cetus",
+        "release_date": "1991-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In EcoQuest: The Search for Cetus, the player is cast into the role of Adam, the twelve-year-old son of the famous ecologist Noah Greene. One day, his father rescues a dolphin from an abandoned fish net. As Adam becomes more friendly with the creature, he is amazed to discover that the dolphin can talk! Adam finds out that his new friend is Delphineus, the messenger of the whale king Cetus. As a qualified scuba diver, Adam is chosen to venture into the underwater kingdom of animals known as Eluria, and help its inhabitants.\r\n\r\nThe game's interface and basic gameplay are similar to those of other Sierra adventures: the player interacts with the environment by selecting icons that represent verb commands (\"Look\", \"Talk\", \"Use\", etc.) and applying them to objects or characters. Compared to most other adventure games by the same company, the difficulty level is lower, with the intention of making the game more suitable for younger players; for instance, it is impossible to \"die\" or get irrevocably stuck in the game. \r\n\r\nDespite its supernatural elements, EcoQuest contains educational material. The inhabitants of the deep see are realistically depicted, and there is plenty of information concerning their life habits, environment, and the threats posed to them by human beings.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          7700
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          145
+        ]
+      },
+      {
+        "id": 22617,
+        "game_title": "10 Second Ninja",
+        "release_date": "2014-03-05",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ninjas are cool, this is an established fact of the universe. Nazi Robots from space are not cool, they are the complete opposite of cool, and Robot Hitler is out to get you, the world's first ninja.\r\n\r\nYou have 10 seconds to destroy all Nazi Robots in your vicinity. IT. IS. ON.\r\n\r\nBecome the ultimate Ninja and take down Robot Hitler’s automated autocracy in this blisteringly fast platformer.\r\n\r\nReady, Steady, Ninja!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3342
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          5103
+        ]
+      },
+      {
+        "id": 71656,
+        "game_title": "10 Second Ninja X",
+        "release_date": "2016-07-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "10 SECOND NINJA X is a shockingly fast, overwhelmingly intense action/puzzle game. In this thumb blistering sequel, the nefarious Captain Greatbeard has kidnapped you and trapped your forest friends inside of his army of robots like some kind of psychopath. Greatbeard doesn't think you're the fastest ninja who ever lived - he is WRONG. Destroy all of Greatbeard's robots in each level in ten seconds or less. Be fast enough to get the coveted three star rating in each. Fight through 100 levels, explore Greatbeard's airship, discover secrets, climb the leaderboards and show everyone what it means to be THE FASTEST, COOLEST HERO EVER.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          2278
+        ]
+      },
+      {
+        "id": 68137,
+        "game_title": "60 Seconds! Reatomized",
+        "release_date": "2019-07-25",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          6,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 36873,
+        "game_title": "90 Second Portraits",
+        "release_date": "2014-12-08",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "90 Second Portraits is a silly speed painting game developed for Ludum Dare 31 Jam competition.\r\n\r\nTime is money and you have neither! In 90 SECOND PORTRAITS you’re paying the bills by speed painting portraits of bypassing customers!\r\n\r\nYou have 90 seconds to paint the customer and his/her prefered background! Your work day ends after 5 customers!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8494
+        ],
+        "genres": [
+          3,
+          6
+        ],
+        "publishers": [
+          3969
+        ]
+      },
+      {
+        "id": 88508,
+        "game_title": "BoneTown: The Second Coming Edition",
+        "release_date": "2021-06-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Bone Your Way To The Top\r\nWant to party with hot chicks and get laid in a free-roaming video game?\r\n\r\nBoneTown is the first game to combine free roaming, action adventure gameplay with sex, drugs, and debauchery in one hilariously hardcore experience!\r\n\r\nMerging games like Grand Theft Auto and Red Dead Redemption with outrageous drug-induced and sexual powers never before allowed in a video game, BoneTown creates a world where crack makes you run quicker, weed lets you jump higher, and of course, you get to bone your way to the top as you seduce thousands of unique girls.\r\n\r\nKey Features\r\n25 sex positions merged seamlessly into gameplay\r\n200+ voices with thousands of unique male and female characters\r\n15 levels including trailer parks, house parties, suburbia, clubs, and drug forests\r\n7 drugs, each with their own boss, consumable effect, and fighting move\r\n35+ replayable competitions like Hookup Contests, Butt Brawls, Hogging Contests, Smear the Steer, an Orgy Competition, Capture the Flag, a Sorority Slam, The Great Crack Caper, a Jerk Off Competition, and many more\r\n12 Story Mode missions that follow the overthrow of The Man Inc. and your rise to BoneTown stardom\r\n80+ weapons, ranging from tennis rackets, to sex paddles, to holy relics, to kegs\r\nA Fantasy Mode that lets you skip the gameplay and get right to the boning\r\n\r\nThe Sex Is Everywhere\r\nWant to nail a nun, do a dominatrix, jizz on a juicer, or eat out an eighteen-year-old? You've come to the right place.\r\n\r\nIn BoneTown, sex on the sidewalk is as common as sex in the bedroom, and the only thing to be ashamed of is not having enough stamina to finish what you start. Every girl you see is fair game—if you have big enough Balls to convince her to bone you. The hottest girls on the island will always choose the guys with the biggest Balls, and a guy with small Balls will need to start at the bottom unless he’s willing to pay for it.\r\n\r\nNot only is sex fun, but in BoneTown it’s essential. From the blowjobs that increase your Health, to the sex that gives you bigger Balls, or the anal which does both, sex is a major part of succeeding in BoneTown.\r\n\r\nParty Like a Rockstar\r\nIn the drug fueled paradise of BoneTown, the only drug problem is not having them.\r\n\r\nIllicit substances--from the mushrooms that can make you invincible, to the peyote that takes you to the Spirit World, to the booze that makes you more attractive to women--give you extraordinary powers and can make all the difference in winning a fight or getting laid.\r\n\r\nMany cultural groups have embraced particular kinds of drugs, and knowing who’s using what makes it easier to grow your stash. Need weed? Find a stoner. Got an itching for some Peyote? Better head to the Reservation. In BoneTown, keeping your stash full is all about knowing the city and its inhabitants.\r\n\r\nCrazy Hilarious Combat\r\nIn BoneTown, you fight for everything from settling disputes, to getting drugs, to getting laid, and hitting someone with a mannequin leg, a dildo, or even a frying pan is as common as throwing an uppercut.\r\n\r\nIn the BoneTown fight system, upgrades allow you to use beer bottles like shotguns, spit whiskey flames, or shoot lightning out of your ass to literally knock your opponent to their knees.\r\n\r\nOnce an opponent has been KO’d, it’s time to steal their shit. Their voice, fight buffs, sexual buffs, and even the clothes off their back are fair game. But don’t expect different treatment when you lose. You have to fight your ass off with whatever’s available to survive on the mean streets of BoneTown.\r\n\r\nBe Outrageous Characters\r\nOver the years, BoneTown has become home to a slew of iconic individuals. Hang out with stoners, rockers, Mormons, the superhero Buttman, porn legend Ron Jeremy, or even the reclusive Jesus--then, knock them out and steal their identities. But watch out, not everyone in BoneTown is friendly, and when you run into the Devil, you know you’ve hit rock bottom.\r\n\r\nThe Second Coming Edition\r\nFamiliar with BoneTown, and wonder what the Second Coming Edition is? Well, with Steam allowing adult games, BoneTown’s developers got one more crack at our crown jewel. In the end, we added and improved so many things that we felt it wasn’t the same game it had been before.\r\n\r\nSo what’s different in the Second Coming? To start with, we increased the graphics through a complete overhaul of the levels and texture sizes. Next, we added over three times more voice content, greatly increasing the variety of girls you can bone and male characters you can become. Then, we doubled the number of competitions and other gameplay missions within each level. And that’s not all--keep an eye on the News section to see what else is coming to your favorite debaucherous town.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 133479,
+        "game_title": "Cattails - Become a Cat!",
+        "release_date": "2017-12-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Become a cat! Cattails is a unique animal simulation RPG. Hunt for food, fight invading cats, explore to gather herbs, and socialize with other cats in an expansive open world. Get married and raise a family of kittens, befriend your neighbors, and learn to live in the dangerous wilderness!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 116462,
+        "game_title": "Classic Concentration [New Second Edition]",
+        "release_date": "1988-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          25
+        ],
+        "publishers": null
+      },
+      {
+        "id": 75672,
+        "game_title": "Detroit: Become Human",
+        "release_date": "2020-06-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Travel to the near-future metropolis of Detroit – a city rejuvenated by an exciting technological development: androids. Shape an ambitious branching narrative, making choices that will not only determine your own fate, but that of the entire city.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          6898
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 110498,
+        "game_title": "Detroit: Become Human [Collector's Edition]",
+        "release_date": "2018-05-25",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans\r\nEnter a world where moral dilemmas and difficult decisions can turn android slaves into world-changing revolutionaries - Discover what it means to be human from the perspective of an outsider\r\nShape an ambitious branching narrative, where your decisions not only determine the fate of the three main characters, but that of the entire city of Detroit\r\nEvery decision you make, no matter how minute, affects the outcome of the story - No playthrough will be exactly the same: replay again and again to discover a totally different conclusion\r\nDetroit: Become Human features stunning graphics, 4K resolution, 60 fps framerate & full integration of both mouse/keyboard and gamepad controls for the most complete Detroit: Become Human experience",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6898
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 122221,
+        "game_title": "Discipline: The Record of a Crusade",
+        "release_date": "2007-12-18",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Discipline: The Record of a Crusade is an adult visual novel developed by Activesoft for Windows PCs. It was originally released in Japan on August 30, 2002. An official English translation was done and published by Kitty Media on December 12, 2007. The Japanese version came on 2 CDs, while the US version came on a single DVD. ",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": null,
+        "genres": [
+          2,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 92272,
+        "game_title": "EVE The Second Decade Collector's Edition",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "space flight",
+        "players": 10,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 43282,
+        "game_title": "Fire Hawk: Thexder - The Second Contact",
+        "release_date": "1990-09-24",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fire Hawk: Thexder - The Second Contact is the sequel to Thexder, an amazing game originally developed in Japan and later released to the USA.\r\n\r\nFire Hawk: Thexder is well known for its eleven game music tracks, which were of a quality that was relatively unknown for video games released in the late 1990's.\r\n\r\nGame play consist of the player in the role of a robot battle unit that transforms into a space fighter jet \"Fire Hawk\" depending on the current action.  When battling, the player maneuvers the robot transformer which can levitate and float while firing at enemy objects, creatures, droids and bots in order to clear the room in order to proceed. The robot battle unit transforms into the \"Fire Hawk\" space ship jet in order to move quickly and to navigate narrow connecting tunnels.\r\n\r\nUltimately the goal is to conquer the invading alien species by navigating the catacombs to clear alien enemies and disable the alien mothership. There are 9 different combat missions that must be completed to disable the mothership. (Retrogameworks)\r\n\r\nFront Box Cover and Back Cover - Fair Use - MobyGames.com Credits Contributed by Trixter  (8781) on Mar 22, 1999",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3301,
+          7706
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          145,
+          543
+        ]
+      },
+      {
+        "id": 70743,
+        "game_title": "Ghost Recon : Advanced Warfighter + Ghost Recon : Advanced Warfighter 2",
+        "release_date": "2012-06-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9150
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          4566
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14143": [
+          {
+            "id": 324519,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14143-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 324520,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14143-1.jpg",
+            "resolution": null
+          }
+        ],
+        "14144": [
+          {
+            "id": 324522,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14144-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 324523,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14144-1.jpg",
+            "resolution": null
+          }
+        ],
+        "22617": [
+          {
+            "id": 66777,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/22617-1.jpg",
+            "resolution": "682x1024"
+          }
+        ],
+        "23625": [
+          {
+            "id": 69420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23625-1.jpg",
+            "resolution": "425x600"
+          }
+        ],
+        "36873": [
+          {
+            "id": 104187,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/36873-1.png",
+            "resolution": "600x413"
+          }
+        ],
+        "43282": [
+          {
+            "id": 115814,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/43282-1.jpg",
+            "resolution": "800x998"
+          },
+          {
+            "id": 116093,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43282-1.jpg",
+            "resolution": "800x993"
+          }
+        ],
+        "61533": [
+          {
+            "id": 204532,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61533-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66087": [
+          {
+            "id": 216233,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66087-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68137": [
+          {
+            "id": 220655,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68137-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69069": [
+          {
+            "id": 222303,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69069-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70743": [
+          {
+            "id": 225289,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70743-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71656": [
+          {
+            "id": 227477,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71656-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75672": [
+          {
+            "id": 458815,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75672-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88508": [
+          {
+            "id": 294285,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88508-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92272": [
+          {
+            "id": 306911,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92272-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110498": [
+          {
+            "id": 379095,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110498-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116462": [
+          {
+            "id": 397128,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116462-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116495": [
+          {
+            "id": 397217,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116495-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122221": [
+          {
+            "id": 423129,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122221-1.jpg",
+            "resolution": null
+          }
+        ],
+        "133479": [
+          {
+            "id": 469298,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/133479-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Eco&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Eco&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
+  },
+  "remaining_monthly_allowance": 960,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630094
+}

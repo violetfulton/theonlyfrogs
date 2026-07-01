@@ -1,0 +1,258 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 11900,
+        "game_title": "Lollipop Chainsaw",
+        "release_date": "2012-06-12",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Lollipop Chainsaw is the 'un-deadly' story of sweet and killer zombie hunter Juliet Starling and her quest to uncover the root of a colossal zombie outbreak. With her wickedly awesome chainsaw in hand, Juliet slices, dices and splits her way through hordes of the undead, but soon realizes the horde is only the opening act to a festival of zombie rock lords determined to kill the chainsaw wielding cheerleader.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 111703,
+        "game_title": "Lollipop Chainsaw",
+        "release_date": "2012-06-15",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      },
+      {
+        "id": 122064,
+        "game_title": "Lollipop Chainsaw",
+        "release_date": "2012-06-15",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      },
+      {
+        "id": 127963,
+        "game_title": "Lollipop Chainsaw [ASIA]",
+        "release_date": "2012-06-14",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 20,
+        "overview": "Lollipop Chainsaw is the 'un-deadly' story of sweet and killer zombie hunter Juliet Starling and her quest to uncover the root of a colossal zombie outbreak. With her wickedly awesome chainsaw in hand, Juliet slices, dices and splits her way through hordes of the undead, but soon realizes the horde is only the opening act to a festival of zombie rock lords determined to kill the chainsaw wielding cheerleader.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          18
+        ],
+        "publishers": [
+          1659
+        ]
+      },
+      {
+        "id": 127964,
+        "game_title": "Lollipop Chainsaw [CENSORED]",
+        "release_date": "2012-06-14",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Lollipop Chainsaw is the 'un-deadly' story of sweet and killer zombie hunter Juliet Starling and her quest to uncover the root of a colossal zombie outbreak. With her wickedly awesome chainsaw in hand, Juliet slices, dices and splits her way through hordes of the undead, but soon realizes the horde is only the opening act to a festival of zombie rock lords determined to kill the chainsaw wielding cheerleader.\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          18
+        ],
+        "publishers": [
+          1659
+        ]
+      },
+      {
+        "id": 77702,
+        "game_title": "Lollipop Chainsaw [Premium Edition] (JPN)",
+        "release_date": "2012-06-14",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Lollipop Chainsaw Premium Edition Japanese Format (NTSC-J) Uncensored and Dual Audio options.\r\nhand. Juliet must balance the drama of high school while carrying out her zombie-hunting lineage\r\nGameplay Design Celebrated game developer SUDA 51 brings his unique creative style and vision to the gameplay design, taking players through a wild ride of zombies, chainsaws, and rainbows\r\nEdgy Storyline Through an adapted script by James Gunn, Juliet must uncover the root of a colossal zombie outbreak at her school, San Romero High, but soon realizes the horde is only the opening act to a festival of zombie rock lords determined to take her down\r\nCombat/Weapons Players will hone their cheerleading acrobatics and chainsaw skills to string together devastating combo moves, taking out hordes of the undead\r\nZombie Rock Lords San Romero High’s zombie jocks and undead faculty are the least of Juliet’s concerns when she soon realizes that she faces a bigger challenge, zombie rock lords that add a new ‘beat’ to SUDA 51’s over-the-top boss battles\r\nHead Bangin’ Music With original music created by popular video game composer Akira Yamaoka (best known for the Silent Hill series) and collaboration with a yet-to-be announced artist, Lollipop Chainsaw features a soundtrack that’s to die for! In addition to original music, Juliet’s playlist will also include familiar songs from various musical genres",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 79862,
+        "game_title": "Lollipop Chainsaw: Valentine Edition (JPN)",
+        "release_date": "2013-02-14",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Lollipop Chainsaw is the ‘un-deadly’ story of sweet and killer zombie-hunter Juliet Starling and her quest to uncover the root of a colossal zombie outbreak. With her wickedly awesome chainsaw in hand, Juliet slices, dices and splits her way through hordes of the undead, but soon realizes the horde is only the opening act to a festival of zombie rock lords determined to kill the chainsaw-wielding cheerleader. Lollipop Chainsaw is being developed by GRASSHOPPER MANUFACTURE, led by celebrated game developer Goichi Suda (aka SUDA 51) and featuring the musical compositions of the renowned Akira Yamaoka. In addition, Hollywood director and writer James Gunn (Super, Slither, Dawn of the Dead, Tromeo and Juliet) has brought his cult humor and edgy storytelling to Lollipop Chainsaw’s script.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          18
+        ],
+        "publishers": [
+          1659
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "11900": [
+          {
+            "id": 34987,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11900-1.jpg",
+            "resolution": "1000x1150"
+          }
+        ],
+        "77702": [
+          {
+            "id": 251220,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77702-1.jpg",
+            "resolution": null
+          }
+        ],
+        "79862": [
+          {
+            "id": 257481,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/79862-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 257482,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/79862-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111703": [
+          {
+            "id": 393764,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111703-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 393765,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/111703-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122064": [
+          {
+            "id": 422619,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122064-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127963": [
+          {
+            "id": 444106,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127963-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127964": [
+          {
+            "id": 444108,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127964-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Lollipop+Chainsaw&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 622,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630037
+}

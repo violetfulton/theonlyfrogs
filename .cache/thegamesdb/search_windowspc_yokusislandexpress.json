@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 60483,
+        "game_title": "Yoku's Island Express",
+        "release_date": "2018-05-29",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Meet Yoku, the pint-sized postman protagonist of Yoku's Island Express! Use a unique blend of pinball mechanics, platforming and open world exploration to unlock the secrets of Mokumana Island, help the locals, awaken ancient deities and much more in this amazing new tropical adventure!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          9388
+        ],
+        "genres": [
+          2,
+          5,
+          15
+        ],
+        "publishers": [
+          370
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "60483": [
+          {
+            "id": 201177,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60483-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Yoku%27s+Island+Express&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 749,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630057
+}

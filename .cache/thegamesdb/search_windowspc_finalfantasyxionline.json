@@ -1,0 +1,137 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 72244,
+        "game_title": "Final Fantasy XI",
+        "release_date": "2003-10-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Twenty years after the Great Crystal War, an evil threat returns in Final Fantasy XI. A desperate call goes out to adventurers around the globe for help, and you are first in line. Begin your journey into the world of Vana'diel by creating a customized character from a host of physical attributes and jobs. Experience missions, quests, and boss battles by yourself or join up with other party members to form powerful alliances as you explore the vast environments that make up Vana'diel. Through the PlayOnline Viewer, you can connect and communicate with other players whether they are playing on a PlayStation 2 computer entertainment system or a PC.\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 65432,
+        "game_title": "Final Fantasy XI Starter Pack",
+        "release_date": "2004-06-16",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Final Fantasy XI, also known as Final Fantasy XI Online, is a massively multiplayer online role-playing game, developed and published by Square as part of the Final Fantasy series. Designed and produced by Hiromichi Tanaka, it was released in Japan on May 16, 2002, for PlayStation 2 and Microsoft Windows-based personal computers in November.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808,
+          8096
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 23334,
+        "game_title": "Final Fantasy XI Online: Vana'diel Collection 2008",
+        "release_date": "2008-04-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The world of Vana'diel is a crossroads of magic, swords, and technology. It is also a battlefield where those who believe\r\nin light face monsters that thrive in darkness.\r\nThe struggle centers on the control of crystals:\r\nsacred stones that are the fundamental source of all creation.\r\n\r\nThe monsters showed no mercy as they laid waste to\r\nbeautiful towns, ravaged the land, and polluted the streams and rivers of Vana'diel.\r\nBut the people united to seize victory from the jaws of the beastmen, earning themselves temporary respite from a life-and-death struggle.\r\n\r\nTwenty years have passed since the people's great victory. But now, even as the memories of battle have begun to fade, a new evil grows inside Vana'diel...\r\n\r\nAnd it hungers for the power of the crystals.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23334": [
+          {
+            "id": 68669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23334-1.jpg",
+            "resolution": "304x374"
+          }
+        ],
+        "65432": [
+          {
+            "id": 214982,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65432-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72244": [
+          {
+            "id": 229302,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72244-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 229304,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/72244-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XI+Online&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 976,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630096
+}

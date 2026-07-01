@@ -1,0 +1,345 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 10,
+    "games": [
+      {
+        "id": 18751,
+        "game_title": "No Man's Sky",
+        "release_date": "2016-08-09",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "No Man’s Sky is a game about exploration and survival, set in an infinite procedurally generated universe. Whether a distant mountain or a planet hanging low on the horizon, you can go there. You can fly seamlessly from the surface of a planet to another, and every star in the sky is a sun that you can visit. Where you’ll go and how fast you’ll make your way through this universe is up to you. It’s yours for the taking.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          3790
+        ],
+        "genres": [
+          1,
+          3,
+          13
+        ],
+        "publishers": [
+          1792
+        ]
+      },
+      {
+        "id": 92769,
+        "game_title": "737 NG 600/700",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "flight sim add on",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 92828,
+        "game_title": "737 NG 600/700",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "flight sim add on",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90468,
+        "game_title": "Have a N.I.C.E. day!",
+        "release_date": "1997-09-30",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "In \"Have a N.I.C.E. day\" you drive on racing tracks that are so narrow that there is not even room for the shade of your car anymore. \r\n\r\nThe tracks have been provided with jumps, loops etc. Fight against opponents who know no mercy. They will do everything they can to prevent you from winning the race. No matter what it takes.\r\n\r\nNow prepare for battle!\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8405
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          766
+        ]
+      },
+      {
+        "id": 101877,
+        "game_title": "NCIS ",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Murder. Spy. Terorism.\r\nBecome part of the NCIS team and solve cases.",
+        "players": 2,
+        "rating": "M - Mature 17+",
+        "developers": [
+          142
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 34311,
+        "game_title": "Infestation: The New Z",
+        "release_date": "2016-11-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Infestation: The New Z is an official reedition of Infestation: Survivor Stories (f/k/a The War Z) and it's a Zombie-Apocalypse Survival MMO PvP game. As its predecessor, it is set in Colorado and California with huge maps where players fight each other while trying to survive the zombie apocalypse. \r\nThe biggest difference in gameplay from Infestation: Survivor Stories and Infestation: The New Z is the focus. I:NZ focuses much more on the PvP aspect while the zombies are more of a distraction than a threat. This is what made the game so popular among the experienced and known players and clans from I:SS, it was completely focused on the best aspect of the engine, the PvP fights. \r\nAs of November 2015 the game turned from an emulator to an Official and legalized game with the support of Sergey Titov (head of OP Productions, the company who created I:SS).\r\n\r\nOFFICIAL WEBSITE: http://playnewz.com/",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3154
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          14,
+          18
+        ],
+        "publishers": [
+          3631
+        ]
+      },
+      {
+        "id": 10922,
+        "game_title": "Nexuiz",
+        "release_date": "2012-05-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "For centuries the Kavussari and Forsellians have waged a galactic war. Over time the two races entered into treaties with the Herald Accord, a union between different cultures in the galaxy. Even though peace settled across their planets, the seething hatred between the races kept the fire of war simmering under the fragile truce. Sensing their newest members could spread war throughout the galaxy; the Herald Accord gave the Kavussari and Forsellians a choice. Pit their warriors against each other in the arena rather than on the fields of war, or face total annihilation. The Nexuiz was formed, a series of battle arenas on the home planets of the Kavussari, Forsellian and the ruined planet of Atavirta.\r\n\r\nA full reimagining of Alien Trap Software’s cult-classic shooter, Nexuiz is a fast-paced, arena-based FPS based on the CryEngine 3. The game features a mutator system that allows players to change the rules of the match; as players rank, new mutators become available for them to use. Leader boards are designed for social networking, letting players feel more engaged with the community.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          4075
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          40
+        ]
+      },
+      {
+        "id": 66885,
+        "game_title": "Spirit Hunter: NG",
+        "release_date": "2019-10-10",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "While the characters in Spirit Hunter: Death Mark get suddenly thrown into this out-of-the-ordinary situation where their lives are at stake, in Spirit Hunter: NG the situation is introduced gradually and slowly worsens. The protagonist is completely different as well; while the main character in Spirit Hunter: Death Mark is a middle-aged amnesiac, the one from Spirit Hunter: NG is a hot-blooded high school student, who is more likely to act impulsively and take drastic actions to achieve his goals.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2944
+        ],
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": [
+          354
+        ]
+      },
+      {
+        "id": 8785,
+        "game_title": "Nox",
+        "release_date": "2000-01-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "What's cool about it:\r\nThree separate storylines - one for each class - ensure many hours of memorable, addictive and FUN gaming\r\nMany unique gameplay features like true line of sight, and a physics engine\r\nMasterful blend of RPG and action elements, accompanied by beautiful music, great humor, and an impressive variety of weapons",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          9595
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 32884,
+        "game_title": "Nux",
+        "release_date": "2006-12-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "You are NUX, sole survivor of the Nexon warrior tribe. The evil Silthax has invaded your home world of Nexolus, devoured your fellow Nexons and stolen the sacred power crystals from your village.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          4045
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          1912
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "8785": [
+          {
+            "id": 24892,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/8785-1.jpg",
+            "resolution": "1505x2167"
+          },
+          {
+            "id": 24893,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/8785-2.jpg",
+            "resolution": "363x512"
+          }
+        ],
+        "10922": [
+          {
+            "id": 41966,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10922-1.png",
+            "resolution": "300x360"
+          }
+        ],
+        "18751": [
+          {
+            "id": 341832,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18751-1.jpg",
+            "resolution": null
+          }
+        ],
+        "32884": [
+          {
+            "id": 86058,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32884-1.jpg",
+            "resolution": "250x340"
+          }
+        ],
+        "34311": [
+          {
+            "id": 94921,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/34311-1.jpg",
+            "resolution": "272x380"
+          }
+        ],
+        "66885": [
+          {
+            "id": 218322,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66885-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90468": [
+          {
+            "id": 301007,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90468-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 301008,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/90468-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92769": [
+          {
+            "id": 308708,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92769-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92828": [
+          {
+            "id": 308893,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92828-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101877": [
+          {
+            "id": 349432,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101877-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=No+Man%27s+Sky&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 877,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630079
+}

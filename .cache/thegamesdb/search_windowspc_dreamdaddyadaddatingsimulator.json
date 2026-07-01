@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 64045,
+        "game_title": "Dream Daddy: A Dad Dating Simulator",
+        "release_date": "2017-07-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Dream Daddy: A Dad Dating Simulator is a game where you play as a Dad and your goal is to meet and romance other hot Dads. You and your daughter have just moved into the sleepy seaside town of Maple Bay only to discover that everyone in your neighborhood is a single, dateable Dad! Will you go out with Teacher Dad? Goth Dad? Bad Dad? Or any of the other cool Dads in this game? With minigames, sidequests, and a variety of paths and endings, Dream Daddy: A Dad Dating Simulator is this year's most anticipated Dad-based game.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "64045": [
+          {
+            "id": 211026,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64045-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dream+Daddy%3A+A+Dad+Dating+Simulator&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 940,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630090
+}

@@ -1,0 +1,133 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 35841,
+        "game_title": "Watchmen: The End Is Nigh Part 2",
+        "release_date": "2009-08-26",
+        "platform": 15,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The second chapter in the episodic series, this action-brawler acts as the prequel to the story in the Watchmen graphic novels and movie. Taking place in an alternate history of the 1980s, the game stars the two masked vigilantes Rorschach and Nite Owl, and features a co-operative mode so that players can team up to beat down the bad guys. Watchmen: The End is Nigh goes beyond the film and delves into the characters, rivalries and challenges in a mature action-brawler.\r\n\r\nIn Part 2, the duo team up again as Rorschach contacts Nite Owl to help solve the case of a missing girl, Violet Greene. The game features bloody, visceral combat in rich settings while it explores the crime-fighting partnership of urban vigilantes Rorschach and Nite Owl.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2191
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 35840,
+        "game_title": "Watchmen: The End Is Nigh",
+        "release_date": "2009-03-05",
+        "platform": 15,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "This episodic downloadable game is a prequel to the Watchmen movie. Watchmen: The End is Night Part 1 and Watchmen: The End is Night Part 2 encompass the entire game.\r\n\r\nThis action-brawler acts as the prequel to the story in the Watchmen graphic novels and movie. Taking place in an alternate history of the 1980s, the game stars the two masked vigilantes Rorschach and Nite Owl, and features a co-operative mode so that players can team up to beat down the bad guys. Watchmen: The End is Nigh will go beyond the film and delve into the characters, rivalries and challenges in a mature action-brawler.\r\n\r\nPart 1 takes place more than a decade before the film's main story, delving into the partnership of urban vigilantes Rorschach and Nite Owl before the hero-banning Keene Act. The game features bloody, visceral combat in rich settings while it explores the crime-fighting partnership of urban vigilantes Rorschach and Nite Owl.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2191
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 115278,
+        "game_title": "Watchmen: The End Is Nigh - Part 1",
+        "release_date": "2009-03-04",
+        "platform": 12,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Watchmen: The End Is Nigh is an episodic video game series that serves as a prequel to the film adaptation of the DC Comics limited series Watchmen. The game was originally announced for release in downloadable installments on Microsoft Windows, PlayStation Network, and Xbox Live Arcade, with the first one released in March 2009 to coincide with the film's theatrical release. The second episode was released in July and August 2009.\r\n\r\nBoth episodes were released together on disc on July 21, 2009, for Xbox 360 and PlayStation 3. A limited edition of the PlayStation 3 version was released billed as \"The Complete Experience\", which also included the extended Director's Cut version of the film in Blu-ray format.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          2191
+        ],
+        "genres": [
+          1,
+          27
+        ],
+        "publishers": [
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35840": [
+          {
+            "id": 101752,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35840-1.jpg",
+            "resolution": "430x586"
+          }
+        ],
+        "35841": [
+          {
+            "id": 101754,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35841-1.jpg",
+            "resolution": "219x300"
+          }
+        ],
+        "115278": [
+          {
+            "id": 392432,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115278-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        },
+        "15": {
+          "id": 15,
+          "name": "Microsoft Xbox 360",
+          "alias": "microsoft-xbox-360"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Watchmen%3A+The+End+is+Nigh+Part+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 700,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630049
+}

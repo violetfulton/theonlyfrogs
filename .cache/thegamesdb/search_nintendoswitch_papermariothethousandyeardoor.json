@@ -1,0 +1,190 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 126045,
+        "game_title": "Paper Mario RPG",
+        "release_date": "2024-05-23",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Paper Mario: The Thousand-Year Door by Nintendo is a captivating and whimsical RPG that takes players on a vibrant paper-crafted journey like no other. With its unique paper-based art style, engaging gameplay, and clever puzzles, this Super Mario classic offers a delightful blend of adventure, humor, and strategy. Unfold the secrets of the Thousand-Year Door and prepare for an unforgettable quest filled with colorful characters, memorable locations, and countless surprises. \r\n\r\nFeatures:\r\n- Join Mario on a timeless paper-adventure to uncover the mystery of the Thousand-Year Door\r\n- Master badges and timing-based attacks to impress the audience in a theatrical twist on turn-based RPG combat.\r\n- Customize your approach to deep and rewarding RPG challenges with swappable partners and badges.\r\n- Experience an engaging story full of hijinks and witty dialogue.\r\n- Meet a cast of charming and often hilarious characters—and recruit some of them to join your party.\r\n- Play as Peach and Bowser in interludes between chapters of the main story.\r\n- Updated graphics and a suite of additional changes make the game easier than ever to enjoy.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4248
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118815,
+        "game_title": "Paper Mario: The Thousand-Year Door",
+        "release_date": "2024-05-23",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Paper Mario: The Thousand-Year Door by Nintendo is a captivating and whimsical RPG that takes players on a vibrant paper-crafted journey like no other. With its unique paper-based art style, engaging gameplay, and clever puzzles, this Super Mario classic offers a delightful blend of adventure, humor, and strategy. Unfold the secrets of the Thousand-Year Door and prepare for an unforgettable quest filled with colorful characters, memorable locations, and countless surprises. \r\n\r\nFeatures:\r\n- Join Mario on a timeless paper-adventure to uncover the mystery of the Thousand-Year Door\r\n- Master badges and timing-based attacks to impress the audience in a theatrical twist on turn-based RPG combat.\r\n- Customize your approach to deep and rewarding RPG challenges with swappable partners and badges.\r\n- Experience an engaging story full of hijinks and witty dialogue.\r\n- Meet a cast of charming and often hilarious characters—and recruit some of them to join your party.\r\n- Play as Peach and Bowser in interludes between chapters of the main story.\r\n- Updated graphics and a suite of additional changes make the game easier than ever to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10202
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 125160,
+        "game_title": "Paper Mario: The Thousand-Year Door",
+        "release_date": "2024-05-23",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Join Mario and friends on a journey to discover a legendary treasure behind the ancient Thousand-Year Door. The Nintendo GameCube classic returns with updated graphics in Paper Mario: The Thousand-Year Door on Nintendo Switch!\r\n\r\nThe hunt for the Crystal Stars begins\r\nAfter Princess Peach asks for his help on a treasure hunt, Mario heads to the town of Rogueport. But when he arrives, Peach is nowhere to be seen! Upon learning about the legend of the Crystal Stars, Mario sets out to find these mythical treasures and hopefully track down Peach along the way.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10202
+        ],
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127224,
+        "game_title": "Paper Mario: The Thousand-Year Door",
+        "release_date": "2024-05-23",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 31,
+        "overview": "¡Los nefastos Mega X quieren el tesoro que se encuentra tras la Puerta Milenaria! Con un mapa de la princesa Peach y la ayuda de algunos habitantes, Mario iniciará una aventura a través de un colorido mundo de papel para encontrar el tesoro primero.\r\n\r\nPara prevalecer en esta misión, tendrás que subir de nivel a Mario y sus amigos, dominar el ritmo de los ataques y las medallas para impresionar a la audiencia del escenario de combate, y aprovechar todas las habilidades que obtienes (como convertirte en avión para cruzar grandes huecos o ponerte de lado para atravesar espacios estrechos) cuando te maldi- este… cuando eres de papel…\r\n\r\nRecorre las páginas de un mundo de cuento repleto de encantadores personajes:\r\n\r\nLas sorpresas abundan en esta profunda y cautivadora historia, donde todos tienen algo que contar (y muchas veces no es lo que esperas oír). Mario conocerá todo tipo de interesantes personajes durante su aventura, como la alegre y estudiosa Goomarina y el tímido, pero decidido Koops.\r\n\r\nAlgunos de estos personajes necesitarán tu ayuda con sus propias peticiones o incluso se unirán a tu grupo. Otros, como Peach y Bowser, cuentan con sus propias historias que puedes jugar entre los actos de Mario.\r\n\r\nUn clásico voltea la página para ofrecer gráficos revitalizados y funciones actualizadas:\r\n\r\nVeinte años después del lanzamiento original para la consola Nintendo GameCube, esta versión para la consola Nintendo Switch ofrece gráficos revitalizados, una banda sonora actualizada y modificaciones a la mecánica de juego como tuberías para viajar rápidamente y la función de selección de compañeros para cambiar de personaje en un instante. ¡También hay algunas mejoras adicionales!\r\n\r\nPor ejemplo, visita al maestro del combate si necesitas ayuda con los combates, accede a un sistema de pistas si no puedes avanzar, equipa la medalla Música nostálgica para jugar mientras escuchas la banda sonora original, ¡y más!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10202
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 128922,
+        "game_title": "Paper Mario: The Thousand-Year Door",
+        "release_date": "2023-05-23",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Join Mario on an epic paper-adventure to collect the Crystal Stars before the X-Nauts do!\r\nThe nefarious X-Nauts are after the treasure behind the Thousand-Year Door! With a map from Princess Peach, and the help of a few locals, Mario journeys through a colorful world made of paper to find them first. To prevail in this quest, you’ll have to level up Mario and his friends, master timing-based attacks and badges to impress the audience on the stage of combat, and make use of all the abilities that come with being cursed—er, conveniently made of paper—like folding into a plane to cross big gaps or turning sideways to slip through narrow openings.",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": [
+          10202
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "118815": [
+          {
+            "id": 432592,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125160": [
+          {
+            "id": 434734,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125160-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126045": [
+          {
+            "id": 452449,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126045-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127224": [
+          {
+            "id": 441420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127224-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128922": [
+          {
+            "id": 448678,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128922-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Paper+Mario%3A+The+Thousand-Year+Door&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 222,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629977
+}

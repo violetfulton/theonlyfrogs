@@ -1,0 +1,220 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 110113,
+        "game_title": "The Legend of Zelda: A Link Between Worlds",
+        "release_date": "2013-11-22",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Following the events of A Link to the Past, the royal family of Hyrule elected to split the triforce to stop evil from rising again. This had the effect of returning each part to its elected owner. One part returned to the deceased demon king Ganon, one part stayed with the Royal family, and a third part took its rightful place in the heart of the hero eternal.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127816,
+        "game_title": "The Legend of Zelda: A Link Between Worlds",
+        "release_date": "2013-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The Legend of Zelda: A Link Between Worlds: This game takes place after the events of and in the same world as The Legend of Zelda: A Link to the Past. Link can now become a drawing to move along walls. This opens up ways to explore and puzzle elements that give Link access to locations he could not otherwise reach. \r\n\r\nAustralian Classification: G",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 123900,
+        "game_title": "Zelda no Densetsu: Kamigami no Triforce 2",
+        "release_date": "2013-12-26",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Following the events of A Link to the Past, the royal family of Hyrule elected to split the triforce to stop evil from rising again. This had the effect of returning each part to its elected owner. One part returned to the deceased demon king Ganon, one part stayed with the Royal family, and a third part took its rightful place in the heart of the hero eternal.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 18165,
+        "game_title": "The Legend of Zelda: A Link Between Worlds",
+        "release_date": "2013-11-22",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Following the events of A Link to the Past, the royal family of Hyrule elected to split the triforce to stop evil from rising again. This had the effect of returning each part to its elected owner. One part returned to the deceased demon king Ganon, one part stayed with the Royal family, and a third part took its rightful place in the heart of the hero eternal.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116351,
+        "game_title": "The Legend of Zelda: A Link Between Worlds [Nintendo Selects]",
+        "release_date": "2015-10-16",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 8,
+        "overview": "Following the events of A Link to the Past, the royal family of Hyrule elected to split the triforce to stop evil from rising again. This had the effect of returning each part to its elected owner. One part returned to the deceased demon king Ganon, one part stayed with the Royal family, and a third part took its rightful place in the heart of the hero eternal.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 69000,
+        "game_title": "The Legend of Zelda: A Link Between Worlds [Nintendo Selects]",
+        "release_date": "2015-10-16",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Following the events of A Link to the Past, the royal family of Hyrule elected to split the triforce to stop evil from rising again. This had the effect of returning each part to its elected owner. One part returned to the deceased demon king Ganon, one part stayed with the Royal family, and a third part took its rightful place in the heart of the hero eternal.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18165": [
+          {
+            "id": 236774,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18165-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69000": [
+          {
+            "id": 236767,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69000-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110113": [
+          {
+            "id": 378232,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110113-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116351": [
+          {
+            "id": 430553,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116351-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123900": [
+          {
+            "id": 430557,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123900-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127816": [
+          {
+            "id": 443531,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127816-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+A+Link+Between+Worlds&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 443,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630011
+}

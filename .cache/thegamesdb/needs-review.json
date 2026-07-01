@@ -1,0 +1,2284 @@
+[
+  {
+    "title": "Aimlabs",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 127604,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 127604,
+      "title": "Aimlabs",
+      "url": "https://thegamesdb.net/game.php?id=127604",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 127604,
+        "title": "Aimlabs",
+        "platform": "Microsoft Xbox Series X",
+        "releaseDate": "2024-06-28",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=127604"
+      }
+    ]
+  },
+  {
+    "title": "Fall Guys",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 76338,
+    "reason": "Low confidence match (66)",
+    "selectedMatch": {
+      "id": 76338,
+      "title": "Fall Guys: Ultimate Knockout",
+      "url": "https://thegamesdb.net/game.php?id=76338",
+      "score": 66
+    },
+    "candidates": [
+      {
+        "id": 76338,
+        "title": "Fall Guys: Ultimate Knockout",
+        "platform": "PC",
+        "releaseDate": "2020-08-04",
+        "score": 66,
+        "url": "https://thegamesdb.net/game.php?id=76338"
+      },
+      {
+        "id": 15572,
+        "title": "Flock!",
+        "platform": "PC",
+        "releaseDate": "2009-04-07",
+        "score": 21,
+        "url": "https://thegamesdb.net/game.php?id=15572"
+      },
+      {
+        "id": 110099,
+        "title": "Flux",
+        "platform": "PC",
+        "releaseDate": "2000-01-01",
+        "score": 21,
+        "url": "https://thegamesdb.net/game.php?id=110099"
+      }
+    ]
+  },
+  {
+    "title": "Epic Mickey: Rebrushed",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 130007,
+    "reason": "Low confidence match (71)",
+    "selectedMatch": {
+      "id": 130007,
+      "title": "Disney Epic Mickey: Rebrushed",
+      "url": "https://thegamesdb.net/game.php?id=130007",
+      "score": 71
+    },
+    "candidates": [
+      {
+        "id": 130007,
+        "title": "Disney Epic Mickey: Rebrushed",
+        "platform": "PC",
+        "releaseDate": "2024-08-27",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=130007"
+      }
+    ]
+  },
+  {
+    "title": "Diablo II: Resurrected – Infernal Edition",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Diablo II: Resurrected - Reign of the Warlock",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Battle.net",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Goat Simulator 3",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 130873,
+    "reason": "Low confidence match (71)",
+    "selectedMatch": {
+      "id": 130873,
+      "title": "Goat Simulator 3 PC",
+      "url": "https://thegamesdb.net/game.php?id=130873",
+      "score": 71
+    },
+    "candidates": [
+      {
+        "id": 130873,
+        "title": "Goat Simulator 3 PC",
+        "platform": "PC",
+        "releaseDate": "2022-11-17",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=130873"
+      },
+      {
+        "id": 19934,
+        "title": "Goat Simulator",
+        "platform": "PC",
+        "releaseDate": "2014-04-01",
+        "score": 66,
+        "url": "https://thegamesdb.net/game.php?id=19934"
+      }
+    ]
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "Horizon Zero Dawn: Complete Edition",
+    "thegamesdbId": 76108,
+    "reason": "Low confidence match (71)",
+    "selectedMatch": {
+      "id": 76108,
+      "title": "Horizon Zero Dawn: Complete Edition",
+      "url": "https://thegamesdb.net/game.php?id=76108",
+      "score": 71
+    },
+    "candidates": [
+      {
+        "id": 76108,
+        "title": "Horizon Zero Dawn: Complete Edition",
+        "platform": "PC",
+        "releaseDate": "2020-08-07",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=76108"
+      }
+    ]
+  },
+  {
+    "title": "Potion Craft",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 96854,
+    "reason": "Low confidence match (66)",
+    "selectedMatch": {
+      "id": 96854,
+      "title": "Potion Craft - Alchemist Simulator",
+      "url": "https://thegamesdb.net/game.php?id=96854",
+      "score": 66
+    },
+    "candidates": [
+      {
+        "id": 96854,
+        "title": "Potion Craft - Alchemist Simulator",
+        "platform": "PC",
+        "releaseDate": "2021-09-21",
+        "score": 66,
+        "url": "https://thegamesdb.net/game.php?id=96854"
+      }
+    ]
+  },
+  {
+    "title": "Life is Strange: Before the Storm Remastered",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 131824,
+    "reason": "Low confidence match (73); No boxart found",
+    "selectedMatch": {
+      "id": 131824,
+      "title": "Life is Strange: Before the Storm Remastered",
+      "url": "https://thegamesdb.net/game.php?id=131824",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 131824,
+        "title": "Life is Strange: Before the Storm Remastered",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2022-09-27",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=131824"
+      }
+    ]
+  },
+  {
+    "title": "Garden Life: A Cozy Simulator",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Mudborne",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Monster Hunter Stories",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 39905,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 39905,
+      "title": "Monster Hunter Stories",
+      "url": "https://thegamesdb.net/game.php?id=39905",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 39905,
+        "title": "Monster Hunter Stories",
+        "platform": "Nintendo 3DS",
+        "releaseDate": "2017-09-07",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=39905"
+      },
+      {
+        "id": 104854,
+        "title": "Monster Hunter Stories",
+        "platform": "Nintendo 3DS",
+        "releaseDate": "2017-09-08",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=104854"
+      },
+      {
+        "id": 125616,
+        "title": "Monster Hunter Stories",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-06-14",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=125616"
+      },
+      {
+        "id": 127161,
+        "title": "Monster Hunter Stories",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2024-06-14",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=127161"
+      },
+      {
+        "id": 127759,
+        "title": "Monster Hunter Stories",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-06-14",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=127759"
+      }
+    ]
+  },
+  {
+    "title": "Hello Kitty Island Adventure",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 130693,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 130693,
+      "title": "Hello Kitty Island Adventure",
+      "url": "https://thegamesdb.net/game.php?id=130693",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 130693,
+        "title": "Hello Kitty Island Adventure",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2025-01-30",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=130693"
+      }
+    ]
+  },
+  {
+    "title": "Grand Theft Auto V Enhanced",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Halo 3",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 9,
+    "reason": "Low confidence match (26)",
+    "selectedMatch": {
+      "id": 9,
+      "title": "Halo 2",
+      "url": "https://thegamesdb.net/game.php?id=9",
+      "score": 26
+    },
+    "candidates": [
+      {
+        "id": 9,
+        "title": "Halo 2",
+        "platform": "PC",
+        "releaseDate": "2007-05-31",
+        "score": 26,
+        "url": "https://thegamesdb.net/game.php?id=9"
+      },
+      {
+        "id": 124043,
+        "title": "Halo 2",
+        "platform": "PC",
+        "releaseDate": "2007-07-08",
+        "score": 26,
+        "url": "https://thegamesdb.net/game.php?id=124043"
+      }
+    ]
+  },
+  {
+    "title": "Halo 3: ODST",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 193,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 193,
+      "title": "Halo 3: ODST",
+      "url": "https://thegamesdb.net/game.php?id=193",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 193,
+        "title": "Halo 3: ODST",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2009-09-22",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=193"
+      },
+      {
+        "id": 80207,
+        "title": "Halo 3: ODST",
+        "platform": "Microsoft Xbox One",
+        "releaseDate": "2015-05-30",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=80207"
+      },
+      {
+        "id": 80801,
+        "title": "Halo 3: ODST",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2009-09-22",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=80801"
+      },
+      {
+        "id": 93059,
+        "title": "Halo 3: ODST [Platinum Hits]",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2009-09-22",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=93059"
+      },
+      {
+        "id": 82761,
+        "title": "Halo 3: ODST / Forza Motorsport 3 Bundle",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2010-03-01",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=82761"
+      }
+    ]
+  },
+  {
+    "title": "Halo: Reach",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 43323,
+    "reason": "Low confidence match (26)",
+    "selectedMatch": {
+      "id": 43323,
+      "title": "Halo Wars 2",
+      "url": "https://thegamesdb.net/game.php?id=43323",
+      "score": 26
+    },
+    "candidates": [
+      {
+        "id": 43323,
+        "title": "Halo Wars 2",
+        "platform": "PC",
+        "releaseDate": "2017-02-17",
+        "score": 26,
+        "url": "https://thegamesdb.net/game.php?id=43323"
+      },
+      {
+        "id": 99456,
+        "title": "Heli Heroes",
+        "platform": "PC",
+        "releaseDate": "2002-01-30",
+        "score": 21,
+        "url": "https://thegamesdb.net/game.php?id=99456"
+      }
+    ]
+  },
+  {
+    "title": "Halo 4",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 9,
+    "reason": "Low confidence match (26)",
+    "selectedMatch": {
+      "id": 9,
+      "title": "Halo 2",
+      "url": "https://thegamesdb.net/game.php?id=9",
+      "score": 26
+    },
+    "candidates": [
+      {
+        "id": 9,
+        "title": "Halo 2",
+        "platform": "PC",
+        "releaseDate": "2007-05-31",
+        "score": 26,
+        "url": "https://thegamesdb.net/game.php?id=9"
+      },
+      {
+        "id": 124043,
+        "title": "Halo 2",
+        "platform": "PC",
+        "releaseDate": "2007-07-08",
+        "score": 26,
+        "url": "https://thegamesdb.net/game.php?id=124043"
+      }
+    ]
+  },
+  {
+    "title": "Halo: Combat Evolved Anniversary",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 35782,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 35782,
+      "title": "Halo: Combat Evolved Anniversary",
+      "url": "https://thegamesdb.net/game.php?id=35782",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 35782,
+        "title": "Halo: Combat Evolved Anniversary",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2011-11-15",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35782"
+      },
+      {
+        "id": 80803,
+        "title": "Halo: Combat Evolved Anniversary",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2011-11-15",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=80803"
+      },
+      {
+        "id": 93127,
+        "title": "Halo: Combat Evolved Anniversary [Platinum Hits]",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2011-11-15",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=93127"
+      }
+    ]
+  },
+  {
+    "title": "Halo 2: Anniversary",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Roarr!",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 98914,
+    "reason": "Low confidence match (61)",
+    "selectedMatch": {
+      "id": 98914,
+      "title": "Roarr! Jurassic Edition",
+      "url": "https://thegamesdb.net/game.php?id=98914",
+      "score": 61
+    },
+    "candidates": [
+      {
+        "id": 98914,
+        "title": "Roarr! Jurassic Edition",
+        "platform": "PC",
+        "releaseDate": "2018-11-07",
+        "score": 61,
+        "url": "https://thegamesdb.net/game.php?id=98914"
+      },
+      {
+        "id": 56098,
+        "title": "Resident Evil 2",
+        "platform": "PC",
+        "releaseDate": "2019-01-25",
+        "score": 21,
+        "url": "https://thegamesdb.net/game.php?id=56098"
+      },
+      {
+        "id": 81588,
+        "title": "Resident Evil Village",
+        "platform": "PC",
+        "releaseDate": "2021-05-07",
+        "score": 21,
+        "url": "https://thegamesdb.net/game.php?id=81588"
+      }
+    ]
+  },
+  {
+    "title": "Tomb Raider I•II•III Remastered",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 123447,
+    "reason": "Low confidence match (46)",
+    "selectedMatch": {
+      "id": 123447,
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "url": "https://thegamesdb.net/game.php?id=123447",
+      "score": 46
+    },
+    "candidates": [
+      {
+        "id": 123447,
+        "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+        "platform": "PC",
+        "releaseDate": "2024-02-14",
+        "score": 46,
+        "url": "https://thegamesdb.net/game.php?id=123447"
+      }
+    ]
+  },
+  {
+    "title": "Tomb Raider III",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 17814,
+    "reason": "Low confidence match (71)",
+    "selectedMatch": {
+      "id": 17814,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "url": "https://thegamesdb.net/game.php?id=17814",
+      "score": 71
+    },
+    "candidates": [
+      {
+        "id": 17814,
+        "title": "Tomb Raider III: Adventures of Lara Croft",
+        "platform": "PC",
+        "releaseDate": "1998-11-30",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=17814"
+      },
+      {
+        "id": 97221,
+        "title": "Tomb Raider III The Lost Artefact (Premier Collection)",
+        "platform": "PC",
+        "releaseDate": "2000-01-01",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=97221"
+      },
+      {
+        "id": 118125,
+        "title": "Tomb Raider III: Adventures in India",
+        "platform": "PC",
+        "releaseDate": "2000-01-01",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=118125"
+      },
+      {
+        "id": 134150,
+        "title": "Tomb Raider III: Adventures of Lara Croft (sold out version)",
+        "platform": "PC",
+        "releaseDate": "1998-11-30",
+        "score": 71,
+        "url": "https://thegamesdb.net/game.php?id=134150"
+      },
+      {
+        "id": 2756,
+        "title": "Tomb Raider",
+        "platform": "PC",
+        "releaseDate": "2013-03-05",
+        "score": 66,
+        "url": "https://thegamesdb.net/game.php?id=2756"
+      }
+    ]
+  },
+  {
+    "title": "Watchmen: The End is Nigh Part 2",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 35841,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 35841,
+      "title": "Watchmen: The End Is Nigh Part 2",
+      "url": "https://thegamesdb.net/game.php?id=35841",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 35841,
+        "title": "Watchmen: The End Is Nigh Part 2",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2009-08-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35841"
+      },
+      {
+        "id": 35840,
+        "title": "Watchmen: The End Is Nigh",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2009-03-05",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=35840"
+      },
+      {
+        "id": 115278,
+        "title": "Watchmen: The End Is Nigh - Part 1",
+        "platform": "Sony Playstation 3",
+        "releaseDate": "2009-03-04",
+        "score": 28,
+        "url": "https://thegamesdb.net/game.php?id=115278"
+      }
+    ]
+  },
+  {
+    "title": "Nice Day for Fishing",
+    "platform": "Windows PC",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Fallout 3: Operation Anchorage",
+    "platform": "PlayStation 3",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Fallout 3: The Pitt",
+    "platform": "PlayStation 3",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Fallout 3: Broken Steel",
+    "platform": "PlayStation 3",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Fallout 3: Point Lookout",
+    "platform": "PlayStation 3",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Fallout 3: Mothership Zeta",
+    "platform": "PlayStation 3",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Hell's Kitchen: The Game",
+    "platform": "Nintendo DS",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 113999,
+    "reason": "Low confidence match (58)",
+    "selectedMatch": {
+      "id": 113999,
+      "title": "Hell's Kitchen: The Game [GameStop Exclusive]",
+      "url": "https://thegamesdb.net/game.php?id=113999",
+      "score": 58
+    },
+    "candidates": [
+      {
+        "id": 113999,
+        "title": "Hell's Kitchen: The Game [GameStop Exclusive]",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2008-09-09",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=113999"
+      },
+      {
+        "id": 114000,
+        "title": "Hell's Kitchen: The Game [GameStop Exclusive]",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2008-09-09",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=114000"
+      },
+      {
+        "id": 113997,
+        "title": "Hell's Kitchen: The Game [U.S. Edition]",
+        "platform": "PC",
+        "releaseDate": "2008-09-25",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=113997"
+      },
+      {
+        "id": 114001,
+        "title": "Grey's Anatomy: The Video Game / Hell's Kitchen: The Game",
+        "platform": "PC",
+        "releaseDate": "2009-01-01",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=114001"
+      },
+      {
+        "id": 43707,
+        "title": "Hell's Kitchen",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2008-09-09",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=43707"
+      }
+    ]
+  },
+  {
+    "title": "Scene It? Twilight",
+    "platform": "Nintendo DS",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 24742,
+    "reason": "Low confidence match (53)",
+    "selectedMatch": {
+      "id": 24742,
+      "title": "Twilight Scene It?",
+      "url": "https://thegamesdb.net/game.php?id=24742",
+      "score": 53
+    },
+    "candidates": [
+      {
+        "id": 24742,
+        "title": "Twilight Scene It?",
+        "platform": "Nintendo DS",
+        "releaseDate": "2010-02-09",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=24742"
+      }
+    ]
+  },
+  {
+    "title": "Final Fantasy II",
+    "platform": "Game Boy Advance",
+    "format": "Digital",
+    "storefront": "Retro Achievement",
+    "edition": "",
+    "thegamesdbId": 3734,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 3734,
+      "title": "Final Fantasy II",
+      "url": "https://thegamesdb.net/game.php?id=3734",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 3734,
+        "title": "Final Fantasy II",
+        "platform": "Sony Playstation Portable",
+        "releaseDate": "2007-06-07",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=3734"
+      },
+      {
+        "id": 7869,
+        "title": "Final Fantasy II",
+        "platform": "Nintendo Entertainment System (NES)",
+        "releaseDate": "1988-12-17",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=7869"
+      },
+      {
+        "id": 97769,
+        "title": "Final Fantasy II",
+        "platform": "Nintendo Wii U",
+        "releaseDate": "1991-11-01",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=97769"
+      },
+      {
+        "id": 23400,
+        "title": "Final Fantasy II",
+        "platform": "Android",
+        "releaseDate": "2012-12-21",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=23400"
+      },
+      {
+        "id": 27705,
+        "title": "Final Fantasy II",
+        "platform": "WonderSwan Color",
+        "releaseDate": "2001-05-03",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=27705"
+      }
+    ]
+  },
+  {
+    "title": "Frozen: Olaf's Quest",
+    "platform": "Nintendo 3DS",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Sly Cooper and the Thievius Raccoonus",
+    "platform": "PlayStation Vita",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 9815,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 9815,
+      "title": "Sly Cooper and the Thievius Raccoonus",
+      "url": "https://thegamesdb.net/game.php?id=9815",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 9815,
+        "title": "Sly Cooper and the Thievius Raccoonus",
+        "platform": "Sony Playstation 2",
+        "releaseDate": "2002-09-23",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=9815"
+      },
+      {
+        "id": 16626,
+        "title": "Sly Cooper And The Thievius Raccoonus",
+        "platform": "Sony Playstation 3",
+        "releaseDate": "2009-11-29",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=16626"
+      },
+      {
+        "id": 78129,
+        "title": "Sly Cooper and the Thievius Raccoonus [Greatest Hits]",
+        "platform": "Sony Playstation 2",
+        "releaseDate": "2002-09-24",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=78129"
+      },
+      {
+        "id": 127788,
+        "title": "Kaitou Sly Cooper",
+        "platform": "Sony Playstation 2",
+        "releaseDate": "2003-03-06",
+        "score": 13,
+        "url": "https://thegamesdb.net/game.php?id=127788"
+      },
+      {
+        "id": 100244,
+        "title": "Sly Raccoon",
+        "platform": "Sony Playstation 2",
+        "releaseDate": "2003-01-17",
+        "score": 8,
+        "url": "https://thegamesdb.net/game.php?id=100244"
+      }
+    ]
+  },
+  {
+    "title": "Final Fantasy X HD Remaster",
+    "platform": "PlayStation 4",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 24451,
+    "reason": "Low confidence match (63)",
+    "selectedMatch": {
+      "id": 24451,
+      "title": "Final Fantasy X / X-2 HD Remaster",
+      "url": "https://thegamesdb.net/game.php?id=24451",
+      "score": 63
+    },
+    "candidates": [
+      {
+        "id": 24451,
+        "title": "Final Fantasy X / X-2 HD Remaster",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2015-05-12",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=24451"
+      },
+      {
+        "id": 111877,
+        "title": "Final Fantasy X / X-2 HD Remaster",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2015-05-15",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=111877"
+      }
+    ]
+  },
+  {
+    "title": "Final Fantasy IV",
+    "platform": "PlayStation 4",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 60660,
+    "reason": "Low confidence match (48)",
+    "selectedMatch": {
+      "id": 60660,
+      "title": "Final Fantasy VII",
+      "url": "https://thegamesdb.net/game.php?id=60660",
+      "score": 48
+    },
+    "candidates": [
+      {
+        "id": 60660,
+        "title": "Final Fantasy VII",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2015-12-05",
+        "score": 48,
+        "url": "https://thegamesdb.net/game.php?id=60660"
+      },
+      {
+        "id": 113772,
+        "title": "Final Fantasy XIV: A Realm Reborn",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2014-04-14",
+        "score": 48,
+        "url": "https://thegamesdb.net/game.php?id=113772"
+      },
+      {
+        "id": 21414,
+        "title": "Final Fantasy XV",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2016-11-29",
+        "score": 48,
+        "url": "https://thegamesdb.net/game.php?id=21414"
+      },
+      {
+        "id": 123783,
+        "title": "Final Fantasy XV",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2016-11-29",
+        "score": 48,
+        "url": "https://thegamesdb.net/game.php?id=123783"
+      }
+    ]
+  },
+  {
+    "title": "Phoenix Wright: Ace Attorney - Justice For All",
+    "platform": "PlayStation 4",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 6866,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 6866,
+      "title": "Phoenix Wright: Ace Attorney - Justice for All",
+      "url": "https://thegamesdb.net/game.php?id=6866",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 6866,
+        "title": "Phoenix Wright: Ace Attorney - Justice for All",
+        "platform": "Nintendo DS",
+        "releaseDate": "2007-01-16",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=6866"
+      },
+      {
+        "id": 24432,
+        "title": "Phoenix Wright: Ace Attorney - Justice for All",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2010-02-15",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=24432"
+      },
+      {
+        "id": 74606,
+        "title": "Gyakuten Saiban 2",
+        "platform": "Nintendo DS",
+        "releaseDate": "2006-10-26",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=74606"
+      },
+      {
+        "id": 46067,
+        "title": "Gyakuten Saiban 2",
+        "platform": "Nintendo Game Boy Advance",
+        "releaseDate": "2002-10-18",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=46067"
+      },
+      {
+        "id": 99536,
+        "title": "Gyakuten Saiban 2",
+        "platform": "Nintendo Wii U",
+        "releaseDate": "2015-12-02",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=99536"
+      }
+    ]
+  },
+  {
+    "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+    "platform": "PlayStation 4",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 6867,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 6867,
+      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "url": "https://thegamesdb.net/game.php?id=6867",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 6867,
+        "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+        "platform": "Nintendo DS",
+        "releaseDate": "2007-10-23",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=6867"
+      },
+      {
+        "id": 24434,
+        "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2010-05-10",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=24434"
+      },
+      {
+        "id": 46064,
+        "title": "Gyakuten Saiban 3",
+        "platform": "Nintendo Game Boy Advance",
+        "releaseDate": "2004-01-23",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=46064"
+      },
+      {
+        "id": 99537,
+        "title": "Gyakuten Saiban 3",
+        "platform": "Nintendo Wii U",
+        "releaseDate": "2016-03-02",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=99537"
+      },
+      {
+        "id": 74607,
+        "title": "Gyakuten Saiban 3",
+        "platform": "Nintendo DS",
+        "releaseDate": "2007-08-23",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=74607"
+      }
+    ]
+  },
+  {
+    "title": "Life is Strange: Before the Storm Remastered",
+    "platform": "PlayStation 4",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 131824,
+    "reason": "Low confidence match (73); No boxart found",
+    "selectedMatch": {
+      "id": 131824,
+      "title": "Life is Strange: Before the Storm Remastered",
+      "url": "https://thegamesdb.net/game.php?id=131824",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 131824,
+        "title": "Life is Strange: Before the Storm Remastered",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2022-09-27",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=131824"
+      }
+    ]
+  },
+  {
+    "title": "Red Dead Redemption: Undead Nightmare",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 15241,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 15241,
+      "title": "Red Dead Redemption: Undead Nightmare",
+      "url": "https://thegamesdb.net/game.php?id=15241",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 15241,
+        "title": "Red Dead Redemption: Undead Nightmare",
+        "platform": "Sony Playstation 3",
+        "releaseDate": "2010-11-22",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=15241"
+      },
+      {
+        "id": 15263,
+        "title": "Red Dead Redemption: Undead Nightmare",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2010-11-23",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=15263"
+      },
+      {
+        "id": 84285,
+        "title": "Red Dead Redemption: Undead Nightmare",
+        "platform": "Microsoft Xbox One",
+        "releaseDate": "2010-10-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=84285"
+      },
+      {
+        "id": 111702,
+        "title": "Red Dead Redemption: Undead Nightmare",
+        "platform": "Sony Playstation 3",
+        "releaseDate": "2010-10-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=111702"
+      },
+      {
+        "id": 111544,
+        "title": "Red Dead Redemption: Undead Nightmare [Platinum Hits]",
+        "platform": "Microsoft Xbox 360",
+        "releaseDate": "2010-10-10",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=111544"
+      }
+    ]
+  },
+  {
+    "title": "Pokémon Sword: The Isle of Armor",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Pokémon Sword: The Crown Tundra",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild - The Master Trials",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild - The Champions' Ballad",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Final Fantasy: Pixel Remaster Collection",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 116133,
+    "reason": "Low confidence match (63)",
+    "selectedMatch": {
+      "id": 116133,
+      "title": "Final Fantasy I-VI Pixel Remaster Collection",
+      "url": "https://thegamesdb.net/game.php?id=116133",
+      "score": 63
+    },
+    "candidates": [
+      {
+        "id": 116133,
+        "title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-20",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=116133"
+      },
+      {
+        "id": 116227,
+        "title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-20",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=116227"
+      },
+      {
+        "id": 125660,
+        "title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-20",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=125660"
+      },
+      {
+        "id": 125661,
+        "title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-20",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=125661"
+      },
+      {
+        "id": 125662,
+        "title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-04-20",
+        "score": 63,
+        "url": "https://thegamesdb.net/game.php?id=125662"
+      }
+    ]
+  },
+  {
+    "title": "Diablo III: Rise of the Necromancer",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 55546,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 55546,
+      "title": "Diablo III: Rise of the Necromancer",
+      "url": "https://thegamesdb.net/game.php?id=55546",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 55546,
+        "title": "Diablo III: Rise of the Necromancer",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2017-06-27",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=55546"
+      }
+    ]
+  },
+  {
+    "title": "Super Mario Sunshine",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 2236,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 2236,
+      "title": "Super Mario Sunshine",
+      "url": "https://thegamesdb.net/game.php?id=2236",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 2236,
+        "title": "Super Mario Sunshine",
+        "platform": "Nintendo GameCube",
+        "releaseDate": "2002-08-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=2236"
+      },
+      {
+        "id": 87187,
+        "title": "Super Mario Sunshine",
+        "platform": "Nintendo GameCube",
+        "releaseDate": "2002-10-04",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=87187"
+      },
+      {
+        "id": 92104,
+        "title": "Super Mario Sunshine",
+        "platform": "Nintendo GameCube",
+        "releaseDate": "2002-07-19",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=92104"
+      },
+      {
+        "id": 104712,
+        "title": "Super Mario Sunshine [Kmart Edition]",
+        "platform": "Nintendo GameCube",
+        "releaseDate": "2002-08-26",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=104712"
+      },
+      {
+        "id": 116553,
+        "title": "Super Mario Sunshine [Player's Choice - Not For Resale]",
+        "platform": "Nintendo GameCube",
+        "releaseDate": "2002-08-26",
+        "score": 53,
+        "url": "https://thegamesdb.net/game.php?id=116553"
+      }
+    ]
+  },
+  {
+    "title": "Super Mario 64",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 73160,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 73160,
+      "title": "Super Mario 64",
+      "url": "https://thegamesdb.net/game.php?id=73160",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 73160,
+        "title": "Super Mario 64",
+        "platform": "Nintendo 64",
+        "releaseDate": "1997-03-01",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=73160"
+      },
+      {
+        "id": 75969,
+        "title": "Super Mario 64",
+        "platform": "Nintendo 64",
+        "releaseDate": "1996-06-23",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=75969"
+      },
+      {
+        "id": 216,
+        "title": "Super Mario 64",
+        "platform": "Nintendo 64",
+        "releaseDate": "1996-09-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=216"
+      },
+      {
+        "id": 16778,
+        "title": "Super Mario 64",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2006-11-19",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=16778"
+      },
+      {
+        "id": 47049,
+        "title": "Super Mario 64",
+        "platform": "Nintendo Wii U",
+        "releaseDate": "2015-04-01",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=47049"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands: The Zombie Island of Dr. Ned",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 87523,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 87523,
+      "title": "Borderlands: The Zombie Island of Dr. Ned",
+      "url": "https://thegamesdb.net/game.php?id=87523",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 87523,
+        "title": "Borderlands: The Zombie Island of Dr. Ned",
+        "platform": "PC",
+        "releaseDate": "2009-12-08",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=87523"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands: Mad Moxxi's Underdome Riot",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 87522,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 87522,
+      "title": "Borderlands: Mad Moxxi's Underdome Riot",
+      "url": "https://thegamesdb.net/game.php?id=87522",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 87522,
+        "title": "Borderlands: Mad Moxxi's Underdome Riot",
+        "platform": "PC",
+        "releaseDate": "2010-01-07",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=87522"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands: The Secret Armory of General Knoxx",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 87524,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 87524,
+      "title": "Borderlands: The Secret Armory of General Knoxx",
+      "url": "https://thegamesdb.net/game.php?id=87524",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 87524,
+        "title": "Borderlands: The Secret Armory of General Knoxx",
+        "platform": "PC",
+        "releaseDate": "2010-02-25",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=87524"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands: Claptrap's New Robot Revolution",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 87521,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 87521,
+      "title": "Borderlands: Claptrap's New Robot Revolution",
+      "url": "https://thegamesdb.net/game.php?id=87521",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 87521,
+        "title": "Borderlands: Claptrap's New Robot Revolution",
+        "platform": "PC",
+        "releaseDate": "2010-09-28",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=87521"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands: The Pre-Sequel - The Holodome Onslaught",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Borderlands: The Pre-Sequel - Claptastic Voyage",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 32869,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 32869,
+      "title": "Borderlands: The Pre-Sequel - Claptastic Voyage",
+      "url": "https://thegamesdb.net/game.php?id=32869",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 32869,
+        "title": "Borderlands: The Pre-Sequel - Claptastic Voyage",
+        "platform": "PC",
+        "releaseDate": "2015-03-24",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=32869"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands 2: Captain Scarlett and Her Pirate's Booty",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 35910,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 35910,
+      "title": "Borderlands 2: Captain Scarlett and Her Pirate's Booty",
+      "url": "https://thegamesdb.net/game.php?id=35910",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 35910,
+        "title": "Borderlands 2: Captain Scarlett and Her Pirate's Booty",
+        "platform": "PC",
+        "releaseDate": "2012-10-15",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35910"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands 2: Mr. Torgue's Campaign of Carnage",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 22371,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 22371,
+      "title": "Borderlands 2: Mr. Torgue's Campaign of Carnage",
+      "url": "https://thegamesdb.net/game.php?id=22371",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 22371,
+        "title": "Borderlands 2: Mr. Torgue's Campaign of Carnage",
+        "platform": "PC",
+        "releaseDate": "2012-11-20",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=22371"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands 2: Sir Hammerlock's Big Game Hunt",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 35911,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 35911,
+      "title": "Borderlands 2: Sir Hammerlock's Big Game Hunt",
+      "url": "https://thegamesdb.net/game.php?id=35911",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 35911,
+        "title": "Borderlands 2: Sir Hammerlock's Big Game Hunt",
+        "platform": "PC",
+        "releaseDate": "2013-01-15",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35911"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands 2: Tiny Tina's Assault on Dragon Keep",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 35914,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 35914,
+      "title": "Borderlands 2: Tiny Tina's Assault on Dragon Keep",
+      "url": "https://thegamesdb.net/game.php?id=35914",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 35914,
+        "title": "Borderlands 2: Tiny Tina's Assault on Dragon Keep",
+        "platform": "PC",
+        "releaseDate": "2013-06-25",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35914"
+      }
+    ]
+  },
+  {
+    "title": "Borderlands 2: Mechromancer Pack",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Borderlands 2: Psycho Pack",
+    "platform": "Nintendo Switch",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Slinger VR",
+    "platform": "SteamVR",
+    "format": "Digital",
+    "storefront": "Steam",
+    "edition": "",
+    "thegamesdbId": 98905,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 98905,
+      "title": "Slinger VR",
+      "url": "https://thegamesdb.net/game.php?id=98905",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 98905,
+        "title": "Slinger VR",
+        "platform": "PC",
+        "releaseDate": "2020-04-23",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=98905"
+      }
+    ]
+  },
+  {
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Life is Strange: Reunion",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Doraemon Story of Seasons: Friends of the Great Kingdom",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 125805,
+    "reason": "Low confidence match (43)",
+    "selectedMatch": {
+      "id": 125805,
+      "title": "Doraemon: Nobita no Bokujou Monogatari Daishizen no Oukoku to Minna no Ie",
+      "url": "https://thegamesdb.net/game.php?id=125805",
+      "score": 43
+    },
+    "candidates": [
+      {
+        "id": 125805,
+        "title": "Doraemon: Nobita no Bokujou Monogatari Daishizen no Oukoku to Minna no Ie",
+        "platform": "Sony Playstation 5",
+        "releaseDate": "2022-11-01",
+        "score": 43,
+        "url": "https://thegamesdb.net/game.php?id=125805"
+      }
+    ]
+  },
+  {
+    "title": "Fantasy Life i: The Girl Who Steals Time",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 111090,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 111090,
+      "title": "Fantasy Life i: The Girl Who Steals Time",
+      "url": "https://thegamesdb.net/game.php?id=111090",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 111090,
+        "title": "Fantasy Life i: The Girl Who Steals Time",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2025-05-21",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=111090"
+      },
+      {
+        "id": 131500,
+        "title": "Fantasy Life i: The Girl Who Steals Time",
+        "platform": "PC",
+        "releaseDate": "0025-05-21",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=131500"
+      }
+    ]
+  },
+  {
+    "title": "Dave the Diver",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 131785,
+    "reason": "No boxart found",
+    "selectedMatch": {
+      "id": 131785,
+      "title": "Dave the diver",
+      "url": "https://thegamesdb.net/game.php?id=131785",
+      "score": 108
+    },
+    "candidates": [
+      {
+        "id": 131785,
+        "title": "Dave the diver",
+        "platform": "Sony Playstation 5",
+        "releaseDate": "2024-04-16",
+        "score": 108,
+        "url": "https://thegamesdb.net/game.php?id=131785"
+      }
+    ]
+  },
+  {
+    "title": "Froggie: A Retro Platformer",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Frog Detective: The Entire Mystery",
+    "platform": "PlayStation 5",
+    "format": "Digital",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 120963,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 120963,
+      "title": "Frog Detective: The Entire Mystery",
+      "url": "https://thegamesdb.net/game.php?id=120963",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 120963,
+        "title": "Frog Detective: The Entire Mystery",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-10-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=120963"
+      },
+      {
+        "id": 128536,
+        "title": "Frog Detective: The Entire Mystery",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-08-05",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=128536"
+      },
+      {
+        "id": 128563,
+        "title": "Frog Detective: The Entire Mystery Deluxe Edition",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-08-05",
+        "score": 58,
+        "url": "https://thegamesdb.net/game.php?id=128563"
+      }
+    ]
+  },
+  {
+    "title": "Frog Detective 1: The Haunted Island",
+    "platform": "PlayStation 5",
+    "format": "Digital",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Frog Detective 2: The Case of the Invisible Wizard",
+    "platform": "PlayStation 5",
+    "format": "Digital",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 72853,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 72853,
+      "title": "Frog Detective 2: The Case of the Invisible Wizard",
+      "url": "https://thegamesdb.net/game.php?id=72853",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 72853,
+        "title": "Frog Detective 2: The Case of the Invisible Wizard",
+        "platform": "PC",
+        "releaseDate": "2019-12-09",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=72853"
+      }
+    ]
+  },
+  {
+    "title": "Frog Detective 3: Corruption at Cowboy County",
+    "platform": "PlayStation 5",
+    "format": "Digital",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 110812,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 110812,
+      "title": "Frog Detective 3: Corruption at Cowboy County",
+      "url": "https://thegamesdb.net/game.php?id=110812",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 110812,
+        "title": "Frog Detective 3: Corruption at Cowboy County",
+        "platform": "PC",
+        "releaseDate": "2022-10-26",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=110812"
+      }
+    ]
+  },
+  {
+    "title": "Helldivers 2",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 117265,
+    "reason": "Low confidence match (43)",
+    "selectedMatch": {
+      "id": 117265,
+      "title": "Helldivers II",
+      "url": "https://thegamesdb.net/game.php?id=117265",
+      "score": 43
+    },
+    "candidates": [
+      {
+        "id": 117265,
+        "title": "Helldivers II",
+        "platform": "Sony Playstation 5",
+        "releaseDate": "2023-12-31",
+        "score": 43,
+        "url": "https://thegamesdb.net/game.php?id=117265"
+      },
+      {
+        "id": 123091,
+        "title": "Helldivers II",
+        "platform": "Sony Playstation 5",
+        "releaseDate": "2024-02-08",
+        "score": 43,
+        "url": "https://thegamesdb.net/game.php?id=123091"
+      },
+      {
+        "id": 126155,
+        "title": "Helldivers II",
+        "platform": "Sony Playstation 5",
+        "releaseDate": "2024-02-08",
+        "score": 43,
+        "url": "https://thegamesdb.net/game.php?id=126155"
+      }
+    ]
+  },
+  {
+    "title": "Hello Kitty Island Adventure",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 130693,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 130693,
+      "title": "Hello Kitty Island Adventure",
+      "url": "https://thegamesdb.net/game.php?id=130693",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 130693,
+        "title": "Hello Kitty Island Adventure",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2025-01-30",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=130693"
+      }
+    ]
+  },
+  {
+    "title": "MySims",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 107988,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 107988,
+      "title": "MySims",
+      "url": "https://thegamesdb.net/game.php?id=107988",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 107988,
+        "title": "MySims",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2007-09-18",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=107988"
+      },
+      {
+        "id": 35390,
+        "title": "MySims",
+        "platform": "PC",
+        "releaseDate": "2008-10-28",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=35390"
+      },
+      {
+        "id": 10786,
+        "title": "MySims",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2007-09-20",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=10786"
+      },
+      {
+        "id": 14925,
+        "title": "MySims",
+        "platform": "Nintendo DS",
+        "releaseDate": "2007-09-18",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=14925"
+      },
+      {
+        "id": 43785,
+        "title": "MySims Collection",
+        "platform": "Nintendo Wii",
+        "releaseDate": "2010-11-09",
+        "score": 43,
+        "url": "https://thegamesdb.net/game.php?id=43785"
+      }
+    ]
+  },
+  {
+    "title": "Tales of the Shire",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 0,
+    "reason": "No TheGamesDB match found; Low confidence match (0); No boxart found",
+    "selectedMatch": null,
+    "candidates": []
+  },
+  {
+    "title": "Snufkin: Melody of Moominvalley",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 128965,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 128965,
+      "title": "Snufkin: Melody of Moominvalley",
+      "url": "https://thegamesdb.net/game.php?id=128965",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 128965,
+        "title": "Snufkin: Melody of Moominvalley",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-07-03",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=128965"
+      }
+    ]
+  },
+  {
+    "title": "Spy x Anya: Operation Memories",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 118823,
+    "reason": "Low confidence match (13)",
+    "selectedMatch": {
+      "id": 118823,
+      "title": "SPYxANYA: Operation Memories",
+      "url": "https://thegamesdb.net/game.php?id=118823",
+      "score": 13
+    },
+    "candidates": [
+      {
+        "id": 118823,
+        "title": "SPYxANYA: Operation Memories",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2024-01-01",
+        "score": 13,
+        "url": "https://thegamesdb.net/game.php?id=118823"
+      },
+      {
+        "id": 122786,
+        "title": "SPYxFAMILY: Operation Diary",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-12-21",
+        "score": 8,
+        "url": "https://thegamesdb.net/game.php?id=122786"
+      }
+    ]
+  },
+  {
+    "title": "Song of Nunu: A League of Legends Story",
+    "platform": "PlayStation 5",
+    "format": "Physical",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 123666,
+    "reason": "Low confidence match (73)",
+    "selectedMatch": {
+      "id": 123666,
+      "title": "Song of Nunu: A League of Legends Story",
+      "url": "https://thegamesdb.net/game.php?id=123666",
+      "score": 73
+    },
+    "candidates": [
+      {
+        "id": 123666,
+        "title": "Song of Nunu: A League of Legends Story",
+        "platform": "Nintendo Switch",
+        "releaseDate": "2023-11-01",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=123666"
+      },
+      {
+        "id": 135966,
+        "title": "Song of Nunu: A League of Legends Story",
+        "platform": "PC",
+        "releaseDate": "2023-11-01",
+        "score": 73,
+        "url": "https://thegamesdb.net/game.php?id=135966"
+      }
+    ]
+  },
+  {
+    "title": "SokoFrog",
+    "platform": "PlayStation 5",
+    "format": "Digital",
+    "storefront": "",
+    "edition": "",
+    "thegamesdbId": 20367,
+    "reason": "Low confidence match (3)",
+    "selectedMatch": {
+      "id": 20367,
+      "title": "10 Super Jogos",
+      "url": "https://thegamesdb.net/game.php?id=20367",
+      "score": 3
+    },
+    "candidates": [
+      {
+        "id": 20367,
+        "title": "10 Super Jogos",
+        "platform": "Sega Genesis",
+        "releaseDate": "2002-01-01",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=20367"
+      },
+      {
+        "id": 35141,
+        "title": "Safari Race",
+        "platform": "SEGA SG-1000",
+        "releaseDate": "1984-02-01",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=35141"
+      },
+      {
+        "id": 125877,
+        "title": "SAFARI RACE",
+        "platform": "Colecovision",
+        "releaseDate": "2022-03-03",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=125877"
+      },
+      {
+        "id": 93666,
+        "title": "Sagebrush",
+        "platform": "PC",
+        "releaseDate": "2018-09-18",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=93666"
+      },
+      {
+        "id": 71826,
+        "title": "Sagebrush",
+        "platform": "Sony Playstation 4",
+        "releaseDate": "2018-09-18",
+        "score": 3,
+        "url": "https://thegamesdb.net/game.php?id=71826"
+      }
+    ]
+  }
+]

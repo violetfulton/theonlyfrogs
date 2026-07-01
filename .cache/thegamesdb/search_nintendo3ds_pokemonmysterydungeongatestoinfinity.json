@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 16398,
+        "game_title": "Pokémon Mystery Dungeon: Gates to Infinity",
+        "release_date": "2013-03-24",
+        "platform": 4912,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Discover the incredible 3D world of Pokemon Mystery Dungeon: Gates to Infinity, where Pokemon speak and amazing adventures are always nearby! What's more, you will become a Pokemon yourself! You'll meet all kinds of Pokemon throughout the game, both in the towns you'll visit and the Mystery Dungeons you'll explore.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "16398": [
+          {
+            "id": 286514,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16398-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Mystery+Dungeon%3A+Gates+to+Infinity&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 477,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630016
+}

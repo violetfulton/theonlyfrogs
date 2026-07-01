@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 26707,
+        "game_title": "Tetris Ultimate",
+        "release_date": "2014-11-11",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tetris Ultimate is a puzzle video game developed by Ubisoft San Francisco and published by Ubisoft. Ubisoft partnered with The Tetris Company to develop the game to celebrate the 30th anniversary of the Tetris franchise Tetris Ultimate was first released in November 2014 for the Nintendo 3DS as retail game and as digital download in the Nintendo 3DS eShop. In December 2014 the game became available as a digital download for Xbox One and PlayStation 4.These versions were criticized for frame rate issues in the online modes In 2015, the game was released for PlayStation Vita.\r\n\r\nBecause of the release of Tetris Ultimate, Nintendo removed the Game Boy version of Tetris and digital download Tetris: Axis from the Nintendo 3DS eShop in December 2014. Since January 2014, Ubisoft holds the license rights for the console/handheld versions of Tetris whereas Electronic Arts retains the Tetris license for mobile platforms.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          9150
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          7
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "26707": [
+          {
+            "id": 237694,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/26707-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tetris+Ultimate&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 455,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630012
+}

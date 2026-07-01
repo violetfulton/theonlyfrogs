@@ -1,0 +1,191 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 115949,
+        "game_title": "Detective Pikachu Returns",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Solve mysteries with the personality-packed Detective Pikachu!\r\n\r\nUnravel a series of mysteries across Ryme City with a tough-talking, coffee-loving Pikachu who calls himself a great detective. This Pikachu may have a self-assured attitude and talk like a middle-aged man, but he somehow manages to keep his lovable charm. Together with his partner Tim Goodman, this great detective duo cracks several cases with the help of the many Pokémon and people who live in Ryme City.\r\n\r\nInvestigate Ryme City, where Pokémon and people live side by side\r\n\r\nSearch for clues in Ryme City, where Pokémon and humans coexist in harmony. With the help of many other Pokémon, Tim and his talkative Pikachu partner work together to solve a series of mysterious incidents in this cinematic adventure game.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 119731,
+        "game_title": "Detective Pikachu Returns",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Unravel a series of mysteries across Ryme City with a tough-talking, coffee-loving Pikachu who calls himself a great detective. This Pikachu may have a self-assured attitude and talk like a middle-aged man, but he somehow manages to keep his lovable charm. Together with his partner Tim Goodman, this great detective duo cracks several cases with the help of the many Pokemon and people who live in Ryme City.\r\n\r\nSearch for clues in Ryme City, where Pokemon and humans coexist in harmony. With the help of many other Pokemon, Tim and his talkative Pikachu partner work together to solve a series of mysterious incidents in this cinematic adventure game.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912,
+          3314
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 119945,
+        "game_title": "Detective Pikachu Returns",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Solve mysteries with the personality-packed Detective Pikachu!\r\n\r\nUnravel a series of mysteries across Ryme City with a tough-talking, coffee-loving Pikachu who calls himself a great detective. This Pikachu may have a self-assured attitude and talk like a middle-aged man, but he somehow manages to keep his lovable charm. Together with his partner Tim Goodman, this great detective duo cracks several cases with the help of the many Pokémon and people who live in Ryme City.\r\n\r\nInvestigate Ryme City, where Pokémon and people live side by side\r\n\r\nSearch for clues in Ryme City, where Pokémon and humans coexist in harmony. With the help of many other Pokémon, Tim and his talkative Pikachu partner work together to solve a series of mysterious incidents in this cinematic adventure game.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 120267,
+        "game_title": "Detective Pikachu Returns",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Solve mysteries with the personality-packed Detective Pikachu!\r\n\r\nUnravel a series of mysteries across Ryme City with a tough-talking, coffee-loving Pikachu who calls himself a great detective. This Pikachu may have a self-assured attitude and talk like a middle-aged man, but he somehow manages to keep his lovable charm. Together with his partner Tim Goodman, this great detective duo cracks several cases with the help of the many Pokémon and people who live in Ryme City.\r\n\r\nInvestigate Ryme City, where Pokémon and people live side by side\r\n\r\nSearch for clues in Ryme City, where Pokémon and humans coexist in harmony. With the help of many other Pokémon, Tim and his talkative Pikachu partner work together to solve a series of mysterious incidents in this cinematic adventure game.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121749,
+        "game_title": "Le retour de Détective Pikachu",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "115949": [
+          {
+            "id": 403600,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115949-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119731": [
+          {
+            "id": 410236,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119731-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119945": [
+          {
+            "id": 411523,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119945-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120267": [
+          {
+            "id": 413290,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120267-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121749": [
+          {
+            "id": 421439,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121749-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Detective+Pikachu+Returns&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 234,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629978
+}

@@ -1,0 +1,124 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 76338,
+        "game_title": "Fall Guys: Ultimate Knockout",
+        "release_date": "2020-08-04",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Fall Guys: Ultimate Knockout flings hordes of contestants together online in a mad dash through round after round of escalating chaos until one victor remains! Battle bizarre obstacles, shove through unruly competitors, and overcome the unbending laws of physics as you stumble towards greatness. Leave your dignity at the door and prepare for hilarious failure in your quest to claim the crown!\r\n\r\nMassive Online Pandemonium: Dive into a series of ridiculous challenges and wild obstacle courses with masses of other competitors online, all with the hopes of making the cut and advancing to the next round of mayhem.\r\n\r\nCompetitive & Cooperative: Shift between competitive free-for-alls and cooperative challenges where the losing team all get eliminated!\r\n\r\nComically Physical: Watch in delight as your fellow competitors bend, bounce, and bash their way to hilarious, physics-based failure!\r\n\r\nDelightfully Customisable: Fail in style with everything from fashionable pineapple couture to the latest in bunny hats available to customize your look in Fall Guys.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5363
+        ],
+        "genres": [
+          23
+        ],
+        "publishers": [
+          1429
+        ]
+      },
+      {
+        "id": 15572,
+        "game_title": "Flock!",
+        "release_date": "2009-04-07",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Join the Herd!\r\nProtect your cornfields and lock up your livestock, because FLOCK is here! Pilot a UFO around vibrantly-colored landscapes in this charming sandbox puzzle game where you must herd animal life back to the Motherflocker. Using a powerful physics engine that drives many of the game’s elements, FLOCK features over 50 pastoral puzzles. Pick up wood to form bridges, move boulders to create obstructions, and flatten fields into pathways all to help deliver your herd before time runs out! Flock together with a friend and even create and share your own crazy levels online!",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          6824
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 110099,
+        "game_title": "Flux",
+        "release_date": "2000-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Flux is a Direct X puzzle game for Windows. It features ray-traced graphics with many options to customize the game and has a worldwide high score competition.\r\n\r\nThe play field is covered with colored tiles. When tiles of the same colour are touching, they are grouped and can be eliminated from the field by clicking them. The other pieces on the screen fall into the holes left by the removed pieces which changes the layout of the play field. That is where the strategy comes in. The player has to consider the current move and it's ramification. You can even achieve an \"ultra-high scoring combo\" if you move the pieces in a clever way.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          5
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "15572": [
+          {
+            "id": 43988,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15572-1.jpg",
+            "resolution": "1531x2397"
+          }
+        ],
+        "76338": [
+          {
+            "id": 454433,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76338-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110099": [
+          {
+            "id": 378203,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110099-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fall+Guys&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 927,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630088
+}

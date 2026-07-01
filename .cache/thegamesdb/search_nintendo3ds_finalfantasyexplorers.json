@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 24781,
+        "game_title": "Final Fantasy Explorers",
+        "release_date": "2016-01-26",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Final Fantasy Explorers focuses on cooperative play with friends, utilizing a refined party system allowing Explorers to master over twenty jobs, each offering unique ways to defeat or even recruit the realm’s mightiest monsters. Players have the ability to call upon the powers of eidolons like Ifrit and Bahamut, as well as to transform into legendary characters from the Final Fantasy series via the Trance ability. Multiplayer functionality is enabled through the Nintendo 3DS wireless communication.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6931
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123787,
+        "game_title": "Final Fantasy Explorers",
+        "release_date": "2016-01-29",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Final Fantasy Explorers focuses on cooperative play with friends, utilizing a refined party system allowing Explorers to master over twenty jobs, each offering unique ways to defeat or even recruit the realm’s mightiest monsters. Players have the ability to call upon the powers of eidolons like Ifrit and Bahamut, as well as to transform into legendary characters from the Final Fantasy series via the Trance ability. Multiplayer functionality is enabled through the Nintendo 3DS wireless communication.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6931
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123788,
+        "game_title": "Final Fantasy Explorers",
+        "release_date": "2014-12-18",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Final Fantasy Explorers focuses on cooperative play with friends, utilizing a refined party system allowing Explorers to master over twenty jobs, each offering unique ways to defeat or even recruit the realm’s mightiest monsters. Players have the ability to call upon the powers of eidolons like Ifrit and Bahamut, as well as to transform into legendary characters from the Final Fantasy series via the Trance ability. Multiplayer functionality is enabled through the Nintendo 3DS wireless communication.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6931
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "24781": [
+          {
+            "id": 123410,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24781-1.jpg",
+            "resolution": "640x568"
+          },
+          {
+            "id": 207916,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/24781-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123787": [
+          {
+            "id": 453375,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123787-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 453376,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/123787-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123788": [
+          {
+            "id": 429826,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123788-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy%3A+Explorers&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 491,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630017
+}

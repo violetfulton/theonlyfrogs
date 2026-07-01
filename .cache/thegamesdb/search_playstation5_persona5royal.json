@@ -1,0 +1,200 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 106675,
+        "game_title": "Persona 5 Royal",
+        "release_date": "2022-10-21",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Prepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included!\r\n\r\nForced to transfer to a high school in Tokyo, the protagonist has a strange dream. “You truly are a prisoner of fate. In the near future, ruin awaits you.” With the goal of “rehabilitation” looming overhead, he must save others from distorted desires by donning the mask of a Phantom Thief.\r\n\r\nKey Features include:\r\n-Explore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more\r\n-Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Persona 5 Royal\r\n-Includes over 40 items of previously released downloadable content\r\n-Choose between Japanese and English VO",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          141,
+          346
+        ]
+      },
+      {
+        "id": 104120,
+        "game_title": "Persona 5 Royal",
+        "release_date": "2022-10-21",
+        "platform": 4980,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6,
+          9
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 104511,
+        "game_title": "Persona 5 Royal [Launch Edition]",
+        "release_date": "2022-10-21",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Wear the mask. Reveal your truth.\r\n\r\nPrepare for the award-winning RPG experience in this definitive edition of Persona 5 Royal, featuring a treasure trove of downloadable content included! Don the mask of Joker and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!\r\n\r\nThis title is packed with beloved characters, confidants, story depth, and plenty of locations to explore with many opportunities to strengthen your\r\nabilities in the metaverse and in your daily life. Persona 5 Royal presents a unique visual style and features an unforgettable soundtrack by the award nominated composer Shoji Meguro.\r\n\r\nExplore Tokyo, unlock Personas, customize your own personal Thieves Den, experience alternate endings, and more! Become the ultimate Phantom Thief and defy conventions, discover the power within, and fight for justice in the definitive version of Personal 5 Royal.\r\n\r\nFeatures:\r\n- Award-winning RPG experience.\r\n- Treasure trove of downloadable content included.\r\n- Packed with beloved characters, confidants, and story depth.\r\n- Unique visual style.\r\n\r\nLaunch Edition contents:\r\n- SteelBook case (while supplies last)\r\n- Over 40 items of previously released DLC",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10380
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          141
+        ]
+      },
+      {
+        "id": 108923,
+        "game_title": "Persona 5 Royal [One More Time Edition] ",
+        "release_date": "2022-10-22",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 105649,
+        "game_title": "Persona 5 Royal [Steelbook Edition]",
+        "release_date": "1970-01-01",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Forced to transfer to a high school in Tokyo,\r\nthe protagonist has a strange dream.\r\n\r\n“You truly are a prisoner of fate.\r\nIn the near future, ruin awaits you.”\r\n\r\nWith the goal of “rehabilitation” looming overhead,\r\nhe must save others from distorted desires by donning\r\nthe mask of a Phantom Thief.\r\n\r\nAn enhanced version of Persona 5 with some new characters and a third semester added to the game.\r\n\r\n\r\n\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          767
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "104120": [
+          {
+            "id": 356479,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104120-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104511": [
+          {
+            "id": 357873,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104511-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105649": [
+          {
+            "id": 362585,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105649-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 395582,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/105649-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106675": [
+          {
+            "id": 367090,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106675-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108923": [
+          {
+            "id": 375315,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108923-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+5+Royal&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 94,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629956
+}

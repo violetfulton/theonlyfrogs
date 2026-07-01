@@ -1,0 +1,303 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 114991,
+        "game_title": "Final Fantasy V Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY V comes to life with completely new graphics and audio as a 2D pixel remaster!\r\n\r\nA remodeled 2D take on the fifth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nThe King of Tycoon has sensed a disturbance in the wind. When the crystals that balance the powers of the world are threatened, the king hastens to the rescue...only to go missing. Somewhere a young man and his Chocobo find themselves drawn toward friends that will change their destiny.\r\n\r\nBuilding on the job systems of previous games, FFV includes a diverse selection of jobs to try, and a unique ability system that lets you combine skills.\r\n\r\nDevelop your characters with free reign, and master your battle tactics in the fifth installment of the FINAL FANTASY series!\r\n\r\n----------------------------------------------------------------------\r\n\r\n■ Beautifully revived with new graphics and sound!\r\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n\r\n■Improved gameplay!\r\n・Including modernized UI, auto-battle options, and more.\r\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\r\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game.\r\n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\r\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 113358,
+        "game_title": "Final Fantasy VI Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "FINAL FANTASY VI is a game that’s beloved by fans and critics alike.\r\n\r\nThat’s partly thanks to its incredible setting and story. It’s set in a land where magic has disappeared, and humanity has instead turned to iron, gunpowder, steam and other technology.\r\n\r\nActually, it would be more accurate to say that magic is mostly gone - a young woman enslaved by the evil Empire still has the power. When she encounters a powerful ancient being called an Esper, she sets off a chain of events that will have epic and terrible consequences.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61037,
+        "game_title": "Final Fantasy VII",
+        "release_date": "2019-03-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Mako. The discovery of this natural resource drawn directly from the planet's life force marked the dawn of a new era, and now the energy sustains the lives of people across the world. However, the Shinra Company has monopolized mako production, and in doing so established a powerful hegemony--its influence reaching the far corners of the globe. Cloud, a former member of Shinra's military organization, SOLDIER, joins the anti-Shinra resistance group AVALANCHE, despite caring little for their motives. During one of the group's attempts to stop the company, they learn of the return of Sephiroth, Cloud's nemesis, and that with his reemergence, the planet is in greater danger than anyone had expected. With the fate of the world riding on their success, Cloud and his allies set out to quell this deadly threat.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 128953,
+        "game_title": "Final Fantasy VII & Final Fantasy VIII Remastered - Twin Pack",
+        "release_date": "2020-12-04",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Experience the journey of a lifetime!\r\n\r\nFinal Fantasy VII and Final Fantasy VIII Remastered twin-pack physical release coming to Nintendo Switch for Australia & New Zealand!\r\n\r\nFinal Fantasy VIII Remastered\r\nThis product is a remaster of Final Fantasy VIII, featuring multiple enhancements including additional options to customise your gameplay experience and difficulty, such as:\r\n\r\nBattle assist options (HP, ATB gauge, and Limit Break boosts)\r\nGame speed boost (x3)\r\nNo random encounters\r\nThe Republic of Galbadia, under the influence of the sorceress Edea, mobilizes its great armies against the other nations of the world.\r\n\r\nSquall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal.\r\n\r\nFinal Fantasy VII\r\nFinal Fantasy VII, the timeless classic loved by a legion of fans, is now available with a number of helpful extra features!\r\n\r\nExperience an epic adventure beyond imagination, culminating in the final battle to decide the fate of the planet.\r\n\r\nThe world has fallen under the dominion of the Shinra Electric Power Company, a sinister corporation that has monopolized the planet's very life force as Mako energy.\r\n\r\nIn the urban megalopolis of Midgar, an anti-Shinra rebel group calling themselves Avalanche have stepped up their campaign of resistance.\r\n\r\nCloud Strife, a former member of Shinra's elite SOLDIER unit now turned mercenary, lends his aid to the rebels, unaware that he will be drawn into an epic battle for the fate of the planet, while having to come to terms with his own lost past.\r\n\r\nIncluded extras:\r\n3x speed mode\r\nAbility to turn battle encounters off\r\nBattle enhancement mode",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 80327,
+        "game_title": "FINAL FANTASY VII & VIII REMASTERED TWIN PACK",
+        "release_date": "2020-12-04",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "FINAL FANTASY VII and FINAL FANTASY VIII Remastered twin-pack physical release coming to Nintendo Switch\r\n\r\nFinal Fantasy VII\r\n\r\nFinal Fantasy VII, the timeless classic loved by a legion of fans, is now available with a number of helpful extra features!\r\n\r\nExperience an epic adventure beyond imagination, culminating in the final battle to decide the fate of the planet. The world has fallen under the dominion of the Shinra Electric Power Company, a sinister corporation that has monopolized the planet’s very life force as Mako energy. In the urban megalopolis of Midgar, an anti-Shinra rebel group calling themselves Avalanche have stepped up their campaign of resistance.\r\n\r\nCloud Strife, a former member of Shinra’s elite SOLDIER unit now turned mercenary, lends his aid to the rebels, unaware that he will be drawn into an epic battle for the fate of the planet, while having to come to terms with his own lost past.\r\n\r\nThe following extra features are included:\r\n\r\n3x speed mode\r\nAbility to turn battle encounters off\r\nBattle enhancement mode\r\n\r\nFinal Fantasy VIII Remastered\r\n\r\nThe Republic of Galbadia, under the influence of the sorceress Edea, mobilizes its great armies against the other nations of the world.\r\n\r\nSquall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia’s tyrannical rule and to prevent Edea from fulfilling her ultimate goal.\r\n\r\nThis product is a remaster of Final Fantasy VIII, featuring multiple enhancements including additional options to customize your gameplay experience and difficulty, such as:\r\n\r\nBattle assist options (HP, ATB gauge, and Limit Break boosts)\r\nGame speed boost (x3)\r\nNo random encounters\r\n\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          8304
+        ]
+      },
+      {
+        "id": 134762,
+        "game_title": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "release_date": "2026-01-22",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "Il premiato FINAL FANTASY VII REMAKE INTERGRADE* torna a narrare la storia originale fino alla fuga da Midgar, con una grafica mozzafiato, un gameplay frenetico e dei nuovi elementi narrativi.\r\nÈ un GdR con dei personaggi indimenticabili, una storia meravigliosa e un sistema di combattimento ibrido che unisce un gameplay strategico basato sui comandi ad azione frenetica.\r\nInclude anche FF7R EPISODE INTERmission, una storia secondaria con Yuffie Kisaragi come protagonista; un punto di vista alternativo parallelo al viaggio di Cloud.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 66352,
+        "game_title": "Final Fantasy VIII Remastered",
+        "release_date": "2019-09-03",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "It is a time of war.\r\n\r\nThe Republic of Galbadia, under the influence of the sorceress Edea, mobilises its great armies against the other nations of the world.\r\n\r\nSquall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal.\r\n\r\nThis product is a remaster of FINAL FANTASY VIII, featuring multiple enhancements including additional options to customise your gameplay experience and difficulty, such as:\r\n\r\n- Battle assist options (HP, ATB gauge, and Limit Break boosts)\r\n\r\n- Game speed boost (x3)\r\n\r\n- No random encounters",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2448
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 106222,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "CRISIS CORE –FINAL FANTASY VII– REUNION is the HD remaster version of the smash hit prequel to FINAL FANTASY VII.\r\n\r\nIn addition to all graphics being remastered in HD, fully voiced dialogue and new soundtrack arrangements make for a dynamic new retelling of a beloved classic.\r\n\r\nCRISIS CORE –FINAL FANTASY VII– REUNION follows the story of Zack Fair, a young warrior admired by the boy destined to save the world, trusted by men renowned as heroes of legend, and loved by the girl who holds the fate of the planet in her hands. The tale of Zack's dreams and honor—the legacy that connects him to Cloud—is revealed in full in this grand saga that has broken the limits of an HD remaster.\r\n\r\nIn the mako-powered metropolis of Midgar stands the headquarters of Shinra, a powerful company with a formidable private army. Zack Fair is a promising young operative in the Shinra military's elite unit, SOLDIER. Together with his mentor, SOLDIER 1st Class Angeal, and the SOLDIER hero Sephiroth, Zack begins an investigation into the recent mass disappearance of SOLDIER operatives.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 128931,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Men cry not for themselves but for their comrades.\r\n\r\nCrisis Core -Final Fantasy VII- Reunion is a remaster of the original Crisis Core: Final Fantasy VII, featuring a complete HD graphics overhaul, a remastered soundtrack, a reimagined UI, and an updated combat system.\r\n\r\nThe story begins seven years before the events of Final Fantasy VII (1997) and follows Zack Fair, a young and ambitious Shinra SOLDIER operative. Zack is tasked with tracking down a missing SOLDIER 1st Class operative named Genesis Rhapsodos.\r\n\r\nBut as his adventure unfolds, he discovers the dark secrets of Shinra’s experiments and the monsters they create. The game features a number of characters from the Final Fantasy VII franchise such as Cloud, Sephiroth, Aerith and others.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61037": [
+          {
+            "id": 452014,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61037-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66352": [
+          {
+            "id": 473566,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66352-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80327": [
+          {
+            "id": 277166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80327-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106222": [
+          {
+            "id": 365503,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106222-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113358": [
+          {
+            "id": 436177,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113358-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114991": [
+          {
+            "id": 436176,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114991-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128931": [
+          {
+            "id": 448743,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128931-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128953": [
+          {
+            "id": 448838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128953-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134762": [
+          {
+            "id": 475096,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134762-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+V&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 248,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629980
+}

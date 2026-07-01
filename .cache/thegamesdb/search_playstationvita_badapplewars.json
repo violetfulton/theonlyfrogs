@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 50199,
+        "game_title": "Bad Apple Wars",
+        "release_date": "2017-10-13",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Life and death-there are numerous story routes to discover and experience, from the heart-wrenchingly tragic to the truly uplifting and inspiring.\r\n\r\nFollow the myriad of twists and turns to discover the truth of the mysterious academy.\r\n\r\nWarring factions-choose between the cold-blood, rule-bound side of law and order, or embrace the anarchy of the resistance and experience the story from two drastically different viewpoints.\r\n\r\nTouch the soul- seek out the inner working of the soul and use your touch screen in a fun and interactive way to explore the depth of the characters and influence the story.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          354
+        ]
+      },
+      {
+        "id": 70078,
+        "game_title": "Bad Apple Wars [Day One Edition]",
+        "release_date": "2017-10-13",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Life and Death–There are numerous story routes to discover and experience, from the heart-wrenchingly tragic to the truly uplifting and inspiring. Follow the myriad of twists and turns to discover the truth of the mysterious academy.\r\n\r\nWarring Factions–Choose between the cold-blooded, rule-bound side of law and order, or embrace the anarchy of the resistance and experience the story from two drastically different viewpoints.\r\n\r\nTouch the Soul– Seek out the inner workings of the soul and use your touch screen in a fun and interactive way to explore the depth of the characters and influence the story.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4037
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          354
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "50199": [
+          {
+            "id": 128158,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50199-1.jpg",
+            "resolution": "1158x1477"
+          }
+        ],
+        "70078": [
+          {
+            "id": 224154,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70078-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bad+Apple+Wars&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 439,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630010
+}

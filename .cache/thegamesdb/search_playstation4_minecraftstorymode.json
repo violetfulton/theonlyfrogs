@@ -1,0 +1,136 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 56168,
+        "game_title": "Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Be The Hero Of A Grand Adventure In The Minecraft Universe! Embark on a perilous quest across the Overworld, to the End, and beyond. With a team of friends at your side, and a troubled land in need of heroes, your decisions - what you say and do - drive the story around you, so choose wisely! Features fan favorites Stampycat, Dantom, Captainsparklez, Stacyplays and Loshadowlady. Developed in partnership with Mojang, the creators of MineCraft. Disc includes all five episodes of Season One and all three episodes of the Adventure Pass.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 64468,
+        "game_title": "Minecraft: Story Mode - Season Two: The Telltale Series",
+        "release_date": "2017-07-11",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Minecraft: Story Mode - Season Two continues Jesse's saga in a five-part, narrative-driven, episodic game series developed by Telltale in collaboration with Mojang and members of the Minecraft community. Though players' choices from the first season will carry over into season two, this new season will be accessible to both returning fans and newcomers alike. This second season will also include Telltale's unique multiplayer 'Crowd Play' feature, which allows friends and family to engage with the adventure together by helping to decide the direction of the story from any mobile device with an online connection. Now that Jesse and the gang have vanquished the Wither Storm, saved the world, and become totally super famous heroes, life has gotten a bit more... complicated. With more responsibilities and less time for adventure, old friendships have started to fade -- at least until Jesse's hand gets stuck in a creepy gauntlet that belongs to an ancient underwater temple. Together with old pals and new comrades alike, Jesse embarks on a brand new journey filled with tough choices, good times, and at least one temperamental llama.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          5658,
+          8644
+        ],
+        "genres": [
+          1,
+          2,
+          5
+        ],
+        "publishers": [
+          606
+        ]
+      },
+      {
+        "id": 32691,
+        "game_title": "Minecraft: Story Mode Season Pass Disc",
+        "release_date": "2016-03-29",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "You are Jesse. You and your friends revere the legendary Order of the Stone: Warrior, Redstone Engineer, Griefer, and Architect; slayers of the Ender Dragon. While at EnderCon in hopes of meeting Gabriel the Warrior, you and your friends discover that something is wrong... something dreadful. Terror is unleashed, and you must set out on a quest to find The Order of the Stone if you are to save your world from oblivion.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          606
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "32691": [
+          {
+            "id": 85702,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32691-1.png",
+            "resolution": "1188x1500"
+          }
+        ],
+        "56168": [
+          {
+            "id": 138713,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/56168-1.jpg",
+            "resolution": "279x348"
+          },
+          {
+            "id": 304979,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/56168-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64468": [
+          {
+            "id": 304978,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64468-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Minecraft%3A+Story+Mode&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 351,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629997
+}

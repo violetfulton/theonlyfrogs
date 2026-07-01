@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 3533,
+        "game_title": "Pokémon Pinball: Ruby & Sapphire",
+        "release_date": "2003-08-26",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokemon Pinball has all the features you'd demand of a pinball game, including bonus tables, lots of bumpers and ways to score massive points. As with your standard videogame pinball game, the left button on the D-pad and the A-button control the flippers with the R/L triggers used to shake the table. The catch here is that everything is themed in Pokemon. Instead of a ball, you make use of a Pokeball. Instead of standard bumpers, you're hitting the Pokeball against other Pokemon, and the ultimate goal is of course to \"catch 'em all\". The game features 200 Pokemon, two main tables, and link cable support.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4549
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 84933,
+        "game_title": "Pokémon Pinball: Ruby & Sapphire",
+        "release_date": "2003-08-03",
+        "platform": 5,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Pokemon Pinball has all the features you'd demand of a pinball game, including bonus tables, lots of bumpers and ways to score massive points. As with your standard videogame pinball game, the left button on the D-pad and the A-button control the flippers with the R/L triggers used to shake the table. The catch here is that everything is themed in Pokemon. Instead of a ball, you make use of a Pokeball. Instead of standard bumpers, you're hitting the Pokeball against other Pokemon, and the ultimate goal is of course to \"catch 'em all\". The game features 200 Pokemon, two main tables, and link cable support.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4549
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 98628,
+        "game_title": "Pokémon Pinball: Ruby & Sapphire",
+        "release_date": "2003-11-14",
+        "platform": 5,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Combine the non-stop action of a pinball game with the thrill of catching Pokémon! In Pokémon Pinball: Ruby and Sapphire, control the flippers to shoot the Poké Ball at themed targets on two challenging tables based on Pokémon Ruby and Pokémon Sapphire.\r\n\r\nRack up as many points as possible as you try to catch more than 200 Pokémon, featuring your favourite characters from the classic Hoenn Pokédex. There are bonus stages to enjoy, and Pokémon can even evolve. Pokémon Pinball is packed full of references that fans will flip out over!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4549
+        ],
+        "genres": [
+          20
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "3533": [
+          {
+            "id": 8302,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3533-1.jpg",
+            "resolution": "1530x1370"
+          },
+          {
+            "id": 253734,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3533-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84933": [
+          {
+            "id": 280038,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84933-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98628": [
+          {
+            "id": 335311,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98628-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 335312,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/98628-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Pinball%3A+Ruby+%26+Sapphire&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 517,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630021
+}

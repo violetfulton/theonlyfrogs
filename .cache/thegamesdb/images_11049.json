@@ -1,0 +1,41 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "base_url": {
+      "original": "https://cdn.thegamesdb.net/images/original/",
+      "small": "https://cdn.thegamesdb.net/images/small/",
+      "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+      "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+      "medium": "https://cdn.thegamesdb.net/images/medium/",
+      "large": "https://cdn.thegamesdb.net/images/large/"
+    },
+    "images": {
+      "11049": [
+        {
+          "id": 31675,
+          "type": "boxart",
+          "side": "front",
+          "filename": "boxart/front/11049-2.jpg",
+          "resolution": "1531x1370"
+        },
+        {
+          "id": 31677,
+          "type": "boxart",
+          "side": "back",
+          "filename": "boxart/back/11049-1.jpg",
+          "resolution": "1534x1370"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1/Games/Images?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&games_id=11049&filter%5Btype%5D=boxart&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 593,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630033
+}

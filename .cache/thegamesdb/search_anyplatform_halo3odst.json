@@ -1,0 +1,234 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 193,
+        "game_title": "Halo 3: ODST",
+        "release_date": "2009-09-22",
+        "platform": 15,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Halo 3: ODST is a 2009 first-person shooter game developed by Bungie and published by Microsoft Game Studios. The fourth installment in the Halo franchise, it was released on the Xbox 360 in September 2009. Players assume the roles of United Nations Space Command soldiers, known as \"Orbital Drop Shock Troopers\" or ODSTs, during and after the events of Halo 2. In the game's campaign mode, players explore the ruined city of New Mombasa to discover what happened to their missing teammates in the midst of an alien invasion. In the \"Firefight\" multiplayer option, players battle increasingly difficult waves of enemies to score points and survive as long as possible; Halo 3's multiplayer is contained on a separate disc packaged with ODST.\r\n\r\nBungie initially conceived ODST as a small side project to produce in the lull between Halo 3's completion and Halo: Reach. Instead of featuring recognizable characters such as armored protagonist Master Chief, the developers focused on the ODSTs. Story director Joseph Staten penned a detective story utilizing film noir designs, settings, and characters. Composer Martin O'Donnell abandoned his previous Halo themes to create a quieter, jazz-influenced sound. During development, the planned expansion grew in scope to that of a full-sized game. Release marketing for the game included a tie-in comic, live-action trailers, and print and web advertisements. ",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 80207,
+        "game_title": "Halo 3: ODST",
+        "release_date": "2015-05-30",
+        "platform": 4920,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Experience the events leading up to Halo 3 through the eyes of Orbital Drop Shock Troopers (ODST) as they search for clues leading to the whereabouts of their scattered squad and the motivations behind the Covenant's invasion of New Mombasa.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 80801,
+        "game_title": "Halo 3: ODST",
+        "release_date": "2009-09-22",
+        "platform": 15,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Halo 3: ODST is a 2009 first-person shooter game developed by Bungie and published by Microsoft Game Studios. The fourth installment in the Halo franchise, it was released on the Xbox 360 in September 2009. Players assume the roles of United Nations Space Command soldiers, known as \"Orbital Drop Shock Troopers\" or ODSTs, during and after the events of Halo 2. In the game's campaign mode, players explore the ruined city of New Mombasa to discover what happened to their missing teammates in the midst of an alien invasion. In the \"Firefight\" multiplayer option, players battle increasingly difficult waves of enemies to score points and survive as long as possible; Halo 3's multiplayer is contained on a separate disc packaged with ODST.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 93059,
+        "game_title": "Halo 3: ODST [Platinum Hits]",
+        "release_date": "2009-09-22",
+        "platform": 15,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Halo 3: ODST is a 2009 first-person shooter game developed by Bungie and published by Microsoft Game Studios. The fourth installment in the Halo franchise, it was released on the Xbox 360 in September 2009. Players assume the roles of United Nations Space Command soldiers, known as \"Orbital Drop Shock Troopers\" or ODSTs, during and after the events of Halo 2. In the game's campaign mode, players explore the ruined city of New Mombasa to discover what happened to their missing teammates in the midst of an alien invasion. In the \"Firefight\" multiplayer option, players battle increasingly difficult waves of enemies to score points and survive as long as possible; Halo 3's multiplayer is contained on a separate disc packaged with ODST.\r\n\r\nBungie initially conceived ODST as a small side project to produce in the lull between Halo 3's completion and Halo: Reach. Instead of featuring recognizable characters such as armored protagonist Master Chief, the developers focused on the ODSTs. Story director Joseph Staten penned a detective story utilizing film noir designs, settings, and characters. Composer Martin O'Donnell abandoned his previous Halo themes to create a quieter, jazz-influenced sound. During development, the planned expansion grew in scope to that of a full-sized game. Release marketing for the game included a tie-in comic, live-action trailers, and print and web advertisements. ",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 82761,
+        "game_title": "Halo 3: ODST / Forza Motorsport 3 Bundle",
+        "release_date": "2010-03-01",
+        "platform": 15,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Forza Motorsport 3/Halo 3: ODST Double Pack (Xbox 360)\r\nThis double pack, originally included in the Spring 2010 Elite system bundle, contains Forza Motorsport 3 & Halo 3: ODST. The package contains 4 discs total, with each game being exactly as if you were to purchase them seperately, the only difference is the case.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389,
+          9106
+        ],
+        "genres": [
+          1,
+          7,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 83164,
+        "game_title": "Halo 3 / Halo 3: ODST Bundle Copy",
+        "release_date": "2009-01-01",
+        "platform": 15,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "193": [
+          {
+            "id": 21520,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/193-1.jpg",
+            "resolution": "640x903"
+          },
+          {
+            "id": 21521,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/193-1.jpg",
+            "resolution": "640x906"
+          }
+        ],
+        "80207": [
+          {
+            "id": 260152,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80207-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80801": [
+          {
+            "id": 262012,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80801-1.jpg",
+            "resolution": null
+          }
+        ],
+        "82761": [
+          {
+            "id": 440653,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/82761-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83164": [
+          {
+            "id": 275329,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83164-1.jpg",
+            "resolution": null
+          }
+        ],
+        "93059": [
+          {
+            "id": 372833,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93059-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "15": {
+          "id": 15,
+          "name": "Microsoft Xbox 360",
+          "alias": "microsoft-xbox-360"
+        },
+        "4920": {
+          "id": 4920,
+          "name": "Microsoft Xbox One",
+          "alias": "microsoft-xbox-one"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Halo+3%3A+ODST&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 783,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630063
+}

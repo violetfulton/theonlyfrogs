@@ -1,0 +1,137 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 115974,
+        "game_title": "Persona 5 Tactica",
+        "release_date": "2023-11-17",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Ignite your heart— An emotional uprising begins!  \r\n\r\nAfter a strange incident, the Phantom Thieves wander into a bizarre realm where its citizens are living under tyrannical oppression. Surrounded by a military group named Legionnaires, they find themselves in grave danger until a mysterious revolutionary named Erina rescues them and offers an enticing deal in exchange for their help. What truth lies behind Erina and the deal she offers to the Phantom Thieves?  \r\n\r\nPersona 5 Tactica features an all-new story, the return of fan-favorite characters, and brand-new allies and foes. Join the group as they lead an emotional revolution in this thrilling combat adventure! \r\n\r\nFeatures:\r\n- An Emotional Revolution: Lead an uprising of the heart, in a brand-new storyline that takes place in Persona’s iconic universe.\r\n- Build Your Dream Squad: Assemble a team of beloved heroes, to fight oppressive armies in thrilling turn-based combat.\r\n- Dynamic Combat: Overthrow your enemies with powerful Personas, an assortment of weapons, and wipe them out with style!! ",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": [
+          767
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 120946,
+        "game_title": "Persona 5 Tactica",
+        "release_date": "2023-11-17",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 7,
+        "overview": "iNCENDEIE SEU CORAÇÃO Após um estranho incidente, os Ladrões Fantasma entram em um mundo bizarro em que cidadãos vivem sob a opressão de um regime tirânico. Cercados por um grupo militar chamado Legionários, eles são resgatados de um grande perigo por Erina , uma misteriosa revolucionária que oferece uma oportunidade atraente em troca da ajuda deles. Qual é a verdade por trás de Erina e sua proposta aos Ladrões Fantasma?\r\n\r\nPersona 5 Tactica apresenta uma história inédita, o retorno de personagens populares, e novos aliados e novos inimigos. Junte se ao grupo na liderança de uma revolução de emoções nesta eletrizante aventura de combate!\r\n\r\nCrie sua equipe dos sonhos Organize uma equipe de heróis adorados para enfrentar exércitos opressivos em eletrizantes combates em turnos.\r\nCombate dinâmico Encare seus adversários com personas poderosas e uma variedade de armas para derrubá-los com estilo\r\nUma revolução de emoções Lidere uma revolução do coração em uma história inédita ambientada no universo icônico de Persona",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          767
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 121150,
+        "game_title": "Persona 5 Tactica",
+        "release_date": "2023-11-17",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Ignite your heart— An emotional uprising begins!  \r\n\r\nAfter a strange incident, the Phantom Thieves wander into a bizarre realm where its citizens are living under tyrannical oppression. Surrounded by a military group named Legionnaires, they find themselves in grave danger until a mysterious revolutionary named Erina rescues them and offers an enticing deal in exchange for their help. What truth lies behind Erina and the deal she offers to the Phantom Thieves?  \r\n\r\nPersona 5 Tactica features an all-new story, the return of fan-favorite characters, and brand-new allies and foes. Join the group as they lead an emotional revolution in this thrilling combat adventure! \r\n\r\nFeatures:\r\n- An Emotional Revolution: Lead an uprising of the heart, in a brand-new storyline that takes place in Persona’s iconic universe.\r\n- Build Your Dream Squad: Assemble a team of beloved heroes, to fight oppressive armies in thrilling turn-based combat.\r\n- Dynamic Combat: Overthrow your enemies with powerful Personas, an assortment of weapons, and wipe them out with style!! ",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": [
+          767
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "115974": [
+          {
+            "id": 395010,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115974-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120946": [
+          {
+            "id": 416920,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120946-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 416921,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/120946-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121150": [
+          {
+            "id": 417791,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121150-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+5+Tactica&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 96,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629957
+}

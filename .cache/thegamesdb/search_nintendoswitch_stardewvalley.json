@@ -1,0 +1,186 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 114084,
+        "game_title": "Stardew Valley",
+        "release_date": "2020-11-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "You're moving to the valley...\r\n\r\nYou've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!\r\n\r\nNow with Multiplayer! Invite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources, and build relationships with townspeople or each other. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1808
+        ],
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": [
+          4950
+        ]
+      },
+      {
+        "id": 51277,
+        "game_title": "Stardew Valley",
+        "release_date": "2020-11-06",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "You're moving to the valley...\r\n\r\nYou've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!\r\n\r\n* A physical retail edition was made available on the same release date. Each copy included an 18-page, full-color illustrated instruction manual and double-sided cover with Joja theme on the inside. \r\n\r\nFeatures:\r\n- You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life.\r\n- Now with Multiplayer!: Invite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources, and build relationships with townspeople or each other. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.\r\n- New Single Player Content!: Including the new Winter Market Festival, more collectibles, added character cut-scenes and even hats for your horse! Plus more to be discovered...",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1808
+        ],
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": [
+          4950
+        ]
+      },
+      {
+        "id": 75448,
+        "game_title": "Stardew Valley [Collector's Edition]",
+        "release_date": "2017-10-05",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!\r\n\r\nESRB Rating: E - Everyone\r\n\r\nGenre(s): Role-Playing | Life Simulation\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1808
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4950
+        ]
+      },
+      {
+        "id": 72500,
+        "game_title": "Stardew Valley Game and Plush Toy Package",
+        "release_date": "2016-02-16",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Console your child with these Fangamer Stardew Valley plush Junimo dolls. The big size makes a beautiful display in the room, while the fluffy and plushy feel gives comfortable cuddles all the time. These Fangamer Stardew Valley plush Junimo dolls has moveable arms and legs to hold and play with.\r\n\r\nThe bundle includes Junimos plush figures and a digital code for Stardew Valley on Nintendo Switch (provided on receipt at point of sale).\r\n\r\nBuild the farm of your dreams by turning your overgrown fields into a lively and bountiful farm.\r\n\r\nExpress yourself with hundreds of character and home customization options to choose from.\r\n\r\nRaise animals, go fishing, tend to crops, craft items, or do it all.\r\n\r\nExplore vast, mysterious caves encountering dangerous monsters and valuable treasures.\r\n\r\nFor one to four players.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1808
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4950
+        ]
+      },
+      {
+        "id": 63603,
+        "game_title": "Stardew Valley: Collector's Edition",
+        "release_date": "2019-01-31",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1808
+        ],
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "51277": [
+          {
+            "id": 309917,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/51277-1.jpg",
+            "resolution": null
+          }
+        ],
+        "63603": [
+          {
+            "id": 210045,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63603-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72500": [
+          {
+            "id": 231269,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72500-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75448": [
+          {
+            "id": 255499,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75448-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114084": [
+          {
+            "id": 388479,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114084-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Stardew+Valley&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 230,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629978
+}

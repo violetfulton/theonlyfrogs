@@ -1,0 +1,202 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 102957,
+        "game_title": "Dragon Quest Builders",
+        "release_date": "2016-10-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          2,
+          3
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 41140,
+        "game_title": "Dragon Quest Builders",
+        "release_date": "2016-10-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Dragon Quest Builders provides players the ability to build a variety of unique tools from materials you gather, and rebuild towns and cities to restore life to the shattered world of Alefgard. Players will battle with famous monsters from the Dragon Quest series and interact with gorgeously-designed 3D characters. The immersive Dragon Quest story and world to explore, combined with the freedom of sandbox gameplay, provides a new and exciting family-friendly experience, with an intuitive control system, that will have you building the towers and castles of your dreams in no time!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 64083,
+        "game_title": "Dragon Quest Builders 2",
+        "release_date": "2019-07-12",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "DRAGON QUEST BUILDERS 2 is a block-building role-playing game with a charming single player campaign and a robust multiplayer building mode that supports up to four players online. Create your customized character, team-up with your fearless friend Malroth, gather the skills required to become a full-fledged builder, and combat the Children of Hargon, a vile cult that worships destruction. Then, take your builder online and join your friends to collaborate and create something truly magnificent. Don’t let the name fool you, despite the 2, this is a completely standalone experience featuring new characters, an expansive world, unlimited building combinations, and a storyline that promises to satisfy longtime fans and newcomers alike.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6242
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102954,
+        "game_title": "Dragon Quest Builders 2",
+        "release_date": "2019-07-12",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          2,
+          3
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 94480,
+        "game_title": "Dragon Quest Builders: Day One Edition",
+        "release_date": "2016-01-28",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Generations ago, the realm of Alefgard was plunged into darkness when the hero fated to slay the terrible and treacherous Dragonlord, the ruler of all monsters, was instead tricked into joining him. Through this vile villain's magical machinations, mankind was scattered to the winds and robbed of the power to build. With even the idea of creativity relegated to mere legend, the people of Alefgard wander the ruins of their former home, scrounging and scavenging in the dust to survive.\r\n\r\nBut now, a legendary figure arises - a hero chosen by the Goddess herself - who sets out to return the power of creation to the people of Alefgard. Only when the wonder of imagination has been returned to the land will mankind be able to overthrow the evil Dragonlord once and for all!\r\n\r\n•\tBuild a variety of unique tools from materials you gather, and rebuild towns and cities to restore life to the shattered world of Alefgard\r\n•\tAn intuitive control system will have you building the towers and castles of your dreams in no time\r\n•\tPlay your own way—an immersive DRAGON QUEST story and world to explore, combined with the freedom of sandbox gameplay, provides a new and exciting, family-friendly experience\r\n•\tBattle with famous monsters from the DRAGON QUEST series and interact with gorgeously designed 3D characters\r\n\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "41140": [
+          {
+            "id": 214916,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41140-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 214917,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/41140-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64083": [
+          {
+            "id": 244153,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64083-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 405641,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/64083-1.jpg",
+            "resolution": null
+          }
+        ],
+        "94480": [
+          {
+            "id": 317376,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/94480-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102954": [
+          {
+            "id": 352539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102954-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102957": [
+          {
+            "id": 352540,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102957-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dragon+Quest+Builders&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 390,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630003
+}

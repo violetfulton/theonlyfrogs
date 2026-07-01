@@ -1,0 +1,593 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 18,
+    "games": [
+      {
+        "id": 130194,
+        "game_title": "Mass Effect",
+        "release_date": "2008-05-28",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 186,
+        "game_title": "Mass Effect",
+        "release_date": "2007-11-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Mass Effect is set in the year 2183 AD. Thirty-five years prior, humankind discovered a cache of technology on Mars, supposedly built by a technologically advanced but long-extinct race called the Protheans. Studying and adapting this technology, humanity has managed to break free of the solar system and has established numerous colonies and encountered various extraterrestrial species within the Milky Way galaxy. Utilizing alien artifacts known as Mass Relays, the various space-faring races are able to travel instantly across vast stretches of the galaxy. Within the game, humanity has formed the Human Systems Alliance, one of many independent bodies that make up the collective of \"Citadel space\".\r\nThe Human Systems Alliance is a rising power in the galactic stage. The only war they have participated in was the \"First Contact War\" in 2157. A human exploration expedition was activating dormant mass relays (which was a practice considered unsafe by citadel races). The turians attacked the small fleet and proceeded to capture the closest human world, Shanxi. The turians proceeded to starve out the remaining humans and occupy the planet. Facing starvation the human garrison surrendered to the Turian Hierarchy. One month later, the human Second Fleet responded by annihilating the turian fleet around Shanxi. In response the turians prepared for full scale war. The citadel council saw that humanity would either be annihilated or annexed by the turians and stepped in. The humans were then given an embassy in the Citadel Council.\r\nCitadel space, as a whole, is ruled by a body of government known as the Council, which is made up of members of the three prominent alien races: the asari, a race of mono-gendered aliens which closely resemble blue-skinned human females; the short-lived salarians; and the raptor-like turians. Other alien species seen in the game include the reptilian krogan, the four-eyed, humanoid batarians, the aquatic hanar, and the methodical and quadrupedal elcor, and the environmental-suited quarians and volus. Dozens of other aliens are asserted to exist throughout the galaxy, but are not seen or mentioned in the game.\r\nThe game takes place primarily in two locations: the prototype frigate SSV Normandy, and the Citadel, a gigantic, ancient space station purportedly built by the Protheans and which currently acts as the center of galactic civilization. Throughout the game, however, the player may navigate the Normandy to various planets, moons and other destinations.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 187,
+        "game_title": "Mass Effect 2",
+        "release_date": "2010-01-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "After the events of the original game, Commander Shepard is killed in an ambush by a mysterious alien species called the Collectors. Shepard is revived two years after the attack by an enigmatic organization called Cerberus, and is tasked with finding out more about the Collectors and why they are abducting entire human colonies. Shepard must build a team in order to accomplish what seems to be a suicide mission.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 72401,
+        "game_title": "Mass Effect 2 [Collector's Edition]",
+        "release_date": "2010-01-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Mass Effect 2 is an action role-playing video game developed by BioWare and published by Electronic Arts. It was released for Microsoft Windows and Xbox 360 in 2010, and PlayStation 3 in 2011. Mass Effect 2 is the second installment of the Mass Effect series and a sequel to the original Mass Effect. The game takes place within the Milky Way galaxy during the 22nd century, where humanity is threatened by an insectoid species known as the Collectors. The player assumes the role of Commander Shepard, an elite human soldier who must construct and gain the loyalty of a diverse team and stop the enemy in a suicide mission. With the use of a completed saved game of its predecessor, the player can impact the story of the game in numerous ways.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          1351
+        ]
+      },
+      {
+        "id": 87516,
+        "game_title": "Mass Effect 2: Arrival",
+        "release_date": "2011-03-29",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "In Mass Effect: Arrival, Commander Shepard is sent to the edge of the galaxy to rescue an undercover operative who may have evidence of an imminent Reaper invasion that has been looming since the very beginning of the series. Returning and playing a prominent role in Mass Effect: Arrival is fan favorite Admiral Hackett, who is voiced by legendary science-fiction actor Lance Henriksen (Alien, Terminator).",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 87517,
+        "game_title": "Mass Effect 2: Kasumi - Stolen Memory",
+        "release_date": "2010-04-06",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Cerberus has procured the service of Kasumi Goto, the galaxy's most enigmatic master thief. In return for her help, Kasumi has asked Shepard's help on a dangerous heist to infiltrate the vault of a deadly master criminal named Donovan Hock. Gain Kasumi's loyalty on the planet Bekenstein, where Hock is throwing a party for some of the galaxy's richest and most deranged criminal minds to recover data of great importance to Kasumi... and to the galaxy at large. Includes a new squad member, mission, weapon, research upgrade, casual outfit, and achievement.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 87515,
+        "game_title": "Mass Effect 2: Lair of the Shadow Broker",
+        "release_date": "2010-09-07",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Liara T'Soni is tracking down the mysterious Shadow Broker, and no one is safe. She'll do anything to recover the man the Broker kidnapped... and the Shadow Broker's agents will do anything to stop her. Team up with Liara and chase clues from the luxurious heights of Illium to the Shadow Broker's own secret lair. Adds the Shadow Broker intel center, new research, and five new achievements and the chance to continue a relationship with Liara.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 87513,
+        "game_title": "Mass Effect 2: Overlord",
+        "release_date": "2010-06-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          35
+        ]
+      },
+      {
+        "id": 3300,
+        "game_title": "Mass Effect 3",
+        "release_date": "2012-03-06",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Not everyone will survive. An ancient race known only as \"Reapers\", has launched an all-out invasion leaving nothing but a trail of destruction in their wake. Earth Has been taken, the galaxy is on the verge of total annihilation, and you are the only one who can stop them.\r\n\r\nThe price of failure is extinction.You are Commander Shephard, a character that you can forge in your own image.\r\n\r\nYou determine how events will play out, which planets to explore, and whom to form alliances with as you rally a force to eliminate the Reaper threat once and for all. How you wage this war is completely up to you: go into combat with guns blazing or use cover to plan a more tactical assault. Utilise your squad to full effect or take a lone wolf approach. Rain death from a distance or go toe-to-toe with enemies using devastating melee attacks. Mass Effect 3 will react to each decision you make as you play through a truly unique experience of your own creation.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 74136,
+        "game_title": "Mass Effect 3 - Collector's Edition",
+        "release_date": "2012-03-09",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Earth is burning. Striking from beyond known space, a race of terrifying machines have begun their destruction of the human race. As Commander Shepard, an Alliance Marine, your only hope for saving mankind is to rally the civilizations of the galaxy and launch one final mission to take back the Earth.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 78326,
+        "game_title": "Mass Effect 3: Citadel",
+        "release_date": "2013-03-05",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "When a sinister conspiracy targets Commander Shepard, you and your team must uncover the truth, through battles and intrigue that range from the glamour of the Citadel's Wards to the top-secret Council Archives. Uncover the truth and fight alongside your squad - as well as the cast from the original Mass Effect and Mass Effect 2, including Urdnot Wrex!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 78327,
+        "game_title": "Mass Effect 3: Extended Cut",
+        "release_date": "2012-07-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Mass Effect 3: Extended Cut is a downloadable content pack that will expand upon the events at the end of Mass Effect 3. Through additional cinematic sequences and epilogue scenes, the Extended Cut will include deeper insight to Commander Shepard's journey based on player choices during the war against the Reapers.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 78328,
+        "game_title": "Mass Effect 3: From Ashes",
+        "release_date": "2012-03-06",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 78329,
+        "game_title": "Mass Effect 3: Leviathan",
+        "release_date": "2012-08-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Taking place during the events of Mass Effect 3, players will be thrust into the darkest corners of space where they will hunt a mysterious being rumored to be powerful enough to destroy a Reaper. As they race against time, they will begin to unravel the secret of the Leviathan. Explore uncharted systems and new areas on the Citadel, interact with brand new characters, unlock the AT-12 Raider shotgun and M-55 Argus Assault Rifle and discover more about the mysterious history of the Reapers",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 35918,
+        "game_title": "Mass Effect 3: Omega",
+        "release_date": "2012-11-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Mass Effect 3: Omega is a DLC pack for Mass Effect 3. \r\n\r\nOmega has been seized by one of Cerberus' most accomplished and brilliant agents, General Oleg Petrovsky... and Aria T'Loak is plotting her revenge. To reclaim her domain, she must team up with Commander Shepard.\r\n\r\nJoin Omega's infamous leader in her fight to retake the notorious black market station. Navigate Omega's seedy underbelly as Aria joins your squad and you witness her legendary biotic powers and unrelenting ruthlessness first-hand. Help Nyreen Kandros, the valiant turian leader of the Talon mercenary group, as she fights to free the enslaved people of Omega. Face down fearsome new enemies, including the Cerberus-manipulated Reaper, the Adjutant.\r\n\r\nShape Omega's future through four death-defying missions, and strike a devastating blow to the Illusive Man's plans.\r\n\r\nThe war for Omega has begun - How far will you go to end it?[3]",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 86960,
+        "game_title": "Mass Effect Legendary Edition",
+        "release_date": "2021-05-14",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 102746,
+        "game_title": "Mass Effect Trilogy",
+        "release_date": "2009-07-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "As Commander Shepard, rise to become the galaxy’s most elite soldier and lead an all-out war to stop an ancient and ruthless enemy: the Reapers. With over 75 hours of content and more than 300 awards, one of gaming’s most acclaimed franchises is available for the first time in a premium set. Experience all three Mass Effect games for one low price.\r\n\r\nHeart-pounding action meets gripping interactive storytelling where you decide how your unique story unfolds. Assemble and lead your team aboard the SSV Normandy, the most advanced ship in the galaxy, and travel to distant and unexplored star systems. On your journey, meet a cast of intriguing characters each with their own story to tell. Wield powerful weapons and customize them with upgrades to create new and devastating attacks. All the thrilling action and your decisions culminate into a heroic battle against the greatest threat ever known.\r\n\r\nThe fate of the galaxy lies in your hands—how will you chose to fight for it?\r\n\r\n\"One of the most intricately crafted stories in the history of the medium.\" – Game Informer\r\n\"A wonderful trilogy that put the players in the driver's seat from the very beginning.\" – CNN\r\n\"Regardless of the medium, Mass Effect's universe is one of sci-fi's best.\" – IGN\r\n\"One of the best sci-fi series of all time.\" – MSNBC",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 44610,
+        "game_title": "Mass Effect: Andromeda",
+        "release_date": "2017-03-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A new adventure awaits in the universe with Mass Effect: Andromeda, the first next-generation game in the expansive sci-fi RPG franchise Mass Effect created by acclaimed studio Bioware. Mass Effect Andromeda takes place far away from and long after the events of the original trilogy. With stunning visuals and a new galaxy to discover, BioWare delivers the next generation of space exploration.\r\n\r\nMass Effect: Andromeda takes players far beyond the boundaries of the Milky Way into the depths of the Andromeda galaxy. Become the Pathfinder and lead humanity's search for a new home in this uncharted and unforgiving region of space. Discover the secrets of a vast galaxy, battle hostile alien threats, build your crew and tap into deep progression and customization systems to make them your own. This is the story of humanity’s next chapter, and your choices throughout the game will ultimately determine our survival and place in the Andromeda Galaxy. As you unravel the mysteries of Andromeda -- with the future of our species resting on your shoulders – you must ask yourself ... How far will you go?",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1086
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          2
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "186": [
+          {
+            "id": 1650,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/186-1.jpg",
+            "resolution": "1524x1929"
+          },
+          {
+            "id": 1651,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/186-1.jpg",
+            "resolution": "1527x2156"
+          }
+        ],
+        "187": [
+          {
+            "id": 1563,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/187-1.jpg",
+            "resolution": "1541x2170"
+          },
+          {
+            "id": 13354,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/187-1.jpg",
+            "resolution": "1524x2170"
+          }
+        ],
+        "3300": [
+          {
+            "id": 431023,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3300-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 431024,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3300-1.jpg",
+            "resolution": null
+          }
+        ],
+        "35918": [
+          {
+            "id": 102067,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35918-1.jpg",
+            "resolution": "634x350"
+          }
+        ],
+        "44610": [
+          {
+            "id": 135526,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44610-1.jpg",
+            "resolution": "500x700"
+          }
+        ],
+        "72401": [
+          {
+            "id": 230421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72401-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74136": [
+          {
+            "id": 238116,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74136-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78326": [
+          {
+            "id": 252841,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78326-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78327": [
+          {
+            "id": 252842,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78327-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78328": [
+          {
+            "id": 252843,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78328-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78329": [
+          {
+            "id": 252844,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78329-1.jpg",
+            "resolution": null
+          }
+        ],
+        "86960": [
+          {
+            "id": 294063,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86960-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87513": [
+          {
+            "id": 290416,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87513-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87515": [
+          {
+            "id": 290418,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87515-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87516": [
+          {
+            "id": 290420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87516-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87517": [
+          {
+            "id": 290421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87517-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102746": [
+          {
+            "id": 352018,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102746-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130194": [
+          {
+            "id": 454357,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130194-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Mass+Effect&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 771,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630061
+}

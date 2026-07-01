@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 112758,
+        "game_title": "Professor Layton and Pandora's Box",
+        "release_date": "2009-09-25",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Professor Layton, the world-renowned archaeologist, and his trusty assistant Luke have tackled some of the toughest mysteries in the world. When Dr Andrew Schrader, Professor Layton’s friend and mentor, inexplicably passes away upon taking possession of the mysterious Elysian Box, the only clue left behind is a ticket for the opulent Molentary Express. Layton and Luke embark on a voyage of discovery, unaware of the extraordinary twists and turns that await them.\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 10495,
+        "game_title": "Professor Layton and the Diabolical Box",
+        "release_date": "2009-08-24",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "In the world of Professor Layton, puzzles hide in every corner. When the professor's mentor is mysteriously murdered, a cursed artifact called the Elysian Box appears to be behind it. With a ticket to the Molentary Express as their only lead, Professor Layton and Luke embark on an adventure that will test their wits and work their brains. Calling all brainteaser fans! With tons of in-game puzzles of different types and difficulties, there's something for everyone from kids to adults. As Professor Layton, you'll open doors with sliding puzzles, uncover clues with logic puzzles, and find answers by solving riddles. A cinematic experience! This large-scale sequel to Professor Layton and the Curious Village features three times the voiced dialogue and movies of its predecessor. The fully voiced movies, hand-drawn art style, and cast of eccentric characters bring the story to life and are sure to charm puzzle fans young and old.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "10495": [
+          {
+            "id": 32237,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/10495-1.jpg",
+            "resolution": "1604x1464"
+          },
+          {
+            "id": 202114,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10495-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112758": [
+          {
+            "id": 384582,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112758-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Professor+Layton+and+the+Diabolical+Box&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 569,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630029
+}

@@ -1,0 +1,180 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 114173,
+        "game_title": "Batman: Arkham City",
+        "release_date": "2011-10-18",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Batman: Arkham City é um jogo de Ação-Aventura e Stealth, baseado na série de quadrinhos Batman da DC Comics.\r\n\r\n- Plataforma: Playstation 3\r\n- Gênero: ação\r\n- Classificação indicativa: 16 anos",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1,
+          10,
+          16
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 9058,
+        "game_title": "Batman: Arkham City",
+        "release_date": "2011-10-18",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "From Giant Bomb: \"Batman: Arkham City is the sequel to Batman: Arkham Asylum, and was released for the Playstation 3 and Xbox 360 on Oct. 18th, 2011. The PC version was released on November 18, 2011, and a version for the Nintendo Wii U is expected some time in 2012. Square-Enix will be publishing all versions of the game in Japan. Taking place a year after Arkham Asylum, the storyline starts with Quincy Sharp, formerly the warden of Arkham Asylum, now the mayor of Gotham City, turning the Gotham slums into a cordoned off prison colony named Arkham City with psychologist Hugo Strange as its warden. The gameplay has been updated to incorporate more of Batman's gadgets in combat and a new faster traversal system. Players will also be able to play as Catwoman in certain sections of the game. On September 25, 2011, the game developers at Rocksteady officially announced that the game was finished and being shipped out to retailers.\"",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1,
+          2,
+          10,
+          16
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 86301,
+        "game_title": "Batman: Arkham City (Game of the Year Edition) [Greatest Hits]",
+        "release_date": "2012-05-29",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The Game of the Year Edition includes Harley Quinn's Revenge. Now more dangerous than ever and leading a homicidal gang of her own, she is hell-bent on taking revenge against the Dark Knight.\r\nBonus content includes: Catwoman Pack, Robin Bundle Pack, Nightwing Bundle Pack, Arkham City Skins Pack and Challenge Map Pack\r\nHarley Quinn's Revenge contains over 2 hours of content, new storyline and enemies, play as both Batman and Robin, new environments and new collectables",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      },
+      {
+        "id": 116110,
+        "game_title": "Batman: Arkham Asylum And Batman: Arkham City Dual Pack",
+        "release_date": "2013-10-08",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Batman: Arkham Asylum And Batman: Arkham City Dual Pack ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "9058": [
+          {
+            "id": 25680,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/9058-1.png",
+            "resolution": "671x780"
+          },
+          {
+            "id": 25681,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/9058-1.png",
+            "resolution": "671x780"
+          }
+        ],
+        "86301": [
+          {
+            "id": 284796,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86301-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 284797,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/86301-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114173": [
+          {
+            "id": 388854,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114173-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388855,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114173-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116110": [
+          {
+            "id": 395514,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116110-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Batman%3A+Arkham+City&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 642,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630040
+}

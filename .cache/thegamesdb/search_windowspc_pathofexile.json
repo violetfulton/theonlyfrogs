@@ -1,0 +1,102 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 11131,
+        "game_title": "Path of Exile",
+        "release_date": "2013-10-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Path Of Exile is a Hack & Slay game released in 2013 which is continually developed by Grinding Gear Games. In Path of Exile, the player has been expelled from their homeland to the corrupted and deeply hostile continent of Wraeclast. Alone, or with other exiles, they must develop their skills and discover powerful weapons, magical artifacts & gems in order to survive the challenges of a cutthroat post-apocalyptic fantasy world!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3633
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          1262
+        ]
+      },
+      {
+        "id": 69043,
+        "game_title": "Path of Exile 2",
+        "release_date": "2020-12-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Path of Exile 2 is a new seven-act storyline that is available alongside the original Path of Exile 1 campaign. Both the old and new storyline lead to the same shared Atlas endgame. Path of Exile 2 retains all expansion content that has been created over the last six years and introduces a new skill system, ascendancy classes, engine improvements and more.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3633
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          1262
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "11131": [
+          {
+            "id": 41595,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11131-1.jpg",
+            "resolution": "300x422"
+          }
+        ],
+        "69043": [
+          {
+            "id": 222256,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69043-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Path+of+Exile&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 881,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630080
+}

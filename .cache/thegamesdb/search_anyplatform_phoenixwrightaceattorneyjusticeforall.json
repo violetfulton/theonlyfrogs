@@ -1,0 +1,329 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 74606,
+        "game_title": "Gyakuten Saiban 2",
+        "release_date": "2006-10-26",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Japanese version of Phoenix Wright: Ace Attorney - Justice for All.\r\n\r\nThe second game in the popular court room battle series from Japan introduces four new cases featuring new characters, plot twists and gameplay features. Players resume the role of Phoenix Wright, a defence attorney who must prove his client's innocence against the toughest of odds and most ruthless of adversaries. Players must exercise their legal prowess as they collect evidence, examine witnesses, analyse testimonies and seek the truth to ensure that justice prevails.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 46067,
+        "game_title": "Gyakuten Saiban 2",
+        "release_date": "2002-10-18",
+        "platform": 5,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The second game in the popular court room battle series from Japan introduces four new cases featuring new characters, plot twists and gameplay features. Players resume the role of Phoenix Wright, a defence attorney who must prove his client's innocence against the toughest of odds and most ruthless of adversaries. Players must exercise their legal prowess as they collect evidence, examine witnesses, analyse testimonies and seek the truth to ensure that justice prevails.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99536,
+        "game_title": "Gyakuten Saiban 2",
+        "release_date": "2015-12-02",
+        "platform": 38,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The second game in the popular court room battle series from Japan introduces four new cases featuring new characters, plot twists and gameplay features. Players resume the role of Phoenix Wright, a defence attorney who must prove his client's innocence against the toughest of odds and most ruthless of adversaries. Players must exercise their legal prowess as they collect evidence, examine witnesses, analyse testimonies and seek the truth to ensure that justice prevails.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6866,
+        "game_title": "Phoenix Wright: Ace Attorney - Justice for All",
+        "release_date": "2007-01-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "The second game in the popular court room battle series from Japan introduces four new cases featuring new characters, plot twists and gameplay features. Players resume the role of Phoenix Wright, a defence attorney who must prove his client's innocence against the toughest of odds and most ruthless of adversaries. Players must exercise their legal prowess as they collect evidence, examine witnesses, analyse testimonies and seek the truth to ensure that justice prevails.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 24432,
+        "game_title": "Phoenix Wright: Ace Attorney - Justice for All",
+        "release_date": "2010-02-15",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "In Phoenix Wright: Ace Attorney Justice for All, Phoenix Wright has had six months of experience and five court victories under his belt. But none of that will do him any good against the ruthless new D.A. in town. Franziska von Karma wants revenge and she's ready to take Phoenix down at any cost! Each game in the series presents twisting storylines and intriguing gameplay with comical anime stylings. Players will collect evidence, weed through inconsistent testimonies and overcome corrupt agendas to ensure that justice prevails! Present evidence with the wave of the Wii remote or press suspicious testimonies by wiggling it. These games can be played via single-player and will also have multiple save slots for you and your friends.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 105988,
+        "game_title": "Gyakuten Saiban 2 - Best Price!",
+        "release_date": "2006-10-26",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Japanese budget reprint of Phoenix Wright: Ace Attorney - Justice for All (known in Japan as Gyakuten Saiban 2).",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99483,
+        "game_title": "Gyakuten Saiban 2 [Trial Version]",
+        "release_date": "2002-01-01",
+        "platform": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Trial version of Gyakuten Saiban 2 (Phoenix Wright: Ace Attorney - Justice for All), released before the game's launch on Game Boy Advance.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99466,
+        "game_title": "Gyakuten Saiban 2 PC",
+        "release_date": "2006-03-30",
+        "platform": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The second game in the popular court room battle series from Japan introduces four new cases featuring new characters, plot twists and gameplay features. Players resume the role of Phoenix Wright, a defence attorney who must prove his client's innocence against the toughest of odds and most ruthless of adversaries. Players must exercise their legal prowess as they collect evidence, examine witnesses, analyse testimonies and seek the truth to ensure that justice prevails.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          8600
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6866": [
+          {
+            "id": 17641,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6866-1.jpg",
+            "resolution": "1532x1370"
+          },
+          {
+            "id": 17642,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6866-1.jpg",
+            "resolution": "1536x1370"
+          }
+        ],
+        "24432": [
+          {
+            "id": 339180,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24432-1.jpg",
+            "resolution": null
+          }
+        ],
+        "46067": [
+          {
+            "id": 119925,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/46067-1.jpg",
+            "resolution": "500x321"
+          },
+          {
+            "id": 339844,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/46067-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74606": [
+          {
+            "id": 339846,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74606-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 339847,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/74606-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99466": [
+          {
+            "id": 339028,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99466-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99483": [
+          {
+            "id": 378987,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99483-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 378988,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/99483-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99536": [
+          {
+            "id": 339476,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99536-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105988": [
+          {
+            "id": 364197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105988-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        },
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "38": {
+          "id": 38,
+          "name": "Nintendo Wii U",
+          "alias": "nintendo-wii-u"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phoenix+Wright%3A+Ace+Attorney+-+Justice+For+All&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 341,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629996
+}

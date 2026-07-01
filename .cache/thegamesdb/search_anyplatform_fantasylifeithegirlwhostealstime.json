@@ -1,0 +1,112 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 111090,
+        "game_title": "Fantasy Life i: The Girl Who Steals Time",
+        "release_date": "2025-05-21",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Begin a fantastic life on a ruined island, and embark on a great adventure into the past! Gather friends, craft, and build your own city!\r\n\r\nA completely new entry in the Fantasy Life series!\r\n\r\nBuild your own city and go on adventures on a new island!\r\n\r\nExplore the island with whatever Life (occupation) suits you!\r\n\r\nTravel between the past and present to unravel the mysteries of this ruined island!\r\n\r\nPopular characters from the series make a return!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 131500,
+        "game_title": "Fantasy Life i: The Girl Who Steals Time",
+        "release_date": "0025-05-21",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Begin a fantastic life on a ruined island, and embark on a great adventure into the past! Gather friends, craft, and build your own city!\r\n\r\nA completely new entry in the Fantasy Life series!\r\n\r\nBuild your own city and go on adventures on a new island!\r\n\r\nExplore the island with whatever Life (occupation) suits you!\r\n\r\nTravel between the past and present to unravel the mysteries of this ruined island!\r\n\r\nPopular characters from the series make a return!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          2,
+          9
+        ],
+        "publishers": [
+          1680
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "111090": [
+          {
+            "id": 462614,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111090-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 462615,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/111090-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131500": [
+          {
+            "id": 461373,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131500-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fantasy+Life+i%3A+The+Girl+Who+Steals+Time&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 135,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629963
+}

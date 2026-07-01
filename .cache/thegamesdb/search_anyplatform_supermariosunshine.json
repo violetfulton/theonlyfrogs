@@ -1,0 +1,501 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 14,
+    "games": [
+      {
+        "id": 2236,
+        "game_title": "Super Mario Sunshine",
+        "release_date": "2002-08-26",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Super Mario Sunshine is a 2002 GameCube video game developed by Nintendo EAD and released by Nintendo of America in the USA on August 26, 2002.\r\n\r\nWhen Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 87187,
+        "game_title": "Super Mario Sunshine",
+        "release_date": "2002-10-04",
+        "platform": 2,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "When Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 92104,
+        "game_title": "Super Mario Sunshine",
+        "release_date": "2002-07-19",
+        "platform": 2,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "When Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130508,
+        "game_title": "Super Mario Eclipse",
+        "release_date": "2024-06-30",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The much-anticipated modpack revisit to Delfino is finally here after a 4 year wait. Likely to be one of the most ambitious Mario fan projects of all time, a journey of pure wonder awaits. 120 returning shines from the game you know and love have been altered for a unique open-world play experience, with enhanced story elements that keep you engaged along the way!\r\n\r\n- 120 brand new shines\r\n- 3 playable characters (Mario, Luigi and El Piantissimo\r\n- New movement mechanics\r\n- Improved game engine\r\n- New and remixed boss fights\r\n- Original soundtrack\r\n- New story with hand-animated cutscenes\r\n- MASSIVE reward for 100% completion\r\n\r\nA full modpack for Super Mario Sunshine of Gamecube by Eclipse Team.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          15,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104712,
+        "game_title": "Super Mario Sunshine [Kmart Edition]",
+        "release_date": "2002-08-26",
+        "platform": 2,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 116553,
+        "game_title": "Super Mario Sunshine [Player's Choice - Not For Resale]",
+        "release_date": "2002-08-26",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "When Mario, Peach, and an entourage of Peach's loyal Toad friends set out for a tropical vacation on lovely Isle Delfino, they're in store for much more than a relaxing holiday. A mustachioed maniac has mucked up the entire island, and Mario is accused of committing the crime. Armed with a hi-tech water cannon called FLUDD (Flash Liquidizer Ultra Dousing Device), Mario sets out to clean the island, clear his name, and solve the mystery of the villainous vandal. With new enemies, moves, and surprises, Super Mario Sunshine offers plenty of challenges.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116552,
+        "game_title": "Super Mario Sunshine [Player's Choice]",
+        "release_date": "2002-08-26",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "When Mario, Peach, and an entourage of Peach's loyal Toad friends set out for a tropical vacation on lovely Isle Delfino, they're in store for much more than a relaxing holiday. A mustachioed maniac has mucked up the entire island, and Mario is accused of committing the crime. Armed with a hi-tech water cannon called FLUDD (Flash Liquidizer Ultra Dousing Device), Mario sets out to clean the island, clear his name, and solve the mystery of the villainous vandal. With new enemies, moves, and surprises, Super Mario Sunshine offers plenty of challenges.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 68731,
+        "game_title": "Super Mario Sunshine [Not for Resale]",
+        "release_date": "2002-08-25",
+        "platform": 2,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Not For Resale version, which is only shown on the back of the cover.\r\n\r\nWhen Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116607,
+        "game_title": "Super Mario Sunshine [Not For Resale]",
+        "release_date": "2002-08-25",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "When Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73197,
+        "game_title": "Super Mario Sunshine [Player's Choice] ",
+        "release_date": "2002-08-26",
+        "platform": 2,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "When Mario, Peach, and an entourage of Peach's loyal Toad friends set out for a tropical vacation on lovely Isle Delfino, they're in store for much more than a relaxing holiday. A mustachioed maniac has mucked up the entire island, and Mario is accused of committing the crime. Armed with a hi-tech water cannon called FLUDD (Flash Liquidizer Ultra Dousing Device), Mario sets out to clean the island, clear his name, and solve the mystery of the villainous vandal. With new enemies, moves, and surprises, Super Mario Sunshine offers plenty of challenges.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          2,
+          15,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 125891,
+        "game_title": "Super Mario Sunshine [Player's Choice]",
+        "release_date": "2003-10-10",
+        "platform": 2,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "When Mario arrives on tropical Isle Delfino, the once-pristine island is polluted and plastered with graffiti. Even worse, he's being blamed for the mess! Now instead of enjoying a relaxing vacation, Mario has to clean up the place and track down the real culprit.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127714,
+        "game_title": "Super Mario Sunburn",
+        "release_date": "2020-05-05",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Super Mario Sunburn is a Romhack that makes Super Mario Sunshine everything It should have been back in 2002.\r\n\r\n-Toggleable options menu: Adjust gameplay mechanics, graphics, controls, and more. \r\n\r\n-Open world: Free travel from stage to stage.\r\n\r\n-Multiple missions at once: You can collect shines out of order.\r\n\r\n-No boot out: Shines don't always kick you out of levels.\r\n\r\n-Autosave: No more pesky blue coin save, no need for saves at all.\r\n\r\n-100 coin missions possible on every mission: Added around 30-60 coins to every stage.\r\n\r\n-Extensive collision engine and bug fixes: Togglable in the options for those who enjoy the bugs.\r\n\r\n-An actual reward for getting all 120 shines.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 80687,
+        "game_title": "Donkey Kong 5 :The Journey of Over Time and Space",
+        "release_date": "2001-01-01",
+        "platform": 41,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The fairy Sodoma, responsible for all plantlife, has been captured!  with nothing to eat, Donkey Kong sets out on a quest to rescue Sodoma.\r\n\r\nDonkey Kong 5, also known as Super Marrio Sunshine, is a Gameboy Color Bootleg version of the first 4 worlds of Super Mario Bros. 1.  There is also a version featuring Harry Potter, with a completely different story.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          15,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 125908,
+        "game_title": "Super Marrio Sunshine",
+        "release_date": "2003-01-01",
+        "platform": 41,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Super Marrio Sunshine is a rare 2003 reprint of Super Mario Bros. Deluxe clone Donkey Kong 5 : The Journey of Over Time and Space. It is almost identical to Donkey Kong 5, but sports a different title screen and some aspects that are broken.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2236": [
+          {
+            "id": 18115,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2236-1.jpg",
+            "resolution": "1533x2156"
+          },
+          {
+            "id": 397282,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2236-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68731": [
+          {
+            "id": 397681,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68731-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 397682,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/68731-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73197": [
+          {
+            "id": 373121,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/73197-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 397283,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73197-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80687": [
+          {
+            "id": 261685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80687-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87187": [
+          {
+            "id": 451903,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87187-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92104": [
+          {
+            "id": 306407,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92104-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104712": [
+          {
+            "id": 358524,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104712-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 358525,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/104712-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116552": [
+          {
+            "id": 452705,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116552-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116553": [
+          {
+            "id": 452706,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116553-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116607": [
+          {
+            "id": 452707,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116607-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125891": [
+          {
+            "id": 436785,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125891-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125908": [
+          {
+            "id": 436825,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125908-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127714": [
+          {
+            "id": 443179,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127714-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443182,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127714-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130508": [
+          {
+            "id": 456312,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130508-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 456313,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/130508-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "2": {
+          "id": 2,
+          "name": "Nintendo GameCube",
+          "alias": "nintendo-gamecube"
+        },
+        "41": {
+          "id": 41,
+          "name": "Nintendo Game Boy Color",
+          "alias": "nintendo-gameboy-color"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+Sunshine&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 215,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629975
+}

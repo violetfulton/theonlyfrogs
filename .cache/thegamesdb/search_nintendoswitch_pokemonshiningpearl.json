@@ -1,0 +1,328 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 99252,
+        "game_title": "Pokémon Leuchtende Perle",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Pearl Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Pearl Version game in a reimagined adventure, Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Shining Pearl game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Palkia.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Pearl Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          6,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116161,
+        "game_title": "Pocket Monsters Shining Pearl",
+        "release_date": "2021-11-21",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "2021 remakes of the 2006 Nintendo DS role-playing video games Pokémon Diamond and Pearl. The games are part of the eighth generation of the Pokémon video game series and were developed by ILCA and published by Nintendo and The Pokémon Company for the Nintendo Switch. ",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6,
+          9
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 118857,
+        "game_title": "Pokémon Shining Pearl",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Pearl Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Pearl Version game in a reimagined adventure, Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Shining Pearl game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Palkia.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Pearl Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 121752,
+        "game_title": "Pokémon Perle Scintillante",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 83446,
+        "game_title": "Pokémon Shining Pearl",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Pearl Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Pearl Version game in a reimagined adventure, Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Shining Pearl game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Palkia.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Pearl Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 116286,
+        "game_title": "Pokemon Shining Pearl",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Experience a nostalgic story reborn in Pokémon Shining Pearl on Nintendo Switch! Set off on a mystery-filled adventure through the Sinnoh region, as you catch Pokémon, battle against the region's strongest Pokémon Trainers and uncover the truth behind Team Galactic's nefarious plans!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 87099,
+        "game_title": "Pokémon Brilliant Diamond and Pokémon Shining Pearl Double Pack",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "A double pack containing the Pokémon Brilliant Diamond and Pokémon Shining Pearl games, available as a packaged version or as a digital downloadable version. The packaged version includes 1 physical Pokémon Brilliant Diamond game and 1 physical Pokémon Shining Pearl game while the downloadable version includes digital versions of both the Pokémon Brilliant Diamond game and the Pokémon Shining Pearl game.\r\n\r\nRevisit the Sinnoh region and the story of the Pokémon Diamond Version and the Pokémon Pearl Version games\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version and the Pokémon Pearl Version games in a reimagined adventure, Pokémon Brilliant Diamond and Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond and Pokémon Shining Pearl games will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga (in Pokémon Brilliant Diamond) or Palkia (in Pokémon Shining Pearl).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 99095,
+        "game_title": "Pokemon Brilliant Diamond & Pokemon Shining Pearl [Dual Pack]",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 125990,
+        "game_title": "Pokémon Brilliant Diamond and Pokémon Shining Pearl [Dual Pack]",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Experience the nostalgic story from the Pokémon Diamond™ and Pokémon Pearl™ games in an adventure reborn on the Nintendo Switch™ system.\r\n\r\nAdventures in the Pokémon Brilliant Diamond and Pokémon Shining Pearl games will take place in the Sinnoh region. Rich in nature and with Mount Coronet towering at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll visit many different locations in the Sinnoh region, while striving to become the Champion of the Pokémon League.\r\n\r\nThe original story has been faithfully reproduced, and the sense of scale in the originals’ towns and routes has been carefully preserved. People who played Pokémon Diamond and Pokémon Pearl can revisit familiar places and relive familiar scenes once more. For those setting out through Sinnoh for the first time, plenty of new encounters and surprises await.\r\n\r\nThese remakes include easy-to-understand, player-friendly conveniences of the modern Pokémon series, plus up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond or Pokémon Pearl back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "83446": [
+          {
+            "id": 430367,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83446-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87099": [
+          {
+            "id": 325405,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87099-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99095": [
+          {
+            "id": 337533,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99095-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99252": [
+          {
+            "id": 338106,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99252-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116161": [
+          {
+            "id": 395935,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116161-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116286": [
+          {
+            "id": 396459,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116286-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 396460,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/116286-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118857": [
+          {
+            "id": 406532,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118857-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121752": [
+          {
+            "id": 421444,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121752-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125990": [
+          {
+            "id": 437043,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125990-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Shining+Pearl&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 286,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629987
+}

@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 10721,
+        "game_title": "Project Zomboid",
+        "release_date": "2011-06-20",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "You’re trapped in a quarantined city with a million zombies. There is no escape. There is no cure. The end is coming, so get used to it.\r\n\r\nProject Zomboid is about the choices you make, and how you choose to live your last days on Earth. As a hero who goes out in a moment of heroic self-sacrifice to save a defenseless family? Or a callous coward who saves his own skin and leaves his companions for dead?\r\n\r\nIt’s these choices, and the story you weave in your adventure. That is what Project Zomboid is all about. Not saving the world with some pie in the sky cure, or flying away in a helicopter where everything will probably be okay. This is the apocalypse.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8739
+        ],
+        "genres": [
+          4,
+          12,
+          18
+        ],
+        "publishers": [
+          1201
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "10721": [
+          {
+            "id": 30197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10721-1.jpg",
+            "resolution": "573x900"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Project+Zomboid&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 885,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630081
+}

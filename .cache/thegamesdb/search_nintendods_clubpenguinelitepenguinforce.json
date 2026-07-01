@@ -1,0 +1,148 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 17989,
+        "game_title": "Club Penguin: Elite Penguin Force",
+        "release_date": "2008-11-25",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Club Penguin: Elite Penguin Force for Nintendo DS, players become agents of the Elite Penguin Force, waddling their way through secret missions, solving mysteries and connecting with the online world of Club Penguin in new ways. Players will use both familiar and all-new gadgets, accessories, disguises and vehicles as they set out on new missions to investigate puzzling events in the world of Club Penguin. Players can even earn coins while playing on Nintendo DS and upload them wirelessly to their online penguin accounts. In addition, each game comes packaged with a redeemable code that allows players to gain special access to the top secret EPF Command Room, which is only available to DS players online at www.ClubPenguin.com. Other features of Club Penguin: Elite Penguin Force include three all-new mini-games - Snowboarding, Dance Challenge and Snow Trekker - as well as three fan-favorites from the virtual world that have been adapted to utilize the DS touch-screen - Cart Surfer, Jet Pack Adventure and Ice Fishing. Weekly newsletters, polls and upcoming seasonal missions will be available for download via Nintendo Wi-Fi Connection.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          25
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          171
+        ]
+      },
+      {
+        "id": 86548,
+        "game_title": "Club Penguin: Elite Penguin Force [Collector's Edition]",
+        "release_date": "2009-09-15",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Collector's Edition of Club Penguin: Elite Penguin Force that includes an EPF-branded Nintendo DS stylus.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          25
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          171
+        ]
+      },
+      {
+        "id": 19125,
+        "game_title": "Disney Club Penguin: Elite Penguin Force - Herbert's Revenge",
+        "release_date": "2010-05-25",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Join the force, unravel Herbert's mischievous plans, and save the island! Agents of the exclusive Elite Penguin Force are being called back into action with Club Penguin: Elite Penguin Force: Herbert's Revenge. Fans of the original game can expect all new mysteries, missions and mini-games in this action-packed sequel.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          25
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          171
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17989": [
+          {
+            "id": 286077,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17989-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 286078,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17989-1.jpg",
+            "resolution": null
+          }
+        ],
+        "19125": [
+          {
+            "id": 54593,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19125-1.jpg",
+            "resolution": "1500x1342"
+          },
+          {
+            "id": 286081,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/19125-1.jpg",
+            "resolution": null
+          }
+        ],
+        "86548": [
+          {
+            "id": 286093,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86548-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 286094,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/86548-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Club+Penguin%3A+Elite+Penguin+Force&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 604,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630034
+}

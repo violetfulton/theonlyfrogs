@@ -1,0 +1,327 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 118012,
+        "game_title": "Pokémon Version Blanche 2",
+        "release_date": "2012-10-07",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Made for Nintendo DS, this game is a sequel to the fifth generation of Pokémon games, known as Pokémon Black & Pokemon White.\r\n\r\nReturn to the captivating Unova region two years after the events of the original Pokémon Black Version and Pokémon White Version games -- the first time in the core Pokémon game series that a storyline has continued from one game to another. Players can explore new areas, discover Gyms with new leaders and see how everything has changed in the last two years.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 121816,
+        "game_title": "Pokémon Weisse Edition 2",
+        "release_date": "2012-12-10",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 13557,
+        "game_title": "Pokémon White Version 2",
+        "release_date": "2012-10-07",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Players must take on the role of a Pokémon Trainer in the Unova region. As they work to unravel the mystery behind Black Kyurem and White Kyurem, they'll need to face down opponents such as Gym Leaders and other Pokémon Trainers.\r\n\r\nThe Unova region has changed and grown in the two years since the original Pokémon White Version game. The first areas players travel through are completely new, and some characters from the previous games have grown and moved into different roles.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 81439,
+        "game_title": "Pokemon White Version 2 [Choose One! Code]",
+        "release_date": "2012-10-12",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114995,
+        "game_title": "Pokémon Version Blanche",
+        "release_date": "2011-03-06",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Pokémon Version Noire et Pokémon Version Blanche présentent de nouveaux Pokémon que les joueurs peuvent attraper, entraîner et utiliser en combat alors qu’ils poursuivent leur aventure. Notez que certains Pokémon ne peuvent être attrapés que dans une version du jeu. Par exemple, le légendaire Pokémon Reshiram ne peut qu’être attrapé dans Pokémon Version Noire, alors que le légendaire Pokémon Zekrom peut seulement être attrapé dans Pokémon Version Blanche.\r\n\r\nDe plus, les deux jeux introduisent de nouveaux endroits, dont une ville métropolitaine unique appelée Ville Noire dans Pokémon Version Noire, et une verte et luxuriante forêt appelée Forêt Blanche dans Pokémon Version Blanche. Pokémon Version Noire et Pokémon Version Blanche introduisent aussi pour la première fois dans l’histoire de la franchise Pokémon, un jeu qui change au rythme des saisons. Certains Pokémon apparaîtront plus souvent lors de certaines saisons, et certains endroits ne seront accessibles qu’au cours de certaines saisons. Pokémon Version Noire et Pokémon Version Blanche permettent aux joueurs de choisir un Pokémon avec qui ils commenceront leur aventure : le Pokémon de type Plante Vipélierre, le Pokémon de type Feu Gruigrui ou le Pokémon de type Eau Moustillon. Jusqu'à ce que l'histoire principale du jeu est terminée, tous les Pokémon que les joueurs rencontreront n'auront jamais été vus dans les jeux Pokémon précédents. Un Dresseur et une Dresseuse seront aussi au rendez-vous pour partir à l’aventure dans la nouvelle région d’Unys.\r\n\r\n- Un nouveau monde peuplé de Pokémon encore jamais vus\r\n- Plus de 150 nouveaux Pokémon",
+        "players": 5,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121815,
+        "game_title": "Pokémon Weiße Edition",
+        "release_date": "2011-03-04",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 2371,
+        "game_title": "Pokémon White Version",
+        "release_date": "2011-03-06",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Pokémon White Version is a 2011 DS video game developed by Game Freak and released by Nintendo of America in the USA on March 6, 2011.\r\n\r\nPokémon Black Version and Pokémon White Version feature new Pokémon that players can catch, train and battle as they progress through the game, and some Pokémon can only be caught in one version of the game. For example, the Legendary Pokémon, Reshiram, can only be caught in Pokémon Black Version, while the Legendary Pokémon, Zekrom, can only be caught in Pokémon White Version. Additionally, the two games feature different areas for the first time in the series, with the game world of Pokémon Black Version featuring a unique metropolitan area called Black City, and a lush, green area named White Forest only found in Pokémon White Version. Pokémon Black Version and Pokémon White Version also mark the first time in a Pokémon video game that the seasons will change in the game world. Certain Pokémon appear more frequently during different seasons, and players can only access some areas during a specific season.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 102846,
+        "game_title": "Pokémon White Version",
+        "release_date": "2011-03-04",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Pokemon Black Version and Pokemon White Version feature new Pokemon that players can catch, train and battle as they progress through the game, and some Pokemon can only be caught in one version of the game. For example, the Legendary Pokemon Reshiram can only be caught in Pokemon Black Version, while the Legendary Pokemon Zekrom can only be caught in Pokemon White Version. Additionally, the two games feature different areas for the first time in the series, with the game world of Pokemon Black Version featuring a unique metropolitan area called Black City, and a lush, green area named White Forest only found in Pokemon White Version. Pokemon Black Version and Pokemon White Version also mark the first time in a Pokemon video game that the seasons will change in the game world. Certain Pokemon appear more frequently during different seasons, and players can only access some areas during a specific season.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2371": [
+          {
+            "id": 21576,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2371-1.jpg",
+            "resolution": "640x574"
+          },
+          {
+            "id": 21577,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2371-1.jpg",
+            "resolution": "640x579"
+          }
+        ],
+        "13557": [
+          {
+            "id": 217506,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13557-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 217507,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/13557-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81439": [
+          {
+            "id": 264711,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/81439-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 326522,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81439-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102846": [
+          {
+            "id": 352267,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102846-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 352268,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/102846-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114995": [
+          {
+            "id": 391638,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114995-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 391639,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114995-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118012": [
+          {
+            "id": 405721,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118012-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 405722,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/118012-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121815": [
+          {
+            "id": 421688,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121816": [
+          {
+            "id": 421690,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121816-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+White+Version+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 541,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630025
+}

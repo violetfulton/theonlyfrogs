@@ -1,0 +1,135 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 40432,
+        "game_title": "Kangokutou Mary-Skelter",
+        "release_date": "2016-10-13",
+        "platform": 39,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Escape from the living prison jail in Mary Skelter: Nightmares for the PlayStation Vita system. The Nightmare monster actively stalks the player as you run through the dungeon, so you must use the dungeons' gimmicks to impede its movements. This dungeon RPG features a turn- based battle system that includes class change, a strategic blood-licking transform system, and a blood-rubbing system to power up your party. As you solve the dungeons' mysteries and satisfy the prison's desires, you just might make it out alive.\r\n\r\nFEATURES:\r\n* Walking Nightmares - The dungeon-crawling RPG genre gets a twist when special enemies can chase you through the dungeons. Lay traps to make your escape, or try to face them down.\r\n* Blood-drenched Transformations - Characters can transform with stronger stats and extra skills, but if they fight too much they may enter Blood Skelter Mode, where they go completely berserk.\r\n* Everyone's got a Job - Strategise your dungeon battles by assigning different classes to your characters, unlocking new skills, stats, and character portraits.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1787
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1966
+        ]
+      },
+      {
+        "id": 49610,
+        "game_title": "Mary Skelter: Nightmares",
+        "release_date": "2017-09-19",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Escape from the living prison JAIL in Mary Skelter: Nightmares for the PlayStationVita system. The Nightmare monster actively stalks the player as you run through the dungeon, so you must use the dungeons' gimmicks to impede its movements. This dungeon RPG features a turn- based battle system that includes class change, a strategic blood-licking transform system, and a blood-rubbing system to power up your party. As you solve the dungeons' mysteries and satisfy the prison's desires, you just might make it out alive. Walking Nightmares The dungeon-crawling RPG genre gets a twist when special enemies can chase you through the dungeons. Lay traps to make your escape, or try to face them down. Blood-drenched Transformations Characters can transform with stronger stats and extra skills, but if they fight too much they may enter Blood Skelter Mode, where they go completely berserk. Everyone's got a Job Strategise your dungeon battles by assigning different classes to your characters, unlocking new skills, stats, and character portraits.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1787
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1967
+        ]
+      },
+      {
+        "id": 52565,
+        "game_title": "Mary Skelter: Nightmares Limited Edition",
+        "release_date": "2017-09-19",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Includes:\r\n\r\nBlood Maidens Cloth Poster\r\nMary Skelter: Nightmares Novel Book \r\nMary Skelter: Nightmares Official Art Book\r\nReversible Cover Sleeve\r\nCollector's Box\r\nBlood Maidens Cloth Poster \r\nClimbing the Jail can be a nightmare! Prepare yourself with this Blood Maidens Cloth Poster. Hang it above your bed to keep the Nightmares away while you sleep! \r\n\r\nMaterial: 100% Polyester\r\nSize: 18\" x 21.27\"\r\n\r\nMary Skelter: Nightmares Novel Book \r\nDive deeper into the origins of the living Jail, its horrors, and the Blood Maidens and prisoners within it! Mary Skelter: Nightmares Novel Book is an original collection of short stories, complete with stunning, full-color original artwork!\r\n\r\nDimensions: 5.7\" x 7.7\"\r\nPages: 107\r\n\r\nMary Skelter: Nightmares Official Art Book \r\nBeing prepared is key when traversing the living Jail. Gather all the intel and search for traps with the Mary Skelter: Nightmares Art Book. This full-color art book contains galleries, character information, rough art, and more to help with your survival in the dungeons! \r\n\r\nDimensions: 6.1\" x 8\"\r\nPages: 70\r\n\r\nReversible Cover Sleeve\r\nJust like the Blood Maidens, this cover sleeve transforms! Flip the cover sleeve to show the original Japanese cover sleeve! \r\n\r\nCollector's Box \r\nThe Collector's Box will keep all of the items safe from gimmicks and Nightmares as you travel through Jail! \r\n\r\nSize: 6.5\" x 8.4\" x 1.7\"",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1787
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          1967
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "40432": [
+          {
+            "id": 204289,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/40432-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 380120,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/40432-1.jpg",
+            "resolution": null
+          }
+        ],
+        "49610": [
+          {
+            "id": 126825,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/49610-1.jpg",
+            "resolution": "390x500"
+          }
+        ],
+        "52565": [
+          {
+            "id": 132672,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52565-1.png",
+            "resolution": "1200x846"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Mary+Skelter%3A+Nightmares&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 435,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630009
+}

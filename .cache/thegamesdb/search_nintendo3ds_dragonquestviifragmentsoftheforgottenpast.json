@@ -1,0 +1,134 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 39585,
+        "game_title": "Dragon Quest VII: Fragments of the Forgotten Past",
+        "release_date": "2016-09-16",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Travel to the past to save the present in this classic Dragon Quest adventure that has been completely remade from the ground up for Nintendo 3DS. The world has been rebuilt, the characters have new 3D models and the story has been completely re-localized. Even customize your party with over 30 classes and rank up in turn-based battles to learn new spells and abilities.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 95161,
+        "game_title": "Dragon Quest VII: Fragments of the Forgotten Past",
+        "release_date": "2016-01-01",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116359,
+        "game_title": "Dragon Quest VII: Fragments of the Forgotten Past",
+        "release_date": "2016-09-16",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 8,
+        "overview": "Travel to the past to save the present in this classic Dragon Quest adventure that has been completely remade from the ground up for Nintendo 3DS. The world has been rebuilt, the characters have new 3D models and the story has been completely re-localized. Even customize your party with over 30 classes and rank up in turn-based battles to learn new spells and abilities.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "39585": [
+          {
+            "id": 326833,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/39585-1.jpg",
+            "resolution": null
+          }
+        ],
+        "95161": [
+          {
+            "id": 390869,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/95161-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 390870,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/95161-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116359": [
+          {
+            "id": 396737,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116359-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dragon+Quest+VII%3A+Fragments+of+the+Forgotten+Past&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 495,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630018
+}

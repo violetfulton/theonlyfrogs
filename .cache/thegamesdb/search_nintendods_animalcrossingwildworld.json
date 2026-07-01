@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 116158,
+        "game_title": "Oide yo Doubutsu no Mori",
+        "release_date": "2005-11-23",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Animal Crossing: Wild World (おいでよ どうぶつの森 Oideyo Dōbutsu no mori?, \"Come to Animal Forest\") is a 2005 social simulation video game developed and published by Nintendo for the Nintendo DS handheld game console, and is the second game in the Animal Crossing series.\r\n\r\nWild World focuses on living in a remote village populated with anthropomorphic animals, where the player is encouraged to perform any number of tasks, such as collecting and planting. Like all Animal Crossing titles, the game is synced to the console's clock and calendar, allowing the game to be played in real-time, which affects the occurrence of in-game events based on the current time of day or season. Wild World also utilizes Nintendo Wi-Fi Connection, which notably allows players to travel and visit the villages of other players via online play.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6573,
+        "game_title": "Animal Crossing: Wild World",
+        "release_date": "2005-12-05",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Wild World focuses on living in a remote village populated with anthropomorphic animals, where the player is encouraged to perform any number of tasks, such as collecting and planting. Like all Animal Crossing titles, the game is synced to the console's clock and calendar, allowing the game to be played in real-time, which affects the occurrence of in-game events based on the current time of day or season. Wild World also utilizes Nintendo Wi-Fi Connection, which notably allows players to travel and visit the villages of other players via online play.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 102903,
+        "game_title": " Animal Crossing: Wild World",
+        "release_date": "2006-03-31",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Animal Crossing: Wild World (おいでよ どうぶつの森 Oideyo Dōbutsu no mori?, \"Come to Animal Forest\") is a 2005 social simulation video game developed and published by Nintendo for the Nintendo DS handheld game console, and is the second game in the Animal Crossing series.\r\n\r\nWild World focuses on living in a remote village populated with anthropomorphic animals, where the player is encouraged to perform any number of tasks, such as collecting and planting. Like all Animal Crossing titles, the game is synced to the console's clock and calendar, allowing the game to be played in real-time, which affects the occurrence of in-game events based on the current time of day or season. Wild World also utilizes Nintendo Wi-Fi Connection, which notably allows players to travel and visit the villages of other players via online play.\r\n\r\nThe game was released in Europe on March 31st 2006.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6573": [
+          {
+            "id": 16922,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6573-1.jpg",
+            "resolution": "1516x1356"
+          },
+          {
+            "id": 16923,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6573-1.jpg",
+            "resolution": "1527x1359"
+          }
+        ],
+        "102903": [
+          {
+            "id": 352431,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102903-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 352432,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/102903-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116158": [
+          {
+            "id": 395846,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116158-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+Wild+World&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 606,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630034
+}

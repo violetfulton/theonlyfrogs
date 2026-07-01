@@ -1,0 +1,173 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 23313,
+        "game_title": "Minecraft: PlayStation 4 Edition",
+        "release_date": "2014-09-04",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Minecraft is a sandbox building video game which allows players to build constructions out of textured cubes in a 3D world. The gameplay is inspired by Dwarf Fortress, Roller Coaster Tycoon, Dungeon Keeper, and Infiniminer.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          88
+        ]
+      },
+      {
+        "id": 101437,
+        "game_title": "Minecraft: PlayStation 4 Edition",
+        "release_date": "2014-10-03",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The critically acclaimed Minecraft comes to PlayStation 4. Create your very own game world and explore, build and conquer.",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          2,
+          12,
+          22
+        ],
+        "publishers": [
+          4346
+        ]
+      },
+      {
+        "id": 114660,
+        "game_title": "Minecraft: PlayStation 4 Edition",
+        "release_date": "2014-09-04",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Minecraft is a sandbox game developed by Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens \"Jeb\" Bergensten taking over development. Minecraft is the best-selling video game in history, with over 238 million copies sold and nearly 140 million monthly active players as of 2021, and has been ported to several platforms.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          2,
+          12,
+          22
+        ],
+        "publishers": [
+          2888
+        ]
+      },
+      {
+        "id": 119798,
+        "game_title": "Minecraft: PlayStation 4 Edition",
+        "release_date": "2013-04-09",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Minecraft is a sandbox game developed by Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens \"Jeb\" Bergensten taking over development. Minecraft is the best-selling video game in history, with over 238 million copies sold and nearly 140 million monthly active players as of 2021, and has been ported to several platforms.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          1625
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23313": [
+          {
+            "id": 68598,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23313-1.jpg",
+            "resolution": "1204x1500"
+          }
+        ],
+        "101437": [
+          {
+            "id": 359653,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101437-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114660": [
+          {
+            "id": 390594,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114660-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 390595,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114660-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119798": [
+          {
+            "id": 410586,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119798-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Minecraft%3A+PlayStation+4+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 365,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629999
+}

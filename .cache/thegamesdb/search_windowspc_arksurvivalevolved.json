@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 28903,
+        "game_title": "ARK: Survival Evolved",
+        "release_date": "2015-06-02",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As a man or woman stranded naked, freezing & starving on a mysterious island, you must hunt, harvest, craft items, grow crops, & build shelters to survive. Use skill and cunning to kill or tame & ride the Dinosaurs & primeval creatures roaming the land, & team up with hundreds of players or play locally!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2667,
+          8277,
+          10286,
+          10287
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3059
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "28903": [
+          {
+            "id": 83127,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/28903-1.jpg",
+            "resolution": "272x380"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ark%3A+Survival+Evolved&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 966,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630095
+}

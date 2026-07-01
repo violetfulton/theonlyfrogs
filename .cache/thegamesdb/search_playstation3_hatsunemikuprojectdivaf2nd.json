@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 34229,
+        "game_title": "Hatsune Miku: Project DIVA F 2nd",
+        "release_date": "2014-03-06",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "\"Hatsune Miku: Project DIVA F 2nd\" is a brand new rhythm action game featuring the world’s greatest virtual pop star, Hatsune Miku!\r\n\r\nSelect from a catalog of 40 catchy songs and more than 160 module designs (including modules from the previous installment Project DIVA f/F), and grab front-row seats at the concert of a lifetime. Project DIVA F 2nd features both beloved songs from the series’ library of classics, including Packaged, Melt and Two-sided Lovers, as well as brand new tracks like Two Breaths Walking, Glory 3usi9; and more which are sure to capture your heart.\r\n\r\nENGLISH SUBTITLES\r\nA DIVA series first! Project DIVA F 2nd features translated English subtitles for songs in the Rhythm Game and AR Live/Live Studio modes!\r\n\r\nPrefer to sing along to the original Japanese lyrics? Not a problem―you can easily switch between \"English\" and \"Japanese Romaji\" in the game's options to suit your preference. \r\n\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          17,
+          23
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "34229": [
+          {
+            "id": 313669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/34229-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hatsune+Miku%3A+Project+Diva+F+2nd&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 644,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630040
+}

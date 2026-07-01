@@ -1,0 +1,265 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 17814,
+        "game_title": "Tomb Raider III: Adventures of Lara Croft",
+        "release_date": "1998-11-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the Prologue, millions of years ago, a meteor struck the then tropical environments of Antarctica. It was first discovered by a tribe of ancient Polynesians who settled there and constructed a city in the meteorite crater. They worshipped the immense supernatural powers it appeared to hold, fashioning four artefacts out of the meteorite's core material (which become the focus of the game). Shortly thereafter, the tribe laid witness to the deformed birth of their prophesied leader, born without a face, and fled Antarctica in fear of what the meteorite was capable of. In the present day, the ancient Polynesian city has been buried beneath snow and ice and RX Tech are excavating the site, investigating the meteorite. Led by Dr. Willard, the crew discovers remnants of the Polynesian city, ancient stone statues resembling the Easter Island Moai, and finds the grave of a man named Paul Caulfield of the HMS Beagle.\r\n\r\nWhen the game begins, Lara Croft is in India searching for a legendary stone in the ruins of an ancient temple once inhabited by the Infada tribe. She encounters Tony, an RX Tech employee who seems to be suffering from a severe bout of jungle fever. After parting ways, Tony remains one step ahead of Lara in their search for the stone, eventually finding it hidden deep within an underground cavern. After killing an oddly superhuman Tony, Lara takes the stone and exits. On her trek back to the Indian jungle, she is discovered by Dr. Willard.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 97221,
+        "game_title": "Tomb Raider III The Lost Artefact (Premier Collection)",
+        "release_date": "2000-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10247
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 118125,
+        "game_title": "Tomb Raider III: Adventures in India",
+        "release_date": "2000-01-01",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Tomb Raider III: Adventures in India is a special OEM released version of Tomb Raider III. As an OEM release, it only contains the four India levels, as well as an AOL trial.\r\nTaken from mobygames.com",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8299
+        ]
+      },
+      {
+        "id": 134150,
+        "game_title": "Tomb Raider III: Adventures of Lara Croft (sold out version)",
+        "release_date": "1998-11-30",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "In the Prologue, millions of years ago, a meteor struck the then tropical environments of Antarctica. It was first discovered by a tribe of ancient Polynesians who settled there and constructed a city in the meteorite crater. They worshipped the immense supernatural powers it appeared to hold, fashioning four artefacts out of the meteorite's core material (which become the focus of the game). Shortly thereafter, the tribe laid witness to the deformed birth of their prophesied leader, born without a face, and fled Antarctica in fear of what the meteorite was capable of. In the present day, the ancient Polynesian city has been buried beneath snow and ice and RX Tech are excavating the site, investigating the meteorite. Led by Dr. Willard, the crew discovers remnants of the Polynesian city, ancient stone statues resembling the Easter Island Moai, and finds the grave of a man named Paul Caulfield of the HMS Beagle.\r\n\r\nWhen the game begins, Lara Croft is in India searching for a legendary stone in the ruins of an ancient temple once inhabited by the Infada tribe. She encounters Tony, an RX Tech employee who seems to be suffering from a severe bout of jungle fever. After parting ways, Tony remains one step ahead of Lara in their search for the stone, eventually finding it hidden deep within an underground cavern. After killing an oddly superhuman Tony, Lara takes the stone and exits. On her trek back to the Indian jungle, she is discovered by Dr. Willard.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 2756,
+        "game_title": "Tomb Raider",
+        "release_date": "2013-03-05",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tomb Raider is an Action-Adventure game that introduces players to the origin of one of the most identifiable video games icons of all-time, Lara Croft. The game features a blend of survival, stealth, melee and ranged combat, and exploration gameplay as a young Lara Croft is forced to push herself past her know limits to survive and unravel the dark history of a forgotten island. In the process she will unlock the adventurer within her. Additional game features include: weapons both familiar and new, upgradable items, a variety of play environments, and human and animal enemies.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1963
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 66,
+        "game_title": "Tomb Raider (1996)",
+        "release_date": "1996-11-14",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "The player controls the female archaeologist Lara Croft, in search for the three mysterious Scion artefacts across the world. The game is presented in third person perspective. Lara is always visible and the camera follows the action from behind or over her shoulder. The world she inhabits is fully drawn in three dimensions and characterized by its cubic nature. Ledges, walls and ceilings mostly sit at 90 degrees to each other, but sometimes feature sloping planes.\r\n\r\nThe object of Tomb Raider is to guide Lara through a series of tombs and other locations in search of treasures and artefacts. On the way, she must kill dangerous animals and other creatures, while collecting objects and solving puzzles to gain access to an ultimate prize, usually a powerful artefact. Gunplay is restricted to the killing of various animals that appear throughout each stage, although occasionally Lara may be faced with a human opponent. Instead the emphasis lies on solving puzzles and performing trick jumps to complete each level.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 17763,
+        "game_title": "Tomb Raider II",
+        "release_date": "1997-10-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The story of Tomb Raider II surrounds the mythical Dagger of Xian, a weapon which was used by an Emperor of China to command his army. By plunging the weapon into its owner's heart, the weapon has the power to turn its bearer into a dragon. A flashback reveals that the last battle which was fought with the Dagger ended in defeat when the warrior monks of Tibet succeeded in removing the knife from the Emperor's heart. The Dagger was then returned to its resting place within the Great Wall.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "66": [
+          {
+            "id": 248777,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66-1.jpg",
+            "resolution": null
+          }
+        ],
+        "2756": [
+          {
+            "id": 47197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2756-1.jpg",
+            "resolution": "520x732"
+          },
+          {
+            "id": 47198,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2756-1.jpg",
+            "resolution": "514x732"
+          }
+        ],
+        "17763": [
+          {
+            "id": 48866,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17763-1.jpg",
+            "resolution": "500x502"
+          }
+        ],
+        "17814": [
+          {
+            "id": 49047,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17814-1.jpg",
+            "resolution": "622x800"
+          },
+          {
+            "id": 49048,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17814-1.jpg",
+            "resolution": "475x602"
+          }
+        ],
+        "97221": [
+          {
+            "id": 328746,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97221-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118125": [
+          {
+            "id": 403399,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118125-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134150": [
+          {
+            "id": 472316,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134150-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tomb+Raider+III&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 705,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630050
+}

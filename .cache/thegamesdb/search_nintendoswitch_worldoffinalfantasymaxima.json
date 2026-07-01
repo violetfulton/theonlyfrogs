@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 61034,
+        "game_title": "World of Final Fantasy Maxima",
+        "release_date": "2018-11-06",
+        "platform": 4971,
+        "region_id": 5,
+        "country_id": 0,
+        "overview": "Embark on a magical journey with siblings Reynn and Lann as they explore the vast land of Grymoire to rediscover their past and save the future.\r\n\r\nWith charming and stylized visuals, you can capture, customize and evolve iconic creatures by stacking them to form adorable yet strategic monster towers.\r\n\r\nNew characters from FINAL FANTASY lore (Champions) and monsters (Mirages) add even more fun and excitement to this unique adventure in WORLD OF FINAL FANTASY MAXIMA!\r\n\r\nNote:\r\n- Subtitles: Chinese, Korean, French, Italian, German, Spanish, English, Japanese\r\n- Voice: English, Japanese\r\n\r\nFeatures\r\nCarry 12 Mirages instead of 10 now\r\nUnlock \"Treasure Search\" to make finding treasure easier\r\nLots of rare items and new game added\r\nListen to the song \"Innocent\" from World of Final Fantasy: Meli-Melo in Theater Mode\r\n\"Sandstalker\" minigame now easier to play\r\nThree starter Mirages now easier to catch\r\nNew \"Nightmare\" difficulty, new secret ending, and many more. ",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61034": [
+          {
+            "id": 258043,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61034-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=World+of+Final+Fantasy%3A+Maxima&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 244,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629980
+}

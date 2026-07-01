@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 29391,
+        "game_title": "Pokémon Art Academy",
+        "release_date": "2014-10-24",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "This Pokémon-themed installment of the Art Academy series offers Pokémon fans and budding illustrators alike 40 unique lessons to learn how to paint, sketch and draw beloved Pokémon characters in 2D. Along the way, students of Pokémon Art Academy can pick up actual illustration skills that they can transfer onto real canvas, or share their digital masterpieces with the world. Pokémon Art Academy boasts 40 lessons in which players can encounter favorite Pokémon from throughout the series, such as Pikachu, Oshawott, Charizard, Torchic, Fletchling and Fennekin.\r\n\r\nThe Art Academy series offers a comprehensive virtual art studio with a variety of realistically behaving art materials. Wield the stylus with tactile precision on the Nintendo 3DS or Nintendo 2DS touch screen to use a plethora of paint, pencils and pastels. A hallmark of the Art Academy franchise is its easy-to-follow lessons with step-by-step guides that teach painting and drawing techniques. A friendly tutor takes students of all ages through these lessons, each of which breaks down complex-looking images into simple steps. Gradually, players pick up more new techniques that allow anyone to create artwork they can be proud of.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          22,
+          24
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115609,
+        "game_title": "Pokémon Art Academy",
+        "release_date": "2014-06-19",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "This Pokémon-themed installment of the Art Academy series offers Pokémon fans and budding illustrators alike 40 unique lessons to learn how to paint, sketch and draw beloved Pokémon characters in 2D. Along the way, students of Pokémon Art Academy can pick up actual illustration skills that they can transfer onto real canvas, or share their digital masterpieces with the world. Pokémon Art Academy boasts 40 lessons in which players can encounter favorite Pokémon from throughout the series, such as Pikachu, Oshawott, Charizard, Torchic, Fletchling and Fennekin.\r\n\r\nThe Art Academy series offers a comprehensive virtual art studio with a variety of realistically behaving art materials. Wield the stylus with tactile precision on the Nintendo 3DS or Nintendo 2DS touch screen to use a plethora of paint, pencils and pastels. A hallmark of the Art Academy franchise is its easy-to-follow lessons with step-by-step guides that teach painting and drawing techniques. A friendly tutor takes students of all ages through these lessons, each of which breaks down complex-looking images into simple steps. Gradually, players pick up more new techniques that allow anyone to create artwork they can be proud of.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3769
+        ],
+        "genres": [
+          22,
+          24
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "29391": [
+          {
+            "id": 123440,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/29391-1.jpg",
+            "resolution": "640x569"
+          }
+        ],
+        "115609": [
+          {
+            "id": 393495,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115609-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Art+Academy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 479,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630016
+}

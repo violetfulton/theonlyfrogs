@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 110808,
+        "game_title": "Ruined King: A League of Legends Story",
+        "release_date": "2023-03-02",
+        "platform": 4980,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Unite a party of League of Legends Champions, explore Bilgewater and set sail for the Shadow Isles to uncover the secrets of the deadly Black Mist.\r\nPurchase the Standard Edition of Ruined King: A League of Legends Story™ before December 16, 2021 to receive the launch exclusive Manamune weapon for Yasuo.\r\nRise Against Ruin\r\n\r\nUnite a party of League of Legends Champions, explore Bilgewater and set sail for the Shadow Isles to uncover the secrets of the deadly Black Mist.  \r\n\r\nDeveloped by Airship Syndicate and featuring the art style of legendary comic book artist Joe Madureira, creators of Battle Chasers and Darksiders, Ruined King: A League of Legends Story is the first Riot Forge game that invites you to explore the League of Legends universe. In this immersive turn-based RPG, you will have the freedom to configure your party and control an unlikely group of League of Legends champions, explore the bustling city of Bilgewater and the mysterious Shadow Isles, and experience the Lane Initiative System. \r\n\r\nKey Features \r\n\r\nAn introduction to Runeterra: Start exploring the rich lore of League of Legends and the extraordinary stories of the Champions. \r\nBuild your own party: Forge different strategies by configuring your party of champions and combining new abilities.  \r\nExperience the Lane Initiative System: Choose your approach for each enemy encounter and change the course of the battle by tweaking the speed of your actions, reacting to environmental events or modifying the effects of your abilities. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          302
+        ],
+        "genres": [
+          4,
+          27
+        ],
+        "publishers": [
+          1357
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "110808": [
+          {
+            "id": 380001,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110808-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ruined+King%3A+A+League+of+Legends+Story&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 50,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629949
+}

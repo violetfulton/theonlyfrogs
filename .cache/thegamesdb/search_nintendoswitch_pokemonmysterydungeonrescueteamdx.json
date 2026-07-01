@@ -1,0 +1,169 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 68444,
+        "game_title": "Pokémon Mystery Dungeon: Rescue Team DX",
+        "release_date": "2020-03-06",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Become a Pokémon. Brave the mystery dungeons.\r\nWhat if you woke up one day, and you were a Pokémon? You can meet and recruit over 400 Pokémon in a dungeon-crawling adventure within their world! Build a rescue team to take on mysterious, changing dungeons and strategically plan your moves as you venture forth to make the Pokémon world a safer place…and uncover your true purpose along the way.\r\n\r\nAs you recruit Pokémon, these trusty teammates will need somewhere to stay, so build rescue team camps to house, manage, and strengthen your Pokémon friends. Think hard about who is right for the job and how to approach each mysterious dungeon as you prepare a rescue team. You’ll move a single square at a time or use Auto mode to speed up movement until you engage other Pokémon in turn-based battles—but don’t forget about Pokémon strengths, weaknesses and potential rare qualities! Even the most capable rescue teams need help sometimes, so if you find yourself in trouble you can send a rescue request to other players online*, or use an offline password system. This version adds Mega Evolved Pokémon, gorgeous watercolor-inspired graphics, and more! Get comfortable in being a Pokémon, there’s a lot of work to do.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121760,
+        "game_title": "Pokémon Donjon Mystère: Équipe de Secours DX",
+        "release_date": "2020-03-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 119606,
+        "game_title": "Pokémon Mystery Dungeon: Rescue Team DX",
+        "release_date": "2020-03-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Become a Pokémon. Brave the mystery dungeons.\r\nWhat if you woke up one day, and you were a Pokémon? You can meet and recruit over 400 Pokémon in a dungeon-crawling adventure within their world! Build a rescue team to take on mysterious, changing dungeons and strategically plan your moves as you venture forth to make the Pokémon world a safer place…and uncover your true purpose along the way.\r\n\r\nAs you recruit Pokémon, these trusty teammates will need somewhere to stay, so build rescue team camps to house, manage, and strengthen your Pokémon friends. Think hard about who is right for the job and how to approach each mysterious dungeon as you prepare a rescue team. You’ll move a single square at a time or use Auto mode to speed up movement until you engage other Pokémon in turn-based battles—but don’t forget about Pokémon strengths, weaknesses and potential rare qualities! Even the most capable rescue teams need help sometimes, so if you find yourself in trouble you can send a rescue request to other players online*, or use an offline password system. This version adds Mega Evolved Pokémon, gorgeous watercolor-inspired graphics, and more! Get comfortable in being a Pokémon, there’s a lot of work to do.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127783,
+        "game_title": "Pokémon Mystery Dungeon: Rescue Team DX",
+        "release_date": "2020-03-06",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Become a Pokémon. Brave the mystery dungeons.\r\nWhat if you woke up one day, and you were a Pokémon? You can meet and recruit over 400 Pokémon in a dungeon-crawling adventure within their world! Build a rescue team to take on mysterious, changing dungeons and strategically plan your moves as you venture forth to make the Pokémon world a safer place…and uncover your true purpose along the way.\r\n\r\nAs you recruit Pokémon, these trusty teammates will need somewhere to stay, so build rescue team camps to house, manage, and strengthen your Pokémon friends. Think hard about who is right for the job and how to approach each mysterious dungeon as you prepare a rescue team. You’ll move a single square at a time or use Auto mode to speed up movement until you engage other Pokémon in turn-based battles—but don’t forget about Pokémon strengths, weaknesses and potential rare qualities! Even the most capable rescue teams need help sometimes, so if you find yourself in trouble you can send a rescue request to other players online, or use an offline password system. This version adds Mega Evolved Pokémon, gorgeous watercolor-inspired graphics, and more! Get comfortable in being a Pokémon, there’s a lot of work to do.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8063
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "68444": [
+          {
+            "id": 258282,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68444-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119606": [
+          {
+            "id": 409724,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119606-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121760": [
+          {
+            "id": 421453,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121760-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127783": [
+          {
+            "id": 443432,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127783-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443433,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127783-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Mystery+Dungeon%3A+Rescue+Team+DX&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 278,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629985
+}

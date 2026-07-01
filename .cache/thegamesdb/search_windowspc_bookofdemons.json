@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 46325,
+        "game_title": "Book of Demons",
+        "release_date": "2018-12-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Hack & slash distilled to its purest form. Devilishly charming and fun as hell. Slay the armies of darkness in the dungeons below the Old Cathedral and save the terror-stricken Paperverse from the clutches of the Archdemon himself.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8782
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          4818
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "46325": [
+          {
+            "id": 120438,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/46325-1.jpg",
+            "resolution": "600x851"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Book+of+Demons&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 950,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630092
+}

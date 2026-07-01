@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 134092,
+        "game_title": "Persona 3 Reload",
+        "release_date": "2024-02-02",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Persona 3 Reload is a captivating re-imagining of the genre-defining RPG, reborn for the modern era. Enter the Dark Hour and Seal Your Fate Step into the shoes of a transfer student who is thrust into an unexpected fate, when entering the hour “hidden” between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "134092": [
+          {
+            "id": 479989,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134092-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+3+Reload&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 804,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630067
+}

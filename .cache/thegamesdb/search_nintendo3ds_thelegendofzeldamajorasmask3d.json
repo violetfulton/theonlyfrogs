@@ -1,0 +1,272 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 127815,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-14",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134880,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 8,
+        "country_id": 33,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 23870,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!\r\n\r\nAlso Available\r\nThe Legend of Zelda: Majora's Mask 3D Limited Edition\r\nThe Legend of Zelda Majora'so Mask 3D Limited Edition, North American Version. Includes Limited Edition Skull Kids Figurine.\r\n\r\nThe Legend of Zelda: Majora's Mask 3D Special Edition\r\nThe Legend of Zelda: Majora's Mask 3D \"PAL REGION\" \r\nLimited Edition Majora's Mask Pin Badge \r\nLimited Edition Majora's Mask Steelbook \r\nDouble-Sided Poster",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110118,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 68854,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D [Limited Edition Skull Kid]",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73263,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D [Nintendo Selects]",
+        "release_date": "2019-02-04",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110123,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D [Special Edition]",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "The countdown has begun! You have just three days to save the land of Termina from destruction by its own moon, which is being pulled out of its orbit by a mysterious evil force! Re-living the days again and again, Link must use the magical Song of Time to gather the knowledge and skills he needs to solve the mystery of Majora's Mask.\r\n\r\nIn this epic adventure, Link is bestowed with magical masks to aid him in his quest. Transform into a Deku Scrub, a Goron and a Zora, using their abilities to fly through the air, roll across the land or swim through the sea!\r\n\r\nSpecial Edition includes:\r\n\r\n• SteelBook case\r\n• Full game\r\n• Pin Badge\r\n• Double-sided poster",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23870": [
+          {
+            "id": 130512,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/23870-1.jpg",
+            "resolution": "640x564"
+          },
+          {
+            "id": 130514,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23870-1.jpg",
+            "resolution": "640x565"
+          }
+        ],
+        "68854": [
+          {
+            "id": 222015,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68854-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73263": [
+          {
+            "id": 234842,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73263-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110118": [
+          {
+            "id": 378234,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110118-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110123": [
+          {
+            "id": 378235,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110123-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127815": [
+          {
+            "id": 443529,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127815-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443530,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134880": [
+          {
+            "id": 475689,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134880-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 475690,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/134880-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Majora%27s+Mask+3D&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 447,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630011
+}

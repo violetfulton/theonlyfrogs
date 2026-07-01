@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 68711,
+        "game_title": "The LEGO Movie 2 Videogame",
+        "release_date": "2019-02-26",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Bricksburg is in ruins and Emmet's friends have been taken! Team up with Emmet and a host of heroic characters to save their friends from the strange inhabitants of the Systar System. Journey into outer space, discover new worlds, and test your Master Building skills.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8995
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 19567,
+        "game_title": "The LEGO Movie Videogame",
+        "release_date": "2014-02-07",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "LEGO Movie Videogame is an action-adventure game that casts players in the role of Emmet, who must stop an evil tryant from taking over the world.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8995
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          152
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19567": [
+          {
+            "id": 56679,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19567-1.jpg",
+            "resolution": "1679x1903"
+          }
+        ],
+        "68711": [
+          {
+            "id": 221784,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68711-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+LEGO+Movie+2+Videogame&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 688,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630048
+}

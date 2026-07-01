@@ -1,0 +1,96 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 120240,
+        "game_title": "Final Fantasy IV Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY IV comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the fourth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nThe Kingdom of Baron sent their elite airship fleet, the Red Wings, to attack the surrounding countries. Distressed by his mission, Cecil, a dark knight and captain of the Red Wings, decides to fight against the tyrannical Baron with his trusted friend and his paramour at his side. In his search for the crystals, Cecil must travel over land, under the ground, to the Land of Summons, and even to the moon. Join forces with Kain the dragoon, Rosa the white mage, Rydia the summoner, and many more skilled allies.\r\n\r\nFFIV is the first title to introduce the dynamic \"Active Time Battle\" system, where time moves even during battle, giving the players an exciting sense of urgency.Thanks to the wide appeal of the game, this revolutionary system would be implemented in many future titles in the series.\r\n\r\nWItness the dramatic story and dynamic battles in this fourth installment of the FINAL FANTASY series!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61037,
+        "game_title": "Final Fantasy VII",
+        "release_date": "2019-03-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Mako. The discovery of this natural resource drawn directly from the planet's life force marked the dawn of a new era, and now the energy sustains the lives of people across the world. However, the Shinra Company has monopolized mako production, and in doing so established a powerful hegemony--its influence reaching the far corners of the globe. Cloud, a former member of Shinra's military organization, SOLDIER, joins the anti-Shinra resistance group AVALANCHE, despite caring little for their motives. During one of the group's attempts to stop the company, they learn of the return of Sephiroth, Cloud's nemesis, and that with his reemergence, the planet is in greater danger than anyone had expected. With the fate of the world riding on their success, Cloud and his allies set out to quell this deadly threat.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61037": [
+          {
+            "id": 452014,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61037-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120240": [
+          {
+            "id": 436175,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120240-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+IV&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 250,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629981
+}

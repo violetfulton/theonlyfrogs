@@ -1,0 +1,345 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 10,
+    "games": [
+      {
+        "id": 107751,
+        "game_title": "Goose Goose Duck",
+        "release_date": "2021-11-03",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Goose, goose, DUCK? Goose, goose, DUCK? A game of social deduction where you and your fellow geese must work together to complete your mission. Keep an eye out for those malicious Mallards and other birds, who have infiltrated your team and will do anything to stop you.\r\n\r\nThis Game Includes:\r\nPrivate and Public Game Lobbies.\r\nBuilt-in proximity chat\r\nLoads of Cosmetics to customize your goose! Hats, Shirts, Farts, Pets!\r\n7+ maps including S.S. Mothergoose, Mallard Manor, Jungle Temple, The Basement, and Ancient Sands!\r\n5+ built-in game modes including Classic, Draft, Trick or Treat, Dine & Dash, and Goose Hunt!\r\n45+ optional sub-roles including the Dodo Bird, the Pelican, and the Morphling!\r\n\r\nTo utilize the in-game voice chat, many of our members are forming private games by posting in our discord! We're also a small but active team so if there are any suggestions or questions we would love to hear them! Click on the image to join\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          23,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 20852,
+        "game_title": "Gateways",
+        "release_date": "2012-09-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": 1,
+        "rating": null,
+        "developers": [
+          7879
+        ],
+        "genres": [
+          5,
+          15
+        ],
+        "publishers": [
+          2231
+        ]
+      },
+      {
+        "id": 50234,
+        "game_title": "Gods",
+        "release_date": "1991-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7146
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          5210
+        ]
+      },
+      {
+        "id": 19859,
+        "game_title": "Godus",
+        "release_date": "2013-09-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "GODUS empowers you in the role of a god, allowing you to sculpt every inch of a beautiful world that you look down upon, on which a population of Followers settle and multiply. As you mould every aspect of your unique utopia, a civilisation will blossom across your land and offer you their belief.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          32
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          2103
+        ]
+      },
+      {
+        "id": 124305,
+        "game_title": "Gotcha!",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 3,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7801
+        ],
+        "genres": [
+          8,
+          10
+        ],
+        "publishers": [
+          168
+        ]
+      },
+      {
+        "id": 14142,
+        "game_title": "Gothic",
+        "release_date": "2001-11-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Gothic is a 3D action game set in a medieval world where you fight against an invasion of orcs, trolls, and other nasties. You will have four different character classes to select from: Warrior, Assassin, Magician and Psionic. The character class you chose will greatly affect how the game unfolds but you will be able to finish the game successfully with any class. The game is played from a third-person point of view, which makes melee combat easier.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          6617
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          189,
+          8207,
+          8208
+        ]
+      },
+      {
+        "id": 132274,
+        "game_title": "Gothic II [Extra Klasyka]",
+        "release_date": "2002-11-29",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Bezpośredni sequel bestsellerowej gry RPG studia Piranha Bytes z 2001 roku. Gothic 2 kontynuuje fabułę poprzedniczki, przenosząc nas ponownie do fantastycznej krainy Myrtany, w której trwa walka pomiędzy siłami dobra i zła.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6617
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          5777
+        ]
+      },
+      {
+        "id": 91805,
+        "game_title": "Gothic 3",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Adventure",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 8296,
+        "game_title": "Gothic 3",
+        "release_date": "2006-10-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The first part of Gothic tells the story of The Nameless Hero, a man thrust into the events of a penal colony. The colony takes the form of a natural landscape encased in a large magical shield known as The Barrier, much like an impenetrable dome. Over the course of the story,",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          6617
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          189
+        ]
+      },
+      {
+        "id": 2469,
+        "game_title": "Gothic II",
+        "release_date": "2003-10-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Gothic II is a 3D role-playing action game set in a medieval world filled with hidden dangers and forgotten treasures. Battle against a swarming host of orcs, dragons and other mythical creatures. Experience three different character classes by selecting a career in the militia, mercenary or sorcerer guilds. Use alchemy to create magical elements, like runes, scrolls, and potions that you can use in your quest to fight evil. Few games offer as many options and unlimited freedom of action as Gothic II. Deadly threats and undreamt-of riches, powerful foes and loyal allies all await you in this epic role-playing action adventure.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6617
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          189
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2469": [
+          {
+            "id": 11105,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2469-1.jpg",
+            "resolution": "1517x2136"
+          },
+          {
+            "id": 11106,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2469-1.jpg",
+            "resolution": "1534x2136"
+          }
+        ],
+        "8296": [
+          {
+            "id": 23214,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/8296-1.jpg",
+            "resolution": "246x348"
+          }
+        ],
+        "14142": [
+          {
+            "id": 41055,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14142-1.png",
+            "resolution": "256x325"
+          }
+        ],
+        "19859": [
+          {
+            "id": 68808,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19859-1.jpg",
+            "resolution": "310x436"
+          }
+        ],
+        "20852": [
+          {
+            "id": 60299,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20852-1.jpg",
+            "resolution": "558x320"
+          }
+        ],
+        "50234": [
+          {
+            "id": 128215,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50234-1.png",
+            "resolution": "280x333"
+          }
+        ],
+        "91805": [
+          {
+            "id": 305554,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/91805-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107751": [
+          {
+            "id": 371197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107751-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124305": [
+          {
+            "id": 431847,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124305-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 431848,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/124305-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132274": [
+          {
+            "id": 465445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132274-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Goose+Goose+Duck&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 822,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630070
+}

@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 19101,
+        "game_title": "Injustice: Gods Among Us - Ultimate Edition",
+        "release_date": "2013-11-12",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "What if our greatest heroes became our greatest threat? Injustice: Gods Among Us Ultimate Edition features DC Comics icons such Batman, Cyborg, The Flash, Harley Quinn, Nightwing, Solomon Grundy, Superman and Wonder Woman, in a dark tale of power and corruption. Heroes and villains engage in epic battles on a massive scale in a world where the line between good and evil has been blurred.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          1,
+          2,
+          10
+        ],
+        "publishers": [
+          152
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19101": [
+          {
+            "id": 363316,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19101-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Injustice%3A+Gods+Among+Us&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 696,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630049
+}

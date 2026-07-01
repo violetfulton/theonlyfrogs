@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 3422,
+        "game_title": "Final Fantasy I & II: Dawn of Souls",
+        "release_date": "2004-11-29",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Relive the first two chapters in the Final Fantasy saga--this time with all-new story elements and gameplay. Now you can experience new dungeons, storylines, and characters. Furthermore, you can master the enhanced control systems, and you can save your game at anytime. In Final Fantasy, you control a group of heroes on a mission to save a kingdom in turmoil. The sequel lets you swap out members of your parties during the game, allowing you to experience the adventure with more characters.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "3422": [
+          {
+            "id": 206737,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3422-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 206738,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3422-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+I+%26+II%3A+Dawn+of+Souls&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 515,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630021
+}

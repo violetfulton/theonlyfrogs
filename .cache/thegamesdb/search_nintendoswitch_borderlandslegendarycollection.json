@@ -1,0 +1,104 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 71370,
+        "game_title": "Borderlands: Legendary Collection",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Get three times the mayhem, three times the loot, and three times the action with the Borderlands Legendary Collection. Kill bandits and beasts, collect powerful weaponry, and maybe even save the universe in Borderlands: Game of the Year Edition, Borderlands 2, and Borderlands: The Pre-Sequel. Packed with piles of bonus add-on content for each game, adding 100+ hours of gameplay at an incredible value*.\r\n\r\nIncludes 3 critically acclaimed games in one package: Borderlands: Game of the Year Edition, Borderlands 2, and Borderlands: The Pre-Sequel - as well as piles of bonus add-on content for each game, adding 100+ hours of gameplay at an incredible value*.\r\n\r\n*Borderlands 2: Commander Lilith and the Fight for Sanctuary add-content not included.\r\n\r\nEnjoy all three games on the go with each featuring local 2-player split-screen co-op play or make some mayhem online with up to 4 other players.\r\n\r\nBorderlands: Game of the Year Edition - Discover the co-op shooter-looter that started it all, crammed with content and enhancements. Equip bazillions of guns as one of four trigger-happy mercenaries, each with unique RPG skills. Take on the lawless desolate planet Pandora in pursuit of powerful alien technology: The Vault.\r\n\r\nBorderlands 2 - Play as one of six Vault Hunters attempting to liberate Pandora from the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.\r\n\r\nBorderlands: The Pre-Sequel - Discover the story behind Borderlands 2 villain, Handsome Jack, and his rise to power. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lot of new gameplay featuring the genre blending fusion of shooter and RPG mechanics that players have come to love.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3422,
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8,
+          12
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 122280,
+        "game_title": "Borderlands: Legendary Collection",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Trois fois plus de chaos, trois fois plus de butin et trois fois plus d'action avec Borderlands Legendary Collection ! Tuez des bandits et des monstres, récupérez des armes toujours plus puissantes, et au passage, tentez de sauver l'univers dans Borderlands: Game of the Year Edition, Borderlands 2 et Borderlands: The Pre-Sequel. Cette collection inclut également une tonne de contenu additionnel pour chaque jeu, ajoutant des centaines d'heures de jeu à un prix incroyable.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "71370": [
+          {
+            "id": 226553,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71370-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122280": [
+          {
+            "id": 423422,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122280-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+Legendary+Collection&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 204,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629974
+}

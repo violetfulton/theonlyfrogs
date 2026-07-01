@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 99247,
+        "game_title": "Death Stranding: Director's Cut",
+        "release_date": "2022-03-30",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Connect a fractured society in the definitive Death Stranding experience for PC.\r\n\r\nFrom legendary game creator Hideo Kojima comes a genre-defying experience, now expanded and remastered for PC in this definitive DIRECTOR’S CUT.\r\n\r\nIn the future, a mysterious event known as the Death Stranding has opened a doorway between the living and the dead, leading to grotesque creatures from the afterlife roaming the fallen world marred by a desolate society.\r\n\r\nAs Sam Bridges, your mission is to deliver hope to humanity by connecting the last survivors of a decimated America.\r\n\r\nCan you reunite the shattered world, one step at a time?\r\n\r\nTake on the trials of Sam Bridges with advanced combat, more character actions and a competitive ranking system for special player challenges in this definitive DEATH STRANDING experience.\r\n\r\n\r\nExpanded content \r\nExperience an extended storyline through new missions in an expanded area. Make use of additional weapons and vehicles, take on new enemy types and explore new locations such as the Firing Range and Racetrack, featuring extra missions and minigames.\r\n\r\nUnique Social Strand System\r\nStay connected with other players from around the globe. Donate valuable resources to rebuild structures in your world and others’, and offer likes in support of player structures that appear in yours to reward them for their contributions.\r\n\r\nTrailer: YouTube\r\n\r\nESRB Rating: M - Mature 17+\r\n\r\nGenre(s): Action",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4760
+        ],
+        "genres": [
+          1,
+          4,
+          9
+        ],
+        "publishers": [
+          670
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "99247": [
+          {
+            "id": 338099,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99247-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Death+Stranding%3A+Director%27s+Cut&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 901,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630084
+}

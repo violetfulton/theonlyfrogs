@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 110382,
+        "game_title": "Starsand",
+        "release_date": "2022-11-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Your day started as planned. Motivated and full of ambition you started the marathon of your life in the middle of the desert. The months of hard training should finally bear fruit. Suddenly, you were caught in a monstrous sandstorm and now you find yourself alone in an inhospitable, hot environment. Deserted and merciless, an ocean of sand stretches to the horizon.\r\n\r\nYou feel the scorching heat on your skin, sand blowing right at your face, far and wide only vast desert ... but wait, what is that? Something is moving in the far distance. What happened?\r\n\r\nYour first thought: Survival.\r\nYour second thought: Rescue will surely come.\r\nThe bitter realization: No one will come, you are completely on your own.\r\nThe big question: Where are you and why are there two moons in the night sky?\r\n\r\nExplore an arcane desert\r\nFind shade, find water, find life. Use your energy wisely, avoid too much effort in the heat, keep warm in the coldest nights. You must keep your wits to survive.\r\n\r\nOpen World\r\nStarsand is THE desert survival game. Dangers, mysteries, and puzzles await you! Find out what exactly happened, where you are and what connects you to the history of an extinct civilization. Will you manage to survive in the inhospitable environment, find answers and find your way back to your old life?\r\n\r\nHunt, Craft, Build\r\nHunt for food, make weapons, build a shelter. Secure your shelter - the dunes are teeming with scary creatures.\r\n\r\nTame the Environment\r\nFind your way in the vast and lonely desert, orient yourself in sandstorms and mark your path. Thirst and heat become an invincible enemy during the day - cold endangers you during the night. Learn to live with adversity, see the beauty that the world holds, and learn from the animals and nature!\r\n\r\nDefend your base\r\nIn this desert you are both a hunter and prey. Insect-like predators come out of their dark nests, always looking for food. Protect yourself with fire, blow up enemies with explosive coconut grenades, secure your base and do whatever it takes to survive.\r\n\r\nFeatures:\r\n- Large open game world in an exciting desert setting with an area of over 64 km².\r\n- The lovingly designed world, far away from civilization, holds many impressive monuments, artifacts, and creatures of the past, as well as modern times.\r\n- Survival action par excellence! Weather and desert capers as well as terrestrial and extra-terrestrial enemies awaken the pure survival instinct!\r\n- Gather, build, secure - for protection against heat, cold, and the unknown enemy.\r\n- Dynamic weather and day/night changes demand good planning, wise action, and a large portion of courage, especially in the desert.\r\n- A mystical, thrilling story and the solving of numerous puzzles answer many open questions during the exciting journey into the unknown.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 89148,
+        "game_title": "Stars End",
+        "release_date": "2019-10-14",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Stars End is a multiplayer sci-fi survival game set hundreds of years in the future, in a star system colonized by humans escaping their dying home world.\r\n\r\nStart with basic supplies and find a way into space - without any loading screens! Players will have the opportunity to travel the system to seek out resources, completing missions and uncovering mysteries - while building strongholds in space and planetside, continually facing the danger of other players.\r\n\r\nUtilising procedural planets, the game world is vast - but it's not so large that you won’t be able to play with your friends.\r\n\r\nThe biggest feature of Stars End is planetary warfare and territory control, with hundreds of players populating each server. Be it FPS fighting across planets and space stations, or dog fighting in open space - Stars End brings system wide combat to the genre.\r\n\r\nMake sure you keep your ship locked and your items stored safely in a container somewhere far away!\r\nFeatures:\r\nProcedural Planets\r\nOnline Multiplayer\r\nStory-based Missions\r\nExploration\r\nSurvival/PvP\r\nTerritory Control\r\nFaction Wars\r\nMining, Crafting and Resources\r\nPlanet Base and Space Station Construction\r\nFast-paced FPS/TPS combat",
+        "players": 16,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "89148": [
+          {
+            "id": 296160,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89148-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110382": [
+          {
+            "id": 378904,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110382-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Starsand&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 680,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630047
+}

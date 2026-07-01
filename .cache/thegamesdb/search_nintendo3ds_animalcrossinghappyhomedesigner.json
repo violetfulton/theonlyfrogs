@@ -1,0 +1,225 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 110795,
+        "game_title": "Animal Forest: Happy Home Designer",
+        "release_date": "2015-07-30",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Show off your style by designing homes for all of your favorite Animal Crossing villagers! Use your creativity to design the perfect houses - inside and out - for both old and new friends. With the new amiibo cards, you can call your favorite villagers into the game.\r\n\r\nFeatures:\r\n\r\nDesign the interior and exterior of hundreds of homes for animal villagers\r\nLeave your decorative touch on the school, hospital and other public facilities\r\nCollect and Connect - Collect and share amiibo cards of your favorite villagers, and invite them into your game,\r\n\r\nTap amiibo cards to invite up to four characters into a room to hang out\r\nTap the amiibo cards of special characters to call in animals that would otherwise not appear in your game with requests",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          12,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 30637,
+        "game_title": "Animal Crossing: Happy Home Designer",
+        "release_date": "2015-09-25",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Show off your style by designing homes for all of your favorite Animal Crossing villagers! Use your creativity to design the perfect houses - inside and out - for both old and new friends. With the new amiibo cards, you can call your favorite villagers into the game.\r\n\r\nFeatures:\r\n\r\nDesign the interior and exterior of hundreds of homes for animal villagers\r\nLeave your decorative touch on the school, hospital and other public facilities\r\nCollect and Connect - Collect and share amiibo cards of your favorite villagers, and invite them into your game,\r\n\r\nTap amiibo cards to invite up to four characters into a room to hang out\r\nTap the amiibo cards of special characters to call in animals that would otherwise not appear in your game with requests\r\n\r\nAlso Available\r\nAnimal Crossing: Happy Home Designer Bundle",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          12,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110794,
+        "game_title": "Animal Crossing: Happy Home Designer",
+        "release_date": "2015-10-02",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Show off your style by designing homes for all of your favorite Animal Crossing villagers! Use your creativity to design the perfect houses - inside and out - for both old and new friends. With the new amiibo cards, you can call your favorite villagers into the game.\r\n\r\nFeatures:\r\n\r\nDesign the interior and exterior of hundreds of homes for animal villagers\r\nLeave your decorative touch on the school, hospital and other public facilities\r\nCollect and Connect - Collect and share amiibo cards of your favorite villagers, and invite them into your game,\r\n\r\nTap amiibo cards to invite up to four characters into a room to hang out\r\nTap the amiibo cards of special characters to call in animals that would otherwise not appear in your game with requests",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          12,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110796,
+        "game_title": "Animal Forest: Happy Home Designer [Amiibo Reader/Writer Bundle]",
+        "release_date": "2015-07-30",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Animal Crossing: Happy Home Designer is a sandbox game for the Nintendo 3DS released in 2015. It is a spin-off entry in the Animal Crossing series where the player designs homes for clients. It is also the first entry in the series to be compatible with amiibo, utilizing a series of Animal Crossing amiibo cards that were released alongside the game.\r\nThe Nintendo 3DS NFC Reader/Writer is used for getting additional content in your game AND save certain game data to the amiibo figure. One amiibo can only hold save data for one game at a time. The Nintendo 3DS NFC Reader/Writer is required to use amiibo cards with Nintendo 3DS, Nintendo 3DS XL, and Nintendo 2DS systems. The New Nintendo 3DS system doesn't require the use of the NFC Reader/Writer Pack, since it has a built-in NFC Reader.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          12,
+          13,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 101089,
+        "game_title": "Animal Crossing: Happy Home Designer [Amiibo Reader/Writer Bundle] ",
+        "release_date": "2015-09-25",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Animal Crossing: Happy Home Designer is a sandbox game for the Nintendo 3DS released in 2015. It is a spin-off entry in the Animal Crossing series where the player designs homes for clients. It is also the first entry in the series to be compatible with amiibo, utilizing a series of Animal Crossing amiibo cards that were released alongside the game.\r\nThe Nintendo 3DS NFC Reader/Writer is used for getting additional content in your game AND save certain game data to the amiibo figure. One amiibo can only hold save data for one game at a time. The Nintendo 3DS NFC Reader/Writer is required to use amiibo cards with Nintendo 3DS, Nintendo 3DS XL, and Nintendo 2DS systems. The New Nintendo 3DS system doesn't require the use of the NFC Reader/Writer Pack, since it has a built-in NFC Reader.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110793,
+        "game_title": "Animal Crossing: Happy Home Designer [Amiibo Reader/Writer Bundle]",
+        "release_date": "2015-10-02",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Animal Crossing: Happy Home Designer is a sandbox game for the Nintendo 3DS released in 2015. It is a spin-off entry in the Animal Crossing series where the player designs homes for clients. It is also the first entry in the series to be compatible with amiibo, utilizing a series of Animal Crossing amiibo cards that were released alongside the game.\r\nThe Nintendo 3DS NFC Reader/Writer is used for getting additional content in your game AND save certain game data to the amiibo figure. One amiibo can only hold save data for one game at a time. The Nintendo 3DS NFC Reader/Writer is required to use amiibo cards with Nintendo 3DS, Nintendo 3DS XL, and Nintendo 2DS systems. The New Nintendo 3DS system doesn't require the use of the NFC Reader/Writer Pack, since it has a built-in NFC Reader.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          12,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "30637": [
+          {
+            "id": 235420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/30637-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101089": [
+          {
+            "id": 347094,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101089-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110793": [
+          {
+            "id": 379953,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110793-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110794": [
+          {
+            "id": 379960,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110794-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110795": [
+          {
+            "id": 379966,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110795-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110796": [
+          {
+            "id": 379973,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110796-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+Happy+Home+Designer&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 503,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630019
+}

@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 87522,
+        "game_title": "Borderlands: Mad Moxxi's Underdome Riot",
+        "release_date": "2010-01-07",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Mad Moxxi's Underdome Riot is an intense single-player or cooperative experience that expands the mayhem by adding three new Riot Mode arenas where players will endure an onslaught of Pandora's baddest enemies. Working together, players will fend off the masses as they fight for fame, honor, and more importantly, loot. Mad Moxxi's Underdome Riot also adds a new bank feature, which allows players extra storage capacity for when they encounter one of the more than 16 million weapons that Borderlands has to offer; and the ability to acquire two additional skill points as quest rewards, making their characters even more powerful than before.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87522": [
+          {
+            "id": 290425,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87522-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands%3A+Mad+Moxxi%27s+Underdome+Riot&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 193,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629972
+}

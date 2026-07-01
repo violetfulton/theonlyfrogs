@@ -1,0 +1,72 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 11690,
+        "game_title": "Ratchet & Clank Collection",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This trilogy of Ratchet & Clank classics contains Ratchet & Clank, Ratchet & Clank: Going Commando, and Ratchet & Clank: Up Your Arsenal – all remastered in 1080p for the PlayStation 3 with additional upgrades such as Trophy and 3D support.\r\n\r\nIn the original Ratchet & Clank, save the galaxy as Ratchet, a wrench-wielding Lombax, and his robot buddy Clank, in this action-adventure with a multitude of crazy weapons.\r\n\r\nIn Ratchet & Clank: Going Commando, Ratchet and Clank return as heroes for hire. Upon taking a job to find a stolen experiment for mega-corporation Abercombie Fitzwidget, Ratchet and Clank meet a large cast of characters who will help them along the way.\r\n\r\nIn Ratchet & Clank: Up Your Arsenal, gamers return to Planet Veldin, the setting of the original game, where the duo set off on a gripping new adventure through a multitude of diverse planets to fight for galactic peace. Up Your Arsenal includes a multiplayer feature that allows up to eight players to play at once.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232,
+          10113
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "11690": [
+          {
+            "id": 34086,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11690-1.jpg",
+            "resolution": "883x1024"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank+Collection&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 618,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630036
+}

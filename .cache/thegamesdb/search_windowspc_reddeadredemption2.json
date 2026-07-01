@@ -1,0 +1,125 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 66595,
+        "game_title": "Red Dead Redemption 2",
+        "release_date": "2019-11-05",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him. From the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America at the dawn of the modern age.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7273
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 29819,
+        "game_title": "Road Redemption",
+        "release_date": "2017-10-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Road Redemption is an action racing game where you lead your motorcycle gang on an epic journey across the country in a brutal driving combat adventure. \r\n\r\nEarn money by completing races, assassinations, robberies, and other challenges in your path. As you collect loot, you'll upgrade your character, your bike, and your weapons.\r\n\r\nOne Life To Live\r\n\r\nDriving a motorcycle at 100 mph while trying to hit someone with a pipe is dangerous, and death can come quickly. Fortunately, every time you die, all the experience you've collected can be used to upgrade your character, your bike, and your weapons. \r\n\r\nIn the multiplayer mode, you can work with your friends or let out some road rage on them. It's up to you.\r\n\r\n\r\nA Truly Epic Quest\r\n\r\nRoad Redemption takes place in a post-apocalyptic world, ruled by a brutal dictator. Fans of Mad Max will feel right at home here. \r\n\r\nAfter years of bloody street warfare, the country's biker gangs have settled into an uneasy truce. \r\n\r\nThis period of peace is interrupted when the leader of the country's richest weapons cartel is assassinated, and a $15,000,000 bounty is put on the mysterious assassin's head. \r\n\r\nIt's up to you and your fellow gang members to chase down the assassin and claim this prize, but you'll have to drive through enemy territory to do so. Every biker in the country wants a piece of that $15,000,000 bounty, and they won't hesitate to take out those who get in their way.\r\n\r\nOther Features\r\n\r\n- Online Multiplayer\r\n- Tons of brutal weapons. This is more Twisted Metal than it is Mario Kart \r\n- 4-player splitscreen co-op.\r\n- Massive, expandable skill tree. Rack in the loot to upgrade your character, your bike, and your weapons.\r\n- A deep motorcycle fighting system with grabs, kicks, counters, critical strikes, and more. \r\n- Full support for both mouse & keyboard and gamepad control configurations.",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          6630
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3585,
+          8289
+        ]
+      },
+      {
+        "id": 106822,
+        "game_title": "Road Redemption",
+        "release_date": "2017-04-10",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          7,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "29819": [
+          {
+            "id": 80434,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/29819-1.png",
+            "resolution": "559x768"
+          }
+        ],
+        "66595": [
+          {
+            "id": 217440,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66595-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106822": [
+          {
+            "id": 367636,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106822-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Red+Dead+Redemption+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 725,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630053
+}

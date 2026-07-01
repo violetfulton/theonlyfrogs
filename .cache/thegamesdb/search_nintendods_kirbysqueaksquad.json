@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 89791,
+        "game_title": "Kirby: Mouse Attack",
+        "release_date": "2007-06-22",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Kirby: Squeak Squad, known in Europe as Kirby: Mouse Attack and in Japan as Kirby of the Stars: Calling on the Dorotche Gang (Japanese: 星のカービィ 参上! ドロッチェ団 Hepburn: Hoshi no Kābī Sanjō! Dorocche Dan?), is a 2006-07 platforming video game developed by HAL Laboratory, Flagship and Natsume (the latter as seen in the end credits) and published by Nintendo for the Nintendo DS handheld video game console. Unlike the previous Nintendo DS title, Kirby: Canvas Curse, Squeak Squad is a traditional platformer which uses the face buttons instead of the touch screen to control Kirby.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3072,
+          3694
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6815,
+        "game_title": "Kirby: Squeak Squad",
+        "release_date": "2006-12-04",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Unlike the previous Nintendo DS title, Kirby: Canvas Curse, Squeak Squad is a traditional platformer which uses the face buttons instead of the touch screen to control Kirby.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3072,
+          3697,
+          5833
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 110703,
+        "game_title": "Hoshi no Kirby! Sanjou! Dorocche-dan",
+        "release_date": "2006-11-02",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Kirby’s back and ready for a bellyful of adventure.When someone steals some strawberry shortcake, the pink powerhouse sets out after them, learning new skills.Players can expect all the floating, jumping and battling of a classic Kirby game, but this time, Kirby’s copy abilities have been massively boosted. Not only can players mix and match copy abilities by using the stylus to drag them together inside Kirby's belly (located on the touch screen), but the powers themselves now have the ability to affect the environment, as well as foes. Burn trees and grasses with the Fire ability, freeze water with the Ice ability.In sub-game mode, this game also features multiplayer fun for up to four players, using either Multi-Card or DS Download Play over DS Local Area Network.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3072,
+          3694
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6815": [
+          {
+            "id": 17522,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6815-1.jpg",
+            "resolution": "1529x1370"
+          },
+          {
+            "id": 17523,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6815-1.jpg",
+            "resolution": "1539x1370"
+          }
+        ],
+        "89791": [
+          {
+            "id": 298572,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89791-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110703": [
+          {
+            "id": 382454,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110703-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Kirby%3A+Squeak+Squad&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 587,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630032
+}

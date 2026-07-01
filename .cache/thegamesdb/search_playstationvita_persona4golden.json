@@ -1,0 +1,143 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 117466,
+        "game_title": "Persona 4: The Golden ",
+        "release_date": "2012-06-12",
+        "platform": 39,
+        "region_id": 3,
+        "country_id": 11,
+        "overview": "Persona 4 Golden, abbreviated as P4G, and also titled Persona 4: The Golden in Japan, is an enhanced re-release of Persona 4, which launched for the PlayStation Vita. The port adds a variety of new content and convenience features to update the original game.\r\n\r\nESRB Rating: M - Mature 17+\r\n\r\nGenre(s): Role-Playing",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 12554,
+        "game_title": "Persona 4 Golden",
+        "release_date": "2012-11-20",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Loaded with enhancements and overflowing with new content, Persona 4 Golden is far more than just a handheld version of an all-time classic RPG: it’s the best way to experience it yet!\r\n\r\nIn a quiet town in rural Japan, a normal teenager begins a year-long stay with the unsettling news that there’s been a murder…and soon after, another. Meanwhile, a rumor is going around school that by looking at a TV screen at midnight on a rainy night, the face of your soul mate will be revealed. But is that all? As connections between the murders and the rumors begin to take shape, you and your team of Persona users must enter the mysterious TV world and solve the mystery before more people die.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          767
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 62657,
+        "game_title": "Persona 4 Golden: Solid Gold premium edition",
+        "release_date": "2012-06-14",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Loaded with rare accessories, the very limited Solid Gold Premium Edition is a treat for Persona fans and an irresistible temptation for current and prospective Vita owners.\r\nFeatures & details\r\nP4G (The Game): One of the best RPGs of all time, now expanded and remastered to make full use of the power of Vita.\r\nHori Hard Pouch: Sturdily built and stylishly customized, this case has a flap that stores games while it guards the screen.\r\nHori Face Cover: Offers lightweight yet effective protection without blocking any major parts, so it never has to come off!\r\nProtective Skin: Adorns your Vita with the stylish, vibrant aesthetics of Persona 4 and includes 8 matching wallpapers.\r\nStickers: Starring characters from Persona 4, these stickers can be used to decorate anything you can think of!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          141
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12554": [
+          {
+            "id": 416773,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12554-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 416774,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12554-1.jpg",
+            "resolution": null
+          }
+        ],
+        "62657": [
+          {
+            "id": 207654,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62657-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117466": [
+          {
+            "id": 401314,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/117466-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 407580,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117466-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+4+Golden&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 416,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630007
+}

@@ -1,0 +1,185 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 15767,
+        "game_title": "Lightning Returns: Final Fantasy XIII",
+        "release_date": "2014-02-11",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As Lightning, it is your mission to save souls so they may be brought to a new world. However, with only thirteen days remaining, not everyone can be saved. Armed with all-new weapons, player customization and battle abilities, you are in a race against time to fully understand your destiny.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 115141,
+        "game_title": "Lightning Returns: Final Fantasy XIII",
+        "release_date": "2014-02-11",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "As Lightning, it is your mission to save souls so they may be brought to a new world. However, with only thirteen days remaining, not everyone can be saved. Armed with all-new weapons, player customization and battle abilities, you are in a race against time to fully understand your destiny. It all ends here",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 114027,
+        "game_title": "Lightning Returns: Final Fantasy XIII [Nordic Limited Edition]",
+        "release_date": "2014-01-01",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102572,
+        "game_title": "Lightning Returns: Final Fantasy XIII [Target Edition]",
+        "release_date": "2014-02-11",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "As Lightning, it is your mission to save souls so they may be brought to a new world. However, with only thirteen days remaining, not everyone can be saved. Armed with all-new weapons, player customization and battle abilities, you are in a race against time to fully understand your destiny.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 53903,
+        "game_title": "Lightning Returns: Final Fantasy XIII Collector's Edition",
+        "release_date": "2014-02-11",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As Lightning, it is your mission to save souls so they may be brought to a new world. However, with only thirteen days remaining, not everyone can be saved. Armed with all-new weapons, player customization and battle abilities, you are in a race against time to fully understand your destiny.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "15767": [
+          {
+            "id": 61307,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15767-1.jpg",
+            "resolution": "780x900"
+          }
+        ],
+        "53903": [
+          {
+            "id": 135421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53903-1.jpg",
+            "resolution": "3000x2318"
+          }
+        ],
+        "102572": [
+          {
+            "id": 351568,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102572-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114027": [
+          {
+            "id": 388253,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114027-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115141": [
+          {
+            "id": 391936,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115141-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Lightning+Returns%3A+Final+Fantasy+XIII&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 638,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630039
+}

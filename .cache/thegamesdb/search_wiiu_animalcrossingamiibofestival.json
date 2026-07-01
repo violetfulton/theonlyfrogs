@@ -1,0 +1,136 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 32901,
+        "game_title": "Animal Crossing: amiibo Festival",
+        "release_date": "2015-11-13",
+        "platform": 38,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The Animal Crossing: amiibo Festival game is a brand-new way to play with your favorite Animal Crossing characters. Your amiibo figures are front-and-center in this party game, and you’ll get to use them with fun content. Bring to life an expansive and dynamic board game where the board is based on the months of the year like the core Animal Crossing series. The goal? Make your villager the happiest in town and party hard with your friends.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          5858,
+          6037
+        ],
+        "genres": [
+          20,
+          22,
+          23
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 53715,
+        "game_title": "Animal Crossing: amiibo Festival [amiibo Bundle]",
+        "release_date": "2015-11-13",
+        "platform": 38,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The Animal Crossing: amiibo Festival game is a brand-new way to play with your favorite Animal Crossing characters. Your amiibo figures are front-and-center in this party game, and you’ll get to use them with fun content. Bring to life an expansive and dynamic board game where the board is based on the months of the year like the core Animal Crossing series. The goal? Make your villager the happiest in town and party hard with your friends.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          5858,
+          6037
+        ],
+        "genres": [
+          20,
+          22,
+          23
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110764,
+        "game_title": "Animal Crossing: amiibo Festival [amiibo Bundle]",
+        "release_date": "2015-11-20",
+        "platform": 38,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The Animal Crossing: amiibo Festival game is a brand-new way to play with your favorite Animal Crossing characters. Your amiibo figures are front-and-center in this party game, and you’ll get to use them with fun content. Bring to life an expansive and dynamic board game where the board is based on the months of the year like the core Animal Crossing series. The goal? Make your villager the happiest in town and party hard with your friends.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          5858,
+          6037
+        ],
+        "genres": [
+          20,
+          22,
+          23
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "32901": [
+          {
+            "id": 96890,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32901-1.jpg",
+            "resolution": "1011x1440"
+          }
+        ],
+        "53715": [
+          {
+            "id": 135086,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53715-1.jpg",
+            "resolution": "500x500"
+          }
+        ],
+        "110764": [
+          {
+            "id": 379865,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110764-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "38": {
+          "id": 38,
+          "name": "Nintendo Wii U",
+          "alias": "nintendo-wii-u"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+Amiibo+Festival&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=38&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 441,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630010
+}

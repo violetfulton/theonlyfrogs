@@ -1,0 +1,170 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 104016,
+        "game_title": "Pocket Monsters Emerald",
+        "release_date": "2004-09-16",
+        "platform": 5,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The Hoenn region is unstable--Rayquaza has awakened! Your skills as a Trainer will be challenged like they've never been challenged before as you try to maintain the balance between Kyogre & Groudon. Prove your skills by earning badges & gaining access to Battle Frontier - the front line of Pokémon battling that offers a whole new level of competition. Never-before-experienced battles await you!\r\n• The third adventure with new episodes in the Hoenn region!\r\n• Tons of new features, including surprising plot twists and changes to where and how often you can catch certain Pokémon!\r\n• Use the Game Boy Advance Wireless Adapter to trade & battle between Pokémon Emerald and Pokémon FireRed and LeafGreen versions.\r\n• Expand your collection when you trade with a friend. Using a Game Link cable, link up with Pokémon Ruby & Sapphire, Pokémon FireRed & LeafGreen or Pokémon Colosseum to catch them all!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 2365,
+        "game_title": "Pokémon Emerald Version",
+        "release_date": "2005-05-01",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Pokémon Emerald Version is a 2005 Game Boy Advance video game developed by Game Freak and released by Nintendo of America in the USA on May 1, 2005.\r\n\r\nThe Hoenn region is unstable--Rayquaza has awakened! Your skills as a Trainer will be challenged like they've never been challenged before as you try to maintain the balance between Kyogre & Groudon. Prove your skills by earning badges & gaining access to Battle Frontier - the front line of Pokémon battling that offers a whole new level of competition. Never-before-experienced battles await you!\r\n• The third adventure with new episodes in the Hoenn region!\r\n• Tons of new features, including surprising plot twists and changes to where and how often you can catch certain Pokémon!\r\n• Use the Game Boy Advance Wireless Adapter to trade & battle between Pokémon Emerald and Pokémon FireRed and LeafGreen versions.\r\n• Expand your collection when you trade with a friend. Using a Game Link cable, link up with Pokémon Ruby & Sapphire, Pokémon FireRed & LeafGreen or Pokémon Colosseum to catch them all!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 127413,
+        "game_title": "Pokémon Recharged Yellow",
+        "release_date": "2022-09-27",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Relive Kanto in a refreshed adventure with the pure style of gen 3!\r\nPlenty of quality of changes, built-in modes, Jessie and James and much more!\r\n\r\nFeatures\r\n\r\nPikachu as Starter\r\nFollowing Pokemon System\r\nFully compatible with vanilla gen 3 games and Pokemon Heliodor!\r\nKanto rebuilt in Pokemon Emerald engine, this includes RTC, berries, contests and post-game facilities.\r\nPokemon color variation from Pokemon stadium, this is reflected in the followers, party menu and pc boxes!\r\nRicher Pokemon icons, this reflects the PID of your Pokemon and if they are shiny\r\nLots of quality of life features\r\nBuilt in hard mode, nuzlocke mode and level cap\r\nLots of touches from Let’s Go Pikachu, including Jessie and James.\r\nSevii Islands are locked to post-game, they all have new and revamped content\r\nAnd lots of more stuff!\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 81402,
+        "game_title": "Pokemon Emerald Version [Case Bundle]",
+        "release_date": "2005-05-01",
+        "platform": 5,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The Hoenn region is unstable--Rayquaza has awakened! Your skills as a Trainer will be challenged like they've never been challenged before as you try to maintain the balance between Kyogre & Groudon. Prove your skills by earning badges & gaining access to Battle Frontier - the front line of Pokémon battling that offers a whole new level of competition. Never-before-experienced battles await you! • The third adventure with new episodes in the Hoenn region! • Tons of new features, including surprising plot twists and changes to where and how often you can catch certain Pokémon! • Use the Game Boy Advance Wireless Adapter to trade & battle between Pokémon Emerald and Pokémon FireRed and LeafGreen versions. • Expand your collection when you trade with a friend. Using a Game Link cable, link up with Pokémon Ruby & Sapphire, Pokémon FireRed & LeafGreen or Pokémon Colosseum to catch them all!\r\n\r\nESRB Rating: E - Everyone\r\n\r\nGenre(s): Adventure | Role-Playing | Strategy\r\n\r\n",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2365": [
+          {
+            "id": 220567,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2365-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 220568,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2365-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81402": [
+          {
+            "id": 264695,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/81402-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443570,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81402-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104016": [
+          {
+            "id": 355971,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104016-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127413": [
+          {
+            "id": 466667,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127413-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Emerald+Version&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 519,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630021
+}

@@ -1,0 +1,108 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 60780,
+        "game_title": "Monster Hunter Generations Ultimate",
+        "release_date": "2018-08-28",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Monster Hunter Generations Ultimate is the follow-up to Monster Hunter Generations, and marks the Monster Hunter series' debut on Nintendo Switch as an exclusive. Hunters can face off against the largest roster of unique monsters in any Monster Hunter game to date. Players take on the role of a brave hunter challenging larger than life beasts that yield valuable resources used for crafting unique weapons and equipment. Accept hundreds of quests solo or with friends in this nostalgic look back at the series' beginnings and evolutions. Along the hunter's journey, players must defend each of the game's four villages from major threats known as the Fated Four, plus an even more dangerous new Elder Dragon. This game features a blend of classic gameplay and unique new twists, brand new explorable areas and monsters, plus returning fan-favorites like the lightning fast Zinogre and the stealthy long-tailed Nargacuga.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 111035,
+        "game_title": "Monster Hunter Generations Ultimate",
+        "release_date": "2018-08-28",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Monster Hunter Generations Ultimate is the follow-up to Monster Hunter Generations, and marks the Monster Hunter series' debut on Nintendo Switch as an exclusive. Hunters can face off against the largest roster of unique monsters in any Monster Hunter game to date. Players take on the role of a brave hunter challenging larger than life beasts that yield valuable resources used for crafting unique weapons and equipment. Accept hundreds of quests solo or with friends in this nostalgic look back at the series' beginnings and evolutions. Along the hunter's journey, players must defend each of the game's four villages from major threats known as the Fated Four, plus an even more dangerous new Elder Dragon. This game features a blend of classic gameplay and unique new twists, brand new explorable areas and monsters, plus returning fan-favorites like the lightning fast Zinogre and the stealthy long-tailed Nargacuga.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "60780": [
+          {
+            "id": 279353,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/60780-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 279354,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60780-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111035": [
+          {
+            "id": 380669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111035-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter+Generations+Ultimate&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 276,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629985
+}

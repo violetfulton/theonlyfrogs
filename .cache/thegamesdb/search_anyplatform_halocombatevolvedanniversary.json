@@ -1,0 +1,133 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 35782,
+        "game_title": "Halo: Combat Evolved Anniversary",
+        "release_date": "2011-11-15",
+        "platform": 15,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Halo: Combat Evolved Anniversary is a 2011 first-person shooter game set in the Halo universe and is an enhanced remake of Halo: Combat Evolved. Microsoft announced the game alongside Halo 4 at the 2011 Electronic Entertainment Expo. The game was released in November 2011—the 10th anniversary of the original title's launch—for the Xbox 360 game console, and re-released as part of Halo: The Master Chief Collection for the Xbox One in November 2014. A PC version was announced in March 2019 and was released in March 2020.\r\n\r\nHalo: Combat Evolved Anniversary was developed as a partnership between development studios 343 Industries, Saber Interactive, and Certain Affinity. 343 Industries, the Halo series' franchise overseers, approached Saber Interactive to develop a remake of the original Halo in time for its tenth anniversary. After considering whether to remake the game entirely or to adapt and add features to the existing PC version, Saber decided to use its game engine for reproducing the original's appearance and the original Halo's engine for gameplay. A development tool for toggling between the old and new visuals became a game feature. Anniversary's enhancements include a complete high-definition visual overhaul, support for cooperative and multiplayer gameplay via the Xbox Live online service, new and remastered sound effects and music, and extras such as achievements and hidden in-game collectibles. The game is the first in the series to include Kinect support. ",
+        "players": 16,
+        "rating": "M - Mature 17+",
+        "developers": [
+          63,
+          7374
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 80803,
+        "game_title": "Halo: Combat Evolved Anniversary",
+        "release_date": "2011-11-15",
+        "platform": 15,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Halo: Combat Evolved Anniversary (also referred to as Halo: Anniversary, Halo: CE Anniversary or Halo: CEA) is a sci-fi first-person shooter video game set in the Halo Universe and is a graphical enhancement of 2001's Halo: Combat Evolved, featuring extra content, HD visual rendering, replaced HD audio and re-styled sound tracks.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          63,
+          7374
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 93127,
+        "game_title": "Halo: Combat Evolved Anniversary [Platinum Hits]",
+        "release_date": "2011-11-15",
+        "platform": 15,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Halo: Combat Evolved Anniversary is a 2011 first-person shooter game set in the Halo universe and is an enhanced remake of Halo: Combat Evolved. Microsoft announced the game alongside Halo 4 at the 2011 Electronic Entertainment Expo. The game was released in November 2011—the 10th anniversary of the original title's launch—for the Xbox 360 game console, and re-released as part of Halo: The Master Chief Collection for the Xbox One in November 2014. A PC version was announced in March 2019 and was released in March 2020.\r\n\r\nHalo: Combat Evolved Anniversary was developed as a partnership between development studios 343 Industries, Saber Interactive, and Certain Affinity. 343 Industries, the Halo series' franchise overseers, approached Saber Interactive to develop a remake of the original Halo in time for its tenth anniversary. After considering whether to remake the game entirely or to adapt and add features to the existing PC version, Saber decided to use its game engine for reproducing the original's appearance and the original Halo's engine for gameplay. A development tool for toggling between the old and new visuals became a game feature. Anniversary's enhancements include a complete high-definition visual overhaul, support for cooperative and multiplayer gameplay via the Xbox Live online service, new and remastered sound effects and music, and extras such as achievements and hidden in-game collectibles. The game is the first in the series to include Kinect support. ",
+        "players": 16,
+        "rating": "M - Mature 17+",
+        "developers": [
+          63,
+          7374
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35782": [
+          {
+            "id": 136851,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35782-1.jpg",
+            "resolution": "640x909"
+          }
+        ],
+        "80803": [
+          {
+            "id": 262014,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80803-1.jpg",
+            "resolution": null
+          }
+        ],
+        "93127": [
+          {
+            "id": 310223,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93127-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "15": {
+          "id": 15,
+          "name": "Microsoft Xbox 360",
+          "alias": "microsoft-xbox-360"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Halo%3A+Combat+Evolved+Anniversary&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 777,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630062
+}

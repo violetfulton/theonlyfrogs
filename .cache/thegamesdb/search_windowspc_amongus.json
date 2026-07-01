@@ -1,0 +1,314 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 77267,
+        "game_title": "Among Us",
+        "release_date": "2018-08-18",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Among Us (later known as Among Us 1) is an online sci-fi murder-mystery game by Innersloth, and was released on June 15, 2018, on iOS, Android, and Steam on August 18, 2018. The game is set in a spaceship, which contains a group of crew members where there is, among them, an impostor who wants to sabotage the ship and kill everyone, where they must do the tasks and find out who the impostor is.",
+        "players": 15,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          2,
+          5,
+          6,
+          16
+        ],
+        "publishers": null
+      },
+      {
+        "id": 19101,
+        "game_title": "Injustice: Gods Among Us - Ultimate Edition",
+        "release_date": "2013-11-12",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "What if our greatest heroes became our greatest threat? Injustice: Gods Among Us Ultimate Edition features DC Comics icons such Batman, Cyborg, The Flash, Harley Quinn, Nightwing, Solomon Grundy, Superman and Wonder Woman, in a dark tale of power and corruption. Heroes and villains engage in epic battles on a massive scale in a world where the line between good and evil has been blurred.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          1,
+          2,
+          10
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 97938,
+        "game_title": "The Wolf Among Us 2",
+        "release_date": "2024-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Play as Bigby, “The Big Bad Wolf” and Sheriff of Fabletown, as you return to a gritty detective noir world where there are no fairy tale endings.\r\n\r\nThe Wolf Among Us 2 picks up six months after the events of season one. It’s winter in New York City and a new case threatens to cross the line between Fabletown and the NYPD. How you choose to approach it could determine the future of the Fable community.",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          606
+        ]
+      },
+      {
+        "id": 18257,
+        "game_title": "The Wolf Among Us",
+        "release_date": "2013-10-11",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Wolf Among Us is a five episode series from the creators of the 2012 Game of the Year: The Walking Dead. Based on Fables (DC Comics/Vertigo), an award-winning comic book series, it is an often violent, mature and hard-boiled thriller where the characters and creatures of myth, lore and legend are real and exist in our world.\r\n\r\nAs Bigby Wolf - THE big bad wolf in human form - you will discover that the brutal, bloody murder of a Fable is just a taste of things to come, in a game series where your every decision can have enormous consequences.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          606
+        ]
+      },
+      {
+        "id": 71160,
+        "game_title": "aMAZE",
+        "release_date": "2015-03-14",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "How long have you developed your thinking and attentiveness? Today we will give you such an opportunity, as an interesting and attractive game appeared on our vast spaces, which allows us to poke our brains. Game aMAZE perfectly suitable not only for your children, but also the whole family.\r\nTry to get through the tangled labyrinth. After exiting the labyrinth, you will move to a larger labyrinth, and this will continue until you can not get out of all the labyrinths.\r\nIn this game you need to pass a small ball through the maze. It should be brought to the finish line, which is usually located at the other end of the labyrinth. The game has three levels of difficulty, choose based on your preferences. If you want to go through the game without problems, you can choose an easy level of difficulty. If you want a test for yourself, then safely choose a complex level of complexity.\r\nEvery time you play this maze game the maze itself is different, we through that was a really cool aspect. Not many maze games will create a whole new maze for you every time you start playing.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10357
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          8319
+        ]
+      },
+      {
+        "id": 71161,
+        "game_title": "aMAZE 2",
+        "release_date": "2017-04-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "How long have you developed your thinking and attentiveness? Today we will give you such an opportunity, as an interesting and attractive game appeared on our vast spaces, which allows us to poke our brains. Game aMAZE 2 perfectly suitable not only for your children, but also the whole family.\r\nTry to get through the tangled labyrinth. After exiting the labyrinth, you will move to a larger labyrinth, and this will continue until you can not get out of all the labyrinths.\r\nIn this game you need to pass a small ball through the maze. It should be brought to the finish line, which is usually located at the other end of the labyrinth. The game has three levels of difficulty, choose based on your preferences. If you want to go through the game without problems, you can choose an easy level of difficulty. If you want a test for yourself, then safely choose a complex level of complexity.\r\nEvery time you play this maze game the maze itself is different, we through that was a really cool aspect. Not many maze games will create a whole new maze for you every time you start playing. Levels became even greater, they became even more difficult and more interesting",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10357
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          8319
+        ]
+      },
+      {
+        "id": 19268,
+        "game_title": "Amok",
+        "release_date": "1996-10-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Amok portrays a futuristic storyline on a planet which is identified in the manual as having the same name. There, two gigantic corporations, referred to by the acronyms NONLUN and AZTK, had previously been having an all-out war between them for forty-seven years. The war had involved all possible fronts and theaters, including operations in the air, on the surface of the land and sea, and beneath the water. Very recently, a weak peace accord had only just been reached. In the manual, the peace accord is described as being much like \"a blanket covering the fire that smolders in the hearts of the people. The agreement is sufficiently unsteady that an influential mercenary company, known only as \"the Bureau,\" has now decided to hire a capable battle walker pilot named Gert Staun to restart the war so they can continue to make large amounts of money by taking lucrative contracts from both sides. The player takes the role of Gert Staun.\r\n\r\nNaturally \"the Bureau\" has placed a high priority on this, and they are funding it entirely on their own. Indeed, Gert Staun's battle walker, called the \"Slambird\" is explicitly said to be custom-modified. In particular, the Slambird can not only survive either on land or underwater, but it can transition between the two -- it can move, fight, and safely control its vertical position in either environment. These abilities are portrayed as costly and not standard to such vehicles in the universe where Amok takes place. The transformation of the Slambird between an underwater vehicle and a land vehicle is automatically scripted, however. The player has no power to control this transformation or alter the time when it happens. Instead, the player must get to the point when Staun will automatically bring the Slambird ashore to continue his attacks.\r\n\r\nThe object of this arcade-type game is to meet a series of objectives, and to do so in such a way that each side will blame the other. The game has a linear structure, based on levels that present tasks of increasing difficulty, and all sorts of hazards and targets are encountered. These include military bases, power generators, land mines, infantry, tanks, submarines -- even sharks and huge, aggressive birds. Infantry elements are poorly armored, so they can be killed by being run over. In one mission, the only way that the player will be able to get enough time to escape is to open with a surprise attack, slowing pursuit by destroying a parking facility full of unattended troop transport vehicles. Power-ups are scattered throughout the levels. The Slambird carries a variety of explosive devices and line-of-sight weapons. Some of the explosive weapons can bounce in a parabolic trajectory, and in addition there are two laser cannons that can fire rapidly an unlimited number of times. These cannons are useful in case no other weapons remain, and they can be used to create complex ripple fire, which can be used to cover an area that is surprisingly wide. When underwater, propellers are used, while torpedoes are automatically used instead of missiles.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          4931
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          2005
+        ]
+      },
+      {
+        "id": 26934,
+        "game_title": "Ankh",
+        "release_date": "2005-11-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ankh is a point-and-click 3D adventure game by Deck13 Interactive. It features a fully three-dimensional environment with cineastic camera movement. All content is fully spoken and the soundtrack reflects an authentic Egyptian atmosphere. Humor is an important aspect of the game, and the influence of classic LucasArts adventure games is noticeable.\r\n\r\nThe player takes the role of Assil, the son of a respected architect in Cairo. Assil is a party animal but at some point one of his party-nights turned out sour. When he tries to have some fun in the pyramids with two friends of his, he accidentally breaks some urns and thus disturbs the mummy resting in the pyramid. The mummy punishes Assil by placing a death curse on him, and now he has 24 hours to remove the curse and save himself. Later in the game Assil meets the Arabian ambassador's daughter Thara, who is also a playable character.\r\n\r\nRequires a game patch which consists of an updated audio .dll file made for Vista to run on Windows Vista or Windows 7.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2198
+        ],
+        "genres": [
+          1,
+          2,
+          5
+        ],
+        "publishers": [
+          2898
+        ]
+      },
+      {
+        "id": 35009,
+        "game_title": "Anki",
+        "release_date": "2015-08-17",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18257": [
+          {
+            "id": 217549,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18257-1.jpg",
+            "resolution": null
+          }
+        ],
+        "19101": [
+          {
+            "id": 363316,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19101-1.jpg",
+            "resolution": null
+          }
+        ],
+        "19268": [
+          {
+            "id": 55641,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19268-1.jpg",
+            "resolution": "476x476"
+          },
+          {
+            "id": 55642,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/19268-1.jpg",
+            "resolution": "640x503"
+          }
+        ],
+        "26934": [
+          {
+            "id": 75793,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/26934-1.jpg",
+            "resolution": "1024x1455"
+          },
+          {
+            "id": 75794,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/26934-1.jpg",
+            "resolution": "1024x1461"
+          }
+        ],
+        "35009": [
+          {
+            "id": 122834,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35009-1.jpg",
+            "resolution": "329x153"
+          }
+        ],
+        "71160": [
+          {
+            "id": 226110,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71160-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71161": [
+          {
+            "id": 226111,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71161-1.jpg",
+            "resolution": null
+          }
+        ],
+        "77267": [
+          {
+            "id": 321771,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77267-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97938": [
+          {
+            "id": 421784,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97938-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Among+Us&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 935,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630090
+}

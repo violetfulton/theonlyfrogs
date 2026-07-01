@@ -1,0 +1,325 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 83445,
+        "game_title": "Pokémon Brilliant Diamond",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Diamond Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version game in a reimagined adventure, Pokémon Brilliant Diamond, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Diamond Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 111505,
+        "game_title": "Pokémon Brilliant Diamond",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Diamond Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version game in a reimagined adventure, Pokémon Brilliant Diamond, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Diamond Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118853,
+        "game_title": "Pokémon Brilliant Diamond",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Revisit the Sinnoh region and the story of the Pokémon Diamond Version game.\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version game in a reimagined adventure, Pokémon Brilliant Diamond, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond game will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga.\r\n\r\nAdventure together with the Pokémon that appeared in the Pokémon Diamond Version game. Players of the original games can revisit familiar places and relive familiar scenes, while first time players can enjoy plenty of fun encounters and surprises that the Sinnoh region has to offer. The original story and the scale of the Sinnoh region’s towns and routes have been faithfully reproduced. This remake has also been revitalized with some of the player-friendly features of modern Pokémon games and up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond Version or Pokémon Pearl Version back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 121753,
+        "game_title": "Pokémon Diamant Étincelant",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 121675,
+        "game_title": "Pokémon Brilliant Diamond",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 31,
+        "overview": "Las aventuras de Pokémon Brilliant Diamond transcurren en Sinnoh.\r\n\r\nSe trata de una región de naturaleza exuberante, respaldada por el imponente Monte Corona y cuyos mitos se han transmitido de generación en generación.\r\n\r\nUn conocido profesor experto en la evolución de los Pokémon te pedirá que te embarques en un viaje por la región de Sinnoh con el fin de completar la Pokédex, una especie de enciclopedia sobre Pokémon.\r\n\r\nPrimer compañero Pokémon:\r\n\r\nAl comienzo de tu viaje, tendrás que elegir entre Turtwig, Chimchar o Piplup para que se convierta en tu Pokémon inicial.\r\nApunta a lo más alto:\r\n\r\nA medida que explores la región y vayas completando tu Pokédex, tendrás que enfrentarte a los Entrenadores Pokémon más fuertes de cada ciudad: los Líderes de Gimnasio.\r\nSi los derrotas, conseguirás Medallas de Gimnasio como prueba de tus victorias. Tendrás que reunir ocho Medallas de Gimnasio para poder competir en la Liga Pokémon, donde te verás las caras con los Entrenadores de más nivel: el Alto Mando y la Campeona.\r\n¡Supera cada desafío y conviértete en Campeón o Campeona de la Liga Pokémon, un título reservado sólo para los mejores Entrenadores!\r\nPokémon legendarios:\r\n\r\nDurante tu viaje, te toparás con los Pokémon legendarios Dialga o Palkia, dependiendo de si juegas a Pokémon Brilliant Diamond o a Pokémon Shining Pearl, respectivamente.\r\nDialga y Palkia son dos Pokémon legendarios que aparecen en los mitos de Sinnoh. Se dice que Dialga es la deidad del tiempo y Palkia, la deidad del espacio. Para los habitantes de Sinnoh, ambos Pokémon son una gran leyenda.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314,
+          10686
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 110720,
+        "game_title": "Pokemon Brilliant Diamond / Shining Pearl Double Pack ",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "A double pack containing the Pokémon Brilliant Diamond and Pokémon Shining Pearl games. The packaged version includes 1 physical Pokémon Brilliant Diamond game and 1 physical Pokémon Shining Pearl game.\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version and the Pokémon Pearl Version games in a reimagined adventure, Pokémon Brilliant Diamond and Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond and Pokémon Shining Pearl games will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to becoming the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga (in Pokémon Brilliant Diamond) or Palkia (in Pokémon Shining Pearl).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 87099,
+        "game_title": "Pokémon Brilliant Diamond and Pokémon Shining Pearl Double Pack",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "A double pack containing the Pokémon Brilliant Diamond and Pokémon Shining Pearl games, available as a packaged version or as a digital downloadable version. The packaged version includes 1 physical Pokémon Brilliant Diamond game and 1 physical Pokémon Shining Pearl game while the downloadable version includes digital versions of both the Pokémon Brilliant Diamond game and the Pokémon Shining Pearl game.\r\n\r\nRevisit the Sinnoh region and the story of the Pokémon Diamond Version and the Pokémon Pearl Version games\r\n\r\nExperience the nostalgic story from the Pokémon Diamond Version and the Pokémon Pearl Version games in a reimagined adventure, Pokémon Brilliant Diamond and Pokémon Shining Pearl, now on the Nintendo Switch system! Adventures in the Pokémon Brilliant Diamond and Pokémon Shining Pearl games will take place in the familiar Sinnoh region. Rich in nature and with mighty Mount Coronet at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll choose either Turtwig, Chimchar, or Piplup to be your first partner Pokémon and then set off on your journey to become the Champion of the Pokémon League. Along the way, you’ll be able to encounter the Legendary Pokémon Dialga (in Pokémon Brilliant Diamond) or Palkia (in Pokémon Shining Pearl).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 99095,
+        "game_title": "Pokemon Brilliant Diamond & Pokemon Shining Pearl [Dual Pack]",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 125990,
+        "game_title": "Pokémon Brilliant Diamond and Pokémon Shining Pearl [Dual Pack]",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Experience the nostalgic story from the Pokémon Diamond™ and Pokémon Pearl™ games in an adventure reborn on the Nintendo Switch™ system.\r\n\r\nAdventures in the Pokémon Brilliant Diamond and Pokémon Shining Pearl games will take place in the Sinnoh region. Rich in nature and with Mount Coronet towering at its heart, Sinnoh is a land of many myths passed down through the ages. You’ll visit many different locations in the Sinnoh region, while striving to become the Champion of the Pokémon League.\r\n\r\nThe original story has been faithfully reproduced, and the sense of scale in the originals’ towns and routes has been carefully preserved. People who played Pokémon Diamond and Pokémon Pearl can revisit familiar places and relive familiar scenes once more. For those setting out through Sinnoh for the first time, plenty of new encounters and surprises await.\r\n\r\nThese remakes include easy-to-understand, player-friendly conveniences of the modern Pokémon series, plus up-close-and-personal Pokémon battle scenes.\r\n\r\nWhether you played Pokémon Diamond or Pokémon Pearl back in the day or you’re encountering these games for the first time, there’s something for everyone to enjoy.\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10686
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "83445": [
+          {
+            "id": 430366,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83445-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87099": [
+          {
+            "id": 325405,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87099-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99095": [
+          {
+            "id": 337533,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99095-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110720": [
+          {
+            "id": 379772,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110720-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111505": [
+          {
+            "id": 382071,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111505-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 397070,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/111505-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118853": [
+          {
+            "id": 406488,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118853-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121675": [
+          {
+            "id": 421124,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121675-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121753": [
+          {
+            "id": 421445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121753-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125990": [
+          {
+            "id": 437043,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125990-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Brilliant+Diamond&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 288,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629987
+}

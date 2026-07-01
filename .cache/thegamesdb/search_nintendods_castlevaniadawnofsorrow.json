@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 6702,
+        "game_title": "Castlevania: Dawn of Sorrow",
+        "release_date": "2005-10-04",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The team that developed Castlevania: Aria of Sorrow returns to bring the sequel, CastleVania: Dawn of Sorrow, to the Nintendo DS. This time, you must infiltrate a castle belonging to a cult that is planning to resurrect Lord Dracula. Castlevania: Dawn of Sorrow lets you defeat evil spirits using the \"Magic Seal\" system which utilizes the Nintendo DS touch screen. You can trade captured souls with other players using the wireless system as well.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4765
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          23
+        ]
+      },
+      {
+        "id": 116175,
+        "game_title": "Castlevania: Dawn of Sorrow",
+        "release_date": "2005-09-30",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The team that developed Castlevania: Aria of Sorrow returns to bring the sequel, CastleVania: Dawn of Sorrow, to the Nintendo DS. This time, you must infiltrate a castle belonging to a cult that is planning to resurrect Lord Dracula. Castlevania: Dawn of Sorrow lets you defeat evil spirits using the \"Magic Seal\" system which utilizes the Nintendo DS touch screen. You can trade captured souls with other players using the wireless system as well.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4765
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          23
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6702": [
+          {
+            "id": 17218,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6702-1.jpg",
+            "resolution": "1532x1370"
+          },
+          {
+            "id": 17219,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6702-1.jpg",
+            "resolution": "1533x1370"
+          }
+        ],
+        "116175": [
+          {
+            "id": 395987,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116175-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Castlevania%3A+Dawn+of+Sorrow&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 602,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630034
+}

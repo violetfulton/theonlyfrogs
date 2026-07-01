@@ -1,0 +1,321 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 78354,
+        "game_title": "Borderlands 2: Game of the Year Edition",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Borderlands 2 was officially announced on August 3rd, 2011. The game was released on September 18, 2012 in the United States, September 20, 2012 in the Australasia region and September 21, 2012 internationally. Borderlands 2 was built in Unreal Engine 3 and uses PhysX technology. It was announced by Randy Pitchford, Gearbox CEO, that the game sold over 12 millions units by March 2015 on all platforms",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          984,
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          123
+        ]
+      },
+      {
+        "id": 119738,
+        "game_title": "Borderlands 3 [Ultimate Edition]",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Borderlands 3 Ultimate Edition is the quintessential Borderlands 3 experience, now on Nintendo Switch. Make some Mayhem at home or on the go with the award-winning base game plus all six content add-ons and the full collection of bonus cosmetic packs!\r\n\r\nBlast through multiple worlds as one of four Vault Hunters—the ultimate treasure-seeking badasses of the Borderlands, each with deep skill trees, abilities, and customization. Play solo or join a friend in two-player online co-op to take on deadly enemies, score loads of loot, and save your home from the most ruthless cult leaders in the galaxy.\r\n\r\nIncludes:\r\n\r\nBorderlands 3 base game\r\nMoxxi's Heist of the Handsome Jackpot\r\nGuns, Love, and Tentacles: The Marriage of Wainwright & Hammerlock\r\nBounty of Blood\r\nPsycho Krieg and the Fantastic Fustercluck\r\nDesigner's Cut\r\nDirector's Cut\r\n30+ cosmetic items\r\nYOUR VAULT HUNTER, YOUR PLAYSTYLE\r\n\r\nBecome one of four extraordinary Vault Hunters, each with unique abilities, playstyles, deep skill trees, and tons of personalization options.\r\n\r\nLOCK, LOAD, AND LOOT\r\n\r\nWith bazillions of guns and gadgets, every fight is an opportunity to score new gear. Firearms with self-propelling bullet shields? Check. Guns that grow legs and chase down enemies while hurling verbal insults? Yeah, got that too.\r\n\r\nA MAYHEM-FUELED THRILL RIDE\r\n\r\nDiscover new worlds beyond Pandora, each featuring unique environments to explore and enemies to destroy. Tear through hostile deserts, battle your way across war-torn cityscapes, navigate deadly bayous, and more!\r\n\r\nQUICK & SEAMLESS CO-OP ACTION\r\n\r\nPlay with a friend in online co-op, regardless of your level or mission progress. Take down enemies and challenges as a team, but reap rewards that are yours alone—no one misses out on loot.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          825
+        ]
+      },
+      {
+        "id": 88891,
+        "game_title": "Borderlands: Game of the Year Edition",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Discover the co-op shooter-looter that started it all, crammed with content and enhancements! Equip bazillions of guns as one of 4 trigger-happy mercenaries, each with unique RPG skills. Take on the lawless desolate planet Pandora in pursuit of powerful alien technology: The Vault. With new weapons, visual upgrades, all 4 add-on packs and more!\r\n\r\n• Bazillions of Guns: Rocket-launching shotguns, enemy-torching revolvers, SMGs that fire lightning rounds, and tons more.\r\n\r\n• Radical Art Style: Traditional rendering combined with hand-drawn textures give Borderlands its iconic style.\r\n\r\n• Intense Vehicular Combat: Behind the wheel, engage in frenetic vehicle-to-vehicle combat.\r\n\r\n• Co-op Frenzy: Online or together on the couch.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          123
+        ]
+      },
+      {
+        "id": 122280,
+        "game_title": "Borderlands: Legendary Collection",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Trois fois plus de chaos, trois fois plus de butin et trois fois plus d'action avec Borderlands Legendary Collection ! Tuez des bandits et des monstres, récupérez des armes toujours plus puissantes, et au passage, tentez de sauver l'univers dans Borderlands: Game of the Year Edition, Borderlands 2 et Borderlands: The Pre-Sequel. Cette collection inclut également une tonne de contenu additionnel pour chaque jeu, ajoutant des centaines d'heures de jeu à un prix incroyable.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 71370,
+        "game_title": "Borderlands: Legendary Collection",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Get three times the mayhem, three times the loot, and three times the action with the Borderlands Legendary Collection. Kill bandits and beasts, collect powerful weaponry, and maybe even save the universe in Borderlands: Game of the Year Edition, Borderlands 2, and Borderlands: The Pre-Sequel. Packed with piles of bonus add-on content for each game, adding 100+ hours of gameplay at an incredible value*.\r\n\r\nIncludes 3 critically acclaimed games in one package: Borderlands: Game of the Year Edition, Borderlands 2, and Borderlands: The Pre-Sequel - as well as piles of bonus add-on content for each game, adding 100+ hours of gameplay at an incredible value*.\r\n\r\n*Borderlands 2: Commander Lilith and the Fight for Sanctuary add-content not included.\r\n\r\nEnjoy all three games on the go with each featuring local 2-player split-screen co-op play or make some mayhem online with up to 4 other players.\r\n\r\nBorderlands: Game of the Year Edition - Discover the co-op shooter-looter that started it all, crammed with content and enhancements. Equip bazillions of guns as one of four trigger-happy mercenaries, each with unique RPG skills. Take on the lawless desolate planet Pandora in pursuit of powerful alien technology: The Vault.\r\n\r\nBorderlands 2 - Play as one of six Vault Hunters attempting to liberate Pandora from the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.\r\n\r\nBorderlands: The Pre-Sequel - Discover the story behind Borderlands 2 villain, Handsome Jack, and his rise to power. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lot of new gameplay featuring the genre blending fusion of shooter and RPG mechanics that players have come to love.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3422,
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8,
+          12
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 78355,
+        "game_title": "Borderlands: The Pre-Sequel Ultimate Edition",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Launch into the Borderlands universe and shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel! Discover the story behind Borderlands 2 villain Handsome Jack's rise to power with a new cast of playable characters, including Claptrap and some of the series' most iconic bad guys! The Pre-Sequel gives you a whole lotta new gameplay featuring the genre blending fusion of shooter and RPG mechanics that players have come to love. Float through the air with each low gravity jump while taking enemies down from above using new ice and laser weapons. Catch-a-ride and explore the lunar landscape with new vehicles allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure!",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          984,
+          3423
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          123
+        ]
+      },
+      {
+        "id": 105676,
+        "game_title": "New Tales from the Borderlands [Deluxe Edition]",
+        "release_date": "2022-10-21",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Luttez contre les maîtres impitoyables du monde des corporations dans cette aventure narrative !\r\n\r\nDans le cadre de la ville de Prométhée, en proie à une guerre sans fin, vous contrôlerez Anu, Octavio, et Fran pendant le pire jour de leurs vies. Aidez ces trois anti-héros sympathiques alors qu'ils essaient de changer le monde - et peut-être même de le sauver ! Faites face à une invasion planétaire, un méchant monstre de l'Arche et un capitaliste au cœur de glace dans cette virée cinématique pleine de sensations fortes où la suite ne dépend que de vous ! Faites la connaissance d'une équipe éclectique composée de marginaux, de robots assassins et d'armes à feu qui parlent, tous en route pour le sommet !\r\n\r\nIl est temps de lutter contre l'exploitation et la rapacité des grandes sociétés. Il est temps de devenir un professionnel du chaos.\r\n\r\nDevenez un professionnel du chaos.\r\n\r\nL'HISTOIRE PERDUE D'AVANCE DE TROIS ANTI-HÉROS SYMPATHIQUES- Déterminez le sort d'Anu, la scientifique altruiste, et d'Octavio, son frère ambitieux au « bagout » incomparable, et de Fran, la féroce lanceuse de glaces. N'ayant rien à perdre et tout à gagner, vous devrez progresser à coups de débrouille au cours de cinq chapitres passionnants débordants de bandits armés, de créatures d'un autre monde et de tacos délicieux.\r\nUNE AVENTURE CINÉMATIQUE EXPLOSIVE- Les Borderlands n'abritent pas que des Chasseurs de l'Arche, des psychopathes et des PDG de sociétés d'armement, mais aussi une multitude de civils démunis et intrépides qui cherchent simplement à survivre. Avec une foule de vieux de la vieille et de petits nouveaux, y compris un robot assassin aux ambitions d'humoriste, et un bandit moins-meurtrier-que-d'habitude, cette histoire inoubliable fera le bonheur des nouveaux fans comme des adeptes de la première heure.\r\nVOUS DÉCIDEZ DU RÉSULTAT FINAL- Vos décisions déterminent le déroulé de votre histoire. Que ce soit la vision d'Anu, qui souhaite voir un monde où autre chose que des armes seront commercialisées, la gloire et la fortune dont rêve Octavio ou encore le complot de vengeance glacial qu'arbore Fran, leurs succès ou leurs échecs dépendent de vous.\r\nContenu de l'Édition Deluxe :\r\n\r\nLe jeu complet\r\nLe jeu complet Tales from the Borderlands",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8465
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          123
+        ]
+      },
+      {
+        "id": 114383,
+        "game_title": "New Tales from the Borderlands [Deluxe Edition]",
+        "release_date": "2022-10-21",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "This Edition includes:\r\n\r\nThe Nintendo Switch version of New Tales from the Borderlands and a digital code of Tales from the Borderlands Full Game where you play as Rhys and Fiona in this hilarious, heart-wrenching story set on the desert world of Pandora.\r\n\r\nTake a stand against ruthless corporate overlords in this narrative-driven adventure!\r\n\r\nWithin the perpetually war-torn metropolis of Promethea, you’ll control Anu, Octavio, and Fran on the worst day of their lives. Help these three lovable losers as they endeavor to change the world (and maybe even save it)! Face down a planetary invasion, vicious vault monster, and cold-hearted capitalist in this cinematic thrill ride where what happens next is up to you! Meet a motley cast full of misfits, assassin bots, and talking guns in this race to the top! It’s time to fight back against exploitation and corporate greed. It’s time to make Mayhem your business.\r\n\r\nFeatures:\r\n- Decide the fates of altruistic scientist Anu, her ambitious, “streetwise” brother Octavio, and the fierce, frogurt-slinging Fran. With nothing left to lose and everything to gain, you’ll claw and con your way through this thrilling five-part story!\r\n- The Borderlands aren’t just home to Vault Hunters, psychos, and weapons-corp CEOs—they’re full of downtrodden, intrepid civilians just trying to get by. With a host of returning and fresh faces, this unforgettable tale is sure to delight fans new and old.\r\n- The decisions you make determine how your story ends in unexpected ways. Whether it’s Anu’s vision of a universe that markets more than weapons, Octavio’s dreams of fame and fortune, or Fran’s frosty plot for revenge—their success or failure depends on you.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          825,
+          3772
+        ]
+      },
+      {
+        "id": 93405,
+        "game_title": "Tales from the Borderlands: A Telltale Game Series",
+        "release_date": "2021-03-23",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The beloved, choice-driven narrative adventure through the Borderlands universe is now on Nintendo Switch! Set between the events of Borderlands 2 and Borderlands 3, Tales from the Borderlands follows two unreliable narrators on a quest borne of greed but destined for greatness. Your choices shape this tale to be uniquely yours, with plenty of unforeseen consequences ranging from hilarious to heart-wrenching.\r\n\r\nExplore the deadly planet of Pandora as Rhys, a company man who aspires to replace the infamous Handsome Jack as the head of the Hyperion corporation, and Fiona, a clever con artist who can talk her way out of almost anything. When a shady deal goes awry, Rhys and Fiona must begrudgingly team up to get their due, running into vicious gangsters, cannibalistic bandits, and terrifying wildlife along the way. How will you choose to guide their actions on this wild ride to Pandoran glory?",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          123
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "71370": [
+          {
+            "id": 226553,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71370-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78354": [
+          {
+            "id": 252875,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78354-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78355": [
+          {
+            "id": 252876,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78355-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88891": [
+          {
+            "id": 295322,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88891-1.jpg",
+            "resolution": null
+          }
+        ],
+        "93405": [
+          {
+            "id": 311797,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93405-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105676": [
+          {
+            "id": 362781,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105676-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114383": [
+          {
+            "id": 389551,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114383-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119738": [
+          {
+            "id": 410238,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119738-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122280": [
+          {
+            "id": 423422,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122280-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 198,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629973
+}

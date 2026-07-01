@@ -1,0 +1,633 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 61470,
+        "game_title": "Raft",
+        "release_date": "2018-05-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Raft throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 89715,
+        "game_title": "747 Aircraft Collection",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "MS FS add on",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 89729,
+        "game_title": "747 Aircraft Collection",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "MS FS add on",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130240,
+        "game_title": "All The Mods 10",
+        "release_date": "2023-10-19",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "    All the Mods started out as a private pack for just a few friends of mine that turned into something others wanted to play! It has all the basics that most other \"big name\" packs include but with a nice mix of some of newer or lesser-known mods as well. \r\n    The biggest changes this time around are that we are now using NeoForge and we are on the version 1.21. Expect many updates as mods come out! \r\n    In All the Mods 10 we will continue the tradition adding many new mods while going for more stability.\r\n\r\n    Does \"All the Mods\" really contain ALL THE MODS? No, of course not.",
+        "players": 99,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          3,
+          6,
+          10,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 134149,
+        "game_title": "Lara Craft Tomb Raider Legand (PC gamer presents version)",
+        "release_date": "2006-04-11",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The plot opens with a flashback sequence showing a nine-year-old Lara Croft travelling with her mother. The plane carrying them crashes into the Himalayas, apparently leaving them as the only two survivors. After taking shelter in the ruins of an ancient temple, Lara discovers an ornate stone dais holding a sword while searching for firewood. She unwittingly activates the ancient artefact and watches in horror as her mother vanishes in front of her eyes into a portal.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1963
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 107787,
+        "game_title": "NASCAR Craftsman Truck Series Racing",
+        "release_date": "1999-04-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6417
+        ],
+        "genres": [
+          7,
+          19
+        ],
+        "publishers": [
+          145
+        ]
+      },
+      {
+        "id": 96854,
+        "game_title": "Potion Craft - Alchemist Simulator",
+        "release_date": "2021-09-21",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Destaques:\r\nGráficos únicos inspirados em manuscritos e livros médicos medievais.\r\nInterações físicas muito satisfatórias com ingredientes e equipamentos.\r\nJogabilidade livre que permite diversas soluções e possibilidades de avanço. Cabe a você descobrir a melhor maneira de concluir cada tarefa.\r\nInterprete um artesão nobre, uma fuinha avarenta, um mestre das artes ocultas ou quem quiser ser para vender poções aos aldeões!\r\n\r\nTrabalhe com diversos tipos de ingredientes\r\nFolhas, flores, bagas, raízes, frutas, minerais e uma infinidade de cogumelos podem ir direto para o seu moedor. Como em um café de qualidade, a moagem dos ingredientes é essencial!\r\n\r\nAprenda a arte da criação de poções\r\nPrepare sua receita de poção. Moa os ingredientes e os misture cuidadosamente no caldeirão. Aqueça o carvão. Ferva e misture. Adicione a base: água, óleo ou... outra coisa. Parabéns, você criou sua primeira poção! Foi fácil de aprender? Agora tente dominar a técnica!\r\n\r\nFaça experimentos e crie receitas\r\nPlaneje cuidadosamente a rota no Mapa Alquímico para combinar diferentes efeitos. Não se esqueça do senso comum: ninguém vai querer comprar uma poção de cura venenosa... ou vai? Você compraria?\r\n\r\nVenda poções\r\nTodos os dias, clientes vêm até sua loja em busca de soluções para os problemas deles. Dependendo do que decidir vender, você precisará encarar as consequências. Atraia guildas, faça amizade (ou inimizade) com figuras notáveis, ganhe riquezas e influência e, um dia, talvez você decida o destino da cidade inteira.\r\n\r\nCompre ingredientes ou os cultive por conta própria\r\nQualquer alquimista precisa de ingredientes. Você pode comprá-los de comerciantes, mas isso pode ser caro, então negocie para poupar algumas moedas. Você pode, também, cultivar seus próprios ingredientes!\r\n\r\nExercite a criatividade com a personalização\r\nQuer dar uma aparência especial às melhores poções? Vá em frente! Mude o formato do frasco, o tipo de rótulo, o ícone e as cores. Você pode até dar a elas nomes e descrições personalizados. Organize suas poções únicas cuidadosamente para exibi-las nas prateleiras e nas mesas da loja... ou as jogue de um lado para o outro sem qualquer preocupação - a gente não vai dizer o que você tem que fazer, a não ser: divirta-se!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          3
+        ],
+        "publishers": null
+      },
+      {
+        "id": 89727,
+        "game_title": "The Legendary Aircraft Suite",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "MS FS add on",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          13
+        ],
+        "publishers": null
+      },
+      {
+        "id": 108896,
+        "game_title": "Warcraft III + Warcraft III Expansion Set [Best Seller Series]",
+        "release_date": "2003-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 8,
+        "rating": "T - Teen",
+        "developers": [
+          1204
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 70427,
+        "game_title": "Word of Warcraft  Battle chest",
+        "release_date": "2005-02-11",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          3,
+          4,
+          6
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 74092,
+        "game_title": "World of Warcraft (Collector's Edition)",
+        "release_date": "2004-11-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "World of Warcraft, often referred to as WoW, is a massively multiplayer online role-playing game (MMORPG) by Blizzard Entertainment, a subsidiary of Activision Blizzard. It is the fourth released game set in the fantasy Warcraft universe, which was first introduced by Warcraft: Orcs & Humans in 1994.  World of Warcraft takes place within the Warcraft world of Azeroth, approximately four years after the events at the conclusion of Blizzard's previous Warcraft release, Warcraft III: The Frozen Throne.\r\n\r\nAs with other MMORPGs, players control a character avatar within a game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players. Also similar to other MMORPGs, World of Warcraft requires the player to pay for a subscription, either by buying prepaid game cards for a selected amount of playing time, or by using a credit or debit card to pay on a regular basis.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 74100,
+        "game_title": "World of Warcraft [15th Anniversary Collector's Edition]",
+        "release_date": "2019-10-08",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Each set contains a treasure trove of collectible items celebrating the history of Azeroth, including:\r\n\r\nRagnaros Statue\r\nBehold Ragnaros, he who is ancient when this world was young! Bow, mortals, before this 10+ inch immortalization of the Firelord himself.\r\nOnyxia Pin\r\nAdd to your pin collection and adorn your home with the head of Onyxia, Broodmother of the Black Dragonflight.\r\nMap of Azeroth Mouse Pad\r\nGaze upon the realms your character has explored these past 15 years while you prepare for the next adventure.\r\nFine Art Prints\r\nReach into Azeroth’s vivid past with eight frameable fine art prints. \r\n30 Days of Game Time\r\nExtend your stay in Azeroth with 30 days of game time to aid you on your next adventure.\r\nAlabaster Mounts\r\nTake to the skies with these majestic alabaster mounts—living stone tributes to a pair of familiar flying creatures.*\r\nAlabaster Stormtalon for Alliance characters\r\nAlabaster Thunderwing for Horde characters\r\n\r\nIt’s a monumental year for World of Warcraft as we celebrate 15 years of epic adventures and community—don’t miss out on getting these treasured collectibles to mark the occasion.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 88694,
+        "game_title": "World of Warcraft Battle Chest",
+        "release_date": "2009-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Set in the fictional world of Azeroth, WoW allows players to create avatar-style characters and explore a sprawling universe while interacting with nonreal players—called nonplayer characters (NPCs)—and other real-world players (PCs).",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 119537,
+        "game_title": "World of Warcraft Battle Chest",
+        "release_date": "2013-10-14",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "World of Warcraft Battle Chest + 30-days\r\n• For new accounts only, includes your first 30 days of game time. Cannot be used with existing accounts. Can be used on \"Trial\" account, that was never upgraded with game time.\r\n\r\n• Includes Expansion Packs: The Burnings Crusade, Wrath of the Lich King, Cataclysm, Mists of Pandaria and Warlords Of Draenor.\r\n\r\n• Subscription, Internet connection, and Battle.net registration required",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1204
+        ],
+        "genres": [
+          2,
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 80358,
+        "game_title": "World of Warcraft Battlechest",
+        "release_date": "2013-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1202
+        ],
+        "genres": [
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 66158,
+        "game_title": "World of Warcraft Classic",
+        "release_date": "2019-08-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The drums of war thunder once again Return to a lost era of Azeroth and experience the timeless stories that defined this world at war. World of Warcraft Classic is a faithful recreation of the original World of Warcraftit runs a bit smoother on today's computers, but the game still looks and feels like you're playing World of Warcraft from 2006. Combat mechanics, original character models and skill trees all contribute to a truly authentic experience, as do your interactions with other players. Your reliance on others to take on the world was at the heart of the original WoW and is at the heart of World of Warcraft Classic. \r\n\r\n* Experience the game as it was before the release of any of its expansion sets, and journey back to its beginnings. \r\n* Venture forth into epic encounters such as Molten Core, Onyxia and Maraudon at launchas players progress, we'll introduce more content like Alterac Valley, the Ahn'Qiraj War Effort and Naxxramas.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 107889,
+        "game_title": "World of Warcraft Dragonflight [Collector's Edition]",
+        "release_date": "2022-11-28",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Take wing with the dragonflights of Azeroth to discover a world reborn. This Epic Edition Collector’s Set features a trove of rare and wondrous items to aid you on your journey to the mythical Dragon Isles.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          14
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 94895,
+        "game_title": "World of Warcraft Starter Edition",
+        "release_date": "2011-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          4,
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 88576,
+        "game_title": "World of Warcraft Trial Edition",
+        "release_date": "2004-11-23",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Millions of players quest in the World of Warcraft---and now, thanks to ATI, it has never been easier to join the adventure. Simply install the World of Warcraft Trial Edition, enter the world, and join thousands of mighty heroes for fourteen days.",
+        "players": 100,
+        "rating": "T - Teen",
+        "developers": [
+          1204
+        ],
+        "genres": [
+          14
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 31811,
+        "game_title": "World of Warcraft: Battle Chest",
+        "release_date": "2007-10-02",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The World of Warcraft is yours in this two-pack of the popular massively-multiplayer online RPG. Included are the original World of Warcraft game package and the WoW: The Burning Crusade expansion pack.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          2,
+          4,
+          14
+        ],
+        "publishers": [
+          47,
+          153
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "31811": [
+          {
+            "id": 83412,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/31811-1.png",
+            "resolution": "229x305"
+          }
+        ],
+        "61470": [
+          {
+            "id": 204467,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61470-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66158": [
+          {
+            "id": 216261,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66158-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70427": [
+          {
+            "id": 224738,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70427-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74092": [
+          {
+            "id": 237852,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74092-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74100": [
+          {
+            "id": 237860,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74100-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80358": [
+          {
+            "id": 260638,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80358-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88576": [
+          {
+            "id": 294514,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88576-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 294515,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/88576-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88694": [
+          {
+            "id": 294855,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88694-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89715": [
+          {
+            "id": 298332,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89715-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89727": [
+          {
+            "id": 298346,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89727-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89729": [
+          {
+            "id": 298348,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89729-1.jpg",
+            "resolution": null
+          }
+        ],
+        "94895": [
+          {
+            "id": 319779,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/94895-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96854": [
+          {
+            "id": 327271,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96854-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107787": [
+          {
+            "id": 371110,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107787-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107889": [
+          {
+            "id": 371590,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107889-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108896": [
+          {
+            "id": 375228,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108896-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119537": [
+          {
+            "id": 409361,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119537-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 409362,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/119537-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130240": [
+          {
+            "id": 454622,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130240-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134149": [
+          {
+            "id": 472315,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134149-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Raft&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Raft&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
+  },
+  "remaining_monthly_allowance": 865,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630077
+}

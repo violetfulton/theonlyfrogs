@@ -1,0 +1,66 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 78978,
+        "game_title": "Phasmophobia",
+        "release_date": "2020-09-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Phasmophobia is a 4 player online co-op psychological horror where you and your team members of paranormal investigators will enter haunted locations filled with paranormal activity and gather as much evidence of the paranormal as you can. You will use your ghost hunting equipment to search for and record evidence of whatever ghost is haunting the location to sell onto a ghost removal team.\r\n\r\nYou can choose to support your team by monitoring the location with CCTV cameras and motion sensors from the safety of the truck or head inside and get your hands dirty with the ghostly activity that will get increasingly hostile as time goes on.\r\n\r\nImmersive Experience: Realistic graphics and sounds as well as having minimal user interfaces will ensure a totally immersive experience that will keep you on your toes.\r\nCross platform: Phasmophobia supports all players whether they have VR or not so can enjoy the game with your VR and non VR friends.\r\nCo-op multiplayer: Play alongside your friends with up to 4 players in this co-op horror where teamwork is key to your success.\r\nUnique Ghosts: Over 10 different types of Ghosts all with unique traits meaning each investigation will be different.\r\nInvestigate: Use well known ghost hunting equipment such as EMF Readers, Spirit Boxes, Thermometers and Night Vision Cameras to find clues and gather as much paranormal evidence as you can.\r\nFull Voice Recognition: The Ghosts are listening! Use your actual voice to interact with the Ghosts through Ouija Boards and EVP Sessions using a Spirit Box.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          18
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "78978": [
+          {
+            "id": 254299,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78978-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phasmophobia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 863,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630077
+}

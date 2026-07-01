@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 129432,
+        "game_title": "Minecraft",
+        "release_date": "2024-10-22",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Minecraft, the best-selling game of all time, is coming to PlayStation 5. Build anything you can imagine with unlimited resources in Creative mode, or go on grand expeditions in Survival, journeying across mysterious lands and into the depths of your own infinite worlds.\r\n\r\n* A physical retail edition was made available on the same date. It included the base game & 3,500 tokens of in-game currency (via PSN voucher code) for you to spend on Minecraft Marketplace mash-ups, texture packs, skin packs, worlds, and more.\r\n\r\nFeatures:\r\n- Create: Build anything you can imagine in the ultimate sandbox games.  \r\n- Explore: Uncover the mysteries of an infinite world that's unique in every playthrough.\r\n- Survive: Take on challenging foes, thrilling landscapes, and perilous dimensions.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          12
+        ],
+        "publishers": [
+          88,
+          4048
+        ]
+      },
+      {
+        "id": 113765,
+        "game_title": "Minecraft Legends [Deluxe Edition]",
+        "release_date": "2023-04-18",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Uncover an epic legend from the Minecraft universe!\r\nRaise your banner high and inspire your allies! Call on familiar mobs and new friends to defeat the ravenous piglins and save the Overworld from their destructive greed.\r\n\r\nThe piglins’ Nether corruption is spreading across the Overworld, scorching everything it touches. Are you the hero who will protect this gentle land? Plan your strategy and face the piglins in epic battles – but be warned: they always fight back. Take on piglin bases by day and defend your allies after dusk. Explore lush biomes filled with treasures and perils, meet new friends, and reunite with familiar mobs. With the allays by your side, all that’s left to do is save the world.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1166
+        ],
+        "genres": [
+          1,
+          6
+        ],
+        "publishers": [
+          88
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "113765": [
+          {
+            "id": 387415,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113765-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129432": [
+          {
+            "id": 450855,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129432-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Minecraft&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 101,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629957
+}

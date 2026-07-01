@@ -1,0 +1,78 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 2547,
+        "game_title": "Amnesia: The Dark Descent",
+        "release_date": "2010-09-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Amnesia: The Dark Descent is an action adventure, survival horror game by Frictional Games, who previously developed the Penumbra series. The game features an unarmed protagonist exploring a dark and foreboding castle, while avoiding monsters and other obstructions as well as solving puzzles.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3178
+        ],
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": [
+          400
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2547": [
+          {
+            "id": 10685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2547-1.jpg",
+            "resolution": "851x1200"
+          },
+          {
+            "id": 62194,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2547-1.jpg",
+            "resolution": "756x1071"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Amnesia%3A+The+Dark+Descent&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 984,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630098
+}

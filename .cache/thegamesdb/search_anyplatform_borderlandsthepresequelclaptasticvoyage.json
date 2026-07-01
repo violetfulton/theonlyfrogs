@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 32869,
+        "game_title": "Borderlands: The Pre-Sequel - Claptastic Voyage",
+        "release_date": "2015-03-24",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Claptastic Voyage is the first major story pack DLC for Borderlands: The Pre-Sequel. Handsome Jack has found something ludicrously powerful within Claptrap’s mind. Never one to turn down a chance for more power, Handsome Jack digitizes the Vault Hunters and sends them inside! Their goal is simple: find the mysterious \"H-Source\" code and get out of Claptrap’s consciousness without going completely insane. These anti-heroes will have to deal with Claptrap’s personal insecurities, his malware, and digital representations of his crushing loneliness.\r\nClaptastic Voyage will answer important Borderlands questions like why Claptrap loves dubstep so much, all while exploring his inner most thoughts. You’ll also get a chance to visit all-new environments, make new friends (and run into some old ones), and get some new gear. On top of that, Claptastic Voyage features a new customizable arena that lets you choose your own gravity settings, enemy difficulty, and more. There’s also a brand new glitched weapons system and many more fun surprises for you to discover.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423,
+          10068
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "32869": [
+          {
+            "id": 86029,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32869-1.jpg",
+            "resolution": "230x326"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands%3A+The+Pre-Sequel+-+Claptastic+Voyage&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 182,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629970
+}

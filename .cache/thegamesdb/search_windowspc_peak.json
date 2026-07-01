@@ -1,0 +1,594 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 133583,
+        "game_title": "PEAK",
+        "release_date": "2025-06-16",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Do you have what it takes to reach the PEAK?",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 83051,
+        "game_title": "Peaky Blinders: Mastermind",
+        "release_date": "2020-08-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Peaky Blinders: Mastermind is a puzzle-adventure game, based on the multi-award-winning BBC and Netflix TV show.\r\n\r\n\r\n\r\nWelcome to Birmingham, during the aftermath of the Great War. Set right before the events of Season One, Peaky Blinders: Mastermind lets you join the Shelby family's criminal gang. Follow the rise of Tommy as he successfully uncovers a sinister plot to put the family out of business, proving himself worthy of being the true mastermind of the Peaky Blinders.\r\n\r\n\r\n\r\nMastermind refers to Tommy's ability to plan complex scenarios in his head. As the player, you get to exercise this power by taking control of key members of the Shelby family including Tommy, Arthur, Polly and more. Become the Mastermind as you freely reset and rewind each character's path in order to tune all of their actions for perfect coordination.\r\n\r\n\r\n\r\nAchieve the highest mission rating by strategically utilising characters and stealth to solve increasingly complex puzzles with optimum timing.\r\n\r\n\r\n\r\nKEY FEATURES:\r\nTRUE TO THE TV SHOW\r\nTake control of Tommy, Arthur, Polly, John, Ada and Finn as they navigate through familiar locations including The Garrison Tavern, Charlie Strong’s Yard, Shelby Parlour and more.\r\nTHE RISE OF TOMMY\r\nWhen a Peaky Blinder is implicated in the murder of a Chinese opium dealer, Tommy embarks on a mission to find out the truth, slowly growing into the true Peaky Blinders' Mastermind.\r\nBECOME THE MASTERMIND\r\nExercise Tommy's power to plan complex scenarios in his head, by taking control of each key member of the Shelby family and perform their actions in parallel.\r\nMANIPULATE TIME\r\nEach character’s actions are automatically logged in a timeline which you can freely reset, fast-forward and rewind, until the plan is perfectly adjusted.\r\nSTEALTH AND STRATEGY\r\nEach mission is an increasingly complex puzzle to be solved undetected and on time. Choose the right characters and abilities to coordinate and execute the optimum plan.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1991
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          2278
+        ]
+      },
+      {
+        "id": 116781,
+        "game_title": "Dragon Naturally Speaking Preferred ",
+        "release_date": "1997-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          21
+        ],
+        "publishers": null
+      },
+      {
+        "id": 83505,
+        "game_title": "Tales From Off-Peak City Vol. 1",
+        "release_date": "2020-05-15",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Tales From Off-Peak City Vol. 1 is set in the same universe as both The Norwood Suite and Off-Peak, Cosmo D’s previous games.\r\n\r\nIt’s a hazy Sunday morning on the corner of July Avenue and Yam Street. Caetano Grosso, a former saxophone player and longtime pizza-maker, is just getting his pizza oven warmed up. Orders are trickling in, and he needs someone to help with the deliveries. You sense an opportunity, but unbeknownst to him, what you’re really after is his old saxophone, and you’re going to get it one way or another. Your pursuit will set off a chain of events across the neighborhood, taking you deep into the hidden worlds and private lives of the people living there.\r\n\r\nTales From Off-Peak City is a first-person adventure game series, all set on, around, and under a single street corner. Filled with memorable characters and the spaces they inhabit, the game provides an open-ended world full of secrets and hidden agendas. Building on the gameplay foundations of Off-Peak and The Norwood Suite, players will explore the streets and its surroundings, make pizzas, take photos, push buttons, open drawers they’re not supposed to, and lose themselves inside the atmospheric musical score that integrates itself directly into the game world.\r\n\r\nVolume 1: Caetano’s Slice is the first game of many in the anthology of Tales. While each ‘Volume’ is its own self-contained story and experience, taken together, they build towards the larger over-arching narrative of what’s really going on at the corner of July Avenue and Yam Street and what role you ultimately play in its fate.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 31050,
+        "game_title": "The static speaks my name",
+        "release_date": "2015-08-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A dark/sad/weird/funny first person exploration game. You play a man on his last night alive as he obsesses over a mysterious painting. More of a story game in that it emphasizes mood and character over gameplay. Takes ten minutes to play and has \"next-gen\" features like a shrimp tank with pet shrimp. Be warned, the game contains explicit handling of suicide.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          4466
+        ],
+        "genres": [
+          18
+        ],
+        "publishers": [
+          3263
+        ]
+      },
+      {
+        "id": 22763,
+        "game_title": "Twin Peaks - Black Lodge 2600",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Black Lodge is an Atari 2600-style action video game for PC and Mac, created by Jak Locke as a love letter to both retro gaming and Twin Peaks. From the manual (which I highly recommend reading for your amusement and gameplay experience):\r\n\r\nA day in the FBI was never like this before! You are Special Agent Dale Cooper and you’ve found yourself trapped inside of the Black Lodge, a surreal and dangerous place between worlds.\r\n\r\nTry as you might, you can’t seem to find anything but the same room and hallway no matter which way you turn. Worse yet, your doppelganger is in hot pursuit! You have no choice but to keep running through the room and hallway (or is it more than one?) and above all else, don’t let your doppelganger touch you! Your extensive physical training in the FBI will provide you a seemingly limitless supply of energy to run as long as necessary, but running out of breath is the least of your worries!\r\n\r\nYou’ll find quickly that you’re not alone in the Black Lodge, though your friends are few and far between. Not only that, the lodge itself seems to be actively trying to trip you up at all times! You’ll be dodging chairs and crazed Lodge residents all while trying to keep your own insanity. How long can this go on?\r\n\r\nNo time to think of that now -here comes that doppelganger again. Just keep on running through the curtains or it will surely be curtains for you!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4410
+        ],
+        "genres": [
+          2,
+          5,
+          18,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 61226,
+        "game_title": "Demon Peak",
+        "release_date": "2017-07-07",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Demon Peak is a 2D Action-Platformer inspired by old-school Metroidvanias and fighting games. Focusing on close combat and movement abilities, you explore intertwining areas for abilities, powerups and bosses to slay.\r\n\r\nCreated by a group of gamedev students as a year-long project, Demon Peak features hand-painted pixel art, dozens of abilities and enemies, over a hundred rooms and a full 30-minute Soundtrack by Donovan Kirk!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 117726,
+        "game_title": "Dodo Peak",
+        "release_date": "2023-08-03",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Dodo Peak is a retro platformer for everyone.\r\n\r\nPlay as a dodo bird to find and rescue your lost babies from a series of dangerous peaks. Maneuver them home while avoiding obstacles and enemies! Dodo Peak is a throwback to the classic arcade games of the past with a modern twist.\r\n\r\nCollect coins, dodge sneaky snakes, avoid malevolent monkeys, grab power-ups for extra speed or super strength, and strive for the best time across a stunning variety of handcrafted islands. Unlock new, faster dodos to tackle even harder levels.  As your pack grows, so does the challenge in bringing them home!\r\n\r\nFeatures:\r\nBeautiful handcrafted levels with unique layouts, goals, and enemies\r\nA variety of environments including tropical islands, sunset hills, and dangerous volcanoes (with more on the way!)\r\nUnlock funny and unique new dodos by beating levels and collecting coins\r\nCompete to finish levels the fastest on in-game leaderboards\r\nEndless Mode and Daily Challenges",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          15,
+          22
+        ],
+        "publishers": null
+      },
+      {
+        "id": 66285,
+        "game_title": "Off-Peak",
+        "release_date": "2015-02-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "You're stranded at a cathedral-like train station in the near future, searching for a ticket out of town. Explore the secret passageways, interact with strangers, dig for records, and get hypnotized by the soundtrack – a batch of original music courtesy of the band, Archie Pelago. \r\n\r\nWelcome to Off-Peak, a game created by Archie Pelago cellist Cosmo D.\r\n\r\nIn the game, players will uncover a world where the fate of it's musicians and artists is unclear, yet their tools of the trade are highly prized. Meanwhile, the station itself provides all the comforts a commuter could ask for: great food, the best beer, entertaining board games, relaxing gardens. But who is really benefiting here? It is entirely up to the player to what degree they want to engage in and interpret Off-Peak's stories, characters and themes.\r\nGameplay\r\nOff-Peak is a first-person adventure game that takes place in one giant area with multiple nooks, crannies and hidden passageways to discover. Within its own bounds, the game can be explored at any pace or direction the player so chooses. On average, the game takes roughly 20-30 minutes to play in its entirety.\r\nOff-peak Is freeware.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 110395,
+        "game_title": "Shadows Peak",
+        "release_date": "2017-03-13",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Shadows Peak is an atmospheric, open-world horror game focused on exploration that doesn't hold your hand.\r\n\r\nThe main focus of the game is on the atmosphere, story, and exploration. Unlike most horror games, Shadows Peak allows you to explore large environments and progress through the game in a non-linear way.\r\n\r\nYou play as the writer Tom Blair who has decided to visit a mysterious place called Shadows Peak to gather materials for a new book about legends. A number of people have gone missing in Shadows Peak. Some people claim that they saw something that they shouldn’t have been able to see there and, of course, there are some dark legends surrounding this place.\r\n\r\nKey Features\r\n- Large environments\r\n- Non-linear gameplay\r\n- No hand holding\r\n- Mysterious story\r\n- Haunting atmosphere\r\n- Gamepad support for 50 controllers",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 105355,
+        "game_title": "Papa's Quiz",
+        "release_date": "2020-12-29",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Papa’s Quiz is a party game for 1-8 players. Use phones or tablets as controllers and compete in multiple question types, where the smartest and fastest player will be the last standing victor! Share screen on Discord or use Steam Remote Play to play with your friends!",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          23,
+          25,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 944,
+        "game_title": "Pro Evolution Soccer 2011",
+        "release_date": "2010-10-08",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Pro Evolution Soccer 2011  is an association football video game in the Pro Evolution Soccer series developed and published by Konami with production assistance from the Blue Sky Team. The game was announced on 9 February 2010 and was released on the PlayStation 3, PC and Xbox 360 on 30 September 2010 in the European Union and 8 October 2010 in the United Kingdom. The versions of Wii, PlayStation 2, and PlayStation Portable were released on 28 October 2010. The UEFA Champions League and UEFA Europa League are featured within the game, and for the first time in the series, UEFA Super Cup and CONMEBOL's Copa Libertadores will be fully licensed",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4765
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": null
+      },
+      {
+        "id": 7798,
+        "game_title": "Pro Evolution Soccer 2012",
+        "release_date": "2011-09-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pro Evolution Soccer 2012 (officially abbreviated as PES 2012 and known as World Soccer: Winning Eleven 2012 in Asia) is a video game which is the eleventh edition in the Pro Evolution Soccer series developed and published by Konami (and MicroByte in Argentina) with production assistance from the Blue Sky Team. Lionel Messi, who was the cover star for the series since PES 2009, was replaced by PES 2008 cover star Cristiano Ronaldo,[5] while Shinji Kagawa replaces Messi as the cover star for the Japanese version. The US and Latin American cover features Santos player Neymar and Cristiano Ronaldo.[6]\r\n\r\nLike previous versions of the game, it will be exclusively licensed by UEFA to contain the UEFA Champions League, UEFA Europa League and UEFA Super Cup competitions along with a license from CONMEBOL to feature the Copa Santander Libertadores. Referees' governing UEFA Champions League, UEFA Europa League and UEFA Super Cup matches will wear the official UEFA Champions League uniforms, which is a first for the series. [7] Primeira Liga were included for the first time in series with three licensed teams.\r\n\r\nOn July 28, 2011, Konami confirmed that PES 2012 was going to be released for Xbox 360, PlayStation 3 and Microsoft Windows on October 14, 2011 in Europe and October 6, 2011 in Japan.[8] At Gamescom 2011 it was announced that the PlayStation Portable and PlayStation 2 versions would follow on October 28, 2011 and the Wii on November 4, 2011. The publisher has also confirmed that versions for Nintendo 3DS and iOS formats are also in development, with firm dates to follow.\r\n\r\nThere are two demos, both of which were released for the PlayStation 3, PC although the Xbox 360 only had the second demo due to problems with the first one. The first is based on a preview build of the game and was released on August 24, 2011 for PlayStation 3 and PC,[9] though because of \"issues on both sides\" according to Jon Murphy, PES Team Leader, it was not released on the Xbox 360.[10] The second demo was released 14 September on the Xbox 360, PlayStation 3 and PC.[11][12]",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          4624
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          23
+        ]
+      },
+      {
+        "id": 18579,
+        "game_title": "Pro Evolution Soccer 2014",
+        "release_date": "2013-11-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pro Evolution Soccer 2014 centers everything on the ball including how it moves and how players use it. First touch and sublime control are what set certain players apart from others. The ability to not only read a pass, but to be one step ahead and to know what is needed to gain yards on an encroaching defender. Trueball Tech allows the player to trap or knock on a pass using the analogue stick with detailed bar-centric physics determining the weight shift of the player and the height and speed of the pass, as to how the player's body will automatically shape to receive it. The Pro Evolution Soccer series has long since treated the ball as an individual entity, allowing the player huge amounts of freedom to pass into space, run on to a knocked-on counter, or produces short triangular passes to make space. Trueball Tech adds even more freedom, with full 360-degree control within several yards around the player and the ability to shield the ball from opposing players, use deft controls to wrong-foot them, and intuitive methods to master close control.",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          4765
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          23
+        ]
+      },
+      {
+        "id": 23897,
+        "game_title": "Pro Evolution Soccer 2015",
+        "release_date": "2014-11-11",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pro Evolution Soccer 2015 (abbreviated to PES 2015 and known officially as World Soccer: Winning Eleven 2015 in Asia) is a football simulation game developed by PES Productions and published by Konami for PlayStation 4, PlayStation 3, Xbox One, Xbox 360, and Microsoft Windows. It is the fourteenth edition of the Pro Evolution Soccer series. The previous edition was PES 2014.\r\n\r\n--ITA--\r\nPES 2015 (sottotitolato Pro Evolution Soccer) è un videogioco di calcio, sviluppato da Konami e facente parte della celebre serie di PES.\r\nLa cover star di questa edizione è Mario Götze, mentre per la versione giapponese è Keisuke Honda.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          4765
+        ],
+        "genres": [
+          11
+        ],
+        "publishers": [
+          23
+        ]
+      },
+      {
+        "id": 39308,
+        "game_title": "Pro Evolution Soccer 2017",
+        "release_date": "2016-09-14",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The award winning series returns taking the famed gameplay to a new level by achieving interactive reality in both control and new authentic visuals. \r\n\r\nControl Reality in Pro Evolution Soccer 2017 with these new features:\r\n\r\n• Real Touch – Players control the ball in unique ways based on where and how you control them\r\n\r\n• Adaptive AI – For the first time in a football game, the AI will learn how you play and adapt accordingly\r\n\r\n• Natural Player Movement – Hundreds of new animations have been added to bring the players to life\r\n\r\n• Goalkeepers – Keepers see a great jump in their quality, through added motions and animations\r\n\r\n• myClub – Buy the players you want with the new myClub Scout/Auction feature",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          4780
+        ],
+        "genres": null,
+        "publishers": [
+          140
+        ]
+      },
+      {
+        "id": 27542,
+        "game_title": "Pixi",
+        "release_date": "2011-05-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Control flocks of brightly colored Pixi to defend your stars from the evil Boxi. Gain fantastic new abilities as you complete each world to defeat terrible bosses that await you.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3885
+        ],
+        "genres": [
+          1,
+          5,
+          6
+        ],
+        "publishers": [
+          873
+        ]
+      },
+      {
+        "id": 69820,
+        "game_title": "Puss!",
+        "release_date": "2018-08-02",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Insane, absurd and intense avoid-'em up game about a cat! ",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 73002,
+        "game_title": "Pirates, Vikings, and Knights II",
+        "release_date": "2010-02-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pirates, Vikings, and Knights II pits three teams against each other in a struggle for wealth, power and total domination. Whether using the Gunpowder Keg to clear out a territory full of enemies, or the Javelin to pin your dead foes to a wall, you'll find this game both hilarious and exhilarating.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 91067,
+        "game_title": "This is the Zodiac Speaking",
+        "release_date": "2020-10-15",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "This is the Zodiac Speaking is a dark, fact-based single-player FPP adventure thriller combining stealth & detective modes in a stylized world of California 1970s and based on the story of Zodiac, one of the most famous never-caught serial killers.\r\n\r\nPlay as Robert Hartnell, a San Francisco journalist, who receives a phone call from the Zodiac greeting him with the memorable \"Hello, this is the Zodiac speaking\".\r\n\r\nThis is the Zodiac Speaking is a thriller with elements of horror, stealth mechanics, detective mode and several endings to discover. The gloomy atmosphere of the game is achieved with the original, stylized graphics and film-like music. The co-author of the script to This is the Zodiac Speaking is Łukasz Orbitowski, one of the best Polish writers, laureate of the prestigious Paszporty Polityki award and nominated for the Nike award.\r\n\r\nPlay This is the Zodiac Speaking and:\r\nDiscover the evidence-based story of America's most famous never caught serial killer\r\nExperience the story from the perspective of a person who survived the attack of the psycho killer\r\nUnravel the details of the murders during psychological sessions and in detective mode\r\nListen to the voices of victims and save their souls\r\nDiscover the alternative endings\r\nEnjoy the atmospheric, film music\r\nTravel to the vintage '70s and feel the climate of the past",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          5,
+          18
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "944": [
+          {
+            "id": 19820,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/944-2.jpg",
+            "resolution": "758x1074"
+          }
+        ],
+        "7798": [
+          {
+            "id": 20533,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/7798-1.jpg",
+            "resolution": "1525x2154"
+          }
+        ],
+        "18579": [
+          {
+            "id": 52772,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18579-1.jpg",
+            "resolution": "1280x1822"
+          }
+        ],
+        "22763": [
+          {
+            "id": 67389,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/22763-1.jpg",
+            "resolution": "2000x2000"
+          },
+          {
+            "id": 67390,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/22763-1.jpg",
+            "resolution": "1024x732"
+          }
+        ],
+        "23897": [
+          {
+            "id": 70066,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23897-1.jpg",
+            "resolution": "1200x1390"
+          }
+        ],
+        "27542": [
+          {
+            "id": 76941,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/27542-1.jpg",
+            "resolution": "1024x640"
+          }
+        ],
+        "31050": [
+          {
+            "id": 81776,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/31050-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "39308": [
+          {
+            "id": 108585,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/39308-1.jpg",
+            "resolution": "1101x593"
+          }
+        ],
+        "61226": [
+          {
+            "id": 203873,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61226-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66285": [
+          {
+            "id": 216539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66285-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69820": [
+          {
+            "id": 223757,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69820-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73002": [
+          {
+            "id": 233711,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73002-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83051": [
+          {
+            "id": 271761,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83051-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83505": [
+          {
+            "id": 284242,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83505-1.jpg",
+            "resolution": null
+          }
+        ],
+        "91067": [
+          {
+            "id": 303314,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/91067-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105355": [
+          {
+            "id": 361192,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105355-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110395": [
+          {
+            "id": 378918,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110395-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116781": [
+          {
+            "id": 398344,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116781-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117726": [
+          {
+            "id": 402232,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117726-1.jpg",
+            "resolution": null
+          }
+        ],
+        "133583": [
+          {
+            "id": 469969,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/133583-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Peak&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 790,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630064
+}

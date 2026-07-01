@@ -1,0 +1,618 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 120238,
+        "game_title": "Final Fantasy Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the first game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nEarth, fire, water, wind... The light that once shone within the four Crystals was lost. Darkness covered the land, until the only hope for humanity rested in legends past. Become the Warriors of Light and embark on your own journey to restore power to the Crystals and save the world.\r\n\r\nSwitch between classes to improve your characters. Traverse the wide world with your airship and other vessels. Return to the game that started it all.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 131685,
+        "game_title": "Final Fantasy 1 ridiculous",
+        "release_date": "2023-04-13",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The original FINAL FANTASY comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the first game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nEarth, fire, water, wind... The light that once shone within the four Crystals was lost. Darkness covered the land, until the only hope for humanity rested in legends past. Become the Warriors of Light and embark on your own journey to restore power to the Crystals and save the world.\r\n\r\nSwitch between classes to improve your characters. Traverse the wide world with your airship and other vessels. Return to the game that started it all.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 61036,
+        "game_title": "Final Fantasy XII: The Zodiac Age",
+        "release_date": "2019-04-30",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Enter an era of war within the world of Ivalice. The small kingdom of Dalmasca, conquered by the Archadian Empire, is left in ruin and uncertainty. Princess Ashe, the one and only heir to the throne, devotes herself to the resistance to liberate her country. Vaan, a young man who lost his family in the war, dreams of flying freely in the skies. In a fight for freedom and fallen royalty, join these unlikely allies and their companions as they embark on a heroic adventure to free their homeland. Final Fantasy XII: The Zodiac Age improves upon the 2006 classic Final Fantasy XII, now more beautiful and easier to play than ever. The high-definition remaster introduces several modern advancements, including reconstructed battle design and a revamped job system. With newly implemented trophies and share functions, as well as stark visual and sound improvements in true HD for the first time, players both returning and new to the game will experience a grand adventure that spans the world of Ivalice in an entirely fresh and improved way.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 120237,
+        "game_title": "Final Fantasy II Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY II comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the second game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nOur epic tale begins with four young souls orphaned during the struggle between the Palamecian Empire and the rebel army. On their journey, the youths join forces with the white wizard Minwu, Prince Gordon of Kashuan, Leila the pirate, and many others. Behold the beautiful and sometimes tragic twists of fate that await you on your adventure.\r\n\r\nFFII introduced a unique skill level system that strengthens different attributes of the characters depending on their fighting style instead of leveling up. Use the key terms you learn in conversation to unlock new information and progress in the story.\r\n\r\nThis innovative game series takes an ambitious turn in this second installment in the FINAL FANTASY series!\r\n",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 120239,
+        "game_title": "Final Fantasy III Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY III comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the third game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nWith the power of light nearly eclipsed by the power of darkness, only the crystals' four chosen adventurers can save the world.\r\n\r\nExperience the iconic job changing system first introduced in FFIII - switch jobs at will and use various abilities as you progress in the game. Change into a variety of classes like Warrior, Monk, White Mage, Black Mage, Dragoon, Evoker, or even call monsters to do your bidding with as a Summoner.\r\n\r\nEnjoy the exciting third installment in the FINAL FANTASY series!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 120240,
+        "game_title": "Final Fantasy IV Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY IV comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the fourth game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nThe Kingdom of Baron sent their elite airship fleet, the Red Wings, to attack the surrounding countries. Distressed by his mission, Cecil, a dark knight and captain of the Red Wings, decides to fight against the tyrannical Baron with his trusted friend and his paramour at his side. In his search for the crystals, Cecil must travel over land, under the ground, to the Land of Summons, and even to the moon. Join forces with Kain the dragoon, Rosa the white mage, Rydia the summoner, and many more skilled allies.\r\n\r\nFFIV is the first title to introduce the dynamic \"Active Time Battle\" system, where time moves even during battle, giving the players an exciting sense of urgency.Thanks to the wide appeal of the game, this revolutionary system would be implemented in many future titles in the series.\r\n\r\nWItness the dramatic story and dynamic battles in this fourth installment of the FINAL FANTASY series!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 131686,
+        "game_title": "Final fantasy 8 ridiculous",
+        "release_date": "2015-01-01",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 122454,
+        "game_title": "Final Fantasy Pixel Remaster: FF35th Anniversary Edition",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 5,
+        "country_id": 29,
+        "overview": "Experience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\nFeatures:\r\n\r\nUniversally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\nBeautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\nImproved gameplay, including modernized UI, auto-battle options, and more!\r\nDive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61032,
+        "game_title": "Final Fantasy Crystal Chronicles: Remastered Edition",
+        "release_date": "2020-08-27",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The beloved co-op adventure comes to Nintendo Switch featuring new content and enhancements to help you and your friends create unforgettable new memories!\r\n\r\nFINAL FANTASY® CRYSTAL CHRONICLES™ Remastered Edition is an enchanting action RPG that follows a young group, known as the Crystal Caravans, as they embark on an epic journey to search for myrrh, a precious and rare liquid needed to cleanse and maintain a crystal protecting their world from the deadly gas, miasma.\r\n\r\nCall upon magic and might and team up with faraway friends to take down fearsome foes! Enlist comrades to your crystal caravan in online multiplayer mode with up to four players. Adventure and exploration await your caravan in brand-new lands teeming with wonder. Featuring new areas inside dungeons, even those who played the original version will have rewarding surprises in store!\r\n\r\nGame features:\r\n-Choose your adventurer and begin a perilous journey to protect your world from dangerous miasma gas.\r\n-Collect items and magic to enhance and diversify your combat options.\r\n-Play together online with friends in a caravan of up to four, or make new friends through party matchmaking, anytime, anywhere and across different platforms!\r\n-Enjoy improved 3D graphics and English voiceover (first time ever!).\r\n-Discover an expanded adventure, complete with additional game options, including increased difficulty. Plus, you will find new monsters to fight, weapons to wield, and more!",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 114241,
+        "game_title": "Final Fantasy Pixel Remaster: FF35th Anniversary Edition",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "This highly anticipated set includes the physical packaged version of FINAL FANTASY I-VI COLLECTION, the Anniversary Edition GOODS BOX which contains a vinyl record set featuring newly arranged game music, a specially compiled artbook showcasing beautiful character pixel art, and 8 stylized pixel art character figures, and a bonus lenticular sleeve for the game package.\r\n\r\nSet Contents:\r\nFINAL FANTASY I-VI COLLECTION game package\r\nFINAL FANTASY I-VI PIXEL REMASTER -FF35th Anniversary Edition- GOODS BOX\r\nFINAL FANTASY I～VI PIXEL REMASTER VINYL\r\nThe Art of FINAL FANTASY I-VI PIXEL REMASTER -FF DOT. PIXEL REMASTER ver.-\r\nFINAL FANTASY PIXEL REMASTER Pixel Figure Set\r\n\r\nPurchase Bonus:\r\nFINAL FANTASY I-VI COLLECTION LENTICULAR SLEEVE\r\n\r\n*This set is a SQUARE ENIX STORE exclusive.\r\n*The game package and the bonus sleeve will not be packaged inside the Anniversary Edition Goods Box, but will be shipped together.\r\n\r\nClassic \"FINAL FANTASY\" titles have been reborn through vivid 2D pixel graphics and the beautifully rearranged soundtrack. Gameplay is improved with modernized UI, and extras such as a bestiary, illustration gallery and music player allow further immersion into the world of the game. These games are newly developed remaster editions based on the original titles. Some of the changes and additional elements found in other remakes of these games are not included.\r\n\r\nFeatures:\r\n- Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n- Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n- Improved gameplay, including modernized UI, auto-battle options, and more!\r\n- Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 116133,
+        "game_title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 20,
+        "overview": "Play-Asia physical release\r\nExperience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\nFeatures:\r\n\r\nUniversally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\nBeautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\nImproved gameplay, including modernized UI, auto-battle options, and more!\r\nDive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 128668,
+        "game_title": "FINAL FANTASY I-VI COLLECTION ANNIVERSARY EDITION",
+        "release_date": "2024-10-08",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The games that inspired a generation come to life once more, in the ultimate 2D pixel remaster!\r\n\r\nClassic \"FINAL FANTASY\" titles have been reborn through vivid 2D pixel graphics and the beautifully rearranged soundtrack. Gameplay is improved with modernized UI, and extras such as a bestiary, illustration gallery and music player allow further immersion into the world of the game. These games are newly developed remaster editions based on the original titles. Some of the changes and additional elements found in other remakes of these games are not included.\r\n\r\n* A physical retail \"Anniversary\" edition was made available on October 8th, 2024. Each copy included a pixel character sticker sheet.\r\n\r\nFeatures:\r\n- Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n- Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n- Improved gameplay, including modernized UI, auto-battle options, and more!\r\n- Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 129930,
+        "game_title": "Final Fantasy I-VI Collection: Anniversary Edition",
+        "release_date": "2024-10-08",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The games that inspired a generation come to life once more, in the ultimate 2D pixel remaster!\r\n\r\nClassic \"FINAL FANTASY\" titles have been reborn through vivid 2D pixel graphics and the beautifully rearranged soundtrack. Gameplay is improved with modernized UI, and extras such as a bestiary, illustration gallery and music player allow further immersion into the world of the game. These games are newly developed remaster editions based on the original titles. Some of the changes and additional elements found in other remakes of these games are not included.\r\n\r\n* A physical retail \"Anniversary\" edition was made available on October 8th, 2024. Each copy included a pixel character sticker sheet.\r\n\r\nFeatures:\r\n- Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n- Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n- Improved gameplay, including modernized UI, auto-battle options, and more!\r\n- Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 107289,
+        "game_title": "Final Fantasy Pixel Remaster: FF35th Anniversary Edition",
+        "release_date": "2023-05-31",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This highly anticipated set includes the physical packaged version of FINAL FANTASY I-VI COLLECTION, the Anniversary Edition GOODS BOX which contains a vinyl record set featuring newly arranged game music, a specially compiled artbook showcasing beautiful character pixel art, and 8 stylized pixel art character figures, and a bonus lenticular sleeve for the game package.\r\n\r\nSet Contents:\r\nFINAL FANTASY I-VI COLLECTION game package\r\nFINAL FANTASY I-VI PIXEL REMASTER -FF35th Anniversary Edition- GOODS BOX\r\nFINAL FANTASY I～VI PIXEL REMASTER VINYL\r\nThe Art of FINAL FANTASY I-VI PIXEL REMASTER -FF DOT. PIXEL REMASTER ver.-\r\nFINAL FANTASY PIXEL REMASTER Pixel Figure Set\r\n\r\nPurchase Bonus:\r\nFINAL FANTASY I-VI COLLECTION LENTICULAR SLEEVE\r\n\r\n*This set is a SQUARE ENIX STORE exclusive.\r\n*The game package and the bonus sleeve will not be packaged inside the Anniversary Edition Goods Box, but will be shipped together.\r\n\r\nClassic \"FINAL FANTASY\" titles have been reborn through vivid 2D pixel graphics and the beautifully rearranged soundtrack. Gameplay is improved with modernized UI, and extras such as a bestiary, illustration gallery and music player allow further immersion into the world of the game. These games are newly developed remaster editions based on the original titles. Some of the changes and additional elements found in other remakes of these games are not included.\r\n\r\nFeatures:\r\n- Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n- Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n- Improved gameplay, including modernized UI, auto-battle options, and more!\r\n- Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 125659,
+        "game_title": "Final Fantasy Pixel Remaster: FF35th Anniversary Edition",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "This highly anticipated set includes the physical packaged version of FINAL FANTASY I-VI COLLECTION, the Anniversary Edition GOODS BOX which contains a vinyl record set featuring newly arranged game music, a specially compiled artbook showcasing beautiful character pixel art, and 8 stylized pixel art character figures, and a bonus lenticular sleeve for the game package.\r\n\r\nSet Contents:\r\nFINAL FANTASY I-VI COLLECTION game package\r\nFINAL FANTASY I-VI PIXEL REMASTER -FF35th Anniversary Edition- GOODS BOX\r\nFINAL FANTASY I～VI PIXEL REMASTER VINYL\r\nThe Art of FINAL FANTASY I-VI PIXEL REMASTER -FF DOT. PIXEL REMASTER ver.-\r\nFINAL FANTASY PIXEL REMASTER Pixel Figure Set\r\n\r\nPurchase Bonus:\r\nFINAL FANTASY I-VI COLLECTION LENTICULAR SLEEVE\r\n\r\n*This set is a SQUARE ENIX STORE exclusive.\r\n*The game package and the bonus sleeve will not be packaged inside the Anniversary Edition Goods Box, but will be shipped together.\r\n\r\nClassic \"FINAL FANTASY\" titles have been reborn through vivid 2D pixel graphics and the beautifully rearranged soundtrack. Gameplay is improved with modernized UI, and extras such as a bestiary, illustration gallery and music player allow further immersion into the world of the game. These games are newly developed remaster editions based on the original titles. Some of the changes and additional elements found in other remakes of these games are not included.\r\n\r\nFeatures:\r\n- Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n- Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n- Improved gameplay, including modernized UI, auto-battle options, and more!\r\n- Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 125660,
+        "game_title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Experience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\nFeatures:\r\n\r\nUniversally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\nBeautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\nImproved gameplay, including modernized UI, auto-battle options, and more!\r\nDive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 125661,
+        "game_title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 3,
+        "country_id": 0,
+        "overview": "Experience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\nFeatures:\r\n\r\nUniversally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\nBeautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\nImproved gameplay, including modernized UI, auto-battle options, and more!\r\nDive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 125662,
+        "game_title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Experience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\nFeatures:\r\n\r\nUniversally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\nBeautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\nImproved gameplay, including modernized UI, auto-battle options, and more!\r\nDive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 116227,
+        "game_title": "Final Fantasy I-VI Pixel Remaster Collection",
+        "release_date": "2023-04-20",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Experience the magic and wonder of classic Final Fantasy games with the Final Fantasy Pixel Remaster I-VI Collection. This compiled collection includes six games: Final Fantasy, Final Fantasy II, Final Fantasy III, Final Fantasy IV, Final Fantasy V, and Final Fantasy VI. This physical collection is currently only able to purchase in Asia and includes English language options.\r\n\r\nEach game has been beautifully remastered to enhance the gameplay experience - including a highly requested revised font! Immerse yourself in epic storylines, unique characters, and challenging battles that have made Final Fantasy a beloved franchise for decades. With hours of engaging gameplay and unforgettable characters, this collection is a must-have for fans of the franchise and retro gaming enthusiasts alike.\r\n\r\n-Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character designs created by Kazuko Shibuya, the original artist and current collaborator\r\n-Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu\r\n-Improved gameplay, including modernized UI, auto-battle options, and more!\r\n-Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61039,
+        "game_title": "Final Fantasy IX",
+        "release_date": "2019-02-13",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Selling over five million copies since its release in 2000, FINAL FANTASY IX proudly returns on Nintendo Switch!\r\n\r\nExperience the adventure once again with characters and pre-rendered movies featured in high definition, as well as a new booster system with a selection of various modes such as \"high speed\" or \"no encounters\"!\r\n\r\n■Story\r\nZidane and the Tantalus Theater Troupe have kidnapped Princess Garnet, the heir of Alexandria. To their surprise, however, the princess herself yearned to escape the castle. Through a series of unusual circumstances, she and her personal guard, Steiner, fall in with Zidane and set out on an incredible journey.\r\n\r\nMeeting unforgettable characters like Vivi and Quina along the way, they learn about themselves, the secrets of the Crystal, and a malevolent force that threatens to destroy their world.\r\n\r\n■Gameplay Features\r\n\r\n・Abilities\r\nLearn new abilities by equipping items. When fully mastered, these abilities can be used even without equipping items, allowing for nearly endless customization options.\r\n\r\n・Trance\r\nFill your Trance gauge as you sustain hits in battle. When fully charged, your characters will enter Trance mode, granting them powerful new skills!\r\n\r\n・Synthesis\r\nNever let items go to waste. Combine two items or pieces of equipment together and make better, stronger items!\r\n\r\n・Minigames\r\nWhether it's Chocobo Hot and Cold, Jump Rope, or Tetra Master, there are plenty of minigames to enjoy when you're not off saving the world. You can even earn special item rewards!\r\n\r\n■Additional Features\r\n\r\n・7 game boosters including high speed and no encounter modes\r\n\r\n・Autosave\r\n\r\n・High-definition movies and character models ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61032": [
+          {
+            "id": 279528,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61032-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61036": [
+          {
+            "id": 228557,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61036-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61039": [
+          {
+            "id": 260075,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61039-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107289": [
+          {
+            "id": 389557,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107289-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114241": [
+          {
+            "id": 436178,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114241-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116133": [
+          {
+            "id": 436183,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116133-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116227": [
+          {
+            "id": 409252,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116227-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 409253,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/116227-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120237": [
+          {
+            "id": 413171,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120237-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120238": [
+          {
+            "id": 462617,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120238-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120239": [
+          {
+            "id": 413241,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120239-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120240": [
+          {
+            "id": 436175,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120240-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122454": [
+          {
+            "id": 436185,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122454-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125659": [
+          {
+            "id": 436181,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125659-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125660": [
+          {
+            "id": 436187,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125660-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125661": [
+          {
+            "id": 436189,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125661-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125662": [
+          {
+            "id": 436191,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125662-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128668": [
+          {
+            "id": 447433,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128668-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129930": [
+          {
+            "id": 453029,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129930-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131685": [
+          {
+            "id": 462618,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131685-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131686": [
+          {
+            "id": 462619,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131686-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=2"
+  },
+  "remaining_monthly_allowance": 256,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629982
+}

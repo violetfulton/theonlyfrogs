@@ -1,0 +1,114 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 9,
+        "game_title": "Halo 2",
+        "release_date": "2007-05-31",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Halo 2 is a 2004 first-person shooter video game developed by Bungie and published by Microsoft Game Studios. Released for the Xbox in 2004, the game is the second installment in the Halo franchise and the sequel to 2001's Halo: Combat Evolved. In Halo 2's story mode, the player assumes the roles of the human supersoldier Master Chief and disgraced alien commander Arbiter in a 26th-century conflict between the United Nations Space Command, the genocidal Covenant, and later, the parasitic Flood. \r\n\r\nHalo 2 does not pick up directly after the events of its predecessor, but rather, after the events depicted in the novel Halo: First Strike, taking place in Halo: Combat Evolved with the events explaining Master Chief's return to Earth not featured in any game so far. The story dives deeper into the society of the Covenant, their goals, beliefs, and alliances, as well as continuing Master Chief's story to put an end to the Covenant threat on Earth as well as another Halo. Halo 2 also introduces the insectoid Yanme’e and the Jiralhanae, who were first mentioned in First Strike. They are shown as large, hairy, ape-like beasts; although they do not have energy shields like the Sangheili, their immense bulk and strength allows them to absorb a large amount of damage before dying.\r\n\r\nThe game follows a linear series of episodes that differ from Halo: Combat Evolved. The player will play as both the Master Chief and a troubled Covenant Sangheili known as \"Thel 'Vadam\". ",
+        "players": 2,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 124043,
+        "game_title": "Halo 2",
+        "release_date": "2007-07-08",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Halo 2 is the sequel to the highly successful and critically acclaimed Halo®: Combat Evolved. In Halo 2, the saga continues as Master Chief—a genetically enhanced super-soldier—is the only thing standing between the relentless Covenant and the destruction of all humankind.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          1
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "9": [
+          {
+            "id": 10033,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/9-1.jpg",
+            "resolution": "1520x2156"
+          },
+          {
+            "id": 481275,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/9-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124043": [
+          {
+            "id": 430996,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124043-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 430997,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/124043-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Halo+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 779,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630063
+}

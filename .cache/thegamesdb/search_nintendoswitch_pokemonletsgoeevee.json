@@ -1,0 +1,201 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 55725,
+        "game_title": "Pokémon: Let's Go, Eevee!",
+        "release_date": "2018-11-16",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 13,
+        "overview": "The next step in your Pokémon™ journey starts here!\r\n\r\nTake a Pokémon™ journey to the Kanto region with your steadfast partner, Eevee! Become the best Pokémon Trainer as you battle other Trainers, Gym Leaders, and the sinister Team Rocket. Catch Pokémon in the wild using a gentle throwing motion with either a Joy-Con™ controller or a Poké Ball™ Plus accessory, which will light up, vibrate, and make sounds to bring your adventure to life. You can also use button controls in Handheld Mode. Share your adventure with family or friends using a second Joy-Con or Poké Ball Plus (sold separately). You can even connect to the Pokémon™ GO app using a compatible smartphone to bring over Pokémon originally discovered in the Kanto region! Explore the vibrant region of Kanto—home to beloved characters like Brock, Misty, and the nefarious trio Jessie, James, and Meowth! Throughout the story, your bond with your partner Pokémon grows stronger as you care for it and travel together. See the world in style by customizing Eevee and your Trainer with a selection of outfits. True-to-size wild Pokémon roam around in the game—catch them like a real Pokémon Trainer by using timing and a well-placed Poké Ball™. Battle and trade with other players who own the game via local wireless or online. Go on a stroll with your favorite Pokémon in your Poké Ball Plus to level them up, and to receive in-game rewards after returning them to the game. Connect to Pokémon GO to transfer caught Kanto-region Pokémon, including Alolan and Shiny forms, as well as the newly discovered Pokémon, Meltan, from that game to this one!",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 111827,
+        "game_title": "Pokémon: Let's Go, Eevee!",
+        "release_date": "2018-11-16",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "European PAL version",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118855,
+        "game_title": "Pokémon: Let's Go, Eevee!",
+        "release_date": "2016-11-16",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The next step in your Pokémon™ journey starts here!\r\n\r\nTake a Pokémon™ journey to the Kanto region with your steadfast partner, Eevee! Become the best Pokémon Trainer as you battle other Trainers, Gym Leaders, and the sinister Team Rocket. Catch Pokémon in the wild using a gentle throwing motion with either a Joy-Con™ controller or a Poké Ball™ Plus accessory, which will light up, vibrate, and make sounds to bring your adventure to life. You can also use button controls in Handheld Mode. Share your adventure with family or friends using a second Joy-Con or Poké Ball Plus (sold separately). You can even connect to the Pokémon™ GO app using a compatible smartphone to bring over Pokémon originally discovered in the Kanto region! Explore the vibrant region of Kanto—home to beloved characters like Brock, Misty, and the nefarious trio Jessie, James, and Meowth! Throughout the story, your bond with your partner Pokémon grows stronger as you care for it and travel together. See the world in style by customizing Eevee and your Trainer with a selection of outfits. True-to-size wild Pokémon roam around in the game—catch them like a real Pokémon Trainer by using timing and a well-placed Poké Ball™. Battle and trade with other players who own the game via local wireless or online. Go on a stroll with your favorite Pokémon in your Poké Ball Plus to level them up, and to receive in-game rewards after returning them to the game. Connect to Pokémon GO to transfer caught Kanto-region Pokémon, including Alolan and Shiny forms, as well as the newly discovered Pokémon, Meltan, from that game to this one!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 62157,
+        "game_title": "Pokémon: Let's Go, Eevee! + Poké Ball Plus Pack",
+        "release_date": "2018-11-16",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Bundle of Pokémon Let's Go Eevee that includes the Poké Ball Plus controller.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 125726,
+        "game_title": "Pokémon: Let's Go Eevee!",
+        "release_date": "2018-11-16",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Pokémon: Let's Go, Eevee! is a 2018 remake of the 1998 Game Boy role-playing video game Pokémon Yellow. It was developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo Switch. Announced in May 2018, Let's Go, Pikachu! and Let's Go, Eevee! were released worldwide for the Nintendo Switch on 16 November 2018. The games are part of the seventh generation of the Pokémon video game series and are the first main series instalments to be released for a home game console. They feature connectivity with the mobile game Pokémon Go and support an optional controller, the Poké Ball Plus.",
+        "players": 1,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "55725": [
+          {
+            "id": 264197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55725-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 323538,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/55725-1.jpg",
+            "resolution": null
+          }
+        ],
+        "62157": [
+          {
+            "id": 278915,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62157-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111827": [
+          {
+            "id": 382947,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111827-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118855": [
+          {
+            "id": 406490,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118855-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125726": [
+          {
+            "id": 436349,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125726-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon%3A+Let%27s+Go%2C+Eevee%21&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 290,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629988
+}

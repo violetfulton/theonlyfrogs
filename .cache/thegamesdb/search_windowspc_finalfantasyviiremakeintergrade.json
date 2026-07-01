@@ -1,0 +1,134 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 130022,
+        "game_title": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "release_date": "2022-06-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 15,
+        "overview": "FINAL FANTASY VII REMAKE es una atrevida reconstrucción del videojuego FINAL FANTASY VII, que fue lanzado en 1997, y se ha desarrollado obedeciendo a la visión de los desarrolladores principales del original.\r\nEste juego aclamado por la crítica combina el combate tradicional por turnos con la acción en tiempo real, y se ofrece ahora por primera vez en Steam junto con FF7R EPISODE INTERmission, una nueva historia con Yuffie Kisaragi como protagonista.\r\n\r\n\r\nHISTORIA\r\n\r\nMediante sus reactores succionadores de mako, la savia del planeta, la Compañía de Electricidad y Energía Shinra prácticamente se ha apoderado del mundo. Solo un grupo de idealistas conocido como Avalancha opone resistencia a su dominio.\r\n\r\nCloud, un Soldado de élite convertido en mercenario, participa en una operación de Avalancha cuyo fin es la destrucción del reactor de mako n.º 1 de Midgar.\r\nLa explosión convierte la ciudad en un infierno, y Cloud sufre alucinaciones de su archienemigo, a quien creía muerto.\r\n\r\nAsí comienza, una vez más, la historia que definirá el destino de todo un mundo.\r\n\r\n* Este juego es un remake de FINAL FANTASY VII, lanzado a la venta por primera vez en 1997.\r\nEs el primer título de una serie de juegos basados en la historia del juego original, y comprende los eventos hasta la huida de Midgar, incluyéndose además elementos adicionales.\r\n\r\n\r\n\r\nFF7R EPISODE INTERmission (nuevo episodio de Yuffie Kisaragi)\r\n\r\nFF7R EPISODE INTERmission es una nueva aventura en el mundo de FINAL FANTASY VII REMAKE INTERGRADE. Juega como Yuffie Kisaragi, una ninja de Wutai que se infiltra en Midgar y conspira con la célula principal de Avalancha para robar la materia suprema del edificio de Shinra.\r\n\r\n\r\n\r\nContenido incluido en este producto\r\n\r\nFINAL FANTASY VII REMAKE INTERGRADE incluye el siguiente contenido:\r\n- Juego completo de FINAL FANTASY VII REMAKE\r\n- DLC (contenido descargable) de FF7R EPISODE INTERmission (nuevo episodio de Yuffie Kisaragi)\r\n- Arma: Cactiestrella\r\n- Protección: Brazalete de Midgar\r\n- Protección: Brazalete de Shinra\r\n- Protección: Brazalete de Don Corneo\r\n- Accesorio: Cinturón de superestrella\r\n- Accesorio: Cristal de mako\r\n- Accesorio: Pendientes angelicales\r\n- Materia de invocación de Rubí\r\n- Materia de invocación de chocobito\r\n- Materia de invocación de cactilio\r\n\r\n* Para obtener las armas, protecciones, accesorios y materias de invocación, accede a la opción Caja regalo del menú principal.\r\n* La cactiestrella solo estará disponible para usarse durante FF7R EPISODE INTERmission (episodio de Yuffie).",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 133633,
+        "game_title": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "release_date": "2022-06-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.\r\n\r\nBy exploiting mako, the life-blood of the planet, through their mako reactors, the Shinra Electric Power Company has all but seized control of the entire world. A ragtag group of idealists, known as Avalanche, are one of the last bastions of resistance.\r\n\r\nCloud, an elite SOLDIER operative-turned-mercenary takes part in an Avalanche operation to destroy Mako Reactor 1 in the city of Midgar.\r\nThe bombing plunges the city into fiery chaos, and Cloud is tormented by visions of a bitter enemy long thought dead.\r\n\r\nOnce more begins a story that will shape the destiny of an entire world.\r\n\r\n* This game is a remake of FINAL FANTASY VII, first released in 1997.\r\nThe first title in a multi-part series, it is based on the story from the original game, up to the escape from Midgar, adding in new elements.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 99267,
+        "game_title": "Final Fantasy VII: Remake Intergrade",
+        "release_date": "2021-12-16",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "A Midgar, la capitale dell'energia mako, insieme all'ex SOLDIER Cloud Strife rinasce FINAL FANTASY VII, il grande classico amato in tutto il mondo e oggi arricchito da grafica all'avanguardia, un nuovo sistema di battaglia e un episodio con Yuffie Kisaragi. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          27
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "99267": [
+          {
+            "id": 358339,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99267-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130022": [
+          {
+            "id": 453536,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130022-1.jpg",
+            "resolution": null
+          }
+        ],
+        "133633": [
+          {
+            "id": 469992,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/133633-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+VII+Remake+Intergrade&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 907,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630084
+}

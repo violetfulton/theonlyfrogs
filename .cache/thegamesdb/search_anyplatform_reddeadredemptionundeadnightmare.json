@@ -1,0 +1,217 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 15241,
+        "game_title": "Red Dead Redemption: Undead Nightmare",
+        "release_date": "2010-11-22",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Red Dead Redemption: Undead Nightmare Collection will combine the Legends and Killers Pack, Liars and Cheats Pack, and the Undead Nightmare Pack, putting additional single player and multiplayer content in one box at a value price for the Best Selling Game of the Year.\r\n\r\nRed Dead Redemption: Undead Nightmare is an open world, western action-adventure video game developed by Rockstar San Diego and published by Rockstar Games. It was released for the PlayStation 3 and Xbox 360 consoles on October 26, 2010, as a downloadable expansion pack to Red Dead Redemption. The game follows John Marston as he searches for a cure for an infectious zombie plague that has swept across the American Old West.\r\n\r\nUndead Nightmare is played from a third-person perspective in an open world environment, allowing the player to interact with the game world at their leisure. The player can travel the virtual world, a fictionalized version of the Western United States and Mexico, primarily by horseback and on foot. Hordes of zombies traverse the world, often attacking towns. Gunfights emphasize a gunslinger gameplay mechanic called \"Dead Eye\" that allows players to mark multiple shooting targets on enemies in slow motion. Two gameplay modes were added to Red Dead Redemption‍ '​s online multiplayer mode upon release of Undead Nightmare, allowing up to 16 players to engage in both co-operative and competitive gameplay in a recreation of the single-player setting.\r\n\r\nUpon its release, Undead Nightmare received generally positive reviews. It won year-end accolades, including Best DLC awards from several gaming publications. A Game of the Year Edition, bundling the game with Red Dead Redemption and all additional content, was released in October 2011.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7283
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 15263,
+        "game_title": "Red Dead Redemption: Undead Nightmare",
+        "release_date": "2010-11-23",
+        "platform": 15,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Red Dead Redemption: Undead Nightmare Collection will combine the Legends and Killers Pack, Liars and Cheats Pack, and the Undead Nightmare Pack, putting additional single player and multiplayer content in one box at a value price for the Best Selling Game of the Year.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7283
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          12,
+          18
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 84285,
+        "game_title": "Red Dead Redemption: Undead Nightmare",
+        "release_date": "2010-10-26",
+        "platform": 4920,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7283
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 111702,
+        "game_title": "Red Dead Redemption: Undead Nightmare",
+        "release_date": "2010-10-26",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "European PAL version with the 8 rating on front cover.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          7283
+        ],
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 111544,
+        "game_title": "Red Dead Redemption: Undead Nightmare [Platinum Hits]",
+        "release_date": "2010-10-10",
+        "platform": 15,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Red Dead Redemption: Undead Nightmare is a standalone expansion pack to the 2010 video game Red Dead Redemption. It adds a non-canonical zombie horror-themed single-player campaign, two multiplayer modes, and cosmetic additions to the environments and characters of the open world Western action-adventure game. Set in an alternate timeline from the base game's story, the plot follows returning protagonist John Marston, a former outlaw who sets out to find the cause and possible cure to a zombie plague that has infected his wife and son. Marston liberates towns overrun by the undead and assists non-playable characters with side quests along the way.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7283
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          17
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "15241": [
+          {
+            "id": 329050,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15241-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 329051,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15241-1.jpg",
+            "resolution": null
+          }
+        ],
+        "15263": [
+          {
+            "id": 57562,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/15263-1.jpg",
+            "resolution": "640x892"
+          },
+          {
+            "id": 274093,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15263-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84285": [
+          {
+            "id": 278319,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84285-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111544": [
+          {
+            "id": 382309,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111544-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111702": [
+          {
+            "id": 382659,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111702-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        },
+        "15": {
+          "id": 15,
+          "name": "Microsoft Xbox 360",
+          "alias": "microsoft-xbox-360"
+        },
+        "4920": {
+          "id": 4920,
+          "name": "Microsoft Xbox One",
+          "alias": "microsoft-xbox-one"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Red+Dead+Redemption%3A+Undead+Nightmare&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 327,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629994
+}

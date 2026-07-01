@@ -1,0 +1,292 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 46064,
+        "game_title": "Gyakuten Saiban 3",
+        "release_date": "2004-01-23",
+        "platform": 5,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Phoenix Wright is back as the third game in the popular Ace Attorney hand-held franchise. As Phoenix Wright, you'll play through five shocking new cases in first-person perspective. The game features two unique modes of play. In Investigations Mode you'll survey crime scenes, interview witnesses and gather evidence. You'll then present findings, listen to testimonials and examine witnesses in Court Mode. Trials AND Tribulations also includes the \"Psyche-Lock\" feature that allows Phoenix to use a line of questioning to reveal inconsistencies in witness testimony.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99537,
+        "game_title": "Gyakuten Saiban 3",
+        "release_date": "2016-03-02",
+        "platform": 38,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Phoenix Wright is back as the third game in the popular Ace Attorney hand-held franchise comes to the WiiWare service. As Phoenix Wright, you'll play through five shocking new cases in first-person perspective. The game features two unique modes of play. In Investigations Mode you'll survey crime scenes, interview witnesses and gather evidence. You'll then present findings, listen to testimonials and examine witnesses in Court Mode. Trials AND Tribulations also includes the \"Psyche-Lock\" feature that allows Phoenix to use a line of questioning to reveal inconsistencies in witness testimony.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6867,
+        "game_title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+        "release_date": "2007-10-23",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Players star as a defense attorney, who must prove a seemingly guilty client's innocence no matter how dire the circumstances may seem. Phoenix faces the toughest prosecutor yet as the mysterious hard-boiled \"Godot\" tries to take him down at any cost. Players must collect evidence, survey crime scenes, weed through inconsistent testimonies, and overcome corrupt agendas to ensure that justice prevails. With the return of the popular \"psyche-lock\" interrogation tool from the previous title, \"Phoenix Wright: Ace Attorney Justice for All,\" players have to overcome even more intense courtroom standoffs in order to close the case. Maya Fey is a bright young girl that aids Phoenix in his trials; she harnesses her psychic powers which are useful in a pinch. Godot - the mysterious, hard-boiled prosecutor makes his appearance. Play as two lawyers - relive Mia's rookie days from the past and Phoenix's current cases in the present. Two distinct gameplay segments: Investigation phase - survey crime scenes, interview witnesses and gather evidence that will be used in court; Court phase - present findings from the investigation to support your case, listen to testimonies and examine witnesses. \"Psyche-Lock\" system - break down tough witnesses with a series of correct questions or catch them",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 24434,
+        "game_title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+        "release_date": "2010-05-10",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Phoenix Wright is back as the third game in the popular Ace Attorney hand-held franchise comes to the WiiWare service. As Phoenix Wright, you'll play through five shocking new cases in first-person perspective. The game features two unique modes of play. In Investigations Mode you'll survey crime scenes, interview witnesses and gather evidence. You'll then present findings, listen to testimonials and examine witnesses in Court Mode. Trials AND Tribulations also includes the \"Psyche-Lock\" feature that allows Phoenix to use a line of questioning to reveal inconsistencies in witness testimony.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 74607,
+        "game_title": "Gyakuten Saiban 3",
+        "release_date": "2007-08-23",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Japanese version of Phoenix Wright: Ace Attorney - Trials and Tribulations.\r\n\r\nPhoenix Wright is back as the third game in the popular Ace Attorney hand-held franchise comes to the WiiWare service. As Phoenix Wright, you'll play through five shocking new cases in first-person perspective. The game features two unique modes of play. In Investigations Mode you'll survey crime scenes, interview witnesses and gather evidence. You'll then present findings, listen to testimonials and examine witnesses in Court Mode. Trials AND Tribulations also includes the \"Psyche-Lock\" feature that allows Phoenix to use a line of questioning to reveal inconsistencies in witness testimony.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99485,
+        "game_title": "Gyakuten Saiban 3 [Trial Version]",
+        "release_date": "2003-10-10",
+        "platform": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Trial version of Gyakuten Saiban 3 (Phoenix Wright: Ace Attorney - Trials and Tribulations), released before the game's launch on Game Boy Advance.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99467,
+        "game_title": "Gyakuten Saiban 3 PC",
+        "release_date": "2006-03-31",
+        "platform": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Phoenix Wright is back as the third game in the popular Ace Attorney hand-held franchise comes to the WiiWare service. As Phoenix Wright, you'll play through five shocking new cases in first-person perspective. The game features two unique modes of play. In Investigations Mode you'll survey crime scenes, interview witnesses and gather evidence. You'll then present findings, listen to testimonials and examine witnesses in Court Mode. Trials AND Tribulations also includes the \"Psyche-Lock\" feature that allows Phoenix to use a line of questioning to reveal inconsistencies in witness testimony.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          8600
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6867": [
+          {
+            "id": 17643,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6867-1.jpg",
+            "resolution": "1538x1370"
+          },
+          {
+            "id": 17644,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6867-1.jpg",
+            "resolution": "1533x1370"
+          }
+        ],
+        "24434": [
+          {
+            "id": 339181,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24434-1.jpg",
+            "resolution": null
+          }
+        ],
+        "46064": [
+          {
+            "id": 339845,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/46064-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 462031,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/46064-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74607": [
+          {
+            "id": 339848,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74607-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 339849,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/74607-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99467": [
+          {
+            "id": 339029,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99467-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99485": [
+          {
+            "id": 339165,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99485-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99537": [
+          {
+            "id": 339480,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99537-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        },
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "38": {
+          "id": 38,
+          "name": "Nintendo Wii U",
+          "alias": "nintendo-wii-u"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phoenix+Wright%3A+Ace+Attorney+-+Trials+and+Tribulations&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 338,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629995
+}

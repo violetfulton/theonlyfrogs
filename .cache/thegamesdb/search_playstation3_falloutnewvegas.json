@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 8163,
+        "game_title": "Fallout: New Vegas",
+        "release_date": "2010-10-19",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Experience all the sights and sounds of fabulous New Vegas, brought to you by Vault-Tec, America's First Choice in Post Nuclear Simulation. Explore the treacherous wastes of the Great Southwest from the safety and comfort of your very own vault: Meet new people, confront terrifying creatures, and arm yourself with the latest high-tech weaponry as you make a name for yourself on a thrilling new journey across the Mojave wasteland. \r\n\r\n From Bethesda Softworks and the veteran RPG designers at Obsidian Entertainment (a team which includes members of the original Fallout and 2 teams) comes Fallout: New Vegas, a thrilling and chilling episode in the Fallout saga. \r\n\r\n The Ultimate Edition of Fallout: New Vegas includes the original hit game as well as all previously-released DLC packs, including Dead Money, Honest Hearts, Old World Blues, Lonesome Road, Courier's Stash and Gun Runners' Arsenal.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 61396,
+        "game_title": "Fallout: New Vegas [Collector's Edition",
+        "release_date": "2010-10-19",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 115126,
+        "game_title": "Fallout New Vegas",
+        "release_date": "2010-10-19",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Experience all the sights and sounds of fabulous New Vegas, brought to you by Vault-Tec, America's First Choice in Post-Nuclear Simulation. Explore the treacherous wastes of the Great Southwest from the safety and comfort of your very own vault: Meet new people, confront terrifying creatures, and arm yourself with the latest high-tech weaponry as you make a name for yourself on a thrilling new journey across the Mojave wasteland. A word of warning, however - while Vault-Tec engineers have prepared for every contingency, in Vegas, fortunes can change in an instant. Enjoy your stay.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "8163": [
+          {
+            "id": 35243,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/8163-2.jpg",
+            "resolution": "1300x1500"
+          }
+        ],
+        "61396": [
+          {
+            "id": 204320,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61396-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115126": [
+          {
+            "id": 391907,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115126-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fallout%3A+New+Vegas&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 670,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630044
+}

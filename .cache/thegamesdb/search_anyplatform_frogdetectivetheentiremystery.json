@@ -1,0 +1,129 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 128563,
+        "game_title": "Frog Detective: The Entire Mystery Deluxe Edition",
+        "release_date": "2024-08-05",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "You're a detective, and a frog, and it's time to solve three thrilling mysteries!\r\n\r\nEach Frog Detective Deluxe Edition includes: \r\n\r\nA four-piece acrylic mini-standee measuring about 2.3 inches tall and 3.45 inches wide when assembled. \r\nTwo kiss-cut sticker sheets\r\nA set of three postcard-style art cards wishing you the best from Haunted Island, Warlock Woods, and Cowboy County\r\n... along with everything that's packed inside our standard edition of Frog Detective: The Entire Mystery: \r\n\r\nA digital download code for a copy of the complete soundtrack. \r\nReversible cover art\r\nBusiness cards from Frog Detective and Lobster Cop",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3242,
+          4950
+        ]
+      },
+      {
+        "id": 120963,
+        "game_title": "Frog Detective: The Entire Mystery",
+        "release_date": "2023-10-26",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "You're a detective, and a frog, and it's time to solve 3 thrilling mysteries!\r\nPlay as the #2 best investigator as you find clues, question silly suspects, and look at things through your magnifying glass. Some nay-sayers have called the magnifying glass \"useless\", but what do they know?\r\n\r\nIn Case 1, The Haunted Island, a sloth has been haunted for weeks by a mysterious ghost that nobody can seem to track down. Even after hiring a team of ghost scientists, the mystery is no closer to being solved. Luckily for this tropical sloth, and unluckily for this pesky ghost, Frog Detective is here to crack the case! The Haunted Island is the first in this award-winning series, and this bite-sized mystery is what started an international cult obsession with the world of Frog Detective.\r\n\r\nIn the second mystery, The Case of the Invisible Wizard, we follow the Detective to Warlock Woods, where a celebratory parade for their newest neighbor has been maliciously destroyed. Now the neighbor is nowhere to be seen, and the town is in ruin. Can Frog Detective get to the bottom of things? We sure hope so, otherwise the game would be a bummer.\r\n\r\nIn the exciting series finale, Corruption at Cowboy County, The Detective and Lobster Cop are tasked to solve the conundrum of a sheriff-less town. But not all is as it seems here, when a surprisingly simple solution to the case reveals a sinister scheme. Maybe crime is real after all...\r\nThis final mystery is jam-packed with twists and turns, a true love letter to the Frog Detective fans.\r\n\r\nFrog Detective: The Entire Mystery is a family-friendly yet witty take on the detective game genre. Solve the mysteries on your own, or play along with friends as you take turns reading out the dialogue. Think you can crack the case?",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 128536,
+        "game_title": "Frog Detective: The Entire Mystery",
+        "release_date": "2024-08-05",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "You're a detective, and a frog, and it's time to solve three thrilling mysteries!\r\n\r\nFrog Detective: The Entire Mystery includes three cases—\"The Haunted Island,\" \"The Case of the Invisible Wizard,\" and \"Corruption at Cowboy County.\"",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          4950
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "120963": [
+          {
+            "id": 417021,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120963-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128536": [
+          {
+            "id": 446896,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/128536-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 446947,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128536-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128563": [
+          {
+            "id": 446984,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128563-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Frog+Detective%3A+The+Entire+Mystery&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 116,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629960
+}

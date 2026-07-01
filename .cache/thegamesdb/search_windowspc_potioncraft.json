@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 96854,
+        "game_title": "Potion Craft - Alchemist Simulator",
+        "release_date": "2021-09-21",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Destaques:\r\nGráficos únicos inspirados em manuscritos e livros médicos medievais.\r\nInterações físicas muito satisfatórias com ingredientes e equipamentos.\r\nJogabilidade livre que permite diversas soluções e possibilidades de avanço. Cabe a você descobrir a melhor maneira de concluir cada tarefa.\r\nInterprete um artesão nobre, uma fuinha avarenta, um mestre das artes ocultas ou quem quiser ser para vender poções aos aldeões!\r\n\r\nTrabalhe com diversos tipos de ingredientes\r\nFolhas, flores, bagas, raízes, frutas, minerais e uma infinidade de cogumelos podem ir direto para o seu moedor. Como em um café de qualidade, a moagem dos ingredientes é essencial!\r\n\r\nAprenda a arte da criação de poções\r\nPrepare sua receita de poção. Moa os ingredientes e os misture cuidadosamente no caldeirão. Aqueça o carvão. Ferva e misture. Adicione a base: água, óleo ou... outra coisa. Parabéns, você criou sua primeira poção! Foi fácil de aprender? Agora tente dominar a técnica!\r\n\r\nFaça experimentos e crie receitas\r\nPlaneje cuidadosamente a rota no Mapa Alquímico para combinar diferentes efeitos. Não se esqueça do senso comum: ninguém vai querer comprar uma poção de cura venenosa... ou vai? Você compraria?\r\n\r\nVenda poções\r\nTodos os dias, clientes vêm até sua loja em busca de soluções para os problemas deles. Dependendo do que decidir vender, você precisará encarar as consequências. Atraia guildas, faça amizade (ou inimizade) com figuras notáveis, ganhe riquezas e influência e, um dia, talvez você decida o destino da cidade inteira.\r\n\r\nCompre ingredientes ou os cultive por conta própria\r\nQualquer alquimista precisa de ingredientes. Você pode comprá-los de comerciantes, mas isso pode ser caro, então negocie para poupar algumas moedas. Você pode, também, cultivar seus próprios ingredientes!\r\n\r\nExercite a criatividade com a personalização\r\nQuer dar uma aparência especial às melhores poções? Vá em frente! Mude o formato do frasco, o tipo de rótulo, o ícone e as cores. Você pode até dar a elas nomes e descrições personalizados. Organize suas poções únicas cuidadosamente para exibi-las nas prateleiras e nas mesas da loja... ou as jogue de um lado para o outro sem qualquer preocupação - a gente não vai dizer o que você tem que fazer, a não ser: divirta-se!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          3
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "96854": [
+          {
+            "id": 327271,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96854-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Potion+Craft&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 839,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630073
+}

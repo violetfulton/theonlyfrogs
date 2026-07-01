@@ -1,0 +1,135 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 122100,
+        "game_title": "Détective Pikachu",
+        "release_date": "2018-03-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 53984,
+        "game_title": "Detective Pikachu",
+        "release_date": "2018-03-23",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As Tim Goodman, you will partner with a self-proclaimed \"great detective\" Pikachu to solve strange occurrences all over Ryme City. Together you must investigate, take notes, and meet up with other Pokémon to unravel the city's greatest mysteries. Tim is searching for his missing father in Ryme City, but instead encounters a witty, tough-talking Pikachu! Along the way, experience over 150 fun-filled animated cutscenes starring this unique Pikachu, providing helpful hints or talking up a storm. You can also tap the extra-large Detective Pikachu amiibo™ figure to access all cutscenes up until the current chapter played. As you investigate crime scenes, gather testimonies, uncover information, and interact with Pokémon to solve cases. You’ll have to put your detective skills to the test to foil the mastermind behind the disturbances in Ryme City. All in a day's work for detective Pikachu.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 120073,
+        "game_title": "Detective Pikachu",
+        "release_date": "2018-03-23",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "As Tim Goodman, you will partner with a self-proclaimed \"great detective\" Pikachu to solve strange occurrences all over Ryme City. Together you must investigate, take notes, and meet up with other Pokémon to unravel the city's greatest mysteries. Tim is searching for his missing father in Ryme City, but instead encounters a witty, tough-talking Pikachu! Along the way, experience over 150 fun-filled animated cutscenes starring this unique Pikachu, providing helpful hints or talking up a storm. You can also tap the extra-large Detective Pikachu amiibo™ figure to access all cutscenes up until the current chapter played. As you investigate crime scenes, gather testimonies, uncover information, and interact with Pokémon to solve cases. You’ll have to put your detective skills to the test to foil the mastermind behind the disturbances in Ryme City. All in a day's work for detective Pikachu.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "53984": [
+          {
+            "id": 275232,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53984-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 275233,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/53984-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120073": [
+          {
+            "id": 412167,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120073-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122100": [
+          {
+            "id": 422665,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122100-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Detective+Pikachu&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 497,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630018
+}

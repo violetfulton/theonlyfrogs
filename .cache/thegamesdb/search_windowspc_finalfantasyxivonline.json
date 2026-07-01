@@ -1,0 +1,219 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 23331,
+        "game_title": "Final Fantasy XIV Online",
+        "release_date": "2010-09-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Welcome To Eorzea\r\nThe Age of Adventure Has Begun\r\nJoin players across the globe as you enter a stunning world of endless opportunities. Gather a band of steadfast companions and battle ferocious creatures in the wilds; hunch over an anvil and forge a wondrous blade of legend; relax in a tavern with friends and swap tales of your latest exploits.\r\nThe story of Final Fantasy XIV is founded on the path of your advantures.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 85109,
+        "game_title": "Final Fantasy XIV Online Collector's Edition",
+        "release_date": "2010-09-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 124126,
+        "game_title": "Final Fantasy XIV Online Complete Edition",
+        "release_date": "2017-04-27",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Take part in an epic and ever-changing FINAL FANTASY as you adventure and explore with friends from around the world. The complete edition is perfect for newcomers as it includes the award-winning FINAL FANTASY XIV: A Realm Reborn and the Heavensward and Stormblood expansion packs! Join others from around the world and start your own FINAL FANTASY adventure today!",
+        "players": 99,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 17913,
+        "game_title": "Final Fantasy XIV Online: A Realm Reborn",
+        "release_date": "2013-08-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Final Fantasy XIV: A Realm Reborn (ファイナルファンタジーXIV: 新生エオルゼア Fainaru Fantajī Fōtīn: Shinsei Eoruzea?, lit. Final Fantasy XIV: Reborn Eorzea) is a massively multiplayer online role-playing game (MMORPG) for Microsoft Windows, Mac OS X, Sony PlayStation 3, and PlayStation 4. It was developed by Square Enix with Naoki Yoshida as producer and director, and was released worldwide on August 27, 2013. The game is currently available in Japanese, English, French, German, Mandarin Chinese, and Korean. Final Fantasy XIV: A Realm Reborn takes place in the fictional land of Eorzea, five years after the events of the original release. At the conclusion of Final Fantasy XIV, the primal dragon Bahamut escapes from its lunar prison to initiate the Seventh Umbral Calamity, an apocalyptic event which destroys much of Eorzea. Through the gods' blessing, the player character escapes the devastation by time traveling five years into the future. As Eorzea recovers and rebuilds, the player must deal with the impending threat of invasion by the Garlean Empire from the north.\r\n\r\nThe original Final Fantasy XIV was released in September 2010 to overwhelmingly negative reviews. As a result of this poor reception, then-Square Enix President Yoichi Wada announced that a new team, led by Yoshida, would take over development of the title. This team was responsible for generating content for the original version as well as developing a brand new game which would address all of the previous release's criticisms. Initially dubbed \"Version 2.0\", Final Fantasy XIV: A Realm Reborn features a new engine, improved server structures, revamped gameplay and interface, and a new story. The game released to largely positive reception; reviewers praised the game for its solid mechanics and progression, and commended Yoshida for turning the project around. The first major content patch—\"A Realm Awoken\"—was released on December 17, 2013, and introduced player housing, player versus player arena battles, new quests, and the first 24-man raid, Crystal Tower. Subsequent content patches have been released every three months. Square Enix executives attributed the company's return to profitability in part to the game's strong sales and subscriber base, reaching a cumulative total of 5 million subscriptions as of July 2015. The first expansion pack, titled Final Fantasy XIV: Heavensward, was released on June 23, 2015.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 104209,
+        "game_title": "Final Fantasy XIV: Endwalker Collector's Edition",
+        "release_date": "2021-12-07",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 50,
+        "overview": "Dive into the next chapter of the critically acclaimed FINAL FANTASY® XIV Online with the latest expansion pack—ENDWALKER!\r\n\r\nYet shadowed by their triumph in the First, the Warrior of Light and Scions of the Seventh Dawn are home at last. An even greater calamity than refulgent oblivion has been building in their absence, however─a second advent of the Final Days. Should all despair, the myriad conflicts that now ravage the land cannot but foretoken an end to life in the Source.\r\n\r\nThe Endwalker Collector’s Edition is a bundle containing a copy of the Digital Collector's Edition and the physical Collector's Box.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 104211,
+        "game_title": "Final Fantasy XIV: Shadowbringers",
+        "release_date": "2019-07-02",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 50,
+        "overview": "Final Fantasy XIV: Shadowbringers is the third expansion pack to Final Fantasy XIV.\r\n\r\nAla Mhigo is at last free from imperial rule, but that liberty may prove fleeting as the Empire moves to both reclaim this bloodied nation and subjugate all of Eorzea.\r\nIn their hour of need, however, they cannot turn to the Warrior of Light. Nor to the Scions, who yet slumber, their souls adrift. The realm is left to struggle without its saviors, for they have been beckoned beyond time and space─beckoned to the First.\r\n\r\nHere a new adventure begins in a world where light ushers all unto oblivion. But hope is not yet lost, for where there is light there is shadow.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17913": [
+          {
+            "id": 49411,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17913-1.jpg",
+            "resolution": "1531x2163"
+          }
+        ],
+        "23331": [
+          {
+            "id": 280881,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23331-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85109": [
+          {
+            "id": 280883,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85109-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104209": [
+          {
+            "id": 356787,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104209-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104211": [
+          {
+            "id": 356821,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104211-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124126": [
+          {
+            "id": 432054,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124126-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XIV+Online&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 986,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630098
+}

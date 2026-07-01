@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 98914,
+        "game_title": "Roarr! Jurassic Edition",
+        "release_date": "2018-11-07",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "When the aliens arrived, they didn’t come in peace. The invasion was immediate and so overwhelming that humans didn’t stand a chance. One thing it wasn’t though, was quiet… A terrible rumble from upstairs woke Rex up from her slumber. For millennia she was hibernating in her Cozy Cave but the incessant crescendo of the alien invasion was too much to sleep through. It was time for Rex to go upstairs and give her new neighbors a piece of his mind!\r\n\r\n\r\n\r\nROARR!’s fast and dynamic gameplay is a modern tribute to the good old brawler games we all enjoyed (or heard about from the older brother!) on classic Nintendo platforms. With a load of terrifying bosses, twenty five types of enemies and six completely different Isles to explore, ROARR! is a brawler heaven (or hell!) for any gamer with appetite for destruction! Not to mention that it’s a perfect game for any wild gaming party up to four players on the coach!\r\nWhat is ROARR!:\r\nVicious modern take on a classic brawler gameplay\r\nTongue-in-cheek story with serious gameplay that’s easy to pick up\r\nCountless combos, swarms of enemies, 6 towering bosses and one very angry dinosaur!\r\n6 different isles to explore from the ruins of human civilization to hazy jungle and frosty Arctic\r\nThe perfect party game with drop-in coop up to 4 players\r\nA slick retro style with polygons as sharp as Rex’s teeth\r\nPlenty of Rex variants, each with unique moves and animations. Become a Gentleman Rex than quickly change to Punk Dinosaur or even crazy Ballerina style\r\nFully destructible environment that will let you unleash your jurassic power… Roarr!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 56098,
+        "game_title": "Resident Evil 2",
+        "release_date": "2019-01-25",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "In Resident Evil 2, the classic action, tense exploration, and puzzle solving gameplay that defined the Resident Evil series returns. Players join rookie police officer Leon Kennedy and college student Claire Redfield, who are thrust together by a disastrous outbreak in Raccoon City that transformed its population into deadly zombies. Both Leon and Claire have their own separate playable campaigns, allowing players to see the story from both characters’ perspectives. The fate of these two fan favorite characters is in players hands as they work together to survive and get to the bottom of what is behind the terrifying attack on the city. Will they make it out alive?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 81588,
+        "game_title": "Resident Evil Village",
+        "release_date": "2021-05-07",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 50,
+        "overview": "Experience survival horror like never before in the 8th major installment in the Resident Evil franchise - Resident Evil Village. With detailed graphics, intense first-person action and masterful storytelling, the terror has never felt more realistic.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          18
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "56098": [
+          {
+            "id": 349356,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/56098-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81588": [
+          {
+            "id": 473053,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81588-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98914": [
+          {
+            "id": 336646,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98914-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Roarr%21&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 731,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630054
+}

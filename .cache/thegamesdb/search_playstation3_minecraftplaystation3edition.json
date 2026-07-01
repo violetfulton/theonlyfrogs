@@ -1,0 +1,138 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 19805,
+        "game_title": "Minecraft: PlayStation 3 Edition",
+        "release_date": "2013-12-17",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Minecraft is an open world video game originally created by Swedish programmer Markus \"Notch\" Persson and later developed and published by Mojang. The creative and building aspects of Minecraft enable players to build constructions out of textured cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat. Multiple gameplay modes are available, including survival mode where the player must acquire resources to build the world and maintain health, a creative mode where players have unlimited resources to build with and the ability to fly, an adventure mode where players play custom maps created by other players and a spectator mode where players can fly around and clip through blocks, however cannot place blocks. The PC version of the game is renowned for its third-party mods, which add various new items, characters, and quests to the game.\r\n\r\nThe alpha version was publicly released for PC on May 17, 2009, and after gradual updates, the full version was released on November 18, 2011. A version for Android was released a month earlier on October 7, and an iOS version was released on November 17, 2011. The game was released on the Xbox 360 as an Xbox Live Arcade game on May 9, 2012; on the PlayStation 3 on December 17, 2013; on the PlayStation 4 on September 4, 2014; on the Xbox One the next day; on the PlayStation Vita on October 14, 2014; and on the Wii U on December 17, 2015. On December 10, 2014, a Windows Phone version was released.[12] All versions of Minecraft receive periodic updates, with the console editions being co-developed by 4J Studios.\r\n\r\nMinecraft received five awards during the 2011 Game Developers Conference. Of the Game Developers Choice Awards, it won the Innovation Award, Best Downloadable Game Award, and Best Debut Game Award; from the Independent Games Festival, it won the Audience Award and the Seumas McNally Grand Prize. In 2012, Minecraft was awarded a Golden Joystick Award in the category Best Downloadable Game. As of June 2015, over 70 million copies had been sold, including 20 million between the Xbox 360 and Xbox One and 20 million on PC,[13] making it the best-selling PC game to date and the third best-selling video game of all time. On September 15, 2014, Microsoft announced a deal to buy Mojang and the ownership of the Minecraft intellectual property for US$2.5 billion; the acquisition was completed on November 6, 2014.[14][15][16][17]",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          1625
+        ]
+      },
+      {
+        "id": 115026,
+        "game_title": "Minecraft: PlayStation 3 Edition",
+        "release_date": "2013-12-17",
+        "platform": 12,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Minecraft: PlayStation 3 Edition is the PlayStation 3 edition of Minecraft, developed by 4J Studios for Mojang Studios. Minecraft: PlayStation 3 Edition is the first edition of Minecraft to be released on a console manufactured by Sony.\r\n\r\nMinecraft: PlayStation 3 Edition was announced at Sony Interactive Entertainment's exhibit at Gamescom 2013, along with the PlayStation 4, and PlayStation Vita, and was officially released on the PlayStation Store on Tuesday, December 17, 2013 in North America and Wednesday, December 18, 2013 in Europe, for $19.99, £12.85, or €18.47n. It was originally announced that Minecraft: PlayStation 3 Edition would no longer be available for digital purchase due to the PlayStation Store closing on the platform on July 2, 2021, however this statement was later retracted.\r\n\r\nAs of 1.84, the PlayStation 3 Edition has not received new feature updates, such as Village & Pillage, Buzzy Bees, the Nether Update, Caves & Cliffs, and so on.\r\n\r\nAlthough the PlayStation 3 console has been discontinued with all the other Legacy Console Editions, the Playstation 3 Edition continued to receive feature updates until the release of the Update Aquatic.",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": [
+          96,
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12,
+          27
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 119796,
+        "game_title": "Minecraft: PlayStation 3 Edition",
+        "release_date": "2013-12-17",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Minecraft is an open world video game originally created by Swedish programmer Markus \"Notch\" Persson and later developed and published by Mojang. The creative and building aspects of Minecraft enable players to build constructions out of textured cubes in a 3D procedurally generated world. Other activities in the game include exploration, resource gathering, crafting, and combat. Multiple gameplay modes are available, including survival mode where the player must acquire resources to build the world and maintain health, a creative mode where players have unlimited resources to build with and the ability to fly, an adventure mode where players play custom maps created by other players and a spectator mode where players can fly around and clip through blocks, however cannot place blocks. The PC version of the game is renowned for its third-party mods, which add various new items, characters, and quests to the game.\r\n\r\nThe alpha version was publicly released for PC on May 17, 2009, and after gradual updates, the full version was released on November 18, 2011. A version for Android was released a month earlier on October 7, and an iOS version was released on November 17, 2011. The game was released on the Xbox 360 as an Xbox Live Arcade game on May 9, 2012; on the PlayStation 3 on December 17, 2013; on the PlayStation 4 on September 4, 2014; on the Xbox One the next day; on the PlayStation Vita on October 14, 2014; and on the Wii U on December 17, 2015. On December 10, 2014, a Windows Phone version was released.[12] All versions of Minecraft receive periodic updates, with the console editions being co-developed by 4J Studios.\r\n\r\nMinecraft received five awards during the 2011 Game Developers Conference. Of the Game Developers Choice Awards, it won the Innovation Award, Best Downloadable Game Award, and Best Debut Game Award; from the Independent Games Festival, it won the Audience Award and the Seumas McNally Grand Prize. In 2012, Minecraft was awarded a Golden Joystick Award in the category Best Downloadable Game. As of June 2015, over 70 million copies had been sold, including 20 million between the Xbox 360 and Xbox One and 20 million on PC,[13] making it the best-selling PC game to date and the third best-selling video game of all time. On September 15, 2014, Microsoft announced a deal to buy Mojang and the ownership of the Minecraft intellectual property for US$2.5 billion; the acquisition was completed on November 6, 2014.[14][15][16][17]",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          1625
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19805": [
+          {
+            "id": 419929,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19805-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115026": [
+          {
+            "id": 391684,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115026-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119796": [
+          {
+            "id": 410581,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119796-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Minecraft%3A+PlayStation+3+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 620,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630037
+}

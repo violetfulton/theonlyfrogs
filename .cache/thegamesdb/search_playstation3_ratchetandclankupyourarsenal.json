@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 16301,
+        "game_title": "Ratchet & Clank: Up Your Arsenal",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Ratchet & Clank: Up Your Arsenal, Ratchet and Clank once again team up for an all-new adventure that combines diverse gameplay with elements of action, exploration, adventure, puzzle-solving, strategy, and role-playing into one experience. Together with the Q-Force, Ratchet and Clank set off to uncover the schemes of the sinister Dr. Nefarious and keep the galaxy safe for organic life. As one of three characters, you can now wield new weapons and gadgets, gain access to an array of vehicles, and master all-new abilities. The game also features both single-player and multiplayer (offline and online) gameplay.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4047
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          520
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "16301": [
+          {
+            "id": 202244,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16301-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank%3A+Up+Your+Arsenal&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 612,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630036
+}

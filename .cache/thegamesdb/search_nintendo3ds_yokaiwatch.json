@@ -1,0 +1,638 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 32748,
+        "game_title": "Yo-kai Watch",
+        "release_date": "2015-11-06",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "YO-KAI WATCH centers on a boy who gets a special watch that lets him befriend and help mischievous Yo-kai* and later summon them to fight other Yo-kai. Players can overcome challenges and help various characters solve everyday problems with the help of Yo-kai friends. These eccentric Yo-kai resemble anything from inanimate objects to mythical creatures.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 104814,
+        "game_title": "Yo-kai Watch",
+        "release_date": "2013-07-11",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Yo-kai Watch (Japanese: 妖怪ウォッチ Yōkai Wotchi) is a role-playing video game that was developed by Level-5, and the first to be released in the Yo-kai Watch video game series.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 105655,
+        "game_title": "Yo-kai Watch",
+        "release_date": "2016-04-29",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 44648,
+        "game_title": "YO-KAI WATCH (Special Edition with Medal)",
+        "release_date": "2016-04-29",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Explore the vast town of Springdale, battle & befriend the mischief-making Yo-kai and help solve mysteries in YO-KAI WATCH. Exclusively for the Nintendo 3DS family of systems.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104815,
+        "game_title": "Yo-kai Watch 2: Ganso",
+        "release_date": "2014-07-10",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Yo-kai Watch 2 (Japanese: 妖怪ウォッチ２ Youkai Wotchi Tsū) is a role-playing video game developed by Level-5 for the Nintendo 3DS. It is the second mainline game to be released in the Yo-kai Watch series.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 42783,
+        "game_title": "Yo-Kai Watch 2: Bony Spirits",
+        "release_date": "2016-09-30",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Much like its predecessor, Yo-kai Watch 2 is an open world role-playing video game, where the player is given control of player character Nathan Adams, or alternatively, Katie Forester. Players navigate around the open world using the Nintendo 3DS' touchscreen to find and befriend various Yo-kai, which are scattered across the overworld. Players befriend Yo-kai by giving them a food that they like before beginning battle, and after defeating the Yo-kai it approaches the player character and gives them its Yo-kai Medal, allowing it to be summoned at will. A new feature in battles is using the touch screen to find a particular sweetspot on an enemy Yo-kai to increase the likelihood of befriending it at the end of the battle, or other sweetspots for extra damage, extra money, or extra experience. Yo-kai can also be acquired through an in game Crank-a-kai (Gasha Machine) by collecting in-game coins or using Play Coins. Certain Yo-kai are necessary for completing the game's main quest, and special rare Yo-kai are acquired through various subquests. Yo-kai have the capability to evolve into more powerful versions of themselves if they reach a certain level, or they can evolve by combining with particular items or other Yo-kai. The Yo-kai are divided amongst eight different classes, each with their own strengths and weaknesses. There are also Legendary Yo-kai that can only be obtained by collecting a particular set of Yo-kai listed in the Yo-kai Medallium, a compendium of the different Yo-kai the player has encountered or befriended. When the player encounters a Yo-kai, he enters into battle with it using six Yo-kai that the player has befriended previously. The touchscreen is used during battles to rotate amongst the player's Yo-kai in battle at will. It is also used either to clear up status effects on the player's Yo-kai or to charge up the Yo-kai's Soultimate abilities. While the original Yo-kai Watch featured nearly 250 Yo-kai, Yo-Kai Watch 2 features nearly 450, including several that were featured as bosses in the original game.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 105656,
+        "game_title": "Yo-kai Watch 2: Bony Spirits",
+        "release_date": "2017-04-07",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 97184,
+        "game_title": "Yo-kai Watch 2: Honke",
+        "release_date": "2014-06-14",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "LNA-CTR-BYHJ-JPN",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 41912,
+        "game_title": "Yo-Kai Watch 2: Fleshy Souls",
+        "release_date": "2016-09-30",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Find, befriend, and battle more than 350 new and returning Yo-kai. Hop on a train to seek out new towns and new Yo-kai. Teaming up with the heroic cat, Hovernyan, travel back in time to save Springdale, and witness the origin of the Yo-kai Watch!\r\n\r\nAs the cause of all of life's troubles, Yo-kai are hiding everywhere! Explore the seaside town of San Fantastico or the sleepy village of Harrisville in search of new Yo-kai to befriend. Then time travel 60 years into the past with a new hero - Hovernyan - to ensure the Yo-kai Watch Model Zero is created and your timeline is preserved! For the first time, battle friends* online or via local wireless to earn rewards for the main adventure.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 97181,
+        "game_title": "Yo-Kai Watch 2: Shinuchi",
+        "release_date": "2014-12-13",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "LNA-CTR-BYSJ-JPN",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 55812,
+        "game_title": "Yo-Kai Watch 2: Psychic Specters",
+        "release_date": "2017-09-29",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Get wicked and complete the ultimate YO-KAI WATCH experience.\r\n\r\nThe strange but friendly troublemakers, Yo-kai, are back in a time-traveling adventure, and this time their mysterious world is packed with exclusive quests, Wicked Yo-kai to befriend, new areas to explore, and a revamped Blasters action co-op mode* featuring new bosses.\r\n\r\nAs the cause of life's troubles, Yo-kai are hiding everywhere! Explore the seaside town San Fantastico and the sleepy village Harrisville in search of these mischievous beings. Then travel 60 years into the past with Hovernyan to ensure the Yo-kai Watch Model Zero is created and your timeline is preserved! Battle online or via local wireless to earn in-game rewards for your adventure. Or take control of a Yo-kai in Psychic Blasters, a revamped 4-player action mode! If you own the YO-KAI WATCH 2: Bony Spirits or YO-KAI WATCH 2: Fleshy Souls game, you can transfer save data from your Nintendo 3DS family system to YO-KAI WATCH 2: Psychic Specters and pick up where you left off. Prepare yourself for the deepest and most immersive Yo-kai experience yet!\r\n\r\n* Embark on an epic adventure in Springdale with more than 350 Yo-kai to discover and befriend\r\n* Assemble and summon your team of 6 Yo-kai from your Yo-kai Watch to battle troublemaking Yo-kai, solve people's problems, and fight to end a civil war between competing Yo-kai factions\r\n* Travel back in time to discover the origin of the Yo-kai Watch and meet Classic Yo-kai from 60 years ago\r\n* For the first time, befriend Yo-kai from the Wicked Tribe as well as Boss Yo-kai and other Yo-kai exclusive to this ultimate version\r\n* Discover exclusive quests, such as the secret pasts of Darknyan, Dame Dedtime, and Whisper\r\n* Hop on the Hexpress train and explore new locations, including a Yo-kai amusement park, hot springs, and kabuki theater\r\n* Team up in an expanded version of the Yo-kai Watch Blasters local co-op mode, with powerful new bosses to defeat\r\n* Challenge your friend's team over the Internet or local wireless in 2-player multiplayer battles\r\n* Transfer game data from YO-KAI WATCH 2: Bony Spirits or YO-KAI WATCH 2: Fleshy Souls to YO-KAI WATCH 2: Psychic Specters and play from where you left off\r\n* Connect with YO-KAI WATCH 2: Bony Spirits or YO-KAI WATCH 2: Fleshy Souls to YO-KAI WATCH 2: Psychic Specters to unlock exclusive dungeons, stronger bosses, and special gleaming Yo-kai",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 62506,
+        "game_title": "Yo-Kai Watch 3",
+        "release_date": "2018-12-07",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Mischievous beings known as Yo-kai are everywhere, and it’s up to Nate and Hailey Anne to befriend, battle, and solve problems with them.\r\n\r\nFollow two parallel stories and unravel the mysteries behind strange sightings while meeting over 600 Yo-kai and using the new 3x3 grid battle system to strategically dish out or dodge attacks.\r\n\r\nMore Yo-kai, more mysteries! ’Merican Yo-kai have made their way to YO-KAI WATCH 3 and they’re rootin’ tootin’ troublemakers. Speaking of troublemakers, in BBQ, zombies rise from their graves and Nate must free the town during Zombie Night. If you’re too afraid of zombies, you can always find treasure by exploring randomly generated dungeons and discover the truth about the mysterious ruins hidden all across the continent with the Yo-kai Blasters T group.\r\n",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 106403,
+        "game_title": "Yo-Kai Watch 3",
+        "release_date": "2018-07-12",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 106437,
+        "game_title": "Yo-Kai Watch 3 Sukiyaki",
+        "release_date": "2016-12-15",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 106435,
+        "game_title": "Yo-Kai Watch 3 Sushi",
+        "release_date": "2016-07-16",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 106436,
+        "game_title": "Yo-kai Watch 3: Tempura",
+        "release_date": "2016-07-16",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 60855,
+        "game_title": "Yo-kai Watch Blasters: Moon Rabbit Crew",
+        "release_date": "2018-09-27",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 60854,
+        "game_title": "Yo-kai Watch Blasters: Red Cat Corps",
+        "release_date": "2018-09-07",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Take down enemy Yo-kai and Big Bosses using skills and Soultimate Moves with up to 3 other friends. As you tackle missions, befriend new Yo-kai to amplify your team's awesomeness. Train with Sgt. Burly to become the strongest Blasters team there is! As you complete missions, gather Oni Orbs and items to level up or forge equipment to power up your team. Some missions, bosses, and Yo-kai are exclusive to each version. Trade Yo-kai between versions to collect them all! You can befriend all friend Yo-kai from all versions of the YO-KAI WATCH 2 game, boss Yo-kai, plus the all-new Usapyon, Blizzie, and more. Link save data with a version of YO-KAI WATCH 2 to befriend special Yo-kai. Uncover new sides to the story as well as new Yo-kai, bosses, and missions with a post-launch software update.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 104813,
+        "game_title": "Yo-kai Watch Busters: Shiroinutai",
+        "release_date": "2015-07-11",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Yo-kai Watch Blasters (Japanese: 妖怪ウォッチバスターズ Yōkai Wotchi Basutāzu, Yo-kai Watch Busters) is an action role-playing game that was developed for the Nintendo 3DS by Level-5, and is considered to be a spin-off from the main Yo-kai Watch games.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      },
+      {
+        "id": 60856,
+        "game_title": "Yo-kai Watch Blasters: White Dog Squad",
+        "release_date": "2018-09-07",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Take down enemy Yo-kai and Big Bosses using skills and Soultimate Moves with up to 3 other friends*. As you tackle missions, befriend new Yo-kai to amplify your team's awesomeness. Train with Sgt. Burly to become the strongest Blasters team there is! As you complete missions, gather Oni Orbs and items to level up or forge equipment to power up your team. Some missions, bosses, and Yo-kai are exclusive to each version. Trade Yo-kai between versions to collect them all! You can befriend all friend Yo-kai from all versions of the YO-KAI WATCH 2 game, boss Yo-kai, plus the all-new Usapyon, Blizzie, and more. Link save data with a version of YO-KAI WATCH 2 to befriend special Yo-kai. Uncover new sides to the story as well as new Yo-kai, bosses, and missions with a post-launch software update.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "32748": [
+          {
+            "id": 85816,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32748-1.png",
+            "resolution": "1280x1166"
+          },
+          {
+            "id": 205619,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/32748-1.jpg",
+            "resolution": null
+          }
+        ],
+        "41912": [
+          {
+            "id": 112917,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41912-1.jpg",
+            "resolution": "481x429"
+          }
+        ],
+        "42783": [
+          {
+            "id": 114596,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/42783-1.png",
+            "resolution": "451x401"
+          }
+        ],
+        "44648": [
+          {
+            "id": 118070,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44648-1.jpg",
+            "resolution": "1500x1371"
+          }
+        ],
+        "55812": [
+          {
+            "id": 138205,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55812-1.png",
+            "resolution": "1000x914"
+          }
+        ],
+        "60854": [
+          {
+            "id": 202445,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/60854-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 353506,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60854-1.jpg",
+            "resolution": null
+          }
+        ],
+        "60855": [
+          {
+            "id": 202446,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60855-1.jpg",
+            "resolution": null
+          }
+        ],
+        "60856": [
+          {
+            "id": 202447,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60856-1.jpg",
+            "resolution": null
+          }
+        ],
+        "62506": [
+          {
+            "id": 345106,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62506-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97181": [
+          {
+            "id": 328622,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97181-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97184": [
+          {
+            "id": 328624,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97184-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104813": [
+          {
+            "id": 358912,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104813-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104814": [
+          {
+            "id": 358913,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104814-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104815": [
+          {
+            "id": 358914,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105655": [
+          {
+            "id": 362629,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105655-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105656": [
+          {
+            "id": 366166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105656-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106403": [
+          {
+            "id": 366165,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106403-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106435": [
+          {
+            "id": 366234,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106435-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106436": [
+          {
+            "id": 366233,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106436-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106437": [
+          {
+            "id": 366235,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106437-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Yo-kai+Watch&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Yo-kai+Watch&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=2"
+  },
+  "remaining_monthly_allowance": 449,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630011
+}

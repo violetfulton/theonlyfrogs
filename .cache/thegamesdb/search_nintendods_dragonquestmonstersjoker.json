@@ -1,0 +1,134 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 14368,
+        "game_title": "Dragon Quest Monsters: Joker",
+        "release_date": "2007-11-06",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Players assume the role of a monster hunter as they capture, train and breed a powerful army from more than 200 classic Dragon Quest creatures in order to become the world's greatest monster trainer. Joker is a breakout title that combines the depth of a classic Dragon Quest RPG with the addictiveness of a monster catching adventure.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 14274,
+        "game_title": "Dragon Quest Monsters: Joker 2",
+        "release_date": "2011-09-19",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As Monster Scouts, players can recruit wild monsters to build a team and battle against other players in this turn-based role-playing game. Each year, monster scouts from around the world gather to compete for the title of world's greatest scout. Players crash-land on a mysterious island after their airship is struck by lightning. They must rescue their missing passengers and crew members by fighting various enemies using their own monster parties. The only way off the island is to solve its many mysteries.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116854,
+        "game_title": "Dragon Quest Monsters: Joker 2 Professional",
+        "release_date": "2011-01-01",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14274": [
+          {
+            "id": 41304,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14274-1.jpg",
+            "resolution": "434x390"
+          }
+        ],
+        "14368": [
+          {
+            "id": 41533,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14368-1.jpg",
+            "resolution": "800x719"
+          },
+          {
+            "id": 41534,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14368-1.png",
+            "resolution": "500x450"
+          }
+        ],
+        "116854": [
+          {
+            "id": 398539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116854-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dragon+Quest+Monsters%3A+Joker&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 600,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630034
+}

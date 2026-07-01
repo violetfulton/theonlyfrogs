@@ -1,0 +1,101 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 66186,
+        "game_title": "Final Fantasy VIII Remastered",
+        "release_date": "2019-09-03",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "It is a time of war. The Republic of Galbadia, under the influence of the sorceress Edea, mobilises its great armies against the other nations of the world. Squall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal. This product is a remaster of FINAL FANTASY VIII, featuring multiple enhancements including additional options to customise your gameplay experience and difficulty, such as: - Battle assist options (HP, ATB gauge, and Limit Break boosts) - Game speed boost (x3) - No random encounters\r\n\r\nTrailer: YouTube\r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Role-Playing\r\n\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 126791,
+        "game_title": "Final Fantasy VIII Remastered",
+        "release_date": "2019-09-02",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "It is a time of war.\r\nThe Republic of Galbadia, under the influence of the sorceress Edea, mobilizes its great armies against the other nations of the world.\r\nSquall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal.\r\n\r\nThis product is a remaster of FINAL FANTASY VIII, featuring multiple enhancements including additional options to customize your gameplay experience and difficulty, such as:\r\n\r\n- Battle assist options (HP, ATB gauge, and Limit Break boosts)\r\n- Game speed boost (x3)\r\n- No random encounters",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          191,
+          2448,
+          2808
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "66186": [
+          {
+            "id": 355820,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66186-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126791": [
+          {
+            "id": 440002,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126791-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+VIII+Remastered&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 382,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630002
+}

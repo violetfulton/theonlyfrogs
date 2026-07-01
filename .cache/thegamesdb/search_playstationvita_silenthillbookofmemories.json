@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 12446,
+        "game_title": "Silent Hill: Book of Memories",
+        "release_date": "2012-10-16",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Book of Memories is an all-new game in the Silent Hill series, with a unique premise and storyline. The story begins with a strange book that is received, inside that book is your entire life story to this point, everything that’s ever happened to you; all of your memories. You discover that by altering what’s written… you can actually change the past. You can write your own ideal history.\r\n\r\nA departure for the series, with a focus on co-operative multiplayer action rather than traditional Psychological Horror. Players can work together as they explore several different Otherworlds, solving puzzles and defeating creatures to advance through the Nightmares and uncover the truth behind the Book of Memories. Scare rooms, limited resources, and dark atmosphere all return—but in a gameplay package specifically designed to take advantage of the PlayStation®Vita handheld entertainment system.\r\n\r\nBook of Memories is a macabre celebration of the best that Silent Hill has to offer. Players will encounter items and Creatures culled from over a decade of Silent Hill lore, including a special someone who walks softly and carries a gigantic knife.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9559
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          140
+        ]
+      },
+      {
+        "id": 82579,
+        "game_title": "Silent Hill Book Of Memories",
+        "release_date": "2012-10-16",
+        "platform": 39,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Book of Memories is an all-new game in the Silent Hill series, with a unique premise and storyline. The story begins with a strange book that is received, inside that book is your entire life story to this point, everything that’s ever happened to you; all of your memories. You discover that by altering what’s written… you can actually change the past. You can write your own ideal history.\r\n\r\nA departure for the series, with a focus on co-operative multiplayer action rather than traditional Psychological Horror. Players can work together as they explore several different Otherworlds, solving puzzles and defeating creatures to advance through the Nightmares and uncover the truth behind the Book of Memories. Scare rooms, limited resources, and dark atmosphere all return—but in a gameplay package specifically designed to take advantage of the PlayStation®Vita handheld entertainment system.\r\n\r\nBook of Memories is a macabre celebration of the best that Silent Hill has to offer. Players will encounter items and Creatures culled from over a decade of Silent Hill lore, including a special someone who walks softly and carries a gigantic knife.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4765
+        ],
+        "genres": [
+          5,
+          18
+        ],
+        "publishers": [
+          23
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12446": [
+          {
+            "id": 204620,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12446-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 204621,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12446-1.jpg",
+            "resolution": null
+          }
+        ],
+        "82579": [
+          {
+            "id": 376404,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/82579-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Silent+Hill%3A+Book+of+Memories&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 437,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630010
+}

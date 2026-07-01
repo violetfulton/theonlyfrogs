@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 43305,
+        "game_title": "LEGO Star Wars: The Force Awakens",
+        "release_date": "2016-06-28",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "In LEGO Star Wars: The Force Awakens, players relive the epic action from the blockbuster film Star Wars The Force Awakens, retold through the clever and witty LEGO lens. The game will also feature exclusive playable content that bridges the story gap between Star Wars Episode VI: Return of the Jedi and Star Wars: The Force Awakens. Also introduces Multi-Builds and Blaster Battles to the LEGO videogame universe. With Multi-Builds, use available LEGO bricks to open up new paths, then break them apart and re-build them again to open up another! During Blaster Battles, use your surroundings as cover to stand against the First Order.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          9091
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "43305": [
+          {
+            "id": 264127,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43305-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=LEGO+Star+Wars%3A+The+Force+Awakens&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 429,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630009
+}

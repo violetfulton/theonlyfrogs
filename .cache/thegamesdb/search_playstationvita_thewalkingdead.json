@@ -1,0 +1,106 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 20629,
+        "game_title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+        "release_date": "2013-08-20",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A five-part game series set in the same universe as Robert Kirkmans award-winning series. Play as Lee Everett, a convicted criminal, who has been given a second chance at life in a world devastated by the undead. Experience events, meet people and visit locations that foreshadow the story of Deputy Sheriff Rick Grimes. A tailored game experience actions, choices and decisions affect how your story plays out across the entire series.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          21
+        ]
+      },
+      {
+        "id": 23995,
+        "game_title": "The Walking Dead: Season Two - A Telltale Games Series",
+        "release_date": "2014-11-04",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The sequel to 2012's Game of the Year continues several months after the events seen in Season One of The Walking Dead, and Clementine is searching for safety. But what can an ordinary child do to stay alive when the living can be just as bad – and sometimes worse – than the dead?\r\n\r\nAs Clementine, you will encounter tragedy, struggle with survival and discover the harsh reality of things to come in a game series where every decision matters.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8644
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          606
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "20629": [
+          {
+            "id": 201993,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/20629-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 264689,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20629-1.jpg",
+            "resolution": null
+          }
+        ],
+        "23995": [
+          {
+            "id": 70120,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23995-1.png",
+            "resolution": "1174x1500"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Walking+Dead&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 410,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630006
+}

@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 120977,
+        "game_title": "Friends vs Friends",
+        "release_date": "2023-05-30",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Play 1v1 or 2v2 in online, fast-paced, chaotic combat! Gain player levels, get new cards, improve the ones you already have, and get to know an array of eclectic characters with their own unique passive skills. The best part? At this price, you can invite all of your friends to get wrecked, guilt-free!\r\n\r\n\r\n-Friends vs Friends: Matchmake with players worldwide in 1v1 or 2v2 combat, or host private matches with your friends. Need Support? Invite your friends to spectate!\r\n-A Game with Character: Choose from a stylish cast of characters, each with their own abilities that improve the synergies of your deck.\r\n-Low Price + High Quality = How?!: In order to keep the crew together, we made sure to level the playing field on cost so jumping in is a big-brain move.\r\n-Progress to Impress: Level up and get new cards through matched bouts and timed challenges.\r\n-Stack Your Deck: Collect weapon, trap, and curse cards, then level them up to increase their power.\r\n-Updates and Seasonal Content: Expect post-launch content including new unique characters, cards, maps, and upgrades to your home base.\r\n-Play Dress-up: Unlock cool cosmetics like skins and card design variants for bragging rights!\r\n-Practice, Practice, Practice: Go up against bots to try out new card combos and improve your skills for when it counts.\r\n \r\n♫ Let me tell you ‘bout some friends who invested all they had in a shady site that looked like a scam ♫",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": [
+          3358
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "120977": [
+          {
+            "id": 417078,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120977-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Friends+vs.+Friends&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 810,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630068
+}

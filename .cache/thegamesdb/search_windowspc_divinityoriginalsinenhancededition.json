@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 88459,
+        "game_title": "Divinity: Original Sin Enhanced Edition",
+        "release_date": "2015-10-28",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Gather your party and get back to the roots of great RPG gameplay. Discuss your decisions with companions; fight foes in turn-based combat; explore an open world and interact with everything and everyone you see.\r\n\r\nYou take on the role of a young Source Hunter: your job is to rid the world of those who use the foulest of magics. Embarking on what should have been a routine murder investigation, you find yourself in the middle of a plot that threatens to destroy the very fabric of time.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4881
+        ],
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          934
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "88459": [
+          {
+            "id": 294059,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88459-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Divinity%3A+Original+Sin+-+Enhanced+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 964,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630094
+}

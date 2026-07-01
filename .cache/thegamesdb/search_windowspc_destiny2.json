@@ -1,0 +1,281 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 50624,
+        "game_title": "Destiny 2",
+        "release_date": "2017-10-24",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "From Bungie, the makers of the acclaimed hit game Destiny, comes the much-anticipated sequel, Destiny 2. \r\n\r\nHumanity’s last safe city has fallen to an overwhelming invasion force, led by Ghaul, the imposing commander of the brutal Red Legion. To defeat the Red Legion and confront Ghaul, you must reunite humanity’s scattered heroes, stand together, and fight back to reclaim our home. \r\n\r\nAn action shooter that takes you on an epic journey across the solar system. immerse yourself in a new epic cinematic campaign. Join up with friends in three or six player co-op activities. Spar with your fellow players in a variety of competitive multiplayer modes \r\n\r\nNew Legends Will Rise, A new adventure for every player, with new worlds to explore, new stories to tell, new powers to acquire, new loot to earn, and much much more. Note: This edition doesn’t contain 3 actual figurines the characters shown in the image on site is simply demonstrating the salute in game character.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          4,
+          8,
+          14
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 110907,
+        "game_title": "Destiny 2 - PC Collector's Edition",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Action game",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 99215,
+        "game_title": "Destiny 2: The Witch Queen (Deluxe Edition)",
+        "release_date": "2022-02-22",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Destiny 2: The Witch Queen is a major expansion for Destiny 2, a first-person shooter video game by Bungie. Representing the sixth expansion and the fifth year of extended content for Destiny 2, it was originally planned for release in late 2021, but due to the impact of the COVID-19 pandemic, the expansion was delayed by three months and was released on February 22, 2022. Prior to release, Bungie reported that The Witch Queen had over 1 million pre-orders, \"on track to becoming the most pre-ordered expansion in Destiny 2 history\".\r\n\r\nThe expansion revolves around Savathûn, The Witch Queen, the sister of Oryx, who was the antagonist of the original Destiny's (2014) first major expansion, The Taken King (2015). The expansion adds new content across the game, including new missions, Player versus Environment locations, Player versus Player maps, player gear, weaponry, and a new raid. There are also four planned seasons of content to be released throughout Year 5. The first, Season of the Risen, released simultaneously with the expansion and will run until May.",
+        "players": 6,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          14
+        ],
+        "publishers": [
+          178
+        ]
+      },
+      {
+        "id": 79558,
+        "game_title": "Destiny 2: Beyond Light",
+        "release_date": "2020-11-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 3,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": [
+          178
+        ]
+      },
+      {
+        "id": 60796,
+        "game_title": "Destiny 2: Forsaken",
+        "release_date": "2018-09-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "With 2 brand-new destinations to explore, and new weapons, armour and Supers to acquire, Forsaken takes players on an epic journey into the wild frontiers of our solar system where the lines between justice and revenge are blurred. Forsaken also features an all-new competitive and collaborative endgame activity, called Gambit. A first-of-its kind for Destiny, Gambit is a new, hybrid 4v4 mode that merges both PvE and PvP experiences into an epic battle. This entirely new way to play Destiny 2 offers something for all types of gamers to enjoy, appealing to those who thrive on the competitive challenge of PvP gameplay, while seamlessly blending the collaborative and unpredictable elements of PvE.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 78294,
+        "game_title": "Destiny 2: Shadowkeep",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "New nightmares have emerged from the shadows of our Moon. Called forth by haunting visions, Eris Morn has returned. Join her to slay these nightmares before they reach out beyond the Moon to cast humanity back into an age of darkness",
+        "players": 3,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          178
+        ]
+      },
+      {
+        "id": 99178,
+        "game_title": "Destiny 2: The Witch Queen",
+        "release_date": "2022-02-22",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Destiny 2: The Witch Queen is a major expansion for Destiny 2, a first-person shooter video game by Bungie. Representing the sixth expansion and the fifth year of extended content for Destiny 2, it was originally planned for release in late 2021, but due to the impact of the COVID-19 pandemic, the expansion was delayed by three months and was released on February 22, 2022. Prior to release, Bungie reported that The Witch Queen had over 1 million pre-orders, \"on track to becoming the most pre-ordered expansion in Destiny 2 history\".\r\n\r\nThe expansion revolves around Savathûn, The Witch Queen, the sister of Oryx, who was the antagonist of the original Destiny's (2014) first major expansion, The Taken King (2015). The expansion adds new content across the game, including new missions, Player versus Environment locations, Player versus Player maps, player gear, weaponry, and a new raid. There are also four planned seasons of content to be released throughout Year 5. The first, Season of the Risen, released simultaneously with the expansion and will run until May.",
+        "players": 6,
+        "rating": "T - Teen",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          1,
+          8,
+          14
+        ],
+        "publishers": [
+          178
+        ]
+      },
+      {
+        "id": 14438,
+        "game_title": "John Romero's Daikatana",
+        "release_date": "2000-05-24",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Daikatana takes place during the year 2455 AD, in a world suffering from a major pandemic caused by a man named Kage Mishima. It is revealed that the current dystopian world, which Mishima rules over with an iron fist, is not what the world is destined to be, and is an alternate timeline created through the use of a magical sword called the Daikatana, which allows its wielder to travel through time. The protagonist takes the form of a martial arts instructor named Hiro Miyamoto. Hiro, along with partners Superfly Johnson and Mikiko Ebihara, attempts to recover the Daikatana and return the Earth to the way its meant to be, travelling to ancient Greece (1200 BC), medieval Norway (560 AD), near future Los Angeles (2030 AD) and futuristic Kyoto (2455 AD) in the process.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4324
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          26
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14438": [
+          {
+            "id": 41732,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14438-1.jpg",
+            "resolution": "410x500"
+          }
+        ],
+        "50624": [
+          {
+            "id": 134445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50624-1.jpg",
+            "resolution": "692x1000"
+          }
+        ],
+        "60796": [
+          {
+            "id": 202342,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60796-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78294": [
+          {
+            "id": 252751,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78294-1.jpg",
+            "resolution": null
+          }
+        ],
+        "79558": [
+          {
+            "id": 255777,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/79558-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99178": [
+          {
+            "id": 337848,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99178-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99215": [
+          {
+            "id": 337986,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99215-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110907": [
+          {
+            "id": 380284,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110907-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Destiny+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 933,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630089
+}

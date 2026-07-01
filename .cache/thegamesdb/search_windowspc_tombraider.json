@@ -1,0 +1,655 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 2756,
+        "game_title": "Tomb Raider",
+        "release_date": "2013-03-05",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tomb Raider is an Action-Adventure game that introduces players to the origin of one of the most identifiable video games icons of all-time, Lara Croft. The game features a blend of survival, stealth, melee and ranged combat, and exploration gameplay as a young Lara Croft is forced to push herself past her know limits to survive and unravel the dark history of a forgotten island. In the process she will unlock the adventurer within her. Additional game features include: weapons both familiar and new, upgradable items, a variety of play environments, and human and animal enemies.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1963
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 50819,
+        "game_title": "Tomb Raider - Masterpieces",
+        "release_date": "2013-06-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Square Enix Masterpieces: Tomb Raider 4 Disc Bundle\r\n \r\nTomb Raider: The Angel of Darkness is the sixth video game in the Tomb Raider series, acting as a direct sequel to Tomb Raider Chronicles and The Last Revelation. It was developed by Core Design and published by Eidos Interactive. The game was originally released in 2003 for Microsoft Windows, PlayStation 2 and Mac OS X and was the first Tomb Raider title to be released for the PlayStation 2 console. The storyline follows Lara Croft as she attempts to clear herself of murdering her former mentor Werner Von Croy while investigating the activities of a black magic cult.\r\n \r\nTomb Raider: Anniversary is a 2007 action-adventure video game, part of the Tomb Raider series. It is a remake of the first video game in the series, the original 1996 Tomb Raider. It uses an improved version of the Legend game engine,and it includes all of the original environments from Tomb Raider.\r\n \r\nTomb Raider: Legend is an action-adventure video game, the 7th entry in celebration of the 10th anniversary of Tomb Raider franchise. Published by Eidos Interactive, this is the first game in the series not to be handled by British-based Core Design, developed instead by British-owned U.S. studio Crystal Dynamics.\r\n \r\nTomb Raider: Underworld is the eighth instalment of the Tomb Raider series, following character Lara Croft. The story continues from the events in Tomb Raider: Legend as a direct sequel, but also addresses unexplained plot elements by association with Tomb Raider: Anniversary.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 66,
+        "game_title": "Tomb Raider (1996)",
+        "release_date": "1996-11-14",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "The player controls the female archaeologist Lara Croft, in search for the three mysterious Scion artefacts across the world. The game is presented in third person perspective. Lara is always visible and the camera follows the action from behind or over her shoulder. The world she inhabits is fully drawn in three dimensions and characterized by its cubic nature. Ledges, walls and ceilings mostly sit at 90 degrees to each other, but sometimes feature sloping planes.\r\n\r\nThe object of Tomb Raider is to guide Lara through a series of tombs and other locations in search of treasures and artefacts. On the way, she must kill dangerous animals and other creatures, while collecting objects and solving puzzles to gain access to an ultimate prize, usually a powerful artefact. Gunplay is restricted to the killing of various animals that appear throughout each stage, although occasionally Lara may be faced with a human opponent. Instead the emphasis lies on solving puzzles and performing trick jumps to complete each level.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 104608,
+        "game_title": "Tomb Raider [Survival Edition]",
+        "release_date": "2013-03-05",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Tomb Raider is an Action-Adventure game that introduces players to the origin of one of the most identifiable video games icons of all-time, Lara Croft. The game features a blend of survival, stealth, melee and ranged combat, and exploration gameplay as a young Lara Croft is forced to push herself past her know limits to survive and unravel the dark history of a forgotten island. In the process she will unlock the adventurer within her. Additional game features include: weapons both familiar and new, upgradable items, a variety of play environments, and human and animal enemies.\r\n\r\nExperience the origins of Lara Croft's adventurer's spirit in a reboot of the Tomb Raider franchise.\r\n\r\nBox Contains:\r\n-> Tomb Raider PS3 Game.\r\n-> Exclusive Survival Edition Packaging.\r\n-> 15\" x 19\" Double-Sided Island Map and Poster.\r\n-> The Art of Tomb Raider 4.5\" x 7.5\" Book.\r\n-> 4\" x 6\" Survival Pouch.\r\n-> Weapon Pack DLC.\r\n-> 10 Track Score.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9999
+        ],
+        "genres": [
+          1,
+          2,
+          16
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123447,
+        "game_title": "Tomb Raider I-III Remastered Starring Lara Croft",
+        "release_date": "2024-02-14",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Play the Original Three Tomb Raider Adventures: For the first time ever, play the complete experience with all expansions and secret levels on modern platforms in this definitive collection.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9999,
+          10339
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          698
+        ]
+      },
+      {
+        "id": 17814,
+        "game_title": "Tomb Raider III: Adventures of Lara Croft",
+        "release_date": "1998-11-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the Prologue, millions of years ago, a meteor struck the then tropical environments of Antarctica. It was first discovered by a tribe of ancient Polynesians who settled there and constructed a city in the meteorite crater. They worshipped the immense supernatural powers it appeared to hold, fashioning four artefacts out of the meteorite's core material (which become the focus of the game). Shortly thereafter, the tribe laid witness to the deformed birth of their prophesied leader, born without a face, and fled Antarctica in fear of what the meteorite was capable of. In the present day, the ancient Polynesian city has been buried beneath snow and ice and RX Tech are excavating the site, investigating the meteorite. Led by Dr. Willard, the crew discovers remnants of the Polynesian city, ancient stone statues resembling the Easter Island Moai, and finds the grave of a man named Paul Caulfield of the HMS Beagle.\r\n\r\nWhen the game begins, Lara Croft is in India searching for a legendary stone in the ruins of an ancient temple once inhabited by the Infada tribe. She encounters Tony, an RX Tech employee who seems to be suffering from a severe bout of jungle fever. After parting ways, Tony remains one step ahead of Lara in their search for the stone, eventually finding it hidden deep within an underground cavern. After killing an oddly superhuman Tony, Lara takes the stone and exits. On her trek back to the Indian jungle, she is discovered by Dr. Willard.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 70883,
+        "game_title": "Tomb Raider Collection",
+        "release_date": "2012-03-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Tomb Raider Collection includes 3 Xbox 360 game discs: -Lara Croft Tomb Raider: Legend -Lara Croft Tomb Raider: Anniversary -Tomb Raider: Underworld",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2683,
+          9999
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102836,
+        "game_title": "Tomb Raider Collection (1-6)",
+        "release_date": "2003-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 134895,
+        "game_title": "Tomb Raider Definitive Survivor Trilogy",
+        "release_date": "2020-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Tomb Raider: Definitive Survivor Trilogy is the complete edition of the award-winning Tomb Raider origin games. This collection contains all the definitive edition content from each critically acclaimed prequel title—Tomb Raider, Rise of the Tomb Raider: 20 Year Celebration, and Shadow of the Tomb Raider: Definitive Edition. Follow Lara on her formative journey across the world, starting in Tomb Raider trapped on the shrouded island of Yamatai off the coast of Japan, to the harsh Siberian tundra hiding an immortal secret in Rise of the Tomb Raider, and finally to the mountainous landscape of Peru to uncover a cataclysmic power in Shadow of the Tomb Raider. With all the definitive edition content from each game, this Trilogy promises dozens of hours of breathtaking exploration, challenging puzzle-solving, and survival combat with Lara as she becomes the Tomb Raider she was destined to become.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          2683,
+          9999
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          12,
+          27
+        ]
+      },
+      {
+        "id": 24759,
+        "game_title": "Tomb Raider Gold",
+        "release_date": "1998-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 17763,
+        "game_title": "Tomb Raider II",
+        "release_date": "1997-10-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The story of Tomb Raider II surrounds the mythical Dagger of Xian, a weapon which was used by an Emperor of China to command his army. By plunging the weapon into its owner's heart, the weapon has the power to turn its bearer into a dragon. A flashback reveals that the last battle which was fought with the Dagger ended in defeat when the warrior monks of Tibet succeeded in removing the knife from the Emperor's heart. The Dagger was then returned to its resting place within the Great Wall.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 82224,
+        "game_title": "Tomb Raider II: Golden Mask",
+        "release_date": "1999-07-04",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The story involves Lara Croft coming across some clues referring to a small island in the Bering Sea: a faded photograph showing an Inuit whale hunter holding what looks like an ancient Golden Mask, an old newspaper from 1945 referring to a conflict over an Alaskan gold discovery, and a secret kind of fortified military mine base. Lara is primarily interested in finding the Mask, as it is rumoured to be the famed Golden Mask of Tornarsuk - a greater spirit said to bestow powers of re-animation on the mask wearer.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 97221,
+        "game_title": "Tomb Raider III The Lost Artefact (Premier Collection)",
+        "release_date": "2000-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10247
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 118125,
+        "game_title": "Tomb Raider III: Adventures in India",
+        "release_date": "2000-01-01",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Tomb Raider III: Adventures in India is a special OEM released version of Tomb Raider III. As an OEM release, it only contains the four India levels, as well as an AOL trial.\r\nTaken from mobygames.com",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8299
+        ]
+      },
+      {
+        "id": 134150,
+        "game_title": "Tomb Raider III: Adventures of Lara Croft (sold out version)",
+        "release_date": "1998-11-30",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "In the Prologue, millions of years ago, a meteor struck the then tropical environments of Antarctica. It was first discovered by a tribe of ancient Polynesians who settled there and constructed a city in the meteorite crater. They worshipped the immense supernatural powers it appeared to hold, fashioning four artefacts out of the meteorite's core material (which become the focus of the game). Shortly thereafter, the tribe laid witness to the deformed birth of their prophesied leader, born without a face, and fled Antarctica in fear of what the meteorite was capable of. In the present day, the ancient Polynesian city has been buried beneath snow and ice and RX Tech are excavating the site, investigating the meteorite. Led by Dr. Willard, the crew discovers remnants of the Polynesian city, ancient stone statues resembling the Easter Island Moai, and finds the grave of a man named Paul Caulfield of the HMS Beagle.\r\n\r\nWhen the game begins, Lara Croft is in India searching for a legendary stone in the ruins of an ancient temple once inhabited by the Infada tribe. She encounters Tony, an RX Tech employee who seems to be suffering from a severe bout of jungle fever. After parting ways, Tony remains one step ahead of Lara in their search for the stone, eventually finding it hidden deep within an underground cavern. After killing an oddly superhuman Tony, Lara takes the stone and exits. On her trek back to the Indian jungle, she is discovered by Dr. Willard.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 131052,
+        "game_title": "Tomb Raider IV-VI Remastered",
+        "release_date": "2025-02-14",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Her legacy lives on!\r\n\r\nPlay the next series of Tomb Raider adventures in this remastered collection of Lara Croft's darkest adventures.\r\n\r\nIncluded Game Titles\r\n\r\nTomb Raider: The Last Revelation – Lara Croft discovers the lost tomb of the Egyptian God Set, unwittingly unleashing him and fulfilling an ancient prophecy—one that plunges mankind into darkness.\r\n\r\nTomb Raider: Chronicles – Following the events of The Last Revelation, Lara Croft is buried in an Egyptian tomb and is presumed dead. At her memorial, those closest to her reminisce about secrets from her past.\r\n\r\nTomb Raider: The Angel of Darkness – Accused of murder, Lara becomes a fugitive on the run, while uncovering a sinister conspiracy involving alchemical experiments and the search for ancient artifacts.\r\n\r\nKey Features\r\n\r\nSee the Classic & Remastered Visuals: Play with the original polygonal models or swap to the remastered graphics at any time\r\n\r\nTravel the Globe: Follow Lara Croft around iconic locales including Cairo, Rome, Paris, and many more\r\n\r\nExperience Lara’s Darkest Adventures: Uncover the secrets of Lara Croft’s past and shed light on the mystery of her disappearance",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10339
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90286,
+        "game_title": "Tomb Raider The Last Revelation Millenium Edition",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "adventure",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90285,
+        "game_title": "Tomb Raider Unfinished Business ",
+        "release_date": "1998-12-31",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Tomb Raider: Unfinished Business is an expanded version of the original Tomb Raider. This release featured the regular game as well as four new bonus levels in two extra chapters. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 7779,
+        "game_title": "Tomb Raider: Anniversary",
+        "release_date": "2007-06-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "A remake of the first video game in the series, the original Tomb Raider. It uses an improved version of the Legend game engine, and it includes all of the original environments from Tomb Raider.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1963
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          6,
+          15
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 2567,
+        "game_title": "Tomb Raider: Chronicles",
+        "release_date": "2000-11-17",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tomb Raider: Chronicles is set just days after the events of The Last Revelation. After the Temple of Horus had caved in, effectively entombing Lara, she is presumed dead.\r\n\r\nA memorial service is held, soon after which Winston Smith and Father Patrick Dunstan reveal that Werner von Croy is excavating the dilapidated temple in the hope of discovering her alive. Later at Croft Manor, three old associates of Lara's - Winston Smith, Father Patrick Dunstan and Charles Kane - reminisce some of her past adventures. \r\n\r\nThe first of which is situated in Rome, where Lara is searching for the fabled Philosopher's Stone. Pierre DuPont and Larson Conway are reintroduced and we learn that they are, too, after the Stone.\r\n\r\nThe second adventure entails Lara on the hunt for the famed Spear of Destiny. She encounters a Mafioso gang leader, Mikhailov, who is also after the Spear. Lara retrieves the Spear from the Ocean floor but is apprehended by a couple of Mikhailov's men. She warns him not to use the Spear as he has no idea of the powers it could unleash. However, he disregards her warnings as desperate attempts to attain the Spear. Mikhailov is inflicted with its power and the submarine hull is breached. Lara escapes and leaves the Spear to rest. \r\n\r\nThe third adventure is set in Lara's childhood on Black Isle of Ireland. She's staying with Winston but overhears him and Father Patrick Dunstan conversing about strange paranormal happenings on the island. She stows away on the small boat Father Patrick drives to the island and encounters many strange beings such as the Hanging Corpse, Changelings, a monster intent on chasing and killing her, the Grim Reaper, ghosts and the Demon Verdilet.\r\n\r\nThe fourth and final expedition involves Lara infiltrating a high-tech complex owned by none other than Werner von Croy in pursuit of the Iris artefact, an artefact Lara sees as her own from the beginning events of Tomb Raider: The Last Revelation. After the fourth adventure is wrapped up, we are taken to Egypt where we see Werner von Croy excavating the collapsed temple. A young boy gets the attention of Werner and asks him to come and see. He follows. When he enters the tomb, he demands to see what they have found. It is Lara's backpack. He then declares: \"We've found her!\"",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1827
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "66": [
+          {
+            "id": 248777,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66-1.jpg",
+            "resolution": null
+          }
+        ],
+        "2567": [
+          {
+            "id": 10559,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2567-1.jpg",
+            "resolution": "403x500"
+          }
+        ],
+        "2756": [
+          {
+            "id": 47197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2756-1.jpg",
+            "resolution": "520x732"
+          },
+          {
+            "id": 47198,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2756-1.jpg",
+            "resolution": "514x732"
+          }
+        ],
+        "7779": [
+          {
+            "id": 20429,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/7779-1.jpg",
+            "resolution": "480x695"
+          }
+        ],
+        "17763": [
+          {
+            "id": 48866,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17763-1.jpg",
+            "resolution": "500x502"
+          }
+        ],
+        "17814": [
+          {
+            "id": 49047,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17814-1.jpg",
+            "resolution": "622x800"
+          },
+          {
+            "id": 49048,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17814-1.jpg",
+            "resolution": "475x602"
+          }
+        ],
+        "24759": [
+          {
+            "id": 71288,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/24759-1.jpg",
+            "resolution": "246x205"
+          },
+          {
+            "id": 71544,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/24759-1.jpg",
+            "resolution": "197x256"
+          }
+        ],
+        "50819": [
+          {
+            "id": 129466,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50819-1.jpg",
+            "resolution": "400x569"
+          }
+        ],
+        "70883": [
+          {
+            "id": 225501,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70883-1.jpg",
+            "resolution": null
+          }
+        ],
+        "82224": [
+          {
+            "id": 267863,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/82224-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90285": [
+          {
+            "id": 370625,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90285-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90286": [
+          {
+            "id": 300449,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90286-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97221": [
+          {
+            "id": 328746,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97221-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102836": [
+          {
+            "id": 352254,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102836-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104608": [
+          {
+            "id": 358198,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104608-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118125": [
+          {
+            "id": 403399,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118125-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123447": [
+          {
+            "id": 428166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123447-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131052": [
+          {
+            "id": 458805,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131052-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134150": [
+          {
+            "id": 472316,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134150-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134895": [
+          {
+            "id": 475793,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134895-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tomb+Raider&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tomb+Raider&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
+  },
+  "remaining_monthly_allowance": 709,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630051
+}

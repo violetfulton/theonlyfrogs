@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 103814,
+        "game_title": "V Rising",
+        "release_date": "2024-05-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8283
+        ],
+        "genres": [
+          1,
+          3,
+          14
+        ],
+        "publishers": null
+      },
+      {
+        "id": 14825,
+        "game_title": "Viper Racing",
+        "release_date": "1998-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The first simulation of sports-car racing that features exclusively the Dodge Viper, one of the most popular racing cars on the road today. Viper Racing combines both the easy-to-master arcade racing mode and the challenge of a serious simulation mode with three levels of difficulty.\r\n\r\nA career mode is included to let you earn money to upgrade your car and move up through three different classes of the Viper racing league. Many tracks are included, along with replays, for reviewing races later, and a garage mode, for tweaking your setup.\r\n\r\nThere are also hacks, including the ability to drive planes, but none of these are particularly useful, nor well-polished, except the 'exotic' car. (Most of the vehicle models are incomplete). Viper Racing's physics were very advanced for its time, and the AI, when set to hard, can even get into car-fights with you!",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          5687
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          145
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14825": [
+          {
+            "id": 85846,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14825-1.jpg",
+            "resolution": "640x807"
+          }
+        ],
+        "103814": [
+          {
+            "id": 460110,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103814-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=V+Rising&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 715,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630052
+}

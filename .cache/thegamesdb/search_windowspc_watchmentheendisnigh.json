@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 851,
+        "game_title": "Watchmen: The End Is Nigh",
+        "release_date": "2009-07-21",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The game allows players to take on the roles of either Rorschach or Nite Owl II in single player or cooperative multiplayer. Rorschach and Nite Owl are the only playable characters in the game's first episode, which comprises six \"chapters.\" Cutscenes that look like animated comic panels, similar to those seen in the Watchmen motion comics released on iTunes, bookend each chapter. Two of the film's actors, Patrick Wilson and Jackie Earle Haley, provide their voices for their characters Nite Owl and Rorschach, respectively. The game features a mix of beat-em-up and puzzle gameplay, with the two characters having different strengths and abilities. Rorschach is faster with unconventional attacks and makes use of improvised weapons like crowbars and baseball bats; Nite Owl is slower but has a solid martial arts method and uses technological devices, such as \"screecher bombs\", and the grappling gun. The characters must work cooperatively to pass puzzles and defeat enemies.",
+        "players": 2,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2191
+        ],
+        "genres": [
+          1,
+          10
+        ],
+        "publishers": [
+          152
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "851": [
+          {
+            "id": 4718,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/851-1.jpg",
+            "resolution": "283x400"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Watchmen%3A+The+End+Is+Nigh&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 703,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630050
+}

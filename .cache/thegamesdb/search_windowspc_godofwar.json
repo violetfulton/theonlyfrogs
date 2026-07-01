@@ -1,0 +1,99 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 96733,
+        "game_title": "God of War",
+        "release_date": "2022-01-14",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The God of War has changed... and this is not the Kratos you know.\r\n\r\nA difficult and unfamiliar road awaits as you explore a stunning retelling of a classic story. Join Kratos as he adventures through a deep and reflective journey of growth, violence and the desire to become a better man for the sake of his son. In a world of monsters, dragons and gods, the weight of responsibility rests heavy on your shoulders -- and when your life is filled with blood and chaos, how can you prevent the mistakes of the past in order to protect your future?",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7435
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130236,
+        "game_title": "God of War Ragnarök",
+        "release_date": "2024-09-19",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "From Santa Monica Studio and brought to PC in partnership with Jetpack Interactive comes God of War Ragnarök, an epic and heartfelt journey that follows Kratos and Atreus as they struggle with holding on and letting go.\r\n\r\nThe sequel to the critically acclaimed God of War (2018), God of War Ragnarök picks up with Fimbulwinter well underway. Kratos and Atreus must journey to each of the Nine Realms in search of answers as Odin’s forces in Asgard prepare for a prophesied battle that will end the world.\r\n\r\nAlong the way, they will explore stunning, mythical landscapes, and face fearsome enemies in the form of Norse gods and monsters. As the threat of Ragnarök grows ever closer, Kratos and Atreus must choose between the safety of their family and the safety of the realms.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7435
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          1625
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "96733": [
+          {
+            "id": 372397,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96733-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130236": [
+          {
+            "id": 469838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130236-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=God+of+War&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 820,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630070
+}

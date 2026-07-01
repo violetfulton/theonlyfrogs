@@ -1,0 +1,141 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 113645,
+        "game_title": "Persona 5 Scramble: The Phantom Strikers",
+        "release_date": "2020-02-20",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Persona 5 Scramble: The Phantom Strikers is a hack and slash role-playing video game developed by Omega Force and P-Studio for Nintendo Switch, PlayStation 4, and Microsoft Windows. The game is a crossover between Koei Tecmo's Dynasty Warriors and Atlus's Persona franchises, and is set six months after the events of Persona 5. It follows Joker and the rest of the Phantom Thieves of Hearts as they investigate a series of mysterious events involving people across Japan. It was released in Japan in February 2020, with a worldwide release titles Persona 5 Strikers in February 2021. ",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6242,
+          10380
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 80130,
+        "game_title": "Persona 5 Strikers",
+        "release_date": "2021-02-19",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Persona 5 Strikers is a hack and slash role-playing video game developed by Omega Force and P-Studio for Nintendo Switch, PlayStation 4, and Microsoft Windows. The game is a crossover between Koei Tecmo's Dynasty Warriors and Atlus's Persona franchises, and is set six months after the events of Persona 5. It follows Joker and the rest of the Phantom Thieves of Hearts as they investigate a series of mysterious events involving people across Japan. It was released in Japan in February 2020, with a worldwide release scheduled for February 2021. ",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6242,
+          10380
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          346
+        ]
+      },
+      {
+        "id": 113449,
+        "game_title": "Persona 5 Strikers",
+        "release_date": "2021-02-23",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Join the Phantom Thieves and strike back against the corruption overtaking cities across Japan. A summer vacation with close friends takes a Sudden turn as a distorted reality emerges; reveal the truth and redeem the hearts of those imprisoned at the centre of the crisis!\r\n\r\n-> Jump into the stylish world of Persona in an all-new story.\r\n-> Dynamically control your team during explosive combat.\r\n-> Bttle across Japan in an epic road trip.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4744,
+          6242,
+          10380
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          4194
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "80130": [
+          {
+            "id": 284341,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80130-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 284342,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/80130-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113449": [
+          {
+            "id": 387029,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113449-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113645": [
+          {
+            "id": 387039,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113645-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+5+Strikers&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 361,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629999
+}

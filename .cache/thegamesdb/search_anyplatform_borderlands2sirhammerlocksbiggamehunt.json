@@ -1,0 +1,66 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 35911,
+        "game_title": "Borderlands 2: Sir Hammerlock's Big Game Hunt",
+        "release_date": "2013-01-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Sir Hammerlock's Big Game Hunt is the third downloadable campaign add-on for Borderlands 2 and was released January 15, 2013. It takes place in a far off continent called Aegrus, and the plot is centered on an evil man by the name of Professor Nakayama. Nakayama's ultimate goal is to clone Handsome Jack, and it is the Vault Hunter's job is to stop the madman before he can unleash his not-so-secret weapon.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35911": [
+          {
+            "id": 102042,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35911-1.jpg",
+            "resolution": "620x350"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+2%3A+Sir+Hammerlock%27s+Big+Game+Hunt&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 173,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629968
+}

@@ -1,0 +1,619 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 131584,
+        "game_title": "Tchia",
+        "release_date": "2024-03-21",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10835
+        ],
+        "genres": [
+          2,
+          12
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 55238,
+        "game_title": "Taxi 2",
+        "release_date": "2000-06-29",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Taxi 2 for PC is a racing game inspired from the movie with the same title. You play the role of the driver Daniel and have to drive your 406 through various missions consistent with the movie. The story begins with the Japanese prime minister being taken hostage by the Yakuza. The goal is to find and rescue him, and to escort him back to Paris in time.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          1236
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          7
+        ]
+      },
+      {
+        "id": 65859,
+        "game_title": "Taxi!",
+        "release_date": "2014-08-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Run your own taxi cab company by hiring drivers, upgrading vehicles and getting behind the wheel to complete fares. Some passengers will even encourage you to break traffic laws to get to their destination quickly, but try to avoid the watchful eye of the police. ",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          3
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90679,
+        "game_title": "The D Show ",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "disney",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          22
+        ],
+        "publishers": null
+      },
+      {
+        "id": 92237,
+        "game_title": "The D Show",
+        "release_date": "1998-11-02",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2383
+        ],
+        "genres": [
+          25
+        ],
+        "publishers": [
+          171
+        ]
+      },
+      {
+        "id": 180,
+        "game_title": "The Dig",
+        "release_date": "1995-11-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A DEEP SPACE ADVENTURE BY SEAN CLARK IN COLLABORATION WITH FILMMAKER STEVEN SPIELBERG\r\n\r\nAn asteroid the size of a small moon is on a crash course toward Earth, and only NASA veteran Boston Low has the expertise to stop it. Along for the ride are award-winning journalist Maggie Robbins and internationally renowned geologist Ludger Brink.\r\n\r\nOnce the wayward asteroid is nuked into a safe orbit, the trio conducts a routine examination of the rocky surface.\r\n\r\nWhat they uncover is anything but routine.\r\n\r\nLow, Brink and Robbins unwittingly trigger a mechanism that transforms the asteroid into a crystal-like spacecraft. The team is hurtled across the galaxy to a planet so desolate, Brink is moved to name it Cocytus, after the 9th circle of Hell in Dante’s inferno. The bleak landscape was obviously once home to a highly evolved civilization, with remnants of sophisticated architecture, advanced technology and an intricate network of underground tunnels.\r\n\r\nBut no Cocytans.\r\n\r\nWho were the original inhabitants of this once rich empire-turned-wasteland? What are those apparitions that mysteriously appear from time to time? Why have Low, Robbins, and Brink been brought to this place? And how can Low keep his team from unraveling in the face of such uncertainty? To return to Earth, they must dig for answers, both on the planet’s surface and deep within themselves.\r\n\r\nFrom the combined talents of LucasArts and legendary Steven Spielberg comes an epic adventure that plunges headlong into the very core of the unknown. And takes you with it.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5068
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          25
+        ]
+      },
+      {
+        "id": 62023,
+        "game_title": "The Hex",
+        "release_date": "2018-10-16",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In a creaky old tavern, in a forgotten corner of the video-game universe, a storm is raging. An anonymous caller suggests that there is a murder plot. Six video game protagonists are the only plausible suspects...",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6230
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 65824,
+        "game_title": "The House",
+        "release_date": "2014-06-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Plunge into the atmosphere of fear and horror,investigate the dark house full of mysteries and danger! ",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 54567,
+        "game_title": "The SKIES",
+        "release_date": "2016-04-16",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The Skies is a post-apocalyptic MMORPG with a non-linear storyline, in which you follow your own path or join other players to conquer the wasteland.\r\nIn this innovative sandbox you create your own adventure in a player driven economy your actions will result in the development of both the world and your character. \r\nThe game story takes place in the early 21st century, when solar activity increased dramatically. Within two weeks civilization collapsed, wiping out power sources, government and infrastructure. Humanity descended into darkness.\r\nIn 2150-2170, dust began to settle on the surface of the planet and the sunrays reappeared after 150 years of darkness. \r\n\r\nIs mankind strong enough to restore what they've destroyed over the last century? What is life going to be like now?",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          2671
+        ],
+        "genres": [
+          1,
+          4,
+          14
+        ],
+        "publishers": [
+          5753
+        ]
+      },
+      {
+        "id": 33373,
+        "game_title": "The Witch's House",
+        "release_date": "2012-10-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The game is a survival horror game in which the main goal is to solve all puzzles correctly, revealing the background story and survive to the end to escape the house. The game contains a creepy atmosphere, complex riddles and jump-scares. The game is played from bird's-eye view using an ornate 16-bit-graphic, and controlled via keyboard.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          3222
+        ],
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": [
+          3524
+        ]
+      },
+      {
+        "id": 27009,
+        "game_title": "The Yawhg",
+        "release_date": null,
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": [
+          2087
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 80443,
+        "game_title": "TIS-100",
+        "release_date": "2015-07-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "TIS-100 is an open-ended programming game by Zachtronics, the creators of SpaceChem and Infinifactory, in which you rewrite corrupted code segments to repair the TIS-100 and unlock its secrets. It’s the assembly language programming game you never asked for!\r\n\r\nIntroducing the TIS-100\r\nThe Tessellated Intelligence Systems TIS-100 is a massively parallel computer architecture comprised of non-uniformly interconnected heterogeneous nodes. The TIS-100 is ideal for applications requiring complex data stream processing, such as automated financial trading, bulk data collection, and civilian behavioral analysis.\r\n\r\nRead the manual, hack the TIS-100\r\nDespite its appearances, TIS-100 is a game!\r\n\r\n- Print and explore the TIS-100 reference manual, which details the inner-workings of the TIS-100 while evoking the aesthetics of a 1980’s computer manual!\r\n- Solve more than 45 puzzles, competing against your friends and the world to minimize your cycle, instruction, and node counts.\r\n- Design your own challenges in the TIS-100’s 3 sandboxes, including a “visual console” that lets you create your own games within the game!\r\n- Uncover the mysteries of the TIS-100… who created it, and for what purpose?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          5,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 111458,
+        "game_title": "Toki",
+        "release_date": "2019-06-07",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The return of the wacky monkey!\r\n\r\nToki sets off on a new adventure! The cult action/platform game originally released on arcade machines in 1989 is back with a super-simian new version, featuring all-new hand-drawn graphics and re-orchestrated music!\r\n\r\nToki the warrior lived peacefully in the jungle with his sweetheart Miho. Appearing out of nowhere, the terrifying voodoo sorcerer Vookimedlo and heinous demon Bashtar kidnap Miho and turn the poor Toki into a chimpanzee! Unfortunately for his sweetheart, he has become a hairy, lethargic ape... \r\n\r\nRediscover Toki 30 years on:\r\n\r\nPlaying as Toki, explore lush environments invaded by foul creatures!\r\nThe Labyrinth, Neptune Lake, the Cave of Fire, the Ice Palace, the Jungle of Darkness and the Golden Palace are infested with Vookimedlo's lackeys. Saving Miho won't be easy! These despicable and terrifying beings have friendly names like Boloragog, Rambacha, Mogulvar, Zorzamoth and Bashtar... And if Toki's looks are anything to go by it will be no walk in the park!\r\n\r\nYou'll have to make the best of it to succeed. Luckily, Toki can walk, jump, swim, climb and spit! That's right, he uses his saliva to great effect to dispose of his enemies…\r\n\r\nRise to the legendary difficulty of the Golden Age of video games:\r\n\r\n\"Insert coin\"… Remember spending all your hard-earned pocket on the arcade machines to complete your favorite games? Now you can enjoy the same challenging gameplay without breaking the piggy bank. Put your name at the top of the high score table!\r\nRookie players can also enjoy the game with a new easier mode.\r\n\r\nA masterfully made remake:\r\n\r\nThe game has been entirely redrawn by hand by Philippe Dessoly, illustrator of well-known manga cartoons, such as Captain Harlock and UFO Robot Grendizer, comics and video games. He also worked on the Amiga version of Toki back in 1991 and the game Mr. Nutz in 1992. His drawings have further improved Toki's apish good looks.\r\n\r\nThe music has been fully re-orchestrated by composer Raphaël Gesqua, providing a retro and modern soundtrack for Toki's adventure. This award-winning composer has created the music for more than one hundred video games.\r\n\r\nOn the technical side, developer Pierre Adane has worked tirelessly to bring this thrilling experience to life. He also worked on Mr. Nutz (1992) and created the tennis game Top Spin (2003).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          5470
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          1287
+        ]
+      },
+      {
+        "id": 66425,
+        "game_title": "Tokyo 42",
+        "release_date": "2017-05-31",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7853
+        ],
+        "genres": [
+          6,
+          8,
+          15,
+          16
+        ],
+        "publishers": [
+          833
+        ]
+      },
+      {
+        "id": 18536,
+        "game_title": "Touch",
+        "release_date": "2016-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "A mother's Journey to save her children from a dark entity that wants to consume them.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          17
+        ],
+        "publishers": null
+      },
+      {
+        "id": 36094,
+        "game_title": "Tough Guy",
+        "release_date": "1994-06-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tough Guy is a fighting game similar to Street Fighter. Choose one fighter and travel all over the world to choose and challenge a wide variety of fighters.\r\n\r\nA unique feature of Tough Guy is that fighters have the ability to refill their health if they are injured. They also have super moves which can inflict a lot of damage on their opponent.",
+        "players": 2,
+        "rating": null,
+        "developers": [
+          6397
+        ],
+        "genres": [
+          10
+        ],
+        "publishers": [
+          3865
+        ]
+      },
+      {
+        "id": 7646,
+        "game_title": "Touhou Eiyashou: Imperishable Night",
+        "release_date": "2004-08-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A human and youkai team set off along a forest path to investigate. Along the way, they encounter a firefly (Wriggle Nightbug) and a night sparrow (Mystia Lorelei), who are quickly defeated. Next, they meet a half-beast (Keine) who is protecting a Human Village from youkai. She mistakes the team for enemies and attacks them. After the team defeats her, Keine indicates that the person who switched the moons is in the bamboo forest. In the bamboo forest, they encounter a character (either Reimu or Marisa) who demands to know why the team has been freezing time and causing an imperishable night. \r\n\r\nFinally the team reaches the mansion of the perpetrator. But once inside, they find that the mansion is guarded by a pair of rabbits (Tewi and Reisen). The rabbits are defeated, but not before disorienting the team. Confused, the team must choose which path to take (one leads to the real moon and the other leads to the fake moon). After picking the right path, they are able to meet the perpetrator of this mischievous scheme, Kaguya. Kaguya is a moon princess in hiding who has taken the real moon in order to sever the link between the earth and the moon. The team restores the real moon and Kaguya challenges them to face the \"5 impossible requests.\"",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8569
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          821
+        ]
+      },
+      {
+        "id": 7651,
+        "game_title": "Touhou Kaeidzuka: Phantasmagoria of Flower View",
+        "release_date": "2005-08-14",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "PROLOGUE\r\nSpring has come once again in Gensokyo, and instead of the usual flowers blooming, flowers from every season are coming up at the same time. The heroines realize something ood is going on when they see this thick layer of flowers covering much of Gensokyo, and soon head out in search of answers, whether out of curiosity, duty, or boredom.\r\n\r\nGENERAL STORY\r\nStarting off somewhere near the Misty Lake next to the Scarlet Devil Mansion, the heroines set out and soon encounter the other characters. Battling them in succession, they eventually reach those who have the answers, Komachi Onozuka and Shikieiki Yamaxanadu.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          8569
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          821
+        ]
+      },
+      {
+        "id": 27558,
+        "game_title": "TOXIKK",
+        "release_date": "2015-01-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "FRAG LIKE IT'S 1999! TOXIKK plays as if today's military shooters never existed. The game combines the simple and intuitive mechanics of old-school FPS giants with a fresh setting, slick graphics and our vision to carefully evolve the genre with some new ideas elaborated with Arena-FPS enthusiasts. \r\n\r\nBeing a spiritual successor to the arena shooters of the late 90s and early 2ks, there is no levelling, no skill-trees, no perks, no cover systems, no classes, no configurable weapons and no iron sight aiming. But most importantly: TOXIKK is NOT \"Free-2-Play\"!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7033
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          2961
+        ]
+      },
+      {
+        "id": 61683,
+        "game_title": "TSIOQUE",
+        "release_date": "2018-11-07",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6227
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "180": [
+          {
+            "id": 278581,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/180-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 278582,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/180-1.jpg",
+            "resolution": null
+          }
+        ],
+        "7646": [
+          {
+            "id": 19881,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/7646-1.jpg",
+            "resolution": "1641x1626"
+          }
+        ],
+        "7651": [
+          {
+            "id": 19915,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/7651-1.jpg",
+            "resolution": "1652x1647"
+          }
+        ],
+        "18536": [
+          {
+            "id": 91054,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18536-1.jpg",
+            "resolution": "1248x700"
+          }
+        ],
+        "27009": [
+          {
+            "id": 75912,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/27009-1.png",
+            "resolution": "640x480"
+          }
+        ],
+        "27558": [
+          {
+            "id": 77046,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/27558-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "33373": [
+          {
+            "id": 88531,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/33373-1.jpg",
+            "resolution": "494x227"
+          }
+        ],
+        "36094": [
+          {
+            "id": 102616,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/36094-1.jpg",
+            "resolution": "800x1094"
+          }
+        ],
+        "54567": [
+          {
+            "id": 136515,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54567-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "55238": [
+          {
+            "id": 137392,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55238-1.jpg",
+            "resolution": "332x475"
+          }
+        ],
+        "61683": [
+          {
+            "id": 204901,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61683-1.jpg",
+            "resolution": null
+          }
+        ],
+        "62023": [
+          {
+            "id": 205763,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62023-1.jpg",
+            "resolution": null
+          }
+        ],
+        "65824": [
+          {
+            "id": 215850,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65824-1.jpg",
+            "resolution": null
+          }
+        ],
+        "65859": [
+          {
+            "id": 215883,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65859-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66425": [
+          {
+            "id": 217001,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66425-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 217002,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/66425-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80443": [
+          {
+            "id": 260896,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80443-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90679": [
+          {
+            "id": 301616,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90679-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92237": [
+          {
+            "id": 306867,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92237-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111458": [
+          {
+            "id": 381928,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111458-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131584": [
+          {
+            "id": 462117,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131584-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tchia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tchia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
+  },
+  "remaining_monthly_allowance": 719,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630052
+}

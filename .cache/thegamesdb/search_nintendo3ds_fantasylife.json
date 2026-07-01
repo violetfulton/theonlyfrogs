@@ -1,0 +1,99 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 23240,
+        "game_title": "Fantasy Life",
+        "release_date": "2014-10-29",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "FANTASY LIFE* is an original RPG for the Nintendo 3DS from LEVEL-5, featuring music by Nobuo Uematsu and image illustration by Yoshitaka Amano. \r\nSet in a beautiful and vast open world, players create their own avatars and take up a vocation of their choosing, living out their lives as they see fit. You can set out on an adventure to save the world, or spend your days in leisurely pursuits such as cooking or fishing. Find the meaning of your new life in the limitless possibilities that reside in FANTASY LIFE* on the Nintendo 3DS",
+        "players": 3,
+        "rating": "Not Rated",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4,
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116779,
+        "game_title": "Fantasy Life Link!",
+        "release_date": "2013-01-01",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1680
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23240": [
+          {
+            "id": 123409,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23240-1.jpg",
+            "resolution": "1773x1602"
+          }
+        ],
+        "116779": [
+          {
+            "id": 398342,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116779-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fantasy+Life&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 489,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630017
+}

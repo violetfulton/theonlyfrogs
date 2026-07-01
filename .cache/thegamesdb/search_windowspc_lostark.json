@@ -1,0 +1,92 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 97823,
+        "game_title": "Lost Ark",
+        "release_date": "2022-02-11",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Lost Ark is a fantasy massively multiplayer online action role-playing game (MMOARPG). It is co-developed by Tripod Studio and Smilegate's game development subsidiary Smilegate RPG. It was fully released in the South Korean region on December 4, 2019. The game was also released in European and North American regions on February 11, 2022, published by Amazon Games.\r\n\r\nLost Ark won six game awards in various categories at the Korea Game Awards 2019. Developing the game cost about $85.4 million.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1,
+          4,
+          14
+        ],
+        "publishers": null
+      },
+      {
+        "id": 86853,
+        "game_title": "Louis Cat Orze",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "86853": [
+          {
+            "id": 287421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86853-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97823": [
+          {
+            "id": 331101,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97823-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Lost+Ark&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 818,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630069
+}

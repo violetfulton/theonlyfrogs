@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 120239,
+        "game_title": "Final Fantasy III Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original FINAL FANTASY III comes to life with completely new graphics and audio as a 2D pixel remaster!\r\nA remodeled 2D take on the third game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nWith the power of light nearly eclipsed by the power of darkness, only the crystals' four chosen adventurers can save the world.\r\n\r\nExperience the iconic job changing system first introduced in FFIII - switch jobs at will and use various abilities as you progress in the game. Change into a variety of classes like Warrior, Monk, White Mage, Black Mage, Dragoon, Evoker, or even call monsters to do your bidding with as a Summoner.\r\n\r\nEnjoy the exciting third installment in the FINAL FANTASY series!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61036,
+        "game_title": "Final Fantasy XII: The Zodiac Age",
+        "release_date": "2019-04-30",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Enter an era of war within the world of Ivalice. The small kingdom of Dalmasca, conquered by the Archadian Empire, is left in ruin and uncertainty. Princess Ashe, the one and only heir to the throne, devotes herself to the resistance to liberate her country. Vaan, a young man who lost his family in the war, dreams of flying freely in the skies. In a fight for freedom and fallen royalty, join these unlikely allies and their companions as they embark on a heroic adventure to free their homeland. Final Fantasy XII: The Zodiac Age improves upon the 2006 classic Final Fantasy XII, now more beautiful and easier to play than ever. The high-definition remaster introduces several modern advancements, including reconstructed battle design and a revamped job system. With newly implemented trophies and share functions, as well as stark visual and sound improvements in true HD for the first time, players both returning and new to the game will experience a grand adventure that spans the world of Ivalice in an entirely fresh and improved way.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61039,
+        "game_title": "Final Fantasy IX",
+        "release_date": "2019-02-13",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Selling over five million copies since its release in 2000, FINAL FANTASY IX proudly returns on Nintendo Switch!\r\n\r\nExperience the adventure once again with characters and pre-rendered movies featured in high definition, as well as a new booster system with a selection of various modes such as \"high speed\" or \"no encounters\"!\r\n\r\n■Story\r\nZidane and the Tantalus Theater Troupe have kidnapped Princess Garnet, the heir of Alexandria. To their surprise, however, the princess herself yearned to escape the castle. Through a series of unusual circumstances, she and her personal guard, Steiner, fall in with Zidane and set out on an incredible journey.\r\n\r\nMeeting unforgettable characters like Vivi and Quina along the way, they learn about themselves, the secrets of the Crystal, and a malevolent force that threatens to destroy their world.\r\n\r\n■Gameplay Features\r\n\r\n・Abilities\r\nLearn new abilities by equipping items. When fully mastered, these abilities can be used even without equipping items, allowing for nearly endless customization options.\r\n\r\n・Trance\r\nFill your Trance gauge as you sustain hits in battle. When fully charged, your characters will enter Trance mode, granting them powerful new skills!\r\n\r\n・Synthesis\r\nNever let items go to waste. Combine two items or pieces of equipment together and make better, stronger items!\r\n\r\n・Minigames\r\nWhether it's Chocobo Hot and Cold, Jump Rope, or Tetra Master, there are plenty of minigames to enjoy when you're not off saving the world. You can even earn special item rewards!\r\n\r\n■Additional Features\r\n\r\n・7 game boosters including high speed and no encounter modes\r\n\r\n・Autosave\r\n\r\n・High-definition movies and character models ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61036": [
+          {
+            "id": 228557,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61036-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61039": [
+          {
+            "id": 260075,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61039-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120239": [
+          {
+            "id": 413241,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120239-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+III&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 252,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629981
+}

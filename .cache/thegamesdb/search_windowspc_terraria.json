@@ -1,0 +1,397 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 13,
+    "games": [
+      {
+        "id": 2642,
+        "game_title": "Terraria",
+        "release_date": "2011-05-16",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. The world is your canvas and the ground itself is your paint.\r\nGrab your tools and go! You can do many things in Terraria: make weapons and fight off a variety of enemies in numerous biomes, dig deep underground to find accessories, money, and other useful things, gather wood, stone, ores, and other resources to create everything you need to make the world your own and defend it. Build a house, a fort, even a castle, and people will move in to live there and perhaps even sell you different wares to assist you on your journey. But beware, there are even more challenges awaiting you... Are you up to the task?\r\n\r\nfrom: http://www.terraria.org/",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          7028
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": null
+      },
+      {
+        "id": 14496,
+        "game_title": "TERA",
+        "release_date": "2012-05-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "TERA takes the fight beyond whack-a-mole monotony with enhanced aiming, dodging, and tactical timing to create intense and rewarding combat. Unlike other MMOs, you can use your controller or keyboard and mouse to control the action like never before. With all the depth you expect from a traditional MMO, plus the intense gratification of action combat, TERA changes all the rules.",
+        "players": null,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1245
+        ],
+        "genres": [
+          14
+        ],
+        "publishers": [
+          1495
+        ]
+      },
+      {
+        "id": 89401,
+        "game_title": "Teria",
+        "release_date": "2017-01-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Teria: an action quest 3D game for science fiction fans.\r\n\r\nStory:\r\nBack on Earth, the Mission Control Center picks up a distress signal from a distant settlement on Teria, a planet in the Vertex constellation. Teria is a rocky planet with rudimentary soil and a small presence of water.\r\nThere is nothing particularly notable about Teria, except for its massive reserves of Kretium, a rare metal used to build super strong structures. As a material, Kretium is more valuable than gold and platinum combined.\r\nSettlers from Earth established a colony there and have been mining Kretium for sale. In return for the Kretium, the settlers bought the goods and machinery required to sustain their lives there. Teria is located far from the stellar highways, so it is unusual for the planet to receive visitors.\r\nHowever, on June 17, 2143, the crisis center of the Central Astronautics Agency picked up a distress signal from Teria, which was then forwarded to Alex.\r\nAlex is a private detective who at that time happened to be not far from Teria. As his spaceship completed its landing on the planet, it was attacked and ultimately destroyed by unknown assailants. In order to survive, Alex must find out the truth...\r\n\r\nGame:\r\nYou are Alex. Step by step, with instructions from the station robot (which you must find first), you must cleanse Teria of Morphs (bio-robots designed to look like zombie dogs).\r\nYou will meet face to face with the Aliens and learn why this unknown planet suddenly became the epicenter of such bloody events.\r\nOn Teria, you will find everything you need, including various weapons for different situations, medical kits for treatment, protective field generators, and many other devices you will need in order to survive. You will have to use all of these items skillfully to both ensure your own survival, and ultimately save the Teria settlers.\r\n\r\nReleases:\r\nThe game is designed as a series released Episode by Episode. The current release includes Episode 1, entitled \"The Beginnings of Salvation.\" Users who purchase the game now will receive all new episodes for free.\r\nThe release of Episode 2, \"Under,\" is expected in May 2017.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 106658,
+        "game_title": "Terroir",
+        "release_date": "2017-09-20",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Terroir is a 3D tile-based tycoon game where you manage your very own vineyard. In Terroir, you grow a variety of different grape varietals, craft your wine, and expand and manage your Estate. You'll also have to deal with factors such as weather and random events, which can either make or break your business.\r\n\r\nFeatures\r\nSome of the game's features and mechanics include:\r\n\r\n-Choose from a selection of different grape varieties, each with their own demands.\r\n-Dynamic weather system reflecting the unpredictability of real world climate.\r\n-Each complete playthrough lasts 60 in-game years, but Players can continue playing without contributing to their final score.\r\n-Craft wine through the game's 4 winemaking processes: Crushing, Fermentation, Pressing and Ageing. Each type of grape needs to be crafted a certain way to achieve the best results, so you'll have to learn and master each one.\r\n-Start out with a single planting tile, then expand your Estate to up to 33 tiles, using 6 different tile types. Some tiles affect the ones around it, so placement is key.\r\n-Customize your estate with ambient items.\r\n-CHANCE & CIRCUMSTANCE: Terroir's random event and mission system. Players can open the Mystery Box and choose between CHANCE (a random event that could either have a positive or undesirable outcome) or CIRCUMSTANCE (a mission that a Player completes for rewards, or gets penalized for failing).\r\n-Join Wine Awards for a chance to earn bonuses to your wine's value and your Estate's renown.\r\n-Clean, minimalist design and gorgeous low-poly 3D models.\r\n-Original soundtrack composed and performed by Singapore's CLARQuinet ensemble.\r\n\r\nPut on your field gloves, grab a pair of pruning shears and build your Chateau literally from the ground up. Good luck, and cheers!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          3,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 13081,
+        "game_title": "The 11th Hour",
+        "release_date": "1995-11-30",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The 11th Hour is a 1995 interactive movie puzzle adventure game with a horror setting. It is the sequel to the 1993 game The 7th Guest. It was developed by Trilobyte and used a later version of the \"Groovie\" graphic engine than that used by The 7th Guest. The 11th Hour also features the music of George \"The Fat Man\" Sanger and Team Fat.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9044
+        ],
+        "genres": [
+          2,
+          5,
+          18
+        ],
+        "publishers": [
+          48
+        ]
+      },
+      {
+        "id": 54266,
+        "game_title": "The Deer",
+        "release_date": "2015-12-02",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "\"The Deer\" is an educational inter­ac­tive expe­ri­ence for children.You'll be an ancient Deer during the Pleistocene (Ice Age) epoch and you'll discover everything about this marvelous era.Unfortunately there were no T-Rex during this age since they were already extinct millions of years before.",
+        "players": null,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          2968
+        ],
+        "genres": null,
+        "publishers": [
+          5374
+        ]
+      },
+      {
+        "id": 71952,
+        "game_title": "The Other 99",
+        "release_date": "2016-08-25",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ripped from your ordinary life you awaken on a desolate Hebridian island with nothing but a single note that reads, The only way off the island is through The Other 99",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 85609,
+        "game_title": "THE TEAR",
+        "release_date": "2019-02-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "THE TEAR is an immersive VR adventure.\r\n“Who looks outside, dreams. Who looks inside, awakes.”\r\n\r\nIs it YOU?\r\nTo find the secret gate to the Otherworld?\r\nLeave reality behind and enter a fantastic dream, a strange fairytale... find yourself in THE TEAR.\r\n\r\nWhat will you decide?\r\nThere is never just one path through this VR adventure. The whole world is one big circular puzzle and your beginning might be the end. Save this magic world by reacting to your environment. Will you gain the trust of a fairy so it would land on your hand? Will the sphinxes be merciful to you?\r\n\r\n“... Go out and marvel at this world of wonders with the eyes of a child. And after a wondrous journey, fantastical creatures might grant you admittance to another dimension only a pure heart might be able to withstand”.\r\n\r\nAre YOU the one to save both, the magic world and the world outside your HMD?\r\n\r\nGameplay-time for one play-throughs is between 30 minutes and one hour.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 92547,
+        "game_title": "The White Door",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Enter The White Door and discover Rusty Lake’s universe in a new game with a unique style! Explore Robert Hill’s dreams and help him to find his lost memories. Can you survive the strict daily routine and bring back color to Robert's life?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": null
+      },
+      {
+        "id": 106278,
+        "game_title": "Toree 2",
+        "release_date": "2021-09-30",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Toree 2 is the sequel to Toree 3D.\r\n\r\nA bite-sized 3D Platformer sequel with more focus on the things people enjoyed in the first game like fast gameplay, flow focused levels and cute costumes (two this time).\r\n\r\n- Features -\r\nMore late 90s low poly aesthetic\r\nFast gameplay, flow focused levels\r\nWeird elements make a comeback.\r\n9 levels with unique elements\r\nSome secret characters to unlock\r\nThe epic conclusion of the ice cream arc.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 83507,
+        "game_title": "TORII",
+        "release_date": "2022-11-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Torii is an adventure/puzzle/indie game with an artistic approach. Full of surreal landscapes, strange creatures, and emotions. It's an introspective journey about the feelings that arise when facing the loss of a loved one.\r\n\r\nTorii is an instrospective journey.\r\nFollow Ipa on an unusual adventure. She will have to overcome her greatest fears and fight against guilt to find her little sister.\r\n\r\nTorii is an adventure/puzzle game with an artistical aproach, full of surreal landscapes, strange creatures and emotions developed by one person.\r\n\r\n\r\n\r\nKey Features:\r\n\r\n- Explore surreal landscapes with Ipa and Moswig searching for memories to save little Lulu.\r\n- Discover the secrets behind this peculiar story with a different and poetic narrative format.\r\n- Switch between realities to achieve your goal or explore new areas.\r\n- Walk alongside Moswig, your \"spirit / backpack\" companion, and discover why you should carry it.\r\n- Enjoy an incredible and original soundtrack composed by Adriano Martino.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          5,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 54407,
+        "game_title": "Tower 57",
+        "release_date": "2017-11-16",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tower 57 is a fast-paced neo-retro shooter where cooperation is as important as your ammo capacity. As a member of an extraordinary task force fight your way through a dieselpunk megatower and uncover its hidden secrets.",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          6653
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          1188
+        ]
+      },
+      {
+        "id": 26931,
+        "game_title": "TRI",
+        "release_date": "2012-07-08",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Find a way through the towers and dungeons of TRI by solving puzzles, climbing impossible ascents and reflecting light-rays. The mystical TRI will let you create your own paths in this strange world – just try not to lose your mind when you're falling upside down!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7000
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          1289
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2642": [
+          {
+            "id": 390588,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2642-1.jpg",
+            "resolution": null
+          }
+        ],
+        "13081": [
+          {
+            "id": 38146,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13081-1.jpg",
+            "resolution": "640x697"
+          }
+        ],
+        "14496": [
+          {
+            "id": 41820,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14496-1.jpg",
+            "resolution": "915x1280"
+          }
+        ],
+        "26931": [
+          {
+            "id": 75766,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/26931-1.jpg",
+            "resolution": "500x713"
+          }
+        ],
+        "54266": [
+          {
+            "id": 136028,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54266-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "54407": [
+          {
+            "id": 136277,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54407-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "71952": [
+          {
+            "id": 228685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71952-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83507": [
+          {
+            "id": 421637,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83507-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85609": [
+          {
+            "id": 282316,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85609-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89401": [
+          {
+            "id": 297132,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89401-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92547": [
+          {
+            "id": 307909,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92547-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106278": [
+          {
+            "id": 477514,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106278-1.jpg",
+            "resolution": null
+          }
+        ],
+        "106658": [
+          {
+            "id": 367035,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/106658-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Terraria&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 765,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630060
+}

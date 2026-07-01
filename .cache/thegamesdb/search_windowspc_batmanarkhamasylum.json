@@ -1,0 +1,103 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 190,
+        "game_title": "Batman: Arkham Asylum",
+        "release_date": "2009-09-15",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The Dark Knight takes on his greatest challenge yet when he becomes trapped with all of his most dangerous villains inside the insane asylum of Gotham City—Arkham Asylum! Batman: Arkham Asylum exposes you to a unique, dark and atmospheric adventure that takes you to the depths of Gotham's psychiatric hospital for the criminally insane. With amazing graphics and a moody, immersive setting, Batman: Arkham Asylum offers diverse gameplay options that push the envelope for all action, adventure, and superhero games.\r\n\r\nSuper villains: Confront Gotham's most notorious lunatics, including The Joker, Harley Quinn, Bane, Poison Ivy, and Killer Croc.\r\n\r\nBatman's arsenal: Utilize Batman's detective skills and cutting-edge forensic tech to gather evidence and clues.\r\n\r\nSilent killer: Move in the shadows and strike fear amongst your enemies.\r\n\r\nMelee combat: Unleash brutal combos with the innovative FreeFlow combat system.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          26
+        ]
+      },
+      {
+        "id": 72815,
+        "game_title": "Batman: Arkham Asylum - Game of the Year Edition",
+        "release_date": "2010-03-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          16
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "190": [
+          {
+            "id": 2447,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/190-1.jpg",
+            "resolution": "1533x2175"
+          },
+          {
+            "id": 13282,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/190-1.jpg",
+            "resolution": "1442x2034"
+          }
+        ],
+        "72815": [
+          {
+            "id": 232813,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72815-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Batman%3A+Arkham+Asylum&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 988,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630098
+}

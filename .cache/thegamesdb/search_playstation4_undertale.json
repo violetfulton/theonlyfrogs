@@ -1,0 +1,105 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 48487,
+        "game_title": "Undertale",
+        "release_date": "2017-08-15",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Undertale is a role-playing video game created by American indie developer and composer Toby Fox. In the game, players control a human child who has fallen into the Underground, a large, secluded region underneath the surface of the Earth, separated by a magic barrier. The player meets various monsters during a quest to return to the surface, mainly through the combat system; the player navigates through mini-bullet hell attacks by the opponent, and can opt to pacify or subdue monsters in order to spare them instead of murdering them. These choices affect the game, with the dialogue, characters, and story changing based on outcomes.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8890
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4950
+        ]
+      },
+      {
+        "id": 52933,
+        "game_title": "Undertale Collector's Edition",
+        "release_date": "2015-09-15",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "UNDERTALE! The RPG game where you don't have to destroy anyone.\r\n\r\nWelcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever. \r\n\r\n((Healthy Dog's Warning: Game contains imagery that may be harmful to players with photosensitive epilepsy or similar condition.))\r\nfeatures:\r\nKilling is unnecessary: negotiate out of danger using the unique battle system.\r\nTime your attacks for extra damage, then dodge enemy attacks in a style reminiscent of top-down shooters.\r\nOriginal art and soundtrack brimming with personality.\r\nSoulful, character-rich story with an emphasis on humor.\r\nCreated mostly by one person. \r\nBecome friends with all of the bosses!\r\nAt least 5 dogs.\r\nYou can date a skeleton.\r\nHmmm... now there are 6 dogs...?\r\nMaybe you won't want to date the skeleton.\r\nI thought I found a 7th dog, but it was actually just the 3rd dog.\r\nIf you play this game, can you count the dogs for me...? I'm not good at it.\r\n\r\nThe Collector’s edition includes:\r\n\r\nThe complete UNDERTALE soundtrack: Over 100 songs on 2 CDs\r\nUNDERTALE sheet music booklet featuring six songs with annotations by Toby Fox\r\nA 14k gold-plated brass music box locket\r\nA sturdy matchbox-style collector’s box\r\nA standard edition copy of UNDERTALE for PS4, PS Vita, or PC\r\nBoth the Collector's and standard editions include:\r\n\r\nA 24-page storybooklet illustrated by Temmie Chang",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8890
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8398
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "48487": [
+          {
+            "id": 215901,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/48487-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 341860,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/48487-1.jpg",
+            "resolution": null
+          }
+        ],
+        "52933": [
+          {
+            "id": 133369,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52933-1.png",
+            "resolution": "900x600"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Undertale&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 311,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629991
+}

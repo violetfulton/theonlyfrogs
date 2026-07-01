@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 75833,
+        "game_title": "VRChat",
+        "release_date": "2017-02-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Imagine a world where anything is possible. Join a game of capture the flag in outer space. Share stories around a campfire while roasting marshmallows, then moments later experience a retro game of bowling with an alien and robot. In VRChat there is something around every corner that will delight, thanks to the power of true user generated content. Jump into hundreds of awe inspiring environments and meet unique avatars every day. Watch a movie on the moon. Ride the Titanic. Step into a new world every time you come online. In VRChat, you are one of us. Enjoy your stay.\r\n",
+        "players": 100,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          4,
+          9,
+          12,
+          14,
+          26
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "75833": [
+          {
+            "id": 284597,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75833-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=VRChat&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 741,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630056
+}

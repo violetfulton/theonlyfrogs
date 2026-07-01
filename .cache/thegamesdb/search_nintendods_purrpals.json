@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 13505,
+        "game_title": "Purr Pals",
+        "release_date": "2007-03-27",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Purr Pals is a pet simulation game in which the player takes care of a kitten. It is Crave Entertainment's answer to Nintendo's Nintendogs and is sponsored by Purina.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          5,
+          9
+        ],
+        "publishers": [
+          68
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "13505": [
+          {
+            "id": 45142,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13505-1.jpg",
+            "resolution": "640x581"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Purr+Pals&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 567,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630029
+}

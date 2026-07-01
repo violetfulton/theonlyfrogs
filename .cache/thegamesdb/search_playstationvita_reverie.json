@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 56077,
+        "game_title": "Reverie Limited Edition",
+        "release_date": "2018-05-18",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "From Play Asia's Website:\r\n\r\nReverie is an action adventure game set on a fictional island in New Zealand, inspired by the legend of Maui and the Giant Fish where the demigod himself fishes up the North Island with a powerful fishhook.\r\n\r\nYou play as Tai, a young boy on summer holiday, who must explore Toromi Island. With angry spirits threatening the safety of the island’s inhabitants, Tai must venture through dangerous dungeons and across a variety of environments to put the spirits to rest.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2617
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "56077": [
+          {
+            "id": 211420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/56077-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 211421,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/56077-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Reverie&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 414,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630006
+}

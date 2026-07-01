@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 87523,
+        "game_title": "Borderlands: The Zombie Island of Dr. Ned",
+        "release_date": "2009-12-08",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Zombie Island of Dr. Ned is the first Add-On for Borderlands with new enemy types, new missions, and new ... surprises.\r\nThe Jakobs Corporation would like to invite you to experience the splendor of a corporate owned small town known as Jakobs Cove. Any rumors you may have heard about the \"undead\" walking our streets are completely preposterous and we officially deny them all. If those rumors turn out to be true simply purchase a firearm from the conveniently located Jakobs Brand Vending Machines and aim for the head. Also, would you mind saving our employees? (Non-union only please)",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87523": [
+          {
+            "id": 290426,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87523-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands%3A+The+Zombie+Island+of+Dr.+Ned&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 196,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629972
+}

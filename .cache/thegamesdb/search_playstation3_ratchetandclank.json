@@ -1,0 +1,667 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 74250,
+        "game_title": "Ratchet & Clank",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Experience the classic adventures of the universe’s favorite Lombax, Ratchet and his robotic sidekick Clank in this classic PlayStation®2 game now fully remastered in high definition! Wield the original tools of destruction as you travel from planet to planet unraveling their original story and explosive adventures in this PS3™ exclusive.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 11690,
+        "game_title": "Ratchet & Clank Collection",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This trilogy of Ratchet & Clank classics contains Ratchet & Clank, Ratchet & Clank: Going Commando, and Ratchet & Clank: Up Your Arsenal – all remastered in 1080p for the PlayStation 3 with additional upgrades such as Trophy and 3D support.\r\n\r\nIn the original Ratchet & Clank, save the galaxy as Ratchet, a wrench-wielding Lombax, and his robot buddy Clank, in this action-adventure with a multitude of crazy weapons.\r\n\r\nIn Ratchet & Clank: Going Commando, Ratchet and Clank return as heroes for hire. Upon taking a job to find a stolen experiment for mega-corporation Abercombie Fitzwidget, Ratchet and Clank meet a large cast of characters who will help them along the way.\r\n\r\nIn Ratchet & Clank: Up Your Arsenal, gamers return to Planet Veldin, the setting of the original game, where the duo set off on a gripping new adventure through a multitude of diverse planets to fight for galactic peace. Up Your Arsenal includes a multiplayer feature that allows up to eight players to play at once.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232,
+          10113
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 6626,
+        "game_title": "Ratchet & Clank Future: A Crack in Time",
+        "release_date": "2009-10-27",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Ratchet & Clank Future: A Crack in Time is a 2009 PlayStation 3 video game developed by Insomniac Games and released by Sony Computer Entertainment America in the USA on October 27, 2009. \r\n\r\nDuring the events of the two previous games, Clank is kidnapped by the mysterious Zoni, led by the evil mastermind Dr. Nefarious, leaving Ratchet feeling all alone in the gigantic universe. Along with Captain Quark and Talwyn, he sets out on a quest to save Clank from Nefarious' clutches. Along the way he discovers the truth about his Lombax past and the secrets of time held within the Great Clock.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 76976,
+        "game_title": "Ratchet & Clank Future: A Crack in Time [Greatest Hits]",
+        "release_date": "2009-10-27",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ratchet & Clank Future: A Crack in Time is the final installment in Insomniac's Ratchet and Clank Future trilogy, following Ratchet & Clank Future: Tools of Destruction and Ratchet & Clank: Quest for Booty. \r\n\r\nDuring the events of the two previous games, Clank is kidnapped by the mysterious Zoni, led by the evil mastermind Dr. Nefarious, leaving Ratchet feeling all alone in the gigantic universe. Along with Captain Quark and Talwyn, he sets out on a quest to save Clank from Nefarious' clutches. Along the way he discovers the truth about his Lombax past and the secrets of time held within the Great Clock.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          127
+        ]
+      },
+      {
+        "id": 134960,
+        "game_title": "Ratchet & Clank Future: Quest For Booty",
+        "release_date": "2008-09-12",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "The swashbuckling action in Ratchet & Clank Future: Quest for Booty begins one year following the intense ending in Ratchet & Clank Future: Tools of Destruction. Ratchet’s desperate search for Clank resumes with a bang as he finds himself engulfed in ship-board combat – only to be cast adrift and washed up on the shores of a remote island on the planet Merdegraw. Our Lombax hero must overcome life-threatening challenges, encounter hostile new alien races and even form an allegiance with feared Captain Slag’s first mate, Rusty Pete. All in the pursuit of clues that lead Ratchet to the treasure of Captain Angstrom Darkwater, his former commander and keeper of the only known link to the mysterious Zoni.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 6627,
+        "game_title": "Ratchet & Clank Future: Tools of Destruction",
+        "release_date": "2007-10-23",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Ratchet & Clank Future: Tools of Destruction is a 2007 PlayStation 3 video game developed by Insomniac Games and released by Sony Computer Entertainment America in the USA on October 23, 2007.\r\n\r\nGet ready for a galactic adventure filled with explosive mayhem as the Ratchet & Clank series makes its PS3 debut. Ratchet & Clank Future: Tools of Destruction marks the beginning of a brand-new series of next-generation games for our gadget-building hero, Ratchet, and his brainy robotic sidekick, Clank.\r\n\r\nAfter saving countless planets from dreadful doom and earning intergalactic mega-celebrity status in the process, Ratchet and Clank have taken some well-deserved R&R - again. Yet, Ratchet remains restless. An orphan of the universe, he has never known anything of his past, his family, or his Lombax origins. And no one, not even Clank, can fill that void. Unfortunately for Ratchet, someone else is equally interested in Ratchet's origins: Emperor Percival Tachyon. In his thirst for revenge, the vile tyrant of an ancient race of foul insect-like monsters called Cragmites has festered an age-old grudge and is bent on wiping the last-known Lombax off the universe!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 134961,
+        "game_title": "Ratchet & Clank Future: Tools of Destruction",
+        "release_date": "2007-11-09",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "Ratchet and his robotic partner Clank set out on an epic journey across the Polaris Galaxy to stop the evil Emperor Tachyon and uncover the mysteries of Ratchet’s Lombax heritage. Featuring an arsenal of inventive weapons and gadgets, diverse planets to explore, and a mix of platforming, combat and puzzle-solving gameplay, Tools of Destruction blends dynamic action and humor in a sci-fi adventure unlike any other.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 120553,
+        "game_title": "Ratchet & Clank Future: Tools of Destruction - Demo Disc",
+        "release_date": "2007-09-14",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "This was available at select retailers as a bonus for pre-ordering the game.",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 112078,
+        "game_title": "Ratchet & Clank Future: Tools of Destruction [Greatest Hits]",
+        "release_date": "2007-10-23",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Get ready for a galactic adventure filled with explosive mayhem as the Ratchet & Clank series makes its PS3 debut. Ratchet & Clank Future: Tools of Destruction marks the beginning of a brand-new series of next-generation games for our gadget-building hero, Ratchet, and his brainy robotic sidekick, Clank.\r\n\r\nAfter saving countless planets from dreadful doom and earning intergalactic mega-celebrity status in the process, Ratchet and Clank have taken some well-deserved R&R -- again. Yet, Ratchet remains restless. An orphan of the universe, he has never known anything of his past, his family, or his Lombax origins. And no one, not even Clank, can fill that void. Unfortunately for Ratchet, someone else is equally interested in Ratchet's origins: Emperor Percival Tachyon. In his thirst for revenge, the vile tyrant of an ancient race of foul insect-like monsters called Cragmites has festered an age-old grudge and is bent on wiping the last-known Lombax off the universe!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          520
+        ]
+      },
+      {
+        "id": 75152,
+        "game_title": "Ratchet & Clank: A Crack In Time",
+        "release_date": "2009-10-27",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Ratchet & Clank: A Crack in Time follows Ratchet as he searches the galaxy for his missing robot partner Clank, who is trapped in a mysterious cosmic time-regulating structure called the Great Clock. While Ratchet explores planets and fights enemies to reunite with Clank, Clank must learn to use time-manipulation abilities to repair the Clock and stop the villain Dr. Nefarious, who wants to control time itself. Eventually the two friends reunite and work together to thwart Nefarious’s plans and protect the fabric of time.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 102514,
+        "game_title": "Ratchet & Clank: A Crack in Time [Essentials]",
+        "release_date": "2009-10-27",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          15
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 135037,
+        "game_title": "Ratchet & Clank: A Crack in Time [Essentials] ",
+        "release_date": "2009-11-06",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 938,
+        "game_title": "Ratchet & Clank: All 4 One",
+        "release_date": "2011-10-18",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "We find our heroes in the midst of a dilemma of intergalactic proportions when Dr. Nefarious' latest evil plan goes awry leaving Ratchet, Clank, Qwark and Nefarious himself caught in the snare of a powerful and mysterious machine. Begrudgingly, the Galaxy's biggest do-gooders and its most sinister criminal must work together to discover a means of escape in this action-packed installment of the Ratchet & Clank series.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 122080,
+        "game_title": "Ratchet & Clank: All 4 One",
+        "release_date": "2011-10-21",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          20
+        ]
+      },
+      {
+        "id": 68771,
+        "game_title": "Ratchet & Clank: All 4 One [Not For Resale]",
+        "release_date": "2011-10-18",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 11126,
+        "game_title": "Ratchet & Clank: Full Frontal Assault",
+        "release_date": "2012-11-27",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ratchet & Clank: Full Frontal Assault (known as Ratchet & Clank: QForce in PAL and Japan countries) is a 2012 platform game developed by Insomniac Games for the PlayStation Network and published by Sony. Like the previous downloadable game in the series, Ratchet & Clank Future: Quest for Booty, in Europe, as well as the United States for this time, it was released on Blu-ray Disc as well as the PlayStation Store. It was produced in commemoration of the 10th anniversary of the Ratchet & Clank series. It is available on the PlayStation 3 with the PlayStation Vita version delayed for a May 21, 2013 release and available for free with the PlayStation 3 version. It is a spin-off from the series.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          38
+        ]
+      },
+      {
+        "id": 90219,
+        "game_title": "Ratchet & Clank: Ginga Saikyou Tri-Star Pack",
+        "release_date": "2014-06-12",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Box contents\r\nPS3 Game: Ratchet & Clank Into the Nexus\r\nPS3 Game: Ratchet & Clank Ginga Sentai Q Force\r\nPS3 Game: Ratchet & Clank Future Gaiden: Kaizoku Dark Water no Hihou\r\n\r\n",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          127
+        ]
+      },
+      {
+        "id": 16300,
+        "game_title": "Ratchet & Clank: Going Commando",
+        "release_date": "2012-08-28",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Ratchet & Clank: Going Commando (known as Ratchet & Clank 2: Locked and Loaded in Europe and Australia, and Ratchet & Clank 2 in Japan) is a 2003 3D platform video game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation 2. Ratchet & Clank: Going Commando is the second game in the Ratchet & Clank series, following Ratchet & Clank and preceding Ratchet & Clank: Up Your Arsenal.\r\n\r\nThe game begins with an interview of Ratchet and Clank that is seen by Megacorp CEO Abercrombie Fizzwidget. Fizzwidget contacts Ratchet and Clank and explains that a top secret experiment was stolen from Megacorp. Ratchet and Clank are given the task of tracking down the experiment but run into difficulties as they journey across the galaxy.\r\n\r\nThe gameplay of Going Commando is similar to that of the original Ratchet & Clank. The player controlled protagonists are seen in a third-person perspective; the player uses various weapons and gadgets to defeat enemies and solve puzzles, while exploring planets, completing platforming sections and minigames, and progressing through the story. The game features many improvements over the original game, such as the aesthetics, and introduces many new gameplay aspects, such as weapon upgrading.\r\n\r\nRatchet & Clank: Going Commando was released roughly a year after its predecessor, and received critical acclaim, with some calling it one of the best PlayStation 2 games ever made. Critics noted the game's improved graphics, engaging gameplay, longer story, and overall sound as being major improvements over the original, but criticized the game for its high difficulty level, and certain minigames.",
+        "players": null,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      },
+      {
+        "id": 134959,
+        "game_title": "Ratchet & Clank: Into the Nexus",
+        "release_date": "2013-11-22",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "Ratchet and Clank are tasked with escorting dangerous criminals deep into space, only to uncover an inter-dimensional threat that jeopardizes the universe—and forces Ratchet to decide what’s truly important. The game marks a return to the classic Ratchet & Clank formula with fast-paced action, inventive gadgets, and memorable characters.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 18224,
+        "game_title": "Ratchet & Clank: Into the Nexus",
+        "release_date": "2013-11-12",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Ratchet & Clank: Into the Nexus (known as Ratchet & Clank: Nexus in Europe) is a 2013 platformer video game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation 3. It is the fourth and final installment in the \"Future\" series. The series is noted for the inclusion of exotic and unique locations and over the top gadgets, a concept of the traditional Ratchet & Clank experience, that returns in this game.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          8,
+          15
+        ],
+        "publishers": [
+          1939
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "938": [
+          {
+            "id": 21730,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/938-1.jpg",
+            "resolution": "640x737"
+          }
+        ],
+        "6626": [
+          {
+            "id": 17050,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6626-1.jpg",
+            "resolution": "1515x1758"
+          },
+          {
+            "id": 279364,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6626-1.jpg",
+            "resolution": null
+          }
+        ],
+        "6627": [
+          {
+            "id": 17052,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6627-1.jpg",
+            "resolution": "1509x1760"
+          },
+          {
+            "id": 403342,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6627-1.jpg",
+            "resolution": null
+          }
+        ],
+        "11126": [
+          {
+            "id": 35239,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11126-1.jpg",
+            "resolution": "800x1069"
+          }
+        ],
+        "11690": [
+          {
+            "id": 34086,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11690-1.jpg",
+            "resolution": "883x1024"
+          }
+        ],
+        "16300": [
+          {
+            "id": 76693,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16300-1.png",
+            "resolution": "300x300"
+          }
+        ],
+        "18224": [
+          {
+            "id": 371746,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18224-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68771": [
+          {
+            "id": 221884,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68771-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74250": [
+          {
+            "id": 299457,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74250-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75152": [
+          {
+            "id": 299997,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75152-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76976": [
+          {
+            "id": 249166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76976-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90219": [
+          {
+            "id": 300211,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90219-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102514": [
+          {
+            "id": 351286,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102514-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112078": [
+          {
+            "id": 383433,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112078-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 383434,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/112078-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120553": [
+          {
+            "id": 414721,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120553-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 414722,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/120553-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122080": [
+          {
+            "id": 422642,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122080-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134959": [
+          {
+            "id": 476077,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134959-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134960": [
+          {
+            "id": 476082,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134960-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134961": [
+          {
+            "id": 476085,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134961-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135037": [
+          {
+            "id": 476572,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135037-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=2"
+  },
+  "remaining_monthly_allowance": 614,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630036
+}

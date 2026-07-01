@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 127604,
+        "game_title": "Aimlabs",
+        "release_date": "2024-06-28",
+        "platform": 4981,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Aimlabs - the #1 aim trainer on PC, trusted by over 40 million players - is now available on Xbox!\r\n\r\nAimlabs is a training platform to help sharpen up your core FPS aiming skills. Aimlabs offers a comprehensive set of tools to improve your aim, regardless of which FPS you play. It provides curated training scenarios that will turn you into an aim God in no time.\r\n\r\nDive into specifically designed training exercises to master the art of flicking, tracking and switching. Aimlabs’ detailed analysis feedback gives you valuable insights and guides you towards rapid improvement.\r\n\r\nAimlabs is continuously updated with new features to ensure compatibility with a wide range of games. Whether you're a beginner or a seasoned pro, Aimlabs will help to give you a competitive edge.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "127604": [
+          {
+            "id": 442913,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127604-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4981": {
+          "id": 4981,
+          "name": "Microsoft Xbox Series X",
+          "alias": "microsoft-xbox-series-x"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Aimlabs&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 937,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630090
+}

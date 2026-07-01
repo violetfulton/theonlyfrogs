@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 17640,
+        "game_title": "Amnesia: A Machine for Pigs",
+        "release_date": "2013-09-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "This world is a Machine. A Machine for Pigs. Fit only for the slaughtering of Pigs. \r\n\r\nFrom the creators of Amnesia: The Dark Descent and Dear Esther comes a new first-person horrorgame that will drag you to the depths of greed, power and madness. It will bury its snout into your ribs and it will eat your heart. \r\n\r\nThe year is 1899 \r\n\r\nWealthy industrialist Oswald Mandus awakes in his bed, wracked with fever and haunted by dreams of a dark and hellish engine. Tortured by visions of a disastrous expedition to Mexico, broken on the failing dreams of an industrial utopia, wracked with guilt and tropical disease, he wakes into a nightmare. The house is silent, the ground beneath him shaking at the will of some infernal machine: all he knows is that his children are in grave peril, and it is up to him to save them.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          8712
+        ],
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": [
+          400
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17640": [
+          {
+            "id": 54483,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17640-1.jpg",
+            "resolution": "960x1320"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Amnesia%3A+A+Machine+for+Pigs&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 972,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630096
+}

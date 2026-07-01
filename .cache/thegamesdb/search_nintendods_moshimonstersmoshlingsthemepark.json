@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 65580,
+        "game_title": "Moshi Monsters: Moshlings Theme Park",
+        "release_date": "2012-10-30",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Moshi Monsters: Moshlings Theme Park, developed by Black Lantern Studios, invites players to restore the legendary Moshi theme park to its former glory. Players progressively unlock six zones by successfully building attractions and rescuing the scattered Moshlings (adorable, itty bitty pets for your pet monster). Users of the Nintendo 3DS can also interact with other Nintendo 3DS players via the StreetPass feature and play cool games to bring the Moshlings to life in a whole new dimension. Moshi Monsters: Moshlings Theme Park marks the first time fans can interact with beloved characters via 3D technology and introduces players to a brand new, exclusive Moshling that can transfer across platforms to the online world.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1146
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          33
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "65580": [
+          {
+            "id": 215285,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65580-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Moshi+Monsters%3A+Moshlings+Theme+Park&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 577,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630030
+}

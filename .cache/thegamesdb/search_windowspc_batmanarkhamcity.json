@@ -1,0 +1,199 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 931,
+        "game_title": "Batman: Arkham City",
+        "release_date": "2011-11-25",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "No escape from Arkham City…the sprawling super-prison in the heart of Gotham City, home to its most violent thugs and infamous super villains. With the lives of the innocent at stake, only one man can save them and bring justice to the streets of Gotham City…The Batman.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 124492,
+        "game_title": "Batman: Arkham City - Game of the Year Edition",
+        "release_date": "2012-09-08",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players flying through the expansive Arkham City - five times larger than the game world in Batman: Arkham Asylum - the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face, Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to genuinely experience what it feels like to be The Dark Knight delivering justice on the streets of Gotham City.\r\n\r\nBatman: Arkham City - Game of the Year Edition includes the following DLC:\r\nCatwoman Pack\r\nNightwing Bundle Pack\r\nRobin Bundle Pack\r\nHarley Quinn’s Revenge\r\nChallenge Map Pack\r\nArkham City Skins Pack",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7287
+        ],
+        "genres": [
+          1,
+          2,
+          16
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 128997,
+        "game_title": "Batman: Arkham City - Game of the Year Edition",
+        "release_date": "2012-09-12",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7288
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 88456,
+        "game_title": "Batman: Arkham City - Game of the Year Edition",
+        "release_date": "2012-09-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players flying through the expansive Arkham City - five times larger than the game world in Batman: Arkham Asylum - the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face, Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to genuinely experience what it feels like to be The Dark Knight delivering justice on the streets of Gotham City.\r\n\r\nBatman: Arkham City - Game of the Year Edition includes the following DLC:\r\nCatwoman Pack\r\nNightwing Bundle Pack\r\nRobin Bundle Pack\r\nHarley Quinn’s Revenge\r\nChallenge Map Pack\r\nArkham City Skins Pack",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104258,
+        "game_title": "Batman: Arkham City [Collector's Edition]",
+        "release_date": "2011-11-18",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Batman: Arkham City is the sequel to Batman: Arkham Asylum, and was released for the Playstation 3 and Xbox 360 on Oct. 18th, 2011. The PC version was released on November 18, 2011, and a version for the Nintendo Wii U is expected some time in 2012. Square-Enix will be publishing all versions of the game in Japan. Taking place a year after Arkham Asylum, the storyline starts with Quincy Sharp, formerly the warden of Arkham Asylum, now the mayor of Gotham City, turning the Gotham slums into a cordoned off prison colony named Arkham City with psychologist Hugo Strange as its warden. The gameplay has been updated to incorporate more of Batman's gadgets in combat and a new faster traversal system. Players will also be able to play as Catwoman in certain sections of the game. On September 25, 2011, the game developers at Rocksteady officially announced that the game was finished and being shipped out to retailers.\"",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7287
+        ],
+        "genres": [
+          1,
+          2,
+          10,
+          16
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "931": [
+          {
+            "id": 23249,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/931-1.jpg",
+            "resolution": "1515x2169"
+          },
+          {
+            "id": 23250,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/931-1.jpg",
+            "resolution": "1518x2151"
+          }
+        ],
+        "88456": [
+          {
+            "id": 294054,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88456-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104258": [
+          {
+            "id": 356951,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104258-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124492": [
+          {
+            "id": 432565,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124492-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128997": [
+          {
+            "id": 448988,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128997-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 448989,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/128997-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Batman%3A+Arkham+City&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 982,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630097
+}

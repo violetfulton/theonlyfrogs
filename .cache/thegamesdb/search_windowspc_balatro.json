@@ -1,0 +1,154 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 124558,
+        "game_title": "Balatro",
+        "release_date": "2024-02-20",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Balatro is a deck-building roguelike where you must play poker hands and earn chips to defeat enemy blinds. Enhance your deck of playing cards, buy Jokers to modify each hand you play, and discover new and wild synergies to win!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          6
+        ],
+        "publishers": [
+          3572
+        ]
+      },
+      {
+        "id": 50111,
+        "game_title": "Beholder",
+        "release_date": "2016-11-09",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "You’re a State-installed Landlord in a totalitarian State. You must spy on tenants, peep, eavesdrop and profile! You must report on anyone capable of plotting subversion against the State.You MUST! But WILL you?",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          9529
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          5194
+        ]
+      },
+      {
+        "id": 78897,
+        "game_title": "Beholder 2",
+        "release_date": "2018-12-04",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          9529
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          5194
+        ]
+      },
+      {
+        "id": 36149,
+        "game_title": "Zyclunt",
+        "release_date": "1995-12-29",
+        "platform": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "In the year 2002 AD, incurable diseases and unseen raise in criminal activities have brought the human society onto the verge of collapse. By that time, genetic engineering became so highly developed that it was finally possible to produce cybernetic organisms functioning like humans for all purposes. However, since the authorities were hesitant in their treatment of the cyborgs, they began joining criminal organizations, which used them as formidable soldiers in their battles against the Establishment. Eventually, a mercenary organization known as Blade Warrior was hired to confront them. Sou, one of the youngest members of the team, is sent to deal with a gang of marauding cyborgs in the city's shady area, without realizing that this mission will be just the beginning of a dangerous journey.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6546
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          3876
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "36149": [
+          {
+            "id": 102772,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/36149-1.jpg",
+            "resolution": "439x600"
+          }
+        ],
+        "50111": [
+          {
+            "id": 132771,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50111-1.png",
+            "resolution": "338x480"
+          }
+        ],
+        "78897": [
+          {
+            "id": 397118,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78897-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124558": [
+          {
+            "id": 432817,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124558-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Balatro&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 893,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630082
+}

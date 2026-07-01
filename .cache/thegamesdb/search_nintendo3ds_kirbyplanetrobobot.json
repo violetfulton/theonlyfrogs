@@ -1,0 +1,169 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 41192,
+        "game_title": "Kirby: Planet Robobot",
+        "release_date": "2016-06-10",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harness the power of a mysterious mech to stop brutal invaders from mechanizing Kirby's home world. Smash through tough obstacles, lift heavy objects with ease, and scan enemies to shape-shift into new Modes with powerful abilities in this action-platformer. That's right—Kirby's Robobot Armor can shape-shift into different modes by scanning enemies to copy their moves—like the new Jet Mode. Not to mention, Kirby can copy abilities the old-fashioned way too—by inhaling them! After saving the world, team up with three friends to defeat foes in Team Kirby Clash, an RPG-styled 4-player brawl where you choose from varied roles and level them up.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3694
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 105938,
+        "game_title": "Kirby: Planet Robobot",
+        "release_date": "2016-06-10",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3694
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 120400,
+        "game_title": "Kirby: Planet Robobot",
+        "release_date": "2016-06-10",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Harness the power of a mysterious mech to stop brutal invaders from mechanizing Kirby's home world. Smash through tough obstacles, lift heavy objects with ease, and scan enemies to shape-shift into new Modes with powerful abilities in this action-platformer. That's right—Kirby's Robobot Armor can shape-shift into different modes by scanning enemies to copy their moves—like the new Jet Mode. Not to mention, Kirby can copy abilities the old-fashioned way too—by inhaling them! After saving the world, team up with three friends to defeat foes in Team Kirby Clash, an RPG-styled 4-player brawl where you choose from varied roles and level them up.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3697
+        ],
+        "genres": [
+          15,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 72272,
+        "game_title": "Kirby: Planet Robobot Limited Edition",
+        "release_date": "2016-06-10",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Harness the power of a mysterious mech to stop brutal invaders from mechanizing Kirby's home world. Smash through tough obstacles, lift heavy objects with ease, and scan enemies to shape-shift into new Modes with powerful abilities in this action-platformer. That's right—Kirby's Robobot Armor can shape-shift into different modes by scanning enemies to copy their moves—like the new Jet Mode. Not to mention, Kirby can copy abilities the old-fashioned way too—by inhaling them! After saving the world, team up with three friends to defeat foes in Team Kirby Clash, an RPG-styled 4-player brawl where you choose from varied roles and level them up.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3694
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "41192": [
+          {
+            "id": 213710,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/41192-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 285811,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41192-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72272": [
+          {
+            "id": 229587,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72272-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105938": [
+          {
+            "id": 363937,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105938-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120400": [
+          {
+            "id": 413857,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120400-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Kirby%3A+Planet+Robobot&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 483,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630016
+}

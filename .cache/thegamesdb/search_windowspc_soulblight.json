@@ -1,0 +1,123 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 98920,
+        "game_title": "Soulblight",
+        "release_date": "2018-04-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Soulblight is a dark, unforgiving, top-down action roguelike luring you to cross the thin line between good and evil. Instead of XP grinding, it introduces a Tainting Mechanics. While traveling through the shattered reality of the Sanctuary, you will receive personality traits based on your choices. These will be the main source of your strength. To harness them, you will have to act accordingly. Becoming an alcoholic means that you will be rewarded for getting drunk, but from that point being sober might prove to be unbearable.\r\n\r\n\r\nMain Features\r\nA unique Tainting Mechanic designed to encourage role playing\r\nTons of weapons, armor, and utility items\r\nDynamic and tactical combat build around stamina management and distance control\r\nOptional stealth approach that complements fighting\r\nRandomly generated, visually breathtaking levels\r\nHigh difficulty level emphasized by permadeath mechanics\r\nGameplay­-driven narrative\r\nGameplay\r\nBefore entering each level of the Sanctuary you get to choose a Taint that represents a certain personality trait. That choice will shape your future experiences as each Taint unlocks a new way of gaining power - a custom mechanic designed to encourage role-playing. Tainting Mechanics channels your will to survive into actions that are aligned with your hero’s personality. Let’s have a look at some examples:\r\n\r\n\r\n\r\nAs you go deeper into the Sanctuary you’ll be able to add more Taints to your character’s personality making the shifting levels of the dungeon itself a skill tree of a kind. However with each new Taint you’re a step closer to the point of no return. Are you sure you know where it is?\r\nThe Idea Behind Soulblight\r\nWe look back with nostalgia at our pen and paper RPG memories. Back then, gaining XP and leveling up was only part of the fun. The thing we were most excited about was actual role-playing. For a brief moment becoming a character with all their merits but also with all their flaws. Sometimes their shortcomings would stand in the way of solving a quest at hand making the game more difficult. But because of that the characters felt more alive and that’s why we wouldn’t have it any other way.\r\n\r\n\r\n\r\nThe situation with video games is different. For the most part players can’t miss an opportunity to get precious loot or XP knowing that the game will penalize them for it. That’s why no one expect players not to fight a giant spider just because their character might have arachnophobia. So if we want players to actually role­play there needs to be a special mechanic that will encourage them to do so. That is how our Tainting Mechanic came to be.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 882,
+        "game_title": "Myth II: Soulblighter",
+        "release_date": "1998-11-30",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Take control of squads or individual units in order to accomplish tactically-challenging missions in the epic battle of the Forces of Light versus Dark.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          178
+        ]
+      },
+      {
+        "id": 112032,
+        "game_title": "Myth II: Soulblighter",
+        "release_date": "1998-12-28",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Myth II: Soulblighter is a real-time tactics computer game for the PC and Macintosh developed and published by Bungie Software on November 30, 1998. It is a sequel to Myth: The Fallen Lords and second game in the Myth series. Myth II features include an improved graphics engine, new multiplayer maps and units, along with an all new story and campaign",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1389
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          1519
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "882": [
+          {
+            "id": 21624,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/882-1.jpg",
+            "resolution": "446x500"
+          }
+        ],
+        "98920": [
+          {
+            "id": 336657,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98920-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112032": [
+          {
+            "id": 383379,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112032-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Soulblight&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 737,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630056
+}

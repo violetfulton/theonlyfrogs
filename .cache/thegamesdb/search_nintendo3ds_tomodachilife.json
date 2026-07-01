@@ -1,0 +1,183 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 20607,
+        "game_title": "Tomodachi Life",
+        "release_date": "2014-06-06",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Tomodachi Life is a communication game for the 3DS in which players can convert their Miis into Tomodachis (or create new ones) and put them in a wide range of scenarios ranging from charming to utterly ridiculous. A key feature of the game is its text-to-speech tech which outputs user generated text as computerized speech in seven languages (EFIGS, Japanese and Korean).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6060
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 103199,
+        "game_title": "Tomodachi Life",
+        "release_date": "2013-04-18",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 15,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4,
+          9,
+          22
+        ],
+        "publishers": null
+      },
+      {
+        "id": 115553,
+        "game_title": "Tomodachi Life",
+        "release_date": "2013-04-18",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Tomodachi Life is a communication game for the 3DS in which players can convert their Miis into Tomodachis (or create new ones) and put them in a wide range of scenarios ranging from charming to utterly ridiculous. A key feature of the game is its text-to-speech tech which outputs user generated text as computerized speech in seven languages (EFIGS, Japanese and Korean).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6060
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121830,
+        "game_title": "Tomodachi Life",
+        "release_date": "2013-04-18",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Tomodachi Life ! est une simulation de vie sur 3DS. Le joueur doit y gérer sa propre île en y plaçant des Miis qui peuvent être ceux de ses amis, de sa famille ou de n'importe quelle célébrité, puis observer leurs activités quotidiennes, leurs interactions voire même leurs liens affectifs.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 71372,
+        "game_title": "Tomodachi Life [Nintendo Selects]",
+        "release_date": "2016-08-26",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Tomodachi Life is a communication game for the 3DS in which players can convert their Miis into Tomodachis (or create new ones) and put them in a wide range of scenarios ranging from charming to utterly ridiculous. A key feature of the game is its text-to-speech tech which outputs user generated text as computerized speech in seven languages (EFIGS, Japanese and Korean).",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6060
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "20607": [
+          {
+            "id": 287567,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20607-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71372": [
+          {
+            "id": 226524,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71372-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103199": [
+          {
+            "id": 353278,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103199-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115553": [
+          {
+            "id": 393368,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115553-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121830": [
+          {
+            "id": 421846,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121830-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tomodachi+Life&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 453,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630012
+}

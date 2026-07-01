@@ -1,0 +1,301 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 30641,
+        "game_title": "Steins;Gate",
+        "release_date": "2015-08-31",
+        "platform": 39,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Steins Gate is the award-winning time travel science-fiction interactive visual novel developed by 5pb. and Nitro plus. A group of teenage scientists discover the ability to alter the past by sending text messages through a modified microwave. Their experiments inevitably spiral out of control as they become entangled in a conspiracy surrounding SERN, the organization behind supposed failed time travel events, and John Titor, a mysterious internet forum poster claiming to come from a dystopian future. With memorable characters, outstanding art design and a gripping narrative, Steins Gate is a critically-acclaimed visual that can be experienced time and time again.\r\n\r\nAlso Available\r\nSteins;Gate Limited Edition\r\nLimited Edition includes 2016 calendar with exceptional Steins;Gate artwork.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6090
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 42244,
+        "game_title": "Steins;Gate 0",
+        "release_date": "2016-11-29",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Steins;Gate 0 is the sequel to the best-selling Visual Novel. Set around a group of students who accidentally change time and history with a science experiment, endangering humankind. Steins;Gate 0 tells the story of what happens when they fail to fix their mistake...",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5159
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 105986,
+        "game_title": "Steins;Gate 0",
+        "release_date": "2016-11-25",
+        "platform": 39,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Steins;Gate 0 (シュタインズ・ゲート ゼロ Shutainzu Gēto Zero?) is a Japanese visual novel developed by Mages, and a side entry in the Science Adventure Series, serving as a continuation to the story of the \"hypothetical science adventure\" Steins;Gate.\r\n\r\nThe marketing for Steins;Gate 0 referred to it as a \"true sequel\" to Steins;Gate, as opposed to a spin-off or alternative story, like the previously released Steins;Gate: Linear Bounded Phenogram. Zero itself takes inspiration from the series of light novels known as the \"Epigraph Trilogy\", though it is not a direct adaptation.\r\n\r\nSteins;Gate 0 was released in Japan on December 10, 2015 for the PlayStation 3, PlayStation 4 and the PlayStation Vita. \r\n\r\nAn English localization was released by PQube for the PlayStation 4 and PlayStation Vita on November 25, 2016 in Europe and four days later in North America, both with regular and limited editions. It was later re-released for Steam by Spike Chunsoft on May 8, 2018. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          112,
+          6090
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 72330,
+        "game_title": "Steins;Gate 0 [Amadeus Edition]",
+        "release_date": "2016-11-29",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5159
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 128223,
+        "game_title": "Steins;Gate Elite",
+        "release_date": "2018-09-20",
+        "platform": 39,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Now, as Steins;Gate Elite, the game is fully remastered with animated scenes from the anime, creating a perfectly new, immersive experience. Follows a rag-tag band of tech-savvy young students who discover the means of changing the past via e-mail using a modified microwave. Their experiments in pushing the boundaries of time begin to spiral out of control as they become entangled in a conspiracy surrounding SERN, the organization behind the Large Hadron Collider, and John Titor, who claims to be from a dystopian future.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5160
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          1433
+        ]
+      },
+      {
+        "id": 78382,
+        "game_title": "Steins;Gate Elite (Limited Edition)",
+        "release_date": "2018-09-20",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Now, as Steins;Gate Elite, the game is fully remastered with animated scenes from the anime, creating a perfectly new, immersive experience. Follows a rag-tag band of tech-savvy young students who discover the means of changing the past via e-mail using a modified microwave. Their experiments in pushing the boundaries of time begin to spiral out of control as they become entangled in a conspiracy surrounding SERN, the organization behind the Large Hadron Collider, and John Titor, who claims to be from a dystopian future.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          112,
+          5160
+        ],
+        "genres": [
+          2,
+          9
+        ],
+        "publishers": [
+          1433
+        ]
+      },
+      {
+        "id": 78376,
+        "game_title": "Steins;Gate Hiyoku Renri no Darling",
+        "release_date": "2013-03-14",
+        "platform": 39,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "escription\r\nAfter repeated D-mail experiments, Okarin jumps to a world where 3% shift in world line was to be expected. And before he knew it, Kurisu as well as the rest of the members have been gathered and amidst preparations for a banquet.\r\n\r\nIn this world, a new gadget had been created but the group is facing some troubles. They can’t afford to pay the electricity bill due to running too many experiments. Let’s see what this new gadget can do for us…\r\n\r\nThe concept for this game is a love comedy with some sweet romance scenes and where 99% of the world is science but 1% is composed of … fantasies?!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          112,
+          6090
+        ],
+        "genres": [
+          2,
+          9
+        ],
+        "publishers": [
+          1433,
+          2194
+        ]
+      },
+      {
+        "id": 78383,
+        "game_title": "Steins;Gate Senkei Kousoku no Phenogram Limited Edition",
+        "release_date": "2013-11-28",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "You followed Okarin through the labyrinth of time and space; now relive the twists and turns of Steins;Gate through the eyes of Kurisu, Suzuha, Daru, and the rest of the Future Gadget Lab members. See how they faced the startling events of the game; hear their thoughts and experience their battles firsthand. This incredible visual novel gives you the rest of the story, with new revelations that will amaze even the most jaded Steins;Gate fan. The drama of Steins;Gate continues. Don't miss it.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          112,
+          5159
+        ],
+        "genres": [
+          2,
+          9
+        ],
+        "publishers": [
+          1433
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "30641": [
+          {
+            "id": 80825,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/30641-1.jpg",
+            "resolution": "1158x1477"
+          },
+          {
+            "id": 264454,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/30641-1.jpg",
+            "resolution": null
+          }
+        ],
+        "42244": [
+          {
+            "id": 393894,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/42244-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72330": [
+          {
+            "id": 229849,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72330-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78376": [
+          {
+            "id": 381318,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78376-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 381319,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/78376-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78382": [
+          {
+            "id": 252933,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78382-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78383": [
+          {
+            "id": 252936,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78383-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105986": [
+          {
+            "id": 364189,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105986-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128223": [
+          {
+            "id": 445406,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/128223-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 445407,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128223-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Steins%3BGate&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 408,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630006
+}

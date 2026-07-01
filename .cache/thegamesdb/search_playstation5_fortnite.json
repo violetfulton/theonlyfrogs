@@ -1,0 +1,188 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 84367,
+        "game_title": "Fortnite",
+        "release_date": "2020-11-11",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Fortnite is the completely free multiplayer game where you and your friends collaborate to create your dream Fortnite world or battle to be the last one standing. Play both Battle Royale and Fortnite Creative for FREE. Download now and jump into the action.",
+        "players": 100,
+        "rating": "Not Rated",
+        "developers": [
+          10018
+        ],
+        "genres": [
+          1,
+          8,
+          27
+        ],
+        "publishers": [
+          749
+        ]
+      },
+      {
+        "id": 96285,
+        "game_title": "Fortnite: Minty Legends Pack",
+        "release_date": "2021-11-02",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Keep it fresh and fierce with the Minty Legends Pack. Everything you need to chill out the competition.\r\nContents:\r\n*Fresh Aura Outfit\r\n*Minty Multipack Back Bling\r\n*Minty Mountaineer Pickaxe\r\n*Minty Bomber Outfit\r\n*Spearmint Satchel Back Bling\r\n*Freshbreaker Pickaxe\r\n*Skellemint Oro Outfit\r\n*Minty Mantle Back Bling\r\n*Triple Mint Scepter Pickaxe\r\n*Fire Mint Wrap\r\n*1,000 V-Bucks",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10018
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          749
+        ]
+      },
+      {
+        "id": 78514,
+        "game_title": "Fortnite: The Last Laugh Bundle",
+        "release_date": "2020-11-12",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Become everyone's nemesis with The Last Laugh bundle! \r\nIncludes: \r\n*The Joker Outfit \r\n*Laugh Riot Back Bling\r\n*Bad Joke Harvesting Tool\r\n*The Joker's Revenge Harvesting Tool\r\n*Pick a Card Contrail\r\n*Poison Ivy Outfit\r\n*Back Bloom Back Bling\r\n*Ivy Axe Harvesting Tool\r\n*Midas Rex Outfit\r\n*Midas Crest Back Bling\r\n*Kingmaker Harvesting Tool\r\n*1,000 V-Bucks\r\n\r\nUPC / Barcode: 883929728152",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10018
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          749
+        ]
+      },
+      {
+        "id": 121789,
+        "game_title": "Fortnite Transformers Pack",
+        "release_date": "2023-10-13",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Roll out, Rise up, or Beep Beep with the Fortnite Transformers Pack! Physical copies of this Pack will roll out at retail starting October 13, and digital copies will be available in digital stores starting October 21. This new Pack includes: 3 New Outfits. 3 New Back Blings.",
+        "players": 100,
+        "rating": "T - Teen",
+        "developers": [
+          10018
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          749
+        ]
+      },
+      {
+        "id": 105880,
+        "game_title": "Fortnite: Anime Legends",
+        "release_date": "2022-10-14",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Anime Legends Pack makes its premiere at retail on October 14 and in digital stores October 22. This Pack includes ten items total, including new looks for fan-favorite characters. Prepare for the next encounter by gathering your gear.\r\n\r\nIncluding: \r\n* Golden Gear Midas Outfit: Hittin' the streets and makin' bank. (Includes helmet alt Style.)\r\n* Golden Crash Back Bling: Gold first. Safety second.\r\n* 24 Karat Katana Pickaxe: Here comes the gold rush. \r\n* Golden Gear Midas has a Golden Touch ability! With his Outfit, apply a golden, toon-shaded wrap to any equipped weapon. \r\n* Ricochet Rox Outfit: Everyone's favorite mecha-fighting miss! \r\n* Whirlberry Back Bling: Ricochet Rox's very best friend! \r\n* Blazeberry Blade Pickaxe: Sharp and refreshing. \r\n* Ready Penny Outfit: She's never caught off-guard. \r\n* Little Black Bag Back Bling: Has everything Penny could need. \r\n* Glimmering Edge Pickaxe: A gold signature original. \r\n* Lil' Kart Emote: Take a lil' lap around the lil' track. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10018
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          749
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "78514": [
+          {
+            "id": 336167,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78514-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84367": [
+          {
+            "id": 390476,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84367-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96285": [
+          {
+            "id": 336164,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96285-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105880": [
+          {
+            "id": 363745,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105880-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121789": [
+          {
+            "id": 456320,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121789-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fortnite&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 131,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629962
+}

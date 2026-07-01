@@ -1,0 +1,638 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 132294,
+        "game_title": "The Sims 4",
+        "release_date": "2014-09-02",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Gracze The Sims 4 ponownie mają okazję pokierować życiem wirtualnej rodziny. Edytor postaci pozwala nie tylko zdecydować o cechach fizycznych każdego z Simów, ale także określić jego osobowość, charakter i aspiracje. The Sims 4 oferuje znacznie więcej funkcji społecznościowych.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 117154,
+        "game_title": "The Sims 4",
+        "release_date": "2014-09-02",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "ABOUT THIS GAME\r\nUnleash your imagination and create a unique world of Sims that’s an expression of you. Download for free, and customize every detail from Sims to homes and much more. Choose how Sims look, act, and dress, then decide how they’ll live out each day. Design and build incredible homes for every family, then decorate with your favorite furnishings and décor. Travel to different neighborhoods where you can meet other Sims and learn about their lives. Discover beautiful locations with distinctive environments and go on spontaneous adventures. Manage the ups and downs of Sims’ everyday lives, and see what happens when you play out scenarios from your own real life. Tell your stories your way while developing relationships, pursuing careers and life aspirations, and immersing yourself in this extraordinary game, where the possibilities are endless.\r\n\r\nDownload for free — The base game of The Sims™ 4 is free to download. Get a plethora of options for building homes, styling Sims, and customizing their personalities. Craft their life stories while exploring vibrant worlds and discovering more ways of being you.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          10024
+        ],
+        "genres": [
+          9,
+          14
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 123160,
+        "game_title": "The Sims 4 [Edycja Limitowana]",
+        "release_date": "2014-09-02",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 22486,
+        "game_title": "The Sims 4 [Limited Edition]",
+        "release_date": "2014-09-02",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The Sims 4 is the highly anticipated life simulation game that lets you play with life like never before! Create and control Sims with big personalities, new emotions, and distinct appearances. Experience new levels of creativity when you sculpt Sims with the powerful Create A Sim and design beautiful homes with tactile, room-based Build Mode. With free content updates for owners of The Sims 4 if and when available, you’ll have the latest content and features to evolve your game experience. Control the mind, body, and heart of your Sims and explore lively, vibrant neighborhoods filled with rich communities of smarter Sims that bring your stories to life.\r\n\r\n\r\nKEY FEATURES -\r\nSims with Big Personalities: Create and control a new generation of Sims with big personalities, new emotions, and distinct appearances. Smarter Sims are more relatable, have the ability to multi-task, and come to life with new emotions and lively animations. The Sims provide you endless possibilities to create rich, entertaining, and weird stories.\r\n\r\nPowerful Creative Tools: All-New Create A Sim and Build Mode have been reinvented to be more powerful, intuitive and fun than ever before. You have the control to sculpt Sims with tactile precision. Effortlessly construct the home of your dreams with the all new, room-based Build Mode. Styled Looks and Rooms inspire you with curated outfits and designs to add to your Sims and homes in The Sims 4.\r\n\r\nVibrant Worlds: Explore lively, beautiful worlds filled with rich communities of Sims. Choose among beautiful and diverse lots for your Sims to build their homes and explore activities. Expand your social circle and interact with other Sims in the neighborhood and hang out in community parks and venues.\r\n\r\nShare Your Creations: The Gallery allows you to see, share, and download new content without ever leaving your game. Get inspired by rich content created by The Sims community and add new experiences to your game.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 90736,
+        "game_title": "The Sims 4 Strangerville",
+        "release_date": "2019-02-26",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90737,
+        "game_title": "The Sims 4 Vampires",
+        "release_date": "2017-01-24",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104674,
+        "game_title": "The Sims 4: Blooming Rooms Kit",
+        "release_date": "2021-11-09",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 63078,
+        "game_title": "The Sims 4: Cats & Dogs",
+        "release_date": "2017-11-10",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Sims 4: Cats & Dogs is the fourth expansion pack for The Sims 4. The expansion reintroduces cats, dogs, and raccoons, as well as new features such as foxes and a vet clinic business which Sims can experience in the new world of Brindleton Bay.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 63077,
+        "game_title": "The Sims 4: City Living",
+        "release_date": "2016-11-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "he Sims 4: City Living is the third expansion pack for The Sims 4. It introduces apartments and penthouses, and allows Sims to live in and explore the city world of San Myshuno.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 90448,
+        "game_title": "The Sims 4: Cottage Living",
+        "release_date": "2021-07-22",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 104675,
+        "game_title": "The Sims 4: Country Kitchen Kit",
+        "release_date": "2021-03-02",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104676,
+        "game_title": "The Sims 4: Courtyard Oasis Kit",
+        "release_date": "2021-05-18",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104671,
+        "game_title": "The Sims 4: Desert Luxe Kit",
+        "release_date": "2022-09-12",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 90445,
+        "game_title": "The Sims 4: Discover University",
+        "release_date": "2019-11-15",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Explore all the experiences college has to offer. Take classes that set your Sims up for success in engineering, education or law careers. Discover robotics and ping-pong, or make some mischief pulling pranks against the rival school. Study hard, sleep in and high-five the school mascot – just make sure to keep those grades up!\r\n\r\nSettle into School – Begin a new chapter for your Sim at the historical University of Britechester or the modern Foxbury Institute. Live in a dorm room or off-campus, explore Britechester on a bicycle, spend time in the student commons and have a study session at the library. Cheer on the student body at a school spirit event, and wear school colors to show your Sim’s pride.\r\n\r\nStay Classy – Enroll in a University and choose classes that pique your interest: biology, computer science, art history or even villainy. Attend a lecture or work on term papers and presentations – the more your Sim learns, the more successful they’ll be. Going to classes or blowing them off will affect your Sim’s grades, so time management is a must.\r\n\r\nMeet, Mingle and Explore – How your Sim embraces college life is up to you. Study all night to finish homework or chill out and sleep in. With activities like juice pong, juggling a soccer ball and hanging out with roommates, taking a break has never been so fun! Join school organizations like robotics, debate, art or even a mysterious secret society. As the year progresses, Sims become their best selves and discover who they’re meant to be.\r\n\r\nExpress Your Campus Style – Make your Sim’s space cozy with dorm room décor that reflects their personality. Develop their style in any way you choose – whether wearing late-for-class sweatpants or their best-self outfits, there’s always a way to show school spirit or impress a classmate.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 90446,
+        "game_title": "The Sims 4: Eco Lifestyle",
+        "release_date": "2020-06-05",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 63080,
+        "game_title": "The Sims 4: Get Famous",
+        "release_date": "2018-11-16",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Sims 4: Get Famous is the sixth expansion pack for The Sims 4. The main theme of the expansion pack is fame and being a celebrity, while gaining reputation from doing so. Sims can explore the brand new world of Del Sol Valley, meet up with the famous locals, and join the acting career to become rich and famous. Sims can also become famous from various other things, such as singing, writing, painting or cooking.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 26663,
+        "game_title": "The Sims 4: Get to Work Expansion Pack",
+        "release_date": "2015-03-31",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Sims 4: Get to Work is the first expansion pack for The Sims 4. It includes three new active careers; Detective, Doctor and Scientist, and also allows Sims to own and manage their own retail businesses. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 34959,
+        "game_title": "The Sims 4: Get Together Expansion Pack",
+        "release_date": "2015-12-08",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Sims 4: Get Together is the second expansion pack for The Sims 4.  It includes a whole new world where Sims can hang out and get together, as well as many new features, such as social clubs, DJ booths, coffee shops, dressing up, and more. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322,
+          8764
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 104667,
+        "game_title": "The Sims 4: High School Years",
+        "release_date": "2022-07-28",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      },
+      {
+        "id": 104673,
+        "game_title": "The Sims 4: Industrial Loft Kit",
+        "release_date": "2021-08-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2564
+        ],
+        "genres": [
+          3,
+          9,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "22486": [
+          {
+            "id": 202402,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/22486-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 202403,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/22486-1.jpg",
+            "resolution": null
+          }
+        ],
+        "26663": [
+          {
+            "id": 83193,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/26663-1.jpg",
+            "resolution": "1535x2175"
+          }
+        ],
+        "34959": [
+          {
+            "id": 99644,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/34959-1.png",
+            "resolution": "548x768"
+          }
+        ],
+        "63077": [
+          {
+            "id": 341547,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63077-1.jpg",
+            "resolution": null
+          }
+        ],
+        "63078": [
+          {
+            "id": 341548,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63078-1.jpg",
+            "resolution": null
+          }
+        ],
+        "63080": [
+          {
+            "id": 208816,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63080-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90445": [
+          {
+            "id": 300951,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90445-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90446": [
+          {
+            "id": 300952,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90446-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90448": [
+          {
+            "id": 300954,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90448-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90736": [
+          {
+            "id": 358347,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90736-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90737": [
+          {
+            "id": 358348,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90737-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104667": [
+          {
+            "id": 358349,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104667-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104671": [
+          {
+            "id": 358354,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104671-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104673": [
+          {
+            "id": 358356,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104673-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104674": [
+          {
+            "id": 358359,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104674-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104675": [
+          {
+            "id": 358360,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104675-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104676": [
+          {
+            "id": 358361,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104676-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117154": [
+          {
+            "id": 399780,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117154-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123160": [
+          {
+            "id": 427138,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123160-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132294": [
+          {
+            "id": 465483,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132294-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Sims+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Sims+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
+  },
+  "remaining_monthly_allowance": 723,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630053
+}

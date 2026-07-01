@@ -1,0 +1,175 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 311,
+        "game_title": "Fallout: New Vegas",
+        "release_date": "2010-10-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Experience all the sights and sounds of fabulous New Vegas, brought to you by Vault-Tec, America's First Choice in Post-Nuclear Simulation. Explore the treacherous wastes of the Great Southwest from the safety and comfort of your very own vault: Meet new people, confront terrifying creatures, and arm yourself with the latest high-tech weaponry as you make a name for yourself on a thrilling new journey across the Mojave wasteland. A word of warning, however - while Vault-Tec engineers have prepared for every contingency, in Vegas, fortunes can change in an instant. Enjoy your stay.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 128276,
+        "game_title": "Fallout: New Vegas",
+        "release_date": "2010-10-22",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Fallout: New Vegas, the follow-up to Fallout 3 - the 2008 Game of the Year - brings this beloved franchise to a location only Fallout could do justice: Vegas. Fallout: New Vegas takes all the action, humor and post-apocalyptic grime and grit of this legendary series, and raises the stakes. Published by Bethesda Softworks, Fallout: New Vegas is currently under development at Obsidian Entertainment and is slated for a Fall 2010 release.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 68572,
+        "game_title": "Fallout: New Vegas - Collector's Edition",
+        "release_date": "2010-10-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Fallout: New Vegas, the follow-up to Fallout 3 - the 2008 Game of the Year - brings this beloved franchise to a location only Fallout could do justice: Vegas. Fallout: New Vegas takes all the action, humor and post-apocalyptic grime and grit of this legendary series, and raises the stakes. Published by Bethesda Softworks, Fallout: New Vegas is currently under development at Obsidian Entertainment and is slated for a Fall 2010 release.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 17726,
+        "game_title": "Fallout: New Vegas - Dead Money",
+        "release_date": "2011-02-22",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "As the victim of a raw deal you must work alongside three other captured wastelanders to recover the legendary treasure of the Sierra Madre Casino. In Dead Money, your life hangs in the balance as you face new terrain, foes, and choices. It is up to you how you play your cards in the quest to survive.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "311": [
+          {
+            "id": 13347,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/311-1.jpg",
+            "resolution": "1510x2137"
+          },
+          {
+            "id": 36539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/311-1.jpg",
+            "resolution": "353x438"
+          }
+        ],
+        "17726": [
+          {
+            "id": 49510,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17726-1.jpg",
+            "resolution": "1528x1887"
+          }
+        ],
+        "68572": [
+          {
+            "id": 221560,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68572-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128276": [
+          {
+            "id": 445611,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128276-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 445612,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/128276-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Fallout%3A+New+Vegas&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 990,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630099
+}

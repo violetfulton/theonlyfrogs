@@ -1,0 +1,134 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 115273,
+        "game_title": "Tetris DS",
+        "release_date": "2006-04-21",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Tetris DS[a] is a puzzle video game developed and published by Nintendo. It was released for the Nintendo DS on March 20, 2006, in North America, April 13, 2006, in Australia, April 21, 2006, in Europe, and April 27, 2006, in Japan.[1] An installment of the Tetris franchise, the game supports up to ten players locally, and supported online multiplayer of up to four players using Nintendo Wi-Fi Connection prior to its discontinuation.\r\n\r\nTetris DS features several new modes of play, each with a different theme styled after retro Nintendo games. They include Super Mario Bros., The Legend of Zelda, Metroid, Donkey Kong, and Yoshi's Cookie.[2] Multiplayer gameplay also incorporates items to be used competitively. The game received positive reviews from critics, who cited its additional game modes and multiplayer capabilities. Long after its release, it continued to be upheld as the best portable Tetris title, and one of the best in the series.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6060
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 116335,
+        "game_title": "Tetris DS",
+        "release_date": "2006-04-27",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Tetris DS[a] is a puzzle video game developed and published by Nintendo. It was released for the Nintendo DS on March 20, 2006, in North America, April 13, 2006, in Australia, April 21, 2006, in Europe, and April 27, 2006, in Japan.[1] An installment of the Tetris franchise, the game supports up to ten players locally, and supported online multiplayer of up to four players using Nintendo Wi-Fi Connection prior to its discontinuation.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6060
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6888,
+        "game_title": "Tetris DS",
+        "release_date": "2006-03-20",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "You can rediscover the timeless puzzle game Tetris on your Nintendo DS with Tetris DS. Now you can choose from six different game modes, all of which take advantage of the DS's touch screen. Each game mode features a theme from another Nintendo franchise, such as The Legend of Zelda or Metroid. You can challenge up to nine other players using one cartridge for local multiplayer play or three other players around the world with the DS's Wi-Fi connection.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6888": [
+          {
+            "id": 17696,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6888-1.jpg",
+            "resolution": "1544x1370"
+          },
+          {
+            "id": 17697,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6888-1.jpg",
+            "resolution": "1524x1370"
+          }
+        ],
+        "115273": [
+          {
+            "id": 392421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115273-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116335": [
+          {
+            "id": 396651,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116335-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tetris+DS&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 529,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630023
+}

@@ -1,0 +1,102 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 69190,
+        "game_title": "Bully",
+        "release_date": "2016-03-22",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Bully takes the Rockstar tradition of groundbreaking and original gameplay and humorous tongue-in-cheek storytelling to an entirely new setting the schoolyard.\r\n\r\nAs a mischievous schoolboy, you’ll stand up to the bullies, get picked on by teachers, play pranks, win or lose the girl, and ultimately learn to navigate the obstacles of the worst school around, Bullworth Academy.\r\n\r\nExperience Bully® for PS2™ with full 1080p up-rendering and enhanced features such as Trophies, Shareplay, Remote Play, Activity Feeds and Second Screen support for game manuals with 'PS Vita' or PS App.\r\n\r\nThis title has been converted from the original PlayStation®2 version to the PS4™ system. Consequently, there may be times where the title plays differently from the PlayStation®2 version, or where some features may not function properly. This version does not support PlayStation®2 peripherals, therefore some functionality may not be available.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7286
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 96322,
+        "game_title": "Below",
+        "release_date": "2020-04-07",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "BELOW presents a vast underworld of ever-shifting labyrinths where deadly monstrosities, cunning traps, and a shadowy presence lurk in every passage.\r\n\r\nCraft remedies and tools to help you survive the Depths. What lies below? Only the brave will find out.\r\n\r\nEXPLORE mode offers an accessible adventure, while preserving the mystery and danger of the Isle.\r\n\r\nSURVIVE mode is for only the hardiest wanderers. Hazards and beasts are at their deadliest survival requires careful planning and sharp instincts.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1465
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          1565
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "69190": [
+          {
+            "id": 297417,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69190-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96322": [
+          {
+            "id": 325272,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96322-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bully&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 402,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630005
+}

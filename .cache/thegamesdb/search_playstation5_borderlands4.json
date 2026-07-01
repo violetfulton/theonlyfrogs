@@ -1,0 +1,129 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 132234,
+        "game_title": "Borderlands 4 [Super Deluxe Edition]",
+        "release_date": "2025-09-12",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Explore all-new regions of Kairos with two additional Vault Hunters with the post-launch content of Borderlands 4 Super Deluxe Edition. Experience all new story and side missions, and take on new challenges and fearsome foes! Super Deluxe Edition includes all the content of Deluxe Edition with tons more heaped on top.\r\n\r\nBorderlands 4 Super Deluxe Edition includes:\r\n• Full base game\r\n• Firehawk's Fury Weapon Skin\r\n• Bounty Pack Bundle*\r\n• Ornate Order Pack\r\n• Vault Hunter Pack**\r\n\r\n*Borderlands 4 Bounty Pack Bundle consists of 4 separate post-launch DLC packs. The Bounty Pack Bundle is included with the Deluxe and Super Deluxe Editions of Borderlands 4. The Bounty Pack Bundle, and the individual DLC packs that make up the bundle, will also be available for separate purchase at launch (base game required). Exact release timings of each DLC pack to be announced at a later date and will be subject to change. Terms apply.\r\n**Borderlands 4 Vault Hunter Pack consists of 2 separate post-launch DLC packs. The Vault Hunter Pack is included with Borderlands 4 Super Deluxe Edition. The Vault Hunter Pack, and the individual DLC packs that make up the bundle, will also be available for separate purchase at launch (base game required). Exact release timings of each DLC pack to be announced at a later date and will be subject to change. Terms apply.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          123
+        ]
+      },
+      {
+        "id": 77455,
+        "game_title": "Borderlands 3",
+        "release_date": "2020-11-12",
+        "platform": 4980,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 93949,
+        "game_title": "Borderlands 3: Ultimate Edition",
+        "release_date": "2021-11-12",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Borderlands 3 Ultimate Edition is the quintessential Borderlands 3 experience, featuring the award-winning base game plus all 6 content add-ons and the full collection of bonus cosmetic packs! Blast through multiple worlds as 1 of 4 Vault Hunters – the ultimate treasure-seeking badasses of the Borderlands.\r\n\r\nSeason Pass includes four campaign add-ons:\r\n• Moxxi’s Heist of the Handsome Jackpot\r\n• Guns, Love, and Tentacles: The Marriage of Wainwright & Hammerlock\r\n• Bounty of Blood\r\n• Psycho Krieg and the Fantastic Fustercluck\r\n\r\nSeason Pass 2 includes:\r\n• Designer's Cut content add-on, featuring brand new mode 'Arms Race' and an additional skill tree for each Vault Hunter\r\n• Director's Cut content add-on, featuring a raid boss, new story missions, behind-the-scenes extras, and three Vault Cards\r\n• All four Multiverse Final Form Cosmetic Packs\r\n• All four Multiverse Disciples of the Vault Cosmetic Packs\r\n\r\nAdditional Bonus Content:\r\n• Butt Stallion Pack: Weapon skin, trinket, Butt Stallion grenade mod\r\n• Retro Cosmetic Pack\r\n• Neon Cosmetic Pack\r\n• Gearbox Cosmetic Pack\r\n• Toy Box Weapons Pack\r\n• Equippable XP & Loot Drop Boost Mods",
+        "players": 2,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          825
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "77455": [
+          {
+            "id": 257801,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77455-1.jpg",
+            "resolution": null
+          }
+        ],
+        "93949": [
+          {
+            "id": 351986,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93949-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132234": [
+          {
+            "id": 465393,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132234-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 148,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629964
+}

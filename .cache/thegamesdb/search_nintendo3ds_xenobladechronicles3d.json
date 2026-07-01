@@ -1,0 +1,77 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 27918,
+        "game_title": "Xenoblade Chronicles 3D",
+        "release_date": "2015-04-10",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Xenoblade Chronicles 3D 3DS - A remake of the well-received Xenoblade Chronicles for Wii is launching exclusively for New Nintendo 3DS XL. The new version offers 3D visuals and allows players to view the maps and character stats on the bottom screen. An additional bonus mode lets players view 3D models of the characters and listen to music tracks from the game. This game only works in the newer 3DS XL SKU?s, REDSRAAA and REDSVAAA",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5681
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "27918": [
+          {
+            "id": 211783,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/27918-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 385133,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/27918-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Xenoblade+Chronicles+3D&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 451,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630012
+}

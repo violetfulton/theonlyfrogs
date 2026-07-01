@@ -1,0 +1,162 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 68992,
+        "game_title": "Untitled Goose Game",
+        "release_date": "2019-09-20",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.\r\n\r\nFeaturing:\r\n\r\n• A horrible goose (that's you)\r\n• A town full of people just trying to get on with their day\r\n(you hate them)\r\n• A dedicated honk button (!!!)\r\n\r\nAND ALSO: Oh dear! Two horrible geese!\r\n\r\nYou can now enjoy Untitled Goose Game with a friend, in a new two-player cooperative mode. Play through the whole game as two horrible geese, honking twice as much, teaming up to plan pranks, and generally ruining everyone's day, together.\r\n\r\n• A free update for all owners of Untitled Goose Game\r\n• Play through the entire game with two players\r\n• New goose, new honk, still horrible",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          10623
+        ],
+        "genres": [
+          1,
+          5,
+          22
+        ],
+        "publishers": [
+          3728
+        ]
+      },
+      {
+        "id": 112425,
+        "game_title": "Untitled Goose Game",
+        "release_date": "2020-09-29",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.\r\n\r\nFeaturing:\r\n\r\n• A horrible goose (that's you)\r\n• A town full of people just trying to get on with their day\r\n(you hate them)\r\n• A dedicated honk button (!!!)\r\n\r\nAND ALSO: Oh dear! Two horrible geese!\r\n\r\nYou can now enjoy Untitled Goose Game with a friend, in a new two-player cooperative mode. Play through the whole game as two horrible geese, honking twice as much, teaming up to plan pranks, and generally ruining everyone's day, together.\r\n\r\n• A free update for all owners of Untitled Goose Game\r\n• Play through the entire game with two players\r\n• New goose, new honk, still horrible",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          10623
+        ],
+        "genres": [
+          5,
+          16
+        ],
+        "publishers": [
+          3728
+        ]
+      },
+      {
+        "id": 79514,
+        "game_title": "Untitled Goose Game [Lovely Edition]",
+        "release_date": "2020-10-29",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Untitled Goose Game is nothing short of a *honk*nomenon (sorry!), having transcended the hallowed halls of nerdom to become an essential piece of the cultural zeitgeist. Australian developer House House created the ultimate anti-hero with their headlining Goose, crafting a clever and genre-busting puzzler that achieves brilliance with hilarious gestures and impeccable nuance. Everything about this game is charming, from its deftly styled animation to its subtle yet dynamic soundtrack. Included here is a very special mail order-style ‘Catalog of Junk,’ a perfectly informative illustrated booklet, and an elegantly hand-illustrated town map, both made exclusively for the physical edition of the game. It’s enough to make you wanna *honk* *honk*\r\n\r\n\r\nAdding to that, iam8bit is proud to debut a secret initiative we’ve been working on for the past year: “Eco-Packaging” for physical games. We’re no strangers to engineering unique and crazy packaging, and we’ve spared no expense to prototype dozens of variations of our eco-friendly alternative to plastic game cases… which has led us to this moment. Untitled Goose Game is the perfect title to team up with for the debut of PS4 packaging that we hope leads an entire industry into the future. Consider this our “Early Access Alpha” version of eco-packaging:\r\n\r\n100% Post-Consumer Waste Material Case\r\n100% Recyclable\r\nNon-Toxic, 0% VOC inks \r\nBooklet and Foldout Poster are all 100% Recyclable Paper Stocks from sustainable sources\r\n“No Goose” Sticker - Tree-Free, Made from Sugar Cane Waste; Recycle-Compatible Adhesive\r\nEco-Friendly Shrink Wrap (it’s called “Biolefin”!)",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3728
+        ]
+      },
+      {
+        "id": 78204,
+        "game_title": "Untitled Goose Game [Physical Edition]",
+        "release_date": "2019-09-20",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Untitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.\r\n\r\nFeaturing:\r\n\r\n• A horrible goose (that's you)\r\n• A town full of people just trying to get on with their day\r\n(you hate them)\r\n• A dedicated honk button (!!!)\r\n\r\nAND ALSO: Oh dear! Two horrible geese!\r\n\r\nYou can now enjoy Untitled Goose Game with a friend, in a new two-player cooperative mode. Play through the whole game as two horrible geese, honking twice as much, teaming up to plan pranks, and generally ruining everyone's day, together.\r\n\r\n• A free update for all owners of Untitled Goose Game\r\n• Play through the entire game with two players\r\n• New goose, new honk, still horrible",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3728
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "68992": [
+          {
+            "id": 257341,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68992-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 331708,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/68992-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78204": [
+          {
+            "id": 252520,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78204-1.jpg",
+            "resolution": null
+          }
+        ],
+        "79514": [
+          {
+            "id": 255697,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/79514-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112425": [
+          {
+            "id": 383961,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112425-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Untitled+Goose+Game&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 313,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629991
+}

@@ -1,0 +1,197 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 121748,
+        "game_title": "Kirby et le monde oublié",
+        "release_date": "2022-03-25",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3694,
+          9299
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 93188,
+        "game_title": "Kirby and the Forgotten Land",
+        "release_date": "2022-03-25",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Join Kirby in an unforgettable journey through a mysterious world in a delightful 3D platforming adventure\r\n\r\nTake control of the powerful pink puffball, Kirby, and move around freely in 3D stages as you discover a mysterious world with abandoned structures from a past civilization—like a shopping mall?! Copy enemies’ abilities like Sword and Ice and use them to attack and explore your surroundings! What journey awaits Kirby? Take a deep breath and get ready for an unforgettable adventure!\r\n\r\n\r\n- Join Kirby in an unforgettable journey on a delightful 3D platforming adventure\r\n\r\n- Explore a mysterious world with abandoned structures, remnants of a past civilization\r\n\r\n- Copy enemies’ abilities and use them to attack and explore",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3697
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 111608,
+        "game_title": "Kirby and the Forgotten Land",
+        "release_date": "2022-03-25",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3694,
+          9299
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118842,
+        "game_title": "Kirby and the Forgotten Land",
+        "release_date": "2022-03-25",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Join Kirby in an unforgettable journey through a mysterious world in a delightful 3D platforming adventure\r\n\r\nTake control of the powerful pink puffball, Kirby, and move around freely in 3D stages as you discover a mysterious world with abandoned structures from a past civilization—like a shopping mall?! Copy enemies’ abilities like Sword and Ice and use them to attack and explore your surroundings! What journey awaits Kirby? Take a deep breath and get ready for an unforgettable adventure!\r\n\r\n\r\n- Join Kirby in an unforgettable journey on a delightful 3D platforming adventure\r\n\r\n- Explore a mysterious world with abandoned structures, remnants of a past civilization\r\n\r\n- Copy enemies’ abilities and use them to attack and explore\r\n\r\nAustralian Classification: PG",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3697
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 113835,
+        "game_title": "Hoshi no Kirby Discovery",
+        "release_date": "2022-03-25",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Join Kirby in an unforgettable journey through a mysterious world in a delightful 3D platforming adventure\r\n\r\nTake control of the powerful pink puffball, Kirby, and move around freely in 3D stages as you discover a mysterious world with abandoned structures from a past civilization—like a shopping mall?! Copy enemies’ abilities like Sword and Ice and use them to attack and explore your surroundings! What journey awaits Kirby? Take a deep breath and get ready for an unforgettable adventure!\r\n\r\n\r\n- Join Kirby in an unforgettable journey on a delightful 3D platforming adventure\r\n\r\n- Explore a mysterious world with abandoned structures, remnants of a past civilization\r\n\r\n- Copy enemies’ abilities and use them to attack and explore",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          3694
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "93188": [
+          {
+            "id": 337197,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/93188-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111608": [
+          {
+            "id": 382491,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111608-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113835": [
+          {
+            "id": 387664,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113835-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118842": [
+          {
+            "id": 406452,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118842-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121748": [
+          {
+            "id": 421438,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121748-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Kirby+and+the+Forgotten+Land&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 260,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629983
+}

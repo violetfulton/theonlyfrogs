@@ -1,0 +1,132 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 65101,
+        "game_title": "Elden Ring",
+        "release_date": "2022-02-25",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 28,
+        "overview": "THE NEW FANTASY ACTION RPG.\r\nRise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.\r\n\r\n• A Vast World Full of Excitement\r\nA vast world where open fields with a variety of situations and huge dungeons with complex and three-dimensional designs are seamlessly connected. As you explore, the joy of discovering unknown and overwhelming threats await you, leading to a high sense of accomplishment.\r\n\r\n• Create your Own Character\r\nIn addition to customizing the appearance of your character, you can freely combine the weapons, armor, and magic that you equip. You can develop your character according to your play style, such as increasing your muscle strength to become a strong warrior, or mastering magic.\r\n\r\n• An Epic Drama Born from a Myth\r\nA multilayered story told in fragments. An epic drama in which the various thoughts of the characters intersect in the Lands Between.\r\n\r\n• Unique Online Play that Loosely Connects You to Others\r\nIn addition to multiplayer, where you can directly connect with other players and travel together, the game supports a unique asynchronous online element that allows you to feel the presence of others.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3192
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 123645,
+        "game_title": "ELDEN RING Shadow of the Erdtree Collector Edition",
+        "release_date": "2024-06-21",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Winner of hundreds of accolades including The Game Awards Game of the Year and Golden Joystick Awards Ultimate Game of the Year, ELDEN RING is the acclaimed action RPG epic set in a vast, dark fantasy world. Players embark on an epic quest with the freedom to explore and adventure at their own pace.\r\nThe Shadow of the Erdtree expansion features an all-new story set in the Land of Shadow imbued with mystery, perilous dungeons, and new enemies, weapons and equipment.\r\nDiscover uncharted territories, face formidable adversaries, and revel in the satisfying triumph of victory. Dive into the riveting interplay of characters, where drama and intrigue intertwine, that create an immersive experience to savor and enjoy.\r\n*Shadow of the Erdtree content requires the base game product.\r\n*Other editions are also available. Be careful of duplicate purchases.\r\n\r\nDiscover Elden Ring Shadow of the Erdtree Collector's Edition:\r\nElden Ring Shadow of the Erdtree (base game not included)\r\nFigurine of Mesmer the Impaler (46cm)\r\nExclusive Hardcover artbook (English)\r\nDigital Soundtrack\r\n\r\nSYSTEM REQUIREMENTS\r\nMINIMUM:\r\nRequires a 64-bit processor and operating system\r\nOS: Windows 10\r\nProcessor: INTEL CORE I5-8400 or AMD RYZEN 3 3300X\r\nMemory: 12 GB RAM\r\nGraphics: NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB\r\nDirectX: Version 12\r\nStorage: 60 GB available space\r\nSound Card: Windows Compatible Audio Device\r\n\r\nRECOMMENDED:\r\nRequires a 64-bit processor and operating system\r\nOS: Windows 10/11\r\nProcessor: INTEL CORE I7-8700K or AMD RYZEN 5 3600X\r\nMemory: 16 GB RAM\r\nGraphics: NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB\r\nDirectX: Version 12\r\nStorage: 60 GB available space\r\nSound Card: Windows Compatible Audio Device",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          3192
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 131875,
+        "game_title": "ELDEN RING NIGHTREIGN",
+        "release_date": "2025-05-29",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "ELDEN RING NIGHTREIGN é uma aventura independente dentro do universo de ELDEN RING, feita para oferecer aos jogadores uma nova experiência de jogo reimaginando o design básico do jogo.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3192
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          6,
+          126
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "65101": [
+          {
+            "id": 214215,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65101-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123645": [
+          {
+            "id": 429199,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123645-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131875": [
+          {
+            "id": 463980,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131875-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Elden+Ring&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 917,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630086
+}

@@ -1,0 +1,110 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 123666,
+        "game_title": "Song of Nunu: A League of Legends Story",
+        "release_date": "2023-11-01",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Song of Nunu: A League of Legends Story is a single-player story adventure developed by Tequila Works. Dive headfirst into an immersive narrative set in the undiscovered reaches of the Freljord, where every snowy step brings you closer to the truth about Nunu and Willump’s past.\r\n\r\nPlay as Nunu, a young boy searching for his mother with the help of his best friend, Willump. United by their endless imagination and shared love of snowball fights, the two will have to work together to navigate the Freljord, saving it—and each other—from the danger that lies within. Hike, climb, and sled your way across the Freljord, a frostbitten land full of harsh blizzards, ferocious wolves… and enchantment. Use your head to progress through the frozen landscape and uncover what secrets lie hidden beneath the ice, and meet the powerful League of Legends champions of the Freljord, including Braum, Ornn, Volibear, and Lissandra—whose twisted magic threatens to bury the world in Dark Ice.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8668
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          190
+        ]
+      },
+      {
+        "id": 135966,
+        "game_title": "Song of Nunu: A League of Legends Story",
+        "release_date": "2023-11-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Two best friends, one wild adventure. Join best friends Nunu and Willump on an adventure across the frozen wilds of the Freljord. Song of Nunu: A League of Legends Story is a single-player story adventure developed by Tequila Works. \r\n\r\nSong of Nunu: A League of Legends Story is a single-player story adventure developed by Tequila Works. Dive headfirst into an immersive narrative set in the undiscovered reaches of the Freljord, where every snowy step brings you closer to the truth about Nunu and Willump’s past. Play as Nunu, a young boy searching for his mother with the help of his best friend, Willump. United by their endless imagination and shared love of snowball fights, the two will have to work together to navigate the Freljord, saving it—and each other—from the danger that lies within.\r\n\r\nFriendship finds a way in Song of Nunu: A League of Legends Story. ",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8668
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          1357
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "123666": [
+          {
+            "id": 429291,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123666-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 429292,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/123666-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135966": [
+          {
+            "id": 481758,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135966-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Song+of+Nunu%3A+A+League+of+Legends+Story&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 61,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629951
+}

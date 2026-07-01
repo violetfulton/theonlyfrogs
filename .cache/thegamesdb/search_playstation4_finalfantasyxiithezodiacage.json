@@ -1,0 +1,173 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 43905,
+        "game_title": "Final Fantasy XII: The Zodiac Age",
+        "release_date": "2017-07-11",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "FINAL FANTASY XII THE ZODIAC AGE improves upon the 2006 classic FINAL FANTASY XII, now more beautiful and easier to play than ever. The high-definition remaster introduces several modern advancements, including reconstructed battle design and a revamped job system. With newly implemented trophies and share functions, as well as stark visual and sound improvements in true HD for the first time, players both returning and new to the game will experience a grand adventure that spans the world of Ivalice in an entirely fresh and improved way.\r\n\r\nEnter an era of war within the world of Ivalice. The small kingdom of Dalmasca, conquered by the Archadian Empire, is left in ruin and uncertainty. Princess Ashe, the one and only heir to the throne, devotes herself to the resistance to liberate her country. Vaan, a young man who lost his family in the war, dreams of flying freely in the skies. In a fight for freedom and fallen royalty, join these unlikely allies and their companions as they embark on a heroic adventure to free their homeland.\r\n\r\nAlso Available:\r\nFinal Fantasy XII: The Zodiac Age Limited Edition\r\n\r\nFinal Fantasy XII: The Zodiac Age (Collector's Edition)\r\nFINAL FANTASY® XII THE ZODIAC AGE COLLECTOR'S EDITION is exclusive on the SQUARE ENIX ONLINE STORE. The Collector's Edition Includes:\r\n\r\nFINAL FANTASY® XII THE ZODIAC AGE game\r\n\r\nExclusive Judge Magisters Mini Bust Set, featuring busts of Judges Bergan, Drace, Gabranth, Ghis, and Zargabaath (Exclusive to Collector's Edition. Will not be sold separately.)\r\n\r\nSelection of soundtrack music from famed composer Hitoshi Sakimoto\r\n\r\nSteelbook featuring art exclusive art to the Collector’s Edition\r\n\r\nSet of Six Art Cards, featuring Vaan, Ashe, Basch, Fran & Balthier, Penelo and World of Ivalice\r\n\r\nDigital code to unlock the original soundtrack background music option in-game",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12,
+          78
+        ]
+      },
+      {
+        "id": 111878,
+        "game_title": "Final Fantasy XII: The Zodiac Age",
+        "release_date": "2017-07-11",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808,
+          9420
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 75760,
+        "game_title": "Final Fantasy XII: The Zodiac Age [Limited Steelbook Edition]",
+        "release_date": "2017-07-11",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 111879,
+        "game_title": "Final Fantasy XII: The Zodiac Age [Limited Steelbook Edition]",
+        "release_date": "2017-07-11",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808,
+          9420
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "43905": [
+          {
+            "id": 295634,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43905-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 295635,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/43905-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75760": [
+          {
+            "id": 245656,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75760-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 245657,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/75760-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111878": [
+          {
+            "id": 383463,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111878-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111879": [
+          {
+            "id": 383095,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111879-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XII%3A+The+Zodiac+Age&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 394,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630004
+}

@@ -1,0 +1,199 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 114249,
+        "game_title": "Injustice: Gods Among Us",
+        "release_date": "2013-04-06",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Injustice: Gods Among Us é um jogo de luta que traz heróis como Superman, Batman, Mulher Maravilha e Flash em um universo alternativo no qual os papéis pelos quais os conhecemos serão diferentes. Eles enfrentarão os vilões mais poderosos do universo nesse game.\r\n\r\nUID: BLUS-310118SA",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          10
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 15110,
+        "game_title": "Injustice: Gods Among Us",
+        "release_date": "2013-04-16",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Injustice: Gods Among Us debuts as a bold new fighting game franchise that introduces a deep, original story featuring a large cast of favorite DC Comics icons such as Batman, Harley Quinn, Solomon Grundy, Superman, The Flash, Wonder Woman and many others. Set in a world where the lines between good and evil are blurred, players will experience heroes and villains engaging in epic battles on a massive scale.",
+        "players": null,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5865
+        ],
+        "genres": null,
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 52598,
+        "game_title": "Injustice: Gods Among Us - Ultimate Edition",
+        "release_date": "2013-11-12",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "What if our greatest heroes became our greatest threat? Injustice: Gods Among Us Ultimate Edition features DC Comics icons such Batman, Cyborg, The Flash, Harley Quinn, Nightwing, Solomon Grundy, Superman and Wonder Woman, in a dark tale of power and corruption. Heroes and villains engage in epic battles on a massive scale in a world where the line between good and evil has been blurred.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          1,
+          10
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 76862,
+        "game_title": "Injustice: Gods Among Us [Collector's Edition] ",
+        "release_date": "1970-01-01",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Collector's Edition includes: Exclusive DC Collectibles statue featuring iconic characters Batman and Wonder Woman, the Fortress of Solitude, and the Last Son of Krypton's escape ship, Special Collector's Edition of a brand new DC Comics series Digital download of DC Universe animated film Justice League: Doom, and exclusive skins based on Batman, Superman and Wonder Woman from DC Comics - The New 52\r\n\r\nWhat if our greatest heroes became our greatest threat? From the indomitable DC Comics and the makers of the definitive fighting game franchise Mortal Kombat comes Injustice: Gods Among Us, a bold fighting game featuring a large cast of favorite DC Comics icons. Set in a world where the lines between good and evil are blurred, players will experience heroes and villains engaging in epic battles on a massive scale. A deep, original story compliments the fighting action that pits many of the great heroes and villains from the DC universe against each other -- Batman, Harley Quinn, Solomon Grundy, Superman, The Flash, Wonder Woman and many others lose their allegiances and fight for Injustice!\r\n\r\nInjustice: Gods Among Us is a fighting game that blends classic arcade style gameplay mechanics with an intriguing storyline that pits classic DC Comics characters against each other in unique combinations (hero vs. hero, villain vs. villain, etc.). The game is developed by NetherRealm Studios, and Ed Boon, of Mortal Kombat fame. Players can expect over-the-top action that is suitable for players of most ages, and a single-player storyline that provides the background for the unique character match-ups possible. Additional features include: more than 20 DC Comics heroes and villains, a variety of different attack levels, unique attacks for each character, multiplayer support, and more.\r\n\r\nFeatures & details\r\nExclusive 13\"statue featuring Batman and Wonder Woman, digitally-sculpted by artists at DC Collectibles. This highly detailed statue also features the Fortress of Solitude, and the Last Son of Krypton's escape ship.\r\nDigitally-sculpted, using the industry's most cutting edge technology, the statue stands over 13\" tall\r\nDC Comic Book \"Injustice: Gods Among Us\" details the events leading up to Injustice: Gods Among Us Video Game\r\nDigital download of DC Universe animated film \"Justice League: Doom.\" An epic tale of heroism and betrayal detailing the vile plot of villain Vandal Savage, who discovers Batman's contingency plan to defeat the Justice League should any of them go rogue.\r\nThree exclusive skins based on Batman, Superman and Wonder Woman from DC COMICS - THE NEW 52",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          10
+        ],
+        "publishers": [
+          8429
+        ]
+      },
+      {
+        "id": 102980,
+        "game_title": "Injustice: Gods Among Us [Ultimate Edition Greatest Hits]",
+        "release_date": "2013-11-12",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "What if our greatest heroes became our greatest threat? Injustice: Gods Among Us Ultimate Edition features DC Comics icons such Batman, Cyborg, The Flash, Harley Quinn, Nightwing, Solomon Grundy, Superman and Wonder Woman, in a dark tale of power and corruption. Heroes and villains engage in epic battles on a massive scale in a world where the line between good and evil has been blurred.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5865
+        ],
+        "genres": [
+          1,
+          10
+        ],
+        "publishers": [
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "15110": [
+          {
+            "id": 43145,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15110-1.jpg",
+            "resolution": "640x736"
+          }
+        ],
+        "52598": [
+          {
+            "id": 352581,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52598-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76862": [
+          {
+            "id": 248808,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76862-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102980": [
+          {
+            "id": 352583,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102980-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 352584,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/102980-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114249": [
+          {
+            "id": 389111,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114249-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 389112,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114249-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Injustice%3A+Gods+Among+Us&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 632,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630038
+}

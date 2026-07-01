@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 132510,
+        "game_title": "Final Fantasy Tactics: The Ivalice Chronicles",
+        "release_date": "2025-09-30",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "- Story\r\nIvalice—a kingdom blessed by the light of the gods and ruled by the Two-headed Lion. A year after her defeat to Ordallia in the Fifty Years' War, the king succumbed to malady, leaving a mere boy of two to ascend the throne.\r\n\r\nWhoever was named regent would rule in truth, and thus emerged two rival candidates: dukes Goltanna and Larg, whose deeds during the war had earned them great renown. Goltanna the Black Lion and Larg the White Lion were destined to clash, and the resulting conflict would come to be known as the War of the Lions.\r\n\r\nAgainst this backdrop appear Ramza, third son of House Beoulve, one of Ivalice's leading military families, and his childhood companion Delita, a commoner raised amongst nobles. As they endeavor to chart a course through this tumultuous age, a mighty current draws them ever closer to the abyss.\r\n\r\n- Combat\r\nLead your party in exhilarating encounters where strategic positioning and forward planning determine the outcome. Use the varied terrain of 3D battlefields to your advantage, skillfully manipulate the turn order, and victory will be yours for the taking.\r\n\r\n- Character Growth and Customization\r\nCombine a wide variety of jobs and abilities to craft your very own strategies.\r\n\r\nAs your party members grow, they will gain access to more jobs, each with its own unique abilities. Once learned, abilities can be used even after changing to another job. With over 20 jobs to master—including white mage, black mage, dragoon, and many others from the FINAL FANTASY series—and hundreds of abilities to learn, you have the freedom to experiment and discover the combinations that best suit your party. Chocobos and other creatures can also be tamed and led into battle.\r\n\r\n- Two Versions: Enhanced and Classic\r\nWith improved graphics, fully voiced dialogue, and refined gameplay, the enhanced version provides the perfect way to immerse yourself in the world of Ivalice. Along with the fine-tuning of several features and battle mechanics, the inclusion of the more accessible \"Squire\" difficulty setting makes the enhanced version an excellent starting point for first-time players.\r\n\r\nThe classic version unites the graphics and gameplay of the original 1997 version with the renowned War of the Lions translation for a unique way to experience this beloved title.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "132510": [
+          {
+            "id": 466163,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132510-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+Tactics%3A+The+Ivalice+Chronicles&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 140,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629964
+}

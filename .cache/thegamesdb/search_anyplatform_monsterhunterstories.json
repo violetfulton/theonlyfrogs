@@ -1,0 +1,530 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 15,
+    "games": [
+      {
+        "id": 39905,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2017-09-07",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Monster Hunter Stories is a role-playing game spin-off of the popular Monster Hunter franchise.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          5269
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 104854,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2017-09-08",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Mount up for battle in a Monster Hunter adventure like no other in Monster Hunter Stories™, only for Nintendo 3DS family systems! Become a legendary Rider, bond with wild beasts and take to the skies for a breathtaking journey, filled with friendship, mystery, and plenty of turn-based battles.\r\n\r\nWhen the sleepy settlement of Hakum Village is attacked by a terrifying beast, it’s down to you to follow in the footsteps of the legendary Rider Redan and discover the truth behind a corrupting dark force known as the Black Blight.\r\n\r\nTake flight on a whirlwind adventure through a vast new world, filled with amazing places to explore and new friends to meet!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          5269
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 125616,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 127161,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2024-06-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 127759,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The first RPG in the Monster Hunter series returns!\r\n\r\nMonster Hunter Stories is an RPG that takes the world of Monster Hunter and expands upon it in new and exciting ways! No longer are you hunting monsters, but raising them! In this deep story featuring heroes known as Monster Riders, you will live alongside monsters and form lifelong bonds with them. The first installment of the Monster Hunter Stories series returns, fully voiced in Japanese and English, with additional features such as a new museum mode where you can listen to music and view concept art, allowing you to dive even deeper into the world of Monster Hunter Stories.\r\n\r\nStory:\r\nAs the hero of the story, you were born in a village of Riders who raise monsters for a living. You’ll overcome trials and tribulations as you grow as a Rider, and leave your village to embark on an adventure. Your destination: the world of Hunters, who make their living by hunting monsters. Although their lifestyles are vastly different, you must learn to live and work together with Hunters, and in turn, bring the world of Hunters and Riders ever closer.\r\n\r\nThings take a dark turn as a calamity known as the Black Blight appears, threatening the entire world and upending peaceful lives that were taken for granted... Both Riders and Hunters alike will be put to the test in order to challenge this threat.\r\n\r\nThe keys to saving the world are the Kinship Stone and its hidden power, along with the truth of the “Legend of Redan,” which describes the long-kept secret of the Riders’ origins! Along your epic journey, you will discover the true meaning of Kinship, which grows as your bonds deepen! A story of friendship and triumph await you—ride on into the world of Monster Hunter Stories!\r\n\r\nGame Features:\r\n■ A turn-based RPG set in the world of Monster Hunter! Monster Hunter Stories features a strategic battle system which is easy to get the hang of, even for those who struggle with action games. Use Power, Speed, and Technical attacks to guess and overcome your opponent's attack patterns to inflict heavy damage and win head-to-head battles! Build up your Kinship Gauge to use skills or try your Monsties' unique Kinship Skills!\r\n■ Turn popular monsters from the series into your Monsties! Explore the field using Monstie abilities, hatch eggs that you find along the way, and turn various monsters into Monsties! This game features many popular monsters from the Monster Hunter series, including Zinogre, Nargacuga, and Lagiacrus. Also featured is the Rite of Channeling, a ritual which awakens dormant abilities in your Monsties, allowing you to raise original Monsties and take on powerful enemies!\r\n■ Online features that allow you to create a powerful party with the Monsties you have raised and enjoy battles with other players!\r\n\r\nNew Features:\r\n■ Fully voiced in Japanese and English! The narrative is even more immersive with full Japanese and English voices.\r\n■ Bonus Museum content! Enjoy more than 200 pieces of concept art, including some which have never been seen before, as well as numerous music tracks. Some tracks are being featured in surround sound for the first time!\r\n■ All updates are included! You will find all the monsters added in updates to the original game, such as Kushala Daora, Teostra, and Rajang, as well as expanded endgame content and additional character editing parts, making this the complete package!",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436,
+          5269
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 131242,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2018-09-14",
+        "platform": 4916,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The 3DS game adapted to Mobile! \r\nNew features for the smartphone version!\r\n\r\nNew improvements include beautiful high-resolution graphics, improved user interface, and a new auto-save feature!\r\n\r\n\r\n• Story\r\n\r\nThe story begins in a forest near the village of Riders. Three young friends—the hero, Lilia, and Cheval—stumble upon a shining egg.\r\n\r\n\r\nThe trio perform a playful imitation of the Rite of Kinship, only to be shocked when it actually succeeds!\r\n\r\n\r\nThe egg hatches, revealing a baby Rathalos, a flying wyvern also known as \"the King of the Skies.\" The trio affectionately name him \"Ratha,\" and take him back to the village.\r\n\r\n\r\nA year passes...\r\n\r\n\r\nThe hero receives a Kinship Stone from the Village Chief and officially becomes a Rider. Cheval and Lilia both leave the village, each on their own path. The hero, though separated now from childhood friends, partners up with the cheerful Navirou, and embarks upon a new adventure into the world of hunters.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 126854,
+        "game_title": "Monster Hunter Stories 2 (Best Price Edition)",
+        "release_date": "2021-07-09",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Best Price version of the game, only sold in Japan.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436,
+          5269
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 83257,
+        "game_title": "Monster Hunter Stories 2: Wings of Ruin",
+        "release_date": "2021-07-09",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Monster Hunter Stories 2: Wings of Ruin is an upcoming role-playing video game developed and published by Capcom for the Nintendo Switch and Microsoft Windows. It is a spin-off title in the Monster Hunter series and a sequel to Monster Hunter Stories (2016). The story begins with the mass disappearance of Rathalos around the world. As the descendant of the legendary Rider named Red, the player character will have a fateful encounter with a white-haired wyverian girl, who has been entrusted with a Rathalos egg.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          1436,
+          5269
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          616
+        ]
+      },
+      {
+        "id": 104855,
+        "game_title": "Monster Hunter Stories 2: Wings of Ruin",
+        "release_date": "2021-07-09",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Soar into an epic adventure with Monster Hunter Stories 2: Wings of Ruin on Nintendo Switch! Explore vibrant landscapes, bond with Monsties and face off in thrilling turn-based battles in this exciting RPG set in the Monster Hunter universe.\r\n\r\nAround the world, Rathalos are vanishing. The last hope for their species lies in the hands of a Wyverian girl who entrusts you with protecting a mysterious egg.\r\n\r\nA flightless Rathalos with small wings hatches from the egg, but tales warn that such a creature has the potential to destroy the world. Could this newborn Rathalos be the dangerous monster of legend?",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          1436,
+          5269
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 127501,
+        "game_title": "Monster Hunter Stories 2: Wings of Ruin",
+        "release_date": "2021-07-09",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 8,
+        "overview": "Monster Hunter Stories 2: Wings of Ruin is an upcoming role-playing video game developed and published by Capcom for the Nintendo Switch and Microsoft Windows. It is a spin-off title in the Monster Hunter series and a sequel to Monster Hunter Stories (2016). The story begins with the mass disappearance of Rathalos around the world. As the descendant of the legendary Rider named Red, the player character will have a fateful encounter with a white-haired wyverian girl, who has been entrusted with a Rathalos egg.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 89071,
+        "game_title": "Monster Hunter Stories 2: Wings of Ruin Collector's Edition",
+        "release_date": "2021-07-09",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Monster Hunter Stories 2: Wings of Ruin is an upcoming role-playing video game developed and published by Capcom for the Nintendo Switch and Microsoft Windows. It is a spin-off title in the Monster Hunter series and a sequel to Monster Hunter Stories (2016). The story begins with the mass disappearance of Rathalos around the world. As the descendant of the legendary Rider named Red, the player character will have a fateful encounter with a white-haired wyverian girl, who has been entrusted with a Rathalos egg.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 134759,
+        "game_title": "Monster Hunter Stories 3: Twisted Reflection",
+        "release_date": "2026-03-13",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 27,
+        "overview": "Rathalos gemelli, nati per un capriccio del destino.\r\nMonster Hunter Stories è una serie RPG ambientata nel mondo di Monster Hunter in cui puoi diventare un Rider, e allevare e stringere legami con i tuoi mostri preferiti.\r\nLa storia\r\nAzuria e Vermeil: due paesi su un sentiero di distruzione.\r\nQuando ogni speranza sembra perduta, viene ritrovato un uovo. Dentro c'è un Rathalos, una specie ritenuta estinta.\r\nTuttavia, questo tremulo barlume di speranza si estingue rapidamente, cedendo il passo a un'oscura disperazione.\r\nDall'uovo non nasce un unico Rathalos, ma due gemelli con il marchio Scaglieblu che richiama la disastrosa guerra civile di 200 anni prima.\r\nNumerose specie di mostri rischiano l'estinzione, e il mondo naturale vacilla sull'orlo della rovina. Nell'oscurità di questi tempi bui, si riaccende la scintilla della guerra.\r\nDue paesi, due Rathalos.\r\nUn Rider e il suo fidato compagno Rathalos, sferzati dai venti del destino, in viaggio alla scoperta della verità.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 134954,
+        "game_title": "Monster Hunter Stories 3: Twisted Reflection",
+        "release_date": "2026-03-13",
+        "platform": 5021,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Monster Hunter Stories 3: Twisted Reflection is the newest entry in the Monster Hunter Stories RPG series.\r\n\r\nTwo nations, Azuria and Vermeil, are on the brink of ruin as a crystal encroachment spreads across the land. A mysterious egg hatches two Skyscale Rathalos, legendary monsters tied to a prophecy of destruction from a war that took place 200 years ago.\r\n\r\nPlayers take on the role of the heir to Azuria, the kingdom’s sole Rathalos Rider and leader of the Rangers. Along with Princess Eleanor of Vermail and her Monstie Anjanath, they journey into forbidden lands to uncover the truth and stop the approaching catastrophe.\r\n\r\nFeatures:\r\nRaise Your Team: Build and raise a team of Monsties, forming kinships with iconic Monsters from the Monster Hunter series like Chatacabra and Rey Dau.\r\n\r\nBattle in Turn-Based Combat: Experience the strategic turn-based battles using the popular rock-paper-scissor system of Power, Speed, and Technical.\r\n\r\nStrategize with different moves and unleash long-range breath attacks or close-range strikes to gain the upper hand. Or build up to the new Synchro Rush where your entire team joins forces to deal massive damage.\r\n\r\nExplore an Enhanced World: Enjoy new stylized 3D graphics that bring the Monster Hunter Stories series to life.\r\n\r\nSeamlessly explore expansive environments with no screen transitions during Riding Actions like flying or climbing, giving you a sense of freedom and immersion as you journey through open areas.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 125975,
+        "game_title": "Monster Hunter Stories Collection",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Prepare to embark on an RPG adventure unlike anything the Monster Hunter series has ever known.\r\n\r\nIn Monster Hunter Stories. players embark on a journey into a colorful world where mighty monsters roam and people make a living by hunting them. Nestled within this land lies a hidden village where the locals follow a different set of customs. Here, Monster Riders form bonds with Monsties instead of hunting them. Unlike Hunters, Riders forge bonds and harness the power of kinships stones, allowing them to explore the vast and exhilarating realm together. Fight together in thrilling battles, hatch Monstie eggs, and customize your companion to suit your style.\r\n\r\nIn Monster Hunter Stories 2: Wings of Ruin, the story of the Riders continues when Rathalos begin to vanish across the world. Players assume the role of a new Monster Rider who is the grandchild of the illustrious Rider Red. Together with the mysterious Wyverian Ena and the self-proclaimed Felyne hero Navirou, players embark on a sprawling adventure that spans numerous destinations. As players hatch, train, and live alongside their Monsties, they will encounter numerous new allies, foes, and challenges on their path to unraveling the prophecy surrounding the Wings of Ruin.\r\n\r\n* Download required. Collection includes a game cartridge for \"Monster Hunter Stories\" and a download voucher for \"Monster Hunter Stories 2\".\r\n\r\nFeatures:\r\n- Refined Graphics: Originally released in 2016 on the Nintendo 3DS, players can now experience riding Monsties in stunning detail on larger screens, enhanced with improved modeling, textures, and lighting in high definition.\r\n- Now Fully Voiced: Immerse yourself in the adventure with full Japanese and English voiceovers.\r\n- Museum mode: Delve deeper into the world of Monster Hunter Stories through the newly added Museum mode, featuring the game’s background music and developer sketches.\r\n- Included Title Updates (TU): Previously only available in Japan, players can now enjoy title updates, unlocking content from TU 1.20 and TU 1.30.\r\n- Additional Language Support: Monster Hunter Stories will have additional language support, newly featuring Traditional and Simplified Chinese, Korean, Russian, Brazilian Portuguese, Polish, and Arabic.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436,
+          5269
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 127307,
+        "game_title": "Monster Hunter Stories Collection",
+        "release_date": "2024-06-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "39905": [
+          {
+            "id": 381481,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/39905-1.jpg",
+            "resolution": null
+          }
+        ],
+        "83257": [
+          {
+            "id": 397156,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83257-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89071": [
+          {
+            "id": 326678,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89071-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104854": [
+          {
+            "id": 359167,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104854-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104855": [
+          {
+            "id": 388254,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104855-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125616": [
+          {
+            "id": 436096,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125616-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125975": [
+          {
+            "id": 437015,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125975-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126854": [
+          {
+            "id": 440231,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126854-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 440232,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/126854-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127161": [
+          {
+            "id": 441257,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127161-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127307": [
+          {
+            "id": 441761,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127307-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127501": [
+          {
+            "id": 442464,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127501-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 442465,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127501-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127759": [
+          {
+            "id": 443323,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127759-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131242": [
+          {
+            "id": 460018,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131242-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134759": [
+          {
+            "id": 475093,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134759-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134954": [
+          {
+            "id": 476062,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134954-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        },
+        "4916": {
+          "id": 4916,
+          "name": "Android",
+          "alias": "android"
+        },
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        },
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        },
+        "5021": {
+          "id": 5021,
+          "name": "Nintendo Switch 2",
+          "alias": "nintendo-switch-2"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter+Stories&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 797,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630066
+}

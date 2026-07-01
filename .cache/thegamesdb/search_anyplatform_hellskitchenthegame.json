@@ -1,0 +1,219 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 113999,
+        "game_title": "Hell's Kitchen: The Game [GameStop Exclusive]",
+        "release_date": "2008-09-09",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Your chance to impress Chef Ramsay!\r\n\r\nExperience the thrill of Hell's Kitchen as you prove yourself to Chef Ramsay. Each day is a new challenge as you work your way towards a 5-star chef, unlocking real recipes as you progress. Master service, preparation and cooking while Gordon Ramsay watches over you- yelling and praising based on your performance. Be careful - if he gets too frustrated, he'll shut down the kitchen!",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5090
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 114000,
+        "game_title": "Hell's Kitchen: The Game [GameStop Exclusive]",
+        "release_date": "2008-09-09",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Your chance to impress Chef Ramsay!\r\n\r\nExperience the thrill of Hell's Kitchen as you prove yourself to Chef Ramsay. Each day is a new challenge as you work your way towards a 5-star chef, unlocking real recipes as you progress. Master service, preparation and cooking while Gordon Ramsay watches over you- yelling and praising based on your performance. Be careful - if he gets too frustrated, he'll shut down the kitchen!",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5090
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 113997,
+        "game_title": "Hell's Kitchen: The Game [U.S. Edition]",
+        "release_date": "2008-09-25",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Experience the thrill of Hell's Kitchen as you prove yourself to Chef Ramsay. Each day is a new challenge as you work your way towards a 5-star chef, unlocking real recipes as you progress. Master service, preparation and cooking while Gordon Ramsay watches over you- yelling and praising based on your performance. Be careful - if he gets too frustrated, he'll shut down the kitchen!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5090
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 114001,
+        "game_title": "Grey's Anatomy: The Video Game / Hell's Kitchen: The Game",
+        "release_date": "2009-01-01",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Grey's Anatomy: The Video Game:\r\n\r\nPlay as all your favorite characters and perform life-or-death operations in this all-new Grey's Anatomy story.\r\nImmerse yourself for the first time in this all-new Grey's Anatomy story written in collaboration with the TV show writers. Play as your favorite characters as you strive to save Seattle Grace Hospital from its worst crisis yet. Influence the outcome of the storyline and perform all the multi-step surgeries that the series is known for.\r\n\r\nHell's Kitchen: The Game:\r\n\r\nYour chance to impress Chef Ramsay!\r\nExperience the thrill of Hell's Kitchen as you prove yourself to Chef Ramsay. Each day is a new challenge as you work your way towards a 5-star chef, unlocking real recipes as you progress. Master service, preparation and cooking while Gordon Ramsay watches over you- yelling and praising based on your performance. Be careful - if he gets too frustrated, he'll shut down the kitchen!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5040,
+          5090
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 43707,
+        "game_title": "Hell's Kitchen",
+        "release_date": "2008-09-09",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Your chance to impress Chef Ramsay!\r\n\r\nExperience the thrill of Hell's Kitchen as you prove yourself to Chef Ramsay. Each day is a new challenge as you work your way towards a 5-star chef, unlocking real recipes as you progress. Master service, preparation and cooking while Gordon Ramsay watches over you- yelling and praising based on your performance. Be careful - if he gets too frustrated, he'll shut down the kitchen!",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          5088
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          7
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "43707": [
+          {
+            "id": 116417,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43707-1.jpg",
+            "resolution": "1000x1405"
+          }
+        ],
+        "113997": [
+          {
+            "id": 388058,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113997-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388059,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113997-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113999": [
+          {
+            "id": 388066,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113999-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388067,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113999-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114000": [
+          {
+            "id": 388070,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114000-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388071,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114000-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114001": [
+          {
+            "id": 388074,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114001-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388075,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114001-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hell%27s+Kitchen%3A+The+Game&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 589,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630032
+}

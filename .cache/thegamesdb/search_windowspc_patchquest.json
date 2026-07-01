@@ -1,0 +1,102 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 118425,
+        "game_title": "Patch Quest",
+        "release_date": "2023-04-02",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Deep within a forgotten jungle labyrinth, a Lasso is all that stands between you and vicious monsters!\r\n\r\nTaking inspiration from roguelikes, metroidvanias and monster taming games – Patch Quest is a deceptively difficult genre-defying whirlwind that will lasso you in with its fast-paced gameplay and keep you coming back to expand your monster collection. Do you have the skills to carve a path through this island’s shuffling, patchwork maze?\r\n\r\n\r\n\r\nPatchlantis, once an ancient civilisation has now been fully reclaimed by nature. Fierce monsters, rugged terrain and booby-trapped ruins are all a fact of life, here. Even the island's patchwork terrain will get shuffled each night by a powerful storm!\r\nWhen defeated on a run, you’re sent right back to base camp. And while there’s many shortcuts to unlock and countless powerups to earn, there’s still no escaping the facts – you’ll have to get good!\r\n\r\n\r\n\r\n\r\n\r\nThis island is crawling with dangerous monsters. They might look friendly, but behind those adorable googly eyes you’ll find the soul of a vicious predator! Fortunately, you came prepared with your monster-taming Lasso.\r\nYou can mount every monster in the game to claim their skills as your own. There’s more than 50 monster species and all of them have a unique set of skills!\r\nSome of them can fly, or swim, or leap across hazardous terrain. And all of them can pack a serious punch in combat!\r\n\r\n\r\n\r\n\r\n\r\nPatchlantis is a twisting labyrinth, filled with countless dangers that can be transformed into your strength. By collecting the monsters, plants and minerals – and by unlocking a criss-crossing network of shortcuts – you can venture ever deeper into the island’s underbelly. Perhaps you can even unravel the mystery of why Patchlantis fell…\r\n\r\nExplore a shuffling patchwork maze where every run feels fresh and challenging.\r\nLasso the monsters, collecting them all. Level them up and keep them as pets!\r\nEarn exploration gadgets that permanently expand your mechanics.\r\nCollect over 200 unique plants and minerals!\r\nGather ammo fruits and blend them into powerful ammo smoothies.\r\nUnlock gates and open shortcuts, to reach deeper and more dangerous zones.\r\n\r\n\r\n\r\nYou’ll need to make use of everything you find to survive out here!",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          1991
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          2278
+        ]
+      },
+      {
+        "id": 8427,
+        "game_title": "Payday: The Heist",
+        "release_date": "2011-10-20",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Players will embark on a spectacular crime spree of six heart stopping heists, including blasting their way through a downtown bank vault robbery, managing hostages in an armored car hijacking and even a midnight infiltration of a top-secret, high-security facility. Additionally, PAYDAY: The Heist challenges players with dynamic environments and adaptive enemy tactics - meaning no scenario will ever play out the same way twice. Teamwork is essential to ensure crew members provide cover under fire, guard key access points, break through various security measures and keep civilians in check. Survive wave after wave of the best that law enforcement can deploy as they shift strategies in response to player actions and gameplay style.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "8427": [
+          {
+            "id": 23683,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/8427-1.jpg",
+            "resolution": "400x567"
+          },
+          {
+            "id": 23684,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/8427-1.jpg",
+            "resolution": "429x500"
+          }
+        ],
+        "118425": [
+          {
+            "id": 404698,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118425-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Patch+Quest&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 830,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630071
+}

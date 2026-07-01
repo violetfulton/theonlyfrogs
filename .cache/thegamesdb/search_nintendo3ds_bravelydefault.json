@@ -1,0 +1,181 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 17319,
+        "game_title": "Bravely Default",
+        "release_date": "2014-02-07",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Square Enix’s highly-acclaimed fantasy RPG brings deep, strategic combat to the Nintendo 3DS system in an ambitious game that bolsters its turn-based combat with a compelling new risk/reward system RPG fans will obsess over. Explore Luxendarc as Tiz and other memorable characters on a visually stunning quest to restore balance to the world.\r\n\r\nHand-drawn 3D backgrounds and a rousing score bring Luxendarc to life. Enter a brave new world of turn-based combat! Time your turns tactically and turn the tides in your favor with the new Brave and Default system. Flex your strategic muscle by combining more than twenty jobs with hundreds of different abilities. Summon friend’s characters to fight by your side, or borrow their abilities*. Recruit citizens with the StreetPass feature to rebuild Tiz’s destroyed village. Be part of the community in this fresh take on the single player RPG!\r\n\r\nAlso Available\r\nBravely Default - Collectors Edition\r\nCollectors Edition includes a Deluxe ArtBook (softcover), 34 Augmented Reality Cards, Soundtrack CD with Jewel Case and collectors box.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 103626,
+        "game_title": "Bravely Default",
+        "release_date": "2013-12-06",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "After a Great Chasm suddenly tears the earth apart, the world of Luxendarc is plunged into darkness. The four elemental crystals which bring light to the world – fire and water, wind and earth – are consumed by an overwhelming force, disrupting the very balance of nature. Once-dormant volcanoes erupt once more; oceans grow murky and perilous.\r\n\r\nAgnès Oblige, the vestal of the Wind Crystal, is spared when the resident acolytes of her temple sacrifice their lives to shield her from the horror that besets the Wind Crystal. Guided by a cryst-fairy called Airy, Agnès sets out on a journey to awaken the crystals and bring light back to Luxendarc.\r\n\r\nAmid this catastrophe Norende Village is completely engulfed by the Great Chasm, leaving Tiz Arrior behind as its sole survivor. Determined to rebuild his home and right the wrongs that the darkness has brought to Luxendarc, Tiz joins Agnès on her quest. \r\n\r\nIn Bravely Default, quest through Luxendarc to awaken the crystals in a unique and innovative RPG experience, only on Nintendo 3DS family systems. Meet mysterious allies and terrible foes from all corners of the world, and best your enemies in instantly accessible turn-based battles. The new “Brave and Default” and “Bravely Second” systems set the stage for even more strategies, allowing you to disrupt the flow of traditional turn-based battles by attacking multiple times in a single turn – or even freezing time.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 84394,
+        "game_title": "Bravely Default [Collector's Edition]",
+        "release_date": "2014-02-07",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Square Enix’s highly-acclaimed fantasy RPG brings deep, strategic combat to the Nintendo 3DS system in an ambitious game that bolsters its turn-based combat with a compelling new risk/reward system RPG fans will obsess over. Explore Luxendarc as Tiz and other memorable characters on a visually stunning quest to restore balance to the world.\r\n\r\nHand-drawn 3D backgrounds and a rousing score bring Luxendarc to life. Enter a brave new world of turn-based combat! Time your turns tactically and turn the tides in your favor with the new Brave and Default system. Flex your strategic muscle by combining more than twenty jobs with hundreds of different abilities. Summon friend’s characters to fight by your side, or borrow their abilities*. Recruit citizens with the StreetPass feature to rebuild Tiz’s destroyed village. Be part of the community in this fresh take on the single player RPG!\r\n\r\n* Wireless broadband Internet access required for online play.\r\nKey Features:\r\n\r\n    A unique, innovative twist on turn-based combat\r\n    Complex, lovable characters in a top-tier RPG\r\n    Time your turns tactically with the new Brave and Default system\r\n    Summon your friend’s characters to fight by your side, or borrow their abilities*\r\n    Form flexible strategies by combining 20+ jobs with hundreds of abilities\r\n    Acquire StreetPass tags and use them to gain access to powerful equipment and items in-game\r\n    Evocative music and gorgeous hand-drawn watercolor backgrounds with 3D elements\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 75611,
+        "game_title": "Bravely Default [Deluxe Edition]",
+        "release_date": "2013-12-06",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Bravely Default: Where the Fairy Flies is now available exclusively on Nintendo 3DS.\r\n\r\nEmbark on a journey in the world of Luxendarc, the welfare of which relies on four elemental crystals.\r\n\r\nAccording to tradition, crystals are looked after by chosen priestesses, the vestals, who all bear the name Oblige. As of late, terrible events have befallen the land and the power of the crystals seems to be waning.\r\n\r\nFollow the quest of Agnès Oblige, the Vestal of Wind, and her companions, as they race to restore balance in Luxendarc by awakening the crystals.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17319": [
+          {
+            "id": 59809,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17319-1.jpg",
+            "resolution": "640x565"
+          },
+          {
+            "id": 59936,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17319-1.jpg",
+            "resolution": "640x571"
+          }
+        ],
+        "75611": [
+          {
+            "id": 245641,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75611-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 245642,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/75611-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84394": [
+          {
+            "id": 277255,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84394-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 277256,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/84394-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103626": [
+          {
+            "id": 376442,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103626-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bravely+Default&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 501,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630019
+}

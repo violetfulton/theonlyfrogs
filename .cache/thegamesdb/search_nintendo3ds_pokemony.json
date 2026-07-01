@@ -1,0 +1,414 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 12,
+    "games": [
+      {
+        "id": 127126,
+        "game_title": "Pokemon Y",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "X and Y are the first ever full 3D games in the main Pokémon series. New starting Pokémon were revealed in the announcement video for the game. The starters for X and Y are the Grass-type Pokémon, Chespin, the Fire-type Pokémon, Fennekin, and the Water-type Pokémon, Froakie.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 18079,
+        "game_title": "Pokémon Y",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "All-new Pokémon and past favorites come to life with detailed graphics and intense 3D battles. Become a Pokémon Trainer and set out for adventure in a visually stunning new region filled with new Pokémon to catch, trade, and battle. In Pokémon-Amie, you can pet, feed, and play with your Pokémon to form a deeper bond, which may benefit you in future battles. Plus, you can connect and communicate with players around the world at any time to challenge them to a battle, trade Pokémon, and much more.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 135250,
+        "game_title": "Pokemon Y",
+        "release_date": "2013-10-03",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 119141,
+        "game_title": "Pokémon Y",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "All-new Pokémon and past favorites come to life with detailed graphics and intense 3D battles. Become a Pokémon Trainer and set out for adventure in a visually stunning new region filled with new Pokémon to catch, trade, and battle. In Pokémon-Amie, you can pet, feed, and play with your Pokémon to form a deeper bond, which may benefit you in future battles. Plus, you can connect and communicate with players around the world at any time to challenge them to a battle, trade Pokémon, and much more.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 81440,
+        "game_title": "Pokemon Y [Scizor]",
+        "release_date": "2013-10-12",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 61337,
+        "game_title": "Pokémon Yellow Special Pikachu Edition",
+        "release_date": "2016-02-27",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "With enhanced color graphics and Pikachu by your side, Pokémon Yellow Version stays true to the original game released nearly 20 years ago. You'll feel like you're playing it just as it was, but you can trade and battle Pokémon using local wireless on the Nintendo 3DS family of systems! Revisit Pokémon Yellow Version or play it for the first time!\r\n\r\nExperience one of the original adventures that began the Pokémon phenomenon, but now on the Nintendo 3DS family of systems! Set out on your adventure together with your friend Pikachu, complete with monochromatic pixel art, 4-bit background music and, for the first time in the series, enhanced color elements. You'll take on the role of a Pokémon Trainer and travel across the land searching for Pokémon with Pikachu. Catch, battle, and trade as you work to become the best Pokémon Trainer! If you want to catch all of the Pokémon, you'll need to trade wirelessly with your friends who have Pokémon Red or Pokémon Blue Version.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4,
+          27
+        ],
+        "publishers": [
+          252,
+          1292
+        ]
+      },
+      {
+        "id": 68020,
+        "game_title": "Pokémon Moon: Fan Edition",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "• Includes • Game & Case • Steelbook Case • Cardboard Sleeve\r\nPokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 41159,
+        "game_title": "Pokémon Moon",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 113127,
+        "game_title": "Pocket Monster: Moon",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Pokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 122107,
+        "game_title": "Pokémon Lune",
+        "release_date": "2016-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "Pokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 101693,
+        "game_title": "Pokémon Moon",
+        "release_date": "2016-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Pokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 21221,
+        "game_title": "Pushmo",
+        "release_date": "2011-12-08",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A kindly old inventor created a park and filled it with incredible puzzle-like climbing toys called Pushmo. But a little trickster has trapped kids inside the Pushmo, and now it’s up to our hero, Mallo, to push, pull and climb his way through the puzzling playground to save his friends! The Pushmo game features more than 250 fun and challenging puzzles. As you solve them, you’ll discover new gadgets that will add to the challenge. Complete certain sets of Pushmo to open additional game features, such as Pushmo Studio, which lets you create, play and even share your very own Pushmo puzzle creations. With adorable characters, charming 3D graphics and endless replay value, Pushmo offers fun for puzzle fans of all ages.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4248
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18079": [
+          {
+            "id": 50662,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18079-1.jpg",
+            "resolution": "1500x1339"
+          }
+        ],
+        "21221": [
+          {
+            "id": 61968,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/21221-1.jpg",
+            "resolution": "350x257"
+          }
+        ],
+        "41159": [
+          {
+            "id": 123441,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41159-1.jpg",
+            "resolution": "1797x1602"
+          }
+        ],
+        "61337": [
+          {
+            "id": 277367,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/61337-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 479145,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61337-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68020": [
+          {
+            "id": 220442,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68020-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 220443,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/68020-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81440": [
+          {
+            "id": 264713,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/81440-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 327349,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81440-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101693": [
+          {
+            "id": 428628,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101693-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113127": [
+          {
+            "id": 428616,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113127-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119141": [
+          {
+            "id": 407585,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119141-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122107": [
+          {
+            "id": 428622,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122107-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127126": [
+          {
+            "id": 441090,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127126-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Y&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 473,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630015
+}

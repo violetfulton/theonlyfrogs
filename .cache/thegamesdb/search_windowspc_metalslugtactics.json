@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 97944,
+        "game_title": "Metal Slug Tactics",
+        "release_date": "2024-11-30",
+        "platform": 1,
+        "region_id": 7,
+        "country_id": 0,
+        "overview": "METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements! Super fun and lighthearted, Metal Slug Tactics takes what makes METAL SLUG so special and unique and brings it to the tactical genre!\r\nMetal Slug Tactics brings the explosive charm and nostalgic fun of the cult METAL SLUG series to the tactical scene! Get ready for an intense ride through the best of both worlds: classic arcade action and roguelite tactical thrills. Jump into the combat zone and revive your METAL SLUG nostalgia in a whole new way!\r\nMetal Slug Tactics offers a fresh perspective on the iconic battles of the METAL SLUG series. Lead your squad to victory through strategic guile and superior firepower in a perfect blend of classic action and tactical depth. Unleash powerful special attacks and shape the outcome of each encounter!\r\nAccumulate experience after each battle to unlock new weapons or bonus perks to upgrade your team's firepower and tactical skills.\r\nAssemble your team and rewrite the rules in this modern tribute to a cult classic!\r\nSYSTEM REQUIREMENTS\r\nMINIMUM:\r\nOS *: Windows 7\r\nProcessor: Intel Core i5-3470 or AMD FX-8370\r\nMemory: 4 GB RAM\r\nGraphics: NVIDIA GeForce GTX 650, 2 GB or AMD Radeon HD 7770, 2 GB\r\nDirectX: Version 9.0\r\nStorage: 4 GB available space\r\n\r\nRECOMMENDED:\r\nOS: Windows 10\r\nProcessor: Intel Core i5-8400 or AMD Ryzen 5 2600\r\nMemory: 8 GB RAM\r\nGraphics: NVIDIA GeForce GTX 660, 2 GB or AMD Radeon HD 7870, 2 GB\r\nDirectX: Version 9.0\r\nStorage: 4 GB available space",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6697
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          1989
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "97944": [
+          {
+            "id": 331804,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97944-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Metal+Slug+Tactics&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 678,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630046
+}

@@ -1,0 +1,399 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 12,
+    "games": [
+      {
+        "id": 104491,
+        "game_title": "Pikmin 4",
+        "release_date": "2023-07-21",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "A new adventure blossoms! Pikmin are back for yet another grand mission in Pikmin 4 for Nintendo Switch! These tiny, plant-like creatures inhabit a mysterious planet. Grow, pluck and command them, as you traverse this new world with their help.\r\n\r\nWhat are Pikmin? Pikmin come in a variety of shapes, sizes and colours! For instance, Red Pikmin don’t sweat fiery obstacles, Blue Pikmin are great swimmers, and the newly discovered Ice Pikmin keep things cool by freezing enemies and the environment around them.\r\n\r\nIndividual Pikmin may be small and vulnerable, but together they can tackle even the biggest of challenges! Use their miniature might and some strategy to overcome everything in your way on this strange, new planet.\r\n\r\nAn adorable canine companion Oatchi, the Space Dog, will also join you on your adventure. This dependable companion can smash obstacles, transport heavy objects and carry Pikmin on his back through your travels. Together, no challenge is too big for these adventurers!",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6048
+        ],
+        "genres": [
+          2,
+          5,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 117194,
+        "game_title": "Pikmin 4",
+        "release_date": "2023-07-21",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "A new adventure blossoms! Pikmin are back for yet another grand mission in Pikmin 4 for Nintendo Switch! These tiny, plant-like creatures inhabit a mysterious planet. Grow, pluck and command them, as you traverse this new world with their help.\r\n\r\nWhat are Pikmin? Pikmin come in a variety of shapes, sizes and colours! For instance, Red Pikmin don’t sweat fiery obstacles, Blue Pikmin are great swimmers, and the newly discovered Ice Pikmin keep things cool by freezing enemies and the environment around them.\r\n\r\nIndividual Pikmin may be small and vulnerable, but together they can tackle even the biggest of challenges! Use their miniature might and some strategy to overcome everything in your way on this strange, new planet.\r\n\r\nAn adorable canine companion Oatchi, the Space Dog, will also join you on your adventure. This dependable companion can smash obstacles, transport heavy objects and carry Pikmin on his back through your travels. Together, no challenge is too big for these adventurers!",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 117211,
+        "game_title": "Pikmin 4",
+        "release_date": "2023-07-21",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "A new adventure blossoms! Pikmin are back for yet another grand mission in Pikmin 4 for Nintendo Switch! These tiny, plant-like creatures inhabit a mysterious planet. Grow, pluck and command them, as you traverse this new world with their help.\r\n\r\nWhat are Pikmin? Pikmin come in a variety of shapes, sizes and colours! For instance, Red Pikmin don’t sweat fiery obstacles, Blue Pikmin are great swimmers, and the newly discovered Ice Pikmin keep things cool by freezing enemies and the environment around them.\r\n\r\nIndividual Pikmin may be small and vulnerable, but together they can tackle even the biggest of challenges! Use their miniature might and some strategy to overcome everything in your way on this strange, new planet.\r\n\r\nAn adorable canine companion Oatchi, the Space Dog, will also join you on your adventure. This dependable companion can smash obstacles, transport heavy objects and carry Pikmin on his back through your travels. Together, no challenge is too big for these adventurers!\r\n\r\nAustralian Classification: PG",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118433,
+        "game_title": "Pikmin 4",
+        "release_date": "2023-07-21",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Die Pikmin sind zurück und ziehen in ein großes Abenteuer in Pikmin 4 für Nintendo Switch! Diese winzigen pflanzenähnlichen Kreaturen bewohnen einen geheimnisvollen Planeten. Lass sie wachsen, zupfe sie aus dem Boden und gib ihnen Befehle, während du mit ihrer Hilfe den Planeten erkundest. Einzeln sind Pikmin klein und verletzlich, aber gemeinsam können sie selbst die größten Herausforderungen bewältigen. Mit ihren Kräften und etwas Strategiegeschick kannst du alle Hindernisse auf diesem eigenartigen neuen Planeten überwinden.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2690,
+          10297
+        ],
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 123317,
+        "game_title": "Pikmin 4",
+        "release_date": "2023-07-21",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "A new adventure blossoms! Pikmin are back for yet another grand mission in Pikmin 4 for Nintendo Switch! These tiny, plant-like creatures inhabit a mysterious planet. Grow, pluck and command them, as you traverse this new world with their help.\r\n\r\nWhat are Pikmin? Pikmin come in a variety of shapes, sizes and colours! For instance, Red Pikmin don’t sweat fiery obstacles, Blue Pikmin are great swimmers, and the newly discovered Ice Pikmin keep things cool by freezing enemies and the environment around them.\r\n\r\nIndividual Pikmin may be small and vulnerable, but together they can tackle even the biggest of challenges! Use their miniature might and some strategy to overcome everything in your way on this strange, new planet.\r\n\r\nAn adorable canine companion Oatchi, the Space Dog, will also join you on your adventure. This dependable companion can smash obstacles, transport heavy objects and carry Pikmin on his back through your travels. Together, no challenge is too big for these adventurers",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          129,
+          2690,
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122828,
+        "game_title": "Super Mario Bros. Wonder + Pikmin 4 [Double Pack]",
+        "release_date": "2023-12-08",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Super Mario Bros. Wonder\r\nThe next evolution of 2D side-scrolling Super Mario Bros. games is headed to Nintendo Switch! When you touch a Wonder Flower in the game, the wonders of the world unlock – pipes could come alive, hordes of enemies may appear, and characters might change their looks, for example – transforming the gameplay in unpredictable ways. Excitement and different surprises await in each course. Super Mario Bros. Wonder features Princess Peach, Princess Daisy, and Yoshi as playable characters, in addition to familiar characters like Mario, Luigi, and Toad. Plus, Super Mario Bros. Wonder sees the debut of Mario’s newest power-up, which allows him to transform into Elephant Mario! What other wonders could this game contain? More details will be shared at a later time, so please look forward to it!\r\n\r\nPikmin 4\r\nGuide pintsized creatures on a grand mission on a strange planet!\r\n\r\nMeet Pikmin, small, plantlike creatures with which you can grow, pluck, command, and overpower your enemies! These curious helpers come in different types—fire is no sweat for Red Pikmin and the brand-new Ice Pikmin can freeze enemies and the environment. Use your Pikmin’s miniature might (and a bit of strategy) to explore this mysterious planet.\r\n\r\nYou get a dog, too! Oatchi (pronounced oat-chee), resident good boy and dependable partner, can help with things like smashing obstacles and carrying Pikmin throughout your adventure. With the minuscule Pikmin and a capable canine, no challenge is too big!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6041
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 84564,
+        "game_title": "PAC-MAN 99",
+        "release_date": "2021-04-07",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "It's an all-new flavor of PAC-MAN! Test your chomping chops in a 99-player Pac-Royale!\r\n\r\n40 years after the classic Pac-phenomenon rocked the gaming world, PAC-MAN is back in a new 99-man battle royale. Get back in the maze and chase down the iconic ghosts. Who will be the last PAC-MAN standing?\r\n\r\nSwitch between eight different strategies and send Jammer Pac-Man to get in your opponents' way!\r\n\r\nEat a Power Pellets to turn the ghosts blue and make them vulnerable. Eat them to send Jammer Pac-Man to your opponents! The more ghosts you eat, the more Jammers you'll send!\r\n\r\nEat a Ghost Train for a huge comeback!\r\n\r\nGain the upper hand by switching between eight different preset strategies: speed up, send extra Jammers, and more. Switching at just the right moment could give you an edge over your rivals!\r\n\r\nYou can purchase downloadable custom themes based on Xevious, GALAGA, Dig Dug, and more to change the look of the game. There are twenty different classic themes in all! Plus, they do more than change the graphics! Check out the sounds too!",
+        "players": 99,
+        "rating": "E - Everyone",
+        "developers": [
+          622
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 128304,
+        "game_title": "Pikmin",
+        "release_date": "2023-06-21",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Find your way home in the original Pikmin-plucking adventure\r\nMeet Captain Olimar and a capable cast of red, blue, and yellow Pikmin on a dire mission across a larger-than-life planet. Olimar must guide his loveably-leafy companions through obstacles, in battle, and when collecting his missing ship parts.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115955,
+        "game_title": "Pikmin 1 + 2",
+        "release_date": "2023-09-22",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Revisit the first two Pikmin games on the Nintendo Switch™ system!\r\n\r\nReintroduce yourself to the plantlike Pikmin and strategic gameplay that this charming series is rooted in. From finding a way home to collecting treasure, Olimar (plus Louie in the Pikmin 2 game) must partner with a parade of Pikmin to survive the harshest of conditions. Both games support optional motion controls for more options when guiding your floral friends.\r\n\r\nFind your way home in the original Pikmin-plucking adventure\r\n\r\nMeet Captain Olimar and a capable cast of red, blue, and yellow Pikmin on a dire mission across a larger-than-life planet. Olimar must guide his loveably-leafy companions through obstacles, in battle, and when collecting his missing ship parts. Your oxygen will only last 30 days, but the Pikmin provide a glimmer of hope that you may make it home.\r\n\r\nMeet even more Pikmin (and Louie) on a treasure-hunting expedition\r\n\r\nSwap between Olimar and Louie to divide and conquer in Pikmin 2. Tasked with helping pay off their employer’s debt, the pint-sized pair teams up with Pikmin (including purple and white Pikmin) to collect treasure on...you guessed it...a strange planet. Time ticks away on the surface, but cave systems let you take your time to let your strategy blossom.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115963,
+        "game_title": "Pikmin 1 + 2",
+        "release_date": "2023-09-22",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Revisit the first two Pikmin games on the Nintendo Switch™ system!\r\n\r\nReintroduce yourself to the plantlike Pikmin and strategic gameplay that this charming series is rooted in. From finding a way home to collecting treasure, Olimar (plus Louie in the Pikmin 2 game) must partner with a parade of Pikmin to survive the harshest of conditions. Both games support optional motion controls for more options when guiding your floral friends.\r\n\r\nFind your way home in the original Pikmin-plucking adventure\r\n\r\nMeet Captain Olimar and a capable cast of red, blue, and yellow Pikmin on a dire mission across a larger-than-life planet. Olimar must guide his loveably-leafy companions through obstacles, in battle, and when collecting his missing ship parts. Your oxygen will only last 30 days, but the Pikmin provide a glimmer of hope that you may make it home.\r\n\r\nMeet even more Pikmin (and Louie) on a treasure-hunting expedition\r\n\r\nSwap between Olimar and Louie to divide and conquer in Pikmin 2. Tasked with helping pay off their employer’s debt, the pint-sized pair teams up with Pikmin (including purple and white Pikmin) to collect treasure on...you guessed it...a strange planet. Time ticks away on the surface, but cave systems let you take your time to let your strategy blossom.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          2,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 117090,
+        "game_title": "Pikmin 2",
+        "release_date": "2023-06-21",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73453,
+        "game_title": "Pokémon Home ",
+        "release_date": "2020-02-11",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Pokémon™ HOME is a cloud service for the Nintendo Switch™ system and compatible mobile devices designed as a place where all Pokémon can gather. By linking the same Nintendo Account to both the Nintendo Switch version and mobile version of Pokémon HOME, you’ll be able to access the same Pokémon Boxes on both versions. With Pokémon HOME you can move Pokémon between compatible games, trade Pokémon on the go, and more! You can also purchase a subscription to the Pokémon HOME Premium Plan for more features.\r\n\r\nWith Pokémon HOME, you can manage your collection of Pokémon across multiple games. Gathering your Pokémon is just the beginning—you can trade with friends or with anyone around the world directly using the Pokémon HOME mobile app. A subscription to the Premium Plan gives the ability to transfer Pokémon from Pokémon Bank expands the number of Pokémon that can be deposited from 30 to 6,000, expands the number of Pokémon that can be placed in the Wonder Box and GTS at one time (mobile version only), allows you to host your own Room Trades (mobile version only), and gives you the Judge function right within Pokémon HOME.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          12,
+          26,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "73453": [
+          {
+            "id": 394474,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73453-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84564": [
+          {
+            "id": 278416,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84564-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104491": [
+          {
+            "id": 377844,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104491-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115955": [
+          {
+            "id": 394766,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115955-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115963": [
+          {
+            "id": 452450,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115963-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117090": [
+          {
+            "id": 445842,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117090-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117194": [
+          {
+            "id": 421456,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117194-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117211": [
+          {
+            "id": 400118,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117211-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118433": [
+          {
+            "id": 404765,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118433-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122828": [
+          {
+            "id": 425845,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122828-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123317": [
+          {
+            "id": 427563,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123317-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128304": [
+          {
+            "id": 445840,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128304-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pikmin+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 224,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629977
+}

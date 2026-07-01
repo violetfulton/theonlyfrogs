@@ -1,0 +1,168 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 113957,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 7,
+        "overview": "Além de todos os gráficos terem sido remasterizados em HD, os diálogos agora são totalmente dublados e há novos arranjos de trilha sonora que resultam em uma nova e dinâmica forma de contar a história de um amado clássico. CRISIS CORE FINAL FANTASY VII REUNION acompanha a história de Zack Fair, um jovem combatente alvo da admiração do garoto destinado a salvar o mundo, da confiança de pessoas conhecidas como heróis lendários e do amor de uma garota que tem o destino do planeta em suas mãos. O conto dos sonhos e da honra de Zack – o legado que o conecta a Cloud – é revelado por completo nesta saga grandiosa que rompe os limites da remasterização em HD.- Todos os gráficos totalmente remasterizados em HD, trazendo o jogo para a geração atual de consoles - Modelos 3D revitalizados, incluindo personagens e cenários, enriquecendo a experiência visual - Sistema de batalha aprimorado, conferindo uma experiência de jogo bem mais fluida - Diálogos totalmente dublados em inglês e japonês - Uma trilha sonora com novo arranjo do compositor original, Takeharu Ishimoto Na metrópole de Midgar, abastecida pelo mako, fica o quartel-general da unidade militar de elite da Shinra, a SOLDIER. Juntamente com seu mentor, Angeal, 1ª Classe da SOLDIER, e o herói da SOLDIER, Sephiroth, Zack começa a investigar o recente desaparecimento em massa de agentes da SOLDIER. \r\n\r\nCRISIS CORE –FINAL FANTASY VII– REUNION é a versão remasterizada em HD da história de enorme sucesso anterior a FINAL FANTASY VII.\r\n\r\nUID: 2109152",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102132,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "CRISIS CORE –FINAL FANTASY VII– REUNION is the HD remaster version of the smash hit prequel to FINAL FANTASY VII.\r\n\r\nIn addition to all graphics being remastered in HD, fully voiced dialogue and new soundtrack arrangements make for a dynamic new retelling of a beloved classic.\r\n\r\nCRISIS CORE –FINAL FANTASY VII– REUNION follows the story of Zack Fair, a young warrior admired by the boy destined to save the world, trusted by men renowned as heroes of legend, and loved by the girl who holds the fate of the planet in her hands. The tale of Zack's dreams and honor—the legacy that connects him to Cloud—is revealed in full in this grand saga that has broken the limits of an HD remaster.\r\n\r\nIn the mako-powered metropolis of Midgar stands the headquarters of Shinra, a powerful company with a formidable private army. Zack Fair is a promising young operative in the Shinra military's elite unit, SOLDIER. Together with his mentor, SOLDIER 1st Class Angeal, and the SOLDIER hero Sephiroth, Zack begins an investigation into the recent mass disappearance of SOLDIER operatives.\r\n\r\nSelect retailers offered the \"SOLDIER Materia Set\" DLC as a pre-order incentive (while supplies last). Makes three materia: Dark Fire, Dark Thunder, and Dark Blizzard available early in the game. These materia allow the use of attack spells that inflict \"Poison\" and \"Silence\" status ailments in addition to their respective elemental damage.\r\n\r\nFeatures:\r\n- All graphics fully remastered in HD, bringing the game to the latest console generation.\r\n- Renewed 3D models, including characters and backgrounds, enriching the visual experience.\r\n- Improved battle system providing a vastly smoother gameplay experience.\r\n- Fully voiced dialogue in both English and Japanese.\r\n- A newly arranged soundtrack from the original composer, Takeharu Ishimoto.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 108426,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "CRISIS CORE –FINAL FANTASY VII– REUNION is the HD remaster version of the smash hit prequel to FINAL FANTASY VII.\r\nIn addition to all graphics being remastered in HD, fully voiced dialogue and new soundtrack arrangements make for a dynamic new retelling of a beloved classic.\r\nCRISIS CORE –FINAL FANTASY VII– REUNION follows the story of Zack Fair, a young warrior admired by the boy destined to save the world, trusted by men renowned as heroes of legend, and loved by the girl who holds the fate of the planet in her hands. The tale of Zack's dreams and honor—the legacy that connects him to Cloud—is revealed in full in this grand saga that has broken the limits of an HD remaster.\r\nIn the mako-powered metropolis of Midgar stands the headquarters of Shinra, a powerful company with a formidable private army. Zack Fair is a promising young operative in the Shinra military's elite unit, SOLDIER. Together with his mentor, SOLDIER 1st Class Angeal, and the SOLDIER hero Sephiroth, Zack begins an investigation into the recent mass disappearance of SOLDIER operatives.\r\nSelect retailers offered the \"SOLDIER Materia Set\" DLC as a pre-order incentive (while supplies last). Makes three materia: Dark Fire, Dark Thunder, and Dark Blizzard available early in the game. These materia allow the use of attack spells that inflict \"Poison\" and \"Silence\" status ailments in addition to their respective elemental damage.\r\nFeatures:\r\n- All graphics fully remastered in HD, bringing the game to the latest console generation.\r\n- Renewed 3D models, including characters and backgrounds, enriching the visual experience.\r\n- Improved battle system providing a vastly smoother gameplay experience.\r\n- Fully voiced dialogue in both English and Japanese.\r\n- A newly arranged soundtrack from the original composer, Takeharu Ishimoto.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 108526,
+        "game_title": "Crisis Core: Final Fantasy VII Reunion",
+        "release_date": "2022-12-13",
+        "platform": 4980,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808,
+          10042
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "102132": [
+          {
+            "id": 357881,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102132-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108426": [
+          {
+            "id": 373588,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108426-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108526": [
+          {
+            "id": 374004,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108526-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113957": [
+          {
+            "id": 387924,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113957-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 387925,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113957-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Crisis+Core%3A+Final+Fantasy+VII+-+Reunion&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 146,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629964
+}

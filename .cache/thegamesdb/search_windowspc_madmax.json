@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 31182,
+        "game_title": "Mad Max",
+        "release_date": "2015-09-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Become Mad Max, the lone warrior in a savage post-apocalyptic world where cars are the key to survival. In this action-packed, open world, third person action game, you must fight to stay alive in The Wasteland, using brutal on-ground and vehicular against vicious gangs of bandits. A reluctant hero with an instinct for survival, Max wants nothing more than to leave the madness behind and find solace in the storied “Plains of Silence.” Players are challenged with treacherous missions as they scavenge the dangerous landscape for supplies to build the ultimate combat vehicle.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          824
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 81335,
+        "game_title": "Middens",
+        "release_date": "2012-09-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Using collage and pixel art in tandem as its center aesthetic Middens takes the perspective of an ambiguous drifter traversing a veritable x-zone. Roving its interminable wastes the nomad chances upon a sentient revolver beside an ominous pile of remains. The pistol offers its exploit in exchange for a pledge of inextricable companionship. Espousing to be the player’s conscience the dubious weapon directs the drifter to a nearby outpost wherein the story further unfolds.  \r\n\r\nDespite its appearance as a wasteland the rift is home to many strange denizens—some dangerous and others harmless. Whatever their disposition the pistol represents the choice to engage them or to spare them. Offense and passivity both have their appropriate times with rewards and consequences being granted to both paths respectively.\r\n\r\nFeatures:\r\n-Over two hundred hand crafted creature portraits. \r\n-Over one hundred collectible nemotodes. \r\n-Dialogue excised from occult tomes and the last words of executed convicts. \r\n-An original soundtrack of seventy songs. \r\n-Multiple Endings. \r\n-Manipulable environments\r\n-An entirely open-ended world.\r\n-Custom graphics and battle system. \r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 60466,
+        "game_title": "Mind Twins",
+        "release_date": "2018-01-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The dark co-op puzzle-platformer with twists. Solve countless puzzles, dodge deadly traps and change the gravity alone or together with a friend. Embody your MIND by creating your own MIND TWINS levels and make others suffer...",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          10359
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          8321
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "31182": [
+          {
+            "id": 82034,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/31182-1.jpg",
+            "resolution": "819x1024"
+          }
+        ],
+        "60466": [
+          {
+            "id": 201079,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60466-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81335": [
+          {
+            "id": 264165,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81335-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Mad+Max&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 883,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630080
+}

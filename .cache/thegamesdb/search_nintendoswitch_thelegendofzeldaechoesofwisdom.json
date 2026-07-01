@@ -1,0 +1,239 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 127336,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127345,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129523,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 129532,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "After Princess Zelda was captured by Ganon, the swordsman Link stormed in to rescue her. After a fierce battle, Link appeared to defeat the villain, but was suddenly dragged down into a mysterious rift in the ground and disappeared.\r\n\r\nThese strange rifts began to appear all over Hyrule, swallowing up others, including the King and his advisors.\r\n\r\nLeft alone, it’s now up to Princess Zelda to save her kingdom in a brand-new adventure in the Legend of Zelda series!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129929,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130011,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 15,
+        "overview": "Los habitantes de Hyrule se están desvaneciendo poco a poco a causa de extrañas brechas que han surgido de repente y, entre los desaparecidos, se encuentra cierto conocido espadachín. Ahora está en manos de la princesa Zelda salvar su reino.\r\n\r\nAúna fuerzas con la misteriosa hada Tri, y usa el poder del cetro de Tri para crear réplicas, es decir, duplicados de cosas que encuentres en el entorno. Luego podrás recrear dichas réplicas cuando lo necesites para resolver acertijos y derrotar a los enemigos.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129473,
+        "game_title": "Zelda no Densetsu: Chie no karimono",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The Legend of Zelda: Echoes of Wisdom[a] is an upcoming action-adventure game developed by Nintendo and Grezzo and published by Nintendo for the Nintendo Switch. It is the first main Legend of Zelda game with Princess Zelda as the playable character. Players control Zelda on a quest to save Link and the kingdom of Hyrule using the Tri Rod, a magical artifact provided by the fairy Tri, who assists in a quest. The visual style is similar to that of the 2019 remake of The Legend of Zelda: Link's Awakening, which Grezzo also developed.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          6043
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "127336": [
+          {
+            "id": 441878,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127336-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127345": [
+          {
+            "id": 441879,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127345-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129473": [
+          {
+            "id": 450934,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129473-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129532": [
+          {
+            "id": 451198,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129532-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129929": [
+          {
+            "id": 453028,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129929-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130011": [
+          {
+            "id": 453498,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130011-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Echoes+of+Wisdom&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 272,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629985
+}

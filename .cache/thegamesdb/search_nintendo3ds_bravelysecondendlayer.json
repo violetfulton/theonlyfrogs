@@ -1,0 +1,167 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 35273,
+        "game_title": "Bravely Second: End Layer",
+        "release_date": "2016-04-15",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Steel yourself for the next evolution of the series that reinvented turn-based RPGs-the successor to Square Enix’s Bravely Default game. In this standalone adventure, Agnés Oblige has been imprisoned, and as a knight in her service, it’s up to the hero, Yew, to save her! Form the ultimate team and strategy, then risk it all in this fast, fresh RPG.\r\n\r\nAlso Available\r\nBravely Second: End Layer - Collector's Edition\r\nCollectors Edition includes a 10-song original soundtrack, 250-page deluxe art book and collectors box.\r\n\r\nBravely Second: End Layer - Deluxe Collector's Edition\r\nDeluxe Collector’s Edition includes the game, an Original Soundtrack CD, Angés Mini Figurine and a Deluxe Artbook of around 250 pages.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 103628,
+        "game_title": "Bravely Second: End Layer",
+        "release_date": "2016-02-26",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "It's your job to save the land of Luxendarc in Bravely Second™: End Layer, only on Nintendo 3DS family systems. In this deep RPG, continue the adventure that began in Bravely Default and explore an enormous fantasy world, filled with exciting new locations, and face enemies in action-packed turn-based battles.\r\n\r\nUse a pair of unique battle systems to disrupt the flow of combat and defeat foes. With the Brave and Default system, characters can go all-out and make multiple moves in a single turn, or hold back to bolster their defences and prepare for future moves. It’s also possible to freeze foes in their tracks entirely with Bravely Second, a time-stopping system that can give you the chance to launch devastating special attacks or heal up in the heat of battle.\r\n\r\nPut your skill and your nerve to the ultimate test with 'Bring it on!' After winning a battle in a single turn, brave warriors can immediately start another, more difficult encounter for the chance to earn increasing rewards. Chaining these battles together is a swift way to level up characters and jobs, but defeat means losing everything earned during those battles, so discretion should always be the better part of valour.\r\n\r\nTo conquer these tougher battles and devastatingly powerful enemies, you will need to make good use of the 30 character classes, known as jobs, to equip your characters with the skills necessary to survive. As characters gain job experience by battling, they learn new skills and abilities, giving players totally new tactical possibilities. For example, the new Patissier enfeebles foes with delicious desserts, while the Catmancer uses a deep understanding of felines to increase the team’s abilities and find useful items. Experiment with jobs and abilities to find the perfect battle style for you, and outfit your team with complementary positions to build a well-rounded party that’s ready for any opponent!\r\n\r\nYou don’t have to stick to one strategy, though. Now you can save different sets of your party’s jobs, commands, abilities and equipment, allowing you to switch between your favourite combinations with ease. Once you’ve set up your favourites, you can even instruct your party to battle on automatically until you intervene. With this new streamlined approach, building up your team is easier than ever!\r\n\r\nYou can also connect with other players in several ways using Nintendo 3DS family systems’ unique communication features. Exchange profiles with other players via StreetPass, Local Play and the internet* to rebuild your moon base, team up to defeat fearsome monsters and borrow abilities from other players to give you an edge!\r\n\r\nWith a vast world to explore, a deep tactical battle system to master and much more, embark on a unique RPG adventure with Bravely Second: End Layer, only on Nintendo 3DS family systems.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 84395,
+        "game_title": "Bravely Second: End Layer [Collector's Edition]",
+        "release_date": "2016-04-15",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Bravely Second™: End Layer Collector's Edition will be available at launch. In addition to the Bravely Second: End Layer game, you'll be able to steal a glance at the concept art from games throughout the Bravely Default series in the Deluxe Art Book spanning roughly 250 pages, or relive some of your favorite tracks from the game by listening to the 10-song Original Soundtrack CD.\r\n\r\nSteel yourself for the next evolution of the series that reinvented turn-based RPGs—the successor to Square Enix's Bravely Default™ game. In this standalone adventure, Agnés Oblige has been imprisoned, and as a knight in her service, it's up to the hero, Yew, to save her! Form the ultimate team and strategy, then risk it all in this fast, fresh RPG.\r\n\r\nThe innovative Brave and Default battle system is back and deeper than ever. Balance risk and reward in turn-based battles: characters can make multiple moves in one turn, but then they may be unable to move for a while. Win a battle in a single turn and you can instantly start a more difficult encounter to earn better rewards. Level up characters and jobs quickly, but be careful—defeat means losing anything earned along the way. Select from 30 jobs and over 300 skills and abilities to customize each party member in the most strategic manner. The more you learn, the more tactics you'll wield.\r\n\r\nNow go forth! Defy the mysterious kaiser and face down his army before it’s too late.\r\n\r\n    An innovative twist on turn-based combat\r\n    Lovable, multifaceted characters in a top-tier RPG\r\n    Get started with the Bravely Second™: End Layer demo, The Ballad of the Three Cavaliers. Bravely Second™ : End Layer A pre-launch prelude to the main adventure focusing on the Three Cavaliers – Yew Geneolgia, Janne Angard, and Nikolai Nikolanikov\r\n    Allows players to unlock rewards in the full version of the game\r\n    Time your turns tactically with the Brave and Default system\r\n    Form flexible strategies, combining even more new jobs and abilities\r\n    Dare to risk everything in fast-paced, turn-based battles\r\n    Team up with heroes and returning characters to rescue Agnès Oblige from Kaiser Oblivion's Skyhold\r\n    Balance risk and reward in deeply strategic battles\r\n    Switch between 30 unique jobs for numerous tactical possibilities\r\n    Freely mix and match 30 unique jobs, and then save your favorite combinations for instant use\r\n\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      },
+      {
+        "id": 75650,
+        "game_title": "Bravely Second: End Layer [Deluxe Collector's Edition]",
+        "release_date": "2016-02-25",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Prepare yourself for a daring new adventure and unleash masterful battle strategies in the successor to Bravely Default: Bravely Second End Layer on Nintendo 3DS family systems.\r\n\r\nBravely Second: End Layer - Deluxe Collector’s Edition includes the Bravely Second: End Layer game, a Deluxe Artbook (250+ pages), an Agnès Mini Figurine, and the Original Soundtrack CD.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          7737
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35273": [
+          {
+            "id": 123407,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35273-1.jpg",
+            "resolution": "640x567"
+          }
+        ],
+        "75650": [
+          {
+            "id": 245643,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75650-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 245644,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/75650-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84395": [
+          {
+            "id": 277258,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84395-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103628": [
+          {
+            "id": 354314,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103628-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bravely+Second%3A+End+Layer&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 499,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630018
+}

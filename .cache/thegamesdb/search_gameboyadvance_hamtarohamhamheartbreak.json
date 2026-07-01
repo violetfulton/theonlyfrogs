@@ -1,0 +1,77 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 14272,
+        "game_title": "Hamtaro: Ham-Ham Heartbreak",
+        "release_date": "2003-04-08",
+        "platform": 5,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "All the hamsters are bickering, and there's little wonder why! Spat, a meddling troublemaker, is telling fibs and causing heartache everywhere. It's up to Hamtaro and best-girl Bijou to follow Spat, stop the squabbling, and get everyone back on talking terms again.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6487
+        ],
+        "genres": [
+          1,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14272": [
+          {
+            "id": 57589,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14272-1.jpg",
+            "resolution": "640x641"
+          },
+          {
+            "id": 57590,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/14272-1.jpg",
+            "resolution": "640x639"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hamtaro%3A+Ham-Ham+Heartbreak&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 521,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630022
+}

@@ -1,0 +1,130 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 104569,
+        "game_title": "Return to Monkey Island",
+        "release_date": "2022-09-19",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Return to Monkey Island segna l'emozionante e inatteso ritorno del creatore della serie Ron Gilbert, che prosegue la storia della leggendaria serie di avventure grafiche.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8682
+        ],
+        "genres": [
+          2,
+          27
+        ],
+        "publishers": [
+          1429
+        ]
+      },
+      {
+        "id": 128286,
+        "game_title": "Return to Monkey Island [Anthology Upgrade Kit]",
+        "release_date": "2022-09-19",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Return to Monkey Island is a point-and-click adventure game developed by Terrible Toybox and published by Devolver Digital. The sixth Monkey Island game, it was released for macOS, Nintendo Switch, and Windows on September 19, 2022,[1][2][3][4][5] for Linux on October 26, 2022,[6] for PlayStation 5 and Xbox Series X/S on November 8, 2022,[7] and for iOS and Android on July 27, 2023. It was the first Monkey Island game by the series' creator, Ron Gilbert, since Monkey Island 2: LeChuck's Revenge (1991).",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8682
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3733
+        ]
+      },
+      {
+        "id": 123582,
+        "game_title": "Return to Monkey Island [Collector's Edition]",
+        "release_date": "2022-09-19",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Return to Monkey Island is a point-and-click adventure game developed by Terrible Toybox and published by Devolver Digital. The sixth Monkey Island game, it was released for macOS, Nintendo Switch, and Windows on September 19, 2022,[1][2][3][4][5] for Linux on October 26, 2022,[6] for PlayStation 5 and Xbox Series X/S on November 8, 2022,[7] and for iOS and Android on July 27, 2023. It was the first Monkey Island game by the series' creator, Ron Gilbert, since Monkey Island 2: LeChuck's Revenge (1991).",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2281
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3733,
+          4726,
+          8192
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "104569": [
+          {
+            "id": 358009,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104569-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123582": [
+          {
+            "id": 428909,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123582-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128286": [
+          {
+            "id": 445690,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128286-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Return+to+Monkey+Island&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 676,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630046
+}

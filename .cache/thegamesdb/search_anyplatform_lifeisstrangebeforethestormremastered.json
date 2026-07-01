@@ -1,0 +1,57 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 131824,
+        "game_title": "Life is Strange: Before the Storm Remastered",
+        "release_date": "2022-09-27",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Life is Strange: Before the Storm returns with remastered visuals across characters & environments.\r\nSet three years before ‘Life is Strange’, you play as sixteen-year old Chloe Price who forms an unlikely friendship with Rachel Amber, a beautiful and popular girl destined for success.\r\nWhen Rachel learns a secret about her family that threatens to destroy her world, it is her newfound friendship with Chloe that gives her the strength to carry on.\r\nNo longer alone the girls must confront each other's demons and together, find a way to overcome them.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": []
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Life+is+Strange%3A+Before+the+Storm+Remastered&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 834,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630072
+}

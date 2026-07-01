@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 78355,
+        "game_title": "Borderlands: The Pre-Sequel Ultimate Edition",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Launch into the Borderlands universe and shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel! Discover the story behind Borderlands 2 villain Handsome Jack's rise to power with a new cast of playable characters, including Claptrap and some of the series' most iconic bad guys! The Pre-Sequel gives you a whole lotta new gameplay featuring the genre blending fusion of shooter and RPG mechanics that players have come to love. Float through the air with each low gravity jump while taking enemies down from above using new ice and laser weapons. Catch-a-ride and explore the lunar landscape with new vehicles allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure!",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          984,
+          3423
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          123
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "78355": [
+          {
+            "id": 252876,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78355-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands%3A+The+Pre-Sequel&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 200,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629973
+}

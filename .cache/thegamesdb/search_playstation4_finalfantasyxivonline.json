@@ -1,0 +1,251 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 101831,
+        "game_title": "Final Fantasy XIV Online [Starter Edition]",
+        "release_date": "2017-06-20",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "For newcomers to FINAL FANTASY XIV Online, this edition includes the critically-acclaimed FINAL FANTASY XIV: A Realm Reborn.\r\n\r\nDiscover Eorzea. A land embraced by Gods and forged by Heroes. Create and customize your own unique hero and explore the realm with friends from across the world. Embark on the adventure of a lifetime in an ever-changing FINAL FANTASY world.\r\n\r\nIncludes a 30-day free play period. User Registration and Service subscription required to play the Game. Age restrictions and other Terms and Conditions apply. Please refer to http://account.square-enix.com for Terms and Conditions of Registration and Service.",
+        "players": 99,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          14
+        ],
+        "publishers": null
+      },
+      {
+        "id": 68683,
+        "game_title": "Final Fantasy XIV Online The Complete Experience",
+        "release_date": "2013-06-23",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 126447,
+        "game_title": "Final Fantasy XIV Online: A Realm Reborn",
+        "release_date": "2014-04-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "FINAL FANTASY® XIV: A Realm Reborn™ is a massively multiplayer online role-playing game (MMORPG) for PlayStation 4, PlayStation 3 and Windows PC that invites you to explore the realm of Eorzea with friends from around the world. \r\n\r\nForm a party and adventure with a multitude of players from across the globe. Forge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. \r\n\r\nSet out alone of enlist the aid of friends as you undertake epic quests, battle familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting!",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 23219,
+        "game_title": "Final Fantasy XIV Online: A Realm Reborn",
+        "release_date": "2014-04-14",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "FINAL FANTASY® XIV: A Realm Reborn™ is a massively multiplayer online role-playing game (MMORPG) for PlayStation 4, PlayStation 3 and Windows PC that invites you to explore the realm of Eorzea with friends from around the world. \r\n\r\nForm a party and adventure with a multitude of players from across the globe. Forge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. \r\n\r\nSet out alone of enlist the aid of friends as you undertake epic quests, battle familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting!",
+        "players": 64,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 54036,
+        "game_title": "Final Fantasy XIV Online: A Realm Reborn (Collector's Edition)",
+        "release_date": "2014-04-14",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The MMO role-playing game Final Fantasy XIV: A Realm Reborn invites you to explore the world of Eorzea with friends from across the world. Forge friendships, mount up on a chocobo, board an airship with your friends and create your own unique stories within the Final Fantasy Universe. Undertake epic quests and battle with familiar Final Fantasy monsters alone or enlist the help of your friends. Each player will have their own unique abilities and equipment that they have acquired during their adventures. Work together to help forge the fate of Eorzea!\r\n\r\nThe life of an adventurer is the pursuit of fortune and the pursuit of fame. It is the devotion of oneself to seeking out danger and glory wherever they might lie. It is an endless quest taken up only by the most intrepid and dauntless of souls. The people of Eorzea come with their myriad pleas and requests to their local Adventurers' Guild, and here it is that adventurers heed the call, whether it be the slaying of some foul beast plaguing the countryside, or the crafting of fine wares demanding a master's touch.\r\n\r\nWhat greatness lies in store for you, adventurer?\r\n\r\nAlso Available\r\nFinal Fantasy XIV: A Realm Reborn Collector's Edition\r\nThe MMO role-playing game Final Fantasy XIV: A Realm Reborn invites you to explore the world of Eorzea with friends from across the world. Forge friendships, mount up on a chocobo, board an airship with your friends and create your own unique stories within the Final Fantasy Universe. Undertake epic quests and battle with familiar Final Fantasy monsters alone or enlist the help of your friends. Each player will have their own unique abilities and equipment that they have acquired during their adventures. Work together to help forge the fate of Eorzea!\r\n\r\nThe life of an adventurer is the pursuit of fortune and the pursuit of fame. It is the devotion of oneself to seeking out danger and glory wherever they might lie. It is an endless quest taken up only by the most intrepid and dauntless of souls. The people of Eorzea come with their myriad pleas and requests to their local Adventurers' Guild, and here it is that adventurers heed the call, whether it be the slaying of some foul beast plaguing the countryside, or the crafting of fine wares demanding a master's touch.\r\n\r\nWhat greatness lies in store for you, adventurer?\r\n- The Collector's Edition contains:\r\n- The Art of Eorzea - A Realm Reimagined\r\n- The Waning of the Sixth Sun - Bonus Disc\r\n- The Sounds of Eorzea\r\n- One Time Password, additional security key\r\n- 5 Exclusive Artcards\r\n- Exclusive In-game Items, including: Warrior of Light Helmet, Mini Behemoth Companion, Coeurl Mount, and Behemoth Chocobo Armour",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 54040,
+        "game_title": "Final Fantasy XIV Online: Heavensward Collector's Edition",
+        "release_date": "2015-06-23",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The previously sealed gates to Ishgard open to the inhabitants of Eorzea as the Dragonsong War worsens. This bloody thousand-year conflict between the dragoons of Ishgard and the sentient dragons of Dravania seeks the support of new adventurers to bring an end to the struggle. Heavensward will expand the playable area of the game into additional parts of Eorzea, beyond the Coerthas Central Highlands and in to the skies above the Sea of Clouds and the floating landmasses therein.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 56035,
+        "game_title": "Final Fantasy XIV Online: The Complete Edition",
+        "release_date": "2017-06-20",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Join other fans of Final Fantasy in an epic online experience with Final Fantasy XIV 4.0 Online for PlayStation 4. A great introduction to the series, this complete set features every adventure. Cross-platform play on Final Fantasy XIV 4.0 Online lets you play against PC opponents and other video game consoles, expanding the fun.\r\n\r\nAn epic FINAL FANTASY story featuring a vibrant cast of characters, hundreds of quests, and exciting locales to explore\r\nCelebrate the history of FINAL FANTASY through familiar monsters, bosses, music, and characters\r\nTackle challenging dungeons and raids, or battle fellow players in unique forms of PvP\r\nExperience all of the jobs/classes on a single character using the flexible Armoury System\r\nMake your mark on the world by purchasing and decorating your very own estate - even build your own Airship!\r\nAdventure with friends using cross-platform play between PC, PlayStation 4, and Mac",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6,
+          10,
+          14
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23219": [
+          {
+            "id": 68302,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23219-1.jpg",
+            "resolution": "1503x1894"
+          },
+          {
+            "id": 435365,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/23219-1.jpg",
+            "resolution": null
+          }
+        ],
+        "54036": [
+          {
+            "id": 211368,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54036-1.jpg",
+            "resolution": null
+          }
+        ],
+        "54040": [
+          {
+            "id": 135605,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54040-1.jpg",
+            "resolution": "1077x1500"
+          }
+        ],
+        "56035": [
+          {
+            "id": 240704,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/56035-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68683": [
+          {
+            "id": 221715,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68683-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101831": [
+          {
+            "id": 349321,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101831-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126447": [
+          {
+            "id": 438675,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126447-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XIV+Online&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 380,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630001
+}

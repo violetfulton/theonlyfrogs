@@ -1,0 +1,293 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 127187,
+        "game_title": "Clair Obscur: Expedition 33",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131213,
+        "game_title": "Clair Obscur: Expedition 33",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131214,
+        "game_title": "Clair Obscur: Expedition 33",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131215,
+        "game_title": "Clair Obscur: Expedition 33",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131221,
+        "game_title": "Clair Obscur: Expedition 33 [Collector's Edition]",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.\r\n\r\nCollector's Edition contains:\r\n- The Game\r\n- THE «FLOWERS» COLLECTION: Six Flowers outfits and six Gommage variations (DLC)\r\n- TWO \"CLAIR OBSCUR\" OUTFITS (DLC)\r\n- A COLLECTIBLE STEELBOOK\r\n- 48-PAGE HARDCOVER ARTBOOK\r\n- 20.3CM HAND-PAINTED MONOLITH MUSIC BOX",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131219,
+        "game_title": "Clair Obscur: Expedition 33 [Lumière Edition]",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.\r\n\r\nLumière Edition contains:\r\n- The Game\r\n- THE «FLOWERS» COLLECTION: Six Flowers outfits and six Gommage variations (DLC)\r\n- TWO \"CLAIR OBSCUR\" OUTFITS (DLC)\r\n- A COLLECTIBLE STEELBOOK\r\n- 48-PAGE HARDCOVER ARTBOOK",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 131220,
+        "game_title": "Clair Obscur: Expedition 33 [Lumière Edition]",
+        "release_date": "2025-04-24",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "“Year by year, She erases us.”\r\n \r\nOnce a year, the Paintress wakes and paints upon her monolith. Paints her cursed number. And everyone of that age turns to smoke and fades away. Year by year, that number ticks down and more of us are erased. Tomorrow she’ll wake and paint “33.” And tomorrow we depart on our final mission - Destroy the Paintress, so she can never paint death again. We are Expedition 33.\r\n \r\nClair Obscur: Expedition 33 is a ground-breaking turn-based RPG with unique real-time mechanics, making battles more immersive and addictive than ever. Explore a fantasy world inspired by Belle Époque France in which you battle devastating enemies.\r\n \r\nReactive Turn-based Combat\r\nIn this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system. \r\n \r\n“Tomorrow Comes”\r\nWith only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n \r\nA Hauntingly Beautiful World\r\nExplore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n \r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.\r\n\r\nLumière Edition contains:\r\n- The Game\r\n- THE «FLOWERS» COLLECTION: Six Flowers outfits and six Gommage variations (DLC)\r\n- TWO \"CLAIR OBSCUR\" OUTFITS (DLC)\r\n- A COLLECTIBLE STEELBOOK\r\n- 48-PAGE HARDCOVER ARTBOOK",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          10877
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          8656
+        ]
+      },
+      {
+        "id": 132533,
+        "game_title": "Clair Obscur: Expedition 33 [Mirror Edition]",
+        "release_date": "2025-12-31",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Available at Amazon only, the CLAIR OBSCUR: EXPEDITION 33 - MIRROR EDITION includes the game on disc + tuckbox, an exclusive SteelBook featuring Verso and Alicia, and 3 of a possible 10 exclusive character artcards.\r\n\r\nReactive Turn-based Combat: In this evolution of JRPGs, real-time actions enhance the heart of turn-based combat. Craft unique builds for your Expeditioners that fit your playstyle via gear, stats, skills, and character synergies. Open an active dimension in combat - dodge, parry, and counter in real time, chain combos by mastering attack rhythms, and target enemy weak points using a free aim system.\r\n\r\n\"Tomorrow Comes\": With only one year left to live, join Gustave, Maelle, and their fellow Expeditioners as they embark upon a desperate quest to break the Paintress’ cycle of death. Follow the trail of previous expeditions and discover their fate. Get to know the members of Expedition 33 as they learn to work together against impossible odds.\r\n\r\nA Hauntingly Beautiful World: Explore an enchanting realm populated by surreal adversaries. Wander through breathtaking landscapes, from the Island of Visages to the Forgotten Battlefield, discovering secrets and hidden quests along the way. Find allies of fortune in creatures of legend and recruit special companions, access new travel methods and discover secret areas in the World Map.\r\n\r\nExperience the debut game from Sandfall Interactive, fully realized in Unreal Engine 5 with stunning graphics and a heartbreaking soundtrack.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 132532,
+        "game_title": "Clair Obscur: Expedition 33 [Monolith Set]",
+        "release_date": "2026-01-01",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Product Includes:\r\nMonolith Music Box Statuette - 20.3cm tall, hand-painted, resin\r\nThe Expeditioner's Journal - a 48-page hardcover artbook\r\nA Steelbook® featuring Gustave, Maelle, and the Paintress\r\nMonolith Collector’s premium case",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "127187": [
+          {
+            "id": 441324,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127187-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131213": [
+          {
+            "id": 459827,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131213-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131214": [
+          {
+            "id": 459830,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131214-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131215": [
+          {
+            "id": 459833,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131215-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131219": [
+          {
+            "id": 459845,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131219-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131220": [
+          {
+            "id": 459848,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131220-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131221": [
+          {
+            "id": 459851,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131221-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132532": [
+          {
+            "id": 466225,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132532-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132533": [
+          {
+            "id": 466226,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132533-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Clair+Obscur%3A+Expedition+33&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 150,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629965
+}

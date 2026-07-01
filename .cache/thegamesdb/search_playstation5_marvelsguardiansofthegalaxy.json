@@ -1,0 +1,135 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 87596,
+        "game_title": "Marvel's Guardians of the Galaxy",
+        "release_date": "2021-10-26",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown. Use Element Blasters, tag-team beat downs, jet boot-powered dropkicks, nothing’s off-limits. If you think it’s all going to plan, you’re in for a world of surprises, with the consequences of your actions guaranteed to keep the Guardians on their toes. In this original Marvel’s Guardians of the Galaxy story, you’ll cross paths with powerful new beings and unique takes on iconic characters, all caught in a struggle for the galaxy’s fate. It’s time to show the universe what you’re made of. You got this. Probably.\r\n\r\nFeatures:\r\n- LEAD THE GUARDIANS OF THE GALAXY: You play as Star-Lord, so nothing’s off-limits with your bold combat style, from Element Blasters and jet boot-powered dropkicks to tag-team beat-downs. With the Guardians fighting at your side, call the shots and overwhelm your opponents with signature attacks. Meanwhile, the consequences of your decisions will range from light-hearted to downright unexpected as your journey unfolds.\r\n- ALL-NEW STORY: Your newly-formed band of legendary misfits is set to save the universe in this fresh but faithful take on the Guardians of the Galaxy. Somehow, you set off a chain of catastrophic events, leading to a wild ride through mind-blowing worlds inhabited by iconic and original Marvel characters. Turn up the all-star ‘80s mixtape and get ready to kick it.\r\n- FROM MISFITS TO SUPER HEROES: You’re the only thing holding the unpredictable Guardians together, so you’ll have to get better at this leadership thing fast.\r\n- With this offbeat approximation of a family at your side, there will be tears and laughter as you set about tearing into the cosmos together. Whatever’s waiting around the next corner, you know it’s going to be a blast.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2687
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 118592,
+        "game_title": "Marvel's Guardians of the Galaxy [Cosmic Deluxe Edition]",
+        "release_date": "2021-10-26",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown. Use Element Blasters, tag-team beat downs, jet boot-powered dropkicks, nothing’s off-limits. If you think it’s all going to plan, you’re in for a world of surprises, with the consequences of your actions guaranteed to keep the Guardians on their toes. In this original Marvel’s Guardians of the Galaxy story, you’ll cross paths with powerful new beings and unique takes on iconic characters, all caught in a struggle for the galaxy’s fate. It’s time to show the universe what you’re made of. You got this. Probably.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2687
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 87896,
+        "game_title": "Marvel's Guardians of the Galaxy Cosmic Deluxe Edition",
+        "release_date": "2021-10-26",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 18,
+        "overview": "Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this third-person action-adventure game, you are Star-Lord, and thanks to your bold yet questionable leadership, you have persuaded an oddball crew of unlikely heroes to join you. Some jerk (surely not you) has set off a chain of catastrophic events, and only you can hold the unpredictable Guardians together long enough to fight off total interplanetary meltdown. Use Element Blasters, tag-team beat downs, jet boot-powered dropkicks, nothing’s off-limits. If you think it’s all going to plan, you’re in for a world of surprises, with the consequences of your actions guaranteed to keep the Guardians on their toes. In this original Marvel’s Guardians of the Galaxy story, you’ll cross paths with powerful new beings and unique takes on iconic characters, all caught in a struggle for the galaxy’s fate. It’s time to show the universe what you’re made of. You got this. Probably.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2687
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87596": [
+          {
+            "id": 363520,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87596-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 363521,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/87596-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87896": [
+          {
+            "id": 291749,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87896-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118592": [
+          {
+            "id": 405366,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118592-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Marvel%27s+Guardians+of+the+Galaxy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 84,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629954
+}

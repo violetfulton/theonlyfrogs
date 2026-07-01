@@ -1,0 +1,235 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 78275,
+        "game_title": "Hades",
+        "release_date": "2020-09-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Hades is a god-like rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre.\r\n\r\nHades is a god-like rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre.\r\n\r\nBATTLE OUT OF HELL As the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\r\n\r\nUNLEASH THE FURY OF OLYMPUS The Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8346
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          2195
+        ]
+      },
+      {
+        "id": 107063,
+        "game_title": "Hades II",
+        "release_date": "2025-09-25",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "In Hades II, you'll battle beyond the Underworld using dark sorcery as you take on the sinister Titan of Time in an all-new, action-packed, endlessly replayable experience rooted in the Underworld of Greek myth and its deep connections to the dawn of witchcraft.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8346
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          2195
+        ]
+      },
+      {
+        "id": 134622,
+        "game_title": "Hades II",
+        "release_date": "2025-09-25",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The first-ever sequel from Supergiant Games builds on the best aspects of the original god-like rogue-like dungeon crawler in an all-new, action-packed, endlessly replayable experience rooted in the Underworld of Greek myth and its deep connections to the dawn of witchcraft.\r\n\r\nBATTLE BEYOND THE UNDERWORLD\r\n\r\nAs the immortal Princess of the Underworld, you'll explore a bigger, deeper mythic world, vanquishing the forces of the Titan of Time with the full might of Olympus behind you, in a sweeping story that continually unfolds through your every setback and accomplishment.\r\n\r\nMASTER WITCHCRAFT AND DARK SORCERY\r\n\r\nInfuse your legendary weapons of Night with ancient magick, so that none may stand in your way. Become stronger still with powerful Boons from more than a dozen Olympian gods, from Apollo to Zeus. There are nearly limitless ways to build your abilities.\r\n\r\nMINGLE WITH (MORE) GODS, GHOSTS, AND MONSTERS\r\n\r\nMeet a cast of dozens of fully-voiced, larger-than-life characters, including plenty of new faces and some old friends. Grow closer to them through a variety of new interactions, and experience countless unique story events based on how your journey unfolds.\r\n\r\nEVERY RUN IS ITS OWN ADVENTURE\r\n\r\nNew locations, challenges, upgrade systems, and surprises await as you delve into the ever-shifting Underworld again and again. Reveal the mysteries of the Arcana Altar, tame witchy familiars, and gather reagents using Tools of the Unseen to get closer to your goal.\r\n\r\nTHE PERKS OF IMMORTALITY\r\n\r\nThanks to a variety of permanent upgrades and the return of God Mode, you don't have to be a god yourself to experience what Hades II has to offer. But if you happen to be one, you can brave escalating challenges for greater rewards, and prove just how divine you really are.\r\n\r\nSIGNATURE SUPERGIANT STYLE\r\n\r\nRich, atmospheric presentation and storytelling fused with responsive action is the hallmark of Supergiant's titles. Vivid new hand-painted environments, even smoother real-time 3D characters, and an electrifying original score make this mythic world burst with life.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8346
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2195
+        ]
+      },
+      {
+        "id": 90987,
+        "game_title": "Disney's Hades Challenge",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 124218,
+        "game_title": "Might & Magic: Heroes VI - Shades of Darkness",
+        "release_date": "2013-05-02",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          6
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 30007,
+        "game_title": "H.E.D.Z.",
+        "release_date": "1998-10-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 101035,
+        "game_title": "Shades of Sakura",
+        "release_date": "2021-07-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Shades of Sakura is a casual physics-based puzzle game. Challenge yourself to get 10 animated scenes with Live2D. Go on a fascinating journey through ancient Japan and our Samurai girls. Connect the balls by drawing lines to win!",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": null,
+        "genres": [
+          5,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "30007": [
+          {
+            "id": 89680,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/30007-1.jpg",
+            "resolution": "329x375"
+          }
+        ],
+        "78275": [
+          {
+            "id": 252697,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78275-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90987": [
+          {
+            "id": 303362,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90987-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101035": [
+          {
+            "id": 346960,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101035-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107063": [
+          {
+            "id": 465954,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107063-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124218": [
+          {
+            "id": 431517,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124218-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134622": [
+          {
+            "id": 474519,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134622-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hades&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 845,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630074
+}

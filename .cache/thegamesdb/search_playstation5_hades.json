@@ -1,0 +1,117 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 87887,
+        "game_title": "Hades",
+        "release_date": "2021-08-13",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre. You'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\r\n\r\nThe physical edition of Hades includes a character compendium booklet and a download code for Hades Original Soundtrack.\r\n\r\nFeatures:\r\n- BATTLE OUT OF HELL: As the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\r\n- UNLEASH THE FURY OF OLYMPUS: The Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.\r\n- BEFRIEND GODS, GHOSTS, AND MONSTERS: A fully-voiced cast of colorful, larger-than-life characters is waiting to meet you! Grow your relationships with them, and experience thousands of unique story events as you learn about what's really at stake for this big, dysfunctional family.\r\n- BUILT FOR REPLAYABILITY: New surprises await each time you delve into the ever-shifting Underworld, whose guardian bosses will remember you. Use the powerful Mirror of Night to grow permanently stronger, and give yourself a leg up the next time you run away from home.\r\n- NOTHING IS IMPOSSIBLE: Permanent upgrades mean you don't have to be a god yourself to experience the exciting combat and gripping story. Though, if you happen to be one, crank up the challenge and get ready for some white-knuckle action that will put your well-practiced skills to the test.\r\n- SIGNATURE SUPERGIANT STYLE: The rich, atmospheric presentation and unique melding of gameplay and narrative that's been core to Supergiant's games is here in full force: spectacular hand-painted environments and a blood-pumping original score bring the Underworld to life.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8346
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2195
+        ]
+      },
+      {
+        "id": 96890,
+        "game_title": "Hades",
+        "release_date": "2021-08-13",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.\r\nHades is a god-like rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre.\r\nBATTLE OUT OF HELL\r\nAs the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\r\nUNLEASH THE FURY OF OLYMPUS\r\nThe Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8346
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          2195
+        ]
+      },
+      {
+        "id": 128672,
+        "game_title": "Hades",
+        "release_date": "2021-08-13",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "87887": [
+          {
+            "id": 291719,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87887-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96890": [
+          {
+            "id": 327330,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96890-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hades&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 129,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629962
+}

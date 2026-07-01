@@ -1,0 +1,192 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 19777,
+        "game_title": "South Park: The Stick of Truth",
+        "release_date": "2014-03-04",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Earn your place alongside Stan, Kyle, Kenny and Cartman and aid them in a hysterical adventure to save South Park as only fourth-graders can. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become ... cool.\r\n\r\n You begin as the new kid in town facing a harrowing challenge: making friends. As you start your quest the children of South Park are embroiled in a city-wide, live-action-role-playing game, casting imaginary spells and swinging fake swords. Over time the simple children’s game escalates into a battle of good and evil that threatens to consume the world.\r\n\r\n Arm yourself with weapons of legend to defeat crabpeople, underpants gnomes, hippies and other forces of evil. Discover the lost Stick of Truth and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend. Succeed, and you shall be South Park’s savior, cementing your social status in South Park Elementary. Fail, and you will forever be known ... as a loser.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 111689,
+        "game_title": "South Park: The Stick of Truth",
+        "release_date": "2014-03-07",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "UK PAL version.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 76870,
+        "game_title": "South Park: The Stick of Truth (EU)",
+        "release_date": "2014-03-07",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "German PAL version.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 64767,
+        "game_title": "South Park: The Stick of Truth [Grand Wizard Edition]",
+        "release_date": "2014-03-04",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Grand Wizard Edition includes:\r\n- Grand Wizard Cartman Figure: Pose the Grand Wizard Cartman and his stick of authority with this six-inch replica figure from Kidrobot.\r\n- Kingdom of South Park Map: For the first time in South Park history, the entire city has been charted, plotted, and mapped. Chronicle your own conquests with this one-of-a-kind piece of South Park history.\r\n- The Ultimate Fellowship Pack: 4 bonus costumes with special perks: Necromancer Sorcerer boosts your fire damage, Rogue Assassin lets you earn extra gold, Ranger Elf increases weapon damage, and Holy Defender raises your defense.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      },
+      {
+        "id": 76263,
+        "game_title": "South Park: The Stick of Truth [Signature Edition]",
+        "release_date": "2014-03-04",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "South Park: The Stick of Truth is a role-playing video game that is viewed from a 2.5D, third-person perspective. The player controls the New Kid as he explores the fictional Colorado town of South Park. The player can freely move around the town although some areas remain inaccessible until specific points in the story are reached. Notable characters from the series—including Cartman, Butters, Stan, and Kyle—join the New Kid's party and accompany him on his quests, though only one character can be active at any time. The game features a fast travel system, allowing the player to call on the character Timmy to quickly transport them to any other visited fast travel station. At the beginning of the game, the player selects one of four character archetypes; the Fighter, Thief, Mage (which represent standard fantasy types), and the Jew. The Jew class specializes in \"Jew-jitsu\" and long-range attacks. Each class has specific abilities; armor and weapons are not limited by class, allowing a Mage to focus on melee attacks like a Fighter.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6195
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          4566
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19777": [
+          {
+            "id": 343676,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19777-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64767": [
+          {
+            "id": 348560,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64767-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76263": [
+          {
+            "id": 348476,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76263-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 348478,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/76263-1.jpg",
+            "resolution": null
+          }
+        ],
+        "76870": [
+          {
+            "id": 248838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/76870-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111689": [
+          {
+            "id": 382645,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111689-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=South+Park%3A+The+Stick+of+Truth&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 608,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630035
+}

@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 100368,
+        "game_title": "Hard West 2",
+        "release_date": "2022-08-04",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": " The Wild West and occult collide in Hard West 2, the supernatural sequel to turn-based strategy game, Hard West. \"Out here in the West, they say the heroes are long dead... But you're no hero, are you?\"",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": null,
+        "genres": [
+          4,
+          6,
+          27
+        ],
+        "publishers": [
+          5492
+        ]
+      },
+      {
+        "id": 46978,
+        "game_title": "Hard West",
+        "release_date": "2015-11-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "When a tragic turn of events sets one man down a path of supernatural chaos and revenge, he must brutally hunt down all those who wronged him.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          1906
+        ],
+        "genres": [
+          1,
+          4,
+          6
+        ],
+        "publishers": [
+          2944
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "46978": [
+          {
+            "id": 121511,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/46978-1.jpg",
+            "resolution": "1768x2500"
+          }
+        ],
+        "100368": [
+          {
+            "id": 343751,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100368-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hard+West+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 682,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630047
+}

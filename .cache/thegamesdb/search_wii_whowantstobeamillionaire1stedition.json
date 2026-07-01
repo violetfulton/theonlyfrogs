@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 18076,
+        "game_title": "Who Wants to be a Millionaire: 1st Edition",
+        "release_date": "2007-12-07",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Who Wants To Be A Millionaire? the video game features all the TV Show Quiz Game's assets and structure. There are 15 questions that will take you from a virtual 100 to 1 million. There are 4 answers to each question and only one of the answers is correct. Use the Wii Remote to choose the answer you think is correct. If you're right, you will win the virtual value for that question and move onto the next level.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          7328
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          7
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "18076": [
+          {
+            "id": 50655,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/18076-1.jpg",
+            "resolution": "1529x2173"
+          },
+          {
+            "id": 50656,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/18076-1.jpg",
+            "resolution": "1530x2173"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Who+Wants+to+Be+a+Millionaire%3A+1st+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=9&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 996,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630099
+}

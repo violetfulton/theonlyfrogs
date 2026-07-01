@@ -1,0 +1,162 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 64815,
+        "game_title": "Borderlands 3",
+        "release_date": "2020-09-13",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The original shooter-looter returns, packing bazillions of guns and an all-new mayhem-fueled adventure! Blast through new worlds and enemies as one of four brand new Vault Hunters – the ultimate treasure-seeking badasses of the Borderlands, each with deep skill trees, abilities, and customization. Play solo or join with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.\r\n\r\nA MAYHEM-FUELED THRILL RIDE\r\nStop the fanatical Calypso Twins from uniting the bandit clans and claiming the galaxy’s ultimate power. Only you, a thrill-seeking Vault Hunter, have the arsenal and allies to take them down.\r\n\r\nYOUR VAULT HUNTER, YOUR PLAYSTYLE\r\nBecome one of four extraordinary Vault Hunters, each with unique abilities, playstyles, deep skill trees, and tons of personalization options. All Vault Hunters are capable of awesome mayhem alone, but together they are unstoppable.\r\n\r\nLOCK, LOAD, AND LOOT\r\nWith bazillions of guns and gadgets, every fight is an opportunity to score new gear. Firearms with self-propelling bullet shields? Check. Rifles that spawn fire-spewing volcanoes? Obviously. Guns that grow legs and chase down enemies while hurling verbal insults? Yeah, got that too.\r\n\r\nNEW BORDERLANDS\r\nDiscover new worlds beyond Pandora, each featuring unique environments to explore and enemies to destroy. Tear through hostile deserts, battle your way across war-torn cityscapes, navigate deadly bayous, and more!\r\n\r\nQUICK & SEAMLESS CO-OP ACTION\r\nPlay with anyone at any time with online co-op, regardless of your level or mission progress.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 85262,
+        "game_title": "Borderlands 3 Ultimate Edition",
+        "release_date": "2020-11-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Borderlands 3 Ultimate Edition is the quintessential Borderlands 3 experience, featuring the award-winning base game plus all 6 content add-ons and the full collection of bonus cosmetic packs! Blast through multiple worlds as 1 of 4 Vault Hunters – the ultimate treasure-seeking badasses of the Borderlands.\r\n\r\nSeason Pass includes four campaign add-ons:\r\nMoxxi’s Heist of the Handsome Jackpot\r\nGuns, Love, and Tentacles: The Marriage of Wainwright & Hammerlock\r\nBounty of Blood\r\nPsycho Krieg and the Fantastic Fustercluck\r\n\r\nSeason Pass 2 includes:\r\nDesigner's Cut content add-on, featuring brand new mode 'Arms Race' and an additional skill tree for each Vault Hunter\r\nDirector's Cut content add-on details to be announced\r\nAll four Multiverse Final Form Cosmetic Packs\r\n\r\nAdditional Bonus Content:\r\nButt Stallion Pack: Weapon skin, trinket, Butt Stallion grenade mod\r\nRetro Cosmetic Pack\r\nNeon Cosmetic Pack\r\nGearbox Cosmetic Pack\r\nToy Box Weapons Pack\r\nEquippable XP & Loot Drop Boost Mods",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 154,
+        "game_title": "Borderlands",
+        "release_date": "2009-10-26",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Borderlands includes character-building elements found in role-playing games, leading to Gearbox calling the game a \"role-playing shooter\". At the start of the game, players select one of four characters, each with a unique special skill and with proficiencies with certain weapons. The four characters are: Roland the Soldier, Mordecai the Hunter, Lilith the Siren, and Brick (a Berserker) \"as himself\".  From then on, players take on quests assigned through non-player characters or from bounty boards, each typically rewarding the player with experience points, money, and sometimes a reward item.  Players earn experience by killing foes and completing in-game challenges (such as getting a certain number of kills using a specific type of weapon). As they gain levels from experience growth, players can then allocate skill points into a skill tree that features three distinct specializations of the base character; for example, Mordecai can become specialized in sniping, gunslinging with revolvers, or using his pet Bloodwing to assist in kills and health boosting. Players can distribute points among any of the specializations, and can also spend a small amount of in-game money to redistribute their skill points.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 5647,
+        "game_title": "Borderlands 2",
+        "release_date": "2012-09-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op or split-screen on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.\r\n\r\nBorderlands 2 follows the story of four new Vault Hunters as they fight to free Pandora from the clutches of Handsome Jack, the brilliant, charismatic, and utterly despicable CEO of the Hyperion Corporation.\r\n\r\nPlayers will fight across the whole of Pandora to stop Jack from awakening an ancient alien evil known only as \"the Warrior.\" Their quest will bring them into contact with some familiar faces from the old game – most notably, the original four Vault Hunters: Roland, Lilith, Brick and Mordecai. They, along with some brand new characters, will help players defeat Jack, destroy the Warrior, and save Pandora.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          4,
+          8,
+          12
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "154": [
+          {
+            "id": 1547,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/154-1.jpg",
+            "resolution": "1519x2156"
+          }
+        ],
+        "5647": [
+          {
+            "id": 31390,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/5647-1.jpg",
+            "resolution": "1443x2048"
+          }
+        ],
+        "64815": [
+          {
+            "id": 213114,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85262": [
+          {
+            "id": 281222,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85262-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+3&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 958,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630093
+}

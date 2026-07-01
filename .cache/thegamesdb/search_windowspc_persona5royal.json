@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 104600,
+        "game_title": "Persona 5 Royal",
+        "release_date": "2022-10-21",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4,
+          27
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 61511,
+        "game_title": "PROXIMA ROYALE",
+        "release_date": "2018-12-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "PROXIMA ROYALE is a competitive Sci-Fi Multiplayer Shooter set on the exoplanet Proxima Centauri b. Experience strategic and action-packed multiplayer battles and the exploration of massive open worlds.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          8,
+          14
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61511": [
+          {
+            "id": 204510,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61511-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104600": [
+          {
+            "id": 477150,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104600-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+5+Royal&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 814,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630069
+}

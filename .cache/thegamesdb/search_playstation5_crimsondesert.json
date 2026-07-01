@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 92294,
+        "game_title": "Crimson Desert",
+        "release_date": "2025-06-30",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "An epic of desperate mercenaries. A saga written in blood. Watch the all-new official gameplay trailer for Crimson Desert which premiered at The Game Awards 2020, and enter a war-torn realm where allegiances are tested & heroes are made.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6498
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 135339,
+        "game_title": "Crimson Desert [Deluxe Edition]",
+        "release_date": "2026-03-19",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "■ Items\r\n[Crimson Desert (Full Game)]\r\n[PS5 Exclusive Bonus]\r\n- Grotevant Plate Set (Helm, Armor, Cloak, Gloves, Boots)\r\n[Deluxe Pack]\r\n- Kairos Plate Set (Helm, Armor, Cloak, Gloves, Boots)\r\n- Balgran Shield\r\n- Exclaire Horse Tack Set (Champron, Barding, Saddle, Stirrups)\r\n* Go to Menu → Others → Options → Add-On/Add-Ons to claim the rewards.\r\n\r\n■ EXPLORE A WORLD OF DISCOVERY\r\nWelcome to Pywel.\r\nHere you'll find stretches of natural beauty and wilderness—from green plains and woods to arid deserts and rugged mountains. Between destinations, you will come across landmarks, ancient ruins, hidden treasures, and other points of interest that will draw your curisoity to wander.\r\nYour journey will also inevitably take you skyward to the mysterious realm known as the Abyss, where a mystical imbalance endangering the world must be restored.\r\nThe world is yours to explore as you will and there are many paths for you to uncover.\r\nExperience the continent's stories and tales through quests, encounters, challenges, and battles.\r\nRoam the lands on various mounts from horses to even a dragon and mechs, and scale cliffsides and walls which you can leap from to glide.\r\n\r\n■ FORGE YOUR OWN COMBAT\r\nOn the unforgiving battlefields of Crimson Desert, there is no single path to victory.​\r\nGrow your arsenal of skills, weapons, and equipment—and decide how you want to use them.\r\nWield weapons like swords, spears, greatswords, axes, dual wields, various ranged weapons, and more, and unleash powerful abilities and elemental enhancements through lethal combinations.\r\nWith every strike and move, forge your own way in a world where a split second can decide your fate in fast-paced, visceral battles.\r\nFrom ruthless warriors to fearsome beasts, there are those in Pywel who will seek your downfall. Encounter a diverse array of challenging enemies and bosses in brutal one-on-one duels, large-scale battle clashes, and quick skirmishes, and prevail against the threats that stand in your way.\r\n\r\n■ LIFE IN PYWEL\r\nIn Pywel, many of the smaller moments also shape your journey and make up your day-to-day life.\r\nGather resources, cook, fish, hunt, and partake in the other various activities of Pywel for stat replenishment, making your equipment stronger, and more.\r\nAlong the way, enjoy some leisure time by playing minigames with the locals.\r\nAnd shaping your daily life also extends to customization. Adjust hairstyles, tattoos, outfits, and more using dyes you brew or pick up along your journey.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6498
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "92294": [
+          {
+            "id": 422891,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92294-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135339": [
+          {
+            "id": 478398,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135339-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Crimson+Desert&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 52,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629949
+}

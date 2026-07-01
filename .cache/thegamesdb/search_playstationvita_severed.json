@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 45334,
+        "game_title": "Severed",
+        "release_date": "2016-04-26",
+        "platform": 39,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Severed follows the saga of a distraught warrior, who is lost in a fantastical world, as she knits together pieces of her story from both the past and the future. As the heroine, players will embark on a journey through a surreal, nonlinear world by using a gesture-based combat mechanic to defeat enemies in this first-person adventure. During their journey, players will unlock new abilities, discover secrets of the land, and grow in power as they master both offensive and defensive techniques.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2514
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 61184,
+        "game_title": "Severed [Limited Edition] ",
+        "release_date": "2018-08-17",
+        "platform": 39,
+        "region_id": 9,
+        "country_id": 11,
+        "overview": "In Severed you play as a distraught warrior, who is lost in a fantastical world. She is tasked with the challenge of knitting together pieces of her story from both the past and the future. Our heroine will embark on a journey through a surreal non-linear world using a gesture-based combat mechanic to defeat enemies in this first-person adventure. Unlock new abilities, discover secrets of the land, and grow in power as you master both offensive and defensive techniques. Let Severed be your mystery to unravel.\r\n\r\nFeatures:\r\n    DUNGEON COMBAT: Use touch-based combat mechanics with offensive & defensive techniques against a variety of enemies.\r\n    STYLE: An RPG-light adventure giving players autonomy over upgrade paths.\r\n    ABILITIES: Gain abilities from Totems—magic armor created from the remains of defeated bosses.\r\n    SEVERING: Force enemies into vulnerable states, then sever their body parts to upgrade equipment and abilities.\r\n    EXPLORATION: Choose how to progress through branching routes as you avoid hazards and solve puzzles.\r\n    MUSIC: Original soundtrack from Juno-nominated band YAMANTAKA//SONIC TITAN and the renowned Pantayo.\r\n\r\nSEVERED IS PLAYSTATION PLAY EXCLUSIVE RELEASE #27 & IS LIMITED TO ONLY 3,000 COPIES WORLDWIDE! ",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2514
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          1352
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "45334": [
+          {
+            "id": 212265,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/45334-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61184": [
+          {
+            "id": 347951,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61184-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Severed&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 422,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630007
+}

@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 53662,
+        "game_title": "Final Fantasy XV: Windows Edition",
+        "release_date": "2018-03-06",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Get ready to be at the centre of the ultimate fantasy adventure, now for Windows PC.\r\n\r\nJoined by your closest friends on the roadtrip of a lifetime through a breathtaking open world, witness stunning landscapes and encounter larger-than-life beasts on your journey to reclaim your homeland from an unimaginable foe.\r\n\r\nIn an action-packed battle system, channel the power of your ancestors to warp effortlessly through the air in thrilling combat, and together with your comrades, master the skills of weaponry, magic and team-based attacks. \r\n\r\nNow realised with the power of cutting-edge technology for Windows PCs, including support for high-resolution displays and HDR10, the beautiful and carefully-crafted experience of FINAL FANTASY XV can be explored like never before.\r\n\r\nKEY FEATURES:\r\n\r\nIncludes all of the exciting content released as part of continuous game updates (Chapter 13 alternate route, off-road Regalia customisation, character swap feature and more!). And comes with all of content released in the Season Pass - Episode Gladiolus, Episode Prompto, Multiplayer Expansion: Comrades, and Episode Ignis\r\nGet ready to be at the centre of the ultimate fantasy adventure.",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          2808
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "53662": [
+          {
+            "id": 262388,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53662-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XV%3A+Windows+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 942,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630091
+}

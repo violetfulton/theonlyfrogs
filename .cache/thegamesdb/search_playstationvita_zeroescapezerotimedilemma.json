@@ -1,0 +1,77 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 35053,
+        "game_title": "Zero Escape: Zero Time Dilemma",
+        "release_date": "2016-06-28",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Zero Escape: Zero Time Dilemma is the upcoming third and final installment of the Zero Escape trilogy and sequel to Zero Escape: Virtue's Last Reward. It will be developed by Spike Chunsoft and published by Aksys Games. It will be released for the Nintendo 3DS and PlayStation Vita. The game will be digital download only for Europeans, and the time of its planned release there is unknown.\r\n\r\nThe game will feature English and Japanese dual audio.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8063
+        ],
+        "genres": [
+          4,
+          18
+        ],
+        "publishers": [
+          2194
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "35053": [
+          {
+            "id": 238243,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/35053-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 264485,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/35053-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Zero+Escape%3A+Zero+Time+Dilemma&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 404,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630005
+}

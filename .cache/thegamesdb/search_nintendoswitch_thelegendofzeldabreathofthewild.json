@@ -1,0 +1,518 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 15,
+    "games": [
+      {
+        "id": 98941,
+        "game_title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037,
+          10186
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118601,
+        "game_title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.\r\n\r\nAlso Available\r\nSpecial Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda: Breath of the Wild Sound Selection CD.\r\n\r\nMaster Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sound Selection CD, and the Master Sword of Resurrection statue.\r\n\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118870,
+        "game_title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.\r\n\r\nAlso Available\r\nSpecial Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda: Breath of the Wild Sound Selection CD.\r\n\r\nMaster Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sound Selection CD, and the Master Sword of Resurrection statue.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037,
+          10186
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134947,
+        "game_title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 123898,
+        "game_title": "Zelda no Densetsu: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 42293,
+        "game_title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.\r\n\r\nAlso Available\r\nSpecial Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda: Breath of the Wild Sound Selection CD.\r\n\r\nMaster Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sound Selection CD, and the Master Sword of Resurrection statue.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037,
+          10186
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 81705,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Collector's Edition]",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Box contents:\r\nNintendo Switch Game: The Legend of Zelda: Breath of the Wild\r\namiibo: Link (Rider)\r\nThe Legend of Zelda: Breath of the Wild Sound Selection CD\r\nSpecial Map\r\nSpecial Design Title Sheet\r\n\r\nThe Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.\r\n\r\nAlso Available\r\nSpecial Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda: Breath of the Wild Sound Selection CD.\r\n\r\nMaster Edition\r\nThis bundle includes the game, a Nintendo Switch Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sound Selection CD, and the Master Sword of Resurrection statue.\r\n\r\n \r\nWoken from a 100-year slumber, Link must explore the wilds to regain his lost memories and save Hyrule. This bundle includes the game, a Nintendo Switch™ Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda™: Breath of the Wild Sound Selection CD.\r\n\r\nThe wilds of Hyrule make for a puzzling game of survival. Climb cliffs to scope out a destination; then cross great distances with the Paraglider or the horses you’ve tamed. You'll discover items for crafting, beasts to hunt, and plants to forage. So scavenge weapons and armor…or claim them from enemies! From hammers to helmets, many items come with unique stats, resistances, effects, and levels of durability. Use everything at your disposal to find and conquer more than 100 Shrines. Luckily, the in-game Sheikah Slate can project Runes that manipulate objects and enemies in clever ways. It's time to forget everything you know about the Legend of Zelda™ series.\r\n\r\nFeatures:\r\n\r\nDiscover a world as never before seen: by making your own path, choices, and consequences\r\nIngenuity is the key to survival: find multiple solutions to tons of dynamic puzzles\r\nSurprises hide around every corner: scavenge weapons, armor, plants, animals, and more\r\nLive off the land: find weapons and armor, cook food, and brew elixirs.\r\nUtilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways\r\nGear up: many weapons and armor have unique stats, resistances, effects, and durability.\r\nShrines offer hundreds of clever challenges even veterans won't see coming",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 51363,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Explorer's Edition]",
+        "release_date": "2017-11-23",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "This edition includes a copy of the explorer's guide, and a map. Realeased at select retailers as a black friday sale.\r\nLink awakens from a deep sleep and a mysterious voice guides him to discover what has become of the ruined Kingdom of Hyrule. Link meets an Old Man, who turns out to be the spirit of the deceased King of Hyrule. Link learns from the King that 100 years prior, a great evil known as the Calamity Ganon rose up and laid waste to the kingdom and its people.[2] Unable to be defeated, it was sealed within Hyrule Castle, while the ruins of the land were ravaged by nature over time. Although trapped, the Calamity Ganon has grown in power, and Link must defeat it before it breaks free once more and destroys the world.\r\n\r\nAfter escaping the confines of the Great Plateau, Link is encouraged to meet the wise Sheikah elder Impa and learn about the Guardians and Divine Beasts: 10,000 years prior these machines were created and successfully used by another Hero and another Princess to defeat the Calamity. But throughout the ages, knowledge about the ancient technology was lost until excavations in Hyrule brought them to light once more, coinciding with the expected return of Ganon a hundred years ago. The Guardians were reactivated and four Champions were chosen to control the Divine Beasts: The Zora princess Mipha, the Goron warrior Daruk, the Gerudo chief Urbosa, and the Rito archer Revali. All the while, Princess Zelda was unsuccessfully trying to gain access to her own prophesied powers, accompanied on her quests by her knight, the Hylian Champion Link. When the Calamity Ganon ultimately attacked, it devastated the Kingdom of Hyrule by taking control of the ancient machines and turning them against the Hyruleans. As a last resort, Zelda was able to place the gravely wounded Link in the Shrine of Resurrection and use her awoken sealing powers to trap herself with Ganon in Hyrule Castle.\r\n\r\nAs Link sets off on his quest to defeat Ganon, he is asked to investigate the fate of the Divine Beasts and their former Champions. His ultimate goal, however, remains to reach the Calamity and free the trapped Princess Zelda before the whole world is laid to waste. But with the entire Kingdom of Hyrule before him to explore, it is up to Link himself to decide how he wishes to fulfill his foretold role as the Hylian Champion.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 77328,
+        "game_title": "The Legend of Zelda: Breath Of The Wild [Limited Edition]",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The limited edition contains the game (Nintendo Switch version), The Legend of Zelda: Breath of the Wild Sound Selection CD and a Master Sword of Resurrection figurine\r\nPrepare for the big The Legend of Zelda adventure yet, with an open-air style that breaks boundaries while honouring the origins of the acclaimed series\r\nExplore a world of unprecedented size and discover more than 100 puzzle-filled shrines, plus a wide variety of weapons, outfits and gear\r\nClimb up towers and mountain peaks in search of destinations, then set your own path to get there and plunge into the wilderness; along the way, you will battle towering enemies, hunt wild beasts and gather ingredients for the food and elixirs you'll need to sustain you on your journey\r\nCompatible with the Nintendo Switch only",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037,
+          10186
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 126015,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Limited Edition]",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The Legend of Zelda: Breath of the Wild is an action-adventure video game developed and published by Nintendo for the Nintendo Switch and Wii U video game consoles. The game is a part of The Legend of Zelda series, and follows amnesiac protagonist Link, who awakens from a hundred-year slumber to a mysterious voice that guides him to defeat Calamity Ganon before he can destroy the kingdom of Hyrule.\r\n\r\nThe title's gameplay and mechanics constitute a departure from the series' usual conventions, featuring an open-world environment, a detailed physics engine, high-definition visuals, and voice acting. Announced in 2013, the game was initially planned for release as a Wii U exclusive in 2015, but was delayed twice prior to its release on March 3, 2017. Breath of the Wild was a launch title for the Switch, as well as the final Nintendo-produced game for the Wii U.\r\n\r\nBreath of the Wild received universal acclaim from critics, who deemed it to be one of the greatest video games of all time. Critics praised the game's open-ended, physics-driven gameplay that encourages player experimentation and exploration, with many calling it a landmark title in open-world game design, although minor criticism was directed at the game's technical performance at launch.\r\n\r\nAlso Available\r\nLimited Edition\r\nThis bundle includes game card, a Master Sword of Resurrection figurine, Sound Selection CD, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sheikah Eye Collectible Coin.\r\n\r\nAustralian Classification: M",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 49808,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Master Edition]",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Step into a world of adventure\r\n\r\n \r\nWoken from a 100-year slumber, Link must explore the wilds to regain his lost memories and save Hyrule. This bundle includes the game, a Nintendo Switch™ Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, a Sound Selection CD, and the Master Sword of Resurrection statue.\r\n\r\nThe wilds of Hyrule make for a puzzling game of survival. Climb cliffs to scope out a destination; then cross great distances with the Paraglider or the horses you've tamed. You'll discover items for crafting, beasts to hunt, and plants to forage. So scavenge weapons and armor…or claim them from enemies! From hammers to helmets, many items come with unique stats, resistances, effects, and levels of durability. Use everything at your disposal to find and conquer more than 100 Shrines. Luckily, the in-game Sheikah Slate can project Runes that manipulate objects and enemies in clever ways. It’s time to forget everything you know about the Legend of Zelda™ series.\r\n\r\nFeatures:\r\n\r\nDiscover a world as never before seen: by making your own path, choices, and consequences\r\nIngenuity is the key to survival: find multiple solutions to tons of dynamic puzzles\r\nSurprises hide around every corner: scavenge weapons, armor, plants, animals, and more\r\nLive off the land: find weapons and armor, cook food, and brew elixirs\r\nUtilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways\r\nGear up: many weapons and armor have unique stats, resistances, effects, and durability.\r\nShrines offer hundreds of clever challenges even veterans won't see coming",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 49809,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Special Edition]",
+        "release_date": "2017-03-03",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Step into a world of adventure\r\n\r\n \r\nWoken from a 100-year slumber, Link must explore the wilds to regain his lost memories and save Hyrule. This bundle includes the game, a Nintendo Switch™ Sheikah Slate Carrying Case, a Sheikah Eye Collectible Coin, the Relic of Hyrule: Calamity Ganon Tapestry and Weather-Worn Map, and The Legend of Zelda™: Breath of the Wild Sound Selection CD.\r\n\r\nThe wilds of Hyrule make for a puzzling game of survival. Climb cliffs to scope out a destination; then cross great distances with the Paraglider or the horses you’ve tamed. You'll discover items for crafting, beasts to hunt, and plants to forage. So scavenge weapons and armor…or claim them from enemies! From hammers to helmets, many items come with unique stats, resistances, effects, and levels of durability. Use everything at your disposal to find and conquer more than 100 Shrines. Luckily, the in-game Sheikah Slate can project Runes that manipulate objects and enemies in clever ways. It's time to forget everything you know about the Legend of Zelda™ series.\r\n\r\nFeatures:\r\n\r\nDiscover a world as never before seen: by making your own path, choices, and consequences\r\nIngenuity is the key to survival: find multiple solutions to tons of dynamic puzzles\r\nSurprises hide around every corner: scavenge weapons, armor, plants, animals, and more\r\nLive off the land: find weapons and armor, cook food, and brew elixirs.\r\nUtilize special technology: the in-game Sheikah Slate controls objects and enemies in fun ways\r\nGear up: many weapons and armor have unique stats, resistances, effects, and durability.\r\nShrines offer hundreds of clever challenges even veterans won't see coming",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73595,
+        "game_title": "The Legend of Zelda: Breath of the Wild [Starter Pack]",
+        "release_date": "2018-09-27",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Forget everything you know about The Legend of Zelda games. Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across vast fields, through forests, and to mountain peaks as you discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure. Now on Nintendo Switch, your journey is freer and more open than ever. Take your system anywhere, and adventure as Link any way you like.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 94875,
+        "game_title": "The Legend of Zelda: Breath of the Wild + Expansion Pass",
+        "release_date": "2017-12-08",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "STEP INTO A WORLD OF ADVENTURE!\r\n\r\nForget everything you know about The Legend of Zelda games. Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across fields, through forests, and to mountain peaks as you discover what has become of the ruined kingdom of Hyrule in this stunning open-air adventure.\r\n\r\nThe Legend of Zelda: Breath of the Wild + Expansion Pass includes \"The Master Trials Expansion Pass\" and \"The Champions' Ballad Expansion Pass\".\r\n\r\nFeatures:\r\n- Explore the wilds of Hyrule any way you like: Climb up towers and mountain peaks in search of new destinations, then set your own path to get there and plunge into the wilderness. Along the way, you'll battle towering enemies, hunt wild beasts and gather ingredients for the food and elixirs you'll need to sustain you on your journey.\r\n- More than 100 Shrines of Trials to discover and explore: Shrines dot the landscape, waiting to be discovered in any order you want. Search for them in various ways, and solve a variety of puzzles inside.\r\n- Be prepared and properly equipped: With an entire world waiting to be explored, you'll need a variety of outfits and gear to reach every corner. You may need to bundle up with warmer clothes or change into something better suited to the desert heat.\r\n- Battling enemies requires strategy: The world is inhabited with enemies of all shapes and sizes. Each one has its own attack method and weaponry, so you must think quickly and develop the right strategies to defeat them.\r\n- Amiibo compatibility: Tap the Wolf Link amiibo (sold separately) to make Wolf Link appear in game. Wolf Link will attack enemies on his own and help you find items you're searching for.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037,
+          10186
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130258,
+        "game_title": "The Legend of Zelda: Breath of the Wild Expansion Pass",
+        "release_date": "2017-03-02",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          8285
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "42293": [
+          {
+            "id": 212987,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/42293-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 430378,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/42293-1.jpg",
+            "resolution": null
+          }
+        ],
+        "49808": [
+          {
+            "id": 127110,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/49808-1.png",
+            "resolution": "206x256"
+          }
+        ],
+        "49809": [
+          {
+            "id": 127111,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/49809-1.png",
+            "resolution": "194x256"
+          }
+        ],
+        "51363": [
+          {
+            "id": 220529,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/51363-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73595": [
+          {
+            "id": 235930,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73595-1.jpg",
+            "resolution": null
+          }
+        ],
+        "77328": [
+          {
+            "id": 250319,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77328-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 250320,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/77328-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81705": [
+          {
+            "id": 332122,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81705-1.jpg",
+            "resolution": null
+          }
+        ],
+        "94875": [
+          {
+            "id": 319669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/94875-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98941": [
+          {
+            "id": 430522,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98941-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118601": [
+          {
+            "id": 430525,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118601-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118870": [
+          {
+            "id": 406547,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118870-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123898": [
+          {
+            "id": 430545,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123898-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126015": [
+          {
+            "id": 437103,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126015-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130258": [
+          {
+            "id": 454701,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130258-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134947": [
+          {
+            "id": 476054,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134947-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Breath+of+the+Wild&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 270,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629984
+}

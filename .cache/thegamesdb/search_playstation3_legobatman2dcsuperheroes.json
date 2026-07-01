@@ -1,0 +1,130 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 12566,
+        "game_title": "LEGO Batman 2: DC Super Heroes",
+        "release_date": "2012-06-19",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "LEGO Batman 2: DC Super Heroes is an action game and the sequel to LEGO Batman: The Videogame. Just like the first game it draws elements from the Batman universe but built entirely in LEGO-style bricks. It starts when a \"Man of the Year\" award ceremony in Gotham City is interrupted by the Joker and a gang of bandits. Bruce Wayne is a candidate for the award and changes into Batman to pursue them, teaming up with members of the Justice League.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8995
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 75472,
+        "game_title": "LEGO Batman 2: DC Super Heroes [Essentials]",
+        "release_date": "2012-01-01",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8995
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          152
+        ]
+      },
+      {
+        "id": 90515,
+        "game_title": "LEGO Batman 2: DC Super Heroes [Greatest Hits]",
+        "release_date": "2012-06-19",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Lego Batman 2: DC Super Heroes is a Lego-themed action-adventure video game developed by Traveller's Tales, for the Xbox 360, PlayStation 3, PlayStation Vita, Wii U,[1] Nintendo 3DS, Wii, Nintendo DS, Microsoft Windows, Mac OS X, and iOS.[2][3][4] The game is a standalone sequel to Lego Batman: The Videogame and the second one in the Lego Batman series. The storyline follows Batman, Robin and Superman as they try to foil the Joker and Lex Luthor's plan to have the latter become President, joining forces with the Justice League along the way. As such, the game's cast is larger than its predecessor and includes characters outside of the Batman series.",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          9091
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12566": [
+          {
+            "id": 36794,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12566-1.jpg",
+            "resolution": "640x734"
+          }
+        ],
+        "75472": [
+          {
+            "id": 244539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75472-1.jpg",
+            "resolution": null
+          }
+        ],
+        "90515": [
+          {
+            "id": 325468,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/90515-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=LEGO+Batman+2%3A+DC+Super+Heroes&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 630,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630038
+}

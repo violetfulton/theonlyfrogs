@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 77072,
+        "game_title": "Final Fantasy Crystal Chronicles: Remastered Edition",
+        "release_date": "2020-08-27",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "FINAL FANTASY® CRYSTAL CHRONICLES™ Remastered Edition is an enchanting action RPG that follows a young group, known as the Crystal Caravanners, as they embark on an epic journey to search for myrrh, a precious and rare liquid needed to cleanse and maintain a crystal protecting their world from the deadly gas, miasma. Packed with upgrades, new features and enhancements, now is the best time to join the caravan!\r\nCall upon magic and might and team up with faraway friends to take down fearsome foes! Enlist comrades to your crystal caravan in online multiplayer mode with up to four players.\r\nFeaturing a whole host of new and upgraded content, even fans of the original will find rewarding surprises in store!\r\n\r\nNew and upgraded features include:\r\nEnglish voice over\r\nNew and rerecorded music\r\nUpgraded graphics\r\nOnline multiplayer and cross-play functionality\r\nNew equipment and upgrades\r\nNew character variations\r\nNew “Mimic” mode to change appearance\r\nIncreased difficulty post-game dungeons, and more!",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "77072": [
+          {
+            "id": 249542,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77072-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy%3A+Crystal+Chronicles+-+Remastered+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 398,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630004
+}

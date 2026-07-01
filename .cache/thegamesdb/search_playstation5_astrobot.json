@@ -1,0 +1,162 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 126795,
+        "game_title": "Astro Bot",
+        "release_date": "2024-09-06",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 127091,
+        "game_title": "Astro Bot",
+        "release_date": "2024-09-06",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "When the PS5 mothership is attacked by ASTRO’s long-standing galactic nemesis, scrambling its wires and scattering the crew throughout space, only ASTRO can make things right! Setting off on his biggest mission yet, he needs your help to rescue the stranded crew and rebuild the mothership. Make the most of ASTRO’s new power-ups, handcrafted to level up your immersion: from springy punches and rockets all the way to a giant sponge! Buckle up for some epic PlayStation camaraderie, join forces with your favorite PlayStation icons and show the universe that small is mighty in this fresh new ASTRO adventure, exclusive to PS5 consoles!\r\n\r\nFeatures:\r\n- Blast Off on a Supersized Adventure: From sandy beaches to lush jungles and piping-hot volcanoes, explore a myriad of memorable planets in search of Astro’s lost crew!\r\n- Power Up Your Platforming: With your new powers, battle out a whole new roster of quirky baddies and huge bosses. Feel every hop, punch and crack through your DualSense wireless controller.\r\n- Join the PlayStation Celebration: Reunite with over 150 iconic PlayStation heroes and celebrate 30 years of PlayStation history!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 129006,
+        "game_title": "Astro Bot",
+        "release_date": "2024-09-06",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Quando a nave mãe PS5® é atacada pelo inimigo galáctico de longa data do ASTRO, bagunçando seus fios e espalhando a tripulação pelo espaço, somente o ASTRO poderá consertar as coisas! Ao embarcar na maior missão em que já esteve, ele precisará da sua ajuda para resgatar a tripulação perdida no espaço e reconstruir a nave mãe.\r\n\r\nEmbarque em uma missão galáctica e explore mais de 50 planetas em busca da tripulação perdida de ASTRO.\r\nUse os novos power-ups para correr, balançar para um lado e para o outro e dar socos com foguetes durante esta jornada.\r\nSinta o mundo ganhar vida com o seu controle sem fio DualSense.\r\nJunte-se a heróis icônicos do PlayStation para salvar a galáxia!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 130014,
+        "game_title": "Astro Bot",
+        "release_date": "2024-09-06",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 15,
+        "overview": "Despega hacia una aventura a lo grande.\r\n\r\nExplora más de 50 planetas en busca de tu tripulación perdida.\r\n\r\nCombate usando nuevos e increíbles potenciadores.\r\n\r\nReúnete con héroes emblemáticos de Playstation.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": [
+          21
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "126795": [
+          {
+            "id": 449215,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126795-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127091": [
+          {
+            "id": 440987,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127091-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129006": [
+          {
+            "id": 449023,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129006-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 449024,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/129006-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130014": [
+          {
+            "id": 453506,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/130014-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 453508,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130014-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Astro+Bot&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 154,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629965
+}

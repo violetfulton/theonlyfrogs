@@ -1,0 +1,322 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 41158,
+        "game_title": "Pokémon Sun",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 113126,
+        "game_title": "Pocket Monster: Sun",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 122106,
+        "game_title": "Pokémon Sonne",
+        "release_date": "2016-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 122459,
+        "game_title": "Pokémon Soleil",
+        "release_date": "2016-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 68019,
+        "game_title": "Pokémon Sun [Fan Edition]",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "• Includes • Game & Case • Steelbook Case • Cardboard Sleeve\r\nPokémon Sun and Moon are role-playing video games with adventure elements, based in the fictional Alola region (which itself is loosely based on Hawaiian and Pacific Islander culture), presented in a third-person, overhead perspective. The player controls a young trainer who goes on a quest to catch and train creatures known as Pokémon, and win battles against other trainers. By defeating enemy Pokémon in turn-based battles, the player's Pokémon gains experience, allowing them to level up and increase their battle statistics, learn new battle techniques, and in some cases, evolve into more powerful Pokémon. Alternatively, players can capture wild Pokémon, found during random encounters, by weakening them in battle and catching them with Poké Balls, allowing them to be added to their party. Players are also able to battle and trade Pokémon with other human players using the Nintendo 3DS's connectivity features. Like in previous games in the series, certain Pokémon are only obtainable in either Sun or Moon, with players encouraged to trade with others in order to obtain all Pokémon from both versions.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 44632,
+        "game_title": "Pokémon Sun [Figure Bundle]",
+        "release_date": "2016-11-23",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pokémon Sun and Pokémon Moon are coming to Nintendo 3DS family systems, with a new world, new Pokémon, and new adventures to discover! There’s never been a better time to dive into the world of Pokémon!\r\n\r\nThis game bundle includes Pokémon Sun Steelbook and a FREE Solgaleo Figurine. The Pokémon Sun Steelbook includes the packaged Pokémon Sun software plus an exclusive Steelbook case.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 84489,
+        "game_title": "Pokemon Sun [Figure Bundle] ",
+        "release_date": "2010-03-14",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 41160,
+        "game_title": "Pokémon Sun and Pokémon Moon Dual Pack",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The Pokémon Sun and Pokémon Moon Dual Pack includes both games as well as two codes that will unlock 100 Poké Balls each.\r\n\r\nEmbark on a new adventure as a Pokémon Trainer and catch, battle, and trade all-new Pokémon on the tropical islands of the Alola Region. Discover the Z-Moves and unleash these intense attacks in battle. Call upon Pokémon with Poké Ride to discover new areas across the region and take on the Island Challenge Trials to become the Pokémon Champion!\r\n\r\nChoose one of three new partner Pokémon that will accompany you as you set out on an all-new adventure and discover new Pokémon and regional variant Pokémon in the Alola region. Catch and train Pokémon as you encounter captains, and kahunas of the 4 main Islands of the region. Discover the mystery of the Legendary Pokémon while stopping Team Skull from causing chaos throughout the land.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 47949,
+        "game_title": "Pokémon Sun and Moon Steelbook",
+        "release_date": "2016-11-18",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The Pokémon Sun and Pokémon Moon Steelbook contains both Pokémon Sun and Pokémon Moon game enclosed in a collectible Steelbook case. It features outer art of Legendary Pokémon Solgaleo and Lunala. The inner art features the map of the Alola Region. The Pokémon Sun and Pokémon Moon Steelbook is available at Amazon.com.\r\n\r\nEmbark on a new adventure as a Pokémon Trainer and catch, battle, and trade all-new Pokémon on the tropical islands of the Alola Region. Discover the Z-Moves and unleash these intense attacks in battle. Call upon Pokémon with Poké Ride to discover new areas across the region and take on the Island Challenge Trials to become the Pokémon Champion!\r\n\r\nChoose one of three new partner Pokémon that will accompany you as you set out on an all-new adventure and discover new Pokémon and regional variant Pokémon in the Alola region. Catch and train Pokémon as you encounter captains, and kahunas of the 4 main Islands of the region. Discover the mystery of the Legendary Pokémon while stopping Team Skull from causing chaos throughout the land.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "41158": [
+          {
+            "id": 123442,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41158-1.jpg",
+            "resolution": "1803x1605"
+          }
+        ],
+        "41160": [
+          {
+            "id": 280376,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41160-1.jpg",
+            "resolution": null
+          }
+        ],
+        "44632": [
+          {
+            "id": 211094,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44632-1.jpg",
+            "resolution": null
+          }
+        ],
+        "47949": [
+          {
+            "id": 404161,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/47949-1.jpg",
+            "resolution": null
+          }
+        ],
+        "68019": [
+          {
+            "id": 220440,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68019-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 220441,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/68019-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84489": [
+          {
+            "id": 277838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84489-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113126": [
+          {
+            "id": 385489,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113126-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122106": [
+          {
+            "id": 422671,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122106-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122459": [
+          {
+            "id": 424281,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122459-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Sun&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 465,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630014
+}

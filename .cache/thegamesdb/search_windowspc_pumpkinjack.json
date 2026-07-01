@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 78981,
+        "game_title": "Pumpkin Jack",
+        "release_date": "2020-10-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Pumpkin Jack is a spooky scary 3D platformer in which you embody Jack, the Mythical Pumpkin Lord! Dive into an epic adventure through otherworldly landscapes and help the Evil annihilate the Good!\r\n\r\nColorful Cartoon Setting: Travel through lurid landscapes in levels featuring alluring atmospheres, each crafted with vibrant color palettes, and high-quality lighting effects\r\nFight For Your Life: With challenging beasts lurking around every corner, players must master the art of combo attacks; dodging, and timing to survive dynamic real-time battles! Players must unlock weapons and choose wisely in order to strike down all who oppose them\r\nDon't Lose Your Head: Solve puzzles that focus on physics; gravity, and reflection as Jack, or ditch the skinsuit and just use your flaming head to burn books; hammer some moles, create paths for magic spheres; and more as each level introduces new and exciting challenges\r\nFind Friends to Fight at Your Side: Helpful companions are there to assist Jack on his journey, including a haughty hooty owl to guide him along; and a snarky crow, itching to assist with long-range attacks\r\nDive into an epic adventure and help the Evil annihilate the Good!\r\n\r\nFollow the will of the Devil himself and slay your nemesis in an epic quest that will take you on a journey in the Boredom Kingdom, a mythical realm shattered by the curse. You will meet friends along the way, from a haughty owl to a snarky crow!\r\nDiscover Stunning atmospheres in a Colorful yet Spooky Scary Kingdom\r\n\r\nTravel through epic and dramatic settings, with each level having its own eerie atmosphere. Using a vibrant palette and high quality lighting effects, Pumpkin Jack invents its own unique cartoon universe inspired by the classic PS2 graphic style.\r\nJump, Run & Climb to carve your own way in Unique Levels\r\n\r\nPumpkin Jack is a classic 3D Platformer before anything else! Every level will challenge you through several themed platforms, all giving you new trials to complete.\r\nFight for your life against Evil Beasts by using awesome Unlockable Weapons\r\n\r\nYou will have to master the arts of dodging, timing and movement to vanquish Jack's foes. During the dynamic real time battles, choose which weapon you want to use and strike at the critical moment!\r\nFace Breathtaking Challenges and discover tons of Original Gameplays\r\n\r\nSolve puzzles that focus on physics, gravity and reflection. Inhabit a pumpkin head and burn books, hammer some moles, create a path for magic spheres… But also more! In each level, you will be faced with an action sequence using a new exclusive gameplay!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "78981": [
+          {
+            "id": 254302,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78981-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pumpkin+Jack&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 841,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630073
+}

@@ -1,0 +1,308 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 115597,
+        "game_title": "Nintendogs: Dalmatian & Friends",
+        "release_date": "2006-06-16",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122034,
+        "game_title": "Nintendogs: Dalmatian & Friends",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122036,
+        "game_title": "Nintendogs: Dalmatian & Friends",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130615,
+        "game_title": "Nintendogs: Dalmatian & Friends",
+        "release_date": "2006-06-16",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130616,
+        "game_title": "Nintendogs: Dalmatian & Friends",
+        "release_date": "2006-06-16",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122035,
+        "game_title": "Nintendogs: Dalmatian & Friends [A Puppy Of Your Own Version]",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122515,
+        "game_title": "Nintendogs: Dalmatian & Friends [A Puppy Of Your Own Version]",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 14923,
+        "game_title": "Nintendogs: Dalmatian & Friends [Limited Edition]",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122516,
+        "game_title": "Nintendogs: Dalmatian & Friends [Limited Edition]",
+        "release_date": "2006-10-16",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "With Nintendogs, you can put a puppy inside your Nintendo DS. Pick from multiple breeds, ranging from Labradors to Dalmatians, and then take care of and train the puppy using the touch screen and microphone. If you train your puppy well enough, you can compete in dog shows and agility contests to unlock other items and puppy breeds.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14923": [
+          {
+            "id": 42721,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14923-1.jpg",
+            "resolution": "640x577"
+          }
+        ],
+        "115597": [
+          {
+            "id": 393479,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115597-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122034": [
+          {
+            "id": 422512,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122034-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122035": [
+          {
+            "id": 422515,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122035-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122036": [
+          {
+            "id": 424357,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/122036-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 424678,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122036-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122515": [
+          {
+            "id": 424669,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122515-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122516": [
+          {
+            "id": 424670,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122516-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130615": [
+          {
+            "id": 456775,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130615-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130616": [
+          {
+            "id": 456777,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130616-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Nintendogs%3A+Dalmatian+%26+Friends&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 573,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630030
+}

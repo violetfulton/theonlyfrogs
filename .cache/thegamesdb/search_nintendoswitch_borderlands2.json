@@ -1,0 +1,72 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 78354,
+        "game_title": "Borderlands 2: Game of the Year Edition",
+        "release_date": "2020-05-29",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Borderlands 2 was officially announced on August 3rd, 2011. The game was released on September 18, 2012 in the United States, September 20, 2012 in the Australasia region and September 21, 2012 internationally. Borderlands 2 was built in Unreal Engine 3 and uses PhysX technology. It was announced by Randy Pitchford, Gearbox CEO, that the game sold over 12 millions units by March 2015 on all platforms",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          984,
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          123
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "78354": [
+          {
+            "id": 252875,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78354-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 202,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629973
+}

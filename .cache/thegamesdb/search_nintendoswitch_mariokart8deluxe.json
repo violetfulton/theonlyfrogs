@@ -1,0 +1,377 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 11,
+    "games": [
+      {
+        "id": 42294,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Hit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 103152,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Hit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6041
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 111503,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Hit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114820,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Hit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": [
+          6043,
+          10297
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118847,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Hit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 131782,
+        "game_title": "Mario Kart 8 Deluxe",
+        "release_date": "2017-04-28",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Race on 48 remastered courses from across the Mario Kart series with the Mario Kart 8 Deluxe – Booster Course Pass! All six waves are now available, each including eight courses that can be played locally and online.",
+        "players": 12,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 98819,
+        "game_title": "Mario Kart 8 Deluxe – Booster Course Pass",
+        "release_date": "2022-03-18",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Racers who have an active Nintendo Switch Online + Expansion Pack membership will have access to all of these newly-added courses as they are released at no additional cost. Non-members can access the courses as they are released by purchasing the Mario Kart™ 8 Deluxe – Booster Course Pass on its own from Nintendo eShop.\r\n\r\nDouble your course options with the Mario Kart 8 Deluxe – Booster Course Pass!\r\n\r\nA total of 48 remastered courses from throughout the Mario Kart™ series are racing to the Mario Kart 8 Deluxe game as paid DLC. Courses include those based on real-world locations like Paris Promenade and Tokyo Blur from the Mario Kart Tour game in addition to nostalgic favorites like N64 Choco Mountain and Wii Coconut Mall!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 119247,
+        "game_title": "Mario Kart 8 Deluxe + Booster Course Pass",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "- This is a package containing the Nintendo Switch software Mario Kart 8 Deluxe and the additional content \"Booster Course Pass\" in one game card.\r\n- You will need to download additional data (free of charge) to play the 6th wave in the \"Booster Course Pass\".\r\n- The 6th wave is scheduled for Holiday 2023.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          902,
+          10297
+        ],
+        "genres": [
+          7,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121507,
+        "game_title": "Mario Kart 8 Deluxe + Booster Course Pass Bundle",
+        "release_date": "2023-12-01",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Race and battle your friends in this physical Booster Pass version of Mario Kart 8 Deluxe.\r\n\r\nJump into the driver's seat with more tracks, modes, and features than ever before!\r\n\r\nHit the road, play anytime & anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses. Play locally in up to 4-player multiplayer in 1080p while playing in TV Mode. This special bundle comes with Wave 1-5 DLC. Highlights include the Yoshi’s Island course—inspired by the Super Mario World™ 2: Yoshi’s Island™ game—and returning favorites like DS Waluigi Pinball, GCN Daisy Cruiser, Wii DK Summit, and Wii Rainbow Road. Whether you're coasting through the flowery hills or clinging to the rainbow edges, you're in for a wild ride!\r\n\r\nYou need to download additional free data to have access to Wave 6 courses, characters, and Mii racing suits.\r\n\r\nThere's 8 more characters to unlock and use in all modes! Birdo, Petey Piranha, Kamek, Wiggler, Diddy Kong, Funky Kong, Pauline, and Peachette are all ready to race to the finish.\r\n\r\nInternet access and Nintendo Account required for online features.\r\n",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129004,
+        "game_title": "Mario Kart 8 Deluxe + Booster Course Pass Bundle",
+        "release_date": "2023-12-01",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 1,
+        "overview": "This is an official English Nintendo Switch physical edition for Mario Kart 8 Deluxe + Booster Course Pass for Southeast Asia with ESRB rating. \r\nWave 1 to 6 of the Booster Course Pass are on the Game Card.\r\n\r\nMario Kart 8 Deluxe + Booster Course Pass, a set that includes the Mario Kart 8 Deluxe game and the Booster Course Pass DLC which adds courses and characters from throughout the series, will launch on 1 December 2023. \r\n\r\nAn action racing game in which Mario and other characters ride karts and race around courses, it features the most courses and characters in the series. Enjoy heated races at home and on the go! If you use the \"Smart Steering\" function, even beginners can race without falling off the track.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 78247,
+        "game_title": "Mario Kart 8 Deluxe + Super Mario Party Double Pack",
+        "release_date": "2020-10-04",
+        "platform": 4971,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Target Exclusive Double Pack includes both Mario Kart 8 Deluxe and Super Mario Party for Nintendo Switch.\r\n\r\nHit the road with the definitive version of Mario Kart 8 and play anytime, anywhere! Race your friends or battle them in a revised battle mode on new and returning battle courses.\r\n\r\nPlay locally in up to 4-player multiplayer in 1080p while playing in TV Mode. Every track from the Wii U version, including DLC, makes a glorious return. Plus, the Inklings appear as all-new guest characters, along with returning favorites, such as King Boo, Dry Bones, and Bowser Jr.!\r\n\r\nPlayers can choose a new Smart Steering feature which makes driving and staying on the track easy for novice players and kids even at 200cc\r\n\r\nThe original 4-player Mario Party series board game mode is back! Outwit friends and family as you race across the board; whoever gets the most stars wins! Character-specific Dice Blocks with alternate numberings add another level to your strategy",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          7,
+          20,
+          23
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "42294": [
+          {
+            "id": 137176,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/42294-1.jpg",
+            "resolution": "1174x1902"
+          },
+          {
+            "id": 137257,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/42294-1.jpg",
+            "resolution": "1174x1902"
+          }
+        ],
+        "78247": [
+          {
+            "id": 260262,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/78247-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 279052,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78247-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98819": [
+          {
+            "id": 336234,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98819-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103152": [
+          {
+            "id": 457726,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103152-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111503": [
+          {
+            "id": 413504,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111503-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114820": [
+          {
+            "id": 457730,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114820-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118847": [
+          {
+            "id": 406457,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118847-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119247": [
+          {
+            "id": 457741,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119247-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121507": [
+          {
+            "id": 457735,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121507-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129004": [
+          {
+            "id": 457737,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129004-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 457738,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/129004-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Mario+Kart+8+Deluxe&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 274,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629985
+}

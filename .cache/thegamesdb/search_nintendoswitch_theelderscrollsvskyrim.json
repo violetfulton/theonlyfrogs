@@ -1,0 +1,204 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 110911,
+        "game_title": "The Elder Scrolls V: Skyrim",
+        "release_date": "2017-11-17",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Epic Fantasy Reborn\r\n\r\n \r\nWinner of 200+ Game of the Year Awards, Skyrim® arrives on the Nintendo Switch™ console. The open-world adventure from Bethesda Game Studios® where you can virtually be anyone and do anything, now allows you to go anywhere—at home and on the go. New features include motion controls, gear based on the Legend of Zelda™ series, and amiibo™ compatibility.\r\n\r\nDragons, long lost to the passages of the Elder Scrolls, have returned and the future of Skyrim hangs in the balance. As Dragonborn, the prophesized hero born with the power of The Voice, you are the only one who can stand against them.\r\n\r\nLive another life, in another world—from battling ancient dragons, exploring rugged mountains, building a home, or mastering hundreds of weapons, spells and abilities. For the first time ever, go into battle Legend of Zelda style: fight with the Master Sword, guard with the Hylian Shield, while wearing the Champion's Tunic. The game also includes official add-ons—Dawnguard, Hearthfire, and Dragonborn.\r\n\r\nThe legendary open-world masterpiece from Bethesda Game Studios comes to the Nintendo SwitchTM system\r\nIncludes all content from official add-ons: Dawnguard, Hearthfire, and Dragonborn\r\nUncover the mystery behind the return of the dragons in a massive open world to explore any way you choose\r\nLive another life, in another world and create your own custom character, and do virtually whatever you want.\r\nChoose from hundreds of weapons, spells, and abilities. The character system allows you to play almost any way you want and define yourself through your actions\r\nYour decisions matter in a world that changes dynamically based on your choices\r\nUse motion controls to battle with melee weapons, aim your bow, or pick locks, exclusively on Nintendo Switch™",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 122283,
+        "game_title": "The Elder Scrolls V: Skyrim",
+        "release_date": "2017-11-17",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "The Elder Scrolls V : Skyrim sur Nintendo Switch est un jeu de rôle et le cinquième volet de la saga Elder Scrolls. L'histoire se déroule dans la contrée de Skyrim, près de 200 ans après les événements narrés dans le précédent opus. L'assassinat du Haut-Roi de Bordeciel a plongé le pays dans la guerre civile et pour couronner le tout, c'est le moment que choisit Alduin pour réapparaître. Une seule personne peut rétablir l'équilibre, le Dovahkiin, « fils de Dragons » et ça tombe bien : c'est vous !",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1008
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 125884,
+        "game_title": "The Elder Scrolls V: Skyrim",
+        "release_date": "2017-11-17",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "The legendary open-world adventure where you can be anyone and do anything, now allows you to play anywhere – at home on your TV or on the go. The Elder Scrolls V: Skyrim for Nintendo Switch includes all-new exclusive features like motion control for combat and lockpicking, outfits and gear from The Legend of Zelda franchise, and amiibo (sold separately) compatibility.\r\n\r\nTake down enemies with the Master Sword, protect yourself with the Hylian Shield or look heroic in the Champion’s Tunic. Skyrim also includes all official add-ons – Dawnguard, Hearthfire, and Dragonborn.\r\n\r\nThe High King of Skyrim has been murdered. Alliances form as claims to the throne are made. In the midst of this conflict, a far more dangerous, ancient evil is awakened. Dragons, long lost to the passages of the Elder Scrolls, have returned to Tamriel.\r\n\r\nAustralian Classification: MA",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 48300,
+        "game_title": "The Elder Scrolls V: Skyrim",
+        "release_date": "2017-11-17",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Epic Fantasy Reborn\r\n\r\n \r\nWinner of 200+ Game of the Year Awards, Skyrim® arrives on the Nintendo Switch™ console. The open-world adventure from Bethesda Game Studios® where you can virtually be anyone and do anything, now allows you to go anywhere—at home and on the go. New features include motion controls, gear based on the Legend of Zelda™ series, and amiibo™ compatibility.\r\n\r\nDragons, long lost to the passages of the Elder Scrolls, have returned and the future of Skyrim hangs in the balance. As Dragonborn, the prophesized hero born with the power of The Voice, you are the only one who can stand against them.\r\n\r\nLive another life, in another world—from battling ancient dragons, exploring rugged mountains, building a home, or mastering hundreds of weapons, spells and abilities. For the first time ever, go into battle Legend of Zelda style: fight with the Master Sword, guard with the Hylian Shield, while wearing the Champion's Tunic. The game also includes official add-ons—Dawnguard, Hearthfire, and Dragonborn.\r\n\r\nThe legendary open-world masterpiece from Bethesda Game Studios comes to the Nintendo SwitchTM system\r\nIncludes all content from official add-ons: Dawnguard, Hearthfire, and Dragonborn\r\nUncover the mystery behind the return of the dragons in a massive open world to explore any way you choose\r\nLive another life, in another world and create your own custom character, and do virtually whatever you want.\r\nChoose from hundreds of weapons, spells, and abilities. The character system allows you to play almost any way you want and define yourself through your actions\r\nYour decisions matter in a world that changes dynamically based on your choices\r\nUse motion controls to battle with melee weapons, aim your bow, or pick locks, exclusively on Nintendo Switch™",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1009
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          34
+        ]
+      },
+      {
+        "id": 91060,
+        "game_title": "The Elder Scrolls V: Skyrim [Alt. Cover Red]",
+        "release_date": "2017-11-17",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "This official alternate artwork was printed by Bethesda and distributed through GameStop.  Alt cover could be obtained with a purchase of Skyrim, or by asking politely.  Alt covers came in red and blue variants.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1008
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          34
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "48300": [
+          {
+            "id": 256263,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/48300-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 256264,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/48300-1.jpg",
+            "resolution": null
+          }
+        ],
+        "91060": [
+          {
+            "id": 303299,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/91060-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 303300,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/91060-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110911": [
+          {
+            "id": 380380,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110911-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122283": [
+          {
+            "id": 423426,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122283-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125884": [
+          {
+            "id": 436774,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125884-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Elder+Scrolls+V%3A+Skyrim&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 206,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629974
+}

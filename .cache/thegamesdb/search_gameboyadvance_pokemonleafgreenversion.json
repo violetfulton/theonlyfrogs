@@ -1,0 +1,109 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 2314,
+        "game_title": "Pokémon LeafGreen Version",
+        "release_date": "2004-09-07",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Set off on a grand adventure to fulfill your dreams of becoming a Pokémon Master! Explore the Kanto region and discover wild Pokémon around every corner. Build your Pokémon collection and train, and battle your way to success—earn your badges as you develop winning strategies to use against experienced Gym Leaders every town. Explore every inch to uncover amazing secrets that will help you in your quest to be the best trainer ever!\r\n\r\n• Trade, battle, and chat wirelessly! All new wireless adapter comes packed in every game, so trainers can trade, battle, and chat between their FireRed and LeafGreen versions with no cables!\r\n• Catch loads of Pokémon in the never-before-seen island areas!\r\n• Expand your collection when you trade with a friend. Link up with Pokémon Ruby & Sapphire or Pokémon Colosseum to catch them all!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 81435,
+        "game_title": "Pokémon LeafGreen Version [Player's Choice]",
+        "release_date": "2006-10-02",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2314": [
+          {
+            "id": 4883,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2314-1.jpg",
+            "resolution": "640x646"
+          },
+          {
+            "id": 286680,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2314-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81435": [
+          {
+            "id": 264699,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81435-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+LeafGreen+Version&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 523,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630022
+}

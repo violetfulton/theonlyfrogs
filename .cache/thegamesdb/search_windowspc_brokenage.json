@@ -1,0 +1,151 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 19168,
+        "game_title": "Broken Age",
+        "release_date": "2014-01-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Broken Age is a point-and-click adventure telling the stories of a young boy and girl leading parallel lives. The girl has been chosen by her village to be sacrificed to a terrible monster--but she decides to fight back. Meanwhile, a boy on a spaceship is living a solitary life under the care of a motherly computer, but he wants to break free to lead adventures and do good in the world. Adventures ensue!",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          2456
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          922
+        ]
+      },
+      {
+        "id": 70455,
+        "game_title": "Broken Age Limited Box",
+        "release_date": "2014-01-28",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": [
+          922
+        ]
+      },
+      {
+        "id": 49527,
+        "game_title": "Bar Games",
+        "release_date": "1989-09-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "\"WANNA GET LUCKY?\" Cruise into the hottest bar in town. Here, men are men and the women are glad of it. Pick-up lines slice through the charged air faster than a beer sliding across a counter top. And games of s kill and chance are enjoyed while the big-screen blares out the cable sports network. Bar games takes you there...sits you right down on your favorite stool. Partake in 5 classic saloon games while sharing a cold brew and hot conversation. Relax. It's happy hour. Cheers.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          203
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          113
+        ]
+      },
+      {
+        "id": 124919,
+        "game_title": "Barro Racing",
+        "release_date": "2020-09-11",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Important: DLCs were added after the launch as improvement to the game and more content will be added to it with time.\r\n\r\nBarro Racing is a racing game with a toy car / go kart style, check out the different game modes listed below.\r\nGame Modes\r\nBR - Bugs (Base game)\r\nBR - Origins\r\nBR - Formula\r\nBR - GT\r\nBR - Old Cars\r\nBR - Rally",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          7
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19168": [
+          {
+            "id": 54744,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19168-1.jpg",
+            "resolution": "300x301"
+          }
+        ],
+        "49527": [
+          {
+            "id": 126648,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/49527-1.jpg",
+            "resolution": "306x400"
+          }
+        ],
+        "70455": [
+          {
+            "id": 224773,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70455-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124919": [
+          {
+            "id": 433753,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124919-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Broken+Age&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 974,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630096
+}

@@ -1,0 +1,223 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 17019,
+        "game_title": "Animal Crossing: New Leaf",
+        "release_date": "2013-06-09",
+        "platform": 4912,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Animal Crossing: New Leaf is a social simulation game. You take on the role as the new mayor in a small village populated by animals. Game play consists of improving the village with new buildings and decorations, collecting furniture and items for your own house as well as donating fossils, fish, insects and art to the local museum.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 104767,
+        "game_title": "Animal Crossing: New Leaf",
+        "release_date": "2012-11-08",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Animal Crossing: New Leaf is a social simulation game. You take on the role as the new mayor in a small village populated by animals. Game play consists of improving the village with new buildings and decorations, collecting furniture and items for your own house as well as donating fossils, fish, insects and art to the local museum.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 120072,
+        "game_title": "Animal Crossing: New Leaf",
+        "release_date": "2013-06-09",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Animal Crossing: New Leaf is a social simulation game. You take on the role as the new mayor in a small village populated by animals. Game play consists of improving the village with new buildings and decorations, collecting furniture and items for your own house as well as donating fossils, fish, insects and art to the local museum.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 64897,
+        "game_title": "Animal Crossing: New Leaf - Welcome Amiibo",
+        "release_date": "2016-12-06",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Expand your virtual world with Animal Crossing: New Leaf - Welcome amiibo for the Nintendo 3DS. This updated version of New Leaf works with all Animal Crossing amiibo figures and cards for a new in-game experience. A new card included with the game makes Animal Crossing: New Leaf - Welcome amiibo a must for any fan of the series.\r\n\r\nThis updated version of Animal Crossing: New Leaf adds in support for all Animal Crossing series amiibo figures and cards.\r\nIt's not just a game...it's a way of life - there are no points or levels, just an amazing array of sights and sounds, places and activities...all yours to explore\r\nTotally unique...just like you - your game is what you make it - and personalizing your world is part of the fun\r\nCustomize your character, your house, and your town as you create your ideal world\r\nNew day, new discoveries - time passes in the world of Animal Crossing just as it does in real life\r\nContains a brand-new RV campsite where you can interact with villagers\r\nFor 1 to 4 players",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 71291,
+        "game_title": "Animal Crossing: New Leaf [Nintendo Selects]",
+        "release_date": "2016-08-26",
+        "platform": 4912,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Animal Crossing: New Leaf is a social simulation game. You take on the role as the new mayor in a small village populated by animals. Game play consists of improving the village with new buildings and decorations, collecting furniture and items for your own house as well as donating fossils, fish, insects and art to the local museum.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6041
+        ],
+        "genres": [
+          3,
+          4,
+          9
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 127850,
+        "game_title": "Animal Crossing: Welcome Luxury",
+        "release_date": "2019-04-23",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          9,
+          12,
+          24,
+          28
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17019": [
+          {
+            "id": 402507,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17019-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 402508,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17019-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64897": [
+          {
+            "id": 213346,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64897-1.jpg",
+            "resolution": null
+          }
+        ],
+        "71291": [
+          {
+            "id": 235596,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/71291-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104767": [
+          {
+            "id": 358689,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104767-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120072": [
+          {
+            "id": 412166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120072-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127850": [
+          {
+            "id": 443645,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127850-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+New+Leaf&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 505,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630019
+}

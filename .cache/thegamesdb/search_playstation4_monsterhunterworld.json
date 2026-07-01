@@ -1,0 +1,265 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 52679,
+        "game_title": "Monster Hunter: World",
+        "release_date": "2018-01-26",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Monster Hunter: World is an action role-playing game set in an open world environment and played from a third-person perspective. As with previous games in the series, the player takes the role of a Hunter that is tasked by the \"Research Commission\" to hunt down and either kill or capture large monsters that roam outside their central base of Astera for them to study. The player's character does not have any intrinsic attributes, but instead these are determined by what equipment the character is equipped with. This includes a weapon which comes from one of fourteen archetypes (such as long sword, bow, or bowguns), which then further defines the types of combat moves and abilities the player can use, and pieces of armor, which can lead to beneficial or detrimental combat skills if matched properly. While some basic equipment can be purchased using in-game money, most equipment is built from loot obtained by slaying or trapping monsters, rewards from completing quests, or items gathered while in the field. This creates a core loop of gameplay that has the player fight monsters they can beat to obtain the right loot to craft improved weapons and armor to allow them to face more powerful monsters and the potential for even better equipment.",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 87870,
+        "game_title": "Monster Hunter: World",
+        "release_date": "2018-01-26",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 40,
+        "overview": "In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.\r\n\r\nOnce every decade, elder dragons trek across the sea to travel to the land known as the New World in a migration referred to as the Elder Crossing.\r\n\r\nTo get to the bottom of this mysterious phenomenon, the Guild has formed the Research Commission, dispatching them in large fleets to the New World.\r\n\r\nAs the Commission sends its Fifth Fleet in pursuit of the colossal elder dragon known as Zorah Magdaros, one hunter is about to embark on a journey grander than anything they could have ever imagined.\r\n\r\n* Battle gigantic monsters in epic locales.\r\nAs a hunter, you'll take on quests to hunt monsters in a variety of habitats.\r\nTake down these monsters and receive materials that you can use to create stronger weapons and armor in order to hunt even more dangerous monsters.\r\n\r\n* A World That Breathes Life\r\nThere are various locations teeming with wildlife. Expeditions into these locales are bound to turn up interesting discoveries.\r\n\r\n* A Diverse Arsenal, and an Indispensable Partner\r\nYour equipment will give you the power to need to carve out a place for yourself in the New World.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 103085,
+        "game_title": "Monster Hunter: World",
+        "release_date": "2018-01-26",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 115339,
+        "game_title": "Monster Hunter: World",
+        "release_date": "2018-01-26",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Monster Hunter: World is a 2018 action role-playing game developed and published by Capcom. The fifth mainline installment in the Monster Hunter series, it was released worldwide for PlayStation 4 and Xbox One in January 2018, with a Windows version following in August 2018. In the game, the player takes the role of a Hunter, tasked to hunt down and either kill or trap monsters that roam in one of several environmental spaces. If successful, the player is rewarded through loot consisting of parts from the monster and other elements that are used to craft weapons and armor, amongst other equipment. The game's core loop has the player crafting appropriate gear to be able to hunt down more difficult monsters, which in turn provide parts that lead to more powerful gear. Players may hunt alone or in a group of up to four players via the game's online multiplayer.\r\n\r\nAnnounced at E3 2017, Monster Hunter: World adopts the series' standard formulas from its older home console roots and recent handheld games to take advantage of the higher processing power provided by modern consoles and computers. Changes made in Monster Hunter: World include creating environmental spaces that are fully connected and removing the \"zones\" that were necessary for the PlayStation 2 and handheld games, more advanced monster artificial intelligence and physics, a more persistent cooperative multiplayer experience, and a refinement of the game's tutorials and user interface to help with bringing new players into the series. These changes led Capcom to plan for the game's simultaneous release worldwide, since Monster Hunter as a series has generally languished outside of Japan partially due to disparate release schedules. Capcom also opted to support online play between these different geographic regions for similar reasons. The delay for the Windows release was attributed to Capcom seeking to make sure its first foray into the Windows market was optimized for players on computers. By April 2020, updates to the game were synchronized among all platforms.\r\n\r\nMonster Hunter: World received critical acclaim upon release, with critics praising how Capcom was able to make the game more accessible to new players and to Western markets, without detracting from the series' core gameplay elements and enjoyable difficulty, and fully taking advantage of the computational capacity of modern consoles to create living ecosystems, with some even calling it the best in the franchise. Monster Hunter: World is the single highest-selling game in Capcom's history, with over 21 million copies shipped by July 2022. A DLC expansion pack, subtitled Iceborne, was released for home consoles in September 2019 and for Windows in January 2020, and reached 10 million sales by December 2022. The next mainline installment, Monster Hunter Rise, was co-developed alongside World and announced for a worldwide release on Nintendo Switch in March 2021, with a Windows version released the following year.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4,
+          27
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 66237,
+        "game_title": "Monster Hunter: World - Iceborne",
+        "release_date": "2019-09-06",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Discover breathtaking environments and battle titanic creatures in this collection that includes Monster Hunter: World and its massive expansion, Iceborne. As a hunter, you’ll take on quests to track & slay monsters in a variety of living, breathing habitats. Take down these monsters and use their materials to forge even more powerful weapons and armor, then prepare for even tougher foes as the story unfolds. Each discovery adds new areas, creatures and drama to the adventure! The Iceborne expansion adds new monsters, gear and abilities to Monster Hunter: World. Picking up right where the base game left off, the Research Commission and your hunter set off to a new polar region, kicking off a brand-new story set in Hoarfrost Reach. From this frigid staging ground, you’ll encounter all-new creatures, forge amazing new weapons and armor, and tackle thrilling quests that offer some of the most challenging encounters yet. Conquer these missions alone, or play online with other hunters for epic multiplayer quests.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 126446,
+        "game_title": "Monster Hunter: World [PlayStation Hits]",
+        "release_date": "2016-01-26",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Monster Hunter: World is an action role-playing game set in an open world environment and played from a third-person perspective. As with previous games in the series, the player takes the role of a Hunter that is tasked by the \"Research Commission\" to hunt down and either kill or capture large monsters that roam outside their central base of Astera for them to study. The player's character does not have any intrinsic attributes, but instead these are determined by what equipment the character is equipped with. This includes a weapon which comes from one of fourteen archetypes (such as long sword, bow, or bowguns), which then further defines the types of combat moves and abilities the player can use, and pieces of armor, which can lead to beneficial or detrimental combat skills if matched properly. While some basic equipment can be purchased using in-game money, most equipment is built from loot obtained by slaying or trapping monsters, rewards from completing quests, or items gathered while in the field. This creates a core loop of gameplay that has the player fight monsters they can beat to obtain the right loot to craft improved weapons and armor to allow them to face more powerful monsters and the potential for even better equipment.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 64873,
+        "game_title": "Monster Hunter: World Collector's Edition",
+        "release_date": "2018-01-26",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Monster Hunter: World Collector's Edition includes:\r\n\r\nMonster Hunter: World Standard Game\r\nNergigante Statue\r\n32-page Hardcover Art book\r\nDigital Soundtrack\r\nDigital Deluxe DLC Card, featuring:\r\nSamurai Set\r\nAdditional Gesture 1: Zen\r\nAdditional Gesture 2: Ninja Star\r\nAdditional Gesture 3: Sumo Slap\r\n2 additional sticker sets\r\n\"Wyvern\" face paint\r\n\"Topknot\" hairstyle",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4,
+          12,
+          14
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "52679": [
+          {
+            "id": 201876,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/52679-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 201877,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52679-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64873": [
+          {
+            "id": 213638,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64873-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 213639,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/64873-1.jpg",
+            "resolution": null
+          }
+        ],
+        "66237": [
+          {
+            "id": 425367,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/66237-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87870": [
+          {
+            "id": 291635,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87870-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103085": [
+          {
+            "id": 353019,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103085-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115339": [
+          {
+            "id": 392626,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115339-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126446": [
+          {
+            "id": 438674,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126446-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter%3A+World&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 355,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629998
+}

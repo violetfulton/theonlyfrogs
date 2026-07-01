@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 122419,
+        "game_title": "PlateUp!",
+        "release_date": "2022-08-04",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "PlateUp! combines chaotic kitchen and restaurant management with strategic planning and development to create a delightful roguelite dish unlike any other.\r\n\r\nUp to four players build and run a restaurant from scratch, choosing dishes, buying and placing appliances – some of which can be daisy-chained together to create ambitious automatic kitchens – cooking food and serving customers.\r\n\r\nPlayers have free rein to design their restaurant which will expand and develop between shifts – with additional content and challenges unlocked through progression.\r\n\r\nCan you cook, serve and manage your way through 15 hectic days in your restaurant and unlock a brand-new franchise?\r\n\r\nClassic co-op cooking action, with a wide selection of mains, sides, sauces, toppings, desserts, and starters.\r\n\r\nChoose your equipment, lay out your kitchen, curate your menu and plate up your dishes.\r\nFrom bubbling soups to sublime salads, tender steaks to hearty pies, there's something for everyone.\r\n\r\nLook after front-of-house: seating customers, delivering orders, and managing patience.\r\n\r\nEquip your restaurant to handle the most fickle of customers and deliver them what they need, right when they need it.\r\n\r\nCo-operate with your team like a well-olive-oiled machine or build a name for yourself going it alone.\r\n\r\nExceed your goals and take your franchise to greater heights at a new location, bringing with you new unlocks and upgrade\r\n\r\nUpgrade and rearrange your restaurant to your personal taste: when the restaurant closes for the day, the planning begins!\r\n\r\nDecide what new equipment to purchase, and place it wherever you want.\r\n\r\nWant to go high-tech? Install the turbo-ovens, crank up the conveyors, and make way for the robo-kitchen of the future.\r\n\r\nFancy something a little more... fancy? Curate your art collection, fix up that wallpaper, enlist a friend as a maître d' and get ready to provide the culinary experience of a lifetime.\r\n\r\nExceed your goals and start over at your next location, bringing with you new unlocks and upgrades.\r\n\r\nTailor your brand towards gourmet dining, or fine-tune your fast food franchise.\r\n\r\nEvery restaurant is procedurally-generated with its own climate, customers and conditions.\r\n\r\nReturn to your franchise HQ to view your achievements, customise your characters and upgrade your kit, ready for your next adventure!",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          6,
+          9
+        ],
+        "publishers": [
+          5199
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "122419": [
+          {
+            "id": 424029,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122419-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=PlateUp%21&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 816,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630069
+}

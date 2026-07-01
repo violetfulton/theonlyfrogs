@@ -1,0 +1,92 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 122786,
+        "game_title": "SPYxFAMILY: Operation Diary",
+        "release_date": "2023-12-21",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 118823,
+        "game_title": "SPYxANYA: Operation Memories",
+        "release_date": "2024-01-01",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Anya Forger has a new school assignment: create a photo diary. Spend time with Anya’s family and friends at school, home, the beach, museums and other familiar places, and take pictures to fill up her photo diary with memorable moments. In addition to outings, play a variety of minigames to unlock costumes and add some flair to Anya’s memories by dressing everyone up in style. SPY×ANYA: Operation Memories launches on Nintendo Switch in 2024.",
+        "players": 1,
+        "rating": "RP - Rating Pending",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": [
+          6
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "118823": [
+          {
+            "id": 406420,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118823-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122786": [
+          {
+            "id": 425768,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122786-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spy+x+Anya%3A+Operation+Memories&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 64,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629951
+}

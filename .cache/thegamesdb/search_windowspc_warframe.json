@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 16807,
+        "game_title": "Warframe",
+        "release_date": "2013-03-25",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Warframe is a cooperative free-to-play third person online action game set in an evolving sci-fi world. Join your friends in player-vs-enemy raids across the solar system and master the power of the Warframes. Stand alone or fight together against enemies that threaten your world.\r\n\r\nThey were called Tenno. Warriors of blade and gun: masters of the Warframe armor. Those that survived the old war were left drifting among the ruins. Now they are needed once more.\r\n\r\nThe Grineer, with their vast armies, are spreading throughout the solar system. A call echoes across the stars summoning the Tenno to an ancient place. They summon you.\r\n\r\nAllow the Lotus to guide you. She has rescued you from your cryostasis chamber and given you a chance to survive. The Grineer will find you; you must be prepared. The Lotus will teach you the ways of the Warframes and the secrets to unlocking their powers.\r\n\r\nCome Tenno, you must join the war.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          2322
+        ],
+        "genres": [
+          1,
+          14
+        ],
+        "publishers": [
+          861
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "16807": [
+          {
+            "id": 46048,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16807-1.jpg",
+            "resolution": "500x731"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Warframe&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 761,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630059
+}

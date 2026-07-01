@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 44387,
+        "game_title": "Kung Fu Panda: Showdown of Legendary Legends",
+        "release_date": "2015-12-01",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "It is an age of Kung Fu heroes, warriors, and best of all, LEGENDARY LEGENDS!\r\n\r\nFight it out alongside Po, Tigress, Monkey, Tai Lung, Master Shifu, and all of your favorite Kung Fu Panda characters to compete in the Showdown of Legendary Legends. Up to four players brawl in iconic locations throughout the Valley of Peace and beyond. Compete in an epic tournament where all Kung Fu warriors contend for honor and glory.\r\n\r\nKung Fu Panda: Showdown of Legendary Legends will have a wide assortment of modes available for single and multiplayer. All multiplayer modes will include options for both local and online play.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          9355
+        ],
+        "genres": [
+          1,
+          10
+        ],
+        "publishers": [
+          1892
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "44387": [
+          {
+            "id": 201568,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44387-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Kung+Fu+Panda%3A+Showdown+of+Legendary+Legends&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 359,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629998
+}

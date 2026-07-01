@@ -1,0 +1,71 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 113459,
+        "game_title": "Bomb Rush Cyberfunk",
+        "release_date": "2023-08-18",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Team Reptile brings you Bomb Rush Cyberfunk, a future world from the mind of Dion Koster where self-styled graffiti crews equipped with personal boostpacks are battling each other for control of the streets. Start your own cypher and dance, paint graffiti, collect beats, combo your tricks and face off with the cops to stake your claim to the sprawling metropolis of New Amsterdam.\r\n\r\nRed is a graffiti writer who lost his head and instead uses a cyberhead to get around. In search of his roots he joins the Bomb Rush Crew, Tryce and Bel. Together they decide to go All City, to become the best graffiti crew in the city. The more territory they gain, the more they discover who it was that cut off Red's head and how deep his human side is linked to the graffiti world.\r\n\r\nExplore the 5 main boroughs of the city to hit graffiti spots and get REP. You'll need it to challenge the rival crews to a Crew Battle.\r\nFind new members to join your crew around the city. Spread around are also new graffiti pieces to paint, outfit colors and music to play on your flip phone.\r\nUse skateboarding, inline skating or BMX style tricks in the unique environment based trick system. Extend your combos with manuals and get even higher scores by incorporating special Boost Tricks.\r\nYou can get boost power for doing long combos so the fastest way to move is also the most stylish.\r\nDynamic militarized police that scales up as you vandalize.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8567
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          2634
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "113459": [
+          {
+            "id": 408307,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113459-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Bomb+Rush+Cyberfunk&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 911,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630085
+}

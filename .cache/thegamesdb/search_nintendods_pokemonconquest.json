@@ -1,0 +1,105 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 11395,
+        "game_title": "Pokémon: Conquest",
+        "release_date": "2012-06-18",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "In Pokemon Conquest, players take on the role of a young Warlord who is linked with a Pokemon. Together, they must set out to recruit Warrior allies to strengthen their growing kingdom. Along their journey, players will encounter a variety of Pokemon, as well as Warriors and Warlords inspired by the Japanese feudal era. The game contains nearly 200 Pokemon, including many from the recent Pokemon Black Version and Pokemon White Version games, which have sold more than 4 million copies combined in the United States.\r\nAs the battlefield unfolds in Pokemon Conquest, players must choose the correct Pokemon type to inflict maximum damage on their opponents. In the turn-based skirmishes, players choose different tactics for intense six-on-six battles, and battle conditions can change on every turn, keeping players on their toes in anticipation of what will happen next.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314,
+          8615
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 129063,
+        "game_title": "Pokemon Conquest: Ultimate",
+        "release_date": "2024-01-08",
+        "platform": 8,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Pokémon Conquest: Ultimate is a Gen 9 mod that adds 200 fully evolved Pokémon, including 150 new Gen 9 additions, to the original Pokémon Conquest game. In order to provide a more strategic experience, the game rebalances the techniques, abilities, and Warrior Skills already present. Every Warrior now possesses their own one-of-a-kind Perfect Links, and the level of difficulty has been raised. The user experience is improved by the addition of updated battlefields and in-game information.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          6
+        ],
+        "publishers": [
+          1976
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "11395": [
+          {
+            "id": 32220,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11395-1.jpg",
+            "resolution": "800x717"
+          },
+          {
+            "id": 64726,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/11395-1.jpg",
+            "resolution": "640x577"
+          }
+        ],
+        "129063": [
+          {
+            "id": 449222,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129063-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Conquest&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 545,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630026
+}

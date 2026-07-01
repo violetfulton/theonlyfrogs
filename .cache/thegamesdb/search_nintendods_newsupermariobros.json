@@ -1,0 +1,287 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 6859,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-05-15",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "New Super Mario Bros. is a 2006 DS video game developed by Nintendo EAD and released by Nintendo of America in the USA on May 15, 2006.\r\n\r\nIn an all new 2D side-scrolling adventure, Mario and Luigi return after nearly fifteen years. The first traditional Mario Bros. game since Super Mario World.\r\n\r\nThe character models are rendered in real time 3D, allowing for a far greater number of moves ever before seen in a Mario Bros. title. Also as the game is on DS, the touch screen allows players to store an additional power-up and view the distance still to go in a level.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 130607,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-05-25",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "New Super Mario Bros. is a platform video game developed and published by Nintendo for the Nintendo DS. It was first released in May 2006 in North America and Japan, and in PAL regions in June 2006. It is the first installment in the New Super Mario Bros. subseries of the Super Mario franchise, and follows Mario as he fights his way through Bowser's henchmen to rescue Princess Peach. Mario has access to several power-ups that help him complete his quest, including the Super Mushroom, the Fire Flower, and the Super Star, each giving him unique abilities. While traveling through eight worlds with more than 80 levels, Mario must defeat Bowser Jr. and Bowser before saving Princess Peach.\r\n\r\nNew Super Mario Bros. was commercially successful and received positive reviews; praise went towards the game's improvements made to the Mario franchise and faithfulness to older Mario games, while criticism was targeted at its low difficulty level and many critics noted its similarity to previous games. It sold over 30 million copies worldwide, making it the best-selling game for the Nintendo DS and one of the best-selling video games of all time. The game's success led to a line of sequels released for the Wii, Nintendo 3DS, Wii U, and Nintendo Switch.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 113343,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-06-30",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 5,
+        "overview": "Na een lange afwezigheid is de 2D Mario platformer weer terug! Opnieuw is Princess Peach ontvoerd door Bowser en alleen de gebroeders Mario en Luigi kunnen haar redden. Reis door Mushroom Kingdom en kom bekende figuren en vijanden tegen. De nostalgie is heerlijk, maar daarnaast is het spel ook vernieuwend. De klassieke gameplay wordt gecombineerd met weelderige graphics, swingende melodieën \r\nNieuwe power-ups \r\n\r\nDeze Super Mario Bros. zou niet New heten als er geen nieuwe elementen in zouden zitten. Zo bevat deze game verschillende nieuwe power-ups. Zo kan Mario bijvoorbeeld een blauw schil oppakken waarmee hij in Shell Mario veranderd. Mario krijgt een blauw schild om en als hij rent en duikt rolt hij over het platform om vijanden te verslaan en blokken te vernietigen. Ook is er een enorme Mushroom die Mario nog groter maakt dan King Kong en nog vele andere nieuwtjes.\r\nMultiplayer mogelijkheden in New Super Mario Bros.\r\n\r\nIn de Multiplayer modus van New Super Mario Bros. voor de DS kun je spelen met twee spelfiguren: Mario en Luigi. De twee spelers kiezen elk een spelpersonage en nemen het in vijf verschillende levels tegen elkaar op. Het doel is om meer Big Stars te bemachtigen dan de ander. Beide spelers kunnen elkaa raanvallen en elkaars Big Stars stelen: een ontzettend leuke twee persoons gameplay dus!",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115275,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-06-30",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "New Super Mario Bros. is a platform video game developed and published by Nintendo for the Nintendo DS. It was first released in May 2006 in North America and Japan, and in PAL regions in June 2006. It is the first installment in the New Super Mario Bros. subseries of the Super Mario franchise, and follows Mario as he fights his way through Bowser's henchmen to rescue Princess Peach. Mario has access to several power-ups that help him complete his quest, including the Super Mushroom, the Fire Flower, and the Super Star, each giving him unique abilities. While traveling through eight worlds with more than 80 levels, Mario must defeat Bowser Jr. and Bowser before saving Princess Peach.\r\n\r\nNew Super Mario Bros. was commercially successful and received positive reviews; praise went towards the game's improvements made to the Mario franchise and faithfulness to older Mario games, while criticism was targeted at its low difficulty level and many critics noted its similarity to previous games. It sold over 30 million copies worldwide, making it the best-selling game for the Nintendo DS and one of the best-selling video games of all time. The game's success led to a line of sequels released for the Wii, Nintendo 3DS, Wii U, and Nintendo Switch.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 119127,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-06-08",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "In an all new 2D side-scrolling adventure, Mario and Luigi return after nearly fifteen years. The first traditional Mario Bros. game since Super Mario World.\r\n\r\nThe character models are rendered in real time 3D, allowing for a far greater number of moves ever before seen in a Mario Bros. title. Also as the game is on DS, the touch screen allows players to store an additional power-up and view the distance still to go in a level.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114232,
+        "game_title": "New Chāojí Mǎlìōu Xiōngdì",
+        "release_date": "2009-07-02",
+        "platform": 8,
+        "region_id": 3,
+        "country_id": 11,
+        "overview": "Jump into an all-new Mario adventure!\r\n\r\n* Run, jump, and stomp your way through raging volcanoes, tropical islands, snowcapped peaks, and unimaginable challenges!\r\n\r\n* Grab a Mega Mushroom and grow to incredible proportions, or smash through your foes in a blue koopa shell!\r\n\r\n* Challenge a friend to so a wireless face-off on specially designed levels, or play up to three friends in a ton of touch screen mini-games.",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 101196,
+        "game_title": "New Super Mario Bros. [Red Case]",
+        "release_date": "2011-06-07",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "In an all new 2D side-scrolling adventure, Mario and Luigi return after nearly fifteen years. The first traditional Mario Bros. game since Super Mario World.\r\nThe character models are rendered in real time 3D, allowing for a far greater number of moves ever before seen in a Mario Bros. title. Also as the game is on DS, the touch screen allows players to store an additional power-up and view the distance still to go in a level.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 105605,
+        "game_title": "New Super Mario Bros. Deluxe",
+        "release_date": "2012-12-12",
+        "platform": 8,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "New Super Mario Bros. Deluxe! is a full New super mario bros. hack, which is a remake of \"Super Mario bros. 1\" and \"The Lost Levels\".\r\nThe original levels have been recreated faithfully, but thats not all!\r\n\r\nThe first 5 worlds + some levels in World 7 (And one in World 6) have been expanded with custom areas.\r\nThis custom areas holds the Starcoins. But the entrances are hidden, so you will first have to find an entrance to this area in the original levels ;)\r\nLevel style varies from New Challenges, to Retro Inspired custom areas!\r\nThe 5 cannons located in the game have been expanded, so now they are a full level, having at the end the warp cannon.\r\nTo add some more fun, the original Warpzones are there, but you must find them first! (dont worry, the original warpzone pipes will exit you near them ;) )\r\nAs a bonus, 4 of the best Super Mario Bros. Special levels are included, hidden as extra areas!\r\n(would have included more, but most of those levels are almost identically to SMB1 :P )\r\nThe bowser Jr. fights have been modified to add more challenge.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6859": [
+          {
+            "id": 82968,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6859-1.jpg",
+            "resolution": "640x576"
+          },
+          {
+            "id": 83190,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6859-1.jpg",
+            "resolution": "1000x894"
+          }
+        ],
+        "101196": [
+          {
+            "id": 347489,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101196-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105605": [
+          {
+            "id": 362336,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105605-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113343": [
+          {
+            "id": 386345,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113343-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114232": [
+          {
+            "id": 389039,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114232-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 389040,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114232-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115275": [
+          {
+            "id": 392427,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115275-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119127": [
+          {
+            "id": 407534,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119127-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130607": [
+          {
+            "id": 456746,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130607-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=New+Super+Mario+Bros.&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 583,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630031
+}

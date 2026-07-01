@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 85914,
+        "game_title": "Genshin Impact",
+        "release_date": "2021-04-28",
+        "platform": 4980,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Greetings, Travelers! Genshin Impact’s dev team here, eager to announce that the PlayStation 5 version of Genshin Impact will be arriving on April 28! We would like to share some details about the PS5 version of the game with all of you — we just couldn’t wait any longer!\r\n\r\nFor anyone new to the game, Genshin Impact is an open-world action RPG that takes place in the vast magical land of Teyvat. You play as a Traveler from another world who has been separated from their twin. You embark on a journey to find them, and along the way you gradually discover the secrets and fate of this exotic world.\r\n\r\nThe PlayStation 5 hardware provides an ideal platform to experience Genshin Impact, making the world of Teyvat even more detailed, more vivid, and more immersive. That’s why we wanted to bring the PS5 version to players as soon as we could. At the same time, we’ve been working to develop various functions to fully utilize this next-gen console in the long run: we created a graphics library completely from the ground up, and we built a customized file-loading system to take advantage of the powerful SSD of the PS5. So in future updates, we will have much more potential to elevate the visual quality and game performance – we are only scratching the surface.\r\n\r\nWith Genshin Impact, we want to transport you into a visually stunning and culturally diverse world. The all-new graphics library allows us to pack even more details into the game world. Look closely at your surroundings, and the high-res texture will tell you a unique story in every tiny detail; raise your eyes to the horizon, and the enhanced Level of Detail distance will bring you an impressive view of landmarks near and far. Even better, the PlayStation 5 allows you to run all these details in native 4K resolution. If you have an HDR display, with our HDR support, you can enjoy an even more vibrant look at the world.\r\n\r\nGenshin Impact features massive and changing landscapes. So when you traverse the open-world and domains, faster loading will make your adventure so much smoother. With the PlayStation 5’s SSD and our tailor-made file-loading system, teleporting from one place to another now takes just seconds. You can jump right into domains almost instantaneously, ready to explore and fight!\r\n\r\nBut to truly approach the next-gen experience, we realize the DualSense controller will be a game-changer by showing how the game world responds to your actions within. The DualSense controller adopts very different technologies, and we’re still redesigning the controller support from scratch to explore it’s full potential. You may notice that the controller vibration feels different from that in the backward-compatible version of the game. We can’t wait to integrate even more of the controller’s features to better reflect your immersive experience in Teyvat.\r\n\r\nWe’ve also prepared an exclusive version of Qingyun Peak only for PlayStation 5 players! This mountain peak has been one of the most popular places in the game among both our players and team. So we’ve given this location a bit of a makeover. We hope you like the surprise!\r\n\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4,
+          12,
+          27
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "85914": [
+          {
+            "id": 390489,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85914-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Genshin+Impact&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 152,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629965
+}

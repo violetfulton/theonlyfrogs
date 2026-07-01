@@ -1,0 +1,260 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 33255,
+        "game_title": "The Witcher 3: Wild Hunt",
+        "release_date": "2015-05-19",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The game will be the third in the series, which is based on the book series of the same name by Polish author Andrzej Sapkowski. The Witcher 3 is set \"In an open world 30 times larger\" than the previous games, featuring the return of protagonist Geralt.\r\n\r\nThe Witcher: Wild Hunt is a story-driven, next-generation open world role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher you play as the professional monster hunter, Geralt of Rivia, tasked with finding a child of prophecy in a vast open world rich with merchant cities, viking pirate islands, dangerous mountain passes, and forgotten caverns to explore. \r\n\r\nPLAY AS A HIGHLY TRAINED MONSTER SLAYER FOR HIRE \r\nTrained from early childhood and mutated to gain superhuman skills, strength and reflexes, witchers are a distrusted counterbalance to the monster-infested world in which they live. \r\nGruesomely destroy foes as a professional monster hunter armed with a range of upgradeable weapons, mutating potions and combat magic. \r\nHunt down a wide range of exotic monsters from savage beasts prowling the mountain passes to cunning supernatural predators lurking in the shadows of densely populated towns. \r\nInvest your rewards to upgrade your weaponry and buy custom armour, or spend them away in horse races, card games, fist fighting, and other pleasures the night brings.\r\n\r\nEXPLORE A MORALLY INDIFFERENT FANTASY OPEN WORLD \r\nBuilt for endless adventure, the massive open world of The  Witcher sets new standards in terms of size, depth and complexity. \r\nTraverse a fantastical open world: explore forgotten ruins, caves and shipwrecks, trade with merchants and dwarven smiths in cities, and hunt across the open plains, mountains and seas. \r\nDeal with treasonous generals, devious witches and corrupt royalty to provide dark and dangerous services. \r\nMake choices that go beyond good & evil, and face their far-reaching consequences.\r\n\r\nCHASE DOWN THE CHILD OF PROPHECY \r\nTake on the most important contract to track down the child of prophecy, a key to save or destroy this world. \r\nIn times of war, chase down the child of prophecy, a living weapon of power, foretold by ancient elven legends. \r\nStruggle against ferocious rulers, spirits of the wilds and even a threat from beyond the veil – all hell-bent on controlling this world. \r\nDefine your destiny in a world that may not be worth saving.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 87158,
+        "game_title": "The Witcher 3: Wild Hunt - Blood and Wine",
+        "release_date": "2016-05-31",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Blood and Wine expansion (20+ hours of gameplay, 90 new quests)\r\nGwent Guide & Gwent tokens\r\nNilfgaard Gwent Deck\r\nNorthern Realms Gwent Deck\r\nCollector's Box",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 63852,
+        "game_title": "The Witcher 3: Wild Hunt - Complete Edition",
+        "release_date": "2016-08-30",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The game will be the third in the series, which is based on the book series of the same name by Polish author Andrzej Sapkowski. The Witcher 3 is set \"In an open world 30 times larger\" than the previous games, featuring the return of protagonist Geralt. The Witcher: Wild Hunt is a story-driven, next-generation open world role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher you play as the professional monster hunter, Geralt of Rivia, tasked with finding a child of prophecy in a vast open world rich with merchant cities, viking pirate islands, dangerous mountain passes, and forgotten caverns to explore. PLAY AS A HIGHLY TRAINED MONSTER SLAYER FOR HIRE Trained from early childhood and mutated to gain superhuman skills, strength and reflexes, witchers are a distrusted counterbalance to the monster-infested world in which they live. Gruesomely destroy foes as a professional monster hunter armed with a range of upgradeable weapons, mutating potions and combat magic. Hunt down a wide range of exotic monsters from savage beasts prowling the mountain passes to cunning supernatural predators lurking in the shadows of densely populated towns. Invest your rewards to upgrade your weaponry and buy custom armour, or spend them away in horse races, card games, fist fighting, and other pleasures the night brings. EXPLORE A MORALLY INDIFFERENT FANTASY OPEN WORLD Built for endless adventure, the massive open world of The Witcher sets new standards in terms of size, depth and complexity. Traverse a fantastical open world: explore forgotten ruins, caves and shipwrecks, trade with merchants and dwarven smiths in cities, and hunt across the open plains, mountains and seas. Deal with treasonous generals, devious witches and corrupt royalty to provide dark and dangerous services. Make choices that go beyond good & evil, and face their far-reaching consequences. CHASE DOWN THE CHILD OF PROPHECY Take on the most important contract to track down the child of prophecy, a key to save or destroy this world. In times of war, chase down the child of prophecy, a living weapon of power, foretold by ancient elven legends. Struggle against ferocious rulers, spirits of the wilds and even a threat from beyond the veil – all hell-bent on controlling this world. Define your destiny in a world that may not be worth saving.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 88466,
+        "game_title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+        "release_date": "2016-08-31",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The Witcher 3: Wild Hunt Game of the Year edition brings together the base game and all the additional content released to date.\r\n\r\nIncludes the Hearts of Stone and Blood & Wine expansions, which offer a massive 50 hours of additional storytelling as well as new features and new areas that expand the explorable world by over a third!\r\n\r\nAffords access to all additional content released so far, including weapons, armor, side quests, game modes and new GWENT cards!\r\n\r\nFeatures all technical and visual updates as well as a new user interface completely redesigned on the basis of feedback from members of the Witcher Community.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 52344,
+        "game_title": "The Witcher 3: Wild Hunt - Hearts of Stone",
+        "release_date": "2015-10-13",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The Witcher 3: Wild Hunt -- Hearts of Stone is the first major story/land expansion for the massive RPG adventure The Witcher 3. Become Geralt of Rivia, a professional monster slayer hired to defeat a ruthless bandit captain, Olgierd von Everec, a man who possesses the power of immortality.\r\n\r\nHearts of Stone packs over 10 hours of new adventures, introducing new characters, powerful monsters, unique romance and a brand new storyline shaped by your choices. Players venture into the wilds of No Man’s Land and the nooks and alleys of Oxenfurt, where Geralt will try to complete a contract from the mysterious Man of Glass. Caught in a thick tangle of deceit, Geralt will need all his cunning and strength to solve the mystery and emerge unscathed.\r\n\r\nCollector's box comes with two Gwent decks and game counters in a deluxe box.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 86864,
+        "game_title": "The Witcher 3: Wild Hunt Collector's Edition",
+        "release_date": "2015-05-19",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The game will be the third in the series, which is based on the book series of the same name by Polish author Andrzej Sapkowski. The Witcher 3 is set \"In an open world 30 times larger\" than the previous games, featuring the return of protagonist Geralt.\r\n\r\nThe Witcher: Wild Hunt is a story-driven, next-generation open world role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful consequences. In The Witcher you play as the professional monster hunter, Geralt of Rivia, tasked with finding a child of prophecy in a vast open world rich with merchant cities, viking pirate islands, dangerous mountain passes, and forgotten caverns to explore. \r\n\r\nPLAY AS A HIGHLY TRAINED MONSTER SLAYER FOR HIRE \r\nTrained from early childhood and mutated to gain superhuman skills, strength and reflexes, witchers are a distrusted counterbalance to the monster-infested world in which they live. \r\nGruesomely destroy foes as a professional monster hunter armed with a range of upgradeable weapons, mutating potions and combat magic. \r\nHunt down a wide range of exotic monsters from savage beasts prowling the mountain passes to cunning supernatural predators lurking in the shadows of densely populated towns. \r\nInvest your rewards to upgrade your weaponry and buy custom armour, or spend them away in horse races, card games, fist fighting, and other pleasures the night brings.\r\n\r\nEXPLORE A MORALLY INDIFFERENT FANTASY OPEN WORLD \r\nBuilt for endless adventure, the massive open world of The  Witcher sets new standards in terms of size, depth and complexity. \r\nTraverse a fantastical open world: explore forgotten ruins, caves and shipwrecks, trade with merchants and dwarven smiths in cities, and hunt across the open plains, mountains and seas. \r\nDeal with treasonous generals, devious witches and corrupt royalty to provide dark and dangerous services. \r\nMake choices that go beyond good & evil, and face their far-reaching consequences.\r\n\r\nCHASE DOWN THE CHILD OF PROPHECY \r\nTake on the most important contract to track down the child of prophecy, a key to save or destroy this world. \r\nIn times of war, chase down the child of prophecy, a living weapon of power, foretold by ancient elven legends. \r\nStruggle against ferocious rulers, spirits of the wilds and even a threat from beyond the veil – all hell-bent on controlling this world. \r\nDefine your destiny in a world that may not be worth saving.\r\n\r\nThe Witcher 3: Wild Hunt Collector’s Edition contents:\r\n    An exclusive CD with the official soundtrack\r\n    The official, developer-created “Witcher Universe – The Compendium”\r\n    A beautiful, detailed map of the in-game world\r\n    A set of unique stickers\r\n    A stylish, protective sleeve\r\n    All the contents from the standard edition of the game\r\n    A giant, 33x24x26 cm (10”), 100% hand painted, Polystone figure of Geralt of Rivia battling a Griffin\r\n    An exquisite, collector-grade Witcher medallion\r\n    A one-of-a-kind SteelBook box\r\n    A two-hundred-page artbook, containing breathtaking art from the game\r\n    Huge outer and inner Collector’s Boxes you can store your Witcher merchandise in\r\n",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 115962,
+        "game_title": "Wiedźmin 3: Dziki Gon Edycja Kolekcjonerska",
+        "release_date": "2015-05-19",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Dziki Gon - dźwięk tych słów u wielu osób wywołuje przerażenie i odrazę. Pojawia się nocą, podczas mroźnych zim, a jego przybycie zawsze poprzedza zorza polarna. Pędzący po nocnym niebie orszak upiornych jeźdźców od wieków zwiastował wojnę, zarazę i śmierć. Mało kto zna prawdziwą naturę i pochodzenie jego członków, jednak samo wspomnienie o mrocznych jeźdźcach budzi w ludziach paniczny strach. Nic dziwnego, w końcu mówi się, że porywają dusze, które potem wcielają w swe szeregi...\r\n\r\nDziecko-niespodzianka\r\nW “Dzikim Gonie” Geralt wyrusza w najbardziej heroiczną i niebezpieczną ze swoich podróży. Ma odnaleźć dziecko-niespodziankę, szarowłosą dziewczynę, która, ze względu na swoje zdolności, stanowi żywą i bardzo niestabilną broń. Gra toczy się o najwyższą stawkę - płynąca w żyłach dziewczyny Starsza Krew może wywołać ostateczny kataklizm - nic więc dziwnego, że wiele osób chcą ją kontrolować. Od ciebie zależy, czy i komu się to uda - los tego świata leży w twoich rękach.\r\n\r\nWybory i ich następstwa\r\nMisja Geralta wymaga dokonywania trudnych wyborów. Wiedźmini starają się zachować neutralność, często jednak muszą decydować o losie innych. Rzadko jest to prosty wybór między dobrem a złem - ten świat pełen jest odcieni szarości, więc to, co moralnie dobre dziś, jutro może się okazać tragiczne w skutkach, a twoje decyzje mogą przeważyć szale życia lub śmierci. “Dziki Gon” można skończyć na wiele różnych sposobów, będących następstwem dokonywanych przez ciebie wyborów. Trzy rozbudowane epilogi i liczne stany końcowe świata, możliwe do osiągnięcia w każdym z nich sprawiają, że po pierwszym ukończeniu gry z chęcią będziesz do niej powracać.\r\n\r\nPolowanie na potwory\r\nGeralt jest najemnym łowcą potworów w świecie, w którym naprawdę źle się dzieje. Stanowi niezbędną przeciwwagę dla przerażających monstrów, licznie zamieszkujących niemal każde środowisko, a jego głównym zadaniem jest eliminowanie stworzeń, które zagrażają ludzkim społecznościom. Polowanie na potwory to jego fach, a zleceń nigdy nie brakuje. Niektóre bestie należą do określonych gatunków, inne są unikatowe. Te ostatnie są często wyjątkowo potężne lub inteligentne, a więc skuteczna walka z nimi wymaga nadzwyczajnych środków. Wcielając się w Geralta wyruszysz na specjalne misje, podczas których poznasz styl walki i zachowania bestii, z którymi potem przyjdzie ci się zmierzyć. Potwory to nie mrzonka bardów - to realne zagrożenie. W czasie podróży trafisz w miejsca, którymi władają bestie: tereny porzucone przez zamieszkujących je niegdyś ludzi i nieludzi. Jeśli postanowisz narażać swoje życie, aby je wytępić, twoim zadaniem będzie unicestwienie wszystkich szkodników - co do jednego - i sprawienie, by dany rejon znów stał się bezpieczny. Jeśli ci się powiedzie, wrócą do niego mieszkańcy, a wielu z nich okaże się zręcznymi rzemieślnikami, którzy odwdzięczą ci się, tworząc rzadki i potężny sprzęt bojowy.\r\n\r\nWiedźmin 3: Dziki Gon - Edycja Kolekcjonerska zawiera następujące elementy:\r\n\r\n- płyta z grą\r\n- CD ze ścieżką dźwiękową\r\n- książkowe kompendium świata Wiedźmina\r\ninstrukcja do gry\r\n- Steelbook z ekskluzywnym wzorem\r\n- mapa świata\r\n- naklejka z unikatową grafiką z gry Wiedźmin 3: Dziki Gon\r\n- olbrzymia, 26 centymetrowa figurka Geralta z Rivii walczącego z Gryfem\r\n- unikalny, prawdziwie kolekcjonerski wiedźmiński medalion\r\n- dwustustronicowy artbook, zawierający zapierające dech w piersi prace graficzne z gry\r\n- gigantyczne, zewnętrzne i wewnętrzne, pudełka kolekcjonerskie, których możesz użyć do przechowywania swoich wiedźmińskich skarbów",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          12
+        ],
+        "publishers": [
+          5777
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "33255": [
+          {
+            "id": 104781,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/33255-1.jpg",
+            "resolution": "600x860"
+          }
+        ],
+        "52344": [
+          {
+            "id": 289145,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52344-1.jpg",
+            "resolution": null
+          }
+        ],
+        "63852": [
+          {
+            "id": 210616,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/63852-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 210627,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/63852-1.jpg",
+            "resolution": null
+          }
+        ],
+        "86864": [
+          {
+            "id": 287468,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/86864-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87158": [
+          {
+            "id": 289146,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87158-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88466": [
+          {
+            "id": 294079,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88466-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115962": [
+          {
+            "id": 394892,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115962-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Witcher+3%3A+Wild+Hunt&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 753,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630058
+}

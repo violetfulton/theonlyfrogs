@@ -1,0 +1,101 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 103695,
+        "game_title": "The Lord of the Rings - Gollum",
+        "release_date": "2023-05-25",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2065
+        ],
+        "genres": [
+          2,
+          16
+        ],
+        "publishers": [
+          1413
+        ]
+      },
+      {
+        "id": 122969,
+        "game_title": "The Lord of the Rings - Gollum",
+        "release_date": "2023-05-25",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Athletic and agile, sneaky and cunning. Driven by the desire to once again hold in his hands what he lost, Gollum is one of the most fascinating characters in the world of The Lord of the Rings. He has seen things that others cannot imagine; he has survived things that others would not dare mention. Torn by his split personality, he can be vicious and villainous as Gollum, but social and cautious as Sméagol. While being vital to the story by J.R.R. Tolkien, many parts of Gollum’s quest have not been told in detail yet. In The Lord of the Rings: Gollum you get to experience this story. From his time as a slave below the Dark Tower to his stay with the Elves of Mirkwood.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2065
+        ],
+        "genres": [
+          2,
+          4,
+          16
+        ],
+        "publishers": [
+          1413
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "103695": [
+          {
+            "id": 354591,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103695-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122969": [
+          {
+            "id": 426291,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122969-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Lord+of+the+Rings%3A+Gollum&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 67,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629952
+}

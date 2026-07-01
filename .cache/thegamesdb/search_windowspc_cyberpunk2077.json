@@ -1,0 +1,159 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 14517,
+        "game_title": "Cyberpunk 2077",
+        "release_date": "2020-12-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.\r\nBecome a cyberpunk, an urban mercenary equipped with cybernetic enhancements and build your legend on the streets of Night City.\r\n\r\nEnter the massive open world of Night City, a megalopolis that sets new standards in terms of visuals, complexity and depth.\r\n\r\nTake the riskiest job of your life and go after a prototype implant that is the key to immortality.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8207,
+          8429
+        ]
+      },
+      {
+        "id": 82928,
+        "game_title": "Cyberpunk 2077 [Collector's Edition]",
+        "release_date": "2020-12-10",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.\r\n\r\nFeatures...\r\nThe Collector's Edition comes with the following physical items:\r\n\r\nCollector's Edition box\r\n\r\nCase with GOG Game Code\r\n\r\nCollectible SteelBook\r\n\r\n25cm x 10\" statue depicting V - the game's protagonist - in action\r\n\r\nHardcover art book\r\n\r\nMetal pin set\r\n\r\nQuadra V-tech metal keychain\r\n\r\nAnnotated copy of A Visitor's Guide to Night City sealed in an NCPD Evidence Bag\r\n\r\nEmbroidered patches\r\n\r\nWorld Compendium detailing the game's setting and lore\r\n\r\nPostcards from Night City and Map of Night City\r\n\r\nSticker bomb set\r\n\r\nDigital goodies include:\r\n\r\nGame Soundtrack\r\n\r\nArt Booklet featuring a selection of art from the game\r\n\r\nCyberpunk 2020 Sourcebook\r\n\r\nWallpapers for your desktop and mobile",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          10
+        ],
+        "publishers": [
+          3509
+        ]
+      },
+      {
+        "id": 130030,
+        "game_title": "Cyberpunk 2077 Ultimate Edition",
+        "release_date": "2023-12-05",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Night City, California. Year 2077. The world is broken. MegaCorps manages every aspect of life from the top floors of their sky-scraping fortresses. Down below, the streets are run by drug-pushing gangs, tech hustlers, and illegal braindance slingers. The in-between is where decadence, sex and pop culture mix with violent crime, extreme poverty and the unattainable promise of the American Dream.\r\n\r\nYou are V, a cyberpunk. In a world of cyber-enhanced street warriors, tech-savvy netrunners and corporate life-hackers, today is your first step to becoming an urban legend...\r\n\r\nCyberpunk 2077 is an ambitious RPG for a mature audience, set in the corrupt and tech-advanced world of the year 2077 and is being developed by CD Projekt RED in association with the Cyberpunk Pen & Paper system author, Mike Pondsmith.\r\n\r\nFeatures in Ultimate Edition:\r\n- Discover Update 2.0: Experience new and overhauled gameplay mechanics to fulfil your wildest cyberpunk fantasies. The free Update 2.0 brings brand new ways to play Cyberpunk 2077, including totally redesigned perks and cyberware systems, pulsating vehicle combat and car chases, a revamped police system, enhanced enemy combat AI, and more.\r\n- Create Your own Cyberpunk: Become an urban outlaw equipped with cybernetic enhancements and build your legend on the streets of Night City.\r\n- Explore the City of the Future: Night City is packed to the brim with things to do, places to see, and people to meet. And it’s up to you where to go, when to go, and how to get there.\r\n- Build Your own Legend: Go on daring adventures and build relationships with unforgettable characters whose fates are shaped by the choices you make.\r\n- Equipped with Next-Gen Features: Immerse yourself in Night City like never before thanks to faster load times, improved visual and gameplay features, ray tracing, dynamic 4K support, and more.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532,
+          1535
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          3509,
+          5777,
+          8207
+        ]
+      },
+      {
+        "id": 133876,
+        "game_title": "Cyberpunk 2077: Ultimate Edition",
+        "release_date": "2023-12-05",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Experience all Night City has to offer with the open-world action-adventure RPG Cyberpunk 2077 and the spy-thriller adventure Phantom Liberty. Legends will be made here. What will yours be?",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3509
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "14517": [
+          {
+            "id": 422910,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/14517-1.jpg",
+            "resolution": null
+          }
+        ],
+        "82928": [
+          {
+            "id": 270994,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/82928-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130030": [
+          {
+            "id": 453549,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130030-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Cyberpunk+2077&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 929,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630088
+}

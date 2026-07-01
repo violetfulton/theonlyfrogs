@@ -70,3 +70,8 @@ node_modules/
 
 _scripts/firebaseConfig.js
 
+
+# Keep TheGamesDB cache so deploys can build offline without API rate limits
+!.cache/
+!.cache/thegamesdb/
+!.cache/thegamesdb/**

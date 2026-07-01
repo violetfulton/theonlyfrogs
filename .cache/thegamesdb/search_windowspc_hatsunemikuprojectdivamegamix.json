@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 123306,
+        "game_title": "Hatsune Miku: Project DIVA Mega Mix",
+        "release_date": "2022-05-26",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Take center stage in Hatsune Miku’s premier rhythm game starring the world’s #1 virtual pop star! From a stunner setlist of songs to an enormous wardrobe to style, this is the ultimate tour with Hatsune Miku, Kagamine Rin and Len, Megurine Luka, MEIKO and KAITO—all it needs is you.\r\n\r\nStart by choosing a song, then tap and hold buttons at the right time with the icons on-screen. It’s simple to grasp, and challenging to master. Vibe with the music videos on Easy or aim for a high score on Extreme! Button inputs can be configured to harmonize with playstyle and accessibility preferences, supported by Steam-compatible controllers.\r\n\r\nOver 170 Songs\r\nProject DIVA debuts on PC with over 170 playable songs, each accompanied by a unique music video. Get into classics like “Melt” and “Cendrillon” plus new favorites like “Catch The Wave”!\r\n\r\nEndless Customization\r\nDress Miku and friends from head to toe in over 500 dazzling hairstyles, costumes, and accessories. Costumes can be tailored to every music video, making for endless possibilities.\r\n\r\nSwap Visual Styles in One Click\r\nSwitch between two visual styles for different experiences. Enjoy the pop of the “Mega Mix” style or the gloss of the high-fidelity “Future Tone” style, and change it up anytime.\r\n\r\nCustom T-Shirt Editor\r\nLet Miku kickstart your fashion designer career on the big stage! Draw your own T-shirt from front to back, then debut it in a performance.\r\n\r\nCustom Playlists\r\nYou’re the director of this concert! Curate a playlist to perfection, hit play, and let the customized music videos roll in this cinematic experience.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "123306": [
+          {
+            "id": 427506,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123306-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Hatsune+Miku%3A+Project+Diva+Mega+Mix%2B&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 812,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630068
+}

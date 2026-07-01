@@ -1,0 +1,96 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 130873,
+        "game_title": "Goat Simulator 3 PC",
+        "release_date": "2022-11-17",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Pilgor’s baaack!\r\n\r\nGather your herd and venture forth into Goat Simulator 3; an all-new, totally realistic, sandbox farmyard experience that puts you back in the hooves of no one's favourite female protagonist.\r\n\r\nThat’s right – we’re doing this again. The baa has been raised, and Pilgor is joined by other goats too. You can invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.\r\n\r\nGet ready for another round of udder mayhem. Lick, headbutt, and ruin your way through a brand new open world in the biggest waste of your time since Goat Simulator! We won’t tell you how to play (except in the tutorial), but merely provide the means to be the goats of your dreams.\r\n\r\nKEY FEATURES:\r\n\r\n- You can be a goat\r\n- Three of your friends can be goats too, and join you in local or online co-op\r\n- No really, there are so many goats. If you want to be fancy you can wear the skins of tall goats, stripey goats, and many more. There’s a goat for everyone!\r\n\r\nESRB Rating: E10+ - Everyone 10+\r\n\r\nGenre(s): Sandbox",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1742
+        ],
+        "genres": [
+          12
+        ],
+        "publishers": null
+      },
+      {
+        "id": 19934,
+        "game_title": "Goat Simulator",
+        "release_date": "2014-04-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Goat Simulator is the latest in goat simulation technology, bringing next-gen goat simulation to YOU. You no longer have to fantasize about being a goat, your dreams have finally come true! WASD to write history.\r\n\r\n\r\nGameplay-wise, Goat Simulator is all about causing as much destruction as you possibly can as a goat. It has been compared to an old-school skating game, except instead of being a skater, you're a goat, and instead of doing tricks, you wreck stuff. Destroy things with style, such as doing a backflip while headbutting a bucket through a window, and you'll earn even more points! Or you could just give Steam Workshop a spin and create your own goats, levels, missions, and more! When it comes to goats, not even the sky is the limit, as you can probably just bug through it and crash the game. \r\n\r\nDisclaimer: Goat Simulator is a completely stupid game and, to be honest, you should probably spend your money on something else, such as a hula hoop, a pile of bricks, or maybe pool your money together with your friends and buy a real goat.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1742
+        ],
+        "genres": [
+          12
+        ],
+        "publishers": [
+          881
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19934": [
+          {
+            "id": 129086,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19934-1.jpg",
+            "resolution": "1059x1500"
+          }
+        ],
+        "130873": [
+          {
+            "id": 458037,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130873-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Goat+Simulator+3&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 859,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630076
+}

@@ -1,0 +1,170 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 44565,
+        "game_title": "Animal Crossing: Let's Go to the City",
+        "release_date": "2008-11-16",
+        "platform": 9,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The Europe and Oceania release of Animal Crossing: City Folk.\r\n\r\nIf life were an endless vacation, what would you do? Go fishing, collect shells, or watch fireworks with friends? Build a snowman, exchange presents with family, or decorate your house for the holidays? Take a trip to the city, go on a shopping spree, or visit friends from all over the globe? In Animal Crossing: Let's Go to the City, life moves at a relaxed pace, but the world brims with endless possibilities. There's always something new to do. In the living, breathing world of Animal Crossing: Let's Go to the City, days and seasons pass in real time, so there's always something to discover. Catch fireflies in the summer, go trick-or-treating on Halloween, or hunt for eggs on Bunny Day. If you're in the mood for something a little faster paced, take a bus to a new urban city area that's unique to Animal Crossing: Let's Go to the City. There you can catch a show at the theatre or check out the sales at Gracie's boutique. But if you don't show your face back home for too long, your neighbours will miss you. Up to four people from your household can live and work together to build the perfect town. Design clothes and patterns, write letters and post messages on the bulletin board for each other, or invite up to three friends to visit your town using Nintendo Wi-Fi Connection. With the new WiiSpeak microphone, it's like you're all in the same room. The microphone sits atop the sensor bar and picks up the conversation of everyone in the room to encourage a more inclusive experience.",
+        "players": 1,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121456,
+        "game_title": "Machi e Ikouyo: Doubutsu no Mori",
+        "release_date": "2008-11-17",
+        "platform": 9,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Animal Crossing: City Folk is the Wii incarnation of the Animal Crossing series. As in the previous version, players assume the role of a new resident in a town populated and run by animals. Players can interact with townsfolk, write letters, send presents, dig for fossils, fish, catch bugs, etc... Time in the game uses the internal Wii's clock and calender. As such, time and seasons happen at the same time as in the real life. Therefore, some events only happen at certain day of the week, or even at special day in the year (such as Christmas at December 25th)",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 7305,
+        "game_title": "Animal Crossing: City Folk",
+        "release_date": "2008-11-16",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Animal Crossing: City Folk is a 2008 Wii video game developed by Nintendo EAD and released by Nintendo of America in the USA on November 16, 2008.\r\n\r\nAnimal Crossing: City Folk is the Wii incarnation of the Animal Crossing series. As in the previous version, players assume the role of a new resident in a town populated and run by animals. Players can interact with townsfolk, write letters, send presents, dig for fossils, fish, catch bugs, etc... Time in the game uses the internal Wii's clock and calendar. As such, time and seasons happen at the same time as in the real life. Therefore, some events only happen at certain day of the week, or even at special day in the year (such as Christmas at December 25th)",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          3
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73183,
+        "game_title": "Animal Crossing: City Folk [Wii Speak Bundle]",
+        "release_date": "2008-11-16",
+        "platform": 9,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Animal Crossing: City Folk is the Wii incarnation of the Animal Crossing series. As in the previous version, players assume the role of a new resident in a town populated and run by animals. Players can interact with townsfolk, write letters, send presents, dig for fossils, fish, catch bugs, etc... Time in the game uses the internal Wii's clock and calender. As such, time and seasons happen at the same time as in the real life. Therefore, some events only happen at certain day of the week, or even at special day in the year (such as Christmas at December 25th)",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "7305": [
+          {
+            "id": 18869,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/7305-1.jpg",
+            "resolution": "1549x2156"
+          },
+          {
+            "id": 18870,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/7305-1.jpg",
+            "resolution": "1508x2156"
+          }
+        ],
+        "44565": [
+          {
+            "id": 204206,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44565-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 204207,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/44565-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73183": [
+          {
+            "id": 234620,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73183-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121456": [
+          {
+            "id": 419782,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121456-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+City+Folk&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=9&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 998,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630100
+}

@@ -1,0 +1,102 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 1539,
+        "game_title": "Pokémon Diamond Version",
+        "release_date": "2007-04-22",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Pokémon Diamond Version is a 2007 DS video game developed by Game Freak and released by Nintendo of America in the USA on April 22, 2007.\r\n\r\nPokémon Diamond Version introduce Trainers to a different land and many Pokémon to catch! Explore the lakes, forests, and mountains of the Sinnoh region, seeking out Pokémon such as the Bug-type Kricketot or the hard-headed Rock- and Steel-type Shieldon. And if you're lucky, you might bump into Legendary Pokémon Palkia or Dialga! There are more than 490 Pokémon in Pokémon Diamond and Pokémon Pearl. But be on the lookout for Team Galactic, a dastardly group that is trying to kidnap Pokémon.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 129670,
+        "game_title": "Pokémon Diamond Version",
+        "release_date": "2006-09-28",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "1539": [
+          {
+            "id": 335197,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/1539-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 344060,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/1539-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129670": [
+          {
+            "id": 452107,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129670-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Diamond+Version&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 553,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630027
+}

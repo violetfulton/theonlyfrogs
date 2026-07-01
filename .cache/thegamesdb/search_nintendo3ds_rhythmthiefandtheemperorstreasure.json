@@ -1,0 +1,108 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 12584,
+        "game_title": "Rhythm Thief & the Emperor's Treasure",
+        "release_date": "2012-07-10",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Rhythm Thief & the Emperor's Treasure sees players enter the secret life of Raphael, infamous among Parisians as an honorable thief for stealing famous works of art only to return them days later. Dive into Raphael's world and help him find the Wristlet of Tiamat to unmask the mystery behind his father's disappearance. While unravelling the truth players will encounter an assortment of different rhythm challenges to master. Tap the screen, swipe the stylus and control the gyro to the beat of the music to maneuver Raphael through the unique streets of Paris, brought to life by stylish animations and vibrant 3D maps and landscapes.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          1,
+          17
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 109345,
+        "game_title": "Rhythm Thief & the Emperor's Treasure",
+        "release_date": "2012-04-05",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7549
+        ],
+        "genres": [
+          2,
+          5,
+          17
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12584": [
+          {
+            "id": 37375,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12584-1.jpg",
+            "resolution": "640x568"
+          },
+          {
+            "id": 214810,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12584-1.jpg",
+            "resolution": null
+          }
+        ],
+        "109345": [
+          {
+            "id": 376450,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/109345-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Rhythm+Thief+%26+the+Emperor%27s+Treasure&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 457,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630013
+}

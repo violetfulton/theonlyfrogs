@@ -1,0 +1,661 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 20,
+    "games": [
+      {
+        "id": 73160,
+        "game_title": "Super Mario 64",
+        "release_date": "1997-03-01",
+        "platform": 3,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 75969,
+        "game_title": "Super Mario 64",
+        "release_date": "1996-06-23",
+        "platform": 3,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134413,
+        "game_title": "Super Mario 64 Plus",
+        "release_date": "2019-08-25",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "SM64Plus is a fork of sm64-port that focuses on customizability and aims to add features that not only fix some of the issues found in the base game but also enhance the gameplay overall with extra options.\r\nThese features include (but not limited to):\r\n  * More responsive controls\r\n  * Improved camera\r\n  * Extended moveset\r\n  * The ability to continue the level after getting a star\r\n  * Optional extra modes\r\n  * 60FPS support via interpolation\r\n  * Various bug fixes",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134800,
+        "game_title": "Ghostship",
+        "release_date": "2025-01-17",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Ghostship is a fan-made, reverse-engineered PC port of Super Mario 64, developed by Harbour Master.  It doesn’t distribute any of Nintendo’s proprietary code; instead, it requires users to supply their own legally dumped ROM in the supported US .z64 format, which is then used to extract the game’s assets via the port’s tools. Once installed, Ghostship runs natively on PC (and is being expanded to support Linux and macOS), and adds enhancements like widescreen / ultrawide resolution support, unlocked frame rates, improved controller/rumble compatibility, newer rendering backends (DirectX11, OpenGL, Metal), and mod support for custom textures and assets. The project also receives periodic updates fixing bugs (graphics, sound, collisions), adding cheat options, and expanding platform compatibility. ",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 216,
+        "game_title": "Super Mario 64",
+        "release_date": "1996-09-26",
+        "platform": 3,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Super Mario 64 is a 1996 N64 video game developed by Nintendo EAD and released by Nintendo of America in the USA on September 26, 1996.\r\n\r\nMario is super in a whole new way! Combining the finest 3D graphics ever developed for a video game and an explosive soundtrack, Super Mario 64 becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 16778,
+        "game_title": "Super Mario 64",
+        "release_date": "2006-11-19",
+        "platform": 9,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Super Mario 64 (Japanese: スーパーマリオ64 Hepburn: Sūpā Mario Rokujūyon?) is a 1996 platform video game published by Nintendo and developed by its EAD division for the Nintendo 64. Along with Pilotwings 64, it was one of the launch titles for the console.[3] It was released in Japan on June 23, 1996, and later in North America, Europe, and Australia. More than eleven million copies of Super Mario 64 have been sold.[4][5] An enhanced remake called Super Mario 64 DS was released for the Nintendo DS in 2004.\r\n\r\nIn the game, Mario explores Princess Peach's castle and must rescue her from Bowser. As one of the earlier three-dimensional (3D) platform games, Super Mario 64 is based on open world playability, degrees of freedom through all three axes in space, and relatively large areas which are composed primarily of true 3D polygons as opposed to only two-dimensional (2D) sprites. The game established a new archetype for the 3D genre, much as Super Mario Bros. did for 2D sidescrolling platformers. In the evolution from two dimensions to three, Super Mario 64 places an emphasis on exploration within vast worlds that require the player to complete multiple diverse missions, in addition to the occasional linear obstacle courses as in traditional platform games. While doing so, it still preserves many gameplay elements and characters of earlier Mario games.[6]\r\n\r\nThe game has left a lasting impression on 3D game design, particularly notable for its use of a dynamic camera system and the implementation of its 360-degree analog control.[6][7][8] The title is acclaimed by many critics and fans as one of the greatest and most revolutionary video games of all time.[9][10][11][12][13][14]",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          15,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 47049,
+        "game_title": "Super Mario 64",
+        "release_date": "2015-04-01",
+        "platform": 38,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Retrieve the Power Stars and confront ruthless Bowser!\r\n\r\nOn a bright, sunny day in the Mushroom Kingdom, Mario goes to visit the princess but finds her castle eerily empty. Leaping through pictures hanging from the walls, he enters 15 magical worlds in a quest to collect the 120 Power Stars pilfered by evil Bowser and save the day. The game's vast worlds teem with daunting obstacle courses, hidden items, puzzles and more than 30 types of enemies. Take advantage of Mario's large selection of moves, including running, jumping, swimming, stomping, punching, and even backward somersaulting! Special caps give him short-lived powers, including the ability to fly. Super Mario 64 features unmatched camera control that makes adventuring in its 3D world a snap, even for newcomers.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          27
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 131141,
+        "game_title": "Super Mario 64",
+        "release_date": "2020-09-01",
+        "platform": 4916,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Super Mario 64 is a 1996 platform game developed and published by Nintendo for the Nintendo 64. It was released in Japan and North America in 1996 and PAL regions in 1997. It is the first Super Mario game to feature 3D gameplay, combining traditional Super Mario gameplay, visual style, and characters in a large open world. In the game, Bowser, the primary antagonist of the Super Mario franchise, invades Princess Peach's castle and hides the castle's sources of protection, the Power Stars, in many different worlds inside magical paintings. As Mario, the player collects Power Stars to unlock enough of Princess Peach's castle to get to Bowser and rescue Princess Peach.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          15,
+          28
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 72350,
+        "game_title": "Super Mario 64",
+        "release_date": "2020-05-05",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "SM64PC is an open-source, cross-platform, reverse-engineered port of the original N64 SM64. It supports OpenGL, DirectX12, Ray-Tracing, and variable resolutions and aspect ratios.\r\nRequires Full KMS if run on RetroPie.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130730,
+        "game_title": "Super Mario 64 : The Missing Stars",
+        "release_date": "2009-04-19",
+        "platform": 3,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The first ever major Super Mario 64 hack (that is to say, featuring entirely original levels), featuring new mechanics such as a Day/Night Cycle, as well as the ability to play as either Mario or Luigi. Console Compatible version was a collaboration with David.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130728,
+        "game_title": "Super Mario 64 : Royal Legacy Definitive Edition",
+        "release_date": "2024-08-11",
+        "platform": 3,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "For fans of SM64 Sapphire: a new 30-star adventure awaits you. This is a very traditional platformer hack meant to challenge players who have already mastered everything vanilla SM64 asks of you. 4 original worlds, complete with a hub, Bowser stage and fight. The entire soundtrack is original music composed just for this game.\r\n\r\nThis hack is a remaster of original Royal Legacy aiming to improve visuals, adding remastered soundtrack, making hack console compatible and fixing various nitpicks.\r\n\r\nSource code: https://github.com/aglab2/RoyalLegacy\r\n\r\nDirector: StunningCactus\r\nDE Visuals: Nobbie\r\nProgramming: aglab2\r\nMusic: StunningCactus & daleroysteve\r\nTesting: Mushie64, AussieAdam, vandemiere",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130729,
+        "game_title": "Super Mario 64 : Through the Ages",
+        "release_date": "2022-04-04",
+        "platform": 3,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Mario visits various historical locations while teaming up with various partner Pokemon.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 96968,
+        "game_title": "Super Mario 64 (6b version)",
+        "release_date": "2022-01-17",
+        "platform": 3,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This is a rom hack of Super Mario 64 with a custom character instead.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          2,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 112940,
+        "game_title": "Super Mario 64 [Chaos Edition]",
+        "release_date": "2014-09-25",
+        "platform": 3,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Super Mario 64 Chaos Edition is a romhack made by Kaze Emanuar in 2014 and contains 121 stars. This hack doesn't change anything in any of the games level. But this utilizes a Special Gecko Mod (or Gamesharks) which allow it to automatically activate and deactivate random codes at random times. This hack is made to challenge players to play through Mario 64 while the random codes either impedes or helps with any progress through the game. Latest version is 4.0",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 74836,
+        "game_title": "Super Mario 64 [Nintendo 64DD]",
+        "release_date": "1996-11-20",
+        "platform": 3,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "An unreleased version of Super Mario 64 for the Nintendo 64DD that was shown at Nintendo Shoshinkai (Space World) 1996 between November 22 and 24.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 78529,
+        "game_title": "Super Mario 64 [Not for Resale]",
+        "release_date": "1996-06-23",
+        "platform": 3,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Super Mario 64 [Not For Resale] A kiosk or store demo version of Super Mario 64. It has Not For Resale printed on the front label.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73159,
+        "game_title": "Super Mario 64 [Player's Choice]",
+        "release_date": "1996-09-29",
+        "platform": 3,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Super Mario 64 was a launch for the Nintendo 64. Developed by Shigeru Miyamoto's team at Nintendo EAD, it was released alongside the console on September 29th, 1996 in North America. The game pioneered many elements of the 3D subgenre of platformer. The game sold over 11.8 million copies worldwide and was also one of the first N64 games available for the Wii's Virtual Console collection of retro releases.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 73162,
+        "game_title": "Super Mario 64 [Player's Choice] (PAL)",
+        "release_date": "1998-01-01",
+        "platform": 3,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Super Mario 64 was a launch for the Nintendo 64. Developed by Shigeru Miyamoto's team at Nintendo EAD, it was released alongside the console on September 29th, 1996 in North America. The game pioneered many elements of the 3D subgenre of platformer. The game sold over 11.8 million copies worldwide and was also one of the first N64 games available for the Wii's Virtual Console collection of retro releases.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 131810,
+        "game_title": "BAZR",
+        "release_date": "2025-02-11",
+        "platform": 3,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Come on down to Luigi's Casino to try the brand new card game, BAZR!\r\n\r\nBAZR turns Super Mario 64 into a roguelike deck-builder with multiple unlockable decks and 100+ cards to find! Find coins in the level to buy new cards, collect stars under par time to get big bonuses, or find card pickups scattered throughout the stages to build your deck to take on Bowser's Gauntlet! \r\n\r\nTest your luck, skill, and SM64 knowledge!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          6,
+          28
+        ],
+        "publishers": null
+      },
+      {
+        "id": 130498,
+        "game_title": "Super Mario 64 Coop deluxe",
+        "release_date": "2023-12-18",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 50,
+        "overview": "sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that supports widescreen, uncapped FPS, and has many toggleable options for customization to fit your desired experience. It has multiplayer up to 16 players and an ever growing powerful Lua modding API that allow modders and players to enjoy Super Mario 64 in more accessible and unique new ways!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          15,
+          28
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "216": [
+          {
+            "id": 234524,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/216-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 328086,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/216-1.jpg",
+            "resolution": null
+          }
+        ],
+        "16778": [
+          {
+            "id": 45986,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16778-1.png",
+            "resolution": "160x225"
+          }
+        ],
+        "47049": [
+          {
+            "id": 273615,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/47049-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72350": [
+          {
+            "id": 230113,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72350-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73159": [
+          {
+            "id": 234513,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73159-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 234514,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/73159-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73160": [
+          {
+            "id": 234516,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/73160-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 355715,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73160-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73162": [
+          {
+            "id": 234525,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73162-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 234526,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/73162-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74836": [
+          {
+            "id": 241598,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74836-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75969": [
+          {
+            "id": 246231,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75969-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78529": [
+          {
+            "id": 253291,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78529-1.jpg",
+            "resolution": null
+          }
+        ],
+        "96968": [
+          {
+            "id": 327727,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/96968-1.jpg",
+            "resolution": null
+          }
+        ],
+        "112940": [
+          {
+            "id": 385028,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/112940-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130498": [
+          {
+            "id": 456170,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130498-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130728": [
+          {
+            "id": 457365,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130728-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130729": [
+          {
+            "id": 457369,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130729-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130730": [
+          {
+            "id": 457375,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130730-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131141": [
+          {
+            "id": 459404,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/131141-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 478816,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131141-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134413": [
+          {
+            "id": 474062,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134413-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134800": [
+          {
+            "id": 475300,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134800-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        },
+        "3": {
+          "id": 3,
+          "name": "Nintendo 64",
+          "alias": "nintendo-64"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "38": {
+          "id": 38,
+          "name": "Nintendo Wii U",
+          "alias": "nintendo-wii-u"
+        },
+        "4916": {
+          "id": 4916,
+          "name": "Android",
+          "alias": "android"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+64&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+64&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
+  },
+  "remaining_monthly_allowance": 212,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629975
+}

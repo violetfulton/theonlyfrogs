@@ -1,0 +1,247 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 100244,
+        "game_title": "Sly Raccoon",
+        "release_date": "2003-01-17",
+        "platform": 11,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Sly Cooper is the latest in a long line of master thieves. When he was a kit, a gang called the Fiendish Five killed his family and divided up their book on the art of thieving: the Thievius Raccoonus. Sly must defeat all the members of the gang to recover the book while evading Carmelita Fox, a police officer chasing him around the world to apprehend him.\r\n\r\nThis game is divided into five worlds, each themed around a particular part of the world and the villain headquartered there. Most worlds are structured as a central hub with entrances to numerous individual levels. Each of the levels has a primary goals which earns you a key. You must collect all the keys in the world to fight the world's boss.\r\n\r\nMany of the levels have a platformer structure. The objective of these worlds is to reach the location of the key. There are substantial stealth elements here as you must dodge searchlights and trips lasers which set off alarms and avoid alerting guards. In addition to the main objective, there are clue bottles to find. Finding all the clues in a level allows you to open a safe with a page from the Thievius Raccoonus which grants a new ability of some sort. After getting this, there is also a master thief sprint where you must get from the start of a level to the exit within a time limit.\r\n\r\nThere are also mini-game levels which could be kart-style racing, several varieties of shooter or assorted other tasks, such as collecting objects before your enemies do.\r\n\r\nBoss fights also run to several styles, ranging from platforming, to more straightforward combat to puzzles to rhythm to shooter.\r\n\r\nAll artwork is done in a cel-shaded style and dialogue is fully voiced",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          15,
+          16
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 121955,
+        "game_title": "Sly Raccon",
+        "release_date": "2003-01-17",
+        "platform": 11,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          15,
+          16
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 127788,
+        "game_title": "Kaitou Sly Cooper",
+        "release_date": "2003-03-06",
+        "platform": 11,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          15,
+          16
+        ],
+        "publishers": [
+          1239
+        ]
+      },
+      {
+        "id": 9815,
+        "game_title": "Sly Cooper and the Thievius Raccoonus",
+        "release_date": "2002-09-23",
+        "platform": 11,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Sly Cooper and the Thievius Raccoonus is a 2002 PlayStation 2 video game developed by Sucker Punch Productions and released by Sony Computer Entertainment America in the USA on September 23, 2002.\r\n\r\nSly Cooper is the latest in a long line of master thieves. When he was a kit, a gang called the Fiendish Five killed his family and divided up their book on the art of thieving: the Thievius Raccoonus. Sly must defeat all the members of the gang to recover the book while evading Carmelita Fox, a police officer chasing him around the world to apprehend him.\r\n\r\nThis game is divided into five worlds, each themed around a particular part of the world and the villain headquartered there. Most worlds are structured as a central hub with entrances to numerous individual levels. Each of the levels has a primary goals which earns you a key. You must collect all the keys in the world to fight the world's boss.\r\n\r\nMany of the levels have a platformer structure. The objective of these worlds is to reach the location of the key. There are substantial stealth elements here as you must dodge searchlights and trips lasers which set off alarms and avoid alerting guards. In addition to the main objective, there are clue bottles to find. Finding all the clues in a level allows you to open a safe with a page from the Thievius Raccoonus which grants a new ability of some sort. After getting this, there is also a master thief sprint where you must get from the start of a level to the exit within a time limit.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          15,
+          16
+        ],
+        "publishers": [
+          1939
+        ]
+      },
+      {
+        "id": 16626,
+        "game_title": "Sly Cooper And The Thievius Raccoonus",
+        "release_date": "2009-11-29",
+        "platform": 12,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Sly Cooper and the Thievius Raccoonus (known as Kaitō Sly Cooper (怪盗スライ・クーパー?, lit. \"Phantom Thief Sly Cooper\") in Japan and Sly Raccoon in Europe and Australia) and is a platform stealth video game created by Sucker Punch Productions, and released on the Sony PlayStation 2 in 2002, subsequently republished as a \"Greatest Hits\" title.[1][2] The game was followed by three sequels, Sly 2: Band of Thieves Sly 3: Honor Among Thieves and Sly Cooper: Thieves in Time. On November 9, 2010, Sly Cooper and the Thievius Raccoonus, as well as its two sequels were released together as The Sly Collection, a remastered port of all three games on a single Blu-ray disc as a Classics HD title for the PlayStation 3. On February 5, 2013, a fourth Sly Cooper title, Sly Cooper: Thieves in Time, was released on the PlayStation 3 and PlayStation Vita.\r\n\r\nThe game focuses on master thief Sly Cooper and his gang, Bentley the Turtle and Murray the Hippo, as they seek out the Fiendish Five to recover his family's \"Thievius Raccoonus\", a book with the accumulation of all of Sly's ancestors' thieving moves. The game was praised for using a variation on cel-shading rendering, which is used to create a film noir feel, while still rendered as a hand-drawn animated movie, though criticized for being too short.\r\n\r\nAn upcoming CGI animated film based on this game is set for a theatrical release in Q1 2016.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          16
+        ],
+        "publishers": null
+      },
+      {
+        "id": 78129,
+        "game_title": "Sly Cooper and the Thievius Raccoonus [Greatest Hits]",
+        "release_date": "2002-09-24",
+        "platform": 11,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          15,
+          16
+        ],
+        "publishers": [
+          21
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "9815": [
+          {
+            "id": 27788,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/9815-1.jpg",
+            "resolution": "1505x2170"
+          },
+          {
+            "id": 344056,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/9815-1.jpg",
+            "resolution": null
+          }
+        ],
+        "16626": [
+          {
+            "id": 404066,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16626-1.jpg",
+            "resolution": null
+          }
+        ],
+        "78129": [
+          {
+            "id": 252358,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/78129-1.jpg",
+            "resolution": null
+          }
+        ],
+        "100244": [
+          {
+            "id": 342590,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/100244-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 342598,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/100244-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121955": [
+          {
+            "id": 422166,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121955-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127788": [
+          {
+            "id": 443446,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127788-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443447,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/127788-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "11": {
+          "id": 11,
+          "name": "Sony Playstation 2",
+          "alias": "sony-playstation-2"
+        },
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Sly+Cooper+and+the+Thievius+Raccoonus&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 426,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630008
+}

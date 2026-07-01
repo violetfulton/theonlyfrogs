@@ -1,0 +1,218 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 69048,
+        "game_title": "Diablo IV",
+        "release_date": "2023-06-06",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Diablo IV is an upcoming online dungeon crawler action role-playing game developed by Blizzard Entertainment, the fourth title in the Diablo series. The game was officially announced at BlizzCon 2019 on November 1, 2019.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 107395,
+        "game_title": "Diablo IV [Ultimate Edition]",
+        "release_date": "2023-06-06",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Diablo® IV is the ultimate action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish dungeons, and legendary loot. Embark on the campaign solo or with friends, meeting memorable characters through beautifully dark settings and a gripping story, or explore an expansive end game and shared world where players can meet in towns to trade, team up to battle world bosses, or descend into PVP zones to test their skills against other players – no lobbies necessary – with cross-play and cross-progression on all available platforms.\r\n\r\nThis is only the beginning for Diablo® IV, with new events, stories, seasons, rewards, and more looming on the horizon.\r\n\r\nUltimate Edition\r\nRaise hell with the Ultimate Diablo IV experience, including up to 4 days Early Access to Diablo® IV's Launch**, an Accelerated Seasonal Battle Pass Unlock in Diablo® IV (including a Premium Seasonal Battle Pass Unlock plus 20 Tier Skips and a cosmetic), Wings of the Creator Emote, Temptation Mount, and Hellborn Carapace Mount Armor all in Diablo® IV. Plus, get the Inarius Wings & Inarius Murloc Pet in Diablo® III***, Amalgam of Rage Mount in World of Warcraft®****, and Umber Winged Darkness Cosmetics Set in Diablo Immortal™*****.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          4,
+          27
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 115415,
+        "game_title": "Diablo IV Limited Collector's Box",
+        "release_date": "2023-06-06",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Diablo IV Limited Collector’s Box Includes:\r\n·   Candle of Creation\r\n·   Occult Mousepad \r\n·   Cloth Map of Sanctuary\r\n·   Pin of the Horadrim\r\n·   Diablo IV Collector’s Edition Art Book\r\n·   Matted Fine Art Prints (x2) - 18.54\" x 10.79\"\r\n\r\nAs Lilith’s threat looms over Sanctuary, you’ll need every tool within grasp to fight the evils that lay in wait. Rise to the occasion with this legendary Limited Collector’s Box and gain the vast knowledge necessary to slay any demons that cross your path. Make haste to battle onward, for the fate of Sanctuary depends upon it!\r\n\r\nDiablo IV Limited Collector’s Box Includes:\r\n\r\nCandle of Creation\r\nFeel both the Light’s blessing and Evil’s embrace with this two-sided electric candle*  .\r\n\r\nOccult Mouse Pad\r\nSanctify your space with this premium mouse pad.\r\n\r\nCloth Map of Sanctuary\r\nCloth Map of Sanctuary – Unfurl this scroll to behold the lands before you where Lilith’s grasp has taken hold.   \r\n\r\nPin of the Horadrim\r\nProudly display this vestige of the ancient Brotherhood.\r\n\r\nDiablo IV Collector’s Edition Art Book\r\nImmerse yourself in over 300 pages of the frighteningly beautiful artwork that created the world of Sanctuary and its heroes.\r\n\r\nArt Prints (x2)\r\nRelish in the glory of these fine art portraits.\r\n\r\nLegal Lines\r\n*Batteries Included.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 64629,
+        "game_title": "de Blob",
+        "release_date": "2017-04-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1238
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          1279
+        ]
+      },
+      {
+        "id": 47831,
+        "game_title": "de Blob 2",
+        "release_date": "2017-06-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1238
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          40
+        ]
+      },
+      {
+        "id": 80437,
+        "game_title": "Dev Life",
+        "release_date": "2020-08-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "What is Dev Life?\r\nHave you ever wanted to try what it's like to be a programmer, graphic designer, or tester, but you didn't have the right skills or time to learn them? In DevLIfe you can experience it for yourself! Create your character and guide him or her through life in the IT industry. Complete commissions, create your projects, set up your own company, hire employees, and lead them to success!\r\n\r\nMain Game Features\r\nAlthough the game is in Early Access, it already contains many features and a mechanic. The most important of them are:\r\n- Creating your own character and guiding him or her through a career in the IT industry\r\n- Two extensive skill trees - learn how to create websites and mobile applications. Decide what direction you want to take in your career!\r\n- Finding and fulfilling commissions for external clients and improving your skills through learning\r\n- Starting your own company, creating your own projects, hiring employees and taking care of their well-being and growth\r\n- Two locations - work from home or in an office in the city centre\r\n- Build Mode - buy new furniture, decorations or RTV equipment and take care of the comfort and high performance of your employees\r\n\r\nPlans for the future\r\nWe won't stop here. In future versions we plan to expand the \"life\" aspect of DevLife by adding some key mechanics such as:\r\n- Traits and Attributes of the Characters\r\n- Interactive Events Influencing the Game\r\n\r\nBesides, with each update in the game the available content will be expanded, there are plans for:\r\n- Two New Skills Trees - Video Games and Desktop Applications\r\n- New Character Customization Options\r\n- Additional Locations\r\n- New Furniture\r\n\r\nWe will listen to players' opinions and introduce their ideas into the game to make it as much playable as we can. We hope that your experience with DevLife will be the most enjoyable!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "47831": [
+          {
+            "id": 123017,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/47831-1.jpg",
+            "resolution": "460x215"
+          }
+        ],
+        "64629": [
+          {
+            "id": 212595,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64629-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69048": [
+          {
+            "id": 482199,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69048-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80437": [
+          {
+            "id": 260888,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80437-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107395": [
+          {
+            "id": 369817,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107395-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115415": [
+          {
+            "id": 392912,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115415-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Diablo+IV&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 895,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630082
+}

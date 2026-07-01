@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 108692,
+        "game_title": "Persona 4 Golden",
+        "release_date": "2023-01-19",
+        "platform": 4971,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Don’t Touch that Dial, it’s Time for the Midnight Channel\r\n\r\nThe world-renowned Persona 4 Golden promises unforgettable adventures, meaningful bonds, and heartwarming experiences shared together with friends.\r\n\r\nThey say your soulmate will appear if you stare into a television set on a rainy night…\r\n\r\nThis strange rumor slowly spreads through the rural town of Inaba, the protagonist’s new home, just as a chain of mysterious murders begin. As the protagonist and his teammates chase after the truth, they find themselves opening the door to another world.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          4,
+          27
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 108774,
+        "game_title": "Persona 3 Portable & Persona 4 Golden",
+        "release_date": "2022-09-09",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Lead a group of high school students with a dangerous extracurricular activity: exploring the mysterious tower Tartarus and fighting the sinister Shadows during the Dark Hour, a frozen span of time imperceptible to all but a select few. However, the end of their quest is no longer the end of the story--witness for the first time the aftermath of the final battle and the students' struggle to find meaning in their new lives.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          767
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          15
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "108692": [
+          {
+            "id": 374539,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108692-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108774": [
+          {
+            "id": 381469,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108774-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Persona+4+Golden&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 226,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629977
+}

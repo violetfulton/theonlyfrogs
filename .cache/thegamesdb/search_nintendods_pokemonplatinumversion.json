@@ -1,0 +1,137 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 2367,
+        "game_title": "Pokémon Platinum Version",
+        "release_date": "2009-03-22",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Another world has emerged in the Sinnoh Region...\r\n\r\n...A world where space & time are altered!\r\n\r\nNew Discoveries, New Challenges!\r\nCatch, train, and battle your favorite Pokémon, and discover ancient, mythical Pokémon in this exciting new adventure!\r\n\r\nExpanded Online Options!\r\nNew experiences in the Wi-Fi Plaza and Battle Frontier!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 117296,
+        "game_title": "Pokémon Platinum Version",
+        "release_date": "2009-05-22",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Another world has emerged in the Sinnoh Region...\r\n\r\n...A world where space & time are altered!\r\n\r\nNew Discoveries, New Challenges!\r\nCatch, train, and battle your favorite Pokémon, and discover ancient, mythical Pokémon in this exciting new adventure!\r\n\r\nExpanded Online Options!\r\nNew experiences in the Wi-Fi Plaza and Battle Frontier!\r\n\r\n",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 81434,
+        "game_title": "Pokémon Platinum Version [Figure Bundle]",
+        "release_date": "2009-03-22",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2367": [
+          {
+            "id": 17654,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2367-1.jpg",
+            "resolution": "1533x1370"
+          },
+          {
+            "id": 284938,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2367-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81434": [
+          {
+            "id": 264696,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81434-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117296": [
+          {
+            "id": 400438,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117296-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Platinum+Version&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 547,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630026
+}

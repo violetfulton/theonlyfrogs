@@ -1,0 +1,132 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 20952,
+        "game_title": "Grand Theft Auto V",
+        "release_date": "2015-04-13",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.\r\n\r\nAmidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring and dangerous heists that could set them up for life.\r\n\r\nThe biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game's three lead characters, playing all sides of the game's interwoven story.\r\n\r\nAll the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto's darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7279
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 95143,
+        "game_title": "Grand Theft Auto: Vice City - The Definitive Edition",
+        "release_date": "2021-11-11",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Experience the genre-defining classic, updated for a new generation with across-the-board enhancements including brilliant new lighting and environmental upgrades, with high-resolution textures, increased draw distance, Grand Theft Auto V-style controls and targeting, and much more.\r\n\r\nWelcome to the 1980s. From the decade of big hair and pastel suits comes the story of one man's rise to the top of the criminal pile. Grand Theft Auto returns with Tommy Vercetti’s tale of betrayal and revenge in a neon-soaked tropical town full of excess and brimming with possibilities.\r\n\r\nDeveloped by Rockstar Games, adapted by Grove Street Games.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          7273
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          17
+        ]
+      },
+      {
+        "id": 29,
+        "game_title": "Grand Theft Auto IV",
+        "release_date": "2008-12-02",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "For Niko Bellic, fresh off the boat from Europe, it is the hope he can escape his past. For his cousin, Roman, it is the vision that together they can find fortune in Liberty City, gateway to the land of opportunity. As they slip into debt and are dragged into a criminal underworld by a series of shysters, thieves and sociopaths, they discover that the reality is very different from the dream in a city that worships money and status, and is heaven for those who have them and a living nightmare for those who don't.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7279
+        ],
+        "genres": [
+          1,
+          2,
+          8
+        ],
+        "publishers": [
+          17
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "29": [
+          {
+            "id": 5639,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/29-1.jpg",
+            "resolution": "1044x1302"
+          }
+        ],
+        "20952": [
+          {
+            "id": 422918,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/20952-1.jpg",
+            "resolution": null
+          }
+        ],
+        "95143": [
+          {
+            "id": 320924,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/95143-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Grand+Theft+Auto+V&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 879,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630080
+}

@@ -1,0 +1,140 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 107514,
+        "game_title": "The Witcher 3: Wild Hunt - Complete Edition",
+        "release_date": "2022-12-12",
+        "platform": 4980,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Become a professional monster slayer and embark on an adventure in The Witcher III: Wild Hunt - Complete Edition. Experience a dark fantasy, open world RPG that focuses on a character-driven story, various decisions, and tactical combat. The third installment of the saga improves every aspect of the series, with a smoother combat system, new Witcher senses, monster hunting, improved alchemy, magic signs, crafting systems, and many more.\r\n\r\n* A physical retail version was made available on January 26th, 2023.\r\n\r\nFeatures:\r\n- The Grand Finale to the Legend of Geralt of Rivia: In the past he has raised and overthrown monarchs, battled legendary monsters and saved the lives of many. Now Geralt embarks on his most personal quest to save his loved ones and protect the world from an ancient threat.\r\n- Time to Decide: The story is drawn based on player decisions. Each action will have consequences which change the story and the game world. NPCs, communities, monsters and locations all change, based on your choices.\r\n- Choose How You Play: The player can resolve quests and main story threads in any order or compete them in a parallel fashion. The combination of an intriguing story with a free roaming gameplay style allows the players to craft the story to suit individual preferences.\r\n- A Standalone Adventure: The story and game world do not require the player to know the previous games or even the books. Witcher fans will find subtle references to their adventures, but these elements are not necessary to enjoy the game fully.\r\n- A Breathtaking Cinematic Introduction: This puts players immediately in the know about the situation in the war-ravaged Northern Kingdoms and the background story of the main character.\r\n- Open World Atmosphere: The game world has its own unique feel. It is a classic dark fantasy tale that will appeal to fans of all kinds of fantasy stories.\r\n- Advanced Character Interactions: Believable characters can be approached by the player in different ways. Each character has his or her own motivations and ambitions. The player can decide what actions to undertake, from romances to rivalries, or from friendships to feuds, the mature story brings consequences to NPC interaction.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8207,
+          8429
+        ]
+      },
+      {
+        "id": 114866,
+        "game_title": "The Witcher 3: Wild Hunt - Complete Edition",
+        "release_date": "2022-12-12",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Você é Geralt, da cidade de Rívia. Ao seu redor, todas as cidades e os povoados dos Reinos do Norte estão sendo devastados pela força sobrenatural de um exército invasor, conhecido apenas como Caçada Selvagem, que deixa um rastro sangrento de pura destruição por onde passa.\r\n\r\nVocê descobrirá uma história complexa e envolvente e conhecerá personagens inesquecíveis enquanto se prepara para um confronto estrondoso com a Caçada Selvagem. Ao explorar os Reinos do Norte, você descobrirá que há mistérios à espreita em cada vilarejo, árvore e sombra.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8207,
+          8429
+        ]
+      },
+      {
+        "id": 119916,
+        "game_title": "Wiedźmin 3: Dziki Gon [Edycja Kompletna]",
+        "release_date": "2022-12-12",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8207,
+          8429
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "107514": [
+          {
+            "id": 370065,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107514-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114866": [
+          {
+            "id": 391304,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114866-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 391305,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114866-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119916": [
+          {
+            "id": 411371,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119916-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Witcher+3%3A+Wild+Hunt&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 54,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629950
+}

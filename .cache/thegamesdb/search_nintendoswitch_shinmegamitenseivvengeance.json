@@ -1,0 +1,124 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 127242,
+        "game_title": "Shin Megami Tensei V: Vengeance",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Embark on this definitive version of the critically acclaimed Shin Megami Tensei V, massively expanded with a brand-new storyline featuring new locations, demons, and choices to make that will dictate the fate of all existence.\r\nShin Megami Tensei V: Vengeance consists of two complete story paths: experience a brand-new route, the \"Canon of Vengeance\" - a dramatic tale of revenge by the fallen, centered around new characters and an enigmatic cohort of demons, the Qadistu, who plot their own dark designs apart from the war of those who fight to maintain order and those who seek to defy it. Or explore the original story told in Shin Megami Tensei V, the \"Canon of Creation\" - an eternal conflict between angels and demons, in which the protagonist fights for the world's fate.\r\nWhen a grisly murder scene in modern-day Tokyo blocks our protagonist's walk home, an unplanned detour leaves him buried and unconscious. He awakens in a new Tokyo, a wasteland ravaged by apocalypse now called Da'at... but before bloodthirsty demons can claim his life, a savior emerges, and the two of them unite to become a mighty being, neither human nor demon: a Nahobino. With newfound power, the protagonist ventures through Da'at, an enigmatic realm filled with mythical deities and demonic tyrants in constant conflict for survival. Searching for answers, the\r\nprotagonist must forge his own path in a battle between angels and demons to dictate the fate of the world.\r\nFeatures:\r\n- The Definitive Version of Shin Megami Tensei\r\nV: Fully evolved with stunning visuals for modern consoles, the dark lore, unnerving atmosphere, and beautiful and monstrous demons are back and better than ever.\r\nMassively expanded with new areas, demons, and music, Shin Megami Tensei V: Vengeance features more accessible gameplay, an improved battle system, new demon experiences, and greater field exploration.\r\n- A Tale of Vengeance or Creation: Which path will you choose? Experience a brand-new tale of revenge by the fallen or the original story of Shin Megami Tensei V, both filled with conflicting and tragic choices, forcing you to confront which ideologies you are willing to fight for. As order and chaos crumble around you, forge your own path to dictate the fate of humanity.\r\n- Explore a Post-Apocalyptic World: Battle through a decimated Tokyo, reduced to an expansive wasteland and overrun by mythical demons. Roam across wide, open areas and explore new locations for life-saving items or encounter hundreds of familiar demons and dozens of new ones to battle or befriend as allies.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          9947
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 131849,
+        "game_title": "Shin Megami Tensei V: Vengeance",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Diese definitive Version des hochgelobten Shin Megami Tensei V wurde durch eine völlig neue Handlungslinie erweitert, die an neue Orte führt, neue Dämonen mit sich bringt und den Protagonisten vor neue Entscheidungen stellt, die über das Schicksal der Welt bestimmen.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          767
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          58
+        ]
+      },
+      {
+        "id": 135035,
+        "game_title": "Shin Megami Tensei V: Vengeance",
+        "release_date": "2024-06-14",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "127242": [
+          {
+            "id": 441568,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127242-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131849": [
+          {
+            "id": 463775,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131849-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135035": [
+          {
+            "id": 476568,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135035-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Shin+Megami+Tensei+V%3A+Vengeance&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 208,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629974
+}

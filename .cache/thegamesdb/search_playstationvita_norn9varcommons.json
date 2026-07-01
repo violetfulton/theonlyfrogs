@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 30642,
+        "game_title": "Norn9: Var Commons",
+        "release_date": "2015-11-03",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "While on a school field trip, child prodigy Sorata Suzuhara wanders off after hearing a mysterious song and blacks out. When he comes to, he finds himself in unfamiliar place, and soon encounters a girl who informs him that he’s currently in turn of the century Japan! In order to help him get home, Sorata follows her to a ship that she’s waiting for but when it appears it is not a wooden sailing ship, but a round aircraft that flies using technology that is beyond Sorata’s imagination. Even stranger, he discovers that the other 12 passengers – 3 young women and 9 men – are all supposedly espers with special powers, and are on some kind of journey at the behest of a multinational entity only known as The World. What is the purpose of their journey? What is their destination? Who is The World? Before Sorata can even begin to take stock of his situation, the ship is attacked, and the mystery surrounding the ship only deepens. Delve into the story of the ship and its occupants through the point of views of each of the three girls, and unravel the mysteries trapped within.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          4037
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          354
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "30642": [
+          {
+            "id": 85704,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/30642-1.jpg",
+            "resolution": "1158x1477"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Norn9%3A+Var+Commons&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 431,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630009
+}

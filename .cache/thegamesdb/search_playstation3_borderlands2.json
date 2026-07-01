@@ -1,0 +1,354 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 10,
+    "games": [
+      {
+        "id": 11484,
+        "game_title": "Borderlands 2",
+        "release_date": "2012-09-18",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Borderlands 2 is the epic sequel to the ultimate four-player role-playing shooter loot fest. Combining invention and evolution, Borderlands 2 features all-new characters, mixed online/split-screen co-op, skills, environments, enemies, weapons and equipment, which come together in an ambitiously crafted story. Players will reveal secrets, and escalate mysteries of the Borderlands universe as they adventure across the unexplored new areas of Pandora.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          4,
+          8,
+          12
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 70132,
+        "game_title": "Borderlands 2 [Deluxe Vault Hunter's Collector's Edition]",
+        "release_date": "2012-09-18",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op or split-screen on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.\r\n\r\nBorderlands 2 is a hybrid First-Person Shooter, RPG game focused on over-the-top co-op play, and set in the open-world game environment of the planet Pandora. The second game in the game series, Borderlands 2 raises the 'loot and shoot' action of the original game with an even larger and more detailed world to explore, an updated gun system, a new cast of characters and character classes, and integration of storyline with action.\r\n\r\n\r\nThe over-the-top 'loot and shoot' action of the Borderlands game universe returns with a new characters and character classes. \r\nView larger \r\n\r\nOver-the-Top 'Shoot and Loot' Action Returns\r\nBorderlands 2, sequel to the critically acclaimed and best selling role-playing-shooter hybrid, once again delivers its unique flavor, characters and addictive nonstop collaborative loot-shoot gameplay. As in the original game, Borderlands 2 features an openworld game environment, but this time around the world players experience is larger and packed with more depth at all levels. The game features an all-new cast of characters, skills, environments, enemies, weapons, and equipment that come together in a carefully crafted and connected story. Make new friends, arm them to the teeth and fight alongside them on a relentless quest for revenge and redemption through the undiscovered and unpredictable living world of Pandora.\r\n\r\nKey Game Features\r\nAll-New Characters and Classes - Choose from all new characters and classes including the Gunzerker, who can dual-wield any two weapons in the game. Dual machine guns? Cool. Dual rocket launchers? Of course. Dual sniper rifles? sure, if that’s your thing.\r\nPlay Online with Friends - Share your adventures with friends both online and via LAN through a seamless system enabling you to drop in and drop out of a campaign without ever having to restart the game.\r\nWorld Connected Story - Left for dead in the frozen tundra of Pandora, begin your quest of revenge and redemption as the story drives you closer to the Hyperion Corporation and its evil founder, handsome Jack.\r\nNew Badass Gun System - Millions upon millions of possible weapons means tons of new and innovative ways to engage foes on Pandora. Fire, electricity, corrosive acid, and more will all be at your disposal.\r\n87 Bazillion...Everything - It's not just guns on Pandora, you will lust after procedurally generated shields, grenades, alien artifacts, class mods and much, much more.\r\nBrand-new Environments - From the arctic tundra, through the dangerous grasslands, past the mysterious corrosive caverns to beyond, discover more of the unpredictable world of Pandora at every turn.\r\nBrand-new Enemies - Hulking, gorilla-like Bullymongs, vicious predatory stalkers and the hyperion mechanical army, run by handsome Jack, are just some of the new enemies you will face.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 126133,
+        "game_title": "Borderlands 2 [Essentials]",
+        "release_date": "2012-09-18",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Borderlands 2 is a 2012 action role-playing first-person shooter video game developed by Gearbox Software and published by 2K. Taking place five years following the events of Borderlands (2009), the game is again set on the planet of Pandora. The story follows a new group of Vault Hunters who must ally with the Crimson Raiders, a resistance group made up of civilian survivors and guerrilla fighters, to defeat the tyrannical Handsome Jack before he can unlock the power of a new Vault. The game features the ability to explore the in-game world and complete main missions and optional side quests, either in offline splitscreen, single-player or online cooperative gameplay. Like its predecessor, the game features a procedurally generated loot system which is capable of generating numerous combinations of weapons and other gear.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          825
+        ]
+      },
+      {
+        "id": 69534,
+        "game_title": "Borderlands 2 [Game of the Year Edition]",
+        "release_date": "2013-10-08",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Borderlands 2 furthers the distinct blending of First Person Shooter and Role Playing genres to create the true evolution of the Role Playing Shooter. Team up with other players for online co-op goodness as you spend hours leveling up your character and equipping them with one of the millions of badass weapons. Borderlands 2 features a new visually stunning array of procedurally generated guns, shields, grenades, artifacts, enemies and more. Choose one of four character classes to be taken through a carefully crafted and connected story to all new and surprising environments across the living planet of Pandora. Make new friends, arm them to the teeth and fight alongside them on your relentless quest for revenge and redemption.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 120565,
+        "game_title": "Borderlands 2 [Game of the Year Edition] [Greatest Hits]",
+        "release_date": "2015-10-10",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Borderlands 2 furthers the distinct blending of First Person Shooter and Role Playing genres to create the true evolution of the Role Playing Shooter. Team up with other players for online co-op goodness as you spend hours leveling up your character and equipping them with one of the millions of badass weapons. Borderlands 2 features a new visually stunning array of procedurally generated guns, shields, grenades, artifacts, enemies and more. Choose one of four character classes to be taken through a carefully crafted and connected story to all new and surprising environments across the living planet of Pandora. Make new friends, arm them to the teeth and fight alongside them on your relentless quest for revenge and redemption.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          1,
+          4,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 52979,
+        "game_title": "Borderlands 2 / Dishonored",
+        "release_date": "2014-02-11",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The greatest hits version of Borderlands 2 & Dishonored in a tight bundle",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          825
+        ]
+      },
+      {
+        "id": 15516,
+        "game_title": "Borderlands 2: Add-On Content Pack",
+        "release_date": "2013-02-26",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "*Requires Borderlands 2 to play\r\n\r\nBORDERLANDS 2 JUST GOT BIGGER. Expand your reach into the world of Borderlands with this add-on content pack. With 20 hours of new campaign gameplay, this pack is a must have for fans of Borderlands 2! Includes the first two campaign add-on packs, “Captain Scarlett and her Pirate’s Booty” and “Mr. Torgue’s Campaign of Carnage”. Gain experience and battle rare creatures in the “Creature Slaughter Dome” battle arena. Experience the game as an entirely different character, Gaige, the Mechromancer. The pack also includes the Gearbox Gun Pack, a Skyrocket Grenade, new heads and skins for each character and a Golden Key to unlock rare loot.\r\n\r\nPlay as an all-new character: Gaige, the Mechromancer\r\nMeet Captain Scarlett and Mr. Torgue in two new add-on campaigns\r\nBoost your skills against rare enemies in the Creature Slaughter Dome battle arena\r\nFour New Weapons including the Gearbox Gun Pack and Skyrocket Genade\r\nNew Heads and Skins for each character\r\nGolden Key for rare loot",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 62447,
+        "game_title": "Borderlands 2: Ultimate Loot Chest Limited Edition",
+        "release_date": "2012-09-18",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          44,
+          3422,
+          3423
+        ],
+        "genres": [
+          1,
+          2,
+          8
+        ],
+        "publishers": [
+          3772
+        ]
+      },
+      {
+        "id": 115084,
+        "game_title": "Borderlands",
+        "release_date": "2009-10-26",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Borderlands includes character-building elements found in role-playing games, leading to Gearbox calling the game a \"role-playing shooter\". At the start of the game, players select one of four characters, each with a unique special skill and with proficiencies with certain weapons. The four characters are: Roland the Soldier, Mordecai the Hunter, Lilith the Siren, and Brick (a Berserker) \"as himself\".  From then on, players take on quests assigned through non-player characters or from bounty boards, each typically rewarding the player with experience points, money, and sometimes a reward item.  Players earn experience by killing foes and completing in-game challenges (such as getting a certain number of kills using a specific type of weapon). As they gain levels from experience growth, players can then allocate skill points into a skill tree that features three distinct specializations of the base character; for example, Mordecai can become specialized in sniping, gunslinging with revolvers, or using his pet Bloodwing to assist in kills and health boosting. Players can distribute points among any of the specializations, and can also spend a small amount of in-game money to redistribute their skill points.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3422
+        ],
+        "genres": [
+          4,
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      },
+      {
+        "id": 12351,
+        "game_title": "Borderlands",
+        "release_date": "2009-10-20",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Gearbox Software has developed revolutionary new technology to create Borderlands incredible layers of gameplay depth. Borderlands features a groundbreaking content generation system allowing for near-endless variety in missions, environments, enemies, weapons, item drops and character customization.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3423
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          8
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "11484": [
+          {
+            "id": 405516,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/11484-1.jpg",
+            "resolution": null
+          }
+        ],
+        "12351": [
+          {
+            "id": 36392,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12351-1.jpg",
+            "resolution": "640x731"
+          },
+          {
+            "id": 36393,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12351-1.jpg",
+            "resolution": "640x752"
+          }
+        ],
+        "15516": [
+          {
+            "id": 43920,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/15516-1.jpg",
+            "resolution": "628x708"
+          }
+        ],
+        "52979": [
+          {
+            "id": 133450,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/52979-1.jpg",
+            "resolution": "1196x1500"
+          }
+        ],
+        "62447": [
+          {
+            "id": 206987,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62447-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69534": [
+          {
+            "id": 410347,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69534-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70132": [
+          {
+            "id": 224214,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70132-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115084": [
+          {
+            "id": 391800,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115084-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120565": [
+          {
+            "id": 414838,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120565-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 414839,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/120565-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126133": [
+          {
+            "id": 437461,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126133-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Borderlands+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 654,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630042
+}

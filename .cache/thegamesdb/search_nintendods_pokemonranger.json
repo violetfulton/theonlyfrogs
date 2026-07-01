@@ -1,0 +1,205 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 102018,
+        "game_title": "Pokémon Renjā",
+        "release_date": "2006-03-23",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1912,
+          3694
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          1292
+        ]
+      },
+      {
+        "id": 13455,
+        "game_title": "Pokémon Ranger",
+        "release_date": "2006-10-30",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "An action RPG set in the world of the Pokémon Ranger movie. You play as a Pokémon Ranger. Different from a Pokémon Trainer, a Ranger travels the lands, using Pokémon in a fight to defend nature from baddies. Its release precedes that of Diamond and Pearl, and all three games link up together for some top secret bonuses.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3694
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 19129,
+        "game_title": "Pokémon Ranger: Guardian Signs",
+        "release_date": "2010-10-04",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The third installment in the action-packed Pokemon Ranger series lets players take on the role of a Pokemon Ranger tasked with protecting Pokemon, people and nature.\r\n\r\nWith Ranger Signs to call powerful Pokemon, including Legendary Pokemon, and the addition of multiplayer missions, players investigate the nefarious actions of the Pokemon Pinchers, who have been disrupting the peace by chasing and catching Pokemon.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 113128,
+        "game_title": "Pokemon Ranger: Hikari no Kiseki",
+        "release_date": "2010-03-06",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 12501,
+        "game_title": "Pokémon Ranger: Shadows of Almia",
+        "release_date": "2008-11-10",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the second in the Pokemon Ranger series, you once again play as a Pokemon Ranger, working to help people, Pokemon and nature in a new area called the Almia Region. Starting out as a Student Ranger, you quickly earn the title of a full-fledged Pokemon Ranger. As you succeed in more and more missions, you will aspire to become the highest Ranger rank: Top Ranger. Along the way you meet and capture all kinds of different Pokemon.\r\n\r\nCapture wild Pokemon and create a team to clear obstacles and puzzles encountered along the way. After using a Pokemon’s ability, it will leave your team; however, you will have a Partner Pokemon that will always stay by your side. As you progress through Missions and Quests, your Capture Styler becomes more powerful, giving your Styler more Energy and eventually advancing you to the level of Top Ranger.",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12501": [
+          {
+            "id": 64727,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12501-1.jpg",
+            "resolution": "640x570"
+          },
+          {
+            "id": 64894,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12501-1.jpg",
+            "resolution": "669x600"
+          }
+        ],
+        "13455": [
+          {
+            "id": 40090,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/13455-1.jpg",
+            "resolution": "640x576"
+          },
+          {
+            "id": 253738,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/13455-1.jpg",
+            "resolution": null
+          }
+        ],
+        "19129": [
+          {
+            "id": 54597,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19129-1.jpg",
+            "resolution": "500x449"
+          }
+        ],
+        "102018": [
+          {
+            "id": 349816,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102018-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113128": [
+          {
+            "id": 385499,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113128-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Ranger&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 549,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630027
+}

@@ -1,0 +1,280 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 12585,
+        "game_title": "Theatrhythm Final Fantasy",
+        "release_date": "2012-07-03",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          4163
+        ],
+        "genres": [
+          1,
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123811,
+        "game_title": "Theatrhythm Final Fantasy",
+        "release_date": "2012-07-06",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4163
+        ],
+        "genres": [
+          1,
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123812,
+        "game_title": "Theatrhythm Final Fantasy",
+        "release_date": "2012-02-16",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4163
+        ],
+        "genres": [
+          1,
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61905,
+        "game_title": "Theatrhythm Final Fantasy Curtain Call Limited Edition",
+        "release_date": "2014-09-16",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "THEATRHYTHM FINAL FANTASY CURTAIN CALL expands on the original in every way with new gameplay modes, 221 songs, and over 60 playable characters. Featuring music that spans the full breadth of the storied FINAL FANTASY franchise, players tap along to the memorable beats and harmonies as the adorable, stylized characters battle and quest through their worlds.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          2808,
+          4163
+        ],
+        "genres": [
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 23409,
+        "game_title": "Theatrhythm Final Fantasy: Curtain Call",
+        "release_date": "2014-09-16",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A sequel to the first FINAL FANTASY rhythm action game released in 2012, THEATRHYTHM FINAL FANTASY CURTAIN CALL expands on the original in every way with new gameplay modes, over 200 songs, and 60 playable characters. Featuring music that spans the full breadth of the storied FINAL FANTASY franchise, players tap along to the memorable beats and harmonies as the adorable, stylized characters battle and quest through their worlds. The music of over 20 titles is brought together in one package, fusing together the moving scores, cinematic visuals, and role-playing elements the series is known for.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          2808,
+          4163
+        ],
+        "genres": [
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 110107,
+        "game_title": "Theatrhythm Final Fantasy: Curtain Call",
+        "release_date": "2014-09-19",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          2808,
+          4163
+        ],
+        "genres": [
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 110109,
+        "game_title": "Theatrhythm Final Fantasy: Curtain Call [Limited Edition]",
+        "release_date": "2014-09-19",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": [
+          2808,
+          4163
+        ],
+        "genres": [
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 60998,
+        "game_title": "Theatrhythm Final Fantasy: Curtain Call Collector's Edition",
+        "release_date": "2014-09-16",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "A sequel to the first FINAL FANTASY rhythm action game released in 2012, THEATRHYTHM FINAL FANTASY CURTAIN CALL expands on the original in every way with new gameplay modes, over 200 songs, and 60 playable characters. Featuring music that spans the full breadth of the storied FINAL FANTASY franchise, players tap along to the memorable beats and harmonies as the adorable, stylized characters battle and quest through their worlds. The music of over 20 titles is brought together in one package, fusing together the moving scores, cinematic visuals, and role-playing elements the series is known for.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          2808,
+          4163
+        ],
+        "genres": [
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12585": [
+          {
+            "id": 37329,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12585-1.jpg",
+            "resolution": "640x569"
+          }
+        ],
+        "23409": [
+          {
+            "id": 68848,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23409-1.jpg",
+            "resolution": "1545x1376"
+          }
+        ],
+        "60998": [
+          {
+            "id": 204445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60998-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61905": [
+          {
+            "id": 205602,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61905-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110107": [
+          {
+            "id": 378230,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110107-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110109": [
+          {
+            "id": 378231,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110109-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123811": [
+          {
+            "id": 429888,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123811-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123812": [
+          {
+            "id": 429891,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123812-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Theatrhythm+Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 487,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630017
+}

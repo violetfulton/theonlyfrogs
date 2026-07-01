@@ -1,0 +1,135 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 123897,
+        "game_title": "Zelda no Densetsu: Tri Force 3-Juushi",
+        "release_date": "2015-10-22",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The Legend of Zelda: Tri Force Heroes is an action-adventure game developed by Nintendo EPD and Grezzo and published by Nintendo for the Nintendo 3DS. The second original Nintendo 3DS entry in The Legend of Zelda series after A Link Between Worlds, this game is the third instalment in the franchise to prominently feature a multiplayer campaign after Four Swords and Four Swords Adventures, albeit this time with only three players as opposed to four, wireless and online connectivity as opposed to the prior games' use of link cables, and a stronger emphasis on cooperation rather than competition.\r\n\r\nThe story follows the same incarnation of Link from the aforementioned A Link Between Worlds, who this time is called forth along with two other Links by the fashion-obsessed kingdom of Hytopia to lift a curse placed on their princess, Styla, from the evil Drablands Witch.\r\n\r\nTri Force Heroes was released worldwide in October 2015 and received generally mixed reviews from critics. While the game's presentation, soundtrack and multiplayer were praised, many reviewers criticized the game's single-player mode and its online functionality and matchmaking features. The game has sold over 1.36 million copies worldwide as of December 2020.",
+        "players": 3,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 32311,
+        "game_title": "The Legend of Zelda: Tri Force Heroes",
+        "release_date": "2015-10-23",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "In the visual style of the critically-acclaimed The Legend of Zelda™: A Link Between Worlds game comes a new adventure. In this journey, three players team up– each as Link – to cooperatively make their way through inventive dungeons and battle bosses. Use the new Totem mechanic to stack three Links on top of each other to reach higher grounds and solve puzzles. Collect loot to create wearable outfits, each with a different boost or ability.",
+        "players": 3,
+        "rating": "E - Everyone",
+        "developers": [
+          3628,
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115272,
+        "game_title": "The Legend of Zelda: Tri Force Heroes",
+        "release_date": "2015-10-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The Legend of Zelda: Tri Force Heroes is an action-adventure game developed by Nintendo EPD and Grezzo and published by Nintendo for the Nintendo 3DS. The second original Nintendo 3DS entry in The Legend of Zelda series after A Link Between Worlds, this game is the third instalment in the franchise to prominently feature a multiplayer campaign after Four Swords and Four Swords Adventures, albeit this time with only three players as opposed to four, wireless and online connectivity as opposed to the prior games' use of link cables, and a stronger emphasis on cooperation rather than competition.\r\n\r\nThe story follows the same incarnation of Link from the aforementioned A Link Between Worlds, who this time is called forth along with two other Links by the fashion-obsessed kingdom of Hytopia to lift a curse placed on their princess, Styla, from the evil Drablands Witch.\r\n\r\nTri Force Heroes was released worldwide in October 2015 and received generally mixed reviews from critics. While the game's presentation, soundtrack and multiplayer were praised, many reviewers criticized the game's single-player mode and its online functionality and matchmaking features. The game has sold over 1.36 million copies worldwide as of December 2020.",
+        "players": 3,
+        "rating": "Not Rated",
+        "developers": [
+          3628,
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "32311": [
+          {
+            "id": 236761,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/32311-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115272": [
+          {
+            "id": 430512,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115272-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123897": [
+          {
+            "id": 430516,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123897-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Tri+Force+Heroes&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 445,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630011
+}

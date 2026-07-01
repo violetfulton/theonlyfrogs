@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 60652,
+        "game_title": "Diablo III: Eternal Collection",
+        "release_date": "2018-11-02",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Generations of gamers have battled the demonic hordes of Diablo, and now it's your turn to take part in the action-RPG legacy. This Eternal Collection features Diablo III, the Reaper of Souls expansion set and the Rise of the Necromancer packall together in one definitive volume. Prepare yourself, mortal hero. The hellgates are opening.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 129927,
+        "game_title": "Diablo III: Eternal Collection",
+        "release_date": "2018-11-02",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Raise Some Hell\r\nAges ago, angels and demons birthed your world in a forbidden union. Now they’ve come to claim it.\r\nStand tall among Sanctuary’s meek and wicked to battle walking corpses, horrifying cultists, fallen seraphs, and the Lords of Hell. When the High Heavens and the Burning Hells war, humanity must be its own salvation.\r\n\r\nUnholy Trinity\r\nThe Diablo III game, the Reaper of Souls expansion, and the Rise of the Necromancer pack are all part of the Eternal Collection: 7 classes, 5 acts, and seasons’ worth of demon-smashing.\r\n\r\nNintendo Switch™ Exclusives\r\nDiscover pieces of Zelda’s world in Sanctuary. The Eternal Collection on Nintendo Switch™ includes the Cucco companion pet, a Triforce portrait frame, and an exclusive transmogrification set that will let your heroes sport Ganondorf's iconic armor. You’ll also receive unique cosmetic wings.\r\n\r\nDefy the Darkness\r\nYou’re a surrounded world’s only defense against Heaven and Hell. Arm yourself with a Joy-Con™ or the Pro Controller, and choose from 7 dark fantasy classes, each with its own way to slay.\r\n\r\nEternal Replayability\r\nEvil is never vanquished forever. Whether you’re testing yourself against new difficulty settings, playing through the epic story campaign, searching for the perfect skill combo, expanding your collection of gear, racing through random dungeons, or traveling Sanctuary anew each season, you’ll always have a fresh challenge to seek out.\r\n\r\nAssemble the Perfect Arsenal\r\nAs you charge through Diablo III’s five story acts, you’ll collect gear from Sanctuary’s furthest reaches, including legendary items that change your entire playstyle and armor sets that provide dynamic bonuses as you uncover more pieces.\r\n\r\nYour Path to Power\r\nDiablo III’s power-building system is flexible enough for an afternoon or a full season. Push back the Burning Hells with spears, storms, and zombie dogs—over 800 unique abilities to unlock and master. Turn fire into lightning, split your magic blasts, and change your skills to create devastating power combinations.\r\n\r\nIt’s Dangerous to Go Alone\r\nJump into local, action-RPG multiplayer with up to three friends, and crush demons from your comfiest couch cushions, no internet required—or fill out the ranks of your party online. You can play Diablo III shared-screen on a single Nintendo Switch™, remotely on up to four Nintendo Switch™ consoles, or combine TV and handheld play.\r\n\r\nAustralian Classification: MA",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          1204
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          47
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "60652": [
+          {
+            "id": 443390,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60652-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443391,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/60652-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129927": [
+          {
+            "id": 453026,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129927-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Diablo+III%3A+Eternal+Collection&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 240,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629979
+}

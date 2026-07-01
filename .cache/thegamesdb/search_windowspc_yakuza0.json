@@ -1,0 +1,302 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 9,
+    "games": [
+      {
+        "id": 60527,
+        "game_title": "Yakuza 0",
+        "release_date": "2018-08-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Tokyo 1988. Getting rich is easy, the women are beautiful, and everyone wants in on the action. It's time to become Yakuza. The glitz, glamour, and unbridled decadence of the 80s are back in Yakuza 0! Fight like hell through Tokyo and Osaka with protagonist Kazuma Kiryu and series regular Goro Majima. Play as Kazuma Kiryu and discover how he finds himself in a world of trouble when a simple debt collection goes wrong and his mark winds up murdered. Then, step into the silver-toed shoes of Goro Majima and explore his \"normal\" life as the proprietor of a cabaret club. Switch between three different fighting styles instantaneously and beat up all manner of goons, thugs, hoodlums, and lowlifes. Take combat up a notch by using environmental objects such as bicycles, sign posts, and car doors for bone-crunching combos and savage take-downs. Fighting is not the only way to kill time in 1988's Japan: from discos and hostess clubs to classic SEGA arcades, there are tons of distractions to pursue in the richly detailed, neon-lit world. Interact with the colourful denizens the red light district: help a budding S&M dominatrix learn her profession, or ensure a street performer can make it to the bathroom in time there are 100 incredible stories to discover.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          7362
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 135021,
+        "game_title": "Yakuza 0 Director's Cut",
+        "release_date": "2025-12-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Discover the decadence and danger of 1980's Japan as you fight like hell through its neon-lit entertainment districts in the definitive edition of the action-adventure crime drama that created yakuza legends.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7362
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          27
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 81610,
+        "game_title": "Y2K",
+        "release_date": "1999-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7348
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          8271
+        ]
+      },
+      {
+        "id": 85635,
+        "game_title": "Yaga",
+        "release_date": "2021-01-12",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          2299
+        ]
+      },
+      {
+        "id": 84254,
+        "game_title": "Yakouga 4",
+        "release_date": "2008-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Adult Only Doujin PC Shmup",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 84266,
+        "game_title": "Yakouga 5",
+        "release_date": "2012-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Adult Only Doujin PC Shmup",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 102426,
+        "game_title": "Yakuza 6: The Song of Life",
+        "release_date": "2016-12-08",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Step into Japan's criminal underworld in this explosive action brawler starring legendary yakuza, Kazuma Kiryu, who is hellbent on unraveling the truth around his daughter's tragic accident.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7362
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          27
+        ],
+        "publishers": [
+          15
+        ]
+      },
+      {
+        "id": 73292,
+        "game_title": "Yogho",
+        "release_date": "1994-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "A little boy who is fond of a typical Dutch drink called the YoghoYogho and his quests related to reaching to the drink, is well described in the adventure filled video game of YoghoYogho Spel.\r\nThe game begins with a small kid who is fond of Yogurts, go in the search of the drink. For getting this drink, the protagonist is needed to collect different objects and it is not just limited here. After collecting the objects, the player has to gift them to somebody or anything. The player gets the chance to help different people, animals and get them out of trouble. For example, in one level, the player has to help Betty collect three cauliflowers before the sea dries up. From rescuing your grandmother from Dracula, retrieving a kettle from getting frozen, stopping a cow from crying and much more the game is roller coaster ride of adventure and fun. To add to the level of enjoyment, there are bonus levels too. The player in the bonus level has to collect maximum fruits as possible to win extra score. The player is also provided with a map, with the help of which the player can unlock the locked doors. Excellent Cartoonish graphics, engrossing plot and conceptualization, makes YoghoYogho Spel a fun game which won’t fail to lay its spell on players. So, what are you waiting for? Go grab the points and quench your thirst with a glass of Yoghurt.\r\n\r\nDeveloper: Score Games\r\nPublisher: Euphoria Multimedia Productions",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 19574,
+        "game_title": "Ys II: Ancient Ys Vanished – The Final Chapter",
+        "release_date": "1988-04-22",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6010
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          2057
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19574": [
+          {
+            "id": 56712,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19574-1.jpg",
+            "resolution": "640x976"
+          }
+        ],
+        "60527": [
+          {
+            "id": 253598,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60527-1.jpg",
+            "resolution": null
+          }
+        ],
+        "73292": [
+          {
+            "id": 234929,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/73292-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 234930,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/73292-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81610": [
+          {
+            "id": 265365,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81610-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84254": [
+          {
+            "id": 426031,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84254-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84266": [
+          {
+            "id": 426030,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84266-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85635": [
+          {
+            "id": 326866,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85635-1.jpg",
+            "resolution": null
+          }
+        ],
+        "102426": [
+          {
+            "id": 351014,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/102426-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135021": [
+          {
+            "id": 476472,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135021-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Yakuza+0&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 733,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630055
+}

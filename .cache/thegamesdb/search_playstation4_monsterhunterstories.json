@@ -1,0 +1,99 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 127161,
+        "game_title": "Monster Hunter Stories",
+        "release_date": "2024-06-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 127307,
+        "game_title": "Monster Hunter Stories Collection",
+        "release_date": "2024-06-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "127161": [
+          {
+            "id": 441257,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127161-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127307": [
+          {
+            "id": 441761,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127307-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter+Stories&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 357,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629998
+}

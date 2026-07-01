@@ -1,0 +1,462 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 13,
+    "games": [
+      {
+        "id": 123790,
+        "game_title": "Final Fantasy XIII-2",
+        "release_date": "2011-12-15",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe.\r\n\r\nXIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 2472,
+        "game_title": "Final Fantasy XIII-2",
+        "release_date": "2012-01-31",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe.\r\n\r\nXIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 95334,
+        "game_title": "Final Fantasy XIII-2",
+        "release_date": "2012-02-03",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe.\r\n\r\nXIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 69669,
+        "game_title": "Final Fantasy XIII-2 - Crystal Edition",
+        "release_date": "2012-02-02",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Three years after the events in FINAL FANTASY XIII, Lightning has gone missing, and Snow is nowhere to be found. In a rebuilding world, Serah notices that something is amiss. After a fortuitous encounter with a mysterious man named Noel, the two set off to find Lightning.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61598,
+        "game_title": "Final Fantasy XIII-2 [Limited Collector's Edition]",
+        "release_date": "2012-01-31",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe. XIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123789,
+        "game_title": "Final Fantasy XIII-2 [Nordic Edition]",
+        "release_date": "2012-02-03",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe.\r\n\r\nXIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 108804,
+        "game_title": "Final Fantasy XIII-2 [Ultimate Hits]",
+        "release_date": "2013-07-18",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "The game takes players to an era when the Cocoon crumbles. In this new world, everyone assums that Lightning is dead, except for Sara, who has never given up on her sister. A new character came into the picture. Noel has powerful spells up his sleeve and together with Sara and the Moogle, they set off to explore the unknown lands. Monsters attack in hordes and after the battle, players will be presented with an option to befriend these beasts. The beasts all have special skills, so make good use of them to boost your attacks. Cinematic cut-ins plays a huge roll in the battles. Punch in the right button sequences on screen to launch a sure kill skill.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 64190,
+        "game_title": "Final Fantasy XIII-2 Novella Edition",
+        "release_date": "2012-01-31",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The story of Final Fantasy XIII-2 follows on from that of Final Fantasy XIII, but as is typical for the series, it is unrelated to all other previous Final Fantasy games. In XIII, one of the fal'Cie—a god-like race—transformed a team of six people, the primary characters of the game, into l'Cie (servants of the fal'Cie gifted with magical powers and a 'Focus'—an assigned task to be completed within a time limit), in the hope that they would initiate the end of the world. The six were intended to cause the large, inhabited floating sphere named Cocoon to fall into the world below, named Gran Pulse, killing all of the humans of Cocoon. At the finale of the game, two of the l'Cie transformed into a crystal pillar to support Cocoon, preventing the catastrophe. XIII-2 begins three years after the end of XIII. Owing to the fall of Cocoon at the end of XIII and the collapse of its government (the Sanctum), at the start of XIII-2, most of Cocoon's inhabitants have moved down onto Gran Pulse, and some have learned magical abilities. Over the course of the game, a scientific body called the Academy becomes a new technocratic government. While the game starts off in the year 3 AF ('AF' being a new timescale set up after the fall of Cocoon), the story of XIII-2 jumps around several different time periods, and even parallel versions of different places, accessed via the Historia Crux. While most of the game takes place on Gran Pulse and inside Cocoon, there are two other major locations. One is the Void Beyond, a limbo between time periods. The other location is Valhalla, the capital of the goddess Etro. This place is a realm at the end of time where the goddess keeps a dark energy called chaos from escaping and destroying the timeline.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 43097,
+        "game_title": "FINAL FANTASY VIII (PSOne Classic)",
+        "release_date": "2009-12-17",
+        "platform": 12,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "In a world where an ancient energy known as the Sorceress Power is passed down through generations, the peace of the realm is threatened when the evil Sorceress Ultimecia takes power as ruler of the Galbadia Republic. To restore order, Squall, a member of Balamb Garden Military Academy's elite mercenary force SeeD, other allies from the Garden, and Rinoa, a member of the resistance, join together on a journey that spans time and space.\r\n\r\nDownload this PS one® Classic today and experience the adventure of a lifetime!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8096
+        ],
+        "genres": [
+          2,
+          4,
+          27
+        ],
+        "publishers": [
+          11
+        ]
+      },
+      {
+        "id": 61956,
+        "game_title": "FINAL FANTASY IX (PSOne Classic)",
+        "release_date": "2010-06-15",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "On a beautiful blue planet known as Gaia, unsettling trends began to take place on the Mist Continent. In this peaceful land where the Crystal served as the foundation of all life, the kingdom of Alexandria began indiscriminately invading neighboring nations. Her queen was manipulated by Kuja, a man seen by many as an angel of death.\r\n\r\nZidane, a member of the Tantalus, a group of thieves using the cover of a traveling theater group, is joined by unexpected allies as he sets forth on a journey to stop the ensuing war. Thus begins an epic adventure to protect the Crystal and all life on Gaia. ",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8096
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          136
+        ]
+      },
+      {
+        "id": 113328,
+        "game_title": "Final Fantasy XIII",
+        "release_date": "2010-03-09",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Final Fantasy XIII is a console role-playing video game developed and published by Square Enix for the PlayStation 3 and Xbox 360. Released in 2009 in Japan and North America and PAL regions in March 2010, it is the thirteenth major installment in the Final Fantasy series. The game includes fast-paced combat, a new system for the series for determining which abilities are developed for the characters called \"Crystarium\", and a customizable \"Paradigm\" system to control which abilities are used by the characters. Final Fantasy XIII includes elements from the previous games in the series, such as summoned monsters, chocobos, and airships.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 21,
+        "game_title": "Final Fantasy XIII",
+        "release_date": "2010-03-09",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Final Fantasy XIII is a console role-playing video game developed and published by Square Enix for the PlayStation 3 and Xbox 360. Released in 2009 in Japan and North America and PAL regions in March 2010, it is the thirteenth major installment in the Final Fantasy series. The game includes fast-paced combat, a new system for the series for determining which abilities are developed for the characters called \"Crystarium\", and a customizable \"Paradigm\" system to control which abilities are used by the characters. Final Fantasy XIII includes elements from the previous games in the series, such as summoned monsters, chocobos, and airships.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 99176,
+        "game_title": "Final Fantasy XIII",
+        "release_date": "2009-12-17",
+        "platform": 12,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Final FantasyFinal Fantasy XIII is a console role-playing video game developed and published by Square Enix for the PlayStation 3 and Xbox 360. Released in 2009 in Japan and North America and PAL regions in March 2010, it is the thirteenth major installment in the Final Fantasy series. The game includes fast-paced combat, a new system for the series for determining which abilities are developed for the characters called \"Crystarium\", and a customizable \"Paradigm\" system to control which abilities are used by the characters. Final Fantasy XIII includes elements from the previous games in the series, such as summoned monsters, chocobos, and airships.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "21": [
+          {
+            "id": 21714,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/21-1.jpg",
+            "resolution": "640x739"
+          },
+          {
+            "id": 21715,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/21-1.jpg",
+            "resolution": "640x731"
+          }
+        ],
+        "2472": [
+          {
+            "id": 35655,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2472-1.png",
+            "resolution": "768x880"
+          },
+          {
+            "id": 58095,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2472-1.jpg",
+            "resolution": "868x1000"
+          }
+        ],
+        "43097": [
+          {
+            "id": 253456,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/43097-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61598": [
+          {
+            "id": 246879,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61598-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 246880,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/61598-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61956": [
+          {
+            "id": 206707,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61956-1.jpg",
+            "resolution": null
+          }
+        ],
+        "64190": [
+          {
+            "id": 234748,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/64190-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69669": [
+          {
+            "id": 223461,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69669-1.jpg",
+            "resolution": null
+          }
+        ],
+        "95334": [
+          {
+            "id": 321614,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/95334-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 321615,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/95334-1.jpg",
+            "resolution": null
+          }
+        ],
+        "99176": [
+          {
+            "id": 337840,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/99176-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 388597,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/99176-1.jpg",
+            "resolution": null
+          }
+        ],
+        "108804": [
+          {
+            "id": 374926,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/108804-1.jpg",
+            "resolution": null
+          }
+        ],
+        "113328": [
+          {
+            "id": 386347,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113328-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 386348,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/113328-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123789": [
+          {
+            "id": 429831,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123789-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123790": [
+          {
+            "id": 429834,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123790-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XIII-2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 656,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630042
+}

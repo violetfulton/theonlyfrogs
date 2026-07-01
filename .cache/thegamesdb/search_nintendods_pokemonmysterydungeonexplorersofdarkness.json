@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 2375,
+        "game_title": "Pokémon Mystery Dungeon: Explorers of Darkness",
+        "release_date": "2008-04-20",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In this pair of action-packed adventures, players journey as actual Pokemon through a fantastic land untouched by humans. Before the game starts, players take a test to help them figure out which of 16 Pokemon best represents their personalities. Players then experience their adventure through the eyes of a Pokemon as they explore the land and embark on an epic journey through time and darkness. They talk and team up with other Pokemon to set out on an epic voyage while navigating an endless array of randomly generated dungeons. More than 490 Pokemon populate these new games, guaranteeing strategic, intense battles and infinite possibilities, no matter which Pokemon players become. To widen their circle of Pokemon friends, Nintendo Wi-Fi Connection lets users engage in wireless rescue operations and send alerts to their friends via e-mail or mobile text message.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1637
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2375": [
+          {
+            "id": 21572,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2375-1.jpg",
+            "resolution": "640x574"
+          },
+          {
+            "id": 21573,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2375-1.jpg",
+            "resolution": "640x567"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Mystery+Dungeon%3A+Explorers+of+Darkness&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 557,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630028
+}

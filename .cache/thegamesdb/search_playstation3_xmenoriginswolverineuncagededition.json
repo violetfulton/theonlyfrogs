@@ -1,0 +1,96 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 53733,
+        "game_title": "X-Men Origins: Wolverine - Uncaged Edition",
+        "release_date": "2009-05-01",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7006
+        ],
+        "genres": null,
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 116178,
+        "game_title": "X-Men Origins: Wolverine [Uncaged Edition]",
+        "release_date": "2009-05-01",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "X-Men Origins: Wolverine is a 2009 hack and slash action-adventure game loosely based on the film of the same name. The game release coincided with the release of the film on May 1, 2009 for the PlayStation 3, Xbox 360, Windows, Wii, PlayStation 2, Nintendo DS, and PlayStation Portable. The game was developed primarily by Raven Software through the use of Unreal Engine technology. Amaze Entertainment developed the Wii and PS2 ports and Griptonite Games developed the PSP and DS ports.\r\n\r\nX-Men Origins: Wolverine, along with most other games published by Activision that had used the Marvel licence, was de-listed and removed from all digital storefronts on January 1, 2014.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          7006
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          33
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "53733": [
+          {
+            "id": 135105,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/53733-1.jpg",
+            "resolution": "256x317"
+          }
+        ],
+        "116178": [
+          {
+            "id": 395990,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116178-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=X-Men+Origins%3A+Wolverine+Uncaged+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 610,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630035
+}

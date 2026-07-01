@@ -1,0 +1,142 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 88519,
+        "game_title": "Ghost of Tsushima: Director's Cut",
+        "release_date": "2021-08-20",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "A storm is coming. Discover the expanded Ghost of Tsushima experience in this Director’s Cut.\r\n\r\nUncover the hidden wonders of Tsushima in this open-world action adventure from Sucker Punch Productions and PlayStation Studios, available for PS5. Forge a new path and wage an unconventional war for the freedom of Tsushima. Challenge opponents with your katana, master the bow to eliminate distant threats, develop stealth tactics to ambush enemies and explore a new story on Iki Island.\r\n\r\nDirector's Cut Edition includes all additional content released to date, as well as brand new content:\r\n- Full base game.\r\n- Iki Island expansion: New story, mini-games, enemy types and more. \r\n- Legends online co-op mode.\r\n- Digital mini art book by Dark Horse.\r\n- One Technique Point.\r\n- Charm of Hachiman’s Favor \r\n- Hero of Tsushima Skin Set: Golden Mask, Sword Kit, Horse, Saddle\r\n- Director’s commentary: The creative team sits down with a renowned Japanese historian to look at the world of Ghost of Tsushima and how it compares to the real-life events that inspired it.\r\n\r\nFeatures:\r\n- Dynamic 4K resolution targeting 60fps – experience Ghost of Tsushima like never before with new 4K resolution options.\r\n -Fast loading – take advantage of near-instant load times with the PlayStation®5 console’s ultra-high-speed SSD.\r\n- Haptic feedback – master your blade through the DualSense™ wireless controller’s immersive haptic feedback.\r\n- Adaptive triggers – enhance your accuracy with a bow with the DualSense wireless controller’s adaptive trigger resistance.\r\n- 3D Audio – heighten your awareness by hearing dangers from all around you in 3D spatial audio when you use stereo headphones.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 98321,
+        "game_title": "Ghost of Tsushima: Director's Cut",
+        "release_date": "2021-08-20",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          10
+        ],
+        "publishers": null
+      },
+      {
+        "id": 119972,
+        "game_title": "Ghost of Tsushima: Director's Cut",
+        "release_date": "2021-08-20",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8301
+        ],
+        "genres": [
+          1,
+          2,
+          10
+        ],
+        "publishers": [
+          4048
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "88519": [
+          {
+            "id": 352048,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88519-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 395853,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/88519-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98321": [
+          {
+            "id": 354884,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98321-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 354885,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/98321-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119972": [
+          {
+            "id": 411623,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119972-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ghost+of+Tsushima%3A+Director%27s+Cut&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 138,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629963
+}

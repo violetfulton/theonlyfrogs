@@ -1,0 +1,200 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 114020,
+        "game_title": "Atsumare Doubutsu no Mori",
+        "release_date": "2020-03-20",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 61029,
+        "game_title": "Animal Crossing: New Horizons",
+        "release_date": "2020-03-20",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Escape to Your Personal Island Paradise\r\n\r\nEscape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round. \r\n\r\nShow off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\r\n\r\n• Build your community from scratch on a deserted island brimming with possibility\r\n• Create your personal getaway and customize your character, home, decorations, and even the landscape itself\r\n• Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\r\n• Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\r\n• Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\r\n• Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 97354,
+        "game_title": "Animal Crossing: New Horizons",
+        "release_date": "2020-03-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Escape to Your Personal Island Paradise\r\n\r\nEscape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round. \r\n\r\nShow off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\r\n\r\n• Build your community from scratch on a deserted island brimming with possibility\r\n• Create your personal getaway and customize your character, home, decorations, and even the landscape itself\r\n• Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\r\n• Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\r\n• Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\r\n• Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players",
+        "players": 8,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 98850,
+        "game_title": "Animal Crossing: New Horizons",
+        "release_date": "2020-03-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "Escape to Your Personal Island Paradise\r\n\r\nEscape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round. \r\n\r\nShow off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\r\n\r\n• Build your community from scratch on a deserted island brimming with possibility\r\n• Create your personal getaway and customize your character, home, decorations, and even the landscape itself\r\n• Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\r\n• Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\r\n• Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\r\n• Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 118791,
+        "game_title": "Animal Crossing: New Horizons",
+        "release_date": "2020-03-20",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Escape to Your Personal Island Paradise\r\n\r\nEscape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round. \r\n\r\nShow off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\r\n\r\n• Build your community from scratch on a deserted island brimming with possibility\r\n• Create your personal getaway and customize your character, home, decorations, and even the landscape itself\r\n• Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\r\n• Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\r\n• Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\r\n• Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players",
+        "players": 8,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "61029": [
+          {
+            "id": 254847,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61029-1.jpg",
+            "resolution": null
+          }
+        ],
+        "97354": [
+          {
+            "id": 329078,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/97354-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 447461,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/97354-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98850": [
+          {
+            "id": 336353,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98850-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114020": [
+          {
+            "id": 388159,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114020-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 443434,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/114020-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118791": [
+          {
+            "id": 406315,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118791-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+New+Horizons&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 294,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629988
+}

@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 16779,
+        "game_title": "Guacamelee!",
+        "release_date": "2013-04-09",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Drinkbox Studios (developers of Mutant Blobs Attack) bring this non-linear platformer and action game to Sony's Playstation Vita and Playstation Network download service exclusively.  \r\n\r\nGuacamelee! is a Metroid-vania style action-platformer set in a magical Mexican inspired world.\r\n\r\nThe game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters. Guacamelee builds upon the classic open-world Metroid-vania style of games, by adding a strong melee combat component, a new dimension switching mechanic, and cooperative same-screen multiplayer for the entire story.  The game also blurs the boundaries between combat and platforming by making many of the moves useful and necessary for both of these.\r\n\r\nThe game features a down on his luck Mexican named Juan Aguacate, who sets out to save the world when El Presidente’s Daughter is kidnapped by an Evil Charro Skeleton. The story takes place in and around a small village in Mexico, and has the player travelling through alternate dimensions: “The World of the Living” and “The World of the Dead” on his quest to rescue the girl he loves.",
+        "players": 2,
+        "rating": "T - Teen",
+        "developers": [
+          2514
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          1639
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "16779": [
+          {
+            "id": 45988,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/16779-1.jpg",
+            "resolution": "629x640"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Guacamelee%21&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 650,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630041
+}

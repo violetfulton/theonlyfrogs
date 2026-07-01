@@ -1,0 +1,126 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 98916,
+        "game_title": "Corridor Z",
+        "release_date": "2018-01-05",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Ordinary high school, zombie outbreak and the bunch of survivors in a run for life.\r\n\r\nThis time you don't 'face' the obstacles, but the actual pursuit. Don't let the zombies catch you up, throw them the obstacles and aim for the head before they take the first bite. In the meantime find the lost recordings of the audio log and reveal where did the infection come from in your small town.\r\n\r\nFEATURES\r\n* Experience the most genre refreshing runner in years\r\n* Get thrilled with the unique and intense gameplay\r\n* Help the pom-pom girl, the jock and the jarhead to survive\r\n* Discover the infection's mystery with voice-overed story\r\n* Stock the awesome upgradeable arsenal: pistols, SMGs, shotguns and more\r\n* Immerse yourself in multiple objectives designed for each of the characters\r\n* ...and shoot down tons of running horror!\r\n\r\nBe quick or be undead!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 123279,
+        "game_title": "Creatures 2",
+        "release_date": "1998-10-30",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          1909,
+          3656
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          90
+        ]
+      },
+      {
+        "id": 9667,
+        "game_title": "Creatures 3",
+        "release_date": "1999-12-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": null,
+        "genres": null,
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "9667": [
+          {
+            "id": 41503,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/9667-1.jpg",
+            "resolution": "640x816"
+          },
+          {
+            "id": 41504,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/9667-1.jpg",
+            "resolution": "640x807"
+          }
+        ],
+        "98916": [
+          {
+            "id": 336653,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98916-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123279": [
+          {
+            "id": 427405,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123279-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Corridor+Z&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 944,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630091
+}

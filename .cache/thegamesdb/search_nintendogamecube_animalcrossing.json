@@ -1,0 +1,288 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 8,
+    "games": [
+      {
+        "id": 107922,
+        "game_title": "Animal Crossing",
+        "release_date": "2004-09-24",
+        "platform": 2,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Welcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          2,
+          4,
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 117142,
+        "game_title": "Animal Crossing",
+        "release_date": "2002-09-16",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Welcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 5768,
+        "game_title": "Animal Crossing",
+        "release_date": "2002-09-16",
+        "platform": 2,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Animal Crossing is a 2002 GameCube video game developed by Nintendo EAD and released by Nintendo of America in the USA on September 16, 2002.\r\n\r\nWelcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 105210,
+        "game_title": "Animal Crossing [Kmart Edition]",
+        "release_date": "2002-09-16",
+        "platform": 2,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Welcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          4,
+          9
+        ],
+        "publishers": null
+      },
+      {
+        "id": 117143,
+        "game_title": "Animal Crossing [Player's Choice]",
+        "release_date": "2002-09-16",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 8,
+        "overview": "Welcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real-time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          9,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 84991,
+        "game_title": "Animal Crossing [Player's Choice]",
+        "release_date": "2002-09-16",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Welcome to town! It's time to move to Animal Crossing, the real-life game that's happening every second of every day whether you're there or not!\r\n\r\nAnimal Crossing allows you to interact with a virtual village of animals that are doing something different every minute of every day. With Animal Crossing's 24-hour clock, the game's unique events can be in sync with real-time--as day turns to night in the real world, the sun will also begin to set in the game. The dynamic setup requires you to come back every day and carry out your daily routines, build relationships with villagers, celebrate special days, collect furnishings for your homes, and just live life in the unique world of Animal Crossing.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          4,
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 87937,
+        "game_title": "Doubutsu no Mori e+",
+        "release_date": "2003-06-27",
+        "platform": 2,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          4,
+          9
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 128550,
+        "game_title": "Ultimate Codes for Animal Crossing",
+        "release_date": "2002-01-01",
+        "platform": 2,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This software allows for various cheats such as housing upgrades for1 Bell and a complete museum.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "5768": [
+          {
+            "id": 35330,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/5768-2.png",
+            "resolution": "771x1081"
+          },
+          {
+            "id": 236854,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/5768-1.jpg",
+            "resolution": null
+          }
+        ],
+        "84991": [
+          {
+            "id": 371684,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/84991-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87937": [
+          {
+            "id": 291829,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87937-1.jpg",
+            "resolution": null
+          }
+        ],
+        "105210": [
+          {
+            "id": 371685,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/105210-1.jpg",
+            "resolution": null
+          }
+        ],
+        "107922": [
+          {
+            "id": 371693,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/107922-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117142": [
+          {
+            "id": 452668,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117142-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117143": [
+          {
+            "id": 452671,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117143-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128550": [
+          {
+            "id": 446952,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/128550-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 479714,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128550-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "2": {
+          "id": 2,
+          "name": "Nintendo GameCube",
+          "alias": "nintendo-gamecube"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=2&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 525,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630022
+}

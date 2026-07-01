@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 82984,
+        "game_title": "Valheim",
+        "release_date": "2021-02-02",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 100,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": null
+      },
+      {
+        "id": 31308,
+        "game_title": "Volume",
+        "release_date": "2015-08-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Narrative stealth action from award-winning game designer Mike Bithell. Enter the Volume to halt the corruption of Gisborne Industries and train the masses to rob from the rich in this reimagining of the Robin Hood legend.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          5533
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "31308": [
+          {
+            "id": 82231,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/31308-1.jpg",
+            "resolution": "467x181"
+          }
+        ],
+        "82984": [
+          {
+            "id": 271368,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/82984-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Valheim&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 727,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630054
+}

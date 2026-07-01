@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 55546,
+        "game_title": "Diablo III: Rise of the Necromancer",
+        "release_date": "2017-06-27",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Return to the mortal realms with deadly new powers of blood, bone and essence. The Rise of the Necromancer Pack unearths a trove of new Diablo III content, including:\r\n- New Hero Class - Necromancer: Command legions of risen dead and wield the dark arts as the male and female Necromancer\r\n- +2 Character Slots: Support your growing roster of battle-hardened heroes.\r\n- +2 Stash Tabs: Expand your formidable collection of weapons, armor and gear across all heroes.\r\n- Wings of Crypt Guardian: Unfurl wings of deathly energies with any hero in your roster.\r\n- Half-Formed Golem Pet: Summon a Half-Formed Golem pet on the battlefield to fetch gold from your fallen enemies.\r\n- Banner Shape, Banner Sigil, and Pennant: Bear the heraldry of the Necromancer as you battle throughout the mortal realms.",
+        "players": null,
+        "rating": null,
+        "developers": [
+          1203
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "55546": [
+          {
+            "id": 137709,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/55546-1.jpg",
+            "resolution": "459x650"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Diablo+III%3A+Rise+of+the+Necromancer&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 236,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629979
+}

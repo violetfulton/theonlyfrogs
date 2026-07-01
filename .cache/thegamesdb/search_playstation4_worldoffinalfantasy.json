@@ -1,0 +1,211 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 40128,
+        "game_title": "World of Final Fantasy",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "In the enchanting RPG World of Final Fantasy, players follow the journey of siblings, Reynn and Lann, as they enter the world of Grymoire and encounter a multitude of familiar Final Fantasy characters and monsters. World of Final Fantasy combines classic RPG gameplay mechanics with fresh and imaginative toy-like visuals. Capture and raise familiar Final Fantasy beasts (such as cactuar, chocobo, and behemoth) to discover alternate forms and learn new abilities. With an inviting approach to gameplay, this game can be enjoyed by both fans and newcomers to the series.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 103111,
+        "game_title": "World of Final Fantasy",
+        "release_date": "2016-10-28",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 54098,
+        "game_title": "World of Final Fantasy (Collector's Edition)",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the enchanting RPG World of Final Fantasy, players follow the journey of siblings, Reynn and Lann, as they enter the world of Grymoire and encounter a multitude of familiar Final Fantasy characters and monsters. World of Final Fantasy combines classic RPG gameplay mechanics with fresh and imaginative toy-like visuals. Capture and raise familiar Final Fantasy beasts (such as cactuar, chocobo, and behemoth) to discover alternate forms and learn new abilities. With an inviting approach to gameplay, this game can be enjoyed by both fans and newcomers to the series.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 104584,
+        "game_title": "World of Final Fantasy [Limited Edition]",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 115064,
+        "game_title": "World of Final Fantasy [Limited Edition]",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "In the enchanting RPG World of Final Fantasy, players follow the journey of siblings, Reynn and Lann, as they enter the world of Grymoire and encounter a multitude of familiar Final Fantasy characters and monsters. World of Final Fantasy combines classic RPG gameplay mechanics with fresh and imaginative toy-like visuals. Capture and raise familiar Final Fantasy beasts (such as cactuar, chocobo, and behemoth) to discover alternate forms and learn new abilities. With an inviting approach to gameplay, this game can be enjoyed by both fans and newcomers to the series.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 61883,
+        "game_title": "World of Final Fantasy Maxima",
+        "release_date": "2018-11-06",
+        "platform": 4919,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "40128": [
+          {
+            "id": 307651,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/40128-1.jpg",
+            "resolution": null
+          }
+        ],
+        "54098": [
+          {
+            "id": 228332,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/54098-1.jpg",
+            "resolution": null
+          }
+        ],
+        "61883": [
+          {
+            "id": 282481,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/61883-1.jpg",
+            "resolution": null
+          }
+        ],
+        "103111": [
+          {
+            "id": 353060,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/103111-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104584": [
+          {
+            "id": 358153,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104584-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 358154,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/104584-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115064": [
+          {
+            "id": 391759,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115064-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=World+of+Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 325,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629993
+}

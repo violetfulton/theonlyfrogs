@@ -1,0 +1,108 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 10893,
+        "game_title": "Alice: Madness Returns",
+        "release_date": "2011-06-14",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Alice: Madness Returns takes place 10 years after the conclusion of the original game, with Alice struggling to recover from the emotional trauma of losing her entire family in a fatal fire. After spending a decade institutionalized in an insane asylum, she is finally released to the care of a psychiatrist who just may be able to help her conquer the nightmarish hallucinations that still haunt her. Alice embarks on a mission to root out the true cause of her family's mysterious death, jumping from a gloomy and stark London to a rich and provocative Wonderland.\r\nIncludes the original American McGee's Alice remastered as an extra.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8053
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 111704,
+        "game_title": "Alice: Madness Returns",
+        "release_date": "2011-07-21",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "European PAL version.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          8053
+        ],
+        "genres": [
+          1,
+          2,
+          18
+        ],
+        "publishers": [
+          2
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "10893": [
+          {
+            "id": 69105,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/10893-1.jpg",
+            "resolution": "640x744"
+          },
+          {
+            "id": 220246,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10893-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111704": [
+          {
+            "id": 382663,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111704-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Alice%3A+Madness+Returns&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 646,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630041
+}

@@ -1,0 +1,448 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 14,
+    "games": [
+      {
+        "id": 3422,
+        "game_title": "Final Fantasy I & II: Dawn of Souls",
+        "release_date": "2004-11-29",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Relive the first two chapters in the Final Fantasy saga--this time with all-new story elements and gameplay. Now you can experience new dungeons, storylines, and characters. Furthermore, you can master the enhanced control systems, and you can save your game at anytime. In Final Fantasy, you control a group of heroes on a mission to save a kingdom in turmoil. The sequel lets you swap out members of your parties during the game, allowing you to experience the adventure with more characters.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 129834,
+        "game_title": "Final Fantasy I & II - Mod of Balance",
+        "release_date": "2010-01-01",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 3463,
+        "game_title": "Final Fantasy IV Advance",
+        "release_date": "2005-12-12",
+        "platform": 5,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "This classic adventure includes 18 towns and castles, dozens of magical spells, and hundreds of monsters, weapons, and items to help players on their quests. The game features the astounding music, challenging adventures, and interesting storyline that are the hallmarks of the Final Fantasy franchise. Additional game elements also have been added to enhance the Game Boy Advance version.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 83092,
+        "game_title": "Final Fantasy Tactics Advance",
+        "release_date": "2003-02-14",
+        "platform": 5,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": null
+      },
+      {
+        "id": 2497,
+        "game_title": "Final Fantasy Tactics Advance",
+        "release_date": "2003-09-08",
+        "platform": 5,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "When Marche and his friends open an ancient magical tome, their small town is transformed into a fantasy-filled kingdom known as Ivalice. Now, Marche must take up the sword and master the arts of war if he has any hope of returning home. Guide Marche and his clan against countless foes in tactical combat and discover the wonders of Ivalice. How will you restore your town to normal...and do you even want to?",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 126197,
+        "game_title": "Final Fantasy Tactics Advance Battle",
+        "release_date": "2020-08-15",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Final Fantasy Tactics Advanced Battle is a hack that brings monster taming to Final Fantasy Tactics Advance, and makes the whole experience centered around this mechanic.\r\n\r\nThe player can use a new item (the Capture Orb) to capture monsters which (unlike in the vanilla game) join the party and fight on your side. Additionally, all ways to get new humanoid party members have been disabled, the player needs to make do with only monsters and the two starting humanoid party members.\r\n\r\nA new system to learn abilities is implemented, similarly to the original Final Fantasy Tactics the units will earn JP which they can spend directly on purchasing abilities. This is the only way the player has to teach new abilities to the monsters.\r\n\r\nThese are the main changes, and they alone already make for a completely new experience, but be sure to check the readme for a more detailed list.\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 128705,
+        "game_title": "Final Fantasy Tactics Advance Battle",
+        "release_date": "2020-08-16",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 131674,
+        "game_title": "Final Fantasy Tactics Advance Lawless",
+        "release_date": "2025-05-15",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 136114,
+        "game_title": "Final Fantasy Tactics Advance: Maeson",
+        "release_date": "1970-01-01",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 136115,
+        "game_title": "Final Fantasy Tactics Advance: Secret Starters",
+        "release_date": "1970-01-01",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 132447,
+        "game_title": "Final Fantasy Tactics Advance X",
+        "release_date": "1970-01-01",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 128616,
+        "game_title": "Final Fantasy Tactics Advance: Battle",
+        "release_date": "2019-03-31",
+        "platform": 5,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "In FFTA: Battle, as the title screen suggests, you catch monsters and make them battle for you, which is certainly something I always wanted to do as a kid.\r\n\r\nThe changes are pretty simple, there is a new item replacing the Cureall called Capture Orb, simply use it on a weakened monster to add it to your clan!\r\nYour monsters can go on dispatch missions, fight in battles and do whatever a spider (or whatever monster type they happen to be) can!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 3464,
+        "game_title": "Final Fantasy V Advance",
+        "release_date": "2006-11-06",
+        "platform": 5,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The winds fail. Ships stand still, unable to fill their sails. The world races to its end. Unless a handful of heroes can protect the remaining crystals, the world will fall into ruin. Set off on a grand adventure in the finest version of FINAL FANTASY V ever released!",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 3465,
+        "game_title": "Final Fantasy VI Advance",
+        "release_date": "2007-02-05",
+        "platform": 5,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "This title is more than a simple port of the SNES classic — every aspect of the games has been reviewed and enhanced. Additionally, a host of brand-new elements has been seamlessly merged with the original game, providing unexpected surprises for longtime fans. With new dungeons, new job classes, and other exciting features, both old-school players and newcomers can enjoy this genre-defining FINAL FANTASY title in a portable format.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2497": [
+          {
+            "id": 7940,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2497-1.jpg",
+            "resolution": "1506x1370"
+          },
+          {
+            "id": 7941,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2497-1.jpg",
+            "resolution": "1530x1370"
+          }
+        ],
+        "3422": [
+          {
+            "id": 206737,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3422-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 206738,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3422-1.jpg",
+            "resolution": null
+          }
+        ],
+        "3463": [
+          {
+            "id": 8075,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3463-1.jpg",
+            "resolution": "1530x1370"
+          },
+          {
+            "id": 8076,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3463-1.jpg",
+            "resolution": "1530x1370"
+          }
+        ],
+        "3464": [
+          {
+            "id": 8078,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3464-1.jpg",
+            "resolution": "1530x1370"
+          },
+          {
+            "id": 33225,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3464-1.jpg",
+            "resolution": "1511x1370"
+          }
+        ],
+        "3465": [
+          {
+            "id": 8081,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/3465-1.jpg",
+            "resolution": "1530x1370"
+          },
+          {
+            "id": 8082,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/3465-1.jpg",
+            "resolution": "1530x1370"
+          }
+        ],
+        "83092": [
+          {
+            "id": 325673,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83092-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126197": [
+          {
+            "id": 462444,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126197-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128616": [
+          {
+            "id": 447172,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128616-1.jpg",
+            "resolution": null
+          }
+        ],
+        "128705": [
+          {
+            "id": 447673,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/128705-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129834": [
+          {
+            "id": 452741,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129834-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131674": [
+          {
+            "id": 462445,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131674-1.jpg",
+            "resolution": null
+          }
+        ],
+        "132447": [
+          {
+            "id": 465970,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/132447-1.jpg",
+            "resolution": null
+          }
+        ],
+        "136114": [
+          {
+            "id": 482646,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136114-1.jpg",
+            "resolution": null
+          }
+        ],
+        "136115": [
+          {
+            "id": 482647,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136115-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "5": {
+          "id": 5,
+          "name": "Nintendo Game Boy Advance",
+          "alias": "nintendo-gameboy-advance"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 513,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630021
+}

@@ -1,0 +1,168 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 23314,
+        "game_title": "Minecraft: Playstation Vita Edition",
+        "release_date": "2014-12-31",
+        "platform": 39,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Minecraft is a sandbox building video game which allows players to build constructions out of textured cubes in a 3D world. The gameplay is inspired by Dwarf Fortress, Roller Coaster Tycoon, Dungeon Keeper, and Infiniminer.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          88
+        ]
+      },
+      {
+        "id": 101215,
+        "game_title": "Minecraft: PlayStation Vita Edition",
+        "release_date": "2014-11-21",
+        "platform": 39,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Minecraft is a sandbox building video game which allows players to build constructions out of textured cubes in a 3D world. The gameplay is inspired by Dwarf Fortress, Roller Coaster Tycoon, Dungeon Keeper, and Infiniminer.",
+        "players": 4,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          96
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          88
+        ]
+      },
+      {
+        "id": 104381,
+        "game_title": "Minecraft: PlayStation Vita Edition",
+        "release_date": "2016-12-06",
+        "platform": 39,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Minecraft is a sandbox building video game which allows players to build constructions out of textured cubes in a 3D world. The gameplay is inspired by Dwarf Fortress, Roller Coaster Tycoon, Dungeon Keeper, and Infiniminer.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          88
+        ]
+      },
+      {
+        "id": 119833,
+        "game_title": "Minecraft: PlayStation Vita Edition",
+        "release_date": "2014-12-31",
+        "platform": 39,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Minecraft is a sandbox building video game which allows players to build constructions out of textured cubes in a 3D world. The gameplay is inspired by Dwarf Fortress, Roller Coaster Tycoon, Dungeon Keeper, and Infiniminer.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          5658
+        ],
+        "genres": [
+          1,
+          2,
+          3,
+          12
+        ],
+        "publishers": [
+          1625
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "23314": [
+          {
+            "id": 68605,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/23314-1.jpg",
+            "resolution": "1174x1500"
+          }
+        ],
+        "101215": [
+          {
+            "id": 347553,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101215-1.jpg",
+            "resolution": null
+          }
+        ],
+        "104381": [
+          {
+            "id": 357473,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104381-1.jpg",
+            "resolution": null
+          }
+        ],
+        "119833": [
+          {
+            "id": 410723,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/119833-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Minecraft%3A+Playstation+Vita+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 424,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630008
+}

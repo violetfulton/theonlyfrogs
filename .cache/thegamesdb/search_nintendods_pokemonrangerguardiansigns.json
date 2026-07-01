@@ -1,0 +1,99 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 19129,
+        "game_title": "Pokémon Ranger: Guardian Signs",
+        "release_date": "2010-10-04",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "The third installment in the action-packed Pokemon Ranger series lets players take on the role of a Pokemon Ranger tasked with protecting Pokemon, people and nature.\r\n\r\nWith Ranger Signs to call powerful Pokemon, including Legendary Pokemon, and the addition of multiplayer missions, players investigate the nefarious actions of the Pokemon Pinchers, who have been disrupting the peace by chasing and catching Pokemon.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 113128,
+        "game_title": "Pokemon Ranger: Hikari no Kiseki",
+        "release_date": "2010-03-06",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "19129": [
+          {
+            "id": 54597,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/19129-1.jpg",
+            "resolution": "500x449"
+          }
+        ],
+        "113128": [
+          {
+            "id": 385499,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/113128-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Ranger%3A+Guardian+Signs&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 539,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630025
+}

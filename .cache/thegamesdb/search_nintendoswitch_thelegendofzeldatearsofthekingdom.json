@@ -1,0 +1,410 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 12,
+    "games": [
+      {
+        "id": 114116,
+        "game_title": "Zelda no Densetsu: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 104362,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda: Tears of the Kingdom for Nintendo Switch. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?\r\n\r\nHere are just some of the ways Link can tap into his new abilities in creative—and sometimes surprising—ways in Tears of the Kingdom.\r\n- Explore: Link must travel across the far-reaching land and skies of Hyrule to discover the origins of the mysterious gloom that is plaguing the kingdom.\r\n- Create: Use Link’s powerful new abilities like Ultrahand and Fuse to make audacious weapons and craft creative ways to travel across the landscape.\r\n- Discover:  Find new ways to build, battle, and play as you try to uncover the secret menace that threatens Hyrule.\r\n\r\nFeatures:\r\n- Ultrahand: Using the new Ultrahand ability, Link can pick up, move, and rotate almost any object, and can even attach objects together to create bridges, vehicles, and more!\r\n- Fuse: Magically fuse almost any object to Link’s current weapon, shield, or arrow to increase durability, damage, or even add a new effect. Experiment with lots of different combinations to come up with surprising—and sometimes hilarious—results!\r\n- Ascend: Add a new dimension to your exploration with Ascend, which gives Link the ability to pass through solid objects above him. Rise up through ceilings, hillsides, and even certain enemies to create seemingly impossible shortcuts.\r\n- Recall: Use Recall to make objects in motion move backward through time, letting Link ride fallen boulders skyward, recover thrown weapons, or send projectiles back where they came from.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114115,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114240,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 115569,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-29",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 7,
+        "overview": "Uma aventura épica pela terra e pelos céus de Hyrule aguarda em The Legend of Zelda™: Tears of the Kingdom para o console Nintendo Switch™. A aventura será criada por você, em um mundo alimentado pela sua imaginação. \r\nNesta continuação de The Legend of Zelda: Breath of the Wild, você decidirá seu próprio caminho pelas extensas paisagens de Hyrule e pelas misteriosas ilhas flutuantes. Você será capaz de aproveitar o poder das novas habilidades de Link para lutar contra as forças malévolas que ameaçam o reino? \r\n\r\n- Modos de jogo compatíveis: TV, Semiportátil, Portátil\r\n- Gênero: Aventura, Ação, RPG\r\n- Tamanho do arquivo do jogo: 16 GB\r\n- Idiomas compatíveis: Alemão, Chinês Simplificado, Chinês Tradicional, Coreano, Espanhol, Francês, Holandês, Inglês, Italiano, Japonês, Russo",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 121694,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 31,
+        "overview": "Explora la vasta superficie y los cielos de Hyrule\r\nUna épica aventura a través de la superficie y los cielos de Hyrule te espera en The Legend of Zelda™: Tears of the Kingdom, disponible exclusivamente para la consola Nintendo Switch™.\r\n\r\nEn esta secuela del juego The Legend of Zelda: Breath of the Wild, decidirás tu propio camino a través de los extensos paisajes de Hyrule y las islas que flotan en los vastos cielos. ¿Podrás aprovechar el poder de las nuevas habilidades de Link para luchar contra las malévolas fuerzas que amenazan al reino?",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          10186,
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 122102,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-15",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 51,
+        "overview": "In this sequel to The Legend of Zelda: Breath of the Wild, the setting for Link’s adventure has been expanded to include the skies above the vast lands of Hyrule.\r\n\r\nEmbark on a perilous quest to find the missing princess and unravel the truth behind a cataclysmic event that has sent the kingdom into turmoil. You’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above.\r\n\r\nHarness the power of Link’s new abilities to craft and construct fantastic weapons and vehicles!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 131862,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 9,
+        "overview": "Erkunde Land und Himmel!\r\nDieses Abenteuer führt dich in ungeahnte Höhen - über die Wolken.\r\n\r\nKonstruiere deine eigenen Erfindungen!\r\nEntwickle und baue fantastische Waffen und Fahrzeuge.\r\n\r\nEntdecke die Wahrheit!\r\nDer Kataklysmus ist über Hyrule hereingebrochen...",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 110039,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom [Collector's Edition]",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?\r\n\r\nThe Legend of Zelda: Tears of the Kingdom [Collector’s Edition] includes The Legend of Zelda: Tears of the Kingdom (physical version), Artbook, SteelBook® case, Steel Poster, and a set of four pin badges.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114117,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom [Collector's Edition]",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 114118,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom [Collector's Edition]",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 4,
+        "country_id": 0,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 126025,
+        "game_title": "The Legend of Zelda: Tears of the Kingdom [Collector's Edition]",
+        "release_date": "2023-05-12",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "An epic adventure across the land and skies of Hyrule awaits in The Legend of Zelda™: Tears of the Kingdom for Nintendo Switch™. The adventure is yours to create in a world fueled by your imagination.\r\n\r\nIn this sequel to The Legend of Zelda: Breath of the Wild, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?\r\n\r\nThe Legend of Zelda: Tears of the Kingdom [Collector’s Edition] includes The Legend of Zelda: Tears of the Kingdom (physical version), Art Book, SteelBook, Pin Set, INCONART Poster.\r\n\r\nAustralian Classification: M",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          10297
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "104362": [
+          {
+            "id": 377421,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/104362-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110039": [
+          {
+            "id": 378007,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110039-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114115": [
+          {
+            "id": 388614,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114115-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114116": [
+          {
+            "id": 388625,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114116-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114117": [
+          {
+            "id": 388631,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114117-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114118": [
+          {
+            "id": 388637,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114118-1.jpg",
+            "resolution": null
+          }
+        ],
+        "114240": [
+          {
+            "id": 389083,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/114240-1.jpg",
+            "resolution": null
+          }
+        ],
+        "115569": [
+          {
+            "id": 393389,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/115569-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 393390,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/115569-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121694": [
+          {
+            "id": 438453,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121694-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122102": [
+          {
+            "id": 422667,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122102-1.jpg",
+            "resolution": null
+          }
+        ],
+        "126025": [
+          {
+            "id": 437131,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/126025-1.jpg",
+            "resolution": null
+          }
+        ],
+        "131862": [
+          {
+            "id": 463900,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/131862-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4971": {
+          "id": 4971,
+          "name": "Nintendo Switch",
+          "alias": "nintendo-switch"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Tears+of+the+Kingdom&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 264,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629983
+}

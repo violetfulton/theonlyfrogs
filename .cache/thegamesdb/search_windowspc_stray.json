@@ -1,0 +1,501 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 16,
+    "games": [
+      {
+        "id": 101042,
+        "game_title": "Stray",
+        "release_date": "2022-07-19",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Stray is a third-person cat adventure game set amidst the detailed, neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly. Roam surroundings high and low, defend against unforeseen threats and solve the mysteries of this unwelcoming place inhabited by curious droids and dangerous creatures.\r\nSee the world through the eyes of a cat and interact with the environment in playful ways. Be stealthy, nimble, silly, and sometimes as annoying as possible with the strange inhabitants of this mysterious world.\r\nAlong the way, the cat befriends a small flying drone, known only as B12. With the help of this newfound companion, the duo must find a way out.\r\nStray is developed by BlueTwelve Studio, a small team from the south of France mostly made up of cats and a handful of humans.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          10777
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          5455
+        ]
+      },
+      {
+        "id": 120960,
+        "game_title": "Stray Blade",
+        "release_date": "2023-04-20",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Stray Blade is an action-adventure where you play a rogue Adventurer exploring the ancient Valley of Acrea with your companion, the Xhinnon wolf Boji. Unveil the history of the forgotten valley and master the powers of the three Acrean Metals to restore balance to this war-torn land.\r\n\r\nProve yourself in this action-adventure and master intense combat while exploring the ancient ruins of a mysterious civilization. Legends tell of Acrea the Lost Valley, a wild and overgrown place but unmistakably powerful. You found this forgotten land yet died. Time passes, and miraculously you are brought back to life. The price you pay: You are bound to this land.\r\n\r\nRegain your freedom and embark on the quest of restoring balance in this ravaged and war-torn place guided by your trusty companion, Boji. Explore towering throne rooms of giant god-kings and long-lost cities. As you uncover their secrets, prepare to face even deadlier foes. Get ready to explore a world that is constantly altered by your discoveries and the waging forces! Set off for an unforgettable adventure.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          670
+        ]
+      },
+      {
+        "id": 116017,
+        "game_title": "Stray Cat Crossing",
+        "release_date": "2015-08-28",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Stray Cat Crossing is an indie pixel horror game developed in RPG Maker.\r\nSTORY:\r\nYou find yourself in a roadside clearing. A little girl named Cat is crying nearby. She needs you to take her home, where you’ll encounter bizarre monsters, ethereal places, and heart-wrenching secrets about Cat and her family.\r\nFEATURES:\r\nA strange, surreal world to explore.\r\nFace-switching babies, Giant masked caterpillars, Talking rams and owls, oh my!\r\nChallenging riddles and puzzles to solve.\r\nCan you outsmart these cunning creatures? Test your wits to survive!\r\nDetailed 16-bit pixel art\r\nGorgeous pixel graphics reminiscent of the SNES and GBA.\r\nOriginal post-rock, ambient soundtrack\r\nSoothing guitars and humming synths lull you into a false sense of security.\r\n~2 hours of gameplay:\r\nMight as well be a feature film!\r\n\r\nWant more content? Visit our devblog:\r\nhttp://straycatcrossing.tumblr.com",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          4,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 127360,
+        "game_title": "Stray Gods: The Roleplaying Musical",
+        "release_date": "2023-08-10",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Gods. Romance. Murder. Musical Numbers?! Play as Grace in a world where Greek Gods live in hiding among us. Change your fate as you draw friends, foes & lovers into song using your powers of musical persuasion to unravel the mystery of the Last Muse's death.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          2,
+          4,
+          17
+        ],
+        "publishers": [
+          8626
+        ]
+      },
+      {
+        "id": 89392,
+        "game_title": "Brine",
+        "release_date": "2016-05-07",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Early Development Note:\r\n\r\nStrayed is currently a work in progess, most content presented is not a final product, changes will happen.\r\n\r\n\r\nStranded at an Island, the Vessel is broked, do whatever it takes to survive, Hunger, Thirst and Wild animals are part of that.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 69309,
+        "game_title": "The Hurricane of the Varstray -Collateral hazard-",
+        "release_date": "2015-12-21",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "\"The Hurricane of the Varstray\" is a vertically scrolling shoot'em up with a SF story: in the distant future, to defend the Earth against the invasion of mystery mechanical structures, 4 girls head to \"the Varstray sector,\" far away from the Earth and considered as the v\r\n\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": null
+      },
+      {
+        "id": 65784,
+        "game_title": "Astray",
+        "release_date": "2015-02-03",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Astray is a first-person horror/puzzle game set in an abandoned museum based on unusual cultures, legends, and supernatural themes. But something more sinister lurks beneath the surface..",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          2,
+          5,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 79527,
+        "game_title": "MO:Astray",
+        "release_date": "2019-10-25",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          2236
+        ]
+      },
+      {
+        "id": 10384,
+        "game_title": "Shadow Warrior",
+        "release_date": "1997-05-13",
+        "platform": 1,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Lo Wang.  Master ninja assassin for 20 years.  A Shadow Warrior.  Shadow warriors are the best of the best, and Lo Wang was the best of the Shadow warriors.  Every top company in Japan had a shadow warrior... a protector, a negotiator, a cleaner.\r\n\r\nLo Wang worked for Zilla Enterprises, a conglomerate with control in every major industry.  Too much control.  Power corrupts, and Master Zilla's corporation was corrupted to the core.\r\n\r\nLo Wang discovered Master Zilla's demonic scheme to rule Japan, using creatures summoned from the dark side.  A man of honor, Lo Wang quit.  But one as powerful as Wang either must be on your side, or on no one's side.  Master Zilla unleashes his creations for their first test: to kill a single man, a shadow warrior..  Lo Wang!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          74
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          167
+        ]
+      },
+      {
+        "id": 17861,
+        "game_title": "Shadow Warrior",
+        "release_date": "2013-09-23",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Shadow Warrior is a single-player first-person shooter where players take control of \"Lo Wang\" from a first-person perspective as he fights through levels of demonic hordes.[3] Levels themselves are divided into chapters, each with Wang progressing through smaller stages that have side and hidden areas, occasionally allowing another route or flexibility with movement in combat.[4] Wang is equipped with various firearms that require ammunition that can be found throughout stages. Firearms range from fictional versions of pistols, submachine guns, shotguns, and rocket launchers.[5] These also include secondary firing modes that allow players to alternate between the rates of fire. Non-firearm weapons include crossbows and throwing shurikens, along with the fiery demon head of the original. In addition to firearms, Wang’s signature weapon is the katana that while is for use in close quarters combat, it is also very effective against enemies. Different swings and strikes can be utilized depending on different computer key and mouse movement combinations, creating unique moves of varying effectiveness depending on the enemy type.[5] For example a well-timed decapitation can instantly take down a foe or a large swing can strike multiple opponents at once. It can also be used as a quick strike when using firearms in closer quarters.[4] The katana can also slice up enemies into multiple pieces.[4]\r\nEnemies themselves vary in strength, size and attack pattern. Some enemies will aggressively attack head on while others use projectiles or other abilities to hinder Wang’s effectiveness in combat. Certain enemies can also be hindered or only killed through the removal of certain limbs, as opposed to others than can be taken down more simply. The game also features boss fights that are unique, only appearing at certain points in the game and much more formidable in combat, usually requiring key points of attack.[6]\r\nWang can upgrade his abilities and weapons with multiple forms of in-game currency for different aspects.[6] \"Money\" is gained throughout level progression and locating it in levels and is used to upgrade weaponry such as recoil reduction, laser sights and the ability to duel-wield one handed guns. \"Karma\" points are gained through how well the player performs in combat, like well aimed gun shots and katana moves such as headshots and limb removals (indicated briefly in-game) or large deposits hidden within stages.[3] The points can be spent on new skills such as increasing healing and damage output, while also allowing new katana moves and luck bonuses. Finally there are \"Ki Crystals\" that can also be found hidden in levels that allow Wang to learn new powers that can be used in combat, including shockwave attacks, health and damage properties and stunning or manipulating enemies.[5] These new abilities are represented through tattoos on Wang’s body.\r\nWang’s health is indicated through the in-game head-up display. After taking damage, health",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3109
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          1429
+        ]
+      },
+      {
+        "id": 44071,
+        "game_title": "Shadow Warrior 2",
+        "release_date": "2016-10-13",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "\"Shadow Warrior 2 is the stunning evolution of Flying Wild Hog’s offbeat first-person shooter starring the brash warrior Lo Wang, who must again wield a devastating combination of guns, blades, magic and wit to strike down the demonic legions overwhelming the world.\"\r\n- Shadow Warrior 2, Steam Store Discription",
+        "players": 4,
+        "rating": null,
+        "developers": [
+          3109
+        ],
+        "genres": [
+          1,
+          2,
+          8,
+          16
+        ],
+        "publishers": [
+          1429
+        ]
+      },
+      {
+        "id": 98007,
+        "game_title": "Shadow Warrior 3",
+        "release_date": "2022-03-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Shadow Warrior 3, a stunning new entry in the global best-selling franchise, will launch its barrage of over-the-top weapons and offbeat humor on March 1.\r\n\r\nVisit shadowwarrior.com and follow @ShadowWarrior on Twitter for more on Lo Wang's next great adventure!",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3109
+        ],
+        "genres": [
+          1,
+          2,
+          8
+        ],
+        "publishers": [
+          1429
+        ]
+      },
+      {
+        "id": 4220,
+        "game_title": "Shatter",
+        "release_date": "2010-03-15",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Shatter is a retro-inspired brick-breaking game that merges familiar action with unique twists and a modern crafted production approach.",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          7691
+        ],
+        "genres": [
+          1,
+          8
+        ],
+        "publishers": [
+          538
+        ]
+      },
+      {
+        "id": 40555,
+        "game_title": "Shutter",
+        "release_date": "2015-04-02",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Re-live a dark and haunting tale in this fixed camera puzzle-horror game RE-miniscent of the first generation of survival horror games. Using both CCTV cameras and your upgradable RC surveillance unit, you have to keep your eyes and ears sharp in order to take photos and unearth a chilling event that unfolded years ago.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          1845
+        ],
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": [
+          4300
+        ]
+      },
+      {
+        "id": 88849,
+        "game_title": "Shutter 2",
+        "release_date": "2020-10-23",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Lockdown.\r\n\r\nTake control of the RC2, the most powerful remote spectral surveillance tool in the industry, while you try to piece together the horrific tale plaguing the halls of Kent Island Prison.\r\n\r\nYour buyers are waiting.\r\n\r\nDefeat and photograph the fallen spirits of the hallowed Kent Island Prison, cash in on the evidence and then upgrade your RC's defensive systems as you delve deeper into the crumbling halls of the abandoned prison.\r\n\r\nCan you survive the night?\r\n\r\nIt's just you and your RC and you'll need to protect it with your life. Upgrade your RC's health and weapons before it gets destroyed, or face the spirits in person.\r\n\r\n\r\nKey Features:\r\n-Go old school and view your environments through classic static cameras from the early days of 3D survival horror or switch to the over-the-shoulder cam to get right into the horror!\r\n- New RC combat! Use new defensive tools to dispatch the spectral entities of Kent Island.\r\n- New RC abilities for greater puzzle depth. Use different camera filters and the new RC Arm Mode to solve more intricate puzzles.\r\n- Upgrade your RC's abilities and defensive systems as the horror increases throughout the night.\r\n- Multiple narrative threads to find, with a scoring system that tracks the evidence you've found.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          2,
+          18
+        ],
+        "publishers": null
+      },
+      {
+        "id": 85138,
+        "game_title": "StarRay",
+        "release_date": "1991-01-01",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          8
+        ],
+        "publishers": [
+          3138
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "4220": [
+          {
+            "id": 10853,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/4220-1.png",
+            "resolution": "246x246"
+          }
+        ],
+        "10384": [
+          {
+            "id": 389804,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/10384-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 389805,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/10384-1.jpg",
+            "resolution": null
+          }
+        ],
+        "17861": [
+          {
+            "id": 136941,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17861-1.jpg",
+            "resolution": "708x1000"
+          }
+        ],
+        "40555": [
+          {
+            "id": 110963,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/40555-1.jpg",
+            "resolution": "960x1320"
+          }
+        ],
+        "44071": [
+          {
+            "id": 117042,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/44071-1.jpg",
+            "resolution": "2234x3160"
+          }
+        ],
+        "65784": [
+          {
+            "id": 215776,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/65784-1.jpg",
+            "resolution": null
+          }
+        ],
+        "69309": [
+          {
+            "id": 222765,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/69309-1.jpg",
+            "resolution": null
+          }
+        ],
+        "79527": [
+          {
+            "id": 328911,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/79527-1.jpg",
+            "resolution": null
+          }
+        ],
+        "85138": [
+          {
+            "id": 280913,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/85138-1.jpg",
+            "resolution": null
+          }
+        ],
+        "88849": [
+          {
+            "id": 295218,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/88849-1.jpg",
+            "resolution": null
+          }
+        ],
+        "89392": [
+          {
+            "id": 297110,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/89392-1.jpg",
+            "resolution": null
+          }
+        ],
+        "98007": [
+          {
+            "id": 332043,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98007-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101042": [
+          {
+            "id": 396323,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101042-1.jpg",
+            "resolution": null
+          }
+        ],
+        "116017": [
+          {
+            "id": 395149,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/116017-1.jpg",
+            "resolution": null
+          }
+        ],
+        "120960": [
+          {
+            "id": 416985,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/120960-1.jpg",
+            "resolution": null
+          }
+        ],
+        "127360": [
+          {
+            "id": 441928,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/127360-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Stray&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 721,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630053
+}

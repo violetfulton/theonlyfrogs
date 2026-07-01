@@ -1,0 +1,486 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 13,
+    "games": [
+      {
+        "id": 4984,
+        "game_title": "Spyro the Dragon",
+        "release_date": "1998-09-09",
+        "platform": 10,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Spyro the Dragon is a 1998 PlayStation video game developed by Insomniac Games and released by Sony Computer Entertainment America, under license by Universal Interactive Studios, in the USA on September 9, 1998.\r\n\r\nSpyro the Dragon stars the title character, a young purple dragon named Spyro and his dragonfly friend, Sparx, and is the first game in the Spyro the Dragon series. The first game was massively popular at its initial release and Spyro would later become one of the most recognizable, popular and respected gaming icons for the PlayStation gaming console. Spyro's best friend, Sparx the dragonfly, acts like the player's health meter and assists in gathering gems. The various dragons Spyro unfreezes along the way are also key characters in Spyro's progression through the game. Gnasty Gnorc is the main antagonist, who froze all the dragons of the land in crystal.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          194,
+          1939
+        ]
+      },
+      {
+        "id": 81834,
+        "game_title": "Spyro the Dragon",
+        "release_date": "1999-04-01",
+        "platform": 10,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Spyro the Dragon is a platform video game developed by Insomniac Games, and released at September 9th, 1998 in North America for the PlayStation. It stars the titular protagonist, Spyro the Dragon, a young purple dragon saving the elder dragons, collecting gems, and defeating enemies. It is the first game in the Spyro the Dragon series.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2,
+          15
+        ],
+        "publishers": null
+      },
+      {
+        "id": 123495,
+        "game_title": "Spyro the Dragon",
+        "release_date": "1998-10-23",
+        "platform": 10,
+        "region_id": 8,
+        "country_id": 0,
+        "overview": "Meet Spyro, the adorable and mischievous little dragon on a GIGANTIC adventure. Take on an astonishing and completely 3D platform adventure game unlike any other! Take a wonderful journey as you glide, fly, roll, and frolic through fantasy worlds.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 62120,
+        "game_title": "Spyro the Dragon (PSOne Classic)",
+        "release_date": "2009-05-14",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Meet Spyro, the adorable and mischievous little dragon on a GIGANTIC adventure. Take on an astonishing and completely 3D platform adventure game unlike any other! Take a wonderful journey as you glide, fly, roll, and frolic through fantasy worlds.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 75745,
+        "game_title": "Spyro the Dragon [Greatest Hits]",
+        "release_date": "1998-09-09",
+        "platform": 10,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          14
+        ]
+      },
+      {
+        "id": 81453,
+        "game_title": "Spyro the Dragon [Platinum]",
+        "release_date": "1998-10-01",
+        "platform": 10,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Young Spyro must free his dragon friends from magical imprisonment created by the evil Gnasty Gnorc. As Spyro, you must travel to six worlds to free them, as well as reclaim stolen treasure and dragon eggs.\r\n\r\nBreathe fire, glide through the air and dash into foes in your effort to defeat Gnasty Gnorc and his minions.\r\n\r\n-Feel every bump as Spyro headbutts his enemies\r\n\r\n-Keep track of your teasures in Inventory\r\n\r\n-Travel in and out of worlds and levels using portals\r\n\r\n-Sparx a Dragonfly will guide you when things get tough\r\n\r\n-Requires Analogue controller\r\n",
+        "players": 1,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          21
+        ]
+      },
+      {
+        "id": 70667,
+        "game_title": "Spyro the Dragon Demo Disk",
+        "release_date": "1998-09-09",
+        "platform": 10,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          194
+        ]
+      },
+      {
+        "id": 109856,
+        "game_title": "Crash Bash & Spyro The Dragon: Year Of The Dragon Demo",
+        "release_date": "2001-02-24",
+        "platform": 10,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Ring In The Year Of The Dragon...      ...With One Heck Of A Bash!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          4232,
+          5839
+        ],
+        "genres": [
+          1,
+          2,
+          15,
+          23
+        ],
+        "publishers": [
+          520
+        ]
+      },
+      {
+        "id": 2125,
+        "game_title": "Super Turrican",
+        "release_date": "1993-07-22",
+        "platform": 7,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "The lost colony of Alterra is a completely man-made lifeworld abandoned long ago in a nearby galaxy. Alterra is actually five colonies in one. Each self-contained habitat has been separately bio-engineered by a powerful ecosystem generation network known as a Multiple Organism Unit Link. MORGUL, for short. Early colonists used MORGUL to render Alterra inhabitable. But a cataclysmic quake severed all system interface functions, and MORGUL murderously rebelled. The few colonists lucky enough to escape told a grim tale of a higher intelligence gone berserk.\r\n\r\nFor generations, mankind sought a return to Alterra. Finally, genetic science created a saviour: Turrican, a mutant warrior, bio-engineered for the task of planetary reclamation. In the meantime, MORGUL has diligently twisted Alterran life forms to his brutal, destructive purposes. Thus, Turrican's challenges consist in eliminating hostile organisms from Alterra's five multi-level worlds and, finally, destroying the three faces of MORGUL.",
+        "players": 1,
+        "rating": null,
+        "developers": [
+          6970
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          218
+        ]
+      },
+      {
+        "id": 6177,
+        "game_title": "Super Turrican",
+        "release_date": "1993-05-01",
+        "platform": 6,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Super Turrican is the next generation installment of the famous Turrican Series. Once again it is up to the U.S.S. Freedom Forces to get into their Turrican Assault Suits and drive back the forces of \"The Machine\".\r\n\r\nSimilar to it's predecessors, Super Turican features large levels that are crammed with secrets and can be explored freely and in any direction. To get rid of the numerous enemies, Turrican can use three upgradeable shots: A spreadshot, a powerful laser and a rebound that bounces off of walls. Additionally, there is a Freeze-Beam that can be used to temporarily freeze enemies. It is fully rotatable, and therefor also a great help in discovering secret capsules. These capsules contain powerups and can often be used to reach secret areas. Last but not least, Turrican has the ability to transform into an energy wheel (as long as he has enough special energy), which enables him to lay mines and even makes him invincible.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2976
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          454
+        ]
+      },
+      {
+        "id": 74469,
+        "game_title": "Super Turrican",
+        "release_date": "2008-03-03",
+        "platform": 9,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Super Turrican is the next generation installment of the famous Turrican Series. Once again it is up to the U.S.S. Freedom Forces to get into their Turrican Assault Suits and drive back the forces of \"The Machine\".\r\n\r\nSimilar to it's predecessors, Super Turican features large levels that are crammed with secrets and can be explored freely and in any direction. To get rid of the numerous enemies, Turrican can use three upgradeable shots: A spreadshot, a powerful laser and a rebound that bounces off of walls. Additionally, there is a Freeze-Beam that can be used to temporarily freeze enemies. It is fully rotatable, and therefor also a great help in discovering secret capsules. These capsules contain powerups and can often be used to reach secret areas. Last but not least, Turrican has the ability to transform into an energy wheel (as long as he has enough special energy), which enables him to lay mines and even makes him invincible.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2976
+        ],
+        "genres": [
+          1,
+          8,
+          27
+        ],
+        "publishers": [
+          454
+        ]
+      },
+      {
+        "id": 6178,
+        "game_title": "Super Turrican 2",
+        "release_date": "1995-11-01",
+        "platform": 6,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Twice the Firepower, Twice the burn.\r\n\r\nIf you haven’t played Super Turrican, chances are you won’t last past the intro sequence here... As an intergalactic hero-wannabe commissioned to crush a venomous mutant armada, you are thrust into a chaotic world even more violent than the original. This time there are more enemies to torch (and be torched by)-including the most heinous level bosses on 16-bit-and enough Mode7 graphic levels to make you wish mommy were there to hold your hand. But she’ll be busy cleaning up your charred carcass.\r\n\r\nSuper Turrican 2. Feel the burn.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2976
+        ],
+        "genres": [
+          8
+        ],
+        "publishers": [
+          43
+        ]
+      },
+      {
+        "id": 92870,
+        "game_title": "Super Turrican 2",
+        "release_date": "2008-09-29",
+        "platform": 9,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "As the last survivor of the United Freedom Forces, it is your duty to destroy the Machine’s forces that have devastated the galaxy. Fight through countless hordes of enemies using everything at your disposal. Use weapons and power-ups to fight back the tide of oncoming enemies.\r\n\r\nUse special abilities like the Energy Wheel and Cyberfist to find secret areas and score extra lives. When your lives and continues are gone, the mission ends. You are the galaxy’s last hope. Are you up to the challenge?",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2976
+        ],
+        "genres": [
+          1,
+          8,
+          27
+        ],
+        "publishers": [
+          454
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2125": [
+          {
+            "id": 4497,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2125-1.jpg",
+            "resolution": "350x495"
+          }
+        ],
+        "4984": [
+          {
+            "id": 36506,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/4984-2.jpg",
+            "resolution": "1440x1414"
+          },
+          {
+            "id": 36508,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/4984-1.jpg",
+            "resolution": "1615x1376"
+          }
+        ],
+        "6177": [
+          {
+            "id": 17107,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6177-1.jpg",
+            "resolution": "2100x1551"
+          },
+          {
+            "id": 17108,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6177-1.jpg",
+            "resolution": "2100x1542"
+          }
+        ],
+        "6178": [
+          {
+            "id": 102632,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6178-1.png",
+            "resolution": "2100x1524"
+          },
+          {
+            "id": 102636,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6178-1.png",
+            "resolution": "2100x1499"
+          }
+        ],
+        "62120": [
+          {
+            "id": 206715,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62120-1.jpg",
+            "resolution": null
+          }
+        ],
+        "70667": [
+          {
+            "id": 225187,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/70667-1.jpg",
+            "resolution": null
+          }
+        ],
+        "74469": [
+          {
+            "id": 331126,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/74469-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75745": [
+          {
+            "id": 245597,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75745-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81453": [
+          {
+            "id": 264826,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81453-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 264827,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/81453-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81834": [
+          {
+            "id": 266357,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81834-1.jpg",
+            "resolution": null
+          }
+        ],
+        "92870": [
+          {
+            "id": 309097,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/92870-1.jpg",
+            "resolution": null
+          }
+        ],
+        "109856": [
+          {
+            "id": 377560,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/109856-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 377561,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/109856-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123495": [
+          {
+            "id": 428456,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123495-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 428457,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/123495-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "6": {
+          "id": 6,
+          "name": "Super Nintendo (SNES)",
+          "alias": "super-nintendo-snes"
+        },
+        "7": {
+          "id": 7,
+          "name": "Nintendo Entertainment System (NES)",
+          "alias": "nintendo-entertainment-system-nes"
+        },
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "10": {
+          "id": 10,
+          "name": "Sony Playstation",
+          "alias": "sony-playstation"
+        },
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spyro+the+Dragon&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 306,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629990
+}

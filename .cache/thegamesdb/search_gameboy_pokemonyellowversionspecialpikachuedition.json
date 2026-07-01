@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 2359,
+        "game_title": "Pokémon Yellow Version: Special Pikachu Edition",
+        "release_date": "1999-10-18",
+        "platform": 4,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Pokémon Yellow Version: Special Pikachu Edition is a 1999 Game Boy video game developed by Game Freak and released by Nintendo of America in the USA on October 18, 1999.\r\n\r\nYou’ve finally been granted your Pokémon trainer’s license, and now you’re on your way to becoming the world’s greatest Pokémon trainer! The shockingly-cute Pikachu tags along behind you as you search the enormous world for monsters to train and evolve. Face off against Blastoise’s torrential water gun. Stand strong when facing Pidgeot’s stormy Gust. Develop the ultimate Pokémon strategy to defeat the eight gym Leaders and become the greatest Pokémon Master of all time!\r\n\r\n• Battle a friend in the new Colosseum 2 for the Pika Cup, Petit Cup, and Poké Cup titles.\r\n• Print out your Pokédex data with a Game Boy Printer and a Game Link cable.\r\n• Trade Pokémon with your friends using a Game Link cable. You’ll need to trade with both the Red and Blue versions to catch all 150 Pokémon and complete your Pokédex!",
+        "players": 2,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          252
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "2359": [
+          {
+            "id": 479139,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/2359-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 479140,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/2359-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4": {
+          "id": 4,
+          "name": "Nintendo Game Boy",
+          "alias": "nintendo-gameboy"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Yellow+Version%3A+Special+Pikachu+Edition&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 509,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630020
+}

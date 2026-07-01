@@ -1,0 +1,120 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 117384,
+        "game_title": "Roadwarden",
+        "release_date": "2022-09-12",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Roadwarden is an illustrated text-based RPG that uses isometric pixel art and combines mechanics borrowed from RPGs, Visual Novels, adventure games and interactive fiction.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          5641
+        ]
+      },
+      {
+        "id": 129124,
+        "game_title": "Windy Meadow - A Roadwarden Tale",
+        "release_date": "2023-10-16",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Windy Meadow – A Roadwarden Tale is an interactive slice-of-life visual novel about choosing your own path. Help three protagonists make the most important choices of their lives. Featuring a multitude of hand-crafted characters and a richly detailed village set in the Roadwarden story world. ",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
+      },
+      {
+        "id": 110655,
+        "game_title": "Retreat to Enen",
+        "release_date": "2022-08-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "About the Game\r\nRetreat to Enen is a base building simulator and survival game unlike any other. Rather than fight your way to prosperity, you’ll be living off the land in balance with nature. Three vast biomes await you. Explore, forage, hunt, craft, build, and meditate as you unlock the secrets of Enen and build the retreat of your dreams. Unlock and gather over 160 unique items as you explore.\r\n\r\nExperience a relaxing and engaging survival game, where you can build a huge home with over 50 unique unlockable building modules and dozens of furniture pieces and decorative items.\r\n\r\nBase Building\r\n- Gather, craft, and build over 160 distinct items on your journey across the legendary Enen.\r\n- Map out the island of Enen, forage for food, hunt game, and collect supplies to build a retreat, using over 50 unlockable building modules.\r\n- Seek out the ancient ruins and find meditation points to learn the secrets of humanity in the 37th century.\r\n\r\nRaw Beauty of Nature\r\n- Roam across three vast, distinct biomes. Dive deep and explore breathtaking underwater environments off tropical beaches.\r\n- Stalk deer and other game through dense redwood forests and the thick undergrowth.\r\n- Feel the snow and ice crunch underfoot while seeking ruins in the chilly Arctic.\r\n- Lay back and stare at the dancing stars, thanks to a complex weather and day/night simulation system.\r\n- Unlock the secrets of Enen in huge cave systems in each biome.\r\n\r\nMeditation Relaxation\r\n- The mediation mechanics have been created in collaboration with licensed mental health specialists in order to provide the most relaxing experience for the player.\r\n- Meditation points in Retreat to Enen offer breathing exercises and allow players to participate in optional guided meditations IRL.\r\n- Along with the chance to ponder humanity's fragile relationship with the world it currently inhabits today…\r\n\r\nMindful Survival\r\nHumanity is unrecognizable in the year 3600 CE. Centuries of war, socio-economic strife, and the impending climate catastrophe, put the apex species on the verge of extinction. Turning back from the brink, humans chose a different path, one of healing, peace, and reverence for the ecosystem they are a part of. As Earth heals, every human who reaches adulthood is now tasked with learning how to become one with Nature. Your tribe has chosen Enen for your adventure.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          9
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "110655": [
+          {
+            "id": 379606,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110655-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117384": [
+          {
+            "id": 400795,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117384-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129124": [
+          {
+            "id": 449469,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129124-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Roadwarden&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 686,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630047
+}

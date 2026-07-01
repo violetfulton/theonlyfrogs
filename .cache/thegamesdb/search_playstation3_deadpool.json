@@ -1,0 +1,107 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 17221,
+        "game_title": "Deadpool",
+        "release_date": "2013-06-25",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Deadpool the player takes control of the loud-mouthed, foul-mouthed, merc-with-a-mouth Wade Wilson (a.k.a. Deadpool). While on out on a contract to kill a corrupt media mogul, Mister Sinister intervenes and kills him instead, drawing the ire of Deadpool who then vows revenge only to stumble upon a bigger plot which could spell the end of humanity. With the help of some of the X-Men such as Wolverine, Rogue and Domino along with a buddy from the future, Cable, they band together to stop Mister Sinister and his group of Marauders (Arclight, Blockbuster and Vertigo) from succeeding.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          3832
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 17684,
+        "game_title": "Diablo III",
+        "release_date": "2013-09-03",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The game takes place in Sanctuary, the dark fantasy world of the Diablo series. This world was saved twenty years prior by a handful of unnamed heroes in Diablo II, having survived the onslaught brought by the armies of the Burning Hells, who have gone mad from their ordeals. It is up to a new generation of heroes to face the forces of evil threatening the world of Sanctuary.\r\n\r\nPlayers will have the opportunity to explore familiar settings such as Tristram.\r\n\r\nThe only confirmed NPCs are Deckard Cain, who has appeared in both of the previous games, and his niece, Leah, a new character who accompanies the hero in quests from time to time. The plot will revolve around two surviving Lesser Evils, Azmodan and Belial, and an artifact known as the Black Soulstone. Diablo's world map is composed primarily of two main continents with several small islands in the Northwest region. The world of Sanctuary has been dramatically changed by the destruction of the World Stone in Diablo II: Lord of Destruction.",
+        "players": 4,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1202
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          33
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "17221": [
+          {
+            "id": 47506,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17221-1.jpg",
+            "resolution": "640x735"
+          }
+        ],
+        "17684": [
+          {
+            "id": 216324,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/17684-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 336322,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/17684-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Deadpool&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 652,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630042
+}

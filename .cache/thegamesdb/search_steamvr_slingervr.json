@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 98905,
+        "game_title": "Slinger VR",
+        "release_date": "2020-04-23",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Feel the speed and taste of freedom while flying through vast spaces using a pair of your trusty WHSK-03 devices. Attach yourself to nearby walls with energy hooks, and to other ones with elastic contracting ropes. Get hold of attachments for your devices that will allow you to use… ahem… an emergency booster engine, and even slow down the flow of time.\r\n\r\n\r\n\r\n\r\nAt each level you'll have just one goal: locate and leap through the portal. If it's not operational, seek and activate all the transmitters needed to power up the extradimensional corridor that will take you to the next stage.\r\n\r\n\r\n\r\nAlong your path you're bound to face a variety of enemies. They're out to stun you… or shoot you… or devour your body after mincing it with razor-sharp concentric blades running in alternate directions. You just want to toss them down into abyss with appropriate grace and flair or maybe blow them up with a rocket if you’re lucky to get a grip of one.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2784
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "98905": [
+          {
+            "id": 336630,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98905-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Slinger+VR&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 164,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629967
+}

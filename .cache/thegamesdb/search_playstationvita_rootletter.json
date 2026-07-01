@@ -1,0 +1,135 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 41593,
+        "game_title": "Root Letter",
+        "release_date": "2016-11-10",
+        "platform": 39,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Root Letter is the first in a brand new ‘Kadokawa Game Mystery’ series - a collection of Visual Novels with exceptionally high production values.  Set in Shimane prefecture - a place rich in history, culture and natural beauty - Root Letter revolves around the mystery of Fumino Aya, your old high school pen friend who went missing 15 years ago. On receiving her final letter 15 years late, in which she confesses to a murder, it’s up to you, the player, to unravel the mystery of what happened to her. ",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4580
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 72332,
+        "game_title": "Root Letter Limited Edition",
+        "release_date": "2016-11-10",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4580
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          3235
+        ]
+      },
+      {
+        "id": 80035,
+        "game_title": "Root Letter Pen Pal [Premium Edition]",
+        "release_date": "2017-11-10",
+        "platform": 39,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Root Letter collector’s edition for PSVita includes:\r\n\r\n-Game: the full PSVita game [card and box].\r\n-Artbook: With illustrations and background info [52 pages].\r\n-Soundtrack: ‘Premium soundtrack’ jewel case with an audio CD [30 tracks].\r\n-Illustration: hard print with the image of Aya Fumino.\r\n-Letter set: 7 patterned letters and envelopes.\r\n-A box to fit it all.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          4580
+        ],
+        "genres": [
+          2,
+          25
+        ],
+        "publishers": [
+          3235
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "41593": [
+          {
+            "id": 227733,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/41593-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 227734,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/41593-1.jpg",
+            "resolution": null
+          }
+        ],
+        "72332": [
+          {
+            "id": 229851,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/72332-1.jpg",
+            "resolution": null
+          }
+        ],
+        "80035": [
+          {
+            "id": 258948,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/80035-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "39": {
+          "id": 39,
+          "name": "Sony Playstation Vita",
+          "alias": "sony-playstation-vita"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Root+Letter&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=39&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 420,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630007
+}

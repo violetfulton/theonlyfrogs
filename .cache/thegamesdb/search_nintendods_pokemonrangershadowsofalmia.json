@@ -1,0 +1,78 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 12501,
+        "game_title": "Pokémon Ranger: Shadows of Almia",
+        "release_date": "2008-11-10",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In the second in the Pokemon Ranger series, you once again play as a Pokemon Ranger, working to help people, Pokemon and nature in a new area called the Almia Region. Starting out as a Student Ranger, you quickly earn the title of a full-fledged Pokemon Ranger. As you succeed in more and more missions, you will aspire to become the highest Ranger rank: Top Ranger. Along the way you meet and capture all kinds of different Pokemon.\r\n\r\nCapture wild Pokemon and create a team to clear obstacles and puzzles encountered along the way. After using a Pokemon’s ability, it will leave your team; however, you will have a Partner Pokemon that will always stay by your side. As you progress through Missions and Quests, your Capture Styler becomes more powerful, giving your Styler more Energy and eventually advancing you to the level of Top Ranger.",
+        "players": null,
+        "rating": "E - Everyone",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "12501": [
+          {
+            "id": 64727,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/12501-1.jpg",
+            "resolution": "640x570"
+          },
+          {
+            "id": 64894,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/12501-1.jpg",
+            "resolution": "669x600"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Ranger%3A+Shadows+of+Almia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 551,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630027
+}

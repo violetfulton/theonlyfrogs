@@ -1,0 +1,239 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 4986,
+        "game_title": "Spyro: Year of the Dragon",
+        "release_date": "2000-10-10",
+        "platform": 10,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Spyro: Year of the Dragon is a 2000 PlayStation video game developed by Insomniac Games and released by Sony Computer Entertainment America, under license by Universal Interactive Studios, in the USA on October 10, 2000.\r\n\r\nSpyro: Year of the Dragon is the third installment in the Spyro series and the last Spyro game to be released for the PlayStation. The game was the last Spyro game Insomniac developed; their next title would be Ratchet & Clank for the PlayStation 2. This is the only Spyro game in the PlayStation library to not get released in Japan.\r\n\r\nNamed after the animal of the Chinese zodiac, which was the symbol at the time of the game's release, Year of the Dragon follows the titular purple character Spyro as he travels to the \"Forgotten Worlds\" after 150 magical dragon eggs are stolen from the land of the dragons by an evil sorceress. Players travel across thirty different worlds gathering gems and eggs. Year of the Dragon introduced new characters and minigames to the series, as well as offering improved graphics and music.\r\n\r\nUpon release, the game sold more than two million units in the United States,and received positive critical response. Reviewers noted the game built on the successful formula of its predecessors by adding more games and expansive environments. At Game Rankings, Year of the Dragon is one of the top twenty highest-rated PlayStation games of all time.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          194,
+          1939
+        ]
+      },
+      {
+        "id": 81265,
+        "game_title": "Spyro: Year of the Dragon",
+        "release_date": "1970-01-01",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
+        "id": 75048,
+        "game_title": "Spyro: Year of the Dragon [Platinum]",
+        "release_date": "2000-01-01",
+        "platform": 10,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "EC - Early Childhood",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          2
+        ],
+        "publishers": [
+          21
+        ]
+      },
+      {
+        "id": 124296,
+        "game_title": "Spyro: Year of the Dragon[Bonus Transfer Decal]",
+        "release_date": "2000-11-10",
+        "platform": 10,
+        "region_id": 8,
+        "country_id": 0,
+        "overview": "After an evil sorceress steals magical dragon eggs from the land of the dragons, Spyro travels to the \"Forgotten Realms\" to retrieve them. Players travel across different worlds gathering gems and eggs, defeating enemies, and playing minigames.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          2,
+          15
+        ],
+        "publishers": [
+          14,
+          194
+        ]
+      },
+      {
+        "id": 111966,
+        "game_title": " Spyro: Year of the Dragon",
+        "release_date": "2000-11-10",
+        "platform": 10,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Spyro: Year of the Dragon is a 2000 platform game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation. Year of the Dragon is the third game in the Spyro series.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          4232
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          19
+        ]
+      },
+      {
+        "id": 118016,
+        "game_title": "Super Robot Taisen NEO",
+        "release_date": "2009-10-29",
+        "platform": 9,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "NEO is the first Super Robot Wars title to appear on the Wii. NEO carries on from Super Robot Wars GC and Super Robot Wars XO by using 3D models for the battle animations, rather than the standard 2D sprite animation which the Super Robot Wars series is known for. NEO also stands out as the many anime series featured were shows aimed at a younger audience, three of the titles making a debut: Haō Taikei Ryū Knight, NG Knight Lamune & 40 and Shippū! Iron Leaguer originated in the early-to-mid-90s \"chibi robo\" style of robot anime marketed to children, in which the robots were presented with super-deformed proportions. Most of the Eldran series also make their first appearance in this game.",
+        "players": 1,
+        "rating": "EC - Early Childhood",
+        "developers": null,
+        "genres": [
+          6
+        ],
+        "publishers": [
+          6
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "4986": [
+          {
+            "id": 442177,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/4986-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 442178,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/4986-1.jpg",
+            "resolution": null
+          }
+        ],
+        "75048": [
+          {
+            "id": 242808,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75048-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81265": [
+          {
+            "id": 291436,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81265-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111966": [
+          {
+            "id": 383278,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111966-1.jpg",
+            "resolution": null
+          }
+        ],
+        "118016": [
+          {
+            "id": 403164,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/118016-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124296": [
+          {
+            "id": 431798,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124296-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 431799,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/124296-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "9": {
+          "id": 9,
+          "name": "Nintendo Wii",
+          "alias": "nintendo-wii"
+        },
+        "10": {
+          "id": 10,
+          "name": "Sony Playstation",
+          "alias": "sony-playstation"
+        },
+        "12": {
+          "id": 12,
+          "name": "Sony Playstation 3",
+          "alias": "sony-playstation-3"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spyro%3A+Year+of+the+Dragon&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 300,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629989
+}

@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 75672,
+        "game_title": "Detroit: Become Human",
+        "release_date": "2020-06-18",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Travel to the near-future metropolis of Detroit – a city rejuvenated by an exciting technological development: androids. Shape an ambitious branching narrative, making choices that will not only determine your own fate, but that of the entire city.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          6898
+        ],
+        "genres": [
+          1
+        ],
+        "publishers": null
+      },
+      {
+        "id": 110498,
+        "game_title": "Detroit: Become Human [Collector's Edition]",
+        "release_date": "2018-05-25",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Detroit: Become Human puts the destiny of both mankind and androids in your hands, taking you to a near future where machines have become more intelligent than humans\r\nEnter a world where moral dilemmas and difficult decisions can turn android slaves into world-changing revolutionaries - Discover what it means to be human from the perspective of an outsider\r\nShape an ambitious branching narrative, where your decisions not only determine the fate of the three main characters, but that of the entire city of Detroit\r\nEvery decision you make, no matter how minute, affects the outcome of the story - No playthrough will be exactly the same: replay again and again to discover a totally different conclusion\r\nDetroit: Become Human features stunning graphics, 4K resolution, 60 fps framerate & full integration of both mouse/keyboard and gamepad controls for the most complete Detroit: Become Human experience",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          6898
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "75672": [
+          {
+            "id": 458815,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/75672-1.jpg",
+            "resolution": null
+          }
+        ],
+        "110498": [
+          {
+            "id": 379095,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/110498-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Detroit%3A+Become+Human&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 919,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630086
+}

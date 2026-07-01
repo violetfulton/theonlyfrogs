@@ -1,0 +1,190 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 5,
+    "games": [
+      {
+        "id": 6837,
+        "game_title": "Mario Kart DS",
+        "release_date": "2005-11-14",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Mario Kart DS is a 2005 DS video game developed by Nintendo EAD and released by Nintendo of America in the USA on November 14, 2005.\r\n\r\nMario Kart DS is the continuation of the long running racing game series that began on the Super Nintendo. It features 16 new tracks as well as 16 tracks from the previous 4 games, with each set split up into the Nitro and Retro Grand Prix respectively. Eight racers are initially available, each with two go-karts to choose from. A number of characters and additional karts are also available to unlock. New items have been added to the arsenal, including a Blooper squid that squirts ink onto the screens of other players and a Bullet Bill power up that transforms the player into a giant, fast-travelling bullet on autopilot.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 111785,
+        "game_title": "Mario Kart DS",
+        "release_date": "2005-11-25",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Mario Kart DS is a 2005 DS racing video game developed by Nintendo EAD and released by Nintendo of America in the USA on November 14, 2005.\r\n\r\nMario Kart DS is the continuation of the long running racing game series that began on the Super Nintendo. It features 16 new tracks as well as 16 tracks from the previous 4 games, with each set split up into the Nitro and Retro Grand Prix respectively. Eight racers are initially available, each with two go-karts to choose from. A number of characters and additional karts are also available to unlock. New items have been added to the arsenal, including a Blooper squid that squirts ink onto the screens of other players and a Bullet Bill power up that transforms the player into a giant, fast-travelling bullet on autopilot.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 130606,
+        "game_title": "Mario Kart DS",
+        "release_date": "2005-12-08",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Mario Kart DS is a 2005 DS racing video game developed by Nintendo EAD and released by Nintendo of America in the USA on November 14, 2005.\r\n\r\nMario Kart DS is the continuation of the long running racing game series that began on the Super Nintendo. It features 16 new tracks as well as 16 tracks from the previous 4 games, with each set split up into the Nitro and Retro Grand Prix respectively. Eight racers are initially available, each with two go-karts to choose from. A number of characters and additional karts are also available to unlock. New items have been added to the arsenal, including a Blooper squid that squirts ink onto the screens of other players and a Bullet Bill power up that transforms the player into a giant, fast-travelling bullet on autopilot.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 101197,
+        "game_title": "Mario Kart DS [Red Case]",
+        "release_date": "2011-06-07",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Mario Kart DS is the continuation of the long running racing game series that began on the Super Nintendo. It features 16 new tracks as well as 16 tracks from the previous 4 games, with each set split up into the Nitro and Retro Grand Prix respectively. Eight racers are initially available, each with two go-karts to choose from. A number of characters and additional karts are also available to unlock. New items have been added to the arsenal, including a Blooper squid that squirts ink onto the screens of other players and a Bullet Bill power up that transforms the player into a giant, fast-travelling bullet on autopilot.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          7,
+          22
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134177,
+        "game_title": "Mario Kart DS Deluxe",
+        "release_date": "2019-01-26",
+        "platform": 8,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Mario Kart DS Deluxe is a hack released by Rafa4k on January 26th, 2019, featuring tracks mostly from Mario Kart Wii, 7 and 8. ",
+        "players": 2,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          7,
+          28
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "6837": [
+          {
+            "id": 17582,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/6837-1.jpg",
+            "resolution": "1539x1370"
+          },
+          {
+            "id": 326495,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/6837-1.jpg",
+            "resolution": null
+          }
+        ],
+        "101197": [
+          {
+            "id": 347490,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/101197-1.jpg",
+            "resolution": null
+          }
+        ],
+        "111785": [
+          {
+            "id": 456732,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/111785-1.jpg",
+            "resolution": null
+          }
+        ],
+        "130606": [
+          {
+            "id": 456735,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/130606-1.jpg",
+            "resolution": null
+          }
+        ],
+        "134177": [
+          {
+            "id": 472441,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/134177-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "8": {
+          "id": 8,
+          "name": "Nintendo DS",
+          "alias": "nintendo-ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Mario+Kart+DS&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 585,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630032
+}

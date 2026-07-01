@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 29821,
+        "game_title": "Don't Starve Together",
+        "release_date": "2016-04-21",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Don't Starve is a 2013 action-adventure video game with survival and roguelike elements, developed and published by the Canadian indie company Klei Entertainment. The game was initially released via Valve's Steam software for Microsoft Windows, OS X, and Linux on April 23, 2013. A PlayStation 4 port became available the following year (with PlayStation Vita and PlayStation 3 versions released on September 2014 and June 2015 respectively), and further versions for Xbox One, iOS and mobile phones are under consideration.[1] Downloadable content titled Reign of Giants was released on April 30, 2014, and a multiplayer expansion called Don't Starve Together became free for existing users on June 3, 2015.[2]\r\n\r\nThe game follows a scientist named Wilson who finds himself in a dark, dreary world and must survive as long as possible. Toward this end, the player must keep Wilson healthy, fed, and mentally stable as he avoids a variety of surreal and supernatural enemies that will try to kill and devour him. The game's \"Adventure\" mode adds depth to the sparse plot and pits Wilson against the game's antagonist, Maxwell.\r\n\r\nDon't Starve was Klei's first foray into the survival genre. Conceived during the height of a game industry trend of dropping players into a world with few instructions and a goal of survival, the game was influenced by Minecraft, which spearheaded this trend, as well as by filmmaker Tim Burton. The game received positive reviews from critics; commended for its original art style, music, and variety of ways for the player to die, although its high level of difficulty and implementation of permanent death were less warmly received",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          4713
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "29821": [
+          {
+            "id": 475859,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/29821-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Don%27t+Starve+Together&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 968,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630095
+}

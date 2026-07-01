@@ -1,0 +1,267 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 7,
+    "games": [
+      {
+        "id": 122101,
+        "game_title": "Pokémon Ultra-Lune",
+        "release_date": "1970-01-01",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 50897,
+        "game_title": "Pokémon Ultra Moon",
+        "release_date": "2017-11-23",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "A new light shines on the Alola region!\r\nTake on the role of a Pokémon Trainer and unravel the mystery of the Legendary Pokémon Necrozma's new forms: Dusk Mane Necrozma in the Pokémon Ultra Sun game and Dawn Wings Necrozma in the Pokémon Ultra Moon game. You can encounter and battle 400+ Pokémon, including new forms. A brand-new showdown awaits!\r\n\r\nDiscover the Legendary Pokémon Solgaleo and Lunala's new Z-Moves and their mysterious connection to the Legendary Pokémon Necrozma. Then venture into Ultra Wormholes to explore the Ultra Beasts' home world, encounter every Legendary Pokémon, and uncover Ultra Megalopolis, a dark world where Necrozma has stolen the light. On the bright side, the Alola region has new activities, and fresh landscapes to explore with some assistance from your powered-up Rotom Dex. You'll need all the help you can get if you're going to stop Giovanni, Ghetsis, and the rest of Team Rainbow Rocket from taking over the Alola region!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 68022,
+        "game_title": "Pokémon Ultra Moon [Fan Edition]",
+        "release_date": "2017-11-23",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "• Includes • Game & Case • Steelbook Case • Cardboard Sleeve\r\nA new light shines on the Alola region! Take on the role of a Pokémon Trainer and uncover new tales, and unravel the mystery behind the two forms reminiscent of the Legendary Pokémon. With new story additions and features, this earns Pokémon Ultra Sun and Pokémon Ultra Moon the name \"Ultra!\" Another adventure is about to begin. New Pokémon forms have been discovered in the Alola region in Pokémon Ultra Sun and Pokémon Ultra Moon! These forms are reminiscent of the Legendary Pokémon Solgaleo, Lunala, and Necrozma, first revealed in Pokémon Sun and Pokémon Moon. Head out on an epic journey as you solve the mystery behind these fascinating Pokémon! In this expanded adventure, get ready to explore more of the Alola region, catch more amazing Pokémon, and battle more formidable foes in Pokémon Ultra Sun and Pokémon Ultra Moon!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 51300,
+        "game_title": "Pokémon Ultra Moon [Starter Trainer's Pack]",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "As its name implies, the Starter Trainer's Pack includes items to help newer players through the early portion of the adventure. It comes with a copy of either Ultra Sun or Ultra Moon, a download code for 12 Revives to restore any downed Pokemon, and an exclusive keychain featuring the games' cover Pokemon: Dusk Mane Necrozma for Ultra Sun, and Dawn Wings Necrozma for Ultra Moon.\r\n\r\nA new light shines on the Alola region!\r\nTake on the role of a Pokémon Trainer and unravel the mystery of the Legendary Pokémon Necrozma's new forms: Dusk Mane Necrozma in the Pokémon Ultra Sun game and Dawn Wings Necrozma in the Pokémon Ultra Moon game. You can encounter and battle 400+ Pokémon, including new forms. A brand-new showdown awaits!\r\n\r\nDiscover the Legendary Pokémon Solgaleo and Lunala's new Z-Moves and their mysterious connection to the Legendary Pokémon Necrozma. Then venture into Ultra Wormholes to explore the Ultra Beasts' home world, encounter every Legendary Pokémon, and uncover Ultra Megalopolis, a dark world where Necrozma has stolen the light. On the bright side, the Alola region has new activities, and fresh landscapes to explore with some assistance from your powered-up Rotom Dex. You'll need all the help you can get if you're going to stop Giovanni, Ghetsis, and the rest of Team Rainbow Rocket from taking over the Alola region!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 81012,
+        "game_title": "Pokémon Ultra Sun & Pokémon Ultra Moon [Ultra Dual Edition]",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Nintendo of Europe has announced plans to release an Ultra Dual Edition for Pokémon Ultra Sun and Pokémon Ultra Moon for the games' worldwide launch on Nov. 17, 2017. The Pokémon Ultra Sun and Pokémon Ultra Moon – Ultra Dual Edition will contain a retail copy of both Nintendo 3DS exclusives, a SteelBook case, and two download codes that will each unlock 50 Potions.\r\n\r\nA new light shines on the Alola region!\r\nTake on the role of a Pokémon Trainer and unravel the mystery of the Legendary Pokémon Necrozma's new forms: Dusk Mane Necrozma in the Pokémon Ultra Sun game and Dawn Wings Necrozma in the Pokémon Ultra Moon game. You can encounter and battle 400+ Pokémon, including new forms. A brand-new showdown awaits!\r\n\r\nDiscover the Legendary Pokémon Solgaleo and Lunala's new Z-Moves and their mysterious connection to the Legendary Pokémon Necrozma. Then venture into Ultra Wormholes to explore the Ultra Beasts' home world, encounter every Legendary Pokémon, and uncover Ultra Megalopolis, a dark world where Necrozma has stolen the light. On the bright side, the Alola region has new activities, and fresh landscapes to explore with some assistance from your powered-up Rotom Dex. You'll need all the help you can get if you're going to stop Giovanni, Ghetsis, and the rest of Team Rainbow Rocket from taking over the Alola region!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
+        "id": 51297,
+        "game_title": "Pokémon Ultra Sun & Pokémon Ultra Moon Veteran Trainer's Dual Pack",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Nintendo of America and Nintendo of Canada have announced that a special bundle called the Pokémon Ultra Sun & Pokémon Ultra Moon Veteran Trainer's Dual Pack will be released in North America for the games' launch on Nov. 17, 2017. This pack will include physical copies of both Pokémon Ultra Sun and Pokémon Ultra Moon, as well as sixteen art cards and a digital code to obtain 200 Poké Balls in-game.\r\n\r\nA new light shines on the Alola region!\r\nTake on the role of a Pokémon Trainer and unravel the mystery of the Legendary Pokémon Necrozma's new forms: Dusk Mane Necrozma in the Pokémon Ultra Sun game and Dawn Wings Necrozma in the Pokémon Ultra Moon game. You can encounter and battle 400+ Pokémon, including new forms. A brand-new showdown awaits!\r\n\r\nDiscover the Legendary Pokémon Solgaleo and Lunala's new Z-Moves and their mysterious connection to the Legendary Pokémon Necrozma. Then venture into Ultra Wormholes to explore the Ultra Beasts' home world, encounter every Legendary Pokémon, and uncover Ultra Megalopolis, a dark world where Necrozma has stolen the light. On the bright side, the Alola region has new activities, and fresh landscapes to explore with some assistance from your powered-up Rotom Dex. You'll need all the help you can get if you're going to stop Giovanni, Ghetsis, and the rest of Team Rainbow Rocket from taking over the Alola region!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          252,
+          1292
+        ]
+      },
+      {
+        "id": 129667,
+        "game_title": "Pokémon Ultra Sun & Pokémon Ultra Moon [Double Pack]",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4,
+          6
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "50897": [
+          {
+            "id": 470240,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/50897-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 470241,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/50897-1.jpg",
+            "resolution": null
+          }
+        ],
+        "51297": [
+          {
+            "id": 130607,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/51297-1.png",
+            "resolution": "300x279"
+          }
+        ],
+        "51300": [
+          {
+            "id": 130610,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/51300-1.jpg",
+            "resolution": "1199x1128"
+          }
+        ],
+        "68022": [
+          {
+            "id": 391715,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/68022-1.jpg",
+            "resolution": null
+          }
+        ],
+        "81012": [
+          {
+            "id": 262766,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/81012-1.jpg",
+            "resolution": null
+          }
+        ],
+        "122101": [
+          {
+            "id": 422666,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/122101-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129667": [
+          {
+            "id": 452109,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129667-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4912": {
+          "id": 4912,
+          "name": "Nintendo 3DS",
+          "alias": "nintendo-3ds"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Ultra+Moon&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 461,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630013
+}

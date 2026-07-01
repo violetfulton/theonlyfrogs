@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 2,
+    "games": [
+      {
+        "id": 121538,
+        "game_title": "Monster Hunter Wilds",
+        "release_date": "2025-12-31",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": null,
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 129638,
+        "game_title": "Monster Hunter Wilds [SteelBook Edition]",
+        "release_date": "2025-02-28",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next.\r\nThis is a story of monsters and humans and their struggles to live in harmony in a world of duality.\r\nFulfill your duty as a Hunter by tracking and defeating powerful monsters and forging strong new weapons and armor from the materials you harvest from your hunt as you uncover the connection between the people of the Forbidden Lands and the locales they inhabit.\r\nThe ultimate hunting experience awaits you in Monster Hunter Wilds.\r\nStory\r\nA few years past, a young boy named Nata was rescued at the border of the Forbidden Lands, an unexplored region the guild has yet to survey.\r\nAfter hearing the boy’s tale of his lone escape from a mysterious monster that attacked his village, the Guild organized an expedition into the Forbidden Lands to investigate.\r\nA Living World\r\nEnvironments within the Forbidden Lands can drastically change as the weather shifts constantly and suddenly. During the harsh Fallow and perilous Inclemency periods, ravenous monsters will venture out to hunt in packs, yet during the Plenty periods, wildlife is rich and abundant.",
+        "players": 1,
+        "rating": "AO - Adult Only 18+",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          9
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "121538": [
+          {
+            "id": 420346,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121538-1.jpg",
+            "resolution": null
+          }
+        ],
+        "129638": [
+          {
+            "id": 451907,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/129638-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+Hunter+Wilds&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 86,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629955
+}

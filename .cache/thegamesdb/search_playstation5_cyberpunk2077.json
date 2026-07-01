@@ -1,0 +1,142 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 3,
+    "games": [
+      {
+        "id": 77520,
+        "game_title": "Cyberpunk 2077",
+        "release_date": "2022-02-15",
+        "platform": 4980,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "The Next-gen update is finally here, now take advantage of the power of the PS5 and the Xbox Series X/S\r\n\r\nCyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.\r\nBecome a cyberpunk, an urban mercenary equipped with cybernetic enhancements and build your legend on the streets of Night City.\r\n\r\nEnter the massive open world of Night City, a megalopolis that sets new standards in terms of visuals, complexity and depth.\r\n\r\nTake the riskiest job of your life and go after a prototype implant that is the key to immortality.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "publishers": [
+          8207
+        ]
+      },
+      {
+        "id": 121253,
+        "game_title": "Cyberpunk 2077: Ultimate Edition",
+        "release_date": "2023-12-05",
+        "platform": 4980,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Night City, California. Year 2077. The world is broken. MegaCorps manage every aspect of life from the top floors of their sky-scraping fortresses. Down below, the streets are run by drug pushing gangs, tech hustlers, and illegal braindance slingers. The in-between is where decadence, sex and pop culture mix with violent crime, extreme poverty and the unattainable promise of the American Dream.\r\n\r\nYou are V, a cyberpunk. In a world of cyberenhanced street warriors, tech-savvy netrunners and corporate life-hackers, today is your first step to becoming an urban legend...\r\n\r\nCyberpunk 2077 is an ambitious RPG for mature audience, set in the corrupt and tech-advanced world of the year 2077 and is being developed by CD Projekt RED in association with the Cyberpunk Pen & Paper system author, Mike Pondsmith.",
+        "players": 1,
+        "rating": "M - Mature 17+",
+        "developers": [
+          1532,
+          1535
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          3509,
+          5777,
+          8207
+        ]
+      },
+      {
+        "id": 121353,
+        "game_title": "Cyberpunk 2077: Ultimate Edition",
+        "release_date": "2023-12-05",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1532
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          8207
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "77520": [
+          {
+            "id": 353661,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/77520-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121253": [
+          {
+            "id": 418351,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121253-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 419610,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/121253-1.jpg",
+            "resolution": null
+          }
+        ],
+        "121353": [
+          {
+            "id": 419065,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/121353-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4980": {
+          "id": 4980,
+          "name": "Sony Playstation 5",
+          "alias": "sony-playstation-5"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Cyberpunk+2077&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 162,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2629967
+}

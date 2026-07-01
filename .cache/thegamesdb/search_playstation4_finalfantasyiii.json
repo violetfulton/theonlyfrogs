@@ -1,0 +1,220 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 6,
+    "games": [
+      {
+        "id": 117144,
+        "game_title": "Final Fantasy III Pixel Remaster",
+        "release_date": "2023-04-19",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "A remodeled 2D take on the third game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nWith the power of light nearly eclipsed by the power of darkness, only the crystals' four chosen adventurers can save the world.\r\n\r\nExperience the iconic job changing system first introduced in FFIII - switch jobs at will and use various abilities as you progress in the game. Change into a variety of classes like Warrior, Monk, White Mage, Black Mage, Dragoon, Evoker, or even call monsters to do your bidding with as a Summoner.\r\n\r\nEnjoy the exciting third installment in the FINAL FANTASY series!\r\n\r\n--------------------------------------------------------------\r\n\r\n\r\n■ Beautifully revived with new graphics and sound!\r\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n\r\n■Improved gameplay!\r\n・Including modernized UI, auto-battle options, and more.\r\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\r\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game.\r\n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\r\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\r\n\r\n(This remaster is based on the original \"FINAL FANTASY III\" game released in 1990. Features and/or content may differ from previously rereleased versions of the game.)",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 125561,
+        "game_title": "FINAL FANTASY",
+        "release_date": "2023-04-19",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "*This product is also contained within a bundle. Please take care not to purchase multiple copies of this product.*\r\n\r\nA remodeled 2D take on the first game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nEarth, fire, water, wind... The light that once shone within the four Crystals was lost. Darkness covered the land, until the only hope for humanity rested in legends past. Become the Warriors of Light and embark on your own journey to restore power to the Crystals and save the world.\r\n\r\nSwitch between classes to improve your characters. Traverse the wide world with your airship and other vessels. Return to the game that started it all.\r\n\r\n-------------------------------------------------------------------------------\r\n\r\n■ Beautifully revived with new graphics and sound!\r\n・Universally updated 2D pixel graphics, including the iconic FINAL FANTASY character pixel designs created by Kazuko Shibuya, the original artist and current collaborator.\r\n・Beautifully rearranged soundtrack in a faithful FINAL FANTASY style, overseen by original composer Nobuo Uematsu.\r\n\r\n■Improved gameplay!\r\n・Including modernized UI, auto-battle options, and more.\r\n・Switch the soundtrack between the rearranged version, created for the pixel remaster, or the original version, capturing the sound of the original game.\r\n・Now possible to switch between different fonts, including the default font and a pixel-based font based on the atmosphere of the original game.\r\n・Additional boost features to expand gameplay options, including switching off random encounters and adjusting experience gained multipliers between 0 and 4.\r\n・Dive into the world of the game with supplemental extras like the bestiary, illustration gallery, and music player.\r\n\r\n(This remaster is based on the original \"FINAL FANTASY\" game released in 1987. Features and/or content may differ from previously rereleased versions of the game.)",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 21414,
+        "game_title": "Final Fantasy XV",
+        "release_date": "2016-11-29",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "The only crystal left to the world lies in the Kingdom of Lucis. Upon striking a peace with the garrison state of Niflheim, Lucis rejoices in having at last brought the cold war to a close. Their celebrations, however, are premature. Under the guise of amity, Niflheim dispels the anti-armament runewall and launches a full-scale invasion of the kingdom. The peaceful lives Crown Prince Noctis and his entourage once knew are consumed by the flames of war as they struggle to mount a resistance.\r\n\r\nFinal Fantasy XV is an action role-playing game developed and published by Square Enix. The fifteenth main installment of the Final Fantasy series. The game features an open world environment and action-based battle system, incorporating quick-switching weapons, elemental magic, and other features such as vehicle travel and camping.\r\n\r\nFinal Fantasy XV takes place on the fictional world of Eos; aside from Insomnia, the capital of Lucis, all the world is dominated by the empire of Niflheim, who seek control of the magical Crystal protected by the Lucian royal family. On the eve of peace negotiations, Niflheim attacks the capital and steals the Crystal. Noctis Lucis Caelum, heir to the Lucian throne, goes on a quest to rescue the Crystal and defeat Niflheim. He later learns his full role as the \"True King\", destined to use the Crystal's powers to save Eos from eternal darkness.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8101
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 123783,
+        "game_title": "Final Fantasy XV",
+        "release_date": "2016-11-29",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "The only crystal left to the world lies in the Kingdom of Lucis. Upon striking a peace with the garrison state of Niflheim, Lucis rejoices in having at last brought the cold war to a close. Their celebrations, however, are premature. Under the guise of amity, Niflheim dispels the anti-armament runewall and launches a full-scale invasion of the kingdom. The peaceful lives Crown Prince Noctis and his entourage once knew are consumed by the flames of war as they struggle to mount a resistance.\r\n\r\nFinal Fantasy XV is an action role-playing game developed and published by Square Enix. The fifteenth main installment of the Final Fantasy series. The game features an open world environment and action-based battle system, incorporating quick-switching weapons, elemental magic, and other features such as vehicle travel and camping.\r\n\r\nFinal Fantasy XV takes place on the fictional world of Eos; aside from Insomnia, the capital of Lucis, all the world is dominated by the empire of Niflheim, who seek control of the magical Crystal protected by the Lucian royal family. On the eve of peace negotiations, Niflheim attacks the capital and steals the Crystal. Noctis Lucis Caelum, heir to the Lucian throne, goes on a quest to rescue the Crystal and defeat Niflheim. He later learns his full role as the \"True King\", destined to use the Crystal's powers to save Eos from eternal darkness.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8101
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 60660,
+        "game_title": "Final Fantasy VII",
+        "release_date": "2015-12-05",
+        "platform": 4919,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Mako—the discovery of this natural resource drawn directly from the planet’s life force marked the dawn of a new era, and now the energy sustains the lives of people across the world. However, the Shinra Company has monopolized mako production, and in doing so established a powerful hegemony--its influence reaching the far corners of the globe.\r\n\r\nCloud, a former member of Shinra's military organization, SOLDIER, joins the anti-Shinra resistance group AVALANCHE, despite caring little for their motives. During one of the group’s attempts to stop the company, they learn of the return of Sephiroth, Cloud’s nemesis, and that with his reemergence, the planet is in greater danger than anyone had expected.\r\n\r\nWith the fate of the world riding on their success, Cloud and his allies set out to quell this deadly threat.\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4,
+          27
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 62200,
+        "game_title": "Final Fantasy IX",
+        "release_date": "2017-09-17",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "On a beautiful blue planet known as Gaia, unsettling trends began to take place on the Mist Continent. In this peaceful land where the Crystal served as the foundation of all life, the kingdom of Alexandria began indiscriminately invading neighboring nations. Her queen was manipulated by Kuja, a man seen by many as an angel of death. Zidane, a member of the Tantalus, a group of thieves using the cover of a traveling theater group, is joined by unexpected allies as he sets forth on a journey to stop the ensuing war. Thus begins an epic adventure to protect the Crystal and all life on Gaia. \r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Adventure | Role-Playing\r\n\r\n",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "21414": [
+          {
+            "id": 138557,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/21414-1.jpg",
+            "resolution": "640x791"
+          },
+          {
+            "id": 429775,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/21414-1.jpg",
+            "resolution": null
+          }
+        ],
+        "60660": [
+          {
+            "id": 390522,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60660-1.jpg",
+            "resolution": null
+          }
+        ],
+        "62200": [
+          {
+            "id": 206443,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/62200-1.jpg",
+            "resolution": null
+          }
+        ],
+        "117144": [
+          {
+            "id": 399717,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/117144-1.jpg",
+            "resolution": null
+          }
+        ],
+        "123783": [
+          {
+            "id": 429778,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/123783-1.jpg",
+            "resolution": null
+          }
+        ],
+        "125561": [
+          {
+            "id": 435831,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/125561-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "4919": {
+          "id": 4919,
+          "name": "Sony Playstation 4",
+          "alias": "sony-playstation-4"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+III&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 370,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630000
+}

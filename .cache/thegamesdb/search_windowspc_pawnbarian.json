@@ -1,0 +1,65 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 1,
+    "games": [
+      {
+        "id": 98909,
+        "game_title": "Pawnbarian",
+        "release_date": "2021-09-24",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pawnbarian is a turn-based puzzle roguelike with bite-sized, but challenging sessions. Play cards to control your hero like a chess piece on a tiny dungeon board, outmaneuver enemies with their assortment of tricky abilities, and become the mightiest warrior of the Chesslands!\r\n\r\n\r\nFeatures\r\nUse a deck of chess pieces to hack and slash through hordes of monsters.\r\nPick up the basics instantly if you're familiar with chess, or learn in minutes if you aren't.\r\nCarefully plan your moves to navigate challenging, emergent tactical situations.\r\nSpend treasure to upgrade your cards with additional powers.\r\nBlitz through quick 15-30 minute runs - or die trying.\r\nTake on the infinite post-run Gauntlet to see how long you can survive.\r\nPick from 3 characters to conquer 3 dungeons, all requiring an unique approach.\r\nProgress through Chains, a series of extra difficulty modifiers.\r\nNot Features\r\nNo permanent upgrades, and not much that needs unlocking. The progress and satisfaction come from your growing mastery of the game's elegant systems!\r\nNo complex and varied builds. The shops provide a few key decisions, but the bulk of the roguelike depth lies in how you approach the emergent combat puzzles!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          6
+        ],
+        "publishers": null
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "98909": [
+          {
+            "id": 336634,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/98909-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pawnbarian&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 847,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630074
+}

@@ -1,0 +1,163 @@
+{
+  "code": 200,
+  "status": "Success",
+  "data": {
+    "count": 4,
+    "games": [
+      {
+        "id": 87601,
+        "game_title": "Forza Horizon 5",
+        "release_date": "2021-11-09",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.\r\n\r\nLead breathtaking expeditions across the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.\r\n\r\nExplore a world of striking contrast and beauty. Discover living deserts, lush jungles, historic cities, hidden ruins, pristine beaches, vast canyons and a towering snow-capped volcano.\r\n\r\nImmerse yourself in a deep campaign with hundreds of challenges that reward you for engaging in the activities you love. Meet new characters and choose the outcomes of their Horizon Story missions.\r\n\r\nTake on awe-inspiring weather events such as towering dust storms and intense tropical storms as Mexico’s unique, dynamic seasons change the world every week. Keep coming back for new events, challenges, collectibles, and rewards, and new areas to explore. No two seasons will ever be the same.\r\n\r\nTeam up with other players and enter the Horizon Arcade for a continuing series of fun, over-the-top challenges that keep you and your friends in the action and having fun with no menus, loading screens or lobbies. Meet new friends in Horizon Open and Tours and share your creations with new community gift sharing.\r\n\r\nCreate your own expressions of fun with the powerful new EventLab gameplay toolset including custom races, challenges, stunts, and entirely new game modes. Customize your cars in more ways than ever before with new options such as the ability open and close convertible tops, paint brake calipers, and more. Use the new Gift Drops feature to share your custom creations with the community.",
+        "players": 50,
+        "rating": "E - Everyone",
+        "developers": [
+          6691
+        ],
+        "genres": [
+          2,
+          7,
+          12
+        ],
+        "publishers": [
+          8390
+        ]
+      },
+      {
+        "id": 39712,
+        "game_title": "Forza Horizon 3",
+        "release_date": "2016-09-27",
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "In Forza Horizon 3, you’re in charge of the Horizon Festival. Customize everything, hire and fire your friends, and explore Australia in over 350 of the world’s greatest cars. Make your Horizon the ultimate celebration of cars, music, and freedom of the open road. How you get there is up to you.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6691
+        ],
+        "genres": [
+          7
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 60915,
+        "game_title": "Forza Horizon 4",
+        "release_date": "2018-10-02",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Dynamic seasons change everything at the world’s greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain in a shared open world.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6691
+        ],
+        "genres": [
+          2,
+          7,
+          12
+        ],
+        "publishers": [
+          1
+        ]
+      },
+      {
+        "id": 135802,
+        "game_title": "Forza Horizon 6",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Experience the breathtaking landscapes of Japan in over 550 real world cars in the biggest open world driving adventure in Horizon history.\r\n\r\nExplore a massive campaign of discovery, Festival events, and street racing across a vibrant open world, playable solo or in co op with friends. Begin your journey as a tourist and prove you have what it takes to join the Horizon Festival as a rookie driver, while uncovering the culture, roads, and secrets of Japan and building your Collection Journal.\r\n\r\nQualify for the Festival through the Horizon Invitational, then climb the ranks in progressively faster and more powerful cars. Earn new Wristbands, unlock elite events, and rise to become a true Horizon Legend.\r\n\r\nDo you have what it takes to reach Legend Island, the exclusive destination reserved for the world’s greatest drivers?",
+        "players": 50,
+        "rating": "E - Everyone",
+        "developers": [
+          6691
+        ],
+        "genres": [
+          2,
+          7,
+          12,
+          19
+        ],
+        "publishers": [
+          8390
+        ]
+      }
+    ]
+  },
+  "include": {
+    "boxart": {
+      "base_url": {
+        "original": "https://cdn.thegamesdb.net/images/original/",
+        "small": "https://cdn.thegamesdb.net/images/small/",
+        "thumb": "https://cdn.thegamesdb.net/images/thumb/",
+        "cropped_center_thumb": "https://cdn.thegamesdb.net/images/cropped_center_thumb/",
+        "medium": "https://cdn.thegamesdb.net/images/medium/",
+        "large": "https://cdn.thegamesdb.net/images/large/"
+      },
+      "data": {
+        "39712": [
+          {
+            "id": 109604,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/39712-1.jpg",
+            "resolution": "1002x1100"
+          }
+        ],
+        "60915": [
+          {
+            "id": 318402,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/60915-1.jpg",
+            "resolution": null
+          }
+        ],
+        "87601": [
+          {
+            "id": 318397,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/87601-1.jpg",
+            "resolution": null
+          }
+        ],
+        "135802": [
+          {
+            "id": 480612,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/135802-1.jpg",
+            "resolution": null
+          }
+        ]
+      }
+    },
+    "platform": {
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "PC",
+          "alias": "pc"
+        }
+      }
+    }
+  },
+  "pages": {
+    "previous": null,
+    "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Forza+Horizon+5&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
+    "next": null
+  },
+  "remaining_monthly_allowance": 903,
+  "extra_allowance": 0,
+  "allowance_refresh_timer": 2630084
+}
