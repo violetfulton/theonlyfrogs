@@ -8,6 +8,7 @@ import EleventyFetch from "@11ty/eleventy-fetch";
 
 const GAMES_CSV_URL = process.env.GAMES_CSV_URL;
 const THEGAMESDB_API_KEY = process.env.THEGAMESDB_API_KEY;
+const THEGAMESDB_OFFLINE = process.env.THEGAMESDB_OFFLINE === "1";
 
 const CACHE_DIR = "./.cache/thegamesdb";
 const CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000;
@@ -103,6 +104,16 @@ async function tgdbGet(endpoint, params = {}, cacheKey) {
   if (freshCache) return freshCache;
 
   const staleCache = readLocalCache(cacheKey, { ignoreTtl: true });
+  if (THEGAMESDB_OFFLINE) {
+    if (staleCache) {
+      console.warn(`[TheGamesDB] Offline mode: using stale cache for ${cacheKey}`);
+      return staleCache;
+    }
+
+    console.warn(`[TheGamesDB] Offline mode: no cache for ${cacheKey}`);
+    return null;
+  }
+
 
   if (!THEGAMESDB_API_KEY) {
     console.warn("[TheGamesDB] Missing THEGAMESDB_API_KEY. Using sheet data + stale cache only.");
