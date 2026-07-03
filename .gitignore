@@ -75,3 +75,4 @@ _scripts/firebaseConfig.js
 !.cache/
 !.cache/thegamesdb/
 !.cache/thegamesdb/**
+.cache/
