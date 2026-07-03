@@ -1,0 +1,190 @@
+---
+title: Pink Shinies
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/shinies/pink/
+customcss: "/assets/css/shrines/pokemon/shinies-pink.css"
+---
+
+{% set pink = pokemonShinies.pink %}
+{% set switchShinies = pink.switch or [] %}
+{% set optionalShinies = pink.switchOptional or [] %}
+{% set frlgShinies = pink.frlg or [] %}
+{% set allPinkShinies = pink.all or [] %}
+
+{% macro shinyCard(shiny, badge) %}
+  <article class="pink-shiny-card">
+    <div class="pink-shiny-card__image-wrap">
+      {% if shiny.image %}
+        <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}">
+      {% else %}
+        <div class="pink-shiny-card__placeholder">?</div>
+      {% endif %}
+    </div>
+
+    <div class="pink-shiny-card__body">
+      <p class="pink-shiny-card__dex">
+        #{{ shiny.dexDisplay }}
+        {% if shiny.originGame %}
+          · {{ shiny.originGame }}
+        {% endif %}
+      </p>
+
+      <h3>
+        {{ shiny.nickname or shiny.species }}
+        {% if shiny.nickname %}
+          <span>{{ shiny.species }}</span>
+        {% endif %}
+      </h3>
+
+      <div class="pink-shiny-card__meta">
+        {% if shiny.form %}
+          <span>{{ shiny.form }}</span>
+        {% endif %}
+
+        {% if shiny.methodLabel %}
+          <span>{{ shiny.methodLabel }}</span>
+        {% endif %}
+
+        {% if shiny.caughtDate %}
+          <span>{{ shiny.caughtDate }}</span>
+        {% endif %}
+      </div>
+
+      {% if shiny.location %}
+        <p class="pink-shiny-card__location">{{ shiny.location }}</p>
+      {% endif %}
+
+      <div class="pink-shiny-card__badges">
+        <span>{{ badge }}</span>
+
+        {% for label in shiny.pinkQuestLabels %}
+          <span>{{ label }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
+{% endmacro %}
+
+<section class="pink-shiny-hero">
+  <p class="pc-kicker">VIOLET's PC / Pink Quest</p>
+  <h1>Pink Shinies</h1>
+  <p>
+    A soft little shrine for my pink, purple, cute, pastel, and gothy shiny hunts.
+    This page is pulled automatically from my master shiny log.
+  </p>
+</section>
+
+<section class="pink-shiny-stats" aria-label="Pink shiny stats">
+  <article>
+    <strong>{{ pink.counts.all or 0 }}</strong>
+    <span>Total</span>
+  </article>
+
+  <article>
+    <strong>{{ pink.counts.switch or 0 }}</strong>
+    <span>Switch Quest</span>
+  </article>
+
+  <article>
+    <strong>{{ pink.counts.switchOptional or 0 }}</strong>
+    <span>Optional Picks</span>
+  </article>
+
+  <article>
+    <strong>{{ pink.counts.frlg or 0 }}</strong>
+    <span>FRLG Side Hunts</span>
+  </article>
+</section>
+
+{% if allPinkShinies.length %}
+  <section class="pink-shiny-feature">
+    <div>
+      <p class="pink-shiny-feature__eyebrow">Newest pink shiny</p>
+      <h2>
+        {{ allPinkShinies[0].nickname or allPinkShinies[0].species }}
+      </h2>
+
+      <p>
+        {% if allPinkShinies[0].nickname %}
+          {{ allPinkShinies[0].species }}
+        {% endif %}
+
+        {% if allPinkShinies[0].originGame %}
+          {% if allPinkShinies[0].nickname %} · {% endif %}
+          {{ allPinkShinies[0].originGame }}
+        {% endif %}
+
+        {% if allPinkShinies[0].caughtDate %}
+          · {{ allPinkShinies[0].caughtDate }}
+        {% endif %}
+      </p>
+    </div>
+
+    {% if allPinkShinies[0].image %}
+      <img src="{{ allPinkShinies[0].image }}" alt="Shiny {{ allPinkShinies[0].species }}">
+    {% endif %}
+  </section>
+{% endif %}
+
+<section class="pink-shiny-section">
+  <div class="pink-shiny-section__header">
+    <p class="pc-kicker">Main Quest</p>
+    <h2>🌸 Switch Pink Quest</h2>
+    <p>The main pink shiny project: Switch-available pink, rosy, pastel, and cute shinies.</p>
+  </div>
+
+  {% if switchShinies.length %}
+    <div class="pink-shiny-grid">
+      {% for shiny in switchShinies %}
+        {{ shinyCard(shiny, "🌸 Main Quest") }}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="pink-shiny-empty">
+      <h3>No Switch pink shinies logged yet</h3>
+      <p>Once one of the species from the pink Switch list appears in your shiny log, it will show here automatically.</p>
+    </div>
+  {% endif %}
+</section>
+
+<section class="pink-shiny-section">
+  <div class="pink-shiny-section__header">
+    <p class="pc-kicker">Soft Maybes</p>
+    <h2>✨ Optional / Subtle Pink Picks</h2>
+    <p>The “pink enough for the vibe” shinies: subtle palettes, pink accents, or soft pastel picks.</p>
+  </div>
+
+  {% if optionalShinies.length %}
+    <div class="pink-shiny-grid">
+      {% for shiny in optionalShinies %}
+        {{ shinyCard(shiny, "✨ Optional") }}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="pink-shiny-empty">
+      <h3>No optional pink picks logged yet</h3>
+      <p>These are the arguable ones, so they can stay separate from the main quest.</p>
+    </div>
+  {% endif %}
+</section>
+
+<section class="pink-shiny-section">
+  <div class="pink-shiny-section__header">
+    <p class="pc-kicker">Side Quest</p>
+    <h2>🍃 FireRed / LeafGreen Side Hunts</h2>
+    <p>Cute, pink, purple, and gothy side hunts for FRLG while working through the Switch list.</p>
+  </div>
+
+  {% if frlgShinies.length %}
+    <div class="pink-shiny-grid">
+      {% for shiny in frlgShinies %}
+        {{ shinyCard(shiny, "🍃 FRLG") }}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="pink-shiny-empty">
+      <h3>No FRLG side shinies logged yet</h3>
+      <p>Full odds chaos goes here when the hunt finally sparkles.</p>
+    </div>
+  {% endif %}
+</section>

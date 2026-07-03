@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import EleventyFetch from "@11ty/eleventy-fetch";
 
+import pinkQuestList from "./pokemonPinkQuestList.js";
+
 const SHEET_CSV_URL = process.env.SHINY_SHEET_CSV_URL || "";
 const LOCAL_CSV = "content/_data/shinies.local.csv";
 const MAX_DEX = 1025;
@@ -384,6 +386,111 @@ function sortCategoryKeys(a, b) {
   return a.localeCompare(b);
 }
 
+/**
+ * Pink quest helpers.
+ * These let the pink page be generated from your master shiny log
+ * without manually tagging every row in the sheet.
+ */
+function normaliseQuestName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/♀/g, " female")
+    .replace(/♂/g, " male")
+    .replace(/[’']/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function questSet(list) {
+  return new Set(list.map(normaliseQuestName));
+}
+
+const PINK_SWITCH_SET = questSet(pinkQuestList.switch);
+const PINK_SWITCH_OPTIONAL_SET = questSet(pinkQuestList.switchOptional);
+const PINK_FRLG_SET = questSet(pinkQuestList.frlg);
+
+function getQuestNameCandidates(shiny) {
+  const species = normaliseQuestName(shiny.species);
+  const form = normaliseQuestName(shiny.form);
+
+  return new Set(
+    [
+      species,
+      form ? `${form} ${species}` : "",
+      form ? `${species} ${form}` : "",
+    ].filter(Boolean)
+  );
+}
+
+function matchesQuestSet(shiny, set) {
+  const candidates = getQuestNameCandidates(shiny);
+  return [...candidates].some((name) => set.has(name));
+}
+
+function getPinkQuestTags(shiny) {
+  const tags = [];
+
+  if (matchesQuestSet(shiny, PINK_SWITCH_SET)) {
+    tags.push("pink-switch");
+  }
+
+  if (matchesQuestSet(shiny, PINK_SWITCH_OPTIONAL_SET)) {
+    tags.push("pink-switch-optional");
+  }
+
+  if (matchesQuestSet(shiny, PINK_FRLG_SET)) {
+    tags.push("pink-frlg");
+  }
+
+  return tags;
+}
+
+function decoratePinkQuest(shiny) {
+  const pinkQuestTags = getPinkQuestTags(shiny);
+
+  return {
+    ...shiny,
+    pinkQuestTags,
+    isPinkQuest: pinkQuestTags.length > 0,
+    pinkQuestLabels: pinkQuestTags.map(
+      (tag) => pinkQuestList.labels[tag] || tag
+    ),
+  };
+}
+
+function buildPinkQuestData(shinies) {
+  const all = shinies.filter((shiny) => shiny.isPinkQuest);
+
+  const switchMain = shinies.filter((shiny) =>
+    shiny.pinkQuestTags.includes("pink-switch")
+  );
+
+  const switchOptional = shinies.filter((shiny) =>
+    shiny.pinkQuestTags.includes("pink-switch-optional")
+  );
+
+  const frlg = shinies.filter((shiny) =>
+    shiny.pinkQuestTags.includes("pink-frlg")
+  );
+
+  return {
+    all: [...all].sort(sortByDateDesc),
+    switch: [...switchMain].sort(sortByDateDesc),
+    switchOptional: [...switchOptional].sort(sortByDateDesc),
+    frlg: [...frlg].sort(sortByDateDesc),
+
+    counts: {
+      all: all.length,
+      switch: switchMain.length,
+      switchOptional: switchOptional.length,
+      frlg: frlg.length,
+    },
+
+    byGeneration: groupBy(all, "generation"),
+    byGameGroup: groupBy(all, "gameGroup"),
+  };
+}
+
 async function getCsvText() {
   if (SHEET_CSV_URL) {
     return EleventyFetch(SHEET_CSV_URL, {
@@ -441,7 +548,7 @@ export default async function () {
     .map((row) => {
       const capture = cleanCapture(row);
       capture.isGo = isGoRow(row);
-      return capture;
+      return decoratePinkQuest(capture);
     })
     .filter((capture) => capture.published)
     .filter((capture) => capture.dexNo && capture.species)
@@ -454,6 +561,7 @@ export default async function () {
   const byCategory = groupBy(captures, "category");
   const byGameGroup = groupBy(captures, "gameGroup");
   const byMethod = groupBy(captures, "methodKey");
+  const pink = buildPinkQuestData(captures);
 
   const nonGoCaptures = captures.filter((capture) => !capture.isGo);
   const caughtByDex = new Map();
@@ -475,11 +583,22 @@ export default async function () {
     const caughtInfo = caughtByDex.get(pokemon.dexNo);
     const caught = Boolean(caughtInfo);
 
+    const pinkQuestTags = getPinkQuestTags({
+      species: pokemon.species,
+      form: "",
+    });
+
     return {
       ...pokemon,
       caught,
       sourceCount: caughtInfo?.count || 0,
       firstCatch: caughtInfo?.firstCatch || null,
+
+      pinkQuestTags,
+      isPinkQuest: pinkQuestTags.length > 0,
+      pinkQuestLabels: pinkQuestTags.map(
+        (tag) => pinkQuestList.labels[tag] || tag
+      ),
     };
   });
 
@@ -496,6 +615,7 @@ export default async function () {
     byCategory,
     byGameGroup,
     byMethod,
+    pink,
 
     generations: Object.keys(byGeneration)
       .sort()
