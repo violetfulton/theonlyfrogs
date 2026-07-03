@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import EleventyFetch from "@11ty/eleventy-fetch";
 
-import pinkQuestList from "./pokemonPinkQuestList.js";
+import faveShinyList, { FAVE_GROUP_LABELS } from "./pokemonFaveShinyList.js";
 
 const SHEET_CSV_URL = process.env.SHINY_SHEET_CSV_URL || "";
 const LOCAL_CSV = "content/_data/shinies.local.csv";
@@ -117,6 +117,7 @@ function parseCsv(text) {
   if (!rows.length) return [];
 
   const headers = rows[0].map((h) => h.trim());
+
   return rows.slice(1).map((values) => {
     const obj = {};
     headers.forEach((header, index) => {
@@ -260,7 +261,11 @@ function normaliseCategory(row) {
   // If not, most old "methods" rows were better treated as random/misc finds.
   if (raw === "methods") {
     if (target) return "target-hunts";
-    if (method === "mass-outbreak" || method === "sandwich" || method === "catch-combo") {
+    if (
+      method === "mass-outbreak" ||
+      method === "sandwich" ||
+      method === "catch-combo"
+    ) {
       return "target-hunts";
     }
     return "random-finds";
@@ -272,7 +277,9 @@ function normaliseCategory(row) {
 function isGoRow(row) {
   const category = normaliseCategory(row);
   const gameGroup = normaliseGameGroup(row.gameGroup ?? row["Game Group"]);
-  const originGame = String(row.originGame ?? row["Origin Game"] ?? "").trim().toLowerCase();
+  const originGame = String(
+    row.originGame ?? row["Origin Game"] ?? ""
+  ).trim().toLowerCase();
 
   return (
     category === "pokemon-go" ||
@@ -289,7 +296,8 @@ function shinySpriteUrl(dexNo) {
 function cleanCapture(row) {
   const dexNo = normaliseDexNo(row.dexNo ?? row["Dex No"] ?? row.dex ?? row.Dex);
   const category = normaliseCategory(row);
-  const generation = slugify(row.generation ?? row.Generation) || inferGenerationFromDexNo(dexNo);
+  const generation =
+    slugify(row.generation ?? row.Generation) || inferGenerationFromDexNo(dexNo);
   const gameGroup = normaliseGameGroup(row.gameGroup ?? row["Game Group"]);
   const methodRaw = String(row.method ?? row.Method ?? "").trim();
   const methodKey = normaliseMethod(methodRaw);
@@ -306,7 +314,9 @@ function cleanCapture(row) {
 
   return {
     published: isPublished(row),
-    huntStatus: String(row.huntStatus ?? row["Hunt Status"] ?? row.status ?? row.Status ?? "").trim(),
+    huntStatus: String(
+      row.huntStatus ?? row["Hunt Status"] ?? row.status ?? row.Status ?? ""
+    ).trim(),
 
     dexNo,
     dexDisplay: displayDexNo(dexNo),
@@ -319,12 +329,16 @@ function cleanCapture(row) {
     generationLabel: GENERATION_LABELS[generation] || generation || "Unsorted",
 
     gameGroup,
-    gameGroupLabel: GAME_GROUP_LABELS[gameGroup] || titleCaseName(gameGroup || "unsorted"),
+    gameGroupLabel:
+      GAME_GROUP_LABELS[gameGroup] || titleCaseName(gameGroup || "unsorted"),
 
     category,
-    categoryLabel: CATEGORY_LABELS[category] || titleCaseName(category || "unsorted"),
+    categoryLabel:
+      CATEGORY_LABELS[category] || titleCaseName(category || "unsorted"),
 
-    originGame: String(row.originGame ?? row["Origin Game"] ?? row.game ?? row.Game ?? "").trim(),
+    originGame: String(
+      row.originGame ?? row["Origin Game"] ?? row.game ?? row.Game ?? ""
+    ).trim(),
 
     method: methodRaw,
     methodKey,
@@ -334,7 +348,9 @@ function cleanCapture(row) {
 
     encounters: String(row.encounters ?? row.Encounters ?? "").trim(),
     odds: String(row.odds ?? row.Odds ?? "").trim(),
-    caughtDate: String(row.caughtDate ?? row["Caught Date"] ?? row.date ?? row.Date ?? "").trim(),
+    caughtDate: String(
+      row.caughtDate ?? row["Caught Date"] ?? row.date ?? row.Date ?? ""
+    ).trim(),
 
     ball: String(row.ball ?? row.Ball ?? "").trim(),
     nature: String(row.nature ?? row.Nature ?? "").trim(),
@@ -346,8 +362,12 @@ function cleanCapture(row) {
     target: String(row.target ?? row["Target?"] ?? row.Target ?? "").trim(),
     isTarget: isTruthy(row.target ?? row["Target?"] ?? row.Target),
 
-    currentHunt: String(row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"] ?? "").trim(),
-    isCurrentHunt: isTruthy(row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"]),
+    currentHunt: String(
+      row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"] ?? ""
+    ).trim(),
+    isCurrentHunt: isTruthy(
+      row.currentHunt ?? row["Current Hunt?"] ?? row["Current Hunt"]
+    ),
 
     mark: String(row.mark ?? row.Mark ?? row.markRibbon ?? row["Mark/Ribbon"] ?? "").trim(),
     notes: String(row.notes ?? row.Notes ?? "").trim(),
@@ -387,11 +407,11 @@ function sortCategoryKeys(a, b) {
 }
 
 /**
- * Pink quest helpers.
- * These let the pink page be generated from your master shiny log
- * without manually tagging every row in the sheet.
+ * Favourite sparkle helpers.
+ * These let the faves page be generated from your master shiny log
+ * without adding tags to every row in the sheet.
  */
-function normaliseQuestName(value) {
+function normaliseFaveName(value) {
   return String(value || "")
     .toLowerCase()
     .replace(/♀/g, " female")
@@ -401,17 +421,9 @@ function normaliseQuestName(value) {
     .trim();
 }
 
-function questSet(list) {
-  return new Set(list.map(normaliseQuestName));
-}
-
-const PINK_SWITCH_SET = questSet(pinkQuestList.switch);
-const PINK_SWITCH_OPTIONAL_SET = questSet(pinkQuestList.switchOptional);
-const PINK_FRLG_SET = questSet(pinkQuestList.frlg);
-
-function getQuestNameCandidates(shiny) {
-  const species = normaliseQuestName(shiny.species);
-  const form = normaliseQuestName(shiny.form);
+function faveNameCandidates(item) {
+  const species = normaliseFaveName(item.species);
+  const form = normaliseFaveName(item.form);
 
   return new Set(
     [
@@ -422,72 +434,89 @@ function getQuestNameCandidates(shiny) {
   );
 }
 
-function matchesQuestSet(shiny, set) {
-  const candidates = getQuestNameCandidates(shiny);
-  return [...candidates].some((name) => set.has(name));
+function captureMatchesFave(capture, fave) {
+  const captureCandidates = faveNameCandidates(capture);
+  const faveCandidates = faveNameCandidates(fave);
+
+  const nameMatches = [...faveCandidates].some((name) =>
+    captureCandidates.has(name)
+  );
+
+  if (!nameMatches) return false;
+
+  // If the fave asks for a specific form, try to match form more carefully.
+  if (fave.form) {
+    const captureForm = normaliseFaveName(capture.form);
+    const faveForm = normaliseFaveName(fave.form);
+    const captureSpecies = normaliseFaveName(capture.species);
+    const faveSpecies = normaliseFaveName(fave.species);
+
+    return (
+      captureForm === faveForm ||
+      captureSpecies === normaliseFaveName(`${fave.form} ${fave.species}`) ||
+      captureSpecies === faveSpecies
+    );
+  }
+
+  return true;
 }
 
-function getPinkQuestTags(shiny) {
-  const tags = [];
-
-  if (matchesQuestSet(shiny, PINK_SWITCH_SET)) {
-    tags.push("pink-switch");
+function dexEntryMatchesFave(pokemon, fave) {
+  if (fave.dexNo && String(Number(fave.dexNo)) === String(Number(pokemon.dexNo))) {
+    return true;
   }
 
-  if (matchesQuestSet(shiny, PINK_SWITCH_OPTIONAL_SET)) {
-    tags.push("pink-switch-optional");
-  }
-
-  if (matchesQuestSet(shiny, PINK_FRLG_SET)) {
-    tags.push("pink-frlg");
-  }
-
-  return tags;
+  return normaliseFaveName(pokemon.species) === normaliseFaveName(fave.species);
 }
 
-function decoratePinkQuest(shiny) {
-  const pinkQuestTags = getPinkQuestTags(shiny);
+function buildFaveShinyData(captures, livingDex) {
+  const decorated = faveShinyList.map((fave, index) => {
+    const matchingCaptures = captures
+      .filter((capture) => captureMatchesFave(capture, fave))
+      .sort(sortByDateDesc);
+
+    const firstCatch = matchingCaptures[0] || null;
+    const dexEntry = livingDex.find((pokemon) => dexEntryMatchesFave(pokemon, fave));
+
+    return {
+      ...fave,
+      key: `${slugify(fave.species)}-${slugify(fave.form || fave.group || index)}`,
+      groupLabel:
+        FAVE_GROUP_LABELS[fave.group] || titleCaseName(fave.group || "faves"),
+      caught: Boolean(firstCatch),
+      count: matchingCaptures.length,
+      captures: matchingCaptures,
+      firstCatch,
+      dexEntry: dexEntry || null,
+      image: firstCatch?.image || fave.image || dexEntry?.image || "",
+      dexDisplay:
+        firstCatch?.dexDisplay || dexEntry?.dexDisplay || displayDexNo(fave.dexNo),
+    };
+  });
+
+  const caught = decorated.filter((fave) => fave.caught);
+  const missing = decorated.filter((fave) => !fave.caught);
+  const byGroup = groupBy(decorated, "group");
 
   return {
-    ...shiny,
-    pinkQuestTags,
-    isPinkQuest: pinkQuestTags.length > 0,
-    pinkQuestLabels: pinkQuestTags.map(
-      (tag) => pinkQuestList.labels[tag] || tag
-    ),
-  };
-}
-
-function buildPinkQuestData(shinies) {
-  const all = shinies.filter((shiny) => shiny.isPinkQuest);
-
-  const switchMain = shinies.filter((shiny) =>
-    shiny.pinkQuestTags.includes("pink-switch")
-  );
-
-  const switchOptional = shinies.filter((shiny) =>
-    shiny.pinkQuestTags.includes("pink-switch-optional")
-  );
-
-  const frlg = shinies.filter((shiny) =>
-    shiny.pinkQuestTags.includes("pink-frlg")
-  );
-
-  return {
-    all: [...all].sort(sortByDateDesc),
-    switch: [...switchMain].sort(sortByDateDesc),
-    switchOptional: [...switchOptional].sort(sortByDateDesc),
-    frlg: [...frlg].sort(sortByDateDesc),
+    all: decorated,
+    caught,
+    missing,
+    byGroup,
+    groups: Object.keys(byGroup).map((key) => ({
+      key,
+      label: FAVE_GROUP_LABELS[key] || titleCaseName(key),
+      count: byGroup[key].length,
+      caught: byGroup[key].filter((fave) => fave.caught).length,
+      missing: byGroup[key].filter((fave) => !fave.caught).length,
+      faves: byGroup[key],
+    })),
 
     counts: {
-      all: all.length,
-      switch: switchMain.length,
-      switchOptional: switchOptional.length,
-      frlg: frlg.length,
+      all: decorated.length,
+      caught: caught.length,
+      missing: missing.length,
     },
-
-    byGeneration: groupBy(all, "generation"),
-    byGameGroup: groupBy(all, "gameGroup"),
   };
 }
 
@@ -548,7 +577,7 @@ export default async function () {
     .map((row) => {
       const capture = cleanCapture(row);
       capture.isGo = isGoRow(row);
-      return decoratePinkQuest(capture);
+      return capture;
     })
     .filter((capture) => capture.published)
     .filter((capture) => capture.dexNo && capture.species)
@@ -561,7 +590,6 @@ export default async function () {
   const byCategory = groupBy(captures, "category");
   const byGameGroup = groupBy(captures, "gameGroup");
   const byMethod = groupBy(captures, "methodKey");
-  const pink = buildPinkQuestData(captures);
 
   const nonGoCaptures = captures.filter((capture) => !capture.isGo);
   const caughtByDex = new Map();
@@ -583,22 +611,11 @@ export default async function () {
     const caughtInfo = caughtByDex.get(pokemon.dexNo);
     const caught = Boolean(caughtInfo);
 
-    const pinkQuestTags = getPinkQuestTags({
-      species: pokemon.species,
-      form: "",
-    });
-
     return {
       ...pokemon,
       caught,
       sourceCount: caughtInfo?.count || 0,
       firstCatch: caughtInfo?.firstCatch || null,
-
-      pinkQuestTags,
-      isPinkQuest: pinkQuestTags.length > 0,
-      pinkQuestLabels: pinkQuestTags.map(
-        (tag) => pinkQuestList.labels[tag] || tag
-      ),
     };
   });
 
@@ -608,6 +625,8 @@ export default async function () {
     ? Math.round((livingDexCaught / livingDexTotal) * 1000) / 10
     : 0;
 
+  const faves = buildFaveShinyData(captures, livingDex);
+
   return {
     captures,
     recent,
@@ -615,7 +634,7 @@ export default async function () {
     byCategory,
     byGameGroup,
     byMethod,
-    pink,
+    faves,
 
     generations: Object.keys(byGeneration)
       .sort()

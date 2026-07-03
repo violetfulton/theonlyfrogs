@@ -1,0 +1,149 @@
+---
+title: Violet’s Favourite Sparkles
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/shinies/faves/
+customcss: "/assets/css/shrines/pokemon/shiny-faves.css"
+---
+
+{% set faves = pokemonShinies.faves %}
+{% set newestFave = null %}
+{% if faves.caught and faves.caught.length %}
+  {% set newestFave = faves.caught[0] %}
+{% endif %}
+
+{% macro faveCard(fave) %}
+  <article class="fave-shiny-card {% if not fave.caught %}fave-shiny-card--missing{% endif %}">
+    <div class="fave-shiny-card__sprite">
+      {% if fave.image %}
+        <img src="{{ fave.image }}" alt="{% if fave.caught %}Shiny {{ fave.species }}{% else %}{{ fave.species }} target{% endif %}" loading="lazy">
+      {% else %}
+        <span>?</span>
+      {% endif %}
+    </div>
+
+    <div class="fave-shiny-card__body">
+      <p class="fave-shiny-card__number">
+        {% if fave.dexDisplay %}#{{ fave.dexDisplay }}{% endif %}
+        {% if fave.emoji %} · {{ fave.emoji }}{% endif %}
+      </p>
+
+      <h3>
+        {% if fave.firstCatch and fave.firstCatch.nickname %}
+          {{ fave.firstCatch.nickname }}
+          <span>{{ fave.species }}</span>
+        {% else %}
+          {{ fave.species }}
+          {% if fave.form %}<span>{{ fave.form }}</span>{% endif %}
+        {% endif %}
+      </h3>
+
+      {% if fave.vibe %}
+        <p class="fave-shiny-card__vibe">{{ fave.vibe }}</p>
+      {% endif %}
+
+      <dl>
+        <div>
+          <dt>Status</dt>
+          <dd>{% if fave.caught %}Caught{% else %}Dream target{% endif %}</dd>
+        </div>
+
+        {% if fave.firstCatch and fave.firstCatch.originGame %}
+          <div>
+            <dt>Game</dt>
+            <dd>{{ fave.firstCatch.originGame }}</dd>
+          </div>
+        {% endif %}
+
+        {% if fave.firstCatch and fave.firstCatch.method %}
+          <div>
+            <dt>Method</dt>
+            <dd>{{ fave.firstCatch.method }}</dd>
+          </div>
+        {% endif %}
+
+        {% if fave.firstCatch and fave.firstCatch.caughtDate %}
+          <div>
+            <dt>Date</dt>
+            <dd>{{ fave.firstCatch.caughtDate }}</dd>
+          </div>
+        {% endif %}
+      </dl>
+
+      <div class="fave-shiny-card__tags">
+        <span>{{ fave.groupLabel }}</span>
+        {% if fave.count > 1 %}
+          <span>{{ fave.count }} logged</span>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+{% endmacro %}
+
+<section class="fave-shiny-hero">
+  <img class="poke-hero-sticker poke-hero-sticker--top-right poke-hero-sticker--medium"
+       src="/assets/imgs/pokemon/graphics/sparkle-sticker.png"
+       alt=""
+       aria-hidden="true">
+
+  <p class="pc-kicker">VIOLET's PC / Hall of Faves</p>
+  <h1>Favourite Sparkles ♡</h1>
+  <p>
+    A personal PC box of my favourite shiny Pokémon — pink, cute, spooky,
+    witchy, froggy, or just very Violet-coded.
+  </p>
+
+  <div class="fave-shiny-stats" aria-label="Favourite shiny stats">
+    <span><strong>{{ faves.counts.caught }}</strong> caught</span>
+    <span><strong>{{ faves.counts.missing }}</strong> dream targets</span>
+    <span><strong>{{ faves.counts.all }}</strong> total faves</span>
+  </div>
+</section>
+
+<nav class="fave-shiny-shortcuts" aria-label="Favourite shiny groups">
+  {% for group in faves.groups %}
+    <a href="#{{ group.key }}">
+      <span>{{ group.label }}</span>
+      <small>{{ group.caught }}/{{ group.count }} caught</small>
+    </a>
+  {% endfor %}
+</nav>
+
+{% if newestFave %}
+<section class="fave-shiny-feature">
+  <div>
+    <p class="pc-kicker">Newest favourite sparkle</p>
+    <h2>
+      {{ newestFave.firstCatch.nickname or newestFave.species }}
+    </h2>
+    <p>
+      {{ newestFave.vibe }}
+      {% if newestFave.firstCatch.originGame %}
+        · {{ newestFave.firstCatch.originGame }}
+      {% endif %}
+      {% if newestFave.firstCatch.caughtDate %}
+        · {{ newestFave.firstCatch.caughtDate }}
+      {% endif %}
+    </p>
+  </div>
+
+  {% if newestFave.image %}
+    <img src="{{ newestFave.image }}" alt="Shiny {{ newestFave.species }}">
+  {% endif %}
+</section>
+{% endif %}
+
+{% for group in faves.groups %}
+<section class="fave-shiny-section" id="{{ group.key }}">
+  <div class="fave-shiny-section__heading">
+    <p class="pc-kicker">Favourite box</p>
+    <h2>{{ group.label }}</h2>
+    <p>{{ group.caught }} caught · {{ group.missing }} still dreaming</p>
+  </div>
+
+  <div class="fave-shiny-grid">
+    {% for fave in group.faves %}
+      {{ faveCard(fave) }}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
