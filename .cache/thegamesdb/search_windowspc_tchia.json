@@ -62,22 +62,6 @@
         "publishers": null
       },
       {
-        "id": 90679,
-        "game_title": "The D Show ",
-        "release_date": "1970-01-01",
-        "platform": 1,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "disney",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": null,
-        "genres": [
-          22
-        ],
-        "publishers": null
-      },
-      {
         "id": 92237,
         "game_title": "The D Show",
         "release_date": "1998-11-02",
@@ -96,6 +80,22 @@
         "publishers": [
           171
         ]
+      },
+      {
+        "id": 90679,
+        "game_title": "The D Show ",
+        "release_date": "1970-01-01",
+        "platform": 1,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "disney",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          22
+        ],
+        "publishers": null
       },
       {
         "id": 180,
@@ -613,7 +613,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tchia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tchia&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
   },
-  "remaining_monthly_allowance": 719,
+  "remaining_monthly_allowance": 717,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630052
+  "allowance_refresh_timer": 2624876
 }

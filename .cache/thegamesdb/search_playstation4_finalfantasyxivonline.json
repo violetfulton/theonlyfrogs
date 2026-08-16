@@ -37,14 +37,14 @@
         "publishers": null
       },
       {
-        "id": 126447,
+        "id": 23219,
         "game_title": "Final Fantasy XIV Online: A Realm Reborn",
         "release_date": "2014-04-14",
         "platform": 4919,
-        "region_id": 6,
-        "country_id": 18,
+        "region_id": 2,
+        "country_id": 0,
         "overview": "FINAL FANTASY® XIV: A Realm Reborn™ is a massively multiplayer online role-playing game (MMORPG) for PlayStation 4, PlayStation 3 and Windows PC that invites you to explore the realm of Eorzea with friends from around the world. \r\n\r\nForm a party and adventure with a multitude of players from across the globe. Forge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. \r\n\r\nSet out alone of enlist the aid of friends as you undertake epic quests, battle familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting!",
-        "players": 1,
+        "players": 64,
         "rating": "T - Teen",
         "developers": [
           2808
@@ -58,14 +58,14 @@
         ]
       },
       {
-        "id": 23219,
+        "id": 126447,
         "game_title": "Final Fantasy XIV Online: A Realm Reborn",
         "release_date": "2014-04-14",
         "platform": 4919,
-        "region_id": 2,
-        "country_id": 0,
+        "region_id": 6,
+        "country_id": 18,
         "overview": "FINAL FANTASY® XIV: A Realm Reborn™ is a massively multiplayer online role-playing game (MMORPG) for PlayStation 4, PlayStation 3 and Windows PC that invites you to explore the realm of Eorzea with friends from around the world. \r\n\r\nForm a party and adventure with a multitude of players from across the globe. Forge friendships, mount chocobos, and board airships as you and your companions create your own unique stories in Eorzea. \r\n\r\nSet out alone of enlist the aid of friends as you undertake epic quests, battle familiar FINAL FANTASY monsters, and acquire unique abilities and equipment. All the classic elements from the series that you have come to know and love are waiting!",
-        "players": 64,
+        "players": 1,
         "rating": "T - Teen",
         "developers": [
           2808
@@ -245,7 +245,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+XIV+Online&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 380,
+  "remaining_monthly_allowance": 378,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630001
+  "allowance_refresh_timer": 2624819
 }

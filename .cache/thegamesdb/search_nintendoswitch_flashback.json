@@ -5,27 +5,6 @@
     "count": 9,
     "games": [
       {
-        "id": 63096,
-        "game_title": "Flashback",
-        "release_date": "2018-07-31",
-        "platform": 4971,
-        "region_id": 1,
-        "country_id": 0,
-        "overview": "THE ACTION-ADVENTURE CLASSIC IS BACK TO CELEBRATE ITS 25TH ANNIVERSARY!\r\n\r\n2142. After fleeing from a space ship but stripped of all memory, the eminent scientist Conrad B. Hart awakens on Titan, a colonised moon of the planet Saturn. His enemies and kidnappers are snapping at his heels. He must find a way back to Earth, defending himself against the dangers he encounters and unravelling an insidious extra-terrestrial plot that threatens the planet\r\n\r\nOn its 25th anniversary, rediscover this classic, consistently ranked among the best 100 games of all time! It was one of the first games to use motion capture technology for more realistic animations, with backgrounds that were entirely hand-drawn and a gripping science-fiction storyline.\r\n\r\nIn addition to the original 1993 game, this version includes a Modern mode, with:\r\n\r\n* Post-FX graphic filters,\r\n* Completely remastered sound and music,\r\n* A brand new \"Rewind\" function, variable according to the level of difficulty\r\n* Tutorials for those who need a boost!\r\n\r\nSee if you're up to the challenge with all the demanding gameplay of the period!",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": [
-          6473
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          1287
-        ]
-      },
-      {
         "id": 127900,
         "game_title": "Flashback",
         "release_date": "2018-06-19",
@@ -56,6 +35,27 @@
         "overview": "",
         "players": 1,
         "rating": "Not Rated",
+        "developers": [
+          6473
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          1287
+        ]
+      },
+      {
+        "id": 63096,
+        "game_title": "Flashback",
+        "release_date": "2018-07-31",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "THE ACTION-ADVENTURE CLASSIC IS BACK TO CELEBRATE ITS 25TH ANNIVERSARY!\r\n\r\n2142. After fleeing from a space ship but stripped of all memory, the eminent scientist Conrad B. Hart awakens on Titan, a colonised moon of the planet Saturn. His enemies and kidnappers are snapping at his heels. He must find a way back to Earth, defending himself against the dangers he encounters and unravelling an insidious extra-terrestrial plot that threatens the planet\r\n\r\nOn its 25th anniversary, rediscover this classic, consistently ranked among the best 100 games of all time! It was one of the first games to use motion capture technology for more realistic animations, with backgrounds that were entirely hand-drawn and a gripping science-fiction storyline.\r\n\r\nIn addition to the original 1993 game, this version includes a Modern mode, with:\r\n\r\n* Post-FX graphic filters,\r\n* Completely remastered sound and music,\r\n* A brand new \"Rewind\" function, variable according to the level of difficulty\r\n* Tutorials for those who need a boost!\r\n\r\nSee if you're up to the challenge with all the demanding gameplay of the period!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
         "developers": [
           6473
         ],
@@ -127,6 +127,29 @@
         ]
       },
       {
+        "id": 127903,
+        "game_title": "Atari Flashback Classics",
+        "release_date": "2019-03-22",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1
+        ],
+        "genres": [
+          5,
+          7,
+          8,
+          15
+        ],
+        "publishers": [
+          1536
+        ]
+      },
+      {
         "id": 62855,
         "game_title": "Atari Flashback Classics",
         "release_date": "2018-12-13",
@@ -154,29 +177,6 @@
         ],
         "publishers": [
           70
-        ]
-      },
-      {
-        "id": 127903,
-        "game_title": "Atari Flashback Classics",
-        "release_date": "2019-03-22",
-        "platform": 4971,
-        "region_id": 6,
-        "country_id": 13,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          1
-        ],
-        "genres": [
-          5,
-          7,
-          8,
-          15
-        ],
-        "publishers": [
-          1536
         ]
       },
       {
@@ -331,7 +331,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Flashback&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 242,
+  "remaining_monthly_allowance": 240,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629980
+  "allowance_refresh_timer": 2624795
 }

@@ -25,6 +25,23 @@
         ]
       },
       {
+        "id": 106822,
+        "game_title": "Road Redemption",
+        "release_date": "2017-04-10",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "",
+        "players": 4,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          7,
+          27
+        ],
+        "publishers": null
+      },
+      {
         "id": 29819,
         "game_title": "Road Redemption",
         "release_date": "2017-10-04",
@@ -44,23 +61,6 @@
           3585,
           8289
         ]
-      },
-      {
-        "id": 106822,
-        "game_title": "Road Redemption",
-        "release_date": "2017-04-10",
-        "platform": 1,
-        "region_id": 9,
-        "country_id": 0,
-        "overview": "",
-        "players": 4,
-        "rating": "T - Teen",
-        "developers": null,
-        "genres": [
-          7,
-          27
-        ],
-        "publishers": null
       }
     ]
   },
@@ -119,7 +119,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Red+Dead+Redemption+2&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 725,
+  "remaining_monthly_allowance": 723,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630053
+  "allowance_refresh_timer": 2624877
 }

@@ -5,6 +5,24 @@
     "count": 5,
     "games": [
       {
+        "id": 15110,
+        "game_title": "Injustice: Gods Among Us",
+        "release_date": "2013-04-16",
+        "platform": 12,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "Injustice: Gods Among Us debuts as a bold new fighting game franchise that introduces a deep, original story featuring a large cast of favorite DC Comics icons such as Batman, Harley Quinn, Solomon Grundy, Superman, The Flash, Wonder Woman and many others. Set in a world where the lines between good and evil are blurred, players will experience heroes and villains engaging in epic battles on a massive scale.",
+        "players": null,
+        "rating": "M - Mature 17+",
+        "developers": [
+          5865
+        ],
+        "genres": null,
+        "publishers": [
+          152
+        ]
+      },
+      {
         "id": 114249,
         "game_title": "Injustice: Gods Among Us",
         "release_date": "2013-04-06",
@@ -20,24 +38,6 @@
         "genres": [
           10
         ],
-        "publishers": [
-          152
-        ]
-      },
-      {
-        "id": 15110,
-        "game_title": "Injustice: Gods Among Us",
-        "release_date": "2013-04-16",
-        "platform": 12,
-        "region_id": 0,
-        "country_id": 0,
-        "overview": "Injustice: Gods Among Us debuts as a bold new fighting game franchise that introduces a deep, original story featuring a large cast of favorite DC Comics icons such as Batman, Harley Quinn, Solomon Grundy, Superman, The Flash, Wonder Woman and many others. Set in a world where the lines between good and evil are blurred, players will experience heroes and villains engaging in epic battles on a massive scale.",
-        "players": null,
-        "rating": "M - Mature 17+",
-        "developers": [
-          5865
-        ],
-        "genres": null,
         "publishers": [
           152
         ]
@@ -193,7 +193,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Injustice%3A+Gods+Among+Us&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 632,
+  "remaining_monthly_allowance": 630,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630038
+  "allowance_refresh_timer": 2624856
 }

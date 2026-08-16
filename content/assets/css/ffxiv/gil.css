@@ -1,0 +1,1263 @@
+.ff-gil {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 20px 8px 46px;
+}
+
+.ff-gil-kicker {
+  margin: 0 0 5px;
+  color: var(--ff-text-pink);
+  font-size: .66rem;
+  font-weight: 900;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.ff-gil-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 130px;
+  gap: 28px;
+  align-items: center;
+  padding: 28px 30px;
+  overflow: hidden;
+}
+
+.ff-gil-hero::after {
+  content: "";
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  right: -90px;
+  bottom: -120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(231,198,130,.2), transparent 70%);
+  pointer-events: none;
+}
+
+.ff-gil-hero h1,
+.ff-gil-section-head h2,
+.ff-gil-endgame h2 {
+  font-family: 'Gaegu', cursive;
+}
+
+.ff-gil-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 5rem);
+  line-height: .9;
+}
+
+.ff-gil-hero__copy > p:not(.ff-gil-kicker) {
+  max-width: 720px;
+  margin: 12px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .87rem;
+  line-height: 1.65;
+}
+
+.ff-gil-coin-stack {
+  position: relative;
+  width: 118px;
+  height: 112px;
+}
+
+.ff-gil-coin {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid rgba(177,139,70,.3);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,.95), transparent 25%),
+    linear-gradient(145deg, #f8e9b9, #dbbc73);
+  color: #a77b31;
+  box-shadow: 0 8px 18px rgba(126,92,43,.12);
+  font-family: 'Gaegu', cursive;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.ff-gil-coin--one {
+  left: 0;
+  bottom: 0;
+  transform: rotate(-10deg);
+}
+
+.ff-gil-coin--two {
+  right: 0;
+  bottom: 4px;
+  transform: rotate(10deg);
+}
+
+.ff-gil-coin--three {
+  left: 24px;
+  top: 0;
+}
+
+.ff-gil-coin-stack b {
+  position: absolute;
+  top: -4px;
+  right: 6px;
+  z-index: 3;
+  color: var(--ff-text-pink);
+  font-size: 1.25rem;
+}
+
+.ff-gil-vault {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, .5fr);
+  gap: 0;
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.ff-gil-vault__main {
+  padding: clamp(24px, 5vw, 46px);
+}
+
+.ff-gil-vault__number {
+  margin: 1px 0 0;
+  font-family: 'Gaegu', cursive;
+  font-size: clamp(3.3rem, 8vw, 6.2rem);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: .9;
+}
+
+.ff-gil-vault__number--empty {
+  color: var(--ff-text-soft);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+
+.ff-gil-vault__percent {
+  margin: 9px 0 19px;
+  color: var(--ff-text-soft);
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.ff-gil-vault code,
+.ff-gil-diary code {
+  padding: 2px 5px;
+  border: 1px solid var(--ff-border);
+  border-radius: 6px;
+  background: rgba(255,255,255,.6);
+  color: var(--ff-text-pink);
+  font-size: .9em;
+}
+
+.ff-gil-progress {
+  height: 11px;
+  overflow: hidden;
+  border: 1px solid var(--ff-border);
+  border-radius: 999px;
+  background: rgba(117,87,122,.07);
+}
+
+.ff-gil-progress > span {
+  display: block;
+  min-width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background:
+    linear-gradient(90deg, var(--ff-pink-3), var(--ff-lavender-3));
+}
+
+.ff-gil-vault__capline {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 7px;
+  color: var(--ff-text-soft);
+  font-size: .59rem;
+}
+
+.ff-gil-vault__capline strong {
+  color: var(--ff-text-pink);
+}
+
+.ff-gil-next {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 28px;
+  border-left: 1px solid var(--ff-border);
+  background:
+    radial-gradient(circle at 100% 0, rgba(231,198,130,.18), transparent 50%),
+    rgba(255,255,255,.28);
+}
+
+.ff-gil-next__spark {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  color: #c59b4d;
+}
+
+.ff-gil-next > strong {
+  font-family: 'Gaegu', cursive;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: .95;
+}
+
+.ff-gil-next > p:not(.ff-gil-kicker) {
+  margin: 8px 0 13px;
+  color: var(--ff-text-soft);
+  font-size: .7rem;
+}
+
+.ff-gil-progress--milestone {
+  height: 7px;
+}
+
+.ff-gil-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.ff-gil-stat {
+  padding: 17px;
+  box-shadow: var(--ff-shadow-soft);
+}
+
+.ff-gil-stat > span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 11px;
+  border: 1px solid rgba(177,139,70,.22);
+  border-radius: 11px;
+  background: linear-gradient(145deg, rgba(249,233,188,.56), rgba(244,218,232,.58));
+  color: #a77b31;
+}
+
+.ff-gil-stat small,
+.ff-gil-stat strong {
+  display: block;
+}
+
+.ff-gil-stat small {
+  color: var(--ff-lavender-3);
+  font-size: .54rem;
+  font-weight: 900;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.ff-gil-stat strong {
+  margin-top: 2px;
+  font-size: .9rem;
+}
+
+.ff-gil-stat p {
+  margin: 7px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .62rem;
+  line-height: 1.45;
+}
+
+.ff-gil-road,
+.ff-gil-collector,
+.ff-gil-afford,
+.ff-gil-diary {
+  margin-top: 16px;
+  padding: 23px;
+}
+
+.ff-gil-section-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.ff-gil-section-head--compact {
+  display: block;
+}
+
+.ff-gil-section-head h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1;
+}
+
+.ff-gil-section-head > p {
+  max-width: 470px;
+  margin: 0;
+  color: var(--ff-text-soft);
+  font-size: .7rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.ff-gil-road__track {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0,1fr));
+  gap: 8px;
+}
+
+.ff-gil-mile {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  min-width: 0;
+  padding: 12px 6px 10px;
+  border: 1px solid var(--ff-border);
+  border-radius: 13px;
+  background: rgba(255,255,255,.39);
+  text-align: center;
+}
+
+.ff-gil-mile__dot {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  margin-bottom: 2px;
+  border: 1px solid var(--ff-border);
+  border-radius: 50%;
+  color: var(--ff-text-soft);
+  background: rgba(255,255,255,.62);
+  font-size: .7rem;
+}
+
+.ff-gil-mile strong {
+  font-size: .71rem;
+}
+
+.ff-gil-mile small {
+  color: var(--ff-text-soft);
+  font-size: .54rem;
+}
+
+.ff-gil-mile.is-reached {
+  border-color: rgba(185,103,142,.22);
+  background: linear-gradient(145deg, rgba(247,216,230,.6), rgba(236,227,249,.52));
+}
+
+.ff-gil-mile.is-reached .ff-gil-mile__dot {
+  border-color: var(--ff-border-pink);
+  background: var(--ff-pink-3);
+  color: #fff;
+}
+
+.ff-gil-mile.is-next {
+  border-color: rgba(177,139,70,.35);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.45);
+  background: linear-gradient(145deg, rgba(249,234,192,.66), rgba(248,219,233,.52));
+}
+
+.ff-gil-mile.is-next .ff-gil-mile__dot {
+  border-color: rgba(177,139,70,.35);
+  color: #a77b31;
+}
+
+.ff-gil-road__scribble {
+  margin: 16px 0 0;
+  color: var(--ff-text-pink);
+  font-family: 'Gaegu', cursive;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ff-gil-collector-grid {
+  display: grid;
+  grid-template-columns: 1.25fr .875fr .875fr;
+  gap: 11px;
+}
+
+.ff-gil-collection-card {
+  padding: 17px;
+  border: 1px solid var(--ff-border);
+  border-radius: 17px;
+  background: rgba(255,255,255,.43);
+}
+
+.ff-gil-collection-card--mounts {
+  background:
+    radial-gradient(circle at 100% 0, rgba(235,207,140,.2), transparent 39%),
+    rgba(255,255,255,.47);
+}
+
+.ff-gil-collection-card > header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ff-border);
+}
+
+.ff-gil-collection-card__icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(177,139,70,.25);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(249,233,188,.58), rgba(243,220,235,.6));
+  color: #a77b31;
+  font-size: 1.1rem;
+}
+
+.ff-gil-collection-card header small {
+  display: block;
+  color: var(--ff-lavender-3);
+  font-size: .52rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ff-gil-collection-card h3 {
+  margin: 2px 0 0;
+  font-size: .95rem;
+}
+
+.ff-gil-collection-card__big {
+  margin: 15px 0 10px;
+}
+
+.ff-gil-collection-card__big strong,
+.ff-gil-collection-card__big span {
+  display: block;
+}
+
+.ff-gil-collection-card__big strong {
+  font-family: 'Gaegu', cursive;
+  font-size: 2.15rem;
+  line-height: .95;
+}
+
+.ff-gil-collection-card__big span {
+  margin-top: 3px;
+  color: var(--ff-text-soft);
+  font-size: .62rem;
+}
+
+.ff-gil-progress--collector {
+  height: 7px;
+}
+
+.ff-gil-collection-card__remaining,
+.ff-gil-collection-card__note {
+  color: var(--ff-text-soft);
+  font-size: .61rem;
+  line-height: 1.47;
+}
+
+.ff-gil-collection-card__remaining {
+  margin: 7px 0 12px;
+}
+
+.ff-gil-shopping-list {
+  display: grid;
+  gap: 5px;
+}
+
+.ff-gil-shopping-item {
+  display: grid;
+  grid-template-columns: 24px minmax(0,1fr) auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--ff-border);
+  border-radius: 10px;
+  background: rgba(255,255,255,.42);
+}
+
+.ff-gil-shopping-item__check {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(117,87,122,.07);
+  color: var(--ff-text-soft);
+  font-size: .6rem;
+}
+
+.ff-gil-shopping-item strong,
+.ff-gil-shopping-item small {
+  display: block;
+}
+
+.ff-gil-shopping-item strong {
+  font-size: .66rem;
+}
+
+.ff-gil-shopping-item small {
+  margin-top: 1px;
+  color: var(--ff-text-soft);
+  font-size: .52rem;
+}
+
+.ff-gil-shopping-item__price {
+  color: #977130;
+  font-size: .62rem;
+  font-weight: 900;
+}
+
+.ff-gil-shopping-item.is-owned {
+  opacity: .58;
+}
+
+.ff-gil-shopping-item.is-owned strong {
+  text-decoration: line-through;
+}
+
+.ff-gil-shopping-item.is-owned .ff-gil-shopping-item__check {
+  background: var(--ff-pink-3);
+  color: #fff;
+}
+
+.ff-gil-next-buy {
+  margin-top: 11px;
+  padding: 10px;
+  border: 1px solid rgba(177,139,70,.22);
+  border-radius: 11px;
+  background: rgba(250,236,201,.34);
+}
+
+.ff-gil-next-buy small,
+.ff-gil-next-buy strong,
+.ff-gil-next-buy span {
+  display: block;
+}
+
+.ff-gil-next-buy small {
+  color: var(--ff-lavender-3);
+  font-size: .51rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ff-gil-next-buy strong {
+  margin-top: 2px;
+  font-size: .68rem;
+}
+
+.ff-gil-next-buy span {
+  margin-top: 4px;
+  color: var(--ff-text-soft);
+  font-size: .57rem;
+}
+
+.ff-gil-next-buy .is-good {
+  color: #6f8a68;
+}
+
+.ff-gil-next-buy .is-warn {
+  color: #a0744e;
+}
+
+.ff-gil-emptybar {
+  display: grid;
+  place-items: center;
+  min-height: 31px;
+  margin: 8px 0 12px;
+  border: 1px dashed var(--ff-border);
+  border-radius: 9px;
+  color: var(--ff-text-soft);
+  background: rgba(255,255,255,.27);
+  font-size: .56rem;
+}
+
+.ff-gil-mini-budget {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.ff-gil-mini-budget > div {
+  padding: 9px;
+  border: 1px solid var(--ff-border);
+  border-radius: 10px;
+  background: rgba(255,255,255,.4);
+}
+
+.ff-gil-mini-budget small,
+.ff-gil-mini-budget strong {
+  display: block;
+}
+
+.ff-gil-mini-budget small {
+  color: var(--ff-lavender-3);
+  font-size: .5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ff-gil-mini-budget strong {
+  margin-top: 2px;
+  font-size: .64rem;
+}
+
+.ff-gil-collection-card__note {
+  margin: 11px 0 0;
+}
+
+.ff-gil-afford-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 9px;
+}
+
+.ff-gil-afford-grid article {
+  padding: 15px;
+  border: 1px solid var(--ff-border);
+  border-radius: 14px;
+  background: rgba(255,255,255,.42);
+}
+
+.ff-gil-afford-grid small,
+.ff-gil-afford-grid strong {
+  display: block;
+}
+
+.ff-gil-afford-grid small {
+  color: var(--ff-lavender-3);
+  font-size: .53rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ff-gil-afford-grid strong {
+  margin-top: 3px;
+  font-size: .84rem;
+}
+
+.ff-gil-afford-grid p {
+  margin: 6px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .61rem;
+  line-height: 1.45;
+}
+
+.ff-gil-rulebook {
+  display: grid;
+  grid-template-columns: 35px minmax(0,1fr);
+  gap: 10px;
+  align-items: center;
+  margin-top: 11px;
+  padding: 11px 13px;
+  border: 1px solid var(--ff-border-pink);
+  border-radius: 13px;
+  background: linear-gradient(145deg, rgba(248,219,233,.43), rgba(236,228,249,.43));
+}
+
+.ff-gil-rulebook > span {
+  color: var(--ff-text-pink);
+  font-family: 'Gaegu', cursive;
+  font-size: 1.4rem;
+}
+
+.ff-gil-rulebook p {
+  margin: 0;
+  color: var(--ff-text-soft);
+  font-size: .65rem;
+  line-height: 1.5;
+}
+
+.ff-gil-rulebook strong {
+  color: var(--ff-text);
+}
+
+.ff-gil-diary-list {
+  display: grid;
+  gap: 7px;
+}
+
+.ff-gil-diary-list article {
+  display: grid;
+  grid-template-columns: 35px minmax(0,1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 11px;
+  border: 1px solid var(--ff-border);
+  border-radius: 12px;
+  background: rgba(255,255,255,.41);
+}
+
+.ff-gil-diary__mark {
+  display: grid;
+  place-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(249,233,188,.57), rgba(243,220,235,.57));
+  color: #a77b31;
+}
+
+.ff-gil-diary-list small,
+.ff-gil-diary-list strong {
+  display: block;
+}
+
+.ff-gil-diary-list small {
+  color: var(--ff-lavender-3);
+  font-size: .5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ff-gil-diary-list strong {
+  margin-top: 2px;
+  font-size: .7rem;
+}
+
+.ff-gil-diary-list p {
+  margin: 3px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .57rem;
+}
+
+.ff-gil-diary-list article > span {
+  color: #967031;
+  font-size: .66rem;
+  font-weight: 900;
+}
+
+.ff-gil-diary-empty {
+  display: grid;
+  justify-items: center;
+  padding: 25px;
+  border: 1px dashed var(--ff-border);
+  border-radius: 15px;
+  background: rgba(255,255,255,.28);
+  text-align: center;
+}
+
+.ff-gil-diary-empty > span {
+  margin-bottom: 5px;
+  color: #a77b31;
+  font-size: 1.5rem;
+}
+
+.ff-gil-diary-empty strong {
+  font-size: .76rem;
+}
+
+.ff-gil-diary-empty p {
+  margin: 4px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .62rem;
+}
+
+.ff-gil-endgame {
+  position: relative;
+  margin-top: 16px;
+  padding: 35px 24px;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 110%, rgba(240,207,133,.3), transparent 48%),
+    radial-gradient(circle at 18% 0, rgba(245,187,213,.2), transparent 35%),
+    var(--ff-paper);
+}
+
+.ff-gil-endgame__crown {
+  display: block;
+  margin-bottom: 6px;
+  color: #b28a3c;
+  font-size: 2rem;
+}
+
+.ff-gil-endgame h2 {
+  margin: 0;
+  font-size: clamp(2.8rem, 8vw, 5.1rem);
+  line-height: .9;
+}
+
+.ff-gil-endgame > p:not(.ff-gil-kicker) {
+  max-width: 580px;
+  margin: 12px auto 0;
+  color: var(--ff-text-soft);
+  font-size: .72rem;
+  line-height: 1.52;
+}
+
+.ff-gil-endgame__sparkles {
+  margin-top: 18px;
+  color: var(--ff-text-pink);
+  letter-spacing: .25em;
+}
+
+@media (max-width: 920px) {
+  .ff-gil-stats {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+
+  .ff-gil-collector-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ff-gil-collection-card--mounts {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .ff-gil-vault {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-next {
+    border-top: 1px solid var(--ff-border);
+    border-left: 0;
+  }
+
+  .ff-gil-road__track {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+
+  .ff-gil-afford-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-section-head {
+    display: block;
+  }
+
+  .ff-gil-section-head > p {
+    margin-top: 7px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .ff-gil-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-coin-stack {
+    display: none;
+  }
+
+  .ff-gil-collector-grid,
+  .ff-gil-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-collection-card--mounts {
+    grid-column: auto;
+  }
+
+  .ff-gil-road,
+  .ff-gil-collector,
+  .ff-gil-afford,
+  .ff-gil-diary {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 430px) {
+  .ff-gil-road__track {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-shopping-item {
+    grid-template-columns: 24px minmax(0,1fr);
+  }
+
+  .ff-gil-shopping-item__price {
+    grid-column: 2;
+  }
+
+  .ff-gil-diary-list article {
+    grid-template-columns: 33px minmax(0,1fr);
+  }
+
+  .ff-gil-diary-list article > span {
+    grid-column: 2;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────
+   Actual collectible shopping list
+   ────────────────────────────────────────────────────────── */
+
+.ff-gil-shopping {
+  margin-top: 16px;
+  padding: 23px;
+}
+
+.ff-gil-shopping-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.ff-gil-shopping-summary article {
+  padding: 14px;
+  border: 1px solid var(--ff-border);
+  border-radius: 14px;
+  background: rgba(255,255,255,.43);
+}
+
+.ff-gil-shopping-summary small,
+.ff-gil-shopping-summary strong {
+  display: block;
+}
+
+.ff-gil-shopping-summary small {
+  color: var(--ff-lavender-3);
+  font-size: .52rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ff-gil-shopping-summary strong {
+  margin-top: 3px;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.55rem;
+  line-height: 1;
+}
+
+.ff-gil-shopping-summary p {
+  margin: 6px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .59rem;
+  line-height: 1.42;
+}
+
+.ff-gil-shopping-toolbar {
+  display: grid;
+  grid-template-columns: minmax(230px, .55fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: end;
+  margin: 15px 0;
+  padding: 12px;
+  border: 1px solid var(--ff-border);
+  border-radius: 14px;
+  background: rgba(255,255,255,.34);
+}
+
+.ff-gil-shopping-toolbar label span {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--ff-lavender-3);
+  font-size: .52rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ff-gil-shopping-toolbar input {
+  width: 100%;
+  padding: 9px 11px;
+  border: 1px solid var(--ff-border);
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255,255,255,.72);
+  color: var(--ff-text);
+  font: inherit;
+  font-size: .72rem;
+}
+
+.ff-gil-shopping-toolbar input:focus {
+  border-color: var(--ff-border-pink);
+  box-shadow: 0 0 0 3px rgba(185,103,142,.11);
+}
+
+.ff-gil-shopping-toolbar p {
+  margin: 0;
+  color: var(--ff-text-soft);
+  font-size: .61rem;
+  line-height: 1.45;
+}
+
+.ff-gil-shopping-categories {
+  display: grid;
+  gap: 12px;
+}
+
+.ff-gil-shop-category {
+  overflow: hidden;
+  border: 1px solid var(--ff-border);
+  border-radius: 17px;
+  background: rgba(255,255,255,.4);
+}
+
+.ff-gil-shop-category__head {
+  display: grid;
+  grid-template-columns: 42px minmax(0,1fr) auto;
+  gap: 11px;
+  align-items: center;
+  padding: 15px 16px;
+  border-bottom: 1px solid var(--ff-border);
+  background:
+    radial-gradient(circle at 100% 0, rgba(240,207,133,.12), transparent 40%);
+}
+
+.ff-gil-shop-category__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(177,139,70,.24);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(249,233,188,.57), rgba(244,220,235,.56));
+  color: #9d7834;
+  font-size: 1.1rem;
+}
+
+.ff-gil-shop-category__head h3 {
+  margin: 1px 0 0;
+  font-size: 1rem;
+}
+
+.ff-gil-shop-category__counts {
+  text-align: right;
+}
+
+.ff-gil-shop-category__counts strong,
+.ff-gil-shop-category__counts small {
+  display: block;
+}
+
+.ff-gil-shop-category__counts strong {
+  font-family: 'Gaegu', cursive;
+  font-size: 1.65rem;
+  line-height: .9;
+}
+
+.ff-gil-shop-category__counts small {
+  margin-top: 3px;
+  color: var(--ff-text-soft);
+  font-size: .51rem;
+}
+
+.ff-gil-shop-category__stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 8px;
+  padding: 11px 13px;
+  border-bottom: 1px solid var(--ff-border);
+}
+
+.ff-gil-shop-category__stats > div {
+  padding: 9px;
+  border: 1px solid var(--ff-border);
+  border-radius: 10px;
+  background: rgba(255,255,255,.41);
+}
+
+.ff-gil-shop-category__stats small,
+.ff-gil-shop-category__stats strong,
+.ff-gil-shop-category__stats span {
+  display: block;
+}
+
+.ff-gil-shop-category__stats small {
+  color: var(--ff-lavender-3);
+  font-size: .49rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ff-gil-shop-category__stats strong {
+  margin-top: 2px;
+  font-size: .78rem;
+}
+
+.ff-gil-shop-category__stats span {
+  margin-top: 1px;
+  color: var(--ff-text-soft);
+  font-size: .56rem;
+}
+
+.ff-gil-shop-details {
+  border-bottom: 1px solid var(--ff-border);
+}
+
+.ff-gil-shop-details:last-child {
+  border-bottom: 0;
+}
+
+.ff-gil-shop-details > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 14px;
+  cursor: pointer;
+  color: var(--ff-text);
+  font-size: .67rem;
+  font-weight: 850;
+  list-style: none;
+}
+
+.ff-gil-shop-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ff-gil-shop-details > summary::before {
+  content: "＋";
+  margin-right: 7px;
+  color: var(--ff-text-pink);
+}
+
+.ff-gil-shop-details[open] > summary::before {
+  content: "－";
+}
+
+.ff-gil-shop-details > summary span {
+  flex: 1;
+}
+
+.ff-gil-shop-details > summary strong {
+  color: #987331;
+  font-size: .61rem;
+}
+
+.ff-gil-shop-list {
+  max-height: 430px;
+  overflow: auto;
+  padding: 0 12px 12px;
+}
+
+.ff-gil-shop-row {
+  display: grid;
+  grid-template-columns: 25px minmax(0,1fr) auto;
+  gap: 9px;
+  align-items: center;
+  padding: 8px 7px;
+  border-top: 1px solid rgba(117,87,122,.08);
+}
+
+.ff-gil-shop-row[hidden] {
+  display: none;
+}
+
+.ff-gil-shop-row__mark {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(177,139,70,.09);
+  color: #a77b31;
+  font-size: .59rem;
+}
+
+.ff-gil-shop-row__name strong,
+.ff-gil-shop-row__name small {
+  display: block;
+}
+
+.ff-gil-shop-row__name strong {
+  font-size: .65rem;
+}
+
+.ff-gil-shop-row__name small {
+  margin-top: 2px;
+  color: var(--ff-text-soft);
+  font-size: .51rem;
+  line-height: 1.35;
+}
+
+.ff-gil-shop-row__price {
+  color: #967030;
+  font-size: .61rem;
+  font-weight: 900;
+  text-align: right;
+}
+
+.ff-gil-shop-empty {
+  margin: 0;
+  padding: 11px 14px 15px;
+  color: var(--ff-text-soft);
+  font-size: .61rem;
+}
+
+.ff-gil-shopping-footnotes {
+  display: grid;
+  gap: 3px;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px dashed var(--ff-border);
+  border-radius: 12px;
+  background: rgba(255,255,255,.27);
+}
+
+.ff-gil-shopping-footnotes p {
+  margin: 0;
+  color: var(--ff-text-soft);
+  font-size: .55rem;
+  line-height: 1.42;
+}
+
+.ff-gil-shopping-error {
+  padding: 16px;
+  border: 1px solid rgba(185,103,142,.25);
+  border-radius: 13px;
+  background: rgba(248,219,233,.36);
+}
+
+.ff-gil-shopping-error strong {
+  display: block;
+  font-size: .72rem;
+}
+
+.ff-gil-shopping-error p {
+  margin: 5px 0 0;
+  color: var(--ff-text-soft);
+  font-size: .6rem;
+}
+
+@media (max-width: 900px) {
+  .ff-gil-shopping-summary {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .ff-gil-shopping {
+    padding: 18px;
+  }
+
+  .ff-gil-shopping-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-shop-category__stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 470px) {
+  .ff-gil-shopping-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-gil-shop-category__head {
+    grid-template-columns: 38px minmax(0,1fr);
+  }
+
+  .ff-gil-shop-category__counts {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .ff-gil-shop-row {
+    grid-template-columns: 23px minmax(0,1fr);
+  }
+
+  .ff-gil-shop-row__price {
+    grid-column: 2;
+    text-align: left;
+  }
+}

@@ -5,26 +5,6 @@
     "count": 3,
     "games": [
       {
-        "id": 3533,
-        "game_title": "Pokémon Pinball: Ruby & Sapphire",
-        "release_date": "2003-08-26",
-        "platform": 5,
-        "region_id": 1,
-        "country_id": 0,
-        "overview": "Pokemon Pinball has all the features you'd demand of a pinball game, including bonus tables, lots of bumpers and ways to score massive points. As with your standard videogame pinball game, the left button on the D-pad and the A-button control the flippers with the R/L triggers used to shake the table. The catch here is that everything is themed in Pokemon. Instead of a ball, you make use of a Pokeball. Instead of standard bumpers, you're hitting the Pokeball against other Pokemon, and the ultimate goal is of course to \"catch 'em all\". The game features 200 Pokemon, two main tables, and link cable support.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          4549
-        ],
-        "genres": [
-          11
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
         "id": 84933,
         "game_title": "Pokémon Pinball: Ruby & Sapphire",
         "release_date": "2003-08-03",
@@ -59,6 +39,26 @@
         ],
         "genres": [
           20
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 3533,
+        "game_title": "Pokémon Pinball: Ruby & Sapphire",
+        "release_date": "2003-08-26",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Pokemon Pinball has all the features you'd demand of a pinball game, including bonus tables, lots of bumpers and ways to score massive points. As with your standard videogame pinball game, the left button on the D-pad and the A-button control the flippers with the R/L triggers used to shake the table. The catch here is that everything is themed in Pokemon. Instead of a ball, you make use of a Pokeball. Instead of standard bumpers, you're hitting the Pokeball against other Pokemon, and the ultimate goal is of course to \"catch 'em all\". The game features 200 Pokemon, two main tables, and link cable support.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          4549
+        ],
+        "genres": [
+          11
         ],
         "publishers": [
           3
@@ -135,7 +135,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Pinball%3A+Ruby+%26+Sapphire&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 517,
+  "remaining_monthly_allowance": 515,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630021
+  "allowance_refresh_timer": 2624840
 }

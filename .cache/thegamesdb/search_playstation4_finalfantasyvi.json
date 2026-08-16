@@ -42,28 +42,6 @@
         ]
       },
       {
-        "id": 29221,
-        "game_title": "Final Fantasy VII Remake",
-        "release_date": "2020-04-10",
-        "platform": 4919,
-        "region_id": 2,
-        "country_id": 0,
-        "overview": "Final Fantasy VII Remake (ファイナルファンタジーVII リメイク Fainaru Fantajī Sebun Rimeiku?) is an upcoming video game remake, developed and published by Square Enix, of the original 1997 PlayStation role-playing video game by Square. Rumored and speculated about for many years after the Compilation of Final Fantasy VII project and the Final Fantasy VII PlayStation 3 tech demo, the remake was officially announced by Square Enix at E3 2015 for the PlayStation 4.",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          2808
-        ],
-        "genres": [
-          1,
-          2,
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
         "id": 113412,
         "game_title": "Final Fantasy VII Remake",
         "release_date": "2020-04-10",
@@ -83,6 +61,28 @@
         ],
         "publishers": [
           8304
+        ]
+      },
+      {
+        "id": 29221,
+        "game_title": "Final Fantasy VII Remake",
+        "release_date": "2020-04-10",
+        "platform": 4919,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Final Fantasy VII Remake (ファイナルファンタジーVII リメイク Fainaru Fantajī Sebun Rimeiku?) is an upcoming video game remake, developed and published by Square Enix, of the original 1997 PlayStation role-playing video game by Square. Rumored and speculated about for many years after the Compilation of Final Fantasy VII project and the Final Fantasy VII PlayStation 3 tech demo, the remake was officially announced by Square Enix at E3 2015 for the PlayStation 4.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          12
         ]
       },
       {
@@ -129,6 +129,26 @@
         ]
       },
       {
+        "id": 66186,
+        "game_title": "Final Fantasy VIII Remastered",
+        "release_date": "2019-09-03",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "It is a time of war. The Republic of Galbadia, under the influence of the sorceress Edea, mobilises its great armies against the other nations of the world. Squall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal. This product is a remaster of FINAL FANTASY VIII, featuring multiple enhancements including additional options to customise your gameplay experience and difficulty, such as: - Battle assist options (HP, ATB gauge, and Limit Break boosts) - Game speed boost (x3) - No random encounters\r\n\r\nTrailer: YouTube\r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Role-Playing\r\n\r\n",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
         "id": 126791,
         "game_title": "Final Fantasy VIII Remastered",
         "release_date": "2019-09-02",
@@ -145,26 +165,6 @@
         ],
         "genres": [
           2,
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
-        "id": 66186,
-        "game_title": "Final Fantasy VIII Remastered",
-        "release_date": "2019-09-03",
-        "platform": 4919,
-        "region_id": 6,
-        "country_id": 18,
-        "overview": "It is a time of war. The Republic of Galbadia, under the influence of the sorceress Edea, mobilises its great armies against the other nations of the world. Squall and other members of SeeD, an elite mercenary force, join hands with Rinoa, a resistance fighter, to fight against Galbadia's tyrannical rule and to prevent Edea from fulfilling her ultimate goal. This product is a remaster of FINAL FANTASY VIII, featuring multiple enhancements including additional options to customise your gameplay experience and difficulty, such as: - Battle assist options (HP, ATB gauge, and Limit Break boosts) - Game speed boost (x3) - No random encounters\r\n\r\nTrailer: YouTube\r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Role-Playing\r\n\r\n",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          2808
-        ],
-        "genres": [
           4
         ],
         "publishers": [
@@ -415,7 +415,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+VI&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 374,
+  "remaining_monthly_allowance": 372,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630000
+  "allowance_refresh_timer": 2624818
 }

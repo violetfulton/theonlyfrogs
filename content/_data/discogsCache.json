@@ -2990,7 +2990,7 @@
       "thumb": "https://i.discogs.com/oe27s6VoF3WfRMrFmzoA_RHEGvsOsluQ-M5rRFkjDJ0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTYw/NDctMTIyNTQxNTIy/OS5qcGVn.jpeg",
       "cover_image": "https://i.discogs.com/DsAFhV8xI3QmBnQP21VZFDdWd6PFVKPvJdrz3pZ1iBg/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTYw/NDctMTIyNTQxNTIy/OS5qcGVn.jpeg",
       "title": "Riot!",
-      "year": 2009,
+      "year": 0,
       "formats": [
         {
           "name": "CD",
@@ -4736,6 +4736,7 @@
         {
           "name": "CD",
           "qty": "1",
+          "text": "Digisleeve",
           "descriptions": [
             "Album"
           ]
@@ -4974,8 +4975,8 @@
       "master_id": 729401,
       "master_url": "https://api.discogs.com/masters/729401",
       "resource_url": "https://api.discogs.com/releases/34190962",
-      "thumb": "https://i.discogs.com/SFYpW8t6uD7u2Tk6JrIfMJd4Q8K-6351zTtsjo9KmZY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTkw/OTYyLTE3NTEzMjUx/ODItNjk4MC5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/70XFbcrYKIj8-IDHM69PcWlNVvdcyyt4ZG5e0ORVA2U/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTkw/OTYyLTE3NTEzMjUx/ODItNjk4MC5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/rvt_w-O8Rs0puuINugeiS-wFWnCc21SpFcOJcS5yVlc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTkw/OTYyLTE3ODY1ODgw/NjAtODAzMi5wbmc.jpeg",
+      "cover_image": "https://i.discogs.com/faTi0--aXcVQYTn9HmXtXGrFtRlnTFCJ_oqRL1jYdW4/rs:fit/g:sm/q:90/h:575/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTkw/OTYyLTE3ODY1ODgw/NjAtODAzMi5wbmc.jpeg",
       "title": "Three Cheers For Sweet Revenge",
       "year": 2025,
       "formats": [
@@ -5493,8 +5494,8 @@
       "master_id": 293832,
       "master_url": "https://api.discogs.com/masters/293832",
       "resource_url": "https://api.discogs.com/releases/15824674",
-      "thumb": "https://i.discogs.com/Pilvwz6f8fshg8mEo6cUmfZL5c8tJ0PLqpZeppu4s2U/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODI0/Njc0LTE1OTkwNzA0/NjItMzI2NC5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/ODy34WAxbHDLW0ohk4NRt6bkGBbmnQYQr_lnNWQMerM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODI0/Njc0LTE1OTkwNzA0/NjItMzI2NC5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/jSA4_ni6hF1BmatBhVe0fkCakjf4d0Mh1HCFBuoB4qk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODI0/Njc0LTE3ODM5NjUy/OTctNDI4NS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/hwdDuefk_BMlFrse9bfS0R8KkzDSslTkRZBFX9MhmbU/rs:fit/g:sm/q:90/h:524/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODI0/Njc0LTE3ODM5NjUy/OTctNDI4NS5qcGVn.jpeg",
       "title": "Danger Days: The True Lives Of The Fabulous Killjoys",
       "year": 2010,
       "formats": [

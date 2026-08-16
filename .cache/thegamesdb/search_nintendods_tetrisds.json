@@ -5,6 +5,26 @@
     "count": 3,
     "games": [
       {
+        "id": 6888,
+        "game_title": "Tetris DS",
+        "release_date": "2006-03-20",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "You can rediscover the timeless puzzle game Tetris on your Nintendo DS with Tetris DS. Now you can choose from six different game modes, all of which take advantage of the DS's touch screen. Each game mode features a theme from another Nintendo franchise, such as The Legend of Zelda or Metroid. You can challenge up to nine other players using one cartridge for local multiplayer play or three other players around the world with the DS's Wi-Fi connection.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6037
+        ],
+        "genres": [
+          5
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
         "id": 115273,
         "game_title": "Tetris DS",
         "release_date": "2006-04-21",
@@ -36,26 +56,6 @@
         "rating": "E - Everyone",
         "developers": [
           6060
-        ],
-        "genres": [
-          5
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
-        "id": 6888,
-        "game_title": "Tetris DS",
-        "release_date": "2006-03-20",
-        "platform": 8,
-        "region_id": 2,
-        "country_id": 0,
-        "overview": "You can rediscover the timeless puzzle game Tetris on your Nintendo DS with Tetris DS. Now you can choose from six different game modes, all of which take advantage of the DS's touch screen. Each game mode features a theme from another Nintendo franchise, such as The Legend of Zelda or Metroid. You can challenge up to nine other players using one cartridge for local multiplayer play or three other players around the world with the DS's Wi-Fi connection.",
-        "players": 4,
-        "rating": "E - Everyone",
-        "developers": [
-          6037
         ],
         "genres": [
           5
@@ -128,7 +128,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Tetris+DS&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 529,
+  "remaining_monthly_allowance": 527,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630023
+  "allowance_refresh_timer": 2624841
 }

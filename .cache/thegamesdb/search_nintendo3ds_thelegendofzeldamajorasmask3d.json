@@ -5,48 +5,6 @@
     "count": 7,
     "games": [
       {
-        "id": 127815,
-        "game_title": "The Legend of Zelda: Majora's Mask 3D",
-        "release_date": "2015-02-14",
-        "platform": 4912,
-        "region_id": 6,
-        "country_id": 4,
-        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!\r\n\r\nAustralian Classification: PG",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          3628
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
-        "id": 134880,
-        "game_title": "The Legend of Zelda: Majora's Mask 3D",
-        "release_date": "2015-02-13",
-        "platform": 4912,
-        "region_id": 8,
-        "country_id": 33,
-        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": [
-          3628
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
         "id": 23870,
         "game_title": "The Legend of Zelda: Majora's Mask 3D",
         "release_date": "2015-02-13",
@@ -78,6 +36,48 @@
         "overview": "",
         "players": 1,
         "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127815,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-14",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 4,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!\r\n\r\nAustralian Classification: PG",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 134880,
+        "game_title": "The Legend of Zelda: Majora's Mask 3D",
+        "release_date": "2015-02-13",
+        "platform": 4912,
+        "region_id": 8,
+        "country_id": 33,
+        "overview": "Link’s all-new epic adventure lands him in the mystical world of Termina, where ever-present clocks count down the hours until a menacing moon falls from the sky above. When his horse and Ocarina are stolen by a strange, masked figure, Link embarks on an urgent quest to solve the mystery of the moon, save the world from destruction, and find his way back to the peaceful land of Hyrule!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
         "developers": [
           3628
         ],
@@ -266,7 +266,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Majora%27s+Mask+3D&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 447,
+  "remaining_monthly_allowance": 445,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630011
+  "allowance_refresh_timer": 2624830
 }

@@ -1,267 +1,389 @@
 ---
-title: "FFXIV Achievements"
+title: FFXIV Achievements
 layout: layouts/ffBase.njk
-customcss: "/assets/css/ffxiv/ffxiv-achievements.css"
 permalink: /shrines/finalfantasyxiv/achievements/
-intro: |
-  <p>
-    My soft little Eorzean progress corner ♡ This page updates automatically and shows what achievement areas I’ve been active in lately, plus a few places I could focus on next.
-  </p>
+customcss: "/assets/css/ffxiv/achievements.css"
 ---
 
-<section class="ffxiv-ach-page">
-  <div class="ffxiv-bg-icons" aria-hidden="true">
-    <span class="bg-icon pom">✦</span>
-    <span class="bg-icon star">★</span>
-    <span class="bg-icon heart">♡</span>
-    <span class="bg-icon flower">✿</span>
-    <span class="bg-icon sparkle">✧</span>
-  </div>
+{% set d = ffxivAchievementDashboard %}
 
-  <header class="ffxiv-ach-hero">
-    <div class="ffxiv-ach-hero__mascot left" aria-hidden="true">
-      <div class="moogle-ball"></div>
-      <div class="mascot-blob">🪽</div>
-    </div>
-
-    <div class="ffxiv-ach-hero__card">
-      <div class="ffxiv-ach-hero__profile">
-        {% if ffxivAchievements.portrait %}
-          <img
-            src="{{ ffxivAchievements.portrait }}"
-            alt="{{ ffxivAchievements.characterName }}"
-            class="ffxiv-ach-portrait"
-          >
-        {% endif %}
-
-        <div class="ffxiv-ach-hero__info">
-          <p class="ffxiv-ach-kicker">✨ moogle progress log ✨</p>
-          <h1>{{ ffxivAchievements.characterName or "My Warrior of Light" }}</h1>
-          <p class="ffxiv-ach-world">{{ ffxivAchievements.world or "Eorzea" }}</p>
-
-          <p class="ffxiv-ach-desc">
-            A dreamy little snapshot of my FFXIV achievement progress, updated automatically ♡
-          </p>
-
-          <div class="ffxiv-ach-links">
-            <a href="{{ ffxivAchievements.achievementsUrl }}" target="_blank" rel="noopener">Achievements ↗</a>
-            <a href="{{ ffxivAchievements.categoryIndexUrl }}" target="_blank" rel="noopener">Categories ↗</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ffxiv-ach-hero__mascot right" aria-hidden="true">
-      <div class="axolotl-face">
-        <span>◕</span>
-        <span>◕</span>
-      </div>
-    </div>
-  </header>
-
-  <section class="ffxiv-ach-stats-grid">
-    <article class="ffxiv-ach-stat-card">
-      <span class="stat-icon">⭐</span>
-      <span class="stat-label">Achievement Points</span>
-      <strong class="stat-value">{{ ffxivAchievements.achievementPoints or "—" }}</strong>
-    </article>
-
-    <article class="ffxiv-ach-stat-card">
-      <span class="stat-icon">📚</span>
-      <span class="stat-label">Recent Achievements Tracked</span>
-      <strong class="stat-value">
-        {{ ffxivAchievements.recent.length if ffxivAchievements.recent else "—" }}
-      </strong>
-    </article>
-
-    <article class="ffxiv-ach-stat-card">
-      <span class="stat-icon">🕒</span>
-      <span class="stat-label">Last Updated</span>
-      <strong class="stat-value stat-value--small">
-        {% if ffxivAchievements.updatedAt %}
-          <time datetime="{{ ffxivAchievements.updatedAt }}">{{ ffxivAchievements.updatedAt }}</time>
-        {% else %}
-          —
-        {% endif %}
-      </strong>
-    </article>
+<div class="ach-dashboard">
+  <section class="ach-intro">
+    <p class="ach-kicker">✦ achievement journal ✦</p>
+    <h1>What could I work on next?</h1>
+    <p>
+      A little progress dashboard for {{ d.character.name }} — what I’ve earned, how much of the
+      obtainable achievement-point pool I’ve cleared, and some sensible places to look next ♡
+    </p>
   </section>
 
-  <section class="ffxiv-ach-card">
-    <div class="section-head">
-      <h2>Progress by Category</h2>
-      <p class="section-sub">little pockets of progress i can work on next ♡</p>
+  {% if not d.sourceOk %}
+    <aside class="ach-notice ach-notice--error">
+      <strong>Achievement data didn’t refresh this build.</strong>
+      <span>{{ d.error }}</span>
+      <a href="{{ d.character.achievementUrl }}">Open Lodestone ↗</a>
+    </aside>
+  {% endif %}
+
+  <section class="ach-hero-card">
+    <div class="ach-character">
+      <div class="ach-character__image-wrap">
+        {% if d.character.portrait %}
+          <img class="ach-character__image" src="{{ d.character.portrait }}" alt="{{ d.character.name }}">
+        {% elseif d.character.avatar %}
+          <img class="ach-character__image ach-character__image--avatar" src="{{ d.character.avatar }}" alt="{{ d.character.name }}">
+        {% else %}
+          <div class="ach-character__placeholder">✦</div>
+        {% endif %}
+      </div>
+
+      <div class="ach-character__copy">
+        {% if d.character.title %}<p class="ach-character__title">{{ d.character.title }}</p>{% endif %}
+        <h2>{{ d.character.name }}</h2>
+        <p>{{ d.character.worldDisplay }}</p>
+        <a class="ach-text-link" href="{{ d.character.achievementUrl }}">Lodestone achievements ↗</a>
+      </div>
     </div>
 
-    {% if ffxivAchievements.categories and ffxivAchievements.categories.length %}
-      <div class="ffxiv-cat-grid">
-        {% for cat in ffxivAchievements.categories %}
-          <article class="ffxiv-cat-card theme-{{ cat.theme }}">
-            <div class="ffxiv-cat-top">
-              <span class="ffxiv-cat-icon">{{ cat.icon or "✧" }}</span>
-              <span class="ffxiv-tag tag-{{ cat.tag | replace(' ', '-') }}">{{ cat.tag }}</span>
-            </div>
+    <div class="ach-main-stat">
+      <span class="ach-main-stat__eyebrow">Achievement Points</span>
+      <strong class="ach-main-stat__value">{{ d.points.totalDisplay }}</strong>
 
-            <h3>
-              <a href="{{ cat.url }}" target="_blank" rel="noopener">{{ cat.displayName or cat.name }}</a>
-            </h3>
+      <div class="ach-completion-head">
+        <span>Obtainable AP completion</span>
+        <strong>{{ d.points.obtainablePercentDisplay }}</strong>
+      </div>
+      <div class="ach-progress" aria-label="{{ d.points.obtainablePercentDisplay }} of obtainable achievement points earned">
+        <span style="width: {{ d.points.obtainablePercent }}%"></span>
+      </div>
+      <p class="ach-progress-caption">
+        {{ d.points.obtainableEarnedDisplay }} / {{ d.points.obtainableTotalDisplay }} obtainable points
+      </p>
+    </div>
 
-            <p class="ffxiv-cat-hint">{{ cat.hint }}</p>
+    <div class="ach-stat-grid">
+      <div class="ach-mini-stat">
+        <span>Earned</span>
+        <strong>{{ d.points.earnedCountDisplay }}</strong>
+        <small>achievements</small>
+      </div>
+      <div class="ach-mini-stat">
+        <span>Obtainable count</span>
+        <strong>{{ d.points.obtainableCountPercentDisplay }}</strong>
+        <small>{{ d.points.obtainableEarnedCountDisplay }} / {{ d.points.obtainableCountDisplay }}</small>
+      </div>
+      <div class="ach-mini-stat">
+        <span>Still available</span>
+        <strong>{{ d.points.obtainableRemainingDisplay }}</strong>
+        <small>achievement points</small>
+      </div>
+    </div>
+  </section>
 
-            {% if cat.focusIdeas and cat.focusIdeas.length %}
-              <ul class="ffxiv-cat-focus">
-                {% for idea in cat.focusIdeas %}
-                  <li>{{ idea }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+  <section class="ach-section ach-milestone">
+    <div class="ach-section-heading">
+      <div>
+        <p class="ach-section-kicker">♡ next little number goal</p>
+        <h2>{{ d.points.totalDisplay }} → {{ d.nextMilestone.targetDisplay }}</h2>
+      </div>
+      <span class="ach-pill">{{ d.nextMilestone.neededDisplay }} pts to go</span>
+    </div>
 
-            <div class="ffxiv-cat-stats">
-              <div>
-                <span class="mini-label">Recent unlocks</span>
-                <strong>{{ cat.recentCount or 0 }}</strong>
-              </div>
-            </div>
+    <div class="ach-milestone__layout">
+      <div class="ach-milestone__summary">
+        <strong>{{ d.nextMilestone.neededDisplay }}</strong>
+        <span>points until the next 250-point milestone</span>
+        {% if d.nextMilestone.plan.achievements.length %}
+          <p>
+            The suggestion pool below contains <b>{{ d.nextMilestone.plan.totalDisplay }}</b> before
+            you even have to look deeper into the catalogue.
+          </p>
+        {% endif %}
+      </div>
 
-            {% if cat.recentTitles and cat.recentTitles.length %}
-              <ul class="ffxiv-cat-recent">
-                {% for title in cat.recentTitles %}
-                  <li>{{ title }}</li>
-                {% endfor %}
-              </ul>
-            {% else %}
-              <p class="ffxiv-cat-empty">No recent achievements here just yet ♡</p>
-            {% endif %}
-          </article>
+      <div class="ach-milestone__list">
+        {% for a in d.nextMilestone.plan.achievements %}
+          {% if loop.index <= 6 %}
+          <a class="ach-plan-row" href="{{ a.url }}">
+            <span>
+              <b>{{ a.name }}</b>
+              <small>{{ a.type }}{% if a.ownedDisplay %} · {{ a.ownedDisplay }}{% endif %}</small>
+            </span>
+            <strong>{{ a.pointsDisplay }}</strong>
+          </a>
+          {% endif %}
         {% endfor %}
       </div>
-    {% else %}
-      <p class="ffxiv-empty">No category data yet... kupo.</p>
+    </div>
+  </section>
+
+  <section class="ach-section">
+    <div class="ach-section-heading">
+      <div>
+        <p class="ach-section-kicker">✦ point planner</p>
+        <h2>How far do I feel like pushing it?</h2>
+        <p>These are suggestion bundles, not time estimates — pick a point goal and steal whatever sounds fun.</p>
+      </div>
+    </div>
+
+    <div class="ach-target-tabs" role="tablist" aria-label="Achievement point targets">
+      {% for plan in d.targetPlans %}
+        <button
+          class="ach-target-tab{% if loop.index == 3 %} is-active{% endif %}"
+          type="button"
+          role="tab"
+          aria-selected="{% if loop.index == 3 %}true{% else %}false{% endif %}"
+          data-ach-target="{{ plan.target }}">
+          {{ plan.targetDisplay }} pts
+        </button>
+      {% endfor %}
+    </div>
+
+    <div class="ach-target-panels">
+      {% for plan in d.targetPlans %}
+        <div class="ach-target-panel{% if loop.index == 3 %} is-active{% endif %}" data-ach-panel="{{ plan.target }}">
+          <div class="ach-target-panel__head">
+            <div>
+              <strong>A {{ plan.targetDisplay }} point idea pile</strong>
+              <span>{{ plan.achievements.length }} suggested achievements · {{ plan.totalDisplay }} potential</span>
+            </div>
+            {% if plan.covered %}<span class="ach-pill ach-pill--good">enough ideas ✓</span>{% endif %}
+          </div>
+
+          <div class="ach-suggestion-grid ach-suggestion-grid--compact">
+            {% for a in plan.achievements %}
+              <a class="ach-suggestion" href="{{ a.url }}">
+                <div class="ach-suggestion__top">
+                  <span class="ach-type-tag">{{ a.type }}</span>
+                  <strong>{{ a.pointsDisplay }}</strong>
+                </div>
+                <h3>{{ a.name }}</h3>
+                <p>{{ a.description }}</p>
+                <div class="ach-suggestion__meta">
+                  {% if a.ownedDisplay %}<span>{{ a.ownedDisplay }}</span>{% endif %}
+                  {% if a.category %}<span>{{ a.category }}</span>{% endif %}
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="ach-section">
+    <div class="ach-section-heading">
+      <div>
+        <p class="ach-section-kicker">♡ momentum</p>
+        <h2>What I’ve been earning lately</h2>
+      </div>
+    </div>
+
+    <div class="ach-momentum-grid">
+      {% for row in d.momentum %}
+        <div class="ach-momentum-card">
+          <span>{{ row.label }}</span>
+          <strong>{{ row.pointsDisplay }} pts</strong>
+          <small>{{ row.achievements }} achievements</small>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if d.monthlyHistory.length %}
+      <div class="ach-history-card">
+        <div class="ach-history-card__head">
+          <strong>Monthly AP gains</strong>
+          <span>based on Lodestone achievement dates</span>
+        </div>
+        <div class="ach-history-bars">
+          {% for month in d.monthlyHistory %}
+            <div class="ach-history-bar">
+              <div class="ach-history-bar__track">
+                <span style="height: {{ month.barPercent }}%" title="{{ month.pointsDisplay }} pts"></span>
+              </div>
+              <strong>{{ month.pointsDisplay }}</strong>
+              <small>{{ month.label }}</small>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
   </section>
 
-<section class="ffxiv-ach-card">
-  <div class="section-head section-head--recent">
-    <div>
-      <h2>Recent Achievements</h2>
-      <p class="section-sub">a tiny peek at my latest unlocks ♡</p>
+  <section class="ach-section">
+    <div class="ach-section-heading">
+      <div>
+        <p class="ach-section-kicker">✦ where the points live</p>
+        <h2>Progress by category</h2>
+        <p>These bars use obtainable AP, so retired/Legacy/seasonal ranking junk does not poison the percentages.</p>
+      </div>
     </div>
 
-    <a
-      class="ffxiv-more-link"
-      href="{{ ffxivAchievements.achievementsUrl }}"
-      target="_blank"
-      rel="noopener"
-    >
-      view more on Lodestone ↗
-    </a>
-  </div>
+    <div class="ach-category-grid">
+      {% for category in d.categories %}
+        <article class="ach-category-card">
+          <div class="ach-category-card__title">
+            <span class="ach-category-card__icon">{{ category.icon }}</span>
+            <div>
+              <h3>{{ category.name }}</h3>
+              <p>{{ category.blurb }}</p>
+            </div>
+          </div>
 
-  {% if ffxivAchievements.recent and ffxivAchievements.recent.length %}
-    <div class="ffxiv-ach-list-wrap">
-      <ul class="ffxiv-ach-list">
-        {% for item in ffxivAchievements.recent %}
-          {% if loop.index0 < 10 %}
-            <li class="ffxiv-ach-item">
-              <div class="ffxiv-ach-item__left">
-                <span class="ffxiv-ach-badge">✦</span>
-                <div class="ffxiv-ach-item__text">
-                  {% if item.category %}
-                    <small class="ffxiv-ach-category">{{ item.category }}</small>
-                  {% endif %}
+          <div class="ach-category-card__numbers">
+            <strong>{{ category.percentDisplay }}</strong>
+            <span>{{ category.earnedPointsDisplay }} / {{ category.totalPointsDisplay }} pts</span>
+          </div>
+          <div class="ach-progress ach-progress--small">
+            <span style="width: {{ category.percent }}%"></span>
+          </div>
+          <p class="ach-category-card__remaining">
+            {{ category.remainingPointsDisplay }} pts remaining · {{ category.earnedCount }}/{{ category.totalCount }} achievements
+          </p>
 
-                  {% if item.url %}
-                    <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
-                  {% else %}
-                    <span>{{ item.title }}</span>
-                  {% endif %}
-
-                  {% if item.date %}
-                    <small>{{ item.date }}</small>
-                  {% endif %}
-                </div>
-              </div>
-            </li>
+          {% if category.suggestions.length %}
+            <div class="ach-category-next">
+              <span>Somewhere to look next</span>
+              {% for a in category.suggestions %}
+                <a href="{{ a.url }}"><b>{{ a.name }}</b><em>{{ a.pointsDisplay }}</em></a>
+              {% endfor %}
+            </div>
           {% endif %}
-        {% endfor %}
-      </ul>
+        </article>
+      {% endfor %}
     </div>
-  {% else %}
-    <p class="ffxiv-empty">No recent achievements yet... time for a little adventure ♡</p>
+  </section>
+
+  <section class="ach-two-column">
+    <section class="ach-section ach-section--nested">
+      <div class="ach-section-heading">
+        <div>
+          <p class="ach-section-kicker">🌱 likely easier</p>
+          <h2>Common missing achievements</h2>
+          <p>High public ownership is a useful hint that these may be less awful than the deep grinds.</p>
+        </div>
+      </div>
+
+      <div class="ach-stack">
+        {% for a in d.quickWins %}
+          <a class="ach-stack-card" href="{{ a.url }}">
+            <div><span>{{ a.type }}</span><h3>{{ a.name }}</h3><p>{{ a.description }}</p></div>
+            <aside><strong>{{ a.pointsDisplay }}</strong>{% if a.ownedDisplay %}<small>{{ a.ownedDisplay }}</small>{% endif %}</aside>
+          </a>
+        {% else %}
+          <p class="ach-empty">No obvious common missing achievements found this build ♡</p>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="ach-section ach-section--nested">
+      <div class="ach-section-heading">
+        <div>
+          <p class="ach-section-kicker">✧ next in a chain</p>
+          <h2>Series I’ve already started</h2>
+          <p>This means the previous tier is earned — not that the hidden counter is necessarily almost finished.</p>
+        </div>
+      </div>
+
+      <div class="ach-stack">
+        {% for a in d.nextInSeries %}
+          <a class="ach-stack-card" href="{{ a.url }}">
+            <div><span>{{ a.type }}</span><h3>{{ a.name }}</h3><p>{{ a.description }}</p></div>
+            <aside><strong>{{ a.pointsDisplay }}</strong>{% if a.ownedDisplay %}<small>{{ a.ownedDisplay }}</small>{% endif %}</aside>
+          </a>
+        {% else %}
+          <p class="ach-empty">Nothing obvious in a Roman-numeral achievement chain right now ♡</p>
+        {% endfor %}
+      </div>
+    </section>
+  </section>
+
+  {% if d.rewards.length %}
+    <section class="ach-section">
+      <div class="ach-section-heading">
+        <div>
+          <p class="ach-section-kicker">🎁 shiny little bribes</p>
+          <h2>Missing achievements with rewards</h2>
+          <p>If I’m going to chase points, I may as well get a title or item out of it too.</p>
+        </div>
+      </div>
+
+      <div class="ach-suggestion-grid">
+        {% for a in d.rewards %}
+          <a class="ach-suggestion ach-suggestion--reward" href="{{ a.url }}">
+            <div class="ach-suggestion__top">
+              <span class="ach-type-tag">{{ a.type }}</span>
+              <strong>{{ a.pointsDisplay }}</strong>
+            </div>
+            <h3>{{ a.name }}</h3>
+            <p>{{ a.description }}</p>
+            <strong class="ach-reward-label">✦ {{ a.reward }}</strong>
+            <div class="ach-suggestion__meta">
+              {% if a.ownedDisplay %}<span>{{ a.ownedDisplay }}</span>{% endif %}
+              <span>{{ a.category }}</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
   {% endif %}
-</section>
 
-    <aside class="ffxiv-ach-card ffxiv-ach-card--side">
-      <h2>What I Could Work On Next</h2>
-
-      <div class="suggest-block">
-        <h3>Easy Wins</h3>
-        {% if ffxivAchievements.suggestions.easyWins and ffxivAchievements.suggestions.easyWins.length %}
-          <ul class="suggest-list">
-            {% for item in ffxivAchievements.suggestions.easyWins %}
-              <li>
-                <span>{{ item.icon }} </span>
-                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
-                <small>{{ item.reason }}</small>
-
-                {% if item.focusIdeas and item.focusIdeas.length %}
-                  <small>
-                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
-                  </small>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p class="ffxiv-empty">Nothing obvious here yet ♡</p>
-        {% endif %}
+  <section class="ach-section">
+    <div class="ach-section-heading ach-section-heading--row">
+      <div>
+        <p class="ach-section-kicker">♡ achievement diary</p>
+        <h2>Recently earned</h2>
+        <p>I still want the page to feel like a record of this character, not only a to-do list.</p>
       </div>
+      <a class="ach-button" href="{{ d.character.achievementUrl }}">View all on Lodestone ↗</a>
+    </div>
 
-      <div class="suggest-block">
-        <h3>Quiet Lately</h3>
-        {% if ffxivAchievements.suggestions.neglected and ffxivAchievements.suggestions.neglected.length %}
-          <ul class="suggest-list">
-            {% for item in ffxivAchievements.suggestions.neglected %}
-              <li>
-                <span>{{ item.icon }} </span>
-                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
-                <small>{{ item.reason }}</small>
+    <div class="ach-recent-list">
+      {% for a in d.recent %}
+        <a class="ach-recent-row" href="{{ a.url }}">
+          <span class="ach-recent-row__spark">✦</span>
+          <div class="ach-recent-row__copy">
+            <small>{{ a.type }}{% if a.category %} · {{ a.category }}{% endif %}</small>
+            <strong>{{ a.name }}</strong>
+          </div>
+          <div class="ach-recent-row__meta">
+            {% if a.pointsDisplay %}<b>{{ a.pointsDisplay }}</b>{% endif %}
+            <time datetime="{{ a.earnedAt }}">{{ a.dateDisplay }}</time>
+          </div>
+        </a>
+      {% else %}
+        <p class="ach-empty">No recent achievement history found.</p>
+      {% endfor %}
+    </div>
+  </section>
 
-                {% if item.focusIdeas and item.focusIdeas.length %}
-                  <small>
-                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
-                  </small>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p class="ffxiv-empty">No especially quiet categories right now ♡</p>
-        {% endif %}
-      </div>
+  <aside class="ach-method-note">
+    <strong>How this page decides things</strong>
+    <p>{{ d.methodology.note }}</p>
+    <p>{{ d.methodology.recNote }}</p>
+    <small>
+      Lodestone dates are synchronization dates, so they can differ slightly from the exact moment an achievement popped in-game.
+      Last refreshed: {{ d.updatedDisplay }}.
+    </small>
+  </aside>
+</div>
 
-      <div class="suggest-block">
-        <h3>Comfy Long-Term</h3>
-        {% if ffxivAchievements.suggestions.active and ffxivAchievements.suggestions.active.length %}
-          <ul class="suggest-list">
-            {% for item in ffxivAchievements.suggestions.active %}
-              <li>
-                <span>{{ item.icon }} </span>
-                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.category }}</a>
-                <small>{{ item.reason }}</small>
+<script>
+  (() => {
+    const tabs = [...document.querySelectorAll("[data-ach-target]")];
+    const panels = [...document.querySelectorAll("[data-ach-panel]")];
+    if (!tabs.length) return;
 
-                {% if item.focusIdeas and item.focusIdeas.length %}
-                  <small>
-                    {{ item.focusIdeas[0] }}{% if item.focusIdeas[1] %} · {{ item.focusIdeas[1] }}{% endif %}
-                  </small>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p class="ffxiv-empty">Still gathering cosy long-term goals ♡</p>
-        {% endif %}
-      </div>
-    </aside>
-  </div>
-</section>
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const target = tab.dataset.achTarget;
+        tabs.forEach((item) => {
+          const active = item === tab;
+          item.classList.toggle("is-active", active);
+          item.setAttribute("aria-selected", String(active));
+        });
+        panels.forEach((panel) => panel.classList.toggle("is-active", panel.dataset.achPanel === target));
+      });
+    });
+  })();
+</script>

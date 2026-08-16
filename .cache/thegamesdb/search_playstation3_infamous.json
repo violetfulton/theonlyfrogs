@@ -5,28 +5,6 @@
     "count": 16,
     "games": [
       {
-        "id": 815,
-        "game_title": "inFAMOUS",
-        "release_date": "2009-05-26",
-        "platform": 12,
-        "region_id": 2,
-        "country_id": 50,
-        "overview": "Infamous is a 2009 PlayStation 3 video game developed by Sucker Punch Productions and released by Sony Computer Entertainment America in the USA on May 26, 2009.\r\n\r\nIn Infamous, the player controls the protagonist Cole MacGrath, a bike messenger caught in the center of an explosion that devastates several city blocks of the fictional Empire City. The explosion sends the city into chaos while Cole finds himself with new electricity-based super powers. Though the game's story follows Cole using his new abilities to restore some semblance of order to Empire City, the player is given several opportunities to use these powers for good or evil purposes in the game's Karma system. These choices ultimately affect character growth, the reaction of the City's populace towards Cole, and finer elements of gameplay and the story.",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          8302
-        ],
-        "genres": [
-          1,
-          2,
-          12
-        ],
-        "publishers": [
-          1939
-        ]
-      },
-      {
         "id": 105831,
         "game_title": "inFamous",
         "release_date": "2009-05-26",
@@ -88,6 +66,28 @@
         ],
         "publishers": [
           38
+        ]
+      },
+      {
+        "id": 815,
+        "game_title": "inFAMOUS",
+        "release_date": "2009-05-26",
+        "platform": 12,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Infamous is a 2009 PlayStation 3 video game developed by Sucker Punch Productions and released by Sony Computer Entertainment America in the USA on May 26, 2009.\r\n\r\nIn Infamous, the player controls the protagonist Cole MacGrath, a bike messenger caught in the center of an explosion that devastates several city blocks of the fictional Empire City. The explosion sends the city into chaos while Cole finds himself with new electricity-based super powers. Though the game's story follows Cole using his new abilities to restore some semblance of order to Empire City, the player is given several opportunities to use these powers for good or evil purposes in the game's Karma system. These choices ultimately affect character growth, the reaction of the City's populace towards Cole, and finer elements of gameplay and the story.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2,
+          12
+        ],
+        "publishers": [
+          1939
         ]
       },
       {
@@ -155,27 +155,6 @@
         ]
       },
       {
-        "id": 41003,
-        "game_title": "inFAMOUS 2",
-        "release_date": "2011-06-07",
-        "platform": 12,
-        "region_id": 6,
-        "country_id": 18,
-        "overview": "Blamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential -- and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is-- will he choose to do so?",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          8302
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          14
-        ]
-      },
-      {
         "id": 126522,
         "game_title": "inFAMOUS 2",
         "release_date": "2011-06-07",
@@ -195,6 +174,27 @@
         ],
         "publishers": [
           1939
+        ]
+      },
+      {
+        "id": 41003,
+        "game_title": "inFAMOUS 2",
+        "release_date": "2011-06-07",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Blamed for the destruction of Empire City and haunted by the ghosts of his past, reluctant hero Cole MacGrath makes a dramatic journey to the historic Southern city of New Marais in an effort to discover his full super-powered potential -- and face a civilization-ending confrontation with a dark and terrifying enemy from his own future. Gifted with extraordinary god-like abilities, Cole alone has the power to save humanity, but the question is-- will he choose to do so?",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8302
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          14
         ]
       },
       {
@@ -560,7 +560,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Infamous&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 634,
+  "remaining_monthly_allowance": 632,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630039
+  "allowance_refresh_timer": 2624856
 }

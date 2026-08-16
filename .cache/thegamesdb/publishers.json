@@ -2,7 +2,7 @@
   "code": 200,
   "status": "Success",
   "data": {
-    "count": 4565,
+    "count": 4571,
     "publishers": {
       "1": {
         "id": 1,
@@ -18263,10 +18263,34 @@
       "8710": {
         "id": 8710,
         "name": "G123"
+      },
+      "8711": {
+        "id": 8711,
+        "name": "Crunchyroll, LLC"
+      },
+      "8712": {
+        "id": 8712,
+        "name": "Antihero Studios"
+      },
+      "8713": {
+        "id": 8713,
+        "name": "Fresh Bread Games"
+      },
+      "8714": {
+        "id": 8714,
+        "name": "GRYPHLINE"
+      },
+      "8715": {
+        "id": 8715,
+        "name": "SHUEISHA GAMES Inc."
+      },
+      "8716": {
+        "id": 8716,
+        "name": "Ironmace"
       }
     }
   },
-  "remaining_monthly_allowance": 48,
+  "remaining_monthly_allowance": 998,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2626328
+  "allowance_refresh_timer": 2624923
 }

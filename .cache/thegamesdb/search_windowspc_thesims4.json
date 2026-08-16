@@ -5,26 +5,6 @@
     "count": 20,
     "games": [
       {
-        "id": 132294,
-        "game_title": "The Sims 4",
-        "release_date": "2014-09-02",
-        "platform": 1,
-        "region_id": 6,
-        "country_id": 37,
-        "overview": "Gracze The Sims 4 ponownie mają okazję pokierować życiem wirtualnej rodziny. Edytor postaci pozwala nie tylko zdecydować o cechach fizycznych każdego z Simów, ale także określić jego osobowość, charakter i aspiracje. The Sims 4 oferuje znacznie więcej funkcji społecznościowych.",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          5322
-        ],
-        "genres": [
-          9
-        ],
-        "publishers": [
-          2
-        ]
-      },
-      {
         "id": 117154,
         "game_title": "The Sims 4",
         "release_date": "2014-09-02",
@@ -40,6 +20,26 @@
         "genres": [
           9,
           14
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 132294,
+        "game_title": "The Sims 4",
+        "release_date": "2014-09-02",
+        "platform": 1,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Gracze The Sims 4 ponownie mają okazję pokierować życiem wirtualnej rodziny. Edytor postaci pozwala nie tylko zdecydować o cechach fizycznych każdego z Simów, ale także określić jego osobowość, charakter i aspiracje. The Sims 4 oferuje znacznie więcej funkcji społecznościowych.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          5322
+        ],
+        "genres": [
+          9
         ],
         "publishers": [
           2
@@ -632,7 +632,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Sims+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Sims+4&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=2"
   },
-  "remaining_monthly_allowance": 723,
+  "remaining_monthly_allowance": 721,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630053
+  "allowance_refresh_timer": 2624876
 }

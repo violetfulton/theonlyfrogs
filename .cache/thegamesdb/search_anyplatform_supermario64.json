@@ -5,51 +5,6 @@
     "count": 20,
     "games": [
       {
-        "id": 73160,
-        "game_title": "Super Mario 64",
-        "release_date": "1997-03-01",
-        "platform": 3,
-        "region_id": 6,
-        "country_id": 0,
-        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          6043
-        ],
-        "genres": [
-          1,
-          5,
-          15
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
-        "id": 75969,
-        "game_title": "Super Mario 64",
-        "release_date": "1996-06-23",
-        "platform": 3,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          6043
-        ],
-        "genres": [
-          1,
-          2,
-          5,
-          15
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
         "id": 134413,
         "game_title": "Super Mario 64 Plus",
         "release_date": "2019-08-25",
@@ -191,6 +146,51 @@
           28
         ],
         "publishers": null
+      },
+      {
+        "id": 73160,
+        "game_title": "Super Mario 64",
+        "release_date": "1997-03-01",
+        "platform": 3,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 75969,
+        "game_title": "Super Mario 64",
+        "release_date": "1996-06-23",
+        "platform": 3,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Mario is super in a whole new way! Combining the finest 3-D graphics ever developed for a video game and an explosive sound track, Super Mario 64™ becomes a new standard for video games. It's packed with bruising battles, daunting obstacle courses and underwater adventures. Retrieve the Power Stars from their hidden locations and confront your arch nemesis -- Bowser, King of the Koopas!\r\n\r\n-Run freely in a grassy meadow, tip-toe through a gloomy dungeon, climb to the top of a mountain or take a swim in the moat!\r\n\r\n-Leap head first into a watery painting and soon you'll be searching for the surface in an underwater realm!\r\n\r\n-On-the-fly, 3-D rendered game play delivers the action of ruthless enemy attacks from every angle!\r\n\r\n-Find the Caps that give Mario super powers, ponder the mysteries of the pyramid, you can even race Koopas for fabulous prizes!\r\n\r\n-With the Nintendo 64 Controller and its analog Control Stick, Mario can crawl, kick down obstacles, swim, do reverse flips, and even stick the landing on his backwards somersault!\r\n\r\n-Saved game information is stored for up to four players in memory.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          1,
+          2,
+          5,
+          15
+        ],
+        "publishers": [
+          3
+        ]
       },
       {
         "id": 130730,
@@ -593,7 +593,7 @@
             "resolution": null
           },
           {
-            "id": 478816,
+            "id": 483561,
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/131141-1.jpg",
@@ -655,7 +655,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+64&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Super+Mario+64&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
   },
-  "remaining_monthly_allowance": 212,
+  "remaining_monthly_allowance": 210,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629975
+  "allowance_refresh_timer": 2624790
 }

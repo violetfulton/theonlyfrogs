@@ -2,7 +2,7 @@
   "code": 200,
   "status": "Success",
   "data": {
-    "count": 6,
+    "count": 7,
     "games": [
       {
         "id": 122103,
@@ -70,6 +70,27 @@
         "publishers": [
           3,
           1292
+        ]
+      },
+      {
+        "id": 136350,
+        "game_title": "Pokémon Alpha Sapphire",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
         ]
       },
       {
@@ -214,6 +235,15 @@
             "filename": "boxart/front/122103-1.jpg",
             "resolution": null
           }
+        ],
+        "136350": [
+          {
+            "id": 483534,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136350-1.jpg",
+            "resolution": null
+          }
         ]
       }
     },
@@ -232,7 +262,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Alpha+Sapphire&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 471,
+  "remaining_monthly_allowance": 469,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630015
+  "allowance_refresh_timer": 2624833
 }

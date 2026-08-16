@@ -5,27 +5,6 @@
     "count": 5,
     "games": [
       {
-        "id": 102957,
-        "game_title": "Dragon Quest Builders",
-        "release_date": "2016-10-14",
-        "platform": 4919,
-        "region_id": 6,
-        "country_id": 13,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          2808
-        ],
-        "genres": [
-          2,
-          3
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
         "id": 41140,
         "game_title": "Dragon Quest Builders",
         "release_date": "2016-10-14",
@@ -42,6 +21,27 @@
           1,
           2,
           12
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 102957,
+        "game_title": "Dragon Quest Builders",
+        "release_date": "2016-10-14",
+        "platform": 4919,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          2,
+          3
         ],
         "publishers": [
           12
@@ -196,7 +196,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Dragon+Quest+Builders&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 390,
+  "remaining_monthly_allowance": 388,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630003
+  "allowance_refresh_timer": 2624820
 }

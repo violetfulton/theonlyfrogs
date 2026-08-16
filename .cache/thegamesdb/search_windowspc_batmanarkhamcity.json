@@ -25,6 +25,23 @@
         ]
       },
       {
+        "id": 88456,
+        "game_title": "Batman: Arkham City - Game of the Year Edition",
+        "release_date": "2012-09-08",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players flying through the expansive Arkham City - five times larger than the game world in Batman: Arkham Asylum - the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face, Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to genuinely experience what it feels like to be The Dark Knight delivering justice on the streets of Gotham City.\r\n\r\nBatman: Arkham City - Game of the Year Edition includes the following DLC:\r\nCatwoman Pack\r\nNightwing Bundle Pack\r\nRobin Bundle Pack\r\nHarley Quinn’s Revenge\r\nChallenge Map Pack\r\nArkham City Skins Pack",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": null
+      },
+      {
         "id": 124492,
         "game_title": "Batman: Arkham City - Game of the Year Edition",
         "release_date": "2012-09-08",
@@ -65,23 +82,6 @@
         "publishers": [
           152
         ]
-      },
-      {
-        "id": 88456,
-        "game_title": "Batman: Arkham City - Game of the Year Edition",
-        "release_date": "2012-09-08",
-        "platform": 1,
-        "region_id": 9,
-        "country_id": 0,
-        "overview": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players flying through the expansive Arkham City - five times larger than the game world in Batman: Arkham Asylum - the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face, Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to genuinely experience what it feels like to be The Dark Knight delivering justice on the streets of Gotham City.\r\n\r\nBatman: Arkham City - Game of the Year Edition includes the following DLC:\r\nCatwoman Pack\r\nNightwing Bundle Pack\r\nRobin Bundle Pack\r\nHarley Quinn’s Revenge\r\nChallenge Map Pack\r\nArkham City Skins Pack",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": null,
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": null
       },
       {
         "id": 104258,
@@ -193,7 +193,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Batman%3A+Arkham+City&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=1&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 982,
+  "remaining_monthly_allowance": 981,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630097
+  "allowance_refresh_timer": 2624920
 }

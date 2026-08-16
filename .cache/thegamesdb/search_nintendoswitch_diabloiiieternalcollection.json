@@ -5,27 +5,6 @@
     "count": 2,
     "games": [
       {
-        "id": 60652,
-        "game_title": "Diablo III: Eternal Collection",
-        "release_date": "2018-11-02",
-        "platform": 4971,
-        "region_id": 1,
-        "country_id": 0,
-        "overview": "Generations of gamers have battled the demonic hordes of Diablo, and now it's your turn to take part in the action-RPG legacy. This Eternal Collection features Diablo III, the Reaper of Souls expansion set and the Rise of the Necromancer packall together in one definitive volume. Prepare yourself, mortal hero. The hellgates are opening.",
-        "players": 4,
-        "rating": "Not Rated",
-        "developers": [
-          1203
-        ],
-        "genres": [
-          1,
-          4
-        ],
-        "publishers": [
-          47
-        ]
-      },
-      {
         "id": 129927,
         "game_title": "Diablo III: Eternal Collection",
         "release_date": "2018-11-02",
@@ -37,6 +16,27 @@
         "rating": "Not Rated",
         "developers": [
           1204
+        ],
+        "genres": [
+          1,
+          4
+        ],
+        "publishers": [
+          47
+        ]
+      },
+      {
+        "id": 60652,
+        "game_title": "Diablo III: Eternal Collection",
+        "release_date": "2018-11-02",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Generations of gamers have battled the demonic hordes of Diablo, and now it's your turn to take part in the action-RPG legacy. This Eternal Collection features Diablo III, the Reaper of Souls expansion set and the Rise of the Necromancer packall together in one definitive volume. Prepare yourself, mortal hero. The hellgates are opening.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          1203
         ],
         "genres": [
           1,
@@ -101,7 +101,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Diablo+III%3A+Eternal+Collection&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 240,
+  "remaining_monthly_allowance": 238,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629979
+  "allowance_refresh_timer": 2624794
 }

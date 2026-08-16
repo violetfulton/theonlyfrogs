@@ -5,6 +5,27 @@
     "count": 7,
     "games": [
       {
+        "id": 122064,
+        "game_title": "Lollipop Chainsaw",
+        "release_date": "2012-06-15",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 13,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3577
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          8429
+        ]
+      },
+      {
         "id": 11900,
         "game_title": "Lollipop Chainsaw",
         "release_date": "2012-06-12",
@@ -31,27 +52,6 @@
         "platform": 12,
         "region_id": 6,
         "country_id": 18,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          3577
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          8429
-        ]
-      },
-      {
-        "id": 122064,
-        "game_title": "Lollipop Chainsaw",
-        "release_date": "2012-06-15",
-        "platform": 12,
-        "region_id": 6,
-        "country_id": 13,
         "overview": "",
         "players": 1,
         "rating": "Not Rated",
@@ -252,7 +252,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Lollipop+Chainsaw&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 622,
+  "remaining_monthly_allowance": 620,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630037
+  "allowance_refresh_timer": 2624855
 }

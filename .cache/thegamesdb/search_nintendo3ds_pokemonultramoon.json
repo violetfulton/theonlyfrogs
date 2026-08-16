@@ -2,7 +2,7 @@
   "code": 200,
   "status": "Success",
   "data": {
-    "count": 7,
+    "count": 8,
     "games": [
       {
         "id": 122101,
@@ -45,6 +45,27 @@
         "publishers": [
           3,
           1292
+        ]
+      },
+      {
+        "id": 136352,
+        "game_title": "Pokémon Ultra Moon",
+        "release_date": "2017-11-17",
+        "platform": 4912,
+        "region_id": 9,
+        "country_id": 50,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          2,
+          4
+        ],
+        "publishers": [
+          3
         ]
       },
       {
@@ -243,6 +264,15 @@
             "filename": "boxart/front/129667-1.jpg",
             "resolution": null
           }
+        ],
+        "136352": [
+          {
+            "id": 483543,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136352-1.jpg",
+            "resolution": null
+          }
         ]
       }
     },
@@ -261,7 +291,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Ultra+Moon&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 461,
+  "remaining_monthly_allowance": 459,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630013
+  "allowance_refresh_timer": 2624832
 }

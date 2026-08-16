@@ -67,22 +67,6 @@
         ]
       },
       {
-        "id": 93666,
-        "game_title": "Sagebrush",
-        "release_date": "2018-09-18",
-        "platform": 1,
-        "region_id": 9,
-        "country_id": 0,
-        "overview": "\"I met Anne first, waiting for the bus. I asked her what she was selling and she laughed and said nothing, nothing at all, that what she had to offer was free for anyone who wanted it bad enough. I asked her what had helped her. She just said 'James.'\"\r\n\r\nSagebrush is a short-form first-person narrative adventure about exploring the compound of an apocalyptic Millenialist cult in remote New Mexico years after they collectively took their lives in a mass suicide event.\r\n\r\nIn Sagebrush, you'll investigate the long-abandoned Black Sage Ranch, the former home of Perfect Heaven, an apocalyptic cult formed in the early 1990s under the guiding hand of the prophet Father James.\r\n\r\nInspired by Real-World Apocalyptic Cults\r\nBased on extensive research into cult groups both famous and obscure, large and small, Sagebrush avoids simplistic motivations and easy answers. The members of the Flock are diverse and complex people with varied needs, hopes, and fears.\r\n\r\nAn Immersive, Lo-Fi 3D World\r\nSagebrush features an evocative low-poly, low-resolution, less-is-more art style that combines retro aesthetics with modern technology, along with a fully-realized soundscape and an original ambient musical score that immerses you in the remote New Mexico desert.\r\n\r\nA Whole Compound to Explore\r\nBlack Sage Ranch is yours to wander, from the trailers that housed the cultists, to the halls where they gathered for food and prayer, to the old mines that stretch out below the compound, untouched for nearly a century.\r\n\r\nUncover the Real Story\r\nFind notes, recordings, and belongings that give insight into the people who lived at Black Sage Ranch. What did they believe? Why did they join? Were they happy? And why did they choose to end it all?\r\nEstimated Playtime: 60-120 minutes",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": null,
-        "genres": [
-          2
-        ],
-        "publishers": null
-      },
-      {
         "id": 71826,
         "game_title": "Sagebrush",
         "release_date": "2018-09-18",
@@ -117,6 +101,22 @@
         "publishers": [
           5957
         ]
+      },
+      {
+        "id": 93666,
+        "game_title": "Sagebrush",
+        "release_date": "2018-09-18",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "\"I met Anne first, waiting for the bus. I asked her what she was selling and she laughed and said nothing, nothing at all, that what she had to offer was free for anyone who wanted it bad enough. I asked her what had helped her. She just said 'James.'\"\r\n\r\nSagebrush is a short-form first-person narrative adventure about exploring the compound of an apocalyptic Millenialist cult in remote New Mexico years after they collectively took their lives in a mass suicide event.\r\n\r\nIn Sagebrush, you'll investigate the long-abandoned Black Sage Ranch, the former home of Perfect Heaven, an apocalyptic cult formed in the early 1990s under the guiding hand of the prophet Father James.\r\n\r\nInspired by Real-World Apocalyptic Cults\r\nBased on extensive research into cult groups both famous and obscure, large and small, Sagebrush avoids simplistic motivations and easy answers. The members of the Flock are diverse and complex people with varied needs, hopes, and fears.\r\n\r\nAn Immersive, Lo-Fi 3D World\r\nSagebrush features an evocative low-poly, low-resolution, less-is-more art style that combines retro aesthetics with modern technology, along with a fully-realized soundscape and an original ambient musical score that immerses you in the remote New Mexico desert.\r\n\r\nA Whole Compound to Explore\r\nBlack Sage Ranch is yours to wander, from the trailers that housed the cultists, to the halls where they gathered for food and prayer, to the old mines that stretch out below the compound, untouched for nearly a century.\r\n\r\nUncover the Real Story\r\nFind notes, recordings, and belongings that give insight into the people who lived at Black Sage Ranch. What did they believe? Why did they join? Were they happy? And why did they choose to end it all?\r\nEstimated Playtime: 60-120 minutes",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          2
+        ],
+        "publishers": null
       },
       {
         "id": 31054,
@@ -278,27 +278,6 @@
         ]
       },
       {
-        "id": 20617,
-        "game_title": "Skyforge",
-        "release_date": null,
-        "platform": 1,
-        "region_id": 0,
-        "country_id": 0,
-        "overview": null,
-        "players": null,
-        "rating": null,
-        "developers": [
-          372
-        ],
-        "genres": [
-          4,
-          14
-        ],
-        "publishers": [
-          2200
-        ]
-      },
-      {
         "id": 54104,
         "game_title": "Skyforge",
         "release_date": "2017-04-11",
@@ -356,6 +335,27 @@
           4,
           14,
           27
+        ],
+        "publishers": [
+          2200
+        ]
+      },
+      {
+        "id": 20617,
+        "game_title": "Skyforge",
+        "release_date": null,
+        "platform": 1,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": null,
+        "players": null,
+        "rating": null,
+        "developers": [
+          372
+        ],
+        "genres": [
+          4,
+          14
         ],
         "publishers": [
           2200
@@ -697,7 +697,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=SokoFrog&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=SokoFrog&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
   },
-  "remaining_monthly_allowance": 58,
+  "remaining_monthly_allowance": 56,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629951
+  "allowance_refresh_timer": 2624767
 }

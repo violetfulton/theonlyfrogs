@@ -5,27 +5,6 @@
     "count": 20,
     "games": [
       {
-        "id": 107988,
-        "game_title": "MySims",
-        "release_date": "2007-09-18",
-        "platform": 9,
-        "region_id": 2,
-        "country_id": 50,
-        "overview": "Explore a whole new world with MySims - it's your world to transform. Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from the Italian Chef and Florist to the Kickboxing Instructor and DJ. Discover what the residents want and need, so that you can help them enjoy life in their town.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          2724
-        ],
-        "genres": [
-          3,
-          9
-        ],
-        "publishers": [
-          2
-        ]
-      },
-      {
         "id": 35390,
         "game_title": "MySims",
         "release_date": "2008-10-28",
@@ -88,6 +67,27 @@
         ]
       },
       {
+        "id": 107988,
+        "game_title": "MySims",
+        "release_date": "2007-09-18",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Explore a whole new world with MySims - it's your world to transform. Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract new characters, from the Italian Chef and Florist to the Kickboxing Instructor and DJ. Discover what the residents want and need, so that you can help them enjoy life in their town.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          3,
+          9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
         "id": 43785,
         "game_title": "MySims Collection",
         "release_date": "2010-11-09",
@@ -100,6 +100,26 @@
         "developers": null,
         "genres": [
           9
+        ],
+        "publishers": [
+          2
+        ]
+      },
+      {
+        "id": 18064,
+        "game_title": "MySims Agents",
+        "release_date": "2009-09-29",
+        "platform": 9,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "MySims Agents is a mystery-solving adventure game for the Nintendo DS and Wii, in which the player must guide agents in an effort to stop the sinister plans of Morcubus, lord of the criminal underworld.[4] This addition to the MySims franchise was released on September 29, 2009.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          2724
+        ],
+        "genres": [
+          2
         ],
         "publishers": [
           2
@@ -146,26 +166,6 @@
         ]
       },
       {
-        "id": 18064,
-        "game_title": "MySims Agents",
-        "release_date": "2009-09-29",
-        "platform": 9,
-        "region_id": 2,
-        "country_id": 0,
-        "overview": "MySims Agents is a mystery-solving adventure game for the Nintendo DS and Wii, in which the player must guide agents in an effort to stop the sinister plans of Morcubus, lord of the criminal underworld.[4] This addition to the MySims franchise was released on September 29, 2009.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          2724
-        ],
-        "genres": [
-          2
-        ],
-        "publishers": [
-          2
-        ]
-      },
-      {
         "id": 14924,
         "game_title": "MySims Kingdom",
         "release_date": "2008-10-28",
@@ -204,26 +204,6 @@
         ]
       },
       {
-        "id": 20725,
-        "game_title": "MySims Party",
-        "release_date": "2009-03-10",
-        "platform": 8,
-        "region_id": 0,
-        "country_id": 0,
-        "overview": "MySims Party lets you and your friends throw down with the MySims. Up to 4 players can test their wits, quickness and skill in 40+ minigames, each hosted by a different MySim! Each of your friends and you can select a custom team of 4 characters to play the huge variety MySims Party has to offer. Outwit friends by selecting the right team who will carry the day in contests based on strength, endurance, speed and luck. Pick carefully though, the wrong team will give your friends the edge over you. Bragging rights only belong to those who choose wisely and play flawlessly! Real People. Real fun. With the MySims!",
-        "players": 4,
-        "rating": "E - Everyone",
-        "developers": [
-          2586
-        ],
-        "genres": [
-          9
-        ],
-        "publishers": [
-          2
-        ]
-      },
-      {
         "id": 9119,
         "game_title": "MySims Party",
         "release_date": "2009-03-10",
@@ -241,6 +221,26 @@
         ],
         "publishers": [
           35
+        ]
+      },
+      {
+        "id": 20725,
+        "game_title": "MySims Party",
+        "release_date": "2009-03-10",
+        "platform": 8,
+        "region_id": 0,
+        "country_id": 0,
+        "overview": "MySims Party lets you and your friends throw down with the MySims. Up to 4 players can test their wits, quickness and skill in 40+ minigames, each hosted by a different MySim! Each of your friends and you can select a custom team of 4 characters to play the huge variety MySims Party has to offer. Outwit friends by selecting the right team who will carry the day in contests based on strength, endurance, speed and luck. Pick carefully though, the wrong team will give your friends the edge over you. Bragging rights only belong to those who choose wisely and play flawlessly! Real People. Real fun. With the MySims!",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          2586
+        ],
+        "genres": [
+          9
+        ],
+        "publishers": [
+          2
         ]
       },
       {
@@ -650,7 +650,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=MySims&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=MySims&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
   },
-  "remaining_monthly_allowance": 98,
+  "remaining_monthly_allowance": 96,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629957
+  "allowance_refresh_timer": 2624773
 }

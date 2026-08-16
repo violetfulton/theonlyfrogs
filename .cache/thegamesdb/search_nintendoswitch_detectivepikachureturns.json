@@ -5,6 +5,28 @@
     "count": 5,
     "games": [
       {
+        "id": 121749,
+        "game_title": "Le retour de Détective Pikachu",
+        "release_date": "2023-10-06",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1912
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
         "id": 115949,
         "game_title": "Detective Pikachu Returns",
         "release_date": "2023-10-06",
@@ -87,28 +109,6 @@
         "publishers": [
           3
         ]
-      },
-      {
-        "id": 121749,
-        "game_title": "Le retour de Détective Pikachu",
-        "release_date": "2023-10-06",
-        "platform": 4971,
-        "region_id": 6,
-        "country_id": 17,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          1912
-        ],
-        "genres": [
-          2,
-          5
-        ],
-        "publishers": [
-          3,
-          1292
-        ]
       }
     ]
   },
@@ -185,7 +185,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Detective+Pikachu+Returns&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 234,
+  "remaining_monthly_allowance": 232,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629978
+  "allowance_refresh_timer": 2624793
 }

@@ -51,7 +51,7 @@
         "platform": 9,
         "region_id": 2,
         "country_id": 50,
-        "overview": "Animal Crossing: City Folk is a 2008 Wii video game developed by Nintendo EAD and released by Nintendo of America in the USA on November 16, 2008.\r\n\r\nAnimal Crossing: City Folk is the Wii incarnation of the Animal Crossing series. As in the previous version, players assume the role of a new resident in a town populated and run by animals. Players can interact with townsfolk, write letters, send presents, dig for fossils, fish, catch bugs, etc... Time in the game uses the internal Wii's clock and calendar. As such, time and seasons happen at the same time as in the real life. Therefore, some events only happen at certain day of the week, or even at special day in the year (such as Christmas at December 25th)",
+        "overview": "Animal Crossing: City Folk is the Wii incarnation of the Animal Crossing series. As in the previous version, players assume the role of a new resident in a town populated and run by animals. Players can interact with townsfolk, write letters, send presents, dig for fossils, fish, catch bugs, etc... Time in the game uses the internal Wii's clock and calendar. As such, time and seasons happen at the same time as in the real life. Therefore, some events only happen at certain day of the week, or even at special day in the year (such as Christmas at December 25th)",
         "players": 1,
         "rating": "E - Everyone",
         "developers": [
@@ -164,7 +164,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Animal+Crossing%3A+City+Folk&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=9&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 998,
+  "remaining_monthly_allowance": 997,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630100
+  "allowance_refresh_timer": 2624922
 }

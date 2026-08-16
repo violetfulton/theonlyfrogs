@@ -5,26 +5,6 @@
     "count": 2,
     "games": [
       {
-        "id": 119235,
-        "game_title": "Monster High: New Ghoul in School",
-        "release_date": "2015-11-17",
-        "platform": 12,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "Come roam the halls of Monster High and get to know your new classmates. Join clubs, make friends and dress up in fierce fashions. But be aware, there's something strange going on at Monster High! Cleo's new amulet has been cursed by the spirit of Spookenhamen, and the student body is falling under his spell. Use your skills and savvy to help save the school and all your new classmates from the mummy's curse! Be Yourself. Be Unique. Be a Monster.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          8958
-        ],
-        "genres": [
-          2
-        ],
-        "publishers": [
-          1892
-        ]
-      },
-      {
         "id": 44423,
         "game_title": "Monster High: New Ghoul in School",
         "release_date": "2015-11-17",
@@ -39,6 +19,26 @@
         ],
         "genres": [
           1,
+          2
+        ],
+        "publishers": [
+          1892
+        ]
+      },
+      {
+        "id": 119235,
+        "game_title": "Monster High: New Ghoul in School",
+        "release_date": "2015-11-17",
+        "platform": 12,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Come roam the halls of Monster High and get to know your new classmates. Join clubs, make friends and dress up in fierce fashions. But be aware, there's something strange going on at Monster High! Cleo's new amulet has been cursed by the spirit of Spookenhamen, and the student body is falling under his spell. Use your skills and savvy to help save the school and all your new classmates from the mummy's curse! Be Yourself. Be Unique. Be a Monster.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8958
+        ],
+        "genres": [
           2
         ],
         "publishers": [
@@ -93,7 +93,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Monster+High%3A+New+Ghoul+in+School&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 624,
+  "remaining_monthly_allowance": 622,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630037
+  "allowance_refresh_timer": 2624855
 }

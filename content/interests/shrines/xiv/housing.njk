@@ -1,10 +1,156 @@
 ---
-title: "FFXIV Housing"
-layout: /layouts/ffBase.njk
-customcss: "/assets/css/ffxiv/ffxiv-housing.css"
+title: "Housing"
+layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/housing/
-intro: |
-  <p>
-    A little shrine to my current housing progress in FFXIV! This page is for my personal tracking of my housing journey in the game, including what properties I currently own, any renovations or decorations I've done, and maybe even some fun stats about my housing adventures in Eorzea. It's a work in progress, but I'm excited to have a dedicated space to document this aspect of my FFXIV experience ♡
-  </p>
+description: "Aggro Phobic's FFXIV housing scrapbook — giant mushrooms, pink trees, winding paths and an overgrown little garden."
+customcss: "/assets/css/ffxiv/housing.css"
 ---
+
+{% set h = ffxivHousing %}
+
+<div class="ff-housing">
+  <section class="ff-house-hero ff-card">
+    <div class="ff-house-hero__image">
+      {% if h.home.image %}
+        <img src="{{ h.home.image }}" alt="{{ h.home.alt or h.home.name }}">
+      {% else %}
+        <div class="ff-house-photo-placeholder ff-house-photo-placeholder--hero">
+          <span>⌂</span>
+          <strong>wide home screenshot</strong>
+          <small>your best overall room / exterior shot</small>
+        </div>
+      {% endif %}
+
+      <div class="ff-house-hero__label">
+        <small>✦ Aggro’s home ✦</small>
+        <strong>{{ h.home.name }}</strong>
+      </div>
+    </div>
+
+    <div class="ff-house-hero__copy">
+      <p class="ff-house-kicker">⌂ little corner of Eorzea</p>
+      <h1>Housing</h1>
+      <p class="ff-house-location">{{ h.home.location }}</p>
+      <p>{{ h.home.intro }}</p>
+
+      <div class="ff-house-tags">
+        {% for tag in h.home.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <p class="ff-house-privacy">
+        ♡ mostly here for the garden, honestly.
+      </p>
+    </div>
+  </section>
+
+  <section class="ff-house-favourite ff-card">
+    <div class="ff-house-favourite__copy">
+      <p class="ff-house-kicker">♡ currently obsessed with</p>
+      <h2>{{ h.favouriteCorner.title }}</h2>
+      <p>{{ h.favouriteCorner.caption }}</p>
+      <span class="ff-house-handwritten">the mushroom corner wins every time ♡</span>
+    </div>
+
+    <div class="ff-house-favourite__image">
+      {% if h.favouriteCorner.image %}
+        <img src="{{ h.favouriteCorner.image }}" alt="{{ h.favouriteCorner.alt or h.favouriteCorner.title }}">
+      {% else %}
+        <div class="ff-house-photo-placeholder ff-house-photo-placeholder--favourite">
+          <span>✦</span>
+          <small>favourite corner screenshot</small>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="ff-house-tour ff-card">
+    <div class="ff-house-section-head">
+      <div>
+        <p class="ff-house-kicker">✦ come have a nose around</p>
+        <h2>Around the garden</h2>
+      </div>
+      <p>Eight little views of the outside — the paths, plants and odd corners that make the plot feel like Aggro’s rather than a showroom.</p>
+    </div>
+
+    <div class="ff-house-tour-grid">
+      {% for room in h.rooms %}
+        <figure class="ff-house-room{% if loop.index == 1 or loop.index == 4 %} ff-house-room--wide{% endif %}">
+          <div class="ff-house-room__image">
+            {% if room.image %}
+              <img src="{{ room.image }}" alt="{{ room.alt or room.title }}">
+            {% else %}
+              <div class="ff-house-photo-placeholder">
+                <span>⌂</span>
+                <small>{{ room.title }}</small>
+              </div>
+            {% endif %}
+          </div>
+
+          <figcaption>
+            <strong>{{ room.title }}</strong>
+            <p>{{ room.caption }}</p>
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="ff-house-two-col">
+    <section class="ff-house-things ff-card">
+      <div class="ff-house-section-head ff-house-section-head--compact">
+        <div>
+          <p class="ff-house-kicker">♡ tiny favourites</p>
+          <h2>The garden personality</h2>
+        </div>
+      </div>
+
+      <div class="ff-house-things-grid">
+        {% for item in h.favouriteThings %}
+          <article>
+            <span class="ff-house-things__icon" aria-hidden="true">{{ item.icon }}</span>
+            <div>
+              <small>{{ item.label }}</small>
+              <strong>{{ item.name }}</strong>
+              <p>{{ item.note }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <aside class="ff-house-project ff-card">
+      <span class="ff-house-project__pin" aria-hidden="true">✦</span>
+      <p class="ff-house-kicker">currently</p>
+      <h2>{{ h.currentProject.title }}</h2>
+      <p>{{ h.currentProject.text }}</p>
+
+      <div class="ff-house-project__list">
+        {% for tag in h.currentProject.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <p class="ff-house-handwritten">a tidy garden would be suspicious ♡</p>
+    </aside>
+  </div>
+
+  <section class="ff-house-crosslink ff-card">
+    <div class="ff-house-crosslink__mini">
+      <span aria-hidden="true">✧</span>
+      <div>
+        <small>Aggro lately</small>
+        <strong>homebody, but make it fashionable</strong>
+      </div>
+    </div>
+
+    <div class="ff-house-crosslink__copy">
+      <p class="ff-house-kicker">✧ wardrobe next door</p>
+      <h2>Now pick an outfit for the garden</h2>
+      <p>The glamour page is the other scrapbook half: favourite looks, repeated pieces and whatever Aggro is wearing lately.</p>
+    </div>
+
+    <a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/glams/">Open the wardrobe →</a>
+  </section>
+</div>

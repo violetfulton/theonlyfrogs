@@ -5,6 +5,29 @@
     "count": 8,
     "games": [
       {
+        "id": 101690,
+        "game_title": "Pokémon Omega Ruby",
+        "release_date": "2014-11-21",
+        "platform": 4912,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314
+        ],
+        "genres": [
+          1,
+          2,
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
         "id": 23586,
         "game_title": "Pokémon Omega Ruby",
         "release_date": "2014-11-21",
@@ -62,29 +85,6 @@
           3314
         ],
         "genres": [
-          2,
-          4
-        ],
-        "publishers": [
-          3,
-          1292
-        ]
-      },
-      {
-        "id": 101690,
-        "game_title": "Pokémon Omega Ruby",
-        "release_date": "2014-11-21",
-        "platform": 4912,
-        "region_id": 6,
-        "country_id": 18,
-        "overview": "",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          3314
-        ],
-        "genres": [
-          1,
           2,
           4
         ],
@@ -289,7 +289,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Omega+Ruby&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 469,
+  "remaining_monthly_allowance": 467,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630015
+  "allowance_refresh_timer": 2624833
 }

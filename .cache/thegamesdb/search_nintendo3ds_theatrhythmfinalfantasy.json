@@ -5,27 +5,6 @@
     "count": 8,
     "games": [
       {
-        "id": 12585,
-        "game_title": "Theatrhythm Final Fantasy",
-        "release_date": "2012-07-03",
-        "platform": 4912,
-        "region_id": 2,
-        "country_id": 0,
-        "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": [
-          4163
-        ],
-        "genres": [
-          1,
-          17
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
         "id": 123811,
         "game_title": "Theatrhythm Final Fantasy",
         "release_date": "2012-07-06",
@@ -56,6 +35,27 @@
         "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
         "players": 1,
         "rating": "Not Rated",
+        "developers": [
+          4163
+        ],
+        "genres": [
+          1,
+          17
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 12585,
+        "game_title": "Theatrhythm Final Fantasy",
+        "release_date": "2012-07-03",
+        "platform": 4912,
+        "region_id": 2,
+        "country_id": 0,
+        "overview": "Theatrhythm Final Fantasy features a hybrid of music rhythm gameplay with RPG elements. Adorably re-designed heroes from the catalogue of FINAL FANTASY titles will set out on an adventure to combat memorable villains with the rhythmic taps of the player's stylus.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
         "developers": [
           4163
         ],
@@ -274,7 +274,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Theatrhythm+Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4912&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 487,
+  "remaining_monthly_allowance": 485,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630017
+  "allowance_refresh_timer": 2624835
 }

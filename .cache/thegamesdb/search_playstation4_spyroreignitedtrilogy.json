@@ -5,27 +5,6 @@
     "count": 8,
     "games": [
       {
-        "id": 60605,
-        "game_title": "Spyro Reignited Trilogy",
-        "release_date": "2018-11-13",
-        "platform": 4919,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro Reignited Trilogy game collection. Rekindle the fire with the original three games, Spyro the Dragon, Spyro 2: Ripto's Rage! and Spyro: Year of the Dragon. Explore the expansive realms, re-encounter the fiery personalities and relive the adventure in fully remastered glory. Because when there's a realm that needs saving, there's only one dragon to call.",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": [
-          8978
-        ],
-        "genres": [
-          1,
-          15
-        ],
-        "publishers": [
-          33
-        ]
-      },
-      {
         "id": 114134,
         "game_title": "Spyro Reignited Trilogy",
         "release_date": "2018-11-13",
@@ -54,6 +33,27 @@
         "platform": 4919,
         "region_id": 6,
         "country_id": 18,
+        "overview": "The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro Reignited Trilogy game collection. Rekindle the fire with the original three games, Spyro the Dragon, Spyro 2: Ripto's Rage! and Spyro: Year of the Dragon. Explore the expansive realms, re-encounter the fiery personalities and relive the adventure in fully remastered glory. Because when there's a realm that needs saving, there's only one dragon to call.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8978
+        ],
+        "genres": [
+          1,
+          15
+        ],
+        "publishers": [
+          33
+        ]
+      },
+      {
+        "id": 60605,
+        "game_title": "Spyro Reignited Trilogy",
+        "release_date": "2018-11-13",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 50,
         "overview": "The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro Reignited Trilogy game collection. Rekindle the fire with the original three games, Spyro the Dragon, Spyro 2: Ripto's Rage! and Spyro: Year of the Dragon. Explore the expansive realms, re-encounter the fiery personalities and relive the adventure in fully remastered glory. Because when there's a realm that needs saving, there's only one dragon to call.",
         "players": 1,
         "rating": "E10+ - Everyone 10+",
@@ -287,7 +287,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spyro+Reignited+Trilogy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 309,
+  "remaining_monthly_allowance": 307,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629991
+  "allowance_refresh_timer": 2624808
 }

@@ -5,46 +5,6 @@
     "count": 8,
     "games": [
       {
-        "id": 6859,
-        "game_title": "New Super Mario Bros.",
-        "release_date": "2006-05-15",
-        "platform": 8,
-        "region_id": 2,
-        "country_id": 50,
-        "overview": "New Super Mario Bros. is a 2006 DS video game developed by Nintendo EAD and released by Nintendo of America in the USA on May 15, 2006.\r\n\r\nIn an all new 2D side-scrolling adventure, Mario and Luigi return after nearly fifteen years. The first traditional Mario Bros. game since Super Mario World.\r\n\r\nThe character models are rendered in real time 3D, allowing for a far greater number of moves ever before seen in a Mario Bros. title. Also as the game is on DS, the touch screen allows players to store an additional power-up and view the distance still to go in a level.",
-        "players": 4,
-        "rating": "E - Everyone",
-        "developers": [
-          6043
-        ],
-        "genres": [
-          15
-        ],
-        "publishers": [
-          252
-        ]
-      },
-      {
-        "id": 130607,
-        "game_title": "New Super Mario Bros.",
-        "release_date": "2006-05-25",
-        "platform": 8,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "New Super Mario Bros. is a platform video game developed and published by Nintendo for the Nintendo DS. It was first released in May 2006 in North America and Japan, and in PAL regions in June 2006. It is the first installment in the New Super Mario Bros. subseries of the Super Mario franchise, and follows Mario as he fights his way through Bowser's henchmen to rescue Princess Peach. Mario has access to several power-ups that help him complete his quest, including the Super Mushroom, the Fire Flower, and the Super Star, each giving him unique abilities. While traveling through eight worlds with more than 80 levels, Mario must defeat Bowser Jr. and Bowser before saving Princess Peach.\r\n\r\nNew Super Mario Bros. was commercially successful and received positive reviews; praise went towards the game's improvements made to the Mario franchise and faithfulness to older Mario games, while criticism was targeted at its low difficulty level and many critics noted its similarity to previous games. It sold over 30 million copies worldwide, making it the best-selling game for the Nintendo DS and one of the best-selling video games of all time. The game's success led to a line of sequels released for the Wii, Nintendo 3DS, Wii U, and Nintendo Switch.",
-        "players": 4,
-        "rating": "Not Rated",
-        "developers": [
-          6043
-        ],
-        "genres": [
-          15
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
         "id": 113343,
         "game_title": "New Super Mario Bros.",
         "release_date": "2006-06-30",
@@ -99,6 +59,46 @@
         ],
         "genres": [
           1,
+          15
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 6859,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-05-15",
+        "platform": 8,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "New Super Mario Bros. is a 2006 DS video game developed by Nintendo EAD and released by Nintendo of America in the USA on May 15, 2006.\r\n\r\nIn an all new 2D side-scrolling adventure, Mario and Luigi return after nearly fifteen years. The first traditional Mario Bros. game since Super Mario World.\r\n\r\nThe character models are rendered in real time 3D, allowing for a far greater number of moves ever before seen in a Mario Bros. title. Also as the game is on DS, the touch screen allows players to store an additional power-up and view the distance still to go in a level.",
+        "players": 4,
+        "rating": "E - Everyone",
+        "developers": [
+          6043
+        ],
+        "genres": [
+          15
+        ],
+        "publishers": [
+          252
+        ]
+      },
+      {
+        "id": 130607,
+        "game_title": "New Super Mario Bros.",
+        "release_date": "2006-05-25",
+        "platform": 8,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "New Super Mario Bros. is a platform video game developed and published by Nintendo for the Nintendo DS. It was first released in May 2006 in North America and Japan, and in PAL regions in June 2006. It is the first installment in the New Super Mario Bros. subseries of the Super Mario franchise, and follows Mario as he fights his way through Bowser's henchmen to rescue Princess Peach. Mario has access to several power-ups that help him complete his quest, including the Super Mushroom, the Fire Flower, and the Super Star, each giving him unique abilities. While traveling through eight worlds with more than 80 levels, Mario must defeat Bowser Jr. and Bowser before saving Princess Peach.\r\n\r\nNew Super Mario Bros. was commercially successful and received positive reviews; praise went towards the game's improvements made to the Mario franchise and faithfulness to older Mario games, while criticism was targeted at its low difficulty level and many critics noted its similarity to previous games. It sold over 30 million copies worldwide, making it the best-selling game for the Nintendo DS and one of the best-selling video games of all time. The game's success led to a line of sequels released for the Wii, Nintendo 3DS, Wii U, and Nintendo Switch.",
+        "players": 4,
+        "rating": "Not Rated",
+        "developers": [
+          6043
+        ],
+        "genres": [
           15
         ],
         "publishers": [
@@ -281,7 +281,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=New+Super+Mario+Bros.&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 583,
+  "remaining_monthly_allowance": 581,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630031
+  "allowance_refresh_timer": 2624849
 }

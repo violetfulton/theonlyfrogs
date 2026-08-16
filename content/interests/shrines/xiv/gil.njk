@@ -1,10 +1,625 @@
 ---
-title: "FFXIV Gil"
-layout: /layouts/ffBase.njk
-customcss: "/assets/css/ffxiv/ffxiv-gil.css"
+title: "Gil Goals"
+layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/gil/
-intro: |
-  <p>
-    A little shrine to my current Gil total in FFXIV! This will keep track of how much Gil I have over time, and maybe even show some fun stats about my spending habits in the future. I update this manually via Teamcraft, so it’s a nice moment to reflect on my in-game financial journey whenever I log a new entry.
-  </p>
+description: "Aggro Phobic's road to the gil cap — savings milestones, ridiculous collectible purchases and the Frog Treasury."
+customcss: "/assets/css/ffxiv/gil.css"
 ---
+
+{% set g = ffxivGil %}
+{% set s = ffxivGilShopping %}
+
+<div class="ff-gil">
+  <section class="ff-gil-hero ff-card">
+    <div class="ff-gil-hero__copy">
+      <p class="ff-gil-kicker">◇ the frog treasury ◇</p>
+      <h1>Gil Goals</h1>
+      <p>
+        Aggro Phobic’s slow march toward completely unreasonable wealth —
+        while still spending gil on mounts, minions, orchestrion rolls and
+        anything else shiny enough to ruin the savings plan.
+      </p>
+    </div>
+
+    <div class="ff-gil-coin-stack" aria-hidden="true">
+      <span class="ff-gil-coin ff-gil-coin--one">◇</span>
+      <span class="ff-gil-coin ff-gil-coin--two">◇</span>
+      <span class="ff-gil-coin ff-gil-coin--three">◇</span>
+      <b>✦</b>
+    </div>
+  </section>
+
+  <section class="ff-gil-vault ff-card">
+    <div class="ff-gil-vault__main">
+      <p class="ff-gil-kicker">current fortune</p>
+
+      {% if g.currentGil > 0 %}
+        <p class="ff-gil-vault__number">{{ g.currentGilDisplay }}</p>
+        <p class="ff-gil-vault__percent">{{ g.capPercentDisplay }} of the gil cap</p>
+      {% else %}
+        <p class="ff-gil-vault__number ff-gil-vault__number--empty">add current gil</p>
+        <p class="ff-gil-vault__percent">
+          Set <code>currentGil</code> once in <code>ffxivGil.js</code>.
+        </p>
+      {% endif %}
+
+      <div
+        class="ff-gil-progress"
+        role="progressbar"
+        aria-label="Progress toward gil cap"
+        aria-valuemin="0"
+        aria-valuemax="{{ g.cap }}"
+        aria-valuenow="{{ g.currentGil }}"
+      >
+        <span style="width: {{ g.capPercent }}%"></span>
+      </div>
+
+      <div class="ff-gil-vault__capline">
+        <span>0</span>
+        <strong>♡ someday: {{ g.capDisplay }}</strong>
+      </div>
+    </div>
+
+    <aside class="ff-gil-next">
+      <span class="ff-gil-next__spark" aria-hidden="true">✦</span>
+      <p class="ff-gil-kicker">next savings milestone</p>
+      <strong>{{ g.nextMilestone.display }}</strong>
+
+      {% if g.currentGil > 0 %}
+        <p>{{ g.nextMilestone.deltaDisplay }} to go</p>
+
+        <div
+          class="ff-gil-progress ff-gil-progress--milestone"
+          role="progressbar"
+          aria-label="Progress toward next milestone"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="{{ g.nextMilestone.bandPercent }}"
+        >
+          <span style="width: {{ g.nextMilestone.bandPercent }}%"></span>
+        </div>
+      {% else %}
+        <p>Your first little target is waiting.</p>
+      {% endif %}
+    </aside>
+  </section>
+
+  <section class="ff-gil-stats">
+    <article class="ff-gil-stat ff-card">
+      <span aria-hidden="true">◇</span>
+      <small>liquid gil</small>
+      <strong>{{ g.currentGilDisplay }}</strong>
+      <p>What Aggro can actually see in the purse right now.</p>
+    </article>
+
+    <article class="ff-gil-stat ff-card">
+      <span aria-hidden="true">♡</span>
+      <small>collector spending</small>
+      <strong>{{ g.trackedCollectionSpendDisplay }}</strong>
+      <p>Tracked purchases that became permanent collection progress.</p>
+    </article>
+
+    <article class="ff-gil-stat ff-card">
+      <span aria-hidden="true">✦</span>
+      <small>lifetime progress</small>
+      <strong>{{ g.lifetimeProgressDisplay }}</strong>
+      <p>Current gil + tracked collector spending, so buying things still counts.</p>
+    </article>
+
+    <article class="ff-gil-stat ff-card">
+      <span aria-hidden="true">♜</span>
+      <small>do-not-touch floor</small>
+      <strong>{{ g.gilFloorDisplay }}</strong>
+      <p>{{ g.safeSpendDisplay }} is currently above the safety floor.</p>
+    </article>
+  </section>
+
+  <section class="ff-gil-road ff-card">
+    <div class="ff-gil-section-head">
+      <div>
+        <p class="ff-gil-kicker">✦ road to one billion</p>
+        <h2>The increasingly silly milestones</h2>
+      </div>
+      <p>
+        The cap stays the mountain in the distance; these are the little flags
+        that make getting there actually feel like progress.
+      </p>
+    </div>
+
+    <div class="ff-gil-road__track">
+      {% for milestone in g.milestones %}
+        <div class="ff-gil-mile{% if milestone.reached %} is-reached{% endif %}{% if milestone.isNext %} is-next{% endif %}">
+          <span class="ff-gil-mile__dot" aria-hidden="true">
+            {% if milestone.reached %}✓{% elif milestone.isNext %}♡{% else %}◇{% endif %}
+          </span>
+          <strong>{{ milestone.label }}</strong>
+          {% if milestone.isNext %}
+            <small>next</small>
+          {% elif milestone.reached %}
+            <small>reached</small>
+          {% else %}
+            <small>later</small>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <p class="ff-gil-road__scribble">
+      tiny Eorzean oligarch in training ♡
+    </p>
+  </section>
+
+  <section class="ff-gil-collector ff-card">
+    <div class="ff-gil-section-head">
+      <div>
+        <p class="ff-gil-kicker">♡ collector fund</p>
+        <h2>Turning gil into permanent nonsense</h2>
+      </div>
+      <p>
+        Spending doesn't erase the journey here. Once a collectible is bought,
+        its price moves into Collector Spending instead.
+      </p>
+    </div>
+
+    <div class="ff-gil-collector-grid">
+      <article class="ff-gil-collection-card ff-gil-collection-card--mounts">
+        <header>
+          <span class="ff-gil-collection-card__icon" aria-hidden="true">♞</span>
+          <div>
+            <small>the ridiculous gold mount fund</small>
+            <h3>Luxury mounts</h3>
+          </div>
+        </header>
+
+        <div class="ff-gil-collection-card__big">
+          <strong>{{ g.luxuryMount.owned }} / {{ g.luxuryMount.total }}</strong>
+          <span>{{ g.luxuryMount.spentDisplay }} / {{ g.luxuryMount.totalCostDisplay }}</span>
+        </div>
+
+        <div class="ff-gil-progress ff-gil-progress--collector">
+          <span style="width: {{ g.luxuryMount.percent }}%"></span>
+        </div>
+
+        <p class="ff-gil-collection-card__remaining">
+          {{ g.luxuryMount.remainingDisplay }} of fixed vendor purchases remaining.
+        </p>
+
+        <div class="ff-gil-shopping-list">
+          {% for mount in g.luxuryMounts %}
+            <div class="ff-gil-shopping-item{% if mount.owned %} is-owned{% endif %}">
+              <span class="ff-gil-shopping-item__check" aria-hidden="true">
+                {% if mount.owned %}✓{% else %}◇{% endif %}
+              </span>
+
+              <div>
+                <strong>{{ mount.name }}</strong>
+                <small>{{ mount.source }}</small>
+              </div>
+
+              <span class="ff-gil-shopping-item__price">{{ mount.costCompact }}</span>
+            </div>
+          {% endfor %}
+        </div>
+
+        {% if g.luxuryMount.next %}
+          <div class="ff-gil-next-buy">
+            <small>next unowned target</small>
+            <strong>{{ g.luxuryMount.next.name }}</strong>
+
+            {% if g.currentGil <= 0 %}
+              <span>Add current gil to see affordability.</span>
+            {% elif g.luxuryMount.next.canAffordSafely %}
+              <span class="is-good">Affordable without breaking the gil floor ♡</span>
+            {% elif g.luxuryMount.next.canAffordRaw %}
+              <span class="is-warn">Technically affordable, but it would break the gil floor.</span>
+            {% else %}
+              <span>{{ g.luxuryMount.next.shortByDisplay }} short.</span>
+            {% endif %}
+          </div>
+        {% endif %}
+      </article>
+
+      <article class="ff-gil-collection-card">
+        <header>
+          <span class="ff-gil-collection-card__icon" aria-hidden="true">♧</span>
+          <div>
+            <small>little creatures, big shopping list</small>
+            <h3>Minions</h3>
+          </div>
+        </header>
+
+        {% if s.ok %}
+          <div class="ff-gil-collection-card__big">
+            <strong>{{ s.minions.ownedBuyableCount }} / {{ s.minions.buyableCount }}</strong>
+            <span>gil-buyable minions owned</span>
+          </div>
+
+          <div class="ff-gil-progress ff-gil-progress--collector">
+            <span style="width: {{ s.minions.completionPercent }}%"></span>
+          </div>
+
+          <p class="ff-gil-collection-card__remaining">
+            {{ s.minions.missingCount }} gil-buyable minions still on Aggro’s shopping list.
+          </p>
+
+          <div class="ff-gil-mini-budget">
+            <div>
+              <small>fixed vendor buys left</small>
+              <strong>{{ s.minions.vendor.totalDisplay }}</strong>
+            </div>
+            <div>
+              <small>Lich marketboard estimate</small>
+              <strong>{{ s.minions.market.estimateDisplay }}</strong>
+            </div>
+          </div>
+
+          <p class="ff-gil-collection-card__note">
+            Ownership is checked against Aggro’s public Lodestone collection.
+            The full missing vendor + Market Board list is ready below.
+          </p>
+        {% else %}
+          <div class="ff-gil-emptybar"><span>shopping data unavailable this build</span></div>
+          <p class="ff-gil-collection-card__note">
+            The minion card will repopulate automatically when the shopping-data refresh succeeds.
+          </p>
+        {% endif %}
+      </article>
+
+      <article class="ff-gil-collection-card">
+        <header>
+          <span class="ff-gil-collection-card__icon" aria-hidden="true">♫</span>
+          <div>
+            <small>expensive background music</small>
+            <h3>Orchestrion rolls</h3>
+          </div>
+        </header>
+
+        {% if s.ok %}
+          {% if s.orchestrions.ownershipKnown %}
+            <div class="ff-gil-collection-card__big">
+              <strong>{{ s.orchestrions.ownedBuyableCount }} / {{ s.orchestrions.buyableCount }}</strong>
+              <span>gil-buyable rolls owned</span>
+            </div>
+
+            <div class="ff-gil-progress ff-gil-progress--collector">
+              <span style="width: {{ s.orchestrions.completionPercent }}%"></span>
+            </div>
+
+            <p class="ff-gil-collection-card__remaining">
+              {{ s.orchestrions.missingCount }} gil-buyable rolls still missing.
+            </p>
+          {% else %}
+            <div class="ff-gil-collection-card__big">
+              <strong>{{ s.orchestrions.buyableCount }}</strong>
+              <span>gil-buyable rolls in the catalogue</span>
+            </div>
+
+            <div class="ff-gil-emptybar">
+              <span>ready for Aggro’s owned-roll import</span>
+            </div>
+
+            <p class="ff-gil-collection-card__remaining">
+              The shopping catalogue is live; only Aggro’s owned orchestrions need importing.
+            </p>
+          {% endif %}
+
+          <div class="ff-gil-mini-budget">
+            <div>
+              <small>fixed vendor catalogue</small>
+              <strong>{{ s.orchestrions.vendor.totalDisplay }}</strong>
+            </div>
+            <div>
+              <small>Lich marketboard catalogue</small>
+              <strong>{{ s.orchestrions.market.estimateDisplay }}</strong>
+            </div>
+          </div>
+
+          <p class="ff-gil-collection-card__note">
+            Upload or paste Aggro’s owned orchestrion list when you have it and
+            this card will switch to true owned / missing progress automatically.
+            The full purchasable catalogue is already listed below.
+          </p>
+        {% else %}
+          <div class="ff-gil-emptybar"><span>shopping data unavailable this build</span></div>
+          <p class="ff-gil-collection-card__note">
+            The orchestrion catalogue will repopulate automatically when the shopping-data refresh succeeds.
+          </p>
+        {% endif %}
+      </article>
+    </div>
+  </section>
+
+
+  <section class="ff-gil-shopping ff-card">
+    <div class="ff-gil-section-head">
+      <div>
+        <p class="ff-gil-kicker">✦ actual shopping list</p>
+        <h2>Everything Aggro can throw gil at</h2>
+      </div>
+      <p>
+        Fixed-price vendor buys are exact. Marketboard prices are live-ish Lich
+        estimates and will wiggle around between builds.
+      </p>
+    </div>
+
+    {% if not s.ok %}
+      <div class="ff-gil-shopping-error">
+        <strong>Shopping data could not refresh this build.</strong>
+        <p>{{ s.error }}</p>
+      </div>
+    {% else %}
+      <div class="ff-gil-shopping-summary">
+        <article>
+          <small>missing buyables</small>
+          <strong>{{ s.totals.missing }}</strong>
+          <p>Across mounts, minions and orchestrion rolls.</p>
+        </article>
+
+        <article>
+          <small>fixed vendor bill</small>
+          <strong>{{ s.totals.vendorDisplay }}</strong>
+          <p>Exact gil prices from purchase sources.</p>
+        </article>
+
+        <article>
+          <small>Lich market estimate</small>
+          <strong>{{ s.totals.marketEstimateDisplay }}</strong>
+          <p>
+            {% if s.totals.marketUnknownCount %}
+              {{ s.totals.marketUnknownCount }} items currently have no usable listing.
+            {% else %}
+              All currently-priced market items included.
+            {% endif %}
+          </p>
+        </article>
+
+        <article>
+          <small>shopping mountain</small>
+          <strong>{{ s.totals.combinedEstimateDisplay }}</strong>
+          <p>Vendor total + currently available market estimates.</p>
+        </article>
+      </div>
+
+      <div class="ff-gil-shopping-toolbar">
+        <label>
+          <span>Find something</span>
+          <input
+            type="search"
+            placeholder="search mounts, minions, songs…"
+            data-gil-shopping-search
+          >
+        </label>
+
+        <p>
+          ♡ Mounts + minions auto-check against Aggro’s Lodestone.
+          Orchestrions use the tiny owned list in the config file.
+        </p>
+      </div>
+
+      <div class="ff-gil-shopping-categories">
+        {% for category in s.categories %}
+          <article class="ff-gil-shop-category">
+            <header class="ff-gil-shop-category__head">
+              <span class="ff-gil-shop-category__icon" aria-hidden="true">{{ category.icon }}</span>
+
+              <div>
+                <p class="ff-gil-kicker">
+                  {% if category.ownershipMode == "lodestone" %}
+                    Aggro ownership synced
+                  {% elif category.ownershipMode == "manual" %}
+                    manual owned list
+                  {% else %}
+                    ownership check unavailable
+                  {% endif %}
+                </p>
+                <h3>{{ category.title }}</h3>
+              </div>
+
+              <div class="ff-gil-shop-category__counts">
+                <strong>{{ category.missingCount }}</strong>
+                <small>missing buyables</small>
+              </div>
+            </header>
+
+            <div class="ff-gil-shop-category__stats">
+              <div>
+                <small>Fixed vendor</small>
+                <strong>{{ category.vendor.count }}</strong>
+                <span>{{ category.vendor.totalDisplay }}</span>
+              </div>
+
+              <div>
+                <small>Marketboard</small>
+                <strong>{{ category.market.count }}</strong>
+                <span>{{ category.market.estimateDisplay }}</span>
+              </div>
+
+              <div>
+                <small>Buyable owned</small>
+                <strong>{{ category.ownedBuyableCount }} / {{ category.buyableCount }}</strong>
+                <span>{{ category.completionPercent }}%</span>
+              </div>
+            </div>
+
+            <details class="ff-gil-shop-details" {% if loop.first %}open{% endif %}>
+              <summary>
+                <span>Fixed-price vendor purchases</span>
+                <strong>{{ category.vendor.count }} · {{ category.vendor.totalDisplay }}</strong>
+              </summary>
+
+              {% if category.vendor.items.length %}
+                <div class="ff-gil-shop-list">
+                  {% for item in category.vendor.items %}
+                    <div
+                      class="ff-gil-shop-row"
+                      data-gil-shopping-row
+                      data-gil-shopping-name="{{ item.name | lower }}"
+                    >
+                      <span class="ff-gil-shop-row__mark" aria-hidden="true">◇</span>
+                      <div class="ff-gil-shop-row__name">
+                        <strong>{{ item.name }}</strong>
+                        <small>{{ item.vendorSource or "Vendor purchase" }}</small>
+                      </div>
+                      <span class="ff-gil-shop-row__price">{{ item.vendorPriceDisplay }}</span>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% else %}
+                <p class="ff-gil-shop-empty">No missing fixed-price vendor purchases found.</p>
+              {% endif %}
+            </details>
+
+            <details class="ff-gil-shop-details">
+              <summary>
+                <span>Marketboard shopping</span>
+                <strong>{{ category.market.count }} · {{ category.market.estimateDisplay }}</strong>
+              </summary>
+
+              {% if category.market.items.length %}
+                <div class="ff-gil-shop-list">
+                  {% for item in category.market.items %}
+                    <div
+                      class="ff-gil-shop-row"
+                      data-gil-shopping-row
+                      data-gil-shopping-name="{{ item.name | lower }}"
+                    >
+                      <span class="ff-gil-shop-row__mark" aria-hidden="true">◇</span>
+                      <div class="ff-gil-shop-row__name">
+                        <strong>{{ item.name }}</strong>
+                        <small>
+                          Marketboard{% if item.patch %} · patch {{ item.patch }}{% endif %}
+                        </small>
+                      </div>
+                      <span class="ff-gil-shop-row__price">
+                        {{ item.marketPriceDisplay }}
+                      </span>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% else %}
+                <p class="ff-gil-shop-empty">No missing marketboard purchases found.</p>
+              {% endif %}
+            </details>
+          </article>
+        {% endfor %}
+      </div>
+
+      <div class="ff-gil-shopping-footnotes">
+        <p>{{ s.notes.vendor }}</p>
+        <p>{{ s.notes.market }}</p>
+        <p>{{ s.notes.ownership }}</p>
+        <p>{{ s.notes.orchestrions }}</p>
+      </div>
+    {% endif %}
+  </section>
+
+  <section class="ff-gil-afford ff-card">
+    <div class="ff-gil-section-head ff-gil-section-head--compact">
+      <div>
+        <p class="ff-gil-kicker">◇ what can I spend?</p>
+        <h2>The anti-impulse-purchase box</h2>
+      </div>
+    </div>
+
+    <div class="ff-gil-afford-grid">
+      <article>
+        <small>Current floor</small>
+        <strong>{{ g.gilFloorDisplay }}</strong>
+        <p>The amount I’m pretending does not exist.</p>
+      </article>
+
+      <article>
+        <small>Safe spending pot</small>
+        <strong>{{ g.safeSpendDisplay }}</strong>
+        <p>Anything above the floor is fair game for collection nonsense.</p>
+      </article>
+
+      <article>
+        <small>Next savings flag</small>
+        <strong>{{ g.nextMilestone.display }}</strong>
+        <p>
+          {% if g.currentGil > 0 %}
+            {{ g.nextMilestone.deltaDisplay }} away.
+          {% else %}
+            Add current gil and this starts calculating itself.
+          {% endif %}
+        </p>
+      </article>
+    </div>
+
+    <div class="ff-gil-rulebook">
+      <span aria-hidden="true">♡</span>
+      <p>
+        <strong>Frog Treasury rule:</strong>
+        hit milestones, raise the safety floor over time, and let expensive
+        collection purchases become part of the story instead of treating every
+        purchase like lost progress.
+      </p>
+    </div>
+  </section>
+
+  <section class="ff-gil-diary ff-card">
+    <div class="ff-gil-section-head">
+      <div>
+        <p class="ff-gil-kicker">✧ purchase diary</p>
+        <h2>Things I spent an upsetting amount of gil on</h2>
+      </div>
+      <p>
+        Add purchases to <code>purchaseDiary</code> in the data file and they
+        automatically feed Collector Spending + Lifetime Progress.
+      </p>
+    </div>
+
+    {% if g.purchases.length %}
+      <div class="ff-gil-diary-list">
+        {% for purchase in g.purchases %}
+          <article>
+            <div class="ff-gil-diary__mark" aria-hidden="true">◇</div>
+            <div>
+              <small>{{ purchase.type or "Collectible" }}{% if purchase.date %} · {{ purchase.date }}{% endif %}</small>
+              <strong>{{ purchase.name }}</strong>
+              {% if purchase.note %}<p>{{ purchase.note }}</p>{% endif %}
+            </div>
+            <span>{{ purchase.costDisplay }}</span>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="ff-gil-diary-empty">
+        <span aria-hidden="true">◇</span>
+        <strong>No ridiculous purchases logged yet.</strong>
+        <p>Enjoy this brief and probably temporary period of financial responsibility.</p>
+      </div>
+    {% endif %}
+  </section>
+
+  <section class="ff-gil-endgame ff-card">
+    <span class="ff-gil-endgame__crown" aria-hidden="true">♛</span>
+    <p class="ff-gil-kicker">final boss</p>
+    <h2>{{ g.capDisplay }}</h2>
+    <p>
+      Not a sensible target. Not a quick target. Just the eventual end of the
+      Frog Treasury road.
+    </p>
+    <div class="ff-gil-endgame__sparkles" aria-hidden="true">✦　◇　♡　◇　✦</div>
+  </section>
+</div>
+
+
+<script>
+  (() => {
+    const input = document.querySelector("[data-gil-shopping-search]");
+    if (!input) return;
+
+    const rows = [...document.querySelectorAll("[data-gil-shopping-row]")];
+
+    input.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+
+      rows.forEach((row) => {
+        const name = row.dataset.gilShoppingName || "";
+        row.hidden = Boolean(query) && !name.includes(query);
+      });
+    });
+  })();
+</script>

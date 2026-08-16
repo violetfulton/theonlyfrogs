@@ -5,15 +5,15 @@
     "count": 8,
     "games": [
       {
-        "id": 35050,
+        "id": 112083,
         "game_title": "NieR: Automata",
-        "release_date": "2017-03-07",
+        "release_date": "2017-03-10",
         "platform": 4919,
-        "region_id": 2,
+        "region_id": 6,
         "country_id": 0,
-        "overview": "Nier: Automata (Japanese: ニーア オートマタ Hepburn: Nīa Ōtomata?, stylized as NieR:Automata) is an upcoming action role-playing game developed by PlatinumGames and published by Square Enix for the PlayStation 4. The game is set in the same universe as Nier, a spin-off of the Drakengard series.\r\n\r\nProduction began in 2014, with series creator Taro Yoko, producer Yosuke Saito, and composer Keiichi Okabe returning to their respective roles. Atsushi Inaba is acting as co-producer for PlatinumGames, while regular Square Enix artist Akihiko Yoshida designed the main characters. The goal was to make a new Nier game true to the spirit of the original, while creating better action gameplay.\r\n\r\nPlayers will control multiple characters through action-based gameplay, with the ability to rotate the in-game camera 360 degrees. New playable characters are unlocked with each playthrough and story route. While stated to be a high-action game, the developers have said that it will likely retain the role-playing elements of the original Nier. It is planned to retain the previous game's mixture of gameplay styles. Gameplay is generally focused around melee weapons, but some shooting elements are also planned. Weapon Stories, a recurring element in Drakengard and Nier of stories attached to weapons found around the world, are also planned",
+        "overview": "",
         "players": 1,
-        "rating": "M - Mature 17+",
+        "rating": "Not Rated",
         "developers": [
           1829
         ],
@@ -26,15 +26,15 @@
         ]
       },
       {
-        "id": 112083,
+        "id": 35050,
         "game_title": "NieR: Automata",
-        "release_date": "2017-03-10",
+        "release_date": "2017-03-07",
         "platform": 4919,
-        "region_id": 6,
+        "region_id": 2,
         "country_id": 0,
-        "overview": "",
+        "overview": "Nier: Automata (Japanese: ニーア オートマタ Hepburn: Nīa Ōtomata?, stylized as NieR:Automata) is an upcoming action role-playing game developed by PlatinumGames and published by Square Enix for the PlayStation 4. The game is set in the same universe as Nier, a spin-off of the Drakengard series.\r\n\r\nProduction began in 2014, with series creator Taro Yoko, producer Yosuke Saito, and composer Keiichi Okabe returning to their respective roles. Atsushi Inaba is acting as co-producer for PlatinumGames, while regular Square Enix artist Akihiko Yoshida designed the main characters. The goal was to make a new Nier game true to the spirit of the original, while creating better action gameplay.\r\n\r\nPlayers will control multiple characters through action-based gameplay, with the ability to rotate the in-game camera 360 degrees. New playable characters are unlocked with each playthrough and story route. While stated to be a high-action game, the developers have said that it will likely retain the role-playing elements of the original Nier. It is planned to retain the previous game's mixture of gameplay styles. Gameplay is generally focused around melee weapons, but some shooting elements are also planned. Weapon Stories, a recurring element in Drakengard and Nier of stories attached to weapons found around the world, are also planned",
         "players": 1,
-        "rating": "Not Rated",
+        "rating": "M - Mature 17+",
         "developers": [
           1829
         ],
@@ -288,7 +288,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=NieR%3A+Automata&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 349,
+  "remaining_monthly_allowance": 347,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629997
+  "allowance_refresh_timer": 2624815
 }

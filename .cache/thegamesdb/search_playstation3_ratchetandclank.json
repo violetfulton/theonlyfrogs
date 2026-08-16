@@ -54,7 +54,7 @@
         "platform": 12,
         "region_id": 2,
         "country_id": 50,
-        "overview": "Ratchet & Clank Future: A Crack in Time is a 2009 PlayStation 3 video game developed by Insomniac Games and released by Sony Computer Entertainment America in the USA on October 27, 2009. \r\n\r\nDuring the events of the two previous games, Clank is kidnapped by the mysterious Zoni, led by the evil mastermind Dr. Nefarious, leaving Ratchet feeling all alone in the gigantic universe. Along with Captain Quark and Talwyn, he sets out on a quest to save Clank from Nefarious' clutches. Along the way he discovers the truth about his Lombax past and the secrets of time held within the Great Clock.",
+        "overview": "During the events of the two previous games, Clank is kidnapped by the mysterious Zoni, led by the evil mastermind Dr. Nefarious, leaving Ratchet feeling all alone in the gigantic universe. Along with Captain Quark and Talwyn, he sets out on a quest to save Clank from Nefarious' clutches. Along the way he discovers the truth about his Lombax past and the secrets of time held within the Great Clock.",
         "players": 1,
         "rating": "E - Everyone",
         "developers": [
@@ -661,7 +661,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ratchet+%26+Clank&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=2"
   },
-  "remaining_monthly_allowance": 614,
+  "remaining_monthly_allowance": 612,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630036
+  "allowance_refresh_timer": 2624854
 }

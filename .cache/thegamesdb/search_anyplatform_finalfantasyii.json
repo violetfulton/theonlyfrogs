@@ -5,17 +5,17 @@
     "count": 20,
     "games": [
       {
-        "id": 3734,
-        "game_title": "Final Fantasy II",
+        "id": 124593,
+        "game_title": "Final Fantasy II [PSP Essentials]",
         "release_date": "2007-06-07",
         "platform": 13,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "OWN THE BIRTH OF A GENERATION\r\n\r\nThe legend continues. A new evil threatens the land, and once more, a band of young heroes stands against it. More new dungeons, more improved graphics. Still the same great story and gameplay.",
+        "region_id": 6,
+        "country_id": 17,
+        "overview": "",
         "players": 1,
-        "rating": "T - Teen",
+        "rating": "Not Rated",
         "developers": [
-          8959
+          2808
         ],
         "genres": [
           4
@@ -23,42 +23,6 @@
         "publishers": [
           12
         ]
-      },
-      {
-        "id": 7869,
-        "game_title": "Final Fantasy II",
-        "release_date": "1988-12-17",
-        "platform": 7,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "Final Fantasy II is a 1988 Famicom role-playing video game developed and released by Square in Japan on December 17, 1988.\r\n\r\nTHE BIRTH OF A GENERATION\r\nA long lived peace...Is at an end. The Emperor of Palamecia has called forth monsters from the Underworld..and has begun his campaign for world conquest. A rebel army arose in the kingdom of Fynn to thwart the Emperor's plans. But the rebel's castle fell to an all-out assault by the Empire. Left with little choice, the rebels withdrew to the remote town of Altair. Four youths from Fynn also found themselves fleeing the Imperial forces. They had lost their parents at the hands of the Empire. But their escape wasn't over...",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          8096
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          11
-        ]
-      },
-      {
-        "id": 97769,
-        "game_title": "Final Fantasy II",
-        "release_date": "1991-11-01",
-        "platform": 38,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "THE CRUSADE FOR THE CRYSTALS.\r\nIn the Kingdom of Baron, powerful airships rule the skies. At the head of this elite fighting force is Cecil, Captain of the Red Wings.\r\nAs our adventure begins, Cecil and his squadron are ordered to steal a powerful crystal from a rival kingdom. Upon their return, Cecil questions the King’s orders and is stripped of his command To prove his loyalty, he must slay a dreadful monster and deliver a mysterious package to a neighboring town. But when the package explodes, destroying everyone, Cecil and his friend Kain vow to fight the King ’s dark forces. Will you be able to save the world from their evil plan to control the crystals?\r\nGet ready for the most challenging role-playing adventure ever.\r\n\r\n*16 BIT ROLE-PLAYING GAME\r\n*8 MEG MEMORY\r\n*BATTERY BACKUP SAVES UP TO FOUR GAMES\r\n*76 PAGE PLAYER'S STRATEGY MANUAL\r\n*STEREO SOUND\r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Role-Playing",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": null,
-        "genres": [
-          4
-        ],
-        "publishers": null
       },
       {
         "id": 23400,
@@ -72,26 +36,6 @@
         "rating": "E10+ - Everyone 10+",
         "developers": [
           5302
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
-        "id": 124593,
-        "game_title": "Final Fantasy II [PSP Essentials]",
-        "release_date": "2007-06-07",
-        "platform": 13,
-        "region_id": 6,
-        "country_id": 17,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          2808
         ],
         "genres": [
           4
@@ -182,6 +126,62 @@
         ]
       },
       {
+        "id": 3734,
+        "game_title": "Final Fantasy II",
+        "release_date": "2007-06-07",
+        "platform": 13,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "OWN THE BIRTH OF A GENERATION\r\n\r\nThe legend continues. A new evil threatens the land, and once more, a band of young heroes stands against it. More new dungeons, more improved graphics. Still the same great story and gameplay.",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          8959
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 7869,
+        "game_title": "Final Fantasy II",
+        "release_date": "1988-12-17",
+        "platform": 7,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Final Fantasy II is a 1988 Famicom role-playing video game developed and released by Square in Japan on December 17, 1988.\r\n\r\nTHE BIRTH OF A GENERATION\r\nA long lived peace...Is at an end. The Emperor of Palamecia has called forth monsters from the Underworld..and has begun his campaign for world conquest. A rebel army arose in the kingdom of Fynn to thwart the Emperor's plans. But the rebel's castle fell to an all-out assault by the Empire. Left with little choice, the rebels withdrew to the remote town of Altair. Four youths from Fynn also found themselves fleeing the Imperial forces. They had lost their parents at the hands of the Empire. But their escape wasn't over...",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          8096
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          11
+        ]
+      },
+      {
+        "id": 97769,
+        "game_title": "Final Fantasy II",
+        "release_date": "1991-11-01",
+        "platform": 38,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "THE CRUSADE FOR THE CRYSTALS.\r\nIn the Kingdom of Baron, powerful airships rule the skies. At the head of this elite fighting force is Cecil, Captain of the Red Wings.\r\nAs our adventure begins, Cecil and his squadron are ordered to steal a powerful crystal from a rival kingdom. Upon their return, Cecil questions the King’s orders and is stripped of his command To prove his loyalty, he must slay a dreadful monster and deliver a mysterious package to a neighboring town. But when the package explodes, destroying everyone, Cecil and his friend Kain vow to fight the King ’s dark forces. Will you be able to save the world from their evil plan to control the crystals?\r\nGet ready for the most challenging role-playing adventure ever.\r\n\r\n*16 BIT ROLE-PLAYING GAME\r\n*8 MEG MEMORY\r\n*BATTERY BACKUP SAVES UP TO FOUR GAMES\r\n*76 PAGE PLAYER'S STRATEGY MANUAL\r\n*STEREO SOUND\r\n\r\nESRB Rating: T - Teen\r\n\r\nGenre(s): Role-Playing",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": null
+      },
+      {
         "id": 128854,
         "game_title": "Final Fantasy II - Playable Golbez Edition",
         "release_date": "2017-06-11",
@@ -208,24 +208,6 @@
         "players": 1,
         "rating": "Not Rated",
         "developers": null,
-        "genres": [
-          4
-        ],
-        "publishers": null
-      },
-      {
-        "id": 92612,
-        "game_title": "Final Fantasy II Pixel Remaster",
-        "release_date": "2021-06-28",
-        "platform": 1,
-        "region_id": 9,
-        "country_id": 0,
-        "overview": "The original FINAL FANTASY II comes to life with completely new graphics and audio as a 2D pixel remaster!\r\n\r\nA remodeled 2D take on the second game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nOur epic tale begins with four young souls orphaned during the struggle between the Palamecian Empire and the rebel army. On their journey, the youths join forces with the white wizard Minwu, Prince Gordon of Kashuan, Leila the pirate, and many others. Behold the beautiful and sometimes tragic twists of fate that await you on your adventure.\r\n\r\nFFII introduced a unique skill level system that strengthens different attributes of the characters depending on their fighting style instead of leveling up. Use the key terms you learn in conversation to unlock new information and progress in the story.\r\n\r\nThis innovative game series takes an ambitious turn in this second installment in the FINAL FANTASY series!",
-        "players": 1,
-        "rating": "T - Teen",
-        "developers": [
-          2808
-        ],
         "genres": [
           4
         ],
@@ -272,76 +254,18 @@
         ]
       },
       {
-        "id": 7878,
-        "game_title": "Final Fantasy III",
-        "release_date": "1990-04-27",
-        "platform": 7,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "Final Fantasy III is a 1990 Famicom role-playing video game developed and released by Square in Japan on April 27, 1990.\r\n\r\nThe Gulgan thus prophesied: \"The earthquake was only the beginning. The great tremors that swallowed the crystals, the light of our world, only to spawn monsters from the depths of the scarred land, are nothing but harbingers of what has yet to come. Something is coming...fathomless, ominous, and full of sorrow... But hope is not yet lost. Four souls will be blessed with light, and so it shall begin...",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          8096
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          11
-        ]
-      },
-      {
-        "id": 12081,
-        "game_title": "Final Fantasy III",
-        "release_date": "2012-09-25",
-        "platform": 13,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "First released in 1990, FINAL FANTASY III introduced series hallmarks such as the job system and summon spells, and became the first in the series to sell over a million copies. Reborn in full 3D in 2006, this classic installment of the FINAL FANTASY series is now available for the PSP (PlayStation Portable) system! Graphics have been re-adjusted to fit the 16:9 aspect ratio, and new features such as the sound and image gallery, an option to switch to the original BGM and an 'auto-battle' system that doubles the speed of combat, have been added!",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          2808
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
-        "id": 19531,
-        "game_title": "FINAL FANTASY III",
-        "release_date": "2013-03-29",
-        "platform": 4921,
-        "region_id": 0,
-        "country_id": 0,
-        "overview": "Final Fantasy III -- now on OUYA! First released in 1990, Final Fantasy III was the first title in the Final Fantasy series to become a million-seller, establishing once and for all that Square Enix's classic RPG saga was here to stay. The full 3D remake released in 2006 duplicated the original's success, selling over a million copies worldwide. Final Fantasy III was a hallmark of innovation for the entire series, from the job system that lets characters change classes at any time to the ability to summon powerful creatures such as Shiva and Bahamut. When darkness falls and the land is robbed of light, four youths are chosen by the crystals to set forth on a journey to save the world.",
-        "players": 1,
-        "rating": null,
-        "developers": [
-          2808
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
-        "id": 97770,
-        "game_title": "Final Fantasy III",
-        "release_date": "2011-03-18",
-        "platform": 38,
+        "id": 92612,
+        "game_title": "Final Fantasy II Pixel Remaster",
+        "release_date": "2021-06-28",
+        "platform": 1,
         "region_id": 9,
         "country_id": 0,
-        "overview": "Final Fantasy VI, also known as Final Fantasy III from its marketing for its initial North American release in 1994, is a role-playing video game developed and published by Japanese company Square for the Super Nintendo Entertainment System.\r\n\r\nESRB Rating: Not Rated\r\n\r\nGenre(s): Role-Playing | Virtual Console",
+        "overview": "The original FINAL FANTASY II comes to life with completely new graphics and audio as a 2D pixel remaster!\r\n\r\nA remodeled 2D take on the second game in the world-renowned FINAL FANTASY series! Enjoy the timeless story told through charming retro graphics. All the magic of the original, with improved ease of play.\r\n\r\nOur epic tale begins with four young souls orphaned during the struggle between the Palamecian Empire and the rebel army. On their journey, the youths join forces with the white wizard Minwu, Prince Gordon of Kashuan, Leila the pirate, and many others. Behold the beautiful and sometimes tragic twists of fate that await you on your adventure.\r\n\r\nFFII introduced a unique skill level system that strengthens different attributes of the characters depending on their fighting style instead of leveling up. Use the key terms you learn in conversation to unlock new information and progress in the story.\r\n\r\nThis innovative game series takes an ambitious turn in this second installment in the FINAL FANTASY series!",
         "players": 1,
-        "rating": "Not Rated",
-        "developers": null,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
         "genres": [
           4
         ],
@@ -386,6 +310,87 @@
         "publishers": [
           12
         ]
+      },
+      {
+        "id": 108783,
+        "game_title": "Final Fantasy III",
+        "release_date": "1990-04-27",
+        "platform": 7,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "The Gulgan thus prophesied: \"The earthquake was only the beginning. The great tremors that swallowed the crystals, the light of our world, only to spawn monsters from the depths of the scarred land, are nothing but harbingers of what has yet to come. Something is coming...fathomless, ominous, and full of sorrow... But hope is not yet lost. Four souls will be blessed with light, and so it shall begin...\"",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          8096
+        ],
+        "genres": [
+          4,
+          28
+        ],
+        "publishers": [
+          11
+        ]
+      },
+      {
+        "id": 136379,
+        "game_title": "Final Fantasy III (3D Remake)",
+        "release_date": "2014-05-27",
+        "platform": 1,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Whether it’s your first foray or if you’re a returning Warrior of Light, there’s never been a better time to jump into the adventure of a lifetime in FINAL FANTASY III!\r\n\r\nA big new update for FINAL FANTASY III has just been released with brand new features including;\r\n\r\nCompletely new interface\r\nGamepad compatibility has been optimized.\r\nSmall adjustments to keyboard, mouse, and touch panel operations have also been made.\r\nFull-screen now available\r\nFull-screen display now available until 21:9.\r\nGallery Mode Added: illustrations of the game, characters, and settings documets can be seen. Additionally, the entire soundtrack can be listened to.\r\nAuto-battle Function Added: Players can now switch to auto-battle mode, which allows battles to take place at twice the speed. In auto-battle, characters will repeat the last action they were doing.\r\nThe follow language settings are available:\r\nChinese (Simplified)\r\nChinese (Traditional)\r\nKorean\r\nThai\r\nJapanese\r\nSmall bugs have been fixed.\r\n\r\nTo celebrate this update, for a limited time you can purchase FINAL FANTASY III for 50% off and bring light to the world once again.\r\nAbout This Game\r\nWhen darkness falls and the land is robbed of light, four youths are chosen by the crystals to set forth on a journey to save the world. Experience FINAL FANTASY III on PC, featuring stunning 3D visuals and story sequences, plus Steam Trading Cards and Achievements.\r\n\r\nKEY FEATURES:\r\n3D visuals and story sequences\r\nQuick browsing through the monster bestiary and other game records\r\nUpdated visual designs for the Job Mastery Cards\r\nUpgraded graphics for PC\r\nIncludes Steam Trading Cards & Achievements",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 124438,
+        "game_title": "Final Fantasy III",
+        "release_date": "2012-09-25",
+        "platform": 13,
+        "region_id": 9,
+        "country_id": 0,
+        "overview": "Digital-only NA release.\r\n\r\nThis is an updated version of Final Fantasy III released for the PSP. Final Fantasy III is a role-playing video game developed and published by Square originally for the Family Computer. The third installment in the Final Fantasy series, it is the first numbered Final Fantasy game to feature the job-change system. The story revolves around four orphaned youths drawn to a crystal of light. The crystal grants them some of its power, and instructs them to go forth and restore balance to the world. Not knowing what to make of the crystal's pronouncements, but nonetheless recognizing the importance of its words, the four inform their adoptive families of their mission and set out to explore and bring back balance to the world",
+        "players": 1,
+        "rating": "T - Teen",
+        "developers": [
+          2808
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 83,
+        "game_title": "Final Fantasy III",
+        "release_date": "1994-10-11",
+        "platform": 6,
+        "region_id": 2,
+        "country_id": 50,
+        "overview": "Final Fantasy III is a 1994 SNES video game developed by Square and released by Square Soft Inc. in the USA on October 11, 1994.\r\n\r\nMagiTek has been reborn. And the end of the world is near.\r\n\r\nAges ago, evil beings created powerful creatures called Espers, and unleashed them against each other. The resulting battles left their world a smoldering rubble. Legend has it, the Espers destroyed themselves and most of humanity. Magic disappeared forever.\r\n\r\nCenturies have passed and a rational world now exists with Espers living only in myths, until one frozen solid since the ancient wars is unearthed. Suddenly, there are reports of magical attacks on civilians. Imperial Commandos launch raids using magic-powered MagiTek weapons. Magic is obviously alive and the world is in danger again.\r\n\r\nWho or what is behind the rediscovery and redeployment of this legendary power? What chaotic plans exists that will wreak havoc on this orderly world?",
+        "players": 2,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          8096
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          11
+        ]
       }
     ]
   },
@@ -400,6 +405,22 @@
         "large": "https://cdn.thegamesdb.net/images/large/"
       },
       "data": {
+        "83": [
+          {
+            "id": 132851,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/83-1.jpg",
+            "resolution": "2100x1536"
+          },
+          {
+            "id": 132853,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/83-1.jpg",
+            "resolution": "2100x1518"
+          }
+        ],
         "1286": [
           {
             "id": 3907,
@@ -439,40 +460,6 @@
             "side": "front",
             "filename": "boxart/front/7869-1.jpg",
             "resolution": null
-          }
-        ],
-        "7878": [
-          {
-            "id": 425762,
-            "type": "boxart",
-            "side": "front",
-            "filename": "boxart/front/7878-1.jpg",
-            "resolution": null
-          }
-        ],
-        "12081": [
-          {
-            "id": 48814,
-            "type": "boxart",
-            "side": "front",
-            "filename": "boxart/front/12081-1.jpg",
-            "resolution": "558x960"
-          },
-          {
-            "id": 57534,
-            "type": "boxart",
-            "side": "back",
-            "filename": "boxart/back/12081-1.jpg",
-            "resolution": "640x1129"
-          }
-        ],
-        "19531": [
-          {
-            "id": 56585,
-            "type": "boxart",
-            "side": "front",
-            "filename": "boxart/front/19531-1.png",
-            "resolution": "732x412"
           }
         ],
         "22529": [
@@ -547,12 +534,19 @@
             "resolution": null
           }
         ],
-        "97770": [
+        "108783": [
           {
-            "id": 330858,
+            "id": 374859,
             "type": "boxart",
             "side": "front",
-            "filename": "boxart/front/97770-1.jpg",
+            "filename": "boxart/front/108783-1.jpg",
+            "resolution": null
+          },
+          {
+            "id": 374860,
+            "type": "boxart",
+            "side": "back",
+            "filename": "boxart/back/108783-1.jpg",
             "resolution": null
           }
         ],
@@ -571,6 +565,15 @@
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/123743-1.jpg",
+            "resolution": null
+          }
+        ],
+        "124438": [
+          {
+            "id": 432458,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/124438-1.jpg",
             "resolution": null
           }
         ],
@@ -605,6 +608,15 @@
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/135537-1.jpg",
+            "resolution": null
+          }
+        ],
+        "136379": [
+          {
+            "id": 483684,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136379-1.jpg",
             "resolution": null
           }
         ]
@@ -652,11 +664,6 @@
           "name": "Android",
           "alias": "android"
         },
-        "4921": {
-          "id": 4921,
-          "name": "Ouya",
-          "alias": "ouya"
-        },
         "4926": {
           "id": 4926,
           "name": "WonderSwan Color",
@@ -675,7 +682,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+II&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
     "next": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy+II&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=2"
   },
-  "remaining_monthly_allowance": 511,
+  "remaining_monthly_allowance": 509,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630020
+  "allowance_refresh_timer": 2624839
 }

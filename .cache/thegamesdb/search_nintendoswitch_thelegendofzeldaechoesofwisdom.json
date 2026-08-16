@@ -5,48 +5,6 @@
     "count": 7,
     "games": [
       {
-        "id": 127336,
-        "game_title": "The Legend of Zelda: Echoes of Wisdom",
-        "release_date": "2024-09-26",
-        "platform": 4971,
-        "region_id": 1,
-        "country_id": 50,
-        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": [
-          3628
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
-        "id": 127345,
-        "game_title": "The Legend of Zelda: Echoes of Wisdom",
-        "release_date": "2024-09-26",
-        "platform": 4971,
-        "region_id": 6,
-        "country_id": 0,
-        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          3628
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          3
-        ]
-      },
-      {
         "id": 129523,
         "game_title": "The Legend of Zelda: Echoes of Wisdom",
         "release_date": "2024-09-26",
@@ -148,6 +106,48 @@
         "publishers": [
           3
         ]
+      },
+      {
+        "id": 127336,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
+      },
+      {
+        "id": 127345,
+        "game_title": "The Legend of Zelda: Echoes of Wisdom",
+        "release_date": "2024-09-26",
+        "platform": 4971,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "Save the kingdom of Hyrule – this time with the wisdom of Princess Zelda – in The Legend of Zelda: Echoes of Wisdom for Nintendo Switch.\r\n\r\nThe people of Hyrule are being stolen away by strange rifts that have appeared, and with a certain swordsman among those missing, it’s up to Princess Zelda to save her kingdom.\r\n\r\nTeam up with the mysterious fairy, Tri, and use the power of the Tri Rod to learn how to create echoes, imitations of things found in the environment. You can then recreate those echoes whenever you like to solve puzzles and defeat enemies.\r\n\r\nCreate echoes like water blocks to reach new heights, make bridges out of old beds, throw rocks at foes, or find your own creative combination of echoes to do things your way. You can even create echoes of monsters to fight at your side in combat!",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          3628
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          3
+        ]
       }
     ]
   },
@@ -233,7 +233,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Legend+of+Zelda%3A+Echoes+of+Wisdom&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 272,
+  "remaining_monthly_allowance": 270,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629985
+  "allowance_refresh_timer": 2624800
 }

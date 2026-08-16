@@ -2,7 +2,7 @@
   "code": 200,
   "status": "Success",
   "data": {
-    "count": 2,
+    "count": 3,
     "games": [
       {
         "id": 11395,
@@ -25,6 +25,25 @@
         "publishers": [
           1292
         ]
+      },
+      {
+        "id": 136558,
+        "game_title": "Pokemon Conquest: Twin Dragons",
+        "release_date": "2023-06-09",
+        "platform": 8,
+        "region_id": 1,
+        "country_id": 50,
+        "overview": "Pokemon Conquest: Twin Dragons is a ROM Hack of Pokemon Conquest, a hack with many quality-of-life features sprinkled in with moves from newer generations, bigger distribution of Pokemon around the game, a harder difficulty that is a challenge for old fans of the original and something exciting and fresh for newbies, and rebalanced base stat totals for every Pokemon",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
+        "developers": null,
+        "genres": [
+          2,
+          4,
+          6,
+          28
+        ],
+        "publishers": null
       },
       {
         "id": 129063,
@@ -81,6 +100,15 @@
             "filename": "boxart/front/129063-1.jpg",
             "resolution": null
           }
+        ],
+        "136558": [
+          {
+            "id": 484807,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136558-1.jpg",
+            "resolution": null
+          }
         ]
       }
     },
@@ -99,7 +127,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Conquest&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 545,
+  "remaining_monthly_allowance": 543,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630026
+  "allowance_refresh_timer": 2624843
 }

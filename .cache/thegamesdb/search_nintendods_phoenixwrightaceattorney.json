@@ -5,27 +5,6 @@
     "count": 11,
     "games": [
       {
-        "id": 99614,
-        "game_title": "Phoenix Wright: Ace Attorney",
-        "release_date": "2006-03-16",
-        "platform": 8,
-        "region_id": 6,
-        "country_id": 18,
-        "overview": "Not everyone is innocent until proven guilty! Players star as a defense attorney, who must prove his seemingly guilty client's innocence no matter how dire the circumstances may seem. The game presents twisting storylines and intriguing gameplay in a comical anime style. Players must collect evidence, weed through inconsistent testimonies, and overcome corrupt agendas to ensure that justice prevails.",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          1436
-        ],
-        "genres": [
-          2,
-          5
-        ],
-        "publishers": [
-          9
-        ]
-      },
-      {
         "id": 6865,
         "game_title": "Phoenix Wright: Ace Attorney",
         "release_date": "2005-10-12",
@@ -54,6 +33,27 @@
         "region_id": 4,
         "country_id": 28,
         "overview": "Phoenix Wright: Ace Attorney (逆転裁判 蘇る逆転 Gyakuten Saiban: Yomigaeru Gyakuten, lit. Turnabout Trial: Revived Turnabout) is the first game in the Ace Attorney series. It was originally released in Japan on October 12th, 2001 as a Game Boy Advance game under the name Gyakuten Saiban (逆転裁判, lit. Turnabout Trial). The original version of the game is split up into four episodes that follow the first four cases of rookie defense attorney Phoenix Wright. The Nintendo DS release includes a bonus new case, called Rise from the Ashes.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 99614,
+        "game_title": "Phoenix Wright: Ace Attorney",
+        "release_date": "2006-03-16",
+        "platform": 8,
+        "region_id": 6,
+        "country_id": 18,
+        "overview": "Not everyone is innocent until proven guilty! Players star as a defense attorney, who must prove his seemingly guilty client's innocence no matter how dire the circumstances may seem. The game presents twisting storylines and intriguing gameplay in a comical anime style. Players must collect evidence, weed through inconsistent testimonies, and overcome corrupt agendas to ensure that justice prevails.",
         "players": 1,
         "rating": "Not Rated",
         "developers": [
@@ -427,7 +427,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phoenix+Wright%3A+Ace+Attorney&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=8&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 565,
+  "remaining_monthly_allowance": 563,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630029
+  "allowance_refresh_timer": 2624846
 }

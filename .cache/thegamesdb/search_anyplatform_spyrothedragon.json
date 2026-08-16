@@ -480,7 +480,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Spyro+the+Dragon&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 306,
+  "remaining_monthly_allowance": 304,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629990
+  "allowance_refresh_timer": 2624808
 }

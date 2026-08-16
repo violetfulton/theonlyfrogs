@@ -5,24 +5,6 @@
     "count": 6,
     "games": [
       {
-        "id": 40128,
-        "game_title": "World of Final Fantasy",
-        "release_date": "2016-10-25",
-        "platform": 4919,
-        "region_id": 1,
-        "country_id": 0,
-        "overview": "In the enchanting RPG World of Final Fantasy, players follow the journey of siblings, Reynn and Lann, as they enter the world of Grymoire and encounter a multitude of familiar Final Fantasy characters and monsters. World of Final Fantasy combines classic RPG gameplay mechanics with fresh and imaginative toy-like visuals. Capture and raise familiar Final Fantasy beasts (such as cactuar, chocobo, and behemoth) to discover alternate forms and learn new abilities. With an inviting approach to gameplay, this game can be enjoyed by both fans and newcomers to the series.",
-        "players": 1,
-        "rating": "E10+ - Everyone 10+",
-        "developers": null,
-        "genres": [
-          4
-        ],
-        "publishers": [
-          12
-        ]
-      },
-      {
         "id": 103111,
         "game_title": "World of Final Fantasy",
         "release_date": "2016-10-28",
@@ -32,6 +14,24 @@
         "overview": "",
         "players": 1,
         "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          4
+        ],
+        "publishers": [
+          12
+        ]
+      },
+      {
+        "id": 40128,
+        "game_title": "World of Final Fantasy",
+        "release_date": "2016-10-25",
+        "platform": 4919,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "In the enchanting RPG World of Final Fantasy, players follow the journey of siblings, Reynn and Lann, as they enter the world of Grymoire and encounter a multitude of familiar Final Fantasy characters and monsters. World of Final Fantasy combines classic RPG gameplay mechanics with fresh and imaginative toy-like visuals. Capture and raise familiar Final Fantasy beasts (such as cactuar, chocobo, and behemoth) to discover alternate forms and learn new abilities. With an inviting approach to gameplay, this game can be enjoyed by both fans and newcomers to the series.",
+        "players": 1,
+        "rating": "E10+ - Everyone 10+",
         "developers": null,
         "genres": [
           4
@@ -205,7 +205,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=World+of+Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 325,
+  "remaining_monthly_allowance": 323,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629993
+  "allowance_refresh_timer": 2624811
 }

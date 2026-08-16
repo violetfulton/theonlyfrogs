@@ -5,6 +5,28 @@
     "count": 9,
     "games": [
       {
+        "id": 121675,
+        "game_title": "Pokémon Brilliant Diamond",
+        "release_date": "2021-11-19",
+        "platform": 4971,
+        "region_id": 1,
+        "country_id": 31,
+        "overview": "Las aventuras de Pokémon Brilliant Diamond transcurren en Sinnoh.\r\n\r\nSe trata de una región de naturaleza exuberante, respaldada por el imponente Monte Corona y cuyos mitos se han transmitido de generación en generación.\r\n\r\nUn conocido profesor experto en la evolución de los Pokémon te pedirá que te embarques en un viaje por la región de Sinnoh con el fin de completar la Pokédex, una especie de enciclopedia sobre Pokémon.\r\n\r\nPrimer compañero Pokémon:\r\n\r\nAl comienzo de tu viaje, tendrás que elegir entre Turtwig, Chimchar o Piplup para que se convierta en tu Pokémon inicial.\r\nApunta a lo más alto:\r\n\r\nA medida que explores la región y vayas completando tu Pokédex, tendrás que enfrentarte a los Entrenadores Pokémon más fuertes de cada ciudad: los Líderes de Gimnasio.\r\nSi los derrotas, conseguirás Medallas de Gimnasio como prueba de tus victorias. Tendrás que reunir ocho Medallas de Gimnasio para poder competir en la Liga Pokémon, donde te verás las caras con los Entrenadores de más nivel: el Alto Mando y la Campeona.\r\n¡Supera cada desafío y conviértete en Campeón o Campeona de la Liga Pokémon, un título reservado sólo para los mejores Entrenadores!\r\nPokémon legendarios:\r\n\r\nDurante tu viaje, te toparás con los Pokémon legendarios Dialga o Palkia, dependiendo de si juegas a Pokémon Brilliant Diamond o a Pokémon Shining Pearl, respectivamente.\r\nDialga y Palkia son dos Pokémon legendarios que aparecen en los mitos de Sinnoh. Se dice que Dialga es la deidad del tiempo y Palkia, la deidad del espacio. Para los habitantes de Sinnoh, ambos Pokémon son una gran leyenda.",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": [
+          3314,
+          10686
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          3,
+          1292
+        ]
+      },
+      {
         "id": 83445,
         "game_title": "Pokémon Brilliant Diamond",
         "release_date": "2021-11-19",
@@ -88,28 +110,6 @@
         "genres": [
           1,
           2,
-          4
-        ],
-        "publishers": [
-          3,
-          1292
-        ]
-      },
-      {
-        "id": 121675,
-        "game_title": "Pokémon Brilliant Diamond",
-        "release_date": "2021-11-19",
-        "platform": 4971,
-        "region_id": 1,
-        "country_id": 31,
-        "overview": "Las aventuras de Pokémon Brilliant Diamond transcurren en Sinnoh.\r\n\r\nSe trata de una región de naturaleza exuberante, respaldada por el imponente Monte Corona y cuyos mitos se han transmitido de generación en generación.\r\n\r\nUn conocido profesor experto en la evolución de los Pokémon te pedirá que te embarques en un viaje por la región de Sinnoh con el fin de completar la Pokédex, una especie de enciclopedia sobre Pokémon.\r\n\r\nPrimer compañero Pokémon:\r\n\r\nAl comienzo de tu viaje, tendrás que elegir entre Turtwig, Chimchar o Piplup para que se convierta en tu Pokémon inicial.\r\nApunta a lo más alto:\r\n\r\nA medida que explores la región y vayas completando tu Pokédex, tendrás que enfrentarte a los Entrenadores Pokémon más fuertes de cada ciudad: los Líderes de Gimnasio.\r\nSi los derrotas, conseguirás Medallas de Gimnasio como prueba de tus victorias. Tendrás que reunir ocho Medallas de Gimnasio para poder competir en la Liga Pokémon, donde te verás las caras con los Entrenadores de más nivel: el Alto Mando y la Campeona.\r\n¡Supera cada desafío y conviértete en Campeón o Campeona de la Liga Pokémon, un título reservado sólo para los mejores Entrenadores!\r\nPokémon legendarios:\r\n\r\nDurante tu viaje, te toparás con los Pokémon legendarios Dialga o Palkia, dependiendo de si juegas a Pokémon Brilliant Diamond o a Pokémon Shining Pearl, respectivamente.\r\nDialga y Palkia son dos Pokémon legendarios que aparecen en los mitos de Sinnoh. Se dice que Dialga es la deidad del tiempo y Palkia, la deidad del espacio. Para los habitantes de Sinnoh, ambos Pokémon son una gran leyenda.",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": [
-          3314,
-          10686
-        ],
-        "genres": [
           4
         ],
         "publishers": [
@@ -319,7 +319,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Pok%C3%A9mon+Brilliant+Diamond&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4971&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 288,
+  "remaining_monthly_allowance": 286,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629987
+  "allowance_refresh_timer": 2624804
 }

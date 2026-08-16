@@ -5,26 +5,6 @@
     "count": 5,
     "games": [
       {
-        "id": 108462,
-        "game_title": "Ni no Kuni: Wrath of the White Witch",
-        "release_date": "2013-02-01",
-        "platform": 12,
-        "region_id": 6,
-        "country_id": 0,
-        "overview": "",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          2796
-        ],
-        "genres": [
-          4
-        ],
-        "publishers": [
-          6
-        ]
-      },
-      {
         "id": 14536,
         "game_title": "Ni no Kuni: Wrath of the White Witch",
         "release_date": "2013-01-22",
@@ -36,6 +16,26 @@
         "rating": "E10+ - Everyone 10+",
         "developers": [
           4940
+        ],
+        "genres": [
+          4
+        ],
+        "publishers": [
+          6
+        ]
+      },
+      {
+        "id": 108462,
+        "game_title": "Ni no Kuni: Wrath of the White Witch",
+        "release_date": "2013-02-01",
+        "platform": 12,
+        "region_id": 6,
+        "country_id": 0,
+        "overview": "",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          2796
         ],
         "genres": [
           4
@@ -205,7 +205,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Ni+no+Kuni%3A+Wrath+of+the+White+Witch&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=12&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 626,
+  "remaining_monthly_allowance": 624,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630038
+  "allowance_refresh_timer": 2624855
 }

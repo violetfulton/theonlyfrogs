@@ -5,6 +5,27 @@
     "count": 5,
     "games": [
       {
+        "id": 121811,
+        "game_title": "The Last of Us Part I",
+        "release_date": "2022-09-02",
+        "platform": 4980,
+        "region_id": 6,
+        "country_id": 37,
+        "overview": "Poznaj poruszającą opowieść i niezapomniane postacie w The Last of Us – grze, która zdobyła ponad 200 nagród za tytuł roku.\r\n\r\nW spustoszonym świecie opanowanym przez zarażonych i niebezpiecznych ocalałych doświadczony przez życie Joel podejmuje się wyprowadzenia 14-letniej Ellie z objętej kwarantanną strefy wojskowej. Pozornie proste zadanie wkrótce zamienia się w niebezpieczną podróż po kraju.\r\n\r\nZawiera pełną opowieść dla jednego gracza z The Last of Us oraz nagradzany rozdział dodatkowy Left Behind, opowiadający o wydarzeniach z przeszłości Ellie i jej przyjaciółki Riley, które na zawsze zmieniły ich życia.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          5839
+        ],
+        "genres": [
+          1,
+          2
+        ],
+        "publishers": [
+          4048
+        ]
+      },
+      {
         "id": 101266,
         "game_title": "The Last of Us Part I",
         "release_date": "2022-09-02",
@@ -26,27 +47,6 @@
           4452,
           4954,
           5579
-        ]
-      },
-      {
-        "id": 121811,
-        "game_title": "The Last of Us Part I",
-        "release_date": "2022-09-02",
-        "platform": 4980,
-        "region_id": 6,
-        "country_id": 37,
-        "overview": "Poznaj poruszającą opowieść i niezapomniane postacie w The Last of Us – grze, która zdobyła ponad 200 nagród za tytuł roku.\r\n\r\nW spustoszonym świecie opanowanym przez zarażonych i niebezpiecznych ocalałych doświadczony przez życie Joel podejmuje się wyprowadzenia 14-letniej Ellie z objętej kwarantanną strefy wojskowej. Pozornie proste zadanie wkrótce zamienia się w niebezpieczną podróż po kraju.\r\n\r\nZawiera pełną opowieść dla jednego gracza z The Last of Us oraz nagradzany rozdział dodatkowy Left Behind, opowiadający o wydarzeniach z przeszłości Ellie i jej przyjaciółki Riley, które na zawsze zmieniły ich życia.",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          5839
-        ],
-        "genres": [
-          1,
-          2
-        ],
-        "publishers": [
-          4048
         ]
       },
       {
@@ -214,7 +214,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=The+Last+of+Us+Part+I&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4980&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 72,
+  "remaining_monthly_allowance": 70,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629953
+  "allowance_refresh_timer": 2624769
 }

@@ -5,27 +5,6 @@
     "count": 4,
     "games": [
       {
-        "id": 75116,
-        "game_title": "Gyakuten Saiban 123: Naruhodō Selection",
-        "release_date": "2019-02-21",
-        "platform": 4919,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "Phoenix Wright: Ace Attorney Trilogy, known in Japan as Gyakuten Saiban 123: Naruhodō Selection, is a compilation video game of the first 3 games in the Ace Attorney series, Phoenix Wright: Ace Attorney, Justice for All, and Trials and Tribulations.",
-        "players": 1,
-        "rating": "Not Rated",
-        "developers": [
-          1436
-        ],
-        "genres": [
-          2,
-          5
-        ],
-        "publishers": [
-          9
-        ]
-      },
-      {
         "id": 63901,
         "game_title": "Phoenix Wright: Ace Attorney Trilogy",
         "release_date": "2019-04-09",
@@ -58,6 +37,27 @@
         "rating": "Not Rated",
         "developers": [
           1446
+        ],
+        "genres": [
+          2,
+          5
+        ],
+        "publishers": [
+          9
+        ]
+      },
+      {
+        "id": 75116,
+        "game_title": "Gyakuten Saiban 123: Naruhodō Selection",
+        "release_date": "2019-02-21",
+        "platform": 4919,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "Phoenix Wright: Ace Attorney Trilogy, known in Japan as Gyakuten Saiban 123: Naruhodō Selection, is a compilation video game of the first 3 games in the Ace Attorney series, Phoenix Wright: Ace Attorney, Justice for All, and Trials and Tribulations.",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": [
+          1436
         ],
         "genres": [
           2,
@@ -168,7 +168,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Phoenix+Wright%3A+Ace+Attorney+Trilogy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=4919&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 345,
+  "remaining_monthly_allowance": 343,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2629996
+  "allowance_refresh_timer": 2624814
 }

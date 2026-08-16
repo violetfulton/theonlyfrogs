@@ -2,7 +2,7 @@
   "code": 200,
   "status": "Success",
   "data": {
-    "count": 14,
+    "count": 15,
     "games": [
       {
         "id": 3422,
@@ -61,23 +61,6 @@
         ]
       },
       {
-        "id": 83092,
-        "game_title": "Final Fantasy Tactics Advance",
-        "release_date": "2003-02-14",
-        "platform": 5,
-        "region_id": 4,
-        "country_id": 28,
-        "overview": "",
-        "players": 1,
-        "rating": "E - Everyone",
-        "developers": null,
-        "genres": [
-          4,
-          6
-        ],
-        "publishers": null
-      },
-      {
         "id": 2497,
         "game_title": "Final Fantasy Tactics Advance",
         "release_date": "2003-09-08",
@@ -99,19 +82,35 @@
         ]
       },
       {
-        "id": 126197,
-        "game_title": "Final Fantasy Tactics Advance Battle",
-        "release_date": "2020-08-15",
+        "id": 83092,
+        "game_title": "Final Fantasy Tactics Advance",
+        "release_date": "2003-02-14",
         "platform": 5,
-        "region_id": 1,
+        "region_id": 4,
+        "country_id": 28,
+        "overview": "",
+        "players": 1,
+        "rating": "E - Everyone",
+        "developers": null,
+        "genres": [
+          4,
+          6
+        ],
+        "publishers": null
+      },
+      {
+        "id": 136344,
+        "game_title": "Final Fantasy Tactics Advance Anarchy",
+        "release_date": "1970-01-01",
+        "platform": 5,
+        "region_id": 9,
         "country_id": 0,
-        "overview": "Final Fantasy Tactics Advanced Battle is a hack that brings monster taming to Final Fantasy Tactics Advance, and makes the whole experience centered around this mechanic.\r\n\r\nThe player can use a new item (the Capture Orb) to capture monsters which (unlike in the vanilla game) join the party and fight on your side. Additionally, all ways to get new humanoid party members have been disabled, the player needs to make do with only monsters and the two starting humanoid party members.\r\n\r\nA new system to learn abilities is implemented, similarly to the original Final Fantasy Tactics the units will earn JP which they can spend directly on purchasing abilities. This is the only way the player has to teach new abilities to the monsters.\r\n\r\nThese are the main changes, and they alone already make for a completely new experience, but be sure to check the readme for a more detailed list.\r\n",
+        "overview": "",
         "players": 1,
         "rating": "Not Rated",
         "developers": null,
         "genres": [
-          1,
-          2
+          4
         ],
         "publishers": null
       },
@@ -128,6 +127,23 @@
         "developers": null,
         "genres": [
           4
+        ],
+        "publishers": null
+      },
+      {
+        "id": 126197,
+        "game_title": "Final Fantasy Tactics Advance Battle",
+        "release_date": "2020-08-15",
+        "platform": 5,
+        "region_id": 1,
+        "country_id": 0,
+        "overview": "Final Fantasy Tactics Advanced Battle is a hack that brings monster taming to Final Fantasy Tactics Advance, and makes the whole experience centered around this mechanic.\r\n\r\nThe player can use a new item (the Capture Orb) to capture monsters which (unlike in the vanilla game) join the party and fight on your side. Additionally, all ways to get new humanoid party members have been disabled, the player needs to make do with only monsters and the two starting humanoid party members.\r\n\r\nA new system to learn abilities is implemented, similarly to the original Final Fantasy Tactics the units will earn JP which they can spend directly on purchasing abilities. This is the only way the player has to teach new abilities to the monsters.\r\n\r\nThese are the main changes, and they alone already make for a completely new experience, but be sure to check the readme for a more detailed list.\r\n",
+        "players": 1,
+        "rating": "Not Rated",
+        "developers": null,
+        "genres": [
+          1,
+          2
         ],
         "publishers": null
       },
@@ -355,7 +371,7 @@
         ],
         "126197": [
           {
-            "id": 462444,
+            "id": 483500,
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/126197-1.jpg",
@@ -391,7 +407,7 @@
         ],
         "131674": [
           {
-            "id": 462445,
+            "id": 483507,
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/131674-1.jpg",
@@ -400,7 +416,7 @@
         ],
         "132447": [
           {
-            "id": 465970,
+            "id": 483508,
             "type": "boxart",
             "side": "front",
             "filename": "boxart/front/132447-1.jpg",
@@ -424,6 +440,15 @@
             "filename": "boxart/front/136115-1.jpg",
             "resolution": null
           }
+        ],
+        "136344": [
+          {
+            "id": 483499,
+            "type": "boxart",
+            "side": "front",
+            "filename": "boxart/front/136344-1.jpg",
+            "resolution": null
+          }
         ]
       }
     },
@@ -442,7 +467,7 @@
     "current": "https://api.thegamesdb.net/v1.1/Games/ByGameName?apikey=d44d67bf2b4b876b64f6a9314cb72895f58b6dba4714c125bb375e25939901da&name=Final+Fantasy&fields=publishers%2Coverview%2Cplatform%2Cgenres%2Cplayers%2Crating&include=boxart%2Cplatform&filter%5Bplatform%5D=5&page=1",
     "next": null
   },
-  "remaining_monthly_allowance": 513,
+  "remaining_monthly_allowance": 511,
   "extra_allowance": 0,
-  "allowance_refresh_timer": 2630021
+  "allowance_refresh_timer": 2624839
 }
