@@ -1,0 +1,492 @@
+---
+title: Long Haul
+layout: layouts/ffBase.njk
+permalink: /shrines/finalfantasyxiv/long-haul/
+customcss: "/assets/css/ffxiv/long-haul.css"
+description: "Long-term Final Fantasy XIV grinds to pick away at when I don't know what else to do."
+---
+
+{% set lh = ffxivLongHaul %}
+
+<div class="lh-page">
+
+  <section class="lh-hero ff-card">
+    <div>
+      <p class="lh-kicker">✦ the forever list ✦</p>
+      <h1>Long Haul</h1>
+
+      <p class="lh-hero__lede">
+        No progress bars. No giant numbers staring at me.
+        Just things that take forever and are worth making a tiny dent in
+        whenever I don't feel like doing anything specific.
+      </p>
+    </div>
+
+    <aside class="lh-rule">
+      <span>the rule</span>
+      <strong>do a little bit and leave ♡</strong>
+      <p>
+        The game already knows exactly how much I've done.
+        This page only needs to tell me what sounds good tonight.
+      </p>
+    </aside>
+  </section>
+
+
+  <section class="lh-picker ff-card" aria-labelledby="lh-picker-title">
+    <div>
+      <p class="lh-kicker">I don't know what to do</p>
+      <h2 id="lh-picker-title">Give me a long grind</h2>
+      <p class="lh-picker__intro">
+        Filter by mood or time if I have opinions.
+        Otherwise let the website make the bad decision for me.
+      </p>
+    </div>
+
+    <button type="button" class="lh-random" id="lh-random">
+      🎲 Pick something
+    </button>
+
+    <div class="lh-picked" id="lh-picked" aria-live="polite">
+      <span aria-hidden="true">✧</span>
+
+      <div>
+        <small>tonight's suggestion</small>
+        <strong>Anything could happen.</strong>
+        <p>Hit the button when decision-making has failed.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="lh-controls ff-card" aria-label="Long Haul filters">
+    <label class="lh-search">
+      <span>Search</span>
+
+      <input
+        id="lh-search"
+        type="search"
+        placeholder="Diadem, PvP, relics, moon…"
+        autocomplete="off"
+      >
+    </label>
+
+
+    <div class="lh-control">
+      <span class="lh-control__label">Type</span>
+
+      <div class="lh-filter-row">
+        {% for category in lh.categories %}
+          <button
+            type="button"
+            class="{% if category.id == 'all' %}is-active{% endif %}"
+            data-category-filter="{{ category.id }}"
+          >
+            {{ category.label }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="lh-control">
+      <span class="lh-control__label">Mood</span>
+
+      <div class="lh-filter-row">
+        {% for id, label in lh.moodLabels %}
+          <button
+            type="button"
+            class="{% if id == 'all' %}is-active{% endif %}"
+            data-mood-filter="{{ id }}"
+          >
+            {{ label }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+
+    <div class="lh-control">
+      <span class="lh-control__label">Time</span>
+
+      <div class="lh-filter-row">
+        {% for id, label in lh.timeLabels %}
+          <button
+            type="button"
+            class="{% if id == 'all' %}is-active{% endif %}"
+            data-time-filter="{{ id }}"
+          >
+            {{ label }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="lh-visible">
+      <strong id="lh-visible-count"></strong>
+      ideas match
+    </p>
+  </section>
+
+
+  <section class="lh-grid" id="lh-grid">
+    {% for project in lh.projects %}
+      <article
+        class="lh-card ff-card"
+        data-project-id="{{ project.id }}"
+        data-category="{{ project.category }}"
+        data-moods="{{ project.moods | join(' ') }}"
+        data-times="{{ project.times | join(' ') }}"
+        data-search="{{ (project.name ~ ' ' ~ project.category ~ ' ' ~ project.vibe ~ ' ' ~ project.description ~ ' ' ~ project.note) | lower | escape }}"
+      >
+
+        <header class="lh-card__head">
+          <span class="lh-card__icon" aria-hidden="true">
+            {{ project.icon }}
+          </span>
+
+          <div>
+            <p>{{ project.vibe }}</p>
+            <h2>{{ project.name }}</h2>
+          </div>
+        </header>
+
+
+        <p class="lh-card__description">
+          {{ project.description }}
+        </p>
+
+
+        <div class="lh-do-this">
+          <span>Do this</span>
+          <p>{{ project.tonight }}</p>
+        </div>
+
+
+        <div class="lh-tags">
+          {% for mood in project.moods %}
+            <span>{{ lh.moodLabels[mood] }}</span>
+          {% endfor %}
+
+          {% for time in project.times %}
+            <span>{{ lh.timeLabels[time] }}</span>
+          {% endfor %}
+        </div>
+
+
+        {% if project.note %}
+          <details class="lh-note">
+            <summary>why this is here</summary>
+            <p>{{ project.note }}</p>
+          </details>
+        {% endif %}
+
+      </article>
+    {% endfor %}
+  </section>
+
+</div>
+
+
+<script>
+(() => {
+  const cards = [
+    ...document.querySelectorAll(".lh-card[data-project-id]")
+  ];
+
+  const categoryButtons = [
+    ...document.querySelectorAll("[data-category-filter]")
+  ];
+
+  const moodButtons = [
+    ...document.querySelectorAll("[data-mood-filter]")
+  ];
+
+  const timeButtons = [
+    ...document.querySelectorAll("[data-time-filter]")
+  ];
+
+  const search = document.querySelector("#lh-search");
+  const visibleCount = document.querySelector("#lh-visible-count");
+  const randomButton = document.querySelector("#lh-random");
+  const picked = document.querySelector("#lh-picked");
+
+  let category = "all";
+  let mood = "all";
+  let time = "all";
+  let query = "";
+
+
+  function includesToken(value, token) {
+    return (value || "")
+      .split(/\s+/)
+      .includes(token);
+  }
+
+
+  function cardMatches(card) {
+    const categoryMatch =
+      category === "all" ||
+      card.dataset.category === category;
+
+    const moodMatch =
+      mood === "all" ||
+      includesToken(card.dataset.moods, mood);
+
+    const timeMatch =
+      time === "all" ||
+      includesToken(card.dataset.times, time);
+
+    const searchMatch =
+      !query ||
+      (card.dataset.search || "").includes(query);
+
+    return (
+      categoryMatch &&
+      moodMatch &&
+      timeMatch &&
+      searchMatch
+    );
+  }
+
+
+  function applyFilters() {
+    let shown = 0;
+
+    cards.forEach((card) => {
+      const visible = cardMatches(card);
+      card.hidden = !visible;
+
+      if (visible) {
+        shown++;
+      }
+    });
+
+    if (visibleCount) {
+      visibleCount.textContent = String(shown);
+    }
+  }
+
+
+  function activate(buttons, selected, key) {
+    buttons.forEach((button) => {
+      button.classList.toggle(
+        "is-active",
+        button.dataset[key] === selected
+      );
+    });
+  }
+
+
+  categoryButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      category = button.dataset.categoryFilter;
+
+      activate(
+        categoryButtons,
+        category,
+        "categoryFilter"
+      );
+
+      applyFilters();
+    });
+  });
+
+
+  moodButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      mood = button.dataset.moodFilter;
+
+      activate(
+        moodButtons,
+        mood,
+        "moodFilter"
+      );
+
+      applyFilters();
+    });
+  });
+
+
+  timeButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      time = button.dataset.timeFilter;
+
+      activate(
+        timeButtons,
+        time,
+        "timeFilter"
+      );
+
+      applyFilters();
+    });
+  });
+
+
+  search?.addEventListener("input", () => {
+    query =
+      search.value
+        .trim()
+        .toLowerCase();
+
+    applyFilters();
+  });
+
+
+  function pickRandom() {
+    const candidates =
+      cards.filter((card) => !card.hidden);
+
+    cards.forEach((card) => {
+      card.classList.remove("is-picked");
+    });
+
+
+    if (!candidates.length) {
+      if (picked) {
+        picked.querySelector("strong").textContent =
+          "Nothing matches that combination.";
+
+        picked.querySelector("p").textContent =
+          "Loosen a filter and let me try again.";
+      }
+
+      return;
+    }
+
+
+    const card =
+      candidates[
+        Math.floor(
+          Math.random() * candidates.length
+        )
+      ];
+
+
+    card.classList.add("is-picked");
+
+
+    const title =
+      card
+        .querySelector("h2")
+        ?.textContent
+        ?.trim() ||
+      "Mystery grind";
+
+
+    const action =
+      card
+        .querySelector(".lh-do-this p")
+        ?.textContent
+        ?.trim() ||
+      "Go do the thing.";
+
+
+    if (picked) {
+      picked.querySelector("strong").textContent =
+        title;
+
+      picked.querySelector("p").textContent =
+        action;
+    }
+
+
+    card.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
+
+
+  randomButton?.addEventListener(
+    "click",
+    pickRandom
+  );
+
+
+  /* Deep links:
+     ?pick=1
+     ?category=restoration
+     ?mood=brain-off&time=30&pick=1
+     ?category=cosmic&pick=1
+  */
+
+  const params =
+    new URLSearchParams(
+      window.location.search
+    );
+
+
+  const requestedCategory =
+    params.get("category");
+
+  const requestedMood =
+    params.get("mood");
+
+  const requestedTime =
+    params.get("time");
+
+
+  if (
+    requestedCategory &&
+    categoryButtons.some(
+      (button) =>
+        button.dataset.categoryFilter === requestedCategory
+    )
+  ) {
+    category = requestedCategory;
+
+    activate(
+      categoryButtons,
+      category,
+      "categoryFilter"
+    );
+  }
+
+
+  if (
+    requestedMood &&
+    moodButtons.some(
+      (button) =>
+        button.dataset.moodFilter === requestedMood
+    )
+  ) {
+    mood = requestedMood;
+
+    activate(
+      moodButtons,
+      mood,
+      "moodFilter"
+    );
+  }
+
+
+  if (
+    requestedTime &&
+    timeButtons.some(
+      (button) =>
+        button.dataset.timeFilter === requestedTime
+    )
+  ) {
+    time = requestedTime;
+
+    activate(
+      timeButtons,
+      time,
+      "timeFilter"
+    );
+  }
+
+
+  applyFilters();
+
+
+  if (params.get("pick") === "1") {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(
+        pickRandom
+      );
+    });
+  }
+})();
+</script>

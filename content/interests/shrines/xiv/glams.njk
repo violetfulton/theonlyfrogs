@@ -2,21 +2,44 @@
 title: "Glams"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/glams/
-description: "Aggro Phobic's FFXIV glamour wardrobe — favourite looks, raid outfits, cute and witchy glams, and pieces I keep reusing."
+description: "Aggro Phobic's FFXIV glamour wardrobe — favourite looks, raid outfits, cute and witchy glams, repeated pieces, and a doorway into current Glam Projects."
 customcss: "/assets/css/ffxiv/glams.css"
 ---
 
 {% set g = ffxivGlams %}
+{% set gp = ffxivGlamProjects %}
 {% set featured = g.looks[0] %}
 
 <div class="ff-glams">
+
   <section class="ff-glam-hero ff-card">
     <div class="ff-glam-hero__copy">
       <p class="ff-glam-kicker">✧ Aggro’s wardrobe ✧</p>
       <h1>Glams</h1>
+
       <p>{{ g.intro }}</p>
 
-      <div class="ff-glam-hero__scribble">dress-up is endgame ♡</div>
+      <div class="ff-glam-hero__actions">
+        <a
+          class="ff-button ff-button--primary"
+          href="/shrines/finalfantasyxiv/glams/projects/"
+        >
+          Open Glam Projects →
+        </a>
+
+        {% if gp and gp.stats and gp.stats.incomplete > 0 %}
+          <a
+            class="ff-button"
+            href="/shrines/finalfantasyxiv/glams/projects/?pick=1"
+          >
+            🎲 Pick a hunt
+          </a>
+        {% endif %}
+      </div>
+
+      <div class="ff-glam-hero__scribble">
+        dress-up is endgame ♡
+      </div>
     </div>
 
     <div class="ff-glam-hero__hanger" aria-hidden="true">
@@ -26,11 +49,15 @@ customcss: "/assets/css/ffxiv/glams.css"
     </div>
   </section>
 
+
   {% if featured %}
     <section class="ff-glam-feature ff-card">
       <div class="ff-glam-feature__image">
         {% if featured.image %}
-          <img src="{{ featured.image }}" alt="{{ featured.alt or featured.title }}">
+          <img
+            src="{{ featured.image }}"
+            alt="{{ featured.alt or featured.title }}"
+          >
         {% else %}
           <div class="ff-glam-photo-placeholder ff-glam-photo-placeholder--feature">
             <span>✧</span>
@@ -41,34 +68,47 @@ customcss: "/assets/css/ffxiv/glams.css"
       </div>
 
       <div class="ff-glam-feature__copy">
-        <p class="ff-glam-kicker">♡ featured look</p>
+        <p class="ff-glam-kicker">♡ current favourite</p>
         <h2>{{ featured.title }}</h2>
 
         <div class="ff-glam-tags">
-          {% if featured.category %}<span>{{ featured.category }}</span>{% endif %}
-          {% if featured.job %}<span>{{ featured.job }}</span>{% endif %}
-          {% if featured.dyes %}<span>{{ featured.dyes }}</span>{% endif %}
+          {% if featured.category %}
+            <span>{{ featured.category }}</span>
+          {% endif %}
+
+          {% if featured.job %}
+            <span>{{ featured.job }}</span>
+          {% endif %}
+
+          {% if featured.dyes %}
+            <span>{{ featured.dyes }}</span>
+          {% endif %}
         </div>
 
         {% if featured.note %}
-          <p class="ff-glam-feature__note">{{ featured.note }}</p>
+          <p class="ff-glam-feature__note">
+            {{ featured.note }}
+          </p>
         {% endif %}
 
-        {% if featured.gear %}
-          <div class="ff-glam-gear">
-            {% for label, item in featured.gear %}
-              {% if item %}
-                <div>
-                  <span>{{ label }}</span>
-                  <strong>{{ item }}</strong>
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
+        <div class="ff-glam-gear">
+          {% for label, item in featured.gear %}
+            <div>
+              <span>{{ label }}</span>
+              <strong>{{ item or "—" }}</strong>
+            </div>
+          {% endfor %}
+        </div>
+
+        <p class="ff-glam-feature__hint">
+          This page is the finished-look scrapbook.
+          Missing outfit pieces and things worth farming live in
+          <a href="/shrines/finalfantasyxiv/glams/projects/">Glam Projects</a>.
+        </p>
       </div>
     </section>
   {% endif %}
+
 
   <section class="ff-glam-lookbook ff-card">
     <div class="ff-glam-section-head">
@@ -76,10 +116,18 @@ customcss: "/assets/css/ffxiv/glams.css"
         <p class="ff-glam-kicker">✦ outfit archive</p>
         <h2>The lookbook</h2>
       </div>
-      <p>Filter by vibe rather than forcing everything into job categories.</p>
+
+      <p>
+        Filter by vibe rather than forcing everything
+        into job categories.
+      </p>
     </div>
 
-    <div class="ff-glam-filters" role="group" aria-label="Filter glams">
+    <div
+      class="ff-glam-filters"
+      role="group"
+      aria-label="Filter glams"
+    >
       {% for category in g.categories %}
         <button
           class="ff-glam-filter{% if loop.first %} is-active{% endif %}"
@@ -100,7 +148,10 @@ customcss: "/assets/css/ffxiv/glams.css"
         >
           <div class="ff-glam-card__image">
             {% if look.image %}
-              <img src="{{ look.image }}" alt="{{ look.alt or look.title }}">
+              <img
+                src="{{ look.image }}"
+                alt="{{ look.alt or look.title }}"
+              >
             {% else %}
               <div class="ff-glam-photo-placeholder">
                 <span>✧</span>
@@ -109,14 +160,19 @@ customcss: "/assets/css/ffxiv/glams.css"
             {% endif %}
 
             {% if look.favourite %}
-              <span class="ff-glam-card__favourite">♡ favourite</span>
+              <span class="ff-glam-card__favourite">
+                ♡ favourite
+              </span>
             {% endif %}
           </div>
 
           <div class="ff-glam-card__copy">
             <div class="ff-glam-card__meta">
               <span>{{ look.category }}</span>
-              {% if look.job %}<span>{{ look.job }}</span>{% endif %}
+
+              {% if look.job %}
+                <span>{{ look.job }}</span>
+              {% endif %}
             </div>
 
             <h3>{{ look.title }}</h3>
@@ -127,20 +183,32 @@ customcss: "/assets/css/ffxiv/glams.css"
               type="button"
               data-glam-open="glam-dialog-{{ loop.index }}"
             >
-              view look →
+              outfit details →
             </button>
           </div>
         </article>
 
-        <dialog class="ff-glam-dialog" id="glam-dialog-{{ loop.index }}">
+
+        <dialog
+          class="ff-glam-dialog"
+          id="glam-dialog-{{ loop.index }}"
+        >
           <form method="dialog">
-            <button class="ff-glam-dialog__close" aria-label="Close">×</button>
+            <button
+              class="ff-glam-dialog__close"
+              aria-label="Close"
+            >
+              ×
+            </button>
           </form>
 
           <div class="ff-glam-dialog__layout">
             <div class="ff-glam-dialog__image">
               {% if look.image %}
-                <img src="{{ look.image }}" alt="{{ look.alt or look.title }}">
+                <img
+                  src="{{ look.image }}"
+                  alt="{{ look.alt or look.title }}"
+                >
               {% else %}
                 <div class="ff-glam-photo-placeholder ff-glam-photo-placeholder--dialog">
                   <span>✧</span>
@@ -150,26 +218,36 @@ customcss: "/assets/css/ffxiv/glams.css"
             </div>
 
             <div class="ff-glam-dialog__copy">
-              <p class="ff-glam-kicker">{{ look.category }}</p>
-              <h2>{{ look.title }}</h2>
-              {% if look.job %}<p class="ff-glam-dialog__job">{{ look.job }}</p>{% endif %}
-              <p>{{ look.note }}</p>
+              <p class="ff-glam-kicker">
+                {{ look.category }}
+              </p>
 
-              {% if look.gear %}
-                <div class="ff-glam-dialog__gear">
-                  {% for label, item in look.gear %}
-                    {% if item %}
-                      <div>
-                        <span>{{ label }}</span>
-                        <strong>{{ item }}</strong>
-                      </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
+              <h2>{{ look.title }}</h2>
+
+              {% if look.job %}
+                <p class="ff-glam-dialog__job">
+                  {{ look.job }}
+                </p>
               {% endif %}
 
+              <p>{{ look.note }}</p>
+
+              <div class="ff-glam-dialog__gear">
+                {% for label, item in look.gear %}
+                  <div>
+                    <span>{{ label }}</span>
+                    <strong>
+                      {{ item or "not added yet" }}
+                    </strong>
+                  </div>
+                {% endfor %}
+              </div>
+
               {% if look.dyes %}
-                <p class="ff-glam-dialog__dyes"><strong>Dyes:</strong> {{ look.dyes }}</p>
+                <p class="ff-glam-dialog__dyes">
+                  <strong>Dyes:</strong>
+                  {{ look.dyes }}
+                </p>
               {% endif %}
             </div>
           </div>
@@ -178,13 +256,18 @@ customcss: "/assets/css/ffxiv/glams.css"
     </div>
   </section>
 
+
   <section class="ff-card ff-glam-repeat">
     <div class="ff-glam-section-head">
       <div>
-        <p class="ff-glam-kicker">♡ wardrobe DNA</p>
-        <h2>The Aggro uniform</h2>
+        <p class="ff-glam-kicker">♡ repeat offenders</p>
+        <h2>Pieces I use way too much</h2>
       </div>
-      <p>The colours, shapes and tiny bits of nonsense that keep showing up no matter what the actual outfit is.</p>
+
+      <p>
+        The handful of items that somehow solve
+        every glamour problem.
+      </p>
     </div>
 
     <div class="ff-glam-repeat-grid">
@@ -192,52 +275,143 @@ customcss: "/assets/css/ffxiv/glams.css"
         <article>
           <span aria-hidden="true">✧</span>
           <small>{{ piece.label }}</small>
-          <strong>{{ piece.name }}</strong>
+          <strong>
+            {{ piece.name or "add item name" }}
+          </strong>
           <p>{{ piece.note }}</p>
         </article>
       {% endfor %}
     </div>
   </section>
 
-  <section class="ff-glam-crosslink ff-card">
-    <div>
-      <p class="ff-glam-kicker">⌂ the other half of dress-up</p>
-      <h2>Where does Aggro wear all this?</h2>
-      <p>Go nose around the housing scrapbook for giant mushrooms, glowing pink trees and Aggro’s very overgrown little garden.</p>
+
+  <section
+    class="ff-glam-crosslink
+           ff-glam-crosslink--projects
+           ff-card"
+  >
+    <div class="ff-glam-crosslink__project-icon" aria-hidden="true">
+      ✦
     </div>
-    <a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/housing/">Visit housing →</a>
+
+    <div>
+      <p class="ff-glam-kicker">
+        ✧ wardrobe workbench
+      </p>
+
+      <h2>
+        Fancy actually hunting something?
+      </h2>
+
+      <p>
+        Glam Projects compares my stored Outfit Glamours with
+        their full sets and turns the unfinished ones into
+        things I could go farm.
+      </p>
+
+      {% if gp and gp.stats %}
+        <div class="ff-glam-project-stats">
+          <span>
+            <strong>{{ gp.stats.incomplete }}</strong>
+            projects
+          </span>
+
+          <span>
+            <strong>{{ gp.stats.almost }}</strong>
+            one piece away
+          </span>
+
+          <span>
+            <strong>{{ gp.stats.close }}</strong>
+            two pieces away
+          </span>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="ff-glam-crosslink__actions">
+      <a
+        class="ff-button ff-button--primary"
+        href="/shrines/finalfantasyxiv/glams/projects/"
+      >
+        Open Glam Projects →
+      </a>
+
+      {% if gp and gp.stats and gp.stats.incomplete > 0 %}
+        <a
+          class="ff-button"
+          href="/shrines/finalfantasyxiv/glams/projects/?pick=1"
+        >
+          🎲 Pick a hunt
+        </a>
+      {% endif %}
+    </div>
   </section>
+
 </div>
 
+
 <script>
-  (() => {
-    const buttons = [...document.querySelectorAll("[data-glam-filter]")];
-    const cards = [...document.querySelectorAll("[data-glam-card]")];
+(() => {
+  const buttons = [
+    ...document.querySelectorAll("[data-glam-filter]")
+  ];
 
-    buttons.forEach((button) => {
+  const cards = [
+    ...document.querySelectorAll("[data-glam-card]")
+  ];
+
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const target =
+        button.dataset.glamFilter;
+
+      buttons.forEach((item) => {
+        item.classList.toggle(
+          "is-active",
+          item === button
+        );
+      });
+
+      cards.forEach((card) => {
+        const matches =
+          target === "all" ||
+          card.dataset.glamCategory === target;
+
+        card.hidden = !matches;
+      });
+    });
+  });
+
+
+  document
+    .querySelectorAll("[data-glam-open]")
+    .forEach((button) => {
       button.addEventListener("click", () => {
-        const target = button.dataset.glamFilter;
+        const dialog =
+          document.getElementById(
+            button.dataset.glamOpen
+          );
 
-        buttons.forEach((item) => item.classList.toggle("is-active", item === button));
-
-        cards.forEach((card) => {
-          const matches = target === "all" || card.dataset.glamCategory === target;
-          card.hidden = !matches;
-        });
+        if (
+          dialog &&
+          typeof dialog.showModal === "function"
+        ) {
+          dialog.showModal();
+        }
       });
     });
 
-    document.querySelectorAll("[data-glam-open]").forEach((button) => {
-      button.addEventListener("click", () => {
-        const dialog = document.getElementById(button.dataset.glamOpen);
-        if (dialog && typeof dialog.showModal === "function") dialog.showModal();
-      });
-    });
 
-    document.querySelectorAll(".ff-glam-dialog").forEach((dialog) => {
+  document
+    .querySelectorAll(".ff-glam-dialog")
+    .forEach((dialog) => {
       dialog.addEventListener("click", (event) => {
-        if (event.target === dialog) dialog.close();
+        if (event.target === dialog) {
+          dialog.close();
+        }
       });
     });
-  })();
+})();
 </script>

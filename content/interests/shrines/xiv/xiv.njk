@@ -6,8 +6,20 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
 ---
 
 {% set d = ffxivAchievementDashboard %}
+{% set g = ffxivGlamProjects %}
+
+{% if g and g.projects and g.projects.length %}
+  {% set closestGlam = g.projects[0] %}
+{% else %}
+  {% set closestGlam = null %}
+{% endif %}
 
 <div class="ff-home">
+
+  {# =========================================================
+     HERO
+     ========================================================= #}
+
   <section class="ff-home-hero ff-card">
     <div class="ff-home-portrait-wrap">
       <div class="ff-home-portrait-frame">
@@ -24,7 +36,12 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
             alt="{{ d.character.name }}"
           >
         {% else %}
-          <div class="ff-home-portrait-placeholder" aria-hidden="true">✦</div>
+          <div
+            class="ff-home-portrait-placeholder"
+            aria-hidden="true"
+          >
+            ✦
+          </div>
         {% endif %}
       </div>
 
@@ -32,228 +49,841 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
     </div>
 
     <div class="ff-home-hero-copy">
-      <p class="ff-home-kicker">✦ adventurer journal ✦</p>
+      <p class="ff-home-kicker">
+        ✦ adventurer journal ✦
+      </p>
 
       {% if d and d.character and d.character.title %}
-        <p class="ff-home-character-title">{{ d.character.title }}</p>
+        <p class="ff-home-character-title">
+          {{ d.character.title }}
+        </p>
       {% endif %}
 
-      <h1>{{ d.character.name or "Aggro Phobic" }}</h1>
-      <p class="ff-home-world">{{ d.character.worldDisplay or "Lich [Light]" }}</p>
+      <h1>
+        {{ d.character.name or "Aggro Phobic" }}
+      </h1>
+
+      <p class="ff-home-world">
+        {{ d.character.worldDisplay or "Lich [Light]" }}
+      </p>
 
       <p class="ff-home-lede">
-        A fresh little life in Eorzea. This is where I’m keeping the things I actually care about:
-        progress I’m proud of, achievements I can chase next, pretty glams, housing ideas, gil goals,
-        screenshots, and whatever tiny obsession has taken over my brain this week.
+        A fresh little life in Eorzea. This is where I’m keeping
+        the things I actually care about: progress I’m proud of,
+        achievements I can chase next, pretty glams, housing ideas,
+        gil goals, screenshots, and whatever tiny obsession has
+        taken over my brain this week.
       </p>
 
       <div class="ff-home-actions">
-        <a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/achievements/">
-          Open achievement journal <span aria-hidden="true">→</span>
+        <a
+          class="ff-button ff-button--primary"
+          href="/shrines/finalfantasyxiv/achievements/"
+        >
+          Open achievement journal
+          <span aria-hidden="true">→</span>
         </a>
 
         {% if d and d.character and d.character.lodestoneUrl %}
-          <a class="ff-button" href="{{ d.character.lodestoneUrl }}" target="_blank" rel="noopener">
-            Lodestone <span aria-hidden="true">↗</span>
+          <a
+            class="ff-button"
+            href="{{ d.character.lodestoneUrl }}"
+            target="_blank"
+            rel="noopener"
+          >
+            Lodestone
+            <span aria-hidden="true">↗</span>
           </a>
         {% else %}
-          <a class="ff-button" href="https://eu.finalfantasyxiv.com/lodestone/character/56132424/" target="_blank" rel="noopener">
-            Lodestone <span aria-hidden="true">↗</span>
+          <a
+            class="ff-button"
+            href="https://eu.finalfantasyxiv.com/lodestone/character/56132424/"
+            target="_blank"
+            rel="noopener"
+          >
+            Lodestone
+            <span aria-hidden="true">↗</span>
           </a>
         {% endif %}
       </div>
     </div>
 
-    <aside class="ff-home-ap-card" aria-label="Achievement snapshot">
+
+    {# ACHIEVEMENT SNAPSHOT #}
+
+    <aside
+      class="ff-home-ap-card"
+      aria-label="Achievement snapshot"
+    >
       <div class="ff-home-ap-card__top">
         <span>Achievement Points</span>
         <span aria-hidden="true">✦</span>
       </div>
 
-      <strong class="ff-home-ap-card__value">{{ d.points.totalDisplay or "—" }}</strong>
+      <strong class="ff-home-ap-card__value">
+        {{ d.points.totalDisplay or "—" }}
+      </strong>
 
       {% if d and d.sourceOk %}
         <div class="ff-home-progress-head">
           <span>Obtainable AP</span>
-          <strong>{{ d.points.obtainablePercentDisplay }}</strong>
+          <strong>
+            {{ d.points.obtainablePercentDisplay }}
+          </strong>
         </div>
-        <div class="ff-home-progress" aria-label="{{ d.points.obtainablePercentDisplay }} of obtainable achievement points earned">
-          <span style="width: {{ d.points.obtainablePercent }}%"></span>
+
+        <div
+          class="ff-home-progress"
+          aria-label="{{ d.points.obtainablePercentDisplay }} of obtainable achievement points earned"
+        >
+          <span
+            style="width: {{ d.points.obtainablePercent }}%"
+          ></span>
         </div>
 
         <div class="ff-home-ap-mini-grid">
           <div>
-            <strong>{{ d.points.earnedCountDisplay }}</strong>
+            <strong>
+              {{ d.points.earnedCountDisplay }}
+            </strong>
             <span>earned</span>
           </div>
+
           <div>
-            <strong>{{ d.nextMilestone.targetDisplay }}</strong>
+            <strong>
+              {{ d.nextMilestone.targetDisplay }}
+            </strong>
             <span>next target</span>
           </div>
+
           <div>
             {% if d.momentum and d.momentum.length > 1 %}
-              <strong>{{ d.momentum[1].pointsDisplay }}</strong>
+              <strong>
+                {{ d.momentum[1].pointsDisplay }}
+              </strong>
             {% else %}
               <strong>—</strong>
             {% endif %}
+
             <span>last 30d</span>
           </div>
         </div>
+
       {% else %}
-        <p class="ff-home-data-note">The live achievement snapshot didn’t refresh this build, but the shrine is still here ♡</p>
+
+        <p class="ff-home-data-note">
+          The live achievement snapshot didn’t refresh this
+          build, but the shrine is still here ♡
+        </p>
+
       {% endif %}
     </aside>
   </section>
 
-  <section class="ff-home-now" aria-labelledby="ff-now-title">
-    <div class="ff-home-section-heading ff-home-section-heading--outside">
+
+  {# =========================================================
+     RIGHT NOW
+     ========================================================= #}
+
+  <section
+    class="ff-home-now"
+    aria-labelledby="ff-now-title"
+  >
+    <div
+      class="ff-home-section-heading
+             ff-home-section-heading--outside"
+    >
       <div>
-        <p class="ff-home-kicker">♡ little nudges</p>
-        <h2 id="ff-now-title">Right now in Eorzea</h2>
+        <p class="ff-home-kicker">
+          ♡ little nudges
+        </p>
+
+        <h2 id="ff-now-title">
+          Right now in Eorzea
+        </h2>
       </div>
-      <p>A tiny automatic snapshot, so the front page always has something useful to say.</p>
+
+      <p>
+        A tiny automatic snapshot, so the front page
+        always has something useful to say.
+      </p>
     </div>
+
 
     <div class="ff-home-now-grid">
+
+      {# NEXT AP GOAL #}
+
       <article class="ff-home-now-card">
-        <span class="ff-home-now-card__eyebrow">Next number goal</span>
-        <div class="ff-home-now-card__icon" aria-hidden="true">◇</div>
+        <span class="ff-home-now-card__eyebrow">
+          Next number goal
+        </span>
+
+        <div
+          class="ff-home-now-card__icon"
+          aria-hidden="true"
+        >
+          ◇
+        </div>
+
         {% if d and d.sourceOk %}
-          <h3>{{ d.points.totalDisplay }} → {{ d.nextMilestone.targetDisplay }}</h3>
-          <p><strong>{{ d.nextMilestone.neededDisplay }} points</strong> to the next 250-point milestone.</p>
+
+          <h3>
+            {{ d.points.totalDisplay }}
+            →
+            {{ d.nextMilestone.targetDisplay }}
+          </h3>
+
+          <p>
+            <strong>
+              {{ d.nextMilestone.neededDisplay }} points
+            </strong>
+            to the next 250-point milestone.
+          </p>
+
         {% else %}
-          <h3>Keep chipping away</h3>
-          <p>The achievement dashboard will fill this back in on the next successful refresh.</p>
+
+          <h3>
+            Keep chipping away
+          </h3>
+
+          <p>
+            The achievement dashboard will fill this back
+            in on the next successful refresh.
+          </p>
+
         {% endif %}
-        <a href="/shrines/finalfantasyxiv/achievements/">See the point plan →</a>
+
+        <a href="/shrines/finalfantasyxiv/achievements/">
+          See the point plan →
+        </a>
       </article>
 
-      <article class="ff-home-now-card ff-home-now-card--pink">
-        <span class="ff-home-now-card__eyebrow">Something I could do</span>
-        <div class="ff-home-now-card__icon" aria-hidden="true">✦</div>
+
+      {# QUICK ACHIEVEMENT #}
+
+      <article
+        class="ff-home-now-card
+               ff-home-now-card--pink"
+      >
+        <span class="ff-home-now-card__eyebrow">
+          Something I could do
+        </span>
+
+        <div
+          class="ff-home-now-card__icon"
+          aria-hidden="true"
+        >
+          ✦
+        </div>
+
         {% if d and d.quickWins and d.quickWins.length %}
-          <h3>{{ d.quickWins[0].name }}</h3>
-          <p>{{ d.quickWins[0].description }}</p>
-          <a href="{{ d.quickWins[0].url }}" target="_blank" rel="noopener">
-            {{ d.quickWins[0].pointsDisplay }} · look it up ↗
+
+          <h3>
+            {{ d.quickWins[0].name }}
+          </h3>
+
+          <p>
+            {{ d.quickWins[0].description }}
+          </p>
+
+          <a
+            href="{{ d.quickWins[0].url }}"
+            target="_blank"
+            rel="noopener"
+          >
+            {{ d.quickWins[0].pointsDisplay }}
+            · look it up ↗
           </a>
+
         {% else %}
-          <h3>Pick a little achievement</h3>
-          <p>The achievement journal has a whole set of suggestions when the catalogue data is available.</p>
-          <a href="/shrines/finalfantasyxiv/achievements/">Find a goal →</a>
+
+          <h3>
+            Pick a little achievement
+          </h3>
+
+          <p>
+            The achievement journal has a whole set of
+            suggestions when the catalogue data is available.
+          </p>
+
+          <a href="/shrines/finalfantasyxiv/achievements/">
+            Find a goal →
+          </a>
+
         {% endif %}
       </article>
 
-      <article class="ff-home-now-card ff-home-now-card--lavender">
-        <span class="ff-home-now-card__eyebrow">Latest sparkle</span>
-        <div class="ff-home-now-card__icon" aria-hidden="true">★</div>
+
+      {# RECENT ACHIEVEMENT #}
+
+      <article
+        class="ff-home-now-card
+               ff-home-now-card--lavender"
+      >
+        <span class="ff-home-now-card__eyebrow">
+          Latest sparkle
+        </span>
+
+        <div
+          class="ff-home-now-card__icon"
+          aria-hidden="true"
+        >
+          ★
+        </div>
+
         {% if d and d.recent and d.recent.length %}
-          <h3>{{ d.recent[0].name }}</h3>
+
+          <h3>
+            {{ d.recent[0].name }}
+          </h3>
+
           <p>
             {{ d.recent[0].type }}
-            {% if d.recent[0].pointsDisplay %} · <strong>{{ d.recent[0].pointsDisplay }}</strong>{% endif %}
+
+            {% if d.recent[0].pointsDisplay %}
+              ·
+              <strong>
+                {{ d.recent[0].pointsDisplay }}
+              </strong>
+            {% endif %}
           </p>
-          <a href="{{ d.recent[0].url }}" target="_blank" rel="noopener">Earned {{ d.recent[0].dateDisplay }} ↗</a>
+
+          <a
+            href="{{ d.recent[0].url }}"
+            target="_blank"
+            rel="noopener"
+          >
+            Earned {{ d.recent[0].dateDisplay }} ↗
+          </a>
+
         {% else %}
-          <h3>Recent achievement</h3>
-          <p>New unlocks will appear here automatically from the Lodestone history.</p>
-          <a href="/shrines/finalfantasyxiv/achievements/">Open the journal →</a>
+
+          <h3>
+            Recent achievement
+          </h3>
+
+          <p>
+            New unlocks will appear here automatically
+            from the Lodestone history.
+          </p>
+
+          <a href="/shrines/finalfantasyxiv/achievements/">
+            Open the journal →
+          </a>
+
         {% endif %}
       </article>
+
     </div>
   </section>
+
+
+  {# =========================================================
+     CURRENT PROJECTS
+     ========================================================= #}
+
+  <section
+    class="ff-home-projects"
+    aria-labelledby="ff-projects-title"
+  >
+
+    <div
+      class="ff-home-section-heading
+             ff-home-section-heading--outside"
+    >
+      <div>
+        <p class="ff-home-kicker">
+          ✧ something to pick away at
+        </p>
+
+        <h2 id="ff-projects-title">
+          Current projects
+        </h2>
+      </div>
+
+      <p>
+        For when I want to play FFXIV but have absolutely
+        no idea what I actually feel like doing.
+      </p>
+    </div>
+
+
+    <div class="ff-home-project-grid">
+
+      {# =====================================================
+         GLAM PROJECTS
+         ===================================================== #}
+
+      <article
+        class="ff-card
+               ff-home-project-card
+               ff-home-project-card--glam"
+      >
+
+        <div class="ff-home-project-card__head">
+          <div
+            class="ff-home-project-card__icon"
+            aria-hidden="true"
+          >
+            ✧
+          </div>
+
+          <div>
+            <span class="ff-home-project-card__eyebrow">
+              Wardrobe project
+            </span>
+
+            <h3>
+              Glam Projects
+            </h3>
+          </div>
+
+          {% if g and g.stats %}
+            <span class="ff-home-project-card__number">
+              {{ g.stats.incomplete }}
+            </span>
+          {% endif %}
+        </div>
+
+
+        <p class="ff-home-project-card__intro">
+          Half-finished outfit glamours and missing pieces
+          I could actually go hunt instead of staring at
+          the glamour dresser for twenty minutes.
+        </p>
+
+
+        {% if g and g.stats %}
+
+          <div class="ff-home-project-stats">
+
+            <div>
+              <strong>
+                {{ g.stats.almost }}
+              </strong>
+              <span>
+                one piece away
+              </span>
+            </div>
+
+            <div>
+              <strong>
+                {{ g.stats.close }}
+              </strong>
+              <span>
+                two pieces away
+              </span>
+            </div>
+
+            <div>
+              <strong>
+                {{ g.stats.missingPieces }}
+              </strong>
+              <span>
+                pieces missing
+              </span>
+            </div>
+
+          </div>
+
+
+          {% if closestGlam and closestGlam.missingCount > 0 %}
+
+            <div class="ff-home-project-next">
+              <span>
+                ✦ closest finish
+              </span>
+
+              <strong>
+                {{ closestGlam.name }}
+              </strong>
+
+              <small>
+                {{ closestGlam.ownedCount }}/{{ closestGlam.total }}
+                pieces ·
+                {{ closestGlam.missingCount }}
+                missing
+              </small>
+            </div>
+
+          {% elseif g.stats.incomplete == 0 %}
+
+            <div class="ff-home-project-next">
+              <span>
+                ♡ wardrobe status
+              </span>
+
+              <strong>
+                Everything accounted for!
+              </strong>
+
+              <small>
+                Suspiciously organised.
+              </small>
+            </div>
+
+          {% endif %}
+
+
+        {% else %}
+
+          <div class="ff-home-project-next">
+            <span>
+              ✦ wardrobe data
+            </span>
+
+            <strong>
+              Glam projects are waiting
+            </strong>
+
+            <small>
+              Add the glamour export to populate this card.
+            </small>
+          </div>
+
+        {% endif %}
+
+
+        <div class="ff-home-project-actions">
+
+          <a
+            class="ff-button ff-button--primary"
+            href="/shrines/finalfantasyxiv/glams/projects/"
+          >
+            View projects →
+          </a>
+
+          {% if g and g.stats and g.stats.incomplete > 0 %}
+            <a
+              class="ff-button"
+              href="/shrines/finalfantasyxiv/glams/projects/?pick=1"
+            >
+              🎲 Pick one
+            </a>
+          {% endif %}
+
+        </div>
+      </article>
+
+
+  {# =====================================================
+   LONG HAUL
+   ===================================================== #}
+
+{% include "ffxiv-longhaul-dashboard-card.njk" %}
+
+</div>
+</section>
+
+  {# =========================================================
+     EXPLORE THE SHRINE
+     ========================================================= #}
 
   <section class="ff-card ff-home-section">
     <div class="ff-home-section-heading">
       <div>
-        <p class="ff-home-kicker">✦ the crystal archives</p>
-        <h2>Explore my Eorzea</h2>
+        <p class="ff-home-kicker">
+          ✦ the crystal archives
+        </p>
+
+        <h2>
+          Explore my Eorzea
+        </h2>
       </div>
-      <p>Every little corner of this shrine has a job — tracking, collecting, planning, or just looking pretty.</p>
+
+      <p>
+        Every little corner of this shrine has a job —
+        tracking, collecting, planning, or just looking pretty.
+      </p>
     </div>
 
+
     <div class="ff-home-nav-grid">
-      <a class="ff-home-nav-card ff-home-nav-card--featured" href="/shrines/finalfantasyxiv/achievements/">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">★</span>
-        <span class="ff-home-nav-card__label">Progress</span>
-        <h3>Achievements</h3>
-        <p>Completion, recent unlocks, category progress, next milestones, and things I could work on.</p>
+
+      {# ACHIEVEMENTS #}
+
+      <a
+        class="ff-home-nav-card
+               ff-home-nav-card--featured"
+        href="/shrines/finalfantasyxiv/achievements/"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ★
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Progress
+        </span>
+
+        <h3>
+          Achievements
+        </h3>
+
+        <p>
+          Completion, recent unlocks, category progress,
+          next milestones, and things I could work on.
+        </p>
+
         {% if d and d.sourceOk %}
-          <span class="ff-home-nav-card__meta">{{ d.points.totalDisplay }} AP · {{ d.points.obtainablePercentDisplay }} obtainable</span>
+
+          <span class="ff-home-nav-card__meta">
+            {{ d.points.totalDisplay }} AP
+            ·
+            {{ d.points.obtainablePercentDisplay }}
+            obtainable
+          </span>
+
         {% else %}
-          <span class="ff-home-nav-card__meta">open the achievement journal →</span>
+
+          <span class="ff-home-nav-card__meta">
+            open the achievement journal →
+          </span>
+
         {% endif %}
       </a>
 
-      <a class="ff-home-nav-card" href="/shrines/finalfantasyxiv/checklist/">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">✓</span>
-        <span class="ff-home-nav-card__label">Routine</span>
-        <h3>Checklist</h3>
-        <p>Weeklies, dailies, currencies, grinds, and the things I absolutely will forget otherwise.</p>
-        <span class="ff-home-nav-card__meta">open checklist →</span>
+
+      {# CHECKLIST #}
+
+      <a
+        class="ff-home-nav-card"
+        href="/shrines/finalfantasyxiv/checklist/"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ✓
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Routine
+        </span>
+
+        <h3>
+          Checklist
+        </h3>
+
+        <p>
+          Weeklies, dailies, currencies, grinds,
+          and the things I absolutely will forget otherwise.
+        </p>
+
+        <span class="ff-home-nav-card__meta">
+          open checklist →
+        </span>
       </a>
 
-      <a class="ff-home-nav-card" href="/shrines/finalfantasyxiv/housing/">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">⌂</span>
-        <span class="ff-home-nav-card__label">Cosy corner</span>
-        <h3>Housing</h3>
-        <p>Build ideas, decoration notes, references, and all my inevitable furniture hoarding.</p>
-        <span class="ff-home-nav-card__meta">visit housing →</span>
+
+      {# HOUSING #}
+
+      <a
+        class="ff-home-nav-card"
+        href="/shrines/finalfantasyxiv/housing/"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ⌂
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Cosy corner
+        </span>
+
+        <h3>
+          Housing
+        </h3>
+
+        <p>
+          Build ideas, decoration notes, references,
+          and all my inevitable furniture hoarding.
+        </p>
+
+        <span class="ff-home-nav-card__meta">
+          visit housing →
+        </span>
       </a>
 
-      <a class="ff-home-nav-card" href="/shrines/finalfantasyxiv/glams/">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">✧</span>
-        <span class="ff-home-nav-card__label">Dress-up</span>
-        <h3>Glams</h3>
-        <p>Favourite looks, outfit plans, job aesthetics, and pieces I’m hunting down.</p>
-        <span class="ff-home-nav-card__meta">browse glams →</span>
+
+      {# GLAMS #}
+
+      <a
+        class="ff-home-nav-card"
+        href="/shrines/finalfantasyxiv/glams/"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ✧
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Dress-up
+        </span>
+
+        <h3>
+          Glams
+        </h3>
+
+        <p>
+          Favourite looks and the actual wardrobe scrapbook.
+          Glam Projects next door handles things I still
+          need to hunt.
+        </p>
+
+        {% if g and g.stats %}
+
+          <span class="ff-home-nav-card__meta">
+            {{ g.stats.incomplete }} outfit projects
+            ·
+            {{ g.stats.almost }} one piece away
+          </span>
+
+        {% else %}
+
+          <span class="ff-home-nav-card__meta">
+            browse glams →
+          </span>
+
+        {% endif %}
       </a>
 
-      <a class="ff-home-nav-card" href="/shrines/finalfantasyxiv/gil/">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">◇</span>
-        <span class="ff-home-nav-card__label">Little fortune</span>
-        <h3>Gil</h3>
-        <p>Saving goals, money-making notes, expensive wants, and questionable marketboard decisions.</p>
-        <span class="ff-home-nav-card__meta">count my gil →</span>
+
+      {# GIL #}
+
+      <a
+        class="ff-home-nav-card"
+        href="/shrines/finalfantasyxiv/gil/"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ◇
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Little fortune
+        </span>
+
+        <h3>
+          Gil
+        </h3>
+
+        <p>
+          Saving goals, money-making notes, expensive wants,
+          and questionable marketboard decisions.
+        </p>
+
+        <span class="ff-home-nav-card__meta">
+          count my gil →
+        </span>
       </a>
 
-      <a class="ff-home-nav-card" href="#ffxiv-screenshots">
-        <span class="ff-home-nav-card__symbol" aria-hidden="true">▣</span>
-        <span class="ff-home-nav-card__label">Memory box</span>
-        <h3>Screenshots</h3>
-        <p>A little strip of Eorzea I wanted to keep around instead of losing it in the screenshot folder forever.</p>
-        <span class="ff-home-nav-card__meta">jump to memories ↓</span>
+
+      {# SCREENSHOTS #}
+
+      <a
+        class="ff-home-nav-card"
+        href="#ffxiv-screenshots"
+      >
+        <span
+          class="ff-home-nav-card__symbol"
+          aria-hidden="true"
+        >
+          ▣
+        </span>
+
+        <span class="ff-home-nav-card__label">
+          Memory box
+        </span>
+
+        <h3>
+          Screenshots
+        </h3>
+
+        <p>
+          A little strip of Eorzea I wanted to keep around
+          instead of losing it in the screenshot folder forever.
+        </p>
+
+        <span class="ff-home-nav-card__meta">
+          jump to memories ↓
+        </span>
       </a>
+
     </div>
   </section>
 
+
+  {# =========================================================
+     ABOUT + INTERESTS
+     ========================================================= #}
+
   <div class="ff-home-two-col">
+
     <section class="ff-card ff-home-about">
-      <div class="ff-home-section-heading ff-home-section-heading--compact">
+
+      <div
+        class="ff-home-section-heading
+               ff-home-section-heading--compact"
+      >
         <div>
-          <p class="ff-home-kicker">♡ a new beginning</p>
-          <h2>This little life</h2>
+          <p class="ff-home-kicker">
+            ♡ a new beginning
+          </p>
+
+          <h2>
+            This little life
+          </h2>
         </div>
       </div>
 
       <p>
-        I wanted a clean little corner of Eorzea to make my own again, so this shrine follows this character from here forward:
-        new memories, new progress, and whatever ridiculous long-term goals I decide are a good idea.
+        I wanted a clean little corner of Eorzea to make my
+        own again, so this shrine follows this character from
+        here forward: new memories, new progress, and whatever
+        ridiculous long-term goals I decide are a good idea.
       </p>
+
       <p>
-        I like FFXIV best when there are lots of different things to bounce between. Sometimes that means actual difficult content;
-        sometimes it means spending far too long on a glam, crafting pile, achievement chain, or tiny housing detail.
+        I like FFXIV best when there are lots of different
+        things to bounce between. Sometimes that means actual
+        difficult content; sometimes it means spending far too
+        long on a glam, crafting pile, achievement chain, or
+        tiny housing detail.
       </p>
-      <p class="ff-home-handwritten">no pressure, just lots of little things to collect ♡</p>
+
+      <p class="ff-home-handwritten">
+        no pressure, just lots of little things to collect ♡
+      </p>
     </section>
 
+
     <section class="ff-card ff-home-interests">
-      <div class="ff-home-section-heading ff-home-section-heading--compact">
+
+      <div
+        class="ff-home-section-heading
+               ff-home-section-heading--compact"
+      >
         <div>
-          <p class="ff-home-kicker">✦ inevitably distracted by</p>
-          <h2>My favourite bits</h2>
+          <p class="ff-home-kicker">
+            ✦ inevitably distracted by
+          </p>
+
+          <h2>
+            My favourite bits
+          </h2>
         </div>
       </div>
+
 
       <div class="ff-home-pills">
         <span>Achievement hunting</span>
@@ -270,73 +900,217 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
         <span>Alt jobs</span>
       </div>
     </section>
+
   </div>
 
+
+  {# =========================================================
+     RECENT ACHIEVEMENTS
+     ========================================================= #}
+
   {% if d and d.sourceOk and d.recent and d.recent.length %}
+
     <section class="ff-card ff-home-section">
+
       <div class="ff-home-section-heading">
         <div>
-          <p class="ff-home-kicker">★ recent progress</p>
-          <h2>Little victories</h2>
+          <p class="ff-home-kicker">
+            ★ recent progress
+          </p>
+
+          <h2>
+            Little victories
+          </h2>
         </div>
-        <a class="ff-text-link" href="/shrines/finalfantasyxiv/achievements/">See the full achievement journal →</a>
+
+        <a
+          class="ff-text-link"
+          href="/shrines/finalfantasyxiv/achievements/"
+        >
+          See the full achievement journal →
+        </a>
       </div>
+
 
       <div class="ff-home-recent-list">
+
         {% for achievement in d.recent %}
+
           {% if loop.index <= 4 %}
-            <a class="ff-home-recent-item" href="{{ achievement.url }}" target="_blank" rel="noopener">
-              <span class="ff-home-recent-item__spark" aria-hidden="true">✦</span>
+
+            <a
+              class="ff-home-recent-item"
+              href="{{ achievement.url }}"
+              target="_blank"
+              rel="noopener"
+            >
+
+              <span
+                class="ff-home-recent-item__spark"
+                aria-hidden="true"
+              >
+                ✦
+              </span>
+
               <span class="ff-home-recent-item__copy">
-                <small>{{ achievement.type }}</small>
-                <strong>{{ achievement.name }}</strong>
+                <small>
+                  {{ achievement.type }}
+                </small>
+
+                <strong>
+                  {{ achievement.name }}
+                </strong>
               </span>
+
               <span class="ff-home-recent-item__meta">
-                <b>{{ achievement.pointsDisplay }}</b>
-                <time>{{ achievement.dateDisplay }}</time>
+                <b>
+                  {{ achievement.pointsDisplay }}
+                </b>
+
+                <time>
+                  {{ achievement.dateDisplay }}
+                </time>
               </span>
+
             </a>
+
           {% endif %}
+
         {% endfor %}
+
       </div>
     </section>
+
   {% endif %}
 
-  <section class="ff-card ff-home-gallery-section" id="ffxiv-screenshots">
+
+  {# =========================================================
+     SCREENSHOT SCRAPBOOK
+     ========================================================= #}
+
+  <section
+    class="ff-card
+           ff-home-gallery-section"
+    id="ffxiv-screenshots"
+  >
+
     <div class="ff-home-section-heading">
       <div>
-        <p class="ff-home-kicker">✦ from Eorzea</p>
-        <h2>Screenshot scrapbook</h2>
+        <p class="ff-home-kicker">
+          ✦ from Eorzea
+        </p>
+
+        <h2>
+          Screenshot scrapbook
+        </h2>
       </div>
-      <p>A few things worth keeping close, even if they’re just ordinary little moments.</p>
+
+      <p>
+        A few things worth keeping close, even if
+        they’re just ordinary little moments.
+      </p>
     </div>
+
 
     <div class="ff-home-gallery">
-      <figure class="ff-home-gallery__item ff-home-gallery__item--tall">
-        <img src="/assets/imgs/ff/gallery1.png" alt="A Final Fantasy XIV memory" loading="lazy">
+
+      <figure
+        class="ff-home-gallery__item
+               ff-home-gallery__item--tall"
+      >
+        <img
+          src="/assets/imgs/ff/gallery1.png"
+          alt="A Final Fantasy XIV memory"
+          loading="lazy"
+        >
       </figure>
+
       <figure class="ff-home-gallery__item">
-        <img src="/assets/imgs/ff/gallery2.jpg" alt="A Final Fantasy XIV memory" loading="lazy">
+        <img
+          src="/assets/imgs/ff/gallery2.jpg"
+          alt="A Final Fantasy XIV memory"
+          loading="lazy"
+        >
       </figure>
+
       <figure class="ff-home-gallery__item">
-        <img src="/assets/imgs/ff/gallery3.jpg" alt="A Final Fantasy XIV memory" loading="lazy">
+        <img
+          src="/assets/imgs/ff/gallery3.jpg"
+          alt="A Final Fantasy XIV memory"
+          loading="lazy"
+        >
       </figure>
+
       <figure class="ff-home-gallery__item">
-        <img src="/assets/imgs/ff/gallery4.jpg" alt="A Final Fantasy XIV memory" loading="lazy">
+        <img
+          src="/assets/imgs/ff/gallery4.jpg"
+          alt="A Final Fantasy XIV memory"
+          loading="lazy"
+        >
       </figure>
-      <figure class="ff-home-gallery__item ff-home-gallery__item--wide">
-        <img src="/assets/imgs/ff/gallery5.jpg" alt="A Final Fantasy XIV memory" loading="lazy">
+
+      <figure
+        class="ff-home-gallery__item
+               ff-home-gallery__item--wide"
+      >
+        <img
+          src="/assets/imgs/ff/gallery5.jpg"
+          alt="A Final Fantasy XIV memory"
+          loading="lazy"
+        >
       </figure>
+
     </div>
   </section>
 
-  <section class="ff-home-links-row" aria-label="Useful Final Fantasy XIV links">
-    <span>Elsewhere in Eorzea:</span>
+
+  {# =========================================================
+     USEFUL LINKS
+     ========================================================= #}
+
+  <section
+    class="ff-home-links-row"
+    aria-label="Useful Final Fantasy XIV links"
+  >
+
+    <span>
+      Elsewhere in Eorzea:
+    </span>
+
     {% if d and d.character and d.character.lodestoneUrl %}
-      <a href="{{ d.character.lodestoneUrl }}" target="_blank" rel="noopener">Lodestone ↗</a>
+      <a
+        href="{{ d.character.lodestoneUrl }}"
+        target="_blank"
+        rel="noopener"
+      >
+        Lodestone ↗
+      </a>
     {% endif %}
-    <a href="https://na.finalfantasyxiv.com/" target="_blank" rel="noopener">Official site ↗</a>
-    <a href="https://ffxiv.consolegameswiki.com/wiki/Final_Fantasy_XIV_Wiki" target="_blank" rel="noopener">FFXIV Wiki ↗</a>
-    <a href="https://www.ffxiv-gathering.com/" target="_blank" rel="noopener">Gathering ↗</a>
+
+    <a
+      href="https://na.finalfantasyxiv.com/"
+      target="_blank"
+      rel="noopener"
+    >
+      Official site ↗
+    </a>
+
+    <a
+      href="https://ffxiv.consolegameswiki.com/wiki/Final_Fantasy_XIV_Wiki"
+      target="_blank"
+      rel="noopener"
+    >
+      FFXIV Wiki ↗
+    </a>
+
+    <a
+      href="https://www.ffxiv-gathering.com/"
+      target="_blank"
+      rel="noopener"
+    >
+      Gathering ↗
+    </a>
+
   </section>
+
 </div>

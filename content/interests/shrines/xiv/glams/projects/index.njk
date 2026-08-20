@@ -1,0 +1,548 @@
+---
+title: Glam Projects
+layout: layouts/ffBase.njk
+permalink: /shrines/finalfantasyxiv/glams/projects/
+customcss: "/assets/css/ffxiv/glam-projects.css"
+---
+
+{% set stats = ffxivGlamProjects.stats %}
+{% set projects = ffxivGlamProjects.projects %}
+
+<section class="glam-hero">
+  <p class="glam-kicker">Violet's Wardrobe</p>
+  <h1>Glam Projects</h1>
+  <p>
+    Half-finished outfits, missing pieces, and the eternal question:
+    <em>what do I feel like farming tonight?</em>
+  </p>
+</section>
+
+<section class="glam-stats" aria-label="Glamour collection stats">
+  <article>
+    <strong>{{ stats.incomplete }}</strong>
+    <span>to work on</span>
+  </article>
+  <article>
+    <strong>{{ stats.almost }}</strong>
+    <span>one piece away</span>
+  </article>
+  <article>
+    <strong>{{ stats.close }}</strong>
+    <span>two pieces away</span>
+  </article>
+  <article>
+    <strong>{{ stats.complete }}</strong>
+    <span>complete</span>
+  </article>
+</section>
+
+<section class="glam-picker" aria-labelledby="glam-picker-title">
+  <div>
+    <p class="glam-kicker">I don't know what to do</p>
+    <h2 id="glam-picker-title">Pick me a project</h2>
+    <p>Uses whatever filters are currently visible.</p>
+  </div>
+
+  <button type="button" class="glam-random" id="glam-random">
+    🎲 Give me something
+  </button>
+
+  <p class="glam-random-result" id="glam-random-result" aria-live="polite"></p>
+</section>
+
+<section class="glam-controls" aria-label="Glamour filters">
+  <label class="glam-search">
+    <span>Search</span>
+    <input
+      type="search"
+      id="glam-search"
+      placeholder="Set or missing item…"
+      autocomplete="off"
+    >
+  </label>
+
+  <div class="glam-filter-row" role="group" aria-label="Completion filters">
+    <button type="button" class="is-active" data-glam-filter="hunt">
+      To hunt
+    </button>
+    <button type="button" data-glam-filter="almost">
+      1 piece
+    </button>
+    <button type="button" data-glam-filter="close">
+      2 pieces
+    </button>
+    <button type="button" data-glam-filter="project">
+      3+ pieces
+    </button>
+    <button type="button" data-glam-filter="complete">
+      Complete
+    </button>
+    <button type="button" data-glam-filter="all">
+      All
+    </button>
+  </div>
+
+  <div class="glam-filter-row" role="group" aria-label="Expansion filters">
+    <button type="button" class="is-active" data-expansion-filter="all">
+      All expansions
+    </button>
+    {% for expansion in ["ARR", "HW", "SB", "ShB", "EW", "DT"] %}
+      <button type="button" data-expansion-filter="{{ expansion }}">
+        {{ expansion }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <p class="glam-visible-count">
+    Showing <strong id="glam-visible-count">{{ stats.incomplete }}</strong>
+    projects
+  </p>
+</section>
+
+{% if not projects.length %}
+  <section class="glam-empty">
+    <h2>No glamour data yet</h2>
+    <p>
+      Add your export as
+      <code>content/_data/ffxivGlamOwned.json</code>
+      and rebuild the site.
+    </p>
+  </section>
+{% else %}
+  <section class="glam-grid" id="glam-grid">
+    {% for project in projects %}
+      <article
+        class="glam-card glam-card--{{ project.status }}"
+        id="glam-{{ project.id }}"
+        data-status="{{ project.status }}"
+        data-missing="{{ project.missingCount }}"
+        data-expansion="{{ project.expansion }}"
+        data-search="{{ project.searchText | escape }}"
+      >
+        <header class="glam-card__header">
+          <div>
+            <p class="glam-card__eyebrow">
+              Outfit #{{ project.id }}
+              {% if project.expansion != "Unknown" %}
+                · {{ project.expansion }}
+              {% endif %}
+            </p>
+
+            <h2>{{ project.name }}</h2>
+          </div>
+
+          <span class="glam-card__count">
+            {{ project.ownedCount }}/{{ project.total }}
+          </span>
+        </header>
+
+        <div class="glam-progress" aria-hidden="true">
+          <span style="width: {{ project.percent }}%"></span>
+        </div>
+
+        <div class="glam-card__meta">
+          {% if project.missingCount == 0 %}
+            <span class="glam-pill glam-pill--done">✓ Complete</span>
+          {% elseif project.missingCount == 1 %}
+            <span class="glam-pill">✨ One piece away</span>
+          {% elseif project.missingCount == 2 %}
+            <span class="glam-pill">🌸 Nearly there</span>
+          {% else %}
+            <span class="glam-pill">🧵 {{ project.missingCount }} pieces left</span>
+          {% endif %}
+
+          {% if project.ownedElsewhere.length %}
+            <span class="glam-pill glam-pill--armoire">
+              🗄 {{ project.ownedElsewhere.length }} in armoire
+            </span>
+          {% endif %}
+        </div>
+
+        {% if project.missing.length %}
+          <div class="glam-missing">
+            <h3>Missing</h3>
+
+            <ul>
+              {% for piece in project.missing %}
+                <li data-item-id="{{ piece.id }}">
+                  {% if piece.icon %}
+                    <img
+                      src="{{ piece.icon }}"
+                      alt=""
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                    >
+                  {% endif %}
+
+                  <div>
+                    <strong>{{ piece.name }}</strong>
+                    <span>{{ piece.slotLabel }} · Item #{{ piece.id }}</span>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% else %}
+          <p class="glam-complete-note">
+            Everything in this outfit is accounted for ♡
+          </p>
+        {% endif %}
+
+        {% if project.ownedElsewhere.length %}
+          <details class="glam-armoire">
+            <summary>Owned in the armoire</summary>
+            <ul>
+              {% for piece in project.ownedElsewhere %}
+                <li>{{ piece.name }} <span>({{ piece.slotLabel }})</span></li>
+              {% endfor %}
+            </ul>
+          </details>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+{% endif %}
+
+<script>
+(() => {
+  const cards = [
+    ...document.querySelectorAll(".glam-card")
+  ];
+
+  const statusButtons = [
+    ...document.querySelectorAll("[data-glam-filter]")
+  ];
+
+  const expansionButtons = [
+    ...document.querySelectorAll("[data-expansion-filter]")
+  ];
+
+  const search =
+    document.querySelector("#glam-search");
+
+  const visibleCount =
+    document.querySelector("#glam-visible-count");
+
+  const randomButton =
+    document.querySelector("#glam-random");
+
+  const randomResult =
+    document.querySelector("#glam-random-result");
+
+
+  if (!cards.length) return;
+
+
+  let statusFilter = "hunt";
+  let expansionFilter = "all";
+  let query = "";
+
+
+  function matchesStatus(card) {
+    const missing =
+      Number(card.dataset.missing);
+
+    switch (statusFilter) {
+      case "hunt":
+        return missing > 0;
+
+      case "almost":
+        return missing === 1;
+
+      case "close":
+        return missing === 2;
+
+      case "project":
+        return missing >= 3;
+
+      case "complete":
+        return missing === 0;
+
+      case "all":
+      default:
+        return true;
+    }
+  }
+
+
+  function matchesExpansion(card) {
+    return (
+      expansionFilter === "all" ||
+      card.dataset.expansion === expansionFilter
+    );
+  }
+
+
+  function matchesSearch(card) {
+    if (!query) return true;
+
+    return (
+      card.dataset.search || ""
+    ).includes(query);
+  }
+
+
+  function applyFilters() {
+    let shown = 0;
+
+    cards.forEach((card) => {
+      const visible =
+        matchesStatus(card) &&
+        matchesExpansion(card) &&
+        matchesSearch(card);
+
+      card.hidden = !visible;
+
+      if (visible) {
+        shown++;
+      }
+    });
+
+    if (visibleCount) {
+      visibleCount.textContent =
+        String(shown);
+    }
+
+    if (randomResult) {
+      randomResult.textContent = "";
+    }
+  }
+
+
+  function pickRandomProject() {
+    const candidates =
+      cards.filter((card) => {
+        return (
+          !card.hidden &&
+          Number(card.dataset.missing) > 0
+        );
+      });
+
+
+    if (!candidates.length) {
+      if (randomResult) {
+        randomResult.textContent =
+          "Nothing huntable matches those filters.";
+      }
+
+      return;
+    }
+
+
+    cards.forEach((card) => {
+      card.classList.remove("is-picked");
+    });
+
+
+    const picked =
+      candidates[
+        Math.floor(
+          Math.random() * candidates.length
+        )
+      ];
+
+
+    picked.classList.add("is-picked");
+
+
+    const title =
+      picked
+        .querySelector("h2")
+        ?.textContent
+        ?.trim() ||
+      "Mystery outfit";
+
+
+    const missing =
+      Number(picked.dataset.missing);
+
+
+    if (randomResult) {
+      randomResult.textContent =
+        `${title} — ${missing} piece${
+          missing === 1 ? "" : "s"
+        } left.`;
+    }
+
+
+    picked.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
+
+
+  statusButtons.forEach((button) => {
+    button.addEventListener(
+      "click",
+      () => {
+        statusFilter =
+          button.dataset.glamFilter;
+
+        statusButtons.forEach((item) => {
+          item.classList.toggle(
+            "is-active",
+            item === button
+          );
+        });
+
+        applyFilters();
+      }
+    );
+  });
+
+
+  expansionButtons.forEach((button) => {
+    button.addEventListener(
+      "click",
+      () => {
+        expansionFilter =
+          button.dataset.expansionFilter;
+
+        expansionButtons.forEach((item) => {
+          item.classList.toggle(
+            "is-active",
+            item === button
+          );
+        });
+
+        applyFilters();
+      }
+    );
+  });
+
+
+  search?.addEventListener(
+    "input",
+    () => {
+      query =
+        search.value
+          .trim()
+          .toLowerCase();
+
+      applyFilters();
+    }
+  );
+
+
+  randomButton?.addEventListener(
+    "click",
+    pickRandomProject
+  );
+
+
+  /* ==========================================
+     URL PARAMETERS
+     ========================================== */
+
+  const params =
+    new URLSearchParams(
+      window.location.search
+    );
+
+
+  const requestedStatus =
+    params.get("status");
+
+  const requestedExpansion =
+    params.get("expansion");
+
+  const requestedSearch =
+    params.get("q");
+
+
+  if (requestedStatus) {
+    const button =
+      statusButtons.find((item) => {
+        return (
+          item.dataset.glamFilter ===
+          requestedStatus
+        );
+      });
+
+    if (button) {
+      statusFilter =
+        requestedStatus;
+
+      statusButtons.forEach((item) => {
+        item.classList.toggle(
+          "is-active",
+          item === button
+        );
+      });
+    }
+  }
+
+
+  if (requestedExpansion) {
+    const button =
+      expansionButtons.find((item) => {
+        return (
+          item.dataset.expansionFilter ===
+          requestedExpansion
+        );
+      });
+
+    if (button) {
+      expansionFilter =
+        requestedExpansion;
+
+      expansionButtons.forEach((item) => {
+        item.classList.toggle(
+          "is-active",
+          item === button
+        );
+      });
+    }
+  }
+
+
+  if (
+    requestedSearch &&
+    search
+  ) {
+    search.value =
+      requestedSearch;
+
+    query =
+      requestedSearch
+        .trim()
+        .toLowerCase();
+  }
+
+
+  applyFilters();
+
+
+  /* ==========================================
+     HOMEPAGE ?pick=1
+     ========================================== */
+
+  if (params.get("pick") === "1") {
+    const runPick = () => {
+      applyFilters();
+
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          pickRandomProject();
+        });
+      });
+    };
+
+
+    if (
+      document.readyState === "complete"
+    ) {
+      runPick();
+    } else {
+      window.addEventListener(
+        "load",
+        runPick,
+        { once: true }
+      );
+    }
+  }
+
+})();
+</script>

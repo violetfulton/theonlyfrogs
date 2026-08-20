@@ -499,6 +499,138 @@
 
 .ff-glam-dialog__dyes { margin-top: 15px; }
 
+/* ==========================================================
+   GLAMS — PROJECTS CROSS-LINK
+   ========================================================== */
+
+.ff-glam-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.ff-glam-hero__actions .ff-button {
+  min-height: 38px;
+  padding: 8px 12px;
+  font-size: .68rem;
+}
+
+.ff-glam-feature__hint a {
+  color: var(--ff-text-pink);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.ff-glam-feature__hint a:hover {
+  text-decoration: underline;
+}
+
+.ff-glam-crosslink--projects {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at 0 100%,
+      rgba(247, 191, 219, .2),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 100% 0,
+      rgba(210, 192, 241, .22),
+      transparent 37%
+    ),
+    rgba(255, 255, 255, .58);
+}
+
+.ff-glam-crosslink__project-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--ff-border-pink);
+  border-radius: 50%;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(249, 219, 233, .78),
+      rgba(232, 223, 248, .8)
+    );
+  color: var(--ff-text-pink);
+  font-family: 'Gaegu', cursive;
+  font-size: 1.55rem;
+}
+
+.ff-glam-project-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 11px;
+}
+
+.ff-glam-project-stats span {
+  padding: 6px 9px;
+  border: 1px solid var(--ff-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .48);
+  color: var(--ff-text-soft);
+  font-size: .6rem;
+  font-weight: 800;
+}
+
+.ff-glam-project-stats strong {
+  color: var(--ff-text-pink);
+}
+
+.ff-glam-crosslink__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: stretch;
+}
+
+.ff-glam-crosslink__actions .ff-button {
+  justify-content: center;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 760px) {
+  .ff-glam-crosslink--projects {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .ff-glam-crosslink__actions {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 520px) {
+  .ff-glam-hero__actions {
+    display: grid;
+  }
+
+  .ff-glam-crosslink--projects {
+    display: block;
+  }
+
+  .ff-glam-crosslink__project-icon {
+    margin-bottom: 12px;
+  }
+
+  .ff-glam-crosslink__actions {
+    display: grid;
+    margin-top: 14px;
+  }
+}
+
+
 @media (max-width: 850px) {
   .ff-glam-feature {
     grid-template-columns: 1fr;
@@ -573,3 +705,4 @@
     grid-template-columns: 1fr;
   }
 }
+
