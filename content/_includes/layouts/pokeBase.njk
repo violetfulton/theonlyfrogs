@@ -3,74 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or "Pokémon Shrine" }}</title>
 
-  <!-- shared shrine styles -->
-  <link rel="stylesheet" href="/assets/css/shrines/pokemon/shared.css">
+  <title>{{ title or "Violet's PokéNav" }} | TheOnlyFrogs</title>
 
-  <!-- page-specific CSS (string or array) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/assets/css/shrines/pokemon/pokemon-v2.css"
+  >
+
   {% if customcss %}
     {% if customcss | length and (customcss is not string) %}
       {% for href in customcss %}
-        <link rel="stylesheet" href="{{ href }}">
+        {% if href != "/assets/css/shrines/pokemon/pokemon-v2.css" %}
+          <link rel="stylesheet" href="{{ href }}">
+        {% endif %}
       {% endfor %}
     {% else %}
-      <link rel="stylesheet" href="{{ customcss }}">
+      {% if customcss != "/assets/css/shrines/pokemon/pokemon-v2.css" %}
+        <link rel="stylesheet" href="{{ customcss }}">
+      {% endif %}
     {% endif %}
   {% endif %}
-
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- 🌿 PokéNav (top-left) -->
-  <nav class="pokenav" aria-label="Pokémon shrine navigation">
-    <button class="pokenav__toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="pokenavPanel">
-      PokéNav
-    </button>
+  {{ content | safe }}
 
-    <div class="pokenav__panel" id="pokenavPanel">
-      <div class="pokenav__header">
-        <div class="pokenav__title">Violet's Pokémon Corner</div>
-        <div class="pokenav__sub">cosy save file archive</div>
-      </div>
-
-{% set current = page.url %}
-
-<div class="pokenav__links">
-  <a class="pokenav__link {% if current == '/shrines/pokemon/' %}is-active{% endif %}"
-     href="/shrines/pokemon/">🏠 Home</a>
-
-  <a class="pokenav__link {% if current == '/shrines/pokemon/me/' %}is-active{% endif %}"
-     href="/shrines/pokemon/me/">🧢 Trainer Notes</a>
-
-  <a class="pokenav__link {% if current == '/shrines/pokemon/shinies/' or '/shrines/pokemon/shinies/' in current %}is-active{% endif %}"
-     href="/shrines/pokemon/shinies/">✨ Shiny Diary</a>
-
-  <a class="pokenav__link {% if current == '/shrines/pokemon/records/' %}is-active{% endif %}"
-     href="/shrines/pokemon/records/">📜 Little Victories</a>
-
-  <a class="pokenav__link {% if current == '/shrines/pokemon/physical/' %}is-active{% endif %}"
-     href="/shrines/pokemon/physical/">📦 Poké Shelf</a>
-
-  <a class="pokenav__link {% if current == '/shrines/pokemon/hof/' %}is-active{% endif %}"
-     href="/shrines/pokemon/hof/">🏆 League Memories</a>
-
-  <a class="pokenav__link pokenav__link--minor {% if current == '/' %}is-active{% endif %}"
-     href="/">↩ Main Site</a>
-</div>
-    </div>
-  </nav>
-
-  <div class="pokenav__backdrop" hidden></div>
-
-  <main class="poke-shell">
-    {{ content | safe }}
-  </main>
-
-<script src="/assets/js/pokemon/shared.js"></script>
 </body>
 </html>
