@@ -1,104 +1,19 @@
-import { DateTime } from "luxon";
 import dotenv from "dotenv";
-import { execSync } from "child_process";
-import fs from "fs";
 
 dotenv.config();
 
-// ------------------------------------
-// PRE-BUILD FETCHES (Firebase + Discogs)
-// ------------------------------------
-(async () => {
-  if (process.env.ELEVENTY_SKIP_FETCH) {
-    console.log("⏩ Skipping all external fetches (ELEVENTY_SKIP_FETCH set).");
-    return;
-  }
-
-  try {
-    const discogsScript = "./content/_scripts/fetchDiscogsCache.js";
-    if (fs.existsSync(discogsScript)) {
-      console.log("💿 Fetching latest Discogs cache...");
-      execSync(`node ${discogsScript}`, { stdio: "inherit", timeout: 20000 });
-      console.log("🧊 Using cached Discogs data.");
-    } else {
-      console.warn("⚠️ fetchDiscogsCache.js not found — skipping Discogs fetch.");
-    }
-  } catch (err) {
-    console.error("❌ Failed to fetch Discogs cache:", err.message);
-  }
-
-  console.log("✅ Pre-fetch complete — starting Eleventy build...");
-})();
-
-// ------------------------------------
-// MAIN ELEVENTY CONFIG
-// ------------------------------------
 export default function (eleventyConfig) {
-  // 🐸 Remove Eleventy Image Transform plugin
-  // (Your images are already pre-sized and optimized)
+  // ------------------------------------
+  // PASSTHROUGH
+  // ------------------------------------
 
-  // -------------------------
-  // Passthrough Copy
-  // -------------------------
-  eleventyConfig.addPassthroughCopy("content/assets/imgs");
-  eleventyConfig.addPassthroughCopy({ "assets": "assets" });
-  eleventyConfig.addPassthroughCopy("./content/imgs");
-  eleventyConfig.addPassthroughCopy("./content/assets");
-  eleventyConfig.addPassthroughCopy("./content/css");
-  eleventyConfig.addPassthroughCopy("./content/js");
-  eleventyConfig.addPassthroughCopy("./content/interests");
-  eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy({ "./content/secret": "secret" });
-
-  // Ignore scripts that shouldn’t be copied
-  eleventyConfig.ignores.add("content/assets/js/lastfm-nowplaying.js");
-
-  // -------------------------
-  // Filters
-  // -------------------------
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    if (!dateObj) return "";
-    const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
-    return DateTime.fromJSDate(dt, { zone: "utc" }).toFormat("MMM d, yyyy");
+  eleventyConfig.addPassthroughCopy({
+    "content/assets": "assets",
   });
 
-  eleventyConfig.addFilter("mdySlug", dateObj => {
-    if (!dateObj) return "";
-    const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
-    return DateTime.fromJSDate(dt, { zone: "utc" }).toFormat("MM-dd-yyyy");
-  });
-
-  eleventyConfig.addCollection("blog", collection =>
-    collection.getFilteredByGlob("content/blog/posts/*.md")
-  );
-
-  eleventyConfig.addFilter("uniq", arr => Array.from(new Set(arr)));
-  eleventyConfig.addFilter("filter", (arr, key, val) => arr.filter(i => i[key] === val));
-  eleventyConfig.addFilter("map", (arr, key) =>
-    Array.isArray(arr) ? arr.map(i => i?.[key]).filter(Boolean) : arr
-  );
-  eleventyConfig.addFilter("unique", arr => Array.isArray(arr) ? [...new Set(arr)] : arr);
-  eleventyConfig.addFilter("reverse", arr => Array.isArray(arr) ? [...arr].reverse() : arr);
-  eleventyConfig.addFilter("length", arr => Array.isArray(arr) ? arr.length : 0);
-  eleventyConfig.addFilter("countPostsByYear", (posts, year) =>
-    Array.isArray(posts) ? posts.filter(p => p.date.getFullYear() === year).length : 0
-  );
-  eleventyConfig.addFilter("startsWith", (val, prefix) =>
-    typeof val === "string" && val.startsWith(prefix)
-  );
-  eleventyConfig.addFilter("daysOld", date => {
-    const d = date instanceof Date ? date : new Date(date);
-    if (isNaN(d)) return "";
-    const diff = Date.now() - d.getTime();
-    return Math.round(diff / (1000 * 60 * 60 * 24));
-  });
-  eleventyConfig.addFilter("readableDateLuxon", (dateObj, format = "dd LLL yyyy") => {
-    if (!dateObj) return "";
-    const dt = dateObj instanceof Date ? dateObj : new Date(dateObj);
-    return DateTime.fromJSDate(dt).toFormat(format);
-  });
-
-  console.log("🚀 Eleventy config loaded successfully");
+  // ------------------------------------
+  // ELEVENTY
+  // ------------------------------------
 
   return {
     dir: {
@@ -107,6 +22,7 @@ export default function (eleventyConfig) {
       data: "_data",
       output: "public",
     },
+
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     templateFormats: ["njk", "md", "11ty.js"],

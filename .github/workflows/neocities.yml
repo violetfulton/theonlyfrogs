@@ -1,111 +1,136 @@
-name: Auto Build and Deploy to Neocities
+name: Build and Deploy
 
 on:
   push:
     branches:
       - main
+
   workflow_dispatch:
+
   schedule:
-    # Runs only on monday at 05:15 UTC
-    - cron: "15 5 * * 1" # Monday at 05:15 UTC
+    # Monday at 05:15 UTC
+    - cron: "15 5 * * 1"
 
-env:
-  # --- Site / deploy ---
-  NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
+permissions:
+  contents: read
 
-  # --- Discogs ---
-  DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
-  DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
-
-  # --- Steam ---
-  STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-  STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
-
-  # --- MyAnimeList ---
-  MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
-  MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
-
-  # --- RetroAchievements ---
-  RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
-
-  # --- TMDb ---
-  TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-
-  # --- Trakt ---
-  TRAKT_USER: ${{ secrets.TRAKT_USER }}
-  TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
-  TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
-  TRAKT_ACCESS_TOKEN: ${{ secrets.TRAKT_ACCESS_TOKEN }}
-  TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
-
-  # --- RAWG ---
-  RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
-
-  # --- Simkl ---
-  SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
-  SIMKL_CLIENT_SECRET: ${{ secrets.SIMKL_CLIENT_SECRET }}
-  SIMKL_ACCESS_TOKEN: ${{ secrets.SIMKL_ACCESS_TOKEN }}
-
-  # --- FFXIV / Lodestone ---
-  FFXIV_CHARACTER_ID: ${{ secrets.FFXIV_CHARACTER_ID }}
-  FFXIV_LODESTONE_REGION: eu
-
-  # --- Shiny Sheet ---
-  SHINY_SHEET_CSV_URL: ${{ secrets.SHINY_SHEET_CSV_URL }}
-
-  # --- TheGamesDB ---
-  GAMES_CSV_URL: ${{ secrets.GAMES_CSV_URL }}
-  THEGAMESDB_API_KEY: ${{ secrets.THEGAMESDB_API_KEY }}
-  THEGAMESDB_OFFLINE: "1"
+concurrency:
+  group: neocities-production
+  cancel-in-progress: true
 
 jobs:
   deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - name: Checkout repo
+      # --------------------------------
+      # SETUP
+      # --------------------------------
+
+      - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
+      - name: Setup Node
+        uses: actions/setup-node@v7
         with:
-          node-version: 24
-          cache: npm
+          node-version-file: ".nvmrc"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
-      # Refreshes FFXIV achievement JSON before the Eleventy build.
-      # Non-fatal so a Lodestone scrape issue won't block the whole site deploy.
-      - name: Fetch FFXIV achievement data
-        run: node content/_scripts/fetchFfxivAchievements.mjs || echo "FFXIV fetch failed, continuing with existing cached data"
+      # --------------------------------
+      # PRE-BUILD DATA
+      # --------------------------------
+
+      - name: Refresh Discogs
+        continue-on-error: true
+        env:
+          DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+        run: npm run fetch:discogs
+        
+      # --------------------------------
+      # BUILD
+      # --------------------------------
 
       - name: Build Eleventy
+        env:
+          # Steam
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
+
+          # MyAnimeList
+          MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
+          MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
+
+          # RetroAchievements
+          RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
+
+          # Simkl
+          SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
+          SIMKL_ACCESS_TOKEN: ${{ secrets.SIMKL_ACCESS_TOKEN }}
+
+          # TMDb
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
+          # Pokémon shiny sheet
+          SHINY_SHEET_CSV_URL: ${{ secrets.SHINY_SHEET_CSV_URL }}
+
+          # Games
+          GAMES_CSV_URL: ${{ secrets.GAMES_CSV_URL }}
+          THEGAMESDB_OFFLINE: "1"
+
         run: npm run build
+
+      # --------------------------------
+      # DEPLOY
+      # --------------------------------
 
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
           api_key: ${{ secrets.NEOCITIES_API_KEY }}
-          cleanup: true
           dist_dir: public
+          cleanup: true
 
-      - name: Post build summary
+      # --------------------------------
+      # SUCCESS
+      # --------------------------------
+
+      - name: Build summary
         run: |
-          echo "✅ Build & Deploy Successful!" >> $GITHUB_STEP_SUMMARY
-          echo "Deployed at: $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "Visit your site: https://theonlyfrogs.com" >> $GITHUB_STEP_SUMMARY
+          echo "## ✅ Deploy successful" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Site:** https://theonlyfrogs.com" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Deployed:** $(date -u)" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Notify Discord on success
-        run: >
-          curl
-          -H "Content-Type: application/json"
-          -d "{\"content\":\"✅ **Neocities Deploy Successful!**
+      - name: Notify Discord
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          MESSAGE="✅ **Neocities Deploy Successful!**
+
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
-          ${{ secrets.DISCORD_WEBHOOK }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          PAYLOAD=$(jq -n --arg content "$MESSAGE" '{content: $content}')
+
+          curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "$DISCORD_WEBHOOK"
+
+  # --------------------------------
+  # FAILURE NOTIFICATIONS
+  # --------------------------------
 
   notify-on-failure:
     name: Notify on Failure
@@ -115,6 +140,7 @@ jobs:
 
     steps:
       - name: Send failure email
+        continue-on-error: true
         uses: dawidd6/action-send-mail@v18
         with:
           server_address: smtp.gmail.com
@@ -126,16 +152,28 @@ jobs:
           from: "Neocities Bot <violet@theonlyfrogs.com>"
           body: |
             ❌ The Neocities deploy workflow failed.
+
             Repository: ${{ github.repository }}
             Workflow: ${{ github.workflow }}
             Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-      - name: Send failure message to Discord
-        run: >
-          curl
-          -H "Content-Type: application/json"
-          -d "{\"content\":\"🚨 **Neocities Deploy Failed!**
+      - name: Notify Discord
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          MESSAGE="🚨 **Neocities Deploy Failed!**
+
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
-          ${{ secrets.DISCORD_WEBHOOK }}
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          PAYLOAD=$(jq -n --arg content "$MESSAGE" '{content: $content}')
+
+          curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "$DISCORD_WEBHOOK"
