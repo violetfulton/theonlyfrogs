@@ -48,10 +48,10 @@ jobs:
       - name: Refresh Discogs
         continue-on-error: true
         env:
-          DISCOGS_USERNAME: ${{ secrets.DISCOGS_USERNAME }}
+          DISCOGS_USERNAME: ${{ vars.DISCOGS_USERNAME }}
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
         run: npm run fetch:discogs
-        
+
       # --------------------------------
       # BUILD
       # --------------------------------
@@ -60,14 +60,16 @@ jobs:
         env:
           # Steam
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-          STEAM_USER_ID: ${{ secrets.STEAM_USER_ID }}
+          STEAM_USER_ID: ${{ vars.STEAM_USER_ID }}
 
           # MyAnimeList
           MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
-          MAL_USERNAME: ${{ secrets.MAL_USERNAME }}
+          MAL_USERNAME: ${{ vars.MAL_USERNAME }}
 
           # RetroAchievements
+          RA_USERNAME: ${{ vars.RA_USERNAME }}
           RA_WEB_API_KEY: ${{ secrets.RA_WEB_API_KEY }}
+          RA_CITY_FOLK_GAME_ID: ${{ vars.RA_CITY_FOLK_GAME_ID }}
 
           # Simkl
           SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
@@ -76,12 +78,18 @@ jobs:
           # TMDb
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
-          # Pokémon shiny sheet
-          SHINY_SHEET_CSV_URL: ${{ secrets.SHINY_SHEET_CSV_URL }}
-
           # Games
-          GAMES_CSV_URL: ${{ secrets.GAMES_CSV_URL }}
+          GAMES_CSV_URL: ${{ vars.GAMES_CSV_URL }}
+          THEGAMESDB_API_KEY: ${{ secrets.THEGAMESDB_API_KEY }}
           THEGAMESDB_OFFLINE: "1"
+
+          # Pokémon
+          POKEMON_CAPTURES_CSV_URL: ${{ vars.POKEMON_CAPTURES_CSV_URL }}
+          POKEMON_HUNTS_CSV_URL: ${{ vars.POKEMON_HUNTS_CSV_URL }}
+          POKEMON_DEX_LISTS_CSV_URL: ${{ vars.POKEMON_DEX_LISTS_CSV_URL }}
+          POKEMON_JOURNEYS_CSV_URL: ${{ vars.POKEMON_JOURNEYS_CSV_URL }}
+          POKEMON_RECORDS_CSV_URL: ${{ vars.POKEMON_RECORDS_CSV_URL }}
+          POKEMON_COLLECTION_CSV_URL: ${{ vars.POKEMON_COLLECTION_CSV_URL }}
 
         run: npm run build
 
@@ -112,11 +120,14 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          MESSAGE="✅ **Neocities Deploy Successful!**
+          MESSAGE=$(cat <<EOF
+          ✅ **Neocities Deploy Successful!**
 
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+          )
 
           PAYLOAD=$(jq -n --arg content "$MESSAGE" '{content: $content}')
 
@@ -162,11 +173,14 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          MESSAGE="🚨 **Neocities Deploy Failed!**
+          MESSAGE=$(cat <<EOF
+          🚨 **Neocities Deploy Failed!**
 
           Repository: ${{ github.repository }}
           Workflow: ${{ github.workflow }}
-          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+          )
 
           PAYLOAD=$(jq -n --arg content "$MESSAGE" '{content: $content}')
 
