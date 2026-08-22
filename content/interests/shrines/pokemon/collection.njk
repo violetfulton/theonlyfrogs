@@ -1,0 +1,49 @@
+---
+title: Pokémon Collection
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/collection/
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
+---
+<div class="poke-v2">
+  {% include "components/pokemon/pokenav.njk" %}
+  <main class="pkmn-screen">
+    <header class="pkmn-titlebar">
+      <div><p class="pkmn-kicker">ITEM STORAGE</p><h1>COLLECTION</h1></div>
+      <strong>{{ pokemon.collection.length }} ITEMS</strong>
+    </header>
+
+    {% if pokemon.collection.length %}
+      <div class="pkmn-collection-sections">
+        {% for group in pokemon.collectionGroups %}
+          <section class="pkmn-collection-section">
+            <header class="pkmn-collection-section__header">
+              <h2>{{ group.category }}</h2>
+              <span>{{ group.items.length }}</span>
+            </header>
+
+            <div class="pkmn-collection-grid">
+              {% for item in group.items %}
+                <article class="pkmn-collection-item{% if item.featured %} is-featured{% endif %}">
+                  {% if item.image %}<img src="{{ item.image }}" alt="{{ item.item }}">{% endif %}
+                  <h3>{{ item.item }}</h3>
+
+                  {% if item.meta.length %}
+                    <div class="pkmn-collection-meta">
+                      {% for label in item.meta %}<span>{{ label }}</span>{% endfor %}
+                    </div>
+                  {% endif %}
+
+                  {% if item.notes %}<p class="pkmn-muted">{{ item.notes }}</p>{% endif %}
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="pkmn-empty"><strong>ITEM STORAGE EMPTY</strong><span>No items registered.</span></div>
+    {% endif %}
+
+    <footer class="pkmn-controls"><a href="/shrines/pokemon/">B POKéNAV</a></footer>
+  </main>
+</div>

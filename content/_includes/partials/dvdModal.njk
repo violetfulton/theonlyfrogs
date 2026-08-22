@@ -1,33 +1,30 @@
-<div id="dvd-modal" class="dvd-modal">
-  <div class="dvd-modal-content dvd-modal-split">
-    <button class="modal-close" type="button" aria-label="Close">✖</button>
+<div id="dvd-modal" class="dvd-modal" aria-hidden="true">
+  <div class="dvd-modal-content dvd-modal-split" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Close details">×</button>
 
     <div class="dvd-modal-left">
-      <img id="modal-img" class="modal-poster" alt="">
+      <img id="modal-img" class="modal-poster" src="/assets/imgs/frog-dvd-placeholder.png" alt="">
 
       <div class="dvd-modal-left-meta">
-        <h2 id="modal-title">Movie Title</h2>
+        <p class="modal-kicker">from the shelf</p>
+        <h2 id="modal-title">Title</h2>
         <p id="modal-year"></p>
-        <p id="modal-seasons" class="modal-seasons" style="display:none;"></p>
+        <p id="modal-seasons" class="modal-seasons"></p>
 
-        <a id="modal-trakt-link"
-           class="modal-trakt-btn"
-           href="#"
-           target="_blank"
-           rel="noopener">
-          View on Trakt ↗
+        <a id="modal-simkl-link" class="modal-simkl-btn" href="https://simkl.com" target="_blank" rel="noopener noreferrer">
+          View on Simkl ↗
         </a>
       </div>
     </div>
 
     <div class="dvd-modal-right">
       <div class="modal-rating">
-        <span class="rating-label">My Rating:</span>
-        <span id="modal-rating-stars"></span>
+        <span class="rating-label">My rating</span>
+        <span id="modal-rating-stars" aria-label="My rating"></span>
       </div>
 
       <div class="modal-overview-block">
-        <h3>blurb</h3>
+        <h3>about this one</h3>
         <p id="modal-overview"></p>
       </div>
     </div>

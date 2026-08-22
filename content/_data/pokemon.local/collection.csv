@@ -1,0 +1,32 @@
+Category,Item,Pokémon,Series,Platform,Notes,Image,Featured
+Games,DS Collection,,,Nintendo DS,,/assets/imgs/pokemon/physical/games/ds-collection-nintendo-ds.png,FALSE
+Games,GB Cartridges,,,Game Boy,,/assets/imgs/pokemon/physical/games/gb-cartridges-game-boy.png,FALSE
+Games,GBA Cartridges,,,Game Boy Advance,,/assets/imgs/pokemon/physical/games/gba-cartridges-game-boy-advance.png,FALSE
+Games,Pokémon Colosseum,,,GameCube,,/assets/imgs/pokemon/physical/games/pokemon-colosseum-gamecube.png,FALSE
+Games,Switch Shelf,,,Nintendo Switch,,/assets/imgs/pokemon/physical/games/switch-shelf-nintendo-switch.png,FALSE
+Figures & Plush,Bulbasaur Line Evolution Set,Bulbasaur,,,,/assets/imgs/pokemon/physical/figures/bulbasaur-line-evolution-set.png,FALSE
+Figures & Plush,Charizard Preorder Set,Charizard,,,,/assets/imgs/pokemon/physical/figures/charizard-preorder-set.png,FALSE
+Figures & Plush,Eevee Funko Pop,Eevee,,,,/assets/imgs/pokemon/physical/figures/eevee-funko-pop.png,FALSE
+Figures & Plush,Figure Display Shelf,,,,,/assets/imgs/pokemon/physical/figures/figure-display-shelf.png,FALSE
+Figures & Plush,Pikachu Figure,Pikachu,,,,/assets/imgs/pokemon/physical/figures/pikachu-figure.png,FALSE
+Figures & Plush,Pokémon Plush Shelf,,,,,/assets/imgs/pokemon/physical/figures/pokemon-plush-shelf.png,FALSE
+Figures & Plush,Solgaleo Legendary,Solgaleo,,,,/assets/imgs/pokemon/physical/figures/solgaleo-legendary.png,FALSE
+TCG Binder,Binder Page 1,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-1-tcg.png,FALSE
+TCG Binder,Binder Page 2,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-2-tcg.png,FALSE
+TCG Binder,Binder Page 3,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-3-tcg.png,FALSE
+TCG Binder,Binder Page 4,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-4-tcg.png,FALSE
+TCG Binder,Binder Page 5,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-5-tcg.png,FALSE
+TCG Binder,Binder Page 6,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-6-tcg.png,FALSE
+TCG Binder,Binder Page 7,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-7-tcg.png,FALSE
+TCG Binder,Binder Page 8,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-8-tcg.png,FALSE
+TCG Binder,Binder Page 9,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-9-tcg.png,FALSE
+TCG Binder,Binder Page 10,,Pokémon TCG,,,/assets/imgs/pokemon/physical/tcg/binder-page-10-tcg.png,FALSE
+Misc Treasures,Collector Tins,,Pokémon TCG,,,/assets/imgs/pokemon/physical/misc/collector-tins-tcg.png,FALSE
+Misc Treasures,Lanyard,,,,,/assets/imgs/pokemon/physical/misc/lanyard-merch.png,FALSE
+Misc Treasures,Mew Pack,Mew,Pokémon TCG,,,/assets/imgs/pokemon/physical/misc/mew-pack-tcg.png,FALSE
+Misc Treasures,Pikachu Pouch,Pikachu,,,,/assets/imgs/pokemon/physical/misc/pikachu-pouch-merch.png,FALSE
+Misc Treasures,Rayquaza GX Card,Rayquaza,Pokémon TCG,,,/assets/imgs/pokemon/physical/misc/rayquaza-gx-card.png,FALSE
+Misc Treasures,Snorlax V Card,Snorlax,Pokémon TCG,,,/assets/imgs/pokemon/physical/misc/snorlax-v-card.png,FALSE
+Misc Treasures,Starter Pins,,,,,/assets/imgs/pokemon/physical/misc/starter-pins-merch.png,FALSE
+Misc Treasures,Stickers,,,,,/assets/imgs/pokemon/physical/misc/stickers-stationery.png,FALSE
+Misc Treasures,Stylus Set,,,Nintendo DS,,/assets/imgs/pokemon/physical/misc/stylus-set-ds.png,FALSE

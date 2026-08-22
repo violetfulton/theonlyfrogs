@@ -1,0 +1,55 @@
+---
+title: Trainer Card
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/trainer/
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
+---
+<div class="poke-v2">
+  {% include "components/pokemon/pokenav.njk" %}
+  <main class="pkmn-screen">
+    <header class="pkmn-titlebar">
+      <div><p class="pkmn-kicker">TRAINER PROFILE</p><h1>TRAINER CARD</h1></div>
+      <span class="pkmn-status-light"></span>
+    </header>
+
+    <section class="pkmn-trainer-card">
+      <div class="pkmn-trainer-card__top">
+        <div class="pkmn-trainer-emblem"><span class="pkmn-ball pkmn-ball--large"></span></div>
+        <div>
+          <p class="pkmn-eyebrow">NAME</p>
+          <h2>VIOLET</h2>
+          <p class="pkmn-muted">Shiny hunter · collector · frog enjoyer</p>
+        </div>
+        <dl>
+          <div><dt>SHINIES</dt><dd>{{ pokemon.stats.captures }}</dd></div>
+          <div><dt>DEX</dt><dd>{{ pokemon.stats.unique }}</dd></div>
+        </dl>
+      </div>
+
+      <div class="pkmn-trainer-card__lists">
+        {% for group in pokemon.listGroups %}
+          <article class="pkmn-fave-group pkmn-fave-group--{{ group.key }}">
+            <div class="pkmn-fave-group__head">
+              <h3>{{ group.label | upper }}</h3>
+              <strong>{{ group.entries.length }}</strong>
+            </div>
+            {% if group.entries.length %}
+              <div class="pkmn-fave-strip">
+                {% for mon in group.entries %}
+                  {% if loop.index <= 8 %}
+                    <span class="pkmn-fave-chip" title="{{ mon.species }}">
+                      {% if mon.shinyImage %}<img src="{{ mon.shinyImage }}" alt="Shiny {{ mon.species }}" loading="lazy">{% endif %}
+                    </span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <a class="pkmn-fave-link" href="/shrines/pokemon/dex/?list={{ group.key }}">OPEN {{ group.label | upper }} LIST →</a>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <footer class="pkmn-controls"><a href="/shrines/pokemon/">B POKéNAV</a></footer>
+  </main>
+</div>

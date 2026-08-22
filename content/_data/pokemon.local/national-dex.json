@@ -1,0 +1,7177 @@
+[
+  {
+    "dexNo": "1",
+    "dexDisplay": "001",
+    "species": "Bulbasaur",
+    "speciesKey": "bulbasaur",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "2",
+    "dexDisplay": "002",
+    "species": "Ivysaur",
+    "speciesKey": "ivysaur",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "3",
+    "dexDisplay": "003",
+    "species": "Venusaur",
+    "speciesKey": "venusaur",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "4",
+    "dexDisplay": "004",
+    "species": "Charmander",
+    "speciesKey": "charmander",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "5",
+    "dexDisplay": "005",
+    "species": "Charmeleon",
+    "speciesKey": "charmeleon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "6",
+    "dexDisplay": "006",
+    "species": "Charizard",
+    "speciesKey": "charizard",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "7",
+    "dexDisplay": "007",
+    "species": "Squirtle",
+    "speciesKey": "squirtle",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "8",
+    "dexDisplay": "008",
+    "species": "Wartortle",
+    "speciesKey": "wartortle",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "9",
+    "dexDisplay": "009",
+    "species": "Blastoise",
+    "speciesKey": "blastoise",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "10",
+    "dexDisplay": "010",
+    "species": "Caterpie",
+    "speciesKey": "caterpie",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "11",
+    "dexDisplay": "011",
+    "species": "Metapod",
+    "speciesKey": "metapod",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "12",
+    "dexDisplay": "012",
+    "species": "Butterfree",
+    "speciesKey": "butterfree",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "13",
+    "dexDisplay": "013",
+    "species": "Weedle",
+    "speciesKey": "weedle",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "14",
+    "dexDisplay": "014",
+    "species": "Kakuna",
+    "speciesKey": "kakuna",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "15",
+    "dexDisplay": "015",
+    "species": "Beedrill",
+    "speciesKey": "beedrill",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "16",
+    "dexDisplay": "016",
+    "species": "Pidgey",
+    "speciesKey": "pidgey",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "17",
+    "dexDisplay": "017",
+    "species": "Pidgeotto",
+    "speciesKey": "pidgeotto",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "18",
+    "dexDisplay": "018",
+    "species": "Pidgeot",
+    "speciesKey": "pidgeot",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "19",
+    "dexDisplay": "019",
+    "species": "Rattata",
+    "speciesKey": "rattata",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "20",
+    "dexDisplay": "020",
+    "species": "Raticate",
+    "speciesKey": "raticate",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "21",
+    "dexDisplay": "021",
+    "species": "Spearow",
+    "speciesKey": "spearow",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "22",
+    "dexDisplay": "022",
+    "species": "Fearow",
+    "speciesKey": "fearow",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "23",
+    "dexDisplay": "023",
+    "species": "Ekans",
+    "speciesKey": "ekans",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "24",
+    "dexDisplay": "024",
+    "species": "Arbok",
+    "speciesKey": "arbok",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "25",
+    "dexDisplay": "025",
+    "species": "Pikachu",
+    "speciesKey": "pikachu",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "26",
+    "dexDisplay": "026",
+    "species": "Raichu",
+    "speciesKey": "raichu",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "27",
+    "dexDisplay": "027",
+    "species": "Sandshrew",
+    "speciesKey": "sandshrew",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "28",
+    "dexDisplay": "028",
+    "species": "Sandslash",
+    "speciesKey": "sandslash",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "29",
+    "dexDisplay": "029",
+    "species": "Nidoran♀",
+    "speciesKey": "nidoran♀",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "30",
+    "dexDisplay": "030",
+    "species": "Nidorina",
+    "speciesKey": "nidorina",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "31",
+    "dexDisplay": "031",
+    "species": "Nidoqueen",
+    "speciesKey": "nidoqueen",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "32",
+    "dexDisplay": "032",
+    "species": "Nidoran♂",
+    "speciesKey": "nidoran♂",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "33",
+    "dexDisplay": "033",
+    "species": "Nidorino",
+    "speciesKey": "nidorino",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "34",
+    "dexDisplay": "034",
+    "species": "Nidoking",
+    "speciesKey": "nidoking",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "35",
+    "dexDisplay": "035",
+    "species": "Clefairy",
+    "speciesKey": "clefairy",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "36",
+    "dexDisplay": "036",
+    "species": "Clefable",
+    "speciesKey": "clefable",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "37",
+    "dexDisplay": "037",
+    "species": "Vulpix",
+    "speciesKey": "vulpix",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "38",
+    "dexDisplay": "038",
+    "species": "Ninetales",
+    "speciesKey": "ninetales",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "39",
+    "dexDisplay": "039",
+    "species": "Jigglypuff",
+    "speciesKey": "jigglypuff",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "40",
+    "dexDisplay": "040",
+    "species": "Wigglytuff",
+    "speciesKey": "wigglytuff",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "41",
+    "dexDisplay": "041",
+    "species": "Zubat",
+    "speciesKey": "zubat",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "42",
+    "dexDisplay": "042",
+    "species": "Golbat",
+    "speciesKey": "golbat",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "43",
+    "dexDisplay": "043",
+    "species": "Oddish",
+    "speciesKey": "oddish",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "44",
+    "dexDisplay": "044",
+    "species": "Gloom",
+    "speciesKey": "gloom",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "45",
+    "dexDisplay": "045",
+    "species": "Vileplume",
+    "speciesKey": "vileplume",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "46",
+    "dexDisplay": "046",
+    "species": "Paras",
+    "speciesKey": "paras",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "47",
+    "dexDisplay": "047",
+    "species": "Parasect",
+    "speciesKey": "parasect",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "48",
+    "dexDisplay": "048",
+    "species": "Venonat",
+    "speciesKey": "venonat",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "49",
+    "dexDisplay": "049",
+    "species": "Venomoth",
+    "speciesKey": "venomoth",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "50",
+    "dexDisplay": "050",
+    "species": "Diglett",
+    "speciesKey": "diglett",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "51",
+    "dexDisplay": "051",
+    "species": "Dugtrio",
+    "speciesKey": "dugtrio",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "52",
+    "dexDisplay": "052",
+    "species": "Meowth",
+    "speciesKey": "meowth",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "53",
+    "dexDisplay": "053",
+    "species": "Persian",
+    "speciesKey": "persian",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "54",
+    "dexDisplay": "054",
+    "species": "Psyduck",
+    "speciesKey": "psyduck",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "55",
+    "dexDisplay": "055",
+    "species": "Golduck",
+    "speciesKey": "golduck",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "56",
+    "dexDisplay": "056",
+    "species": "Mankey",
+    "speciesKey": "mankey",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "57",
+    "dexDisplay": "057",
+    "species": "Primeape",
+    "speciesKey": "primeape",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "58",
+    "dexDisplay": "058",
+    "species": "Growlithe",
+    "speciesKey": "growlithe",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "59",
+    "dexDisplay": "059",
+    "species": "Arcanine",
+    "speciesKey": "arcanine",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "60",
+    "dexDisplay": "060",
+    "species": "Poliwag",
+    "speciesKey": "poliwag",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "61",
+    "dexDisplay": "061",
+    "species": "Poliwhirl",
+    "speciesKey": "poliwhirl",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "62",
+    "dexDisplay": "062",
+    "species": "Poliwrath",
+    "speciesKey": "poliwrath",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "63",
+    "dexDisplay": "063",
+    "species": "Abra",
+    "speciesKey": "abra",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "64",
+    "dexDisplay": "064",
+    "species": "Kadabra",
+    "speciesKey": "kadabra",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "65",
+    "dexDisplay": "065",
+    "species": "Alakazam",
+    "speciesKey": "alakazam",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "66",
+    "dexDisplay": "066",
+    "species": "Machop",
+    "speciesKey": "machop",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "67",
+    "dexDisplay": "067",
+    "species": "Machoke",
+    "speciesKey": "machoke",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "68",
+    "dexDisplay": "068",
+    "species": "Machamp",
+    "speciesKey": "machamp",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "69",
+    "dexDisplay": "069",
+    "species": "Bellsprout",
+    "speciesKey": "bellsprout",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "70",
+    "dexDisplay": "070",
+    "species": "Weepinbell",
+    "speciesKey": "weepinbell",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "71",
+    "dexDisplay": "071",
+    "species": "Victreebel",
+    "speciesKey": "victreebel",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "72",
+    "dexDisplay": "072",
+    "species": "Tentacool",
+    "speciesKey": "tentacool",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "73",
+    "dexDisplay": "073",
+    "species": "Tentacruel",
+    "speciesKey": "tentacruel",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "74",
+    "dexDisplay": "074",
+    "species": "Geodude",
+    "speciesKey": "geodude",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "75",
+    "dexDisplay": "075",
+    "species": "Graveler",
+    "speciesKey": "graveler",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "76",
+    "dexDisplay": "076",
+    "species": "Golem",
+    "speciesKey": "golem",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "77",
+    "dexDisplay": "077",
+    "species": "Ponyta",
+    "speciesKey": "ponyta",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "78",
+    "dexDisplay": "078",
+    "species": "Rapidash",
+    "speciesKey": "rapidash",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "79",
+    "dexDisplay": "079",
+    "species": "Slowpoke",
+    "speciesKey": "slowpoke",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "80",
+    "dexDisplay": "080",
+    "species": "Slowbro",
+    "speciesKey": "slowbro",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "81",
+    "dexDisplay": "081",
+    "species": "Magnemite",
+    "speciesKey": "magnemite",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "82",
+    "dexDisplay": "082",
+    "species": "Magneton",
+    "speciesKey": "magneton",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "83",
+    "dexDisplay": "083",
+    "species": "Farfetch'd",
+    "speciesKey": "farfetch'd",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "84",
+    "dexDisplay": "084",
+    "species": "Doduo",
+    "speciesKey": "doduo",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "85",
+    "dexDisplay": "085",
+    "species": "Dodrio",
+    "speciesKey": "dodrio",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "86",
+    "dexDisplay": "086",
+    "species": "Seel",
+    "speciesKey": "seel",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "87",
+    "dexDisplay": "087",
+    "species": "Dewgong",
+    "speciesKey": "dewgong",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "88",
+    "dexDisplay": "088",
+    "species": "Grimer",
+    "speciesKey": "grimer",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "89",
+    "dexDisplay": "089",
+    "species": "Muk",
+    "speciesKey": "muk",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "90",
+    "dexDisplay": "090",
+    "species": "Shellder",
+    "speciesKey": "shellder",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "91",
+    "dexDisplay": "091",
+    "species": "Cloyster",
+    "speciesKey": "cloyster",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "92",
+    "dexDisplay": "092",
+    "species": "Gastly",
+    "speciesKey": "gastly",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "93",
+    "dexDisplay": "093",
+    "species": "Haunter",
+    "speciesKey": "haunter",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "94",
+    "dexDisplay": "094",
+    "species": "Gengar",
+    "speciesKey": "gengar",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "95",
+    "dexDisplay": "095",
+    "species": "Onix",
+    "speciesKey": "onix",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "96",
+    "dexDisplay": "096",
+    "species": "Drowzee",
+    "speciesKey": "drowzee",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "97",
+    "dexDisplay": "097",
+    "species": "Hypno",
+    "speciesKey": "hypno",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "98",
+    "dexDisplay": "098",
+    "species": "Krabby",
+    "speciesKey": "krabby",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "99",
+    "dexDisplay": "099",
+    "species": "Kingler",
+    "speciesKey": "kingler",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "100",
+    "dexDisplay": "100",
+    "species": "Voltorb",
+    "speciesKey": "voltorb",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "101",
+    "dexDisplay": "101",
+    "species": "Electrode",
+    "speciesKey": "electrode",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "102",
+    "dexDisplay": "102",
+    "species": "Exeggcute",
+    "speciesKey": "exeggcute",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "103",
+    "dexDisplay": "103",
+    "species": "Exeggutor",
+    "speciesKey": "exeggutor",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "104",
+    "dexDisplay": "104",
+    "species": "Cubone",
+    "speciesKey": "cubone",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "105",
+    "dexDisplay": "105",
+    "species": "Marowak",
+    "speciesKey": "marowak",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "106",
+    "dexDisplay": "106",
+    "species": "Hitmonlee",
+    "speciesKey": "hitmonlee",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "107",
+    "dexDisplay": "107",
+    "species": "Hitmonchan",
+    "speciesKey": "hitmonchan",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "108",
+    "dexDisplay": "108",
+    "species": "Lickitung",
+    "speciesKey": "lickitung",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "109",
+    "dexDisplay": "109",
+    "species": "Koffing",
+    "speciesKey": "koffing",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "110",
+    "dexDisplay": "110",
+    "species": "Weezing",
+    "speciesKey": "weezing",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "111",
+    "dexDisplay": "111",
+    "species": "Rhyhorn",
+    "speciesKey": "rhyhorn",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "112",
+    "dexDisplay": "112",
+    "species": "Rhydon",
+    "speciesKey": "rhydon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "113",
+    "dexDisplay": "113",
+    "species": "Chansey",
+    "speciesKey": "chansey",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "114",
+    "dexDisplay": "114",
+    "species": "Tangela",
+    "speciesKey": "tangela",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "115",
+    "dexDisplay": "115",
+    "species": "Kangaskhan",
+    "speciesKey": "kangaskhan",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "116",
+    "dexDisplay": "116",
+    "species": "Horsea",
+    "speciesKey": "horsea",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "117",
+    "dexDisplay": "117",
+    "species": "Seadra",
+    "speciesKey": "seadra",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "118",
+    "dexDisplay": "118",
+    "species": "Goldeen",
+    "speciesKey": "goldeen",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "119",
+    "dexDisplay": "119",
+    "species": "Seaking",
+    "speciesKey": "seaking",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "120",
+    "dexDisplay": "120",
+    "species": "Staryu",
+    "speciesKey": "staryu",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "121",
+    "dexDisplay": "121",
+    "species": "Starmie",
+    "speciesKey": "starmie",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "122",
+    "dexDisplay": "122",
+    "species": "Mr. Mime",
+    "speciesKey": "mr. mime",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "123",
+    "dexDisplay": "123",
+    "species": "Scyther",
+    "speciesKey": "scyther",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "124",
+    "dexDisplay": "124",
+    "species": "Jynx",
+    "speciesKey": "jynx",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "125",
+    "dexDisplay": "125",
+    "species": "Electabuzz",
+    "speciesKey": "electabuzz",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "126",
+    "dexDisplay": "126",
+    "species": "Magmar",
+    "speciesKey": "magmar",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "127",
+    "dexDisplay": "127",
+    "species": "Pinsir",
+    "speciesKey": "pinsir",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "128",
+    "dexDisplay": "128",
+    "species": "Tauros",
+    "speciesKey": "tauros",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "129",
+    "dexDisplay": "129",
+    "species": "Magikarp",
+    "speciesKey": "magikarp",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "130",
+    "dexDisplay": "130",
+    "species": "Gyarados",
+    "speciesKey": "gyarados",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "131",
+    "dexDisplay": "131",
+    "species": "Lapras",
+    "speciesKey": "lapras",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "132",
+    "dexDisplay": "132",
+    "species": "Ditto",
+    "speciesKey": "ditto",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "133",
+    "dexDisplay": "133",
+    "species": "Eevee",
+    "speciesKey": "eevee",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "134",
+    "dexDisplay": "134",
+    "species": "Vaporeon",
+    "speciesKey": "vaporeon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "135",
+    "dexDisplay": "135",
+    "species": "Jolteon",
+    "speciesKey": "jolteon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "136",
+    "dexDisplay": "136",
+    "species": "Flareon",
+    "speciesKey": "flareon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "137",
+    "dexDisplay": "137",
+    "species": "Porygon",
+    "speciesKey": "porygon",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "138",
+    "dexDisplay": "138",
+    "species": "Omanyte",
+    "speciesKey": "omanyte",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "139",
+    "dexDisplay": "139",
+    "species": "Omastar",
+    "speciesKey": "omastar",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "140",
+    "dexDisplay": "140",
+    "species": "Kabuto",
+    "speciesKey": "kabuto",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "141",
+    "dexDisplay": "141",
+    "species": "Kabutops",
+    "speciesKey": "kabutops",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "142",
+    "dexDisplay": "142",
+    "species": "Aerodactyl",
+    "speciesKey": "aerodactyl",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "143",
+    "dexDisplay": "143",
+    "species": "Snorlax",
+    "speciesKey": "snorlax",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "144",
+    "dexDisplay": "144",
+    "species": "Articuno",
+    "speciesKey": "articuno",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "145",
+    "dexDisplay": "145",
+    "species": "Zapdos",
+    "speciesKey": "zapdos",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "146",
+    "dexDisplay": "146",
+    "species": "Moltres",
+    "speciesKey": "moltres",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "147",
+    "dexDisplay": "147",
+    "species": "Dratini",
+    "speciesKey": "dratini",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "148",
+    "dexDisplay": "148",
+    "species": "Dragonair",
+    "speciesKey": "dragonair",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "149",
+    "dexDisplay": "149",
+    "species": "Dragonite",
+    "speciesKey": "dragonite",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "150",
+    "dexDisplay": "150",
+    "species": "Mewtwo",
+    "speciesKey": "mewtwo",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "151",
+    "dexDisplay": "151",
+    "species": "Mew",
+    "speciesKey": "mew",
+    "generation": "gen1"
+  },
+  {
+    "dexNo": "152",
+    "dexDisplay": "152",
+    "species": "Chikorita",
+    "speciesKey": "chikorita",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "153",
+    "dexDisplay": "153",
+    "species": "Bayleef",
+    "speciesKey": "bayleef",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "154",
+    "dexDisplay": "154",
+    "species": "Meganium",
+    "speciesKey": "meganium",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "155",
+    "dexDisplay": "155",
+    "species": "Cyndaquil",
+    "speciesKey": "cyndaquil",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "156",
+    "dexDisplay": "156",
+    "species": "Quilava",
+    "speciesKey": "quilava",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "157",
+    "dexDisplay": "157",
+    "species": "Typhlosion",
+    "speciesKey": "typhlosion",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "158",
+    "dexDisplay": "158",
+    "species": "Totodile",
+    "speciesKey": "totodile",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "159",
+    "dexDisplay": "159",
+    "species": "Croconaw",
+    "speciesKey": "croconaw",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "160",
+    "dexDisplay": "160",
+    "species": "Feraligatr",
+    "speciesKey": "feraligatr",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "161",
+    "dexDisplay": "161",
+    "species": "Sentret",
+    "speciesKey": "sentret",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "162",
+    "dexDisplay": "162",
+    "species": "Furret",
+    "speciesKey": "furret",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "163",
+    "dexDisplay": "163",
+    "species": "Hoothoot",
+    "speciesKey": "hoothoot",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "164",
+    "dexDisplay": "164",
+    "species": "Noctowl",
+    "speciesKey": "noctowl",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "165",
+    "dexDisplay": "165",
+    "species": "Ledyba",
+    "speciesKey": "ledyba",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "166",
+    "dexDisplay": "166",
+    "species": "Ledian",
+    "speciesKey": "ledian",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "167",
+    "dexDisplay": "167",
+    "species": "Spinarak",
+    "speciesKey": "spinarak",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "168",
+    "dexDisplay": "168",
+    "species": "Ariados",
+    "speciesKey": "ariados",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "169",
+    "dexDisplay": "169",
+    "species": "Crobat",
+    "speciesKey": "crobat",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "170",
+    "dexDisplay": "170",
+    "species": "Chinchou",
+    "speciesKey": "chinchou",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "171",
+    "dexDisplay": "171",
+    "species": "Lanturn",
+    "speciesKey": "lanturn",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "172",
+    "dexDisplay": "172",
+    "species": "Pichu",
+    "speciesKey": "pichu",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "173",
+    "dexDisplay": "173",
+    "species": "Cleffa",
+    "speciesKey": "cleffa",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "174",
+    "dexDisplay": "174",
+    "species": "Igglybuff",
+    "speciesKey": "igglybuff",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "175",
+    "dexDisplay": "175",
+    "species": "Togepi",
+    "speciesKey": "togepi",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "176",
+    "dexDisplay": "176",
+    "species": "Togetic",
+    "speciesKey": "togetic",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "177",
+    "dexDisplay": "177",
+    "species": "Natu",
+    "speciesKey": "natu",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "178",
+    "dexDisplay": "178",
+    "species": "Xatu",
+    "speciesKey": "xatu",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "179",
+    "dexDisplay": "179",
+    "species": "Mareep",
+    "speciesKey": "mareep",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "180",
+    "dexDisplay": "180",
+    "species": "Flaaffy",
+    "speciesKey": "flaaffy",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "181",
+    "dexDisplay": "181",
+    "species": "Ampharos",
+    "speciesKey": "ampharos",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "182",
+    "dexDisplay": "182",
+    "species": "Bellossom",
+    "speciesKey": "bellossom",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "183",
+    "dexDisplay": "183",
+    "species": "Marill",
+    "speciesKey": "marill",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "184",
+    "dexDisplay": "184",
+    "species": "Azumarill",
+    "speciesKey": "azumarill",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "185",
+    "dexDisplay": "185",
+    "species": "Sudowoodo",
+    "speciesKey": "sudowoodo",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "186",
+    "dexDisplay": "186",
+    "species": "Politoed",
+    "speciesKey": "politoed",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "187",
+    "dexDisplay": "187",
+    "species": "Hoppip",
+    "speciesKey": "hoppip",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "188",
+    "dexDisplay": "188",
+    "species": "Skiploom",
+    "speciesKey": "skiploom",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "189",
+    "dexDisplay": "189",
+    "species": "Jumpluff",
+    "speciesKey": "jumpluff",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "190",
+    "dexDisplay": "190",
+    "species": "Aipom",
+    "speciesKey": "aipom",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "191",
+    "dexDisplay": "191",
+    "species": "Sunkern",
+    "speciesKey": "sunkern",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "192",
+    "dexDisplay": "192",
+    "species": "Sunflora",
+    "speciesKey": "sunflora",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "193",
+    "dexDisplay": "193",
+    "species": "Yanma",
+    "speciesKey": "yanma",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "194",
+    "dexDisplay": "194",
+    "species": "Wooper",
+    "speciesKey": "wooper",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "195",
+    "dexDisplay": "195",
+    "species": "Quagsire",
+    "speciesKey": "quagsire",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "196",
+    "dexDisplay": "196",
+    "species": "Espeon",
+    "speciesKey": "espeon",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "197",
+    "dexDisplay": "197",
+    "species": "Umbreon",
+    "speciesKey": "umbreon",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "198",
+    "dexDisplay": "198",
+    "species": "Murkrow",
+    "speciesKey": "murkrow",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "199",
+    "dexDisplay": "199",
+    "species": "Slowking",
+    "speciesKey": "slowking",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "200",
+    "dexDisplay": "200",
+    "species": "Misdreavus",
+    "speciesKey": "misdreavus",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "201",
+    "dexDisplay": "201",
+    "species": "Unown",
+    "speciesKey": "unown",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "202",
+    "dexDisplay": "202",
+    "species": "Wobbuffet",
+    "speciesKey": "wobbuffet",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "203",
+    "dexDisplay": "203",
+    "species": "Girafarig",
+    "speciesKey": "girafarig",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "204",
+    "dexDisplay": "204",
+    "species": "Pineco",
+    "speciesKey": "pineco",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "205",
+    "dexDisplay": "205",
+    "species": "Forretress",
+    "speciesKey": "forretress",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "206",
+    "dexDisplay": "206",
+    "species": "Dunsparce",
+    "speciesKey": "dunsparce",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "207",
+    "dexDisplay": "207",
+    "species": "Gligar",
+    "speciesKey": "gligar",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "208",
+    "dexDisplay": "208",
+    "species": "Steelix",
+    "speciesKey": "steelix",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "209",
+    "dexDisplay": "209",
+    "species": "Snubbull",
+    "speciesKey": "snubbull",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "210",
+    "dexDisplay": "210",
+    "species": "Granbull",
+    "speciesKey": "granbull",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "211",
+    "dexDisplay": "211",
+    "species": "Qwilfish",
+    "speciesKey": "qwilfish",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "212",
+    "dexDisplay": "212",
+    "species": "Scizor",
+    "speciesKey": "scizor",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "213",
+    "dexDisplay": "213",
+    "species": "Shuckle",
+    "speciesKey": "shuckle",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "214",
+    "dexDisplay": "214",
+    "species": "Heracross",
+    "speciesKey": "heracross",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "215",
+    "dexDisplay": "215",
+    "species": "Sneasel",
+    "speciesKey": "sneasel",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "216",
+    "dexDisplay": "216",
+    "species": "Teddiursa",
+    "speciesKey": "teddiursa",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "217",
+    "dexDisplay": "217",
+    "species": "Ursaring",
+    "speciesKey": "ursaring",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "218",
+    "dexDisplay": "218",
+    "species": "Slugma",
+    "speciesKey": "slugma",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "219",
+    "dexDisplay": "219",
+    "species": "Magcargo",
+    "speciesKey": "magcargo",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "220",
+    "dexDisplay": "220",
+    "species": "Swinub",
+    "speciesKey": "swinub",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "221",
+    "dexDisplay": "221",
+    "species": "Piloswine",
+    "speciesKey": "piloswine",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "222",
+    "dexDisplay": "222",
+    "species": "Corsola",
+    "speciesKey": "corsola",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "223",
+    "dexDisplay": "223",
+    "species": "Remoraid",
+    "speciesKey": "remoraid",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "224",
+    "dexDisplay": "224",
+    "species": "Octillery",
+    "speciesKey": "octillery",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "225",
+    "dexDisplay": "225",
+    "species": "Delibird",
+    "speciesKey": "delibird",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "226",
+    "dexDisplay": "226",
+    "species": "Mantine",
+    "speciesKey": "mantine",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "227",
+    "dexDisplay": "227",
+    "species": "Skarmory",
+    "speciesKey": "skarmory",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "228",
+    "dexDisplay": "228",
+    "species": "Houndour",
+    "speciesKey": "houndour",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "229",
+    "dexDisplay": "229",
+    "species": "Houndoom",
+    "speciesKey": "houndoom",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "230",
+    "dexDisplay": "230",
+    "species": "Kingdra",
+    "speciesKey": "kingdra",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "231",
+    "dexDisplay": "231",
+    "species": "Phanpy",
+    "speciesKey": "phanpy",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "232",
+    "dexDisplay": "232",
+    "species": "Donphan",
+    "speciesKey": "donphan",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "233",
+    "dexDisplay": "233",
+    "species": "Porygon2",
+    "speciesKey": "porygon2",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "234",
+    "dexDisplay": "234",
+    "species": "Stantler",
+    "speciesKey": "stantler",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "235",
+    "dexDisplay": "235",
+    "species": "Smeargle",
+    "speciesKey": "smeargle",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "236",
+    "dexDisplay": "236",
+    "species": "Tyrogue",
+    "speciesKey": "tyrogue",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "237",
+    "dexDisplay": "237",
+    "species": "Hitmontop",
+    "speciesKey": "hitmontop",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "238",
+    "dexDisplay": "238",
+    "species": "Smoochum",
+    "speciesKey": "smoochum",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "239",
+    "dexDisplay": "239",
+    "species": "Elekid",
+    "speciesKey": "elekid",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "240",
+    "dexDisplay": "240",
+    "species": "Magby",
+    "speciesKey": "magby",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "241",
+    "dexDisplay": "241",
+    "species": "Miltank",
+    "speciesKey": "miltank",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "242",
+    "dexDisplay": "242",
+    "species": "Blissey",
+    "speciesKey": "blissey",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "243",
+    "dexDisplay": "243",
+    "species": "Raikou",
+    "speciesKey": "raikou",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "244",
+    "dexDisplay": "244",
+    "species": "Entei",
+    "speciesKey": "entei",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "245",
+    "dexDisplay": "245",
+    "species": "Suicune",
+    "speciesKey": "suicune",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "246",
+    "dexDisplay": "246",
+    "species": "Larvitar",
+    "speciesKey": "larvitar",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "247",
+    "dexDisplay": "247",
+    "species": "Pupitar",
+    "speciesKey": "pupitar",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "248",
+    "dexDisplay": "248",
+    "species": "Tyranitar",
+    "speciesKey": "tyranitar",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "249",
+    "dexDisplay": "249",
+    "species": "Lugia",
+    "speciesKey": "lugia",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "250",
+    "dexDisplay": "250",
+    "species": "Ho-Oh",
+    "speciesKey": "ho-oh",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "251",
+    "dexDisplay": "251",
+    "species": "Celebi",
+    "speciesKey": "celebi",
+    "generation": "gen2"
+  },
+  {
+    "dexNo": "252",
+    "dexDisplay": "252",
+    "species": "Treecko",
+    "speciesKey": "treecko",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "253",
+    "dexDisplay": "253",
+    "species": "Grovyle",
+    "speciesKey": "grovyle",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "254",
+    "dexDisplay": "254",
+    "species": "Sceptile",
+    "speciesKey": "sceptile",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "255",
+    "dexDisplay": "255",
+    "species": "Torchic",
+    "speciesKey": "torchic",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "256",
+    "dexDisplay": "256",
+    "species": "Combusken",
+    "speciesKey": "combusken",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "257",
+    "dexDisplay": "257",
+    "species": "Blaziken",
+    "speciesKey": "blaziken",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "258",
+    "dexDisplay": "258",
+    "species": "Mudkip",
+    "speciesKey": "mudkip",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "259",
+    "dexDisplay": "259",
+    "species": "Marshtomp",
+    "speciesKey": "marshtomp",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "260",
+    "dexDisplay": "260",
+    "species": "Swampert",
+    "speciesKey": "swampert",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "261",
+    "dexDisplay": "261",
+    "species": "Poochyena",
+    "speciesKey": "poochyena",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "262",
+    "dexDisplay": "262",
+    "species": "Mightyena",
+    "speciesKey": "mightyena",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "263",
+    "dexDisplay": "263",
+    "species": "Zigzagoon",
+    "speciesKey": "zigzagoon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "264",
+    "dexDisplay": "264",
+    "species": "Linoone",
+    "speciesKey": "linoone",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "265",
+    "dexDisplay": "265",
+    "species": "Wurmple",
+    "speciesKey": "wurmple",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "266",
+    "dexDisplay": "266",
+    "species": "Silcoon",
+    "speciesKey": "silcoon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "267",
+    "dexDisplay": "267",
+    "species": "Beautifly",
+    "speciesKey": "beautifly",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "268",
+    "dexDisplay": "268",
+    "species": "Cascoon",
+    "speciesKey": "cascoon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "269",
+    "dexDisplay": "269",
+    "species": "Dustox",
+    "speciesKey": "dustox",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "270",
+    "dexDisplay": "270",
+    "species": "Lotad",
+    "speciesKey": "lotad",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "271",
+    "dexDisplay": "271",
+    "species": "Lombre",
+    "speciesKey": "lombre",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "272",
+    "dexDisplay": "272",
+    "species": "Ludicolo",
+    "speciesKey": "ludicolo",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "273",
+    "dexDisplay": "273",
+    "species": "Seedot",
+    "speciesKey": "seedot",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "274",
+    "dexDisplay": "274",
+    "species": "Nuzleaf",
+    "speciesKey": "nuzleaf",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "275",
+    "dexDisplay": "275",
+    "species": "Shiftry",
+    "speciesKey": "shiftry",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "276",
+    "dexDisplay": "276",
+    "species": "Taillow",
+    "speciesKey": "taillow",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "277",
+    "dexDisplay": "277",
+    "species": "Swellow",
+    "speciesKey": "swellow",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "278",
+    "dexDisplay": "278",
+    "species": "Wingull",
+    "speciesKey": "wingull",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "279",
+    "dexDisplay": "279",
+    "species": "Pelipper",
+    "speciesKey": "pelipper",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "280",
+    "dexDisplay": "280",
+    "species": "Ralts",
+    "speciesKey": "ralts",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "281",
+    "dexDisplay": "281",
+    "species": "Kirlia",
+    "speciesKey": "kirlia",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "282",
+    "dexDisplay": "282",
+    "species": "Gardevoir",
+    "speciesKey": "gardevoir",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "283",
+    "dexDisplay": "283",
+    "species": "Surskit",
+    "speciesKey": "surskit",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "284",
+    "dexDisplay": "284",
+    "species": "Masquerain",
+    "speciesKey": "masquerain",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "285",
+    "dexDisplay": "285",
+    "species": "Shroomish",
+    "speciesKey": "shroomish",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "286",
+    "dexDisplay": "286",
+    "species": "Breloom",
+    "speciesKey": "breloom",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "287",
+    "dexDisplay": "287",
+    "species": "Slakoth",
+    "speciesKey": "slakoth",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "288",
+    "dexDisplay": "288",
+    "species": "Vigoroth",
+    "speciesKey": "vigoroth",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "289",
+    "dexDisplay": "289",
+    "species": "Slaking",
+    "speciesKey": "slaking",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "290",
+    "dexDisplay": "290",
+    "species": "Nincada",
+    "speciesKey": "nincada",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "291",
+    "dexDisplay": "291",
+    "species": "Ninjask",
+    "speciesKey": "ninjask",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "292",
+    "dexDisplay": "292",
+    "species": "Shedinja",
+    "speciesKey": "shedinja",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "293",
+    "dexDisplay": "293",
+    "species": "Whismur",
+    "speciesKey": "whismur",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "294",
+    "dexDisplay": "294",
+    "species": "Loudred",
+    "speciesKey": "loudred",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "295",
+    "dexDisplay": "295",
+    "species": "Exploud",
+    "speciesKey": "exploud",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "296",
+    "dexDisplay": "296",
+    "species": "Makuhita",
+    "speciesKey": "makuhita",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "297",
+    "dexDisplay": "297",
+    "species": "Hariyama",
+    "speciesKey": "hariyama",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "298",
+    "dexDisplay": "298",
+    "species": "Azurill",
+    "speciesKey": "azurill",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "299",
+    "dexDisplay": "299",
+    "species": "Nosepass",
+    "speciesKey": "nosepass",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "300",
+    "dexDisplay": "300",
+    "species": "Skitty",
+    "speciesKey": "skitty",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "301",
+    "dexDisplay": "301",
+    "species": "Delcatty",
+    "speciesKey": "delcatty",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "302",
+    "dexDisplay": "302",
+    "species": "Sableye",
+    "speciesKey": "sableye",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "303",
+    "dexDisplay": "303",
+    "species": "Mawile",
+    "speciesKey": "mawile",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "304",
+    "dexDisplay": "304",
+    "species": "Aron",
+    "speciesKey": "aron",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "305",
+    "dexDisplay": "305",
+    "species": "Lairon",
+    "speciesKey": "lairon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "306",
+    "dexDisplay": "306",
+    "species": "Aggron",
+    "speciesKey": "aggron",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "307",
+    "dexDisplay": "307",
+    "species": "Meditite",
+    "speciesKey": "meditite",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "308",
+    "dexDisplay": "308",
+    "species": "Medicham",
+    "speciesKey": "medicham",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "309",
+    "dexDisplay": "309",
+    "species": "Electrike",
+    "speciesKey": "electrike",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "310",
+    "dexDisplay": "310",
+    "species": "Manectric",
+    "speciesKey": "manectric",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "311",
+    "dexDisplay": "311",
+    "species": "Plusle",
+    "speciesKey": "plusle",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "312",
+    "dexDisplay": "312",
+    "species": "Minun",
+    "speciesKey": "minun",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "313",
+    "dexDisplay": "313",
+    "species": "Volbeat",
+    "speciesKey": "volbeat",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "314",
+    "dexDisplay": "314",
+    "species": "Illumise",
+    "speciesKey": "illumise",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "315",
+    "dexDisplay": "315",
+    "species": "Roselia",
+    "speciesKey": "roselia",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "316",
+    "dexDisplay": "316",
+    "species": "Gulpin",
+    "speciesKey": "gulpin",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "317",
+    "dexDisplay": "317",
+    "species": "Swalot",
+    "speciesKey": "swalot",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "318",
+    "dexDisplay": "318",
+    "species": "Carvanha",
+    "speciesKey": "carvanha",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "319",
+    "dexDisplay": "319",
+    "species": "Sharpedo",
+    "speciesKey": "sharpedo",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "320",
+    "dexDisplay": "320",
+    "species": "Wailmer",
+    "speciesKey": "wailmer",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "321",
+    "dexDisplay": "321",
+    "species": "Wailord",
+    "speciesKey": "wailord",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "322",
+    "dexDisplay": "322",
+    "species": "Numel",
+    "speciesKey": "numel",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "323",
+    "dexDisplay": "323",
+    "species": "Camerupt",
+    "speciesKey": "camerupt",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "324",
+    "dexDisplay": "324",
+    "species": "Torkoal",
+    "speciesKey": "torkoal",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "325",
+    "dexDisplay": "325",
+    "species": "Spoink",
+    "speciesKey": "spoink",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "326",
+    "dexDisplay": "326",
+    "species": "Grumpig",
+    "speciesKey": "grumpig",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "327",
+    "dexDisplay": "327",
+    "species": "Spinda",
+    "speciesKey": "spinda",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "328",
+    "dexDisplay": "328",
+    "species": "Trapinch",
+    "speciesKey": "trapinch",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "329",
+    "dexDisplay": "329",
+    "species": "Vibrava",
+    "speciesKey": "vibrava",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "330",
+    "dexDisplay": "330",
+    "species": "Flygon",
+    "speciesKey": "flygon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "331",
+    "dexDisplay": "331",
+    "species": "Cacnea",
+    "speciesKey": "cacnea",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "332",
+    "dexDisplay": "332",
+    "species": "Cacturne",
+    "speciesKey": "cacturne",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "333",
+    "dexDisplay": "333",
+    "species": "Swablu",
+    "speciesKey": "swablu",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "334",
+    "dexDisplay": "334",
+    "species": "Altaria",
+    "speciesKey": "altaria",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "335",
+    "dexDisplay": "335",
+    "species": "Zangoose",
+    "speciesKey": "zangoose",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "336",
+    "dexDisplay": "336",
+    "species": "Seviper",
+    "speciesKey": "seviper",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "337",
+    "dexDisplay": "337",
+    "species": "Lunatone",
+    "speciesKey": "lunatone",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "338",
+    "dexDisplay": "338",
+    "species": "Solrock",
+    "speciesKey": "solrock",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "339",
+    "dexDisplay": "339",
+    "species": "Barboach",
+    "speciesKey": "barboach",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "340",
+    "dexDisplay": "340",
+    "species": "Whiscash",
+    "speciesKey": "whiscash",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "341",
+    "dexDisplay": "341",
+    "species": "Corphish",
+    "speciesKey": "corphish",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "342",
+    "dexDisplay": "342",
+    "species": "Crawdaunt",
+    "speciesKey": "crawdaunt",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "343",
+    "dexDisplay": "343",
+    "species": "Baltoy",
+    "speciesKey": "baltoy",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "344",
+    "dexDisplay": "344",
+    "species": "Claydol",
+    "speciesKey": "claydol",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "345",
+    "dexDisplay": "345",
+    "species": "Lileep",
+    "speciesKey": "lileep",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "346",
+    "dexDisplay": "346",
+    "species": "Cradily",
+    "speciesKey": "cradily",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "347",
+    "dexDisplay": "347",
+    "species": "Anorith",
+    "speciesKey": "anorith",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "348",
+    "dexDisplay": "348",
+    "species": "Armaldo",
+    "speciesKey": "armaldo",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "349",
+    "dexDisplay": "349",
+    "species": "Feebas",
+    "speciesKey": "feebas",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "350",
+    "dexDisplay": "350",
+    "species": "Milotic",
+    "speciesKey": "milotic",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "351",
+    "dexDisplay": "351",
+    "species": "Castform",
+    "speciesKey": "castform",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "352",
+    "dexDisplay": "352",
+    "species": "Kecleon",
+    "speciesKey": "kecleon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "353",
+    "dexDisplay": "353",
+    "species": "Shuppet",
+    "speciesKey": "shuppet",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "354",
+    "dexDisplay": "354",
+    "species": "Banette",
+    "speciesKey": "banette",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "355",
+    "dexDisplay": "355",
+    "species": "Duskull",
+    "speciesKey": "duskull",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "356",
+    "dexDisplay": "356",
+    "species": "Dusclops",
+    "speciesKey": "dusclops",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "357",
+    "dexDisplay": "357",
+    "species": "Tropius",
+    "speciesKey": "tropius",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "358",
+    "dexDisplay": "358",
+    "species": "Chimecho",
+    "speciesKey": "chimecho",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "359",
+    "dexDisplay": "359",
+    "species": "Absol",
+    "speciesKey": "absol",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "360",
+    "dexDisplay": "360",
+    "species": "Wynaut",
+    "speciesKey": "wynaut",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "361",
+    "dexDisplay": "361",
+    "species": "Snorunt",
+    "speciesKey": "snorunt",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "362",
+    "dexDisplay": "362",
+    "species": "Glalie",
+    "speciesKey": "glalie",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "363",
+    "dexDisplay": "363",
+    "species": "Spheal",
+    "speciesKey": "spheal",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "364",
+    "dexDisplay": "364",
+    "species": "Sealeo",
+    "speciesKey": "sealeo",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "365",
+    "dexDisplay": "365",
+    "species": "Walrein",
+    "speciesKey": "walrein",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "366",
+    "dexDisplay": "366",
+    "species": "Clamperl",
+    "speciesKey": "clamperl",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "367",
+    "dexDisplay": "367",
+    "species": "Huntail",
+    "speciesKey": "huntail",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "368",
+    "dexDisplay": "368",
+    "species": "Gorebyss",
+    "speciesKey": "gorebyss",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "369",
+    "dexDisplay": "369",
+    "species": "Relicanth",
+    "speciesKey": "relicanth",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "370",
+    "dexDisplay": "370",
+    "species": "Luvdisc",
+    "speciesKey": "luvdisc",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "371",
+    "dexDisplay": "371",
+    "species": "Bagon",
+    "speciesKey": "bagon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "372",
+    "dexDisplay": "372",
+    "species": "Shelgon",
+    "speciesKey": "shelgon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "373",
+    "dexDisplay": "373",
+    "species": "Salamence",
+    "speciesKey": "salamence",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "374",
+    "dexDisplay": "374",
+    "species": "Beldum",
+    "speciesKey": "beldum",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "375",
+    "dexDisplay": "375",
+    "species": "Metang",
+    "speciesKey": "metang",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "376",
+    "dexDisplay": "376",
+    "species": "Metagross",
+    "speciesKey": "metagross",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "377",
+    "dexDisplay": "377",
+    "species": "Regirock",
+    "speciesKey": "regirock",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "378",
+    "dexDisplay": "378",
+    "species": "Regice",
+    "speciesKey": "regice",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "379",
+    "dexDisplay": "379",
+    "species": "Registeel",
+    "speciesKey": "registeel",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "380",
+    "dexDisplay": "380",
+    "species": "Latias",
+    "speciesKey": "latias",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "381",
+    "dexDisplay": "381",
+    "species": "Latios",
+    "speciesKey": "latios",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "382",
+    "dexDisplay": "382",
+    "species": "Kyogre",
+    "speciesKey": "kyogre",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "383",
+    "dexDisplay": "383",
+    "species": "Groudon",
+    "speciesKey": "groudon",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "384",
+    "dexDisplay": "384",
+    "species": "Rayquaza",
+    "speciesKey": "rayquaza",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "385",
+    "dexDisplay": "385",
+    "species": "Jirachi",
+    "speciesKey": "jirachi",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "386",
+    "dexDisplay": "386",
+    "species": "Deoxys",
+    "speciesKey": "deoxys",
+    "generation": "gen3"
+  },
+  {
+    "dexNo": "387",
+    "dexDisplay": "387",
+    "species": "Turtwig",
+    "speciesKey": "turtwig",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "388",
+    "dexDisplay": "388",
+    "species": "Grotle",
+    "speciesKey": "grotle",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "389",
+    "dexDisplay": "389",
+    "species": "Torterra",
+    "speciesKey": "torterra",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "390",
+    "dexDisplay": "390",
+    "species": "Chimchar",
+    "speciesKey": "chimchar",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "391",
+    "dexDisplay": "391",
+    "species": "Monferno",
+    "speciesKey": "monferno",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "392",
+    "dexDisplay": "392",
+    "species": "Infernape",
+    "speciesKey": "infernape",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "393",
+    "dexDisplay": "393",
+    "species": "Piplup",
+    "speciesKey": "piplup",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "394",
+    "dexDisplay": "394",
+    "species": "Prinplup",
+    "speciesKey": "prinplup",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "395",
+    "dexDisplay": "395",
+    "species": "Empoleon",
+    "speciesKey": "empoleon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "396",
+    "dexDisplay": "396",
+    "species": "Starly",
+    "speciesKey": "starly",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "397",
+    "dexDisplay": "397",
+    "species": "Staravia",
+    "speciesKey": "staravia",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "398",
+    "dexDisplay": "398",
+    "species": "Staraptor",
+    "speciesKey": "staraptor",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "399",
+    "dexDisplay": "399",
+    "species": "Bidoof",
+    "speciesKey": "bidoof",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "400",
+    "dexDisplay": "400",
+    "species": "Bibarel",
+    "speciesKey": "bibarel",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "401",
+    "dexDisplay": "401",
+    "species": "Kricketot",
+    "speciesKey": "kricketot",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "402",
+    "dexDisplay": "402",
+    "species": "Kricketune",
+    "speciesKey": "kricketune",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "403",
+    "dexDisplay": "403",
+    "species": "Shinx",
+    "speciesKey": "shinx",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "404",
+    "dexDisplay": "404",
+    "species": "Luxio",
+    "speciesKey": "luxio",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "405",
+    "dexDisplay": "405",
+    "species": "Luxray",
+    "speciesKey": "luxray",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "406",
+    "dexDisplay": "406",
+    "species": "Budew",
+    "speciesKey": "budew",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "407",
+    "dexDisplay": "407",
+    "species": "Roserade",
+    "speciesKey": "roserade",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "408",
+    "dexDisplay": "408",
+    "species": "Cranidos",
+    "speciesKey": "cranidos",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "409",
+    "dexDisplay": "409",
+    "species": "Rampardos",
+    "speciesKey": "rampardos",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "410",
+    "dexDisplay": "410",
+    "species": "Shieldon",
+    "speciesKey": "shieldon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "411",
+    "dexDisplay": "411",
+    "species": "Bastiodon",
+    "speciesKey": "bastiodon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "412",
+    "dexDisplay": "412",
+    "species": "Burmy",
+    "speciesKey": "burmy",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "413",
+    "dexDisplay": "413",
+    "species": "Wormadam",
+    "speciesKey": "wormadam",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "414",
+    "dexDisplay": "414",
+    "species": "Mothim",
+    "speciesKey": "mothim",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "415",
+    "dexDisplay": "415",
+    "species": "Combee",
+    "speciesKey": "combee",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "416",
+    "dexDisplay": "416",
+    "species": "Vespiquen",
+    "speciesKey": "vespiquen",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "417",
+    "dexDisplay": "417",
+    "species": "Pachirisu",
+    "speciesKey": "pachirisu",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "418",
+    "dexDisplay": "418",
+    "species": "Buizel",
+    "speciesKey": "buizel",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "419",
+    "dexDisplay": "419",
+    "species": "Floatzel",
+    "speciesKey": "floatzel",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "420",
+    "dexDisplay": "420",
+    "species": "Cherubi",
+    "speciesKey": "cherubi",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "421",
+    "dexDisplay": "421",
+    "species": "Cherrim",
+    "speciesKey": "cherrim",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "422",
+    "dexDisplay": "422",
+    "species": "Shellos",
+    "speciesKey": "shellos",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "423",
+    "dexDisplay": "423",
+    "species": "Gastrodon",
+    "speciesKey": "gastrodon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "424",
+    "dexDisplay": "424",
+    "species": "Ambipom",
+    "speciesKey": "ambipom",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "425",
+    "dexDisplay": "425",
+    "species": "Drifloon",
+    "speciesKey": "drifloon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "426",
+    "dexDisplay": "426",
+    "species": "Drifblim",
+    "speciesKey": "drifblim",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "427",
+    "dexDisplay": "427",
+    "species": "Buneary",
+    "speciesKey": "buneary",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "428",
+    "dexDisplay": "428",
+    "species": "Lopunny",
+    "speciesKey": "lopunny",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "429",
+    "dexDisplay": "429",
+    "species": "Mismagius",
+    "speciesKey": "mismagius",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "430",
+    "dexDisplay": "430",
+    "species": "Honchkrow",
+    "speciesKey": "honchkrow",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "431",
+    "dexDisplay": "431",
+    "species": "Glameow",
+    "speciesKey": "glameow",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "432",
+    "dexDisplay": "432",
+    "species": "Purugly",
+    "speciesKey": "purugly",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "433",
+    "dexDisplay": "433",
+    "species": "Chingling",
+    "speciesKey": "chingling",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "434",
+    "dexDisplay": "434",
+    "species": "Stunky",
+    "speciesKey": "stunky",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "435",
+    "dexDisplay": "435",
+    "species": "Skuntank",
+    "speciesKey": "skuntank",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "436",
+    "dexDisplay": "436",
+    "species": "Bronzor",
+    "speciesKey": "bronzor",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "437",
+    "dexDisplay": "437",
+    "species": "Bronzong",
+    "speciesKey": "bronzong",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "438",
+    "dexDisplay": "438",
+    "species": "Bonsly",
+    "speciesKey": "bonsly",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "439",
+    "dexDisplay": "439",
+    "species": "Mime Jr.",
+    "speciesKey": "mime jr.",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "440",
+    "dexDisplay": "440",
+    "species": "Happiny",
+    "speciesKey": "happiny",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "441",
+    "dexDisplay": "441",
+    "species": "Chatot",
+    "speciesKey": "chatot",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "442",
+    "dexDisplay": "442",
+    "species": "Spiritomb",
+    "speciesKey": "spiritomb",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "443",
+    "dexDisplay": "443",
+    "species": "Gible",
+    "speciesKey": "gible",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "444",
+    "dexDisplay": "444",
+    "species": "Gabite",
+    "speciesKey": "gabite",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "445",
+    "dexDisplay": "445",
+    "species": "Garchomp",
+    "speciesKey": "garchomp",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "446",
+    "dexDisplay": "446",
+    "species": "Munchlax",
+    "speciesKey": "munchlax",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "447",
+    "dexDisplay": "447",
+    "species": "Riolu",
+    "speciesKey": "riolu",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "448",
+    "dexDisplay": "448",
+    "species": "Lucario",
+    "speciesKey": "lucario",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "449",
+    "dexDisplay": "449",
+    "species": "Hippopotas",
+    "speciesKey": "hippopotas",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "450",
+    "dexDisplay": "450",
+    "species": "Hippowdon",
+    "speciesKey": "hippowdon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "451",
+    "dexDisplay": "451",
+    "species": "Skorupi",
+    "speciesKey": "skorupi",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "452",
+    "dexDisplay": "452",
+    "species": "Drapion",
+    "speciesKey": "drapion",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "453",
+    "dexDisplay": "453",
+    "species": "Croagunk",
+    "speciesKey": "croagunk",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "454",
+    "dexDisplay": "454",
+    "species": "Toxicroak",
+    "speciesKey": "toxicroak",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "455",
+    "dexDisplay": "455",
+    "species": "Carnivine",
+    "speciesKey": "carnivine",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "456",
+    "dexDisplay": "456",
+    "species": "Finneon",
+    "speciesKey": "finneon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "457",
+    "dexDisplay": "457",
+    "species": "Lumineon",
+    "speciesKey": "lumineon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "458",
+    "dexDisplay": "458",
+    "species": "Mantyke",
+    "speciesKey": "mantyke",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "459",
+    "dexDisplay": "459",
+    "species": "Snover",
+    "speciesKey": "snover",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "460",
+    "dexDisplay": "460",
+    "species": "Abomasnow",
+    "speciesKey": "abomasnow",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "461",
+    "dexDisplay": "461",
+    "species": "Weavile",
+    "speciesKey": "weavile",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "462",
+    "dexDisplay": "462",
+    "species": "Magnezone",
+    "speciesKey": "magnezone",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "463",
+    "dexDisplay": "463",
+    "species": "Lickilicky",
+    "speciesKey": "lickilicky",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "464",
+    "dexDisplay": "464",
+    "species": "Rhyperior",
+    "speciesKey": "rhyperior",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "465",
+    "dexDisplay": "465",
+    "species": "Tangrowth",
+    "speciesKey": "tangrowth",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "466",
+    "dexDisplay": "466",
+    "species": "Electivire",
+    "speciesKey": "electivire",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "467",
+    "dexDisplay": "467",
+    "species": "Magmortar",
+    "speciesKey": "magmortar",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "468",
+    "dexDisplay": "468",
+    "species": "Togekiss",
+    "speciesKey": "togekiss",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "469",
+    "dexDisplay": "469",
+    "species": "Yanmega",
+    "speciesKey": "yanmega",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "470",
+    "dexDisplay": "470",
+    "species": "Leafeon",
+    "speciesKey": "leafeon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "471",
+    "dexDisplay": "471",
+    "species": "Glaceon",
+    "speciesKey": "glaceon",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "472",
+    "dexDisplay": "472",
+    "species": "Gliscor",
+    "speciesKey": "gliscor",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "473",
+    "dexDisplay": "473",
+    "species": "Mamoswine",
+    "speciesKey": "mamoswine",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "474",
+    "dexDisplay": "474",
+    "species": "Porygon-Z",
+    "speciesKey": "porygon-z",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "475",
+    "dexDisplay": "475",
+    "species": "Gallade",
+    "speciesKey": "gallade",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "476",
+    "dexDisplay": "476",
+    "species": "Probopass",
+    "speciesKey": "probopass",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "477",
+    "dexDisplay": "477",
+    "species": "Dusknoir",
+    "speciesKey": "dusknoir",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "478",
+    "dexDisplay": "478",
+    "species": "Froslass",
+    "speciesKey": "froslass",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "479",
+    "dexDisplay": "479",
+    "species": "Rotom",
+    "speciesKey": "rotom",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "480",
+    "dexDisplay": "480",
+    "species": "Uxie",
+    "speciesKey": "uxie",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "481",
+    "dexDisplay": "481",
+    "species": "Mesprit",
+    "speciesKey": "mesprit",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "482",
+    "dexDisplay": "482",
+    "species": "Azelf",
+    "speciesKey": "azelf",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "483",
+    "dexDisplay": "483",
+    "species": "Dialga",
+    "speciesKey": "dialga",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "484",
+    "dexDisplay": "484",
+    "species": "Palkia",
+    "speciesKey": "palkia",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "485",
+    "dexDisplay": "485",
+    "species": "Heatran",
+    "speciesKey": "heatran",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "486",
+    "dexDisplay": "486",
+    "species": "Regigigas",
+    "speciesKey": "regigigas",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "487",
+    "dexDisplay": "487",
+    "species": "Giratina",
+    "speciesKey": "giratina",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "488",
+    "dexDisplay": "488",
+    "species": "Cresselia",
+    "speciesKey": "cresselia",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "489",
+    "dexDisplay": "489",
+    "species": "Phione",
+    "speciesKey": "phione",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "490",
+    "dexDisplay": "490",
+    "species": "Manaphy",
+    "speciesKey": "manaphy",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "491",
+    "dexDisplay": "491",
+    "species": "Darkrai",
+    "speciesKey": "darkrai",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "492",
+    "dexDisplay": "492",
+    "species": "Shaymin",
+    "speciesKey": "shaymin",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "493",
+    "dexDisplay": "493",
+    "species": "Arceus",
+    "speciesKey": "arceus",
+    "generation": "gen4"
+  },
+  {
+    "dexNo": "494",
+    "dexDisplay": "494",
+    "species": "Victini",
+    "speciesKey": "victini",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "495",
+    "dexDisplay": "495",
+    "species": "Snivy",
+    "speciesKey": "snivy",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "496",
+    "dexDisplay": "496",
+    "species": "Servine",
+    "speciesKey": "servine",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "497",
+    "dexDisplay": "497",
+    "species": "Serperior",
+    "speciesKey": "serperior",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "498",
+    "dexDisplay": "498",
+    "species": "Tepig",
+    "speciesKey": "tepig",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "499",
+    "dexDisplay": "499",
+    "species": "Pignite",
+    "speciesKey": "pignite",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "500",
+    "dexDisplay": "500",
+    "species": "Emboar",
+    "speciesKey": "emboar",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "501",
+    "dexDisplay": "501",
+    "species": "Oshawott",
+    "speciesKey": "oshawott",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "502",
+    "dexDisplay": "502",
+    "species": "Dewott",
+    "speciesKey": "dewott",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "503",
+    "dexDisplay": "503",
+    "species": "Samurott",
+    "speciesKey": "samurott",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "504",
+    "dexDisplay": "504",
+    "species": "Patrat",
+    "speciesKey": "patrat",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "505",
+    "dexDisplay": "505",
+    "species": "Watchog",
+    "speciesKey": "watchog",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "506",
+    "dexDisplay": "506",
+    "species": "Lillipup",
+    "speciesKey": "lillipup",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "507",
+    "dexDisplay": "507",
+    "species": "Herdier",
+    "speciesKey": "herdier",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "508",
+    "dexDisplay": "508",
+    "species": "Stoutland",
+    "speciesKey": "stoutland",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "509",
+    "dexDisplay": "509",
+    "species": "Purrloin",
+    "speciesKey": "purrloin",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "510",
+    "dexDisplay": "510",
+    "species": "Liepard",
+    "speciesKey": "liepard",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "511",
+    "dexDisplay": "511",
+    "species": "Pansage",
+    "speciesKey": "pansage",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "512",
+    "dexDisplay": "512",
+    "species": "Simisage",
+    "speciesKey": "simisage",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "513",
+    "dexDisplay": "513",
+    "species": "Pansear",
+    "speciesKey": "pansear",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "514",
+    "dexDisplay": "514",
+    "species": "Simisear",
+    "speciesKey": "simisear",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "515",
+    "dexDisplay": "515",
+    "species": "Panpour",
+    "speciesKey": "panpour",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "516",
+    "dexDisplay": "516",
+    "species": "Simipour",
+    "speciesKey": "simipour",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "517",
+    "dexDisplay": "517",
+    "species": "Munna",
+    "speciesKey": "munna",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "518",
+    "dexDisplay": "518",
+    "species": "Musharna",
+    "speciesKey": "musharna",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "519",
+    "dexDisplay": "519",
+    "species": "Pidove",
+    "speciesKey": "pidove",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "520",
+    "dexDisplay": "520",
+    "species": "Tranquill",
+    "speciesKey": "tranquill",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "521",
+    "dexDisplay": "521",
+    "species": "Unfezant",
+    "speciesKey": "unfezant",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "522",
+    "dexDisplay": "522",
+    "species": "Blitzle",
+    "speciesKey": "blitzle",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "523",
+    "dexDisplay": "523",
+    "species": "Zebstrika",
+    "speciesKey": "zebstrika",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "524",
+    "dexDisplay": "524",
+    "species": "Roggenrola",
+    "speciesKey": "roggenrola",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "525",
+    "dexDisplay": "525",
+    "species": "Boldore",
+    "speciesKey": "boldore",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "526",
+    "dexDisplay": "526",
+    "species": "Gigalith",
+    "speciesKey": "gigalith",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "527",
+    "dexDisplay": "527",
+    "species": "Woobat",
+    "speciesKey": "woobat",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "528",
+    "dexDisplay": "528",
+    "species": "Swoobat",
+    "speciesKey": "swoobat",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "529",
+    "dexDisplay": "529",
+    "species": "Drilbur",
+    "speciesKey": "drilbur",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "530",
+    "dexDisplay": "530",
+    "species": "Excadrill",
+    "speciesKey": "excadrill",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "531",
+    "dexDisplay": "531",
+    "species": "Audino",
+    "speciesKey": "audino",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "532",
+    "dexDisplay": "532",
+    "species": "Timburr",
+    "speciesKey": "timburr",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "533",
+    "dexDisplay": "533",
+    "species": "Gurdurr",
+    "speciesKey": "gurdurr",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "534",
+    "dexDisplay": "534",
+    "species": "Conkeldurr",
+    "speciesKey": "conkeldurr",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "535",
+    "dexDisplay": "535",
+    "species": "Tympole",
+    "speciesKey": "tympole",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "536",
+    "dexDisplay": "536",
+    "species": "Palpitoad",
+    "speciesKey": "palpitoad",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "537",
+    "dexDisplay": "537",
+    "species": "Seismitoad",
+    "speciesKey": "seismitoad",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "538",
+    "dexDisplay": "538",
+    "species": "Throh",
+    "speciesKey": "throh",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "539",
+    "dexDisplay": "539",
+    "species": "Sawk",
+    "speciesKey": "sawk",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "540",
+    "dexDisplay": "540",
+    "species": "Sewaddle",
+    "speciesKey": "sewaddle",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "541",
+    "dexDisplay": "541",
+    "species": "Swadloon",
+    "speciesKey": "swadloon",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "542",
+    "dexDisplay": "542",
+    "species": "Leavanny",
+    "speciesKey": "leavanny",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "543",
+    "dexDisplay": "543",
+    "species": "Venipede",
+    "speciesKey": "venipede",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "544",
+    "dexDisplay": "544",
+    "species": "Whirlipede",
+    "speciesKey": "whirlipede",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "545",
+    "dexDisplay": "545",
+    "species": "Scolipede",
+    "speciesKey": "scolipede",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "546",
+    "dexDisplay": "546",
+    "species": "Cottonee",
+    "speciesKey": "cottonee",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "547",
+    "dexDisplay": "547",
+    "species": "Whimsicott",
+    "speciesKey": "whimsicott",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "548",
+    "dexDisplay": "548",
+    "species": "Petilil",
+    "speciesKey": "petilil",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "549",
+    "dexDisplay": "549",
+    "species": "Lilligant",
+    "speciesKey": "lilligant",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "550",
+    "dexDisplay": "550",
+    "species": "Basculin",
+    "speciesKey": "basculin",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "551",
+    "dexDisplay": "551",
+    "species": "Sandile",
+    "speciesKey": "sandile",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "552",
+    "dexDisplay": "552",
+    "species": "Krokorok",
+    "speciesKey": "krokorok",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "553",
+    "dexDisplay": "553",
+    "species": "Krookodile",
+    "speciesKey": "krookodile",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "554",
+    "dexDisplay": "554",
+    "species": "Darumaka",
+    "speciesKey": "darumaka",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "555",
+    "dexDisplay": "555",
+    "species": "Darmanitan",
+    "speciesKey": "darmanitan",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "556",
+    "dexDisplay": "556",
+    "species": "Maractus",
+    "speciesKey": "maractus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "557",
+    "dexDisplay": "557",
+    "species": "Dwebble",
+    "speciesKey": "dwebble",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "558",
+    "dexDisplay": "558",
+    "species": "Crustle",
+    "speciesKey": "crustle",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "559",
+    "dexDisplay": "559",
+    "species": "Scraggy",
+    "speciesKey": "scraggy",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "560",
+    "dexDisplay": "560",
+    "species": "Scrafty",
+    "speciesKey": "scrafty",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "561",
+    "dexDisplay": "561",
+    "species": "Sigilyph",
+    "speciesKey": "sigilyph",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "562",
+    "dexDisplay": "562",
+    "species": "Yamask",
+    "speciesKey": "yamask",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "563",
+    "dexDisplay": "563",
+    "species": "Cofagrigus",
+    "speciesKey": "cofagrigus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "564",
+    "dexDisplay": "564",
+    "species": "Tirtouga",
+    "speciesKey": "tirtouga",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "565",
+    "dexDisplay": "565",
+    "species": "Carracosta",
+    "speciesKey": "carracosta",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "566",
+    "dexDisplay": "566",
+    "species": "Archen",
+    "speciesKey": "archen",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "567",
+    "dexDisplay": "567",
+    "species": "Archeops",
+    "speciesKey": "archeops",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "568",
+    "dexDisplay": "568",
+    "species": "Trubbish",
+    "speciesKey": "trubbish",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "569",
+    "dexDisplay": "569",
+    "species": "Garbodor",
+    "speciesKey": "garbodor",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "570",
+    "dexDisplay": "570",
+    "species": "Zorua",
+    "speciesKey": "zorua",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "571",
+    "dexDisplay": "571",
+    "species": "Zoroark",
+    "speciesKey": "zoroark",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "572",
+    "dexDisplay": "572",
+    "species": "Minccino",
+    "speciesKey": "minccino",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "573",
+    "dexDisplay": "573",
+    "species": "Cinccino",
+    "speciesKey": "cinccino",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "574",
+    "dexDisplay": "574",
+    "species": "Gothita",
+    "speciesKey": "gothita",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "575",
+    "dexDisplay": "575",
+    "species": "Gothorita",
+    "speciesKey": "gothorita",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "576",
+    "dexDisplay": "576",
+    "species": "Gothitelle",
+    "speciesKey": "gothitelle",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "577",
+    "dexDisplay": "577",
+    "species": "Solosis",
+    "speciesKey": "solosis",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "578",
+    "dexDisplay": "578",
+    "species": "Duosion",
+    "speciesKey": "duosion",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "579",
+    "dexDisplay": "579",
+    "species": "Reuniclus",
+    "speciesKey": "reuniclus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "580",
+    "dexDisplay": "580",
+    "species": "Ducklett",
+    "speciesKey": "ducklett",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "581",
+    "dexDisplay": "581",
+    "species": "Swanna",
+    "speciesKey": "swanna",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "582",
+    "dexDisplay": "582",
+    "species": "Vanillite",
+    "speciesKey": "vanillite",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "583",
+    "dexDisplay": "583",
+    "species": "Vanillish",
+    "speciesKey": "vanillish",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "584",
+    "dexDisplay": "584",
+    "species": "Vanilluxe",
+    "speciesKey": "vanilluxe",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "585",
+    "dexDisplay": "585",
+    "species": "Deerling",
+    "speciesKey": "deerling",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "586",
+    "dexDisplay": "586",
+    "species": "Sawsbuck",
+    "speciesKey": "sawsbuck",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "587",
+    "dexDisplay": "587",
+    "species": "Emolga",
+    "speciesKey": "emolga",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "588",
+    "dexDisplay": "588",
+    "species": "Karrablast",
+    "speciesKey": "karrablast",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "589",
+    "dexDisplay": "589",
+    "species": "Escavalier",
+    "speciesKey": "escavalier",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "590",
+    "dexDisplay": "590",
+    "species": "Foongus",
+    "speciesKey": "foongus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "591",
+    "dexDisplay": "591",
+    "species": "Amoonguss",
+    "speciesKey": "amoonguss",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "592",
+    "dexDisplay": "592",
+    "species": "Frillish",
+    "speciesKey": "frillish",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "593",
+    "dexDisplay": "593",
+    "species": "Jellicent",
+    "speciesKey": "jellicent",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "594",
+    "dexDisplay": "594",
+    "species": "Alomomola",
+    "speciesKey": "alomomola",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "595",
+    "dexDisplay": "595",
+    "species": "Joltik",
+    "speciesKey": "joltik",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "596",
+    "dexDisplay": "596",
+    "species": "Galvantula",
+    "speciesKey": "galvantula",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "597",
+    "dexDisplay": "597",
+    "species": "Ferroseed",
+    "speciesKey": "ferroseed",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "598",
+    "dexDisplay": "598",
+    "species": "Ferrothorn",
+    "speciesKey": "ferrothorn",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "599",
+    "dexDisplay": "599",
+    "species": "Klink",
+    "speciesKey": "klink",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "600",
+    "dexDisplay": "600",
+    "species": "Klang",
+    "speciesKey": "klang",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "601",
+    "dexDisplay": "601",
+    "species": "Klinklang",
+    "speciesKey": "klinklang",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "602",
+    "dexDisplay": "602",
+    "species": "Tynamo",
+    "speciesKey": "tynamo",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "603",
+    "dexDisplay": "603",
+    "species": "Eelektrik",
+    "speciesKey": "eelektrik",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "604",
+    "dexDisplay": "604",
+    "species": "Eelektross",
+    "speciesKey": "eelektross",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "605",
+    "dexDisplay": "605",
+    "species": "Elgyem",
+    "speciesKey": "elgyem",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "606",
+    "dexDisplay": "606",
+    "species": "Beheeyem",
+    "speciesKey": "beheeyem",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "607",
+    "dexDisplay": "607",
+    "species": "Litwick",
+    "speciesKey": "litwick",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "608",
+    "dexDisplay": "608",
+    "species": "Lampent",
+    "speciesKey": "lampent",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "609",
+    "dexDisplay": "609",
+    "species": "Chandelure",
+    "speciesKey": "chandelure",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "610",
+    "dexDisplay": "610",
+    "species": "Axew",
+    "speciesKey": "axew",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "611",
+    "dexDisplay": "611",
+    "species": "Fraxure",
+    "speciesKey": "fraxure",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "612",
+    "dexDisplay": "612",
+    "species": "Haxorus",
+    "speciesKey": "haxorus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "613",
+    "dexDisplay": "613",
+    "species": "Cubchoo",
+    "speciesKey": "cubchoo",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "614",
+    "dexDisplay": "614",
+    "species": "Beartic",
+    "speciesKey": "beartic",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "615",
+    "dexDisplay": "615",
+    "species": "Cryogonal",
+    "speciesKey": "cryogonal",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "616",
+    "dexDisplay": "616",
+    "species": "Shelmet",
+    "speciesKey": "shelmet",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "617",
+    "dexDisplay": "617",
+    "species": "Accelgor",
+    "speciesKey": "accelgor",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "618",
+    "dexDisplay": "618",
+    "species": "Stunfisk",
+    "speciesKey": "stunfisk",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "619",
+    "dexDisplay": "619",
+    "species": "Mienfoo",
+    "speciesKey": "mienfoo",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "620",
+    "dexDisplay": "620",
+    "species": "Mienshao",
+    "speciesKey": "mienshao",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "621",
+    "dexDisplay": "621",
+    "species": "Druddigon",
+    "speciesKey": "druddigon",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "622",
+    "dexDisplay": "622",
+    "species": "Golett",
+    "speciesKey": "golett",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "623",
+    "dexDisplay": "623",
+    "species": "Golurk",
+    "speciesKey": "golurk",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "624",
+    "dexDisplay": "624",
+    "species": "Pawniard",
+    "speciesKey": "pawniard",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "625",
+    "dexDisplay": "625",
+    "species": "Bisharp",
+    "speciesKey": "bisharp",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "626",
+    "dexDisplay": "626",
+    "species": "Bouffalant",
+    "speciesKey": "bouffalant",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "627",
+    "dexDisplay": "627",
+    "species": "Rufflet",
+    "speciesKey": "rufflet",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "628",
+    "dexDisplay": "628",
+    "species": "Braviary",
+    "speciesKey": "braviary",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "629",
+    "dexDisplay": "629",
+    "species": "Vullaby",
+    "speciesKey": "vullaby",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "630",
+    "dexDisplay": "630",
+    "species": "Mandibuzz",
+    "speciesKey": "mandibuzz",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "631",
+    "dexDisplay": "631",
+    "species": "Heatmor",
+    "speciesKey": "heatmor",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "632",
+    "dexDisplay": "632",
+    "species": "Durant",
+    "speciesKey": "durant",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "633",
+    "dexDisplay": "633",
+    "species": "Deino",
+    "speciesKey": "deino",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "634",
+    "dexDisplay": "634",
+    "species": "Zweilous",
+    "speciesKey": "zweilous",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "635",
+    "dexDisplay": "635",
+    "species": "Hydreigon",
+    "speciesKey": "hydreigon",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "636",
+    "dexDisplay": "636",
+    "species": "Larvesta",
+    "speciesKey": "larvesta",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "637",
+    "dexDisplay": "637",
+    "species": "Volcarona",
+    "speciesKey": "volcarona",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "638",
+    "dexDisplay": "638",
+    "species": "Cobalion",
+    "speciesKey": "cobalion",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "639",
+    "dexDisplay": "639",
+    "species": "Terrakion",
+    "speciesKey": "terrakion",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "640",
+    "dexDisplay": "640",
+    "species": "Virizion",
+    "speciesKey": "virizion",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "641",
+    "dexDisplay": "641",
+    "species": "Tornadus",
+    "speciesKey": "tornadus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "642",
+    "dexDisplay": "642",
+    "species": "Thundurus",
+    "speciesKey": "thundurus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "643",
+    "dexDisplay": "643",
+    "species": "Reshiram",
+    "speciesKey": "reshiram",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "644",
+    "dexDisplay": "644",
+    "species": "Zekrom",
+    "speciesKey": "zekrom",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "645",
+    "dexDisplay": "645",
+    "species": "Landorus",
+    "speciesKey": "landorus",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "646",
+    "dexDisplay": "646",
+    "species": "Kyurem",
+    "speciesKey": "kyurem",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "647",
+    "dexDisplay": "647",
+    "species": "Keldeo",
+    "speciesKey": "keldeo",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "648",
+    "dexDisplay": "648",
+    "species": "Meloetta",
+    "speciesKey": "meloetta",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "649",
+    "dexDisplay": "649",
+    "species": "Genesect",
+    "speciesKey": "genesect",
+    "generation": "gen5"
+  },
+  {
+    "dexNo": "650",
+    "dexDisplay": "650",
+    "species": "Chespin",
+    "speciesKey": "chespin",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "651",
+    "dexDisplay": "651",
+    "species": "Quilladin",
+    "speciesKey": "quilladin",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "652",
+    "dexDisplay": "652",
+    "species": "Chesnaught",
+    "speciesKey": "chesnaught",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "653",
+    "dexDisplay": "653",
+    "species": "Fennekin",
+    "speciesKey": "fennekin",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "654",
+    "dexDisplay": "654",
+    "species": "Braixen",
+    "speciesKey": "braixen",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "655",
+    "dexDisplay": "655",
+    "species": "Delphox",
+    "speciesKey": "delphox",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "656",
+    "dexDisplay": "656",
+    "species": "Froakie",
+    "speciesKey": "froakie",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "657",
+    "dexDisplay": "657",
+    "species": "Frogadier",
+    "speciesKey": "frogadier",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "658",
+    "dexDisplay": "658",
+    "species": "Greninja",
+    "speciesKey": "greninja",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "659",
+    "dexDisplay": "659",
+    "species": "Bunnelby",
+    "speciesKey": "bunnelby",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "660",
+    "dexDisplay": "660",
+    "species": "Diggersby",
+    "speciesKey": "diggersby",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "661",
+    "dexDisplay": "661",
+    "species": "Fletchling",
+    "speciesKey": "fletchling",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "662",
+    "dexDisplay": "662",
+    "species": "Fletchinder",
+    "speciesKey": "fletchinder",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "663",
+    "dexDisplay": "663",
+    "species": "Talonflame",
+    "speciesKey": "talonflame",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "664",
+    "dexDisplay": "664",
+    "species": "Scatterbug",
+    "speciesKey": "scatterbug",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "665",
+    "dexDisplay": "665",
+    "species": "Spewpa",
+    "speciesKey": "spewpa",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "666",
+    "dexDisplay": "666",
+    "species": "Vivillon",
+    "speciesKey": "vivillon",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "667",
+    "dexDisplay": "667",
+    "species": "Litleo",
+    "speciesKey": "litleo",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "668",
+    "dexDisplay": "668",
+    "species": "Pyroar",
+    "speciesKey": "pyroar",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "669",
+    "dexDisplay": "669",
+    "species": "Flabébé",
+    "speciesKey": "flabébé",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "670",
+    "dexDisplay": "670",
+    "species": "Floette",
+    "speciesKey": "floette",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "671",
+    "dexDisplay": "671",
+    "species": "Florges",
+    "speciesKey": "florges",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "672",
+    "dexDisplay": "672",
+    "species": "Skiddo",
+    "speciesKey": "skiddo",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "673",
+    "dexDisplay": "673",
+    "species": "Gogoat",
+    "speciesKey": "gogoat",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "674",
+    "dexDisplay": "674",
+    "species": "Pancham",
+    "speciesKey": "pancham",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "675",
+    "dexDisplay": "675",
+    "species": "Pangoro",
+    "speciesKey": "pangoro",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "676",
+    "dexDisplay": "676",
+    "species": "Furfrou",
+    "speciesKey": "furfrou",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "677",
+    "dexDisplay": "677",
+    "species": "Espurr",
+    "speciesKey": "espurr",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "678",
+    "dexDisplay": "678",
+    "species": "Meowstic",
+    "speciesKey": "meowstic",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "679",
+    "dexDisplay": "679",
+    "species": "Honedge",
+    "speciesKey": "honedge",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "680",
+    "dexDisplay": "680",
+    "species": "Doublade",
+    "speciesKey": "doublade",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "681",
+    "dexDisplay": "681",
+    "species": "Aegislash",
+    "speciesKey": "aegislash",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "682",
+    "dexDisplay": "682",
+    "species": "Spritzee",
+    "speciesKey": "spritzee",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "683",
+    "dexDisplay": "683",
+    "species": "Aromatisse",
+    "speciesKey": "aromatisse",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "684",
+    "dexDisplay": "684",
+    "species": "Swirlix",
+    "speciesKey": "swirlix",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "685",
+    "dexDisplay": "685",
+    "species": "Slurpuff",
+    "speciesKey": "slurpuff",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "686",
+    "dexDisplay": "686",
+    "species": "Inkay",
+    "speciesKey": "inkay",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "687",
+    "dexDisplay": "687",
+    "species": "Malamar",
+    "speciesKey": "malamar",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "688",
+    "dexDisplay": "688",
+    "species": "Binacle",
+    "speciesKey": "binacle",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "689",
+    "dexDisplay": "689",
+    "species": "Barbaracle",
+    "speciesKey": "barbaracle",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "690",
+    "dexDisplay": "690",
+    "species": "Skrelp",
+    "speciesKey": "skrelp",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "691",
+    "dexDisplay": "691",
+    "species": "Dragalge",
+    "speciesKey": "dragalge",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "692",
+    "dexDisplay": "692",
+    "species": "Clauncher",
+    "speciesKey": "clauncher",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "693",
+    "dexDisplay": "693",
+    "species": "Clawitzer",
+    "speciesKey": "clawitzer",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "694",
+    "dexDisplay": "694",
+    "species": "Helioptile",
+    "speciesKey": "helioptile",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "695",
+    "dexDisplay": "695",
+    "species": "Heliolisk",
+    "speciesKey": "heliolisk",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "696",
+    "dexDisplay": "696",
+    "species": "Tyrunt",
+    "speciesKey": "tyrunt",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "697",
+    "dexDisplay": "697",
+    "species": "Tyrantrum",
+    "speciesKey": "tyrantrum",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "698",
+    "dexDisplay": "698",
+    "species": "Amaura",
+    "speciesKey": "amaura",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "699",
+    "dexDisplay": "699",
+    "species": "Aurorus",
+    "speciesKey": "aurorus",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "700",
+    "dexDisplay": "700",
+    "species": "Sylveon",
+    "speciesKey": "sylveon",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "701",
+    "dexDisplay": "701",
+    "species": "Hawlucha",
+    "speciesKey": "hawlucha",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "702",
+    "dexDisplay": "702",
+    "species": "Dedenne",
+    "speciesKey": "dedenne",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "703",
+    "dexDisplay": "703",
+    "species": "Carbink",
+    "speciesKey": "carbink",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "704",
+    "dexDisplay": "704",
+    "species": "Goomy",
+    "speciesKey": "goomy",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "705",
+    "dexDisplay": "705",
+    "species": "Sliggoo",
+    "speciesKey": "sliggoo",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "706",
+    "dexDisplay": "706",
+    "species": "Goodra",
+    "speciesKey": "goodra",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "707",
+    "dexDisplay": "707",
+    "species": "Klefki",
+    "speciesKey": "klefki",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "708",
+    "dexDisplay": "708",
+    "species": "Phantump",
+    "speciesKey": "phantump",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "709",
+    "dexDisplay": "709",
+    "species": "Trevenant",
+    "speciesKey": "trevenant",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "710",
+    "dexDisplay": "710",
+    "species": "Pumpkaboo",
+    "speciesKey": "pumpkaboo",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "711",
+    "dexDisplay": "711",
+    "species": "Gourgeist",
+    "speciesKey": "gourgeist",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "712",
+    "dexDisplay": "712",
+    "species": "Bergmite",
+    "speciesKey": "bergmite",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "713",
+    "dexDisplay": "713",
+    "species": "Avalugg",
+    "speciesKey": "avalugg",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "714",
+    "dexDisplay": "714",
+    "species": "Noibat",
+    "speciesKey": "noibat",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "715",
+    "dexDisplay": "715",
+    "species": "Noivern",
+    "speciesKey": "noivern",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "716",
+    "dexDisplay": "716",
+    "species": "Xerneas",
+    "speciesKey": "xerneas",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "717",
+    "dexDisplay": "717",
+    "species": "Yveltal",
+    "speciesKey": "yveltal",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "718",
+    "dexDisplay": "718",
+    "species": "Zygarde",
+    "speciesKey": "zygarde",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "719",
+    "dexDisplay": "719",
+    "species": "Diancie",
+    "speciesKey": "diancie",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "720",
+    "dexDisplay": "720",
+    "species": "Hoopa",
+    "speciesKey": "hoopa",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "721",
+    "dexDisplay": "721",
+    "species": "Volcanion",
+    "speciesKey": "volcanion",
+    "generation": "gen6"
+  },
+  {
+    "dexNo": "722",
+    "dexDisplay": "722",
+    "species": "Rowlet",
+    "speciesKey": "rowlet",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "723",
+    "dexDisplay": "723",
+    "species": "Dartrix",
+    "speciesKey": "dartrix",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "724",
+    "dexDisplay": "724",
+    "species": "Decidueye",
+    "speciesKey": "decidueye",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "725",
+    "dexDisplay": "725",
+    "species": "Litten",
+    "speciesKey": "litten",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "726",
+    "dexDisplay": "726",
+    "species": "Torracat",
+    "speciesKey": "torracat",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "727",
+    "dexDisplay": "727",
+    "species": "Incineroar",
+    "speciesKey": "incineroar",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "728",
+    "dexDisplay": "728",
+    "species": "Popplio",
+    "speciesKey": "popplio",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "729",
+    "dexDisplay": "729",
+    "species": "Brionne",
+    "speciesKey": "brionne",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "730",
+    "dexDisplay": "730",
+    "species": "Primarina",
+    "speciesKey": "primarina",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "731",
+    "dexDisplay": "731",
+    "species": "Pikipek",
+    "speciesKey": "pikipek",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "732",
+    "dexDisplay": "732",
+    "species": "Trumbeak",
+    "speciesKey": "trumbeak",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "733",
+    "dexDisplay": "733",
+    "species": "Toucannon",
+    "speciesKey": "toucannon",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "734",
+    "dexDisplay": "734",
+    "species": "Yungoos",
+    "speciesKey": "yungoos",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "735",
+    "dexDisplay": "735",
+    "species": "Gumshoos",
+    "speciesKey": "gumshoos",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "736",
+    "dexDisplay": "736",
+    "species": "Grubbin",
+    "speciesKey": "grubbin",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "737",
+    "dexDisplay": "737",
+    "species": "Charjabug",
+    "speciesKey": "charjabug",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "738",
+    "dexDisplay": "738",
+    "species": "Vikavolt",
+    "speciesKey": "vikavolt",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "739",
+    "dexDisplay": "739",
+    "species": "Crabrawler",
+    "speciesKey": "crabrawler",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "740",
+    "dexDisplay": "740",
+    "species": "Crabominable",
+    "speciesKey": "crabominable",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "741",
+    "dexDisplay": "741",
+    "species": "Oricorio",
+    "speciesKey": "oricorio",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "742",
+    "dexDisplay": "742",
+    "species": "Cutiefly",
+    "speciesKey": "cutiefly",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "743",
+    "dexDisplay": "743",
+    "species": "Ribombee",
+    "speciesKey": "ribombee",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "744",
+    "dexDisplay": "744",
+    "species": "Rockruff",
+    "speciesKey": "rockruff",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "745",
+    "dexDisplay": "745",
+    "species": "Lycanroc",
+    "speciesKey": "lycanroc",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "746",
+    "dexDisplay": "746",
+    "species": "Wishiwashi",
+    "speciesKey": "wishiwashi",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "747",
+    "dexDisplay": "747",
+    "species": "Mareanie",
+    "speciesKey": "mareanie",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "748",
+    "dexDisplay": "748",
+    "species": "Toxapex",
+    "speciesKey": "toxapex",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "749",
+    "dexDisplay": "749",
+    "species": "Mudbray",
+    "speciesKey": "mudbray",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "750",
+    "dexDisplay": "750",
+    "species": "Mudsdale",
+    "speciesKey": "mudsdale",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "751",
+    "dexDisplay": "751",
+    "species": "Dewpider",
+    "speciesKey": "dewpider",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "752",
+    "dexDisplay": "752",
+    "species": "Araquanid",
+    "speciesKey": "araquanid",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "753",
+    "dexDisplay": "753",
+    "species": "Fomantis",
+    "speciesKey": "fomantis",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "754",
+    "dexDisplay": "754",
+    "species": "Lurantis",
+    "speciesKey": "lurantis",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "755",
+    "dexDisplay": "755",
+    "species": "Morelull",
+    "speciesKey": "morelull",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "756",
+    "dexDisplay": "756",
+    "species": "Shiinotic",
+    "speciesKey": "shiinotic",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "757",
+    "dexDisplay": "757",
+    "species": "Salandit",
+    "speciesKey": "salandit",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "758",
+    "dexDisplay": "758",
+    "species": "Salazzle",
+    "speciesKey": "salazzle",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "759",
+    "dexDisplay": "759",
+    "species": "Stufful",
+    "speciesKey": "stufful",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "760",
+    "dexDisplay": "760",
+    "species": "Bewear",
+    "speciesKey": "bewear",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "761",
+    "dexDisplay": "761",
+    "species": "Bounsweet",
+    "speciesKey": "bounsweet",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "762",
+    "dexDisplay": "762",
+    "species": "Steenee",
+    "speciesKey": "steenee",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "763",
+    "dexDisplay": "763",
+    "species": "Tsareena",
+    "speciesKey": "tsareena",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "764",
+    "dexDisplay": "764",
+    "species": "Comfey",
+    "speciesKey": "comfey",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "765",
+    "dexDisplay": "765",
+    "species": "Oranguru",
+    "speciesKey": "oranguru",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "766",
+    "dexDisplay": "766",
+    "species": "Passimian",
+    "speciesKey": "passimian",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "767",
+    "dexDisplay": "767",
+    "species": "Wimpod",
+    "speciesKey": "wimpod",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "768",
+    "dexDisplay": "768",
+    "species": "Golisopod",
+    "speciesKey": "golisopod",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "769",
+    "dexDisplay": "769",
+    "species": "Sandygast",
+    "speciesKey": "sandygast",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "770",
+    "dexDisplay": "770",
+    "species": "Palossand",
+    "speciesKey": "palossand",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "771",
+    "dexDisplay": "771",
+    "species": "Pyukumuku",
+    "speciesKey": "pyukumuku",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "772",
+    "dexDisplay": "772",
+    "species": "Type: Null",
+    "speciesKey": "type: null",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "773",
+    "dexDisplay": "773",
+    "species": "Silvally",
+    "speciesKey": "silvally",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "774",
+    "dexDisplay": "774",
+    "species": "Minior",
+    "speciesKey": "minior",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "775",
+    "dexDisplay": "775",
+    "species": "Komala",
+    "speciesKey": "komala",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "776",
+    "dexDisplay": "776",
+    "species": "Turtonator",
+    "speciesKey": "turtonator",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "777",
+    "dexDisplay": "777",
+    "species": "Togedemaru",
+    "speciesKey": "togedemaru",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "778",
+    "dexDisplay": "778",
+    "species": "Mimikyu",
+    "speciesKey": "mimikyu",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "779",
+    "dexDisplay": "779",
+    "species": "Bruxish",
+    "speciesKey": "bruxish",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "780",
+    "dexDisplay": "780",
+    "species": "Drampa",
+    "speciesKey": "drampa",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "781",
+    "dexDisplay": "781",
+    "species": "Dhelmise",
+    "speciesKey": "dhelmise",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "782",
+    "dexDisplay": "782",
+    "species": "Jangmo-o",
+    "speciesKey": "jangmo-o",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "783",
+    "dexDisplay": "783",
+    "species": "Hakamo-o",
+    "speciesKey": "hakamo-o",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "784",
+    "dexDisplay": "784",
+    "species": "Kommo-o",
+    "speciesKey": "kommo-o",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "785",
+    "dexDisplay": "785",
+    "species": "Tapu Koko",
+    "speciesKey": "tapu koko",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "786",
+    "dexDisplay": "786",
+    "species": "Tapu Lele",
+    "speciesKey": "tapu lele",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "787",
+    "dexDisplay": "787",
+    "species": "Tapu Bulu",
+    "speciesKey": "tapu bulu",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "788",
+    "dexDisplay": "788",
+    "species": "Tapu Fini",
+    "speciesKey": "tapu fini",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "789",
+    "dexDisplay": "789",
+    "species": "Cosmog",
+    "speciesKey": "cosmog",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "790",
+    "dexDisplay": "790",
+    "species": "Cosmoem",
+    "speciesKey": "cosmoem",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "791",
+    "dexDisplay": "791",
+    "species": "Solgaleo",
+    "speciesKey": "solgaleo",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "792",
+    "dexDisplay": "792",
+    "species": "Lunala",
+    "speciesKey": "lunala",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "793",
+    "dexDisplay": "793",
+    "species": "Nihilego",
+    "speciesKey": "nihilego",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "794",
+    "dexDisplay": "794",
+    "species": "Buzzwole",
+    "speciesKey": "buzzwole",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "795",
+    "dexDisplay": "795",
+    "species": "Pheromosa",
+    "speciesKey": "pheromosa",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "796",
+    "dexDisplay": "796",
+    "species": "Xurkitree",
+    "speciesKey": "xurkitree",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "797",
+    "dexDisplay": "797",
+    "species": "Celesteela",
+    "speciesKey": "celesteela",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "798",
+    "dexDisplay": "798",
+    "species": "Kartana",
+    "speciesKey": "kartana",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "799",
+    "dexDisplay": "799",
+    "species": "Guzzlord",
+    "speciesKey": "guzzlord",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "800",
+    "dexDisplay": "800",
+    "species": "Necrozma",
+    "speciesKey": "necrozma",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "801",
+    "dexDisplay": "801",
+    "species": "Magearna",
+    "speciesKey": "magearna",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "802",
+    "dexDisplay": "802",
+    "species": "Marshadow",
+    "speciesKey": "marshadow",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "803",
+    "dexDisplay": "803",
+    "species": "Poipole",
+    "speciesKey": "poipole",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "804",
+    "dexDisplay": "804",
+    "species": "Naganadel",
+    "speciesKey": "naganadel",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "805",
+    "dexDisplay": "805",
+    "species": "Stakataka",
+    "speciesKey": "stakataka",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "806",
+    "dexDisplay": "806",
+    "species": "Blacephalon",
+    "speciesKey": "blacephalon",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "807",
+    "dexDisplay": "807",
+    "species": "Zeraora",
+    "speciesKey": "zeraora",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "808",
+    "dexDisplay": "808",
+    "species": "Meltan",
+    "speciesKey": "meltan",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "809",
+    "dexDisplay": "809",
+    "species": "Melmetal",
+    "speciesKey": "melmetal",
+    "generation": "gen7"
+  },
+  {
+    "dexNo": "810",
+    "dexDisplay": "810",
+    "species": "Grookey",
+    "speciesKey": "grookey",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "811",
+    "dexDisplay": "811",
+    "species": "Thwackey",
+    "speciesKey": "thwackey",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "812",
+    "dexDisplay": "812",
+    "species": "Rillaboom",
+    "speciesKey": "rillaboom",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "813",
+    "dexDisplay": "813",
+    "species": "Scorbunny",
+    "speciesKey": "scorbunny",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "814",
+    "dexDisplay": "814",
+    "species": "Raboot",
+    "speciesKey": "raboot",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "815",
+    "dexDisplay": "815",
+    "species": "Cinderace",
+    "speciesKey": "cinderace",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "816",
+    "dexDisplay": "816",
+    "species": "Sobble",
+    "speciesKey": "sobble",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "817",
+    "dexDisplay": "817",
+    "species": "Drizzile",
+    "speciesKey": "drizzile",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "818",
+    "dexDisplay": "818",
+    "species": "Inteleon",
+    "speciesKey": "inteleon",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "819",
+    "dexDisplay": "819",
+    "species": "Skwovet",
+    "speciesKey": "skwovet",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "820",
+    "dexDisplay": "820",
+    "species": "Greedent",
+    "speciesKey": "greedent",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "821",
+    "dexDisplay": "821",
+    "species": "Rookidee",
+    "speciesKey": "rookidee",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "822",
+    "dexDisplay": "822",
+    "species": "Corvisquire",
+    "speciesKey": "corvisquire",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "823",
+    "dexDisplay": "823",
+    "species": "Corviknight",
+    "speciesKey": "corviknight",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "824",
+    "dexDisplay": "824",
+    "species": "Blipbug",
+    "speciesKey": "blipbug",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "825",
+    "dexDisplay": "825",
+    "species": "Dottler",
+    "speciesKey": "dottler",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "826",
+    "dexDisplay": "826",
+    "species": "Orbeetle",
+    "speciesKey": "orbeetle",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "827",
+    "dexDisplay": "827",
+    "species": "Nickit",
+    "speciesKey": "nickit",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "828",
+    "dexDisplay": "828",
+    "species": "Thievul",
+    "speciesKey": "thievul",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "829",
+    "dexDisplay": "829",
+    "species": "Gossifleur",
+    "speciesKey": "gossifleur",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "830",
+    "dexDisplay": "830",
+    "species": "Eldegoss",
+    "speciesKey": "eldegoss",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "831",
+    "dexDisplay": "831",
+    "species": "Wooloo",
+    "speciesKey": "wooloo",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "832",
+    "dexDisplay": "832",
+    "species": "Dubwool",
+    "speciesKey": "dubwool",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "833",
+    "dexDisplay": "833",
+    "species": "Chewtle",
+    "speciesKey": "chewtle",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "834",
+    "dexDisplay": "834",
+    "species": "Drednaw",
+    "speciesKey": "drednaw",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "835",
+    "dexDisplay": "835",
+    "species": "Yamper",
+    "speciesKey": "yamper",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "836",
+    "dexDisplay": "836",
+    "species": "Boltund",
+    "speciesKey": "boltund",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "837",
+    "dexDisplay": "837",
+    "species": "Rolycoly",
+    "speciesKey": "rolycoly",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "838",
+    "dexDisplay": "838",
+    "species": "Carkol",
+    "speciesKey": "carkol",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "839",
+    "dexDisplay": "839",
+    "species": "Coalossal",
+    "speciesKey": "coalossal",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "840",
+    "dexDisplay": "840",
+    "species": "Applin",
+    "speciesKey": "applin",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "841",
+    "dexDisplay": "841",
+    "species": "Flapple",
+    "speciesKey": "flapple",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "842",
+    "dexDisplay": "842",
+    "species": "Appletun",
+    "speciesKey": "appletun",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "843",
+    "dexDisplay": "843",
+    "species": "Silicobra",
+    "speciesKey": "silicobra",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "844",
+    "dexDisplay": "844",
+    "species": "Sandaconda",
+    "speciesKey": "sandaconda",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "845",
+    "dexDisplay": "845",
+    "species": "Cramorant",
+    "speciesKey": "cramorant",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "846",
+    "dexDisplay": "846",
+    "species": "Arrokuda",
+    "speciesKey": "arrokuda",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "847",
+    "dexDisplay": "847",
+    "species": "Barraskewda",
+    "speciesKey": "barraskewda",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "848",
+    "dexDisplay": "848",
+    "species": "Toxel",
+    "speciesKey": "toxel",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "849",
+    "dexDisplay": "849",
+    "species": "Toxtricity",
+    "speciesKey": "toxtricity",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "850",
+    "dexDisplay": "850",
+    "species": "Sizzlipede",
+    "speciesKey": "sizzlipede",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "851",
+    "dexDisplay": "851",
+    "species": "Centiskorch",
+    "speciesKey": "centiskorch",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "852",
+    "dexDisplay": "852",
+    "species": "Clobbopus",
+    "speciesKey": "clobbopus",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "853",
+    "dexDisplay": "853",
+    "species": "Grapploct",
+    "speciesKey": "grapploct",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "854",
+    "dexDisplay": "854",
+    "species": "Sinistea",
+    "speciesKey": "sinistea",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "855",
+    "dexDisplay": "855",
+    "species": "Polteageist",
+    "speciesKey": "polteageist",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "856",
+    "dexDisplay": "856",
+    "species": "Hatenna",
+    "speciesKey": "hatenna",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "857",
+    "dexDisplay": "857",
+    "species": "Hattrem",
+    "speciesKey": "hattrem",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "858",
+    "dexDisplay": "858",
+    "species": "Hatterene",
+    "speciesKey": "hatterene",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "859",
+    "dexDisplay": "859",
+    "species": "Impidimp",
+    "speciesKey": "impidimp",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "860",
+    "dexDisplay": "860",
+    "species": "Morgrem",
+    "speciesKey": "morgrem",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "861",
+    "dexDisplay": "861",
+    "species": "Grimmsnarl",
+    "speciesKey": "grimmsnarl",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "862",
+    "dexDisplay": "862",
+    "species": "Obstagoon",
+    "speciesKey": "obstagoon",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "863",
+    "dexDisplay": "863",
+    "species": "Perrserker",
+    "speciesKey": "perrserker",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "864",
+    "dexDisplay": "864",
+    "species": "Cursola",
+    "speciesKey": "cursola",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "865",
+    "dexDisplay": "865",
+    "species": "Sirfetch'd",
+    "speciesKey": "sirfetch'd",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "866",
+    "dexDisplay": "866",
+    "species": "Mr. Rime",
+    "speciesKey": "mr. rime",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "867",
+    "dexDisplay": "867",
+    "species": "Runerigus",
+    "speciesKey": "runerigus",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "868",
+    "dexDisplay": "868",
+    "species": "Milcery",
+    "speciesKey": "milcery",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "869",
+    "dexDisplay": "869",
+    "species": "Alcremie",
+    "speciesKey": "alcremie",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "870",
+    "dexDisplay": "870",
+    "species": "Falinks",
+    "speciesKey": "falinks",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "871",
+    "dexDisplay": "871",
+    "species": "Pincurchin",
+    "speciesKey": "pincurchin",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "872",
+    "dexDisplay": "872",
+    "species": "Snom",
+    "speciesKey": "snom",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "873",
+    "dexDisplay": "873",
+    "species": "Frosmoth",
+    "speciesKey": "frosmoth",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "874",
+    "dexDisplay": "874",
+    "species": "Stonjourner",
+    "speciesKey": "stonjourner",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "875",
+    "dexDisplay": "875",
+    "species": "Eiscue",
+    "speciesKey": "eiscue",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "876",
+    "dexDisplay": "876",
+    "species": "Indeedee",
+    "speciesKey": "indeedee",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "877",
+    "dexDisplay": "877",
+    "species": "Morpeko",
+    "speciesKey": "morpeko",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "878",
+    "dexDisplay": "878",
+    "species": "Cufant",
+    "speciesKey": "cufant",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "879",
+    "dexDisplay": "879",
+    "species": "Copperajah",
+    "speciesKey": "copperajah",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "880",
+    "dexDisplay": "880",
+    "species": "Dracozolt",
+    "speciesKey": "dracozolt",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "881",
+    "dexDisplay": "881",
+    "species": "Arctozolt",
+    "speciesKey": "arctozolt",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "882",
+    "dexDisplay": "882",
+    "species": "Dracovish",
+    "speciesKey": "dracovish",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "883",
+    "dexDisplay": "883",
+    "species": "Arctovish",
+    "speciesKey": "arctovish",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "884",
+    "dexDisplay": "884",
+    "species": "Duraludon",
+    "speciesKey": "duraludon",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "885",
+    "dexDisplay": "885",
+    "species": "Dreepy",
+    "speciesKey": "dreepy",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "886",
+    "dexDisplay": "886",
+    "species": "Drakloak",
+    "speciesKey": "drakloak",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "887",
+    "dexDisplay": "887",
+    "species": "Dragapult",
+    "speciesKey": "dragapult",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "888",
+    "dexDisplay": "888",
+    "species": "Zacian",
+    "speciesKey": "zacian",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "889",
+    "dexDisplay": "889",
+    "species": "Zamazenta",
+    "speciesKey": "zamazenta",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "890",
+    "dexDisplay": "890",
+    "species": "Eternatus",
+    "speciesKey": "eternatus",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "891",
+    "dexDisplay": "891",
+    "species": "Kubfu",
+    "speciesKey": "kubfu",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "892",
+    "dexDisplay": "892",
+    "species": "Urshifu",
+    "speciesKey": "urshifu",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "893",
+    "dexDisplay": "893",
+    "species": "Zarude",
+    "speciesKey": "zarude",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "894",
+    "dexDisplay": "894",
+    "species": "Regieleki",
+    "speciesKey": "regieleki",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "895",
+    "dexDisplay": "895",
+    "species": "Regidrago",
+    "speciesKey": "regidrago",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "896",
+    "dexDisplay": "896",
+    "species": "Glastrier",
+    "speciesKey": "glastrier",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "897",
+    "dexDisplay": "897",
+    "species": "Spectrier",
+    "speciesKey": "spectrier",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "898",
+    "dexDisplay": "898",
+    "species": "Calyrex",
+    "speciesKey": "calyrex",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "899",
+    "dexDisplay": "899",
+    "species": "Wyrdeer",
+    "speciesKey": "wyrdeer",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "900",
+    "dexDisplay": "900",
+    "species": "Kleavor",
+    "speciesKey": "kleavor",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "901",
+    "dexDisplay": "901",
+    "species": "Ursaluna",
+    "speciesKey": "ursaluna",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "902",
+    "dexDisplay": "902",
+    "species": "Basculegion",
+    "speciesKey": "basculegion",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "903",
+    "dexDisplay": "903",
+    "species": "Sneasler",
+    "speciesKey": "sneasler",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "904",
+    "dexDisplay": "904",
+    "species": "Overqwil",
+    "speciesKey": "overqwil",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "905",
+    "dexDisplay": "905",
+    "species": "Enamorus",
+    "speciesKey": "enamorus",
+    "generation": "gen8"
+  },
+  {
+    "dexNo": "906",
+    "dexDisplay": "906",
+    "species": "Sprigatito",
+    "speciesKey": "sprigatito",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "907",
+    "dexDisplay": "907",
+    "species": "Floragato",
+    "speciesKey": "floragato",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "908",
+    "dexDisplay": "908",
+    "species": "Meowscarada",
+    "speciesKey": "meowscarada",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "909",
+    "dexDisplay": "909",
+    "species": "Fuecoco",
+    "speciesKey": "fuecoco",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "910",
+    "dexDisplay": "910",
+    "species": "Crocalor",
+    "speciesKey": "crocalor",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "911",
+    "dexDisplay": "911",
+    "species": "Skeledirge",
+    "speciesKey": "skeledirge",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "912",
+    "dexDisplay": "912",
+    "species": "Quaxly",
+    "speciesKey": "quaxly",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "913",
+    "dexDisplay": "913",
+    "species": "Quaxwell",
+    "speciesKey": "quaxwell",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "914",
+    "dexDisplay": "914",
+    "species": "Quaquaval",
+    "speciesKey": "quaquaval",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "915",
+    "dexDisplay": "915",
+    "species": "Lechonk",
+    "speciesKey": "lechonk",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "916",
+    "dexDisplay": "916",
+    "species": "Oinkologne",
+    "speciesKey": "oinkologne",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "917",
+    "dexDisplay": "917",
+    "species": "Tarountula",
+    "speciesKey": "tarountula",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "918",
+    "dexDisplay": "918",
+    "species": "Spidops",
+    "speciesKey": "spidops",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "919",
+    "dexDisplay": "919",
+    "species": "Nymble",
+    "speciesKey": "nymble",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "920",
+    "dexDisplay": "920",
+    "species": "Lokix",
+    "speciesKey": "lokix",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "921",
+    "dexDisplay": "921",
+    "species": "Pawmi",
+    "speciesKey": "pawmi",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "922",
+    "dexDisplay": "922",
+    "species": "Pawmo",
+    "speciesKey": "pawmo",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "923",
+    "dexDisplay": "923",
+    "species": "Pawmot",
+    "speciesKey": "pawmot",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "924",
+    "dexDisplay": "924",
+    "species": "Tandemaus",
+    "speciesKey": "tandemaus",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "925",
+    "dexDisplay": "925",
+    "species": "Maushold",
+    "speciesKey": "maushold",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "926",
+    "dexDisplay": "926",
+    "species": "Fidough",
+    "speciesKey": "fidough",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "927",
+    "dexDisplay": "927",
+    "species": "Dachsbun",
+    "speciesKey": "dachsbun",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "928",
+    "dexDisplay": "928",
+    "species": "Smoliv",
+    "speciesKey": "smoliv",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "929",
+    "dexDisplay": "929",
+    "species": "Dolliv",
+    "speciesKey": "dolliv",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "930",
+    "dexDisplay": "930",
+    "species": "Arboliva",
+    "speciesKey": "arboliva",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "931",
+    "dexDisplay": "931",
+    "species": "Squawkabilly",
+    "speciesKey": "squawkabilly",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "932",
+    "dexDisplay": "932",
+    "species": "Nacli",
+    "speciesKey": "nacli",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "933",
+    "dexDisplay": "933",
+    "species": "Naclstack",
+    "speciesKey": "naclstack",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "934",
+    "dexDisplay": "934",
+    "species": "Garganacl",
+    "speciesKey": "garganacl",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "935",
+    "dexDisplay": "935",
+    "species": "Charcadet",
+    "speciesKey": "charcadet",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "936",
+    "dexDisplay": "936",
+    "species": "Armarouge",
+    "speciesKey": "armarouge",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "937",
+    "dexDisplay": "937",
+    "species": "Ceruledge",
+    "speciesKey": "ceruledge",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "938",
+    "dexDisplay": "938",
+    "species": "Tadbulb",
+    "speciesKey": "tadbulb",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "939",
+    "dexDisplay": "939",
+    "species": "Bellibolt",
+    "speciesKey": "bellibolt",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "940",
+    "dexDisplay": "940",
+    "species": "Wattrel",
+    "speciesKey": "wattrel",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "941",
+    "dexDisplay": "941",
+    "species": "Kilowattrel",
+    "speciesKey": "kilowattrel",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "942",
+    "dexDisplay": "942",
+    "species": "Maschiff",
+    "speciesKey": "maschiff",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "943",
+    "dexDisplay": "943",
+    "species": "Mabosstiff",
+    "speciesKey": "mabosstiff",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "944",
+    "dexDisplay": "944",
+    "species": "Shroodle",
+    "speciesKey": "shroodle",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "945",
+    "dexDisplay": "945",
+    "species": "Grafaiai",
+    "speciesKey": "grafaiai",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "946",
+    "dexDisplay": "946",
+    "species": "Bramblin",
+    "speciesKey": "bramblin",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "947",
+    "dexDisplay": "947",
+    "species": "Brambleghast",
+    "speciesKey": "brambleghast",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "948",
+    "dexDisplay": "948",
+    "species": "Toedscool",
+    "speciesKey": "toedscool",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "949",
+    "dexDisplay": "949",
+    "species": "Toedscruel",
+    "speciesKey": "toedscruel",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "950",
+    "dexDisplay": "950",
+    "species": "Klawf",
+    "speciesKey": "klawf",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "951",
+    "dexDisplay": "951",
+    "species": "Capsakid",
+    "speciesKey": "capsakid",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "952",
+    "dexDisplay": "952",
+    "species": "Scovillain",
+    "speciesKey": "scovillain",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "953",
+    "dexDisplay": "953",
+    "species": "Rellor",
+    "speciesKey": "rellor",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "954",
+    "dexDisplay": "954",
+    "species": "Rabsca",
+    "speciesKey": "rabsca",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "955",
+    "dexDisplay": "955",
+    "species": "Flittle",
+    "speciesKey": "flittle",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "956",
+    "dexDisplay": "956",
+    "species": "Espathra",
+    "speciesKey": "espathra",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "957",
+    "dexDisplay": "957",
+    "species": "Tinkatink",
+    "speciesKey": "tinkatink",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "958",
+    "dexDisplay": "958",
+    "species": "Tinkatuff",
+    "speciesKey": "tinkatuff",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "959",
+    "dexDisplay": "959",
+    "species": "Tinkaton",
+    "speciesKey": "tinkaton",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "960",
+    "dexDisplay": "960",
+    "species": "Wiglett",
+    "speciesKey": "wiglett",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "961",
+    "dexDisplay": "961",
+    "species": "Wugtrio",
+    "speciesKey": "wugtrio",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "962",
+    "dexDisplay": "962",
+    "species": "Bombirdier",
+    "speciesKey": "bombirdier",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "963",
+    "dexDisplay": "963",
+    "species": "Finizen",
+    "speciesKey": "finizen",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "964",
+    "dexDisplay": "964",
+    "species": "Palafin",
+    "speciesKey": "palafin",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "965",
+    "dexDisplay": "965",
+    "species": "Varoom",
+    "speciesKey": "varoom",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "966",
+    "dexDisplay": "966",
+    "species": "Revavroom",
+    "speciesKey": "revavroom",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "967",
+    "dexDisplay": "967",
+    "species": "Cyclizar",
+    "speciesKey": "cyclizar",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "968",
+    "dexDisplay": "968",
+    "species": "Orthworm",
+    "speciesKey": "orthworm",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "969",
+    "dexDisplay": "969",
+    "species": "Glimmet",
+    "speciesKey": "glimmet",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "970",
+    "dexDisplay": "970",
+    "species": "Glimmora",
+    "speciesKey": "glimmora",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "971",
+    "dexDisplay": "971",
+    "species": "Greavard",
+    "speciesKey": "greavard",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "972",
+    "dexDisplay": "972",
+    "species": "Houndstone",
+    "speciesKey": "houndstone",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "973",
+    "dexDisplay": "973",
+    "species": "Flamigo",
+    "speciesKey": "flamigo",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "974",
+    "dexDisplay": "974",
+    "species": "Cetoddle",
+    "speciesKey": "cetoddle",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "975",
+    "dexDisplay": "975",
+    "species": "Cetitan",
+    "speciesKey": "cetitan",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "976",
+    "dexDisplay": "976",
+    "species": "Veluza",
+    "speciesKey": "veluza",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "977",
+    "dexDisplay": "977",
+    "species": "Dondozo",
+    "speciesKey": "dondozo",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "978",
+    "dexDisplay": "978",
+    "species": "Tatsugiri",
+    "speciesKey": "tatsugiri",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "979",
+    "dexDisplay": "979",
+    "species": "Annihilape",
+    "speciesKey": "annihilape",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "980",
+    "dexDisplay": "980",
+    "species": "Clodsire",
+    "speciesKey": "clodsire",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "981",
+    "dexDisplay": "981",
+    "species": "Farigiraf",
+    "speciesKey": "farigiraf",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "982",
+    "dexDisplay": "982",
+    "species": "Dudunsparce",
+    "speciesKey": "dudunsparce",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "983",
+    "dexDisplay": "983",
+    "species": "Kingambit",
+    "speciesKey": "kingambit",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "984",
+    "dexDisplay": "984",
+    "species": "Great Tusk",
+    "speciesKey": "great tusk",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "985",
+    "dexDisplay": "985",
+    "species": "Scream Tail",
+    "speciesKey": "scream tail",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "986",
+    "dexDisplay": "986",
+    "species": "Brute Bonnet",
+    "speciesKey": "brute bonnet",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "987",
+    "dexDisplay": "987",
+    "species": "Flutter Mane",
+    "speciesKey": "flutter mane",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "988",
+    "dexDisplay": "988",
+    "species": "Slither Wing",
+    "speciesKey": "slither wing",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "989",
+    "dexDisplay": "989",
+    "species": "Sandy Shocks",
+    "speciesKey": "sandy shocks",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "990",
+    "dexDisplay": "990",
+    "species": "Iron Treads",
+    "speciesKey": "iron treads",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "991",
+    "dexDisplay": "991",
+    "species": "Iron Bundle",
+    "speciesKey": "iron bundle",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "992",
+    "dexDisplay": "992",
+    "species": "Iron Hands",
+    "speciesKey": "iron hands",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "993",
+    "dexDisplay": "993",
+    "species": "Iron Jugulis",
+    "speciesKey": "iron jugulis",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "994",
+    "dexDisplay": "994",
+    "species": "Iron Moth",
+    "speciesKey": "iron moth",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "995",
+    "dexDisplay": "995",
+    "species": "Iron Thorns",
+    "speciesKey": "iron thorns",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "996",
+    "dexDisplay": "996",
+    "species": "Frigibax",
+    "speciesKey": "frigibax",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "997",
+    "dexDisplay": "997",
+    "species": "Arctibax",
+    "speciesKey": "arctibax",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "998",
+    "dexDisplay": "998",
+    "species": "Baxcalibur",
+    "speciesKey": "baxcalibur",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "999",
+    "dexDisplay": "999",
+    "species": "Gimmighoul",
+    "speciesKey": "gimmighoul",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1000",
+    "dexDisplay": "1000",
+    "species": "Gholdengo",
+    "speciesKey": "gholdengo",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1001",
+    "dexDisplay": "1001",
+    "species": "Wo-Chien",
+    "speciesKey": "wo-chien",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1002",
+    "dexDisplay": "1002",
+    "species": "Chien-Pao",
+    "speciesKey": "chien-pao",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1003",
+    "dexDisplay": "1003",
+    "species": "Ting-Lu",
+    "speciesKey": "ting-lu",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1004",
+    "dexDisplay": "1004",
+    "species": "Chi-Yu",
+    "speciesKey": "chi-yu",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1005",
+    "dexDisplay": "1005",
+    "species": "Roaring Moon",
+    "speciesKey": "roaring moon",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1006",
+    "dexDisplay": "1006",
+    "species": "Iron Valiant",
+    "speciesKey": "iron valiant",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1007",
+    "dexDisplay": "1007",
+    "species": "Koraidon",
+    "speciesKey": "koraidon",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1008",
+    "dexDisplay": "1008",
+    "species": "Miraidon",
+    "speciesKey": "miraidon",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1009",
+    "dexDisplay": "1009",
+    "species": "Walking wake",
+    "speciesKey": "walking wake",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1010",
+    "dexDisplay": "1010",
+    "species": "Iron leaves",
+    "speciesKey": "iron leaves",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1011",
+    "dexDisplay": "1011",
+    "species": "Dipplin",
+    "speciesKey": "dipplin",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1012",
+    "dexDisplay": "1012",
+    "species": "Poltchageist",
+    "speciesKey": "poltchageist",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1013",
+    "dexDisplay": "1013",
+    "species": "Sinistcha",
+    "speciesKey": "sinistcha",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1014",
+    "dexDisplay": "1014",
+    "species": "Okidogi",
+    "speciesKey": "okidogi",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1015",
+    "dexDisplay": "1015",
+    "species": "Munkidori",
+    "speciesKey": "munkidori",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1016",
+    "dexDisplay": "1016",
+    "species": "Fezandipiti",
+    "speciesKey": "fezandipiti",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1017",
+    "dexDisplay": "1017",
+    "species": "Ogerpon",
+    "speciesKey": "ogerpon",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1018",
+    "dexDisplay": "1018",
+    "species": "Archaludon",
+    "speciesKey": "archaludon",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1019",
+    "dexDisplay": "1019",
+    "species": "Hydrapple",
+    "speciesKey": "hydrapple",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1020",
+    "dexDisplay": "1020",
+    "species": "Gouging Fire",
+    "speciesKey": "gouging fire",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1021",
+    "dexDisplay": "1021",
+    "species": "Raging Bolt",
+    "speciesKey": "raging bolt",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1022",
+    "dexDisplay": "1022",
+    "species": "Iron Boulder",
+    "speciesKey": "iron boulder",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1023",
+    "dexDisplay": "1023",
+    "species": "Iron Crown",
+    "speciesKey": "iron crown",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1024",
+    "dexDisplay": "1024",
+    "species": "Terapagos",
+    "speciesKey": "terapagos",
+    "generation": "gen9"
+  },
+  {
+    "dexNo": "1025",
+    "dexDisplay": "1025",
+    "species": "Pecharunt",
+    "speciesKey": "pecharunt",
+    "generation": "gen9"
+  }
+]

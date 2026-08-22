@@ -1,0 +1,46 @@
+---
+title: Pokédex
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/dex/
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
+---
+<div class="poke-v2">
+  {% include "components/pokemon/pokenav.njk" %}
+  <main class="pkmn-screen">
+    <header class="pkmn-titlebar"><div><p class="pkmn-kicker">NATIONAL MODE</p><h1>POKéDEX</h1></div><strong>{{ pokemon.stats.unique }}/{{ pokemon.stats.dexTotal }}</strong></header>
+    <section class="pkmn-panel">
+      <div class="pkmn-panel__head"><span>SHINY REGISTRATION</span><span>{{ pokemon.stats.dexPercent }}%</span></div>
+      <div class="pkmn-progress"><span style="width: {{ pokemon.stats.dexPercent }}%"></span></div>
+      <div class="pkmn-filter-row pkmn-filter-row--dex">
+        <button type="button" data-dex-filter="all" class="is-active">All</button>
+        <button type="button" data-dex-filter="caught">Caught</button>
+        <button type="button" data-dex-filter="missing">Missing</button>
+        <button type="button" data-dex-filter="pink">♡ Pink</button>
+        <button type="button" data-dex-filter="cute">✦ Cute</button>
+        <button type="button" data-dex-filter="goth">☾ Goth / Witchy</button>
+        <button type="button" data-dex-filter="frog">♧ Frogs</button>
+      </div>
+    </section>
+
+    {% if pokemon.dex.length %}
+      <div class="pkmn-dex-grid" id="pokemon-dex-grid">
+        {% for mon in pokemon.dex %}
+          <article
+            class="pkmn-dex-entry{% if mon.caught %} is-caught{% else %} is-missing{% endif %}"
+            data-dex-state="{% if mon.caught %}caught{% else %}missing{% endif %}"
+            data-dex-lists="{{ mon.lists | join(',') }}"
+          >
+            <span class="pkmn-dex-entry__no">{{ mon.dexDisplay }}</span>
+            <img src="{% if mon.caught %}{{ mon.shinyImage }}{% else %}{{ mon.normalImage }}{% endif %}" alt="{{ mon.species }}" loading="lazy">
+            <strong>{{ mon.species }}</strong>
+            {% if mon.count > 1 %}<small>×{{ mon.count }}</small>{% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="pkmn-empty">National Dex metadata could not be loaded during this build.</div>
+    {% endif %}
+    <footer class="pkmn-controls"><a href="/shrines/pokemon/">B POKéNAV</a></footer>
+  </main>
+</div>
+<script src="/assets/js/shrines/pokemon/pokemon-v2.js" defer></script>

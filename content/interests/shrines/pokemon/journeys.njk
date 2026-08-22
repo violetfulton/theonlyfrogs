@@ -1,0 +1,10 @@
+---
+title: Journeys
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/journeys/
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
+---
+<div class="poke-v2">{% include "components/pokemon/pokenav.njk" %}<main class="pkmn-screen">
+<header class="pkmn-titlebar"><div><p class="pkmn-kicker">SAVE DATA</p><h1>JOURNEYS</h1></div><strong>{{ pokemon.journeys.length }} FILES</strong></header>
+{% if pokemon.journeys.length %}<div class="pkmn-card-list">{% for save in pokemon.journeys %}<article class="pkmn-save-card"><div><span class="pkmn-badge">{{ save.status }}</span><h2>{{ save.game }}</h2>{% if save.trainer %}<p>Trainer {{ save.trainer }}</p>{% endif %}<p class="pkmn-muted">{% if save.started %}Started {{ save.started }}{% endif %}{% if save.finished %} · Finished {{ save.finished }}{% endif %}</p></div>{% if save.team.length %}<div class="pkmn-team">{% for mon in save.team %}<div>{% if mon.normalImage %}<img src="{{ mon.normalImage }}" alt="">{% endif %}<span>{{ mon.species }}</span></div>{% endfor %}</div>{% endif %}{% if save.notes %}<p>{{ save.notes }}</p>{% endif %}</article>{% endfor %}</div>{% else %}<div class="pkmn-empty"><strong>NO SAVE FILES LOGGED</strong><span>No save data registered.</span></div>{% endif %}
+<footer class="pkmn-controls"><a href="/shrines/pokemon/">B POKéNAV</a></footer></main></div>

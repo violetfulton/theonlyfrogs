@@ -17,6 +17,24 @@ function stars(n) {
   return "★".repeat(r) + "☆".repeat(5 - r);
 }
 
+function watchedLabel(value) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(date);
+}
+
+function simklUrl(type, media) {
+  const id = media?.ids?.slug || media?.ids?.simkl;
+  if (!id) return "https://simkl.com";
+  return `https://simkl.com/${type}/${id}`;
+}
+
 async function simklGet(path) {
   const res = await fetch(`https://api.simkl.com${path}`, {
     headers: {
@@ -44,46 +62,70 @@ export default async function () {
     ]);
   } catch (e) {
     console.error("[simklNow] failed:", e.message);
-    return { movies: [], show: null };
+    return {
+      movies: [],
+      show: null,
+      latestMovie: null,
+      latestShow: null,
+      recentMovies: [],
+      recentShows: [],
+      recentTv: [],
+      recentAnime: [],
+    };
   }
 
-  const moviePool = (moviesData.movies || [])
+  const recentMovies = (moviesData.movies || [])
     .filter((x) => x?.movie && x?.last_watched_at)
     .sort((a, b) => new Date(b.last_watched_at) - new Date(a.last_watched_at))
-    .slice(0, 3);
+    .slice(0, 12)
+    .map((item) => ({
+      kind: "movie",
+      title: item.movie?.title ?? "Untitled",
+      year: item.movie?.year ?? "",
+      poster: poster(item.movie?.poster),
+      stars: stars(item.user_rating),
+      rating: Number(item.user_rating) || 0,
+      watchedAt: item.last_watched_at,
+      watchedLabel: watchedLabel(item.last_watched_at),
+      url: simklUrl("movies", item.movie),
+    }));
 
-  const movies = moviePool.map((item) => ({
-    kind: "movie",
-    title: item.movie?.title ?? "Untitled",
-    year: item.movie?.year ?? "",
-    poster: poster(item.movie?.poster),
-    stars: stars(item.user_rating),
-    url: `https://simkl.com/movies/${item.movie?.ids?.slug || item.movie?.ids?.simkl}`,
-  }));
-
-  const showPool = [
+  const recentShows = [
     ...(showsData.shows || []).map((x) => ({ ...x, __type: "tv" })),
     ...(animeData.anime || []).map((x) => ({ ...x, __type: "anime" })),
   ]
     .filter((x) => (x?.show || x?.anime) && x?.last_watched_at)
-    .sort((a, b) => new Date(b.last_watched_at) - new Date(a.last_watched_at));
+    .sort((a, b) => new Date(b.last_watched_at) - new Date(a.last_watched_at))
+    .slice(0, 12)
+    .map((item) => {
+      const media = item.show || item.anime;
+      return {
+        kind: item.__type,
+        title: media?.title ?? "Untitled",
+        year: media?.year ?? "",
+        poster: poster(media?.poster),
+        stars: stars(item.user_rating),
+        rating: Number(item.user_rating) || 0,
+        watchedAt: item.last_watched_at,
+        watchedLabel: watchedLabel(item.last_watched_at),
+        url: simklUrl(item.__type === "anime" ? "anime" : "tv", media),
+        subtitle: item.next_to_watch ? `Next: ${item.next_to_watch}` : "",
+      };
+    });
 
-  let show = null;
+  const recentTv = recentShows.filter((item) => item.kind === "tv");
+  const recentAnime = recentShows.filter((item) => item.kind === "anime");
 
-  if (showPool[0]) {
-    const item = showPool[0];
-    const media = item.show || item.anime;
-
-    show = {
-      kind: "tv",
-      title: media?.title ?? "Untitled",
-      year: media?.year ?? "",
-      poster: poster(media?.poster),
-      stars: stars(item.user_rating),
-      url: `https://simkl.com/${item.__type === "anime" ? "anime" : "tv"}/${media?.ids?.slug || media?.ids?.simkl}`,
-      subtitle: item.next_to_watch ? `Next: ${item.next_to_watch}` : "",
-    };
-  }
-
-  return { movies, show };
+  // Keep the original `movies` + `show` interface for any old includes that
+  // still use it, while exposing clearer fields for the combined Currently page.
+  return {
+    movies: recentMovies.slice(0, 3),
+    show: recentShows[0] || null,
+    latestMovie: recentMovies[0] || null,
+    latestShow: recentTv[0] || recentShows[0] || null,
+    recentMovies,
+    recentShows,
+    recentTv,
+    recentAnime,
+  };
 }

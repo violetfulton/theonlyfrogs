@@ -1,0 +1,14 @@
+---
+title: Hunt Board
+layout: layouts/pokeBase.njk
+permalink: /shrines/pokemon/hunts/
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
+---
+<div class="poke-v2">{% include "components/pokemon/pokenav.njk" %}
+<main class="pkmn-screen">
+<header class="pkmn-titlebar"><div><p class="pkmn-kicker">SEARCH PROGRAM</p><h1>HUNT BOARD</h1></div><strong>{{ pokemon.stats.activeHunts }} ACTIVE</strong></header>
+{% if pokemon.hunts.length %}
+<div class="pkmn-card-list">{% for hunt in pokemon.hunts %}<article class="pkmn-hunt-card"><div class="pkmn-sprite-stage pkmn-sprite-stage--small">{% if hunt.shinyImage %}<img src="{{ hunt.shinyImage }}" alt="Shiny {{ hunt.species }}">{% endif %}</div><div><span class="pkmn-badge">{{ hunt.status }}</span><h2>{{ hunt.species }}{% if hunt.form %} · {{ hunt.form }}{% endif %}</h2><p>{{ hunt.game }}{% if hunt.method %} · {{ hunt.method }}{% endif %}</p>{% if hunt.encounters %}<p><strong>{{ hunt.encounters }}</strong> encounters</p>{% endif %}{% if hunt.notes %}<p class="pkmn-muted">{{ hunt.notes }}</p>{% endif %}</div></article>{% endfor %}</div>
+{% else %}<div class="pkmn-empty"><strong>HUNT BOARD CLEAR</strong><span>No hunts are active or planned.</span></div>{% endif %}
+<footer class="pkmn-controls"><a href="/shrines/pokemon/">B POKéNAV</a></footer>
+</main></div>

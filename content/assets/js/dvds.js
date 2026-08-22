@@ -1,38 +1,36 @@
-// Get the button:
-let mybutton = document.getElementById("myBtn");
+document.addEventListener("DOMContentLoaded", () => {
+  const topButton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+  if (topButton) {
+    const updateTopButton = () => {
+      topButton.style.display = window.scrollY > 20 ? "block" : "none";
+    };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
+    window.addEventListener("scroll", updateTopButton, { passive: true });
+    updateTopButton();
+
+    topButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
   }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+  const tooltipTargets = document.querySelectorAll("[data-tooltip]");
+  if (!tooltipTargets.length) return;
 
-document.addEventListener("DOMContentLoaded", function() {
   const tooltip = document.createElement("div");
   tooltip.className = "tooltip";
+  tooltip.setAttribute("role", "tooltip");
   document.body.appendChild(tooltip);
 
-  document.querySelectorAll("[data-tooltip]").forEach(elem => {
-    elem.addEventListener("mouseenter", function() {
-      tooltip.textContent = this.dataset.tooltip;
-      const rect = this.getBoundingClientRect();
-      tooltip.style.left = rect.left + window.scrollX + "px";
-      tooltip.style.top = rect.bottom + window.scrollY + "px";
+  tooltipTargets.forEach((element) => {
+    element.addEventListener("mouseenter", () => {
+      tooltip.textContent = element.dataset.tooltip || "";
+      const rect = element.getBoundingClientRect();
+      tooltip.style.left = `${rect.left + window.scrollX}px`;
+      tooltip.style.top = `${rect.bottom + window.scrollY + 6}px`;
       tooltip.style.display = "block";
     });
-
-    elem.addEventListener("mouseleave", function() {
+    element.addEventListener("mouseleave", () => {
       tooltip.style.display = "none";
     });
   });

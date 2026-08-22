@@ -21,6 +21,12 @@ function toFiveStar(n) {
   return Math.max(0, Math.min(5, Math.round(num / 2)));
 }
 
+function simklUrl(type, media) {
+  const id = media?.ids?.slug || media?.ids?.simkl;
+  if (!id) return "https://simkl.com";
+  return `https://simkl.com/${type}/${id}`;
+}
+
 async function simklGet(path) {
   const res = await fetch(`https://api.simkl.com${path}`, {
     headers: {
@@ -40,7 +46,7 @@ async function simklGet(path) {
 async function tmdbGet(path) {
   const url = `https://api.themoviedb.org/3${path}${path.includes("?") ? "&" : "?"}api_key=${TMDB_KEY}`;
   return EleventyFetch(url, {
-    duration: "12h",
+    duration: "7d",
     type: "json",
   });
 }
@@ -49,8 +55,7 @@ async function getTmdbOverview(mediaType, tmdbId) {
   if (!tmdbId) return "";
 
   try {
-    const path =
-      mediaType === "movie" ? `/movie/${tmdbId}` : `/tv/${tmdbId}`;
+    const path = mediaType === "movie" ? `/movie/${tmdbId}` : `/tv/${tmdbId}`;
     const data = await tmdbGet(path);
     return data?.overview || "";
   } catch (e) {
@@ -61,53 +66,24 @@ async function getTmdbOverview(mediaType, tmdbId) {
 
 function parseMemo(item) {
   const raw = item?.memo?.text?.trim() || "";
+  if (!raw) return { isPhysical: false, kind: null, seasonsOwned: "" };
 
-  if (!raw) {
-    return {
-      isPhysical: false,
-      kind: null,
-      seasonsOwned: "",
-      raw,
-    };
-  }
-
-  const parts = raw
-    .split("|")
-    .map((p) => p.trim())
-    .filter(Boolean);
-
+  const parts = raw.split("|").map((p) => p.trim()).filter(Boolean);
   const upper = parts.map((p) => p.toUpperCase());
-
   const isPhysical = upper[0] === "PHYSICAL";
-
-  if (!isPhysical) {
-    return {
-      isPhysical: false,
-      kind: null,
-      seasonsOwned: "",
-      raw,
-    };
-  }
+  if (!isPhysical) return { isPhysical: false, kind: null, seasonsOwned: "" };
 
   let kind = null;
   let seasonsOwned = "";
 
   for (let i = 1; i < upper.length; i++) {
     const part = upper[i];
-
-    if (part === "MOVIE") kind = "movie";
-    else if (part === "ANIME-MOVIE") kind = "movie";
-    else if (part === "TV") kind = "tv";
-    else if (part === "ANIME") kind = "tv";
+    if (part === "MOVIE" || part === "ANIME-MOVIE") kind = "movie";
+    else if (part === "TV" || part === "ANIME") kind = "tv";
     else if (!seasonsOwned) seasonsOwned = parts[i];
   }
 
-  return {
-    isPhysical: true,
-    kind,
-    seasonsOwned,
-    raw,
-  };
+  return { isPhysical, kind, seasonsOwned };
 }
 
 export default async function () {
@@ -121,7 +97,7 @@ export default async function () {
     ]);
   } catch (e) {
     console.error("[simklOwned] failed:", e.message);
-    return { movies: [], shows: [], total: 0 };
+    return { movies: [], shows: [], total: 0, movieCount: 0, showCount: 0 };
   }
 
   const movies = [];
@@ -129,51 +105,47 @@ export default async function () {
 
   for (const item of moviesData.movies || []) {
     const memo = parseMemo(item);
-    if (!memo.isPhysical) continue;
+    if (!memo.isPhysical || !item.movie) continue;
 
     const media = item.movie;
-    if (!media) continue;
-
     movies.push({
-      title: media?.title ?? "Untitled",
-      year: media?.year ?? "",
-      poster: poster(media?.poster),
+      title: media.title ?? "Untitled",
+      year: media.year ?? "",
+      poster: poster(media.poster),
       overview: await getTmdbOverview("movie", media?.ids?.tmdb),
       media_type: "movie",
       my_rating: toFiveStar(item?.user_rating),
-      url: `https://simkl.com/movies/${media?.ids?.slug || media?.ids?.simkl}`,
+      url: simklUrl("movies", media),
     });
   }
 
   for (const item of showsData.shows || []) {
     const memo = parseMemo(item);
-    if (!memo.isPhysical) continue;
+    if (!memo.isPhysical || !item.show) continue;
 
     const media = item.show;
-    if (!media) continue;
-
     const kind = memo.kind || "tv";
 
     if (kind === "movie") {
       movies.push({
-        title: media?.title ?? "Untitled",
-        year: media?.year ?? "",
-        poster: poster(media?.poster),
+        title: media.title ?? "Untitled",
+        year: media.year ?? "",
+        poster: poster(media.poster),
         overview: await getTmdbOverview("movie", media?.ids?.tmdb),
         media_type: "movie",
         my_rating: toFiveStar(item?.user_rating),
-        url: `https://simkl.com/tv/${media?.ids?.slug || media?.ids?.simkl}`,
+        url: simklUrl("tv", media),
       });
     } else {
       shows.push({
-        title: media?.title ?? "Untitled",
-        year: media?.year ?? "",
-        poster: poster(media?.poster),
+        title: media.title ?? "Untitled",
+        year: media.year ?? "",
+        poster: poster(media.poster),
         overview: await getTmdbOverview("tv", media?.ids?.tmdb),
         media_type: "tv",
         my_rating: toFiveStar(item?.user_rating),
         seasons_owned: memo.seasonsOwned,
-        url: `https://simkl.com/tv/${media?.ids?.slug || media?.ids?.simkl}`,
+        url: simklUrl("tv", media),
       });
     }
   }
@@ -185,32 +157,28 @@ export default async function () {
     const media = item.show || item.anime;
     if (!media) continue;
 
-    let kind = memo.kind;
-
-    if (!kind) {
-      kind = item?.anime_type === "movie" ? "movie" : "tv";
-    }
+    const kind = memo.kind || (item?.anime_type === "movie" ? "movie" : "tv");
 
     if (kind === "movie") {
       movies.push({
-        title: media?.title ?? "Untitled",
-        year: media?.year ?? "",
-        poster: poster(media?.poster),
+        title: media.title ?? "Untitled",
+        year: media.year ?? "",
+        poster: poster(media.poster),
         overview: await getTmdbOverview("movie", media?.ids?.tmdb),
         media_type: "movie",
         my_rating: toFiveStar(item?.user_rating),
-        url: `https://simkl.com/anime/${media?.ids?.slug || media?.ids?.simkl}`,
+        url: simklUrl("anime", media),
       });
     } else {
       shows.push({
-        title: media?.title ?? "Untitled",
-        year: media?.year ?? "",
-        poster: poster(media?.poster),
+        title: media.title ?? "Untitled",
+        year: media.year ?? "",
+        poster: poster(media.poster),
         overview: await getTmdbOverview("tv", media?.ids?.tmdb),
         media_type: "tv",
         my_rating: toFiveStar(item?.user_rating),
         seasons_owned: memo.seasonsOwned,
-        url: `https://simkl.com/anime/${media?.ids?.slug || media?.ids?.simkl}`,
+        url: simklUrl("anime", media),
       });
     }
   }
@@ -222,5 +190,7 @@ export default async function () {
     movies,
     shows,
     total: movies.length + shows.length,
+    movieCount: movies.length,
+    showCount: shows.length,
   };
 }

@@ -1,22 +1,254 @@
 ---
-title: Curation of Now
+title: Currently
 layout: base.njk
 customcss: '/assets/css/now.css'
 permalink: /interests/now/
 ---
 
-<header class="page-header">
-  <img src="/assets/imgs/graphics/currently.png" alt="Header Image" class="header-image">
-  <p class="header-subtitle">A curation of what I'm currently listening to, playing, and watching.</p>
-  <small class="header-note">return <a href="/">home</a></small>
-</header>
+<main class="currently-page">
+  <header class="currently-hero">
+    <div class="currently-hero__copy">
+      <p class="currently-kicker">THE ONLY FROGS / CURRENTLY</p>
+      <h1>Currently ♡</h1>
+      <p class="currently-intro">A little snapshot of what I’ve been listening to, watching, playing, and getting far too invested in lately.</p>
+      <nav class="currently-jumps" aria-label="Jump to a currently section">
+        <a href="#listening">♪ listening</a>
+        <a href="#watching">▸ watching</a>
+        <a href="#playing">✦ playing</a>
+        <a href="#victories">★ little victories</a>
+      </nav>
+    </div>
 
-<section class="activity-section">
-  {% include "partials/lastfmWidget.njk" %}
-  {% include "partials/traktWidget.njk" %}
-  {% include "partials/steamWidget.njk" %}
-  {% include "partials/psnWidget.njk" %}
-  {% include "partials/raWidget.njk" %}
-  {% include "partials/malWidget.njk" %}
+    <div class="currently-hero__art" aria-hidden="true">
+      <img src="/assets/imgs/graphics/currently.png" alt="">
+      <span class="currently-doodle currently-doodle--one">♡</span>
+      <span class="currently-doodle currently-doodle--two">✦</span>
+      <span class="currently-doodle currently-doodle--three">♪</span>
+    </div>
+  </header>
 
-</section>
+  <section class="currently-panel currently-panel--listening" id="listening">
+    <div class="currently-panel__heading">
+      <div>
+        <p class="currently-panel__eyebrow">ON REPEAT</p>
+        <h2>Listening lately</h2>
+      </div>
+      <a class="currently-source-link" href="https://www.last.fm/user/onlyfrogs" target="_blank" rel="noopener noreferrer">Last.fm ↗</a>
+    </div>
+
+    <div class="listening-stage">
+      {% include "partials/lastfmWidget.njk" %}
+    </div>
+  </section>
+
+  <section class="currently-panel currently-panel--watching" id="watching">
+    <div class="currently-panel__heading">
+      <div>
+        <p class="currently-panel__eyebrow">ON MY SCREEN</p>
+        <h2>Watching lately</h2>
+      </div>
+      <a class="currently-source-link" href="https://simkl.com/8313205/" target="_blank" rel="noopener noreferrer">Simkl ↗</a>
+    </div>
+
+    {% if simklNow.latestMovie %}
+      <article class="watch-feature">
+        <a class="watch-feature__poster" href="{{ simklNow.latestMovie.url }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ simklNow.latestMovie.poster }}" alt="{{ simklNow.latestMovie.title }} poster">
+          <span>latest movie</span>
+        </a>
+        <div class="watch-feature__copy">
+          <p class="watch-feature__label">MOVIE NIGHT</p>
+          <h3>{{ simklNow.latestMovie.title }}</h3>
+          <p class="watch-feature__meta">
+            {% if simklNow.latestMovie.year %}{{ simklNow.latestMovie.year }}{% endif %}
+            {% if simklNow.latestMovie.watchedLabel %}<span>· watched {{ simklNow.latestMovie.watchedLabel }}</span>{% endif %}
+          </p>
+          {% if simklNow.latestMovie.rating %}<p class="watch-feature__stars">{{ simklNow.latestMovie.stars }}</p>{% endif %}
+          <a class="currently-pill-link" href="{{ simklNow.latestMovie.url }}" target="_blank" rel="noopener noreferrer">movie details ↗</a>
+        </div>
+      </article>
+    {% endif %}
+
+    <div class="watching-grid">
+      <div class="watching-column">
+        <div class="watching-column__heading">
+          <h3>Recent movies</h3>
+          <span>recent watches</span>
+        </div>
+
+        {% if simklNow.recentMovies and simklNow.recentMovies.length %}
+          <div class="watch-poster-row">
+            {% for movie in simklNow.recentMovies %}
+              {% if loop.index <= 5 %}
+                <a class="watch-poster" href="{{ movie.url }}" target="_blank" rel="noopener noreferrer" title="{{ movie.title }}">
+                  <img src="{{ movie.poster }}" alt="{{ movie.title }} poster" loading="lazy">
+                  <span class="watch-poster__copy">
+                    <strong>{{ movie.title }}</strong>
+                    <small>{{ movie.watchedLabel or movie.year }}</small>
+                  </span>
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="currently-empty">No recent movie watches found.</p>
+        {% endif %}
+      </div>
+
+      <div class="watching-column">
+        <div class="watching-column__heading">
+          <h3>TV lately</h3>
+          <span>series I’ve been dipping into</span>
+        </div>
+
+        {% if simklNow.recentTv and simklNow.recentTv.length %}
+          <div class="watch-list">
+            {% for show in simklNow.recentTv %}
+              {% if loop.index <= 4 %}
+                <a class="watch-list__item" href="{{ show.url }}" target="_blank" rel="noopener noreferrer">
+                  <img src="{{ show.poster }}" alt="{{ show.title }} poster" loading="lazy">
+                  <span>
+                    <strong>{{ show.title }}</strong>
+                    <small>{{ show.subtitle or show.watchedLabel }}</small>
+                  </span>
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="currently-empty">No recent TV watches found.</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="anime-corner">
+      <div class="anime-corner__heading">
+        <div>
+          <p class="currently-panel__eyebrow">ANIME CORNER</p>
+          <h3>Currently watching</h3>
+        </div>
+        <a class="currently-source-link" href="https://myanimelist.net/profile/theonlyfrogs" target="_blank" rel="noopener noreferrer">MyAnimeList ↗</a>
+      </div>
+
+      {% if malAnime.watching and malAnime.watching | length %}
+        <div class="anime-now-grid">
+          {% for show in malAnime.watching %}
+            {% if loop.index <= 4 %}
+              <a class="anime-now-card" href="{{ show.url }}" target="_blank" rel="noopener noreferrer">
+                <div class="anime-now-card__image">
+                  <img src="{{ show.image }}" alt="{{ show.title }}" loading="lazy">
+                  <span>ep {{ show.progress }}{% if show.totalEpisodes %}/{{ show.totalEpisodes }}{% endif %}</span>
+                </div>
+                <div class="anime-now-card__copy">
+                  <strong>{{ show.title }}</strong>
+                  {% if show.score %}<small>{{ show.score }}/10</small>{% endif %}
+                </div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="currently-empty">Nothing sitting in my MAL watching list right now.</p>
+      {% endif %}
+
+      {% if malAnime.completed and malAnime.completed | length %}
+        <div class="anime-completed">
+          <span class="anime-completed__label">recently finished</span>
+          <div class="anime-completed__links">
+            {% for show in malAnime.completed %}
+              {% if loop.index <= 3 %}
+                <a href="{{ show.url }}" target="_blank" rel="noopener noreferrer">{{ show.title }}{% if show.score %} · {{ show.score }}/10{% endif %}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="currently-panel currently-panel--playing" id="playing">
+    <div class="currently-panel__heading">
+      <div>
+        <p class="currently-panel__eyebrow">CONTROLLER IN HAND</p>
+        <h2>Playing lately</h2>
+      </div>
+      <a class="currently-source-link" href="https://steamcommunity.com/id/froggyviolet/" target="_blank" rel="noopener noreferrer">Steam ↗</a>
+    </div>
+
+    {% if steam.games and steam.games.length %}
+      <div class="playing-grid">
+        {% for game in steam.games %}
+          <a class="playing-card" href="https://store.steampowered.com/app/{{ game.appid }}/" target="_blank" rel="noopener noreferrer">
+            <img src="{{ game.img }}" alt="{{ game.name }}" loading="lazy" onerror="this.src='/assets/imgs/frog-placeholder.png'">
+            <span class="playing-card__copy">
+              <strong>{{ game.name }}</strong>
+              <small>
+                {% if game.playtime_hours %}{{ game.playtime_hours }}h in the last 2 weeks{% else %}played recently{% endif %}
+              </small>
+            </span>
+          </a>
+        {% endfor %}
+      </div>
+
+      {% if steam.recent_total_hours %}
+        <p class="playing-note">Steam says I’ve put about <strong>{{ steam.recent_total_hours }} hours</strong> into these recent games over the last two weeks.</p>
+      {% endif %}
+    {% else %}
+      <p class="currently-empty">Steam hasn’t got anything recent to report.</p>
+    {% endif %}
+  </section>
+
+  <section class="currently-panel currently-panel--victories" id="victories">
+    <div class="currently-panel__heading">
+      <div>
+        <p class="currently-panel__eyebrow">TINY TROPHIES</p>
+        <h2>Little victories</h2>
+      </div>
+      <a class="currently-source-link" href="https://retroachievements.org/user/onlyfrogs" target="_blank" rel="noopener noreferrer">RetroAchievements ↗</a>
+    </div>
+
+    {% if retroachievements.recent and retroachievements.recent.length %}
+      <div class="victory-grid">
+        {% for item in retroachievements.recent %}
+          <article class="victory-card">
+            <div class="victory-card__icons">
+              {% if item.gameIconUrl %}<img class="victory-card__game-icon" src="{{ item.gameIconUrl }}" alt="{{ item.gameTitle }}" loading="lazy">{% endif %}
+              {% if item.achievementIconUrl %}<img class="victory-card__ach-icon" src="{{ item.achievementIconUrl }}" alt="" loading="lazy">{% endif %}
+            </div>
+            <div class="victory-card__copy">
+              <div class="victory-card__badges">
+                <span>{{ item.consoleName }}</span>
+                {% if item.hardcore %}<span>HC</span>{% endif %}
+              </div>
+              <a class="victory-card__achievement" href="https://retroachievements.org/achievement/{{ item.achievementId }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+              <a class="victory-card__game" href="https://retroachievements.org/game/{{ item.gameId }}" target="_blank" rel="noopener noreferrer">{{ item.gameTitle }}</a>
+              <small>{{ item.dateAgo }}</small>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="currently-empty">No recent RetroAchievements to pin up.</p>
+    {% endif %}
+
+    <div class="playstation-note">
+      <span class="playstation-note__icon">PS</span>
+      <div>
+        <strong>PlayStation corner</strong>
+        <p>I keep the full trophy card elsewhere — this page is just the stuff that’s actually moving right now.</p>
+      </div>
+      <a href="https://psnprofiles.com/TheOnlyFrogs" target="_blank" rel="noopener noreferrer">profile ↗</a>
+    </div>
+  </section>
+
+  <footer class="currently-footer">
+    <p class="currently-footer__title">Want the permanent shelves instead?</p>
+    <nav aria-label="Collection links">
+      <a href="/games/">games</a>
+      <a href="/cds/">CDs</a>
+      <a href="/dvds/">DVDs + TV</a>
+      <a href="/shrines/">shrines</a>
+      <a href="/">home</a>
+    </nav>
+  </footer>
+</main>

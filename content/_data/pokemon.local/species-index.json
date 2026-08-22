@@ -1,0 +1,597 @@
+{
+  "bulbasaur": {
+    "dexNo": "1",
+    "generation": "gen1",
+    "spriteKey": "bulbasaur"
+  },
+  "weedle": {
+    "dexNo": "13",
+    "generation": "gen1",
+    "spriteKey": "weedle"
+  },
+  "pikachu": {
+    "dexNo": "25",
+    "generation": "gen1",
+    "spriteKey": "pikachu"
+  },
+  "ponyta": {
+    "dexNo": "77",
+    "generation": "gen1",
+    "spriteKey": "ponyta"
+  },
+  "greninja": {
+    "dexNo": "658",
+    "generation": "gen6",
+    "spriteKey": "greninja"
+  },
+  "ekans": {
+    "dexNo": "23",
+    "generation": "gen1",
+    "spriteKey": "ekans"
+  },
+  "oricorio": {
+    "dexNo": "741",
+    "generation": "gen7",
+    "spriteKey": "oricorio-sensu"
+  },
+  "tatsugiri": {
+    "dexNo": "978",
+    "generation": "gen9",
+    "spriteKey": "tatsugiri-stretchy"
+  },
+  "slakoth": {
+    "dexNo": "287",
+    "generation": "gen3",
+    "spriteKey": "slakoth"
+  },
+  "litleo": {
+    "dexNo": "667",
+    "generation": "gen6",
+    "spriteKey": "litleo"
+  },
+  "dugtrio": {
+    "dexNo": "51",
+    "generation": "gen1",
+    "spriteKey": "dugtrio"
+  },
+  "golduck": {
+    "dexNo": "55",
+    "generation": "gen1",
+    "spriteKey": "golduck"
+  },
+  "geodude": {
+    "dexNo": "74",
+    "generation": "gen1",
+    "spriteKey": "geodude"
+  },
+  "seel": {
+    "dexNo": "86",
+    "generation": "gen1",
+    "spriteKey": "seel"
+  },
+  "exeggutor": {
+    "dexNo": "103",
+    "generation": "gen1",
+    "spriteKey": "exeggutor-alolan"
+  },
+  "gligar": {
+    "dexNo": "207",
+    "generation": "gen2",
+    "spriteKey": "gligar"
+  },
+  "porygon2": {
+    "dexNo": "233",
+    "generation": "gen2",
+    "spriteKey": "porygon2"
+  },
+  "shroomish": {
+    "dexNo": "285",
+    "generation": "gen3",
+    "spriteKey": "shroomish"
+  },
+  "rayquaza": {
+    "dexNo": "384",
+    "generation": "gen3",
+    "spriteKey": "rayquaza"
+  },
+  "kricketune": {
+    "dexNo": "402",
+    "generation": "gen4",
+    "spriteKey": "kricketune"
+  },
+  "buizel": {
+    "dexNo": "418",
+    "generation": "gen4",
+    "spriteKey": "buizel"
+  },
+  "lucario": {
+    "dexNo": "448",
+    "generation": "gen4",
+    "spriteKey": "lucario"
+  },
+  "pawniard": {
+    "dexNo": "624",
+    "generation": "gen5",
+    "spriteKey": "pawniard"
+  },
+  "popplio": {
+    "dexNo": "728",
+    "generation": "gen7",
+    "spriteKey": "popplio"
+  },
+  "lycanroc": {
+    "dexNo": "745",
+    "generation": "gen7",
+    "spriteKey": "lycanroc-midnight"
+  },
+  "mudbray": {
+    "dexNo": "749",
+    "generation": "gen7",
+    "spriteKey": "mudbray"
+  },
+  "minior": {
+    "dexNo": "774",
+    "generation": "gen7",
+    "spriteKey": "minior-green-core"
+  },
+  "lechonk": {
+    "dexNo": "915",
+    "generation": "gen9",
+    "spriteKey": "lechonk"
+  },
+  "tadbulb": {
+    "dexNo": "938",
+    "generation": "gen9",
+    "spriteKey": "tadbulb"
+  },
+  "cyclizar": {
+    "dexNo": "967",
+    "generation": "gen9",
+    "spriteKey": "cyclizar"
+  },
+  "great-tusk": {
+    "dexNo": "984",
+    "generation": "gen9",
+    "spriteKey": "great-tusk"
+  },
+  "gimmighoul": {
+    "dexNo": "999",
+    "generation": "gen9",
+    "spriteKey": "gimmighoul-chest"
+  },
+  "gloom": {
+    "dexNo": "44",
+    "generation": "gen1",
+    "spriteKey": "gloom"
+  },
+  "wooper": {
+    "dexNo": "194",
+    "generation": "gen2",
+    "spriteKey": "wooper-paldean"
+  },
+  "slugma": {
+    "dexNo": "218",
+    "generation": "gen2",
+    "spriteKey": "slugma"
+  },
+  "tyrogue": {
+    "dexNo": "236",
+    "generation": "gen2",
+    "spriteKey": "tyrogue"
+  },
+  "trapinch": {
+    "dexNo": "328",
+    "generation": "gen3",
+    "spriteKey": "trapinch"
+  },
+  "swablu": {
+    "dexNo": "333",
+    "generation": "gen3",
+    "spriteKey": "swablu"
+  },
+  "seviper": {
+    "dexNo": "336",
+    "generation": "gen3",
+    "spriteKey": "seviper"
+  },
+  "cranidos": {
+    "dexNo": "408",
+    "generation": "gen4",
+    "spriteKey": "cranidos"
+  },
+  "axew": {
+    "dexNo": "610",
+    "generation": "gen5",
+    "spriteKey": "axew"
+  },
+  "vullaby": {
+    "dexNo": "629",
+    "generation": "gen5",
+    "spriteKey": "vullaby"
+  },
+  "rowlet": {
+    "dexNo": "722",
+    "generation": "gen7",
+    "spriteKey": "rowlet"
+  },
+  "venusaur": {
+    "dexNo": "3",
+    "generation": "gen1",
+    "spriteKey": "venusaur"
+  },
+  "gengar": {
+    "dexNo": "94",
+    "generation": "gen1",
+    "spriteKey": "gengar"
+  },
+  "gardevoir": {
+    "dexNo": "282",
+    "generation": "gen2",
+    "spriteKey": "gardevoir"
+  },
+  "bagon": {
+    "dexNo": "371",
+    "generation": "gen3",
+    "spriteKey": "bagon"
+  },
+  "shelgon": {
+    "dexNo": "372",
+    "generation": "gen3",
+    "spriteKey": "shelgon"
+  },
+  "salamence": {
+    "dexNo": "373",
+    "generation": "gen3",
+    "spriteKey": "salamence"
+  },
+  "doublade": {
+    "dexNo": "680",
+    "generation": "gen6",
+    "spriteKey": "doublade"
+  },
+  "pinsir": {
+    "dexNo": "127",
+    "generation": "gen1",
+    "spriteKey": "pinsir"
+  },
+  "panpour": {
+    "dexNo": "515",
+    "generation": "gen5",
+    "spriteKey": "panpour"
+  },
+  "ralts": {
+    "dexNo": "280",
+    "generation": "gen2",
+    "spriteKey": "ralts"
+  },
+  "pancham": {
+    "dexNo": "674",
+    "generation": "gen5",
+    "spriteKey": "pancham"
+  },
+  "fletchling": {
+    "dexNo": "661",
+    "generation": "gen6",
+    "spriteKey": "fletchling"
+  },
+  "fletchinder": {
+    "dexNo": "662",
+    "generation": "gen6",
+    "spriteKey": "fletchinder"
+  },
+  "talonflame": {
+    "dexNo": "663",
+    "generation": "gen6",
+    "spriteKey": "talonflame"
+  },
+  "bunnelby": {
+    "dexNo": "659",
+    "generation": "gen6",
+    "spriteKey": "bunnelby"
+  },
+  "scatterbug": {
+    "dexNo": "664",
+    "generation": "gen6",
+    "spriteKey": "scatterbug"
+  },
+  "vivillon": {
+    "dexNo": "666",
+    "generation": "gen6",
+    "spriteKey": "vivillon"
+  },
+  "kakuna": {
+    "dexNo": "14",
+    "generation": "gen1",
+    "spriteKey": "kakuna"
+  },
+  "beedrill": {
+    "dexNo": "15",
+    "generation": "gen1",
+    "spriteKey": "beedrill"
+  },
+  "pidgey": {
+    "dexNo": "16",
+    "generation": "gen1",
+    "spriteKey": "pidgey"
+  },
+  "pidgeotto": {
+    "dexNo": "17",
+    "generation": "gen1",
+    "spriteKey": "pidgeotto"
+  },
+  "pidgeot": {
+    "dexNo": "18",
+    "generation": "gen1",
+    "spriteKey": "pidgeot"
+  },
+  "mareep": {
+    "dexNo": "179",
+    "generation": "gen2",
+    "spriteKey": "mareep"
+  },
+  "patrat": {
+    "dexNo": "504",
+    "generation": "gen5",
+    "spriteKey": "patrat"
+  },
+  "watchog": {
+    "dexNo": "505",
+    "generation": "gen5",
+    "spriteKey": "watchog"
+  },
+  "magikarp": {
+    "dexNo": "129",
+    "generation": "gen1",
+    "spriteKey": "magikarp"
+  },
+  "gyrados": {
+    "dexNo": "130",
+    "generation": "gen1",
+    "spriteKey": "gyrados"
+  },
+  "binacle": {
+    "dexNo": "688",
+    "generation": "gen6",
+    "spriteKey": "binacle"
+  },
+  "barbaracle": {
+    "dexNo": "689",
+    "generation": "gen6",
+    "spriteKey": "barbaracle"
+  },
+  "flabebe": {
+    "dexNo": "669",
+    "generation": "gen6",
+    "spriteKey": "flabebe"
+  },
+  "floette": {
+    "dexNo": "670",
+    "generation": "gen6",
+    "spriteKey": "floette"
+  },
+  "florges": {
+    "dexNo": "671",
+    "generation": "gen6",
+    "spriteKey": "florges"
+  },
+  "skiddo": {
+    "dexNo": "672",
+    "generation": "gen6",
+    "spriteKey": "skiddo"
+  },
+  "gogoat": {
+    "dexNo": "673",
+    "generation": "gen6",
+    "spriteKey": "gogoat"
+  },
+  "espurr": {
+    "dexNo": "677",
+    "generation": "gen6",
+    "spriteKey": "espurr"
+  },
+  "meowstic": {
+    "dexNo": "678",
+    "generation": "gen6",
+    "spriteKey": "meowstic"
+  },
+  "pyroar": {
+    "dexNo": "668",
+    "generation": "gen6",
+    "spriteKey": "pyroar"
+  },
+  "trubbish": {
+    "dexNo": "568",
+    "generation": "gen5",
+    "spriteKey": "trubbish"
+  },
+  "spinarak": {
+    "dexNo": "167",
+    "generation": "gen2",
+    "spriteKey": "spinarak"
+  },
+  "ariados": {
+    "dexNo": "168",
+    "generation": "gen2",
+    "spriteKey": "ariados"
+  },
+  "gastly": {
+    "dexNo": "92",
+    "generation": "gen1",
+    "spriteKey": "gastly"
+  },
+  "haunter": {
+    "dexNo": "93",
+    "generation": "gen1",
+    "spriteKey": "haunter"
+  },
+  "scolipede": {
+    "dexNo": "545",
+    "generation": "gen5",
+    "spriteKey": "scolipede"
+  },
+  "bellsprout": {
+    "dexNo": "69",
+    "generation": "gen1",
+    "spriteKey": "bellsprout"
+  },
+  "weepinbell": {
+    "dexNo": "70",
+    "generation": "gen1",
+    "spriteKey": "weepinbell"
+  },
+  "victreebel": {
+    "dexNo": "71",
+    "generation": "gen1",
+    "spriteKey": "victreebel"
+  },
+  "pansear": {
+    "dexNo": "513",
+    "generation": "gen5",
+    "spriteKey": "pansear"
+  },
+  "simisear": {
+    "dexNo": "514",
+    "generation": "gen5",
+    "spriteKey": "simisear"
+  },
+  "altaria": {
+    "dexNo": "334",
+    "generation": "gen3",
+    "spriteKey": "altaria"
+  },
+  "eevee": {
+    "dexNo": "133",
+    "generation": "gen1",
+    "spriteKey": "eevee"
+  },
+  "buneary": {
+    "dexNo": "427",
+    "generation": "gen4",
+    "spriteKey": "buneary"
+  },
+  "lopunny": {
+    "dexNo": "428",
+    "generation": "gen4",
+    "spriteKey": "lopunny"
+  },
+  "vanillite": {
+    "dexNo": "582",
+    "generation": "gen5",
+    "spriteKey": "vanillite"
+  },
+  "vanillish": {
+    "dexNo": "583",
+    "generation": "gen5",
+    "spriteKey": "vanillish"
+  },
+  "vanilluxe": {
+    "dexNo": "584",
+    "generation": "gen5",
+    "spriteKey": "vanilluxe"
+  },
+  "hippowdon": {
+    "dexNo": "450",
+    "generation": "gen4",
+    "spriteKey": "hippowdon"
+  },
+  "drilbur": {
+    "dexNo": "529",
+    "generation": "gen5",
+    "spriteKey": "drilbur"
+  },
+  "excadrill": {
+    "dexNo": "530",
+    "generation": "gen5",
+    "spriteKey": "excadrill"
+  },
+  "machop": {
+    "dexNo": "66",
+    "generation": "gen1",
+    "spriteKey": "machop"
+  },
+  "riolu": {
+    "dexNo": "447",
+    "generation": "gen4",
+    "spriteKey": "riolu"
+  },
+  "dratini": {
+    "dexNo": "147",
+    "generation": "gen1",
+    "spriteKey": "dratini"
+  },
+  "dragonair": {
+    "dexNo": "148",
+    "generation": "gen1",
+    "spriteKey": "dragonair"
+  },
+  "furfrou": {
+    "dexNo": "676",
+    "generation": "gen6",
+    "spriteKey": "furfrou"
+  },
+  "dragalge": {
+    "dexNo": "691",
+    "generation": "gen6",
+    "spriteKey": "dragalge"
+  },
+  "delibird": {
+    "dexNo": "225",
+    "generation": "gen2",
+    "spriteKey": "delibird"
+  },
+  "snorunt": {
+    "dexNo": "361",
+    "generation": "gen3",
+    "spriteKey": "snorunt"
+  },
+  "glalie": {
+    "dexNo": "362",
+    "generation": "gen3",
+    "spriteKey": "glalie"
+  },
+  "froslass": {
+    "dexNo": "478",
+    "generation": "gen4",
+    "spriteKey": "froslass"
+  },
+  "snover": {
+    "dexNo": "459",
+    "generation": "gen4",
+    "spriteKey": "snover"
+  },
+  "abomasnow": {
+    "dexNo": "460",
+    "generation": "gen4",
+    "spriteKey": "abomasnow"
+  },
+  "emolga": {
+    "dexNo": "587",
+    "generation": "gen5",
+    "spriteKey": "emolga"
+  },
+  "hawlucha": {
+    "dexNo": "701",
+    "generation": "gen6",
+    "spriteKey": "hawlucha"
+  },
+  "phantump": {
+    "dexNo": "708",
+    "generation": "gen6",
+    "spriteKey": "phantump"
+  },
+  "noivern": {
+    "dexNo": "715",
+    "generation": "gen6",
+    "spriteKey": "noivern"
+  },
+  "aggron": {
+    "dexNo": "306",
+    "generation": "gen3",
+    "spriteKey": "aggron"
+  },
+  "gyarados": {
+    "dexNo": "130",
+    "generation": "gen1",
+    "spriteKey": "gyrados"
+  }
+}

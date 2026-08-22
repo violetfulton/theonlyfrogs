@@ -1,0 +1,21 @@
+---
+pagination:
+  data: pokemonLegacyRedirects
+  size: 1
+  alias: legacy
+permalink: "{{ legacy.from }}"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Moved · TheOnlyFrogs Pokémon</title>
+  <meta http-equiv="refresh" content="0; url={{ legacy.to }}">
+  <link rel="canonical" href="{{ legacy.to }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>This Pokémon page moved. <a href="{{ legacy.to }}">Continue</a>.</p>
+</body>
+</html>

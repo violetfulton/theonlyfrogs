@@ -1,146 +1,56 @@
 ---
-title: Shiny Diary
+title: PC Boxes
 layout: layouts/pokeBase.njk
 permalink: /shrines/pokemon/shinies/
-customcss: "/assets/css/shrines/pokemon/shinies.css"
+customcss: "/assets/css/shrines/pokemon/pokemon-v2.css"
 ---
-
-{% set pinkCount = 0 %}
-{% if pokemonShinies.pink and pokemonShinies.pink.counts %}
-  {% set pinkCount = pokemonShinies.pink.counts.all %}
-{% endif %}
-
-<section class="shiny-shrine-hero">
-  <img class="poke-hero-sticker poke-hero-sticker--top-right poke-hero-sticker--medium"
-       src="/assets/imgs/pokemon/graphics/sparkle-sticker.png"
-       alt=""
-       aria-hidden="true">
-
-  <img class="poke-hero-sticker poke-hero-sticker--bottom-left poke-hero-sticker--small"
-       src="/assets/imgs/pokemon/graphics/star-sticker.png"
-       alt=""
-       aria-hidden="true">
-
-  <p class="pc-kicker">Welcome in ♡</p>
-  <h1>Shiny Diary ☆</h1>
-  <p>
-    A little sparkle diary for my shiny Pokémon, powered by one shiny log sheet so I do not have to
-    update a million shrine pages by hand.
-  </p>
-
-  <div class="shiny-shrine-stats" aria-label="Shiny stats">
-    <span><strong>{{ pokemonShinies.stats.total }}</strong> captures</span>
-    <span><strong>{{ pokemonShinies.stats.unique }}</strong> unique</span>
-    <span><strong>{{ pokemonShinies.stats.community }}</strong> Community Events</span>
-    <span><strong>{{ pokemonShinies.stats.go }}</strong> Pokémon GO</span>
-  </div>
-</section>
-
-<section class="shiny-feature-link-grid" aria-label="Shiny diary shortcuts">
-  <a class="shiny-feature-link" href="/shrines/pokemon/shinies/living-dex/">
-    <span>✨</span>
-    <div>
-      <strong>Shiny Living Dex</strong>
-      <small>
-        {{ pokemonShinies.livingDexStats.caught }}/{{ pokemonShinies.livingDexStats.total }}
-        caught · {{ pokemonShinies.livingDexStats.percent }}%
-      </small>
-    </div>
-  </a>
-
-<a class="shiny-feature-link shiny-feature-link--pink" href="/shrines/pokemon/shinies/faves/">
-  <span>💖</span>
-  <div>
-    <strong>Favourite Sparkles</strong>
-    <small>
-      My pink, cute, goth, witchy, frog, and Violet-coded shiny favourites.
-    </small>
-  </div>
-</a>
-
-  <a class="shiny-feature-link" href="/shrines/pokemon/shinies/recent/">
-    <span>💫</span>
-    <div>
-      <strong>Recent Shinies</strong>
-      <small>
-        The newest sparkles from the shiny diary.
-      </small>
-    </div>
-  </a>
-</section>
-
-{% if pokemonShinies.recent and pokemonShinies.recent.length %}
-<section class="shiny-shrine-section">
-  <div class="shiny-shrine-heading">
-    <p class="pc-kicker">Recent activity</p>
-    <h2>Newest shinies</h2>
-  </div>
-
-  <div class="shiny-card-grid">
-    {% for shiny in pokemonShinies.recent %}
-      <article class="shiny-card">
-        {% if shiny.image %}
-          <img src="{{ shiny.image }}" alt="Shiny {{ shiny.species }}" loading="lazy">
-        {% endif %}
-
-        <span class="shiny-card__number">#{{ shiny.dexDisplay }}</span>
-        <h2>{{ shiny.nickname or shiny.species }}</h2>
-
-        {% if shiny.nickname %}
-          <p class="shiny-card__species">{{ shiny.species }}</p>
-        {% endif %}
-
-        <dl>
-          {% if shiny.originGame %}
-            <div><dt>Game</dt><dd>{{ shiny.originGame }}</dd></div>
-          {% endif %}
-          {% if shiny.method %}
-            <div><dt>Method</dt><dd>{{ shiny.method }}</dd></div>
-          {% endif %}
-          {% if shiny.caughtDate %}
-            <div><dt>Date</dt><dd>{{ shiny.caughtDate }}</dd></div>
-          {% endif %}
-        </dl>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
-
-<section class="shiny-shrine-section">
-  <div class="shiny-shrine-heading">
-    <p class="pc-kicker">Sparkle diaries</p>
-    <h2>Browse by generation</h2>
-  </div>
-
-  <div class="shiny-box-link-grid">
-    {% for gen in pokemonShinies.generations %}
-      {% if gen.key and gen.key != "unsorted" %}
-        <a class="shiny-box-link" href="/shrines/pokemon/shinies/{{ gen.key }}/">
-          <span>{{ gen.label }}</span>
-          <strong>{{ gen.count }}</strong>
-          <small>captures</small>
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="shiny-shrine-section">
-  <div class="shiny-shrine-heading">
-    <p class="pc-kicker">Hunt boxes</p>
-    <h2>Browse by category</h2>
-  </div>
-
-  <div class="shiny-box-link-grid">
-    {% for category in pokemonShinies.categories %}
-      {% if category.key and category.key != "unsorted" %}
-        <a class="shiny-box-link" href="/shrines/pokemon/shinies/{{ category.key }}/">
-          <span>{{ category.label }}</span>
-          <strong>{{ category.count }}</strong>
-          <small>captures</small>
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+<div class="poke-v2">
+  {% include "components/pokemon/pokenav.njk" %}
+  <main class="pkmn-screen">
+    <header class="pkmn-titlebar"><div><p class="pkmn-kicker">VIOLET'S PC</p><h1>PC BOXES</h1></div><strong>{{ pokemon.stats.captures }} ✦</strong></header>
+    <section class="pkmn-pc-shell">
+      <div class="pkmn-pc-toolbar">
+        <label>SEARCH <input type="search" id="pc-search" placeholder="Species, game, method…"></label>
+        <span>{{ pokemon.stats.unique }} unique species</span>
+      </div>
+      <div class="pkmn-pc-grid" id="pc-grid">
+        {% for mon in pokemon.captures %}
+          <button class="pkmn-pc-slot" type="button"
+            data-search="{{ mon.species }} {{ mon.nickname }} {{ mon.originGame }} {{ mon.method }} {{ mon.form }}"
+            data-name="{{ mon.nickname or mon.species }}"
+            data-species="{{ mon.species }}"
+            data-dex="{{ mon.dexDisplay }}"
+            data-game="{{ mon.originGame }}"
+            data-method="{{ mon.method }}"
+            data-date="{{ mon.caughtDate }}"
+            data-ball="{{ mon.ball }}"
+            data-nature="{{ mon.nature }}"
+            data-gender="{{ mon.gender }}"
+            data-location="{{ mon.location }}"
+            data-odds="{{ mon.odds }}"
+            data-encounters="{{ mon.encounters }}"
+            data-mark="{{ mon.markRibbon }}"
+            data-notes="{{ mon.notes }}"
+            data-image="{{ mon.image }}">
+            {% if mon.image %}<img src="{{ mon.image }}" alt="" loading="lazy">{% endif %}
+            <span>{{ mon.nickname or mon.species }}</span>
+            <small>No. {{ mon.dexDisplay }}</small>
+          </button>
+        {% endfor %}
+      </div>
+    </section>
+    <dialog class="pkmn-summary" id="pokemon-summary">
+      <button class="pkmn-summary__close" type="button" data-summary-close aria-label="Close">×</button>
+      <div class="pkmn-summary__sprite"><img data-summary-image alt=""></div>
+      <div class="pkmn-summary__info">
+        <p class="pkmn-dexno" data-summary-dex></p>
+        <h2 data-summary-name></h2>
+        <p class="pkmn-species-name" data-summary-species></p>
+        <dl data-summary-details></dl>
+        <p class="pkmn-summary__notes" data-summary-notes></p>
+      </div>
+    </dialog>
+    <footer class="pkmn-controls"><span>A SUMMARY</span><a href="/shrines/pokemon/">B POKéNAV</a></footer>
+  </main>
+</div>
+<script src="/assets/js/shrines/pokemon/pokemon-v2.js" defer></script>

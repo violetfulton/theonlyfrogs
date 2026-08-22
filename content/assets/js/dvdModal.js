@@ -6,140 +6,118 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalSeasons = document.getElementById("modal-seasons");
   const modalRatingStars = document.getElementById("modal-rating-stars");
   const modalOverview = document.getElementById("modal-overview");
-  const modalTraktLink = document.getElementById("modal-trakt-link");
+  const modalSimklLink = document.getElementById("modal-simkl-link");
   const closeButton = document.querySelector(".modal-close");
-
   const cards = [...document.querySelectorAll(".movie-card")];
   const filterButtons = [...document.querySelectorAll(".filter-btn")];
+  const search = document.getElementById("dvd-search");
+  const visibleCount = document.getElementById("dvd-visible-count");
 
   if (!cards.length) return;
 
-  // --- Collection split progress (Movies vs TV) ---
-  const splitText = document.getElementById("collection-split-text");
-  const moviesFill = document.getElementById("movies-fill");
-  const tvFill = document.getElementById("tv-fill");
+  let activeFilter = "all";
+  let query = "";
+  let lastFocusedCard = null;
 
-  function updateCollectionSplit() {
-    const total = cards.length;
-    if (!splitText || !moviesFill || !tvFill || total === 0) return;
+  const modalReady = Boolean(
+    modal && modalImg && modalTitle && modalYear && modalSeasons &&
+    modalRatingStars && modalOverview && modalSimklLink && closeButton
+  );
 
-    const movieCount = cards.filter(
-      (c) => (c.dataset.mediaType || "").toLowerCase() === "movie"
-    ).length;
-    const tvCount = cards.filter(
-      (c) => (c.dataset.mediaType || "").toLowerCase() === "tv"
-    ).length;
+  function updateVisibleCards() {
+    let shown = 0;
 
-    const moviePct = Math.round((movieCount / total) * 100);
-    const tvPct = 100 - moviePct;
+    cards.forEach((card) => {
+      const type = (card.dataset.mediaType || "").toLowerCase();
+      const haystack = `${card.dataset.title || ""} ${card.dataset.year || ""}`.toLowerCase();
+      const matchesFilter = activeFilter === "all" || type === activeFilter;
+      const matchesSearch = !query || haystack.includes(query);
+      const visible = matchesFilter && matchesSearch;
 
-    moviesFill.style.width = `${moviePct}%`;
-    tvFill.style.width = `${tvPct}%`;
+      card.hidden = !visible;
+      if (visible) shown += 1;
+    });
 
-    splitText.textContent = `Movies: ${movieCount} (${moviePct}%) · TV: ${tvCount} (${tvPct}%) · Total: ${total}`;
-  }
-
-  const modalReady =
-    modal &&
-    modalImg &&
-    modalTitle &&
-    modalYear &&
-    modalSeasons &&
-    modalRatingStars &&
-    modalOverview &&
-    closeButton &&
-    modalTraktLink;
-
-  if (!modalReady) {
-    console.warn(
-      "[dvdModal] Modal elements missing on this page. Modal clicks disabled."
-    );
+    if (visibleCount) {
+      visibleCount.textContent = `${shown} ${shown === 1 ? "title" : "titles"} on the shelf`;
+    }
   }
 
   function showModal(card) {
     if (!modalReady) return;
 
-    modalImg.src = card.dataset.img || "";
-    modalImg.alt = card.dataset.title || "Poster";
-
+    lastFocusedCard = card;
+    modalImg.src = card.dataset.img || "/assets/imgs/frog-dvd-placeholder.png";
+    modalImg.alt = `${card.dataset.title || "Untitled"} poster`;
     modalTitle.textContent = card.dataset.title || "Untitled";
-    modalYear.textContent = card.dataset.year || "Unknown";
-    modalOverview.textContent =
-      card.dataset.overview || "No description available.";
+    modalYear.textContent = card.dataset.year || "";
+    modalOverview.textContent = card.dataset.overview || "No blurb saved for this one.";
 
-    const rating = parseInt(card.dataset.myRating, 10) || 0;
-    modalRatingStars.textContent =
-      "★".repeat(rating) + "☆".repeat(5 - rating);
+    const rating = Math.max(0, Math.min(5, parseInt(card.dataset.myRating, 10) || 0));
+    modalRatingStars.textContent = rating ? "★".repeat(rating) + "☆".repeat(5 - rating) : "not rated";
 
     const mediaType = (card.dataset.mediaType || "").toLowerCase();
-
-    // Seasons badge line in modal (TV only)
     const seasons = (card.dataset.seasons || "").trim();
     if (mediaType === "tv" && seasons) {
-      modalSeasons.textContent = `Owned seasons: ${seasons}`;
-      modalSeasons.style.display = "block";
+      modalSeasons.textContent = `Owned: ${seasons}`;
+      modalSeasons.hidden = false;
     } else {
       modalSeasons.textContent = "";
-      modalSeasons.style.display = "none";
+      modalSeasons.hidden = true;
     }
 
-    // External link (Simkl now, but the element id can stay the same)
     const url = (card.dataset.url || "").trim();
     if (url) {
-      modalTraktLink.href = url;
-      modalTraktLink.style.display = "inline-flex";
+      modalSimklLink.href = url;
+      modalSimklLink.hidden = false;
     } else {
-      modalTraktLink.style.display = "none";
-      modalTraktLink.href = "#";
+      modalSimklLink.href = "https://simkl.com";
+      modalSimklLink.hidden = true;
     }
 
     modal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("dvd-modal-open");
+    closeButton.focus();
   }
 
   function closeModal() {
-    if (!modalReady) return;
+    if (!modalReady || !modal.classList.contains("active")) return;
     modal.classList.remove("active");
-    document.body.style.overflow = "";
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("dvd-modal-open");
+    lastFocusedCard?.focus();
   }
 
-  // Card → modal
-  cards.forEach((card) => {
-    card.addEventListener("click", (e) => {
-      e.preventDefault();
-      showModal(card);
-    });
-  });
-
-  // Close actions
-  if (modalReady) {
-    closeButton.addEventListener("click", closeModal);
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) closeModal();
-    });
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeModal();
-    });
-  }
-
-  // Filters (movie/tv/all)
-  function applyFilter(filter) {
-    cards.forEach((card) => {
-      const type = (card.dataset.mediaType || "").toLowerCase();
-      const visible = filter === "all" || type === filter;
-      card.style.display = visible ? "block" : "none";
-    });
-  }
+  cards.forEach((card) => card.addEventListener("click", () => showModal(card)));
 
   filterButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      filterButtons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      applyFilter(btn.dataset.filter);
+      activeFilter = btn.dataset.filter || "all";
+      filterButtons.forEach((b) => {
+        const active = b === btn;
+        b.classList.toggle("active", active);
+        b.setAttribute("aria-pressed", String(active));
+      });
+      updateVisibleCards();
     });
   });
 
-  // Startup
-  updateCollectionSplit();
-  applyFilter("all");
+  search?.addEventListener("input", () => {
+    query = search.value.trim().toLowerCase();
+    updateVisibleCards();
+  });
+
+  if (modalReady) {
+    closeButton.addEventListener("click", closeModal);
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeModal();
+    });
+  }
+
+  filterButtons.forEach((btn) => btn.setAttribute("aria-pressed", String(btn.classList.contains("active"))));
+  updateVisibleCards();
 });

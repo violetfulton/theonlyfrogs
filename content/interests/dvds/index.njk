@@ -1,65 +1,104 @@
 ---
-title: "Physical DVD Collection"
+title: "Physical Media Shelf"
 layout: layouts/frogCollectionBase.njk
 customcss: "/assets/css/dvds.css"
 permalink: /dvds/
 ---
 
-<h1>🎬 My Physical DVD Collection</h1>
+<section class="dvd-page">
+  <header class="dvd-hero">
+    <div class="dvd-hero__eyebrow">VIOLET'S VIDEO SHELF</div>
+    <div class="dvd-hero__body">
+      <div>
+        <h1>Physical Media Shelf</h1>
+        <p>A shelf of the films, box sets and seasons I actually own.</p>
+      </div>
+      <div class="dvd-hero__ticket" aria-hidden="true">
+        <span>PLAY</span>
+        <strong>▶</strong>
+      </div>
+    </div>
+  </header>
 
-<div class="filter-controls">
-  <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="movie">Movie 🎬</button>
-  <button class="filter-btn" data-filter="tv">TV 📺</button>
-</div>
+  <section class="dvd-stats" aria-label="Collection totals">
+    <div class="dvd-stat">
+      <span>On the shelf</span>
+      <strong>{{ simklOwned.total }}</strong>
+    </div>
+    <div class="dvd-stat">
+      <span>Movies</span>
+      <strong>{{ simklOwned.movieCount }}</strong>
+    </div>
+    <div class="dvd-stat">
+      <span>TV / box sets</span>
+      <strong>{{ simklOwned.showCount }}</strong>
+    </div>
+  </section>
 
-<div class="collection-progress" aria-label="Collection split">
-  <div class="collection-progress__label">
-    <span id="collection-split-text">Loading…</span>
+  <section class="dvd-toolbar" aria-label="Collection controls">
+    <div class="filter-controls" role="group" aria-label="Filter collection">
+      <button class="filter-btn active" type="button" data-filter="all">All</button>
+      <button class="filter-btn" type="button" data-filter="movie">Movies</button>
+      <button class="filter-btn" type="button" data-filter="tv">TV</button>
+    </div>
+
+    <label class="dvd-search">
+      <span class="sr-only">Search physical collection</span>
+      <input id="dvd-search" type="search" placeholder="search the shelf…" autocomplete="off">
+    </label>
+
+    <p id="dvd-visible-count" class="dvd-visible-count" aria-live="polite"></p>
+  </section>
+
+  {% set combined = [] %}
+  {% for m in simklOwned.movies %}
+    {% set combined = combined.concat([m]) %}
+  {% endfor %}
+  {% for s in simklOwned.shows %}
+    {% set combined = combined.concat([s]) %}
+  {% endfor %}
+
+  <div class="movie-grid" id="dvd-grid">
+    {% for item in combined %}
+      {% set img = item.poster | default('/assets/imgs/frog-dvd-placeholder.png') %}
+      <button
+        type="button"
+        class="movie-card"
+        data-title="{{ item.title | escape }}"
+        data-year="{{ item.year or '' }}"
+        data-img="{{ img | escape }}"
+        data-overview="{{ item.overview | default('') | escape }}"
+        data-my-rating="{{ item.my_rating | default('0') }}"
+        data-media-type="{{ item.media_type | escape }}"
+        data-url="{{ item.url | default('') | escape }}"
+        data-seasons="{{ item.seasons_owned | default('') | escape }}"
+        aria-label="Open details for {{ item.title | escape }}">
+
+        <span class="movie-card__art">
+          <img src="{{ img }}" alt="{{ item.title }}" loading="lazy"
+               onerror="this.src='/assets/imgs/frog-dvd-placeholder.png'">
+
+          {% if item.media_type == 'tv' and item.seasons_owned %}
+            <span class="owned-season-badge">{{ item.seasons_owned }}</span>
+          {% endif %}
+
+          <span class="movie-card__play" aria-hidden="true">▶</span>
+        </span>
+
+        <span class="movie-card__meta">
+          <span class="movie-card__title">{{ item.title }}</span>
+          {% if item.year %}<span class="movie-card__year">{{ item.year }}</span>{% endif %}
+        </span>
+      </button>
+    {% endfor %}
   </div>
 
-  <div class="collection-progress__bar">
-    <div id="movies-fill" class="collection-progress__fill movies" style="width:0%"></div>
-    <div id="tv-fill" class="collection-progress__fill tv" style="width:0%"></div>
-  </div>
-</div>
-
-{# Combine movies + shows into one list for the grid #}
-{% set combined = [] %}
-{% for m in simklOwned.movies %}
-  {% set combined = combined.concat([m]) %}
-{% endfor %}
-{% for s in simklOwned.shows %}
-  {% set combined = combined.concat([s]) %}
-{% endfor %}
-
-<div class="movie-grid">
-{% for item in combined %}
-  {% set img = item.poster | default("/assets/imgs/frog-dvd-placeholder.png") %}
-
-<div class="movie-card"
-     data-title="{{ item.title | escape }}"
-     data-year="{{ item.year or '' }}"
-     data-img="{{ img | escape }}"
-     data-overview="{{ item.overview | default('') | escape }}"
-     data-my-rating="{{ item.my_rating | default('0') }}"
-     data-media-type="{{ item.media_type | escape }}"
-     data-url="{{ item.url | default('') | escape }}"
-     data-seasons="{{ item.seasons_owned | default('') | escape }}"
-     data-index="{{ loop.index }}">
-
-    <img src="{{ img }}" alt="{{ item.title }}" loading="lazy"
-         onerror="this.src='/assets/imgs/frog-dvd-placeholder.png'">
-
-    {% if item.media_type == "tv" and item.seasons_owned %}
-      <span class="owned-season-badge">{{ item.seasons_owned }}</span>
-    {% endif %}
-
-    <p class="title">{{ item.title }}</p>
-  </div>
-{% endfor %}
-</div>
+  <footer class="dvd-footer-note">
+    <span>♡ shelf data kept with my Simkl collection notes</span>
+    <a href="/interests/now/#watching">movie night →</a>
+  </footer>
+</section>
 
 {% include "partials/dvdModal.njk" %}
-
 <script src="/assets/js/dvdModal.js" defer></script>
+
