@@ -9,18 +9,23 @@
 // 4) Add purchases to purchaseDiary so money spent on collectibles still
 //    counts toward the "lifetime progress" number.
 //
-// Minion + orchestrion counts/estimates can stay null until we build their
-// exact shopping lists.
+
 
 const GIL_CAP = 999_999_999;
 
 // ─────────────────────────────────────────────────────────────
 // EDIT THESE
 // ─────────────────────────────────────────────────────────────
-const currentGil = 12_684_609;
-const gilFloor = 10_000_000;
+const currentGil = 64_817_891;
+const gilFloor = 50_000_000;
 
 const luxuryMounts = [
+  {
+    name: "Air-wheeler A9",
+    cost: 7_500_000,
+    source: "Neon · Solution Nine",
+    owned: false,
+  },
   {
     name: "Resplendent Vessel of Ronka",
     cost: 25_000_000,
@@ -50,13 +55,13 @@ const luxuryMounts = [
 // Add real purchases here after you make them.
 // "cost" is what Aggro actually paid.
 const purchaseDiary = [
-  // {
-  //   name: "Resplendent Vessel of Ronka",
-  //   type: "Mount",
-  //   cost: 25_000_000,
-  //   date: "2026-09-12",
-  //   note: "first ridiculous gold mount ♡",
-  // },
+  {
+    name: "Medium House — The Goblet, Ward 24, Plot 12",
+    type: "Housing",
+    cost: 16_000_000,
+    date: "2026-08-08",
+    note: "Won with lottery number 8 ♡ maybe 8 is my lucky number?",
+  },
 ];
 
 const collections = {

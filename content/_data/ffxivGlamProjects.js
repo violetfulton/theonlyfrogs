@@ -280,16 +280,24 @@ export default async function () {
   const csv = await fetchTextWithCache(MIRAGE_URL, "MirageStoreSetItem.csv");
   const mirageRows = parseMirageStoreCsv(csv);
 
-  const outfitIds = Object.keys(storedOutfits)
-    .map(Number)
-    .filter(Number.isFinite);
+  // A project can come from either storage system:
+  // 1. an Outfit Glamour code exported in `outfits`, or
+  // 2. one or more matching item IDs exported in `armoires`.
+  //
+  // Previously seeded this list from `outfits` only, which meant
+  // Armoire-only sets could never appear on the page.
+  const storedOutfitIds = new Set(
+    Object.keys(storedOutfits)
+      .map(Number)
+      .filter(Number.isFinite)
+  );
 
-  const relevantRows = outfitIds
-    .map((outfitId) => ({
-      outfitId,
-      pieces: mirageRows.get(outfitId) ?? [],
-    }))
-    .filter((row) => row.pieces.length);
+  const relevantRows = [...mirageRows.entries()]
+    .filter(([outfitId, pieces]) =>
+      storedOutfitIds.has(outfitId) ||
+      pieces.some((piece) => armoireIds.has(piece.id))
+    )
+    .map(([outfitId, pieces]) => ({ outfitId, pieces }));
 
   const relevantItemIds = [
     ...new Set(
@@ -333,6 +341,10 @@ export default async function () {
       (piece) => piece.ownership === "armoire"
     );
 
+    const inOutfitStorage = storedOutfitIds.has(outfitId);
+    const armoireCount = ownedElsewhere.length;
+    const hasArmoire = armoireCount > 0;
+
     const total = resolvedPieces.length;
     const ownedAnywhere = total - missing.length;
     const percent = total ? Math.round((ownedAnywhere / total) * 100) : 0;
@@ -355,6 +367,14 @@ export default async function () {
       total,
       ownedCount: ownedAnywhere,
       storedCount: stored.length,
+      armoireCount,
+      hasArmoire,
+      inOutfitStorage,
+      source: inOutfitStorage
+        ? hasArmoire
+          ? "mixed"
+          : "outfit"
+        : "armoire",
       missingCount: missing.length,
       percent,
       storedPercent,

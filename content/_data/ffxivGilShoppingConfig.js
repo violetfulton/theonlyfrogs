@@ -3,135 +3,74 @@
 // Mount + minion ownership is read automatically from Aggro Phobic's public
 // Lodestone collection pages.
 //
-// Orchestrion ownership was exported in-game with Aggro Roll Exporter.
-// Imported owned rolls: 119
+// Orchestrion ownership is exported in-game with Aggro Roll Exporter.
 //
+// To update orchestrions:
+// 1. Run Aggro Roll Exporter.
+// 2. Replace:
+//      content/_data/owned-orchestrion-rolls.json
+// 3. Rebuild the site.
+//
+// No need to paste the generated JS array into this file anymore.
+
+import fs from "node:fs";
+import path from "node:path";
+
+const OWNED_ORCHESTRIONS_PATH = path.resolve(
+  "./content/_data/owned-orchestrion-rolls.json"
+);
+
+function readOwnedOrchestrions() {
+  try {
+    if (!fs.existsSync(OWNED_ORCHESTRIONS_PATH)) {
+      console.warn(
+        "[ffxiv-gil] Missing content/_data/owned-orchestrion-rolls.json"
+      );
+
+      return [];
+    }
+
+    const data = JSON.parse(
+      fs.readFileSync(OWNED_ORCHESTRIONS_PATH, "utf8")
+    );
+
+    if (!Array.isArray(data)) {
+      throw new Error(
+        "owned-orchestrion-rolls.json must contain a JSON array"
+      );
+    }
+
+    const rolls = [
+      ...new Set(
+        data
+          .filter((name) => typeof name === "string")
+          .map((name) => name.trim())
+          .filter(Boolean)
+      ),
+    ];
+
+    console.log(
+      `[ffxiv-gil] Loaded ${rolls.length} owned orchestrion rolls.`
+    );
+
+    return rolls;
+  } catch (error) {
+    console.warn(
+      `[ffxiv-gil] Could not read owned orchestrion rolls: ${error.message}`
+    );
+
+    return [];
+  }
+}
+
 // The shopping matcher accepts both:
+//
 //   "Bipolar Nightmare"
 //   "Bipolar Nightmare Orchestrion Roll"
-// so this can stay in the exact item-name format produced by the plugin.
-
-export const ownedOrchestrions = [
-  "A Chapel Orchestrion Roll",
-  "A Gentleman to Walk with Me Orchestrion Roll",
-  "A New Hope Orchestrion Roll",
-  "A Sailor Never Sleeps Orchestrion Roll",
-  "Alien Manifestation Orchestrion Roll",
-  "Alma's Theme Orchestrion Roll",
-  "Ambient Birdsong Orchestrion Roll",
-  "Ambient Bonfire Orchestrion Roll",
-  "Ambient Cricketsong Orchestrion Roll",
-  "Ambient Insects Orchestrion Roll",
-  "Ambient Kitchen Orchestrion Roll",
-  "Ambient Rainfall Orchestrion Roll",
-  "Ambient Waves Orchestrion Roll",
-  "Ambient Wind Chime Orchestrion Roll",
-  "Amusement Park Orchestrion Roll",
-  "Another Brick Orchestrion Roll",
-  "Another Moon Orchestrion Roll",
-  "Apoplexy Orchestrion Roll",
-  "Babbling Brook Orchestrion Roll",
-  "Back to the Drawing Board Orchestrion Roll",
-  "Background Story Orchestrion Roll",
-  "Behind Closed Doors Orchestrion Roll",
-  "Bipolar Nightmare Orchestrion Roll",
-  "Bliss Orchestrion Roll",
-  "Born to Ride Orchestrion Roll",
-  "Broken Heart Orchestrion Roll",
-  "Bustling Boulevard Orchestrion Roll",
-  "Canticle Orchestrion Roll",
-  "Chapel Bell Orchestrion Roll",
-  "City Ruins (Rays of Light) Orchestrion Roll",
-  "Cold Salvation Orchestrion Roll",
-  "Crumbling Lies (Front) Orchestrion Roll",
-  "Cyan's Theme Orchestrion Roll",
-  "Daring Dalliances Orchestrion Roll",
-  "Dark City Treno (Dawntrail) Orchestrion Roll",
-  "Dawntrail Orchestrion Roll",
-  "Defender of the Realm Orchestrion Roll",
-  "Dragonsong Orchestrion Roll",
-  "Echoes of Ages Past Orchestrion Roll",
-  "Endwalker – Footfalls Orchestrion Roll",
-  "Exponential Entropy Orchestrion Roll",
-  "Faltering Prayer (Dawn Breeze) Orchestrion Roll",
-  "Fifth Ode: A Time for Prayer Orchestrion Roll",
-  "Find the Princess (Dawntrail) Orchestrion Roll",
-  "Flash of Steel Orchestrion Roll",
-  "Flow Orchestrion Roll",
-  "Forever Lost Orchestrion Roll",
-  "Fragments of Forever Orchestrion Roll",
-  "Frontiers Within Orchestrion Roll",
-  "Grounded Orchestrion Roll",
-  "Happily Ever After Orchestrion Roll",
-  "He Who Continues the Attack Orchestrion Roll",
-  "I Am the Sea Orchestrion Roll",
-  "Imperial Will Orchestrion Roll",
-  "In Fulgur and Fire Orchestrion Roll",
-  "In the Balance Orchestrion Roll",
-  "Life Bound by Honor Orchestrion Roll",
-  "Locus Orchestrion Roll",
-  "Lost in the Deep Orchestrion Roll",
-  "Main Theme from FINAL FANTASY XI Orchestrion Roll",
-  "Metal Orchestrion Roll",
-  "Metal - Brute Justice Mode Orchestrion Roll",
-  "Mourning Orchestrion Roll",
-  "New Foundations Orchestrion Roll",
-  "Night in the Brume Orchestrion Roll",
-  "Nobility Obliges Orchestrion Roll",
-  "Nobility Sleeps Orchestrion Roll",
-  "Not Afraid Orchestrion Roll",
-  "On Westerly Winds Orchestrion Roll",
-  "One Last Time Orchestrion Roll",
-  "Pain in Pleasure Orchestrion Roll",
-  "Possessed by Disease Orchestrion Roll",
-  "Prelude – Discoveries Orchestrion Roll",
-  "Promises Orchestrion Roll",
-  "Protagonist's Theme Orchestrion Roll",
-  "Quicksand Orchestrion Roll",
-  "Reflections Orchestrion Roll",
-  "Rise Orchestrion Roll",
-  "Roads Forsaken Orchestrion Roll",
-  "Sacred Bonds Orchestrion Roll",
-  "Shadow of the Body Orchestrion Roll",
-  "Shadowbringers Orchestrion Roll",
-  "Shattered Orchestrion Roll",
-  "Significance (Nothing) Orchestrion Roll",
-  "Silence Orchestrion Roll",
-  "Sins of the Father, Sins of the Son Orchestrion Roll",
-  "Smile Orchestrion Roll",
-  "Solid Orchestrion Roll",
-  "Song of the Ancients (Atonement) Orchestrion Roll",
-  "Staff Credits Orchestrion Roll",
-  "Stargazers Orchestrion Roll",
-  "Starlight and Sellswords Orchestrion Roll",
-  "Steel Reason Orchestrion Roll",
-  "Sultana Dreaming Orchestrion Roll",
-  "Temple Bell Orchestrion Roll",
-  "The Color of Depression Orchestrion Roll",
-  "The Darkhold Orchestrion Roll",
-  "The Forgotten City - Tavnazian Safehold Orchestrion Roll",
-  "The Grand Duchy of Jeuno Orchestrion Roll",
-  "The Measure of His Reach Orchestrion Roll",
-  "The Measure of Our Reach Orchestrion Roll",
-  "The Promise of Tomorrow Orchestrion Roll",
-  "The Ring's Reprieve Orchestrion Roll",
-  "The Sound of the End Orchestrion Roll",
-  "The Sound of the End: 8bit Orchestrion Roll",
-  "The Travel Agency (Dawntrail) Orchestrion Roll",
-  "The Waking Sands Orchestrion Roll",
-  "To the Sun Orchestrion Roll",
-  "Tomorrow and Tomorrow Orchestrion Roll",
-  "Torn from the Heavens／The Dark Colossus Destroys All (Medley Version) Orchestrion Roll",
-  "Ultima Orchestrion Roll",
-  "Vana'diel March #2 Orchestrion Roll",
-  "Voice of no Return (Guitar) Orchestrion Roll",
-  "Voice of no Return (Normal) Orchestrion Roll",
-  "Weight of the World (Prelude Version) Orchestrion Roll",
-  "What Angel Wakes Me (Scions & Sinners: Instrumental) Orchestrion Roll",
-  "Where the Heart Is Orchestrion Roll",
-  "Widespread Illness Orchestrion Roll",
-  "World Map Orchestrion Roll",
-];
+//
+// so the JSON can stay in the exact item-name format produced by
+// Aggro Roll Exporter.
+export const ownedOrchestrions = readOwnedOrchestrions();
 
 // Optional: hide a collectible from the gil shopping list without marking it
 // owned. Useful if there is something you simply do not want to buy.
