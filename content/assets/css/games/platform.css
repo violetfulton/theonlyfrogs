@@ -1,153 +1,351 @@
-/* =========================
-   PLATFORM PAGE ONLY
-   (loaded in addition to shared.css)
-========================= */
-
-/* Optional: slightly tighter top spacing on platform pages */
-.games-page.games-platform {
-  padding-top: 1.5rem;
+.platform-hero {
+  position: relative;
+  padding: 0.5rem 0 1.3rem;
 }
 
-/* A tiny “you are here” vibe under the h1 if you add it later */
+.platform-hero .platform-back {
+  margin-bottom: 1.5rem;
+}
+
+.platform-hero h1 {
+  margin-top: 0.3rem;
+  font-size: clamp(2.8rem, 8vw, 4.7rem);
+}
+
 .platform-subhead {
-  margin: 0.25rem 0 1.25rem;
-  color: var(--text-soft);
-  opacity: 0.95;
-  text-shadow: 0 0 10px rgba(255, 0, 170, 0.25);
+  margin: 0.5rem 0 0;
+  font-size: 0.84rem;
 }
 
-/* =========================
-   PLATFORM PAGE FOOTER
-========================= */
-.platform-footer {
-  margin-top: 2rem;
-  text-align: center;
+.games-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
   align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 0.5rem 0 0.7rem;
+  padding: 0.65rem;
+  border: 1px solid rgba(231, 204, 215, 0.85);
+  border-radius: 18px;
+  background: rgba(255, 250, 251, 0.92);
+  box-shadow: 0 9px 22px rgba(102, 75, 91, 0.07);
+  backdrop-filter: blur(10px);
 }
 
-/* Back button becomes a neon “chip” */
-.platform-back {
-  font-family: 'Gaegu', cursive;
-  font-size: 1.15rem;
-  color: var(--neon-blue);
-  text-decoration: none;
-  font-weight: 800;
-
-  padding: 10px 14px;
+.games-search {
+  min-width: 190px;
+  flex: 1 1 320px;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0 0.7rem;
+  border: 1px solid var(--games-line);
   border-radius: 999px;
-
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 170, 0.18),
-    rgba(123, 44, 255, 0.18)
-  );
-
-  border: 2px solid var(--neon-pink);
-  box-shadow:
-    0 0 10px rgba(255, 47, 214, 0.35),
-    inset 0 0 10px rgba(255, 0, 170, 0.18);
-
-  transition: transform 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+  background: #fff;
+  color: var(--games-muted);
 }
 
-.platform-back:hover {
-  color: var(--neon-pink);
-  transform: translateY(-2px);
-  box-shadow:
-    0 0 14px rgba(255, 0, 170, 0.55),
-    0 0 26px rgba(123, 44, 255, 0.35),
-    inset 0 0 14px rgba(255, 0, 200, 0.25);
-  text-decoration: none;
+.games-search input {
+  width: 100%;
+  min-width: 0;
+  height: 38px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--games-ink);
+  font: inherit;
+  font-size: 0.82rem;
 }
 
-.platform-back:active {
-  transform: translateY(0);
+.games-search input::placeholder {
+  color: #ad9ba6;
 }
 
-/* If you want a little arrow wiggle */
-.platform-back::before {
-  content: "← ";
-  opacity: 0.9;
+.games-filters {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-/* Attribution spacing tweak on platform pages (optional) */
-.games-platform .platform-attrib {
-  margin-top: 1.5rem;
-  opacity: 0.95;
+.games-filter {
+  min-height: 38px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--games-line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--games-muted);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.58rem;
+  cursor: pointer;
 }
 
-/* =========================
-   OPTIONAL: “Arcade separator”
-   Use <hr class="arcade-hr"> if you want.
-========================= */
-.arcade-hr {
-  border: none;
-  height: 2px;
-  width: min(520px, 100%);
-  margin: 1.25rem auto;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--neon-pink),
-    var(--neon-blue),
-    transparent
-  );
-  box-shadow: var(--glow);
+.games-filter:hover,
+.games-filter.is-active {
+  border-color: var(--games-pink);
+  background: var(--games-pink-soft);
+  color: var(--games-pink-dark);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-@media (max-width: 700px) {
-  .platform-back {
-    width: 100%;
-    max-width: 420px;
+.games-results {
+  margin: 0 0 0.9rem;
+  color: var(--games-muted);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.58rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  gap: 1rem;
+}
+
+.game-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--games-line);
+  border-radius: 18px;
+  background: rgba(255, 250, 251, 0.96);
+  box-shadow: 0 10px 24px rgba(102, 75, 91, 0.08);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(102, 75, 91, 0.13);
+}
+
+.game-cover-wrap {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: var(--games-paper-2);
+}
+
+.game-cover {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-favourite {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.55rem;
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: rgba(255, 250, 251, 0.92);
+  color: var(--games-pink-dark);
+  box-shadow: 0 4px 12px rgba(85, 54, 71, 0.15);
+}
+
+.game-ownership {
+  position: absolute;
+  left: 0.55rem;
+  bottom: 0.55rem;
+  max-width: calc(100% - 1.1rem);
+  padding: 0.34rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 250, 251, 0.94);
+  color: var(--games-pink-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.52rem;
+  line-height: 1.1;
+  box-shadow: 0 4px 12px rgba(85, 54, 71, 0.12);
+}
+
+.game-ownership--physical {
+  background: rgba(249, 229, 238, 0.95);
+}
+
+.game-ownership--digital {
+  background: rgba(220, 233, 223, 0.95);
+  color: #5d7863;
+}
+
+.game-ownership--both {
+  background: rgba(232, 222, 243, 0.96);
+  color: #6e5b87;
+}
+
+.game-card__body {
+  padding: 0.85rem 0.85rem 0.95rem;
+}
+
+.game-card__body h2 {
+  margin: 0;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.28rem;
+  line-height: 1.05;
+  color: var(--games-ink);
+}
+
+.game-status {
+  display: inline-block;
+  margin: 0.45rem 0 0;
+  padding: 0.22rem 0.4rem;
+  border-radius: 999px;
+  background: var(--games-green-soft);
+  color: #5f7864;
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.5rem;
+}
+
+.game-copies {
+  margin-top: 0.7rem;
+  border-top: 1px dashed var(--games-line);
+  padding-top: 0.6rem;
+}
+
+.game-copies summary {
+  color: var(--games-pink-dark);
+  cursor: pointer;
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.52rem;
+  line-height: 1.5;
+}
+
+.game-copies ul {
+  list-style: none;
+  margin: 0.7rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.game-copies li {
+  padding: 0.55rem;
+  border-radius: 10px;
+  background: var(--games-paper-2);
+}
+
+.game-copy__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.game-copy__heading strong {
+  color: var(--games-ink);
+  font-size: 0.72rem;
+}
+
+.game-copy__heading span,
+.game-copy__meta,
+.game-copy__notes {
+  color: var(--games-muted);
+  font-size: 0.62rem;
+}
+
+.game-copy__heading span {
+  text-align: right;
+}
+
+.game-copy__meta {
+  margin: 0.35rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.game-copy__meta span:not(:last-child)::after {
+  content: " ·";
+}
+
+.game-copy__notes {
+  margin: 0.35rem 0 0;
+  line-height: 1.45;
+}
+
+.game-dlc {
+  margin-top: 0.7rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--games-line);
+}
+
+.game-dlc__title {
+  margin: 0 0 0.45rem;
+  color: var(--games-pink-dark);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.52rem;
+  text-transform: lowercase;
+}
+
+.game-copies .game-dlc__list {
+  margin-top: 0;
+  gap: 0.35rem;
+}
+
+.game-copies .game-dlc__list li {
+  padding: 0.42rem 0.5rem;
+  color: var(--games-muted);
+  font-size: 0.61rem;
+}
+
+.games-empty {
+  margin: 2rem 0;
+  padding: 1.2rem;
+  border: 1px dashed var(--games-line);
+  border-radius: 16px;
+  background: rgba(255, 250, 251, 0.72);
+  color: var(--games-muted);
+  text-align: center;
+}
+
+.platform-footer {
+  margin-top: 2.2rem;
+  text-align: center;
+}
+
+.platform-back--bottom {
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .games-toolbar {
+    position: static;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .games-filters {
+    justify-content: flex-start;
   }
 }
 
+@media (max-width: 460px) {
+  .games-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
 
-/* game collection badges */
-.game-badges {
+  .game-card__body {
+    padding: 0.65rem;
+  }
+
+  .game-card__body h2 {
+    font-size: 1.08rem;
+  }
+}
+
+.game-card__quick-meta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem;
-  margin-top: 0.55rem;
-}
-
-.game-badge {
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 0.22rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.72rem;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(77, 122, 89, 0.18);
-  color: #42624a;
+  gap: 0.35rem;
+  margin-top: 0.42rem;
+  color: var(--games-muted);
+  font-family: 'FortySeven Micro NBP', monospace;
+  font-size: 0.5rem;
 }
 
-.game-badge--physical {
-  background: rgba(255, 236, 246, 0.85);
-  color: #8a4d71;
-}
-
-.game-badge--digital {
-  background: rgba(225, 248, 236, 0.9);
-  color: #3f7654;
-}
-
-.game-badge--both {
-  background: rgba(238, 231, 255, 0.9);
-  color: #66519a;
-}
-
-.game-badge--unknown {
-  opacity: 0.75;
+.game-card__quick-meta .game-status {
+  margin: 0;
 }

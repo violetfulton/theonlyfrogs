@@ -1,0 +1,39 @@
+---
+title: "New Horizons Island Diary"
+layout: base.njk
+permalink: /shrines/animalcrossing/newhorizons/diary/
+customcss: '/assets/css/acnh/acnh.css'
+---
+
+<div class="acnh-shell">
+  {% include "acnh/nav.njk" %}
+
+  <header class="acnh-pagehead acnh-paper">
+    <p class="acnh-kicker">Island Notes</p>
+    <h1>📖 Island Diary</h1>
+    <p>Milestones, catches, villagers, redesigns, events, and little moments worth keeping.</p>
+  </header>
+
+  {% if acnh.diary and acnh.diary.length %}
+    <section class="acnh-timeline">
+      {% for entry in acnh.diary %}
+      <article class="acnh-diary-entry acnh-paper">
+        <div class="acnh-diary-date">{{ entry.date }}</div>
+        <div class="acnh-diary-body">
+          <h2>{{ entry.title }}</h2>
+          {% if entry.summary %}<p class="acnh-lede">{{ entry.summary }}</p>{% endif %}
+          {% if entry.paragraphs %}{% for paragraph in entry.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}
+          {% if entry.tags %}<div class="acnh-tags">{% for tag in entry.tags %}<span>{{ tag }}</span>{% endfor %}</div>{% endif %}
+          {% if entry.images %}
+          <div class="acnh-photo-grid">
+            {% for image in entry.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or entry.title }}"><figcaption>{{ image.caption or '' }}</figcaption></figure>{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+  {% else %}
+    <section class="acnh-empty acnh-paper">No diary entries logged.</section>
+  {% endif %}
+</div>

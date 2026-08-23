@@ -1,0 +1,593 @@
+:root {
+  --acnh-ink: #4f554f;
+  --acnh-muted: #7c847b;
+  --acnh-paper: #fffdf4;
+  --acnh-paper-2: #f8f3dd;
+  --acnh-leaf: #7ebf8a;
+  --acnh-leaf-dark: #4f8e65;
+  --acnh-sky: #bde4e8;
+  --acnh-pink: #eaa6b7;
+  --acnh-pink-soft: #f8dce3;
+  --acnh-yellow: #f3d989;
+  --acnh-line: rgba(80, 95, 80, .16);
+  --acnh-shadow: 0 10px 28px rgba(67, 88, 69, .12);
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255,255,255,.75), transparent 26rem),
+    linear-gradient(180deg, #d8f0ea 0%, #eaf4d9 44%, #f8efd6 100%);
+  color: var(--acnh-ink);
+}
+
+.acnh-shell {
+  width: min(1180px, calc(100% - 28px));
+  margin: 28px auto 70px;
+}
+
+.acnh-paper {
+  background:
+    linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),
+    var(--acnh-paper);
+  border: 1px solid rgba(255,255,255,.85);
+  box-shadow: var(--acnh-shadow);
+  border-radius: 24px;
+}
+
+.acnh-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.acnh-nav a,
+.acnh-button,
+.acnh-chip {
+  border: 1px solid var(--acnh-line);
+  background: rgba(255,255,255,.78);
+  color: var(--acnh-ink);
+  border-radius: 999px;
+  padding: 9px 14px;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+
+.acnh-nav a:hover,
+.acnh-button:hover,
+.acnh-chip:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(74, 91, 73, .11);
+}
+
+.acnh-nav a:nth-child(3n+1) { background: #f8efd0; }
+.acnh-nav a:nth-child(3n+2) { background: #e2f3e3; }
+.acnh-nav a:nth-child(3n+3) { background: #f8e1e8; }
+
+.acnh-hero {
+  padding: clamp(24px, 5vw, 54px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 34px;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.acnh-hero::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  right: -60px;
+  bottom: -85px;
+  border-radius: 50%;
+  background: rgba(126,191,138,.16);
+}
+
+.acnh-kicker {
+  margin: 0 0 7px;
+  font-size: .76rem;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--acnh-leaf-dark);
+}
+
+.acnh-hero h1,
+.acnh-pagehead h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.acnh-hero p,
+.acnh-pagehead p {
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+.acnh-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.acnh-tags span,
+.acnh-badge,
+.acnh-count {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: var(--acnh-paper-2);
+  border: 1px solid var(--acnh-line);
+  font-size: .82rem;
+}
+
+.acnh-hero__stamp {
+  width: 150px;
+  aspect-ratio: 1;
+  border: 3px dashed rgba(79,142,101,.5);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  transform: rotate(7deg);
+  background: #eef7dc;
+  box-shadow: inset 0 0 0 7px #fffdf4;
+  position: relative;
+  z-index: 1;
+}
+
+.acnh-hero__stamp .acnh-leaf { font-size: 1.8rem; }
+.acnh-hero__stamp strong { font-size: .95rem; line-height: 1.05; }
+.acnh-hero__stamp small { margin-top: 3px; }
+
+.acnh-dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.acnh-card,
+.acnh-listcard {
+  padding: 24px;
+}
+
+.acnh-card h2,
+.acnh-listcard h2,
+.acnh-section h2,
+.acnh-now-panel h2,
+.acnh-data-note h2 {
+  margin: 0 0 10px;
+}
+
+.acnh-big-progress {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 16px 0 8px;
+}
+
+.acnh-big-progress strong { font-size: 1.9rem; }
+.acnh-big-progress span { color: var(--acnh-muted); }
+
+.acnh-progress {
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #ece7d6;
+  border: 1px solid rgba(86,96,79,.12);
+}
+
+.acnh-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--acnh-leaf), #a8d7a4);
+}
+
+.acnh-mini-stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 12px 0 18px;
+  color: var(--acnh-muted);
+}
+
+.acnh-button {
+  display: inline-flex;
+  margin-top: 10px;
+  background: var(--acnh-pink-soft);
+  font-weight: 700;
+}
+
+.acnh-muted { color: var(--acnh-muted); line-height: 1.65; }
+.acnh-date { color: var(--acnh-muted); font-size: .88rem; }
+
+.acnh-goals,
+.acnh-pagehead,
+.acnh-data-note {
+  padding: 26px;
+  margin-top: 18px;
+}
+
+.acnh-goals ul,
+.acnh-listcard ul {
+  margin: 14px 0 0;
+  padding-left: 22px;
+  line-height: 1.8;
+}
+
+.acnh-section { margin-top: 30px; }
+
+.acnh-sectionhead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.acnh-sectionhead h2 { margin: 0; }
+
+.acnh-villager-grid,
+.acnh-frog-grid,
+.acnh-tour-grid,
+.acnh-museum-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.acnh-villager-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.acnh-frog-grid { grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); }
+
+.acnh-villager {
+  padding: 16px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.acnh-villager img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.acnh-villager h3,
+.acnh-frog strong { margin: 0; }
+.acnh-villager p { margin: 3px 0; }
+
+.acnh-frog {
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acnh-frog__icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #e6f3d5;
+}
+
+.acnh-frog small {
+  display: block;
+  margin-top: 3px;
+  color: var(--acnh-muted);
+  text-transform: capitalize;
+}
+
+.acnh-frog.is-current { outline: 2px solid var(--acnh-leaf); }
+.acnh-frog.is-past { opacity: .7; }
+.acnh-frog.is-dreamie { outline: 2px solid var(--acnh-pink); }
+.acnh-frog.is-missing { filter: saturate(.55); }
+
+.acnh-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.acnh-empty {
+  padding: 28px;
+  color: var(--acnh-muted);
+  grid-column: 1 / -1;
+}
+
+.acnh-timeline {
+  display: grid;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.acnh-diary-entry {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 24px;
+}
+
+.acnh-diary-date {
+  font-weight: 800;
+  color: var(--acnh-leaf-dark);
+}
+
+.acnh-diary-body h2 { margin-top: 0; }
+.acnh-lede { font-size: 1.05rem; font-weight: 650; }
+
+.acnh-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.acnh-photo-grid--small { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+
+.acnh-photo-grid figure { margin: 0; }
+.acnh-photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 6px solid white;
+  box-shadow: 0 5px 12px rgba(60,70,60,.11);
+}
+
+.acnh-photo-grid figcaption {
+  margin-top: 6px;
+  color: var(--acnh-muted);
+  font-size: .8rem;
+}
+
+.acnh-tour-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 20px;
+}
+
+.acnh-tour-card { overflow: hidden; }
+.acnh-tour-cover { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.acnh-tour-copy { padding: 20px; }
+.acnh-tour-copy h2 { margin-top: 0; }
+
+/* Museum */
+.acnh-museum-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  align-items: center;
+  gap: 30px;
+}
+
+.acnh-museum-total strong {
+  display: block;
+  font-size: 2rem;
+}
+
+.acnh-museum-total span { display: block; margin: 3px 0 9px; color: var(--acnh-muted); }
+
+.acnh-museum-stats {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.acnh-stat-card {
+  border: 1px solid rgba(255,255,255,.85);
+  padding: 15px 10px;
+  color: var(--acnh-ink);
+  font: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+.acnh-stat-card > span { display: block; font-size: 1.5rem; }
+.acnh-stat-card strong { display: block; margin: 4px 0; }
+.acnh-stat-card small { color: var(--acnh-muted); line-height: 1.3; }
+.acnh-stat-card.is-active { outline: 3px solid rgba(126,191,138,.52); background: #f2faea; }
+
+.acnh-now-panel {
+  margin-top: 14px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: linear-gradient(135deg, #fffdf4, #eaf7df);
+}
+
+.acnh-now-panel p { margin-bottom: 0; }
+.acnh-now-numbers { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.acnh-now-numbers span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.82);
+  border: 1px solid var(--acnh-line);
+  white-space: nowrap;
+}
+
+.acnh-controls {
+  margin-top: 14px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: minmax(210px, 1.4fr) repeat(4, minmax(120px, .8fr));
+  gap: 12px;
+  align-items: end;
+}
+
+.acnh-controls label { display: grid; gap: 6px; }
+.acnh-controls label > span { font-size: .78rem; font-weight: 800; color: var(--acnh-muted); }
+
+.acnh-controls input,
+.acnh-controls select {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--acnh-line);
+  padding: 8px 10px;
+  background: white;
+  color: var(--acnh-ink);
+  font: inherit;
+}
+
+.acnh-control-buttons {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.acnh-chip.is-active { background: #dff1d7; outline: 2px solid rgba(79,142,101,.28); }
+.acnh-results-line { margin: 16px 4px 10px; color: var(--acnh-muted); }
+
+.acnh-museum-grid {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.acnh-museum-card {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 95px minmax(0, 1fr);
+  min-height: 145px;
+  border-left: 5px solid #c8c8b9;
+}
+
+.acnh-museum-card.is-found { border-left-color: var(--acnh-yellow); }
+.acnh-museum-card.is-donated { border-left-color: var(--acnh-leaf); }
+.acnh-museum-card.is-missing { opacity: .76; }
+
+.acnh-museum-card__image {
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  background: linear-gradient(145deg, #f5f0dc, #e5f1df);
+}
+
+.acnh-museum-card__image img {
+  width: 78px;
+  height: 78px;
+  object-fit: contain;
+}
+
+.acnh-museum-card.is-missing .acnh-museum-card__image img {
+  filter: grayscale(1) opacity(.65);
+}
+
+.acnh-museum-card__fallback {
+  width: 62px;
+  height: 62px;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,.75);
+  font-size: 1.8rem;
+}
+
+.acnh-museum-card__body { padding: 15px 16px 13px; }
+
+.acnh-museum-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.acnh-museum-card h3 { margin: 0; font-size: 1.05rem; }
+
+.acnh-status-dot {
+  width: 11px;
+  height: 11px;
+  flex: 0 0 11px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: #bbb9ad;
+}
+
+.is-found .acnh-status-dot { background: var(--acnh-yellow); }
+.is-donated .acnh-status-dot { background: var(--acnh-leaf); }
+
+.acnh-museum-meta {
+  margin: 8px 0;
+  color: var(--acnh-muted);
+  font-size: .78rem;
+  line-height: 1.45;
+}
+
+.acnh-status-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.acnh-status-row span {
+  padding: 4px 7px;
+  border-radius: 8px;
+  background: #efede5;
+  color: #9a998f;
+  font-size: .72rem;
+}
+
+.acnh-status-row span.is-on {
+  background: #e3f2dd;
+  color: #4f7955;
+}
+
+.acnh-data-note pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 14px;
+  background: #414943;
+  color: #f8f5e9;
+}
+
+.acnh-data-note code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+@media (max-width: 900px) {
+  .acnh-museum-stats { grid-template-columns: repeat(3, 1fr); }
+  .acnh-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .acnh-search { grid-column: 1 / -1; }
+}
+
+@media (max-width: 700px) {
+  .acnh-shell { width: min(100% - 18px, 1180px); margin-top: 16px; }
+  .acnh-hero { grid-template-columns: 1fr; }
+  .acnh-hero__stamp { display: none; }
+  .acnh-dashboard,
+  .acnh-two-col,
+  .acnh-museum-hero { grid-template-columns: 1fr; }
+  .acnh-diary-entry { grid-template-columns: 1fr; gap: 6px; }
+  .acnh-now-panel { align-items: flex-start; flex-direction: column; }
+  .acnh-now-numbers { justify-content: flex-start; }
+  .acnh-museum-stats { grid-template-columns: repeat(2, 1fr); }
+  .acnh-controls { grid-template-columns: 1fr; }
+  .acnh-search,
+  .acnh-control-buttons { grid-column: auto; }
+  .acnh-museum-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 460px) {
+  .acnh-nav { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .acnh-nav a { flex: 0 0 auto; }
+  .acnh-museum-card { grid-template-columns: 78px minmax(0, 1fr); }
+  .acnh-museum-card__image img { width: 62px; height: 62px; }
+}
+
+.acnh-source-credit {
+  margin-top: 16px;
+  font-size: .78rem;
+  color: var(--acnh-muted);
+}
+.acnh-source-credit a { color: var(--acnh-leaf-dark); }

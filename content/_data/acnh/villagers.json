@@ -1,0 +1,25 @@
+{
+  "current": [],
+  "past": [],
+  "dreamies": [],
+  "frogs": [
+    { "name": "Camofrog", "status": "missing" },
+    { "name": "Cousteau", "status": "missing" },
+    { "name": "Croque", "status": "missing" },
+    { "name": "Diva", "status": "missing" },
+    { "name": "Drift", "status": "missing" },
+    { "name": "Frobert", "status": "missing" },
+    { "name": "Gigi", "status": "missing" },
+    { "name": "Henry", "status": "missing" },
+    { "name": "Huck", "status": "missing" },
+    { "name": "Jambette", "status": "missing" },
+    { "name": "Jeremiah", "status": "missing" },
+    { "name": "Lily", "status": "missing" },
+    { "name": "Puddles", "status": "missing" },
+    { "name": "Prince", "status": "missing" },
+    { "name": "Raddle", "status": "missing" },
+    { "name": "Ribbot", "status": "missing" },
+    { "name": "Tad", "status": "missing" },
+    { "name": "Wart Jr.", "status": "missing" }
+  ]
+}

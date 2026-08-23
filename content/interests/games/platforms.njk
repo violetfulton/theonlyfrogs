@@ -11,70 +11,176 @@ customcss:
   - /assets/css/games/platform.css
 ---
 
-<h2>{{ platform.platform }}</h2>
-<p class="platform-subhead">press start to browse 🕹️</p>
-
-<div class="games-grid">
-  {% for game in platform.games %}
-    {% set cover = game.image or "/assets/imgs/frog-placeholder.png" %}
-    {% set pubs = game.publishers | default([]) %}
-    {% set pubsText = pubs | join(", ") %}
-    {% set gameUrl = game.sourceUrl or game.gamesDbUrl %}
-
-    {% if gameUrl %}
-      <a class="game-card"
-         href="{{ gameUrl }}"
-         target="_blank"
-         rel="noopener"
-         referrerpolicy="no-referrer">
-    {% else %}
-      <article class="game-card">
+<section class="platform-hero">
+  <a class="platform-back" href="/games/">← all shelves</a>
+  <p class="games-eyebrow">platform shelf</p>
+  <h1>{{ platform.platform }}</h1>
+  <p class="platform-subhead">
+    {{ platform.totalGames }} title{% if platform.totalGames != 1 %}s{% endif %}
+    {% if platform.totalCopies and platform.totalCopies != platform.totalGames %}
+      · {{ platform.totalCopies }} owned copies
     {% endif %}
+  </p>
+</section>
 
-      <img src="{{ cover }}" alt="{{ game.title }}" loading="lazy">
+<div class="games-toolbar" data-games-toolbar>
+  <label class="games-search">
+    <span class="sr-only">Search this platform</span>
+    <span aria-hidden="true">⌕</span>
+    <input type="search" placeholder="find a game..." data-game-search autocomplete="off">
+  </label>
 
-      <h3>{{ game.title }}</h3>
+  <div class="games-filters" aria-label="Filter by ownership format">
+    <button type="button" class="games-filter is-active" data-game-filter="all">all</button>
+    <button type="button" class="games-filter" data-game-filter="physical">physical</button>
+    <button type="button" class="games-filter" data-game-filter="digital">digital</button>
+    <button type="button" class="games-filter" data-game-filter="both">both</button>
+  </div>
+</div>
 
-      <p class="meta">
-        {% if game.year %}{{ game.year }}{% endif %}
-        {% if game.year and pubsText %} • {% endif %}
-        {% if pubsText %}{{ pubsText }}{% endif %}
-      </p>
+<p class="games-results" aria-live="polite"><span data-visible-count>{{ platform.totalGames }}</span> showing</p>
 
-      <div class="game-badges">
-        {% if game.format %}
-          <span class="game-badge game-badge--{{ game.formatSlug }}">{{ game.format }}</span>
+<div class="games-grid" data-games-grid>
+  {% for game in platform.games %}
+    {% set cover = game.image or "/assets/imgs/games/no-cover.png" %}
+
+    <article
+      class="game-card"
+      data-game-card
+      data-title="{{ game.title | lower }}"
+      data-physical="{% if game.ownsPhysical %}true{% else %}false{% endif %}"
+      data-digital="{% if game.ownsDigital %}true{% else %}false{% endif %}"
+      data-both="{% if game.ownsBoth %}true{% else %}false{% endif %}"
+    >
+      <div class="game-cover-wrap">
+        <img class="game-cover" src="{{ cover }}" alt="Cover for {{ game.title }}" loading="lazy">
+
+        {% if game.favourite %}
+          <span class="game-favourite" title="Favourite" aria-label="Favourite game">♥</span>
         {% endif %}
 
-        {% if game.storefront %}
-          <span class="game-badge">{{ game.storefront }}</span>
-        {% endif %}
-
-        {% if game.edition %}
-          <span class="game-badge">{{ game.edition }}</span>
-        {% endif %}
-
-        {% if game.region %}
-          <span class="game-badge">{{ game.region }}</span>
-        {% endif %}
+        <span class="game-ownership game-ownership--{% if game.ownsBoth %}both{% elif game.ownsPhysical %}physical{% elif game.ownsDigital %}digital{% else %}other{% endif %}">
+          {{ game.ownershipLabel }}
+        </span>
       </div>
 
-    {% if gameUrl %}
-      </a>
-    {% else %}
-      </article>
-    {% endif %}
+      <div class="game-card__body">
+        <h2>{{ game.title }}</h2>
+
+        {% if game.year or (game.status and game.statusSlug != "owned") %}
+          <div class="game-card__quick-meta">
+            {% if game.year %}<span>{{ game.year }}</span>{% endif %}
+            {% if game.status and game.statusSlug != "owned" %}<span class="game-status">{{ game.status }}</span>{% endif %}
+          </div>
+        {% endif %}
+
+        {% set firstCopy = game.copies[0] %}
+        {% if game.copyCount > 1 or firstCopy.storefront or firstCopy.edition or firstCopy.region or firstCopy.ownership or firstCopy.type or firstCopy.completion or firstCopy.notes or game.ownedDlc.length %}
+          <details class="game-copies">
+            <summary>
+              {% if game.copyCount > 1 %}
+                {{ game.copyCount }} owned copies
+              {% else %}
+                copy details
+              {% endif %}
+            </summary>
+
+            <ul>
+              {% for copy in game.copies %}
+                <li>
+                  <div class="game-copy__heading">
+                    <strong>
+                      {{ copy.format or "Owned" }}
+                      {% if copy.quantity > 1 %} ×{{ copy.quantity }}{% endif %}
+                    </strong>
+                    {% if copy.edition %}<span>{{ copy.edition }}</span>{% endif %}
+                  </div>
+
+                  {% if copy.storefront or copy.region or copy.ownership or copy.type or copy.completion %}
+                  <p class="game-copy__meta">
+                    {% if copy.ownership and copy.ownership != "Owned" %}<span>{{ copy.ownership }}</span>{% endif %}
+                    {% if copy.storefront %}<span>{{ copy.storefront }}</span>{% endif %}
+                    {% if copy.region %}<span>{{ copy.region }}</span>{% endif %}
+                    {% if copy.type %}<span>{{ copy.type }}</span>{% endif %}
+                    {% if copy.completion %}<span>{{ copy.completion }}</span>{% endif %}
+                  </p>
+                  {% endif %}
+
+                  {% if copy.notes %}<p class="game-copy__notes">{{ copy.notes }}</p>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+
+            {% if game.ownedDlc.length %}
+              <div class="game-dlc">
+                <p class="game-dlc__title">owned DLC / extras</p>
+                <ul class="game-dlc__list">
+                  {% for dlc in game.ownedDlc %}
+                    <li>{{ dlc }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </details>
+        {% endif %}
+      </div>
+    </article>
   {% endfor %}
 </div>
 
+<p class="games-empty" data-games-empty hidden>nothing on this shelf matches that ♡</p>
+
 <div class="platform-footer">
-  <a class="platform-back" href="/games/"> back to platforms</a>
+  <a class="platform-back platform-back--bottom" href="/games/">← back to all shelves</a>
 
   {% if gamesOwned.attribution %}
     <p class="platform-attrib">
-      <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">
-        {{ gamesOwned.attribution.label }}
-      </a>
+      Cover artwork from
+      <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">SteamGridDB</a>.
     </p>
   {% endif %}
 </div>
+
+<script>
+(() => {
+  const cards = [...document.querySelectorAll("[data-game-card]")];
+  const buttons = [...document.querySelectorAll("[data-game-filter]")];
+  const search = document.querySelector("[data-game-search]");
+  const count = document.querySelector("[data-visible-count]");
+  const empty = document.querySelector("[data-games-empty]");
+
+  if (!cards.length) return;
+
+  let filter = "all";
+  let query = "";
+
+  function applyFilters() {
+    let visible = 0;
+
+    cards.forEach((card) => {
+      const matchesSearch = !query || card.dataset.title.includes(query);
+      const matchesFormat = filter === "all" || card.dataset[filter] === "true";
+      const show = matchesSearch && matchesFormat;
+
+      card.hidden = !show;
+      if (show) visible++;
+    });
+
+    if (count) count.textContent = visible;
+    if (empty) empty.hidden = visible !== 0;
+  }
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      filter = button.dataset.gameFilter;
+      buttons.forEach((item) => item.classList.toggle("is-active", item === button));
+      applyFilters();
+    });
+  });
+
+  search?.addEventListener("input", () => {
+    query = search.value.trim().toLowerCase();
+    applyFilters();
+  });
+})();
+</script>

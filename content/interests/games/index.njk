@@ -7,48 +7,145 @@ customcss:
   - /assets/css/games/index.css
 ---
 
-<p class="platform-intro">pick a platform to browse my lil game shelf 🐸✨</p>
+<section class="games-home-hero">
+  <div class="games-home-hero__copy">
+    <p class="games-eyebrow">my game shelf ♡</p>
+    <h1>Games I own, keep & come back to.</h1>
+    <p>
+      A little catalogue of my physical shelves and digital libraries.
+      Matching copies stay together, so owning the same title physically and digitally is easy to spot without filling the shelf with duplicate cards.
+    </p>
+  </div>
 
-<div class="platform-grid">
-  {% for p in gamesOwned.platforms %}
+  <div class="games-home-hero__note" aria-label="Collection note">
+    <span class="games-home-hero__pin" aria-hidden="true">✿</span>
+    <strong>collection rule</strong>
+    <p>one card per title + platform; every actual copy stays tucked inside it.</p>
+  </div>
+</section>
 
-    {% set icon = "🎮" %}
+<section class="games-stats" aria-label="Collection totals">
+  <div class="games-stat">
+    <strong>{{ gamesOwned.totalGames }}</strong>
+    <span>game cards</span>
+  </div>
+  <div class="games-stat">
+    <strong>{{ gamesOwned.totalCopies }}</strong>
+    <span>owned copies</span>
+  </div>
+  <div class="games-stat">
+    <strong>{{ gamesOwned.physicalCount }}</strong>
+    <span>with physical copies</span>
+  </div>
+  <div class="games-stat">
+    <strong>{{ gamesOwned.digitalCount }}</strong>
+    <span>with digital copies</span>
+  </div>
+  {% if gamesOwned.bothCount %}
+  <div class="games-stat games-stat--both">
+    <strong>{{ gamesOwned.bothCount }}</strong>
+    <span>owned both ways</span>
+  </div>
+  {% endif %}
+</section>
 
-    {% if p.platform == "Nintendo 3DS" %}{% set icon = "🧩" %}{% endif %}
-    {% if p.platform == "Nintendo DS" %}{% set icon = "📟" %}{% endif %}
-    {% if p.platform == "Nintendo Game Boy Advance" %}{% set icon = "🟪" %}{% endif %}
-    {% if p.platform == "Nintendo Switch" %}{% set icon = "🍄" %}{% endif %}
-    {% if p.platform == "Nintendo Switch 2" %}{% set icon = "✨" %}{% endif %}
-    {% if p.platform == "Nintendo Wii" %}{% set icon = "🎾" %}{% endif %}
-    {% if p.platform == "Nintendo Wii U" %}{% set icon = "🔵" %}{% endif %}
+{% if gamesOwned.currentGames and gamesOwned.currentGames.length %}
+<section class="games-section games-current">
+  <div class="games-section-heading">
+    <div>
+      <p class="games-eyebrow">right now</p>
+      <h2>Currently playing</h2>
+    </div>
+    <p class="games-section-note">the little pile beside the console</p>
+  </div>
 
-    {% if p.platform == "PC" %}{% set icon = "🖥️" %}{% endif %}
+  <div class="current-shelf">
+    {% for game in gamesOwned.currentGames %}
+      {% if loop.index <= 6 %}
+      <article class="current-game">
+        <img src="{{ game.image or '/assets/imgs/games/no-cover.png' }}" alt="Cover for {{ game.title }}" loading="lazy">
+        <div>
+          <strong>{{ game.title }}</strong>
+          <span>{{ game.platformName }}</span>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-    {% if p.platform == "Sony PlayStation" %}{% set icon = "⬜" %}{% endif %}
-    {% if p.platform == "Sony PlayStation 2" %}{% set icon = "💿" %}{% endif %}
-    {% if p.platform == "Sony PlayStation 3" %}{% set icon = "🔷" %}{% endif %}
-    {% if p.platform == "Sony PlayStation 4" %}{% set icon = "🟦" %}{% endif %}
-    {% if p.platform == "Sony PlayStation 5" %}{% set icon = "🖤" %}{% endif %}
-    {% if p.platform == "Sony PS Vita" or p.platform == "PlayStation Vita" or p.platform == "Sony PlayStation Vita" %}{% set icon = "💜" %}{% endif %}
+{% if gamesOwned.favouriteGames and gamesOwned.favouriteGames.length %}
+<section class="games-section games-favourites">
+  <div class="games-section-heading">
+    <div>
+      <p class="games-eyebrow">♡ forever pile</p>
+      <h2>Favourites</h2>
+    </div>
+    <p class="games-section-note">the ones I actually want to show off</p>
+  </div>
 
-    <a class="platform-card" href="/games/{{ p.slug }}/">
-      <div class="platform-icon" aria-hidden="true">{{ icon }}</div>
+  <div class="current-shelf">
+    {% for game in gamesOwned.favouriteGames %}
+      {% if loop.index <= 8 %}
+      <article class="current-game">
+        <img src="{{ game.image or '/assets/imgs/games/no-cover.png' }}" alt="Cover for {{ game.title }}" loading="lazy">
+        <div>
+          <strong>{{ game.title }}</strong>
+          <span>{{ game.platformName }}</span>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-      <div class="platform-main">
-        <span class="platform-name">{{ p.platform }}</span>
-        <span class="platform-count">{{ p.games | length }} games</span>
-      </div>
+<section class="games-section">
+  <div class="games-section-heading">
+    <div>
+      <p class="games-eyebrow">browse the shelves</p>
+      <h2>By platform</h2>
+    </div>
+    <p class="games-section-note">physical, digital, or both — kept together</p>
+  </div>
 
-      <span class="platform-arrow" aria-hidden="true">↗</span>
-    </a>
+  <div class="platform-grid">
+    {% for p in gamesOwned.platforms %}
+      <a class="platform-card" href="/games/{{ p.slug }}/">
+        <div class="platform-card__top">
+          <span class="platform-sticker" aria-hidden="true">
+            {% if "Nintendo" in p.platform or p.platform == "Wii" or p.platform == "Wii U" or "Game Boy" in p.platform %}N
+            {% elif "PlayStation" in p.platform %}PS
+            {% elif "Xbox" in p.platform %}XB
+            {% elif p.platform == "Windows PC" or p.platform == "SteamVR" %}PC
+            {% else %}♡{% endif %}
+          </span>
+          <span class="platform-arrow" aria-hidden="true">↗</span>
+        </div>
 
-  {% endfor %}
-</div>
+        <div class="platform-main">
+          <h3 class="platform-name">{{ p.platform }}</h3>
+          <p class="platform-count">
+            {{ p.totalGames }} title{% if p.totalGames != 1 %}s{% endif %}
+            {% if p.totalCopies != p.totalGames %} · {{ p.totalCopies }} copies{% endif %}
+          </p>
+        </div>
+
+        <div class="platform-breakdown" aria-label="Ownership breakdown">
+          {% if p.physicalCount %}<span>physical {{ p.physicalCount }}</span>{% endif %}
+          {% if p.digitalCount %}<span>digital {{ p.digitalCount }}</span>{% endif %}
+          {% if p.bothCount %}<span class="platform-breakdown__both">both {{ p.bothCount }}</span>{% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
 {% if gamesOwned.attribution %}
   <p class="platform-attrib">
-    <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">
-      {{ gamesOwned.attribution.label }}
-    </a>
+    Cover artwork from
+    <a href="{{ gamesOwned.attribution.url }}" target="_blank" rel="noopener">SteamGridDB</a>.
+    Collection details come from my own sheet.
   </p>
 {% endif %}

@@ -1,0 +1,121 @@
+---
+title: "New Horizons Museum & Collections"
+layout: base.njk
+permalink: /shrines/animalcrossing/newhorizons/museum/
+customcss: '/assets/css/acnh/acnh.css'
+---
+
+<div class="acnh-shell">
+  {% include "acnh/nav.njk" %}
+
+  <header class="acnh-pagehead acnh-paper acnh-museum-hero">
+    <div>
+      <p class="acnh-kicker">Blathers' Desk</p>
+      <h1>🏛 Museum & Collections</h1>
+      <p>
+        Caught and donated are tracked separately, so I can see what I have found,
+        what still needs to reach Blathers, and what is actually available to hunt.
+      </p>
+    </div>
+    <div class="acnh-museum-total">
+      <strong id="museumTotalDonated">0 / 316</strong>
+      <span>museum donations</span>
+      <div class="acnh-progress"><span id="museumTotalBar" style="width:0%"></span></div>
+    </div>
+  </header>
+
+  <section class="acnh-museum-stats" aria-label="Museum progress by section">
+    <button class="acnh-stat-card acnh-paper is-active" type="button" data-category="fish"><span>🐟</span><strong>Fish</strong><small id="stat-fish">0 / 80 caught</small></button>
+    <button class="acnh-stat-card acnh-paper" type="button" data-category="bugs"><span>🦋</span><strong>Bugs</strong><small id="stat-bugs">0 / 80 caught</small></button>
+    <button class="acnh-stat-card acnh-paper" type="button" data-category="sea"><span>🤿</span><strong>Sea</strong><small id="stat-sea">0 / 40 caught</small></button>
+    <button class="acnh-stat-card acnh-paper" type="button" data-category="fossils"><span>🦴</span><strong>Fossils</strong><small id="stat-fossils">0 / 73 found</small></button>
+    <button class="acnh-stat-card acnh-paper" type="button" data-category="art"><span>🖼️</span><strong>Art</strong><small id="stat-art">0 / 43 found</small></button>
+  </section>
+
+  <section class="acnh-now-panel acnh-paper" id="acnhNowPanel">
+    <div>
+      <p class="acnh-kicker">Critterpedia</p>
+      <h2>🌙 Available Now</h2>
+      <p id="availableNowText">Loading island availability…</p>
+    </div>
+    <div class="acnh-now-numbers">
+      <span><b id="availableNowCount">0</b> available</span>
+      <span><b id="missingNowCount">0</b> still missing</span>
+      <span><b id="leavingCount">0</b> leaving this month</span>
+    </div>
+  </section>
+
+  <section class="acnh-controls acnh-paper">
+    <label class="acnh-search">
+      <span>Search</span>
+      <input id="museumSearch" type="search" placeholder="sea bass, butterfly, T. rex…">
+    </label>
+
+    <label>
+      <span>Status</span>
+      <select id="museumStatus">
+        <option value="all">All</option>
+        <option value="missing">Missing</option>
+        <option value="found">Caught / found</option>
+        <option value="undonated">Found, not donated</option>
+        <option value="donated">Donated</option>
+      </select>
+    </label>
+
+    <label id="monthControl">
+      <span>Month</span>
+      <select id="museumMonth">
+        <option value="1">January</option><option value="2">February</option><option value="3">March</option>
+        <option value="4">April</option><option value="5">May</option><option value="6">June</option>
+        <option value="7">July</option><option value="8">August</option><option value="9">September</option>
+        <option value="10">October</option><option value="11">November</option><option value="12">December</option>
+      </select>
+    </label>
+
+    <label id="hourControl">
+      <span>Hour</span>
+      <select id="museumHour">
+        <option value="0">00:00</option><option value="1">01:00</option><option value="2">02:00</option><option value="3">03:00</option>
+        <option value="4">04:00</option><option value="5">05:00</option><option value="6">06:00</option><option value="7">07:00</option>
+        <option value="8">08:00</option><option value="9">09:00</option><option value="10">10:00</option><option value="11">11:00</option>
+        <option value="12">12:00</option><option value="13">13:00</option><option value="14">14:00</option><option value="15">15:00</option>
+        <option value="16">16:00</option><option value="17">17:00</option><option value="18">18:00</option><option value="19">19:00</option>
+        <option value="20">20:00</option><option value="21">21:00</option><option value="22">22:00</option><option value="23">23:00</option>
+      </select>
+    </label>
+
+    <label id="locationControl">
+      <span>Location</span>
+      <select id="museumLocation"><option value="all">All locations</option></select>
+    </label>
+
+    <div class="acnh-control-buttons">
+      <button type="button" id="showAvailableNow" class="acnh-chip">Available now</button>
+      <button type="button" id="showLeaving" class="acnh-chip">Leaving this month</button>
+      <button type="button" id="resetMuseumFilters" class="acnh-chip">Reset</button>
+    </div>
+  </section>
+
+  <p class="acnh-results-line"><strong id="museumResultsCount">0</strong> entries shown <span id="museumLoading">· loading catalogue…</span></p>
+
+  <section id="museumGrid" class="acnh-museum-grid" aria-live="polite"></section>
+
+  <section class="acnh-paper acnh-data-note">
+    <p class="acnh-kicker">Progress Source</p>
+    <h2>✏️ One tiny file to maintain</h2>
+    <p>
+      Personal progress lives in <code>content/_data/acnh/museumProgress.json</code>.
+      A value can simply be <code>true</code>, or a date string if I want the first-catch date preserved.
+    </p>
+    <pre><code>{
+  "fish": {
+    "sea_bass": { "caught": "2026-08-23", "donated": true }
+  }
+}</code></pre>
+    <p class="acnh-source-credit">Catalogue data adapted from <a href="https://github.com/alexislours/ACNHAPI">ACNH API</a> (CC BY 4.0). Game artwork belongs to Nintendo.</p>
+  </section>
+</div>
+
+<script id="acnh-museum-progress" type="application/json">{{ acnh.museumProgress | dump | safe }}</script>
+<script id="acnh-island-settings" type="application/json">{{ acnh.island | dump | safe }}</script>
+<script src="/assets/js/acnh-museum.js" defer></script>

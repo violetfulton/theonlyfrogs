@@ -11,7 +11,8 @@
   "build:fresh": "npm run fetch:discogs && npm run build",
 
   "fetch:discogs": "node content/_scripts/fetchDiscogsCache.js",
-  "fetch:accf-ra": "node content/_scripts/fetchAccfRetroAchievements.mjs"
+  "fetch:accf-ra": "node content/_scripts/fetchAccfRetroAchievements.mjs",
+  "fetch:game-covers": "node content/_scripts/fetchGameCovers.mjs"
 },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.0",

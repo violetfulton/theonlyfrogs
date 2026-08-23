@@ -1,0 +1,104 @@
+---
+title: "New Horizons"
+layout: base.njk
+permalink: /shrines/animalcrossing/newhorizons/
+customcss: '/assets/css/acnh/acnh.css'
+---
+
+<div class="acnh-shell">
+  {% include "acnh/nav.njk" %}
+
+  <section class="acnh-hero acnh-paper">
+    <div class="acnh-hero__copy">
+      <p class="acnh-kicker">Animal Crossing: New Horizons</p>
+      <h1>🏝 {{ acnh.island.name or "My Island" }}</h1>
+      <p>
+        My island scrapbook: residents, museum progress, first catches, milestones,
+        favourite builds, and the bits of island life I want to remember.
+      </p>
+
+      <div class="acnh-tags">
+        <span>{{ acnh.island.hemisphere | capitalize }} Hemisphere</span>
+        {% if acnh.island.nativeFruit %}<span>🍎 {{ acnh.island.nativeFruit }}</span>{% endif %}
+        {% if acnh.island.rating %}<span>⭐ {{ acnh.island.rating }} stars</span>{% endif %}
+        {% if acnh.island.started %}<span>📅 Since {{ acnh.island.started }}</span>{% endif %}
+      </div>
+    </div>
+
+    <div class="acnh-hero__stamp" aria-hidden="true">
+      <span class="acnh-leaf">🍃</span>
+      <strong>ISLAND<br>GETAWAY</strong>
+      <small>Nook Inc.</small>
+    </div>
+  </section>
+
+  <section class="acnh-dashboard">
+    <article class="acnh-card acnh-paper">
+      <p class="acnh-kicker">Blathers' Desk</p>
+      <h2>🏛 Museum Progress</h2>
+      <div class="acnh-big-progress">
+        <strong id="acnhMuseumDonated">0 / 316</strong>
+        <span>donated</span>
+      </div>
+      <div class="acnh-progress"><span id="acnhMuseumBar" style="width:0%"></span></div>
+      <div class="acnh-mini-stats">
+        <span>🐟 <b id="acnhFishCaught">0</b>/80</span>
+        <span>🦋 <b id="acnhBugsCaught">0</b>/80</span>
+        <span>🤿 <b id="acnhSeaCaught">0</b>/40</span>
+      </div>
+      <a class="acnh-button" href="/shrines/animalcrossing/newhorizons/museum/">Open Critterpedia →</a>
+    </article>
+
+    <article class="acnh-card acnh-paper">
+      <p class="acnh-kicker">Neighbourhood</p>
+      <h2>🐸 Residents</h2>
+      <div class="acnh-big-progress">
+        <strong>{{ acnh.villagers.current | length }} / 10</strong>
+        <span>current villagers</span>
+      </div>
+      <p class="acnh-muted">
+        Frog Pond tracks every frog villager separately, alongside current residents,
+        old neighbours, dreamies, and photos.
+      </p>
+      <a class="acnh-button" href="/shrines/animalcrossing/newhorizons/residents/">Visit the neighbourhood →</a>
+    </article>
+
+    <article class="acnh-card acnh-paper">
+      <p class="acnh-kicker">Island Notes</p>
+      <h2>📖 Latest Diary</h2>
+      {% if acnh.diary and acnh.diary.length %}
+        {% set latest = acnh.diary[0] %}
+        <p class="acnh-date">{{ latest.date }}</p>
+        <h3>{{ latest.title }}</h3>
+        {% if latest.summary %}<p>{{ latest.summary }}</p>{% endif %}
+      {% else %}
+        <p class="acnh-muted">The diary begins with the island itself.</p>
+      {% endif %}
+      <a class="acnh-button" href="/shrines/animalcrossing/newhorizons/diary/">Read the diary →</a>
+    </article>
+
+    <article class="acnh-card acnh-paper">
+      <p class="acnh-kicker">Island Map</p>
+      <h2>🏡 Places I Love</h2>
+      <div class="acnh-big-progress">
+        <strong>{{ acnh.tour | length }}</strong>
+        <span>areas documented</span>
+      </div>
+      <p class="acnh-muted">A scrapbook tour of builds, rooms, beaches, paths, and favourite corners.</p>
+      <a class="acnh-button" href="/shrines/animalcrossing/newhorizons/island-tour/">Take the tour →</a>
+    </article>
+  </section>
+
+  {% if acnh.island.currentGoals and acnh.island.currentGoals.length %}
+  <section class="acnh-paper acnh-goals">
+    <p class="acnh-kicker">Right Now</p>
+    <h2>🌱 Island Goals</h2>
+    <ul>
+      {% for goal in acnh.island.currentGoals %}<li>{{ goal }}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>
+
+<script id="acnh-progress-data" type="application/json">{{ acnh.museumProgress | dump | safe }}</script>
+<script src="/assets/js/acnh-home.js" defer></script>

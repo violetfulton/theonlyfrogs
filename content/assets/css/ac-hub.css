@@ -1,0 +1,101 @@
+:root {
+  --ac-hub-ink: #50584f;
+  --ac-hub-paper: #fffdf5;
+  --ac-hub-line: rgba(74, 91, 72, .14);
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 15%, rgba(255,255,255,.75), transparent 28rem),
+    linear-gradient(180deg, #d9eee7 0%, #ecf3dc 50%, #f7eadb 100%);
+  color: var(--ac-hub-ink);
+}
+
+.ac-hub {
+  width: min(1080px, calc(100% - 30px));
+  margin: 42px auto 70px;
+}
+
+.ac-hub__hero {
+  text-align: center;
+  padding: 34px 20px 26px;
+}
+
+.ac-hub__kicker {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: .76rem;
+  font-weight: 800;
+  color: #5e8d69;
+}
+
+.ac-hub__hero h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 8vw, 5.8rem);
+  line-height: .95;
+}
+
+.ac-hub__hero p:last-child {
+  max-width: 650px;
+  margin: 16px auto 0;
+  line-height: 1.7;
+}
+
+.ac-hub__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.ac-game-card {
+  min-height: 270px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 28px;
+  text-decoration: none;
+  color: var(--ac-hub-ink);
+  border: 1px solid rgba(255,255,255,.9);
+  box-shadow: 0 12px 30px rgba(67, 84, 68, .13);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.ac-game-card:hover {
+  transform: translateY(-4px) rotate(-.2deg);
+  box-shadow: 0 18px 38px rgba(67, 84, 68, .18);
+}
+
+.ac-game-card--cityfolk { background: linear-gradient(145deg, #fff9e8, #e3f0d0); }
+.ac-game-card--newhorizons { background: linear-gradient(145deg, #e7f7ee, #d6eef3); }
+.ac-game-card--newleaf { background: linear-gradient(145deg, #f9e2e8, #f5eac9); }
+
+.ac-game-card__eyebrow {
+  font-size: .76rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 800;
+  opacity: .68;
+}
+
+.ac-game-card strong {
+  display: block;
+  margin-top: 32px;
+  font-size: 1.65rem;
+}
+
+.ac-game-card p {
+  line-height: 1.65;
+  opacity: .82;
+}
+
+.ac-game-card__cta {
+  margin-top: auto;
+  font-weight: 800;
+}
+
+@media (max-width: 800px) {
+  .ac-hub__grid { grid-template-columns: 1fr; }
+  .ac-game-card { min-height: 210px; }
+  .ac-game-card strong { margin-top: 20px; }
+}

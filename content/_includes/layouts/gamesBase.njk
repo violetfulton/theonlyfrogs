@@ -2,37 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ title or pageTitle or "The Only Frogs - Game Collection" }}</title>
+  <title>{{ title or pageTitle or "Violet's Game Shelf" }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/assets/img/frog-icon.png">
 
-  {# shared CSS for all pages #}
-<link rel="stylesheet" href="/assets/css/games/shared.css">
+  <link rel="stylesheet" href="/assets/css/games/shared.css">
 
-{# page-specific CSS (string or array) #}
-{% if customcss %}
-  {% if customcss | length and (customcss is not string) %}
-    {% for href in customcss %}
-      <link rel="stylesheet" href="{{ href }}">
-    {% endfor %}
-  {% else %}
-    <link rel="stylesheet" href="{{ customcss }}">
+  {% if customcss %}
+    {% if customcss | length and (customcss is not string) %}
+      {% for href in customcss %}
+        <link rel="stylesheet" href="{{ href }}">
+      {% endfor %}
+    {% else %}
+      <link rel="stylesheet" href="{{ customcss }}">
+    {% endif %}
   {% endif %}
-{% endif %}
-
 </head>
 <body class="games-shell">
 
   <header class="games-header">
     <div class="games-header-inner">
-      <a class="games-brand" href="/games/" aria-label="Game Collection home">
-        <img class="games-brand-img" src="/assets/imgs/frog-controller.png" alt="Frog with Game Controller">
+      <a class="games-brand" href="/games/" aria-label="Violet's game shelf home">
+        <img class="games-brand-img" src="/assets/imgs/frog-controller.png" alt="Frog holding a game controller">
       </a>
 
       <div class="games-title-wrap">
-        <h1 class="games-title">{{ title or "Game Collection" }}</h1>
-        <p class="games-subtitle">insert coin • press start • browse the shelf</p>
+        <p class="games-kicker">Violet's shelves</p>
+        <p class="games-title">game collection</p>
+        <p class="games-subtitle">physical copies, digital libraries & games I love</p>
       </div>
+
+      <nav class="games-nav" aria-label="Game collection navigation">
+        <a href="/games/">shelves</a>
+        <a href="/">site home</a>
+      </nav>
     </div>
   </header>
 
@@ -44,15 +47,9 @@
 
   <footer class="games-footer">
     <div class="games-footer-inner">
-      <hr class="games-divider">
-
-      <marquee class="games-marquee" behavior="scroll" direction="left" scrollamount="3">
-        🎮 Hop into my video game collection! 🎮
-      </marquee>
-
-      <p class="games-footer-links">
-        return <a class="games-link" href="/">home</a> 🐸
-      </p>
+      <span aria-hidden="true">♡</span>
+      <p>a little record of the games that live with me</p>
+      <span aria-hidden="true">🐸</span>
     </div>
   </footer>
 

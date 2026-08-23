@@ -1,0 +1,39 @@
+---
+title: "New Horizons Island Tour"
+layout: base.njk
+permalink: /shrines/animalcrossing/newhorizons/island-tour/
+customcss: '/assets/css/acnh/acnh.css'
+---
+
+<div class="acnh-shell">
+  {% include "acnh/nav.njk" %}
+
+  <header class="acnh-pagehead acnh-paper">
+    <p class="acnh-kicker">Dream Address Energy</p>
+    <h1>🏡 Island Tour</h1>
+    <p>A scrapbook map of favourite builds, rooms, beaches, paths, gardens, and changing island areas.</p>
+  </header>
+
+  {% if acnh.tour and acnh.tour.length %}
+  <section class="acnh-tour-grid">
+    {% for area in acnh.tour %}
+    <article class="acnh-tour-card acnh-paper">
+      {% if area.cover %}<img class="acnh-tour-cover" src="{{ area.cover }}" alt="{{ area.name }}">{% endif %}
+      <div class="acnh-tour-copy">
+        {% if area.category %}<p class="acnh-kicker">{{ area.category }}</p>{% endif %}
+        <h2>{{ area.name }}</h2>
+        {% if area.description %}<p>{{ area.description }}</p>{% endif %}
+        {% if area.built %}<small>Built {{ area.built }}</small>{% endif %}
+        {% if area.images %}
+        <div class="acnh-photo-grid acnh-photo-grid--small">
+          {% for image in area.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or area.name }}"></figure>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  {% else %}
+  <section class="acnh-empty acnh-paper">No island areas logged.</section>
+  {% endif %}
+</div>
