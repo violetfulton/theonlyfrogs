@@ -1,12 +1,19 @@
 {
-  "name": "",
+  "name": "Hopscotch",
   "representative": "Violet",
   "hemisphere": "northern",
-  "nativeFruit": "",
-  "started": "",
+  "nativeFruit": "Peaches",
+  "started": "26th August 2025",
   "dreamAddress": "",
-  "rating": 0,
-  "ordinance": "",
-  "theme": "",
-  "currentGoals": []
+  "rating": 3,
+  "ordinance": "Beautiful Island",
+  "theme": "Frogs and pink",
+  "currentGoals": [
+    "Clear out old flowers, weeds and abandoned areas",
+    "Plan the new island layout",
+    "Finish the entrance and Resident Services area",
+    "Build my first frog-themed area",
+    "Start properly tracking museum donations",
+    "Work towards a frog-heavy villager lineup"
+  ]
 }

@@ -1,7 +1,444 @@
 {
-  "fish": {},
-  "bugs": {},
-  "sea": {},
-  "fossils": {},
-  "art": {}
+  "fish": {
+    "bitterling": {
+      "caught": true,
+      "donated": true
+    },
+    "crucian_carp": {
+      "caught": true,
+      "donated": true
+    },
+    "dace": {
+      "caught": true,
+      "donated": true
+    },
+    "koi": {
+      "caught": true,
+      "donated": true
+    },
+    "catfish": {
+      "caught": true,
+      "donated": true
+    },
+    "yellow_perch": {
+      "caught": true,
+      "donated": true
+    },
+    "black_bass": {
+      "caught": true,
+      "donated": true
+    },
+    "pond_smelt": {
+      "caught": true,
+      "donated": true
+    },
+    "sturgeon": {
+      "caught": true,
+      "donated": true
+    },
+    "zebra_turkeyfish": {
+      "caught": true,
+      "donated": true
+    },
+    "anchovy": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_bass": {
+      "caught": true,
+      "donated": true
+    },
+    "red_snapper": {
+      "caught": true,
+      "donated": true
+    },
+    "dab": {
+      "caught": true,
+      "donated": true
+    },
+    "olive_flounder": {
+      "caught": true,
+      "donated": true
+    },
+    "squid": {
+      "caught": true,
+      "donated": true
+    }
+  },
+  "bugs": {
+    "common_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "yellow_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "tiger_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "common_bluebottle": {
+      "caught": true,
+      "donated": true
+    },
+    "paper_kite_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "monarch_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "emperor_butterfly": {
+      "caught": true,
+      "donated": true
+    },
+    "rajah_brookes_birdwing": {
+      "caught": true,
+      "donated": true
+    },
+    "moth": {
+      "caught": true,
+      "donated": true
+    },
+    "long_locust": {
+      "caught": true,
+      "donated": true
+    },
+    "migratory_locust": {
+      "caught": true,
+      "donated": true
+    },
+    "rice_grasshopper": {
+      "caught": true,
+      "donated": true
+    },
+    "grasshopper": {
+      "caught": true,
+      "donated": true
+    },
+    "cricket": {
+      "caught": true,
+      "donated": true
+    },
+    "wasp": {
+      "caught": true,
+      "donated": true
+    },
+    "orchid_mantis": {
+      "caught": true,
+      "donated": true
+    },
+    "mantis": {
+      "caught": true,
+      "donated": true
+    },
+    "robust_cicada": {
+      "caught": true,
+      "donated": true
+    },
+    "giant_cicada": {
+      "caught": true,
+      "donated": true
+    },
+    "cicada_shell": {
+      "caught": true,
+      "donated": true
+    },
+    "red_dragonfly": {
+      "caught": true,
+      "donated": true
+    },
+    "darner_dragonfly": {
+      "caught": true,
+      "donated": true
+    },
+    "banded_dragonfly": {
+      "caught": true,
+      "donated": true
+    },
+    "damselfly": {
+      "caught": true,
+      "donated": true
+    },
+    "pondskater": {
+      "caught": true,
+      "donated": true
+    },
+    "diving_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "stinkbug": {
+      "caught": true,
+      "donated": true
+    },
+    "man-faced_stink_bug": {
+      "caught": true,
+      "donated": true
+    },
+    "ladybug": {
+      "caught": true,
+      "donated": true
+    },
+    "tiger_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "jewel_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "violin_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "citrus_long-horned_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "dung_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "earth-boring_dung_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "drone_beetle": {
+      "caught": true,
+      "donated": true
+    },
+    "saw_stag": {
+      "caught": true,
+      "donated": true
+    },
+    "miyama_stag": {
+      "caught": true,
+      "donated": true
+    },
+    "horned_dynastid": {
+      "caught": true,
+      "donated": true
+    },
+    "walking_leaf": {
+      "caught": true,
+      "donated": true
+    },
+    "bagworm": {
+      "caught": true,
+      "donated": true
+    },
+    "hermit_crab": {
+      "caught": true,
+      "donated": true
+    },
+    "wharf_roach": {
+      "caught": true,
+      "donated": true
+    },
+    "mosquito": {
+      "caught": true,
+      "donated": true
+    },
+    "flea": {
+      "caught": true,
+      "donated": true
+    },
+    "snail": {
+      "caught": true,
+      "donated": true
+    },
+    "tarantula": {
+      "caught": true,
+      "donated": true
+    },
+    "scorpion": {
+      "caught": true,
+      "donated": true
+    }
+  },
+  "sea": {
+    "seaweed": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_urchin": {
+      "caught": true,
+      "donated": true
+    },
+    "pearl_oyster": {
+      "caught": true,
+      "donated": true
+    },
+    "turban_shell": {
+      "caught": true,
+      "donated": true
+    },
+    "umbrella_octopus": {
+      "caught": true,
+      "donated": true
+    },
+    "snow_crab": {
+      "caught": true,
+      "donated": true
+    },
+    "sweet_shrimp": {
+      "caught": true,
+      "donated": true
+    },
+    "horseshoe_crab": {
+      "caught": true,
+      "donated": true
+    },
+    "mussel": {
+      "caught": true,
+      "donated": true
+    },
+    "abalone": {
+      "caught": true,
+      "donated": true
+    },
+    "red_king_crab": {
+      "caught": true,
+      "donated": true
+    },
+    "mantis_shrimp": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_cucumber": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_anemone": {
+      "caught": true,
+      "donated": true
+    },
+    "oyster": {
+      "caught": true,
+      "donated": true
+    },
+    "acorn_barnacle": {
+      "caught": true,
+      "donated": true
+    },
+    "spotted_garden_eel": {
+      "caught": true,
+      "donated": true
+    },
+    "moon_jellyfish": {
+      "caught": true,
+      "donated": true
+    },
+    "scallop": {
+      "caught": true,
+      "donated": true
+    },
+    "chambered_nautilus": {
+      "caught": true,
+      "donated": true
+    },
+    "gazami_crab": {
+      "caught": true,
+      "donated": true
+    },
+    "flatworm": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_star": {
+      "caught": true,
+      "donated": true
+    },
+    "sea_slug": {
+      "caught": true,
+      "donated": true
+    },
+    "whelk": {
+      "caught": true,
+      "donated": true
+    },
+    "octopus": {
+      "caught": true,
+      "donated": true
+    },
+    "tiger_prawn": {
+      "caught": true,
+      "donated": true
+    }
+  },
+  "fossils": {
+    "dimetrodon_torso": {
+      "found": true,
+      "donated": true
+    },
+    "dinosaur_track": {
+      "found": true,
+      "donated": true
+    },
+    "diplo_tail": {
+      "found": true,
+      "donated": true
+    },
+    "iguanodon_torso": {
+      "found": true,
+      "donated": true
+    },
+    "left_ptera_wing": {
+      "found": true,
+      "donated": true
+    },
+    "megacero_skull": {
+      "found": true,
+      "donated": true
+    },
+    "ophthalmo_torso": {
+      "found": true,
+      "donated": true
+    },
+    "pachy_skull": {
+      "found": true,
+      "donated": true
+    },
+    "parasaur_tail": {
+      "found": true,
+      "donated": true
+    },
+    "plesio_tail": {
+      "found": true,
+      "donated": true
+    },
+    "quetzal_torso": {
+      "found": true,
+      "donated": true
+    },
+    "spino_tail": {
+      "found": true,
+      "donated": true
+    },
+    "spino_torso": {
+      "found": true,
+      "donated": true
+    },
+    "trex_skull": {
+      "found": true,
+      "donated": true
+    }
+  },
+  "art": {
+    "informative_statue": {
+      "owned": true,
+      "donated": "2025-09-10"
+    },
+    "moody_painting": {
+      "owned": true,
+      "donated": "2026-07-03"
+    },
+    "serene_painting": {
+      "owned": true,
+      "donated": "2025-10-09"
+    }
+  }
 }

@@ -591,3 +591,401 @@ body {
   color: var(--acnh-muted);
 }
 .acnh-source-credit a { color: var(--acnh-leaf-dark); }
+
+/* --------------------------------------------------
+   New Horizons — Residents page polish
+   -------------------------------------------------- */
+.acnh-residents-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 28px;
+  overflow: hidden;
+  position: relative;
+  background:
+    radial-gradient(circle at 92% 15%, rgba(248,220,227,.8), transparent 180px),
+    linear-gradient(135deg, rgba(255,255,255,.54), rgba(255,253,244,.9)),
+    var(--acnh-paper);
+}
+
+.acnh-residents-hero::after {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 110px;
+  right: -40px;
+  bottom: -52px;
+  border-radius: 50%;
+  background: rgba(126,191,138,.16);
+  transform: rotate(-8deg);
+}
+
+.acnh-resident-stamp {
+  width: 112px;
+  height: 112px;
+  flex: 0 0 112px;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  align-items: center;
+  gap: 7px;
+  border: 3px dashed rgba(79,142,101,.45);
+  background: #edf7df;
+  box-shadow: inset 0 0 0 7px rgba(255,253,244,.92);
+  transform: rotate(5deg);
+  position: relative;
+  z-index: 1;
+}
+
+.acnh-resident-stamp span {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--acnh-leaf-dark);
+}
+
+.acnh-resident-stamp small {
+  font-size: .69rem;
+  line-height: 1.15;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--acnh-muted);
+}
+
+.acnh-sectionhead--residents { align-items: center; }
+.acnh-section-note { margin: 6px 0 0; }
+
+.acnh-resident-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+.acnh-resident-card {
+  min-height: 150px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.acnh-resident-card:hover {
+  transform: translateY(-3px) rotate(-.25deg);
+  box-shadow: 0 15px 34px rgba(67,88,69,.16);
+}
+
+.acnh-resident-card:nth-child(3n+1) { background: linear-gradient(145deg, #fffdf4 55%, #edf7df); }
+.acnh-resident-card:nth-child(3n+2) { background: linear-gradient(145deg, #fffdf4 55%, #fbe7ec); }
+.acnh-resident-card:nth-child(3n+3) { background: linear-gradient(145deg, #fffdf4 55%, #e5f4f3); }
+.acnh-resident-card.is-frog { outline: 2px solid rgba(126,191,138,.52); }
+
+.acnh-resident-card__number {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: .67rem;
+  letter-spacing: .08em;
+  font-weight: 900;
+  color: rgba(79,85,79,.34);
+}
+
+.acnh-resident-card__portrait {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 38% 32%, rgba(255,255,255,.95), transparent 32%),
+    #f2efd9;
+  border: 5px solid rgba(255,255,255,.92);
+  box-shadow: 0 5px 13px rgba(67,88,69,.12);
+}
+
+.acnh-resident-card.is-frog .acnh-resident-card__portrait { background-color: #dff0d2; }
+
+.acnh-resident-card__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.04);
+}
+
+.acnh-resident-card__portrait > span { font-size: 2rem; }
+
+.acnh-resident-card__copy { min-width: 0; }
+
+.acnh-resident-card__name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.acnh-resident-card h3 {
+  margin: 0;
+  font-size: 1.16rem;
+}
+
+.acnh-frog-pin {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e4f3d8;
+  font-size: .75rem;
+}
+
+.acnh-personality,
+.acnh-photo-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 7px;
+  border-radius: 999px;
+  padding: 4px 8px;
+  border: 1px solid var(--acnh-line);
+  font-size: .72rem;
+}
+
+.acnh-personality { background: rgba(255,255,255,.72); color: var(--acnh-muted); }
+.acnh-photo-badge { background: #f9e6eb; color: #8c5a69; }
+
+.acnh-resident-meta {
+  display: block;
+  margin-top: 7px;
+  color: var(--acnh-muted);
+  font-size: .72rem;
+}
+
+.acnh-frog-pond-section {
+  position: relative;
+  padding: 24px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255,255,255,.65), transparent 190px),
+    linear-gradient(180deg, rgba(213,239,224,.64), rgba(234,244,217,.54));
+  border: 1px solid rgba(126,191,138,.22);
+}
+
+.acnh-frog-summary {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.acnh-frog-summary span {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.76);
+  border: 1px solid rgba(126,191,138,.22);
+  color: var(--acnh-muted);
+  font-size: .78rem;
+}
+
+.acnh-frog-summary strong { color: var(--acnh-leaf-dark); }
+
+.acnh-frog-portrait-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 11px;
+}
+
+.acnh-frog-card {
+  padding: 11px 10px 10px;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 17px rgba(67,88,69,.09);
+}
+
+.acnh-frog-card__portrait {
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #edf3dd;
+  border: 4px solid white;
+  box-shadow: 0 4px 9px rgba(67,88,69,.08);
+}
+
+.acnh-frog-card__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.acnh-frog-card__portrait span { font-size: 1.7rem; }
+.acnh-frog-card__copy { display: grid; gap: 4px; }
+.acnh-frog-card__copy strong { font-size: .88rem; }
+
+.acnh-frog-status {
+  justify-self: center;
+  padding: 3px 7px;
+  border-radius: 999px;
+  font-size: .63rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  background: #efede5;
+  color: #929087;
+}
+
+.acnh-frog-card.is-current {
+  outline: 2px solid rgba(79,142,101,.52);
+  background: linear-gradient(180deg, #fffdf4, #e5f3dc);
+}
+.acnh-frog-card.is-current .acnh-frog-status { background: #dcefd3; color: #4f7955; }
+
+.acnh-frog-card.is-dreamie {
+  outline: 2px solid rgba(234,166,183,.65);
+  background: linear-gradient(180deg, #fffdf4, #fae4ea);
+}
+.acnh-frog-card.is-dreamie .acnh-frog-status { background: #f8dce3; color: #935c6b; }
+
+.acnh-frog-card.is-past { opacity: .72; }
+.acnh-frog-card.is-past .acnh-frog-status { background: #e7e5df; color: #77766f; }
+
+.acnh-frog-card.is-missing {
+  box-shadow: none;
+  background: rgba(255,253,244,.64);
+}
+.acnh-frog-card.is-missing .acnh-frog-card__portrait img { filter: grayscale(.82) saturate(.35); opacity: .58; }
+.acnh-frog-card.is-missing .acnh-frog-card__portrait { filter: saturate(.6); }
+
+.acnh-frog-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 14px;
+  font-size: .72rem;
+  color: var(--acnh-muted);
+}
+.acnh-frog-legend .is-current { color: #4f8e65; }
+.acnh-frog-legend .is-dreamie { color: #c77e91; }
+.acnh-frog-legend .is-past { color: #85837b; }
+.acnh-frog-legend .is-missing { color: #b3aea3; }
+
+.acnh-resident-bottom-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr);
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.acnh-resident-sidecard { padding: 22px; }
+.acnh-resident-sidecard__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.acnh-resident-sidecard__head h2 { margin: 0; }
+
+.acnh-cute-empty {
+  min-height: 105px;
+  padding: 16px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px dashed rgba(234,166,183,.5);
+  background: #fff7f8;
+}
+.acnh-cute-empty > span { font-size: 1.5rem; }
+.acnh-cute-empty strong,
+.acnh-cute-empty small { display: block; }
+.acnh-cute-empty small { margin-top: 4px; color: var(--acnh-muted); }
+
+.acnh-dreamie-list { display: grid; gap: 8px; }
+.acnh-dreamie-row {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 14px;
+  background: #fff7f8;
+}
+.acnh-dreamie-row img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.acnh-dreamie-row strong,
+.acnh-dreamie-row small { display: block; }
+.acnh-dreamie-row small { margin-top: 2px; color: var(--acnh-muted); }
+
+.acnh-past-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.acnh-past-card {
+  min-width: 0;
+  padding: 9px;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: center;
+  gap: 9px;
+  border-radius: 16px;
+  border: 1px solid var(--acnh-line);
+  background: #f6f3e9;
+  opacity: .83;
+}
+
+.acnh-past-card__portrait {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #e8e6dc;
+  filter: saturate(.72);
+}
+
+.acnh-past-card__portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.acnh-past-card strong,
+.acnh-past-card small { display: block; }
+.acnh-past-card small { margin-top: 2px; color: var(--acnh-muted); font-size: .7rem; }
+
+.acnh-resident-credit { text-align: right; margin-right: 4px; }
+
+@media (max-width: 760px) {
+  .acnh-residents-hero { grid-template-columns: 1fr; }
+  .acnh-resident-stamp { display: none; }
+  .acnh-resident-bottom-grid { grid-template-columns: 1fr; }
+  .acnh-frog-summary { justify-content: flex-start; }
+}
+
+@media (max-width: 520px) {
+  .acnh-resident-grid { grid-template-columns: 1fr; }
+  .acnh-resident-card { grid-template-columns: 82px minmax(0, 1fr); min-height: 130px; }
+  .acnh-resident-card__portrait { width: 82px; height: 82px; }
+  .acnh-frog-pond-section { padding: 17px 12px; }
+  .acnh-frog-portrait-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .acnh-frog-card { padding-inline: 5px; }
+  .acnh-frog-card__portrait { width: 62px; height: 62px; }
+  .acnh-frog-card__copy strong { font-size: .75rem; }
+  .acnh-frog-status { font-size: .55rem; padding-inline: 5px; }
+  .acnh-past-grid { grid-template-columns: 1fr; }
+}
