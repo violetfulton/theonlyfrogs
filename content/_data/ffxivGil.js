@@ -62,6 +62,20 @@ const purchaseDiary = [
     date: "2026-08-08",
     note: "Won with lottery number 8 ♡ maybe 8 is my lucky number?",
   },
+  {
+    name: "Air-wheeler A9",
+    type: "Mount",
+    cost: 7_500_000,
+    date: "2026-08-31",
+    note: "Bought from Neon in Solution Nine.",
+  },
+  {
+    name: "Modern Aesthetics - A Half Times Two",
+    type: "Hairstyle",
+    cost: 17_000_000,
+    date: "2026-08-23",
+    note: "Bought for 17m gil.",
+  },
 ];
 
 const collections = {
