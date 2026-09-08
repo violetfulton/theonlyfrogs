@@ -35,7 +35,7 @@ const LODESTONE_MOBILE_USER_AGENT =
 // Keep that as the guaranteed fallback so every owned roll has artwork even when
 // the gil catalogue does not expose an item-specific image.
 const ORCHESTRION_FALLBACK_IMAGE =
-  "https://ffxivcollect.com/assets/orchestrion-1715025e27527af41fc5daa8feb192d49887fa2c1b70b2f6fc6dcc74a5570109.png";
+  "/assets/imgs/ffxiv/orchestrion-roll.png";
 
 function clean(value = "") {
   return String(value ?? "").replace(/\s+/g, " ").trim();
@@ -464,10 +464,14 @@ async function exactOwnedShelf({
   };
 }
 
-function exportedShelf(category = {}, imageFallback = null) {
+function exportedShelf(category = {}, imageFallback = null, forceImage = false) {
   const items = Array.isArray(category?.ownedItems)
     ? category.ownedItems
-        .map((item) => mapOwnedItem(item, imageFallback))
+        .map((item) => {
+          const mapped = mapOwnedItem(item, imageFallback);
+          if (forceImage && imageFallback) mapped.image = imageFallback;
+          return mapped;
+        })
         .filter((item) => item.name)
         .sort((a, b) => a.name.localeCompare(b.name))
     : [];
@@ -583,6 +587,7 @@ export default async function () {
   const orchestrions = exportedShelf(
     shopping?.orchestrions || {},
     ORCHESTRION_FALLBACK_IMAGE,
+    true,
   );
 
   const automaticShelves = [mounts, minions, orchestrions];
