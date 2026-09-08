@@ -2,7 +2,7 @@
 title: "Gil Goals"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/gil/
-description: "Aggro Phobic's road to the gil cap — savings milestones, ridiculous collectible purchases and the Frog Treasury."
+description: "Aggro Phobic's road to the gil cap — savings milestones, major purchases, and the remaining gil-buyable wishlist."
 customcss: "/assets/css/ffxiv/gil.css"
 ---
 
@@ -16,9 +16,12 @@ customcss: "/assets/css/ffxiv/gil.css"
       <h1>Gil Goals</h1>
       <p>
         Aggro Phobic’s slow march toward completely unreasonable wealth —
-        while still spending gil on mounts, minions, orchestrion rolls and
-        anything else shiny enough to ruin the savings plan.
+        savings, major purchases, and the shiny things still worth spending on.
+        The actual collection lives over in Aggro’s Hoard.
       </p>
+      <a class="ff-button" href="/shrines/finalfantasyxiv/collections/">
+        Open collection log →
+      </a>
     </div>
 
     <div class="ff-gil-coin-stack" aria-hidden="true">
@@ -278,7 +281,7 @@ customcss: "/assets/css/ffxiv/gil.css"
           </p>
         {% else %}
           <div class="ff-gil-emptybar">
-            <span>collection data unavailable</span>
+            <span>shopping data unavailable</span>
           </div>
 
           <p class="ff-gil-collection-card__note">
@@ -346,7 +349,7 @@ customcss: "/assets/css/ffxiv/gil.css"
           {% endif %}
         {% else %}
           <div class="ff-gil-emptybar">
-            <span>collection data unavailable</span>
+            <span>shopping data unavailable</span>
           </div>
 
           <p class="ff-gil-collection-card__note">
@@ -443,9 +446,9 @@ customcss: "/assets/css/ffxiv/gil.css"
               <div>
                 <p class="ff-gil-kicker">
                   {% if category.ownershipMode == "lodestone" %}
-                    collection synced
+                    ownership synced
                   {% elif category.ownershipMode == "manual" %}
-                    owned collection
+                    owned list loaded
                   {% else %}
                     catalogue only
                   {% endif %}
@@ -610,7 +613,7 @@ customcss: "/assets/css/ffxiv/gil.css"
       <article>
         <small>Safe spending pot</small>
         <strong>{{ g.safeSpendDisplay }}</strong>
-        <p>Anything above the floor is fair game for collection nonsense.</p>
+        <p>Anything above the floor is fair game for expensive nonsense.</p>
       </article>
 
       <article>

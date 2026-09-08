@@ -1,0 +1,285 @@
+---
+title: "Aggro's Hoard"
+layout: layouts/ffBase.njk
+permalink: /shrines/finalfantasyxiv/collections/
+description: "Aggro Phobic's FFXIV collection log — mounts, minions, orchestrion rolls and all the other little treasures worth keeping track of."
+customcss: "/assets/css/ffxiv/collections.css"
+---
+
+{% set c = ffxivCollections %}
+
+<div class="ff-collection">
+  <section class="ff-collection-panel ff-collection-hero">
+    <div>
+      <p class="ff-collection-kicker">✦ collection log ✦</p>
+      <h1>Aggro's Hoard</h1>
+      <p class="ff-collection-lede">
+        Everything already collected lives here. Shopping stays in the treasury;
+        the hoard is the record of the things Aggro actually owns.
+      </p>
+    </div>
+
+    <div class="ff-collection-hero__mark" aria-hidden="true">
+      <span>◇</span><b>✦</b><span>♡</span>
+    </div>
+  </section>
+
+  {% if c and c.featured and c.featured.length %}
+    <section class="ff-collection-summary" aria-label="Collection summary">
+      {% for shelf in c.featured %}
+        <a class="ff-collection-stat" href="#{{ shelf.type }}" data-open-shelf="{{ shelf.type }}">
+          <span class="ff-collection-stat__icon" aria-hidden="true">{{ shelf.icon }}</span>
+          <span class="ff-collection-stat__copy">
+            <small>{{ shelf.title }}</small>
+            <strong>{{ shelf.ownedCount }}</strong>
+            {% if shelf.catalogueCount %}
+              <span>of {{ shelf.catalogueCount }}</span>
+            {% else %}
+              <span>owned</span>
+            {% endif %}
+          </span>
+          {% if shelf.catalogueCount %}
+            <span class="ff-collection-mini-progress" aria-hidden="true">
+              <span style="width: {{ shelf.completionPercent }}%"></span>
+            </span>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% if not c or not c.ok %}
+    <section class="ff-collection-panel ff-collection-sync-note">
+      <strong>Collection data did not refresh on this build.</strong>
+      <p>No guessed owned cards are shown when the exact list is unavailable.</p>
+    </section>
+  {% endif %}
+
+  {% if c and c.categories and c.categories.length %}
+    <section class="ff-collection-panel ff-collection-tools" aria-label="Collection controls">
+      <label class="ff-collection-search">
+        <span>Find something in the hoard</span>
+        <input
+          type="search"
+          placeholder="search mounts, minions, songs…"
+          data-collection-search
+        >
+      </label>
+
+      <div class="ff-collection-tool-buttons">
+        <button type="button" data-collection-open-all>Open all</button>
+        <button type="button" data-collection-close-all>Close all</button>
+      </div>
+
+      <nav class="ff-collection-jumps" aria-label="Collection shelves">
+        {% for shelf in c.categories %}
+          <a href="#{{ shelf.type }}" data-open-shelf="{{ shelf.type }}">{{ shelf.icon }} {{ shelf.title }}</a>
+        {% endfor %}
+      </nav>
+    </section>
+
+    <div class="ff-collection-shelves">
+      {% for shelf in c.categories %}
+        <details
+          class="ff-collection-shelf"
+          id="{{ shelf.type }}"
+          data-collection-shelf
+        >
+          <summary class="ff-collection-shelf__summary">
+            <span class="ff-collection-shelf__identity">
+              <span class="ff-collection-shelf__icon" aria-hidden="true">{{ shelf.icon }}</span>
+              <span>
+                <span class="ff-collection-kicker">
+                  {% if shelf.mode == "exact-sync" %}
+                    exact Lodestone-backed collection
+                  {% elif shelf.mode == "manual" %}
+                    personal collection record
+                  {% else %}
+                    in-game owned export
+                  {% endif %}
+                </span>
+                <strong class="ff-collection-shelf__title">{{ shelf.title }}</strong>
+              </span>
+            </span>
+
+            <span class="ff-collection-shelf__numbers">
+              <strong>{{ shelf.ownedCount }}</strong>
+              <span>
+                owned{% if shelf.catalogueCount %} · {{ shelf.completionPercent }}%{% endif %}
+              </span>
+            </span>
+
+            <span class="ff-collection-chevron" aria-hidden="true">⌄</span>
+          </summary>
+
+          <div class="ff-collection-shelf__body">
+            {% if shelf.catalogueCount %}
+              <div class="ff-collection-progress-wrap">
+                <div class="ff-collection-progress-copy">
+                  <span>{{ shelf.ownedCount }} / {{ shelf.catalogueCount }}</span>
+                  <strong>{{ shelf.completionPercent }}%</strong>
+                </div>
+                <div class="ff-collection-progress" aria-hidden="true">
+                  <span style="width: {{ shelf.completionPercent }}%"></span>
+                </div>
+              </div>
+            {% endif %}
+
+            {% if shelf.syncGap > 0 and shelf.items and shelf.items.length %}
+              <p class="ff-collection-data-note">
+                Lodestone reports {{ shelf.ownedCount }} owned and this build identified
+                {{ shelf.items.length }} of them exactly. The remaining
+                {{ shelf.syncGap }} {% if shelf.syncGap == 1 %}card is{% else %}cards are{% endif %}
+                left out instead of being guessed.
+              </p>
+            {% elseif not shelf.listKnown and shelf.ownedCount %}
+              <p class="ff-collection-data-note">
+                The owned total is available, but the exact item list did not refresh.
+                This shelf is deliberately blank rather than showing guessed matches.
+              </p>
+            {% endif %}
+
+            {% if shelf.items and shelf.items.length %}
+              <div class="ff-collection-grid">
+                {% for item in shelf.items %}
+                  <article
+                    class="ff-collection-item"
+                    data-collection-item
+                    data-collection-name="{{ item.name | lower }} {{ item.source | lower }} {{ item.patch or '' }}"
+                  >
+                    <div class="ff-collection-item__art">
+                      {% if item.image %}
+                        <img src="{{ item.image }}" alt="" loading="lazy" decoding="async">
+                      {% else %}
+                        <span aria-hidden="true">{{ shelf.icon }}</span>
+                      {% endif %}
+
+                      {% if item.favourite %}
+                        <span class="ff-collection-badge ff-collection-badge--fave">♡ fave</span>
+                      {% elseif item.rare %}
+                        <span class="ff-collection-badge">✦ rare</span>
+                      {% endif %}
+                    </div>
+
+                    <div class="ff-collection-item__copy">
+                      <h3>{{ item.name }}</h3>
+
+                      {% if item.patch or item.source %}
+                        <p class="ff-collection-item__meta">
+                          {% if item.patch %}<span>Patch {{ item.patch }}</span>{% endif %}
+                          {% if item.source %}<span>{{ item.source }}</span>{% endif %}
+                        </p>
+                      {% endif %}
+
+                      {% if item.note %}
+                        <p class="ff-collection-item__note">{{ item.note }}</p>
+                      {% endif %}
+                    </div>
+                  </article>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <p class="ff-collection-no-results" data-collection-empty hidden>
+              Nothing on this shelf matches that search.
+            </p>
+          </div>
+        </details>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <section class="ff-collection-panel ff-collection-footer-card">
+    <div>
+      <p class="ff-collection-kicker">◇ collection, not shopping list</p>
+      <h2>Want list stays separate.</h2>
+      <p>
+        Things still worth buying belong in the Frog Treasury. Glam hunts and
+        long-haul goals keep their own project pages; this page is the owned stuff.
+      </p>
+    </div>
+    <div class="ff-collection-footer-card__links">
+      <a href="/shrines/finalfantasyxiv/gil/">Open Gil Goals →</a>
+      <a href="/shrines/finalfantasyxiv/glams/">Browse glams →</a>
+    </div>
+  </section>
+</div>
+
+<script>
+  (() => {
+    const input = document.querySelector("[data-collection-search]");
+    const shelves = [...document.querySelectorAll("[data-collection-shelf]")];
+    const openAll = document.querySelector("[data-collection-open-all]");
+    const closeAll = document.querySelector("[data-collection-close-all]");
+    const jumpLinks = [...document.querySelectorAll("[data-open-shelf]")];
+
+    const openShelfById = (id) => {
+      const shelf = document.getElementById(id);
+      if (!shelf) return;
+      shelf.hidden = false;
+      shelf.open = true;
+    };
+
+    if (location.hash) {
+      openShelfById(location.hash.slice(1));
+    }
+
+    jumpLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        openShelfById(link.dataset.openShelf);
+      });
+    });
+
+    openAll?.addEventListener("click", () => {
+      shelves.forEach((shelf) => {
+        shelf.hidden = false;
+        shelf.open = true;
+      });
+    });
+
+    closeAll?.addEventListener("click", () => {
+      shelves.forEach((shelf) => {
+        shelf.open = false;
+      });
+    });
+
+    if (!input) return;
+
+    let searchOpenState = null;
+
+    input.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+
+      if (query && !searchOpenState) {
+        searchOpenState = new Map(shelves.map((shelf) => [shelf, shelf.open]));
+      }
+
+      shelves.forEach((shelf) => {
+        const items = [...shelf.querySelectorAll("[data-collection-item]")];
+        const empty = shelf.querySelector("[data-collection-empty]");
+        let visible = 0;
+
+        items.forEach((item) => {
+          const haystack = item.dataset.collectionName || "";
+          const matches = !query || haystack.includes(query);
+          item.hidden = !matches;
+          if (matches) visible += 1;
+        });
+
+        if (query) {
+          shelf.hidden = visible === 0;
+          shelf.open = visible > 0;
+        } else {
+          shelf.hidden = false;
+          if (searchOpenState) {
+            shelf.open = Boolean(searchOpenState.get(shelf));
+          }
+        }
+
+        if (empty) empty.hidden = !query || visible !== 0;
+      });
+
+      if (!query) searchOpenState = null;
+    });
+  })();
+</script>

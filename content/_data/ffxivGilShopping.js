@@ -296,6 +296,16 @@ function lodestonePageCount(html) {
   return 1;
 }
 
+function lodestoneTotalCount(html) {
+  const $ = load(html);
+  const text = cleanText($("body").text());
+  const match = text.match(/\bTotal:\s*([\d,]+)/i);
+  if (!match) return null;
+
+  const total = Number(match[1].replace(/[^\d]/g, ""));
+  return Number.isFinite(total) ? total : null;
+}
+
 function matchCatalogNamesInHtml(html, catalog) {
   const $ = load(html);
   const found = new Set();
@@ -336,33 +346,130 @@ function matchCatalogNamesInHtml(html, catalog) {
   return owned;
 }
 
-async function fetchLodestoneOwned(type, catalog) {
-  const singular = type === "mounts" ? "mount" : "minion";
-  const firstUrl = `${LODESTONE_BASE}/${singular}/?page=1`;
 
-  const firstHtml = await fetchCached(firstUrl, {
-    ttl: SIX_HOURS,
-  });
+// Shared rule with Aggro's Hoard: mount/minion ownership must come from the
+// exact names in Lodestone's mobile collection markup. Never fuzzy-match the
+// whole page, because that can mark collectibles Aggro does not own as owned.
+const GIL_LODESTONE_EXACT_CHARACTER_ID = "56132424";
+const GIL_LODESTONE_MOBILE_USER_AGENT =
+  "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) " +
+  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36";
 
-  const pages = lodestonePageCount(firstHtml);
-  const owned = matchCatalogNamesInHtml(firstHtml, catalog);
+function gilExactNameKey(value = "") {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .normalize("NFKC")
+    .replace(/[’‘]/g, "'")
+    .replace(/[‐‑‒–—]/g, "-")
+    .toLocaleLowerCase("en");
+}
 
-  for (let page = 2; page <= pages; page += 1) {
-    const html = await fetchCached(
-      `${LODESTONE_BASE}/${singular}/?page=${page}`,
-      { ttl: SIX_HOURS },
+function gilLodestoneKind(kind) {
+  const value = String(kind || "").toLowerCase();
+  if (value.startsWith("mount")) return "mount";
+  if (value.startsWith("minion")) return "minion";
+  throw new Error(`Unsupported Lodestone collection kind: ${kind}`);
+}
+
+function gilLodestoneTotal(html) {
+  const $ = load(html);
+  const text = String($("body").text() || "").replace(/\s+/g, " ").trim();
+  const match = text.match(/\bTotal\s*:\s*([\d,]+)/i);
+  return match ? Number(match[1].replace(/,/g, "")) : null;
+}
+
+async function fetchLodestoneOwned(kind, catalog) {
+  const singular = gilLodestoneKind(kind);
+  const selector = singular === "mount" ? ".mount__name" : ".minion__name";
+  const url = `https://eu.finalfantasyxiv.com/lodestone/character/${GIL_LODESTONE_EXACT_CHARACTER_ID}/${singular}/`;
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": GIL_LODESTONE_MOBILE_USER_AGENT,
+        Accept: "text/html,application/xhtml+xml",
+      },
+    });
+
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const html = await response.text();
+    const $ = load(html);
+    const totalCount = gilLodestoneTotal(html);
+
+    const catalogueByExactName = new Map();
+    for (const item of Array.isArray(catalog) ? catalog : []) {
+      const key = gilExactNameKey(item?.name);
+      if (key) catalogueByExactName.set(key, item);
+    }
+
+    const owned = new Set();
+    const rawNames = new Set();
+    const unmatched = new Set();
+
+    $(selector).each((_, element) => {
+      const rawName = String($(element).text() || "").replace(/\s+/g, " ").trim();
+      if (!rawName) return;
+
+      rawNames.add(rawName);
+      const matched = catalogueByExactName.get(gilExactNameKey(rawName));
+
+      if (matched) {
+        // summarizeCategory() compares against item.normalizedName, so retain
+        // that exact catalogue key rather than inventing another normalizer.
+        owned.add(matched.normalizedName ?? gilExactNameKey(matched.name));
+      } else {
+        unmatched.add(rawName);
+      }
+    });
+
+    const authoritativeCount = totalCount ?? rawNames.size;
+
+    if (authoritativeCount > 0 && rawNames.size === 0) {
+      throw new Error(
+        `Lodestone reported ${authoritativeCount} ${singular}s, but ${selector} returned none`,
+      );
+    }
+
+    if (unmatched.size) {
+      console.warn(
+        `[ffxiv-gil] ${singular}: ${unmatched.size} exact Lodestone names were not in the shopping catalogue: ${[...unmatched].join(", ")}`,
+      );
+    }
+
+    if (owned.size !== authoritativeCount) {
+      console.warn(
+        `[ffxiv-gil] ${singular}: Lodestone says ${authoritativeCount} owned; ${owned.size} names matched the catalogue exactly. Unmatched entries will NOT be guessed.`,
+      );
+    }
+
+    console.log(
+      `[ffxiv-gil] ${singular}: ${owned.size} exact named ownership matches / ${authoritativeCount} owned (lodestone-mobile-exact).`,
     );
 
-    for (const name of matchCatalogNamesInHtml(html, catalog)) {
-      owned.add(name);
-    }
-  }
+    return {
+      names: owned,
+      known: true,
+      pageCount: 1,
+      totalCount: authoritativeCount,
+      source: "lodestone-mobile-exact",
+    };
+  } catch (error) {
+    // Fail closed. If exact ownership cannot be read, do not fall back to fuzzy
+    // matching and accidentally put already-owned collectibles on the wishlist.
+    console.warn(
+      `[ffxiv-gil] Exact ${singular} ownership unavailable: ${error.message}`,
+    );
 
-  return {
-    names: owned,
-    known: owned.size > 0,
-    pageCount: pages,
-  };
+    return {
+      names: new Set(),
+      known: false,
+      pageCount: 0,
+      totalCount: null,
+      source: null,
+    };
+  }
 }
 
 function chunks(values, size) {
@@ -465,13 +572,15 @@ function summarizeCategory({
   catalog,
   ownedNames,
   ownershipKnown,
+  ownedTotalCount = null,
   manualOwned = new Set(),
   ignored = new Set(),
   prices,
 }) {
-  const isOwned = (item) => {
-    if (ignored.has(item.normalizedName)) return true;
-
+  // Keep actual collection ownership separate from the shopping ignore list.
+  // An ignored collectible should disappear from the shopping page, but it
+  // must never be falsely counted as something Aggro owns.
+  const isCollected = (item) => {
     if (type === "orchestrions") {
       return manualOwned.has(normalizeOrchestrionName(item.name));
     }
@@ -479,13 +588,28 @@ function summarizeCategory({
     return ownedNames.has(item.normalizedName);
   };
 
+  const isOwned = (item) =>
+    ignored.has(item.normalizedName) || isCollected(item);
+
+  const ownedItems = ownershipKnown
+    ? catalog
+        .filter(isCollected)
+        .sort((a, b) => a.name.localeCompare(b.name, "en"))
+    : [];
+
+  const ownedCount = ownershipKnown
+    ? Math.max(ownedItems.length, Number(ownedTotalCount || 0))
+    : 0;
+
   const buyable = catalog.filter(
     (item) =>
       item.vendorPrice != null ||
       (item.tradeable && item.itemId != null),
   );
 
-  const missing = buyable.filter((item) => !isOwned(item));
+  const missing = ownershipKnown
+    ? buyable.filter((item) => !isOwned(item))
+    : [];
 
   // Fixed-price vendor items are kept out of the MB bucket to avoid double
   // counting the shopping budget. If they are tradeable, the vendor is still
@@ -539,6 +663,19 @@ function summarizeCategory({
           : "unknown",
 
     catalogueCount: catalog.length,
+
+    // Full collection fields. These intentionally count every catalogued
+    // collectible Aggro owns, not only items that can be bought with gil.
+    ownedCount,
+    ownedItems,
+    missingCatalogueCount: ownershipKnown
+      ? Math.max(0, catalog.length - ownedCount)
+      : null,
+    catalogueCompletionPercent: ownershipKnown
+      ? percent(Math.min(ownedCount, catalog.length), catalog.length)
+      : 0,
+
+    // Shopping-only fields retained for the gil page.
     buyableCount: buyable.length,
     missingCount: missing.length,
     ownedBuyableCount: Math.max(0, buyable.length - missing.length),
@@ -620,6 +757,7 @@ async function buildShoppingList() {
     catalog: mountCatalog,
     ownedNames: mountOwned.names,
     ownershipKnown: mountOwned.known,
+    ownedTotalCount: mountOwned.totalCount,
     ignored,
     prices,
   });
@@ -629,6 +767,7 @@ async function buildShoppingList() {
     catalog: minionCatalog,
     ownedNames: minionOwned.names,
     ownershipKnown: minionOwned.known,
+    ownedTotalCount: minionOwned.totalCount,
     ignored,
     prices,
   });
@@ -638,6 +777,7 @@ async function buildShoppingList() {
     catalog: orchestrionCatalog,
     ownedNames: new Set(),
     ownershipKnown: manualOrchestrions.size > 0,
+    ownedTotalCount: manualOrchestrions.size,
     manualOwned: manualOrchestrions,
     ignored,
     prices,
@@ -723,6 +863,10 @@ export default async function () {
       ownershipKnown: false,
       ownershipMode: "unknown",
       catalogueCount: 0,
+      ownedCount: 0,
+      ownedItems: [],
+      missingCatalogueCount: null,
+      catalogueCompletionPercent: 0,
       buyableCount: 0,
       missingCount: 0,
       ownedBuyableCount: 0,

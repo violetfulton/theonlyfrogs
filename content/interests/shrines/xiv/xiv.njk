@@ -2,11 +2,12 @@
 title: "Final Fantasy XIV"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/
-description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievements, little goals, glams, housing plans, screenshots, and Eorzean progress."
+description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievements, collections, glams, housing, screenshots, gil goals, and Eorzean progress."
 ---
 
 {% set d = ffxivAchievementDashboard %}
 {% set g = ffxivGlamProjects %}
+{% set c = ffxivCollections %}
 
 {% if g and g.projects and g.projects.length %}
   {% set closestGlam = g.projects[0] %}
@@ -70,9 +71,9 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
       <p class="ff-home-lede">
         A fresh little life in Eorzea. This is where I’m keeping
         the things I actually care about: progress I’m proud of,
-        achievements I can chase next, pretty glams, housing ideas,
-        gil goals, screenshots, and whatever tiny obsession has
-        taken over my brain this week.
+        achievements I can chase next, everything I’ve collected, pretty
+        glams, housing ideas, gil goals, screenshots, and whatever tiny
+        obsession has taken over my brain this week.
       </p>
 
       <div class="ff-home-actions">
@@ -81,6 +82,13 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
           href="/shrines/finalfantasyxiv/achievements/"
         >
           Open achievement journal
+          <span aria-hidden="true">→</span>
+        </a>
+        <a
+          class="ff-button"
+          href="/shrines/finalfantasyxiv/collections/"
+        >
+          Open collection log
           <span aria-hidden="true">→</span>
         </a>
 
@@ -179,6 +187,44 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
       {% endif %}
     </aside>
   </section>
+
+
+  {# =========================================================
+     COLLECTION SNAPSHOT
+     ========================================================= #}
+  {% if c and c.featured and c.featured.length %}
+    <section
+      class="ff-home-now"
+      aria-labelledby="ff-hoard-title"
+    >
+      <div class="ff-home-section-heading ff-home-section-heading--outside">
+        <div>
+          <p class="ff-home-kicker">✦ tucked safely away</p>
+          <h2 id="ff-hoard-title">Aggro's Hoard</h2>
+        </div>
+        <p>Full owned collections — not just the bits that can be bought.</p>
+      </div>
+
+      <div class="ff-home-now-grid">
+        {% for shelf in c.featured %}
+          <article class="ff-home-now-card{% if loop.index == 2 %} ff-home-now-card--pink{% elif loop.index == 3 %} ff-home-now-card--lavender{% endif %}">
+            <span class="ff-home-now-card__eyebrow">{{ shelf.title }}</span>
+            <div class="ff-home-now-card__icon" aria-hidden="true">{{ shelf.icon }}</div>
+            <h3>{{ shelf.ownedCount }} owned</h3>
+            {% if shelf.catalogueCount %}
+              <p>
+                {{ shelf.ownedCount }} / {{ shelf.catalogueCount }} catalogued
+                · <strong>{{ shelf.completionPercent }}%</strong>
+              </p>
+            {% endif %}
+            <a href="/shrines/finalfantasyxiv/collections/#{{ shelf.type }}">
+              Open shelf →
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 
 
   {# =========================================================
@@ -643,6 +689,30 @@ description: "My personal Final Fantasy XIV shrine — Aggro Phobic's achievemen
             open the achievement journal →
           </span>
 
+        {% endif %}
+      </a>
+
+
+      {# COLLECTION #}
+      <a
+        class="ff-home-nav-card"
+        href="/shrines/finalfantasyxiv/collections/"
+      >
+        <span class="ff-home-nav-card__symbol" aria-hidden="true">♢</span>
+        <span class="ff-home-nav-card__label">Treasure shelves</span>
+        <h3>Collection</h3>
+        <p>
+          Mounts, minions, orchestrion rolls, and the rest of Aggro’s
+          collected little treasures in one proper owned log.
+        </p>
+        {% if c and c.featured and c.featured.length %}
+          <span class="ff-home-nav-card__meta">
+            {{ c.mounts.ownedCount }} mounts ·
+            {{ c.minions.ownedCount }} minions ·
+            {{ c.orchestrions.ownedCount }} rolls
+          </span>
+        {% else %}
+          <span class="ff-home-nav-card__meta">open the collection log →</span>
         {% endif %}
       </a>
 

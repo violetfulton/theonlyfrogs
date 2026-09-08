@@ -1,0 +1,88 @@
+{
+  "shelves": [
+    {
+      "type": "hairstyles",
+      "title": "Hairstyles",
+      "icon": "✂",
+      "items": []
+    },
+    {
+      "type": "emotes",
+      "title": "Emotes",
+      "icon": "♡",
+      "items": []
+    },
+    {
+      "type": "bardings",
+      "title": "Chocobo Bardings",
+      "icon": "♘",
+      "items": []
+    },
+    {
+      "type": "facewear",
+      "title": "Facewear",
+      "icon": "◌",
+      "items": []
+    },
+    {
+      "type": "fashion-accessories",
+      "title": "Fashion Accessories",
+      "icon": "☂",
+      "items": []
+    },
+    {
+      "type": "armoire",
+      "title": "Armoire",
+      "icon": "♜",
+      "items": []
+    },
+    {
+      "type": "outfits",
+      "title": "Outfits & Sets",
+      "icon": "♙",
+      "items": []
+    },
+    {
+      "type": "framers-kits",
+      "title": "Framer's Kits",
+      "icon": "▣",
+      "items": []
+    },
+    {
+      "type": "portrait-frames",
+      "title": "Portrait Frames",
+      "icon": "▧",
+      "items": []
+    },
+    {
+      "type": "triple-triad",
+      "title": "Triple Triad Cards",
+      "icon": "▤",
+      "items": []
+    },
+    {
+      "type": "blue-magic",
+      "title": "Blue Magic",
+      "icon": "✦",
+      "items": []
+    },
+    {
+      "type": "relics",
+      "title": "Relics & Special Weapons",
+      "icon": "⚔",
+      "items": []
+    },
+    {
+      "type": "housing-trophies",
+      "title": "Housing Trophies",
+      "icon": "⌂",
+      "items": []
+    },
+    {
+      "type": "special-treasures",
+      "title": "Special Treasures",
+      "icon": "◇",
+      "items": []
+    }
+  ]
+}

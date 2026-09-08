@@ -1,0 +1,604 @@
+/* Aggro's Hoard */
+
+.ff-collection {
+  display: grid;
+  gap: 1rem;
+  color: var(--ff-text);
+}
+
+.ff-collection-panel,
+.ff-collection-shelf,
+.ff-collection-stat {
+  background: var(--ff-white);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 2px solid var(--ff-border);
+  box-shadow: var(--ff-shadow);
+}
+
+.ff-collection-panel {
+  border-radius: 26px;
+  padding: 1rem 1.15rem;
+}
+
+.ff-collection-kicker {
+  display: block;
+  margin: 0 0 0.2rem;
+  font-family: "Gaegu", cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ff-pink-4);
+}
+
+.ff-collection-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 1.25rem;
+}
+
+.ff-collection-hero h1,
+.ff-collection-footer-card h2 {
+  margin: 0;
+  font-family: "Gaegu", cursive;
+  color: var(--ff-pink-4);
+}
+
+.ff-collection-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+.ff-collection-lede {
+  max-width: 62ch;
+  margin: 0.55rem 0 0;
+  color: var(--ff-text-soft);
+  line-height: 1.6;
+}
+
+.ff-collection-hero__mark {
+  position: relative;
+  width: 8.5rem;
+  height: 6.2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 46% 54% 50% 50%;
+  border: 2px solid rgba(231, 139, 192, 0.26);
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.9), transparent 28%),
+    linear-gradient(145deg, rgba(255, 216, 238, 0.72), rgba(236, 223, 255, 0.7));
+  box-shadow: 0 8px 20px rgba(209, 126, 171, 0.12);
+  font-family: "Gaegu", cursive;
+}
+
+.ff-collection-hero__mark b {
+  font-size: 2.9rem;
+  color: var(--ff-pink-4);
+}
+
+.ff-collection-hero__mark span {
+  position: absolute;
+  color: #9b4f79;
+  font-size: 1.25rem;
+}
+
+.ff-collection-hero__mark span:first-child { left: 0.9rem; bottom: 0.7rem; }
+.ff-collection-hero__mark span:last-child { right: 0.85rem; top: 0.65rem; }
+
+.ff-collection-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.ff-collection-stat {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem;
+  align-items: center;
+  min-width: 0;
+  padding: 0.8rem 0.9rem;
+  border-radius: 22px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ff-collection-stat:hover,
+.ff-collection-stat:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 16px rgba(214, 126, 176, 0.18);
+}
+
+.ff-collection-stat__icon {
+  width: 2.65rem;
+  height: 2.65rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #9b4f79;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  border: 2px solid rgba(224, 123, 180, 0.25);
+  font-size: 1.25rem;
+}
+
+.ff-collection-stat__copy {
+  min-width: 0;
+}
+
+.ff-collection-stat small,
+.ff-collection-stat strong,
+.ff-collection-stat__copy > span {
+  display: block;
+}
+
+.ff-collection-stat small {
+  color: var(--ff-text-soft);
+  font-weight: 700;
+}
+
+.ff-collection-stat strong {
+  margin: 0.05rem 0;
+  color: var(--ff-pink-4);
+  font-family: "Gaegu", cursive;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.ff-collection-stat__copy > span {
+  color: var(--ff-text-soft);
+  font-size: 0.75rem;
+}
+
+.ff-collection-mini-progress {
+  grid-column: 1 / -1;
+  height: 5px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(201, 92, 158, 0.1);
+}
+
+.ff-collection-mini-progress > span,
+.ff-collection-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--ff-pink-3), #c5aef2);
+}
+
+.ff-collection-tools {
+  display: grid;
+  grid-template-columns: minmax(15rem, 1fr) auto;
+  gap: 0.75rem 1rem;
+  align-items: end;
+}
+
+.ff-collection-search {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.ff-collection-search > span {
+  color: var(--ff-text-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.ff-collection-search input {
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid rgba(231, 139, 192, 0.32);
+  border-radius: 14px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.74);
+  color: var(--ff-text);
+  font: inherit;
+}
+
+.ff-collection-search input:focus {
+  border-color: rgba(201, 92, 158, 0.55);
+  box-shadow: 0 0 0 3px rgba(247, 179, 219, 0.2);
+}
+
+.ff-collection-tool-buttons {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.ff-collection-tool-buttons button,
+.ff-collection-jumps a,
+.ff-collection-footer-card__links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(224, 123, 180, 0.3);
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  box-shadow: 0 4px 12px rgba(214, 126, 176, 0.12);
+  color: #9b4f79;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ff-collection-tool-buttons button {
+  min-height: 2.55rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.ff-collection-tool-buttons button:hover,
+.ff-collection-jumps a:hover,
+.ff-collection-footer-card__links a:hover,
+.ff-collection-tool-buttons button:focus-visible,
+.ff-collection-jumps a:focus-visible,
+.ff-collection-footer-card__links a:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 16px rgba(214, 126, 176, 0.18);
+}
+
+.ff-collection-jumps {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.ff-collection-jumps a {
+  padding: 0.38rem 0.65rem;
+}
+
+.ff-collection-shelves {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ff-collection-shelf {
+  scroll-margin-top: 1rem;
+  overflow: clip;
+  border-radius: 24px;
+}
+
+.ff-collection-shelf[hidden] {
+  display: none;
+}
+
+.ff-collection-shelf__summary {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 0.8rem;
+  align-items: center;
+  min-height: 4.7rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 247, 252, 0.76) 0%,
+    rgba(255, 229, 243, 0.62) 100%
+  );
+}
+
+.ff-collection-shelf__summary::-webkit-details-marker {
+  display: none;
+}
+
+.ff-collection-shelf__summary:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 247, 252, 0.94) 0%,
+    rgba(255, 217, 239, 0.74) 100%
+  );
+}
+
+.ff-collection-shelf[open] > .ff-collection-shelf__summary {
+  border-bottom: 2px solid rgba(231, 139, 192, 0.24);
+}
+
+.ff-collection-shelf__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-width: 0;
+}
+
+.ff-collection-shelf__icon {
+  flex: 0 0 auto;
+  width: 2.9rem;
+  height: 2.9rem;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffd9ef 0%, #ffc6e5 100%);
+  border: 2px solid rgba(224, 123, 180, 0.28);
+  color: #9b4f79;
+  font-size: 1.35rem;
+}
+
+.ff-collection-shelf__title {
+  display: block;
+  overflow: hidden;
+  color: var(--ff-pink-4);
+  font-family: "Gaegu", cursive;
+  font-size: 1.45rem;
+  line-height: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ff-collection-shelf__numbers {
+  min-width: 4.4rem;
+  text-align: right;
+}
+
+.ff-collection-shelf__numbers strong,
+.ff-collection-shelf__numbers span {
+  display: block;
+}
+
+.ff-collection-shelf__numbers strong {
+  color: var(--ff-pink-4);
+  font-family: "Gaegu", cursive;
+  font-size: 1.65rem;
+  line-height: 1;
+}
+
+.ff-collection-shelf__numbers span {
+  margin-top: 0.1rem;
+  color: var(--ff-text-soft);
+  font-size: 0.68rem;
+  white-space: nowrap;
+}
+
+.ff-collection-chevron {
+  display: inline-grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  color: #9b4f79;
+  background: rgba(255, 255, 255, 0.6);
+  transform: rotate(0deg);
+  transition: transform 0.18s ease;
+}
+
+.ff-collection-shelf[open] .ff-collection-chevron {
+  transform: rotate(180deg);
+}
+
+.ff-collection-shelf__body {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.ff-collection-progress-wrap {
+  margin: 0 0 0.8rem;
+}
+
+.ff-collection-progress-copy {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+  color: var(--ff-text-soft);
+  font-size: 0.74rem;
+}
+
+.ff-collection-progress {
+  height: 7px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(201, 92, 158, 0.1);
+}
+
+.ff-collection-data-note {
+  margin: 0 0 0.8rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px dashed rgba(201, 92, 158, 0.3);
+  border-radius: 14px;
+  background: rgba(255, 247, 252, 0.68);
+  color: var(--ff-text-soft);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.ff-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.55rem;
+}
+
+.ff-collection-item {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid rgba(231, 139, 192, 0.26);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.52);
+  content-visibility: auto;
+  contain-intrinsic-size: 74px;
+}
+
+.ff-collection-item[hidden] {
+  display: none;
+}
+
+.ff-collection-item__art {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid rgba(231, 139, 192, 0.22);
+  background: linear-gradient(145deg, rgba(255, 216, 238, 0.42), rgba(236, 223, 255, 0.45));
+}
+
+.ff-collection-item__art img {
+  display: block;
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.ff-collection-item__art > span:not(.ff-collection-badge) {
+  color: #9b4f79;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
+.ff-collection-badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 0.16rem 0.32rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #8e5ebc;
+  font-size: 0.55rem;
+  font-weight: 800;
+}
+
+.ff-collection-badge--fave {
+  color: #b64f87;
+}
+
+.ff-collection-item__copy {
+  min-width: 0;
+}
+
+.ff-collection-item h3 {
+  margin: 0;
+  color: var(--ff-text);
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.ff-collection-item__meta,
+.ff-collection-item__note {
+  margin: 0.25rem 0 0;
+  color: var(--ff-text-soft);
+  font-size: 0.63rem;
+  line-height: 1.35;
+}
+
+.ff-collection-item__meta {
+  display: grid;
+  gap: 0.08rem;
+}
+
+.ff-collection-item__meta span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ff-collection-item__note {
+  color: #95577d;
+  font-family: "Gaegu", cursive;
+  font-size: 0.78rem;
+}
+
+.ff-collection-no-results,
+.ff-collection-sync-note {
+  text-align: center;
+}
+
+.ff-collection-no-results {
+  margin: 0.8rem 0 0;
+  color: var(--ff-text-soft);
+  font-size: 0.8rem;
+}
+
+.ff-collection-sync-note p {
+  margin-bottom: 0;
+}
+
+.ff-collection-footer-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ff-collection-footer-card > div:first-child {
+  max-width: 60ch;
+}
+
+.ff-collection-footer-card p:last-child {
+  margin-bottom: 0;
+  color: var(--ff-text-soft);
+}
+
+.ff-collection-footer-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+.ff-collection-footer-card__links a {
+  padding: 0.5rem 0.75rem;
+}
+
+@media (max-width: 760px) {
+  .ff-collection-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-collection-hero__mark {
+    display: none;
+  }
+
+  .ff-collection-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-collection-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-collection-jumps {
+    grid-column: 1;
+  }
+
+  .ff-collection-footer-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ff-collection-footer-card__links {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+  .ff-collection-shelf__summary {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .ff-collection-shelf__numbers {
+    display: none;
+  }
+
+  .ff-collection-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ff-collection-shelf__body {
+    padding-inline: 0.7rem;
+  }
+}
