@@ -180,6 +180,11 @@
     "ItemName": "Cold Salvation Orchestrion Roll"
   },
   {
+    "RowId": 605,
+    "Title": "Conundrum",
+    "ItemName": "Conundrum Orchestrion Roll"
+  },
+  {
     "RowId": 372,
     "Title": "Crumbling Lies (Front)",
     "ItemName": "Crumbling Lies (Front) Orchestrion Roll"
@@ -188,6 +193,11 @@
     "RowId": 198,
     "Title": "Cyan\u0027s Theme",
     "ItemName": "Cyan\u0027s Theme Orchestrion Roll"
+  },
+  {
+    "RowId": 609,
+    "Title": "Damnation",
+    "ItemName": "Damnation Orchestrion Roll"
   },
   {
     "RowId": 200,
@@ -305,6 +315,11 @@
     "ItemName": "Fortress of Lies Orchestrion Roll"
   },
   {
+    "RowId": 604,
+    "Title": "Fracture",
+    "ItemName": "Fracture Orchestrion Roll"
+  },
+  {
     "RowId": 219,
     "Title": "Fragments of Forever",
     "ItemName": "Fragments of Forever Orchestrion Roll"
@@ -375,6 +390,11 @@
     "ItemName": "Jewel Orchestrion Roll"
   },
   {
+    "RowId": 607,
+    "Title": "Kiss of Chaos",
+    "ItemName": "Kiss of Chaos Orchestrion Roll"
+  },
+  {
     "RowId": 682,
     "Title": "Life Bound by Honor",
     "ItemName": "Life Bound by Honor Orchestrion Roll"
@@ -393,6 +413,11 @@
     "RowId": 660,
     "Title": "Lost in the Deep",
     "ItemName": "Lost in the Deep Orchestrion Roll"
+  },
+  {
+    "RowId": 608,
+    "Title": "Machinations",
+    "ItemName": "Machinations Orchestrion Roll"
   },
   {
     "RowId": 849,
@@ -490,6 +515,11 @@
     "ItemName": "Protagonist\u0027s Theme Orchestrion Roll"
   },
   {
+    "RowId": 863,
+    "Title": "Pulper of Inquiry",
+    "ItemName": "Pulper of Inquiry Orchestrion Roll"
+  },
+  {
     "RowId": 131,
     "Title": "Quicksand",
     "ItemName": "Quicksand Orchestrion Roll"
@@ -503,6 +533,11 @@
     "RowId": 752,
     "Title": "Remembrance",
     "ItemName": "Remembrance Orchestrion Roll"
+  },
+  {
+    "RowId": 606,
+    "Title": "Return of the Hero",
+    "ItemName": "Return of the Hero Orchestrion Roll"
   },
   {
     "RowId": 113,
@@ -553,6 +588,11 @@
     "RowId": 108,
     "Title": "Sins of the Father, Sins of the Son",
     "ItemName": "Sins of the Father, Sins of the Son Orchestrion Roll"
+  },
+  {
+    "RowId": 610,
+    "Title": "Skullduggery",
+    "ItemName": "Skullduggery Orchestrion Roll"
   },
   {
     "RowId": 688,
@@ -708,6 +748,11 @@
     "RowId": 732,
     "Title": "Town Theme (Dawntrail)",
     "ItemName": "Town Theme (Dawntrail) Orchestrion Roll"
+  },
+  {
+    "RowId": 611,
+    "Title": "Tranquility",
+    "ItemName": "Tranquility Orchestrion Roll"
   },
   {
     "RowId": 28,
