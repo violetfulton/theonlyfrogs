@@ -4,84 +4,255 @@ layout: base.njk
 customcss: '/assets/css/shrine.css'
 permalink: /shrines/
 ---
-  <div class="title">
-    <img src="/assets/imgs/graphics/shrinetitle.png" width="600px" alt="Shrine Title">
+
+<main class="shrine-page">
+
+  <header class="shrine-header">
+    <img
+      class="shrine-title"
+      src="/assets/imgs/graphics/shrinetitle.png"
+      alt="Shrines"
+    >
+
+    <div class="shrine-intro">
+      <p class="intro-heading">♡ welcome to my shrine room ♡</p>
+
+      <p>
+        this is where i keep pages for things i love far too much.
+        some are carefully organised archives, some are ongoing projects,
+        and some are just an excuse to decorate a webpage around something
+        that has permanently occupied space in my brain.
+      </p>
+
+      <p class="intro-note">
+        ✿ click anything that looks interesting &amp; have a nosey ✿
+      </p>
+    </div>
+  </header>
+
+
+  <div class="shrine-divider" aria-hidden="true">
+    <span>♡</span>
+    <span>🐸</span>
+    <span>♡</span>
   </div>
 
 
-  <div class="boxholder">
-  <div class="tinyholder" id="music">
-    <h1>music</h1>
-      <div class="boxholder-inner">
-    <div class="box">
-      <a href="/cds/"><img src="/assets/imgs/graphics/cd 12.gif" height="75px"></a>
-      <p>cds page</p>
-    </div><br>
-    <div class="box">
-      <a href="/shrines/mcr/"><img src="/assets/imgs/graphics/emailpop2.gif" height="75px"></a>
-      <p>mcr</p>
-      </div>
-    <div class="box">
-      <a href="/shrines/ashnikko/"><img src="/assets/imgs/graphics/ashnikkodevil.gif" height="75px"></a>
-      <p>ashnikko</p>
-    </div>
-    </div>
-    </div>
+  <section class="shrine-grid" aria-label="My shrines">
 
-    <div class="tinyholder" id="dvds">
-    <h1>dvds</h1>
-     <div class="boxholder-inner">
-      <div class="box">
-      <a href="/dvds/">
-      <img src="/assets/imgs/graphics/tv_by_subtlymeloncholy_on_tumblr.gif" height="75px"></a>
-      <p>dvd collection</p>
-      </div>
-      <div class="box">
-      <a href="/shrines/twilight/">
-      <img src="/assets/imgs/graphics/twilight-apple.png" height="75px"></a>
-      <p>twilight shrine</p>
-    </div>
-    </div>
-    </div>
-
-    <div class="tinyholder" id="games">
-    <h1>games</h1>
-     <div class="boxholder-inner">
-    <div class="box">
-      <a href="/games/">
-      <img src="/assets/imgs/graphics/gba.png" height="75px"></a>
-      <p>games collection</p>
-    </div>
-    <div class="box">
-      <a href="/shrines/animalcrossing">
-      <img src="/assets/imgs/graphics/animal-crossing-leif.gif" height="75px"></a>
-      <p>animal crossing shrine</p>
-  </div>
-    <div class="box">
-      <a href="/shrines/finalfantasyxiv/">
-      <img src="/assets/imgs/graphics/final-fantasy-xiv.png" height="75px"></a>
-      <p>final fantasy xiv shrine</p>
-    </div>
-    <div class="box">
-      <a href="/shrines/pokemon/">
-      <img src="/assets/imgs/graphics/pokeball.gif" height="75px"></a>
-      <p>pokemon shrine</p>
+    <!-- ANIMAL CROSSING -->
+    <a
+      class="shrine-card shrine-ac"
+      href="/shrines/animalcrossing/"
+      aria-label="Visit my Animal Crossing shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">forever fave</span>
       </div>
 
-  </div>
-  </div>
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/animal-crossing-leif.gif"
+          alt=""
+        >
+      </div>
 
-  <div class="tinyholder" id="other">
-    <h1>other</h1>
-     <div class="boxholder-inner">
-    <div class="box">
-      <a href="/shrines/">
-      <img src="/assets/imgs/graphics/under construction 7.gif" height="75px"></a>
-      <p>more shrines coming soon!</p>
+      <div class="shrine-card-content">
+        <h2>animal crossing</h2>
+
+        <p>
+          my towns, villagers, diaries, critters,
+          collections &amp; an unreasonable amount of frogs.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+
+    <!-- FINAL FANTASY XIV -->
+    <a
+      class="shrine-card shrine-ffxiv"
+      href="/shrines/finalfantasyxiv/"
+      aria-label="Visit my Final Fantasy XIV shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">since 2019</span>
+      </div>
+
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/final-fantasy-xiv.png"
+          alt=""
+        >
+      </div>
+
+      <div class="shrine-card-content">
+        <h2>final fantasy xiv</h2>
+
+        <p>
+          Aggro Phobic's adventures, achievements,
+          collections, screenshots &amp; memories.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+
+    <!-- POKEMON -->
+    <a
+      class="shrine-card shrine-pokemon"
+      href="/shrines/pokemon/"
+      aria-label="Visit my Pokémon shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">shiny!!</span>
+      </div>
+
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/pokeball.gif"
+          alt=""
+        >
+      </div>
+
+      <div class="shrine-card-content">
+        <h2>pokémon</h2>
+
+        <p>
+          shiny hunting, favourite pokémon,
+          my collection &amp; of course... more frogs.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+
+    <!-- TWILIGHT -->
+    <a
+      class="shrine-card shrine-twilight"
+      href="/shrines/twilight/"
+      aria-label="Visit my Twilight shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">hoa hoa hoa</span>
+      </div>
+
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/twilight-apple.png"
+          alt=""
+        >
+      </div>
+
+      <div class="shrine-card-content">
+        <h2>twilight</h2>
+
+        <p>
+          because apparently being normal about
+          Twilight was never going to happen.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+
+    <!-- MY CHEMICAL ROMANCE -->
+    <a
+      class="shrine-card shrine-mcr"
+      href="/shrines/mcr/"
+      aria-label="Visit my My Chemical Romance shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">♡ mcr ♡</span>
+      </div>
+
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/emailpop2.gif"
+          alt=""
+        >
+      </div>
+
+      <div class="shrine-card-content">
+        <h2>my chemical romance</h2>
+
+        <p>
+          my little corner of the internet dedicated
+          to one of my favourite bands.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+
+    <!-- ASHNIKKO -->
+    <a
+      class="shrine-card shrine-ashnikko"
+      href="/shrines/ashnikko/"
+      aria-label="Visit my Ashnikko shrine"
+    >
+      <div class="shrine-card-top">
+        <span class="shrine-sticker">little devil</span>
+      </div>
+
+      <div class="shrine-image">
+        <img
+          src="/assets/imgs/graphics/ashnikkodevil.gif"
+          alt=""
+        >
+      </div>
+
+      <div class="shrine-card-content">
+        <h2>ashnikko</h2>
+
+        <p>
+          music, memories &amp; a dedicated little
+          fanpage for another longtime favourite.
+        </p>
+
+        <span class="shrine-enter">enter shrine ♡</span>
+      </div>
+    </a>
+
+  </section>
+
+
+  <section class="why-shrines">
+    <div class="why-title">
+      <span>✿</span>
+      <h2>why shrines?</h2>
+      <span>✿</span>
     </div>
-    <div class="box">
-      <a href="/">
-      <img src="/assets/imgs/graphics/froggyhome.gif" height="75px"></a>
-      <p>go home!</p>
-    </div>
-    </div>
+
+    <p>
+      i miss when personal websites had pages dedicated to one
+      incredibly specific thing somebody loved, so these are mine.
+    </p>
+
+    <p>
+      they're not meant to be encyclopedias or the definitive guide
+      to anything — they're just little pieces of my interests,
+      collected and decorated by me.
+    </p>
+
+    <p class="why-note">
+      ♡ made with love, questionable html decisions &amp; too many gifs ♡
+    </p>
+  </section>
+
+
+  <footer class="shrine-footer">
+    <img
+      src="/assets/imgs/graphics/froggyhome.gif"
+      alt=""
+    >
+
+    <a href="/">← hop back home</a>
+  </footer>
+
+</main>
