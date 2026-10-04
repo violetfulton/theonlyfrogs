@@ -1,0 +1,302 @@
+[
+  {
+    "code": "adam",
+    "character": "Adam",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/adam.png",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ax4gsk",
+    "character": "Aerodactyl",
+    "series": "Pokemon Generat...",
+    "gen": 5,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": true,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badboy",
+    "character": "Alastor",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/badboy.png",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apiggy",
+    "character": "Boris",
+    "series": "Animal Crossing",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "wlyy",
+    "character": "Egg Bois",
+    "series": "Hazbin Hotel",
+    "gen": 2,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4p45t",
+    "character": "Henry",
+    "series": "Animal Crossing",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "orgnsm",
+    "character": "Jambette",
+    "series": "Animal Crossing",
+    "gen": 4,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/orgnsm.png",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "sraapi",
+    "character": "Kyo Sohma",
+    "series": "Fruits Basket",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "maus",
+    "character": "Maushold",
+    "series": "Pokemon Generat...",
+    "gen": 4,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": true,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7ykib",
+    "character": "Mimikyu",
+    "series": "Pokemon Generat...",
+    "gen": 5,
+    "type": null,
+    "isEvent": null,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": true,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/b7ykib.png",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bglol2",
+    "character": "Quinn",
+    "series": "League of Legends",
+    "gen": 2,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ohhhg3",
+    "character": "Sasha",
+    "series": "Animal Crossing",
+    "gen": 3,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o6tnjw",
+    "character": "Tohru Honda",
+    "series": "Fruits Basket",
+    "gen": 3,
+    "type": "3D",
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":x3dver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o317bv",
+    "character": "Tsuyu Asui",
+    "series": "My Hero Academia",
+    "gen": 2,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/o317bv.png",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "otmsu1",
+    "character": "Zestial",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "site"
+    ],
+    "favourite": false
+  }
+]
