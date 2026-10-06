@@ -100,7 +100,7 @@
     "character": "Angel Dust",
     "series": "Hazbin Hotel",
     "gen": 211,
-    "type": "2D",
+    "type": null,
     "isEvent": true,
     "element": "Ice",
     "sourceIcon": "☕",
@@ -109,7 +109,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/BmFvHDWv5G.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -136,7 +136,7 @@
     "character": "Annie",
     "series": "League of Legends",
     "gen": 135,
-    "type": "2D",
+    "type": null,
     "isEvent": true,
     "element": "Earth",
     "sourceIcon": "☕",
@@ -348,7 +348,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/TzMLr376Bb.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -393,7 +393,7 @@
     "character": "Cogimyun",
     "series": "Sanrio",
     "gen": 140,
-    "type": "2D",
+    "type": null,
     "isEvent": true,
     "element": "Earth",
     "sourceIcon": "💐",
@@ -402,7 +402,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/khp6ZZANji.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -474,7 +474,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/hjKFLvbhTp.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -492,7 +492,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/JRqKNwQzmr.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -550,7 +550,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/3kTSb6wVvV.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -586,7 +586,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/GRMT3cJ6DD.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -604,7 +604,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/HhEQFVdfuv.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -682,7 +682,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/VAhJiHn49K.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -700,7 +700,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/9S2gHzyGSy.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -736,7 +736,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/8EwM2Yi3KN.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -754,7 +754,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/8PxvPFHfRa.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -790,7 +790,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/w5S4rUwDQD.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -808,7 +808,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/FTQq3deyAR.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -862,7 +862,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/puiEZZvk3f.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -880,7 +880,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/vqiErDtLhZ.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -898,7 +898,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/Hp28nhxSxz.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -916,7 +916,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/mL2kGjrzcG.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -970,7 +970,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/NZAXTex7Q8.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1009,7 +1009,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/sQ4Zi365Tg.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1027,7 +1027,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/iMhfPsNAYL.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1045,7 +1045,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/ypdt8tDLC2.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1120,7 +1120,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/3h6gZSu5nH.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1138,7 +1138,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/cHubXGe9AN.gif",
+    "image": "/assets/imgs/sofi/al8plx.gif",
     "tags": [],
     "favourite": false
   },
@@ -1156,7 +1156,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/ZR5qMFbwMt.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1194,7 +1194,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/7EMaFfuTMC.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1212,7 +1212,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/ZtpLwFvWQW.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1230,7 +1230,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/gLBjRmTL6k.png",
+    "image": "",
     "tags": [
       "site"
     ],
@@ -1250,7 +1250,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/n3fN2iPx9e.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1322,7 +1322,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/x7e3P9YPRq.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1340,7 +1340,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/PSPHWV264V.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1358,7 +1358,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/TfEETCXNpx.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1376,7 +1376,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/pVy2aeeChk.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1414,7 +1414,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/WERRwqccYK.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1450,7 +1450,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/x6HvtAGHYi.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1486,7 +1486,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/NLVSVRT9zn.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1504,7 +1504,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/hwygfhrewd.png",
+    "image": "",
     "tags": [
       "site"
     ],
@@ -1524,7 +1524,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/gadS3UVahb.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1542,7 +1542,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/RbifaBezhj.png",
+    "image": "/assets/imgs/sofi/b7ykib.png",
     "tags": [],
     "favourite": false
   },
@@ -1560,7 +1560,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/ShpQGwTqMa.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1578,7 +1578,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/U5mzBKbJfc.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1706,7 +1706,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/APavLvvkUt.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1724,7 +1724,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/m5xzVieKdR.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1778,7 +1778,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/iRHs6Kff56.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1852,7 +1852,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/2sdeyGpiAC.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1924,7 +1924,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/JwcCz25eTE.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1981,7 +1981,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/4Pt365HLFb.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -1999,7 +1999,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/34ppqfCX6m.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2017,7 +2017,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/sCEHvBFqYw.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2035,7 +2035,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/KiVe89u3cK.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2053,7 +2053,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/iPPdxLTgph.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2125,7 +2125,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/bv2zqJtDai.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2143,7 +2143,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/G7wntnFFxT.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2233,7 +2233,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/EmRdPCwNP2.png",
+    "image": "",
     "tags": [
       "site"
     ],
@@ -2253,7 +2253,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/psDcu6awYM.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2291,7 +2291,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/2pRH7Uxn6n.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2309,7 +2309,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/269fL9xrnC.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2327,7 +2327,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/FGZbDgS79X.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2345,7 +2345,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/BfbcSPDEvY.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2363,7 +2363,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/7km29CVCUD.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },
@@ -2399,7 +2399,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "https://img.theonlyfrogs.com/i/HakNYTSZ7t.png",
+    "image": "",
     "tags": [],
     "favourite": false
   },

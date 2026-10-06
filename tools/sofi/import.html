@@ -14,9 +14,29 @@
 <label for="paste">Collection text</label><textarea id="paste" rows="7" placeholder="SOFI: COLLECTION (onlyfrogs)&#10;:standart2d: • 🛸 • adam :earthw: G•1 Adam • Hazbin Hotel"></textarea>
 <p class="actions"><button id="preview">Read pasted cards</button><button id="reload">Reload saved cards</button></p><p class="hint">Pasting adds or updates cards. It does not remove cards from other pages. Reload discards unsaved edits.</p>
 </section>
-<section class="panel" aria-labelledby="image-heading"><h2 id="image-heading">2. Attach saved artwork</h2>
-<p class="hint">View each card with <code>sv CARD_CODE</code> yourself and save its original image. Rename it to the card code, for example <code>adam.png</code> or <code>o6tnjw.gif</code>. Select images below to match them automatically. Animated GIF/WebP files are preserved.</p>
+<section class="panel" aria-labelledby="image-heading"><h2 id="image-heading">2. Link or attach artwork</h2>
+<p class="hint">Use Frog Pond below to link artwork already uploaded to R2, or select local files here. To save new artwork, view each card with <code>sv CARD_CODE</code> yourself and save its original image. Rename it to the card code, for example <code>adam.png</code> or <code>o6tnjw.gif</code>. Select images below to match them automatically. Animated GIF/WebP files are preserved.</p>
 <label for="images">Card images (PNG, JPG, WebP, GIF or AVIF)</label><input id="images" type="file" multiple accept=".png,.jpg,.jpeg,.webp,.gif,.avif"><p id="file-list"></p>
+<details open><summary>Match artwork from Frog Pond / R2</summary>
+<p class="hint">Upload images to Frog Pond named after their card codes. This matches the original filename or code title to the random public permalink. Import your collection rows first. Changes are previewed until you save.</p>
+<label for="pond-public">Public image website</label><input id="pond-public" type="url" value="https://img.theonlyfrogs.com/">
+<label class="check"><input id="pond-replace" type="checkbox"> Replace existing image links for matching cards</label>
+<details><summary>Connect from a computer that can open Frog Pond</summary>
+<label for="pond-base">Frog Pond address</label><input id="pond-base" type="url" value="https://bigbox.tail1f7dfe.ts.net/frog-pond/">
+<div class="row"><label for="pond-user">Frog Pond username<input id="pond-user" autocomplete="off"></label><label for="pond-password">Frog Pond password<input id="pond-password" type="password" autocomplete="off"></label></div>
+<p class="hint">Enter credentials here locally if Frog Pond requires them. They are used for these read requests and are never saved to the collection or website. Close this tab when finished.</p>
+<p class="actions"><button id="pond-folders" type="button">Load folders</button></p>
+<label for="pond-folder">Image folder</label><select id="pond-folder"><option value="all">All folders</option><option value="root">Top level only</option></select>
+<p class="actions"><button id="pond-match" type="button">Match Frog Pond images</button><button id="pond-clear" type="button">Clear credentials</button></p>
+</details>
+<details><summary>Import a JSON listing exported on your PC</summary>
+<p class="hint">On your PC, open <a href="https://bigbox.tail1f7dfe.ts.net/frog-pond/api/images?folder=all" target="_blank" rel="noreferrer">the Frog Pond image listing</a> while signed in. Save that JSON response to a file (Ctrl+S), or copy its text. Transfer the file to your Mac if needed. This is metadata only; you do not need to transfer the images.</p>
+<label for="pond-file">Frog Pond image-list JSON file</label><input id="pond-file" type="file" accept=".json,application/json">
+<label for="pond-json">Or paste the JSON response</label><textarea id="pond-json" rows="4" placeholder='{"images":[...]}'></textarea>
+<p class="actions"><button id="pond-import" type="button">Match images from JSON</button></p>
+</details>
+<p class="hint">Duplicate images for a code are reported for review. Cards without a match keep their current artwork, tags and showcase selection. No uploads or deletions are made in Frog Pond.</p>
+</details>
 <details><summary>Use images hosted on another server</summary><p class="hint">Upload the code-named files to your server first. They must open directly without a login. This importer links to them; it does not upload to the server.</p><label for="hosted-base">Public HTTPS image-folder URL</label><input id="hosted-base" type="url" placeholder="https://your-image-server.example/sofi/"><label for="hosted-extension">Image file extension for this batch</label><select id="hosted-extension"><option value="png">PNG</option><option value="jpg">JPG</option><option value="jpeg">JPEG</option><option value="webp">WebP</option><option value="gif">GIF</option><option value="avif">AVIF</option></select><label for="hosted-codes">Codes or collection rows (optional)</label><textarea id="hosted-codes" rows="3" placeholder="Leave empty to link all cards without artwork"></textarea><p class="hint">Empty means cards without an image. Paste codes to replace specific image links. A card named adam with PNG selected links to the folder URL + adam.png.</p><button id="hosted-link" type="button">Link hosted images</button></details>
 </section>
 <section class="panel" aria-labelledby="tag-heading"><h2 id="tag-heading">3. Tag lots of cards at once</h2>
@@ -64,12 +84,17 @@ async function bulkTag(remove){const data=await request('/api/tags',{cards,text:
 $('#tag-add').onclick=()=>action(()=>bulkTag(false));
 $('#tag-remove').onclick=()=>action(()=>bulkTag(true));
 $('#hosted-link').onclick=()=>action(async()=>{const data=await request('/api/images',{cards,text:$('#hosted-codes').value,base:$('#hosted-base').value,extension:$('#hosted-extension').value});cards=data.cards;render();status(`Linked hosted image URLs for ${data.matched} cards. Nothing saved yet.${data.unknown.length?'\nNot found: '+data.unknown.join(', '):''}`);});
+const pondInput=()=>({cards,base:$('#pond-base').value,username:$('#pond-user').value,password:$('#pond-password').value,folder:$('#pond-folder').value,publicBase:$('#pond-public').value,replace:$('#pond-replace').checked});
+function pondResult(data){cards=data.cards;render();const lines=[`Matched image URLs for ${data.matched} cards from ${data.total} images. Nothing saved yet.`];if(data.kept)lines.push(`Kept ${data.kept} existing images. Check Replace existing image links to update them.`);if(data.conflicts.length)lines.push('Conflicting/duplicate images — not linked: '+data.conflicts.join(', '));if(data.unknown.length)lines.push('No imported card for: '+data.unknown.join(', '));if(data.unlabelled)lines.push(`${data.unlabelled} images had no code filename or title.`);lines.push(...data.warnings);status(lines.join('\n'));}
+$('#pond-clear').onclick=()=>{$('#pond-user').value='';$('#pond-password').value='';status('Frog Pond credentials cleared.');};
+$('#pond-folders').onclick=()=>action(async()=>{const data=await request('/api/pond-folders',pondInput());$('#pond-folder').innerHTML='<option value="all">All folders</option><option value="root">Top level only</option>'+data.folders.map(f=>`<option value="${f.id}">${escapeHTML(f.name)} (${f.image_count})</option>`).join('');const sofi=data.folders.find(f=>f.name.toLowerCase()==='sofi cards');if(sofi)$('#pond-folder').value=String(sofi.id);status('Folders loaded. Choose your Sofi folder, then match its images.');});
+$('#pond-match').onclick=()=>action(async()=>{status('Reading Frog Pond image metadata…');pondResult(await request('/api/pond-images',pondInput()));});
+$('#pond-import').onclick=()=>action(async()=>{const file=$('#pond-file').files[0];if(file&&file.size>24_000_000)throw new Error('Choose a JSON listing smaller than 24 MB.');const listing=file?await file.text():$('#pond-json').value;pondResult(await request('/api/pond-export',{cards,listing,publicBase:$('#pond-public').value,replace:$('#pond-replace').checked}));});
 async function action(fn){if(busy)return;busy=true;document.querySelectorAll('button').forEach(b=>b.disabled=true);try{await fn();}catch(e){status(e.message,true);}finally{busy=false;document.querySelectorAll('button').forEach(b=>b.disabled=false);render();}}
 async function load(){const data=await request('/api/cards');cards=data.cards;pageNumber=1;render();status(`${cards.length} saved cards loaded. You can edit them or paste more pages.`);}
 $('#reload').onclick=()=>action(load);
-$('#preview').onclick=()=>action(async()=>{const data=await request('/api/preview',{text:$('#paste').value});
- // Keep unsaved personal edits when pasting another page in this session.
- const previous=new Map(cards.map(c=>[c.code,c]));cards=data.cards.map(c=>{const old=previous.get(c.code);if(!old)return c;const merged={...c,...old,character:c.character,gen:c.gen,element:c.element};if(!c.seriesNeedsReview)merged.series=c.series;if(c.type)merged.type=c.type;if(c.isEvent!==null)merged.isEvent=c.isEvent;return merged;});
+$('#preview').onclick=()=>action(async()=>{const data=await request('/api/preview',{text:$('#paste').value,cards});
+ cards=data.cards;
  pageNumber=1;render();status(`${data.matched} pasted rows read; ${cards.length} cards in your binder. Nothing saved yet.${data.warnings.length?'\n'+data.warnings.join('\n'):''}`);});
 const fileBase64=f=>new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=()=>reject(new Error(`Could not read ${f.name}.`));reader.readAsDataURL(f);});
 $('#save').onclick=()=>action(async()=>{status('Saving your cards and artwork…');const images=[];for(const f of selected){if(f.size>10_000_000)throw new Error(`${f.name}: maximum 10 MB per image.`);images.push({name:f.name,base64:await fileBase64(f)});}const data=await request('/api/save',{cards,images});cards=data.cards;selected=[];$('#images').value='';render();status(data.message);});

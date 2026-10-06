@@ -4,6 +4,7 @@ import { readFile, writeFile, mkdir, rename, copyFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseCollection, parseCodeList, applyTag, linkHostedImages, mergeCards, matchImages, validateCard, imageExtensions, codeKey } from './cards.mjs';
+import { matchFrogPond, readFrogPond } from './frog-pond.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
@@ -71,9 +72,15 @@ const server = http.createServer(async (req, res) => {
       if (!/^[a-z\d]+\.(png|jpe?g|webp|gif|avif)$/i.test(name)) return send(res, 404, { error: 'Image not found.' });
       return send(res, 200, await readFile(path.join(imageDir, name)), mime[path.extname(name).toLowerCase()]);
     }
-    if (req.method !== 'POST' || !['/api/preview', '/api/tags', '/api/images', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
+    if (req.method !== 'POST' || !['/api/preview', '/api/tags', '/api/images', '/api/pond-folders', '/api/pond-images', '/api/pond-export', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
     if (req.headers.origin !== origin || req.headers['x-sofi-token'] !== token || !req.headers['content-type']?.startsWith('application/json')) return send(res, 403, { error: 'Use the local import screen to save.' });
     const input = await body(req);
+    if (url.pathname === '/api/pond-folders') return send(res, 200, await readFrogPond(input, 'folders'));
+    if (['/api/pond-images', '/api/pond-export'].includes(url.pathname)) {
+      if (!Array.isArray(input.cards)) throw new Error('Load or import your cards first.');
+      const listing = url.pathname === '/api/pond-images' ? await readFrogPond(input, 'images') : input.listing;
+      return send(res, 200, matchFrogPond(input.cards.map(validateCard), listing, input.publicBase, { replace: input.replace === true }));
+    }
     if (url.pathname === '/api/images') {
       if (!Array.isArray(input.cards)) throw new Error('Load or import your cards first.');
       return send(res, 200, linkHostedImages(input.cards.map(validateCard), input.text, input.base, input.extension));
@@ -85,7 +92,9 @@ const server = http.createServer(async (req, res) => {
     }
     if (url.pathname === '/api/preview') {
       const parsed = parseCollection(input.text);
-      const cards = await matchImages(mergeCards(await readCards(), parsed.cards), imageDir);
+      if (input.cards !== undefined && !Array.isArray(input.cards)) throw new Error('Invalid current collection.');
+      const current = mergeCards(await readCards(), (input.cards ?? []).map(validateCard), { reviewed: true });
+      const cards = await matchImages(mergeCards(current, parsed.cards), imageDir);
       return send(res, 200, { ...parsed, cards });
     }
     if (saving) return send(res, 409, { error: 'A save is in progress. Try again after it finishes.' });
