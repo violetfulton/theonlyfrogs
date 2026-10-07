@@ -1,23 +1,25 @@
 ---
 layout: sofiBase.njk
 title: Sofi Card Cabinet
-permalink: /interests/sofi/
+permalink: /sofi/
 ---
-<section class="intro" aria-labelledby="page-title">
-  <div class="intro-copy"><span class="eyebrow">Violet's digital card binder</span><h1 id="page-title">Sofi card<br><em>cabinet.</em> <span class="heading-heart" aria-hidden="true">♡</span></h1><p>A pocket for my favourite characters,<br>pretty cards & tiny treasures.</p><div class="mini-stamps" aria-hidden="true"><span>collected with love</span><span>🐸</span><span>keep forever ♡</span></div></div>
-  <aside class="binder-note"><span class="note-pin" aria-hidden="true">✿</span><span class="eyebrow">Filed under</span><p>little things<br>that make me<br><em>happy.</em></p><span class="note-signature">— onlyfrogs ♡</span></aside>
-</section>
-<section class="collection-stats" aria-label="Collection summary">
-  <div><strong id="stat-total">{{ sofiCards | length }}</strong><span>cards in my binder</span></div>
-  <div><strong id="stat-series">—</strong><span>different worlds</span></div>
-  <div><strong id="stat-lowest">—</strong><span>lowest generation</span></div>
-  <div><strong id="stat-3d">—</strong><span>3D treasures</span></div>
-</section>
-<section id="binder" class="binder" aria-labelledby="binder-title">
-  <div class="binder-top"><div><span class="eyebrow">the showcase</span><h2 id="binder-title">A peek inside my pockets</h2></div><button id="draw-card" class="pill" type="button" hidden>✦ draw a card</button></div>
+<section id="binder" class="binder" aria-labelledby="page-title">
+  <div class="binder-top"><h1 id="page-title">Sofi cards <span aria-hidden="true">♡</span></h1><button id="draw-card" class="pill" type="button" hidden>✦ draw a card</button></div>
   <div class="controls" id="sofi-controls" hidden>
-    <div class="tabs" aria-label="Card selection"><button class="tab active" type="button" data-filter="showcase" aria-pressed="true">♡ showcase</button><button class="tab" type="button" data-filter="all" aria-pressed="false">all cards</button><button class="tab" type="button" data-filter="favourites" aria-pressed="false">♡ favourites</button><button class="tab" type="button" data-filter="low" aria-pressed="false">gen 1–10</button><button class="tab" type="button" data-filter="event" aria-pressed="false">✦ events</button></div>
-    <div class="filter-row"><label class="search-label"><span class="sr-only">Search cards</span><input id="card-search" type="search" placeholder="Find a character, series or code…"></label><label><span class="sr-only">Tag</span><select id="tag-filter"><option value="">Any tag</option></select></label><label><span class="sr-only">Series</span><select id="series-filter"><option value="">Every series</option></select></label><label><span class="sr-only">Card type</span><select id="type-filter"><option value="">Every type</option><option>2D</option><option>3D</option><option>GIF</option><option value="unknown">Unspecified</option></select></label><label><span class="sr-only">Sort cards</span><select id="card-sort"><option value="name">A → Z</option><option value="gen">Lowest gen first</option></select></label></div>
+    <div id="tag-tabs" class="tabs tag-tabs" role="group" aria-label="Filter by collection tag" data-hidden-tags="{{ sofiTags.hidden | dump | escape }}">
+      <button class="tab active" type="button" data-tag="" aria-pressed="true">All cards</button>
+      {% for tag in sofiTags.tags %}<button class="tab" type="button" data-tag="{{ tag.name | escape }}" data-icon="{{ tag.icon | escape }}" aria-pressed="false">{{ tag.icon | escape }} {{ tag.name | escape }}</button>{% endfor %}
+    </div>
+    <div class="filter-row">
+      <label class="search-label"><span class="sr-only">Search cards</span><input id="card-search" type="search" placeholder="Search character, series or code…"></label>
+      <label><span class="sr-only">Cards per page</span><select id="page-size"><option value="15">15 per page</option><option value="30" selected>30 per page</option><option value="all">All on one page</option></select></label>
+      <label><span class="sr-only">Sort cards</span><select id="card-sort"><option value="name">A → Z</option><option value="gen">Lowest gen first</option></select></label>
+    </div>
+    <details class="extra-filters"><summary>More filters</summary><div class="filter-row">
+      <label><span class="sr-only">Series</span><select id="series-filter"><option value="">Every series</option></select></label>
+      <label><span class="sr-only">Card type</span><select id="type-filter"><option value="">Every type</option><option>2D</option><option>3D</option><option>GIF</option><option value="unknown">Unspecified</option></select></label>
+      <label><span class="sr-only">Card selection</span><select id="selection-filter"><option value="all">Every card</option><option value="favourites">Favourites</option><option value="low">Gen 1–10</option><option value="event">Event cards</option></select></label>
+    </div></details>
   </div>
   <p id="visible-count" class="result-count" aria-live="polite">{{ sofiCards | length }} little treasures</p>
   <div class="card-grid" id="card-grid">

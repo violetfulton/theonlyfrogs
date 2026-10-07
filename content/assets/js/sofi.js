@@ -6,26 +6,35 @@
   const gen = card => Number(card.dataset.gen) || Infinity;
   const tags = card => JSON.parse(card.dataset.tags || '[]');
   const series = [...new Set(cards.map(c => c.dataset.series).filter(Boolean))].sort((a,b) => a.localeCompare(b));
-  $('#stat-series').textContent = series.length;
-  $('#stat-lowest').textContent = cards.length ? Math.min(...cards.map(gen)) : '—';
-  $('#stat-3d').textContent = cards.filter(c => c.dataset.type === '3D').length;
   for (const name of series) { const option = document.createElement('option'); option.value = option.textContent = name; $('#series-filter').append(option); }
-  for (const name of [...new Set(cards.flatMap(tags))].sort()) { const option=document.createElement('option');option.value=option.textContent=name;$('#tag-filter').append(option); }
-  $('[data-filter="showcase"]').textContent=`♡ showcase (${cards.filter(c=>tags(c).includes('site')).length})`;
-  $('[data-filter="all"]').textContent=`all cards (${cards.length})`;
+  const tagTabs = $('#tag-tabs');
+  const hiddenTags = new Set(JSON.parse(tagTabs.dataset.hiddenTags || '[]').map(t => t.toLowerCase()));
+  const counts = new Map();
+  for (const c of cards) for (const name of new Set(tags(c))) counts.set(name, (counts.get(name) || 0) + 1);
+  const configuredTags = new Set([...tagTabs.querySelectorAll('[data-tag]')].map(b => b.dataset.tag));
+  for (const name of [...counts.keys()].sort()) {
+    if (hiddenTags.has(name.toLowerCase()) || configuredTags.has(name)) continue;
+    const button = document.createElement('button'); button.type = 'button'; button.className = 'tab'; button.dataset.tag = name; button.setAttribute('aria-pressed', 'false'); tagTabs.append(button);
+  }
+  const tagButtons = [...tagTabs.querySelectorAll('[data-tag]')];
+  for (const button of tagButtons) {
+    const name = button.dataset.tag;
+    button.textContent = name ? `${button.dataset.icon ? button.dataset.icon + ' ' : ''}${name} (${counts.get(name) || 0})` : `All cards (${cards.length})`;
+  }
   function artworkFallback(image) { image.hidden = true; const placeholder = image.parentElement.querySelector('.card-placeholder'); if (placeholder) placeholder.hidden = false; }
   for (const image of grid.querySelectorAll('.card-art')) { image.addEventListener('error', () => artworkFallback(image)); }
-  let selection = 'showcase'; let lastTrigger = null; let pageNumber = 1; const pageSize = 50; let matchingCards = [];
+  let chosenTag = ''; let lastTrigger = null; let pageNumber = 1; let matchingCards = [];
   function filter(resetPage = true) {
     if (resetPage) pageNumber = 1;
+    const pageSize = $('#page-size').value === 'all' ? Math.max(cards.length, 1) : Number($('#page-size').value);
+    const selection = $('#selection-filter').value;
     const query = $('#card-search').value.trim().toLowerCase();
     const chosenSeries = $('#series-filter').value;
     const type = $('#type-filter').value;
-    const chosenTag = $('#tag-filter').value;
     const matches = new Set();
     for (const c of cards) {
       const d = c.dataset;
-      const selected = selection === 'all' || (selection === 'showcase' && tags(c).includes('site')) || (selection === 'low' && gen(c) <= 10) || (selection === 'favourites' && d.favourite === 'true') || (selection === 'event' && (d.isEvent === 'true' || d.event));
+      const selected = selection === 'all' || (selection === 'low' && gen(c) <= 10) || (selection === 'favourites' && d.favourite === 'true') || (selection === 'event' && (d.isEvent === 'true' || d.event));
       const text = `${d.character} ${d.series} ${d.code} ${d.tags} ${d.note}`.toLowerCase();
       const excluded = !selected || !text.includes(query) || (chosenSeries && d.series !== chosenSeries) || (chosenTag && !tags(c).includes(chosenTag)) || (type && (type === 'unknown' ? Boolean(d.type) : d.type !== type));
       if (!excluded) matches.add(c);
@@ -47,7 +56,7 @@
     }
     for (const c of sorted) grid.append(c);
     const count = matchingCards.length;
-    $('#visible-count').textContent = count > pageSize ? `${(pageNumber - 1) * pageSize + 1}–${Math.min(pageNumber * pageSize,count)} of ${count} matching treasures · ${cards.length} owned` : `${count} of ${cards.length} little treasures`;
+    $('#visible-count').textContent = count > pageSize ? `${(pageNumber - 1) * pageSize + 1}–${Math.min(pageNumber * pageSize,count)} of ${count} cards` : `${count} cards${count !== cards.length ? ` · ${cards.length} total` : ''}`;
     $('#gallery-page').textContent = `Page ${pageNumber} of ${pages}`;
     $('#gallery-pages').hidden = pages < 2;
     $('#gallery-prev').disabled = pageNumber <= 1;
@@ -55,12 +64,13 @@
     $('#no-results').hidden = Boolean(count);
     $('#draw-card').disabled = !count;
   }
-  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-    selection = button.dataset.filter;
-    document.querySelectorAll('[data-filter]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
+  tagButtons.forEach(button => button.addEventListener('click', () => {
+    chosenTag = button.dataset.tag;
+    $('#selection-filter').value = 'all';
+    tagButtons.forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
     filter();
   }));
-  for (const id of ['#card-search', '#tag-filter', '#series-filter', '#type-filter', '#card-sort']) $(id).addEventListener(id === '#card-search' ? 'input' : 'change', () => filter());
+  for (const id of ['#card-search', '#page-size', '#series-filter', '#type-filter', '#card-sort', '#selection-filter']) $(id).addEventListener(id === '#card-search' ? 'input' : 'change', () => filter());
   $('#gallery-prev').addEventListener('click', () => { if (pageNumber > 1) { pageNumber--; filter(false); } });
   $('#gallery-next').addEventListener('click', () => { pageNumber++; filter(false); });
   const dialog = $('#card-dialog'); let currentCard = null;

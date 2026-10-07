@@ -1,0 +1,50 @@
+{
+  "tags": [
+    {
+      "name": "acfroggy",
+      "icon": "🍄"
+    },
+    {
+      "name": "collection",
+      "icon": "🧰"
+    },
+    {
+      "name": "eventkeep",
+      "icon": "🔒"
+    },
+    {
+      "name": "frog",
+      "icon": "🐸"
+    },
+    {
+      "name": "g10",
+      "icon": "🔟"
+    },
+    {
+      "name": "g100",
+      "icon": "💯"
+    },
+    {
+      "name": "hoard",
+      "icon": "🐉"
+    },
+    {
+      "name": "showoff",
+      "icon": "⭐"
+    }
+  ],
+  "hidden": [
+    "montef",
+    "neb",
+    "devv",
+    "wife",
+    "version",
+    "codes",
+    "face",
+    "fsft",
+    "burn",
+    "site",
+    "banner",
+    "event"
+  ]
+}

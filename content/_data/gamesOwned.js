@@ -1,28 +1,20 @@
 // content/_data/gamesOwned.js
-// The published Google Sheet is the source of truth for collection data.
-// SteamGridDB is used only for locally cached cover artwork via gameCovers.json.
+// Combined games view for the website.
+//
+// Playnite = activity/library source.
+// Physical sheet = physical ownership source.
+//
+// IMPORTANT: appearing in Playnite never implies digital or physical ownership.
 
 import fs from "node:fs";
-import EleventyFetch from "@11ty/eleventy-fetch";
-import { parse } from "csv-parse/sync";
+import playniteData from "./playnite.js";
+import physicalGamesData from "./physicalGames.js";
 
-const GAMES_CSV_URL = process.env.GAMES_CSV_URL;
 const COVER_MANIFEST = "./content/_data/gameCovers.json";
 const NO_COVER = "/assets/imgs/games/no-cover.png";
 
 function text(value) {
-  if (Array.isArray(value)) return String(value[0] ?? "").trim();
   return String(value ?? "").trim();
-}
-
-function slug(value) {
-  return text(value)
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, "")
-    .trim();
 }
 
 function kebab(value) {
@@ -32,64 +24,15 @@ function kebab(value) {
     .toLowerCase()
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .trim();
+    .replace(/^-+|-+$/g, "");
 }
 
-function getField(row, names, fallback = "") {
-  if (!row || typeof row !== "object") return fallback;
-
-  const lookup = new Map(
-    Object.entries(row).map(([key, value]) => [text(key).toLowerCase(), value])
-  );
-
-  for (const name of names) {
-    const value = lookup.get(text(name).toLowerCase());
-    if (value !== undefined && value !== null && text(value) !== "") {
-      return text(value);
-    }
-  }
-
-  return fallback;
+function compactSlug(value) {
+  return kebab(value).replace(/-/g, "");
 }
 
-function getTitle(row) {
-  return getField(row, ["Title", "Name", "Game"]);
-}
-
-function getPlatform(row) {
-  return getField(row, ["Platform", "Console", "System"], "Unknown");
-}
-
-function getFormat(row) {
-  return getField(row, ["Format"], "Unknown");
-}
-
-function getStatus(row) {
-  return getField(row, ["Status"], "Owned");
-}
-function isDlcRow(row) {
-  const type = getField(row, ["Type"]).toLowerCase();
-  return type.includes("dlc") || type.includes("expansion");
-}
-
-function getOwnedDlc(row) {
-  return getField(row, ["Owned DLC / Extras", "OwnedDLC", "Owned DLC", "DLC / Extras"]);
-}
-
-function getQuantity(row) {
-  const value = Number.parseInt(getField(row, ["Quantity", "Qty", "Copies"], "1"), 10);
-  return Number.isFinite(value) && value > 0 ? value : 1;
-}
-
-function truthy(value) {
-  return ["1", "true", "yes", "y", "x", "♡", "♥", "favourite", "favorite"].includes(
-    text(value).toLowerCase()
-  );
-}
-
-function identityKey(title, platform) {
-  return `${kebab(platform)}--${kebab(title)}`;
+function identityKey(title, platformName) {
+  return `${kebab(platformName)}--${kebab(title)}`;
 }
 
 function readCoverManifest() {
@@ -103,294 +46,213 @@ function readCoverManifest() {
   }
 }
 
-function normaliseFormat(format) {
-  const raw = text(format).toLowerCase();
+function chooseCover(game, coverManifest) {
+  if (game.coverOverride) return game.coverOverride;
 
-  if (raw.includes("physical") || raw.includes("disc") || raw.includes("cartridge") || raw.includes("cart")) {
-    return "physical";
-  }
-
-  if (raw.includes("digital") || raw.includes("download") || raw.includes("eshop") || raw.includes("steam")) {
-    return "digital";
-  }
-
-  return slug(format) || "unknown";
+  const legacyKey = identityKey(game.title, game.platformName);
+  const manifestCover = coverManifest[legacyKey]?.image || "";
+  return manifestCover || NO_COVER;
 }
 
-function normaliseStatus(status) {
-  return slug(status || "Owned") || "owned";
+function formatActivityDate(value) {
+  if (!value) return "";
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
 }
 
-function statusPriority(statusSlug) {
-  const priorities = new Map([
-    ["playing", 100],
-    ["currentlyplaying", 100],
-    ["current", 100],
-    ["inprogress", 95],
-    ["replaying", 92],
-    ["played", 85],
-    ["completed", 80],
-    ["beaten", 80],
-    ["backlog", 50],
-    ["wishlist", 40],
-    ["dropped", 30],
-    ["owned", 10],
-  ]);
+function formatPlaytime(seconds) {
+  const total = Number(seconds) || 0;
+  if (total <= 0) return "";
 
-  return priorities.get(statusSlug) ?? 20;
+  const minutes = Math.floor(total / 60);
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+
+  if (hours && mins) return `${hours}h ${mins}m`;
+  if (hours) return `${hours}h`;
+  return `${mins}m`;
 }
 
-function firstNonEmpty(row, names) {
-  return getField(row, names, "");
-}
-
-function makeCopy(row, rowNumber) {
-  const format = getFormat(row);
-  const status = getStatus(row);
-
+function makePhysicalCopy(row) {
   return {
-    rowNumber,
-    format,
-    formatSlug: normaliseFormat(format),
-    ownership: getField(row, ["Ownership"]),
-    status,
-    statusSlug: normaliseStatus(status),
-    completion: getField(row, ["Completion", "Progress"]),
-    storefront: getField(row, ["Storefront", "Store", "Shop"]),
-    edition: getField(row, ["Edition", "Version"]),
-    region: getField(row, ["Region"]),
-    type: getField(row, ["Type"]),
-    playtime: getField(row, ["Playtime"]),
-    completionDate: getField(row, ["CompletionDate"]),
-    notes: getField(row, ["Notes", "Note"]),
-    quantity: getQuantity(row),
+    format: "Physical",
+    formatSlug: "physical",
+    edition: row.edition,
+    region: row.region,
+    packaging: row.packaging,
+    notes: row.notes,
+    quantity: row.quantity,
   };
 }
 
-function copyFingerprint(copy) {
-  return [
-    copy.formatSlug,
-    slug(copy.ownership),
-    slug(copy.status),
-    slug(copy.completion),
-    slug(copy.storefront),
-    slug(copy.edition),
-    slug(copy.region),
-    slug(copy.type),
-    slug(copy.playtime),
-    slug(copy.completionDate),
-    slug(copy.notes),
-  ].join("|");
-}
+function groupPhysicalRows(rows) {
+  const grouped = new Map();
 
-function mergeExactCopies(copies) {
-  const merged = new Map();
+  for (const row of rows) {
+    const groupKey = row.playniteId
+      ? `id:${row.playniteId}|${row.platformSlug}`
+      : `match:${row.matchKey}`;
 
-  for (const copy of copies) {
-    const key = copyFingerprint(copy);
-
-    if (!merged.has(key)) {
-      merged.set(key, { ...copy });
-      continue;
-    }
-
-    // An identical repeated row is assumed to be an accidental spreadsheet duplicate.
-    // Genuine identical duplicates should use Quantity > 1 on a single row.
-    const existing = merged.get(key);
-    existing.quantity = Math.max(existing.quantity, copy.quantity);
+    if (!grouped.has(groupKey)) grouped.set(groupKey, []);
+    grouped.get(groupKey).push(row);
   }
 
-  return [...merged.values()];
+  return grouped;
 }
 
-function chooseStatus(copies) {
-  return [...copies]
-    .sort((a, b) => statusPriority(b.statusSlug) - statusPriority(a.statusSlug))[0]?.status ?? "Owned";
-}
-
-function incrementCount(target, label, amount = 1) {
-  const clean = text(label) || "Unknown";
-  const key = slug(clean) || "unknown";
-
-  if (!target[key]) target[key] = { label: clean, count: 0 };
-  target[key].count += amount;
-}
-
-function countList(counts) {
-  return Object.values(counts).sort(
-    (a, b) => b.count - a.count || a.label.localeCompare(b.label)
+function sortGames(a, b) {
+  return (
+    a.platformName.localeCompare(b.platformName) ||
+    a.title.localeCompare(b.title)
   );
-}
-
-function emptyResult() {
-  return {
-    platforms: [],
-    allGames: [],
-    totalRows: 0,
-    totalGames: 0,
-    totalCopies: 0,
-    uniqueTitles: 0,
-    physicalGames: [],
-    digitalGames: [],
-    bothGames: [],
-    currentGames: [],
-    completedGames: [],
-    wishlistGames: [],
-    favouriteGames: [],
-    physicalCount: 0,
-    digitalCount: 0,
-    bothCount: 0,
-    attribution: {
-      label: "Cover artwork from SteamGridDB",
-      url: "https://www.steamgriddb.com/",
-    },
-  };
 }
 
 export default async function () {
-  if (!GAMES_CSV_URL) {
-    console.warn("[Games] Missing GAMES_CSV_URL.");
-    return emptyResult();
-  }
-
-  const csv = await EleventyFetch(GAMES_CSV_URL, {
-    duration: "1h",
-    type: "text",
-  });
-
-  const rows = parse(csv, {
-    columns: true,
-    skip_empty_lines: true,
-    bom: true,
-    relax_column_count: true,
-    trim: true,
-  }).filter((row) => getTitle(row) && !isDlcRow(row));
-
+  const playnite = playniteData();
+  const physical = await physicalGamesData();
   const coverManifest = readCoverManifest();
-  const grouped = new Map();
 
-  rows.forEach((row, index) => {
-    const title = getTitle(row);
-    const platformName = getPlatform(row);
-    const key = identityKey(title, platformName);
-
-    if (!grouped.has(key)) {
-      grouped.set(key, {
-        key,
-        title,
-        platformName,
-        platformSlug: slug(platformName),
-        platformKebabSlug: kebab(platformName),
-        favourite: false,
-        coverOverride: "",
-        steamGridDbId: "",
-        releaseDate: "",
-        year: "",
-        rating: "",
-        tags: "",
-        ownedDlc: [],
-        copies: [],
-      });
-    }
-
-    const game = grouped.get(key);
-    game.copies.push(makeCopy(row, index + 2));
-
-    if (truthy(getField(row, ["Favourite", "Favorite", "Fav", "Starred"]))) {
-      game.favourite = true;
-    }
-
-    const coverOverride = getField(row, ["CoverOverride", "ImageOverride", "Image", "Cover"]);
-    if (coverOverride && !game.coverOverride) game.coverOverride = coverOverride;
-
-    const steamGridDbId = getField(row, ["SteamGridDBID", "SteamGridDBId", "SGDBID", "SGDBId"]);
-    if (steamGridDbId && !game.steamGridDbId) game.steamGridDbId = steamGridDbId;
-
-    const releaseDate = firstNonEmpty(row, ["ReleaseDate"]);
-    if (releaseDate && !game.releaseDate) {
-      game.releaseDate = releaseDate;
-      game.year = releaseDate.slice(0, 4);
-    }
-
-    const rating = firstNonEmpty(row, ["Rating"]);
-    if (rating && !game.rating) game.rating = rating;
-
-    const tags = firstNonEmpty(row, ["Tags"]);
-    if (tags && !game.tags) game.tags = tags;
-
-    const ownedDlc = getOwnedDlc(row);
-    if (ownedDlc) {
-      ownedDlc
-        .split(";")
-        .map((item) => item.trim())
-        .filter(Boolean)
-        .forEach((item) => {
-          if (!game.ownedDlc.includes(item)) game.ownedDlc.push(item);
-        });
-    }
-  });
-
+  const physicalGroups = groupPhysicalRows(physical.games);
+  const matchedPhysicalGroups = new Set();
   const games = [];
 
-  for (const game of grouped.values()) {
-    game.copies = mergeExactCopies(game.copies);
+  for (const tracked of playnite.platformGames) {
+    const byIdKey = tracked.playniteId
+      ? `id:${tracked.playniteId}|${tracked.platformSlug}`
+      : "";
+    const byMatchKey = `match:${tracked.matchKey}`;
 
-    const manifestCover = coverManifest[game.key]?.image || "";
-    game.image = game.coverOverride || manifestCover || NO_COVER;
-    game.coverSource = game.coverOverride
-      ? "override"
-      : manifestCover
-        ? "steamgriddb"
-        : "placeholder";
+    let physicalRows = [];
+    let matchedGroupKey = "";
 
-    game.copyCount = game.copies.reduce((sum, copy) => sum + copy.quantity, 0);
-    game.ownsPhysical = game.copies.some((copy) => copy.formatSlug === "physical");
-    game.ownsDigital = game.copies.some((copy) => copy.formatSlug === "digital");
-    game.ownsBoth = game.ownsPhysical && game.ownsDigital;
+    if (byIdKey && physicalGroups.has(byIdKey)) {
+      physicalRows = physicalGroups.get(byIdKey);
+      matchedGroupKey = byIdKey;
+    } else if (physicalGroups.has(byMatchKey)) {
+      physicalRows = physicalGroups.get(byMatchKey);
+      matchedGroupKey = byMatchKey;
+    }
 
-    game.ownershipLabel = game.ownsBoth
-      ? "Physical + Digital"
-      : game.ownsPhysical
-        ? "Physical"
-        : game.ownsDigital
-          ? "Digital"
-          : "Owned";
+    if (matchedGroupKey) matchedPhysicalGroups.add(matchedGroupKey);
 
-    game.status = chooseStatus(game.copies);
-    game.statusSlug = normaliseStatus(game.status);
-    game.format = game.ownershipLabel;
-    game.formatSlug = game.ownsBoth
-      ? "both"
-      : game.ownsPhysical
-        ? "physical"
-        : game.ownsDigital
-          ? "digital"
-          : "owned";
+    const copies = physicalRows.map(makePhysicalCopy);
+    const physicalCopyCount = copies.reduce(
+      (sum, copy) => sum + copy.quantity,
+      0
+    );
 
+    const coverOverride =
+      physicalRows.find((row) => row.coverOverride)?.coverOverride || "";
+    const favourite =
+      tracked.favourite || physicalRows.some((row) => row.favourite);
+
+    const game = {
+      ...tracked,
+      favourite,
+      coverOverride,
+      image: "",
+
+      trackedInPlaynite: true,
+      hasActivity: Boolean(tracked.lastActivity || tracked.playtimeSeconds > 0),
+      lastPlayedLabel: formatActivityDate(tracked.lastActivity),
+
+      ownsPhysical: physicalRows.length > 0,
+      physicalCopyCount,
+      copies,
+
+      ownershipLabel: physicalRows.length ? "Physical" : "Tracked",
+      format: physicalRows.length ? "Physical" : "Tracked",
+      formatSlug: physicalRows.length ? "physical" : "tracked",
+
+      // Legacy compatibility while older templates disappear.
+      ownsDigital: false,
+      ownsBoth: false,
+      copyCount: physicalCopyCount,
+    };
+
+    game.image = chooseCover(game, coverManifest);
     games.push(game);
   }
 
-  games.sort((a, b) =>
-    a.platformName.localeCompare(b.platformName) || a.title.localeCompare(b.title)
-  );
+  // Physical-only games still appear even if Playnite has never seen them.
+  for (const [groupKey, rows] of physicalGroups.entries()) {
+    if (matchedPhysicalGroups.has(groupKey)) continue;
+
+    const first = rows[0];
+    const copies = rows.map(makePhysicalCopy);
+    const physicalCopyCount = copies.reduce(
+      (sum, copy) => sum + copy.quantity,
+      0
+    );
+
+    const game = {
+      playniteId: first.playniteId || "",
+      providerGameId: "",
+      sourceName: "",
+      steamAppId: null,
+
+      title: first.title,
+      platformName: first.platformName,
+      platformSlug: first.platformSlug,
+      matchKey: first.matchKey,
+
+      genres: [],
+      categories: [],
+      tags: [],
+      favourite: rows.some((row) => row.favourite),
+      isInstalled: false,
+      playtimeSeconds: 0,
+      playtime: "",
+      lastActivity: null,
+      lastPlayedLabel: "",
+      hasActivity: false,
+      releaseDate: "",
+      year: "",
+
+      trackedInPlaynite: false,
+      ownsPhysical: true,
+      physicalCopyCount,
+      copies,
+
+      ownershipLabel: "Physical",
+      format: "Physical",
+      formatSlug: "physical",
+      ownsDigital: false,
+      ownsBoth: false,
+      copyCount: physicalCopyCount,
+
+      coverOverride:
+        rows.find((row) => row.coverOverride)?.coverOverride || "",
+      image: "",
+    };
+
+    game.image = chooseCover(game, coverManifest);
+    games.push(game);
+  }
+
+  games.sort(sortGames);
 
   const platformMap = new Map();
-  const formatCounts = {};
-  const statusCounts = {};
 
   for (const game of games) {
     if (!platformMap.has(game.platformSlug)) {
       platformMap.set(game.platformSlug, {
         platform: game.platformName,
         slug: game.platformSlug,
-        kebabSlug: game.platformKebabSlug,
+        kebabSlug: kebab(game.platformName),
         games: [],
       });
     }
 
     platformMap.get(game.platformSlug).games.push(game);
-    incrementCount(formatCounts, game.ownershipLabel);
-    incrementCount(statusCounts, game.status);
   }
 
   const platforms = [...platformMap.values()]
@@ -398,52 +260,75 @@ export default async function () {
     .map((platform) => {
       platform.games.sort((a, b) => a.title.localeCompare(b.title));
       platform.totalGames = platform.games.length;
-      platform.totalCopies = platform.games.reduce((sum, game) => sum + game.copyCount, 0);
-      platform.physicalGames = platform.games.filter((game) => game.ownsPhysical);
-      platform.digitalGames = platform.games.filter((game) => game.ownsDigital);
-      platform.bothGames = platform.games.filter((game) => game.ownsBoth);
-      platform.physicalCount = platform.physicalGames.length;
-      platform.digitalCount = platform.digitalGames.length;
-      platform.bothCount = platform.bothGames.length;
+      platform.trackedCount = platform.games.filter(
+        (game) => game.trackedInPlaynite
+      ).length;
+      platform.playedCount = platform.games.filter(
+        (game) => game.hasActivity
+      ).length;
+      platform.favouriteCount = platform.games.filter(
+        (game) => game.favourite
+      ).length;
+      platform.physicalCount = platform.games.filter(
+        (game) => game.ownsPhysical
+      ).length;
+      platform.totalPhysicalCopies = platform.games.reduce(
+        (sum, game) => sum + game.physicalCopyCount,
+        0
+      );
+      platform.totalPlaytimeSeconds = platform.games.reduce(
+        (sum, game) => sum + (Number(game.playtimeSeconds) || 0),
+        0
+      );
+      platform.totalPlaytime = formatPlaytime(platform.totalPlaytimeSeconds);
       return platform;
     });
 
   const physicalGames = games.filter((game) => game.ownsPhysical);
-  const digitalGames = games.filter((game) => game.ownsDigital);
-  const bothGames = games.filter((game) => game.ownsBoth);
+  const trackedGames = games.filter((game) => game.trackedInPlaynite);
+  const playedGames = games.filter((game) => game.hasActivity);
   const favouriteGames = games.filter((game) => game.favourite);
-  const currentGames = games.filter((game) =>
-    ["playing", "currentlyplaying", "current", "inprogress", "replaying"].includes(game.statusSlug)
-  );
-  const completedGames = games.filter((game) =>
-    ["completed", "beaten"].includes(game.statusSlug)
-  );
-  const wishlistGames = games.filter((game) => game.statusSlug === "wishlist");
+
+  const currentGames = [...trackedGames]
+    .filter((game) => game.lastActivity)
+    .sort(
+      (a, b) =>
+        new Date(b.lastActivity).getTime() - new Date(a.lastActivity).getTime()
+    )
+    .slice(0, 12);
 
   return {
     platforms,
     allGames: games,
-    totalRows: rows.length,
+
     totalGames: games.length,
-    uniqueTitles: games.length,
-    totalCopies: games.reduce((sum, game) => sum + game.copyCount, 0),
+    uniqueTitles: new Set(games.map((game) => compactSlug(game.title))).size,
+
+    trackedGames,
+    trackedCount: trackedGames.length,
+    playedGames,
+    playedCount: playedGames.length,
+    totalPlaytime: playnite.totalPlaytime,
+    totalPlaytimeSeconds: playnite.totalPlaytimeSeconds,
 
     physicalGames,
-    digitalGames,
-    bothGames,
+    physicalCount: physicalGames.length,
+    totalCopies: physical.totalCopies,
+
     favouriteGames,
     currentGames,
-    completedGames,
-    wishlistGames,
 
-    physicalCount: physicalGames.length,
-    digitalCount: digitalGames.length,
-    bothCount: bothGames.length,
+    // Legacy compatibility; intentionally empty because Playnite is not
+    // a digital ownership source.
+    digitalGames: [],
+    bothGames: [],
+    digitalCount: 0,
+    bothCount: 0,
+    completedGames: [],
+    wishlistGames: [],
 
-    formatCounts,
-    formatCountsList: countList(formatCounts),
-    statusCounts,
-    statusCountsList: countList(statusCounts),
+    playniteUpdatedAt: playnite.generatedAtUtc,
+    playniteSchemaVersion: playnite.schemaVersion,
 
     attribution: {
       label: "Cover artwork from SteamGridDB",
