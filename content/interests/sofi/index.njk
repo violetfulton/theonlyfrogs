@@ -29,7 +29,7 @@ permalink: /sofi/
         {% if card.image %}<img class="card-art" data-src="{{ card.image | escape }}" alt="{{ card.character | escape }} Sofi card" loading="lazy" decoding="async" hidden>{% endif %}
         <div class="card-placeholder"><span class="placeholder-flower" aria-hidden="true">✿</span><span class="placeholder-name">{{ card.character | escape }}</span><span class="placeholder-code">{{ card.code | escape }}</span><span class="placeholder-bottom" aria-hidden="true">♡</span></div>
       </div>
-      <div class="card-caption"><p class="card-series">{{ card.series | escape }}</p><h3>{{ card.character | escape }}</h3><div class="card-meta"><span class="gen-badge">gen {{ card.gen | escape }}</span><code>{{ card.code | escape }}</code></div><button class="card-open" type="button" data-open="{{ card.code | escape }}" hidden aria-label="View {{ card.character | escape }}, card {{ card.code | escape }}">open pocket <span aria-hidden="true">↗</span></button></div>
+      <div class="card-caption"><p class="card-series">{{ card.series | escape }}</p><h3>{{ card.character | escape }}</h3><div class="card-meta"><span class="gen-badge">{% if card.gen %}gen {{ card.gen | escape }}{% else %}gen ?{% endif %}</span><code>{{ card.code | escape }}</code></div><button class="card-open" type="button" data-open="{{ card.code | escape }}" hidden aria-label="View {{ card.character | escape }}, card {{ card.code | escape }}">open pocket <span aria-hidden="true">↗</span></button></div>
     </article>
     {% endfor %}
   </div>

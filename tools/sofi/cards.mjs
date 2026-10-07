@@ -13,23 +13,25 @@ export function parseCollection(text) {
   // Copying the rendered Discord embed loses the backticks and emphasis.
   // Keep emoji names and Unicode emoji; linked emoji become their labels.
   const token = '(?::[a-z\\d_]+:|[^\\s•·]+)';
-  const rowStart = new RegExp(`${token}\\s*[•·]\\s*${token}\\s*[•·]\\s*[a-z\\d]{1,32}\\s+:[a-z\\d_]+:\\s+G\\s*[•·.:]`, 'giu');
+  const rowStart = new RegExp(`${token}\\s*[•·]\\s*${token}\\s*[•·]\\s*[a-z\\d]{1,32}\\s+:[a-z\\d_]+:`, 'giu');
   const plain = text
     .replace(/\[([^\]]+)\]\(https?:\/\/[^)]+\)/gi, '$1')
     .replaceAll('`', '')
-    .replace(/(?:\*\*)?SOFI:\s*COLLECTION\s*\([^)]*\)(?:\*\*)?/gi, '\n$&\n')
-    .replace(/Page:\s*\d+\s*\/\s*\d+\s*\|\s*Total cards:\s*\d+/gi, '\n$&\n')
+    .replace(/(?:\*\*)?SOFI:\s*COLLECTION\s*\([^)]*\)(?:\*\*)?/gi, '\n')
+    .replace(/(?:\*\*)?Page:\s*\d+\s*\/\s*\d+\s*\|\s*Total cards:\s*\d+(?:\*\*)?/gi, '\n')
     .replace(rowStart, '\n$&');
-  const pattern = new RegExp(`^(${token})\\s*[•·]\\s*(${token})\\s*[•·]\\s*([a-z\\d]{1,32})\\s+:([a-z\\d_]+):\\s+G\\s*[•·.:]\\s*([\\d,]+)\\s+(.+?)\\s*[•·]\\s*(.+)$`, 'iu');
+  // A blank generation slot is valid. A malformed G marker is not a name.
+  const pattern = new RegExp(`^(${token})\\s*[•·]\\s*(${token})\\s*[•·]\\s*([a-z\\d]{1,32})\\s+:([a-z\\d_]+):\\s+(?:G\\s*[•·.:]\\s*([\\d,]+)\\s+|(?!G\\s*[•·.:]))(.+?)\\s*[•·]\\s*(.+)$`, 'iu');
+  const candidate = new RegExp(`^${token}\\s*[•·]\\s*${token}\\s*[•·]`, 'iu');
   const cards = new Map();
   const warnings = [];
-  let matched = 0;
+  let matched = 0; let matchedGenerations = 0;
   for (const raw of plain.split(/\r?\n/)) {
     const line = raw.trim();
     if (!line || /^(?:\*\*)?SOFI:\s*COLLECTION\b/i.test(line) || /^Page:\s*\d+/i.test(line)) continue;
     const match = line.match(pattern);
     if (!match) {
-      if (/G\s*[•·.:]/iu.test(line)) throw new Error(`Could not read a card row: ${line.slice(0, 160)}. Nothing was saved.`);
+      if (candidate.test(line) || /G\s*[•·.:]/iu.test(line)) throw new Error(`Could not read a card row: ${line.slice(0, 160)}. Nothing was saved.`);
       continue;
     }
     matched++;
@@ -44,20 +46,26 @@ export function parseCollection(text) {
     else if (/gif/i.test(sourceIcon)) { type = 'GIF'; }
     const element = elements[match[4].toLowerCase()] ?? '';
     const code = codeKey(match[3]);
-    const gen = Number(match[5].replaceAll(',', ''));
-    if (!Number.isSafeInteger(gen) || gen < 1) throw new Error(`Invalid generation for ${code}.`);
+    const gen = match[5] === undefined ? null : Number(match[5].replaceAll(',', ''));
+    if (gen !== null && (!Number.isSafeInteger(gen) || gen < 1)) throw new Error(`Invalid generation for ${code}.`);
+    if (gen !== null) matchedGenerations++;
     const series = match[7].trim().replace(/^\*([\s\S]*)\*$/, '$1').trim();
     const character = match[6].trim().replace(/^\*\*([\s\S]*)\*\*$/, '$1').trim();
     const card = { code, character, series, gen, type, isEvent, element, sourceIcon, seriesNeedsReview: truncated(series) };
-    if (cards.has(code)) warnings.push(`Repeated ${code}: keeping its last pasted occurrence.`);
+    if (cards.has(code)) {
+      warnings.push(`Repeated ${code}: keeping its last pasted occurrence.`);
+      if (card.gen === null) card.gen = cards.get(code).gen;
+    }
     cards.set(code, card);
   }
   if (!matched) throw new Error('No cards found. Paste the collection rows as copied from Discord; plain text or Markdown both work.');
   const generationMarkers = [...plain.matchAll(/(?:^|\s)G\s*[•·.:]/giu)].length;
-  if (generationMarkers !== matched) throw new Error(`Read ${matched} cards but found ${generationMarkers} generation markers. A row has a different format; nothing was saved.`);
+  if (generationMarkers !== matchedGenerations) throw new Error(`Read ${matchedGenerations} generations but found ${generationMarkers} generation markers. A row has a different format; nothing was saved.`);
   const footers = [...text.matchAll(/Page:\s*(\d+)\s*\/\s*(\d+)\s*\|\s*Total cards:\s*(\d+)/gi)].map(m => ({ page: +m[1], pages: +m[2], total: +m[3] }));
   const footer = footers.at(-1) ?? null;
   if (footer && footer.pages === 1 && cards.size < footer.total) warnings.push(`The footer reports ${footer.total} cards, but this paste contains ${cards.size}.`);
+  const unspecified = [...cards.values()].filter(c => c.gen === null).length;
+  if (unspecified) warnings.push(`${unspecified} cards have no generation in this paste. Saved generations are kept; new cards can be filled in later.`);
   for (const c of cards.values()) {
     if (c.seriesNeedsReview) warnings.push(`${c.code}: Sofi shortened the series name. You can fill it in; it has not been guessed.`);
     if (!c.type) warnings.push(`${c.code}: edition icon ${c.sourceIcon || '(missing)'} needs review; type is left unspecified.`);
@@ -69,7 +77,7 @@ export function parseCodeList(text) {
   if (typeof text !== 'string' || text.length > 8_000_000) throw new Error('Paste up to 8 MB of codes or collection rows.');
   // Full collection rows are parsed as rows, so character names/footer numbers
   // cannot accidentally become codes. Bare code lists accept common separators.
-  const codes = /G\s*[•·.:]/iu.test(text)
+  const codes = /G\s*[•·.:]|SOFI:\s*COLLECTION|:[a-z\d_]+:/iu.test(text)
     ? parseCollection(text).cards.map(c => c.code)
     : (text.match(/[a-z\d]+/gi) ?? []).filter(c => c.length <= 32).map(codeKey);
   if (!codes.length) throw new Error('Paste card codes, or the copied collection rows for this tag.');
@@ -143,6 +151,7 @@ export function mergeCards(existing, incoming, { reviewed = false } = {}) {
     let combined = { ...old, ...fresh, code };
     if (old && !reviewed) {
       // A later collection paste does not erase corrected/curated details.
+      if (fresh.gen === null || fresh.gen === undefined) combined.gen = old.gen;
       if (truncated(fresh.series) && !old.seriesNeedsReview && old.series) combined.series = old.series;
       if (fresh.type === null) combined.type = old.type;
       if (fresh.isEvent === null) combined.isEvent = old.isEvent;

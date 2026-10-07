@@ -83,7 +83,7 @@
     const artwork = original.cloneNode(true); artwork.hidden = false;
     if (artwork.tagName === 'IMG') { artwork.loading = 'eager'; artwork.addEventListener('error', () => { const placeholder = card.querySelector('.card-placeholder').cloneNode(true); placeholder.hidden = false; $('#dialog-art').replaceChildren(placeholder); }); artwork.src = artwork.dataset.src; }
     $('#dialog-art').append(artwork);
-    const facts = [['Card code',d.code], ['Generation',d.gen], ['Type',d.type], ['Element',d.element], ['Event', d.event || (d.isEvent === 'true' ? 'Event card' : '')], ['Frame',d.frame], ['Glow',d.glow]];
+    const facts = [['Card code',d.code], ['Generation',d.gen || 'Unspecified'], ['Type',d.type], ['Element',d.element], ['Event', d.event || (d.isEvent === 'true' ? 'Event card' : '')], ['Frame',d.frame], ['Glow',d.glow]];
     $('#dialog-facts').replaceChildren();
     for (const [label,value] of facts) { if (!value) continue; const row=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;row.append(dt,dd);$('#dialog-facts').append(row); }
     $('#dialog-note').textContent = d.note; $('#dialog-note').hidden = !d.note;
