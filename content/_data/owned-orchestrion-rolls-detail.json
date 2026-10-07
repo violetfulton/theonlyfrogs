@@ -340,9 +340,19 @@
     "ItemName": "Garden Relics Orchestrion Roll"
   },
   {
+    "RowId": 731,
+    "Title": "Garden Ruins",
+    "ItemName": "Garden Ruins Orchestrion Roll"
+  },
+  {
     "RowId": 103,
     "Title": "Grounded",
     "ItemName": "Grounded Orchestrion Roll"
+  },
+  {
+    "RowId": 299,
+    "Title": "Hammerhead",
+    "ItemName": "Hammerhead Orchestrion Roll"
   },
   {
     "RowId": 846,
@@ -758,6 +768,11 @@
     "RowId": 28,
     "Title": "Ultima",
     "ItemName": "Ultima Orchestrion Roll"
+  },
+  {
+    "RowId": 300,
+    "Title": "Valse di Fantastica",
+    "ItemName": "Valse di Fantastica Orchestrion Roll"
   },
   {
     "RowId": 763,
