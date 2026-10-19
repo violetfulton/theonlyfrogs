@@ -1,0 +1,15 @@
+[
+  { "id": "halloween26", "name": "Halloween", "year": 2026, "url": "https://sofi.gg/events/halloween26" },
+  { "id": "maid26", "name": "Maid & Butler", "year": 2026, "url": "https://sofi.gg/events/maid26" },
+  { "id": "monochrome26", "name": "Monochrome", "year": 2026, "url": "https://sofi.gg/events/monochrome26" },
+  { "id": "autumn25", "name": "Autumn", "year": 2025, "url": "https://sofi.gg/events/autumn25" },
+  { "id": "summer25", "name": "Summer", "year": 2025, "url": "https://sofi.gg/events/summer25" },
+  { "id": "wedding", "name": "Weddings", "year": 2025, "url": "https://sofi.gg/events/wedding" },
+  { "id": "newyear", "name": "New Year", "year": 2025, "url": "https://sofi.gg/events/newyear" },
+  { "id": "summer", "name": "Summer", "year": 2024, "url": "https://sofi.gg/events/summer" },
+  { "id": "spring", "name": "Spring", "year": 2024, "url": "https://sofi.gg/events/spring" },
+  { "id": "christmas", "name": "Christmas", "year": 2023, "url": "https://sofi.gg/events/christmas" },
+  { "id": "monochrome", "name": "Monochrome", "year": 2023, "url": "https://sofi.gg/events/monochrome" },
+  { "id": "valentines", "name": "Valentine", "year": 2023, "url": "https://sofi.gg/events/valentines" },
+  { "id": "halloween", "name": "Halloween", "year": 2022, "url": "https://sofi.gg/events/halloween" }
+]

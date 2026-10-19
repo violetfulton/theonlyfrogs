@@ -4,9 +4,25 @@
   const cards = [...grid.querySelectorAll('.sofi-card')];
   const $ = selector => document.querySelector(selector);
   const gen = card => Number(card.dataset.gen) || Infinity;
+  const isEvent = card => card.dataset.isEvent === 'true' || (card.dataset.isEvent !== 'false' && Boolean(card.dataset.event));
+  const eventName = card => (card.dataset.event || '').trim();
+  const eventCatalogue = new Map(JSON.parse($('#event-filter').dataset.catalogue || '[]').map(event => [event.id, `${event.name} ${event.year}`]));
+  const eventLabel = name => eventCatalogue.get(name) || name;
   const tags = card => JSON.parse(card.dataset.tags || '[]');
   const series = [...new Set(cards.map(c => c.dataset.series).filter(Boolean))].sort((a,b) => a.localeCompare(b));
   for (const name of series) { const option = document.createElement('option'); option.value = option.textContent = name; $('#series-filter').append(option); }
+  const eventCounts = new Map(); let unlabelledEvents = 0;
+  for (const card of cards) {
+    if (!isEvent(card)) continue;
+    const name = eventName(card);
+    if (name) eventCounts.set(name, (eventCounts.get(name) || 0) + 1); else unlabelledEvents++;
+    const badge = document.createElement('span'); badge.textContent = name || 'event'; badge.title = name ? eventLabel(name) : 'Event name unknown';
+    card.querySelector('.pocket-badges').append(badge);
+  }
+  $('#event-filter option[value="unlabelled"]').textContent = `Event name unknown (${unlabelledEvents})`;
+  for (const [name, count] of [...eventCounts].sort(([a], [b]) => a.localeCompare(b))) {
+    const option = document.createElement('option'); option.value = 'name:' + name; option.textContent = `${eventLabel(name)} (${count})`; $('#event-filter').append(option);
+  }
   const tagTabs = $('#tag-tabs');
   const hiddenTags = new Set(JSON.parse(tagTabs.dataset.hiddenTags || '[]').map(t => t.toLowerCase()));
   const counts = new Map();
@@ -31,12 +47,14 @@
     const query = $('#card-search').value.trim().toLowerCase();
     const chosenSeries = $('#series-filter').value;
     const type = $('#type-filter').value;
+    const chosenEvent = $('#event-filter').value;
     const matches = new Set();
     for (const c of cards) {
       const d = c.dataset;
-      const selected = selection === 'all' || (selection === 'low' && gen(c) <= 10) || (selection === 'favourites' && d.favourite === 'true') || (selection === 'event' && (d.isEvent === 'true' || d.event));
-      const text = `${d.character} ${d.series} ${d.code} ${d.tags} ${d.note}`.toLowerCase();
-      const excluded = !selected || !text.includes(query) || (chosenSeries && d.series !== chosenSeries) || (chosenTag && !tags(c).includes(chosenTag)) || (type && (type === 'unknown' ? Boolean(d.type) : d.type !== type));
+      const selected = selection === 'all' || (selection === 'low' && gen(c) <= 10) || (selection === 'favourites' && d.favourite === 'true') || (selection === 'event' && isEvent(c));
+      const text = `${d.character} ${d.series} ${d.code} ${d.tags} ${d.note} ${isEvent(c) ? eventName(c) + ' ' + eventLabel(eventName(c)) : ''}`.toLowerCase();
+      const wrongEvent = chosenEvent && (!isEvent(c) || (chosenEvent === 'unlabelled' ? Boolean(eventName(c)) : eventName(c) !== chosenEvent.slice(5)));
+      const excluded = !selected || !text.includes(query) || wrongEvent || (chosenSeries && d.series !== chosenSeries) || (chosenTag && !tags(c).includes(chosenTag)) || (type && (type === 'unknown' ? Boolean(d.type) : d.type !== type));
       if (!excluded) matches.add(c);
     }
     const sortByGen = $('#card-sort').value === 'gen';
@@ -70,7 +88,7 @@
     tagButtons.forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', String(b === button)); });
     filter();
   }));
-  for (const id of ['#card-search', '#page-size', '#series-filter', '#type-filter', '#card-sort', '#selection-filter']) $(id).addEventListener(id === '#card-search' ? 'input' : 'change', () => filter());
+  for (const id of ['#card-search', '#page-size', '#series-filter', '#type-filter', '#event-filter', '#card-sort', '#selection-filter']) $(id).addEventListener(id === '#card-search' ? 'input' : 'change', () => filter());
   $('#gallery-prev').addEventListener('click', () => { if (pageNumber > 1) { pageNumber--; filter(false); } });
   $('#gallery-next').addEventListener('click', () => { pageNumber++; filter(false); });
   const dialog = $('#card-dialog'); let currentCard = null;
@@ -83,7 +101,7 @@
     const artwork = original.cloneNode(true); artwork.hidden = false;
     if (artwork.tagName === 'IMG') { artwork.loading = 'eager'; artwork.addEventListener('error', () => { const placeholder = card.querySelector('.card-placeholder').cloneNode(true); placeholder.hidden = false; $('#dialog-art').replaceChildren(placeholder); }); artwork.src = artwork.dataset.src; }
     $('#dialog-art').append(artwork);
-    const facts = [['Card code',d.code], ['Generation',d.gen || 'Unspecified'], ['Type',d.type], ['Element',d.element], ['Event', d.event || (d.isEvent === 'true' ? 'Event card' : '')], ['Frame',d.frame], ['Glow',d.glow]];
+    const facts = [['Card code',d.code], ['Generation',d.gen || 'Unspecified'], ['Type',d.type], ['Element',d.element], ['Event', isEvent(card) ? eventLabel(eventName(card)) || 'Event card' : ''], ['Frame',d.frame], ['Glow',d.glow]];
     $('#dialog-facts').replaceChildren();
     for (const [label,value] of facts) { if (!value) continue; const row=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;row.append(dt,dd);$('#dialog-facts').append(row); }
     $('#dialog-note').textContent = d.note; $('#dialog-note').hidden = !d.note;

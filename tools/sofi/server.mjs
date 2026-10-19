@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseCollection, parseCodeList, applyTag, linkHostedImages, mergeCards, matchImages, validateCard, imageExtensions, codeKey } from './cards.mjs';
 import { matchFrogPond, readFrogPond } from './frog-pond.mjs';
+import { parseSofiCSV, mergeSofiCSV } from './csv.mjs';
+import { labelEvent } from './events.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
@@ -22,6 +24,14 @@ async function readCards() {
     const data = JSON.parse(await readFile(dataFile, 'utf8'));
     if (!Array.isArray(data)) throw new Error('sofiCards.json must be an array.');
     return data.map(validateCard);
+  } catch (e) { if (e.code === 'ENOENT') return []; throw e; }
+}
+
+async function readEvents() {
+  try {
+    const events = JSON.parse(await readFile(path.join(root, 'content/_data/sofiEvents.json'), 'utf8'));
+    if (!Array.isArray(events) || events.some(event => !event || !/^[a-z][a-z\d_-]{0,31}$/.test(event.id) || typeof event.name !== 'string' || !Number.isSafeInteger(event.year))) throw new Error('Invalid sofiEvents.json event catalogue.');
+    return events.map(({ id, name, year }) => ({ id, name, year }));
   } catch (e) { if (e.code === 'ENOENT') return []; throw e; }
 }
 
@@ -66,15 +76,27 @@ const server = http.createServer(async (req, res) => {
       const html = (await readFile(path.join(here, 'import.html'), 'utf8')).replace('__SOFI_TOKEN__', token);
       return send(res, 200, html, 'text/html; charset=utf-8');
     }
-    if (req.method === 'GET' && url.pathname === '/api/cards') return send(res, 200, { cards: await matchImages(await readCards(), imageDir) });
+    if (req.method === 'GET' && url.pathname === '/api/cards') return send(res, 200, { cards: await matchImages(await readCards(), imageDir), events: await readEvents() });
     if (req.method === 'GET' && url.pathname.startsWith('/assets/imgs/sofi/')) {
       const name = url.pathname.slice('/assets/imgs/sofi/'.length);
       if (!/^[a-z\d]+\.(png|jpe?g|webp|gif|avif)$/i.test(name)) return send(res, 404, { error: 'Image not found.' });
       return send(res, 200, await readFile(path.join(imageDir, name)), mime[path.extname(name).toLowerCase()]);
     }
-    if (req.method !== 'POST' || !['/api/preview', '/api/tags', '/api/images', '/api/pond-folders', '/api/pond-images', '/api/pond-export', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
+    if (req.method !== 'POST' || !['/api/preview', '/api/csv-preview', '/api/tags', '/api/events', '/api/images', '/api/pond-folders', '/api/pond-images', '/api/pond-export', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
     if (req.headers.origin !== origin || req.headers['x-sofi-token'] !== token || !req.headers['content-type']?.startsWith('application/json')) return send(res, 403, { error: 'Use the local import screen to save.' });
     const input = await body(req);
+    if (url.pathname === '/api/events') {
+      if (!Array.isArray(input.cards)) throw new Error('Load or import your cards first.');
+      return send(res, 200, labelEvent(input.cards.map(validateCard), parseCodeList(input.text), input.event, { clearName: input.clearName === true }));
+    }
+    if (url.pathname === '/api/csv-preview') {
+      const parsed = parseSofiCSV(input.text);
+      if (input.cards !== undefined && !Array.isArray(input.cards)) throw new Error('Invalid current collection.');
+      const current = mergeCards(await readCards(), (input.cards ?? []).map(validateCard), { reviewed: true });
+      const result = mergeSofiCSV(current, parsed, { replaceTags: input.replaceTags === true });
+      result.cards = await matchImages(result.cards, imageDir);
+      return send(res, 200, { ...result, matched: parsed.matched, warnings: parsed.warnings, tagCounts: parsed.tagCounts });
+    }
     if (url.pathname === '/api/pond-folders') return send(res, 200, await readFrogPond(input, 'folders'));
     if (['/api/pond-images', '/api/pond-export'].includes(url.pathname)) {
       if (!Array.isArray(input.cards)) throw new Error('Load or import your cards first.');

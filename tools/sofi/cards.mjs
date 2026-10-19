@@ -59,7 +59,9 @@ export function parseCollection(text) {
     cards.set(code, card);
   }
   if (!matched) throw new Error('No cards found. Paste the collection rows as copied from Discord; plain text or Markdown both work.');
-  const generationMarkers = [...plain.matchAll(/(?:^|\s)G\s*[•·.:]/giu)].length;
+  // Count the field following the element emoji, not G-like text in names
+  // or shortened series such as "Rune Factory: G...".
+  const generationMarkers = [...plain.matchAll(/:[a-z\d_]+:\s+G\s*[•·.:]/giu)].length;
   if (generationMarkers !== matchedGenerations) throw new Error(`Read ${matchedGenerations} generations but found ${generationMarkers} generation markers. A row has a different format; nothing was saved.`);
   const footers = [...text.matchAll(/Page:\s*(\d+)\s*\/\s*(\d+)\s*\|\s*Total cards:\s*(\d+)/gi)].map(m => ({ page: +m[1], pages: +m[2], total: +m[3] }));
   const footer = footers.at(-1) ?? null;

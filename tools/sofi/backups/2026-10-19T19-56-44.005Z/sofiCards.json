@@ -1,0 +1,8554 @@
+[
+  {
+    "code": "bae3gg",
+    "character": "7",
+    "series": "Princess Principal",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "adam",
+    "character": "Adam",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/adam.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": true
+  },
+  {
+    "code": "oiybgo",
+    "character": "Admiral",
+    "series": "Animal Crossing",
+    "gen": 22,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ax4gsk",
+    "character": "Aerodactyl",
+    "series": "Pokemon Generation I",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/ax4gsk.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a94ug1",
+    "character": "Aether Yaksha",
+    "series": "Tokyo Afterschool Summoners",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/KPULLxQwAc.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6ct6a",
+    "character": "Afdal Bashal",
+    "series": "Metallic Rouge",
+    "gen": 40,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5lw1v",
+    "character": "Ais",
+    "series": "Touchstarved",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aa6srk",
+    "character": "Alastor",
+    "series": "Hazbin Hotel",
+    "gen": 232,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badboy",
+    "character": "Alastor",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/badboy.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": true
+  },
+  {
+    "code": "bai2ic",
+    "character": "Altorius",
+    "series": "Restaurant to Another World",
+    "gen": 31,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/FQhAYzycFa.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51plj",
+    "character": "Amanda Lopez",
+    "series": "Milo Murphy's Law",
+    "gen": 91,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5o2dq",
+    "character": "Amaya Raine",
+    "series": "Rainbow High",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bae4d2",
+    "character": "Amelia",
+    "series": "Sid Story",
+    "gen": 36,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b81ij3",
+    "character": "Angel Dust",
+    "series": "Hazbin Hotel",
+    "gen": 211,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/BmFvHDWv5G.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ong8lz",
+    "character": "Anicotti",
+    "series": "Animal Crossing",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s8xb",
+    "character": "Annie",
+    "series": "League of Legends",
+    "gen": 135,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba924h",
+    "character": "Antiquarian",
+    "series": "Identity V",
+    "gen": 18,
+    "type": null,
+    "isEvent": null,
+    "element": "Fire",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a90zxb",
+    "character": "Anya",
+    "series": "Valkyrie Crusade",
+    "gen": 64,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9x0c68",
+    "character": "Apollo",
+    "series": "Animal Crossing",
+    "gen": 167,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9ybr0y",
+    "character": "Apollo",
+    "series": "Animal Crossing",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Void",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "9ybr0y",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "obrb8c",
+    "character": "Apple",
+    "series": "Animal Crossing",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": "🌷",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ad2c7x",
+    "character": "Arata Kirishima",
+    "series": "Tokyo Ghoul",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8ev69",
+    "character": "Ariel",
+    "series": "So I'm a Spider, So What?",
+    "gen": 28,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/TsPnEFZTB9.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8a2f5",
+    "character": "Asahi Koube",
+    "series": "Happy Sugar Life",
+    "gen": 75,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bafj0v",
+    "character": "Astaroth",
+    "series": "Love Advice from the Great Duke of Hell",
+    "gen": 49,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/bpbcpDaHae.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6zjpy",
+    "character": "Atul",
+    "series": "Spiritfarer",
+    "gen": 799,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a7qphz",
+    "character": "Aula Kuhl",
+    "series": "Atelier Marie: The Alchemist of Salburg",
+    "gen": 28,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/TSgs46hWBE.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ayeyic",
+    "character": "Avery",
+    "series": "Animal Crossing",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xw4n",
+    "character": "Axel",
+    "series": "Boy Girlfriend",
+    "gen": 52,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a63mqt",
+    "character": "Ayaka Shinozaki",
+    "series": "Heaven's Memo Pad",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ap3eex",
+    "character": "Baabara",
+    "series": "Animal Crossing",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aj7ki1",
+    "character": "Bai Blue",
+    "series": "Show By Rock!!",
+    "gen": 24,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba90np",
+    "character": "Bang Chan",
+    "series": "Stray Kids",
+    "gen": 82,
+    "type": null,
+    "isEvent": null,
+    "element": "Ice",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a63itm",
+    "character": "Baphomed Yolda",
+    "series": "Karmic Murderous Plaza",
+    "gen": 58,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4LMybdUwGg.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51r4l",
+    "character": "Batman",
+    "series": "DC Extended Universe",
+    "gen": 66,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/mBp9ajRMvp.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b6g264",
+    "character": "Beardo",
+    "series": "Animal Crossing",
+    "gen": 93,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a57oiw",
+    "character": "Ben Bigger",
+    "series": "Zenless Zone Zero",
+    "gen": 18,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai9ryz",
+    "character": "Bernie Lumen",
+    "series": "Elemental",
+    "gen": 54,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abjuoe",
+    "character": "Big Gay Al",
+    "series": "South Park",
+    "gen": 52,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "av5cjy",
+    "character": "Blinky",
+    "series": "Pac-Man",
+    "gen": 34,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9k4r2l",
+    "character": "Bob",
+    "series": "Animal Crossing",
+    "gen": 65,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o914py",
+    "character": "Bob",
+    "series": "Animal Crossing",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": "🌷",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b2nlbo",
+    "character": "Bones",
+    "series": "Animal Crossing",
+    "gen": 33,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ak5yxb",
+    "character": "Bora",
+    "series": "Fairy Tail",
+    "gen": 65,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apiggy",
+    "character": "Boris",
+    "series": "Animal Crossing",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/apiggy.jpg",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7ydon",
+    "character": "Box",
+    "series": "Inanimate Insanity",
+    "gen": 94,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7x692",
+    "character": "Brendan",
+    "series": "Pokemon People",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6f33r",
+    "character": "Buff Frog",
+    "series": "Star vs. the Forces of Evil",
+    "gen": 1114,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/aUV7cw4XZe.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xwzf",
+    "character": "Buff Frog",
+    "series": "Star vs. the Forces of Evil",
+    "gen": 1887,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/7Cg6D28yyh.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o5jjto",
+    "character": "Bulbasaur",
+    "series": "Pokemon Generation I",
+    "gen": 394,
+    "type": "3D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":x3dver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9on2e0",
+    "character": "Calem",
+    "series": "Pokemon People",
+    "gen": 17,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7y7nd",
+    "character": "Candice",
+    "series": "Pokemon People",
+    "gen": 22,
+    "type": null,
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aurxfk",
+    "character": "Caroline Forbes",
+    "series": "The Vampire Diaries",
+    "gen": 51,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/Pbi9jmptw9.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aw0nsr",
+    "character": "Catherine",
+    "series": "Sid Story",
+    "gen": 36,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai8gcg",
+    "character": "Charlie Morningstar",
+    "series": "Hazbin Hotel",
+    "gen": 107,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "Autumn 2025 🌰",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/TzMLr376Bb.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b0hacg",
+    "character": "Cherubi",
+    "series": "Pokemon Generation I",
+    "gen": 7,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai8yl1",
+    "character": "Chococat",
+    "series": "Sanrio",
+    "gen": 111,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "Autumn 2025 🌰",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "baduhz",
+    "character": "Chucky Marstein",
+    "series": "Sons of Anarchy",
+    "gen": 16,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ata4w5",
+    "character": "Cinnamoroll",
+    "series": "Sanrio",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "be5gwx",
+    "character": "Clarice",
+    "series": "Isekai: Slow Life",
+    "gen": 51,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a90tvi",
+    "character": "Class Teacher",
+    "series": "Karin",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a7d5o3",
+    "character": "Clive",
+    "series": "Pokemon People",
+    "gen": 18,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9ymjy8",
+    "character": "Cogimyun",
+    "series": "Sanrio",
+    "gen": 140,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/khp6ZZANji.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "av55gz",
+    "character": "Cogimyun",
+    "series": "Sanrio",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "anusq7",
+    "character": "Cole",
+    "series": "Wolf's Rain",
+    "gen": 66,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "av3rfn",
+    "character": "Colm",
+    "series": "Fire Emblem: The Sacred Stones",
+    "gen": 79,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/tPWwnrX6vT.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89lne",
+    "character": "Cow",
+    "series": "Minecraft",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p4gp8u",
+    "character": "Croque",
+    "series": "Animal Crossing",
+    "gen": 16,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badxi9",
+    "character": "Cuilang",
+    "series": "Rune Factory: Guardians of Azuma",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/yYjTGtzB8b.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xhh4y",
+    "character": "Cyrus",
+    "series": "Animal Crossing",
+    "gen": 80,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xyp0r",
+    "character": "Cyrus",
+    "series": "Another Eden: The Cat Beyond Time and Space",
+    "gen": 1579,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/APKU4nxk9H.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6gje8",
+    "character": "Cyrus",
+    "series": "Another Eden: The Cat Beyond Time and Space",
+    "gen": 1358,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/GFnpnWxJpw.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a7ijuv",
+    "character": "Cyrus",
+    "series": "Another Eden: The Cat Beyond Time and Space",
+    "gen": 1670,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4etb2FTwhg.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4jex5",
+    "character": "Daikokuten",
+    "series": "Fate Grand Order",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9sweiz",
+    "character": "Daisy Mae",
+    "series": "Animal Crossing",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a910s6",
+    "character": "Dale",
+    "series": "If it's for My Daughter, I'd Even Defeat a Demon Lord",
+    "gen": 74,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/b7JKuwxUqY.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5da3d",
+    "character": "Daphne",
+    "series": "Eversoul",
+    "gen": 37,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89g47",
+    "character": "Dawn",
+    "series": "Pokemon People",
+    "gen": 257,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/hjKFLvbhTp.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b83mo7",
+    "character": "Deadpool",
+    "series": "Marvel Cinematic Universe",
+    "gen": 180,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/JRqKNwQzmr.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b84k97",
+    "character": "Deirdre",
+    "series": "Valkyrie Crusade",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avbrtv",
+    "character": "Derek Shepherd",
+    "series": "Grey's Anatomy",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Void",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ac36u5",
+    "character": "Derwin",
+    "series": "Animal Crossing",
+    "gen": 7,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b01oq2",
+    "character": "Diana",
+    "series": "League of Legends",
+    "gen": 54,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9z17nx",
+    "character": "Digby",
+    "series": "Animal Crossing",
+    "gen": 9,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xxkz",
+    "character": "Ditto",
+    "series": "Pokemon Generation I",
+    "gen": 64,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8fACEGcjCd.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5ixkp",
+    "character": "Dokkaebi Lord",
+    "series": "Summoners War",
+    "gen": 46,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b2gsg0",
+    "character": "Doraemon",
+    "series": "Doraemon",
+    "gen": 56,
+    "type": null,
+    "isEvent": null,
+    "element": "Ice",
+    "sourceIcon": ":xanimatedver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba91w7",
+    "character": "Dowoon",
+    "series": "Day6",
+    "gen": 79,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a588qu",
+    "character": "Dr. Monty",
+    "series": "Call of Duty",
+    "gen": 78,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avaecg",
+    "character": "Draculaura",
+    "series": "Monster High",
+    "gen": 44,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "pbvzcw",
+    "character": "Drago",
+    "series": "Animal Crossing",
+    "gen": 166,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "🎆",
+    "seriesNeedsReview": false,
+    "event": "New Year 2025 🎆",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/3kTSb6wVvV.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "atglvz",
+    "character": "Drayton",
+    "series": "Pokemon People",
+    "gen": 33,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9t0fju",
+    "character": "Drift",
+    "series": "Animal Crossing",
+    "gen": 39,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5ugx8",
+    "character": "Dwight Fairfield",
+    "series": "DEAD BY DAYLIGHT",
+    "gen": 97,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82hfs",
+    "character": "Eevee",
+    "series": "Pokemon Generation I",
+    "gen": 173,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/GRMT3cJ6DD.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82q0x",
+    "character": "Eevee",
+    "series": "Pokemon Generation I",
+    "gen": 206,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/HhEQFVdfuv.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "wlyy",
+    "character": "Egg Bois",
+    "series": "Hazbin Hotel",
+    "gen": 2,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avla9a",
+    "character": "Ekishaman",
+    "series": "Adachi and Shimamura",
+    "gen": 81,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/cuPCRRZNGH.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89sng",
+    "character": "Elizabeth 3rd",
+    "series": "Mystic Messenger",
+    "gen": 93,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "anh0sd",
+    "character": "Elsa",
+    "series": "Frozen",
+    "gen": 74,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5jy17",
+    "character": "Escavalier",
+    "series": "Pokemon Generation V",
+    "gen": 65,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/YXquXJjpF6.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "arjplh",
+    "character": "Eugene",
+    "series": "Animal Crossing",
+    "gen": 3,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aoecml",
+    "character": "Farmer",
+    "series": "Valkyrie Crusade",
+    "gen": 55,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aiejd0",
+    "character": "Father Spider Demon",
+    "series": "Demon Slayer",
+    "gen": 72,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a2eux9",
+    "character": "Fauna",
+    "series": "Animal Crossing",
+    "gen": 3,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badt9e",
+    "character": "Fisherman",
+    "series": "Clash Royale",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aik46d",
+    "character": "Flam Remendis",
+    "series": "Re:ZERO -Starting Life in Another World-",
+    "gen": 55,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4gVH3VGmhA.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a8b05h",
+    "character": "Fraise",
+    "series": "Nekopara",
+    "gen": 74,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aippdb",
+    "character": "Franklin",
+    "series": "Animal Crossing",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Light",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avou0h",
+    "character": "Franklin",
+    "series": "Animal Crossing",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Fire",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ax35n8",
+    "character": "Franklin",
+    "series": "Animal Crossing",
+    "gen": 92,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/VAhJiHn49K.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a9uuz8",
+    "character": "Fresh Cut Grass",
+    "series": "Critical Role",
+    "gen": 64,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apeuey",
+    "character": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
+    "gen": 1186,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Christmas 2025 🎄",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/9S2gHzyGSy.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xmxym",
+    "character": "Frog",
+    "series": "Everhood",
+    "gen": 867,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aut5j9",
+    "character": "Frog",
+    "series": "Baba is You",
+    "gen": 1547,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b6vx83",
+    "character": "Frog",
+    "series": "Baba is You",
+    "gen": 1850,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xp5i",
+    "character": "Frog",
+    "series": "Minecraft",
+    "gen": 1790,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4x2lo",
+    "character": "Froggy",
+    "series": "Sonic the Hedgehog",
+    "gen": 1319,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4g44m",
+    "character": "Froggy",
+    "series": "Sonic the Hedgehog",
+    "gen": 8,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bgyd3s",
+    "character": "Froggy",
+    "series": "Sonic the Hedgehog",
+    "gen": 721,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7whc8",
+    "character": "Frosch",
+    "series": "Fairy Tail",
+    "gen": 900,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xyevw",
+    "character": "Frosh",
+    "series": "Atelier Annie: Alchemists of Sera Island",
+    "gen": 1829,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/b8ncRMBd5W.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a76ipa",
+    "character": "Frosh",
+    "series": "Atelier Annie: Alchemists of Sera Island",
+    "gen": 656,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/R2JYnhVREV.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aosfnp",
+    "character": "Frostfire",
+    "series": "Alchemy Stars",
+    "gen": 50,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8bg91",
+    "character": "Frye",
+    "series": "Splatoon",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8EwM2Yi3KN.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xat9",
+    "character": "Furret",
+    "series": "Pokemon Generation II",
+    "gen": 23,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8PxvPFHfRa.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4vysd",
+    "character": "Gala",
+    "series": "Animal Crossing",
+    "gen": 79,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82fr8",
+    "character": "Garchomp",
+    "series": "Pokemon Generation IV",
+    "gen": 33,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/w5S4rUwDQD.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badx8w",
+    "character": "Gene Belcher",
+    "series": "Bob's Burgers",
+    "gen": 72,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6gvk3",
+    "character": "Gepard",
+    "series": "Black Clover",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bcel9o",
+    "character": "Gin Doujima",
+    "series": "Food Wars! Shokugeki no Soma",
+    "gen": 93,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/DQmuYpD5gp.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badzqv",
+    "character": "Giratina",
+    "series": "Pokemon Generation IV",
+    "gen": 58,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/5qhLicnVvA.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xbl9",
+    "character": "Glaceon",
+    "series": "Pokemon Generation IV",
+    "gen": 268,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/FTQq3deyAR.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6zism",
+    "character": "Goblette",
+    "series": "My Friendly Neighborhood",
+    "gen": 1570,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/2nAS2GJEJb.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xgx3n",
+    "character": "Godzilla",
+    "series": "Godzilla",
+    "gen": 54,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b0mi8s",
+    "character": "Gonzo",
+    "series": "Animal Crossing",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5thbo",
+    "character": "Gouda",
+    "series": "Good Luck Girl!",
+    "gen": 624,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b43xht",
+    "character": "Grams",
+    "series": "Animal Crossing",
+    "gen": 16,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7tro6",
+    "character": "Greedent",
+    "series": "Pokemon Generation VIII",
+    "gen": 243,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/puiEZZvk3f.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6zgca",
+    "character": "Guildenstern",
+    "series": "SERVAMP",
+    "gen": 79,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aupsvo",
+    "character": "Gul'dan",
+    "series": "World of Warcraft",
+    "gen": 33,
+    "type": null,
+    "isEvent": null,
+    "element": "Void",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7wn00",
+    "character": "Gwen",
+    "series": "League of Legends",
+    "gen": 189,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/vqiErDtLhZ.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9y7buc",
+    "character": "Hamlet",
+    "series": "Animal Crossing",
+    "gen": 90,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/Hp28nhxSxz.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b47t3u",
+    "character": "Hana",
+    "series": "Tokyo Godfathers",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba927h",
+    "character": "Hanako Ikezawa",
+    "series": "Katawa Shoujo",
+    "gen": 45,
+    "type": null,
+    "isEvent": null,
+    "element": "Wood",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s0jp",
+    "character": "Hanamaruobake",
+    "series": "Sanrio",
+    "gen": 269,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/mL2kGjrzcG.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aq7ydh",
+    "character": "Hans",
+    "series": "Animal Crossing",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a1hxtt",
+    "character": "Happy Frog",
+    "series": "Five Nights at Freddy's",
+    "gen": 1977,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/Midbqe8WwZ.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9x7at0",
+    "character": "Haru",
+    "series": "Beastars",
+    "gen": 79,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba90yl",
+    "character": "Hayase Yuuka",
+    "series": "Blue Archive",
+    "gen": 41,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9ysbdo",
+    "character": "Hazel",
+    "series": "Animal Crossing",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a585vz",
+    "character": "Heidel Creutz",
+    "series": "I Belong to House Castielo",
+    "gen": 87,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/wDdWBYTSnh.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aofc9s",
+    "character": "Helene",
+    "series": "The Royal Tutor",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awpcwk",
+    "character": "Hello Kitty",
+    "series": "Sanrio",
+    "gen": 105,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/NZAXTex7Q8.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4p45t",
+    "character": "Henry",
+    "series": "Animal Crossing",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "acfroggy"
+    ],
+    "favourite": true
+  },
+  {
+    "code": "b7xl5e",
+    "character": "Heracross",
+    "series": "Pokemon Generation II",
+    "gen": 19,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/j82EF99Za8.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ab78fq",
+    "character": "Hien Rijin",
+    "series": "Final Fantasy XIV",
+    "gen": 69,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89g78",
+    "character": "Himesaki Toko",
+    "series": "The Dragonkin's Neighbour",
+    "gen": 18,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/rt3g7tEcKB.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b55ixv",
+    "character": "Hiodoshi Ao",
+    "series": "Hololive DEV_IS",
+    "gen": 95,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xh33z",
+    "character": "Holland Novak",
+    "series": "Eureka Seven",
+    "gen": 72,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "acc2wk",
+    "character": "Homunculus",
+    "series": "Valkyrie Crusade",
+    "gen": 84,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba8zur",
+    "character": "Hoshimachi Suisei",
+    "series": "Hololive",
+    "gen": 14,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai7var",
+    "character": "Hou-ban Taichou",
+    "series": "One Piece",
+    "gen": 22,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b6vrkp",
+    "character": "Hungarian Horntail",
+    "series": "Harry Potter",
+    "gen": 97,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "as0hem",
+    "character": "Husk",
+    "series": "Hazbin Hotel",
+    "gen": 13,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82gdk",
+    "character": "Husk",
+    "series": "Hazbin Hotel",
+    "gen": 95,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/sQ4Zi365Tg.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82got",
+    "character": "Husk",
+    "series": "Hazbin Hotel",
+    "gen": 149,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/iMhfPsNAYL.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "acv6fi",
+    "character": "I-401",
+    "series": "KanColle: Kantai Collection",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/eBUSTYz2WC.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ac10w4",
+    "character": "Ichika Veronica Seto",
+    "series": "Assault Lily",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abx6yl",
+    "character": "Ippondatara",
+    "series": "Ragnador",
+    "gen": 34,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai7xv1",
+    "character": "Isabelle",
+    "series": "Animal Crossing",
+    "gen": 197,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "Autumn 2025 🌰",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/ypdt8tDLC2.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ac2qna",
+    "character": "Issha Mihotoke",
+    "series": "Air Gear",
+    "gen": 68,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aw6i1u",
+    "character": "Izuku Midoriya",
+    "series": "My Hero Academia",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b54k55",
+    "character": "Jaeyeong Yun",
+    "series": "World's Strongest Troll",
+    "gen": 57,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/VVnWBXKDzk.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "orgnsm",
+    "character": "Jambette",
+    "series": "Animal Crossing",
+    "gen": 4,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/orgnsm.png",
+    "tags": [
+      "collection",
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "axz7lz",
+    "character": "Jean-Paul Valley",
+    "series": "DC Comics",
+    "gen": 30,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8e24n",
+    "character": "Jeremiah",
+    "series": "Animal Crossing",
+    "gen": 63,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "afeyvx",
+    "character": "Jia Chong",
+    "series": "Dynasty Warriors",
+    "gen": 43,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b64brr",
+    "character": "Jiho Shin",
+    "series": "unTouchable",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a491n3",
+    "character": "June",
+    "series": "Animal Crossing",
+    "gen": 52,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xexjf",
+    "character": "Jungle Frog",
+    "series": "Crossy Road",
+    "gen": 1679,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7u7qk",
+    "character": "Jungle Frog",
+    "series": "Crossy Road",
+    "gen": 1164,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avnzq6",
+    "character": "K.K. Slider",
+    "series": "Animal Crossing",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/3h6gZSu5nH.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aar5xz",
+    "character": "Kabukinyantaro",
+    "series": "Sanrio",
+    "gen": 82,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "al8plx",
+    "character": "Kaedehara Kazuha",
+    "series": "Genshin Impact",
+    "gen": 77,
+    "type": "GIF",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": ":xanimatedver:",
+    "seriesNeedsReview": false,
+    "event": "Autumn 2025 🌰",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/cHubXGe9AN.gif",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xmhgd",
+    "character": "Kaeru",
+    "series": "Poco's Udon World",
+    "gen": 1095,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4yiak",
+    "character": "Kang Jinha",
+    "series": "A Guy Like You",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "atemho",
+    "character": "Kaori Ueno",
+    "series": "Sweet Blue Flowers",
+    "gen": 46,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "axna5h",
+    "character": "Katana Man",
+    "series": "Chainsaw Man",
+    "gen": 110,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/ZR5qMFbwMt.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bae36x",
+    "character": "Keenser",
+    "series": "Star Trek",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba90et",
+    "character": "Keith Kogane",
+    "series": "Voltron",
+    "gen": 98,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ahjci4",
+    "character": "Keith Shadis",
+    "series": "Attack on Titan",
+    "gen": 56,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51tf3",
+    "character": "Kerodeek",
+    "series": "One Piece: Baron Omatsuri and the Secret Island",
+    "gen": 614,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/RAS9CsZeYa.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avrxzk",
+    "character": "Kerojii",
+    "series": "One Piece: Baron Omatsuri and the Secret Island",
+    "gen": 1910,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/XJcNBHuCqp.png",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a9uwfg",
+    "character": "Khabarovsk",
+    "series": "Mist Train Girls",
+    "gen": 76,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b0qx10",
+    "character": "Kikirat v2",
+    "series": "Epic Seven",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b84l24",
+    "character": "Kinshirou Morooka",
+    "series": "Persona 4",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "asnk4w",
+    "character": "Kiss-Shot",
+    "series": "Kizumonogatari III: Reiketsu-hen",
+    "gen": 74,
+    "type": "GIF",
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":xanimatedver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/a9iymsJbQ7.gif",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b93emq",
+    "character": "Klink",
+    "series": "Pokemon Generation V",
+    "gen": 16,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/EZMXxDhVGv.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ay65f5",
+    "character": "Knox",
+    "series": "Animal Crossing",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "am5lhe",
+    "character": "Kody",
+    "series": "Animal Crossing",
+    "gen": 10,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "an2qxs",
+    "character": "Kody",
+    "series": "Animal Crossing",
+    "gen": 7,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8dh0g",
+    "character": "Koga Aoi",
+    "series": "Voice Actors",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bae2xi",
+    "character": "Kozuki Momonosuke",
+    "series": "One Piece",
+    "gen": 33,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ajn1d2",
+    "character": "Kuromi",
+    "series": "Sanrio",
+    "gen": 300,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/7EMaFfuTMC.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7rwcu",
+    "character": "Kyo Sohma",
+    "series": "Fruits Basket",
+    "gen": 288,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/ZtpLwFvWQW.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "sraapi",
+    "character": "Kyo Sohma",
+    "series": "Fruits Basket",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/gLBjRmTL6k.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7rxo8",
+    "character": "Kyoka Jirou",
+    "series": "My Hero Academia",
+    "gen": 118,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/n3fN2iPx9e.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82h6y",
+    "character": "Kyoka Jirou",
+    "series": "My Hero Academia",
+    "gen": 138,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82hh0",
+    "character": "Kyoka Jirou",
+    "series": "My Hero Academia",
+    "gen": 166,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7y6p3",
+    "character": "Kyouko Hori",
+    "series": "Horimiya",
+    "gen": 27,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9x30x2",
+    "character": "Lady Olivia",
+    "series": "Amphibia",
+    "gen": 31,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aabt2r",
+    "character": "Ladydragon",
+    "series": "Miraculous Ladybug: Tales of Ladybug & Cat Noir",
+    "gen": 23,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/zcyr6jwaJn.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5hgjp",
+    "character": "Lamitt",
+    "series": "Final Fantasy XIV",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avrx50",
+    "character": "Leaf",
+    "series": "Pokemon People",
+    "gen": 135,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/x7e3P9YPRq.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5k4vc",
+    "character": "LeBlanc",
+    "series": "League of Legends",
+    "gen": 15,
+    "type": null,
+    "isEvent": null,
+    "element": "Wood",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8it6p",
+    "character": "Leere",
+    "series": "Granblue Fantasy",
+    "gen": 92,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aue01i",
+    "character": "Legoshi",
+    "series": "Beastars",
+    "gen": 18,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Void",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/PSPHWV264V.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xub2l",
+    "character": "Leif",
+    "series": "Animal Crossing",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bae4fn",
+    "character": "Lilith",
+    "series": "Animal Restaurant",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82fui",
+    "character": "Lucifer Morningstar",
+    "series": "Hazbin Hotel",
+    "gen": 182,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/TfEETCXNpx.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8emlx",
+    "character": "Lucky Chloe",
+    "series": "Tekken",
+    "gen": 56,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7ymb9",
+    "character": "Lulu",
+    "series": "League of Legends",
+    "gen": 183,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/pVy2aeeChk.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bgk0x5",
+    "character": "Luther",
+    "series": "Detroit: Become Human",
+    "gen": 91,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/rhDtZCyzJx.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "atnxyc",
+    "character": "Lyman",
+    "series": "Animal Crossing",
+    "gen": 9,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ayl1lu",
+    "character": "Lynd",
+    "series": "Yu-Gi-Oh! GX",
+    "gen": 63,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awuy50",
+    "character": "Mabel",
+    "series": "Animal Crossing",
+    "gen": 53,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/WERRwqccYK.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ora6gm",
+    "character": "Maddie",
+    "series": "Animal Crossing",
+    "gen": 24,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8dgti",
+    "character": "Magnet",
+    "series": "Inanimate Insanity",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s8ip",
+    "character": "Mallow",
+    "series": "Pokemon People",
+    "gen": 117,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/x6HvtAGHYi.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b84kz5",
+    "character": "Mallow",
+    "series": "Pokemon People",
+    "gen": 132,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aiofrx",
+    "character": "Manon",
+    "series": "KATSEYE",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Fire",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8l2ql",
+    "character": "Mantyke",
+    "series": "Pokemon Generation IV",
+    "gen": 31,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/bjxLieiS7i.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a9uvr1",
+    "character": "Mao Kisaragi",
+    "series": "Psycho-Pass",
+    "gen": 40,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a2k8kt",
+    "character": "Maokai",
+    "series": "League of Legends",
+    "gen": 13,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "au9wgd",
+    "character": "Marie",
+    "series": "Splatoon",
+    "gen": 77,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82qhu",
+    "character": "Marin Kitagawa",
+    "series": "My Dress-Up Darling",
+    "gen": 97,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/NLVSVRT9zn.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "atehcm",
+    "character": "Masahiro Ayanokouji",
+    "series": "My Little Monster",
+    "gen": 32,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abz1hu",
+    "character": "Master Hand",
+    "series": "Super Smash Bros.",
+    "gen": 43,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8di25",
+    "character": "Master Mummy",
+    "series": "ARMS",
+    "gen": 36,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a69662",
+    "character": "Matheo",
+    "series": "Potion Permit",
+    "gen": 80,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "maus",
+    "character": "Maushold",
+    "series": "Pokemon Generation IX",
+    "gen": 4,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/hwygfhrewd.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6qwv1",
+    "character": "Mayu Ooba",
+    "series": "Blue Period",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4l7t2",
+    "character": "Megumi Hanajima",
+    "series": "Fruits Basket",
+    "gen": 80,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7x6wg",
+    "character": "Merry",
+    "series": "Animal Crossing",
+    "gen": 97,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o55wrx",
+    "character": "Merry",
+    "series": "Animal Crossing",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4l1sc",
+    "character": "Midnight",
+    "series": "My Hero Academia",
+    "gen": 58,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai8jat",
+    "character": "Miho Satou",
+    "series": "Baka & Test - Summon the Beasts",
+    "gen": 57,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/YQVFGcmyVM.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai8fa3",
+    "character": "Miltank",
+    "series": "Pokemon Generation II",
+    "gen": 215,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "🌰",
+    "seriesNeedsReview": false,
+    "event": "Autumn 2025 🌰",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/gadS3UVahb.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7ykib",
+    "character": "Mimikyu",
+    "series": "Pokemon Generation VII",
+    "gen": 5,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/RbifaBezhj.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "or1yj3",
+    "character": "Mina Ashido",
+    "series": "My Hero Academia",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": "🏖️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b0k0hz",
+    "character": "Mira",
+    "series": "April Fool",
+    "gen": 69,
+    "type": "3D",
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":x3dver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b58cx3",
+    "character": "Mirko",
+    "series": "My Hero Academia",
+    "gen": 97,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5tial",
+    "character": "Miroku Renge",
+    "series": "Yuuki Yuuna is a Hero: Bouquet of Brilliance",
+    "gen": 39,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8egLqhDVC4.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s8dj",
+    "character": "Misaki Ayuzawa",
+    "series": "Maid Sama!",
+    "gen": 242,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/ShpQGwTqMa.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ad3aa6",
+    "character": "Misaki Hirayama",
+    "series": "Aikatsu!",
+    "gen": 14,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aumzdx",
+    "character": "Miss Goldenweek",
+    "series": "One Piece",
+    "gen": 53,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a6zilz",
+    "character": "Miss J",
+    "series": "To Be Hero X",
+    "gen": 31,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badv2p",
+    "character": "Mitori Kouzaku",
+    "series": "A Certain Scientific Railgun T",
+    "gen": 82,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/gt39ELF86L.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a89e7i",
+    "character": "Momo Ayase",
+    "series": "Dandadan",
+    "gen": null,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badttf",
+    "character": "Mother Aioi",
+    "series": "Nichijou - My Ordinary Life",
+    "gen": 75,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/jie42k7cZj.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xtoqq",
+    "character": "Mr. Frog",
+    "series": "Smiling Friends",
+    "gen": 515,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5gigh",
+    "character": "Mr. Scratch",
+    "series": "Alan Wake",
+    "gen": 47,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5lyt7",
+    "character": "Msyu",
+    "series": "[C] CONTROL - The Money and Soul of Possibility",
+    "gen": 51,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/V7wP2Hf666.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a90zxm",
+    "character": "Muska",
+    "series": "Castle in the Sky",
+    "gen": 71,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7rzta",
+    "character": "My Melody",
+    "series": "Sanrio",
+    "gen": 223,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/U5mzBKbJfc.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ail8hp",
+    "character": "Nagini",
+    "series": "Harry Potter",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51rve",
+    "character": "Nangong Tian",
+    "series": "Solo Max-Level Newbie",
+    "gen": 95,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/7mvVZLHpti.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "axi5o5",
+    "character": "Nene Ebina",
+    "series": "Himouto! Umaru-chan",
+    "gen": 86,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/2NuSFjY8Tx.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82gg6",
+    "character": "Nidalee",
+    "series": "League of Legends",
+    "gen": 233,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aisgrd",
+    "character": "Nien",
+    "series": "tripleS",
+    "gen": 49,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a94ugx",
+    "character": "Nightingale",
+    "series": "Path to Nowhere",
+    "gen": 83,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "adkyd2",
+    "character": "Ninth Doctor",
+    "series": "Doctor Who",
+    "gen": 60,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7swe7",
+    "character": "Nurse Joy",
+    "series": "Pokemon People",
+    "gen": 75,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apstne",
+    "character": "O'Hare",
+    "series": "Animal Crossing",
+    "gen": 4,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7pznr",
+    "character": "Obstagoon",
+    "series": "Pokemon Generation VIII",
+    "gen": 43,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/f9ViUMAeSK.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7won5",
+    "character": "Ochako Uraraka",
+    "series": "My Hero Academia",
+    "gen": 225,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Void",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5dwg0",
+    "character": "Olga",
+    "series": "Chain Chronicle",
+    "gen": 13,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "afj08b",
+    "character": "Oliver",
+    "series": "Wind Breaker",
+    "gen": 83,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badxm8",
+    "character": "Orange",
+    "series": "Among Us",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "av52ih",
+    "character": "Otohana Sumire",
+    "series": "Blue Archive",
+    "gen": 38,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ami906",
+    "character": "Paige",
+    "series": "Club Penguin",
+    "gen": 26,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b6pnz7",
+    "character": "Pascal",
+    "series": "Animal Crossing",
+    "gen": 55,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b6xfmk",
+    "character": "Pastel",
+    "series": "Shironeko Project",
+    "gen": 62,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b0jqrq",
+    "character": "Pate",
+    "series": "Animal Crossing",
+    "gen": 34,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9z7yps",
+    "character": "Patty",
+    "series": "Sanrio",
+    "gen": 53,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xc5aw",
+    "character": "Peck",
+    "series": "Animal Crossing",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s9s8",
+    "character": "Pekkle",
+    "series": "Sanrio",
+    "gen": 11,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abznue",
+    "character": "Pen-chan",
+    "series": "BanG Dream!",
+    "gen": 18,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ayi25w",
+    "character": "Petralka Anne Eldante III",
+    "series": "Outbreak Company",
+    "gen": 39,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82gy5",
+    "character": "Pichu",
+    "series": "Pokemon Generation II",
+    "gen": 118,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/APavLvvkUt.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "arv3i5",
+    "character": "Power",
+    "series": "Chainsaw Man",
+    "gen": 230,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/m5xzVieKdR.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ag740n",
+    "character": "Prince",
+    "series": "Animal Crossing",
+    "gen": 55,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bae3o5",
+    "character": "Prince Darnell",
+    "series": "Trolls",
+    "gen": 63,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aie1i2",
+    "character": "Puddles",
+    "series": "Animal Crossing",
+    "gen": 35,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badxxg",
+    "character": "Punching Trudy",
+    "series": "OK K.O.! Let's Be Heroes",
+    "gen": 31,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/bbBw67FDVc.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5ls3s",
+    "character": "Purple Yam Cookie",
+    "series": "Cookie Run",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ai807p",
+    "character": "Qaletaqa Walker",
+    "series": "The Walking Dead",
+    "gen": 34,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba91dw",
+    "character": "Qin Jiu",
+    "series": "Global University Entrance Examination",
+    "gen": 77,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/6wE3VfYpSQ.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awad4u",
+    "character": "Quanxi",
+    "series": "Chainsaw Man",
+    "gen": 86,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/iRHs6Kff56.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "az20xx",
+    "character": "Quinn",
+    "series": "Animal Crossing",
+    "gen": 10,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bglol2",
+    "character": "Quinn",
+    "series": "League of Legends",
+    "gen": 2,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9vbu7r",
+    "character": "Raddle",
+    "series": "Animal Crossing",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5k4l3",
+    "character": "Rammus",
+    "series": "League of Legends",
+    "gen": 51,
+    "type": null,
+    "isEvent": null,
+    "element": "Earth",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5h7lt",
+    "character": "Ramusas",
+    "series": "The Testament of Sister New Devil: Burst",
+    "gen": 75,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/ByyfcibGfZ.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9w610r",
+    "character": "Raymond",
+    "series": "Animal Crossing",
+    "gen": 191,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/2sdeyGpiAC.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apwsym",
+    "character": "Raymond",
+    "series": "Animal Crossing",
+    "gen": 82,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9wizav",
+    "character": "Reese",
+    "series": "Animal Crossing",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Void",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "acangs",
+    "character": "Reita Toritsuka",
+    "series": "The Disastrous Life of Saiki K.",
+    "gen": 46,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4CAKYhRaPf.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4bae8",
+    "character": "Rek'Sai",
+    "series": "League of Legends",
+    "gen": 20,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aafo08",
+    "character": "Rempart Leonhardt",
+    "series": "Code:Realize ~Guardian of Rebirth~",
+    "gen": 52,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51v8d",
+    "character": "Reyna Diaz",
+    "series": "Gears Of War",
+    "gen": 59,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a7n9uy",
+    "character": "Richard Artner",
+    "series": "86",
+    "gen": 43,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8ehek",
+    "character": "Richard Perkins",
+    "series": "Detroit: Become Human",
+    "gen": 95,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/3sQCzdp2yv.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba9232",
+    "character": "Rinze Morino",
+    "series": "THE iDOLM@STER Shiny Colors",
+    "gen": 73,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/5CSPNXJWBw.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8djoj",
+    "character": "Rock Pikmin",
+    "series": "Pikmin",
+    "gen": 35,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a2vnzb",
+    "character": "Rooney",
+    "series": "Animal Crossing",
+    "gen": 10,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a132rn",
+    "character": "Rosie",
+    "series": "Animal Crossing",
+    "gen": 35,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a41ewd",
+    "character": "Rowena",
+    "series": "Final Fantasy XIV",
+    "gen": 44,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s2vl",
+    "character": "Rowena MacLeod",
+    "series": "Supernatural",
+    "gen": 87,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b81zr0",
+    "character": "Rumi",
+    "series": "KPop Demon Hunters",
+    "gen": 20,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a9kchg",
+    "character": "Rumia Uru",
+    "series": "Kakegurui",
+    "gen": 44,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abk540",
+    "character": "Ryuuji Tomioka",
+    "series": "My Little Monster",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awfuds",
+    "character": "Sable",
+    "series": "Animal Crossing",
+    "gen": 137,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Metal",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/JwcCz25eTE.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awkk5c",
+    "character": "Sable",
+    "series": "Animal Crossing",
+    "gen": 43,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "asnfup",
+    "character": "Sailor Moon",
+    "series": "Sailor Moon",
+    "gen": 81,
+    "type": null,
+    "isEvent": null,
+    "element": "Void",
+    "sourceIcon": ":xanimatedver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba91ti",
+    "character": "Sakaki",
+    "series": "Azumanga Daioh",
+    "gen": 79,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba9261",
+    "character": "Saki Nikaidou",
+    "series": "Zombie Land Saga",
+    "gen": 34,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ac2pkm",
+    "character": "Saki-chan",
+    "series": "Magical Sempai",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "axngvz",
+    "character": "Sakura Kouno",
+    "series": "Horimiya",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Void",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ohhhg3",
+    "character": "Sasha",
+    "series": "Animal Crossing",
+    "gen": 3,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection",
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ate52z",
+    "character": "Satoru Hosonaga",
+    "series": "The Great Ace Attorney Chronicles",
+    "gen": 74,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/uPiTTzKP3g.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82g92",
+    "character": "Seraphine",
+    "series": "League of Legends",
+    "gen": 246,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4Pt365HLFb.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abbu96",
+    "character": "Shelmet",
+    "series": "Pokemon Generation V",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/tu33rAbLN8.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5dy2d",
+    "character": "Shibuya",
+    "series": "Mist Train Girls",
+    "gen": 69,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba90wi",
+    "character": "Shiki Ryougi",
+    "series": "The Garden of Sinners",
+    "gen": 84,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/tRw4NhGWfk.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "nvcp1t",
+    "character": "Shino",
+    "series": "Animal Crossing",
+    "gen": 199,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "🎄",
+    "seriesNeedsReview": false,
+    "event": "Christmas 2023 🎄",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/34ppqfCX6m.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "oaj2xt",
+    "character": "Shino",
+    "series": "Animal Crossing",
+    "gen": 85,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "🌷",
+    "seriesNeedsReview": false,
+    "event": "Spring 2024 🌷",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/sCEHvBFqYw.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "pbfv83",
+    "character": "Shino",
+    "series": "Animal Crossing",
+    "gen": 228,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "🎆",
+    "seriesNeedsReview": false,
+    "event": "New Year 2025 🎆",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/KiVe89u3cK.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abshp9",
+    "character": "Shirabe Tsukuyomi (Another)",
+    "series": "Symphogear",
+    "gen": 22,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "au5qqz",
+    "character": "Shiver",
+    "series": "Splatoon",
+    "gen": 71,
+    "type": null,
+    "isEvent": null,
+    "element": "Wood",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "pckgyd",
+    "character": "Shoto Todoroki",
+    "series": "My Hero Academia",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": "🎆",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8ilp4",
+    "character": "Shouko Sakuma",
+    "series": "Heaven's Memo Pad",
+    "gen": 38,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82g0f",
+    "character": "Shouta Aizawa",
+    "series": "My Hero Academia",
+    "gen": 133,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/iPPdxLTgph.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b82qp3",
+    "character": "Shouta Aizawa",
+    "series": "My Hero Academia",
+    "gen": 173,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "abc4o6",
+    "character": "Sideshow Bob",
+    "series": "The Simpsons",
+    "gen": 44,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b9kdc4",
+    "character": "Silvally",
+    "series": "Pokemon Generation VII",
+    "gen": 61,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/EDwLiTqhj3.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9ydk5v",
+    "character": "Slippy Toad",
+    "series": "Star Fox",
+    "gen": 1235,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a7ab04",
+    "character": "Slippy Toad",
+    "series": "Star Fox",
+    "gen": 1622,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a910rm",
+    "character": "Snowy",
+    "series": "Animal Restaurant",
+    "gen": 1185,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avpixm",
+    "character": "Sooyoung",
+    "series": "Girls' Generation",
+    "gen": 58,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8yy92",
+    "character": "Soraka",
+    "series": "League of Legends",
+    "gen": 254,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ba3ssd",
+    "character": "Soraka",
+    "series": "League of Legends",
+    "gen": 41,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aoi5n7",
+    "character": "Souichi Tomoe",
+    "series": "Sailor Moon",
+    "gen": 96,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7otco",
+    "character": "Spoink",
+    "series": "Pokemon Generation III",
+    "gen": 51,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/f5yUnyqxXQ.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awm6gp",
+    "character": "Stefan Salvatore",
+    "series": "The Vampire Diaries",
+    "gen": 79,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "Monochrome 2026 ♟️",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/bv2zqJtDai.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51wjy",
+    "character": "Su Rui",
+    "series": "Iron Saga",
+    "gen": 32,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o12km9",
+    "character": "Sweetcoron",
+    "series": "Sanrio",
+    "gen": 23,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89f45",
+    "character": "Syndra",
+    "series": "League of Legends",
+    "gen": 234,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/G7wntnFFxT.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a8zr3v",
+    "character": "Tad",
+    "series": "Animal Crossing",
+    "gen": 57,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aqajy6",
+    "character": "Taichi Kawanishi",
+    "series": "Haikyu!!",
+    "gen": 66,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a89e80",
+    "character": "Tanya Eizou",
+    "series": "My Quiet Blacksmith Life in Another World",
+    "gen": 7,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "og8viq",
+    "character": "Tataru Taru",
+    "series": "Final Fantasy XIV",
+    "gen": 38,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9zmp67",
+    "character": "Taylor",
+    "series": "Iron Saga",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a68jn4",
+    "character": "Teacher",
+    "series": "Reincarnated as a Sword",
+    "gen": 2,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aoj8an",
+    "character": "Teddy",
+    "series": "Animal Crossing",
+    "gen": 11,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ateglj",
+    "character": "Terry Bogard",
+    "series": "The King of Fighters",
+    "gen": 66,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8vCug4Rnya.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4wz1o",
+    "character": "Tetsuhiko Kinugasu",
+    "series": "Suzuka",
+    "gen": 36,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aw05al",
+    "character": "The Foundation",
+    "series": "Fortnite",
+    "gen": 67,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8em7v",
+    "character": "The Rifleman",
+    "series": "Destiny",
+    "gen": 32,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a51rsd",
+    "character": "Thea",
+    "series": "Summoned To Another World For A Second Time",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/STWPeMW8TU.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "arxi0q",
+    "character": "Tim Drake",
+    "series": "DC Comics",
+    "gen": 77,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a83i4b",
+    "character": "Tisalia Scythia",
+    "series": "Monster Girl Doctor",
+    "gen": 15,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/S5yN4gBSDU.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b082km",
+    "character": "Toad Jr.",
+    "series": "The Wolf Among Us",
+    "gen": 1641,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xgqsn",
+    "character": "Toadie",
+    "series": "Amphibia",
+    "gen": 1352,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9y5dts",
+    "character": "Toadie",
+    "series": "Amphibia",
+    "gen": 875,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "frog"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p2z71f",
+    "character": "Todd Flanders",
+    "series": "The Simpsons",
+    "gen": 99,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o6tnjw",
+    "character": "Tohru Honda",
+    "series": "Fruits Basket",
+    "gen": 3,
+    "type": "3D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":x3dver:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/EmRdPCwNP2.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7y0na",
+    "character": "Tomoya Inoue",
+    "series": "Kuroko's Basketball",
+    "gen": 84,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/9v4iTW9U4a.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a3v8i2",
+    "character": "Tooru Ishikawa",
+    "series": "Horimiya",
+    "gen": 53,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bf811p",
+    "character": "Toro",
+    "series": "The Pink Panther",
+    "gen": 29,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "apgmei",
+    "character": "Travelling Merchant",
+    "series": "Dave the Diver",
+    "gen": 57,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b50t0c",
+    "character": "Tsubaki Kuruoka",
+    "series": "Fate Strange Fake",
+    "gen": 52,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7yer6",
+    "character": "Tsukasa Yugi",
+    "series": "Toilet-bound Hanako-kun",
+    "gen": 12,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/fDhdcNn9Ys.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xf83",
+    "character": "Tsuyu Asui",
+    "series": "My Hero Academia",
+    "gen": 171,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/psDcu6awYM.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o317bv",
+    "character": "Tsuyu Asui",
+    "series": "My Hero Academia",
+    "gen": 2,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "New Year 2025 🎆",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "/assets/imgs/sofi/o317bv.png",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o97c3v",
+    "character": "Tsuyu Asui",
+    "series": "My Hero Academia",
+    "gen": 221,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "🌷",
+    "seriesNeedsReview": false,
+    "event": "Spring 2024 🌷",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/2pRH7Uxn6n.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aop39u",
+    "character": "Tuppence Schiller",
+    "series": "Villain to Kill",
+    "gen": 90,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bgs0hs",
+    "character": "Umaru Doma",
+    "series": "Himouto! Umaru-chan",
+    "gen": 47,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/pUq6qYqdSL.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7ydc9",
+    "character": "Urban Guerrilla",
+    "series": "JoJo's Bizarre Adventure: JoJolion",
+    "gen": 18,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/G2YAdFu82V.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "au5p7x",
+    "character": "Vaporeon",
+    "series": "Pokemon Generation I",
+    "gen": 35,
+    "type": null,
+    "isEvent": null,
+    "element": "Fire",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/VMbPsVrmvT.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ay6szy",
+    "character": "Velvette",
+    "series": "Hazbin Hotel",
+    "gen": 17,
+    "type": null,
+    "isEvent": null,
+    "element": "Metal",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xg9yo",
+    "character": "Victoria Cindry",
+    "series": "One Piece",
+    "gen": 11,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5ko32",
+    "character": "Viese Lombardi",
+    "series": "I Shall Master This Family!",
+    "gen": 71,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/qqE4RZRJ3w.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aujtal",
+    "character": "Viktor Krum",
+    "series": "Harry Potter",
+    "gen": 28,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xudrl",
+    "character": "Vladimir",
+    "series": "League of Legends",
+    "gen": 74,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Ice",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "Wedding 2025 💐",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/269fL9xrnC.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b9ndpm",
+    "character": "Vox",
+    "series": "Hazbin Hotel",
+    "gen": 33,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/FGZbDgS79X.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a8tnol",
+    "character": "Walt Lizanis",
+    "series": "I'm the Villainess, So I'm Taming the Final Boss",
+    "gen": 99,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/GxrMkWKm9e.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bepsa1",
+    "character": "Warden",
+    "series": "Borderlands 3",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aofml6",
+    "character": "Wart Jr.",
+    "series": "Animal Crossing",
+    "gen": 13,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b8501g",
+    "character": "Wednesday Addams",
+    "series": "Wednesday",
+    "gen": 193,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wind",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/BfbcSPDEvY.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a4a0am",
+    "character": "Wilbur",
+    "series": "Animal Crossing",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7oita",
+    "character": "Wile E. Coyote",
+    "series": "Looney Tunes",
+    "gen": 65,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ag6oaw",
+    "character": "Wilson Phillips",
+    "series": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/7km29CVCUD.png",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9xer26",
+    "character": "Wish me mell",
+    "series": "Sanrio",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": "💐",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b84l34",
+    "character": "Xerneas",
+    "series": "Pokemon Generation VI",
+    "gen": 60,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/4j8fGqHfxX.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ab25mn",
+    "character": "Xerosic",
+    "series": "Pokemon People",
+    "gen": 87,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b4gzjk",
+    "character": "Xiao Lan",
+    "series": "Jentry Chau Vs. The Underworld",
+    "gen": 93,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/hGjpnCMcBZ.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7y1u1",
+    "character": "Yayoi Kunizuka",
+    "series": "Psycho-Pass",
+    "gen": 78,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aupskm",
+    "character": "Yoda",
+    "series": "Star Wars",
+    "gen": 90,
+    "type": null,
+    "isEvent": null,
+    "element": "Fire",
+    "sourceIcon": ":version2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "baf471",
+    "character": "Yong",
+    "series": "The Ember Knight",
+    "gen": 50,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a8x3fs",
+    "character": "Yor Forger",
+    "series": "Spy x Family",
+    "gen": 124,
+    "type": "3D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": ":event3d:",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "o4bh0i",
+    "character": "Yotsuyu",
+    "series": "Final Fantasy XIV",
+    "gen": 89,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "avrxgr",
+    "character": "Yu Narukami",
+    "series": "Persona 4",
+    "gen": null,
+    "type": null,
+    "isEvent": null,
+    "element": "Wind",
+    "sourceIcon": "♟️",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b89n69",
+    "character": "Yuka Sugimoto",
+    "series": "The Twelve Kingdoms",
+    "gen": 98,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/TDDHQ4BCAa.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7xjmm",
+    "character": "Yuki",
+    "series": "Persona 5: The Phantom X",
+    "gen": 35,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/xg99AigUL6.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b9c00w",
+    "character": "Yuki Sohma",
+    "series": "Fruits Basket",
+    "gen": 169,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Void",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/HakNYTSZ7t.png",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7zmvf",
+    "character": "Yukine Hayakawa",
+    "series": "Jellyfish Can't Swim in the Night",
+    "gen": 63,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/Tcq4s3Tbra.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b84il3",
+    "character": "Yuri",
+    "series": "Brown Dust 2",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ateekw",
+    "character": "Yuri Alpha",
+    "series": "Overlord",
+    "gen": 56,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ad2a1i",
+    "character": "Yururi Megu",
+    "series": "Independent VTubers",
+    "gen": 71,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/8USCpVFV5i.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "atemim",
+    "character": "Yuta Rokkaku",
+    "series": "Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!",
+    "gen": 69,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/tn9FufHpkG.png",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "badsnl",
+    "character": "Yuu's Mother",
+    "series": "Bloom Into You",
+    "gen": 75,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "otmsu1",
+    "character": "Zestial",
+    "series": "Hazbin Hotel",
+    "gen": 1,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "showoff"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a5v2ql",
+    "character": "Zilean",
+    "series": "League of Legends",
+    "gen": 95,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7s859",
+    "character": "Zoe",
+    "series": "League of Legends",
+    "gen": 87,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Light",
+    "sourceIcon": "☕",
+    "seriesNeedsReview": false,
+    "event": "Maid & Butler 2026 ☕",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9yk20o",
+    "character": "Zoe Park",
+    "series": "Lookism",
+    "gen": 88,
+    "type": "2D",
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  }
+]

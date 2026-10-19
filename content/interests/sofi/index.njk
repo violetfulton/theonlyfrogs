@@ -18,6 +18,7 @@ permalink: /sofi/
     <details class="extra-filters"><summary>More filters</summary><div class="filter-row">
       <label><span class="sr-only">Series</span><select id="series-filter"><option value="">Every series</option></select></label>
       <label><span class="sr-only">Card type</span><select id="type-filter"><option value="">Every type</option><option>2D</option><option>3D</option><option>GIF</option><option value="unknown">Unspecified</option></select></label>
+      <label><span class="sr-only">Specific event</span><select id="event-filter" data-catalogue="{{ sofiEvents | dump | escape }}"><option value="">Any event</option><option value="unlabelled">Event name unknown</option></select></label>
       <label><span class="sr-only">Card selection</span><select id="selection-filter"><option value="all">Every card</option><option value="favourites">Favourites</option><option value="low">Gen 1–10</option><option value="event">Event cards</option></select></label>
     </div></details>
   </div>
