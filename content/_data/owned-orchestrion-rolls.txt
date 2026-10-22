@@ -4,8 +4,10 @@ A Gentleman to Walk with Me Orchestrion Roll
 A New Hope Orchestrion Roll
 A New World (Dawntrail) Orchestrion Roll
 A Sailor Never Sleeps Orchestrion Roll
+A Thousand Screams Orchestrion Roll
 Alien Manifestation Orchestrion Roll
 Alma's Theme Orchestrion Roll
+Ambient Abyss Orchestrion Roll
 Ambient Birdsong Orchestrion Roll
 Ambient Bonfire Orchestrion Roll
 Ambient Cricketsong Orchestrion Roll
@@ -67,6 +69,7 @@ Frontiers Within Orchestrion Roll
 Fun and Games Orchestrion Roll
 Garden Relics Orchestrion Roll
 Garden Ruins Orchestrion Roll
+Garlemald Express Orchestrion Roll
 Grounded Orchestrion Roll
 Hammerhead Orchestrion Roll
 Happily Ever After Orchestrion Roll
@@ -77,6 +80,7 @@ I Am the Sea Orchestrion Roll
 Imperial Will Orchestrion Roll
 In Fulgur and Fire Orchestrion Roll
 In the Balance Orchestrion Roll
+Insatiable (Pulse 2) Orchestrion Roll
 Jewel Orchestrion Roll
 Kiss of Chaos Orchestrion Roll
 Life Bound by Honor Orchestrion Roll
@@ -105,6 +109,7 @@ Promises Orchestrion Roll
 Protagonist's Theme Orchestrion Roll
 Pulper of Inquiry Orchestrion Roll
 Quicksand Orchestrion Roll
+Rays of Devotion Orchestrion Roll
 Reflections Orchestrion Roll
 Remembrance Orchestrion Roll
 Return of the Hero Orchestrion Roll
@@ -114,6 +119,7 @@ Ronfaure Orchestrion Roll
 Sacred Bonds Orchestrion Roll
 Shadow of the Body Orchestrion Roll
 Shadowbringers Orchestrion Roll
+Shadows Withal (Scions & Sinners: Piano) Orchestrion Roll
 Shattered Orchestrion Roll
 Significance (Nothing) Orchestrion Roll
 Silence Orchestrion Roll
@@ -122,6 +128,7 @@ Skullduggery Orchestrion Roll
 Smile Orchestrion Roll
 Snowline Rollick Orchestrion Roll
 Solid Orchestrion Roll
+Somewhere in the World (Ambitions Writhe) Orchestrion Roll
 Song of the Ancients (Atonement) Orchestrion Roll
 Staff Credits Orchestrion Roll
 Stargazers Orchestrion Roll
@@ -134,6 +141,7 @@ The Darkhold Orchestrion Roll
 The Federation of Windurst Orchestrion Roll
 The Forgotten City - Tavnazian Safehold Orchestrion Roll
 The Grand Duchy of Jeuno Orchestrion Roll
+The Legendary Beast (Shadowbringers) Orchestrion Roll
 The Measure of His Reach Orchestrion Roll
 The Measure of Our Reach Orchestrion Roll
 The Promise of Tomorrow Orchestrion Roll
@@ -159,6 +167,7 @@ Voice of no Return (Guitar) Orchestrion Roll
 Voice of no Return (Normal) Orchestrion Roll
 Weight of the World (Prelude Version) Orchestrion Roll
 What Angel Wakes Me (Scions & Sinners: Instrumental) Orchestrion Roll
+What Is Love? Orchestrion Roll
 Where the Heart Is Orchestrion Roll
 Widespread Illness Orchestrion Roll
 World Map Orchestrion Roll
