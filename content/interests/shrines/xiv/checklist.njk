@@ -1,247 +1,110 @@
 ---
-title: "Checklist"
+title: "Routine & Goals"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/checklist/
-description: "Aggro Phobic's little Final Fantasy XIV to-do list — the things I actually like to keep in mind when I log in."
+description: "A gentle, reset-aware guide to what Aggro Phobic could be doing in FFXIV — without a daily checklist to maintain."
 customcss: "/assets/css/ffxiv/checklist.css"
+pageScripts:
+  - "/assets/js/ffxiv/routine.js"
 ---
 
-<div class="ff-checklist">
-  <section class="ff-checklist-hero ff-card">
-    <div class="ff-checklist-hero__copy">
-      <p class="ff-checklist-kicker">✓ little things to remember</p>
-      <h1>Aggro Phobic’s to-do list</h1>
-      <p>
-        Not a reset tracker and definitely not a second job — just the bits of XIV I actually
-        like to keep in the back of my head when I log in.
-      </p>
-
-      <div class="ff-checklist-note">
-        <span aria-hidden="true">♡</span>
-        Tick whatever I’m doing today. Refreshing the page clears the boxes again.
-      </div>
+<div class="frog-routine" id="frog-routine">
+  <header class="frog-routine__hero ff-card">
+    <p class="frog-routine__eyebrow">✦ the low-pressure adventure planner ✦</p>
+    <h1>Aggro's little routine</h1>
+    <p>Things worth remembering, not a list of things I <em>have</em> to do. Nothing to tick off every day. The page figures out which reset period we're in, and I just pick whatever sounds good. ♡</p>
+    <div class="frog-routine__summary">
+      <span id="routine-day" aria-live="polite">Checking Eorzean time…</span>
+      <span id="routine-week">Weekly reset: Tuesday</span>
     </div>
+  </header>
 
-    <div class="ff-checklist-doodle" aria-hidden="true">
-      <span>✦</span>
-      <b>✓</b>
-      <span>✧</span>
+  <section class="frog-routine__picker ff-card" aria-labelledby="routine-picker-title">
+    <div>
+      <p class="frog-routine__eyebrow">not sure what to do?</p>
+      <h2 id="routine-picker-title">Pick something for me</h2>
+      <p>No pressure, no streaks, no guilt.</p>
     </div>
+    <button type="button" class="frog-routine__button" id="routine-pick">✧ Surprise me</button>
+    <div class="frog-routine__picked" id="routine-picked" aria-live="polite">Maybe the next adventure is a tiny one.</div>
   </section>
 
-  <div class="ff-checklist-grid">
-    <section class="ff-checklist-card ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">☀</span>
-        <div>
-          <p>whenever I log in</p>
-          <h2>Little chores</h2>
-        </div>
-      </header>
+  <div class="frog-routine__toolbar ff-card">
+    <div class="frog-routine__tabs" role="group" aria-label="View tasks by frequency">
+      <button type="button" data-routine-filter="all" aria-pressed="true">All ideas</button>
+      <button type="button" data-routine-filter="daily" aria-pressed="false">Whenever I log in</button>
+      <button type="button" data-routine-filter="weekly" aria-pressed="false">This week</button>
+      <button type="button" data-routine-filter="monthly" aria-pressed="false">Monthly check-in</button>
+    </div>
+    <label class="frog-routine__toggle"><input type="checkbox" id="routine-focus-only"> My favourites only</label>
+  </div>
 
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Send retainers back out</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Check marketboard sales / restock anything worth selling</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Sort inventory, raid tokens and crafting materials</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Grab timed or legendary nodes if they’re up</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Do roulettes if I actually feel like it</span>
-        </label>
+  <div class="frog-routine__groups">
+    <section class="frog-routine__group" data-group="daily" aria-labelledby="routine-daily-title">
+      <div class="frog-routine__group-head"><div><p class="frog-routine__eyebrow">☀ anytime I'm playing</p><h2 id="routine-daily-title">Little daily opportunities</h2></div><span>Skip freely!</span></div>
+      <div class="frog-routine__grid">
+        {% set activities = [
+          {id:'retainers',icon:'✉',title:'Retainers & marketboard',desc:'Collect venture rewards, relaunch useful ventures, check sales and relist only what needs attention.',hint:'Especially handy with ten retainers.'},
+          {id:'mini-cactpot',icon:'♧',title:'Mini Cactpot',desc:'Three quick tickets at the Gold Saucer if I fancy some MGP.',hint:'Daily opportunity.'},
+          {id:'societies',icon:'♡',title:'Allied Society quests',desc:'Use daily quest allowances on any reputation or rewards I still want.',hint:'Only while there is something I want.'},
+          {id:'cosmic',icon:'☽',title:'Cosmic Exploration',desc:'Grab any available daily successes and make a little Cosmic Tool or achievement progress.',hint:'Current crafting/gathering project.'},
+          {id:'roulette',icon:'⚔',title:'Useful roulettes',desc:'Choose roulettes that overlap with tomestones, levelling, tank achievements or Phantom Weapon aether.',hint:'No need to run every single one.'},
+          {id:'maps',icon:'◇',title:'Treasure map',desc:'Gather a map when my personal cooldown allows, or save one for a map party.',hint:'Gathering cooldown is individual.'},
+          {id:'gathering',icon:'❀',title:'Timed gathering & supply',desc:'Gather needed legendary materials or turn in Grand Company supplies for unfinished jobs.',hint:'Only if I need the materials or EXP.'},
+          {id:'housing',icon:'⌂',title:'Home & garden',desc:'Check any growing plants, tend to the chocobo stable if relevant, and go inside my Mist house.',hint:'House visits matter for demolition timers.'}
+        ] %}
+        {% for a in activities %}
+          <article class="frog-routine__card ff-card" data-routine="daily" data-id="{{ a.id }}"><span class="frog-routine__icon" aria-hidden="true">{{ a.icon }}</span><div><h3>{{ a.title }}</h3><p>{{ a.desc }}</p><small>{{ a.hint }}</small></div><button class="frog-routine__heart" type="button" data-favourite="{{ a.id }}" aria-label="Favourite {{ a.title }}" aria-pressed="false" title="Save as favourite">♡</button></article>
+        {% endfor %}
       </div>
     </section>
 
-    <section class="ff-checklist-card ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">✦</span>
-        <div>
-          <p>once a week-ish</p>
-          <h2>Weekly bits</h2>
-        </div>
-      </header>
-
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Pick up / work on Wondrous Tails</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Custom Deliveries</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Cap useful weekly tomestones</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Current raid reclears / weekly lockouts</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Pick up any weekly raid drops I still care about</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Remember the Jumbo Cactpot exists</span>
-        </label>
+    <section class="frog-routine__group" data-group="weekly" aria-labelledby="routine-weekly-title">
+      <div class="frog-routine__group-head"><div><p class="frog-routine__eyebrow">✦ resets on Tuesday</p><h2 id="routine-weekly-title">This week's opportunities</h2></div><span id="routine-weekly-reset">Tuesday reset</span></div>
+      <div class="frog-routine__grid">
+        {% set activities = [
+          {id:'tomes',icon:'◈',title:'Current tomestones',desc:'Earn capped endgame tomestones if I have gear or upgrade plans.',hint:'Check the current weekly cap in-game.'},
+          {id:'alliance',icon:'⚔',title:'Latest alliance raid',desc:'Get any current weekly coin, gear or materia rewards I still need.',hint:'Check current patch loot restrictions.'},
+          {id:'tails',icon:'✉',title:'Wondrous Tails',desc:'Pick up Khloe’s journal, collect easy seals and hand it in before it expires.',hint:'A favourite low-effort weekly.'},
+          {id:'deliveries',icon:'✂',title:'Custom Deliveries',desc:'Make up to 12 deliveries per week, at most six per client, when I need scrips or levelling.',hint:'Great for crafting and gathering.'},
+          {id:'fashion',icon:'✧',title:'Fashion Report',desc:'Aim for an easy 80-point outfit for MGP once judging opens.',hint:'Gold Saucer favourite.'},
+          {id:'cactpot',icon:'♧',title:'Jumbo Cactpot',desc:'Buy up to three tickets before the weekly Saturday drawing.',hint:'Remember to collect winnings.'},
+          {id:'challenge',icon:'★',title:'Challenge Log',desc:'Finish only the categories that overlap with what I’m doing anyway.',hint:'Weekly bonus, not homework.'},
+          {id:'unreal',icon:'◇',title:'Unreal & Faux Hollows',desc:'Run the current Unreal trial if I want Faux Leaves and rewards.',hint:'Optional battle challenge.'},
+          {id:'blumage',icon:'☽',title:'Blue Mage log',desc:'Visit weekly Blue Mage targets if pursuing spells, seals or achievements.',hint:'Completionist side project.'},
+          {id:'island',icon:'⌂',title:'Island Sanctuary',desc:'Check workshop arrangements and any Felicitous Favors I still care about.',hint:'Mostly passive, once set up.'},
+          {id:'maps-party',icon:'♡',title:'Treasure map party',desc:'Turn stored maps into portal chances, gil and rare materials with friends.',hint:'A fun weekly social session.'},
+          {id:'raid',icon:'⚔',title:'Raids & upgrades',desc:'Reclear or farm current raids for gear, tokens, upgrades and glamour where relevant.',hint:'Some raid restrictions change with patches.'}
+        ] %}
+        {% for a in activities %}
+          <article class="frog-routine__card ff-card" data-routine="weekly" data-id="{{ a.id }}"><span class="frog-routine__icon" aria-hidden="true">{{ a.icon }}</span><div><h3>{{ a.title }}</h3><p>{{ a.desc }}</p><small>{{ a.hint }}</small></div><button class="frog-routine__heart" type="button" data-favourite="{{ a.id }}" aria-label="Favourite {{ a.title }}" aria-pressed="false" title="Save as favourite">♡</button></article>
+        {% endfor %}
       </div>
     </section>
 
-    <section class="ff-checklist-card ff-checklist-card--raid ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">⚔</span>
-        <div>
-          <p>serious frog business</p>
-          <h2>Raiding</h2>
-        </div>
-      </header>
-
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Savage reclear / prog</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Ultimate prog / reclear</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Current EX or mount farm</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Repair gear and check food / pots before raid</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Restock raid consumables and crafting mats</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Sort books, totems, coffers and upgrade materials afterwards</span>
-        </label>
-      </div>
-    </section>
-
-    <section class="ff-checklist-card ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">✂</span>
-        <div>
-          <p>cosy productivity</p>
-          <h2>Crafting & gathering</h2>
-        </div>
-      </header>
-
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Do a legendary-node lap for current materials</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Restock food, pots and crafts I actually use</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Top up useful scrips / materia when needed</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Craft something worthwhile for the marketboard</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Tidy crafting mats before they eat the entire inventory</span>
-        </label>
-      </div>
-    </section>
-
-    <section class="ff-checklist-card ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">◇</span>
-        <div>
-          <p>tiny capitalism corner</p>
-          <h2>Gil & inventory</h2>
-        </div>
-      </header>
-
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Collect retainer sales</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Relist anything that has gone stale</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Vendor / turn in junk I don’t need</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Move protected materials, raid tokens and coffers where they belong</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Check whether I’m hoarding something ridiculous again</span>
-        </label>
-      </div>
-    </section>
-
-    <section class="ff-checklist-card ff-checklist-card--fun ff-card">
-      <header class="ff-checklist-card__heading">
-        <span class="ff-checklist-card__icon" aria-hidden="true">♡</span>
-        <div>
-          <p>when the mood strikes</p>
-          <h2>Fun stuff</h2>
-        </div>
-      </header>
-
-      <div class="ff-checklist-list">
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Chase a few achievement points</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Work on a glam or hunt down a missing piece</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Do something with housing instead of only buying furniture</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Chip away at a relic / long-term grind</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Farm a mount, minion, title or other shiny little thing</span>
-        </label>
-        <label class="ff-check">
-          <input type="checkbox">
-          <span>Level or gear another job because apparently I need all of them</span>
-        </label>
+    <section class="frog-routine__group" data-group="monthly" aria-labelledby="routine-monthly-title">
+      <div class="frog-routine__group-head"><div><p class="frog-routine__eyebrow">♡ once in a while</p><h2 id="routine-monthly-title">Monthly little check-in</h2></div><span>No actual monthly game reset</span></div>
+      <p class="frog-routine__explain">These are my own suggested check-ins, not in-game monthlies. Even one or two is plenty.</p>
+      <div class="frog-routine__grid">
+        {% set activities = [
+          {id:'achievements',icon:'★',title:'Achievement wishlist',desc:'Pick one short goal and one longer achievement to chip away at.',hint:'The in-game log tracks the numbers.'},
+          {id:'relics',icon:'⚔',title:'Relic weapon progress',desc:'Finish a stage on a Phantom or older relic, rather than tracking every step here.',hint:'Link this to Long Haul.'},
+          {id:'collections',icon:'♢',title:'Collection sweep',desc:'Look over missing mounts, minions, orchestrion rolls and glamour sources. Choose a few targets.',hint:'Existing collection pages hold the real totals.'},
+          {id:'trophies',icon:'⌂',title:'Mist trophy gallery',desc:'Add one memorable furnishing, fish tank display or achievement prize to the house.',hint:'Something with a story behind it.'},
+          {id:'gil',icon:'◇',title:'Gil & retainer tidy',desc:'Update the gil goal if it has changed and clear duplicate, vendor-buyable or unwanted items.',hint:'Don’t re-enter numbers on this page.'},
+          {id:'screenshots',icon:'✧',title:'A new memory',desc:'Save a nice Aggro screenshot, finished glamour, trophy or milestone for the shrine.',hint:'Little personal archive.'},
+          {id:'longhaul',icon:'☽',title:'Pick a forever grind',desc:'Deep Dungeon, field operations, fishing, Beastmaster, Cosmic Tools, PvP or another long project.',hint:'Browse the Long Haul picker.'},
+          {id:'events',icon:'✉',title:'Seasonal & limited events',desc:'Check the Lodestone for temporary events or rewards that really would be annoying to miss.',hint:'Dates change; verify announcements.'}
+        ] %}
+        {% for a in activities %}
+          <article class="frog-routine__card ff-card" data-routine="monthly" data-id="{{ a.id }}"><span class="frog-routine__icon" aria-hidden="true">{{ a.icon }}</span><div><h3>{{ a.title }}</h3><p>{{ a.desc }}</p><small>{{ a.hint }}</small></div><button class="frog-routine__heart" type="button" data-favourite="{{ a.id }}" aria-label="Favourite {{ a.title }}" aria-pressed="false" title="Save as favourite">♡</button></article>
+        {% endfor %}
       </div>
     </section>
   </div>
 
-  <p class="ff-checklist-signoff">
-    do what sounds fun, ignore the rest ♡
-  </p>
+  <footer class="frog-routine__footer ff-card">
+    <p>✦ The only thing this page remembers is my favourite activities, saved in this browser. No chore history, missed-day counters, streaks or manual reset buttons.</p>
+    <p>For big projects: <a href="/shrines/finalfantasyxiv/long-haul/">Long Haul ↗</a> · <a href="/shrines/finalfantasyxiv/achievements/">Achievements ↗</a> · <a href="/shrines/finalfantasyxiv/collections/">Collections ↗</a></p>
+  </footer>
 </div>
