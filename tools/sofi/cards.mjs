@@ -142,7 +142,7 @@ export function validateCard(value) {
   return { code, character: value.character.trim(), series: value.series ?? '', gen: value.gen, type: value.type, isEvent: value.isEvent,
     element: value.element ?? '', sourceIcon: value.sourceIcon ?? '', seriesNeedsReview: truncated(value.series ?? ''),
     event: value.event ?? '', frame: value.frame ?? '', glow: value.glow ?? '', note: value.note ?? '', image: value.image ?? '',
-    tags: [...new Set(value.tags ?? [])], favourite: value.favourite ?? false };
+    tags: [...new Set(value.tags ?? [])], favourite: value.favourite ?? false, ...(value.imageAutoMatch === false ? { imageAutoMatch: false } : {}) };
 }
 
 export function mergeCards(existing, incoming, { reviewed = false } = {}) {
@@ -177,8 +177,8 @@ export async function matchImages(cards, directory) {
     byCode.set(key, [...list, f.name]);
   }
   return cards.map(card => {
-    // Explicit hosted artwork takes priority over old local files.
-    if (/^https:\/\//i.test(card.image ?? '')) return card;
+    // Never override a character's chosen artwork, and respect explicit removal.
+    if (card.imageAutoMatch === false || card.image) return card;
     const options = byCode.get(codeKey(card.code)) ?? [];
     const existingName = card.image?.split('/').at(-1);
     const name = options.includes(existingName) ? existingName : options.sort()[0];

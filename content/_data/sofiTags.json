@@ -31,6 +31,10 @@
     {
       "name": "showoff",
       "icon": "⭐"
+    },
+    {
+      "name": "ev3d",
+      "icon": "🫆"
     }
   ],
   "hidden": [
@@ -45,6 +49,9 @@
     "burn",
     "site",
     "banner",
-    "event"
+    "event",
+    "aster",
+    "ronny",
+    "keep"
   ]
 }

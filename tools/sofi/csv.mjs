@@ -94,9 +94,11 @@ export function mergeSofiCSV(existing, parsed, { replaceTags = false } = {}) {
   const imported = new Map(parsed.cards.map(card => [card.code, card]));
   const incoming = parsed.cards.map(card => {
     const old = before.get(card.code);
-    const result = { ...card, tags: replaceTags ? card.tags : [...new Set([...(old?.tags ?? []), ...card.tags])] };
+    const differentCharacter = Boolean(old && old.character.trim().toLowerCase() !== card.character.trim().toLowerCase());
+    const result = { ...card, tags: differentCharacter || replaceTags ? card.tags : [...new Set([...(old?.tags ?? []), ...card.tags])],
+      ...(differentCharacter ? { image: '', note: '', event: '', frame: '', glow: '', favourite: false, imageAutoMatch: false } : {}) };
     // Preserve personal descriptions of a glow rather than replacing with a hex.
-    if (old?.glow) delete result.glow;
+    if (old?.glow && !differentCharacter) delete result.glow;
     return result;
   });
   const cards = mergeCards(existing, incoming).map(card => {

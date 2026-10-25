@@ -12,7 +12,7 @@ permalink: /sofi/
     </div>
     <div class="filter-row">
       <label class="search-label"><span class="sr-only">Search cards</span><input id="card-search" type="search" placeholder="Search character, series or code…"></label>
-      <label><span class="sr-only">Cards per page</span><select id="page-size"><option value="15">15 per page</option><option value="30" selected>30 per page</option><option value="all">All on one page</option></select></label>
+      <label><span class="sr-only">Cards per page</span><select id="page-size"><option value="15">15 per page</option><option value="30" selected>30 per page</option><option value="60">60 per page</option></select></label>
       <label><span class="sr-only">Sort cards</span><select id="card-sort"><option value="name">A → Z</option><option value="gen">Lowest gen first</option></select></label>
     </div>
     <details class="extra-filters"><summary>More filters</summary><div class="filter-row">
@@ -23,17 +23,22 @@ permalink: /sofi/
     </div></details>
   </div>
   <p id="visible-count" class="result-count" aria-live="polite">{{ sofiCards | length }} little treasures</p>
-  <div class="card-grid" id="card-grid">
+  {# Render a SMALL HTML preview only. The full inventory loads from /sofi/cards.json. #}
+  <div class="card-grid" id="card-grid" data-cards-url="/sofi/cards.json">
     {% for card in sofiCards %}
-    <article class="sofi-card" data-code="{{ card.code | escape }}" data-character="{{ card.character | escape }}" data-series="{{ card.series | escape }}" data-gen="{{ card.gen | escape }}" data-type="{{ card.type | escape }}" data-event="{{ card.event | escape }}" data-is-event="{{ card.isEvent | escape }}" data-element="{{ card.element | escape }}" data-frame="{{ card.frame | escape }}" data-glow="{{ card.glow | escape }}" data-note="{{ card.note | escape }}" data-favourite="{{ card.favourite | escape }}" data-tags="{{ card.tags | dump | escape }}">
+    {% if loop.index0 < 30 %}
+    <article class="sofi-card" data-code="{{ card.code | escape }}">
       <div class="pocket"><div class="pocket-badges">{% if card.type %}<span>{{ card.type | escape }}</span>{% endif %}{% if card.favourite %}<span class="heart-badge" aria-label="Favourite">♡</span>{% endif %}</div>
         {% if card.image %}<img class="card-art" data-src="{{ card.image | escape }}" alt="{{ card.character | escape }} Sofi card" loading="lazy" decoding="async" hidden>{% endif %}
         <div class="card-placeholder"><span class="placeholder-flower" aria-hidden="true">✿</span><span class="placeholder-name">{{ card.character | escape }}</span><span class="placeholder-code">{{ card.code | escape }}</span><span class="placeholder-bottom" aria-hidden="true">♡</span></div>
       </div>
       <div class="card-caption"><p class="card-series">{{ card.series | escape }}</p><h3>{{ card.character | escape }}</h3><div class="card-meta"><span class="gen-badge">{% if card.gen %}gen {{ card.gen | escape }}{% else %}gen ?{% endif %}</span><code>{{ card.code | escape }}</code></div><button class="card-open" type="button" data-open="{{ card.code | escape }}" hidden aria-label="View {{ card.character | escape }}, card {{ card.code | escape }}">open pocket <span aria-hidden="true">↗</span></button></div>
     </article>
+    {% endif %}
     {% endfor %}
   </div>
+  <noscript><p class="empty-state">Showing the first 30 cards. Enable JavaScript to browse and search the whole binder ♡</p></noscript>
+  <p id="sofi-load-error" class="empty-state" role="status" hidden>The rest of the binder couldn't load. Please refresh to try again ♡</p>
   <nav id="gallery-pages" class="gallery-pages" aria-label="Collection pages" hidden><button id="gallery-prev" class="pill" type="button">← Previous</button><span id="gallery-page" class="result-count"></span><button id="gallery-next" class="pill" type="button">Next →</button></nav>
   <p id="no-results" class="empty-state" hidden>No cards in this pocket. Try another filter ♡</p>
   {% if not sofiCards | length %}<p class="empty-state">A new binder, ready for little treasures ♡</p>{% endif %}

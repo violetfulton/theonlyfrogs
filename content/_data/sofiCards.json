@@ -4,7 +4,7 @@
     "character": "2-D",
     "series": "Gorillaz",
     "gen": 1433,
-    "type": null,
+    "type": "2D",
     "isEvent": false,
     "element": "Wood",
     "sourceIcon": "",
@@ -44,7 +44,7 @@
     "character": "A-Train",
     "series": "The Boys",
     "gen": 1728,
-    "type": null,
+    "type": "2D",
     "isEvent": false,
     "element": "Void",
     "sourceIcon": "",
@@ -64,7 +64,7 @@
     "character": "A-Train",
     "series": "The Boys",
     "gen": 1260,
-    "type": null,
+    "type": "2D",
     "isEvent": false,
     "element": "Fire",
     "sourceIcon": "",
@@ -1655,7 +1655,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -1747,6 +1747,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b7cwaa",
+    "character": "Agnes",
+    "series": "Animal Crossing",
+    "gen": 47,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -3613,7 +3633,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/pDQpHEkq2f.png",
     "tags": [
       "ev3d"
     ],
@@ -3653,7 +3673,7 @@
     "frame": "$ded82",
     "glow": "#g5uut9",
     "note": "",
-    "image": "/assets/imgs/sofi/badboy.png",
+    "image": "https://img.theonlyfrogs.com/i/N8LyuwZNN5.png",
     "tags": [
       "showoff"
     ],
@@ -5073,7 +5093,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/TwbhSiz4ft.png",
     "tags": [
       "showoff"
     ],
@@ -5473,7 +5493,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/rgZHgBKXND.png",
     "tags": [
       "codes"
     ],
@@ -6760,6 +6780,26 @@
     "favourite": false
   },
   {
+    "code": "9iziyu",
+    "character": "Angus",
+    "series": "Animal Crossing",
+    "gen": 16,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9pllna",
     "character": "Angus",
     "series": "Animal Crossing",
@@ -7615,7 +7655,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -7656,6 +7696,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ayi5gc",
+    "character": "Antonio",
+    "series": "Animal Crossing",
+    "gen": 84,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -8185,7 +8245,7 @@
     "series": "Animal Crossing",
     "gen": 88,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Void",
     "sourceIcon": "💐",
     "seriesNeedsReview": false,
@@ -10800,6 +10860,26 @@
     "favourite": false
   },
   {
+    "code": "ahtxh6",
+    "character": "Audie",
+    "series": "Animal Crossing",
+    "gen": 25,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "apj82b",
     "character": "Audie",
     "series": "Animal Crossing",
@@ -11333,7 +11413,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/ang7D8yRWp.png",
     "tags": [
       "hoard"
     ],
@@ -12015,7 +12095,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -12055,7 +12135,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -13520,6 +13600,26 @@
     "favourite": false
   },
   {
+    "code": "a2dm7a",
+    "character": "Barold",
+    "series": "Animal Crossing",
+    "gen": 77,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9zwxjz",
     "character": "Barraskewda",
     "series": "Pokemon Generation VIII",
@@ -13655,7 +13755,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -14600,6 +14700,26 @@
     "favourite": false
   },
   {
+    "code": "bil4dz",
+    "character": "Bela Dimitrescu",
+    "series": "Resident Evil",
+    "gen": 876,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "az38qc",
     "character": "Bela Talbot",
     "series": "Supernatural",
@@ -15440,6 +15560,26 @@
     "favourite": false
   },
   {
+    "code": "ayjnbl",
+    "character": "Bettina",
+    "series": "Animal Crossing",
+    "gen": 66,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a63p4r",
     "character": "Bianca",
     "series": "Animal Crossing",
@@ -15875,7 +16015,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -15934,7 +16074,9 @@
     "glow": "",
     "note": "",
     "image": "",
-    "tags": [],
+    "tags": [
+      "collection"
+    ],
     "favourite": false
   },
   {
@@ -16458,6 +16600,26 @@
     "favourite": false
   },
   {
+    "code": "biuutg",
+    "character": "Black Adam",
+    "series": "DC Extended Universe",
+    "gen": 1630,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "afgpky",
     "character": "Black BugCat",
     "series": "BugCat Capoo",
@@ -16965,6 +17127,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biwmzx",
+    "character": "Blaze the Cat",
+    "series": "Sonic the Hedgehog",
+    "gen": 889,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -18113,7 +18295,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -18311,7 +18493,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "/assets/imgs/sofi/apiggy.jpg",
+    "image": "https://img.theonlyfrogs.com/i/EdZMXj6GgQ.png",
     "tags": [
       "hoard"
     ],
@@ -18513,7 +18695,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -18733,7 +18915,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -19193,7 +19375,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -19333,7 +19515,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -19753,7 +19935,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -19814,6 +19996,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9t8w2b",
+    "character": "Bud",
+    "series": "Animal Crossing",
+    "gen": 36,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -20091,7 +20293,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/xgsXK2Wdv9.png",
     "tags": [
       "ev3d"
     ],
@@ -20363,7 +20565,7 @@
     "series": "Muse Dash",
     "gen": 1925,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -20793,7 +20995,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -20945,6 +21147,26 @@
     "type": null,
     "isEvent": false,
     "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biq368",
+    "character": "Caine",
+    "series": "The Amazing Digital Circus",
+    "gen": 1534,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -21478,6 +21700,26 @@
     "favourite": false
   },
   {
+    "code": "bi8979",
+    "character": "Cally",
+    "series": "Animal Crossing",
+    "gen": 45,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9zkmgb",
     "character": "Calyrex",
     "series": "Pokemon Generation VIII",
@@ -21682,7 +21924,7 @@
     "character": "Camofrog",
     "series": "Animal Crossing",
     "gen": 912,
-    "type": null,
+    "type": "2D",
     "isEvent": false,
     "element": "Ice",
     "sourceIcon": "",
@@ -21694,6 +21936,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "arja5u",
+    "character": "Camofrog",
+    "series": "Animal Crossing",
+    "gen": 1,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/WsfktscS24.png",
+    "tags": [
+      "acfroggy"
     ],
     "favourite": false
   },
@@ -21894,6 +22156,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bj5lfm",
+    "character": "Candy Chiu",
+    "series": "Gravity Falls",
+    "gen": 1516,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
     ],
     "favourite": false
   },
@@ -22578,6 +22860,26 @@
     "favourite": false
   },
   {
+    "code": "aorat7",
+    "character": "Carmen",
+    "series": "Animal Crossing",
+    "gen": 75,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "ayakwo",
     "character": "Carmilla Carmine",
     "series": "Hazbin Hotel",
@@ -22753,7 +23055,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -23231,7 +23533,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/Unv3eq4jBB.png",
     "tags": [
       "ev3d"
     ],
@@ -23718,6 +24020,26 @@
     "favourite": false
   },
   {
+    "code": "bgg0ks",
+    "character": "Celeste",
+    "series": "Animal Crossing",
+    "gen": 6,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/9JedD4dMzy.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "pbaygb",
     "character": "Celeste",
     "series": "Animal Crossing",
@@ -23754,6 +24076,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ael18l",
+    "character": "Celia",
+    "series": "Animal Crossing",
+    "gen": 41,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -23934,6 +24276,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biql0j",
+    "character": "Cephadrome",
+    "series": "Monster Hunter",
+    "gen": 1023,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
     ],
     "favourite": false
   },
@@ -24373,7 +24735,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -25478,6 +25840,26 @@
     "favourite": false
   },
   {
+    "code": "oq7j7z",
+    "character": "Cheri",
+    "series": "Animal Crossing",
+    "gen": 44,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bigmch",
     "character": "Cherie",
     "series": "The Boys",
@@ -25554,6 +25936,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bi1h89",
+    "character": "Cherri Bomb",
+    "series": "Hazbin Hotel",
+    "gen": 1072,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
     ],
     "favourite": false
   },
@@ -25731,7 +26133,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/ETzSFTgGZg.png",
     "tags": [
       "g10"
     ],
@@ -25793,7 +26195,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -26394,6 +26796,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bdetpn",
+    "character": "Chief",
+    "series": "Animal Crossing",
+    "gen": 23,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -28038,6 +28460,26 @@
     "favourite": false
   },
   {
+    "code": "n4q0vd",
+    "character": "Chow",
+    "series": "Animal Crossing",
+    "gen": 55,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "olo2uo",
     "character": "Chow",
     "series": "Animal Crossing",
@@ -29353,7 +29795,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -29394,6 +29836,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "a54ens",
+    "character": "Clay",
+    "series": "Animal Crossing",
+    "gen": 35,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -30038,6 +30500,26 @@
     "favourite": false
   },
   {
+    "code": "aeml6l",
+    "character": "Cobb",
+    "series": "Animal Crossing",
+    "gen": 33,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "as6cb0",
     "character": "Cobra",
     "series": "Dave the Diver",
@@ -30273,7 +30755,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -30478,6 +30960,26 @@
     "favourite": false
   },
   {
+    "code": "9nd7xk",
+    "character": "Colton",
+    "series": "Animal Crossing",
+    "gen": 14,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a1jx1q",
     "character": "Colton",
     "series": "Animal Crossing",
@@ -30494,6 +30996,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p8osqh",
+    "character": "Colton",
+    "series": "Animal Crossing",
+    "gen": 99,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -30583,7 +31105,7 @@
     "series": "Detective Conan",
     "gen": 740,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Earth",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -30931,7 +31453,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/bpBVnun288.png",
     "tags": [
       "g10"
     ],
@@ -31374,6 +31896,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "aut0ci",
+    "character": "Cousteau",
+    "series": "Animal Crossing",
+    "gen": 45,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
     ],
     "favourite": false
   },
@@ -32014,6 +32556,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bhdwk5",
+    "character": "Croque",
+    "series": "Animal Crossing",
+    "gen": 13,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "acfroggy"
     ],
     "favourite": false
   },
@@ -32783,7 +33345,7 @@
     "series": "Animal Crossing",
     "gen": 80,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "💐",
     "seriesNeedsReview": false,
@@ -33318,6 +33880,26 @@
     "favourite": false
   },
   {
+    "code": "9x8zpy",
+    "character": "Daisy Mae",
+    "series": "Animal Crossing",
+    "gen": 41,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "b8z0vw",
     "character": "Daisy Wick",
     "series": "Bones",
@@ -33553,7 +34135,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -34405,6 +34987,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bin2or",
+    "character": "Dave Chappelle",
+    "series": "Comedians",
+    "gen": 919,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -36051,7 +36653,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/ZqpfcQz3ew.png",
     "tags": [
       "hoard"
     ],
@@ -36811,7 +37413,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/QVWQYexWta.png",
     "tags": [
       "hoard"
     ],
@@ -37158,6 +37760,26 @@
     "favourite": false
   },
   {
+    "code": "bg4ipj",
+    "character": "Diva",
+    "series": "Animal Crossing",
+    "gen": 45,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "al24s5",
     "character": "Dix Perdix",
     "series": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
@@ -37233,7 +37855,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "fsft"
+      "banner"
     ],
     "favourite": false
   },
@@ -37894,6 +38516,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ohbk19",
+    "character": "Dom",
+    "series": "Animal Crossing",
+    "gen": 4,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/vNNanjQ9zW.png",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -40082,7 +40724,7 @@
     "character": "Dunyarzad",
     "series": "Genshin Impact",
     "gen": 1862,
-    "type": null,
+    "type": "2D",
     "isEvent": false,
     "element": "Earth",
     "sourceIcon": "",
@@ -40232,7 +40874,9 @@
     "glow": "",
     "note": "",
     "image": "",
-    "tags": [],
+    "tags": [
+      "collection"
+    ],
     "favourite": false
   },
   {
@@ -40643,6 +41287,26 @@
     "type": null,
     "isEvent": false,
     "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bii7av",
+    "character": "Eddie Brock",
+    "series": "Marvel Cinematic Universe",
+    "gen": 1847,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -41089,7 +41753,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/KYFfQftS6M.png",
     "tags": [
       "showoff"
     ],
@@ -41956,6 +42620,26 @@
     "favourite": false
   },
   {
+    "code": "biv7tk",
+    "character": "Elias Brandyworth",
+    "series": "Invincible",
+    "gen": 1838,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bae32i",
     "character": "Elias Moore",
     "series": "Sinners",
@@ -42752,6 +43436,26 @@
     "image": "",
     "tags": [
       "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ac42gz",
+    "character": "Elvis",
+    "series": "Animal Crossing",
+    "gen": 85,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -44869,7 +45573,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/PygEkF6X4u.png",
     "tags": [
       "hoard"
     ],
@@ -46056,6 +46760,26 @@
     "favourite": false
   },
   {
+    "code": "bcq9gb",
+    "character": "Faith",
+    "series": "Animal Crossing",
+    "gen": 92,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bhc5jx",
     "character": "Faith Beams",
     "series": "HELIOS Rising Heroes",
@@ -46312,6 +47036,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bgwqdg",
+    "character": "Fang",
+    "series": "Animal Crossing",
+    "gen": 92,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -46729,6 +47473,46 @@
     "frame": "",
     "glow": "",
     "note": "",
+    "image": "https://img.theonlyfrogs.com/i/tH52mQ2LpJ.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "beh8us",
+    "character": "Fauna",
+    "series": "Animal Crossing",
+    "gen": 40,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p8be5d",
+    "character": "Fauna",
+    "series": "Animal Crossing",
+    "gen": 45,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
     "image": "",
     "tags": [
       "hoard"
@@ -46852,6 +47636,26 @@
     "image": "",
     "tags": [
       "event"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bizn6r",
+    "character": "Felicia",
+    "series": "Bratz",
+    "gen": 1665,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "devv"
     ],
     "favourite": false
   },
@@ -48516,6 +49320,26 @@
     "favourite": false
   },
   {
+    "code": "oeyr0n",
+    "character": "Flick",
+    "series": "Animal Crossing",
+    "gen": 79,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a7gweu",
     "character": "Flip",
     "series": "Animal Crossing",
@@ -48831,7 +49655,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -49521,7 +50345,7 @@
     "series": "Animal Crossing",
     "gen": 92,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Metal",
     "sourceIcon": "♟️",
     "seriesNeedsReview": false,
@@ -50509,7 +51333,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/pYWNbj8ZzR.png",
     "tags": [
       "g10"
     ],
@@ -51556,6 +52380,26 @@
     "favourite": false
   },
   {
+    "code": "njwvpk",
+    "character": "Gabi",
+    "series": "Animal Crossing",
+    "gen": 78,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "avuw7s",
     "character": "Gabimaru",
     "series": "Hell's Paradise: Jigokuraku",
@@ -51581,7 +52425,7 @@
     "series": "That Time I Got Reincarnated as a Slime",
     "gen": 1972,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -52651,7 +53495,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -52851,7 +53695,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -53189,7 +54033,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/QNczTCur4C.png",
     "tags": [
       "ev3d"
     ],
@@ -54123,6 +54967,26 @@
     "type": null,
     "isEvent": false,
     "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biz6uw",
+    "character": "Ginger York",
+    "series": "Mushoku Tensei: Jobless Reincarnation",
+    "gen": 1876,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -55596,6 +56460,26 @@
     "favourite": false
   },
   {
+    "code": "nlh3nd",
+    "character": "Gonzo",
+    "series": "Animal Crossing",
+    "gen": 57,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "abc6y3",
     "character": "Goobert",
     "series": "Inscryption",
@@ -55723,6 +56607,26 @@
     "type": null,
     "isEvent": false,
     "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bihx5v",
+    "character": "Gosetsu Everfall",
+    "series": "Final Fantasy XIV",
+    "gen": 1682,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -57016,6 +57920,26 @@
     "favourite": false
   },
   {
+    "code": "a2xdik",
+    "character": "Greta",
+    "series": "Animal Crossing",
+    "gen": 68,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bc4oxy",
     "character": "Grethe Wenzel",
     "series": "86",
@@ -57192,6 +58116,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bi9f6b",
+    "character": "Grizzly",
+    "series": "Animal Crossing",
+    "gen": 87,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -57412,6 +58356,46 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ae355c",
+    "character": "Gruff",
+    "series": "Animal Crossing",
+    "gen": 85,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b02cix",
+    "character": "Gruff",
+    "series": "Animal Crossing",
+    "gen": 85,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -59021,7 +60005,7 @@
     "series": "Animal Crossing",
     "gen": 90,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Ice",
     "sourceIcon": "💐",
     "seriesNeedsReview": false,
@@ -60003,6 +60987,26 @@
     "type": null,
     "isEvent": false,
     "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bimlas",
+    "character": "Happy Hogan",
+    "series": "Marvel Cinematic Universe",
+    "gen": 1494,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -62169,7 +63173,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/hghvCbGwi2.png",
     "tags": [
       "acfroggy"
     ],
@@ -62511,7 +63515,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -63372,6 +64376,26 @@
     "image": "https://img.theonlyfrogs.com/i/rt3g7tEcKB.png",
     "tags": [
       "g100"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bii29m",
+    "character": "Himiko Toga",
+    "series": "My Hero Academia",
+    "gen": 256,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
     ],
     "favourite": false
   },
@@ -64249,7 +65273,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/V8YyFfCiQ5.png",
     "tags": [
       "codes"
     ],
@@ -65096,6 +66120,66 @@
     "favourite": false
   },
   {
+    "code": "bii5da",
+    "character": "Howl & Sophie",
+    "series": "Howl's Moving Castle",
+    "gen": 1605,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bii5lo",
+    "character": "Howl & Sophie",
+    "series": "Howl's Moving Castle",
+    "gen": 1084,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bii5qt",
+    "character": "Howl & Sophie",
+    "series": "Howl's Moving Castle",
+    "gen": 964,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bhn2fc",
     "character": "Hu Tao",
     "series": "Genshin Impact",
@@ -65151,7 +66235,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -66692,6 +67776,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biljdo",
+    "character": "Ilka",
+    "series": "Cytus II",
+    "gen": 1109,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "devv"
     ],
     "favourite": false
   },
@@ -68616,6 +69720,46 @@
     "favourite": false
   },
   {
+    "code": "birvty",
+    "character": "Isla",
+    "series": "Plastic Memories",
+    "gen": 535,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biqf12",
+    "character": "Isobe",
+    "series": "Kamisama Kiss",
+    "gen": 800,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "burn"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bhhnti",
     "character": "Isobel Flemming",
     "series": "The Vampire Diaries",
@@ -69009,7 +70153,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/srATmtgSVm.png",
     "tags": [
       "codes"
     ],
@@ -69272,6 +70416,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bghsb0",
+    "character": "Jack",
+    "series": "Animal Crossing",
+    "gen": 88,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -70701,7 +71865,7 @@
     "series": "The Amazing Digital Circus",
     "gen": 1690,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -70731,7 +71895,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -72696,6 +73860,26 @@
     "favourite": false
   },
   {
+    "code": "birlbn",
+    "character": "Jinx",
+    "series": "League of Legends",
+    "gen": 852,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
     "code": "aogwze",
     "character": "Jirachi",
     "series": "Pokemon Generation III",
@@ -73131,7 +74315,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -74556,6 +75740,26 @@
     "favourite": false
   },
   {
+    "code": "biuvjd",
+    "character": "Jules",
+    "series": "The Vampire Diaries",
+    "gen": 1204,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9x38yt",
     "character": "Julia",
     "series": "Animal Crossing",
@@ -75221,7 +76425,7 @@
     "series": "Hypnosis Mic -Alternative Rap Battle",
     "gen": 897,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Light",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -75229,7 +76433,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/Yi4hvQARYu.png",
     "tags": [
       "codes"
     ],
@@ -75381,7 +76585,7 @@
     "series": "Animal Crossing",
     "gen": 67,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Metal",
     "sourceIcon": "♟️",
     "seriesNeedsReview": false,
@@ -75390,6 +76594,26 @@
     "glow": "",
     "note": "",
     "image": "https://img.theonlyfrogs.com/i/3h6gZSu5nH.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bgsbpm",
+    "character": "K.K. Slider",
+    "series": "Animal Crossing",
+    "gen": 68,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
     "tags": [
       "hoard"
     ],
@@ -75681,7 +76905,7 @@
     "series": "Bunny Girl Senpai",
     "gen": 1546,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Void",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -77016,6 +78240,26 @@
     "favourite": false
   },
   {
+    "code": "biq4c2",
+    "character": "Kang Yeong-cheon",
+    "series": "The Glory",
+    "gen": 738,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "burn"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a6d0u8",
     "character": "KAngel",
     "series": "Needy Streamer Overload",
@@ -77352,6 +78596,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "nlutc0",
+    "character": "Kapp'n",
+    "series": "Animal Crossing",
+    "gen": 72,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -78292,6 +79556,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p07myx",
+    "character": "Katie",
+    "series": "Animal Crossing",
+    "gen": 63,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -80611,7 +81895,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -82649,7 +83933,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/xUrTt9ART3.png",
     "tags": [
       "hoard"
     ],
@@ -82691,7 +83975,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -82941,7 +84225,7 @@
     "series": "Touhou",
     "gen": 1771,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -83621,7 +84905,7 @@
     "series": "Touhou",
     "gen": 885,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -84383,6 +85667,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bimtra",
+    "character": "Kulu-Ya-Ku",
+    "series": "Monster Hunter",
+    "gen": 521,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -85292,6 +86596,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bdqixj",
+    "character": "Kyle",
+    "series": "Animal Crossing",
+    "gen": 61,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -86672,6 +87996,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biz598",
+    "character": "Lahan",
+    "series": "The Apothecary Diaries",
+    "gen": 647,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "devv"
     ],
     "favourite": false
   },
@@ -88091,7 +89435,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -88409,7 +89753,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/SmYUGz7TaJ.png",
     "tags": [
       "ev3d"
     ],
@@ -89816,6 +91160,26 @@
     "favourite": false
   },
   {
+    "code": "biqdj4",
+    "character": "Lilly Onakuramara",
+    "series": "Pitch Perfect",
+    "gen": 241,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9ybnky",
     "character": "Lily",
     "series": "Animal Crossing",
@@ -90756,6 +92120,26 @@
     "favourite": false
   },
   {
+    "code": "av9qk2",
+    "character": "Lloid",
+    "series": "Animal Crossing",
+    "gen": 88,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "mt6kxh",
     "character": "Lloid",
     "series": "Animal Crossing",
@@ -91372,6 +92756,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "pdfdyx",
+    "character": "Lopez",
+    "series": "Animal Crossing",
+    "gen": 41,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -92309,7 +93713,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/hYS4i9BXD4.png",
     "tags": [
       "ev3d"
     ],
@@ -92963,6 +94367,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biq1zt",
+    "character": "Lumie",
+    "series": "Teamfight Tactics",
+    "gen": 731,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -93709,7 +95133,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/cVdU7Lhd2G.png",
     "tags": [
       "hoard"
     ],
@@ -93852,6 +95276,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biisi0",
+    "character": "Lyse",
+    "series": "Final Fantasy XIV",
+    "gen": 1999,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
     ],
     "favourite": false
   },
@@ -94061,7 +95505,7 @@
     "series": "Animal Crossing",
     "gen": 53,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "♟️",
     "seriesNeedsReview": false,
@@ -94424,6 +95868,26 @@
     "isEvent": false,
     "element": "Metal",
     "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "ou5koy",
+    "character": "Maddie",
+    "series": "Animal Crossing",
+    "gen": 79,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
     "frame": "",
@@ -97071,7 +98535,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -97192,6 +98656,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biomes",
+    "character": "Marcus",
+    "series": "Reverse: 1999",
+    "gen": 535,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/jcsSPdj3zq.png",
+    "tags": [
+      "codes"
     ],
     "favourite": false
   },
@@ -97709,7 +99193,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/Ghp3NgERgm.png",
     "tags": [
       "ev3d"
     ],
@@ -97743,6 +99227,26 @@
     "type": null,
     "isEvent": false,
     "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "panluj",
+    "character": "Marina",
+    "series": "Animal Crossing",
+    "gen": 72,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -98191,7 +99695,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -100856,6 +102360,26 @@
     "favourite": false
   },
   {
+    "code": "bizf1f",
+    "character": "Mei Aihara",
+    "series": "Citrus",
+    "gen": 1648,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9xsj4n",
     "character": "Mei Mei",
     "series": "Jujutsu Kaisen",
@@ -101892,6 +103416,26 @@
     "image": "",
     "tags": [
       "banner"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p6djr7",
+    "character": "Merengue",
+    "series": "Animal Crossing",
+    "gen": 94,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -104216,6 +105760,26 @@
     "favourite": false
   },
   {
+    "code": "bizec1",
+    "character": "Mineru",
+    "series": "Animal Crossing",
+    "gen": 39,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "attzis",
     "character": "Minerva McGonagall",
     "series": "Harry Potter",
@@ -105721,7 +107285,7 @@
     "series": "MiSide",
     "gen": 1594,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -107131,7 +108695,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -107529,7 +109093,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/6Kvr4CBnev.png",
     "tags": [
       "ev3d"
     ],
@@ -107672,6 +109236,26 @@
     "image": "",
     "tags": [
       "event"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biljbz",
+    "character": "Momoka Kawaragi",
+    "series": "Girls Band Cry",
+    "gen": 360,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
     ],
     "favourite": false
   },
@@ -108776,6 +110360,26 @@
     "favourite": false
   },
   {
+    "code": "biz4ac",
+    "character": "Motomiya Chiaki",
+    "series": "Blue Archive",
+    "gen": 1148,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9w55p3",
     "character": "Mott",
     "series": "Animal Crossing",
@@ -109592,6 +111196,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "9s0bam",
+    "character": "Muffy",
+    "series": "Animal Crossing",
+    "gen": 89,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -110792,6 +112416,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bbal6k",
+    "character": "Nan",
+    "series": "Animal Crossing",
+    "gen": 32,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -113861,7 +115505,7 @@
     "series": "Infinity Nikki",
     "gen": 5,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Fire",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -113869,7 +115513,7 @@
     "frame": "",
     "glow": "#0f5a8e",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/EgrF3hJfcy.png",
     "tags": [
       "g10"
     ],
@@ -113992,6 +115636,26 @@
     "image": "",
     "tags": [
       "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "al4sq1",
+    "character": "Niko",
+    "series": "Animal Crossing",
+    "gen": 65,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -114692,6 +116356,26 @@
     "image": "",
     "tags": [
       "event"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bj0a71",
+    "character": "Noi",
+    "series": "Dorohedoro",
+    "gen": 1004,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
     ],
     "favourite": false
   },
@@ -115524,6 +117208,26 @@
     "isEvent": false,
     "element": "Void",
     "sourceIcon": ":standart2d:",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/KrFcWa8bA3.png",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b9ev2t",
+    "character": "O'Hare",
+    "series": "Animal Crossing",
+    "gen": 38,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
     "frame": "",
@@ -116491,7 +118195,27 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "nvebq0",
+    "character": "Olivia",
+    "series": "Animal Crossing",
+    "gen": 97,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -117121,7 +118845,7 @@
     "series": "Bleach",
     "gen": 1455,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Metal",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -117331,7 +119055,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -118576,6 +120300,26 @@
     "favourite": false
   },
   {
+    "code": "bii1g1",
+    "character": "Pamela & Harley",
+    "series": "DC Comics",
+    "gen": 1032,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bajh1k",
     "character": "Pamela Isley",
     "series": "DC Comics",
@@ -118812,6 +120556,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "b5z8s7",
+    "character": "Pango",
+    "series": "Animal Crossing",
+    "gen": 36,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -119091,7 +120855,27 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "mvtkda",
+    "character": "Papi",
+    "series": "Animal Crossing",
+    "gen": 58,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -119391,7 +121175,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -119811,7 +121595,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -119976,6 +121760,26 @@
     "favourite": false
   },
   {
+    "code": "bbrxsr",
+    "character": "Peanut",
+    "series": "Animal Crossing",
+    "gen": 44,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "art7zs",
     "character": "Pearl",
     "series": "Splatoon",
@@ -120012,6 +121816,26 @@
     "image": "",
     "tags": [
       "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biq1lx",
+    "character": "Pearl",
+    "series": "The Vampire Diaries",
+    "gen": 1855,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
     ],
     "favourite": false
   },
@@ -120311,7 +122135,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -121371,7 +123195,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -121472,6 +123296,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "biggay",
+    "character": "Phil Salt",
+    "series": "Cricket",
+    "gen": 1028,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/CqwhL9zEwz.png",
+    "tags": [
+      "codes"
     ],
     "favourite": false
   },
@@ -121692,6 +123536,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bdb1h5",
+    "character": "Phoebe",
+    "series": "Animal Crossing",
+    "gen": 34,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -122312,6 +124176,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bifuyq",
+    "character": "Pinky",
+    "series": "Animal Crossing",
+    "gen": 1362,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "fsft"
     ],
     "favourite": false
   },
@@ -123181,7 +125065,7 @@
     "series": "The Amazing Digital Circus",
     "gen": 1384,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Wind",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -123571,7 +125455,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -123752,6 +125636,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "osed5w",
+    "character": "Porter",
+    "series": "Animal Crossing",
+    "gen": 97,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -124896,6 +126800,46 @@
     "favourite": false
   },
   {
+    "code": "bhgqqu",
+    "character": "Puddles",
+    "series": "Animal Crossing",
+    "gen": 6,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/bqdSSSm5SQ.png",
+    "tags": [
+      "acfroggy"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p3pc5o",
+    "character": "Puddles",
+    "series": "Animal Crossing",
+    "gen": 95,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a593f2",
     "character": "Pudge",
     "series": "Animal Crossing",
@@ -125936,6 +127880,26 @@
     "favourite": false
   },
   {
+    "code": "b0xqt9",
+    "character": "Quillson",
+    "series": "Animal Crossing",
+    "gen": 40,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "aba7lh",
     "character": "Quin",
     "series": "Death Parade",
@@ -126029,7 +127993,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/vzf2shCzhZ.png",
     "tags": [
       "showoff"
     ],
@@ -127396,6 +129360,26 @@
     "favourite": false
   },
   {
+    "code": "pakt4q",
+    "character": "Rasher",
+    "series": "Animal Crossing",
+    "gen": 94,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bhihfv",
     "character": "Rasho Mastbreaker",
     "series": "Final Fantasy XIV",
@@ -128691,7 +130675,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -129269,7 +131253,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/zeauw4FmYR.png",
     "tags": [
       "g100"
     ],
@@ -130131,7 +132115,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -131209,7 +133193,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/iyvWHqb8Jh.png",
     "tags": [
       "ev3d"
     ],
@@ -132741,7 +134725,7 @@
     "series": "PAW Patrol",
     "gen": 1991,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Wood",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -132832,6 +134816,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bhdhc5",
+    "character": "Rodeo",
+    "series": "Animal Crossing",
+    "gen": 17,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -133291,7 +135295,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -133431,7 +135435,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -134131,7 +136135,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -134152,6 +136156,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bela9t",
+    "character": "Roswell",
+    "series": "Animal Crossing",
+    "gen": 15,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -134331,7 +136355,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -134371,7 +136395,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -136301,7 +138325,7 @@
     "series": "Animal Crossing",
     "gen": 43,
     "type": "2D",
-    "isEvent": true,
+    "isEvent": false,
     "element": "Earth",
     "sourceIcon": "♟️",
     "seriesNeedsReview": false,
@@ -136711,7 +138735,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -137771,7 +139795,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -138809,7 +140833,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/u7FexvgPuk.png",
     "tags": [
       "hoard"
     ],
@@ -142716,6 +144740,26 @@
     "favourite": false
   },
   {
+    "code": "o5uq3u",
+    "character": "Shep",
+    "series": "Animal Crossing",
+    "gen": 16,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "a3caoc",
     "character": "Sherb",
     "series": "Animal Crossing",
@@ -142763,6 +144807,26 @@
     "type": null,
     "isEvent": false,
     "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "omc4be",
+    "character": "Sherb",
+    "series": "Animal Crossing",
+    "gen": 48,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -143829,7 +145893,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/cMbNGbSsAr.png",
     "tags": [
       "ev3d"
     ],
@@ -146936,6 +149000,26 @@
     "favourite": false
   },
   {
+    "code": "a819oc",
+    "character": "Skye",
+    "series": "Animal Crossing",
+    "gen": 21,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "b8diky",
     "character": "Skyla",
     "series": "Pokemon People",
@@ -147449,7 +149533,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/7HTsWuj26a.png",
     "tags": [
       "hoard"
     ],
@@ -147596,6 +149680,26 @@
     "favourite": false
   },
   {
+    "code": "b1sipv",
+    "character": "Snooty",
+    "series": "Animal Crossing",
+    "gen": 64,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "9x2xvr",
     "character": "Snoozer",
     "series": "Hamtaro",
@@ -147732,6 +149836,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "awbnto",
+    "character": "Snowboy",
+    "series": "Animal Crossing",
+    "gen": 77,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -148209,7 +150333,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/YxdpzTfan3.png",
     "tags": [
       "codes"
     ],
@@ -149669,7 +151793,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/7jf3Qzt3i3.png",
     "tags": [
       "ev3d"
     ],
@@ -149772,6 +151896,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "beqq96",
+    "character": "Spike",
+    "series": "Animal Crossing",
+    "gen": 15,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -150156,6 +152300,26 @@
     "favourite": false
   },
   {
+    "code": "bex18u",
+    "character": "Sprinkle",
+    "series": "Animal Crossing",
+    "gen": 53,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "nbnzxs",
     "character": "Sprinkle",
     "series": "Animal Crossing",
@@ -150172,6 +152336,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p2xajz",
+    "character": "Sprinkle",
+    "series": "Animal Crossing",
+    "gen": 99,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -152616,6 +154800,26 @@
     "favourite": false
   },
   {
+    "code": "birlcf",
+    "character": "Sunao Fuchi",
+    "series": "Kara no Kioku",
+    "gen": 95,
+    "type": null,
+    "isEvent": false,
+    "element": "Void",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "g100"
+    ],
+    "favourite": false
+  },
+  {
     "code": "acyfxn",
     "character": "Sunbae",
     "series": "Meet Me Today",
@@ -153712,6 +155916,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "np4tug",
+    "character": "Sydney",
+    "series": "Animal Crossing",
+    "gen": 73,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -155431,7 +157655,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -155629,7 +157853,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/HKUuVW2bPz.png",
     "tags": [
       "hoard"
     ],
@@ -158129,7 +160353,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/ZSUJTAFC8U.png",
     "tags": [
       "codes"
     ],
@@ -158903,6 +161127,26 @@
     "type": null,
     "isEvent": false,
     "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bdebam",
+    "character": "Tia",
+    "series": "Animal Crossing",
+    "gen": 52,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -159976,6 +162220,26 @@
     "favourite": false
   },
   {
+    "code": "bgpl07",
+    "character": "Toby",
+    "series": "Animal Crossing",
+    "gen": 60,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "anzr6z",
     "character": "Tocker",
     "series": "Teamfight Tactics",
@@ -160572,6 +162836,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "oea0km",
+    "character": "Tom Nook",
+    "series": "Animal Crossing",
+    "gen": 12,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -161851,7 +164135,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -162371,7 +164655,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -163232,6 +165516,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bhuqgy",
+    "character": "Tulin",
+    "series": "Animal Crossing",
+    "gen": 64,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -164811,7 +167115,7 @@
     "note": "",
     "image": "",
     "tags": [
-      "collection"
+      "fsft"
     ],
     "favourite": false
   },
@@ -166816,6 +169120,46 @@
     "favourite": false
   },
   {
+    "code": "b7j0fw",
+    "character": "Vic",
+    "series": "Animal Crossing",
+    "gen": 65,
+    "type": null,
+    "isEvent": false,
+    "element": "Fire",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bb17fb",
+    "character": "Vic",
+    "series": "Animal Crossing",
+    "gen": 84,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
+    ],
+    "favourite": false
+  },
+  {
     "code": "b3x1wy",
     "character": "Vice Principal Marlene",
     "series": "A Minecraft Movie",
@@ -167172,6 +169516,26 @@
     "image": "",
     "tags": [
       "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "p1x916",
+    "character": "Victoria",
+    "series": "Animal Crossing",
+    "gen": 62,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },
@@ -167636,6 +170000,26 @@
     "favourite": false
   },
   {
+    "code": "bii68x",
+    "character": "Vincent Yamaoka",
+    "series": "Dave the Diver",
+    "gen": 1176,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "bae4uu",
     "character": "Vindicator Maraad",
     "series": "World of Warcraft",
@@ -167816,6 +170200,26 @@
     "favourite": false
   },
   {
+    "code": "bizobh",
+    "character": "Violet Bridgerton",
+    "series": "Bridgerton",
+    "gen": 1541,
+    "type": null,
+    "isEvent": false,
+    "element": "Wind",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "b7s6r6",
     "character": "Violinist",
     "series": "Identity V",
@@ -167960,6 +170364,26 @@
     "character": "Vivian",
     "series": "Animal Crossing",
     "gen": 549,
+    "type": null,
+    "isEvent": false,
+    "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bihz14",
+    "character": "Vivillon",
+    "series": "Pokemon Generation VI",
+    "gen": 766,
     "type": null,
     "isEvent": false,
     "element": "Earth",
@@ -168243,6 +170667,26 @@
     "type": "2D",
     "isEvent": true,
     "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "eventkeep"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bipy6y",
+    "character": "Vox",
+    "series": "Hazbin Hotel",
+    "gen": 1914,
+    "type": "2D",
+    "isEvent": true,
+    "element": "Fire",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -174141,7 +176585,7 @@
     "series": "Project SEKAI",
     "gen": 618,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Metal",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -174316,6 +176760,26 @@
     "favourite": false
   },
   {
+    "code": "bihxob",
+    "character": "Yoo Jin-Hee",
+    "series": "Solo Leveling",
+    "gen": 860,
+    "type": null,
+    "isEvent": false,
+    "element": "Metal",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "burn"
+    ],
+    "favourite": false
+  },
+  {
     "code": "armacb",
     "character": "Yoon Jigu",
     "series": "My Guildmate Next Door",
@@ -174409,7 +176873,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/mxC8dn53Ap.png",
     "tags": [
       "ev3d"
     ],
@@ -174541,7 +177005,7 @@
     "series": "Touhou",
     "gen": 1906,
     "type": null,
-    "isEvent": true,
+    "isEvent": false,
     "element": "Metal",
     "sourceIcon": "",
     "seriesNeedsReview": false,
@@ -174963,6 +177427,26 @@
     "type": null,
     "isEvent": false,
     "element": "Earth",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bizin5",
+    "character": "Yu Haibara",
+    "series": "Jujutsu Kaisen",
+    "gen": 882,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
     "sourceIcon": "",
     "seriesNeedsReview": false,
     "event": "",
@@ -176296,6 +178780,26 @@
     "favourite": false
   },
   {
+    "code": "9xl9n7",
+    "character": "Yungoos",
+    "series": "Pokemon Generation VII",
+    "gen": 3,
+    "type": null,
+    "isEvent": false,
+    "element": "Wood",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "https://img.theonlyfrogs.com/i/Qpmvm7pudn.png",
+    "tags": [
+      "g10"
+    ],
+    "favourite": false
+  },
+  {
     "code": "b9zrbj",
     "character": "Yungoos",
     "series": "Pokemon Generation VII",
@@ -177236,6 +179740,26 @@
     "favourite": false
   },
   {
+    "code": "bii8c4",
+    "character": "Yuzuriha",
+    "series": "Hell's Paradise: Jigokuraku",
+    "gen": 930,
+    "type": null,
+    "isEvent": false,
+    "element": "Light",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "collection"
+    ],
+    "favourite": false
+  },
+  {
     "code": "anqqim",
     "character": "Yuzuriha Kotoko",
     "series": "MILGRAM",
@@ -178109,7 +180633,7 @@
     "frame": "",
     "glow": "",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/NUVgpSPXTq.png",
     "tags": [
       "codes"
     ],
@@ -178289,7 +180813,7 @@
     "frame": "",
     "glow": "#52a6df",
     "note": "",
-    "image": "",
+    "image": "https://img.theonlyfrogs.com/i/iuAyR4qiy6.png",
     "tags": [
       "showoff"
     ],
@@ -179092,6 +181616,26 @@
     "image": "",
     "tags": [
       "fsft"
+    ],
+    "favourite": false
+  },
+  {
+    "code": "bdyl8o",
+    "character": "Zucker",
+    "series": "Animal Crossing",
+    "gen": 65,
+    "type": null,
+    "isEvent": false,
+    "element": "Ice",
+    "sourceIcon": "",
+    "seriesNeedsReview": false,
+    "event": "",
+    "frame": "",
+    "glow": "",
+    "note": "",
+    "image": "",
+    "tags": [
+      "hoard"
     ],
     "favourite": false
   },

@@ -1,12 +1,13 @@
 import http from 'node:http';
 import { randomBytes } from 'node:crypto';
-import { readFile, writeFile, mkdir, rename, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rename, copyFile, readdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { parseCollection, parseCodeList, applyTag, linkHostedImages, mergeCards, matchImages, validateCard, imageExtensions, codeKey } from './cards.mjs';
 import { matchFrogPond, readFrogPond } from './frog-pond.mjs';
 import { parseSofiCSV, mergeSofiCSV } from './csv.mjs';
 import { labelEvent } from './events.mjs';
+import { tradeCardCodes, clearCardArtwork } from './code-trades.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
@@ -68,6 +69,25 @@ function send(res, status, value, type = 'application/json; charset=utf-8') {
   res.end(type.startsWith('application/json') ? JSON.stringify(value) : value);
 }
 
+// Keep the five newest automatic save snapshots. Builds create no backups.
+async function pruneOldSofiBackups() {
+  const dir = path.join(here, 'backups');
+  const entries = await readdir(dir, { withFileTypes: true });
+  const snapshots = entries
+    .filter(entry => entry.isDirectory() && /^\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}\.\d{3}Z$/.test(entry.name))
+    .map(entry => entry.name).sort().reverse();
+  for (const name of snapshots.slice(5)) await rm(path.join(dir, name), { recursive: true, force: true });
+}
+
+function savedCardsWithoutRetired(cards, requested) {
+  if (requested === undefined) return cards;
+  if (!Array.isArray(requested) || requested.length > 10000 || requested.some(c => typeof c !== 'string' || !/^[a-z0-9]{1,32}$/.test(c))) {
+    throw new Error('Invalid retired code list.');
+  }
+  const retired = new Set(requested);
+  return cards.filter(card => !retired.has(card.code));
+}
+
 const server = http.createServer(async (req, res) => {
   try {
     if (req.headers.host !== `127.0.0.1:${port}`) return send(res, 403, { error: 'Open the exact local URL printed in the terminal.' });
@@ -82,9 +102,15 @@ const server = http.createServer(async (req, res) => {
       if (!/^[a-z\d]+\.(png|jpe?g|webp|gif|avif)$/i.test(name)) return send(res, 404, { error: 'Image not found.' });
       return send(res, 200, await readFile(path.join(imageDir, name)), mime[path.extname(name).toLowerCase()]);
     }
-    if (req.method !== 'POST' || !['/api/preview', '/api/csv-preview', '/api/tags', '/api/events', '/api/images', '/api/pond-folders', '/api/pond-images', '/api/pond-export', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
+    if (req.method !== 'POST' || !['/api/preview', '/api/csv-preview', '/api/code-trade', '/api/clear-artwork', '/api/tags', '/api/events', '/api/images', '/api/pond-folders', '/api/pond-images', '/api/pond-export', '/api/save'].includes(url.pathname)) return send(res, 404, { error: 'Not found.' });
     if (req.headers.origin !== origin || req.headers['x-sofi-token'] !== token || !req.headers['content-type']?.startsWith('application/json')) return send(res, 403, { error: 'Use the local import screen to save.' });
     const input = await body(req);
+    if (url.pathname === '/api/code-trade') {
+      return send(res, 200, tradeCardCodes(input.cards, input.from, input.to, { clearArtwork: input.clearArtwork === true }));
+    }
+    if (url.pathname === '/api/clear-artwork') {
+      return send(res, 200, clearCardArtwork(input.cards, input.code));
+    }
     if (url.pathname === '/api/events') {
       if (!Array.isArray(input.cards)) throw new Error('Load or import your cards first.');
       return send(res, 200, labelEvent(input.cards.map(validateCard), parseCodeList(input.text), input.event, { clearName: input.clearName === true }));
@@ -92,7 +118,7 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === '/api/csv-preview') {
       const parsed = parseSofiCSV(input.text);
       if (input.cards !== undefined && !Array.isArray(input.cards)) throw new Error('Invalid current collection.');
-      const current = mergeCards(await readCards(), (input.cards ?? []).map(validateCard), { reviewed: true });
+      const current = mergeCards(savedCardsWithoutRetired(await readCards(), input.removedCodes), (input.cards ?? []).map(validateCard), { reviewed: true });
       const result = mergeSofiCSV(current, parsed, { replaceTags: input.replaceTags === true });
       result.cards = await matchImages(result.cards, imageDir);
       return send(res, 200, { ...result, matched: parsed.matched, warnings: parsed.warnings, tagCounts: parsed.tagCounts });
@@ -115,7 +141,7 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname === '/api/preview') {
       const parsed = parseCollection(input.text);
       if (input.cards !== undefined && !Array.isArray(input.cards)) throw new Error('Invalid current collection.');
-      const current = mergeCards(await readCards(), (input.cards ?? []).map(validateCard), { reviewed: true });
+      const current = mergeCards(savedCardsWithoutRetired(await readCards(), input.removedCodes), (input.cards ?? []).map(validateCard), { reviewed: true });
       const cards = await matchImages(mergeCards(current, parsed.cards), imageDir);
       return send(res, 200, { ...parsed, cards });
     }
@@ -124,7 +150,7 @@ const server = http.createServer(async (req, res) => {
     try {
       if (!Array.isArray(input.cards) || !Array.isArray(input.images)) throw new Error('Invalid save.');
       const reviewed = input.cards.map(validateCard);
-      let cards = mergeCards(await readCards(), reviewed, { reviewed: true });
+      let cards = mergeCards(savedCardsWithoutRetired(await readCards(), input.removedCodes), reviewed, { reviewed: true });
       const codes = new Set(cards.map(c => c.code));
       const images = input.images.map(i => imagePayload(i, codes));
       if (new Set(images.map(i => i.code)).size !== images.length) throw new Error('Select one image per card code in each save.');
@@ -145,6 +171,7 @@ const server = http.createServer(async (req, res) => {
       const temporary = `${dataFile}.tmp-${token}`;
       await writeFile(temporary, `${JSON.stringify(cards, null, 2)}\n`);
       await rename(temporary, dataFile);
+      try { await pruneOldSofiBackups(); } catch (error) { console.warn(`Could not prune Sofi backups: ${error.message}`); }
       return send(res, 200, { cards, imagesSaved: images.length, message: `Saved ${cards.length} cards and ${images.length} images. Rebuild the website to publish them.` });
     } finally { saving = false; }
   } catch (e) { send(res, e.code === 'ENOENT' ? 404 : 400, { error: e.message }); }

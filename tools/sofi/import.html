@@ -23,6 +23,19 @@
 <p class="actions"><button id="preview">Read pasted cards</button></p><p class="hint">Pasting adds or updates cards. It does not remove cards from other pages.</p></details>
 <p class="actions"><button id="reload">Reload saved cards</button></p><p class="hint">Reload discards unsaved edits. Neither import method writes to your file until you save.</p>
 </section>
+<section class="panel" id="code-trade-panel" aria-labelledby="code-trade-heading">
+<h2 id="code-trade-heading">Change or trade a card code</h2>
+<p class="hint">Changes are only previewed until you click Save. If the new code is already used by another card, the two codes swap. Card notes, tags, favourites, and artwork stay with the character, not the code.</p>
+<div class="row"><label>Current card code<input id="trade-old" placeholder="e.g. bigpdf" maxlength="32" autocomplete="off"></label>
+<label>New card code<input id="trade-new" placeholder="e.g. om2zzz" maxlength="32" autocomplete="off"></label></div>
+<label class="check"><input id="trade-clear-art" type="checkbox"> Clear both moved cards' artwork (use when neither should have artwork)</label>
+<p class="actions"><button id="trade-run" type="button">Change code / swap cards</button></p>
+<details><summary>Remove incorrect artwork from a card</summary>
+<p class="hint">Use this after a CSV import reused a code for another character. Clearing an image also stops old code-named local files from reattaching it.</p>
+<label>Card code to clear<input id="clear-art-code" maxlength="32" autocomplete="off" placeholder="e.g. bigpdf"></label>
+<button id="clear-art-run" type="button">Clear this card's artwork</button>
+</details>
+</section>
 <section class="panel" aria-labelledby="image-heading"><h2 id="image-heading">2. Link or attach artwork</h2>
 <p class="hint">Use Frog Pond below to link artwork already uploaded to R2, or select local files here. To save new artwork, view each card with <code>sv CARD_CODE</code> yourself and save its original image. Rename it to the card code, for example <code>adam.png</code> or <code>o6tnjw.gif</code>. Select images below to match them automatically. Animated GIF/WebP files are preserved.</p>
 <label for="images">Card images (PNG, JPG, WebP, GIF or AVIF)</label><input id="images" type="file" multiple accept=".png,.jpg,.jpeg,.webp,.gif,.avif"><p id="file-list"></p>
@@ -70,7 +83,7 @@
 </main>
 <script>
 const TOKEN='__SOFI_TOKEN__';
-let cards=[]; let selected=[]; let busy=false; let pageNumber=1; let eventNames=new Map();
+let cards=[]; let selected=[]; let busy=false; let pageNumber=1; let eventNames=new Map(); let removedCodes = new Set();
 const eventLabel=code=>eventNames.get(code)||code;
 const pageSize=50;
 const $=s=>document.querySelector(s);
@@ -115,13 +128,27 @@ $('#pond-folders').onclick=()=>action(async()=>{const data=await request('/api/p
 $('#pond-match').onclick=()=>action(async()=>{status('Reading Frog Pond image metadata…');pondResult(await request('/api/pond-images',pondInput()));});
 $('#pond-import').onclick=()=>action(async()=>{const file=$('#pond-file').files[0];if(file&&file.size>24_000_000)throw new Error('Choose a JSON listing smaller than 24 MB.');const listing=file?await file.text():$('#pond-json').value;pondResult(await request('/api/pond-export',{cards,listing,publicBase:$('#pond-public').value,replace:$('#pond-replace').checked}));});
 async function action(fn){if(busy)return;busy=true;document.querySelectorAll('button').forEach(b=>b.disabled=true);try{await fn();}catch(e){status(e.message,true);}finally{busy=false;document.querySelectorAll('button').forEach(b=>b.disabled=false);render();}}
-async function load(){const data=await request('/api/cards');cards=data.cards;eventNames=new Map((data.events||[]).map(event=>[event.id,`${event.name} ${event.year}`]));$('#event-choice').innerHTML='<option value="">Custom event code</option>'+[...eventNames].map(([id,label])=>`<option value="${escapeHTML(id)}">${escapeHTML(label)}</option>`).join('');pageNumber=1;render();status(`${cards.length} saved cards loaded. You can edit them or paste more pages.`);}
+async function load(){const data=await request('/api/cards');cards=data.cards;removedCodes.clear();eventNames=new Map((data.events||[]).map(event=>[event.id,`${event.name} ${event.year}`]));$('#event-choice').innerHTML='<option value="">Custom event code</option>'+[...eventNames].map(([id,label])=>`<option value="${escapeHTML(id)}">${escapeHTML(label)}</option>`).join('');pageNumber=1;render();status(`${cards.length} saved cards loaded. You can edit them or paste more pages.`);}
 $('#reload').onclick=()=>action(load);
-$('#csv-preview').onclick=()=>action(async()=>{const file=$('#csv-file').files[0];if(!file)throw new Error('Choose your Sofi collection CSV first.');if(file.size>16_000_000)throw new Error('Choose a CSV smaller than 16 MB.');status('Reading your CSV collection…');const data=await request('/api/csv-preview',{text:await file.text(),cards,replaceTags:$('#csv-replace-tags').checked});cards=data.cards;pageNumber=1;render();$('#csv-tag-counts').innerHTML=Object.entries(data.tagCounts).map(([name,count])=>`<li>${escapeHTML(name)}: ${count}</li>`).join('');$('#csv-summary').hidden=false;status(`${data.matched.toLocaleString()} CSV cards read: ${data.added.toLocaleString()} added, ${data.updated.toLocaleString()} updated; ${data.retained.toLocaleString()} existing cards outside this file kept. Nothing saved yet.${data.warnings.length?'\n'+data.warnings.join('\n'):''}`);});
-$('#preview').onclick=()=>action(async()=>{const data=await request('/api/preview',{text:$('#paste').value,cards});
+$('#trade-run').onclick=()=>action(async()=>{
+  const from=$('#trade-old').value.trim().toLowerCase(), to=$('#trade-new').value.trim().toLowerCase();
+  const other=cards.find(card=>card.code===to);
+  if(other && !window.confirm('Swap ' + from + ' with ' + to + ' (' + other.character + ')? Both cards will keep their own metadata.')) return;
+  const data=await request('/api/code-trade',{cards,from,to,clearArtwork:$('#trade-clear-art').checked});
+  cards=data.cards;
+  for(const code of data.retired)removedCodes.add(code);
+  $('#trade-old').value=to;$('#trade-new').value='';
+  status(data.message + ' Nothing saved yet.');
+});
+$('#clear-art-run').onclick=()=>action(async()=>{
+  const data=await request('/api/clear-artwork',{cards,code:$('#clear-art-code').value});
+  cards=data.cards;status(data.message+' Nothing saved yet.');
+});
+$('#csv-preview').onclick=()=>action(async()=>{const file=$('#csv-file').files[0];if(!file)throw new Error('Choose your Sofi collection CSV first.');if(file.size>16_000_000)throw new Error('Choose a CSV smaller than 16 MB.');status('Reading your CSV collection…');const data=await request('/api/csv-preview',{text:await file.text(),cards,replaceTags:$('#csv-replace-tags').checked,removedCodes:[...removedCodes]});cards=data.cards;pageNumber=1;render();$('#csv-tag-counts').innerHTML=Object.entries(data.tagCounts).map(([name,count])=>`<li>${escapeHTML(name)}: ${count}</li>`).join('');$('#csv-summary').hidden=false;status(`${data.matched.toLocaleString()} CSV cards read: ${data.added.toLocaleString()} added, ${data.updated.toLocaleString()} updated; ${data.retained.toLocaleString()} existing cards outside this file kept. Nothing saved yet.${data.warnings.length?'\n'+data.warnings.join('\n'):''}`);});
+$('#preview').onclick=()=>action(async()=>{const data=await request('/api/preview',{text:$('#paste').value,cards,removedCodes:[...removedCodes]});
  cards=data.cards;
  pageNumber=1;render();status(`${data.matched} pasted rows read; ${cards.length} cards in your binder. Nothing saved yet.${data.warnings.length?'\n'+data.warnings.join('\n'):''}`);});
 const fileBase64=f=>new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=()=>reject(new Error(`Could not read ${f.name}.`));reader.readAsDataURL(f);});
-$('#save').onclick=()=>action(async()=>{status('Saving your cards and artwork…');const images=[];for(const f of selected){if(f.size>10_000_000)throw new Error(`${f.name}: maximum 10 MB per image.`);images.push({name:f.name,base64:await fileBase64(f)});}const data=await request('/api/save',{cards,images});cards=data.cards;selected=[];$('#images').value='';render();status(data.message);});
+$('#save').onclick=()=>action(async()=>{status('Saving your cards and artwork…');const images=[];for(const f of selected){if(f.size>10_000_000)throw new Error(`${f.name}: maximum 10 MB per image.`);images.push({name:f.name,base64:await fileBase64(f)});}const data=await request('/api/save',{cards,images,removedCodes:[...removedCodes]});cards=data.cards;removedCodes.clear();selected=[];$('#images').value='';render();status(data.message);});
 action(load);
 </script></body></html>
