@@ -165,9 +165,19 @@
     "ItemName": "Bustling Boulevard Orchestrion Roll"
   },
   {
+    "RowId": 680,
+    "Title": "Bygone Serenity",
+    "ItemName": "Bygone Serenity Orchestrion Roll"
+  },
+  {
     "RowId": 127,
     "Title": "Canticle",
     "ItemName": "Canticle Orchestrion Roll"
+  },
+  {
+    "RowId": 891,
+    "Title": "Carrots of Brilliance",
+    "ItemName": "Carrots of Brilliance Orchestrion Roll"
   },
   {
     "RowId": 850,
@@ -193,6 +203,11 @@
     "RowId": 605,
     "Title": "Conundrum",
     "ItemName": "Conundrum Orchestrion Roll"
+  },
+  {
+    "RowId": 699,
+    "Title": "Crash in the Dark",
+    "ItemName": "Crash in the Dark Orchestrion Roll"
   },
   {
     "RowId": 372,
@@ -225,9 +240,19 @@
     "ItemName": "Dawntrail Orchestrion Roll"
   },
   {
+    "RowId": 571,
+    "Title": "Dedicated to Moonlight",
+    "ItemName": "Dedicated to Moonlight Orchestrion Roll"
+  },
+  {
     "RowId": 75,
     "Title": "Defender of the Realm",
     "ItemName": "Defender of the Realm Orchestrion Roll"
+  },
+  {
+    "RowId": 265,
+    "Title": "Deltascape",
+    "ItemName": "Deltascape Orchestrion Roll"
   },
   {
     "RowId": 529,
@@ -248,6 +273,11 @@
     "RowId": 575,
     "Title": "Echoes of Ages Past",
     "ItemName": "Echoes of Ages Past Orchestrion Roll"
+  },
+  {
+    "RowId": 700,
+    "Title": "Echoes of Memory",
+    "ItemName": "Echoes of Memory Orchestrion Roll"
   },
   {
     "RowId": 677,
@@ -300,9 +330,19 @@
     "ItemName": "Fifth Ode: A Time for Prayer Orchestrion Roll"
   },
   {
+    "RowId": 858,
+    "Title": "Fight On!",
+    "ItemName": "Fight On! Orchestrion Roll"
+  },
+  {
     "RowId": 739,
     "Title": "Find the Princess (Dawntrail)",
     "ItemName": "Find the Princess (Dawntrail) Orchestrion Roll"
+  },
+  {
+    "RowId": 679,
+    "Title": "Flash in the Dark",
+    "ItemName": "Flash in the Dark Orchestrion Roll"
   },
   {
     "RowId": 236,
@@ -410,6 +450,11 @@
     "ItemName": "In the Balance Orchestrion Roll"
   },
   {
+    "RowId": 64,
+    "Title": "Ink Long Dry",
+    "ItemName": "Ink Long Dry Orchestrion Roll"
+  },
+  {
     "RowId": 775,
     "Title": "Insatiable (Pulse 2)",
     "ItemName": "Insatiable (Pulse 2) Orchestrion Roll"
@@ -423,6 +468,16 @@
     "RowId": 607,
     "Title": "Kiss of Chaos",
     "ItemName": "Kiss of Chaos Orchestrion Roll"
+  },
+  {
+    "RowId": 861,
+    "Title": "Landscaping",
+    "ItemName": "Landscaping Orchestrion Roll"
+  },
+  {
+    "RowId": 857,
+    "Title": "Let the Battles Begin!",
+    "ItemName": "Let the Battles Begin! Orchestrion Roll"
   },
   {
     "RowId": 682,
@@ -535,6 +590,11 @@
     "ItemName": "Prelude \u2013 Discoveries Orchestrion Roll"
   },
   {
+    "RowId": 262,
+    "Title": "Primogenitor",
+    "ItemName": "Primogenitor Orchestrion Roll"
+  },
+  {
     "RowId": 146,
     "Title": "Promises",
     "ItemName": "Promises Orchestrion Roll"
@@ -548,6 +608,11 @@
     "RowId": 863,
     "Title": "Pulper of Inquiry",
     "ItemName": "Pulper of Inquiry Orchestrion Roll"
+  },
+  {
+    "RowId": 658,
+    "Title": "Punutiy Crossing",
+    "ItemName": "Punutiy Crossing Orchestrion Roll"
   },
   {
     "RowId": 131,
@@ -633,6 +698,11 @@
     "RowId": 610,
     "Title": "Skullduggery",
     "ItemName": "Skullduggery Orchestrion Roll"
+  },
+  {
+    "RowId": 697,
+    "Title": "Skybound Emerald",
+    "ItemName": "Skybound Emerald Orchestrion Roll"
   },
   {
     "RowId": 688,
@@ -838,6 +908,11 @@
     "RowId": 357,
     "Title": "Weight of the World (Prelude Version)",
     "ItemName": "Weight of the World (Prelude Version) Orchestrion Roll"
+  },
+  {
+    "RowId": 856,
+    "Title": "Welcome to the Gold Saucer",
+    "ItemName": "Welcome to the Gold Saucer Orchestrion Roll"
   },
   {
     "RowId": 773,
