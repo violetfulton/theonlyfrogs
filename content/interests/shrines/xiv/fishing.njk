@@ -1,0 +1,53 @@
+---
+layout: layouts/ffBase.njk
+title: FroggyFish ♡ | FFXIV
+permalink: /shrines/finalfantasyxiv/fishing/
+---
+<link rel="stylesheet" href="/assets/css/ffxiv/froggyfish.css">
+
+<section class="ff-fish ff-fish--full" data-froggyfish="full" data-api="https://froggyfish-live.theonlyfrogs.workers.dev/api/fish" aria-label="Aggro's big-fishing tracker">
+  <header class="ff-fish__hero">
+    <div>
+      <span class="ff-fish__eyebrow">✦ Aggro's little fishing diary ✦</span>
+      <h1>🐸 FroggyFish <span class="ff-fish__heart">♡</span></h1>
+      <p>Every big fish I still need, with real windows from Sisipu and catches synced straight from FFXIV.</p>
+      <div class="ff-fish__hero-tags" aria-label="Features">
+        <span>🎣 big fish</span><span>🌸 quiet nights</span><span>☁ live from Eorzea</span>
+      </div>
+    </div>
+    <div class="ff-fish__hero-pond" aria-hidden="true">🐸<span>✿</span></div>
+  </header>
+
+  <div class="ff-fish__summary" aria-live="polite">
+    <div class="ff-fish__stat"><span>caught</span><strong data-fish-caught>—</strong><small>little victories ✧</small></div>
+    <div class="ff-fish__stat"><span>still missing</span><strong data-fish-missing>—</strong><small>future adventures ♡</small></div>
+    <div class="ff-fish__stat"><span>catchable now</span><strong data-fish-open>—</strong><small>of the windows loaded</small></div>
+    <div class="ff-fish__stat"><span>window checks</span><strong data-fish-checked>—</strong><small data-fish-checktotal>waiting to check</small></div>
+  </div>
+
+  <div class="ff-fish__progress">
+    <div class="ff-fish__progress-head"><strong>✦ the big fish journey</strong><span data-fish-percent>—</span></div>
+    <div class="ff-fish__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Big fish caught"><div data-fish-bar></div></div>
+    <div class="ff-fish__progress-foot"><span data-fish-sync>Waiting for Aggro's first sync…</span><span data-fish-updated>Forecasts not checked yet</span></div>
+  </div>
+
+  <div class="ff-fish__status" role="status" data-fish-status>Connecting to the fishing pond… ♡</div>
+
+  <div class="ff-fish__tools">
+    <div class="ff-fish__tabs" role="group" aria-label="Filter fish windows">
+      <button type="button" data-fish-filter="all" aria-pressed="true">All windows</button>
+      <button type="button" data-fish-filter="now" aria-pressed="false">🫧 Catchable now</button>
+      <button type="button" data-fish-filter="soon" aria-pressed="false">🌙 Coming up</button>
+      <button type="button" data-fish-filter="eyes" aria-pressed="false">✨ Fish Eyes</button>
+    </div>
+    <label class="ff-fish__search"><span class="ff-fish__sr">Search fish</span><input type="search" data-fish-search placeholder="Search for a fish… ♡" autocomplete="off"></label>
+    <button type="button" class="ff-fish__refresh" data-fish-refresh>↻ Refresh</button>
+  </div>
+
+  <div class="ff-fish__resultline"><span data-fish-resultcount>Waiting for forecasts…</span><span>Times shown in Scotland · UK local time</span></div>
+  <div class="ff-fish__grid" data-fish-list aria-live="polite">
+    <p class="ff-fish__empty">🐟 The fish are hiding while I connect to Eorzea…</p>
+  </div>
+  <footer class="ff-fish__foot">♡ Synced automatically from Aggro's Fishing Log · Forecasts are approximate opportunities; check bait, prerequisites and weather in-game.</footer>
+</section>
+<script src="/assets/js/shrines/ffxiv/fish.js" defer></script>

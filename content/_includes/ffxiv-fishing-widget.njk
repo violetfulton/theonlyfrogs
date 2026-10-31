@@ -1,0 +1,29 @@
+{# Small FroggyFish card for the FFXIV shrine home page. #}
+<link rel="stylesheet" href="/assets/css/ffxiv/froggyfish.css">
+<section class="ff-fish ff-fish--mini" data-froggyfish="mini" data-api="https://froggyfish-live.theonlyfrogs.workers.dev/api/fish" aria-label="FroggyFish live fishing widget">
+  <div class="ff-fish__mini-head">
+    <div class="ff-fish__mini-title">
+      <span class="ff-fish__mini-icon" aria-hidden="true">🐸</span>
+      <div><span class="ff-fish__eyebrow">✦ tiny fishing forecast ✦</span><h2>FroggyFish <span class="ff-fish__heart">♡</span></h2></div>
+    </div>
+    <span class="ff-fish__mini-live" data-fish-mini-status>connecting…</span>
+  </div>
+  <div class="ff-fish__mini-middle">
+    <div class="ff-fish__mini-progress">
+      <span>big fish caught</span>
+      <strong><span data-fish-caught>—</span> <small>/ <span data-fish-total>—</span></small></strong>
+      <div class="ff-fish__track" role="progressbar" aria-label="Big fish caught" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div data-fish-bar></div></div>
+      <small data-fish-percent>waiting for Aggro…</small>
+    </div>
+    <div class="ff-fish__mini-next">
+      <span data-fish-mini-label>🌙 next little adventure</span>
+      <strong data-fish-next-name>Checking the pond…</strong>
+      <small data-fish-next-time>Waiting for fishing windows ♡</small>
+    </div>
+  </div>
+  <div class="ff-fish__mini-bottom">
+    <span data-fish-sync>Waiting for sync…</span>
+    <a class="ff-fish__pill" href="/shrines/finalfantasyxiv/fishing/">🎣 View fishing windows <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+<script src="/assets/js/shrines/ffxiv/fish.js" defer></script>
