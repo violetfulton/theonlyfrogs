@@ -88,3 +88,30 @@
 @media (max-width:750px) { .ff-fish__summary {grid-template-columns:repeat(2,minmax(0,1fr));} .ff-fish__hero-pond {width:70px;height:70px;font-size:2.4rem;} .ff-fish__mini-middle {flex-direction:column;} .ff-fish__tools {align-items:stretch;} .ff-fish__search input {width:100%;} }
 @media (max-width:460px) { .ff-fish__hero-pond {display:none;} .ff-fish__mini-head,.ff-fish__mini-bottom {flex-wrap:wrap;} .ff-fish__pill {width:100%;justify-content:center;} }
 @media (prefers-reduced-motion:reduce) { .ff-fish__track>div,.ff-fish__pill {transition:none;} }
+
+/* FroggyFish • caught gallery v0.8 — scoped to fishing page only. */
+.ff-fish--full [hidden] { display:none !important; }
+.ff-fish__views {display:flex;flex-wrap:wrap;gap:.5rem;margin:1.15rem 0 .65rem;}
+.ff-fish__views button {cursor:pointer;flex:1;min-width:135px;padding:.8rem 1rem;font-weight:800;border-radius:16px;background:#fffafd;color:var(--ff-rose);border:1px solid var(--ff-stroke);}
+.ff-fish__views button[aria-pressed="true"] {background:linear-gradient(115deg,#fbe0ed,#eff7e8);border-color:#dcb2c9;box-shadow:var(--ff-shadow);}
+.ff-fish__caught-header {display:flex;justify-content:space-between;align-items:center;gap:.8rem;flex-wrap:wrap;margin:1rem 0;}
+.ff-fish__caught-header h2 {margin:.1rem 0;font-size:1.35rem;color:var(--ff-text);}
+.ff-fish__caught-header p {margin:.2rem 0 0;color:var(--ff-sub);font-size:.85rem;}
+.ff-fish__caught-filters {display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;}
+.ff-fish__caught-filters input,.ff-fish__caught-filters select,.ff-fish__caught-retry {font:inherit;border:1px solid var(--ff-stroke);background:#fffafd;color:var(--ff-text);border-radius:99px;padding:.58rem .85rem;min-width:140px;}
+.ff-fish__caught-retry {cursor:pointer;font-size:.81rem;font-weight:700;min-width:0;}
+.ff-fish__caught-retry:hover {background:#f9e7ef;}
+.ff-fish__caught-filters input:focus-visible,.ff-fish__caught-filters select:focus-visible,.ff-fish__caught-retry:focus-visible {outline:3px solid #8ab783;outline-offset:2px;}
+.ff-fish__catch-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:.8rem;margin:.75rem 0;}
+.ff-fish__catch {display:flex;align-items:flex-start;gap:.85rem;padding:1.05rem;background:linear-gradient(145deg,#fff8fb,#fffefc);border:1px solid var(--ff-stroke);border-radius:18px;box-shadow:var(--ff-shadow);min-width:0;}
+.ff-fish__catch-art {position:relative;display:grid;place-items:center;flex:0 0 86px;width:86px;height:86px;border-radius:16px;background:linear-gradient(145deg,#f7dce9,#e6f1db);font-size:2rem;overflow:hidden;}
+.ff-fish__catch-art img {position:absolute;inset:0;object-fit:contain;width:100%;height:100%;padding:8px;background:#f9eff3;image-rendering:auto;}
+.ff-fish__catch-details {flex:1;min-width:0;display:flex;flex-direction:column;gap:.45rem;}
+.ff-fish__catch-details h3 {color:var(--ff-text);margin:0;font-size:1.05rem;overflow-wrap:anywhere;line-height:1.3;}
+.ff-fish__catch-kicker {color:var(--ff-rose);font-size:.71rem;font-weight:800;}
+.ff-fish__catch-description {margin:0;color:var(--ff-sub);font-size:.82rem;line-height:1.55;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;}
+.ff-fish__catch-facts {display:flex;flex-wrap:wrap;gap:.3rem .7rem;font-size:.75rem;color:var(--ff-sub);}
+.ff-fish__catch-bottom {display:flex;justify-content:space-between;align-items:center;gap:.3rem;flex-wrap:wrap;margin-top:.25rem;}
+.ff-fish__catch-bottom small {color:var(--ff-sub);font-size:.72rem;}
+.ff-fish__caught-meta {color:var(--ff-sub);font-size:.75rem;}
+@media(max-width:500px) {.ff-fish__views button{min-width:0}.ff-fish__caught-filters,.ff-fish__caught-filters label,.ff-fish__caught-filters input{width:100%}.ff-fish__caught-filters select{min-width:0;width:100%}.ff-fish__catch-art{flex-basis:62px;width:62px;height:62px}}

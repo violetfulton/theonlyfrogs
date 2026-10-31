@@ -169,6 +169,7 @@
         data = nextData;
         windows = normaliseWindows(data.windows);
         paint();
+        if (mode === "full") root.dispatchEvent(new CustomEvent("froggyfish:update", { detail: { data } }));
       } catch(error) {
         console.warn("FroggyFish:", error);
         if (mode === "mini") {

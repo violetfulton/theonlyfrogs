@@ -33,6 +33,12 @@ permalink: /shrines/finalfantasyxiv/fishing/
 
   <div class="ff-fish__status" role="status" data-fish-status>Connecting to the fishing pond… ♡</div>
 
+  <div class="ff-fish__views" role="group" aria-label="Fishing diary views">
+    <button type="button" data-fish-view="windows" aria-pressed="true">🎣 Still to Catch</button>
+    <button type="button" data-fish-view="caught" aria-pressed="false">💗 My Catches ♡</button>
+  </div>
+
+  <div data-fish-windows>
   <div class="ff-fish__tools">
     <div class="ff-fish__tabs" role="group" aria-label="Filter fish windows">
       <button type="button" data-fish-filter="all" aria-pressed="true">All windows</button>
@@ -48,6 +54,26 @@ permalink: /shrines/finalfantasyxiv/fishing/
   <div class="ff-fish__grid" data-fish-list aria-live="polite">
     <p class="ff-fish__empty">🐟 The fish are hiding while I connect to Eorzea…</p>
   </div>
+  </div>{# /data-fish-windows #}
+
+  <section data-fish-caught-panel hidden aria-label="Aggro's caught big fish">
+    <div class="ff-fish__caught-header">
+      <div><span class="ff-fish__eyebrow">✦ little victories ✦</span><h2>💗 My Catches ♡</h2>
+      <p>Every big fish Aggro has already caught, from the same in-game sync.</p></div>
+      <span class="ff-fish__caught-meta" data-fish-caught-meta>Syncing with Eorzea…</span>
+    </div>
+    <div class="ff-fish__caught-filters">
+      <label><span class="ff-fish__sr">Search caught fish</span><input data-fish-caught-search type="search" placeholder="Search my catches… ♡" autocomplete="off"></label>
+      <label><span class="ff-fish__sr">Expansion</span><select data-fish-caught-expansion hidden><option value="">Every expansion</option></select></label>
+      <label><span class="ff-fish__sr">Sort catches</span><select data-fish-caught-sort><option value="name">A → Z</option><option value="reverse">Z → A</option><option value="id">Item ID</option></select></label>
+      <button type="button" class="ff-fish__caught-retry" data-fish-caught-retry>↻ Retry details</button>
+    </div>
+    <p class="ff-fish__resultline" data-fish-caught-resultcount>Waiting for caught fish…</p>
+    <div class="ff-fish__catch-grid" data-fish-caught-grid aria-live="polite">
+      <p class="ff-fish__empty">🐟 Waiting for Aggro’s catches ♡</p>
+    </div>
+  </section>
   <footer class="ff-fish__foot">♡ Synced automatically from Aggro's Fishing Log · Forecasts are approximate opportunities; check bait, prerequisites and weather in-game.</footer>
 </section>
 <script src="/assets/js/shrines/ffxiv/fish.js" defer></script>
+<script src="/assets/js/shrines/ffxiv/fish-caught.js" defer></script>
