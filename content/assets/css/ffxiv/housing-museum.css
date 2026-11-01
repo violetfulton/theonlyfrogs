@@ -1,0 +1,111 @@
+/* Aggro's Trophy House — deliberately borrows the FFXIV shrine's existing tokens. */
+.ff-museum { max-width:1160px; margin:0 auto; padding:20px 8px 44px; display:grid; gap:16px; color:var(--ff-text); }
+.ff-museum * { box-sizing:border-box; }
+.ff-museum h1,.ff-museum h2,.ff-museum h3,.ff-museum-lightbox h2 { color:var(--ff-text); }
+.ff-museum h1,.ff-museum h2,.ff-museum-handwritten,.ff-museum-lightbox h2 { font-family:'Gaegu',cursive; }
+.ff-museum-kicker { display:block; color:var(--ff-text-pink); margin:0 0 5px; font-size:.67rem; font-weight:900; letter-spacing:.12em; text-transform:uppercase; }
+.ff-museum-hero { display:grid; grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr); min-height:380px; overflow:hidden; }
+.ff-museum-hero__copy { display:flex; flex-direction:column; justify-content:center; padding:clamp(22px,4vw,42px); }
+.ff-museum-hero h1 { margin:.1rem 0 .7rem; font-size:clamp(3rem,6vw,5.15rem); line-height:.89; letter-spacing:-.035em; }
+.ff-museum-hero h1 span { color:var(--ff-pink-4); font-size:.76em; }
+.ff-museum-hero__intro { font-size:1rem; font-weight:800; line-height:1.55; color:var(--ff-text-pink); margin:0 0 .85rem; }
+.ff-museum-hero__detail { max-width:49ch; color:var(--ff-text-soft); font-size:.8rem; line-height:1.7; margin:0; }
+.ff-museum-hero__links { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1.35rem; }
+.ff-museum-handwritten { color:var(--ff-text-pink); font-size:1.17rem; font-weight:700; margin:1.1rem 0 0; }
+.ff-museum-hero__visual { min-height:350px; position:relative; overflow:hidden; background:linear-gradient(130deg,var(--ff-lavender-1),var(--ff-pink-1)); }
+.ff-museum-hero__visual > img { display:block; width:100%; height:100%; object-fit:cover; position:absolute; inset:0; }
+.ff-museum-hero__visual:after { content:''; position:absolute; pointer-events:none; inset:11px; border:1px solid rgba(255,255,255,.75); border-radius:14px; }
+.ff-museum-photo-stamp { position:absolute; z-index:1; right:21px; bottom:21px; display:grid; gap:1px; padding:11px 15px; border-radius:14px; border:1px solid rgba(255,255,255,.85); background:rgba(255,249,253,.9); box-shadow:var(--ff-shadow-soft); backdrop-filter:blur(9px); }
+.ff-museum-photo-stamp span { color:var(--ff-text-pink); font-size:.66rem; text-transform:uppercase; font-weight:900; letter-spacing:.07em; }
+.ff-museum-photo-stamp strong { font-family:'Gaegu',cursive; font-size:1.12rem; }
+.ff-museum-jumps { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:.55rem; padding:12px 15px; }
+.ff-museum-jumps a { display:inline-flex; align-items:center; gap:.4rem; text-decoration:none; color:var(--ff-text-soft); padding:.43rem .7rem; border-radius:999px; border:1px solid transparent; font-size:.78rem; font-weight:800; }
+.ff-museum-jumps a span { color:var(--ff-text-pink); }
+.ff-museum-jumps a:hover { color:var(--ff-text-pink); border-color:var(--ff-border-pink); background:rgba(255,255,255,.66); }
+.ff-museum-section { padding:clamp(18px,2.6vw,28px); scroll-margin-top:16px; }
+.ff-museum-heading { display:flex; justify-content:space-between; align-items:end; gap:18px; margin-bottom:20px; }
+.ff-museum-heading h2,.ff-museum-outro h2 { font-size:clamp(2rem,4.5vw,3rem); line-height:.95; margin:0; }
+.ff-museum-heading > p { max-width:43ch; text-align:right; margin:0; color:var(--ff-text-soft); font-size:.76rem; line-height:1.6; }
+.ff-museum-heading--outside { padding:0 9px; }
+.ff-museum-intro-panel { display:flex; gap:18px; align-items:center; border:1px dashed var(--ff-border-pink); border-radius:19px; padding:20px 22px; background:linear-gradient(130deg,rgba(252,239,248,.67),rgba(240,234,249,.57)); }
+.ff-museum-intro-panel__symbol { display:grid; flex:0 0 74px; place-items:center; width:74px; height:74px; border-radius:21px; border:1px solid var(--ff-border-pink); background:rgba(255,255,255,.68); font-family:'Gaegu',cursive; font-size:2.7rem; color:var(--ff-text-pink); }
+.ff-museum-intro-panel h3 { margin:0 0 6px; font-family:'Gaegu',cursive; font-size:1.75rem; }
+.ff-museum-intro-panel p { margin:0 0 8px; color:var(--ff-text-soft); font-size:.78rem; line-height:1.6; }
+.ff-museum-intro-panel a { font-size:.77rem; font-weight:800; color:var(--ff-text-pink); text-decoration:none; }
+.ff-museum-intro-panel a:hover { text-decoration:underline; }
+.ff-museum-toolbar { display:flex; flex-wrap:wrap; gap:.8rem; margin-bottom:8px; }
+.ff-museum-search-label,.ff-museum-select-label { flex:1 1 235px; min-width:0; display:grid; gap:.3rem; color:var(--ff-text-soft); font-size:.72rem; font-weight:800; }
+.ff-museum-toolbar input,.ff-museum-toolbar select { width:100%; min-height:40px; border-radius:12px; padding:.56rem .7rem; border:1px solid var(--ff-border); background:rgba(255,255,255,.7); color:var(--ff-text); font:inherit; font-size:.82rem; }
+.ff-museum-match-count,.ff-museum-no-match { color:var(--ff-text-soft); font-size:.73rem; }
+.ff-museum-exhibit-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; }
+.ff-museum-exhibit { min-width:0; overflow:hidden; border-radius:17px; border:1px solid var(--ff-border); background:rgba(255,255,255,.57); }
+.ff-museum-exhibit[hidden] { display:none; }
+.ff-museum-exhibit__photo { width:100%; border:0; background:var(--ff-lavender-1); padding:0; cursor:zoom-in; position:relative; display:block; aspect-ratio:5/4; overflow:hidden; }
+.ff-museum-exhibit__photo img { width:100%; height:100%; display:block; object-fit:cover; transition:transform .22s ease; }
+.ff-museum-exhibit__photo:hover img { transform:scale(1.035); }
+.ff-museum-photo-hint { position:absolute; bottom:9px; right:9px; padding:5px 8px; border:1px solid rgba(255,255,255,.6); border-radius:999px; background:rgba(255,250,253,.9); color:var(--ff-text-pink); font-size:.67rem; font-weight:800; }
+.ff-museum-exhibit__copy { padding:13px 14px 16px; }
+.ff-museum-exhibit__copy small { color:var(--ff-text-pink); font-size:.63rem; font-weight:900; }
+.ff-museum-exhibit__copy h3 { font-size:1.02rem; margin:5px 0; line-height:1.3; }
+.ff-museum-exhibit__copy p { color:var(--ff-text-soft); font-size:.73rem; line-height:1.5; margin:0 0 8px; }
+.ff-museum-acquired,.ff-museum-obtained { display:block; color:var(--ff-text-pink); font-size:.67rem; font-weight:700; margin-top:4px; }
+.ff-museum-wings { scroll-margin-top:16px; }
+.ff-museum-wing-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:13px; }
+.ff-museum-wing { position:relative; overflow:hidden; min-height:185px; padding:20px 24px 18px; }
+.ff-museum-wing:after { content:'✧'; position:absolute; right:15px; bottom:-40px; font-family:'Gaegu',cursive; color:rgba(185,103,142,.08); font-size:11rem; pointer-events:none; }
+.ff-museum-wing__icon { display:grid; place-items:center; width:40px; height:40px; border:1px solid var(--ff-border-pink); background:linear-gradient(145deg,var(--ff-pink-1),var(--ff-lavender-1)); border-radius:13px; color:var(--ff-text-pink); font-size:1.3rem; margin-bottom:10px; }
+.ff-museum-wing h3 { font-family:'Gaegu',cursive; font-size:1.85rem; margin:0 0 7px; line-height:1; }
+.ff-museum-wing > p:not(.ff-museum-kicker) { max-width:64ch; color:var(--ff-text-soft); margin:0; font-size:.77rem; line-height:1.58; }
+.ff-museum-wing small { display:block; margin-top:11px; color:var(--ff-text-pink); font-size:.65rem; font-weight:750; }
+.ff-museum-wish-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; }
+.ff-museum-wish { position:relative; min-width:0; display:grid; grid-template-columns:25px minmax(0,1fr); gap:6px; padding:12px 11px; border:1px solid var(--ff-border); background:rgba(255,255,255,.5); border-radius:13px; }
+.ff-museum-wish__star { color:var(--ff-text-pink); font-size:1.15rem; }
+.ff-museum-wish small { color:var(--ff-text-pink); font-size:.6rem; font-weight:800; }
+.ff-museum-wish h3 { margin:3px 0 4px; font-size:.8rem; line-height:1.3; }
+.ff-museum-wish p { margin:0; font-size:.65rem; line-height:1.5; color:var(--ff-text-soft); }
+.ff-museum-wish__tag { grid-column:2; justify-self:start; padding:.15rem .4rem; margin-top:3px; background:var(--ff-lavender-1); border:1px solid var(--ff-border); border-radius:999px; color:var(--ff-text-soft); font-size:.57rem; font-weight:800; }
+.ff-museum-tiny-note { margin:15px 0 0; color:var(--ff-text-soft); font-size:.72rem; line-height:1.5; }
+.ff-museum-fish-list { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:9px; }
+.ff-museum-fish-slot { min-width:0; text-align:center; display:grid; place-items:center; align-content:center; min-height:125px; padding:12px 8px; border:1px solid var(--ff-border); border-radius:16px; background:linear-gradient(160deg,rgba(239,234,250,.68),rgba(246,251,252,.8)); }
+.ff-museum-fish-slot > span { color:var(--ff-text-pink); font-size:1.8rem; line-height:1; }
+.ff-museum-fish-slot small { color:var(--ff-text-pink); font-weight:900; font-size:.7rem; margin:7px 0 4px; }
+.ff-museum-fish-slot strong { font-size:.7rem; line-height:1.4; }
+.ff-museum-fish-footer { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; margin-top:14px; }
+.ff-museum-fish-footer p { max-width:64ch; color:var(--ff-text-soft); font-size:.73rem; margin:0; line-height:1.65; }
+.ff-museum-feature-photo { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:0; overflow:hidden; border-radius:18px; border:1px solid var(--ff-border); background:rgba(255,255,255,.56); margin-bottom:14px; }
+.ff-museum-feature-photo > button { display:block; position:relative; padding:0; min-height:290px; border:0; background:var(--ff-lavender-1); cursor:zoom-in; }
+.ff-museum-feature-photo button img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.ff-museum-feature-photo > div { display:flex; flex-direction:column; justify-content:center; padding:clamp(16px,3vw,30px); }
+.ff-museum-feature-photo h3 { font-family:'Gaegu',cursive; font-size:2.2rem; margin:0 0 10px; }
+.ff-museum-feature-photo p { font-size:.79rem; color:var(--ff-text-soft); line-height:1.7; margin:0; }
+.ff-museum-photo-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.ff-museum-scrap-photo { min-width:0; margin:0; overflow:hidden; border:1px solid var(--ff-border); border-radius:15px; background:rgba(255,255,255,.55); }
+.ff-museum-scrap-photo button { padding:0; border:0; width:100%; display:block; aspect-ratio:4/3; overflow:hidden; cursor:zoom-in; background:var(--ff-lavender-1); }
+.ff-museum-scrap-photo img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .2s ease; }
+.ff-museum-scrap-photo button:hover img { transform:scale(1.04); }
+.ff-museum-scrap-photo figcaption { display:grid; gap:4px; padding:12px; }
+.ff-museum-scrap-photo figcaption strong { font-size:.76rem; }
+.ff-museum-scrap-photo figcaption span { font-size:.66rem; color:var(--ff-text-soft); line-height:1.55; }
+.ff-museum-outro { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:20px; padding:23px; }
+.ff-museum-outro p:not(.ff-museum-kicker) { max-width:55ch; color:var(--ff-text-soft); font-size:.76rem; line-height:1.6; margin:7px 0 0; }
+.ff-museum-outro__links { display:flex; flex-wrap:wrap; gap:.5rem; }
+.ff-museum button:focus-visible,.ff-museum a:focus-visible,.ff-museum input:focus-visible,.ff-museum select:focus-visible,.ff-museum-lightbox button:focus-visible { outline:3px solid var(--ff-lavender-3); outline-offset:3px; }
+.ff-museum-lightbox { max-width:min(950px,95vw); width:950px; max-height:94vh; padding:0; background:var(--ff-paper); border:1px solid var(--ff-border); border-radius:22px; box-shadow:0 24px 80px rgba(40,22,46,.35); color:var(--ff-text); }
+.ff-museum-lightbox::backdrop { background:rgba(36,24,43,.76); backdrop-filter:blur(5px); }
+.ff-museum-lightbox__inner { padding:16px; }
+.ff-museum-lightbox__top,.ff-museum-lightbox__bottom { display:flex; align-items:center; justify-content:space-between; gap:15px; }
+.ff-museum-lightbox__top h2 { font-size:2rem; margin:0 0 8px; }
+.ff-museum-lightbox__close { border:1px solid var(--ff-border); color:var(--ff-text); background:var(--ff-pink-1); font:inherit; font-size:1.5rem; border-radius:50%; width:38px; height:38px; cursor:pointer; }
+.ff-museum-lightbox__image-wrap { position:relative; display:flex; align-items:center; justify-content:center; min-height:220px; border-radius:14px; overflow:hidden; background:#231f28; }
+.ff-museum-lightbox__image-wrap img { display:block; max-width:100%; max-height:66vh; width:auto; height:auto; object-fit:contain; }
+.ff-museum-lightbox__image-wrap button { position:absolute; top:50%; transform:translateY(-50%); width:40px; height:40px; border:1px solid rgba(255,255,255,.5); border-radius:50%; color:#fff; background:rgba(25,20,29,.7); font-size:1.75rem; cursor:pointer; }
+.ff-museum-lightbox__image-wrap button[data-museum-prev] { left:9px; }
+.ff-museum-lightbox__image-wrap button[data-museum-next] { right:9px; }
+.ff-museum-lightbox__image-wrap button[hidden] { display:none; }
+.ff-museum-lightbox__bottom { color:var(--ff-text-soft); font-size:.73rem; padding:10px 4px 0; }
+.ff-museum-lightbox__bottom p { margin:0; line-height:1.5; }
+.ff-museum-lightbox__bottom span { white-space:nowrap; color:var(--ff-text-pink); font-weight:800; }
+@media (max-width:900px) { .ff-museum-exhibit-grid,.ff-museum-wish-grid,.ff-museum-photo-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .ff-museum-fish-list { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:690px) { .ff-museum-hero,.ff-museum-feature-photo { grid-template-columns:1fr; } .ff-museum-hero__visual { min-height:310px; } .ff-museum-heading { display:block; } .ff-museum-heading > p { max-width:unset; text-align:left; margin-top:8px; } .ff-museum-wing-grid { grid-template-columns:1fr; } .ff-museum-outro { align-items:stretch; } }
+@media (max-width:480px) { .ff-museum { padding-inline:0; gap:12px; } .ff-museum-hero h1 { font-size:3.25rem; } .ff-museum-jumps { justify-content:flex-start; } .ff-museum-exhibit-grid,.ff-museum-photo-grid,.ff-museum-wish-grid { grid-template-columns:1fr; } .ff-museum-intro-panel { align-items:flex-start; } .ff-museum-intro-panel__symbol { flex-basis:48px; width:48px; height:48px; font-size:2rem; } .ff-museum-fish-list { grid-template-columns:repeat(2,minmax(0,1fr)); } .ff-museum-lightbox__image-wrap img { max-height:55vh; } }
+@media (prefers-reduced-motion:reduce) { .ff-museum *, .ff-museum *::before, .ff-museum *::after { transition:none !important; } }
