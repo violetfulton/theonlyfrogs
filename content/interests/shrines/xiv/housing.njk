@@ -1,156 +1,184 @@
 ---
-title: "Housing"
+title: "Aggro's Trophy House"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/housing/
-description: "Aggro Phobic's FFXIV housing scrapbook — giant mushrooms, pink trees, winding paths and an overgrown little garden."
+description: "Aggro Phobic's FFXIV trophy house — a personal museum of rare furnishings, in-game achievements, aquariums and screenshots."
 customcss: "/assets/css/ffxiv/housing.css"
 ---
-
+{% set m = ffxivHousingMuseum %}
 {% set h = ffxivHousing %}
 
-<div class="ff-housing">
-  <section class="ff-house-hero ff-card">
-    <div class="ff-house-hero__image">
-      {% if h.home.image %}
-        <img src="{{ h.home.image }}" alt="{{ h.home.alt or h.home.name }}">
-      {% else %}
-        <div class="ff-house-photo-placeholder ff-house-photo-placeholder--hero">
-          <span>⌂</span>
-          <strong>wide home screenshot</strong>
-          <small>your best overall room / exterior shot</small>
-        </div>
-      {% endif %}
-
-      <div class="ff-house-hero__label">
-        <small>✦ Aggro’s home ✦</small>
-        <strong>{{ h.home.name }}</strong>
+<div class="ff-museum" data-housing-museum>
+  <section class="ff-card ff-museum-hero" aria-labelledby="museum-title">
+    <div class="ff-museum-hero__copy">
+      <p class="ff-museum-kicker">✦ Aggro's little corner of Eorzea ✦</p>
+      <h1 id="museum-title">The Trophy House <span>♡</span></h1>
+      <p class="ff-museum-hero__intro">{{ m.subtitle }}</p>
+      <p class="ff-museum-hero__detail">Not every treasure is expensive. Some just took a ridiculous amount of effort to earn — and those are the ones that deserve a home.</p>
+      <div class="ff-museum-hero__links">
+        <a class="ff-button ff-button--primary" href="#cabinet">✦ Trophy cabinet</a>
+        <a class="ff-button" href="#house-photos">♡ House scrapbook</a>
       </div>
+      <p class="ff-museum-handwritten">trophies, treasures & a suspicious number of flowers ♡</p>
+    </div>
+    <div class="ff-museum-hero__visual">
+      {% if h.home.image %}<img src="{{ h.home.image | escape }}" alt="{{ h.home.alt | escape }}" decoding="async" fetchpriority="high">{% endif %}
+      <div class="ff-museum-photo-stamp"><span>⌂ a home for adventures</span><strong>since the very beginning ♡</strong></div>
+    </div>
+  </section>
+
+  <nav class="ff-museum-jumps ff-card" aria-label="Around the trophy house">
+    <a href="#cabinet"><span aria-hidden="true">✧</span> The cabinet</a>
+    <a href="#wings"><span aria-hidden="true">⌂</span> Museum wings</a>
+    <a href="#aquariums"><span aria-hidden="true">🐟</span> Aquariums</a>
+    <a href="#house-photos"><span aria-hidden="true">♡</span> Scrapbook</a>
+  </nav>
+
+  <section class="ff-card ff-museum-section" id="cabinet" aria-labelledby="cabinet-title">
+    <div class="ff-museum-heading">
+      <div>
+        <p class="ff-museum-kicker">✧ a little proof of adventure</p>
+        <h2 id="cabinet-title">The trophy cabinet</h2>
+      </div>
+      <p>Real trophies, real screenshots, and the story behind each one.</p>
     </div>
 
-    <div class="ff-house-hero__copy">
-      <p class="ff-house-kicker">⌂ little corner of Eorzea</p>
-      <h1>Housing</h1>
-      <p class="ff-house-location">{{ h.home.location }}</p>
-      <p>{{ h.home.intro }}</p>
-
-      <div class="ff-house-tags">
-        {% for tag in h.home.tags %}
-          <span>{{ tag }}</span>
+    {% if m.photographed.length %}
+      <div class="ff-museum-toolbar">
+        <label class="ff-museum-search-label">Find an exhibit
+          <input type="search" data-museum-search placeholder="Name, source, expansion…" autocomplete="off">
+        </label>
+        <label class="ff-museum-select-label">Room
+          <select data-museum-room>
+            <option value="all">Every room</option>
+            {% for wing in m.wings %}<option value="{{ wing.id | escape }}">{{ wing.title | escape }}</option>{% endfor %}
+          </select>
+        </label>
+      </div>
+      <p class="ff-museum-match-count" data-museum-count aria-live="polite">{{ m.photographed.length }} photographed treasure{% if m.photographed.length != 1 %}s{% endif %}</p>
+      <div class="ff-museum-exhibit-grid">
+        {% for item in m.photographed %}
+        <article class="ff-museum-exhibit" data-museum-exhibit data-room="{{ item.wing | escape }}" data-search="{{ (item.name + ' ' + item.source + ' ' + item.expansion + ' ' + item.note) | lower | escape }}">
+          <button type="button" class="ff-museum-exhibit__photo" data-museum-photo
+                  data-photo-title="{{ item.name | escape }}" data-photo-note="{{ item.note | escape }}"
+                  data-photo-main="{{ item.image | escape }}" data-photo-images="{{ item.photos | dump | escape }}"
+                  aria-label="Enlarge photographs of {{ item.name | escape }}">
+            <img src="{{ item.image | escape }}" alt="{{ item.name | escape }}, photographed in Aggro's house" loading="lazy" decoding="async">
+            <span class="ff-museum-photo-hint">⌕ view photos</span>
+          </button>
+          <div class="ff-museum-exhibit__copy">
+            <small>✦ {{ item.expansion | escape }} · {{ item.wing | escape }}</small>
+            <h3>{{ item.name | escape }}</h3>
+            <p>{{ item.note | escape }}</p>
+            {% if item.source %}<span class="ff-museum-acquired">Earned through · {{ item.source | escape }}</span>{% endif %}
+            {% if item.obtained %}<span class="ff-museum-obtained">Collected {{ item.obtained | escape }}</span>{% endif %}
+          </div>
+        </article>
         {% endfor %}
       </div>
-
-      <p class="ff-house-privacy">
-        ♡ mostly here for the garden, honestly.
-      </p>
-    </div>
-  </section>
-
-  <section class="ff-house-favourite ff-card">
-    <div class="ff-house-favourite__copy">
-      <p class="ff-house-kicker">♡ currently obsessed with</p>
-      <h2>{{ h.favouriteCorner.title }}</h2>
-      <p>{{ h.favouriteCorner.caption }}</p>
-      <span class="ff-house-handwritten">the mushroom corner wins every time ♡</span>
-    </div>
-
-    <div class="ff-house-favourite__image">
-      {% if h.favouriteCorner.image %}
-        <img src="{{ h.favouriteCorner.image }}" alt="{{ h.favouriteCorner.alt or h.favouriteCorner.title }}">
-      {% else %}
-        <div class="ff-house-photo-placeholder ff-house-photo-placeholder--favourite">
-          <span>✦</span>
-          <small>favourite corner screenshot</small>
+      <p class="ff-museum-no-match" data-museum-empty hidden>Nothing on this shelf matches those filters ♡</p>
+    {% else %}
+      <div class="ff-museum-intro-panel">
+        <div class="ff-museum-intro-panel__symbol" aria-hidden="true">✦</div>
+        <div>
+          <h3>A museum with a story in the making</h3>
+          <p>The house already has a history. The cabinet is reserved for trophies Aggro has personally earned and photographed; the plans below show what kind of collection is taking shape.</p>
+          <a href="#house-photos">Come see the house instead ♡ →</a>
         </div>
-      {% endif %}
-    </div>
+      </div>
+    {% endif %}
   </section>
 
-  <section class="ff-house-tour ff-card">
-    <div class="ff-house-section-head">
-      <div>
-        <p class="ff-house-kicker">✦ come have a nose around</p>
-        <h2>Around the garden</h2>
-      </div>
-      <p>Eight little views of the outside — the paths, plants and odd corners that make the plot feel like Aggro’s rather than a showroom.</p>
+  <section class="ff-museum-wings" id="wings" aria-labelledby="wings-title">
+    <div class="ff-museum-heading ff-museum-heading--outside">
+      <div><p class="ff-museum-kicker">⌂ four little corners of the museum</p><h2 id="wings-title">A place for everything</h2></div>
+      <p>The room plan is a wish, not an inventory of already-placed furnishings.</p>
     </div>
-
-    <div class="ff-house-tour-grid">
-      {% for room in h.rooms %}
-        <figure class="ff-house-room{% if loop.index == 1 or loop.index == 4 %} ff-house-room--wide{% endif %}">
-          <div class="ff-house-room__image">
-            {% if room.image %}
-              <img src="{{ room.image }}" alt="{{ room.alt or room.title }}">
-            {% else %}
-              <div class="ff-house-photo-placeholder">
-                <span>⌂</span>
-                <small>{{ room.title }}</small>
-              </div>
-            {% endif %}
-          </div>
-
-          <figcaption>
-            <strong>{{ room.title }}</strong>
-            <p>{{ room.caption }}</p>
-          </figcaption>
-        </figure>
+    <div class="ff-museum-wing-grid">
+      {% for wing in m.wings %}
+        <article class="ff-card ff-museum-wing">
+          <span class="ff-museum-wing__icon" aria-hidden="true">{{ wing.icon }}</span>
+          <p class="ff-museum-kicker">{{ wing.eyebrow | escape }}</p>
+          <h3>{{ wing.title | escape }}</h3>
+          <p>{{ wing.text | escape }}</p>
+          <small>{{ wing.details | escape }}</small>
+        </article>
       {% endfor %}
     </div>
   </section>
 
-  <div class="ff-house-two-col">
-    <section class="ff-house-things ff-card">
-      <div class="ff-house-section-head ff-house-section-head--compact">
-        <div>
-          <p class="ff-house-kicker">♡ tiny favourites</p>
-          <h2>The garden personality</h2>
-        </div>
-      </div>
-
-      <div class="ff-house-things-grid">
-        {% for item in h.favouriteThings %}
-          <article>
-            <span class="ff-house-things__icon" aria-hidden="true">{{ item.icon }}</span>
-            <div>
-              <small>{{ item.label }}</small>
-              <strong>{{ item.name }}</strong>
-              <p>{{ item.note }}</p>
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    </section>
-
-    <aside class="ff-house-project ff-card">
-      <span class="ff-house-project__pin" aria-hidden="true">✦</span>
-      <p class="ff-house-kicker">currently</p>
-      <h2>{{ h.currentProject.title }}</h2>
-      <p>{{ h.currentProject.text }}</p>
-
-      <div class="ff-house-project__list">
-        {% for tag in h.currentProject.tags %}
-          <span>{{ tag }}</span>
-        {% endfor %}
-      </div>
-
-      <p class="ff-house-handwritten">a tidy garden would be suspicious ♡</p>
-    </aside>
-  </div>
-
-  <section class="ff-house-crosslink ff-card">
-    <div class="ff-house-crosslink__mini">
-      <span aria-hidden="true">✧</span>
-      <div>
-        <small>Aggro lately</small>
-        <strong>homebody, but make it fashionable</strong>
-      </div>
+  <section class="ff-card ff-museum-section ff-museum-dreams" aria-labelledby="dreams-title">
+    <div class="ff-museum-heading">
+      <div><p class="ff-museum-kicker">✦ trophies worth chasing</p><h2 id="dreams-title">On the museum's wish list</h2></div>
+      <p>Some of the pieces planned for the house — not yet presented as owned.</p>
     </div>
-
-    <div class="ff-house-crosslink__copy">
-      <p class="ff-house-kicker">✧ wardrobe next door</p>
-      <h2>Now pick an outfit for the garden</h2>
-      <p>The glamour page is the other scrapbook half: favourite looks, repeated pieces and whatever Aggro is wearing lately.</p>
+    <div class="ff-museum-wish-grid">
+      {% for item in m.hunted %}
+        <article class="ff-museum-wish">
+          <span class="ff-museum-wish__star" aria-hidden="true">✧</span>
+          <div>
+            <small>{{ item.expansion | escape }}</small>
+            <h3>{{ item.name | escape }}</h3>
+            <p>{{ item.source | escape }}</p>
+          </div>
+          <span class="ff-museum-wish__tag">planned</span>
+        </article>
+      {% endfor %}
     </div>
+    <p class="ff-museum-tiny-note">♡ The full acquisition checklist lives in the personal tracker; this page is for the home and its stories.</p>
+  </section>
 
-    <a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/glams/">Open the wardrobe →</a>
+  <section class="ff-card ff-museum-section ff-museum-aquarium" id="aquariums" aria-labelledby="aquarium-title">
+    <div class="ff-museum-heading">
+      <div><p class="ff-museum-kicker">🐟 a gallery beneath the waves</p><h2 id="aquarium-title">Six little worlds of water</h2></div>
+      <p>One signature fish from each expansion is the goal, plus room for a few additional tanks.</p>
+    </div>
+    <div class="ff-museum-fish-list">
+      {% for fish in m.aquariums %}
+        <div class="ff-museum-fish-slot"><span aria-hidden="true">✧</span><small>{{ fish.short | escape }}</small><strong>{{ fish.expansion | escape }}</strong></div>
+      {% endfor %}
+    </div>
+    <div class="ff-museum-fish-footer"><p>These are display ideas, not claims about which fish are already in tanks. Actual catch progress stays with FroggyFish.</p><a class="ff-button" href="/shrines/finalfantasyxiv/fishing/">Visit FroggyFish ↗</a></div>
+  </section>
+
+  <section class="ff-card ff-museum-section ff-museum-scrapbook" id="house-photos" aria-labelledby="photos-title">
+    <div class="ff-museum-heading">
+      <div><p class="ff-museum-kicker">♡ the house before the exhibits</p><h2 id="photos-title">A little house scrapbook</h2></div>
+      <p>The mushroom garden, glowing trees, and lovely odd corners that started the whole thing.</p>
+    </div>
+    {% if h.favouriteCorner.image %}
+    <div class="ff-museum-feature-photo">
+      <button type="button" data-museum-photo data-photo-title="{{ h.favouriteCorner.title | escape }}" data-photo-main="{{ h.favouriteCorner.image | escape }}" data-photo-note="{{ h.favouriteCorner.caption | escape }}" aria-label="Enlarge {{ h.favouriteCorner.title | escape }} photo">
+        <img src="{{ h.favouriteCorner.image | escape }}" alt="{{ h.favouriteCorner.alt | escape }}" loading="lazy" decoding="async">
+      </button>
+      <div><span class="ff-museum-kicker">✦ favourite corner</span><h3>{{ h.favouriteCorner.title | escape }}</h3><p>{{ h.favouriteCorner.caption | escape }}</p><span class="ff-museum-handwritten">never enough giant mushrooms ♡</span></div>
+    </div>
+    {% endif %}
+    <div class="ff-museum-photo-grid">
+      {% for photo in h.rooms %}
+        {% if photo.image %}
+          <figure class="ff-museum-scrap-photo">
+            <button type="button" data-museum-photo data-photo-title="{{ photo.title | escape }}" data-photo-main="{{ photo.image | escape }}" data-photo-note="{{ photo.caption | escape }}" aria-label="Enlarge {{ photo.title | escape }} photo">
+              <img src="{{ photo.image | escape }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
+            </button>
+            <figcaption><strong>{{ photo.title | escape }}</strong><span>{{ photo.caption | escape }}</span></figcaption>
+          </figure>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="ff-card ff-museum-outro">
+    <div><p class="ff-museum-kicker">✦ more stories from Aggro</p><h2>It's not just furniture.</h2><p>There's the effort behind it, the people there for it, and the screenshot you take when it finally comes home.</p></div>
+    <div class="ff-museum-outro__links"><a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/achievements/">Achievement journal →</a><a class="ff-button" href="/shrines/finalfantasyxiv/collections/">Aggro's hoard →</a></div>
   </section>
 </div>
+
+<dialog class="ff-museum-lightbox" data-museum-dialog aria-labelledby="museum-dialog-title">
+  <div class="ff-museum-lightbox__inner">
+    <div class="ff-museum-lightbox__top"><div><p class="ff-museum-kicker">✧ from Aggro's scrapbook</p><h2 id="museum-dialog-title" data-museum-dialog-title></h2></div><button type="button" class="ff-museum-lightbox__close" data-museum-dialog-close aria-label="Close photograph">×</button></div>
+    <div class="ff-museum-lightbox__image-wrap"><img data-museum-dialog-image alt=""><button type="button" data-museum-prev aria-label="Previous photo">‹</button><button type="button" data-museum-next aria-label="Next photo">›</button></div>
+    <div class="ff-museum-lightbox__bottom"><p data-museum-dialog-note></p><span data-museum-dialog-counter></span></div>
+  </div>
+</dialog>
+<script src="/assets/js/shrines/ffxiv/housing-museum.js" defer></script>
