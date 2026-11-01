@@ -1,417 +1,200 @@
 ---
-title: "Glams"
+title: "Aggro's Wardrobe"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/glams/
-description: "Aggro Phobic's FFXIV glamour wardrobe — favourite looks, raid outfits, cute and witchy glams, repeated pieces, and a doorway into current Glam Projects."
+description: "Aggro Phobic's glamour diary — her current rotation, favourite outfits, past looks and a doorway into Glam Projects."
 customcss: "/assets/css/ffxiv/glams.css"
+pageScripts:
+  - "/assets/js/shrines/ffxiv/glams.js"
 ---
 
-{% set g = ffxivGlams %}
+{% set w = ffxivGlamDiary %}
 {% set gp = ffxivGlamProjects %}
-{% set featured = g.looks[0] %}
 
 <div class="ff-glams">
-
   <section class="ff-glam-hero ff-card">
     <div class="ff-glam-hero__copy">
-      <p class="ff-glam-kicker">✧ Aggro’s wardrobe ✧</p>
-      <h1>Glams</h1>
-
-      <p>{{ g.intro }}</p>
-
+      <p class="ff-glam-kicker">✧ aggro's little dress-up diary ✧</p>
+      <h1>The Wardrobe</h1>
+      <p class="ff-glam-hero__lede">A collection of outfits, little phases and looks worth keeping. Some are for battle. Some are for standing around taking far too many screenshots. ♡</p>
       <div class="ff-glam-hero__actions">
-        <a
-          class="ff-button ff-button--primary"
-          href="/shrines/finalfantasyxiv/glams/projects/"
-        >
-          Open Glam Projects →
-        </a>
-
-        {% if gp and gp.stats and gp.stats.incomplete > 0 %}
-          <a
-            class="ff-button"
-            href="/shrines/finalfantasyxiv/glams/projects/?pick=1"
-          >
-            🎲 Pick a hunt
-          </a>
-        {% endif %}
+        <a class="ff-button ff-button--primary" href="#lookbook">Browse the lookbook ↓</a>
+        <a class="ff-button" href="/shrines/finalfantasyxiv/glams/projects/">Glam Projects →</a>
       </div>
-
-      <div class="ff-glam-hero__scribble">
-        dress-up is endgame ♡
-      </div>
+      <p class="ff-glam-scribble">dressing up is endgame ♡</p>
     </div>
-
-    <div class="ff-glam-hero__hanger" aria-hidden="true">
-      <span>✦</span>
-      <b>♡</b>
-      <i>✧</i>
+    <div class="ff-glam-hero__portrait">
+      {% if w.featured and w.featured.image %}
+        <img src="{{ w.featured.image }}" alt="{{ w.featured.alt }}" fetchpriority="high">
+        <div class="ff-glam-hero__portrait-label">
+          <span>{% if w.featured.era == "current" %}✦ in rotation{% else %}♡ from the archives{% endif %}</span>
+          <strong>{{ w.featured.title }}</strong>
+        </div>
+      {% else %}
+        <div class="ff-glam-photo-fallback" aria-hidden="true">✧</div>
+      {% endif %}
     </div>
   </section>
 
+  <section class="ff-glam-stats" aria-label="Wardrobe overview">
+    <div class="ff-glam-stat ff-card"><span>✦</span><strong>{{ w.stats.looks }}</strong><small>saved looks</small></div>
+    <div class="ff-glam-stat ff-card"><span>♡</span><strong>{{ w.stats.current }}</strong><small>in rotation</small></div>
+    <div class="ff-glam-stat ff-card"><span>✧</span><strong>{{ w.stats.archive }}</strong><small>past favourites</small></div>
+  </section>
 
-  {% if featured %}
-    <section class="ff-glam-feature ff-card">
-      <div class="ff-glam-feature__image">
-        {% if featured.image %}
-          <img
-            src="{{ featured.image }}"
-            alt="{{ featured.alt or featured.title }}"
-          >
-        {% else %}
-          <div class="ff-glam-photo-placeholder ff-glam-photo-placeholder--feature">
-            <span>✧</span>
-            <strong>featured glam screenshot</strong>
-            <small>portrait / full body works best</small>
-          </div>
-        {% endif %}
+  {% if w.current.length %}
+    <section class="ff-glam-current ff-card" id="current-rotation" aria-labelledby="ff-glam-current-title">
+      <div class="ff-glam-section-head">
+        <div><p class="ff-glam-kicker">♡ the present chapter</p><h2 id="ff-glam-current-title">Currently wearing</h2></div>
+        <p>The outfits that feel most like Aggro right now.</p>
       </div>
-
-      <div class="ff-glam-feature__copy">
-        <p class="ff-glam-kicker">♡ current favourite</p>
-        <h2>{{ featured.title }}</h2>
-
-        <div class="ff-glam-tags">
-          {% if featured.category %}
-            <span>{{ featured.category }}</span>
-          {% endif %}
-
-          {% if featured.job %}
-            <span>{{ featured.job }}</span>
-          {% endif %}
-
-          {% if featured.dyes %}
-            <span>{{ featured.dyes }}</span>
-          {% endif %}
-        </div>
-
-        {% if featured.note %}
-          <p class="ff-glam-feature__note">
-            {{ featured.note }}
-          </p>
-        {% endif %}
-
-        <div class="ff-glam-gear">
-          {% for label, item in featured.gear %}
-            <div>
-              <span>{{ label }}</span>
-              <strong>{{ item or "—" }}</strong>
-            </div>
-          {% endfor %}
-        </div>
-
-        <p class="ff-glam-feature__hint">
-          This page is the finished-look scrapbook.
-          Missing outfit pieces and things worth farming live in
-          <a href="/shrines/finalfantasyxiv/glams/projects/">Glam Projects</a>.
-        </p>
+      <div class="ff-glam-current__grid">
+        {% for look in w.current %}
+          <a href="#lookbook" class="ff-glam-current__look" data-jump-look="{{ look.id }}">
+            {% if look.image %}
+              <img src="{{ look.image }}" alt="{{ look.alt }}" loading="lazy" decoding="async">
+            {% else %}
+              <span class="ff-glam-photo-fallback" aria-hidden="true">✧</span>
+            {% endif %}
+            <span>{{ look.title }}</span>
+          </a>
+        {% endfor %}
       </div>
     </section>
   {% endif %}
 
-
-  <section class="ff-glam-lookbook ff-card">
-    <div class="ff-glam-section-head">
+  {% if w.current.length and w.archive.length %}
+    <section class="ff-glam-chapters ff-card" aria-labelledby="ff-glam-chapters-title">
       <div>
-        <p class="ff-glam-kicker">✦ outfit archive</p>
-        <h2>The lookbook</h2>
+        <p class="ff-glam-kicker">✦ then & now</p>
+        <h2 id="ff-glam-chapters-title">Aggro, through the eras</h2>
+        <p>The old looks don't disappear when she changes. They just become part of the story.</p>
       </div>
+      <a href="#lookbook" class="ff-button" data-jump-era="archive">Revisit past looks →</a>
+    </section>
+  {% endif %}
 
-      <p>
-        Filter by vibe rather than forcing everything
-        into job categories.
-      </p>
+  <section class="ff-glam-lookbook ff-card" id="lookbook" aria-labelledby="ff-glam-lookbook-title">
+    <div class="ff-glam-section-head">
+      <div><p class="ff-glam-kicker">✧ screenshots & outfits</p><h2 id="ff-glam-lookbook-title">The lookbook</h2></div>
+      <p>Pictures first, tiny details second. Tap an outfit for its full photo diary.</p>
     </div>
 
-    <div
-      class="ff-glam-filters"
-      role="group"
-      aria-label="Filter glams"
-    >
-      {% for category in g.categories %}
-        <button
-          class="ff-glam-filter{% if loop.first %} is-active{% endif %}"
-          type="button"
-          data-glam-filter="{{ category | lower }}"
-        >
-          {{ category }}
-        </button>
-      {% endfor %}
-    </div>
+    {% if w.looks.length %}
+      <div class="ff-glam-controls">
+        <label class="ff-glam-search">
+          <span>Find a look</span>
+          <input data-glam-search type="search" placeholder="a colour, style, job, outfit…" autocomplete="off">
+        </label>
+        <label class="ff-glam-sort">
+          <span>Arrange by</span>
+          <select data-glam-sort>
+            <option value="added">Saved order</option>
+            <option value="favourites">Favourites first</option>
+            <option value="name">Name A–Z</option>
+          </select>
+        </label>
+      </div>
+      <div class="ff-glam-pill-row" role="group" aria-label="Filter by wardrobe era">
+        <button type="button" data-glam-era="all" class="is-active" aria-pressed="true">All looks</button>
+        <button type="button" data-glam-era="current" aria-pressed="false">♡ In rotation</button>
+        <button type="button" data-glam-era="archive" aria-pressed="false">✧ The archive</button>
+      </div>
+      <div class="ff-glam-pill-row ff-glam-pill-row--vibes" role="group" aria-label="Filter by vibe">
+        <button type="button" data-glam-category="all" class="is-active" aria-pressed="true">Every vibe</button>
+        {% for category in w.categories %}
+          <button type="button" data-glam-category="{{ category | lower }}" aria-pressed="false">{{ category }}</button>
+        {% endfor %}
+      </div>
+      <div class="ff-glam-results"><span data-glam-count>{{ w.stats.looks }}</span> looks in view <span aria-hidden="true">✦</span></div>
 
-    <div class="ff-glam-grid">
-      {% for look in g.looks %}
-        <article
-          class="ff-glam-card"
-          data-glam-card
-          data-glam-category="{{ look.category | lower }}"
-        >
-          <div class="ff-glam-card__image">
-            {% if look.image %}
-              <img
-                src="{{ look.image }}"
-                alt="{{ look.alt or look.title }}"
-              >
-            {% else %}
-              <div class="ff-glam-photo-placeholder">
-                <span>✧</span>
-                <small>{{ look.category }}</small>
-              </div>
-            {% endif %}
-
-            {% if look.favourite %}
-              <span class="ff-glam-card__favourite">
-                ♡ favourite
-              </span>
-            {% endif %}
-          </div>
-
-          <div class="ff-glam-card__copy">
-            <div class="ff-glam-card__meta">
-              <span>{{ look.category }}</span>
-
-              {% if look.job %}
-                <span>{{ look.job }}</span>
-              {% endif %}
-            </div>
-
-            <h3>{{ look.title }}</h3>
-            <p>{{ look.note }}</p>
-
-            <button
-              class="ff-glam-card__open"
-              type="button"
-              data-glam-open="glam-dialog-{{ loop.index }}"
-            >
-              outfit details →
-            </button>
-          </div>
-        </article>
-
-
-        <dialog
-          class="ff-glam-dialog"
-          id="glam-dialog-{{ loop.index }}"
-        >
-          <form method="dialog">
-            <button
-              class="ff-glam-dialog__close"
-              aria-label="Close"
-            >
-              ×
-            </button>
-          </form>
-
-          <div class="ff-glam-dialog__layout">
-            <div class="ff-glam-dialog__image">
+      <div class="ff-glam-grid" data-glam-grid>
+        {% for look in w.looks %}
+          <article class="ff-glam-card" data-glam-card data-glam-id="{{ look.id }}" data-glam-era-value="{{ look.era }}" data-glam-category-value="{{ look.category | lower }}" data-glam-search-value="{{ look.search | escape }}" data-glam-index="{{ loop.index0 }}" data-glam-favourite="{% if look.favourite %}1{% else %}0{% endif %}">
+            <button type="button" class="ff-glam-card__photo" data-glam-open="glam-diary-{{ loop.index }}" aria-label="Open {{ look.title }} photo diary">
               {% if look.image %}
-                <img
-                  src="{{ look.image }}"
-                  alt="{{ look.alt or look.title }}"
-                >
+                <img src="{{ look.image }}" alt="{{ look.alt }}" loading="lazy" decoding="async">
               {% else %}
-                <div class="ff-glam-photo-placeholder ff-glam-photo-placeholder--dialog">
-                  <span>✧</span>
-                  <small>add screenshot</small>
-                </div>
+                <span class="ff-glam-photo-fallback" aria-hidden="true">✧</span>
               {% endif %}
+              {% if look.favourite %}<span class="ff-glam-photo-badge">♡ favourite</span>{% endif %}
+            </button>
+            <div class="ff-glam-card__copy">
+              <div class="ff-glam-card__eyebrow">{% if look.era == "current" %}♡ in rotation{% else %}✧ from the archives{% endif %}{% if look.job %} · {{ look.job }}{% endif %}</div>
+              <h3>{{ look.title }}</h3>
+              <p class="ff-glam-card__note">{{ look.note }}</p>
+              <div class="ff-glam-card__footer"><span>{{ look.category }}</span><button type="button" data-glam-open="glam-diary-{{ loop.index }}">View details →</button></div>
             </div>
-
-            <div class="ff-glam-dialog__copy">
-              <p class="ff-glam-kicker">
-                {{ look.category }}
-              </p>
-
-              <h2>{{ look.title }}</h2>
-
-              {% if look.job %}
-                <p class="ff-glam-dialog__job">
-                  {{ look.job }}
-                </p>
-              {% endif %}
-
-              <p>{{ look.note }}</p>
-
-              <div class="ff-glam-dialog__gear">
-                {% for label, item in look.gear %}
-                  <div>
-                    <span>{{ label }}</span>
-                    <strong>
-                      {{ item or "not added yet" }}
-                    </strong>
-                  </div>
-                {% endfor %}
-              </div>
-
-              {% if look.dyes %}
-                <p class="ff-glam-dialog__dyes">
-                  <strong>Dyes:</strong>
-                  {{ look.dyes }}
-                </p>
-              {% endif %}
-            </div>
-          </div>
-        </dialog>
-      {% endfor %}
-    </div>
-  </section>
-
-
-  <section class="ff-card ff-glam-repeat">
-    <div class="ff-glam-section-head">
-      <div>
-        <p class="ff-glam-kicker">♡ repeat offenders</p>
-        <h2>Pieces I use way too much</h2>
+          </article>
+        {% endfor %}
       </div>
-
-      <p>
-        The handful of items that somehow solve
-        every glamour problem.
-      </p>
-    </div>
-
-    <div class="ff-glam-repeat-grid">
-      {% for piece in g.repeatPieces %}
-        <article>
-          <span aria-hidden="true">✧</span>
-          <small>{{ piece.label }}</small>
-          <strong>
-            {{ piece.name or "add item name" }}
-          </strong>
-          <p>{{ piece.note }}</p>
-        </article>
-      {% endfor %}
-    </div>
+      <p class="ff-glam-no-results" data-glam-empty hidden>No looks match those filters. Try a different vibe ♡</p>
+    {% else %}
+      <p class="ff-glam-no-results">This wardrobe is still being put together ♡</p>
+    {% endif %}
   </section>
 
-
-  <section
-    class="ff-glam-crosslink
-           ff-glam-crosslink--projects
-           ff-card"
-  >
-    <div class="ff-glam-crosslink__project-icon" aria-hidden="true">
-      ✦
-    </div>
-
-    <div>
-      <p class="ff-glam-kicker">
-        ✧ wardrobe workbench
-      </p>
-
-      <h2>
-        Fancy actually hunting something?
-      </h2>
-
-      <p>
-        Glam Projects compares my stored Outfit Glamours with
-        their full sets and turns the unfinished ones into
-        things I could go farm.
-      </p>
-
-      {% if gp and gp.stats %}
-        <div class="ff-glam-project-stats">
-          <span>
-            <strong>{{ gp.stats.incomplete }}</strong>
-            projects
-          </span>
-
-          <span>
-            <strong>{{ gp.stats.almost }}</strong>
-            one piece away
-          </span>
-
-          <span>
-            <strong>{{ gp.stats.close }}</strong>
-            two pieces away
-          </span>
+  {% for look in w.looks %}
+    <dialog class="ff-glam-dialog" id="glam-diary-{{ loop.index }}" aria-label="{{ look.title }} details">
+      <button class="ff-glam-dialog__close" type="button" data-glam-close aria-label="Close outfit diary">×</button>
+      <div class="ff-glam-dialog__layout">
+        <div class="ff-glam-dialog__visual">
+          {% if look.image %}
+            <img data-glam-primary-image src="{{ look.image }}" alt="{{ look.alt }}">
+          {% else %}
+            <div class="ff-glam-photo-fallback" aria-hidden="true">✧</div>
+          {% endif %}
+          {% if look.photos.length > 1 %}
+            <div class="ff-glam-dialog__thumbs" role="group" aria-label="More screenshots">
+              {% for photo in look.photos %}
+                <button type="button" data-glam-photo="{{ photo.url }}" data-glam-photo-alt="{{ photo.alt }}" class="{% if loop.first %}is-active{% endif %}" aria-pressed="{% if loop.first %}true{% else %}false{% endif %}" aria-label="View screenshot {{ loop.index }}">
+                  <img src="{{ photo.url }}" alt="" loading="lazy">
+                </button>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
+        <div class="ff-glam-dialog__copy">
+          <p class="ff-glam-kicker">{% if look.era == "current" %}♡ in rotation{% else %}✧ the wardrobe archive{% endif %}</p>
+          <h2>{{ look.title }}</h2>
+          <div class="ff-glam-dialog__tags"><span>{{ look.category }}</span>{% if look.job %}<span>{{ look.job }}</span>{% endif %}{% if look.date %}<span>{{ look.date }}</span>{% endif %}{% if look.favourite %}<span>♡ favourite</span>{% endif %}</div>
+          {% if look.note %}<p class="ff-glam-dialog__note">{{ look.note }}</p>{% endif %}
+          {% if look.dyes %}<p class="ff-glam-dialog__dyes"><strong>Dyes</strong> · {{ look.dyes }}</p>{% endif %}
+          {% if look.gearEntries.length %}
+            <h3>Pieces in this outfit</h3>
+            <dl class="ff-glam-dialog__gear">
+              {% for entry in look.gearEntries %}<div><dt>{{ entry.label }}</dt><dd>{{ entry.value }}</dd></div>{% endfor %}
+            </dl>
+          {% endif %}
+        </div>
+      </div>
+    </dialog>
+  {% endfor %}
+
+  {% if w.repeatPieces.length %}
+    <section class="ff-glam-dna ff-card" aria-labelledby="ff-glam-dna-title">
+      <div class="ff-glam-section-head"><div><p class="ff-glam-kicker">♡ the outfit formula</p><h2 id="ff-glam-dna-title">Aggro's style DNA</h2></div><p>The little patterns from her saved looks — even as her style changes.</p></div>
+      <div class="ff-glam-dna__grid">
+        {% for piece in w.repeatPieces %}
+          <article><span aria-hidden="true">✧</span><small>{{ piece.label }}</small><strong>{{ piece.name }}</strong><p>{{ piece.note }}</p></article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="ff-glam-projects ff-card">
+    <div class="ff-glam-projects__seal" aria-hidden="true">✦</div>
+    <div>
+      <p class="ff-glam-kicker">✦ the practical wardrobe</p>
+      <h2>Something still missing?</h2>
+      <p>Glam Projects is the other half of the wardrobe: stored outfit sets, missing pieces and a little nudge when it's time to go farm something.</p>
+      {% if gp and gp.stats %}
+        <p class="ff-glam-projects__numbers"><strong>{{ gp.stats.incomplete }}</strong> unfinished sets <span>·</span> <strong>{{ gp.stats.almost }}</strong> one piece away</p>
       {% endif %}
     </div>
-
-    <div class="ff-glam-crosslink__actions">
-      <a
-        class="ff-button ff-button--primary"
-        href="/shrines/finalfantasyxiv/glams/projects/"
-      >
-        Open Glam Projects →
-      </a>
-
-      {% if gp and gp.stats and gp.stats.incomplete > 0 %}
-        <a
-          class="ff-button"
-          href="/shrines/finalfantasyxiv/glams/projects/?pick=1"
-        >
-          🎲 Pick a hunt
-        </a>
-      {% endif %}
+    <div class="ff-glam-projects__actions">
+      <a class="ff-button ff-button--primary" href="/shrines/finalfantasyxiv/glams/projects/">Open Glam Projects →</a>
+      {% if gp and gp.stats and gp.stats.incomplete > 0 %}<a class="ff-button" href="/shrines/finalfantasyxiv/glams/projects/?pick=1">🎲 Pick a hunt</a>{% endif %}
     </div>
   </section>
-
 </div>
-
-
-<script>
-(() => {
-  const buttons = [
-    ...document.querySelectorAll("[data-glam-filter]")
-  ];
-
-  const cards = [
-    ...document.querySelectorAll("[data-glam-card]")
-  ];
-
-
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const target =
-        button.dataset.glamFilter;
-
-      buttons.forEach((item) => {
-        item.classList.toggle(
-          "is-active",
-          item === button
-        );
-      });
-
-      cards.forEach((card) => {
-        const matches =
-          target === "all" ||
-          card.dataset.glamCategory === target;
-
-        card.hidden = !matches;
-      });
-    });
-  });
-
-
-  document
-    .querySelectorAll("[data-glam-open]")
-    .forEach((button) => {
-      button.addEventListener("click", () => {
-        const dialog =
-          document.getElementById(
-            button.dataset.glamOpen
-          );
-
-        if (
-          dialog &&
-          typeof dialog.showModal === "function"
-        ) {
-          dialog.showModal();
-        }
-      });
-    });
-
-
-  document
-    .querySelectorAll(".ff-glam-dialog")
-    .forEach((dialog) => {
-      dialog.addEventListener("click", (event) => {
-        if (event.target === dialog) {
-          dialog.close();
-        }
-      });
-    });
-})();
-</script>
