@@ -2,311 +2,203 @@
 
 > my little corner of the internet — collections, games, shrines, frogs, and whatever else i'm obsessed with
 
-\
-
 🌐 **[theonlyfrogs.com](https://theonlyfrogs.com)**
 
 ---
 
 ## 🌷 about
 
-**TheOnlyFrogs** is my personal website.
+**TheOnlyFrogs** is my personal website: a digital bedroom / scrapbook / overgrown folder of things I love.
 
-It isn't a portfolio, a brand, or a product. It's closer to a digital bedroom / scrapbook / overgrown folder of things I love.
+It mixes old-web inspiration, pink and green, little graphics, and an increasingly unreasonable collection of systems for tracking my hobbies.
 
-The site mixes old-web inspiration with way too much JavaScript and a collection of little systems I've built for tracking my hobbies.
-
-Expect:
-
-* 🐸 frogs
-* 🎮 games and game collections
-* ✨ Pokémon shiny hunting
-* 🌱 Animal Crossing
-* ⚔️ Final Fantasy XIV
-* 💿 CDs and physical media
-* 🎵 music
-* 📺 anime, films and TV
-* 🏆 achievements
-* 📝 personal pages and logs
-* 💗 pink things
-* 🌐 classic personal-web nonsense
+Expect frogs, games, shiny Pokémon, Animal Crossing, Final Fantasy XIV, music, physical media, Sofi cards, achievements, and personal-web nonsense.
 
 It changes constantly because that is half the fun.
 
----
+## 🏡 around the pond
 
-## 🏡 main areas
+| Place | What's inside |
+| --- | --- |
+| [Home](https://theonlyfrogs.com/) | A little overview of me and whatever currently has my attention |
+| [Currently](https://theonlyfrogs.com/interests/now/) | Playing, watching, listening, and other current interests |
+| [Games](https://theonlyfrogs.com/games/) | Game library, platform pages, activity, and physical collection data |
+| [Pokémon](https://theonlyfrogs.com/shrines/pokemon/) | Shinies, hunts, journeys, collection goals, and little victories |
+| [Animal Crossing](https://theonlyfrogs.com/shrines/animalcrossing/) | City Folk, New Leaf, and New Horizons |
+| [Final Fantasy XIV](https://theonlyfrogs.com/shrines/finalfantasyxiv/) | Aggro's achievements, wardrobe, trophy house, collections, and fishing |
+| [Sofi](https://theonlyfrogs.com/sofi/) | My searchable card cabinet |
+| [CDs](https://theonlyfrogs.com/cds/) | My Discogs collection |
+| [Physical media](https://theonlyfrogs.com/dvds/) | Films, box sets, and seasons on my shelf |
 
-### 🐸 Home
+## 🎮 games
 
-The main site is a messy little overview of whatever I'm currently doing, playing, watching or listening to.
+My game pages bring together library information, play activity, platform views, and a separate physical collection.
 
-Some of the data is pulled automatically from external services so the site can update without me manually editing everything.
+Playnite exports provide library and activity data. Physical ownership is maintained separately through a CSV sheet: having something in Playnite doesn't automatically mean I own a physical copy.
 
----
+Covers and metadata use local data and caches where available. There are Nintendo, PlayStation, PC, and older-platform corners to get lost in.
 
-### 🎮 Games
+## ✨ Pokémon shrine
 
-My game collection lives under `/games/`.
+A home for shiny hunting and the very important business of collecting little creatures.
 
-The collection covers modern and older platforms including things like:
+- Trainer profile and shiny diary
+- Dex lists and collection progress
+- Current hunts and game journeys
+- Physical collection / Poké Shelf
+- Records and little victories
+- Favourite themes, including pink, cute, goth / witchy, and frogs
 
-* Nintendo Switch / Switch 2
-* Nintendo 3DS
-* Nintendo DS
-* Game Boy Advance
-* Wii
-* PlayStation Vita
-* PS3 / PS4 / PS5
-* Xbox
-* PC
+Collection data is kept together and reused across pages. Older Pokémon URLs redirect into the newer layout.
 
-Game data is maintained separately from presentation data, with cached metadata used where possible so builds aren't completely dependent on external APIs behaving themselves.
+## 🌱 Animal Crossing
 
----
+**City Folk:** a journal, chores, calendar, turnip tracker, critter tools, and RetroAchievements progress.
 
-### ✨ Pokémon Shrine
+**New Leaf:** a long-term completion project and diary for all the tiny things that eventually add up to a whole town.
 
-`/shrines/pokemon/`
+**New Horizons:** island pages, residents, museum progress, a diary, and an island-tour section.
 
-One of the largest parts of the site.
+## ⚔️ Final Fantasy XIV
 
-It includes things such as:
+My increasingly unreasonable personal dashboard for **Aggro Phobic**.
 
-* shiny collection / diary
-* shiny hunt data
-* recent catches
-* generation and game views
-* Living Dex-style progress
-* favourite shiny categories
-* pink Pokémon
-* cute Pokémon
-* goth / witchy Pokémon
-* frogs, obviously
-* Hall of Fame
-* Pokémon collection / Poké Shelf
-* records and little achievements
+- Achievements and long-haul projects
+- Daily and weekly checklists
+- Mounts, minions, and orchestrion collections
+- Gil goals and collectible shopping
+- Aggro's Wardrobe, glamour hunts, and glam projects
+- A trophy house museum, furniture goals, and aquariums
+- Screenshots and memories
+- **FroggyFish** 🎣
 
-A lot of the collection data is designed to live in one master dataset rather than being duplicated across individual pages.
+### 🐸 FroggyFish
 
----
+[FroggyFish](https://theonlyfrogs.com/shrines/finalfantasyxiv/fishing/) tracks my big-fishing journey, with caught and missing totals, upcoming windows, search and filters, and a gallery of catches.
 
-### 🌱 Animal Crossing
+The page reads live data from a separate Cloudflare Worker API. In-game syncing and the companion Twitch / OBS integrations are separate parts of the FroggyFish project; running this website alone doesn't start them.
 
-`/shrines/animalcrossing/`
+Fish windows are opportunities rather than guarantees. Bait, weather, and prerequisites still get the final say. Usually followed by a fish escaping.
 
-Home to my various Animal Crossing projects.
+## 🃏 Sofi card cabinet
 
-#### City Folk
+My Sofi collection lives at `/sofi/`, with character, series, and code search, collection tags, event filters, sorting, and paginated browsing.
 
-Includes:
+The page starts with a small HTML preview and loads the full collection from `/sofi/cards.json`. It renders a page of cards at a time so the browser doesn't have to hold the entire cabinet open at once.
 
-* journal
-* chores
-* turnip tracking
-* fish and bug tracking
-* availability tools
-* RetroAchievements progress
+Card data lives in `content/_data/sofiCards.json`; local import and collection tools live in `tools/sofi/`.
 
-#### New Leaf
+## 💿 collections and activity
 
-A long-term **100% completion diary**, including museum progress, critters, tools, friendship and other goals.
-
----
-
-### ⚔️ Final Fantasy XIV
-
-`/shrines/finalfantasyxiv/`
-
-My increasingly unreasonable FFXIV personal dashboard.
-
-It includes things such as:
-
-* character progress
-* achievement tracking
-* long-haul achievement hunts
-* weekly / daily activities
-* currencies
-* gil goals
-* glam hunts
-* orchestrion tracking
-* relic progress
-* collection goals
-
-Some FFXIV data is generated with local helper scripts before being displayed by Eleventy.
-
----
-
-### 💿 Collections
-
-The site is also home to various physical and digital collections.
-
-These include:
-
-* CDs via Discogs
-* games
-* physical films and TV
-* anime
-* Steam activity
-* RetroAchievements
-
-The goal isn't to create a perfect database.
+CDs, physical films and TV, anime, music, and game activity all have a place here.
 
 I just like looking at all my stuff.
 
----
-
 ## 🎀 tech stack
 
-### Core
+| Part | Tools |
+| --- | --- |
+| Site generation | [Eleventy](https://www.11ty.dev/) 3.x |
+| Templates | Nunjucks and Markdown |
+| Data and scripts | Node.js, JavaScript, JSON, and CSV |
+| Browser | CSS and JavaScript |
+| Hosting | Neocities |
+| Builds and deployment | GitHub Actions |
+| Live fishing data | Separate FroggyFish Cloudflare Worker API |
 
-* **[Eleventy](https://www.11ty.dev/)** — static site generator
-* **Nunjucks** — templating
-* **Node.js** — data fetching and build scripts
-* **JavaScript**
-* **CSS**
-* **Markdown**
-* **Neocities** — hosting
-* **GitHub Actions** — automated builds and deployment
+### Data sources
 
-### Data & services
+Integrations vary by page and configuration:
 
-Different parts of the site use or have used services including:
+| Thing | Source |
+| --- | --- |
+| Music | Last.fm |
+| CDs | Discogs |
+| Game library and activity | Playnite exports and Steam |
+| Physical games | CSV sheet, with cover / metadata helpers |
+| Game metadata | TheGamesDB and local caches |
+| Watching and physical-media data | Simkl loaders; TMDb metadata where configured |
+| Anime | MyAnimeList |
+| Retro achievements | RetroAchievements |
+| Pokémon | CSV sheets and local collection data |
+| FFXIV | Local exports, manual data, and data loaders |
+| Big fishing | FroggyFish API and Sisipu forecasts |
+| Sofi | Local card exports and hosted artwork |
 
-| Thing           | Source                     |
-| --------------- | -------------------------- |
-| 🎵 Music        | Last.fm                    |
-| 💿 CDs          | Discogs                    |
-| 🎮 Games        | Google Sheets + TheGamesDB |
-| 🎬 Movies & TV  | Simkl                      |
-| 📚 Anime        | MyAnimeList                |
-| 🏆 Achievements | RetroAchievements          |
-| 🎮 PC activity  | Steam                      |
-| ⚔️ FFXIV        | Local data / scripts       |
+Much of the site is generated at build time. Some widgets fetch data in the browser, including FroggyFish, so a static site build doesn't freeze every widget until the next deploy.
 
-External data is generally fetched at build time or cached locally rather than loaded directly in the browser.
+## 📁 where things live
 
----
+Source paths and public URLs aren't always the same: templates use `permalink` to choose their published address.
 
-## 📁 project structure
+| Path | Purpose |
+| --- | --- |
+| `content/_data/` | Global data, exports, collections, and API loaders |
+| `content/_includes/` | Layouts, partials, and reusable components |
+| `content/_scripts/` | Data fetchers and helper scripts |
+| `content/assets/` | CSS, JavaScript, images, and other assets |
+| `content/interests/games/` | Game pages |
+| `content/interests/shrines/` | Pokémon, Animal Crossing, FFXIV, and other shrines |
+| `content/interests/shrines/xiv/` | FFXIV page templates |
+| `content/interests/sofi/` | Sofi pages and generated card-data endpoint |
+| `content/pages/` | About, statuses, wishlist, and other personal pages |
+| `content/index.njk` | Homepage |
+| `tools/sofi/` | Local Sofi management tools |
+| `.cache/` | Cached external responses |
+| `.github/workflows/neocities.yml` | Production build and deployment |
+| `.nvmrc` | Project Node.js version |
+| `eleventy.config.mjs` | Eleventy configuration |
+| `public/` | Generated site output |
 
-```text
-.
-├── content/
-│   ├── _data/              # Eleventy global data + API/data loaders
-│   ├── _includes/          # layouts, templates and components
-│   ├── _scripts/           # fetchers, exporters and utilities
-│   ├── assets/             # CSS, JS, images and other assets
-│   ├── blog/               # blog posts
-│   ├── games/              # game collection pages
-│   ├── interests/          # current interests / activity
-│   ├── shrines/            # Pokémon, Animal Crossing, FFXIV, etc.
-│   └── index.njk           # homepage
-│
-├── .cache/                 # selected cached external data
-├── eleventy.config.mjs
-├── package.json
-└── README.md
-```
-
-Eleventy reads from:
-
-```text
-content/
-```
-
-and builds the finished site into:
-
-```text
-public/
-```
-
----
+Eleventy reads `content/` and writes `public/`. Assets are copied from `content/assets/` to `public/assets/`.
 
 ## 🛠️ local setup
 
-### Requirements
-
-You'll need a recent version of:
-
-* Node.js
-* npm
-* Git
-
-Then:
+You'll need Git, Node.js, and npm. Using **nvm** makes it easy to match the Node version in `.nvmrc`.
 
 ```bash
+mkdir -p ~/Code
+cd ~/Code
 git clone https://github.com/violetfulton/theonlyfrogs.git
 cd theonlyfrogs
 
+nvm install
+nvm use
 npm ci
 ```
 
-Start the local Eleventy server:
+If you're restoring an existing project backup, put it in `~/Code/theonlyfrogs` and skip the clone.
+
+Restore or configure your local `.env` before starting the site. Some loaders require credentials; a fresh clone isn't guaranteed to build with an empty environment. In particular, the current Simkl loader requires `SIMKL_CLIENT_ID` and `SIMKL_ACCESS_TOKEN`.
 
 ```bash
 npm start
 ```
 
-The site will normally be available at:
+Open **[localhost:8080](http://localhost:8080/)**, or the address printed by Eleventy. Leave the terminal running while editing; **Control+C** stops the preview.
 
-```text
-http://localhost:8080
-```
+## 🐸 useful commands
 
----
+Run these from the project folder:
 
-## 🏗️ build
+| Command | What it does |
+| --- | --- |
+| `npm start` | Start Eleventy with a local preview server |
+| `npm run dev` | Alias for the same development server |
+| `npm run build` | Generate the site in `public/` |
+| `npm run build:fresh` | Refresh Discogs, then build the site |
+| `npm run fetch:discogs` | Refresh Discogs collection data |
+| `npm run fetch:accf-ra` | Refresh City Folk RetroAchievements data |
+| `npm run fetch:game-covers` | Run the game-cover helper |
+| `npm audit` | Check installed dependencies for known vulnerabilities |
 
-Create a production build with:
+`build:fresh` refreshes **Discogs**, not every integration or cache.
 
-```bash
-npm run build
-```
+## 🔐 configuration
 
-The generated site is written to:
+Keep local credentials in a root-level `.env` file. **Never commit API tokens, passwords, or private service-account files.**
 
-```text
-public/
-```
-
----
-
-## 🐸 useful scripts
-
-### Start the development server
-
-```bash
-npm start
-```
-
-### Build the site
-
-```bash
-npm run build
-```
-
-### Refresh Discogs data
-
-```bash
-npm run fetch:discogs
-```
-
-### Refresh Animal Crossing: City Folk RetroAchievements data
-
-```bash
-npm run fetch:accf-ra
-```
-
----
-
-## 🔐 environment variables
-
-Some site features depend on API keys or account information stored in environment variables.
-
-The exact variables depend on which data sources are currently enabled, but secrets belong in a local `.env` file and **must not be committed to Git**.
-
-For example:
+Examples of configuration used by the site and its helpers:
 
 ```env
 DISCOGS_USERNAME=
@@ -316,58 +208,61 @@ STEAM_API_KEY=
 STEAM_USER_ID=
 
 MAL_CLIENT_ID=
+MAL_USERNAME=
 
+SIMKL_CLIENT_ID=
+SIMKL_ACCESS_TOKEN=
+TMDB_API_KEY=
+
+RA_USERNAME=
 RA_WEB_API_KEY=
+RA_CITY_FOLK_GAME_ID=
 
+GAMES_CSV_URL=
+PHYSICAL_GAMES_CSV_URL=
 THEGAMESDB_API_KEY=
 
-NEOCITIES_API_KEY=
+POKEMON_CAPTURES_CSV_URL=
+POKEMON_HUNTS_CSV_URL=
+POKEMON_DEX_LISTS_CSV_URL=
+POKEMON_JOURNEYS_CSV_URL=
+POKEMON_RECORDS_CSV_URL=
+POKEMON_COLLECTION_CSV_URL=
 ```
 
-Some integrations may require additional variables.
+This is a reference list, not a promise that every loader needs every value. Check the relevant loader when configuring an integration.
 
-Local credentials and service-account files are excluded from version control.
+Playnite defaults to `content/_data/playnite-library.json`; `PLAYNITE_LIBRARY_PATH` can point to another export.
 
----
+Production credentials and settings are supplied through GitHub Actions secrets and variables. `NEOCITIES_API_KEY` is a deployment secret, not a requirement for viewing the site locally. Local `.env` values are not automatically available to GitHub Actions.
 
-## 🧊 caching
+## 🧊 caching and updates
 
-Several external data sources are cached to make builds quicker and less fragile.
+Caches and local exports help with rate limits, slow responses, and services having a bad day. They don't make every integration fully offline.
 
-This is especially useful for APIs with:
+The ignore rules exclude most of `.cache/` while allowing `.cache/thegamesdb/`. The deployment workflow sets `THEGAMESDB_OFFLINE=1`.
 
-* rate limits
-* slow responses
-* temporary outages
-* large collections that rarely change
-
-TheGamesDB data in particular is intentionally kept in its dedicated cache so the site can build without repeatedly requesting the entire game collection.
-
----
+When updating dependencies, keep `package.json` and `package-lock.json` together. Check `npm audit`, run a build, and preview the affected pages before publishing. Helper scripts may need their own checks even when the normal build passes.
 
 ## 🚀 deployment
 
-The site is deployed to **Neocities**.
+GitHub Actions builds the site and deploys `public/` to **Neocities**:
 
-GitHub Actions handles automated production builds and deployment, so changes pushed to the main repository can be built without manually uploading the generated `public/` directory.
+- On pushes to `main`
+- When the workflow is started manually
+- Every Monday at **05:15 UTC**
 
-Build output and local dependencies are ignored by Git.
+The workflow reads Node from `.nvmrc`, installs dependencies with `npm ci`, attempts a Discogs refresh, and runs the Eleventy build before deployment.
 
----
+Edit source files in `content/`; generated pages in `public/` are build output. The repository's ignore rules cover build output and local dependencies.
 
 ## 🌐 why?
 
 Because I miss websites that felt like they belonged to a person.
 
-I like pages with too many graphics.
+I like pages with too many graphics. I like collections. I like shrines dedicated to one extremely specific thing. I like making unnecessary trackers for video games.
 
-I like collections.
-
-I like shrines dedicated to one extremely specific thing.
-
-I like making unnecessary trackers for video games.
-
-I like websites that grow sideways instead of being redesigned into a startup landing page.
+I like websites that grow sideways.
 
 And I really like frogs.
 
@@ -375,9 +270,7 @@ So this exists.
 
 ---
 
-### 🐸 theonlyfrogs.com 🐸
-
-**made with frogs, pink pixels, questionable amounts of JavaScript,**
+**made with frogs, pink pixels, questionable amounts of JavaScript,**  
 **and an ever-increasing number of spreadsheets**
 
 💗

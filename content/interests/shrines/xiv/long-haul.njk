@@ -2,7 +2,7 @@
 title: Long Haul
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/long-haul/
-customcss: "/assets/css/ffxiv/long-haul.css"
+customcss: "/assets/css/ffxiv/long-haul.css?v=20261102"
 description: "Long-term Final Fantasy XIV grinds to pick away at when I don't know what else to do."
 ---
 
@@ -129,6 +129,10 @@ description: "Long-term Final Fantasy XIV grinds to pick away at when I don't kn
   </section>
 
 
+<p class="lh-no-results" id="lh-no-results" role="status" hidden>
+    Nothing matches those filters. <button type="button" class="ff-button" id="lh-reset">Reset filters</button>
+  </p>
+
   <section class="lh-grid" id="lh-grid">
     {% for project in lh.projects %}
       <article
@@ -251,6 +255,14 @@ description: "Long-term Final Fantasy XIV grinds to pick away at when I don't kn
 
 
   function applyFilters() {
+    document.querySelectorAll("[data-category-filter], [data-mood-filter], [data-time-filter]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.classList.contains("is-active")));
+    });
+    cards.forEach(card => card.classList.remove("is-picked"));
+    if (picked) {
+      picked.querySelector("strong").textContent = "Anything could happen.";
+      picked.querySelector("p").textContent = "Hit the button when decision-making has failed.";
+    }
     let shown = 0;
 
     cards.forEach((card) => {
@@ -261,6 +273,8 @@ description: "Long-term Final Fantasy XIV grinds to pick away at when I don't kn
         shown++;
       }
     });
+
+    document.getElementById("lh-no-results").hidden = shown !== 0;
 
     if (visibleCount) {
       visibleCount.textContent = String(shown);
@@ -410,6 +424,17 @@ description: "Long-term Final Fantasy XIV grinds to pick away at when I don't kn
      ?mood=brain-off&time=30&pick=1
      ?category=cosmic&pick=1
   */
+
+
+  document.getElementById("lh-reset").addEventListener("click", () => {
+    document.querySelector('[data-category-filter="all"]')?.click();
+    document.querySelector('[data-mood-filter="all"]')?.click();
+    document.querySelector('[data-time-filter="all"]')?.click();
+    query = "";
+    if (search) search.value = "";
+    applyFilters();
+    search?.focus();
+  });
 
   const params =
     new URLSearchParams(

@@ -11,7 +11,7 @@
   >
   <meta name="theme-color" content="#f7b3db">
 
-  <link rel="stylesheet" href="/assets/css/ffxiv/ffxiv-base.css">
+  <link rel="stylesheet" href="/assets/css/ffxiv/ffxiv-base.css?v=20261102">
 
   {% if customcss %}
     <link rel="stylesheet" href="{{ customcss }}">
@@ -45,8 +45,10 @@
     { label: "Achievements", icon: "★", href: "/shrines/finalfantasyxiv/achievements/", match: "prefix" },
     { label: "Collection", icon: "♢", href: "/shrines/finalfantasyxiv/collections/", match: "prefix" },
     { label: "Checklist", icon: "✓", href: "/shrines/finalfantasyxiv/checklist/", match: "prefix" },
-    { label: "Housing", icon: "⌂", href: "/shrines/finalfantasyxiv/housing/", match: "prefix" },
-    { label: "Glams", icon: "✧", href: "/shrines/finalfantasyxiv/glams/", match: "prefix" },
+    { label: "Trophy House", icon: "⌂", href: "/shrines/finalfantasyxiv/housing/", match: "prefix" },
+    { label: "Wardrobe", icon: "✧", href: "/shrines/finalfantasyxiv/glams/", match: "prefix" },
+    { label: "FroggyFish", icon: "🐸", href: "/shrines/finalfantasyxiv/fishing/", match: "prefix" },
+    { label: "Long Haul", icon: "∞", href: "/shrines/finalfantasyxiv/long-haul/", match: "prefix" },
     { label: "Gil", icon: "◇", href: "/shrines/finalfantasyxiv/gil/", match: "prefix" }
   ] %}
 
@@ -94,7 +96,7 @@
           <a
             href="{{ item.href }}"
             class="ff-nav__link{% if isActive %} is-active{% endif %}"
-            {% if isActive %}aria-current="page"{% endif %}
+            {% if currentUrl == item.href %}aria-current="page"{% elif isActive %}aria-current="location"{% endif %}
           >
             <span class="ff-nav__icon" aria-hidden="true">{{ item.icon }}</span>
             <span>{{ item.label }}</span>

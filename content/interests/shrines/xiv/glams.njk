@@ -3,7 +3,7 @@ title: "Aggro's Wardrobe"
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/glams/
 description: "Aggro Phobic's glamour diary — her current rotation, favourite outfits, past looks and a doorway into Glam Projects."
-customcss: "/assets/css/ffxiv/glams.css"
+customcss: "/assets/css/ffxiv/wardrobe.css"
 pageScripts:
   - "/assets/js/shrines/ffxiv/glams.js"
 ---
@@ -63,6 +63,10 @@ pageScripts:
     </section>
   {% endif %}
 
+  {% if not w.current.length %}
+    <p class="ff-glam-scribble">Current looks coming soon — these are favourites from the archive ♡</p>
+  {% endif %}
+
   {% if w.current.length and w.archive.length %}
     <section class="ff-glam-chapters ff-card" aria-labelledby="ff-glam-chapters-title">
       <div>
@@ -97,7 +101,7 @@ pageScripts:
       </div>
       <div class="ff-glam-pill-row" role="group" aria-label="Filter by wardrobe era">
         <button type="button" data-glam-era="all" class="is-active" aria-pressed="true">All looks</button>
-        <button type="button" data-glam-era="current" aria-pressed="false">♡ In rotation</button>
+        {% if w.current.length %}<button type="button" data-glam-era="current" aria-pressed="false">♡ In rotation</button>{% endif %}
         <button type="button" data-glam-era="archive" aria-pressed="false">✧ The archive</button>
       </div>
       <div class="ff-glam-pill-row ff-glam-pill-row--vibes" role="group" aria-label="Filter by vibe">

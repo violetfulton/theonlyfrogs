@@ -404,3 +404,6 @@
     padding: 15px;
   }
 }
+
+
+.lh-no-results { text-align: center; color: var(--ff-text-soft); padding: 1rem; }

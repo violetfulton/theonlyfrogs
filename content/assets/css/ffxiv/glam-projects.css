@@ -43,9 +43,9 @@
 
 .glam-stats article {
   padding: 1rem;
-  border: 1px solid rgba(255, 255, 255, .12);
+  border: 1px solid var(--ff-border);
   border-radius: 16px;
-  background: rgba(255, 255, 255, .045);
+  background: var(--ff-paper-soft);
   text-align: center;
 }
 
@@ -73,7 +73,7 @@
   border-radius: 20px;
   background:
     radial-gradient(circle at top right, rgba(255, 158, 213, .13), transparent 38%),
-    rgba(255, 255, 255, .045);
+    var(--ff-paper-soft);
 }
 
 .glam-picker h2 {
@@ -100,7 +100,7 @@
 .glam-random:hover,
 .glam-random:focus-visible {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, .14);
+  background: var(--ff-pink-1);
 }
 
 .glam-random-result {
@@ -113,9 +113,9 @@
 .glam-controls {
   margin-bottom: 1.25rem;
   padding: 1rem;
-  border: 1px solid rgba(255, 255, 255, .1);
+  border: 1px solid var(--ff-border);
   border-radius: 18px;
-  background: rgba(0, 0, 0, .12);
+  background: var(--ff-paper-soft);
 }
 
 .glam-search {
@@ -135,9 +135,9 @@
 .glam-search input {
   width: 100%;
   padding: .8rem .9rem;
-  border: 1px solid rgba(255, 255, 255, .14);
+  border: 1px solid var(--ff-border);
   border-radius: 12px;
-  background: rgba(0, 0, 0, .22);
+  background: var(--ff-paper-soft);
   color: inherit;
   font: inherit;
 }
@@ -151,9 +151,9 @@
 
 .glam-filter-row button {
   padding: .5rem .75rem;
-  border: 1px solid rgba(255, 255, 255, .12);
+  border: 1px solid var(--ff-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, .05);
+  background: var(--ff-paper-soft);
   color: inherit;
   font: inherit;
   font-size: .82rem;
@@ -161,8 +161,8 @@
 }
 
 .glam-filter-row button.is-active {
-  background: rgba(255, 181, 218, .17);
-  border-color: rgba(255, 181, 218, .5);
+  background: var(--ff-pink-1);
+  border-color: var(--ff-border-pink);
 }
 
 .glam-visible-count {
@@ -183,10 +183,10 @@
 .glam-card {
   min-width: 0;
   padding: 1rem;
-  border: 1px solid rgba(255, 255, 255, .12);
+  border: 1px solid var(--ff-border);
   border-radius: 18px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, .055), rgba(255, 255, 255, .025));
+    var(--ff-paper);
   transition:
     transform .18s ease,
     border-color .18s ease,
@@ -266,9 +266,9 @@
 
 .glam-pill {
   padding: .3rem .5rem;
-  border: 1px solid rgba(255, 255, 255, .1);
+  border: 1px solid var(--ff-border);
   border-radius: 999px;
-  background: rgba(255, 255, 255, .045);
+  background: var(--ff-paper-soft);
   font-size: .7rem;
   font-weight: 700;
 }
@@ -340,7 +340,7 @@
 .glam-armoire {
   margin-top: .8rem;
   padding-top: .65rem;
-  border-top: 1px dashed rgba(255, 255, 255, .1);
+  border-top: 1px dashed var(--ff-border);
   font-size: .75rem;
 }
 
@@ -397,3 +397,7 @@
     margin-top: .55rem;
   }
 }
+
+
+.glam-visible-count, .glam-stats span { color: var(--ff-text-soft); opacity: 1; }
+.glam-no-results { text-align: center; color: var(--ff-text-soft); padding: 1rem; }

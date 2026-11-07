@@ -2,14 +2,14 @@
 title: Glam Projects
 layout: layouts/ffBase.njk
 permalink: /shrines/finalfantasyxiv/glams/projects/
-customcss: "/assets/css/ffxiv/glam-projects.css"
+customcss: "/assets/css/ffxiv/glam-projects.css?v=20261102"
 ---
 
 {% set stats = ffxivGlamProjects.stats %}
 {% set projects = ffxivGlamProjects.projects %}
 
 <section class="glam-hero">
-  <p class="glam-kicker">Violet's Wardrobe</p>
+  <p class="glam-kicker">Aggro's Wardrobe</p>
   <h1>Glam Projects</h1>
   <p>
     Half-finished outfits, missing pieces, and the eternal question:
@@ -98,6 +98,10 @@ customcss: "/assets/css/ffxiv/glam-projects.css"
     projects
   </p>
 </section>
+
+<p class="glam-no-results" id="glam-no-results" role="status" hidden>
+    Nothing matches those filters. <button type="button" class="ff-button" id="glam-reset">Reset filters</button>
+  </p>
 
 {% if not projects.length %}
   <section class="glam-empty">
@@ -284,6 +288,10 @@ customcss: "/assets/css/ffxiv/glam-projects.css"
 
 
   function applyFilters() {
+    document.querySelectorAll("[data-glam-filter], [data-expansion-filter]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.classList.contains("is-active")));
+    });
+    cards.forEach(card => card.classList.remove("is-picked"));
     let shown = 0;
 
     cards.forEach((card) => {
@@ -298,6 +306,8 @@ customcss: "/assets/css/ffxiv/glam-projects.css"
         shown++;
       }
     });
+
+    document.getElementById("glam-no-results").hidden = shown !== 0;
 
     if (visibleCount) {
       visibleCount.textContent =
@@ -435,6 +445,16 @@ customcss: "/assets/css/ffxiv/glam-projects.css"
   /* ==========================================
      URL PARAMETERS
      ========================================== */
+
+
+  document.getElementById("glam-reset").addEventListener("click", () => {
+    document.querySelector('[data-glam-filter="all"]')?.click();
+    document.querySelector('[data-expansion-filter="all"]')?.click();
+    query = "";
+    if (search) search.value = "";
+    applyFilters();
+    search?.focus();
+  });
 
   const params =
     new URLSearchParams(

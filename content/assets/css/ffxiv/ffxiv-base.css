@@ -267,12 +267,14 @@ body {
 
 .ff-nav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 6px;
   min-width: 0;
 }
 
 .ff-nav__link {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
