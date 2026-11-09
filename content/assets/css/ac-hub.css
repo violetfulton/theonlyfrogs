@@ -1,101 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Quicksand:wght@400;500;600;700;800&display=swap');
+
+/* Animal Crossing hub — intentionally shares Hopscotch's Gaegu/Quicksand feel. */
 :root {
-  --ac-hub-ink: #50584f;
-  --ac-hub-paper: #fffdf5;
-  --ac-hub-line: rgba(74, 91, 72, .14);
+  --ac-ink: #4e5d50;
+  --ac-muted: #718474;
+  --ac-green: #527f62;
+  --ac-pink: #eab1c9;
+  --ac-line: #e8ebdd;
+  --ac-shadow: 0 14px 35px rgba(85, 110, 89, .10);
 }
 
 body {
+  margin: 0;
   background:
-    radial-gradient(circle at 15% 15%, rgba(255,255,255,.75), transparent 28rem),
-    linear-gradient(180deg, #d9eee7 0%, #ecf3dc 50%, #f7eadb 100%);
-  color: var(--ac-hub-ink);
+    radial-gradient(ellipse at 5% 8%, #fce5ef 0, transparent 34rem),
+    radial-gradient(ellipse at 100% 14%, #e2f5e8 0, transparent 30rem),
+    linear-gradient(180deg, #fffbf6 0%, #fffaf0 49%, #edf8f0 100%);
+  color: var(--ac-ink);
 }
 
 .ac-hub {
-  width: min(1080px, calc(100% - 30px));
-  margin: 42px auto 70px;
+  width: min(1130px, calc(100% - 32px));
+  margin: 22px auto 70px;
+  font: 600 15px/1.65 'Quicksand', 'Trebuchet MS', sans-serif;
+  color: var(--ac-ink);
+  isolation: isolate;
 }
+.ac-hub *, .ac-hub *::before, .ac-hub *::after { box-sizing: border-box; }
+.ac-hub h1, .ac-hub h2, .ac-hub h3, .ac-hub p { margin-top: 0; }
+.ac-hub h1, .ac-hub h2, .ac-hub h3 { font-family: 'Gaegu', 'Comic Sans MS', cursive; line-height: 1.04; }
+.ac-hub a { color: inherit; text-decoration: none; }
+.ac-hub a:focus-visible { outline: 3px solid #d989b5; outline-offset: 4px; }
+.ac-hub__eyebrow { display: block; color: #779480; font-size: .73rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
 
+/* Breadcrumb / back navigation */
+.ac-hub__breadcrumb {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+  margin-bottom: 16px; padding: 10px 17px; width: fit-content;
+  background: rgba(255,255,255,.82); border: 1px solid #fff;
+  border-radius: 999px; box-shadow: 0 4px 14px #527f620d;
+  color: #889887; font-size: .78rem; font-weight: 800;
+}
+.ac-hub__breadcrumb a:hover, .ac-hub__footer a:hover { color: #a86183; text-decoration: underline; text-underline-offset: 4px; }
+.ac-hub__breadcrumb > span[aria-hidden] { color: #e7a4be; }
+.ac-hub__breadcrumb [aria-current] { color: #597c63; }
+
+/* Soft scrapbook hero */
 .ac-hub__hero {
+  position: relative; overflow: hidden;
+  min-height: 330px; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(230px, .75fr);
+  gap: 15px; align-items: center;
+  border-radius: 34px; border: 1px solid #fff;
+  background: linear-gradient(112deg, #fff0f5 0%, #fff8e9 54%, #e0f3e4 100%);
+  box-shadow: var(--ac-shadow);
+}
+.ac-hub__hero::after {
+  content: ''; position: absolute; width: 250px; height: 250px;
+  top: -185px; left: 40%; border-radius: 50%; background: #fff9edb8;
+  pointer-events: none;
+}
+.ac-hub__hero-copy { position: relative; z-index: 1; padding: clamp(30px, 5vw, 55px); }
+.ac-hub__hero h1 { font-size: clamp(3.8rem, 8vw, 6.5rem); margin: 9px 0 9px; color: #528468; letter-spacing: -.045em; }
+.ac-hub__hero h1 > span:first-child { color: #c982a4; }
+.ac-hub__flower { display: inline-block; margin-left: 6px; font-size: .34em; vertical-align: 28%; color: #eab1c9; transform: rotate(-13deg); }
+.ac-hub__lead { max-width: 555px; margin: 0; line-height: 1.8; color: #68796c; font-size: .98rem; }
+.ac-hub__pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.ac-hub__pills span { padding: 5px 12px; border: 1px solid #fff; background: #ffffffc2; border-radius: 999px; font-size: .74rem; font-weight: 800; color: #6b826f; }
+.ac-hub__back { display: inline-flex; align-items: center; gap: 8px; margin-top: 24px; border-radius: 999px; padding: 10px 18px; background: #f9d9e7; border: 1px solid #efbdd0; color: #985e79 !important; font-size: .81rem; font-weight: 800; transition: transform .2s, background .2s; }
+.ac-hub__back:hover { transform: translateY(-2px); background: #f5cbdc; }
+
+.ac-hub__hero-illustration { position: relative; align-self: stretch; min-height: 310px; display: grid; place-items: center; padding: 24px 28px; }
+.ac-hub__hero-illustration::before {
+  content: ''; width: 310px; height: 310px; max-width: 100%; position: absolute;
+  border-radius: 50%; background: #d5ecccaa; border: 1px dashed #b9d4b4;
+}
+.ac-hub__postcard {
+  position: relative; display: grid; justify-items: center; align-content: center;
+  width: min(225px, 100%); min-height: 244px; padding: 17px 14px 14px;
+  border: 8px solid #fffdfa; border-bottom-width: 15px; border-radius: 18px;
+  background: #edfae8; transform: rotate(5deg); box-shadow: 0 13px 22px #527f6223;
   text-align: center;
-  padding: 34px 20px 26px;
 }
+.ac-hub__postcard img { display: block; max-width: 125px; max-height: 147px; height: auto; width: auto; object-fit: contain; margin: 3px auto; image-rendering: auto; }
+.ac-hub__postcard-tag { align-self: center; font-size: .68rem; font-weight: 800; letter-spacing: .05em; color: #6d9974; }
+.ac-hub__postcard-bottom { font: 700 1.1rem 'Gaegu', cursive; color: #72916d; }
+.ac-hub__flower-stamp { position: absolute; z-index: 1; pointer-events: none; font-size: 2.9rem; color: #eaa3c0; text-shadow: 1px 2px #fff; }
+.ac-hub__flower-stamp--one { top: 12%; left: 12%; transform: rotate(-10deg); }
+.ac-hub__flower-stamp--two { right: 13%; bottom: 12%; color: #efcb83; }
 
-.ac-hub__kicker {
-  margin: 0 0 8px;
-  text-transform: uppercase;
-  letter-spacing: .14em;
-  font-size: .76rem;
-  font-weight: 800;
-  color: #5e8d69;
-}
+.ac-hub__divider { display: flex; justify-content: center; align-items: center; gap: 16px; padding: 15px 0 11px; margin: 0; color: #8f9f8b; text-align: center; font-size: .72rem; font-weight: 800; letter-spacing: .09em; }
+.ac-hub__divider span { color: #e8a6bc; font-size: 1.2rem; }
+.ac-hub__section-heading { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin: 12px 4px 19px; }
+.ac-hub__section-heading h2 { margin: 4px 0 0; color: #577b62; font-size: clamp(2.3rem, 5vw, 3.2rem); }
+.ac-hub__section-sparkle { white-space: nowrap; color: #e7a7bf; font-size: 1.6rem; letter-spacing: .17em; }
 
-.ac-hub__hero h1 {
-  margin: 0;
-  font-size: clamp(2.8rem, 8vw, 5.8rem);
-  line-height: .95;
-}
-
-.ac-hub__hero p:last-child {
-  max-width: 650px;
-  margin: 16px auto 0;
-  line-height: 1.7;
-}
-
-.ac-hub__grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
+/* Three 'little world' ticket cards */
+.ac-hub__grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
 .ac-game-card {
-  min-height: 270px;
-  padding: 26px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 28px;
-  text-decoration: none;
-  color: var(--ac-hub-ink);
-  border: 1px solid rgba(255,255,255,.9);
-  box-shadow: 0 12px 30px rgba(67, 84, 68, .13);
-  transition: transform .18s ease, box-shadow .18s ease;
+  min-width: 0; min-height: 390px; padding: 21px 22px 24px; display: flex; flex-direction: column;
+  border-radius: 28px; border: 1px solid #fff;
+  box-shadow: var(--ac-shadow); transition: transform .2s ease, box-shadow .2s ease;
 }
+.ac-game-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px #526e581f; }
+.ac-game-card--cityfolk { background: #f2f8e7; }
+.ac-game-card--newhorizons { background: #ffecf4; }
+.ac-game-card--newleaf { background: #ebf5f5; }
+.ac-game-card__top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+.ac-game-card__console { color: #728b7a; text-transform: uppercase; letter-spacing: .11em; font-size: .7rem; font-weight: 800; }
+.ac-game-card__number { color: #a2b9a5; font: 700 1.6rem/1 'Gaegu', cursive; }
+.ac-game-card__scene { position: relative; overflow: hidden; display: grid; place-items: center; margin: 15px 0 20px; height: 125px; border: 1px solid #ffffffb5; border-radius: 21px; }
+.ac-game-card__scene::before { content: ''; position: absolute; width: 170px; height: 170px; background: #ffffff5e; border-radius: 50%; top: 44px; right: -18px; }
+.ac-game-card__scene--cityfolk { background: radial-gradient(circle at 80% 15%, #fff7cf, transparent 45%), linear-gradient(120deg, #d0e8ca, #e9f5d7); }
+.ac-game-card__scene--newhorizons { background: radial-gradient(circle at 10% 15%, #f9dbe7, transparent 44%), linear-gradient(120deg, #e1f2e8, #f4e2eb); }
+.ac-game-card__scene--newleaf { background: radial-gradient(circle at 75% 20%, #fff3ce, transparent 42%), linear-gradient(120deg, #cbe9e6, #e3f5e3); }
+.ac-game-card__scene-icon { position: relative; z-index: 1; font-size: 4.5rem; line-height: 1; filter: drop-shadow(0 8px 4px #6e987921); transition: transform .2s ease; }
+.ac-game-card:hover .ac-game-card__scene-icon { transform: rotate(-6deg) scale(1.05); }
+.ac-game-card__scene-sparkle { position: absolute; top: 8px; right: 23px; color: #f1aaca; font: 700 2.1rem 'Gaegu', cursive; }
+.ac-game-card__tag { color: #9c9279; text-transform: uppercase; font-weight: 800; letter-spacing: .10em; font-size: .65rem; }
+.ac-game-card h3 { margin: 2px 0 8px; color: #567e63; font-size: 2.5rem; letter-spacing: -.025em; }
+.ac-game-card--newhorizons h3 { color: #aa6687; }
+.ac-game-card p { color: #687a6d; font-size: .82rem; line-height: 1.75; margin-bottom: 16px; }
+.ac-game-card__cta { display: inline-flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: auto; padding: 10px 14px; background: #ffffffc9; color: #537a5d; border: 1px solid #fff; border-radius: 999px; font-size: .79rem; font-weight: 800; }
+.ac-game-card--newhorizons .ac-game-card__cta { color: #a35d80; }
+.ac-hub__footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 45px; padding: 22px 4px; border-top: 1px dashed #d7e5d6; font-size: .77rem; font-weight: 800; color: #91a193; }
+.ac-hub__footer a { color: #5c8b6d; }
 
-.ac-game-card:hover {
-  transform: translateY(-4px) rotate(-.2deg);
-  box-shadow: 0 18px 38px rgba(67, 84, 68, .18);
+@media (max-width: 900px) {
+  .ac-hub__grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .ac-game-card:last-child { grid-column: 1 / -1; }
 }
-
-.ac-game-card--cityfolk { background: linear-gradient(145deg, #fff9e8, #e3f0d0); }
-.ac-game-card--newhorizons { background: linear-gradient(145deg, #e7f7ee, #d6eef3); }
-.ac-game-card--newleaf { background: linear-gradient(145deg, #f9e2e8, #f5eac9); }
-
-.ac-game-card__eyebrow {
-  font-size: .76rem;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-weight: 800;
-  opacity: .68;
+@media (max-width: 680px) {
+  .ac-hub { width: min(100% - 22px, 560px); margin-top: 12px; }
+  .ac-hub__hero { grid-template-columns: 1fr; gap: 0; }
+  .ac-hub__hero-copy { padding: 29px 25px 18px; }
+  .ac-hub__hero h1 { font-size: clamp(3.7rem, 13vw, 5rem); }
+  .ac-hub__hero-illustration { min-height: 185px; padding: 18px; }
+  .ac-hub__hero-illustration::before { width: 190px; height: 190px; }
+  .ac-hub__postcard { min-height: 155px; width: 165px; padding: 9px; border-width: 5px; border-bottom-width: 8px; }
+  .ac-hub__postcard img { max-height: 93px; max-width: 95px; }
+  .ac-hub__flower-stamp { font-size: 1.8rem; }
+  .ac-hub__grid { grid-template-columns: 1fr; gap: 13px; }
+  .ac-game-card, .ac-game-card:last-child { grid-column: auto; min-height: 350px; }
+  .ac-game-card__scene { height: 105px; margin: 12px 0 16px; }
+  .ac-hub__section-sparkle { display: none; }
+  .ac-hub__footer { margin-top: 28px; }
 }
-
-.ac-game-card strong {
-  display: block;
-  margin-top: 32px;
-  font-size: 1.65rem;
-}
-
-.ac-game-card p {
-  line-height: 1.65;
-  opacity: .82;
-}
-
-.ac-game-card__cta {
-  margin-top: auto;
-  font-weight: 800;
-}
-
-@media (max-width: 800px) {
-  .ac-hub__grid { grid-template-columns: 1fr; }
-  .ac-game-card { min-height: 210px; }
-  .ac-game-card strong { margin-top: 20px; }
+@media (prefers-reduced-motion: reduce) {
+  .ac-hub *, .ac-hub *::before, .ac-hub *::after { transition: none !important; }
 }

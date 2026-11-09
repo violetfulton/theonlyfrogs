@@ -1,39 +1,18 @@
 ---
-title: "New Horizons Island Diary"
+title: "Island Diary | Hopscotch"
 layout: base.njk
 permalink: /shrines/animalcrossing/newhorizons/diary/
-customcss: '/assets/css/acnh/acnh.css'
+customcss: '/assets/css/acnh/hopscotch.css'
 ---
-
-<div class="acnh-shell">
+<main class="hs-shell hs-diary">
   {% include "acnh/nav.njk" %}
-
-  <header class="acnh-pagehead acnh-paper">
-    <p class="acnh-kicker">Island Notes</p>
-    <h1>📖 Island Diary</h1>
-    <p>Milestones, catches, villagers, redesigns, events, and little moments worth keeping.</p>
-  </header>
-
+  <header class="hs-page-hero hs-page-hero--butter"><div><span class="hs-eyebrow">pages from a tiny island</span><h1>Dear diary… <span aria-hidden="true">♡</span></h1><p>Little milestones, lazy afternoons, island makeovers and the moments I never want to forget.</p></div><div class="hs-page-hero__stamp"><strong>{{ acnh.diary | length }}</strong><span>memories kept</span></div></header>
   {% if acnh.diary and acnh.diary.length %}
-    <section class="acnh-timeline">
+    <section class="hs-diary-list" aria-label="Island journal entries">
       {% for entry in acnh.diary %}
-      <article class="acnh-diary-entry acnh-paper">
-        <div class="acnh-diary-date">{{ entry.date }}</div>
-        <div class="acnh-diary-body">
-          <h2>{{ entry.title }}</h2>
-          {% if entry.summary %}<p class="acnh-lede">{{ entry.summary }}</p>{% endif %}
-          {% if entry.paragraphs %}{% for paragraph in entry.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}
-          {% if entry.tags %}<div class="acnh-tags">{% for tag in entry.tags %}<span>{{ tag }}</span>{% endfor %}</div>{% endif %}
-          {% if entry.images %}
-          <div class="acnh-photo-grid">
-            {% for image in entry.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or entry.title }}"><figcaption>{{ image.caption or '' }}</figcaption></figure>{% endfor %}
-          </div>
-          {% endif %}
-        </div>
-      </article>
+        <article class="hs-diary-entry hs-panel"><div class="hs-diary-entry__date"><span aria-hidden="true">✿</span><time datetime="{{ entry.date }}">{{ entry.date }}</time></div><div class="hs-diary-entry__content"><h2>{{ entry.title }}</h2>{% if entry.summary %}<p class="hs-diary-entry__lead">{{ entry.summary }}</p>{% endif %}{% if entry.paragraphs %}{% for paragraph in entry.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}{% if entry.images and entry.images.length %}<div class="hs-photos">{% for image in entry.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or entry.title }}" loading="lazy">{% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}</figure>{% endfor %}</div>{% endif %}{% if entry.tags and entry.tags.length %}<div class="hs-pills">{% for tag in entry.tags %}<span>#{{ tag }}</span>{% endfor %}</div>{% endif %}</div></article>
       {% endfor %}
     </section>
-  {% else %}
-    <section class="acnh-empty acnh-paper">No diary entries logged.</section>
-  {% endif %}
-</div>
+  {% else %}<div class="hs-empty-state"><span>📖</span><h2>A brand-new page</h2><p>Someday there'll be plenty of memories to look back on.</p></div>{% endif %}
+  <footer class="hs-footer">✿ here's to many more little memories ✿</footer>
+</main>

@@ -1,40 +1,181 @@
 {
   "current": [
-    { "name": "Diva", "personality": "Big sister", "frog": true, "image": "/assets/imgs/acnh/villagers/diva.png" },
-    { "name": "Tammi", "personality": "Peppy", "image": "/assets/imgs/acnh/villagers/tammi.png" },
-    { "name": "Marshal", "personality": "Smug", "image": "/assets/imgs/acnh/villagers/marshal.png" },
-    { "name": "Merengue", "personality": "Normal", "image": "/assets/imgs/acnh/villagers/merengue.png" },
-    { "name": "Ribbot", "personality": "Jock", "frog": true, "image": "/assets/imgs/acnh/villagers/ribbot.png" },
-    { "name": "Raymond", "personality": "Smug", "image": "/assets/imgs/acnh/villagers/raymond.png" },
-    { "name": "Marina", "personality": "Normal", "image": "/assets/imgs/acnh/villagers/marina.png" },
-    { "name": "Mineru", "personality": "Snooty", "image": "/assets/imgs/acnh/villagers/mineru.png" },
-    { "name": "Eugene", "personality": "Smug", "image": "/assets/imgs/acnh/villagers/eugene.png" }
+    {
+      "name": "Diva",
+      "personality": "Big sister",
+      "frog": true,
+      "image": "/assets/imgs/acnh/villagers/diva.png"
+    },
+    {
+      "name": "Tammi",
+      "personality": "Peppy",
+      "image": "/assets/imgs/acnh/villagers/tammi.png"
+    },
+    {
+      "name": "Marshal",
+      "personality": "Smug",
+      "image": "/assets/imgs/acnh/villagers/marshal.png"
+    },
+    {
+      "name": "Merengue",
+      "personality": "Normal",
+      "image": "/assets/imgs/acnh/villagers/merengue.png"
+    },
+    {
+      "name": "Ribbot",
+      "personality": "Jock",
+      "frog": true,
+      "image": "/assets/imgs/acnh/villagers/ribbot.png"
+    },
+    {
+      "name": "Raymond",
+      "personality": "Smug",
+      "image": "/assets/imgs/acnh/villagers/raymond.png"
+    },
+    {
+      "name": "Marina",
+      "personality": "Normal",
+      "image": "/assets/imgs/acnh/villagers/marina.png"
+    },
+    {
+      "name": "Mineru",
+      "personality": "Snooty",
+      "image": "/assets/imgs/acnh/villagers/mineru.png"
+    },
+    {
+      "name": "Eugene",
+      "personality": "Smug",
+      "image": "/assets/imgs/acnh/villagers/eugene.png"
+    },
+    {
+      "name": "Jambette",
+      "personality": "Normal",
+      "frog": true,
+      "image": "/assets/imgs/acnh/villagers/jambette.png"
+    }
   ],
   "past": [
-    { "name": "O'Hare", "personality": "Smug", "image": "/assets/imgs/acnh/villagers/ohare.png" },
-    { "name": "Clay", "personality": "Lazy", "image": "/assets/imgs/acnh/villagers/clay.png" },
-    { "name": "Midge", "personality": "Normal", "image": "/assets/imgs/acnh/villagers/midge.png" },
-    { "name": "Stinky", "personality": "Jock", "image": "/assets/imgs/acnh/villagers/stinky.png" }
+    {
+      "name": "O'Hare",
+      "personality": "Smug",
+      "image": "/assets/imgs/acnh/villagers/ohare.png"
+    },
+    {
+      "name": "Clay",
+      "personality": "Lazy",
+      "image": "/assets/imgs/acnh/villagers/clay.png"
+    },
+    {
+      "name": "Midge",
+      "personality": "Normal",
+      "image": "/assets/imgs/acnh/villagers/midge.png"
+    },
+    {
+      "name": "Stinky",
+      "personality": "Jock",
+      "image": "/assets/imgs/acnh/villagers/stinky.png"
+    }
   ],
   "dreamies": [],
   "frogs": [
-    { "name": "Camofrog", "status": "missing", "image": "/assets/imgs/acnh/villagers/camofrog.png" },
-    { "name": "Cousteau", "status": "missing", "image": "/assets/imgs/acnh/villagers/cousteau.png" },
-    { "name": "Croque", "status": "missing", "image": "/assets/imgs/acnh/villagers/croque.png" },
-    { "name": "Diva", "status": "current", "image": "/assets/imgs/acnh/villagers/diva.png" },
-    { "name": "Drift", "status": "missing", "image": "/assets/imgs/acnh/villagers/drift.png" },
-    { "name": "Frobert", "status": "missing", "image": "/assets/imgs/acnh/villagers/frobert.png" },
-    { "name": "Gigi", "status": "missing", "image": "/assets/imgs/acnh/villagers/gigi.png" },
-    { "name": "Henry", "status": "missing", "image": "/assets/imgs/acnh/villagers/henry.png" },
-    { "name": "Huck", "status": "missing", "image": "/assets/imgs/acnh/villagers/huck.png" },
-    { "name": "Jambette", "status": "missing", "image": "/assets/imgs/acnh/villagers/jambette.png" },
-    { "name": "Jeremiah", "status": "missing", "image": "/assets/imgs/acnh/villagers/jeremiah.png" },
-    { "name": "Lily", "status": "missing", "image": "/assets/imgs/acnh/villagers/lily.png" },
-    { "name": "Puddles", "status": "missing", "image": "/assets/imgs/acnh/villagers/puddles.png" },
-    { "name": "Prince", "status": "missing", "image": "/assets/imgs/acnh/villagers/prince.png" },
-    { "name": "Raddle", "status": "missing", "image": "/assets/imgs/acnh/villagers/raddle.png" },
-    { "name": "Ribbot", "status": "current", "image": "/assets/imgs/acnh/villagers/ribbot.png" },
-    { "name": "Tad", "status": "missing", "image": "/assets/imgs/acnh/villagers/tad.png" },
-    { "name": "Wart Jr.", "status": "missing", "image": "/assets/imgs/acnh/villagers/wart-jr.png" }
+    {
+      "name": "Camofrog",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/camofrog.png"
+    },
+    {
+      "name": "Cousteau",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/cousteau.png"
+    },
+    {
+      "name": "Croque",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/croque.png"
+    },
+    {
+      "name": "Diva",
+      "status": "current",
+      "image": "/assets/imgs/acnh/villagers/diva.png"
+    },
+    {
+      "name": "Drift",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/drift.png"
+    },
+    {
+      "name": "Frobert",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/frobert.png"
+    },
+    {
+      "name": "Gigi",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/gigi.png"
+    },
+    {
+      "name": "Henry",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/henry.png"
+    },
+    {
+      "name": "Huck",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/huck.png"
+    },
+    {
+      "name": "Jambette",
+      "status": "current",
+      "image": "/assets/imgs/acnh/villagers/jambette.png"
+    },
+    {
+      "name": "Jeremiah",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/jeremiah.png"
+    },
+    {
+      "name": "Lily",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/lily.png"
+    },
+    {
+      "name": "Puddles",
+      "status": "hotel",
+      "image": "/assets/imgs/acnh/villagers/puddles.png"
+    },
+    {
+      "name": "Prince",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/prince.png"
+    },
+    {
+      "name": "Raddle",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/raddle.png"
+    },
+    {
+      "name": "Ribbot",
+      "status": "current",
+      "image": "/assets/imgs/acnh/villagers/ribbot.png"
+    },
+    {
+      "name": "Tad",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/tad.png"
+    },
+    {
+      "name": "Wart Jr.",
+      "status": "missing",
+      "image": "/assets/imgs/acnh/villagers/wart-jr.png"
+    }
+  ],
+  "hotelGuests": [
+    {
+      "name": "Puddles",
+      "image": "/assets/imgs/acnh/villagers/puddles.png",
+      "roomImage": "/assets/imgs/acnh/diary/2026-11-09-puddles-vip-room.webp",
+      "roomTheme": "Japanese nature retreat",
+      "note": "A peaceful little VIP room with hydrangeas, wood, bonsai and soft evening light."
+    }
   ]
 }

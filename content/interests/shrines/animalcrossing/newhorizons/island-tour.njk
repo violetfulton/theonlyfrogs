@@ -1,39 +1,20 @@
 ---
-title: "New Horizons Island Tour"
+title: "Island Tour | Hopscotch"
 layout: base.njk
 permalink: /shrines/animalcrossing/newhorizons/island-tour/
-customcss: '/assets/css/acnh/acnh.css'
+customcss: '/assets/css/acnh/hopscotch.css'
 ---
-
-<div class="acnh-shell">
+<main class="hs-shell hs-tour">
   {% include "acnh/nav.njk" %}
-
-  <header class="acnh-pagehead acnh-paper">
-    <p class="acnh-kicker">Dream Address Energy</p>
-    <h1>🏡 Island Tour</h1>
-    <p>A scrapbook map of favourite builds, rooms, beaches, paths, gardens, and changing island areas.</p>
-  </header>
-
+  <header class="hs-page-hero hs-page-hero--sky"><div><span class="hs-eyebrow">come for a wander</span><h1>Postcards from Hopscotch <span aria-hidden="true">✿</span></h1><p>Favourite little corners, pretty gardens, cosy rooms and the places that make this island mine.</p></div><div class="hs-page-hero__stamp"><strong>{{ acnh.tour | length }}</strong><span>places pictured</span></div></header>
   {% if acnh.tour and acnh.tour.length %}
-  <section class="acnh-tour-grid">
-    {% for area in acnh.tour %}
-    <article class="acnh-tour-card acnh-paper">
-      {% if area.cover %}<img class="acnh-tour-cover" src="{{ area.cover }}" alt="{{ area.name }}">{% endif %}
-      <div class="acnh-tour-copy">
-        {% if area.category %}<p class="acnh-kicker">{{ area.category }}</p>{% endif %}
-        <h2>{{ area.name }}</h2>
-        {% if area.description %}<p>{{ area.description }}</p>{% endif %}
-        {% if area.built %}<small>Built {{ area.built }}</small>{% endif %}
-        {% if area.images %}
-        <div class="acnh-photo-grid acnh-photo-grid--small">
-          {% for image in area.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or area.name }}"></figure>{% endfor %}
-        </div>
-        {% endif %}
-      </div>
-    </article>
-    {% endfor %}
-  </section>
+    <section class="hs-tour-grid" aria-label="Island locations">
+      {% for area in acnh.tour %}
+        <article class="hs-tour-card hs-panel">{% if area.cover %}<img class="hs-tour-card__cover" src="{{ area.cover }}" alt="{{ area.name }}" loading="lazy">{% else %}<div class="hs-tour-card__placeholder" aria-hidden="true">🏡 ✿ 🌳</div>{% endif %}<div class="hs-tour-card__body"><span class="hs-eyebrow">{{ area.category or 'little island corner' }}</span><h2>{{ area.name }}</h2>{% if area.description %}<p>{{ area.description }}</p>{% endif %}{% if area.built %}<small>Made {{ area.built }}</small>{% endif %}{% if area.images and area.images.length %}<div class="hs-photos hs-photos--mini">{% for image in area.images %}<figure><img src="{{ image.src }}" alt="{{ image.alt or area.name }}" loading="lazy"></figure>{% endfor %}</div>{% endif %}</div></article>
+      {% endfor %}
+    </section>
   {% else %}
-  <section class="acnh-empty acnh-paper">No island areas logged.</section>
+    <section class="hs-empty-state hs-empty-state--tour"><div class="hs-empty-state__scene" aria-hidden="true">🌸 🏡 🌳 🐸</div><span class="hs-eyebrow">island makeover in progress</span><h2>So many little corners to make my own</h2><p>Hopscotch's photo album will grow as the island does. For now, the whole place is a work in progress—and that's part of the fun.</p><a class="hs-button" href="/shrines/animalcrossing/newhorizons/diary/">Read the island diary ↗</a></section>
   {% endif %}
-</div>
+  <footer class="hs-footer">✿ mind the flowers on your way out ✿</footer>
+</main>

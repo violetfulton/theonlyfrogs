@@ -1,0 +1,57 @@
+---
+title: "Little Collections | Hopscotch"
+layout: base.njk
+permalink: /shrines/animalcrossing/newhorizons/collections/
+customcss: '/assets/css/acnh/hopscotch.css'
+---
+<main class="hs-shell hs-collections">
+  {% include "acnh/nav.njk" %}
+  <header class="hs-page-hero hs-page-hero--pink hs-collections-hero">
+    <div><span class="hs-eyebrow">the things I pick up along the way</span><h1>My little collections <span aria-hidden="true">♡</span></h1><p>The furniture I fall in love with, projects I've learned, happy little reactions, and the songs on my island soundtrack. A pretty shelf of highlights—not a giant catalogue dump.</p></div>
+    <div class="hs-collection-hero-art" aria-hidden="true"><span>📻</span><span>🎀</span><span>🪴</span><span>🧶</span></div>
+  </header>
+
+  <section class="hs-section" aria-labelledby="collections-heading">
+    <div class="hs-section-title"><div><span class="hs-eyebrow">four little shelves</span><h2 id="collections-heading">Browse the collection</h2></div><span class="hs-section-title__decoration">✿ ✿ ✿</span></div>
+    <div class="hs-collection-grid">
+      {% set sets = [
+        { "id": 'catalog', "icon": '🛋️', "eyebrow": 'the nook shopping shelf', "name": 'Nook Shopping', "desc": 'Furniture, clothing, décor and everything else I’ve catalogued.', "class": 'mint' },
+        { "id": 'recipes', "icon": '🧶', "eyebrow": 'made with my own two paws', "name": 'DIY recipes', "desc": 'Crafts, cooking and other learned creations.', "class": 'butter' },
+        { "id": 'reactions', "icon": '💗', "eyebrow": 'every little feeling', "name": 'Reactions', "desc": 'A whole collection of tiny moods.', "class": 'pink' },
+        { "id": 'music', "icon": '🎵', "eyebrow": 'island soundtrack', "name": 'K.K. songs', "desc": "The tunes I've welcomed into my collection.", "class": 'sky' }
+      ] %}
+      {% for shelf in sets %}
+      {% set data = acnh.collections[shelf.id] %}
+      <article class="hs-collection-card hs-collection-card--{{ shelf.class }}" id="{{ shelf.id }}">
+        <div class="hs-collection-card__top"><span class="hs-collection-card__icon" aria-hidden="true">{{ shelf.icon }}</span><span class="hs-collection-card__number">0{{ loop.index }}</span></div>
+        <span class="hs-eyebrow">{{ shelf.eyebrow }}</span><h3>{{ shelf.name }}</h3><p>{{ shelf.desc }}</p>
+        <div class="hs-collection-card__stat">
+          {% if data.obtained and data.obtained.length %}
+            <strong>{{ data.obtained | length }}</strong><span>{% if data.total %}/ {{ data.total }}{% else %}tracked{% endif %}</span>
+          {% else %}<strong>—</strong><span>awaiting my first scan</span>{% endif %}
+        </div>
+        {% if data.total and data.obtained and data.obtained.length %}<div class="hs-progress"><span style="width:{{ ((data.obtained | length) / data.total * 100) | round }}%"></span></div>{% endif %}
+        {% if data.scanDate %}<small class="hs-collection-card__date">Last scanned {{ data.scanDate }}</small>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="hs-section hs-favourites" aria-labelledby="hs-favourites-heading">
+    <div class="hs-section-title"><div><span class="hs-eyebrow">a few things worth showing off</span><h2 id="hs-favourites-heading">Spotlight shelves</h2><p>A few cute highlights from my scans. No mile-long lists here!</p></div><span class="hs-section-title__decoration">♡</span></div>
+    <div class="hs-favourites-grid">
+      {% for shelf in sets %}
+      {% set data = acnh.collections[shelf.id] %}
+      <article class="hs-panel hs-favourite-panel">
+        <div class="hs-favourite-panel__head"><span aria-hidden="true">{{ shelf.icon }}</span><h3>{{ shelf.name }}</h3></div>
+        {% if data.favourites and data.favourites.length %}
+          <ul class="hs-favourites-list">{% for favourite in data.favourites %}{% if loop.index <= 6 %}<li><span aria-hidden="true">✿</span>{{ favourite }}</li>{% endif %}{% endfor %}</ul>
+        {% else %}<div class="hs-favourite-empty"><span aria-hidden="true">♡</span><p>A few favourites will find their home here.</p></div>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="hs-collection-footer hs-panel"><span aria-hidden="true">🐸</span><div><span class="hs-eyebrow">collecting at my own pace</span><h2>Some things are too cute to leave behind</h2><p>My collections are personal keepsakes, not a race to get every item. I'll fill these little shelves as the island grows.</p></div></section>
+  <footer class="hs-footer">✿ made for collecting the things that make me smile ✿</footer>
+</main>

@@ -63,6 +63,51 @@
     "squid": {
       "caught": true,
       "donated": true
+    },
+    "napoleonfish": {
+      "caught": true
+    },
+    "angelfish": {
+      "caught": true
+    },
+    "arowana": {
+      "caught": true
+    },
+    "barred_knifejaw": {
+      "caught": true
+    },
+    "clown_fish": {
+      "caught": true
+    },
+    "freshwater_goby": {
+      "caught": true
+    },
+    "horse_mackerel": {
+      "caught": true
+    },
+    "pike": {
+      "caught": true
+    },
+    "puffer_fish": {
+      "caught": true
+    },
+    "ray": {
+      "caught": true
+    },
+    "salmon": {
+      "caught": true
+    },
+    "sea_horse": {
+      "caught": true
+    },
+    "suckerfish": {
+      "caught": true
+    },
+    "sweetfish": {
+      "caught": true
+    },
+    "tilapia": {
+      "caught": true
     }
   },
   "bugs": {
@@ -257,6 +302,18 @@
     "scorpion": {
       "caught": true,
       "donated": true
+    },
+    "bell_cricket": {
+      "caught": true
+    },
+    "brown_cicada": {
+      "caught": true
+    },
+    "evening_cicada": {
+      "caught": true
+    },
+    "walker_cicada": {
+      "caught": true
     }
   },
   "sea": {
@@ -367,6 +424,9 @@
     "tiger_prawn": {
       "caught": true,
       "donated": true
+    },
+    "dungeness_crab": {
+      "caught": true
     }
   },
   "fossils": {

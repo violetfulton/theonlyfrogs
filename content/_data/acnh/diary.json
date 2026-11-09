@@ -1,5 +1,61 @@
 [
   {
+    "id": "2026-11-09-jambette-moved-in",
+    "date": "2026-11-09",
+    "title": "Jambette is home! 🐸",
+    "summary": "I met Jambette on a Nook Miles island, invited her to Hopscotch, and she has officially moved in!",
+    "paragraphs": [
+      "She looked absolutely adorable on the beach in her little pink dress, with the most gorgeous sunset behind her.",
+      "That makes three froggy neighbours living on Hopscotch now: Diva, Ribbot and Jambette. The Frog Pond is growing!"
+    ],
+    "tags": [
+      "new neighbour",
+      "jambette",
+      "frog pond",
+      "island life"
+    ],
+    "images": [
+      {
+        "src": "/assets/imgs/acnh/diary/2026-11-09-jambette-beach-sunset.webp",
+        "alt": "Jambette smiling on a sandy beach at sunset, wearing a pink dress",
+        "caption": "The first sunset portrait ♡"
+      },
+      {
+        "src": "/assets/imgs/acnh/diary/2026-11-09-jambette-beach-flowers.webp",
+        "alt": "Jambette on the beach near flowers and a grasshopper at sunset",
+        "caption": "A little beach photoshoot 🌅"
+      },
+      {
+        "src": "/assets/imgs/acnh/diary/2026-11-09-jambette-retro-photo.webp",
+        "alt": "Grainy retro-style photo of Jambette beside the sandy beach",
+        "caption": "A dreamy old-camera moment"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-09-puddles-hotel-vip",
+    "date": "2026-11-09",
+    "title": "A VIP room for Puddles 🌸",
+    "summary": "Puddles made an appearance at the hotel, so of course I gave her a very special VIP room.",
+    "paragraphs": [
+      "I went with a Japanese nature theme: cosy timber furniture, bonsai, hydrangeas and that lovely peaceful evening atmosphere.",
+      "She is a hotel guest rather than a resident of Hopscotch, but she absolutely deserves her own little spot in my frog collection."
+    ],
+    "tags": [
+      "hotel",
+      "puddles",
+      "vip guest",
+      "room design"
+    ],
+    "images": [
+      {
+        "src": "/assets/imgs/acnh/diary/2026-11-09-puddles-vip-room.webp",
+        "alt": "Puddles standing inside her Japanese nature-themed VIP hotel room, with bonsai and hydrangea wall decor",
+        "caption": "Puddles in her Japanese nature retreat 🌿"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23",
     "title": "Back to Hopscotch",
     "summary": "Almost a year after registering Hopscotch, I'm finally coming back to give the island the attention it deserves.",

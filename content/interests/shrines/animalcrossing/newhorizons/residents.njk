@@ -1,188 +1,55 @@
 ---
-title: "New Horizons Residents"
+title: "Residents & Frog Pond | Hopscotch"
 layout: base.njk
 permalink: /shrines/animalcrossing/newhorizons/residents/
-customcss: '/assets/css/acnh/acnh.css'
+customcss: '/assets/css/acnh/hopscotch.css'
 ---
-
-<div class="acnh-shell acnh-residents-page">
+<main class="hs-shell hs-residents">
   {% include "acnh/nav.njk" %}
+  <header class="hs-page-hero hs-page-hero--pink"><div><span class="hs-eyebrow">the neighbourhood</span><h1>Meet the residents <span aria-hidden="true">♡</span></h1><p>The little faces who make Hopscotch feel like home—and all the frog villagers I hope to meet.</p></div><div class="hs-page-hero__stamp"><strong>{{ acnh.villagers.current | length }}</strong><span>of 10<br>neighbours</span></div></header>
 
-  <header class="acnh-pagehead acnh-paper acnh-residents-hero">
-    <div>
-      <p class="acnh-kicker">Hopscotch / Island Neighbourhood</p>
-      <h1>🐸 Residents</h1>
-      <p>The neighbours living on Hopscotch now, the friends who have moved on, and my extremely important frog agenda.</p>
-    </div>
-
-    <div class="acnh-resident-stamp" aria-label="{{ acnh.villagers.current | length }} of 10 resident plots filled">
-      <span>{{ acnh.villagers.current | length }}</span>
-      <small>of 10<br>residents</small>
-    </div>
-  </header>
-
-  <section class="acnh-section">
-    <div class="acnh-sectionhead acnh-sectionhead--residents">
-      <div>
-        <p class="acnh-kicker">Living Here</p>
-        <h2>Current Residents</h2>
-        {% if (acnh.villagers.current | length) < 10 %}
-          <p class="acnh-muted acnh-section-note">There’s still room for {{ 10 - (acnh.villagers.current | length) }} more neighbour.</p>
-        {% endif %}
-      </div>
-      <span class="acnh-count">{{ acnh.villagers.current | length }} / 10</span>
-    </div>
-
-    {% if acnh.villagers.current and acnh.villagers.current.length %}
-      <div class="acnh-resident-grid">
-        {% for villager in acnh.villagers.current %}
-        <article class="acnh-resident-card acnh-paper{% if villager.frog %} is-frog{% endif %}">
-          <span class="acnh-resident-card__number">{{ loop.index }}</span>
-
-          <div class="acnh-resident-card__portrait">
-            {% if villager.image %}
-              <img src="{{ villager.image }}" alt="{{ villager.name }}" loading="lazy">
-            {% else %}
-              <span aria-hidden="true">🌿</span>
-            {% endif %}
-          </div>
-
-          <div class="acnh-resident-card__copy">
-            <div class="acnh-resident-card__name">
-              <h3>{{ villager.name }}</h3>
-              {% if villager.frog %}<span class="acnh-frog-pin" title="Frog resident">🐸</span>{% endif %}
-            </div>
-
-            {% if villager.personality %}
-              <span class="acnh-personality">{{ villager.personality }}</span>
-            {% endif %}
-
-            {% if villager.movedIn %}
-              <small class="acnh-resident-meta">Moved in {{ villager.movedIn }}</small>
-            {% endif %}
-
-            {% if villager.photo %}
-              <span class="acnh-photo-badge">📸 Photo received</span>
-            {% endif %}
-          </div>
-        </article>
-        {% endfor %}
-      </div>
-    {% else %}
-      <div class="acnh-empty acnh-paper">No residents logged.</div>
-    {% endif %}
-  </section>
-
-  <section class="acnh-section acnh-frog-pond-section">
-    <div class="acnh-sectionhead">
-      <div>
-        <p class="acnh-kicker">TheOnlyFrogs</p>
-        <h2>Frog Pond</h2>
-        <p class="acnh-muted acnh-section-note">Every frog villager in New Horizons, because obviously Hopscotch needs a frog collection.</p>
-      </div>
-      <div class="acnh-frog-summary">
-      <span>
-  <strong>
-    {{ acnh.villagers.frogs
-      | selectattr("status", "equalto", "current")
-      | list
-      | length
-    }}
-  </strong>
-  here now
-</span>
-        <span><strong>18</strong> total frogs</span>
-      </div>
-    </div>
-
-    <div class="acnh-frog-portrait-grid">
-      {% for frog in acnh.villagers.frogs %}
-      <article class="acnh-frog-card acnh-paper is-{{ frog.status or 'missing' }}">
-        <div class="acnh-frog-card__portrait">
-          {% if frog.image %}
-            <img src="{{ frog.image }}" alt="{{ frog.name }}" loading="lazy">
-          {% else %}
-            <span aria-hidden="true">🐸</span>
-          {% endif %}
-        </div>
-        <div class="acnh-frog-card__copy">
-          <strong>{{ frog.name }}</strong>
-          <span class="acnh-frog-status">{{ frog.status or "missing" }}</span>
-        </div>
+  <section class="hs-section" aria-labelledby="resident-heading"><div class="hs-section-title"><div><span class="hs-eyebrow">currently calling hopscotch home</span><h2 id="resident-heading">My neighbours</h2></div><span class="hs-section-title__decoration">✿</span></div>
+    <div class="hs-villager-grid">
+      {% for villager in acnh.villagers.current %}
+      <article class="hs-villager {% if villager.frog %}hs-villager--frog{% endif %}">
+        <div class="hs-villager__photo">{% if villager.image %}<img src="{{ villager.image }}" alt="{{ villager.name }}" loading="lazy">{% else %}<span aria-hidden="true">🌿</span>{% endif %}</div>
+        <div class="hs-villager__info"><h3>{{ villager.name }} {% if villager.frog %}<span title="Frog neighbour" aria-label="Frog neighbour">🐸</span>{% endif %}</h3><span>{{ villager.personality or 'Neighbour' }}</span>{% if villager.photo %}<small>♡ photo collected</small>{% endif %}{% if villager.movedIn %}<small>Arrived {{ villager.movedIn }}</small>{% endif %}</div>
       </article>
       {% endfor %}
     </div>
+  </section>
 
-    <div class="acnh-frog-legend" aria-label="Frog Pond status legend">
-      <span class="is-current">● Current</span>
-      <span class="is-past">● Past</span>
-      <span class="is-dreamie">● Dreamie</span>
-      <span class="is-missing">● Missing</span>
+  <section class="hs-section hs-pond" aria-labelledby="frog-heading"><div class="hs-section-title"><div><span class="hs-eyebrow">the most important collection</span><h2 id="frog-heading">The Frog Pond 🐸</h2><p>Every New Horizons frog, with a special spot for the ones I've welcomed home.</p></div><div class="hs-frog-total"><strong>{{ acnh.villagers.frogs | selectattr("status", "equalto", "current") | list | length }}</strong><span>/ {{ acnh.villagers.frogs | length }} frogs living here</span></div></div>
+    <div class="hs-frog-grid">{% for frog in acnh.villagers.frogs %}<article class="hs-frog-tile hs-frog-tile--{{ frog.status or 'missing' }}">{% if frog.image %}<img src="{{ frog.image }}" alt="{{ frog.name }}" loading="lazy">{% else %}<span aria-hidden="true">🐸</span>{% endif %}<h3>{{ frog.name }}</h3><span class="hs-frog-state">{% if frog.status == 'hotel' %}Hotel VIP{% else %}{{ frog.status or 'missing' }}{% endif %}</span></article>{% endfor %}</div>
+    <div class="hs-legend"><span><i class="hs-dot hs-dot--current"></i> Here now</span><span><i class="hs-dot hs-dot--past"></i> Past neighbour</span><span><i class="hs-dot hs-dot--dreamie"></i> Dreamie</span><span><i class="hs-dot hs-dot--missing"></i> Not met yet</span><span><i class="hs-dot hs-dot--hotel"></i> Hotel VIP</span></div>
+  </section>
+
+  <section class="hs-section hs-two-up" aria-label="Neighbourhood memories and wishes">
+    <div class="hs-panel"><div class="hs-section-title"><div><span class="hs-eyebrow">old friends</span><h2>Former residents</h2></div><span aria-hidden="true">📦</span></div>
+      {% if acnh.villagers.past and acnh.villagers.past.length %}<div class="hs-mini-villager-grid">{% for villager in acnh.villagers.past %}<div class="hs-mini-villager">{% if villager.image %}<img src="{{ villager.image }}" alt="{{ villager.name }}" loading="lazy">{% endif %}<div><strong>{{ villager.name }}</strong><small>{{ villager.personality or 'Former neighbour' }}</small></div></div>{% endfor %}</div>{% else %}<p>No departures recorded yet.</p>{% endif %}
+    </div>
+    <div class="hs-panel"><div class="hs-section-title"><div><span class="hs-eyebrow">one day...</span><h2>Dreamies</h2></div><span aria-hidden="true">💌</span></div>
+      {% if acnh.villagers.dreamies and acnh.villagers.dreamies.length %}<div class="hs-mini-villager-grid">{% for villager in acnh.villagers.dreamies %}<div class="hs-mini-villager">{% if villager.image %}<img src="{{ villager.image }}" alt="{{ villager.name }}" loading="lazy">{% endif %}<div><strong>{{ villager.name }}</strong><small>{{ villager.note or 'On my wish list' }}</small></div></div>{% endfor %}</div>{% else %}<div class="hs-empty-cute"><span>💭</span><p>No dreamies pinned just yet. There's always room for another frog on the wishlist!</p></div>{% endif %}
     </div>
   </section>
 
-  <section class="acnh-resident-bottom-grid">
-    <article class="acnh-paper acnh-resident-sidecard">
-      <div class="acnh-resident-sidecard__head">
-        <div>
-          <p class="acnh-kicker">Wish List</p>
-          <h2>💭 Dreamies</h2>
+  {% if acnh.villagers.hotelGuests and acnh.villagers.hotelGuests.length %}
+  <section class="hs-section hs-hotel-visitors" aria-labelledby="hotel-heading">
+    <div class="hs-section-title"><div><span class="hs-eyebrow">visiting frogs get the VIP treatment</span><h2 id="hotel-heading">The hotel guestbook 🌸</h2><p>Froggy friends who came to stay, with a little room all their own.</p></div><span class="hs-section-title__decoration">✿</span></div>
+    <div class="hs-hotel-grid">
+      {% for guest in acnh.villagers.hotelGuests %}
+      <article class="hs-hotel-card hs-panel">
+        <div class="hs-hotel-card__intro">
+          {% if guest.image %}<img class="hs-hotel-card__portrait" src="{{ guest.image }}" alt="{{ guest.name }}" loading="lazy">{% endif %}
+          <div><span class="hs-hotel-card__badge">♡ hotel VIP · not a resident</span><h3>{{ guest.name }}</h3>{% if guest.roomTheme %}<p>{{ guest.roomTheme }}</p>{% endif %}</div>
         </div>
-        <span class="acnh-count">{{ acnh.villagers.dreamies | length }}</span>
-      </div>
-
-      {% if acnh.villagers.dreamies and acnh.villagers.dreamies.length %}
-        <div class="acnh-dreamie-list">
-          {% for villager in acnh.villagers.dreamies %}
-          <div class="acnh-dreamie-row">
-            {% if villager.image %}<img src="{{ villager.image }}" alt="" loading="lazy">{% else %}<span>💭</span>{% endif %}
-            <div>
-              <strong>{{ villager.name }}</strong>
-              {% if villager.note %}<small>{{ villager.note }}</small>{% endif %}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      {% else %}
-        <div class="acnh-cute-empty">
-          <span>💌</span>
-          <div>
-            <strong>No dreamies listed yet.</strong>
-            <small>The next villager hunt can decide this.</small>
-          </div>
-        </div>
-      {% endif %}
-    </article>
-
-    <article class="acnh-paper acnh-resident-sidecard">
-      <div class="acnh-resident-sidecard__head">
-        <div>
-          <p class="acnh-kicker">Island History</p>
-          <h2>📦 Past Residents</h2>
-        </div>
-        <span class="acnh-count">{{ acnh.villagers.past | length }}</span>
-      </div>
-
-      {% if acnh.villagers.past and acnh.villagers.past.length %}
-        <div class="acnh-past-grid">
-          {% for villager in acnh.villagers.past %}
-          <article class="acnh-past-card">
-            <div class="acnh-past-card__portrait">
-              {% if villager.image %}<img src="{{ villager.image }}" alt="{{ villager.name }}" loading="lazy">{% else %}<span>🍃</span>{% endif %}
-            </div>
-            <div>
-              <strong>{{ villager.name }}</strong>
-              {% if villager.personality %}<small>{{ villager.personality }}</small>{% endif %}
-              {% if villager.movedOut %}<small>Left {{ villager.movedOut }}</small>{% else %}<small>Former neighbour</small>{% endif %}
-            </div>
-          </article>
-          {% endfor %}
-        </div>
-      {% else %}
-        <p class="acnh-muted">No past residents logged.</p>
-      {% endif %}
-    </article>
+        {% if guest.roomImage %}<img class="hs-hotel-card__room" src="{{ guest.roomImage }}" alt="{{ guest.name }}'s themed hotel suite" loading="lazy">{% endif %}
+        {% if guest.note %}<p class="hs-hotel-card__note">{{ guest.note }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
   </section>
+  {% endif %}
 
-  <p class="acnh-source-credit acnh-resident-credit">Villager icons: <a href="https://nookipedia.com/wiki/Category:New_Horizons_character_icons">Nookipedia</a>.</p>
-</div>
+  <footer class="hs-footer">Villager icon credit: <a href="https://nookipedia.com/wiki/Category:New_Horizons_character_icons">Nookipedia</a> · made with love ♡</footer>
+</main>

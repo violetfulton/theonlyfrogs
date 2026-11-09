@@ -1,8 +1,12 @@
-<nav class="acnh-nav" aria-label="New Horizons navigation">
-  <a href="/shrines/animalcrossing/newhorizons/">🏝 Home</a>
-  <a href="/shrines/animalcrossing/newhorizons/residents/">🐸 Residents</a>
-  <a href="/shrines/animalcrossing/newhorizons/museum/">🏛 Museum</a>
-  <a href="/shrines/animalcrossing/newhorizons/diary/">📖 Diary</a>
-  <a href="/shrines/animalcrossing/newhorizons/island-tour/">🏡 Island Tour</a>
-  <a href="/shrines/animalcrossing/">↩ Animal Crossing</a>
+<nav class="hs-nav" aria-label="Hopscotch navigation">
+  <a class="hs-nav__brand" href="/shrines/animalcrossing/newhorizons/"><span aria-hidden="true">✿</span> hopscotch <small>island</small></a>
+  <div class="hs-nav__links">
+    <a href="/shrines/animalcrossing/newhorizons/" {% if page.url == '/shrines/animalcrossing/newhorizons/' %}aria-current="page"{% endif %}>Home</a>
+    <a href="/shrines/animalcrossing/newhorizons/residents/" {% if page.url == '/shrines/animalcrossing/newhorizons/residents/' %}aria-current="page"{% endif %}>Residents</a>
+    <a href="/shrines/animalcrossing/newhorizons/museum/" {% if page.url == '/shrines/animalcrossing/newhorizons/museum/' %}aria-current="page"{% endif %}>Museum</a>
+    <a href="/shrines/animalcrossing/newhorizons/collections/" {% if page.url == '/shrines/animalcrossing/newhorizons/collections/' %}aria-current="page"{% endif %}>Collections</a>
+    <a href="/shrines/animalcrossing/newhorizons/diary/" {% if page.url == '/shrines/animalcrossing/newhorizons/diary/' %}aria-current="page"{% endif %}>Diary</a>
+    <a href="/shrines/animalcrossing/newhorizons/island-tour/" {% if page.url == '/shrines/animalcrossing/newhorizons/island-tour/' %}aria-current="page"{% endif %}>Island tour</a>
+  </div>
+  <a class="hs-nav__back" href="/shrines/animalcrossing/">← AC shrine</a>
 </nav>

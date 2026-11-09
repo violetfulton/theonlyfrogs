@@ -1,37 +1,103 @@
 ---
-title: Animal Crossing Shrine
+title: "Animal Crossing | TheOnlyFrogs"
 layout: base.njk
 customcss: '/assets/css/ac-hub.css'
 permalink: /shrines/animalcrossing/
 ---
 
-<section class="ac-hub">
+<main class="ac-hub">
+  <nav class="ac-hub__breadcrumb" aria-label="Breadcrumb">
+    <a href="/">home</a>
+    <span aria-hidden="true">♡</span>
+    <a href="/shrines/">shrines</a>
+    <span aria-hidden="true">♡</span>
+    <span aria-current="page">animal crossing</span>
+  </nav>
+
   <header class="ac-hub__hero">
-    <p class="ac-hub__kicker">TheOnlyFrogs / Shrines</p>
-    <h1>Animal Crossing</h1>
-    <p>My towns, islands, completion projects, collections, and cosy little digital lives.</p>
+    <div class="ac-hub__hero-copy">
+      <span class="ac-hub__eyebrow">✿ theonlyfrogs / little worlds ✿</span>
+      <h1>animal <span>crossing</span><span class="ac-hub__flower" aria-hidden="true">✿</span></h1>
+      <p class="ac-hub__lead">A cosy little scrapbook of my towns, islands, favourite neighbours and extremely serious frog-collecting projects.</p>
+      <div class="ac-hub__pills" aria-label="Inside this shrine">
+        <span>🐸 villagers</span>
+        <span>🌷 little memories</span>
+        <span>🦋 collections</span>
+      </div>
+      <a class="ac-hub__back" href="/shrines/"><span aria-hidden="true">←</span> back to all shrines</a>
+    </div>
+    <div class="ac-hub__hero-illustration" aria-hidden="true">
+      <div class="ac-hub__postcard">
+        <span class="ac-hub__postcard-tag">a little leaf friend</span>
+        <img src="/assets/imgs/graphics/animal-crossing-leif.gif" alt="" loading="eager">
+        <span class="ac-hub__postcard-bottom">growing at my own pace ♡</span>
+      </div>
+      <span class="ac-hub__flower-stamp ac-hub__flower-stamp--one">✿</span>
+      <span class="ac-hub__flower-stamp ac-hub__flower-stamp--two">✦</span>
+    </div>
   </header>
 
-  <div class="ac-hub__grid">
-    <a class="ac-game-card ac-game-card--cityfolk" href="/shrines/animalcrossing/cityfolk/">
-      <span class="ac-game-card__eyebrow">Wii · Town Life</span>
-      <strong>🐸 City Folk</strong>
-      <p>Journal, chores, turnips, critters, calendar, and RetroAchievements.</p>
-      <span class="ac-game-card__cta">Visit town →</span>
-    </a>
+  <p class="ac-hub__divider" aria-hidden="true"><span>♡</span> slow days &amp; lovely little worlds <span>✿</span></p>
 
-    <a class="ac-game-card ac-game-card--newhorizons" href="/shrines/animalcrossing/newhorizons/">
-      <span class="ac-game-card__eyebrow">Switch · Island Life</span>
-      <strong>🏝 New Horizons</strong>
-      <p>Island diary, residents, Frog Pond, museum tracking, collections, and island tour.</p>
-      <span class="ac-game-card__cta">Fly to island →</span>
-    </a>
+  <section class="ac-hub__worlds" aria-labelledby="ac-hub-worlds-heading">
+    <div class="ac-hub__section-heading">
+      <div>
+        <span class="ac-hub__eyebrow">choose where to wander</span>
+        <h2 id="ac-hub-worlds-heading">My three little worlds</h2>
+      </div>
+      <span class="ac-hub__section-sparkle" aria-hidden="true">✿ ♡ ✿</span>
+    </div>
 
-    <a class="ac-game-card ac-game-card--newleaf" href="/shrines/animalcrossing/newleaf/">
-      <span class="ac-game-card__eyebrow">3DS · Completion Project</span>
-      <strong>🌳 New Leaf 100%</strong>
-      <p>My full-completion diary and long-form mayor project.</p>
-      <span class="ac-game-card__cta">Open diary →</span>
-    </a>
-  </div>
-</section>
+    <div class="ac-hub__grid">
+      <a class="ac-game-card ac-game-card--cityfolk" href="/shrines/animalcrossing/cityfolk/">
+        <div class="ac-game-card__top">
+          <span class="ac-game-card__console">Wii · Town life</span>
+          <span class="ac-game-card__number" aria-hidden="true">01</span>
+        </div>
+        <div class="ac-game-card__scene ac-game-card__scene--cityfolk" aria-hidden="true">
+          <span class="ac-game-card__scene-icon">🐸</span>
+          <span class="ac-game-card__scene-sparkle">✿</span>
+        </div>
+        <span class="ac-game-card__tag">dear little town</span>
+        <h3>City Folk</h3>
+        <p>Daily town life, journal entries, chores, turnips, critter hunts, seasonal events and RetroAchievements.</p>
+        <span class="ac-game-card__cta">visit my town <span aria-hidden="true">↗</span></span>
+      </a>
+
+      <a class="ac-game-card ac-game-card--newhorizons" href="/shrines/animalcrossing/newhorizons/">
+        <div class="ac-game-card__top">
+          <span class="ac-game-card__console">Switch · Island life</span>
+          <span class="ac-game-card__number" aria-hidden="true">02</span>
+        </div>
+        <div class="ac-game-card__scene ac-game-card__scene--newhorizons" aria-hidden="true">
+          <span class="ac-game-card__scene-icon">🏝️</span>
+          <span class="ac-game-card__scene-sparkle">♡</span>
+        </div>
+        <span class="ac-game-card__tag">welcome to hopscotch</span>
+        <h3>New Horizons</h3>
+        <p>Hopscotch's scrapbook, neighbours, Frog Pond, Critterpedia, cute collections and little island adventures.</p>
+        <span class="ac-game-card__cta">fly to hopscotch <span aria-hidden="true">↗</span></span>
+      </a>
+
+      <a class="ac-game-card ac-game-card--newleaf" href="/shrines/animalcrossing/newleaf/">
+        <div class="ac-game-card__top">
+          <span class="ac-game-card__console">3DS · Mayor era</span>
+          <span class="ac-game-card__number" aria-hidden="true">03</span>
+        </div>
+        <div class="ac-game-card__scene ac-game-card__scene--newleaf" aria-hidden="true">
+          <span class="ac-game-card__scene-icon">🌳</span>
+          <span class="ac-game-card__scene-sparkle">✧</span>
+        </div>
+        <span class="ac-game-card__tag">the 100% project</span>
+        <h3>New Leaf</h3>
+        <p>A long, cosy completion diary of collecting everything, ticking off milestones and being a very busy mayor.</p>
+        <span class="ac-game-card__cta">open my diary <span aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="ac-hub__footer">
+    <span>✿ made with love &amp; too many frogs ✿</span>
+    <a href="/shrines/">← back to the shrine room</a>
+  </footer>
+</main>
