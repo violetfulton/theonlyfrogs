@@ -108,6 +108,14 @@
     },
     "tilapia": {
       "caught": true
+    },
+    "football_fish": {
+      "caught": "2026-11-09",
+      "donated": "2026-11-09"
+    },
+    "coelacanth": {
+      "caught": "2026-11-09",
+      "donated": "2026-11-09"
     }
   },
   "bugs": {
@@ -426,7 +434,20 @@
       "donated": true
     },
     "dungeness_crab": {
-      "caught": true
+      "caught": true,
+      "donated": "2026-11-09"
+    },
+    "spiny_lobster": {
+      "caught": "2026-11-09",
+      "donated": "2026-11-09"
+    },
+    "venus_flower_basket": {
+      "caught": "2026-11-09",
+      "donated": "2026-11-09"
+    },
+    "sea_pig": {
+      "caught": "2026-11-09",
+      "donated": "2026-11-09"
     }
   },
   "fossils": {
