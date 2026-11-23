@@ -1,8 +1,5 @@
 // content/_data/ffxivGlams.js
-//
-// Aggro Phobic's actual wardrobe.
-// Add exact gear names later only if you want them — the page no longer
-// displays empty gear placeholders.
+
 
 export default {
   intro:
@@ -19,6 +16,124 @@ export default {
   ],
 
   looks: [
+    // ✦ Lalafell era — fantasia'd November 2026 ✦
+    {
+      id: "garden-goth",
+      title: "Casual Garden Goth",
+      category: "Cute",
+      era: "current",
+      featured: true,
+      favourite: true,
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-garden-goth.jpg",
+      alt: "Lalafell Aggro Phobic with rose-pink hair in a meadow-green frilled blouse with a black bow, a black lace-up skirt with heart buckles and slouchy black boots.",
+      note:
+        "Meadow-green frills, a big black bow and a lace-up skirt with little heart buckles. The first look of the new tiny era, and somehow still exactly Aggro.",
+      gear: {
+        Head: "Alternative Leather Ribbon",
+        Body: "Alternative Ruffled Dress",
+        Gloves: "Alternative Leather Gloves",
+        Trousers: "Acolyte Skirt",
+        Shoes: "Metian Sollerets",
+        Accessories: "",
+      },
+    },
+    {
+      id: "meadow-racer",
+      title: "Meadow Racer",
+      category: "Casual",
+      era: "current",
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-meadow-racer.jpg",
+      alt: "Lalafell Aggro Phobic in a glossy black vest with a harness, a white and green jacket tied around her waist, fingerless gloves and chunky trainers.",
+      note:
+        "Glossy black, harness straps and a jacket knotted round the waist. Streetwear that looks fast even when she's standing still in the house.",
+      gear: {
+        Head: "Frontier Ribbon",
+        Body: "Rulebreaker Vest",
+        Gloves: "Avalanche Gloves",
+        Trousers: "Idealized Chevalier Poleyns",
+        Shoes: "Forgerise Workboots",
+        Accessories: "",
+      },
+    },
+    {
+      id: "sky-pirate",
+      title: "Little Goblin",
+      category: "Adventure",
+      era: "current",
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-sky-pirate.jpg",
+      alt: "Lalafell Aggro Phobic in a goblin hat with goggles, a cropped brown leather vest, a belt full of pouches, green shorts and trainers.",
+      note:
+        "Goblin hat on, goggles down, pockets full of things that definitely aren't stolen. Small, suspicious and absolutely up to something — don't leave your gil unattended.",      gear: {
+        Head: "Goblin Cap",
+        Body: "Vana'diel Vest of Scouting",
+        Gloves: "Nezha Lady's Gloves",
+        Trousers: "Scion Liberator's Pantalettes",
+        Shoes: "Casual Trainers",
+        Accessories: "",
+      },
+    },
+    {
+      id: "frog-buttons",
+      title: "Frog Buttons",
+      category: "Cute",
+      era: "current",
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-frog-buttons.jpg",
+      alt: "Lalafell Aggro Phobic in a green and black high-collared dress with knotted frog-button fastenings, gold tassels, black tights and glossy boots.",
+      note:
+        "Green and black with a row of knotted frog closures down the front — which means this one was always going to end up on a frog website.",
+      gear: {
+        Head: "Alternative Leather Ribbon",
+        Body: "Hesychast's Cyclas",
+        Gloves: "Edenmorn Gloves of Casting",
+        Trousers: "Avalanche Brawlers Bottoms",
+        Shoes: "Alternative Boots",
+        Accessories: "",
+      },
+    },
+    {
+      id: "meadow-metal",
+      title: "Meadow Metal Tee",
+      category: "Comfy",
+      era: "current",
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-meadow-metal.jpg",
+      alt: "Lalafell Aggro Phobic in an oversized cream band tee with a green spiky logo, a black choker, green thigh-high socks and cream boots.",
+      note:
+        "An oversized band tee with an unreadable metal logo, a choker and green thigh-highs. The comfiest way to look like she has opinions about music.",
+      gear: {
+        Head: "Frontier Ribbon",
+        Body: "Alternative Shirt",
+        Gloves: "Critical Hit A-1 Tour Armlets",
+        Trousers: "Critical Hit B-1 Tour Bottoms",
+        Shoes: "Rule-breaker Boots",
+        Accessories: "",
+      },
+    },
+    {
+      id: "wildflower",
+      title: "Wildflower Wanderer",
+      category: "Witchy",
+      era: "current",
+      date: "November 2026",
+      image: "/assets/imgs/ffxiv/glams/glam-wildflower.jpg",
+      alt: "Lalafell Aggro Phobic in a flower crown, a cream embroidered coat with a green scarf, a brown leather corset belt and black lace-up leggings.",
+            note:
+        "Kitted out for Evercold: flower crown, embroidered coat and a little green scarf to keep the chill off. Proof you can go somewhere freezing and still look like a woodland fairy about it.",
+      gear: {
+        Head: "Green Champa Corsage",
+        Body: "Successor's Tunic",
+        Gloves: "Edenmorn Gloves of Casting",
+        Trousers: "Critical Hit B-1 Tour Bottoms",
+        Shoes: "Oracle Leggings",
+        Accessories: "",
+      },
+    },
+
+    // ✧ the archive — Aggro before the fantasia ✧
     {
       id: "pink-black",
       title: "Pink & Black Favourite",
@@ -27,7 +142,7 @@ export default {
       alt: "Aggro Phobic in a pink and black outfit with tall black boots.",
       note:
         "Probably the most Aggro outfit of the lot: soft pink against black, lots of little gold details, and boots doing half the work. Pretty without losing the slightly dangerous bit.",
-      favourite: true,
+      favourite: false,
     },
     {
       id: "industrial",
@@ -84,27 +199,27 @@ export default {
   repeatPieces: [
     {
       label: "Base palette",
-      name: "black, charcoal & smoke",
+      name: "meadow green, black & cream",
       note:
-        "Nearly every look starts dark. It makes the pink, red and teal details stand out without the outfit feeling too busy.",
+        "Since the fantasia, almost every look starts with meadow green, grounded by black or softened with cream. It sits perfectly next to the rose-pink hair.",
     },
     {
-      label: "Accent colours",
-      name: "pink, red & teal",
+      label: "Signature details",
+      name: "rose-pink hair, green eyes & freckles",
       note:
-        "The wardrobe keeps circling back to the same little pops of colour — including the teal streak in Aggro’s hair.",
+        "Small Aggro does the colour work herself, so the outfits can stay earthy and let the hair do the shouting.",
     },
     {
       label: "Silhouette",
-      name: "cropped tops + long legs",
+      name: "frills, oversized layers & tall socks",
       note:
-        "Shorter tops, shorts or fitted waists paired with boots or long trousers show up over and over again.",
+        "Big sleeves, frilly blouses, oversized tees and thigh-highs or chunky boots. Lalafell proportions make everything look extra cosy.",
     },
     {
       label: "Necessary nonsense",
-      name: "straps, boots & paw shoes",
+      name: "bows, flowers & tiny boots",
       note:
-        "Utility details keep the cute outfits from getting too sweet, and then the paw slippers ruin any remaining dignity.",
+        "A green hair bow on almost everything, a flower crown when she's feeling whimsical, and boots that are somehow bigger than her head.",
     },
   ],
 };
